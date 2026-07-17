@@ -2,6 +2,7 @@
   "use strict";
 
   const STORAGE_KEY = "muhkam-progress-v2";
+  const THEME_KEY = "muhkam-theme";
   const MAX_MISSED = 150;
   const ADVANCE_DELAY_CORRECT = 900;
   const ADVANCE_DELAY_WRONG = 2000;
@@ -11,8 +12,31 @@
   const xpEl = document.getElementById("xpCount");
   const wordsEl = document.getElementById("wordsCount");
   const wordsStatEl = document.getElementById("wordsStat");
+  const themeToggleEl = document.getElementById("themeToggle");
   const hoardModal = document.getElementById("hoardModal");
   const dialogueModal = document.getElementById("dialogueModal");
+
+  // ---------- theme ----------
+  function initTheme() {
+    const stored = localStorage.getItem(THEME_KEY);
+    if (stored === "light" || stored === "dark") {
+      document.documentElement.setAttribute("data-theme", stored);
+    }
+  }
+
+  function currentEffectiveTheme() {
+    const attr = document.documentElement.getAttribute("data-theme");
+    if (attr === "light" || attr === "dark") return attr;
+    return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+  }
+
+  function toggleTheme() {
+    const next = currentEffectiveTheme() === "dark" ? "light" : "dark";
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem(THEME_KEY, next);
+  }
+
+  initTheme();
 
   let course = null;
   let flatLessons = []; // [{ ...lesson, levelId }] in course order
@@ -117,6 +141,8 @@
   }
 
   function wireGlobalUi() {
+    themeToggleEl.addEventListener("click", toggleTheme);
+
     wordsStatEl.addEventListener("click", () => {
       renderHoard();
       hoardModal.classList.remove("hidden");

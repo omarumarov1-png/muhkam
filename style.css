@@ -14,11 +14,50 @@
   --teal-wash: #dcebe4;
   --line: #d9c7a3;
   --shadow: rgba(43, 30, 10, 0.18);
+  --btn-shadow: #4d1119;
 
   --font-display: "Cormorant Garamond", Georgia, serif;
   --font-arabic: "Amiri", "Traditional Arabic", serif;
   --font-body: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
   --font-mono: "Space Mono", monospace;
+}
+
+:root[data-theme="dark"] {
+  --paper: #1a1510;
+  --paper-raised: #241d16;
+  --paper-deep: #120e0a;
+  --ink: #ecdfc4;
+  --ink-soft: #b0a488;
+  --gold: #d6ac33;
+  --gold-bright: #eec865;
+  --gold-wash: rgba(214, 172, 51, 0.16);
+  --maroon: #dd7c86;
+  --maroon-wash: rgba(221, 124, 134, 0.16);
+  --teal: #6cc0ae;
+  --teal-wash: rgba(108, 192, 174, 0.16);
+  --line: #40372a;
+  --shadow: rgba(0, 0, 0, 0.5);
+  --btn-shadow: #6e2129;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #1a1510;
+    --paper-raised: #241d16;
+    --paper-deep: #120e0a;
+    --ink: #ecdfc4;
+    --ink-soft: #b0a488;
+    --gold: #d6ac33;
+    --gold-bright: #eec865;
+    --gold-wash: rgba(214, 172, 51, 0.16);
+    --maroon: #dd7c86;
+    --maroon-wash: rgba(221, 124, 134, 0.16);
+    --teal: #6cc0ae;
+    --teal-wash: rgba(108, 192, 174, 0.16);
+    --line: #40372a;
+    --shadow: rgba(0, 0, 0, 0.5);
+    --btn-shadow: #6e2129;
+  }
 }
 
 * { box-sizing: border-box; }
@@ -29,6 +68,7 @@ html, body {
   background: var(--paper);
   color: var(--ink);
   font-family: var(--font-body);
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 body {
@@ -107,6 +147,23 @@ button.stat {
   padding: 0;
 }
 button.stat:hover { color: var(--teal); }
+
+.theme-toggle {
+  background: none;
+  border: 1.5px solid var(--line);
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+.theme-toggle:hover { border-color: var(--gold); transform: rotate(12deg); }
+.theme-toggle .icon-moon { display: none; }
+:root[data-theme="dark"] .theme-toggle .icon-sun { display: none; }
+:root[data-theme="dark"] .theme-toggle .icon-moon { display: block; }
 
 .screen {
   flex: 1;
@@ -227,10 +284,10 @@ button.stat:hover { color: var(--teal); }
 .btn-primary {
   background: var(--maroon);
   color: var(--paper-raised);
-  box-shadow: 0 3px 0 #4d1119;
+  box-shadow: 0 3px 0 var(--btn-shadow);
 }
 .btn-primary:hover { transform: translateY(-1px); }
-.btn-primary:active { transform: translateY(2px); box-shadow: 0 1px 0 #4d1119; }
+.btn-primary:active { transform: translateY(2px); box-shadow: 0 1px 0 var(--btn-shadow); }
 .btn-primary:disabled {
   background: var(--paper-deep);
   color: var(--ink-soft);
