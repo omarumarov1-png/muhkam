@@ -343,7 +343,7 @@
     const revisionCard = doneCount > 0 ? `
       <button class="review-card revision-card" id="revisionBtn">
         <div>
-          <div class="review-title">Random revision</div>
+          <div class="review-title">Practice</div>
           <div class="review-sub">Old sentences, shuffled and mixed across topics${revisionNative}</div>
         </div>
         <span class="review-arrow" aria-hidden="true">&rarr;</span>
@@ -468,7 +468,7 @@
     if (pool.length === 0) return;
     const picked = shuffled(pool).slice(0, Math.min(REVISION_SIZE, pool.length));
     session = {
-      lesson: { id: "__revision__", title: "Random Revision", titleNative: (course.uiStrings && course.uiStrings.revision) || "" },
+      lesson: { id: "__revision__", title: "Practice", titleNative: (course.uiStrings && course.uiStrings.revision) || "" },
       mode: "revision",
       queue: picked.map((item, i) => buildQueueItem(exerciseIndex.get(item.gid).exercise, item.gid, i, item.lesson)),
       total: picked.length,
