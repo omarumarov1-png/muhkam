@@ -212,8 +212,6 @@
     });
 
     document.documentElement.style.setProperty("--font-native", course.fontNative || "var(--font-arabic)");
-    screenEl.setAttribute("dir", course.dir || "ltr");
-    hoardModal.setAttribute("dir", course.dir || "ltr");
     document.title = `Muḥkam — ${course.title}`;
     courseToggleEl.textContent = course.flag || course.languageName || course.id;
     const hoardNativeLabel = document.getElementById("hoardNativeLabel");
@@ -303,9 +301,11 @@
   function renderHoard() {
     const list = document.getElementById("hoardList");
     if (progress.wordHoard.length === 0) {
+      list.removeAttribute("dir");
       list.innerHTML = `<p class="hoard-empty">No words collected yet — answer exercises correctly to fill your hoard.</p>`;
       return;
     }
+    list.setAttribute("dir", course.dir);
     list.innerHTML = progress.wordHoard.slice().reverse()
       .map(w => `<span class="hoard-word" dir="${course.dir}" lang="${course.lang}">${w}</span>`).join("");
   }
@@ -699,6 +699,8 @@
 
     const targetEl = document.getElementById("bankTarget");
     const poolEl = document.getElementById("bankPool");
+    targetEl.setAttribute("dir", course.dir);
+    poolEl.setAttribute("dir", course.dir);
     const poolTileEls = new Map();
 
     poolEl.querySelectorAll(".tile").forEach(btn => {
