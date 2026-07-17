@@ -4,6 +4,7 @@
   const STORAGE_KEY = "muhkam-progress-v2";
   const THEME_KEY = "muhkam-theme";
   const MAX_MISSED = 150;
+  const REVISION_SIZE = 20;
   const ADVANCE_DELAY_CORRECT = 900;
   const ADVANCE_DELAY_WRONG = 2000;
 
@@ -267,6 +268,15 @@
         <span class="review-arrow" aria-hidden="true">&rarr;</span>
       </button>` : "";
 
+    const revisionCard = doneCount > 0 ? `
+      <button class="review-card revision-card" id="revisionBtn">
+        <div>
+          <div class="review-title">Random revision</div>
+          <div class="review-sub">Old sentences, shuffled and mixed across topics &middot; تكرار عشوائي</div>
+        </div>
+        <span class="review-arrow" aria-hidden="true">&rarr;</span>
+      </button>` : "";
+
     let flatCursor = -1;
     let openAssigned = false;
     const levelSections = course.levels.map(level => {
@@ -324,6 +334,7 @@
         </div>
       </section>
       ${reviewCard}
+      ${revisionCard}
       ${levelSections}
     `;
 
@@ -336,6 +347,9 @@
 
     const reviewBtn = document.getElementById("reviewBtn");
     if (reviewBtn) reviewBtn.addEventListener("click", startReview);
+
+    const revisionBtn = document.getElementById("revisionBtn");
+    if (revisionBtn) revisionBtn.addEventListener("click", startRevision);
   }
 
   // ---------- LESSON / REVIEW ----------
@@ -346,7 +360,7 @@
   function startLesson(lesson) {
     session = {
       lesson,
-      isReview: false,
+      mode: "lesson",
       queue: lesson.exercises.map((ex, i) => buildQueueItem(ex, `${lesson.id}:${i}`, i, lesson)),
       total: lesson.exercises.length,
       solved: new Set(),
@@ -361,9 +375,31 @@
     if (gids.length === 0) return;
     session = {
       lesson: { id: "__review__", title: "Review Session", titleAr: "مراجعة" },
-      isReview: true,
+      mode: "mistakes",
       queue: gids.map((gid, i) => buildQueueItem(exerciseIndex.get(gid).exercise, gid, i, exerciseIndex.get(gid).lesson)),
       total: gids.length,
+      solved: new Set(),
+      mistakes: 0,
+      combo: 0,
+    };
+    renderExercise();
+  }
+
+  // Pools every exercise from already-completed lessons, mixes them together
+  // (not grouped by lesson or topic), and pulls a random shuffled subset.
+  function startRevision() {
+    const completedLessons = flatLessons.filter(l => progress.completedLessons.includes(l.id));
+    const pool = [];
+    completedLessons.forEach(lesson => {
+      lesson.exercises.forEach((ex, i) => pool.push({ gid: `${lesson.id}:${i}`, lesson }));
+    });
+    if (pool.length === 0) return;
+    const picked = shuffled(pool).slice(0, Math.min(REVISION_SIZE, pool.length));
+    session = {
+      lesson: { id: "__revision__", title: "Random Revision", titleAr: "تكرار عشوائي" },
+      mode: "revision",
+      queue: picked.map((item, i) => buildQueueItem(exerciseIndex.get(item.gid).exercise, item.gid, i, item.lesson)),
+      total: picked.length,
       solved: new Set(),
       mistakes: 0,
       combo: 0,
@@ -646,16 +682,22 @@
     const perfect = session.mistakes === 0;
     const xpEarned = 10 + (perfect ? 5 : 0);
     progress.xp += xpEarned;
-    if (!session.isReview && !progress.completedLessons.includes(session.lesson.id)) {
+    if (session.mode === "lesson" && !progress.completedLessons.includes(session.lesson.id)) {
       progress.completedLessons.push(session.lesson.id);
     }
     updateStreakOnCompletion();
     refreshTopStats();
 
+    const summaryTitle = perfect
+      ? "Perfect run"
+      : session.mode === "mistakes" ? "Review complete"
+      : session.mode === "revision" ? "Revision complete"
+      : "Lesson complete";
+
     screenEl.innerHTML = `
       <div class="summary">
         <svg class="medal" viewBox="0 0 32 32"><path d="M16 2 L18.5 13.5 L30 16 L18.5 18.5 L16 30 L13.5 18.5 L2 16 L13.5 13.5 Z" fill="var(--gold)"/></svg>
-        <h2>${perfect ? "Perfect run" : session.isReview ? "Review complete" : "Lesson complete"}</h2>
+        <h2>${summaryTitle}</h2>
         <p>${session.lesson.title} &middot; ${session.lesson.titleAr}</p>
         <div class="summary-stats">
           <div class="stat-block"><span class="num">+${xpEarned}</span><span class="lbl">XP</span></div>

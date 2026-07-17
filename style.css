@@ -424,6 +424,14 @@ button.stat:hover { color: var(--teal); }
   font-size: 1.3rem;
   color: var(--maroon);
 }
+.revision-card {
+  background: var(--gold-wash);
+  border-color: var(--gold);
+}
+.revision-card .review-title,
+.revision-card .review-arrow {
+  color: var(--gold);
+}
 
 /* ============ Path ============ */
 .level-section {
