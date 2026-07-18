@@ -161,6 +161,7 @@
   function ttsAvailable(isEnglish) {
     return !!(isEnglish ? _preferredVoiceEn : _preferredVoiceTarget);
   }
+  const SPEECH_RATE = 0.85;
   function speak(text, isEnglish) {
     if (!soundEnabled || !("speechSynthesis" in window)) return;
     const voice = isEnglish ? _preferredVoiceEn : _preferredVoiceTarget;
@@ -170,9 +171,22 @@
       const u = new SpeechSynthesisUtterance(text);
       u.lang = voice.lang;
       u.voice = voice;
-      u.rate = 0.9;
+      u.rate = SPEECH_RATE;
       window.speechSynthesis.speak(u);
     } catch (e) { /* TTS unavailable */ }
+  }
+  // Keep the auto-advance timer from cutting off the spoken answer — estimate
+  // how long the TTS will take (~2.3 words/sec at rate 1.0, scaled by our
+  // slower rate) and never advance sooner than that, plus a trailing pause
+  // long enough to read the text after the audio finishes.
+  function speechDurationMs(text) {
+    if (!text) return 0;
+    const words = text.trim().split(/\s+/).filter(Boolean).length;
+    return (words / (2.3 * SPEECH_RATE)) * 1000 + 1000;
+  }
+  function answerAdvanceDelay(correct, text) {
+    const base = correct ? ADVANCE_DELAY_CORRECT : ADVANCE_DELAY_WRONG;
+    return Math.max(base, speechDurationMs(text));
   }
   // Always surface the target-language (Arabic/Tajik) text, never English —
   // the whole point of the audio is reinforcing target pronunciation. Which
@@ -197,8 +211,7 @@
   let session = null; // active lesson/review session state
   let advanceTimer = null;
 
-  function scheduleAdvance(correct) {
-    const delay = correct ? ADVANCE_DELAY_CORRECT : ADVANCE_DELAY_WRONG;
+  function scheduleAdvance(delay) {
     advanceTimer = setTimeout(() => {
       advanceTimer = null;
       renderExercise();
@@ -770,7 +783,7 @@
   }
 
   function renderFeedback(correct, correctText, opts) {
-    const delay = correct ? ADVANCE_DELAY_CORRECT : ADVANCE_DELAY_WRONG;
+    const delay = (opts && opts.delay) || (correct ? ADVANCE_DELAY_CORRECT : ADVANCE_DELAY_WRONG);
     const showSpeak = opts && opts.speakText && ttsAvailable(opts.isEnglish);
     return `
       <div class="feedback ${correct ? "correct" : "incorrect"}" role="status">
@@ -845,10 +858,11 @@
 
         afterAnswer(correct);
         const spokenText = targetLangText(ex);
+        const delay = answerAdvanceDelay(correct, spokenText);
         document.getElementById("feedbackSlot").innerHTML =
-          renderFeedback(correct, `Correct answer: ${ex.options[ex.answerIndex]}`, { speakText: spokenText, isEnglish: false });
+          renderFeedback(correct, `Correct answer: ${ex.options[ex.answerIndex]}`, { speakText: spokenText, isEnglish: false, delay });
         if (spokenText) wireFeedbackReplay(spokenText, false);
-        scheduleAdvance(correct);
+        scheduleAdvance(delay);
       });
     });
   }
@@ -925,10 +939,11 @@
 
       afterAnswer(correct);
       const spokenText = targetLangText(ex);
+      const delay = answerAdvanceDelay(correct, spokenText);
       document.getElementById("feedbackSlot").innerHTML =
-        renderFeedback(correct, `Correct order: ${ex.answer.join(" ")}`, { speakText: spokenText, isEnglish: false });
+        renderFeedback(correct, `Correct order: ${ex.answer.join(" ")}`, { speakText: spokenText, isEnglish: false, delay });
       if (spokenText) wireFeedbackReplay(spokenText, false);
-      scheduleAdvance(correct);
+      scheduleAdvance(delay);
     }
   }
 
