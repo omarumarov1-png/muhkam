@@ -8,10 +8,10 @@
 // client SDK. Real access control lives in Firestore Security Rules, not
 // in hiding this file.
 window.FIREBASE_CONFIG = {
-  apiKey: "REPLACE_ME",
-  authDomain: "REPLACE_ME.firebaseapp.com",
-  projectId: "REPLACE_ME",
-  storageBucket: "REPLACE_ME.appspot.com",
-  messagingSenderId: "REPLACE_ME",
-  appId: "REPLACE_ME",
+  apiKey: "AIzaSyDnZQCyd_LfNZT7ndtrJwNXIPkStf9iAbs",
+  authDomain: "nablyudatel-9817a.firebaseapp.com",
+  projectId: "nablyudatel-9817a",
+  storageBucket: "nablyudatel-9817a.firebasestorage.app",
+  messagingSenderId: "495498428484",
+  appId: "1:495498428484:web:38ea6877f6d1708e75bc11",
 };
