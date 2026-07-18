@@ -160,10 +160,13 @@
 
   function saveProgress() {
     localStorage.setItem(progressKey(), JSON.stringify(progress));
+    if (window.CloudSync && window.CloudSync.user) {
+      window.CloudSync.pushProgress(buildProgressPayload());
+    }
   }
 
-  // ---------- cross-device sync (manual code) ----------
-  function buildSyncCode() {
+  // ---------- cross-device sync (manual code + cloud) ----------
+  function buildProgressPayload() {
     const courses = {};
     COURSES.forEach(meta => {
       const raw = localStorage.getItem(progressKeyFor(meta.id));
@@ -171,21 +174,27 @@
         try { courses[meta.id] = JSON.parse(raw); } catch (e) { /* skip corrupt entry */ }
       }
     });
-    const payload = { version: 1, exportedAt: new Date().toISOString(), courses };
-    return btoa(unescape(encodeURIComponent(JSON.stringify(payload))));
+    return { version: 1, exportedAt: new Date().toISOString(), courses };
   }
 
   // Returns the number of courses written, or throws on invalid/unreadable input.
-  function applySyncCode(code) {
-    const json = decodeURIComponent(escape(atob(code.trim())));
-    const payload = JSON.parse(json);
-    if (!payload || typeof payload.courses !== "object") throw new Error("Not a valid sync code");
+  function applyProgressPayload(payload) {
+    if (!payload || typeof payload.courses !== "object") throw new Error("Not a valid sync payload");
     let count = 0;
     Object.keys(payload.courses).forEach(courseId => {
       localStorage.setItem(progressKeyFor(courseId), JSON.stringify(payload.courses[courseId]));
       count++;
     });
     return count;
+  }
+
+  function buildSyncCode() {
+    return btoa(unescape(encodeURIComponent(JSON.stringify(buildProgressPayload()))));
+  }
+
+  function applySyncCode(code) {
+    const json = decodeURIComponent(escape(atob(code.trim())));
+    return applyProgressPayload(JSON.parse(json));
   }
 
   function updateStreakOnCompletion() {
@@ -283,6 +292,17 @@
   async function boot() {
     await loadCourseData(activeCourseId);
     progress = loadProgress();
+    if (window.CloudSync && window.CloudSync.user) {
+      try {
+        const remote = await window.CloudSync.pullProgress();
+        if (remote && remote.courses) {
+          applyProgressPayload(remote);
+          progress = loadProgress();
+        } else {
+          window.CloudSync.pushProgress(buildProgressPayload());
+        }
+      } catch (e) { /* offline — continue with local progress */ }
+    }
     refreshTopStats();
     updateSoundToggleUI();
     renderHome();
@@ -928,5 +948,5 @@
     });
   }
 
-  boot();
+  window.__appReady = boot;
 })();
