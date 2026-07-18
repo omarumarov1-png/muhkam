@@ -220,6 +220,10 @@ button.stat {
   padding: 0;
 }
 button.stat:hover { color: var(--teal); }
+.stat-mistakes:hover { color: var(--maroon); }
+.stat-mistakes.hidden { display: none; }
+.stat-practice:hover { color: var(--teal); }
+.stat-practice.hidden { display: none; }
 
 .theme-toggle {
   background: none;

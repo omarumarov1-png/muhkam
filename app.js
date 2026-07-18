@@ -18,6 +18,10 @@
   const xpEl = document.getElementById("xpCount");
   const wordsEl = document.getElementById("wordsCount");
   const wordsStatEl = document.getElementById("wordsStat");
+  const mistakesEl = document.getElementById("mistakesCount");
+  const mistakesStatEl = document.getElementById("mistakesStat");
+  const practiceEl = document.getElementById("practiceCount");
+  const practiceStatEl = document.getElementById("practiceStat");
   const themeToggleEl = document.getElementById("themeToggle");
   const soundToggleEl = document.getElementById("soundToggle");
   const courseToggleEl = document.getElementById("courseToggle");
@@ -157,6 +161,11 @@
     streakEl.textContent = progress.streak;
     xpEl.textContent = progress.xp;
     wordsEl.textContent = progress.wordHoard.length;
+    mistakesEl.textContent = progress.missedBank.length;
+    mistakesStatEl.classList.toggle("hidden", progress.missedBank.length === 0);
+    const poolSize = revisionPool().length;
+    practiceEl.textContent = poolSize;
+    practiceStatEl.classList.toggle("hidden", poolSize === 0);
   }
 
   // ---------- helpers ----------
@@ -273,6 +282,17 @@
     wordsStatEl.addEventListener("click", () => {
       renderHoard();
       hoardModal.classList.remove("hidden");
+    });
+
+    mistakesStatEl.addEventListener("click", () => {
+      if (progress.missedBank.length === 0) return;
+      cancelAdvance();
+      startReview();
+    });
+
+    practiceStatEl.addEventListener("click", () => {
+      cancelAdvance();
+      startRevision();
     });
     document.getElementById("hoardClose").addEventListener("click", () => {
       hoardModal.classList.add("hidden");
@@ -457,14 +477,22 @@
     renderExercise();
   }
 
-  // Pools every exercise from already-completed lessons, mixes them together
-  // (not grouped by lesson or topic), and pulls a random shuffled subset.
-  function startRevision() {
+  // Every exercise from already-completed lessons, available to draw from for
+  // revision practice — used both to size the top-bar counter and to build
+  // the shuffled subset a revision session actually plays.
+  function revisionPool() {
     const completedLessons = flatLessons.filter(l => progress.completedLessons.includes(l.id));
     const pool = [];
     completedLessons.forEach(lesson => {
       lesson.exercises.forEach((ex, i) => pool.push({ gid: `${lesson.id}:${i}`, lesson }));
     });
+    return pool;
+  }
+
+  // Pools every exercise from already-completed lessons, mixes them together
+  // (not grouped by lesson or topic), and pulls a random shuffled subset.
+  function startRevision() {
+    const pool = revisionPool();
     if (pool.length === 0) return;
     const picked = shuffled(pool).slice(0, Math.min(REVISION_SIZE, pool.length));
     session = {
@@ -635,6 +663,7 @@
       session.queue.push(wrong);
     }
     saveProgress();
+    refreshTopStats();
   }
 
   // ---- multiple choice / comprehension ----
