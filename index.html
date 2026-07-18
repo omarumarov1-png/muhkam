@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="style.css?v=1784550200" />
+<link rel="stylesheet" href="style.css?v=1784552000" />
 </head>
 <body>
 
@@ -48,6 +48,10 @@
         </button>
         <div class="mobile-menu-panel" id="mobileMenuPanel">
           <button class="course-toggle" id="courseToggle" title="Switch language course" aria-label="Switch language course">العربية</button>
+          <button class="sync-toggle" id="syncToggle" title="Sync progress between devices" aria-label="Sync progress between devices">
+            <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M4 12a8 8 0 0114-5.3M20 12a8 8 0 01-14 5.3" fill="none" stroke="var(--gold)" stroke-width="1.6" stroke-linecap="round"/><path d="M18 4v3.5h-3.5M6 20v-3.5h3.5" fill="none" stroke="var(--gold)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span class="menu-label">Sync</span>
+          </button>
           <button class="theme-toggle" id="themeToggle" title="Switch between light and dark" aria-label="Toggle dark mode">
             <svg class="icon-sun" viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="12" cy="12" r="4.5" fill="none" stroke="var(--gold)" stroke-width="1.6"/><path d="M12 2v2.5M12 19.5V22M4.2 4.2l1.8 1.8M18 18l1.8 1.8M2 12h2.5M19.5 12H22M4.2 19.8L6 18M18 6l1.8-1.8" stroke="var(--gold)" stroke-width="1.6" stroke-linecap="round"/></svg>
             <svg class="icon-moon" viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5z" fill="none" stroke="var(--gold)" stroke-width="1.6" stroke-linejoin="round"/></svg>
@@ -88,6 +92,28 @@
   </div>
 </div>
 
+<div class="modal hidden" id="syncModal">
+  <div class="modal-card">
+    <div class="modal-header">
+      <h3>Sync Progress</h3>
+      <button class="modal-close" id="syncClose" aria-label="Close">&times;</button>
+    </div>
+    <p class="modal-sub">Copy a code from this device and paste it on another to bring its progress along — both Arabic and Tajik, all at once.</p>
+    <div class="sync-section">
+      <label class="sync-label" for="syncExportText">This device's code</label>
+      <textarea class="sync-textarea" id="syncExportText" readonly rows="4"></textarea>
+      <button class="sync-btn" id="syncCopyBtn">Copy Code</button>
+      <span class="sync-status" id="syncCopyStatus"></span>
+    </div>
+    <div class="sync-section">
+      <label class="sync-label" for="syncImportText">Paste a code from another device</label>
+      <textarea class="sync-textarea" id="syncImportText" rows="4" placeholder="Paste code here"></textarea>
+      <button class="sync-btn" id="syncImportBtn">Import</button>
+      <span class="sync-status" id="syncImportStatus"></span>
+    </div>
+  </div>
+</div>
+
 <div class="modal hidden" id="dialogueModal">
   <div class="modal-card">
     <div class="modal-header">
@@ -99,6 +125,6 @@
   </div>
 </div>
 
-<script src="app.js?v=1784550200"></script>
+<script src="app.js?v=1784552000"></script>
 </body>
 </html>
