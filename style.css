@@ -225,6 +225,14 @@ button.stat:hover { color: var(--teal); }
 .stat-practice:hover { color: var(--teal); }
 .stat-practice.hidden { display: none; }
 
+/* Wraps course/theme/sound toggles so they can collapse into a dropdown on
+   narrow screens; `display: contents` makes the wrapper invisible to flex
+   layout on wider screens, so it changes nothing there. */
+.mobile-menu { display: contents; }
+.mobile-menu-panel { display: contents; }
+.menu-toggle { display: none; }
+.menu-label { display: none; }
+
 .theme-toggle {
   background: none;
   border: 1.5px solid var(--line);
@@ -1100,6 +1108,52 @@ button.stat:hover { color: var(--teal); }
     justify-content: flex-end;
     row-gap: 8px;
   }
+
+  /* Course/theme/sound controls collapse into a menu button so the bar
+     stays to one tidy row instead of stacking three deep. */
+  .mobile-menu { display: block; position: relative; }
+  .mobile-menu-panel { display: none; }
+  .menu-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1.5px solid var(--line);
+    background: none;
+    padding: 0;
+    cursor: pointer;
+  }
+  .menu-toggle:hover { border-color: var(--gold); }
+
+  .mobile-menu-panel.open {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: absolute;
+    top: calc(100% + 10px);
+    right: 0;
+    background: var(--paper-raised);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 0 8px 24px var(--shadow);
+    z-index: 30;
+    min-width: 160px;
+  }
+
+  .mobile-menu .course-toggle,
+  .mobile-menu .theme-toggle,
+  .mobile-menu .sound-toggle {
+    width: 100%;
+    height: auto;
+    justify-content: flex-start;
+    border-radius: 8px;
+    padding: 8px 10px;
+    gap: 8px;
+  }
+  .mobile-menu .menu-label { display: inline; font-size: 0.85rem; font-weight: 600; }
 }
 
 @media (max-width: 480px) {

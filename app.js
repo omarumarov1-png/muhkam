@@ -25,6 +25,9 @@
   const themeToggleEl = document.getElementById("themeToggle");
   const soundToggleEl = document.getElementById("soundToggle");
   const courseToggleEl = document.getElementById("courseToggle");
+  const mobileMenuEl = document.getElementById("mobileMenu");
+  const menuToggleBtnEl = document.getElementById("menuToggleBtn");
+  const mobileMenuPanelEl = document.getElementById("mobileMenuPanel");
   const hoardModal = document.getElementById("hoardModal");
   const dialogueModal = document.getElementById("dialogueModal");
   const courseModal = document.getElementById("courseModal");
@@ -294,6 +297,24 @@
       cancelAdvance();
       startRevision();
     });
+
+    function closeMobileMenu() {
+      mobileMenuPanelEl.classList.remove("open");
+      menuToggleBtnEl.setAttribute("aria-expanded", "false");
+    }
+    menuToggleBtnEl.addEventListener("click", () => {
+      const nowOpen = mobileMenuPanelEl.classList.toggle("open");
+      menuToggleBtnEl.setAttribute("aria-expanded", String(nowOpen));
+    });
+    mobileMenuPanelEl.querySelectorAll("button").forEach(btn => {
+      btn.addEventListener("click", closeMobileMenu);
+    });
+    document.addEventListener("click", e => {
+      if (mobileMenuPanelEl.classList.contains("open") && !mobileMenuEl.contains(e.target)) {
+        closeMobileMenu();
+      }
+    });
+
     document.getElementById("hoardClose").addEventListener("click", () => {
       hoardModal.classList.add("hidden");
     });
