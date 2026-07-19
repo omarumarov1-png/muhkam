@@ -93,6 +93,20 @@
   // the first real sound effect (an answer tap) isn't the one that's dropped.
   document.addEventListener("pointerdown", getAudioCtx, { once: true, passive: true });
 
+  // iOS Safari leaves the speech engine "asleep" until it's spoken from
+  // inside a real user gesture at least once; a silent, near-empty
+  // utterance on the very first tap wakes it up so the first real answer
+  // isn't the one that gets silently dropped.
+  function warmSpeech() {
+    if (!("speechSynthesis" in window)) return;
+    try {
+      const u = new SpeechSynthesisUtterance(" ");
+      u.volume = 0;
+      window.speechSynthesis.speak(u);
+    } catch (e) { /* speech unavailable */ }
+  }
+  document.addEventListener("pointerdown", warmSpeech, { once: true, passive: true });
+
   function playTone(ctx, freq, startOffset, duration, gainPeak) {
     const osc = ctx.createOscillator();
     const gain = ctx.createGain();
@@ -181,15 +195,23 @@
     window.speechSynthesis.onvoiceschanged = refreshVoices;
   }
   const SPEECH_RATE = 0.85;
+  let _currentUtterance = null;
   function speak(text, voice, onEnd) {
     if (!soundEnabled || !("speechSynthesis" in window) || !voice) { if (onEnd) onEnd(); return; }
     try {
-      window.speechSynthesis.cancel();
+      // Calling cancel() immediately before speak() is a well-known iOS
+      // Safari trap: the following speak() can get silently dropped. Only
+      // cancel when something is actually queued/playing.
+      if (window.speechSynthesis.speaking || window.speechSynthesis.pending) {
+        window.speechSynthesis.cancel();
+      }
       const u = new SpeechSynthesisUtterance(text);
       u.lang = voice.lang;
       u.voice = voice;
       u.rate = SPEECH_RATE;
       if (onEnd) { u.onend = onEnd; u.onerror = onEnd; }
+      _currentUtterance = u; // keep a live reference — some browsers silently
+      // drop speech if the utterance is garbage-collected before it plays
       window.speechSynthesis.speak(u);
     } catch (e) { if (onEnd) onEnd(); }
   }
@@ -837,6 +859,7 @@
 
   function renderLessonChrome(bodyHtml) {
     if (_passagePlaying) {
+      _passageToken++;
       window.speechSynthesis.cancel();
       _passagePlaying = false;
     }
@@ -854,7 +877,7 @@
     `;
     document.getElementById("exitBtn").addEventListener("click", () => {
       cancelAdvance();
-      if (_passagePlaying) { window.speechSynthesis.cancel(); _passagePlaying = false; }
+      if (_passagePlaying) { _passageToken++; window.speechSynthesis.cancel(); _passagePlaying = false; }
       session = null;
       renderHome();
     });
@@ -929,6 +952,17 @@
   }
 
   let _passagePlaying = false;
+  let _passageToken = 0;
+  // iOS/Safari's SpeechSynthesis can fire onend/onerror twice — or early —
+  // for the same utterance, and calling speak() again while the previous
+  // one is still technically "speaking" can silently cut it off. A plain
+  // recursive onend->speak() chain is therefore not reliable for reading
+  // several paragraphs in strict order: duplicate/early events double-
+  // advance the index and paragraphs end up skipped or overlapping.
+  // Fix: a session token invalidates any callback from a stopped/replaced
+  // chain, a per-step "already advanced" guard absorbs duplicate end
+  // events, and a small gap between utterances avoids WebKit's glitch
+  // when speak() is called immediately from inside another onend.
   function wirePassageListen() {
     const btn = document.getElementById("passageListenBtn");
     if (!btn) return;
@@ -938,30 +972,41 @@
     const lineEls = Array.from(document.querySelectorAll(".passage-line"));
     btn.addEventListener("click", () => {
       if (_passagePlaying) {
+        _passageToken++;
         window.speechSynthesis.cancel();
         _passagePlaying = false;
         btn.textContent = "🔊 Listen";
         lineEls.forEach(l => l.classList.remove("speaking"));
         return;
       }
-      if (!_preferredVoiceEn) return;
+      if (!_preferredVoiceEn || !soundEnabled) return;
+      window.speechSynthesis.cancel();
       _passagePlaying = true;
       btn.textContent = "⏹ Stop";
+      const token = ++_passageToken;
       let i = 0;
-      function playNext() {
-        lineEls.forEach(l => l.classList.remove("speaking"));
-        if (!_passagePlaying || i >= paragraphs.length) {
-          _passagePlaying = false;
-          btn.textContent = "🔊 Listen";
+      function step() {
+        if (token !== _passageToken || i >= paragraphs.length) {
+          if (token === _passageToken) { _passagePlaying = false; btn.textContent = "🔊 Listen"; }
+          lineEls.forEach(l => l.classList.remove("speaking"));
           return;
         }
+        lineEls.forEach(l => l.classList.remove("speaking"));
         if (lineEls[i]) lineEls[i].classList.add("speaking");
-        speak(paragraphs[i].en, _preferredVoiceEn, () => {
+        const u = new SpeechSynthesisUtterance(paragraphs[i].en);
+        u.lang = _preferredVoiceEn.lang;
+        u.voice = _preferredVoiceEn;
+        u.rate = SPEECH_RATE;
+        let advanced = false;
+        u.onend = u.onerror = () => {
+          if (advanced || token !== _passageToken) return;
+          advanced = true;
           i++;
-          playNext();
-        });
+          setTimeout(step, 150);
+        };
+        window.speechSynthesis.speak(u);
       }
-      playNext();
+      step();
     });
   }
 
