@@ -177,7 +177,19 @@
     });
 
     if (accountBtn) {
-      accountBtn.addEventListener("click", () => accountModal.classList.remove("hidden"));
+      accountBtn.addEventListener("click", () => {
+        accountModal.classList.remove("hidden");
+        const diagEl = document.getElementById("voiceDiagnostic");
+        if (diagEl && "speechSynthesis" in window) {
+          const voices = window.speechSynthesis.getVoices() || [];
+          const fa = voices.filter(v => v.lang.toLowerCase().startsWith("fa"));
+          const tg = voices.filter(v => v.lang.toLowerCase().startsWith("tg"));
+          const ar = voices.filter(v => v.lang.toLowerCase().startsWith("ar"));
+          diagEl.textContent = `TTS voices on this device: ${voices.length} total — Farsi: ${fa.length ? fa.map(v => v.name).join(", ") : "none"} — Tajik: ${tg.length ? tg.map(v => v.name).join(", ") : "none"} — Arabic: ${ar.length ? ar.map(v => v.name).join(", ") : "none"}`;
+        } else if (diagEl) {
+          diagEl.textContent = "Speech synthesis not supported on this browser.";
+        }
+      });
       document.getElementById("accountClose").addEventListener("click", () => accountModal.classList.add("hidden"));
       accountModal.addEventListener("click", e => { if (e.target === accountModal) accountModal.classList.add("hidden"); });
       signOutBtn.addEventListener("click", () => signOut(auth));

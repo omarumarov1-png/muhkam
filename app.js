@@ -589,21 +589,16 @@
     let inner = `<defs><linearGradient id="roadmapGrad" x1="0" y1="1" x2="0" y2="0">
       <stop offset="0%" stop-color="var(--maroon)"/><stop offset="100%" stop-color="var(--gold)"/>
     </linearGradient></defs>`;
-    if (aheadPts.length >= 2) inner += `<path d="${segmentPath(aheadPts)}" fill="none" stroke="var(--paper-deep)" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 13"/>`;
-    if (walkedPts.length >= 2) inner += `<path d="${segmentPath(walkedPts)}" fill="none" stroke="url(#roadmapGrad)" stroke-width="6" stroke-linecap="round"/>`;
+    if (aheadPts.length >= 2) inner += `<path d="${segmentPath(aheadPts)}" fill="none" stroke="var(--line)" stroke-width="7" stroke-linecap="round"/>`;
+    if (walkedPts.length >= 2) inner += `<path d="${segmentPath(walkedPts)}" fill="none" stroke="url(#roadmapGrad)" stroke-width="7" stroke-linecap="round"/>`;
     svg.innerHTML = inner;
   }
-  // Scrolls to the true topmost or bottommost lesson node — computed from
-  // real node positions, not scrollHeight (see roadmapNodePoints above).
-  function scrollRoadmapToEdge(edge) {
+  function scrollRoadmapToFirstLesson() {
     const roadmapEl = document.getElementById("roadmapEl");
     if (!roadmapEl) return;
     const points = roadmapNodePoints(roadmapEl);
     if (!points.length) return;
-    const tops = points.map(p => p.top);
-    const targetY = edge === "top"
-      ? Math.min(...tops) - 24
-      : Math.max(...tops) - roadmapEl.clientHeight + 100;
+    const targetY = Math.max(...points.map(p => p.top)) - roadmapEl.clientHeight + 100;
     roadmapEl.scrollTo({ top: Math.max(0, targetY), behavior: "smooth" });
   }
   let _roadmapResizeQueued = false;
@@ -699,16 +694,13 @@
         ? `<div class="level-locked-note">Lessons for ${level.cefr} are still being prepared and will appear here soon.</div>`
         : `<div class="roadmap-wrap">
             <div class="roadmap" id="roadmapEl">${nodesHtml}</div>
-            <button class="roadmap-jump roadmap-jump-top" id="jumpTopBtn" title="Jump to top" aria-label="Jump to top">⇈</button>
-            <button class="roadmap-jump roadmap-jump-bottom" id="jumpBottomBtn" title="Jump to first lesson" aria-label="Jump to first lesson">⇊</button>
+            <button class="roadmap-jump" id="jumpBottomBtn" title="Jump to first lesson" aria-label="Jump to first lesson">⇊</button>
            </div>`
       }
     `;
 
-    const jumpTopBtn = document.getElementById("jumpTopBtn");
     const jumpBottomBtn = document.getElementById("jumpBottomBtn");
-    if (jumpTopBtn) jumpTopBtn.addEventListener("click", () => scrollRoadmapToEdge("top"));
-    if (jumpBottomBtn) jumpBottomBtn.addEventListener("click", () => scrollRoadmapToEdge("bottom"));
+    if (jumpBottomBtn) jumpBottomBtn.addEventListener("click", scrollRoadmapToFirstLesson);
 
     document.getElementById("prevLevelBtn").addEventListener("click", () => {
       if (!prevLevel) return;
