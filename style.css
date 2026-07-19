@@ -616,6 +616,13 @@ button.stat:hover { color: var(--teal); }
 }
 .listen-slow-btn:hover { border-color: var(--teal); color: var(--teal); }
 
+.audio-diag {
+  font-size: 0.85rem; line-height: 1.5; color: #b3452f; background: rgba(179, 69, 47, 0.09);
+  border: 1px solid rgba(179, 69, 47, 0.25); border-radius: 10px; padding: 10px 14px;
+  margin: 0 0 18px;
+}
+.audio-diag.hidden { display: none; }
+
 .fill-blank-sentence {
   font-family: var(--font-display); font-size: 1.3rem; font-weight: 700; line-height: 1.6;
   color: var(--ink); margin-bottom: 20px;

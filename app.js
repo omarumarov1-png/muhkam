@@ -233,8 +233,11 @@
   const SPEECH_RATE = 0.85;
   const SPEECH_RATE_SLOW = 0.55;
   let _currentUtterance = null;
-  function speak(text, voice, onEnd, rate) {
+  let _speakToken = 0;
+  function speak(text, voice, onEnd, rate, onError) {
     if (!soundEnabled || !("speechSynthesis" in window) || !voice) { if (onEnd) onEnd(); return; }
+    const token = ++_speakToken;
+    let settled = false;
     try {
       // Calling cancel() immediately before speak() is a well-known iOS
       // Safari trap: the following speak() can get silently dropped. Only
@@ -246,11 +249,28 @@
       u.lang = voice.lang;
       u.voice = voice;
       u.rate = rate || SPEECH_RATE;
-      if (onEnd) { u.onend = onEnd; u.onerror = onEnd; }
+      u.onend = () => { settled = true; if (onEnd) onEnd(); };
+      u.onerror = e => {
+        settled = true;
+        if (onError) onError((e && e.error) || "unknown");
+        if (onEnd) onEnd();
+      };
       _currentUtterance = u; // keep a live reference — some browsers silently
       // drop speech if the utterance is garbage-collected before it plays
       window.speechSynthesis.speak(u);
-    } catch (e) { if (onEnd) onEnd(); }
+      // Some Android builds silently drop an utterance entirely — no error
+      // event, no end event, nothing ever plays. A watchdog distinguishes
+      // that "silent drop" case from a real, still-loading voice so the UI
+      // can say something more useful than nothing happening at all.
+      setTimeout(() => {
+        if (settled || token !== _speakToken) return;
+        if (onError) onError("silent-timeout");
+        if (onEnd) onEnd();
+      }, 4000);
+    } catch (e) {
+      if (onError) onError(e.message || String(e));
+      if (onEnd) onEnd();
+    }
   }
   // Resolves what to actually speak for a target-language answer: the real
   // target voice+text if one exists (Arabic, or a Tajik voice on the rare
@@ -918,6 +938,7 @@
           <button class="translit-toggle" id="passageToggle">Show English</button>
           <button class="passage-listen-btn" id="passageListenBtn" title="Listen to the passage" aria-label="Listen to the passage">🔊 Listen</button>
         </div>
+        <p class="audio-diag hidden" id="passageAudioDiag"></p>
         ${rows}
       </details>
     `;
@@ -949,6 +970,7 @@
   function wirePassageListen() {
     const btn = document.getElementById("passageListenBtn");
     if (!btn) return;
+    const diagEl = document.getElementById("passageAudioDiag");
     const lesson = currentExercise()._sourceLesson || session.lesson;
     if (!lesson.readingPassage) return;
     const paragraphs = lesson.readingPassage.paragraphs;
@@ -971,7 +993,9 @@
       // One last synchronous re-scan in case the background poll gave up
       // before this particular device finished loading its voice list.
       if (!_preferredVoiceTarget) refreshVoices();
-      if (!_preferredVoiceTarget || !soundEnabled) return;
+      if (!_preferredVoiceTarget) { showAudioDiag(diagEl, "no-voice"); return; }
+      if (!soundEnabled) return;
+      if (diagEl) diagEl.classList.add("hidden");
       window.speechSynthesis.cancel();
       _passagePlaying = true;
       btn.textContent = "⏹ Stop";
@@ -990,13 +1014,26 @@
         u.voice = _preferredVoiceTarget;
         u.rate = SPEECH_RATE;
         let advanced = false;
-        u.onend = u.onerror = () => {
+        function advance() {
           if (advanced || token !== _passageToken) return;
           advanced = true;
           i++;
           setTimeout(step, 150);
+        }
+        u.onend = advance;
+        u.onerror = e => {
+          if (i === 0) showAudioDiag(diagEl, (e && e.error) || "unknown");
+          advance();
         };
         window.speechSynthesis.speak(u);
+        // Same silent-drop watchdog as speak(): some Android builds never
+        // fire onend/onerror at all when playback fails, so the passage
+        // would otherwise just hang on the first line forever.
+        setTimeout(() => {
+          if (advanced || token !== _passageToken) return;
+          if (i === 0) showAudioDiag(diagEl, "silent-timeout");
+          advance();
+        }, 4000);
       }
       step();
     });
@@ -1223,19 +1260,40 @@
         </button>
         <button class="listen-slow-btn" id="listenSlowBtn" type="button" title="Slow" aria-label="Listen slowly">🐢</button>
       </div>
+      <p class="audio-diag hidden" id="audioDiag"></p>
     `;
+  }
+  // Human-readable, actionable message per failure mode, so a device with
+  // broken TTS shows something explainable instead of a button that just
+  // silently does nothing.
+  function audioDiagMessage(kind) {
+    if (kind === "no-voice") {
+      return "No Arabic voice found on this device. On Android: Settings → System → Languages & input → Text-to-speech output → (gear icon) → Install voice data → Arabic. Then reload this page.";
+    }
+    if (kind === "silent-timeout") {
+      return "Nothing played. Your device lists an Arabic voice but its Text-to-Speech engine may not actually have the voice data installed — check Settings → Text-to-speech output → Install voice data.";
+    }
+    return `Playback error (${kind}). Try reloading the page, or check your phone's Text-to-Speech settings.`;
+  }
+  function showAudioDiag(el, kind) {
+    if (!el) return;
+    el.textContent = audioDiagMessage(kind);
+    el.classList.remove("hidden");
   }
   function wireAudioStage(text) {
     const stage = document.querySelector(".audio-stage");
     const playBtn = document.getElementById("listenPlayBtn");
     const slowBtn = document.getElementById("listenSlowBtn");
+    const diagEl = document.getElementById("audioDiag");
     function play(rate) {
       // One last synchronous re-scan in case the background poll gave up
       // before this particular device finished loading its voice list.
       if (!_preferredVoiceTarget) refreshVoices();
-      if (!_preferredVoiceTarget) return;
+      if (!_preferredVoiceTarget) { showAudioDiag(diagEl, "no-voice"); return; }
+      if (diagEl) diagEl.classList.add("hidden");
       stage.classList.add("playing");
-      speak(text, _preferredVoiceTarget, () => stage.classList.remove("playing"), rate);
+      speak(text, _preferredVoiceTarget, () => stage.classList.remove("playing"), rate,
+        kind => showAudioDiag(diagEl, kind));
     }
     playBtn.addEventListener("click", () => play());
     slowBtn.addEventListener("click", () => play(SPEECH_RATE_SLOW));
