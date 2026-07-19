@@ -1002,6 +1002,9 @@
 
     if (ex.type === "multiple-choice" || ex.type === "comprehension") return renderMultipleChoice(ex);
     if (ex.type === "word-bank") return renderWordBank(ex);
+    if (ex.type === "listening") return renderListening(ex);
+    if (ex.type === "fill-blank") return renderFillBlank(ex);
+    if (ex.type === "matching") return renderMatching(ex);
   }
 
   function renderFeedback(correct, correctText, opts) {
@@ -1169,6 +1172,149 @@
       if (spoken) wireFeedbackReplay(spoken);
       advanceAfterSpeech(spoken, fallback);
     }
+  }
+
+  // ---- listening dictation ----
+  // Plays the target-language sentence and asks the learner to pick its
+  // English meaning — multiple-choice rather than free-text, since typing
+  // Arabic/Tajik script accurately isn't a reasonable ask for most learners.
+  function renderListening(ex) {
+    renderLessonChrome(`
+      ${grammarPanel()}
+      <div class="card">
+        <p class="q-kicker">Listen and choose the meaning</p>
+        <button class="listen-replay-btn" id="listenReplayBtn" type="button" aria-label="Play audio">🔊 Listen</button>
+        <button class="translit-toggle" id="listenRevealToggle">Show text</button>
+        <p class="translit hidden" id="listenRevealText" dir="${course.dir}" lang="${course.lang}">${ex.native}</p>
+        <div class="options">
+          ${ex.options.map((opt, i) => `<button class="option" data-i="${i}">${opt}</button>`).join("")}
+        </div>
+        <div id="feedbackSlot"></div>
+      </div>
+    `);
+    wireGrammarPanel();
+    const replayBtn = document.getElementById("listenReplayBtn");
+    const revealToggle = document.getElementById("listenRevealToggle");
+    const play = () => { if (_preferredVoiceTarget) speak(ex.native, _preferredVoiceTarget); };
+    replayBtn.addEventListener("click", play);
+    revealToggle.addEventListener("click", () => {
+      const t = document.getElementById("listenRevealText");
+      t.classList.toggle("hidden");
+      revealToggle.textContent = t.classList.contains("hidden") ? "Show text" : "Hide text";
+    });
+    setTimeout(play, 300);
+
+    const optionEls = Array.from(screenEl.querySelectorAll(".option"));
+    optionEls.forEach(btn => {
+      btn.addEventListener("click", () => {
+        optionEls.forEach(b => b.disabled = true);
+        const i = Number(btn.dataset.i);
+        const correct = i === ex.answerIndex;
+        btn.classList.add(correct ? "correct" : "incorrect");
+        if (!correct) optionEls[ex.answerIndex].classList.add("correct");
+        afterAnswer(correct);
+        const fallback = correct ? ADVANCE_DELAY_CORRECT : ADVANCE_DELAY_WRONG;
+        document.getElementById("feedbackSlot").innerHTML =
+          renderFeedback(correct, `Correct answer: ${ex.options[ex.answerIndex]}`, { delay: fallback });
+        scheduleAdvance(fallback);
+      });
+    });
+  }
+
+  // ---- fill in the blank ----
+  // Blanks stay on the English side even for the Arabic/Tajik courses —
+  // blanking a single word out of vocalized Arabic/Tajik script reliably
+  // is much harder to get right mechanically than English, and the native
+  // sentence is still shown in full for context.
+  function renderFillBlank(ex) {
+    const options = shuffled(ex.options.slice());
+    renderLessonChrome(`
+      ${grammarPanel()}
+      <div class="card">
+        <p class="q-kicker">Fill in the blank</p>
+        <p class="prompt-native" dir="${course.dir}" lang="${course.lang}">${ex.native}</p>
+        <div class="fill-blank-sentence">${ex.blankedEn}</div>
+        <div class="options">
+          ${options.map(opt => `<button class="option" data-word="${opt}">${opt}</button>`).join("")}
+        </div>
+        <div id="feedbackSlot"></div>
+      </div>
+    `);
+    wireGrammarPanel();
+    const optionEls = Array.from(screenEl.querySelectorAll(".option"));
+    optionEls.forEach(btn => {
+      btn.addEventListener("click", () => {
+        optionEls.forEach(b => b.disabled = true);
+        const correct = btn.dataset.word === ex.answer;
+        btn.classList.add(correct ? "correct" : "incorrect");
+        if (!correct) optionEls.find(b => b.dataset.word === ex.answer).classList.add("correct");
+        afterAnswer(correct);
+        const fallback = correct ? ADVANCE_DELAY_CORRECT : ADVANCE_DELAY_WRONG;
+        document.getElementById("feedbackSlot").innerHTML =
+          renderFeedback(correct, `Correct answer: ${ex.answer}`, { delay: fallback });
+        scheduleAdvance(fallback);
+      });
+    });
+  }
+
+  // ---- matching pairs ----
+  function renderMatching(ex) {
+    const leftOrder = shuffled(ex.pairs.map((p, i) => i));
+    const rightOrder = shuffled(ex.pairs.map((p, i) => i));
+    renderLessonChrome(`
+      <div class="card">
+        <p class="q-kicker">Match the pairs</p>
+        <div class="matching-grid">
+          <div class="matching-col" id="matchLeft" dir="${course.dir}">
+            ${leftOrder.map(i => `<button class="match-card" data-i="${i}" data-side="native" lang="${course.lang}">${ex.pairs[i].native}</button>`).join("")}
+          </div>
+          <div class="matching-col" id="matchRight">
+            ${rightOrder.map(i => `<button class="match-card" data-i="${i}" data-side="en">${ex.pairs[i].en}</button>`).join("")}
+          </div>
+        </div>
+      </div>
+    `);
+    let selectedLeft = null, selectedRight = null, matchedCount = 0, mistakes = 0;
+    const total = ex.pairs.length;
+    function tryMatch() {
+      if (selectedLeft === null || selectedRight === null) return;
+      const leftBtn = document.querySelector(`.match-card[data-side="native"][data-i="${selectedLeft}"]`);
+      const rightBtn = document.querySelector(`.match-card[data-side="en"][data-i="${selectedRight}"]`);
+      if (selectedLeft === selectedRight) {
+        leftBtn.classList.add("matched");
+        rightBtn.classList.add("matched");
+        leftBtn.disabled = true;
+        rightBtn.disabled = true;
+        matchedCount++;
+        if (matchedCount === total) {
+          const correct = mistakes === 0;
+          afterAnswer(correct);
+          screenEl.insertAdjacentHTML("beforeend", renderFeedback(correct, "All pairs matched", { delay: correct ? ADVANCE_DELAY_CORRECT : ADVANCE_DELAY_WRONG }));
+          scheduleAdvance(correct ? ADVANCE_DELAY_CORRECT : ADVANCE_DELAY_WRONG);
+        }
+      } else {
+        mistakes++;
+        [leftBtn, rightBtn].forEach(b => { b.classList.add("mismatch"); setTimeout(() => b.classList.remove("mismatch"), 350); });
+      }
+      selectedLeft = null; selectedRight = null;
+      document.querySelectorAll(".match-card.selected").forEach(b => b.classList.remove("selected"));
+    }
+    document.querySelectorAll('.match-card[data-side="native"]').forEach(btn => {
+      btn.addEventListener("click", () => {
+        document.querySelectorAll('.match-card[data-side="native"]').forEach(b => b.classList.remove("selected"));
+        btn.classList.add("selected");
+        selectedLeft = Number(btn.dataset.i);
+        tryMatch();
+      });
+    });
+    document.querySelectorAll('.match-card[data-side="en"]').forEach(btn => {
+      btn.addEventListener("click", () => {
+        document.querySelectorAll('.match-card[data-side="en"]').forEach(b => b.classList.remove("selected"));
+        btn.classList.add("selected");
+        selectedRight = Number(btn.dataset.i);
+        tryMatch();
+      });
+    });
   }
 
   // ---------- SUMMARY / FAIL ----------
