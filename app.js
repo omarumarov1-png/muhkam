@@ -210,6 +210,26 @@
     // course is actually set; this handler covers async voice-list loads.
     window.speechSynthesis.onvoiceschanged = refreshVoices;
   }
+  // Many mobile browsers (Android Chrome especially, but also iOS Safari on
+  // a cold load) return an empty voice list on the first synchronous
+  // getVoices() call and never reliably fire onvoiceschanged (a long-standing
+  // Chromium bug) — unlike most desktop browsers, where onvoiceschanged
+  // alone is enough. Poll for up to ~9s after each course load as a
+  // cross-platform fallback so voices that load in late still get picked
+  // up instead of leaving TTS permanently silent on some devices.
+  let _voicePollAttempts = 0;
+  function voicesReady() {
+    if (!_preferredVoiceEn) return false;
+    if (course && course.lang === "tg") return !!(_preferredVoiceTarget || _preferredVoiceFa);
+    return !!_preferredVoiceTarget;
+  }
+  function pollVoicesUntilFound() {
+    if (!("speechSynthesis" in window)) return;
+    refreshVoices();
+    if (voicesReady() || _voicePollAttempts >= 30) return;
+    _voicePollAttempts++;
+    setTimeout(pollVoicesUntilFound, 300);
+  }
   const SPEECH_RATE = 0.85;
   const SPEECH_RATE_SLOW = 0.55;
   let _currentUtterance = null;
@@ -237,6 +257,9 @@
   // device that has one), else a Farsi voice reading ex.farsi if both are
   // available, else nothing.
   function resolveSpeech(isEnglish, text, ex) {
+    // One last synchronous re-scan in case the background poll gave up
+    // before this particular device finished loading its voice list.
+    if (!_preferredVoiceEn && !_preferredVoiceTarget && !_preferredVoiceFa) refreshVoices();
     if (isEnglish) return _preferredVoiceEn ? { text, voice: _preferredVoiceEn } : null;
     if (_preferredVoiceTarget) return { text, voice: _preferredVoiceTarget };
     if (ex && ex.farsi && _preferredVoiceFa) return { text: ex.farsi, voice: _preferredVoiceFa };
@@ -429,7 +452,8 @@
     const data = await res.json();
     course = data.course;
     course.id = meta.id;
-    refreshVoices();
+    _voicePollAttempts = 0;
+    pollVoicesUntilFound();
 
     flatLessons = [];
     exerciseIndex = new Map();
@@ -944,6 +968,9 @@
       // voice. (Tajik has no usable TTS voice at all — a known, accepted
       // platform limitation — so _preferredVoiceTarget stays null there and
       // the button simply does nothing, same as everywhere else in the app.)
+      // One last synchronous re-scan in case the background poll gave up
+      // before this particular device finished loading its voice list.
+      if (!_preferredVoiceTarget) refreshVoices();
       if (!_preferredVoiceTarget || !soundEnabled) return;
       window.speechSynthesis.cancel();
       _passagePlaying = true;
@@ -1203,6 +1230,9 @@
     const playBtn = document.getElementById("listenPlayBtn");
     const slowBtn = document.getElementById("listenSlowBtn");
     function play(rate) {
+      // One last synchronous re-scan in case the background poll gave up
+      // before this particular device finished loading its voice list.
+      if (!_preferredVoiceTarget) refreshVoices();
       if (!_preferredVoiceTarget) return;
       stage.classList.add("playing");
       speak(text, _preferredVoiceTarget, () => stage.classList.remove("playing"), rate);
