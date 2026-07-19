@@ -82,6 +82,7 @@ body {
   background-position: center, center, top right, bottom left;
   background-size: auto, auto, min(46vw, 480px), min(38vw, 400px);
   background-attachment: scroll, scroll, fixed, fixed;
+  overflow-x: hidden;
 }
 :root {
   --corner-gold: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='480' height='480'%3E%3Cg fill='none' stroke='%23b8901f' stroke-width='1.4' opacity='0.14'%3E%3Crect x='120' y='120' width='240' height='240'/%3E%3Crect x='120' y='120' width='240' height='240' transform='rotate(45 240 240)'/%3E%3Ccircle cx='240' cy='240' r='95' opacity='0.6'/%3E%3C/g%3E%3C/svg%3E");
@@ -320,8 +321,13 @@ button.stat:hover { color: var(--teal); }
 .course-option:hover { border-color: var(--gold); }
 .course-option.active { border-color: var(--teal); background: var(--teal-wash); }
 
+/* min-width: 0 overrides the flex-item default of min-width: auto, which
+   otherwise refuses to shrink below the content's natural intrinsic width —
+   that's what was silently blowing the whole page out and pushing roadmap
+   content off-screen on narrow viewports instead of wrapping/clipping. */
 .screen {
   flex: 1;
+  min-width: 0;
   padding: 28px 20px 60px;
 }
 
