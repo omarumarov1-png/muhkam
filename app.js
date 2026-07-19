@@ -88,6 +88,17 @@
     if (audioCtx.state === "suspended") audioCtx.resume();
     return audioCtx;
   }
+  // resume() is async; scheduling a tone via ctx.currentTime before it
+  // actually resolves means the tone gets scheduled into a context that
+  // isn't running yet and never actually plays. iOS suspends the context
+  // again after any idle gap, so this bites every sound, not just the
+  // first — callers must wait for the real resume before scheduling.
+  function withRunningAudioCtx(fn) {
+    const ctx = getAudioCtx();
+    if (!ctx) return;
+    if (ctx.state === "suspended") ctx.resume().then(() => fn(ctx)).catch(() => {});
+    else fn(ctx);
+  }
   // Mobile browsers suspend AudioContext until a genuine user gesture
   // unlocks it; warm it up on the very first tap anywhere on the page so
   // the first real sound effect (an answer tap) isn't the one that's dropped.
@@ -124,18 +135,18 @@
 
   function playCorrectSound() {
     if (!soundEnabled) return;
-    const ctx = getAudioCtx();
-    if (!ctx) return;
-    playTone(ctx, 659.25, 0, 0.14, 0.16);
-    playTone(ctx, 987.77, 0.08, 0.22, 0.14);
+    withRunningAudioCtx(ctx => {
+      playTone(ctx, 659.25, 0, 0.14, 0.16);
+      playTone(ctx, 987.77, 0.08, 0.22, 0.14);
+    });
   }
 
   function playIncorrectSound() {
     if (!soundEnabled) return;
-    const ctx = getAudioCtx();
-    if (!ctx) return;
-    playTone(ctx, 207.65, 0, 0.24, 0.13);
-    playTone(ctx, 174.61, 0.06, 0.3, 0.11);
+    withRunningAudioCtx(ctx => {
+      playTone(ctx, 207.65, 0, 0.24, 0.13);
+      playTone(ctx, 174.61, 0.06, 0.3, 0.11);
+    });
   }
 
   // ---------- text-to-speech ----------
