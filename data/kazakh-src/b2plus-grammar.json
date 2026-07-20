@@ -1,0 +1,236 @@
+{
+  "level": "b2plus",
+  "grammarTopics": {
+    "b2plus-formal-recommendation": {
+      "title": "Formal Recommendation",
+      "pattern": "[verb]+-ған/-ген + жөн/дұрыс = \"it would be advisable/right to...\"",
+      "explanation": "Beyond everyday керек/тиіс, formal and written Kazakh often recommends an action with a participle plus жөн (\"proper/advisable\") or дұрыс (\"correct\"): \"Барғаны жөн\" (It would be advisable to go), literally \"the having-gone is proper\". Reads as more measured and formal than a direct керек command.",
+      "fact": "This pattern turns the ACTION itself into the grammatical subject of the sentence (via the participle), which is why English needs a whole \"it would be advisable to...\" framing to capture the same indirect, impersonal tone Kazakh gets from a single participle plus жөн.",
+      "dialogue": [
+        { "sp": "A", "native": "Не істеген жөн?", "en": "What would be advisable to do?" },
+        { "sp": "B", "native": "Дәрігерге қаралғаны дұрыс.", "en": "It would be right to see a doctor." }
+      ]
+    },
+    "b2plus-participial-clauses": {
+      "title": "Complex Participial Clauses",
+      "pattern": "[participle clause] + [head noun], stacking multiple modifiers",
+      "explanation": "Advanced Kazakh routinely stacks several participle clauses before a single noun to pack in description without any relative pronoun: \"кеше көшеде көрген ... адам\" (\"the person [I] saw on the street yesterday\"), each descriptive clause landing directly before the noun it modifies.",
+      "fact": "Because everything modifying the noun must come BEFORE it, a complex Kazakh sentence can front-load a long chain of clauses before you reach the noun itself — a different reading rhythm from English, where relative clauses usually trail after the noun.",
+      "dialogue": [
+        { "sp": "A", "native": "Кеше көшеде көрген адамды білесің бе?", "en": "Do you know the person I saw on the street yesterday? (informal)" },
+        { "sp": "B", "native": "Иә, ол менің көршім.", "en": "Yes, he/she is my neighbor." }
+      ]
+    },
+    "b2plus-emphasis-inversion": {
+      "title": "Emphatic Word Order",
+      "pattern": "fronting the emphasized element, or repeating it for stress",
+      "explanation": "Kazakh's normally flexible word order can shift for emphasis: moving a word to the very front or right before the verb highlights it as new or contrastive information. Repetition also marks emphasis: \"Жақсы, жақсы\" (Fine, fine) or \"Тез, тез!\" (Quick, quick!).",
+      "fact": "Because Kazakh marks grammatical roles with case suffixes rather than strict word order, the language can freely reorder words for emphasis without ever becoming ambiguous about who did what to whom — a flexibility fixed-word-order languages like English don't have.",
+      "dialogue": [
+        { "sp": "A", "native": "Кім келді?", "en": "Who came?" },
+        { "sp": "B", "native": "Айгүл келді, басқа ешкім емес.", "en": "Aigul came, no one else." }
+      ]
+    },
+    "b2plus-evidentiality": {
+      "title": "Evidentiality Nuance",
+      "pattern": "-ды/-ді (witnessed) vs -ыпты/депті (hearsay) vs екен (realization)",
+      "explanation": "Advanced Kazakh distinguishes HOW you know something with different past-tense forms: the plain definite past for something you witnessed directly, -ыпты/депті for hearsay, and екен for a fact you're realizing or inferring in the moment. Choosing the wrong one signals the wrong source of knowledge.",
+      "fact": "This three-way evidential distinction is a genuinely different grammatical category from English, which uses separate words (\"I saw\", \"I heard\", \"apparently\") rather than baking the distinction into the verb ending — getting it right is one of the last things advanced learners master.",
+      "dialogue": [
+        { "sp": "A", "native": "Ол келді ме?", "en": "Did he/she come?" },
+        { "sp": "B", "native": "Келіпті, мен көрген жоқпын, естідім.", "en": "Apparently he/she came — I didn't see it myself, I heard about it." }
+      ]
+    },
+    "b2plus-conditional-nuance": {
+      "title": "Mixed & Counterfactual Conditionals",
+      "pattern": "past conditional + еді on both clauses for full counterfactuals",
+      "explanation": "A full counterfactual combines the conditional with еді on BOTH clauses: \"Уақытым болса, барар едім\" (If I had time, I would go) versus the stronger past regret \"Уақытым болған болса, барар едім\" (If I had had time, I would have gone). Mixing past condition with present result lets you express nuanced \"if things had been different\" logic.",
+      "fact": "This mirrors English's second/third conditional distinction (\"if I had time, I would go\" vs \"if I had had time, I would have gone\") almost suffix-for-suffix — one of the rare grammar points where Kazakh and English map onto each other quite closely.",
+      "dialogue": [
+        { "sp": "A", "native": "Неге келмедің?", "en": "Why didn't you come? (informal)" },
+        { "sp": "B", "native": "Уақытым болған болса, барар едім.", "en": "If I had had time, I would have gone." }
+      ]
+    },
+    "b2plus-formal-register": {
+      "title": "Formal/Bureaucratic Register",
+      "pattern": "passive-heavy phrasing, formal connectors (алайда, осыған орай)",
+      "explanation": "Official Kazakh (laws, announcements, formal letters) favors passive constructions, nominalized verbs, and formal connectors like алайда (\"however\", more formal than бірақ) and осыған орай (\"in this regard\"). Sentences tend to be longer and more impersonal than everyday speech.",
+      "fact": "The Kazakh you hear in casual conversation and the Kazakh printed on official documents can feel like two different registers of the same language, similar to the gap between spoken and legal/bureaucratic English.",
+      "dialogue": [
+        { "sp": "A", "native": "Хабарландыруды оқыдың ба?", "en": "Did you read the announcement? (informal)" },
+        { "sp": "B", "native": "Иә, өте ресми тілмен жазылған.", "en": "Yes, it's written in very formal language." }
+      ]
+    },
+    "b2plus-idioms": {
+      "title": "Idioms & Set Phrases",
+      "pattern": "fixed figurative expressions",
+      "explanation": "Like any mature language, Kazakh has a rich stock of idioms whose meaning isn't literal: \"көзін ашып-жұмғанша\" (in the blink of an eye), \"тілі байланды\" (tongue-tied), \"жүрегі жарылардай\" (heart about to burst, i.e. extremely anxious/moved).",
+      "fact": "Idioms are one of the clearest markers of true fluency — using \"көзін ашып-жұмғанша\" naturally in conversation signals a completely different level of comfort with the language than always reaching for the literal \"тез арада\" (quickly).",
+      "dialogue": [
+        { "sp": "A", "native": "Жұмысты тез бітірдің бе?", "en": "Did you finish the work quickly? (informal)" },
+        { "sp": "B", "native": "Иә, көзін ашып-жұмғанша бітті.", "en": "Yes, it was done in the blink of an eye." }
+      ]
+    },
+    "b2plus-rhetorical-devices": {
+      "title": "Rhetorical Questions & Repetition",
+      "pattern": "rhetorical question form; deliberate repetition for effect",
+      "explanation": "Persuasive and literary Kazakh uses rhetorical questions that expect no answer, just emphasis: \"Бұл әділетті ме?\" (Is this fair? — implying clearly not) or \"Кім білмейді?\" (Who doesn't know? — implying everyone knows). Deliberate repetition also builds rhetorical force, common in speeches.",
+      "fact": "Recognizing a rhetorical question as rhetorical (not a genuine request for information) is essential for correctly reading tone in formal or persuasive Kazakh texts and speeches.",
+      "dialogue": [
+        { "sp": "A", "native": "Бұл әділетті ме?", "en": "Is this fair?" },
+        { "sp": "B", "native": "Жоқ, әрине емес.", "en": "No, of course not." }
+      ]
+    },
+    "b2plus-compound-sentences": {
+      "title": "Complex Multi-Clause Sentences",
+      "pattern": "chaining converbs + subordinate clauses + one final main clause",
+      "explanation": "Truly advanced Kazakh sentences chain multiple converbs, participial clauses, and subordinate clauses before arriving at one final, fully-conjugated main verb — combining conditionals, causes, and purposes all in a single long sentence.",
+      "fact": "Reading long-form Kazakh journalism or literature well means holding several suspended clauses in mind until that one final verb resolves the whole sentence — much like parsing a long, subordinate-clause-heavy sentence in formal English writing.",
+      "dialogue": [
+        { "sp": "A", "native": "Неге кешіктің?", "en": "Why were you late? (informal)" },
+        { "sp": "B", "native": "Көлік кешігіп, жол жабылып қалғандықтан, кешіктім.", "en": "Because the bus was late and the road got closed, I was late." }
+      ]
+    },
+    "b2plus-literary-style": {
+      "title": "Literary & Poetic Register",
+      "pattern": "elevated vocabulary (арман, қиял, сағыныш), inverted syntax for effect",
+      "explanation": "Kazakh literature and poetry draw on an elevated register with older vocabulary and rich imagery — words like арман (cherished dream/aspiration), қиял (imagination/fantasy), and сағыныш (longing/nostalgia) appear far more in literary contexts than casual speech.",
+      "fact": "Kazakh has a strong oral literary tradition (akyns — improvising poet-singers) that still shapes how elevated, poetic language sounds today — even modern song lyrics and speeches borrow this register's rhythm and vocabulary.",
+      "dialogue": [
+        { "sp": "A", "native": "Сенің арманың не?", "en": "What is your cherished dream? (informal)" },
+        { "sp": "B", "native": "Әлемді аралау — менің арманым.", "en": "Traveling the world is my dream." }
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Grammar: Formal Recommendation",
+      "titleNative": "Ресми кеңес беру",
+      "topicId": "b2plus-formal-recommendation",
+      "items": [
+        { "kk": "Не істеген жөн?", "en": "What would be advisable to do?", "translit": "ne istegen jön" },
+        { "kk": "Дәрігерге қаралғаны дұрыс.", "en": "It would be right to see a doctor.", "translit": "därigerge qaralğanı durıs" },
+        { "kk": "Ерте шыққаны жөн.", "en": "It would be advisable to leave early.", "translit": "erte şıqqanı jön" },
+        { "kk": "Бұл мәселені талқылағаны дұрыс.", "en": "It would be right to discuss this issue.", "translit": "bul mäseleni talqılağanı durıs" },
+        { "kk": "Құжатты қайта тексергені жөн.", "en": "It would be advisable to double-check the document.", "translit": "qujattı qayta teksergeni jön" }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Grammar: Complex Participial Clauses",
+      "titleNative": "Күрделі есімше құрылымдар",
+      "topicId": "b2plus-participial-clauses",
+      "items": [
+        { "kk": "Кеше көшеде көрген адамды білесің бе?", "en": "Do you know the person I saw on the street yesterday? (informal)", "translit": "keşe köşede körgen adamdı bilesiñ be" },
+        { "kk": "Ол — мен сыйлаған адам.", "en": "He/she is a person I respect.", "translit": "ol — men sıylağan adam" },
+        { "kk": "Мен оқыған кітаптар кітапханада тұр.", "en": "The books I read are in the library.", "translit": "men oqığan kitaptar kitapxanada tur" },
+        { "kk": "Университетте оқитын студенттер көп.", "en": "There are many students who study at the university.", "translit": "wnïversïtette oqïtın studentter köp" },
+        { "kk": "Ол айтқан сөз есімде қалды.", "en": "The words he/she said stayed in my memory.", "translit": "ol aytqan söz esimde qaldı" }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Grammar: Emphatic Word Order",
+      "titleNative": "Екпінді сөз тәртібі",
+      "topicId": "b2plus-emphasis-inversion",
+      "items": [
+        { "kk": "Айгүл келді, басқа ешкім емес.", "en": "Aigul came, no one else.", "translit": "Aygül keldi, basqa eşkim emes" },
+        { "kk": "Жақсы, жақсы, түсіндім.", "en": "Good, good, I understand.", "translit": "jaqsı, jaqsı, tüsindim" },
+        { "kk": "Тез, тез, кешігеміз!", "en": "Quick, quick, we'll be late!", "translit": "tez, tez, keşigemiz" },
+        { "kk": "Дәл осыны айтқым келді.", "en": "This is exactly what I wanted to say.", "translit": "däl osını aytqım keldi" },
+        { "kk": "Ол емес, мен жасадым.", "en": "It wasn't him/her, I did it.", "translit": "ol emes, men jasadım" }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Grammar: Evidentiality Nuance",
+      "titleNative": "Ақпарат көзінің нюансы",
+      "topicId": "b2plus-evidentiality",
+      "items": [
+        { "kk": "Келіпті, мен көрген жоқпын, естідім.", "en": "Apparently he/she came — I heard about it, I didn't see it myself.", "translit": "kelipti, men körgen joqpın, estidim" },
+        { "kk": "Мен өз көзіммен көрдім, ол келді.", "en": "I saw it with my own eyes, he/she came.", "translit": "men öz közimmen kördim, ol keldi" },
+        { "kk": "Ол ауырып қалыпты.", "en": "Apparently he/she fell ill.", "translit": "ol awırıp qalıptı" },
+        { "kk": "Бұл жерде мектеп болған екен.", "en": "It turns out there used to be a school here.", "translit": "bul jerde mektep bolğan eken" },
+        { "kk": "Ол маған ештеңе айтқан жоқ.", "en": "He/she told me nothing.", "translit": "ol mağan eşteñe aytqan joq" }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Grammar: Counterfactual Conditionals",
+      "titleNative": "Болмаған жағдай шарттылығы",
+      "topicId": "b2plus-conditional-nuance",
+      "items": [
+        { "kk": "Уақытым болған болса, барар едім.", "en": "If I had had time, I would have gone.", "translit": "waqıtım bolğan bolsa, barar edim" },
+        { "kk": "Ерте білсем, дайындалар едім.", "en": "If I knew earlier, I would prepare.", "translit": "erte bilsem, dayındalar edim" },
+        { "kk": "Ақшам болса, саяхаттар едім.", "en": "If I had money, I would travel.", "translit": "aqşam bolsa, sayaxattar edim" },
+        { "kk": "Сен айтпасаң, білмес едім.", "en": "If you hadn't told me, I wouldn't have known. (informal)", "translit": "sen aytpasañ, bilmes edim" },
+        { "kk": "Ол келген болса, бәрі басқаша болар еді.", "en": "If he/she had come, everything would have been different.", "translit": "ol kelgen bolsa, bäri basqaşa bolar edi" }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Grammar: Formal/Bureaucratic Register",
+      "titleNative": "Ресми стиль",
+      "topicId": "b2plus-formal-register",
+      "items": [
+        { "kk": "Алайда, жағдай өзгерді.", "en": "However, the situation has changed.", "translit": "alayda, jağday özgerdi" },
+        { "kk": "Осыған орай, жиналыс өткізіледі.", "en": "In this regard, a meeting will be held.", "translit": "osığan oray, jïnalıs ötkiziledi" },
+        { "kk": "Аталған мәселе қаралуда.", "en": "The aforementioned issue is under review.", "translit": "atalğan mäsele qaralwda" },
+        { "kk": "Шешім жоғарыда көрсетілгендей қабылданды.", "en": "The decision was made as indicated above.", "translit": "şeşim joğarıda körsetilgendey qabıldandı" },
+        { "kk": "Құрметті азаматтар назарларыңызға ұсынамыз.", "en": "We present this to the attention of respected citizens.", "translit": "qurmetti azamattar nazarlarıñızğa usınamız" }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Grammar: Idioms & Set Phrases",
+      "titleNative": "Тұрақты тіркестер",
+      "topicId": "b2plus-idioms",
+      "items": [
+        { "kk": "Көзін ашып-жұмғанша бітті.", "en": "It was done in the blink of an eye.", "translit": "közin aşıp-jumğanşa bitti" },
+        { "kk": "Тілі байланып қалды.", "en": "He/she became tongue-tied.", "translit": "tili baylanıp qaldı" },
+        { "kk": "Жүрегім жарылардай болды.", "en": "My heart felt like it would burst.", "translit": "jüregim jarılarday boldı" },
+        { "kk": "Құлағына құйып қойдым.", "en": "I drilled it into his/her head.", "translit": "qulağına quyıp qoydım" },
+        { "kk": "Аузынан сөз түсіп кетті.", "en": "The words slipped out of his/her mouth.", "translit": "awzınan söz tüsip ketti" }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Grammar: Rhetorical Devices",
+      "titleNative": "Риторикалық тәсілдер",
+      "topicId": "b2plus-rhetorical-devices",
+      "items": [
+        { "kk": "Бұл әділетті ме?", "en": "Is this fair? (rhetorical)", "translit": "bul ädiletti me" },
+        { "kk": "Кім білмейді?", "en": "Who doesn't know? (rhetorical)", "translit": "kim bilmeydi" },
+        { "kk": "Неге үндемейсіңдер?", "en": "Why are you all silent? (rhetorical, informal plural)", "translit": "nege ündemeysiñder" },
+        { "kk": "Бәрі де, бәрі де өзгерді.", "en": "Everything, everything has changed.", "translit": "bäri de, bäri de özgerdi" },
+        { "kk": "Қаншама уақыт, қаншама күш кетті.", "en": "So much time, so much effort was spent.", "translit": "qanşama waqıt, qanşama küş ketti" }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Grammar: Complex Multi-Clause Sentences",
+      "titleNative": "Күрделі көп бөлікті сөйлемдер",
+      "topicId": "b2plus-compound-sentences",
+      "items": [
+        { "kk": "Көлік кешігіп, жол жабылып қалғандықтан, кешіктім.", "en": "Because the bus was late and the road got closed, I was late.", "translit": "kölik keşigip, jol jabılıp qalğandıqtan, keşiktim" },
+        { "kk": "Жаңбыр жауып, суық түсіп, бәрі үйде қалды.", "en": "As it rained and got cold, everyone stayed home.", "translit": "jañbır jawıp, suwıq tüsip, bäri üyde qaldı" },
+        { "kk": "Жұмысты бітіріп, демалыс алғаннан кейін, саяхатқа шықтық.", "en": "Having finished the work and taken a break, we went on a trip.", "translit": "jumıstı bitirip, demalıs alğannan keyin, sayaxatqa şıqtıq" },
+        { "kk": "Ол келмей, хабарласпай, бәрі алаңдады.", "en": "Since he/she didn't come and didn't get in touch, everyone worried.", "translit": "ol kelmey, xabarlaspay, bäri alañdadı" }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Grammar: Literary & Poetic Register",
+      "titleNative": "Әдеби және поэтикалық стиль",
+      "topicId": "b2plus-literary-style",
+      "items": [
+        { "kk": "Сенің арманың не?", "en": "What is your cherished dream? (informal)", "translit": "seniñ armanıñ ne" },
+        { "kk": "Әлемді аралау — менің арманым.", "en": "Traveling the world is my dream.", "translit": "älemdi aralaw — meniñ armanım" },
+        { "kk": "Сағыныш жүрегімді жаулап алды.", "en": "Longing has conquered my heart.", "translit": "sağınış jüregimdi jawlap aldı" },
+        { "kk": "Қиялыңа жол бер.", "en": "Give way to your imagination. (informal)", "translit": "qïyalıña jol ber" },
+        { "kk": "Оның сөзі жүрекке жетті.", "en": "His/her words reached the heart.", "translit": "onıñ sözi jürekke jetti" }
+      ]
+    }
+  ]
+}
