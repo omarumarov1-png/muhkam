@@ -1,0 +1,4082 @@
+{
+  "course": {
+    "id": "kazakh",
+    "title": "Kazakh, Start to Fluent",
+    "subtitle": "Modern Kazakh from absolute beginner through fluent, everyday command — real sentences, grammar, and conversational practice",
+    "dir": "ltr",
+    "lang": "kk",
+    "languageName": "Kazakh",
+    "fontNative": "'Inter', 'Noto Sans', sans-serif",
+    "flag": "Қазақша",
+    "heroEyebrow": "Modern Kazakh · A1 → C1",
+    "heroNative": "Негіздерден еркін сөйлеуге дейін",
+    "heroLedeSuffix": "Real sentences from lesson one, Latin transliteration to guide pronunciation while you learn the Cyrillic script.",
+    "uiStrings": {
+      "wordHoard": "Сөздік қор",
+      "review": "Қайталау",
+      "revision": "Жаттығу"
+    },
+    "grammarTopics": {},
+    "levels": [
+      {
+        "id": "a1",
+        "cefr": "A1",
+        "label": "Foundations",
+        "labelNative": "Негіздер",
+        "lessons": [
+          {
+            "id": "kk-a1-1",
+            "number": 1,
+            "title": "Greetings",
+            "description": "Greetings",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Сәлем!",
+                "options": [
+                  "Hi!",
+                  "What is your family like? (informal)",
+                  "I am a teacher.",
+                  "I have three siblings."
+                ],
+                "answerIndex": 0,
+                "translit": "sälem"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "Hi!",
+                "bank": [
+                  "Сәлем!"
+                ],
+                "answer": [
+                  "Сәлем!"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Сәлем!",
+                "options": [
+                  "I work.",
+                  "This is my grandfather.",
+                  "Hi!",
+                  "Bye! (informal)"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Сәлеметсіз бе!",
+                "options": [
+                  "I have a sibling.",
+                  "This is my friend.",
+                  "Hello! (formal)",
+                  "Goodbye! (formal)"
+                ],
+                "answerIndex": 2,
+                "translit": "sälemetsiz be"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "Hello! (formal)",
+                "bank": [
+                  "Сәлеметсіз",
+                  "бе!"
+                ],
+                "answer": [
+                  "Сәлеметсіз",
+                  "бе!"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Сәлеметсіз бе!",
+                "answer": [
+                  "Сәлеметсіз",
+                  "бе!"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Қайырлы таң!",
+                "options": [
+                  "I am from Almaty.",
+                  "Where is the shop?",
+                  "Good morning!",
+                  "twenty"
+                ],
+                "answerIndex": 2,
+                "translit": "qayırlı tañ"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "Good morning!",
+                "bank": [
+                  "таң!",
+                  "Қайырлы"
+                ],
+                "answer": [
+                  "Қайырлы",
+                  "таң!"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Қайырлы күн!",
+                "options": [
+                  "Good afternoon!",
+                  "The sun is yellow.",
+                  "It was delicious!",
+                  "Who is here?"
+                ],
+                "answerIndex": 0,
+                "translit": "qayırlı kün"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "Good afternoon!",
+                "bank": [
+                  "күн!",
+                  "Қайырлы"
+                ],
+                "answer": [
+                  "Қайырлы",
+                  "күн!"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Қайырлы күн!",
+                "options": [
+                  "He is my son.",
+                  "Do you drink tea? (informal)",
+                  "Good afternoon!",
+                  "twenty"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "fill-blank",
+                "native": "Қайырлы күн!",
+                "blankedEn": "___ afternoon!",
+                "answer": "Good",
+                "options": [
+                  "milk",
+                  "Goodbye",
+                  "Almaty",
+                  "Good"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Қайырлы кеш!",
+                "options": [
+                  "Which country are you from? (formal)",
+                  "Good evening!",
+                  "My family is big.",
+                  "I am from Almaty."
+                ],
+                "answerIndex": 1,
+                "translit": "qayırlı keş"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "Good evening!",
+                "bank": [
+                  "кеш!",
+                  "Қайырлы"
+                ],
+                "answer": [
+                  "Қайырлы",
+                  "кеш!"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Қайырлы кеш!",
+                "answer": [
+                  "Қайырлы",
+                  "кеш!"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Қалайсыз?",
+                "options": [
+                  "How are you? (formal)",
+                  "Where are you going?",
+                  "Good afternoon!",
+                  "We go to school."
+                ],
+                "answerIndex": 0,
+                "translit": "qalaysız"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "How are you? (formal)",
+                "bank": [
+                  "Қалайсыз?"
+                ],
+                "answer": [
+                  "Қалайсыз?"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Қалайсың?",
+                "options": [
+                  "Where is the shop?",
+                  "How are you? (informal)",
+                  "This is my family.",
+                  "This is my grandmother."
+                ],
+                "answerIndex": 1,
+                "translit": "qalaysıñ"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "How are you? (informal)",
+                "bank": [
+                  "Қалайсың?"
+                ],
+                "answer": [
+                  "Қалайсың?"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Қалайсың?",
+                "options": [
+                  "How are you? (informal)",
+                  "Thank you!",
+                  "This is my older brother.",
+                  "eight"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Жақсымын, рахмет.",
+                "options": [
+                  "I'm fine, thank you.",
+                  "The tea is hot.",
+                  "The sky is blue.",
+                  "This is black."
+                ],
+                "answerIndex": 0,
+                "translit": "jaqsımın, rahmet"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "I'm fine, thank you.",
+                "bank": [
+                  "рахмет.",
+                  "Жақсымын,"
+                ],
+                "answer": [
+                  "Жақсымын,",
+                  "рахмет."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Жақсымын, рахмет.",
+                "answer": [
+                  "Жақсымын,",
+                  "рахмет."
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "Жақсымын, рахмет.",
+                "blankedEn": "I'm ___ thank you.",
+                "answer": "fine",
+                "options": [
+                  "fine",
+                  "thank",
+                  "kitchen",
+                  "meat"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Рахмет!",
+                "options": [
+                  "Do you drink tea? (informal)",
+                  "Where is the shop?",
+                  "Why?",
+                  "Thank you!"
+                ],
+                "answerIndex": 3,
+                "translit": "rahmet"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "Thank you!",
+                "bank": [
+                  "Рахмет!"
+                ],
+                "answer": [
+                  "Рахмет!"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Өтінемін.",
+                "options": [
+                  "You're welcome.",
+                  "What is your name? (formal)",
+                  "Goodbye! (formal)",
+                  "How are you? (formal)"
+                ],
+                "answerIndex": 0,
+                "translit": "ötinemin"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "You're welcome.",
+                "bank": [
+                  "Өтінемін."
+                ],
+                "answer": [
+                  "Өтінемін."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Өтінемін.",
+                "options": [
+                  "You're welcome.",
+                  "The sky is blue.",
+                  "We watch a movie.",
+                  "I am 24 years old."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Сау болыңыз!",
+                "options": [
+                  "seven",
+                  "This is my grandmother.",
+                  "Goodbye! (formal)",
+                  "The meat is tasty."
+                ],
+                "answerIndex": 2,
+                "translit": "saw bolıñız"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "Goodbye! (formal)",
+                "bank": [
+                  "Сау",
+                  "болыңыз!"
+                ],
+                "answer": [
+                  "Сау",
+                  "болыңыз!"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Сау болыңыз!",
+                "answer": [
+                  "Сау",
+                  "болыңыз!"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Сау бол!",
+                "options": [
+                  "This is white.",
+                  "The meat is tasty.",
+                  "Bye! (informal)",
+                  "Good evening!"
+                ],
+                "answerIndex": 2,
+                "translit": "saw bol"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "Bye! (informal)",
+                "bank": [
+                  "Сау",
+                  "бол!"
+                ],
+                "answer": [
+                  "Сау",
+                  "бол!"
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "Сау бол!",
+                "blankedEn": "Bye! ___",
+                "answer": "informal",
+                "options": [
+                  "Hello",
+                  "delicious",
+                  "informal",
+                  "sweet"
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Сәлем!",
+                    "en": "Hi!"
+                  },
+                  {
+                    "native": "Сәлеметсіз бе!",
+                    "en": "Hello! (formal)"
+                  },
+                  {
+                    "native": "Қайырлы таң!",
+                    "en": "Good morning!"
+                  },
+                  {
+                    "native": "Қайырлы күн!",
+                    "en": "Good afternoon!"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Қайырлы кеш!",
+                    "en": "Good evening!"
+                  },
+                  {
+                    "native": "Қалайсыз?",
+                    "en": "How are you? (formal)"
+                  },
+                  {
+                    "native": "Қалайсың?",
+                    "en": "How are you? (informal)"
+                  },
+                  {
+                    "native": "Жақсымын, рахмет.",
+                    "en": "I'm fine, thank you."
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Рахмет!",
+                    "en": "Thank you!"
+                  },
+                  {
+                    "native": "Өтінемін.",
+                    "en": "You're welcome."
+                  },
+                  {
+                    "native": "Сау болыңыз!",
+                    "en": "Goodbye! (formal)"
+                  },
+                  {
+                    "native": "Сау бол!",
+                    "en": "Bye! (informal)"
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Сәлемдесу"
+          },
+          {
+            "id": "kk-a1-2",
+            "number": 2,
+            "title": "Introducing Yourself",
+            "description": "Introducing Yourself",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Менің атым Айгүл.",
+                "options": [
+                  "They are sitting at home.",
+                  "This is my mother.",
+                  "My name is Aigul.",
+                  "When?"
+                ],
+                "answerIndex": 2,
+                "translit": "meniñ atım Aygül"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "My name is Aigul.",
+                "bank": [
+                  "Менің",
+                  "Айгүл.",
+                  "атым"
+                ],
+                "answer": [
+                  "Менің",
+                  "атым",
+                  "Айгүл."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Менің атым Айгүл.",
+                "options": [
+                  "How old are you? (informal)",
+                  "This is my grandfather.",
+                  "His/her car is black.",
+                  "My name is Aigul."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Сенің атың кім?",
+                "options": [
+                  "Good morning!",
+                  "What is your name? (informal)",
+                  "I eat bread.",
+                  "I like the color blue."
+                ],
+                "answerIndex": 1,
+                "translit": "seniñ atıñ kim"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "What is your name? (informal)",
+                "bank": [
+                  "Сенің",
+                  "кім?",
+                  "атың"
+                ],
+                "answer": [
+                  "Сенің",
+                  "атың",
+                  "кім?"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Сенің атың кім?",
+                "answer": [
+                  "Сенің",
+                  "атың",
+                  "кім?"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Сіздің атыңыз кім?",
+                "options": [
+                  "What is your name? (formal)",
+                  "I work.",
+                  "three",
+                  "I like the color blue."
+                ],
+                "answerIndex": 0,
+                "translit": "sizdiñ atıñız kim"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "What is your name? (formal)",
+                "bank": [
+                  "атыңыз",
+                  "Сіздің",
+                  "кім?"
+                ],
+                "answer": [
+                  "Сіздің",
+                  "атыңыз",
+                  "кім?"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Мен қазақпын.",
+                "options": [
+                  "This is my older sister.",
+                  "twenty",
+                  "I am Kazakh.",
+                  "What is this?"
+                ],
+                "answerIndex": 2,
+                "translit": "men qazaqpın"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "I am Kazakh.",
+                "bank": [
+                  "қазақпын.",
+                  "Мен"
+                ],
+                "answer": [
+                  "Мен",
+                  "қазақпын."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Мен қазақпын.",
+                "options": [
+                  "I have a sibling.",
+                  "The sun is yellow.",
+                  "I am Kazakh.",
+                  "You're welcome."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "fill-blank",
+                "native": "Мен қазақпын.",
+                "blankedEn": "I am ___",
+                "answer": "Kazakh",
+                "options": [
+                  "know",
+                  "nine",
+                  "Kazakh",
+                  "need"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Мен студентпін.",
+                "options": [
+                  "Where are you from? (informal)",
+                  "I need bread.",
+                  "I am a student.",
+                  "The apple is sweet."
+                ],
+                "answerIndex": 2,
+                "translit": "men studentpin"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "I am a student.",
+                "bank": [
+                  "студентпін.",
+                  "Мен"
+                ],
+                "answer": [
+                  "Мен",
+                  "студентпін."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Мен студентпін.",
+                "answer": [
+                  "Мен",
+                  "студентпін."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Сен қайдансың?",
+                "options": [
+                  "eight",
+                  "I have a sibling.",
+                  "Where are you from? (informal)",
+                  "four"
+                ],
+                "answerIndex": 2,
+                "translit": "sen qaydansıñ"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "Where are you from? (informal)",
+                "bank": [
+                  "Сен",
+                  "қайдансың?"
+                ],
+                "answer": [
+                  "Сен",
+                  "қайдансың?"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Мен Алматыданмын.",
+                "options": [
+                  "The sun is yellow.",
+                  "Goodbye! (formal)",
+                  "I am from Almaty.",
+                  "What color do you like? (informal)"
+                ],
+                "answerIndex": 2,
+                "translit": "men Almatıdanmın"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "I am from Almaty.",
+                "bank": [
+                  "Алматыданмын.",
+                  "Мен"
+                ],
+                "answer": [
+                  "Мен",
+                  "Алматыданмын."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Мен Алматыданмын.",
+                "options": [
+                  "Are you sleeping? (informal)",
+                  "I speak Kazakh.",
+                  "I am from Almaty.",
+                  "Thank you!"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Мен мұғаліммін.",
+                "options": [
+                  "three",
+                  "I am a teacher.",
+                  "The water is cold.",
+                  "I am from Almaty."
+                ],
+                "answerIndex": 1,
+                "translit": "men muğalimmin"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "I am a teacher.",
+                "bank": [
+                  "Мен",
+                  "мұғаліммін."
+                ],
+                "answer": [
+                  "Мен",
+                  "мұғаліммін."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Мен мұғаліммін.",
+                "answer": [
+                  "Мен",
+                  "мұғаліммін."
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "Мен мұғаліммін.",
+                "blankedEn": "I am a ___",
+                "answer": "teacher",
+                "options": [
+                  "teacher",
+                  "home",
+                  "work",
+                  "book"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Бұл менің достым.",
+                "options": [
+                  "The sky is blue.",
+                  "What is your family like? (informal)",
+                  "This is my friend.",
+                  "This is white."
+                ],
+                "answerIndex": 2,
+                "translit": "bul meniñ dostım"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "This is my friend.",
+                "bank": [
+                  "достым.",
+                  "менің",
+                  "Бұл"
+                ],
+                "answer": [
+                  "Бұл",
+                  "менің",
+                  "достым."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Танысқаныма қуаныштымын.",
+                "options": [
+                  "What is your family like? (informal)",
+                  "two",
+                  "Nice to meet you.",
+                  "The sun is yellow."
+                ],
+                "answerIndex": 2,
+                "translit": "tanısqanıma quwanıştımın"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "Nice to meet you.",
+                "bank": [
+                  "Танысқаныма",
+                  "қуаныштымын."
+                ],
+                "answer": [
+                  "Танысқаныма",
+                  "қуаныштымын."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Танысқаныма қуаныштымын.",
+                "options": [
+                  "Nice to meet you.",
+                  "He/she reads a book.",
+                  "I am 24 years old.",
+                  "Where are you going?"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Сіз қай елденсіз?",
+                "options": [
+                  "Which country are you from? (formal)",
+                  "I am from Almaty.",
+                  "What are you doing?",
+                  "You drink water. (informal)"
+                ],
+                "answerIndex": 0,
+                "translit": "siz qay eldensiz"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "Which country are you from? (formal)",
+                "bank": [
+                  "елденсіз?",
+                  "Сіз",
+                  "қай"
+                ],
+                "answer": [
+                  "Сіз",
+                  "қай",
+                  "елденсіз?"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Сіз қай елденсіз?",
+                "answer": [
+                  "Сіз",
+                  "қай",
+                  "елденсіз?"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Мен Қазақстаннанмын.",
+                "options": [
+                  "I am from Kazakhstan.",
+                  "It was delicious!",
+                  "three",
+                  "This is black."
+                ],
+                "answerIndex": 0,
+                "translit": "men Qazaqstannanmın"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "I am from Kazakhstan.",
+                "bank": [
+                  "Мен",
+                  "Қазақстаннанмын."
+                ],
+                "answer": [
+                  "Мен",
+                  "Қазақстаннанмын."
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "Мен Қазақстаннанмын.",
+                "blankedEn": "I am ___ Kazakhstan.",
+                "answer": "from",
+                "options": [
+                  "five",
+                  "tasty",
+                  "from",
+                  "English"
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Менің атым Айгүл.",
+                    "en": "My name is Aigul."
+                  },
+                  {
+                    "native": "Сенің атың кім?",
+                    "en": "What is your name? (informal)"
+                  },
+                  {
+                    "native": "Сіздің атыңыз кім?",
+                    "en": "What is your name? (formal)"
+                  },
+                  {
+                    "native": "Мен қазақпын.",
+                    "en": "I am Kazakh."
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Мен студентпін.",
+                    "en": "I am a student."
+                  },
+                  {
+                    "native": "Сен қайдансың?",
+                    "en": "Where are you from? (informal)"
+                  },
+                  {
+                    "native": "Мен Алматыданмын.",
+                    "en": "I am from Almaty."
+                  },
+                  {
+                    "native": "Мен мұғаліммін.",
+                    "en": "I am a teacher."
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Бұл менің достым.",
+                    "en": "This is my friend."
+                  },
+                  {
+                    "native": "Танысқаныма қуаныштымын.",
+                    "en": "Nice to meet you."
+                  },
+                  {
+                    "native": "Сіз қай елденсіз?",
+                    "en": "Which country are you from? (formal)"
+                  },
+                  {
+                    "native": "Мен Қазақстаннанмын.",
+                    "en": "I am from Kazakhstan."
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Танысу"
+          },
+          {
+            "id": "kk-a1-3",
+            "number": 3,
+            "title": "Numbers 1-20",
+            "description": "Numbers 1-20",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "бір",
+                "options": [
+                  "I have three siblings.",
+                  "ten",
+                  "I am from Kazakhstan.",
+                  "one"
+                ],
+                "answerIndex": 3,
+                "translit": "bir"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "one",
+                "bank": [
+                  "бір"
+                ],
+                "answer": [
+                  "бір"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "бір",
+                "options": [
+                  "My name is Aigul.",
+                  "one",
+                  "I am 24 years old.",
+                  "What are you doing?"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "екі",
+                "options": [
+                  "Why?",
+                  "two",
+                  "My name is Aigul.",
+                  "This is my father."
+                ],
+                "answerIndex": 1,
+                "translit": "eki"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "two",
+                "bank": [
+                  "екі"
+                ],
+                "answer": [
+                  "екі"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "екі",
+                "answer": [
+                  "екі"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "үш",
+                "options": [
+                  "Where is the shop?",
+                  "three",
+                  "This is my mother.",
+                  "I eat bread."
+                ],
+                "answerIndex": 1,
+                "translit": "üş"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "three",
+                "bank": [
+                  "үш"
+                ],
+                "answer": [
+                  "үш"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "төрт",
+                "options": [
+                  "four",
+                  "This is my family.",
+                  "Where are you from? (informal)",
+                  "This is black."
+                ],
+                "answerIndex": 0,
+                "translit": "tört"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "four",
+                "bank": [
+                  "төрт"
+                ],
+                "answer": [
+                  "төрт"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "төрт",
+                "options": [
+                  "four",
+                  "Do you know English? (informal)",
+                  "We go to school.",
+                  "He is my son."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "fill-blank",
+                "native": "төрт",
+                "blankedEn": "___",
+                "answer": "four",
+                "options": [
+                  "four",
+                  "Goodbye",
+                  "Hello",
+                  "formal"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "бес",
+                "options": [
+                  "His/her car is black.",
+                  "Hi!",
+                  "They are sitting at home.",
+                  "five"
+                ],
+                "answerIndex": 3,
+                "translit": "bes"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "five",
+                "bank": [
+                  "бес"
+                ],
+                "answer": [
+                  "бес"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "бес",
+                "answer": [
+                  "бес"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "алты",
+                "options": [
+                  "Do you drink tea? (informal)",
+                  "nine",
+                  "six",
+                  "I am from Almaty."
+                ],
+                "answerIndex": 2,
+                "translit": "altı"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "six",
+                "bank": [
+                  "алты"
+                ],
+                "answer": [
+                  "алты"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "жеті",
+                "options": [
+                  "This is white.",
+                  "seven",
+                  "I like the color blue.",
+                  "What color do you like? (informal)"
+                ],
+                "answerIndex": 1,
+                "translit": "jeti"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "seven",
+                "bank": [
+                  "жеті"
+                ],
+                "answer": [
+                  "жеті"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "жеті",
+                "options": [
+                  "seven",
+                  "Good evening!",
+                  "This is my father.",
+                  "How old are you? (informal)"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "сегіз",
+                "options": [
+                  "What color do you like? (informal)",
+                  "Hello! (formal)",
+                  "one",
+                  "eight"
+                ],
+                "answerIndex": 3,
+                "translit": "segiz"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "eight",
+                "bank": [
+                  "сегіз"
+                ],
+                "answer": [
+                  "сегіз"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "сегіз",
+                "answer": [
+                  "сегіз"
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "сегіз",
+                "blankedEn": "___",
+                "answer": "eight",
+                "options": [
+                  "friend",
+                  "reads",
+                  "from",
+                  "eight"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "тоғыз",
+                "options": [
+                  "My name is Aigul.",
+                  "Which country are you from? (formal)",
+                  "nine",
+                  "My family is big."
+                ],
+                "answerIndex": 2,
+                "translit": "toğız"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "nine",
+                "bank": [
+                  "тоғыз"
+                ],
+                "answer": [
+                  "тоғыз"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "он",
+                "options": [
+                  "I am from Kazakhstan.",
+                  "ten",
+                  "When?",
+                  "This is my family."
+                ],
+                "answerIndex": 1,
+                "translit": "on"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "ten",
+                "bank": [
+                  "он"
+                ],
+                "answer": [
+                  "он"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "он",
+                "options": [
+                  "My shirt is white.",
+                  "Where are you from? (informal)",
+                  "ten",
+                  "Good afternoon!"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "он бір",
+                "options": [
+                  "This is my mother.",
+                  "eleven",
+                  "four",
+                  "What is your name? (informal)"
+                ],
+                "answerIndex": 1,
+                "translit": "on bir"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "eleven",
+                "bank": [
+                  "бір",
+                  "он"
+                ],
+                "answer": [
+                  "он",
+                  "бір"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "он бір",
+                "answer": [
+                  "он",
+                  "бір"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "жиырма",
+                "options": [
+                  "This is white.",
+                  "I need bread.",
+                  "I speak Kazakh.",
+                  "twenty"
+                ],
+                "answerIndex": 3,
+                "translit": "jïırma"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "twenty",
+                "bank": [
+                  "жиырма"
+                ],
+                "answer": [
+                  "жиырма"
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "жиырма",
+                "blankedEn": "___",
+                "answer": "twenty",
+                "options": [
+                  "works",
+                  "meat",
+                  "twenty",
+                  "country"
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "бір",
+                    "en": "one"
+                  },
+                  {
+                    "native": "екі",
+                    "en": "two"
+                  },
+                  {
+                    "native": "үш",
+                    "en": "three"
+                  },
+                  {
+                    "native": "төрт",
+                    "en": "four"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "бес",
+                    "en": "five"
+                  },
+                  {
+                    "native": "алты",
+                    "en": "six"
+                  },
+                  {
+                    "native": "жеті",
+                    "en": "seven"
+                  },
+                  {
+                    "native": "сегіз",
+                    "en": "eight"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "тоғыз",
+                    "en": "nine"
+                  },
+                  {
+                    "native": "он",
+                    "en": "ten"
+                  },
+                  {
+                    "native": "он бір",
+                    "en": "eleven"
+                  },
+                  {
+                    "native": "жиырма",
+                    "en": "twenty"
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Сандар"
+          },
+          {
+            "id": "kk-a1-4",
+            "number": 4,
+            "title": "Family",
+            "description": "Family",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Бұл менің отбасым.",
+                "options": [
+                  "Who is he/she?",
+                  "We watch a movie.",
+                  "The apple is sweet.",
+                  "This is my family."
+                ],
+                "answerIndex": 3,
+                "translit": "bul meniñ otbasım"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "This is my family.",
+                "bank": [
+                  "Бұл",
+                  "отбасым.",
+                  "менің"
+                ],
+                "answer": [
+                  "Бұл",
+                  "менің",
+                  "отбасым."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Бұл менің отбасым.",
+                "options": [
+                  "How much does it cost?",
+                  "I am going home.",
+                  "This is my family.",
+                  "I'm fine, thank you."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Бұл менің анам.",
+                "options": [
+                  "eleven",
+                  "This is my mother.",
+                  "This is my older sister.",
+                  "The sky is blue."
+                ],
+                "answerIndex": 1,
+                "translit": "bul meniñ anam"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "This is my mother.",
+                "bank": [
+                  "менің",
+                  "анам.",
+                  "Бұл"
+                ],
+                "answer": [
+                  "Бұл",
+                  "менің",
+                  "анам."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Бұл менің анам.",
+                "answer": [
+                  "Бұл",
+                  "менің",
+                  "анам."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Бұл менің әкем.",
+                "options": [
+                  "I need bread.",
+                  "This is my friend.",
+                  "This is my father.",
+                  "seven"
+                ],
+                "answerIndex": 2,
+                "translit": "bul meniñ äkem"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "This is my father.",
+                "bank": [
+                  "әкем.",
+                  "Бұл",
+                  "менің"
+                ],
+                "answer": [
+                  "Бұл",
+                  "менің",
+                  "әкем."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Бұл менің ағам.",
+                "options": [
+                  "I am going home.",
+                  "I am a teacher.",
+                  "This is my older brother.",
+                  "We go to school."
+                ],
+                "answerIndex": 2,
+                "translit": "bul meniñ ağam"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "This is my older brother.",
+                "bank": [
+                  "менің",
+                  "Бұл",
+                  "ағам."
+                ],
+                "answer": [
+                  "Бұл",
+                  "менің",
+                  "ағам."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Бұл менің ағам.",
+                "options": [
+                  "My favorite color is green.",
+                  "eight",
+                  "This is my older brother.",
+                  "This is my older sister."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "fill-blank",
+                "native": "Бұл менің ағам.",
+                "blankedEn": "This is my older ___",
+                "answer": "brother",
+                "options": [
+                  "brother",
+                  "evening",
+                  "nine",
+                  "kitchen"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Бұл менің апам.",
+                "options": [
+                  "This is my older sister.",
+                  "This is a yellow color.",
+                  "seven",
+                  "Thank you!"
+                ],
+                "answerIndex": 0,
+                "translit": "bul meniñ apam"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "This is my older sister.",
+                "bank": [
+                  "менің",
+                  "апам.",
+                  "Бұл"
+                ],
+                "answer": [
+                  "Бұл",
+                  "менің",
+                  "апам."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Бұл менің апам.",
+                "answer": [
+                  "Бұл",
+                  "менің",
+                  "апам."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Бұл менің атам.",
+                "options": [
+                  "eleven",
+                  "This is my grandfather.",
+                  "What is your name? (informal)",
+                  "Goodbye! (formal)"
+                ],
+                "answerIndex": 1,
+                "translit": "bul meniñ atam"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "This is my grandfather.",
+                "bank": [
+                  "атам.",
+                  "Бұл",
+                  "менің"
+                ],
+                "answer": [
+                  "Бұл",
+                  "менің",
+                  "атам."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Бұл менің әжем.",
+                "options": [
+                  "I am from Almaty.",
+                  "nine",
+                  "This is my grandmother.",
+                  "This is my mother."
+                ],
+                "answerIndex": 2,
+                "translit": "bul meniñ äjem"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "This is my grandmother.",
+                "bank": [
+                  "әжем.",
+                  "менің",
+                  "Бұл"
+                ],
+                "answer": [
+                  "Бұл",
+                  "менің",
+                  "әжем."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Бұл менің әжем.",
+                "options": [
+                  "This is my grandmother.",
+                  "five",
+                  "seven",
+                  "What is your name? (formal)"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Менің бауырым бар.",
+                "options": [
+                  "I have a sibling.",
+                  "The sky is blue.",
+                  "You drink water. (informal)",
+                  "What is this?"
+                ],
+                "answerIndex": 0,
+                "translit": "meniñ bawırım bar"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "I have a sibling.",
+                "bank": [
+                  "бар.",
+                  "бауырым",
+                  "Менің"
+                ],
+                "answer": [
+                  "Менің",
+                  "бауырым",
+                  "бар."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Менің бауырым бар.",
+                "answer": [
+                  "Менің",
+                  "бауырым",
+                  "бар."
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "Менің бауырым бар.",
+                "blankedEn": "I have a ___",
+                "answer": "sibling",
+                "options": [
+                  "Kazakh",
+                  "sibling",
+                  "yellow",
+                  "Hisher"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Менің отбасым үлкен.",
+                "options": [
+                  "five",
+                  "My family is big.",
+                  "The water is cold.",
+                  "I am a teacher."
+                ],
+                "answerIndex": 1,
+                "translit": "meniñ otbasım ülken"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "My family is big.",
+                "bank": [
+                  "үлкен.",
+                  "отбасым",
+                  "Менің"
+                ],
+                "answer": [
+                  "Менің",
+                  "отбасым",
+                  "үлкен."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Сенің отбасың қандай?",
+                "options": [
+                  "I am a student.",
+                  "I have a sibling.",
+                  "This is my friend.",
+                  "What is your family like? (informal)"
+                ],
+                "answerIndex": 3,
+                "translit": "seniñ otbasıñ qanday"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "What is your family like? (informal)",
+                "bank": [
+                  "отбасың",
+                  "Сенің",
+                  "қандай?"
+                ],
+                "answer": [
+                  "Сенің",
+                  "отбасың",
+                  "қандай?"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Сенің отбасың қандай?",
+                "options": [
+                  "Goodbye! (formal)",
+                  "My favorite color is green.",
+                  "What is your family like? (informal)",
+                  "Hi!"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Менің үш бауырым бар.",
+                "options": [
+                  "eleven",
+                  "Do you drink tea? (informal)",
+                  "I have three siblings.",
+                  "This is my friend."
+                ],
+                "answerIndex": 2,
+                "translit": "meniñ üş bawırım bar"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "I have three siblings.",
+                "bank": [
+                  "үш",
+                  "бауырым",
+                  "бар.",
+                  "Менің"
+                ],
+                "answer": [
+                  "Менің",
+                  "үш",
+                  "бауырым",
+                  "бар."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Менің үш бауырым бар.",
+                "answer": [
+                  "Менің",
+                  "үш",
+                  "бауырым",
+                  "бар."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Ол менің ұлым.",
+                "options": [
+                  "My name is Aigul.",
+                  "He is my son.",
+                  "The sky is blue.",
+                  "My family is big."
+                ],
+                "answerIndex": 1,
+                "translit": "ol meniñ ulım"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "He is my son.",
+                "bank": [
+                  "Ол",
+                  "ұлым.",
+                  "менің"
+                ],
+                "answer": [
+                  "Ол",
+                  "менің",
+                  "ұлым."
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Бұл менің отбасым.",
+                    "en": "This is my family."
+                  },
+                  {
+                    "native": "Бұл менің анам.",
+                    "en": "This is my mother."
+                  },
+                  {
+                    "native": "Бұл менің әкем.",
+                    "en": "This is my father."
+                  },
+                  {
+                    "native": "Бұл менің ағам.",
+                    "en": "This is my older brother."
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Бұл менің апам.",
+                    "en": "This is my older sister."
+                  },
+                  {
+                    "native": "Бұл менің атам.",
+                    "en": "This is my grandfather."
+                  },
+                  {
+                    "native": "Бұл менің әжем.",
+                    "en": "This is my grandmother."
+                  },
+                  {
+                    "native": "Менің бауырым бар.",
+                    "en": "I have a sibling."
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Менің отбасым үлкен.",
+                    "en": "My family is big."
+                  },
+                  {
+                    "native": "Сенің отбасың қандай?",
+                    "en": "What is your family like? (informal)"
+                  },
+                  {
+                    "native": "Менің үш бауырым бар.",
+                    "en": "I have three siblings."
+                  },
+                  {
+                    "native": "Ол менің ұлым.",
+                    "en": "He is my son."
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Отбасы"
+          },
+          {
+            "id": "kk-a1-5",
+            "number": 5,
+            "title": "Question Words",
+            "description": "Question Words",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Бұл не?",
+                "options": [
+                  "What is this?",
+                  "This is my family.",
+                  "He/she reads a book.",
+                  "It was delicious!"
+                ],
+                "answerIndex": 0,
+                "translit": "bul ne"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "What is this?",
+                "bank": [
+                  "Бұл",
+                  "не?"
+                ],
+                "answer": [
+                  "Бұл",
+                  "не?"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Бұл не?",
+                "options": [
+                  "Who is he/she?",
+                  "I cook food in the kitchen.",
+                  "What is this?",
+                  "We go to school."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Ол кім?",
+                "options": [
+                  "My family is big.",
+                  "Who is he/she?",
+                  "Are you sleeping? (informal)",
+                  "Bye! (informal)"
+                ],
+                "answerIndex": 1,
+                "translit": "ol kim"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "Who is he/she?",
+                "bank": [
+                  "Ол",
+                  "кім?"
+                ],
+                "answer": [
+                  "Ол",
+                  "кім?"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Ол кім?",
+                "answer": [
+                  "Ол",
+                  "кім?"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Дүкен қайда?",
+                "options": [
+                  "Where is the shop?",
+                  "I like the color blue.",
+                  "The apple is sweet.",
+                  "This is black."
+                ],
+                "answerIndex": 0,
+                "translit": "düken qayda"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "Where is the shop?",
+                "bank": [
+                  "қайда?",
+                  "Дүкен"
+                ],
+                "answer": [
+                  "Дүкен",
+                  "қайда?"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Сен қалайсың?",
+                "options": [
+                  "How are you? (informal)",
+                  "This is milk.",
+                  "I work.",
+                  "I like coffee."
+                ],
+                "answerIndex": 0,
+                "translit": "sen qalaysıñ"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "How are you? (informal)",
+                "bank": [
+                  "Сен",
+                  "қалайсың?"
+                ],
+                "answer": [
+                  "Сен",
+                  "қалайсың?"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Сен қалайсың?",
+                "options": [
+                  "My name is Aigul.",
+                  "Where are you from? (informal)",
+                  "How are you? (informal)",
+                  "eleven"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "fill-blank",
+                "native": "Сен қалайсың?",
+                "blankedEn": "How are you? ___",
+                "answer": "informal",
+                "options": [
+                  "black",
+                  "teacher",
+                  "informal",
+                  "Kazakhstan"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Бағасы қанша?",
+                "options": [
+                  "Where are you going?",
+                  "How much does it cost?",
+                  "five",
+                  "We watch a movie."
+                ],
+                "answerIndex": 1,
+                "translit": "bağası qanşa"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "How much does it cost?",
+                "bank": [
+                  "Бағасы",
+                  "қанша?"
+                ],
+                "answer": [
+                  "Бағасы",
+                  "қанша?"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Бағасы қанша?",
+                "answer": [
+                  "Бағасы",
+                  "қанша?"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Неге?",
+                "options": [
+                  "six",
+                  "What are you doing?",
+                  "Why?",
+                  "They are sitting at home."
+                ],
+                "answerIndex": 2,
+                "translit": "nege"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "Why?",
+                "bank": [
+                  "Неге?"
+                ],
+                "answer": [
+                  "Неге?"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Қашан?",
+                "options": [
+                  "ten",
+                  "Who is he/she?",
+                  "When?",
+                  "You're welcome."
+                ],
+                "answerIndex": 2,
+                "translit": "qaşan"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "When?",
+                "bank": [
+                  "Қашан?"
+                ],
+                "answer": [
+                  "Қашан?"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Қашан?",
+                "options": [
+                  "What is your name? (informal)",
+                  "Goodbye! (formal)",
+                  "When?",
+                  "eight"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Қайда барасың?",
+                "options": [
+                  "Where are you going?",
+                  "I am a student.",
+                  "Nice to meet you.",
+                  "Thank you!"
+                ],
+                "answerIndex": 0,
+                "translit": "qayda barasıñ"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "Where are you going?",
+                "bank": [
+                  "барасың?",
+                  "Қайда"
+                ],
+                "answer": [
+                  "Қайда",
+                  "барасың?"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Қайда барасың?",
+                "answer": [
+                  "Қайда",
+                  "барасың?"
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "Қайда барасың?",
+                "blankedEn": "Where are you ___",
+                "answer": "going",
+                "options": [
+                  "family",
+                  "going",
+                  "years",
+                  "Kazakh"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Не істеп жатырсың?",
+                "options": [
+                  "I am a student.",
+                  "What are you doing?",
+                  "I am a teacher.",
+                  "You're welcome."
+                ],
+                "answerIndex": 1,
+                "translit": "ne istep jatırsıñ"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "What are you doing?",
+                "bank": [
+                  "Не",
+                  "істеп",
+                  "жатырсың?"
+                ],
+                "answer": [
+                  "Не",
+                  "істеп",
+                  "жатырсың?"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Мұнда кім бар?",
+                "options": [
+                  "seven",
+                  "I have three siblings.",
+                  "You drink water. (informal)",
+                  "Who is here?"
+                ],
+                "answerIndex": 3,
+                "translit": "munda kim bar"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "Who is here?",
+                "bank": [
+                  "бар?",
+                  "кім",
+                  "Мұнда"
+                ],
+                "answer": [
+                  "Мұнда",
+                  "кім",
+                  "бар?"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Мұнда кім бар?",
+                "options": [
+                  "This is a yellow color.",
+                  "This is black.",
+                  "Who is here?",
+                  "The meat is tasty."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Сен нешедесің?",
+                "options": [
+                  "What color do you like? (informal)",
+                  "You drink water. (informal)",
+                  "He/she works as a teacher.",
+                  "How old are you? (informal)"
+                ],
+                "answerIndex": 3,
+                "translit": "sen neşedesiñ"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "How old are you? (informal)",
+                "bank": [
+                  "нешедесің?",
+                  "Сен"
+                ],
+                "answer": [
+                  "Сен",
+                  "нешедесің?"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Сен нешедесің?",
+                "answer": [
+                  "Сен",
+                  "нешедесің?"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Маған жиырма төрт жас.",
+                "options": [
+                  "twenty",
+                  "I speak Kazakh.",
+                  "six",
+                  "I am 24 years old."
+                ],
+                "answerIndex": 3,
+                "translit": "mağan jïırma tört jas"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "I am 24 years old.",
+                "bank": [
+                  "жас.",
+                  "жиырма",
+                  "төрт",
+                  "Маған"
+                ],
+                "answer": [
+                  "Маған",
+                  "жиырма",
+                  "төрт",
+                  "жас."
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "Маған жиырма төрт жас.",
+                "blankedEn": "I am 24 ___ old.",
+                "answer": "years",
+                "options": [
+                  "color",
+                  "years",
+                  "white",
+                  "Kazakhstan"
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Бұл не?",
+                    "en": "What is this?"
+                  },
+                  {
+                    "native": "Ол кім?",
+                    "en": "Who is he/she?"
+                  },
+                  {
+                    "native": "Дүкен қайда?",
+                    "en": "Where is the shop?"
+                  },
+                  {
+                    "native": "Сен қалайсың?",
+                    "en": "How are you? (informal)"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Бағасы қанша?",
+                    "en": "How much does it cost?"
+                  },
+                  {
+                    "native": "Неге?",
+                    "en": "Why?"
+                  },
+                  {
+                    "native": "Қашан?",
+                    "en": "When?"
+                  },
+                  {
+                    "native": "Қайда барасың?",
+                    "en": "Where are you going?"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Не істеп жатырсың?",
+                    "en": "What are you doing?"
+                  },
+                  {
+                    "native": "Мұнда кім бар?",
+                    "en": "Who is here?"
+                  },
+                  {
+                    "native": "Сен нешедесің?",
+                    "en": "How old are you? (informal)"
+                  },
+                  {
+                    "native": "Маған жиырма төрт жас.",
+                    "en": "I am 24 years old."
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Сұрақ сөздер"
+          },
+          {
+            "id": "kk-a1-6",
+            "number": 6,
+            "title": "Colors",
+            "description": "Colors",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Бұл ақ.",
+                "options": [
+                  "This is white.",
+                  "How old are you? (informal)",
+                  "ten",
+                  "His/her car is black."
+                ],
+                "answerIndex": 0,
+                "translit": "bul aq"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "This is white.",
+                "bank": [
+                  "ақ.",
+                  "Бұл"
+                ],
+                "answer": [
+                  "Бұл",
+                  "ақ."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Бұл ақ.",
+                "options": [
+                  "He is my son.",
+                  "Where are you going?",
+                  "This is my mother.",
+                  "This is white."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Бұл қара.",
+                "options": [
+                  "This is black.",
+                  "Goodbye! (formal)",
+                  "What is your family like? (informal)",
+                  "three"
+                ],
+                "answerIndex": 0,
+                "translit": "bul qara"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "This is black.",
+                "bank": [
+                  "Бұл",
+                  "қара."
+                ],
+                "answer": [
+                  "Бұл",
+                  "қара."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Бұл қара.",
+                "answer": [
+                  "Бұл",
+                  "қара."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Аспан көк.",
+                "options": [
+                  "The sky is blue.",
+                  "This is my father.",
+                  "Goodbye! (formal)",
+                  "This is my older brother."
+                ],
+                "answerIndex": 0,
+                "translit": "aspan kök"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "The sky is blue.",
+                "bank": [
+                  "Аспан",
+                  "көк."
+                ],
+                "answer": [
+                  "Аспан",
+                  "көк."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Шөп жасыл.",
+                "options": [
+                  "I like the color blue.",
+                  "They are sitting at home.",
+                  "The grass is green.",
+                  "This is my father."
+                ],
+                "answerIndex": 2,
+                "translit": "şöp jasıl"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "The grass is green.",
+                "bank": [
+                  "жасыл.",
+                  "Шөп"
+                ],
+                "answer": [
+                  "Шөп",
+                  "жасыл."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Шөп жасыл.",
+                "options": [
+                  "The grass is green.",
+                  "You're welcome.",
+                  "ten",
+                  "My shirt is white."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "fill-blank",
+                "native": "Шөп жасыл.",
+                "blankedEn": "The ___ is green.",
+                "answer": "grass",
+                "options": [
+                  "tasty",
+                  "siblings",
+                  "grass",
+                  "works"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Күн сары.",
+                "options": [
+                  "This is my older brother.",
+                  "four",
+                  "The apple is sweet.",
+                  "The sun is yellow."
+                ],
+                "answerIndex": 3,
+                "translit": "kün sarı"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "The sun is yellow.",
+                "bank": [
+                  "Күн",
+                  "сары."
+                ],
+                "answer": [
+                  "Күн",
+                  "сары."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Күн сары.",
+                "answer": [
+                  "Күн",
+                  "сары."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Алма қызыл.",
+                "options": [
+                  "They are sitting at home.",
+                  "The sky is blue.",
+                  "Good afternoon!",
+                  "The apple is red."
+                ],
+                "answerIndex": 3,
+                "translit": "alma qızıl"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "The apple is red.",
+                "bank": [
+                  "Алма",
+                  "қызыл."
+                ],
+                "answer": [
+                  "Алма",
+                  "қызыл."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Менің көйлегім ақ.",
+                "options": [
+                  "I'm fine, thank you.",
+                  "My shirt is white.",
+                  "two",
+                  "Good afternoon!"
+                ],
+                "answerIndex": 1,
+                "translit": "meniñ köylegim aq"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "My shirt is white.",
+                "bank": [
+                  "Менің",
+                  "ақ.",
+                  "көйлегім"
+                ],
+                "answer": [
+                  "Менің",
+                  "көйлегім",
+                  "ақ."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Менің көйлегім ақ.",
+                "options": [
+                  "Where are you from? (informal)",
+                  "My shirt is white.",
+                  "Which country are you from? (formal)",
+                  "I have three siblings."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Оның машинасы қара.",
+                "options": [
+                  "Hello! (formal)",
+                  "His/her car is black.",
+                  "This is my older sister.",
+                  "Bye! (informal)"
+                ],
+                "answerIndex": 1,
+                "translit": "onıñ maşïnası qara"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "His/her car is black.",
+                "bank": [
+                  "машинасы",
+                  "қара.",
+                  "Оның"
+                ],
+                "answer": [
+                  "Оның",
+                  "машинасы",
+                  "қара."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Оның машинасы қара.",
+                "answer": [
+                  "Оның",
+                  "машинасы",
+                  "қара."
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "Оның машинасы қара.",
+                "blankedEn": "___ car is black.",
+                "answer": "Hisher",
+                "options": [
+                  "siblings",
+                  "family",
+                  "eight",
+                  "Hisher"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Бұл сары түс.",
+                "options": [
+                  "Hi!",
+                  "This is milk.",
+                  "The water is cold.",
+                  "This is a yellow color."
+                ],
+                "answerIndex": 3,
+                "translit": "bul sarı tüs"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "This is a yellow color.",
+                "bank": [
+                  "түс.",
+                  "сары",
+                  "Бұл"
+                ],
+                "answer": [
+                  "Бұл",
+                  "сары",
+                  "түс."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Маған көк түс ұнайды.",
+                "options": [
+                  "I like the color blue.",
+                  "twenty",
+                  "My favorite color is green.",
+                  "Hi!"
+                ],
+                "answerIndex": 0,
+                "translit": "mağan kök tüs unaydı"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "I like the color blue.",
+                "bank": [
+                  "Маған",
+                  "түс",
+                  "көк",
+                  "ұнайды."
+                ],
+                "answer": [
+                  "Маған",
+                  "көк",
+                  "түс",
+                  "ұнайды."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Маған көк түс ұнайды.",
+                "options": [
+                  "The meat is tasty.",
+                  "eleven",
+                  "I like the color blue.",
+                  "This is my older sister."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Саған қандай түс ұнайды?",
+                "options": [
+                  "We watch a movie.",
+                  "I eat bread.",
+                  "five",
+                  "What color do you like? (informal)"
+                ],
+                "answerIndex": 3,
+                "translit": "sağan qanday tüs unaydı"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "What color do you like? (informal)",
+                "bank": [
+                  "қандай",
+                  "түс",
+                  "Саған",
+                  "ұнайды?"
+                ],
+                "answer": [
+                  "Саған",
+                  "қандай",
+                  "түс",
+                  "ұнайды?"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Саған қандай түс ұнайды?",
+                "answer": [
+                  "Саған",
+                  "қандай",
+                  "түс",
+                  "ұнайды?"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Менің сүйікті түсім жасыл.",
+                "options": [
+                  "My name is Aigul.",
+                  "My favorite color is green.",
+                  "Which country are you from? (formal)",
+                  "seven"
+                ],
+                "answerIndex": 1,
+                "translit": "meniñ süyikti tüsim jasıl"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "My favorite color is green.",
+                "bank": [
+                  "Менің",
+                  "сүйікті",
+                  "жасыл.",
+                  "түсім"
+                ],
+                "answer": [
+                  "Менің",
+                  "сүйікті",
+                  "түсім",
+                  "жасыл."
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "Менің сүйікті түсім жасыл.",
+                "blankedEn": "My favorite ___ is green.",
+                "answer": "color",
+                "options": [
+                  "color",
+                  "green",
+                  "much",
+                  "teacher"
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Бұл ақ.",
+                    "en": "This is white."
+                  },
+                  {
+                    "native": "Бұл қара.",
+                    "en": "This is black."
+                  },
+                  {
+                    "native": "Аспан көк.",
+                    "en": "The sky is blue."
+                  },
+                  {
+                    "native": "Шөп жасыл.",
+                    "en": "The grass is green."
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Күн сары.",
+                    "en": "The sun is yellow."
+                  },
+                  {
+                    "native": "Алма қызыл.",
+                    "en": "The apple is red."
+                  },
+                  {
+                    "native": "Менің көйлегім ақ.",
+                    "en": "My shirt is white."
+                  },
+                  {
+                    "native": "Оның машинасы қара.",
+                    "en": "His/her car is black."
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Бұл сары түс.",
+                    "en": "This is a yellow color."
+                  },
+                  {
+                    "native": "Маған көк түс ұнайды.",
+                    "en": "I like the color blue."
+                  },
+                  {
+                    "native": "Саған қандай түс ұнайды?",
+                    "en": "What color do you like? (informal)"
+                  },
+                  {
+                    "native": "Менің сүйікті түсім жасыл.",
+                    "en": "My favorite color is green."
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Түстер"
+          },
+          {
+            "id": "kk-a1-7",
+            "number": 7,
+            "title": "Everyday Verbs",
+            "description": "Everyday Verbs",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Мен тамақ жеймін.",
+                "options": [
+                  "You drink water. (informal)",
+                  "I eat food.",
+                  "Good afternoon!",
+                  "Where are you going?"
+                ],
+                "answerIndex": 1,
+                "translit": "men tamaq jeymin"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "I eat food.",
+                "bank": [
+                  "тамақ",
+                  "Мен",
+                  "жеймін."
+                ],
+                "answer": [
+                  "Мен",
+                  "тамақ",
+                  "жеймін."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Мен тамақ жеймін.",
+                "options": [
+                  "I eat food.",
+                  "The tea is hot.",
+                  "I work.",
+                  "I am from Kazakhstan."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Сен су ішесің.",
+                "options": [
+                  "You drink water. (informal)",
+                  "How are you? (informal)",
+                  "Do you drink tea? (informal)",
+                  "eleven"
+                ],
+                "answerIndex": 0,
+                "translit": "sen suw işesiñ"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "You drink water. (informal)",
+                "bank": [
+                  "ішесің.",
+                  "Сен",
+                  "су"
+                ],
+                "answer": [
+                  "Сен",
+                  "су",
+                  "ішесің."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Сен су ішесің.",
+                "answer": [
+                  "Сен",
+                  "су",
+                  "ішесің."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Ол кітап оқиды.",
+                "options": [
+                  "one",
+                  "The sky is blue.",
+                  "The apple is red.",
+                  "He/she reads a book."
+                ],
+                "answerIndex": 3,
+                "translit": "ol kitap oqïdı"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "He/she reads a book.",
+                "bank": [
+                  "оқиды.",
+                  "кітап",
+                  "Ол"
+                ],
+                "answer": [
+                  "Ол",
+                  "кітап",
+                  "оқиды."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Біз мектепке барамыз.",
+                "options": [
+                  "We go to school.",
+                  "How old are you? (informal)",
+                  "six",
+                  "You're welcome."
+                ],
+                "answerIndex": 0,
+                "translit": "biz mektepke baramız"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "We go to school.",
+                "bank": [
+                  "Біз",
+                  "барамыз.",
+                  "мектепке"
+                ],
+                "answer": [
+                  "Біз",
+                  "мектепке",
+                  "барамыз."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Біз мектепке барамыз.",
+                "options": [
+                  "I am a teacher.",
+                  "We go to school.",
+                  "Who is he/she?",
+                  "Good morning!"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "fill-blank",
+                "native": "Біз мектепке барамыз.",
+                "blankedEn": "We go to ___",
+                "answer": "school",
+                "options": [
+                  "family",
+                  "school",
+                  "sitting",
+                  "nine"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Олар үйде отыр.",
+                "options": [
+                  "eight",
+                  "Hi!",
+                  "They are sitting at home.",
+                  "I like the color blue."
+                ],
+                "answerIndex": 2,
+                "translit": "olar üyde otır"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "They are sitting at home.",
+                "bank": [
+                  "Олар",
+                  "отыр.",
+                  "үйде"
+                ],
+                "answer": [
+                  "Олар",
+                  "үйде",
+                  "отыр."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Олар үйде отыр.",
+                "answer": [
+                  "Олар",
+                  "үйде",
+                  "отыр."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Мен жұмыс істеймін.",
+                "options": [
+                  "I am 24 years old.",
+                  "I like the color blue.",
+                  "What color do you like? (informal)",
+                  "I work."
+                ],
+                "answerIndex": 3,
+                "translit": "men jumıs isteymin"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "I work.",
+                "bank": [
+                  "істеймін.",
+                  "жұмыс",
+                  "Мен"
+                ],
+                "answer": [
+                  "Мен",
+                  "жұмыс",
+                  "істеймін."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Сен ұйықтайсың ба?",
+                "options": [
+                  "This is a yellow color.",
+                  "What is your name? (informal)",
+                  "Are you sleeping? (informal)",
+                  "We go to school."
+                ],
+                "answerIndex": 2,
+                "translit": "sen uyqtaysıñ ba"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "Are you sleeping? (informal)",
+                "bank": [
+                  "ұйықтайсың",
+                  "Сен",
+                  "ба?"
+                ],
+                "answer": [
+                  "Сен",
+                  "ұйықтайсың",
+                  "ба?"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Сен ұйықтайсың ба?",
+                "options": [
+                  "Which country are you from? (formal)",
+                  "His/her car is black.",
+                  "Are you sleeping? (informal)",
+                  "What is your name? (formal)"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Мен қазақша сөйлеймін.",
+                "options": [
+                  "He is my son.",
+                  "How are you? (formal)",
+                  "I am a student.",
+                  "I speak Kazakh."
+                ],
+                "answerIndex": 3,
+                "translit": "men qazaqşa söyleymin"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "I speak Kazakh.",
+                "bank": [
+                  "сөйлеймін.",
+                  "қазақша",
+                  "Мен"
+                ],
+                "answer": [
+                  "Мен",
+                  "қазақша",
+                  "сөйлеймін."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Мен қазақша сөйлеймін.",
+                "answer": [
+                  "Мен",
+                  "қазақша",
+                  "сөйлеймін."
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "Мен қазақша сөйлеймін.",
+                "blankedEn": "I ___ Kazakh.",
+                "answer": "speak",
+                "options": [
+                  "mother",
+                  "sleeping",
+                  "speak",
+                  "three"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Сен ағылшынша білесің бе?",
+                "options": [
+                  "My shirt is white.",
+                  "Do you know English? (informal)",
+                  "Good morning!",
+                  "When?"
+                ],
+                "answerIndex": 1,
+                "translit": "sen ağılşınşa bilesiñ be"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "Do you know English? (informal)",
+                "bank": [
+                  "бе?",
+                  "Сен",
+                  "білесің",
+                  "ағылшынша"
+                ],
+                "answer": [
+                  "Сен",
+                  "ағылшынша",
+                  "білесің",
+                  "бе?"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Ол мұғалім болып жұмыс істейді.",
+                "options": [
+                  "Goodbye! (formal)",
+                  "eight",
+                  "He/she works as a teacher.",
+                  "Thank you!"
+                ],
+                "answerIndex": 2,
+                "translit": "ol muğalim bolıp jumıs isteydi"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "He/she works as a teacher.",
+                "bank": [
+                  "Ол",
+                  "мұғалім",
+                  "істейді.",
+                  "жұмыс",
+                  "болып"
+                ],
+                "answer": [
+                  "Ол",
+                  "мұғалім",
+                  "болып",
+                  "жұмыс",
+                  "істейді."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Ол мұғалім болып жұмыс істейді.",
+                "options": [
+                  "I am 24 years old.",
+                  "My shirt is white.",
+                  "I need bread.",
+                  "He/she works as a teacher."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Біз кино көреміз.",
+                "options": [
+                  "one",
+                  "He/she works as a teacher.",
+                  "We watch a movie.",
+                  "This is my grandmother."
+                ],
+                "answerIndex": 2,
+                "translit": "biz kïno köremiz"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "We watch a movie.",
+                "bank": [
+                  "көреміз.",
+                  "кино",
+                  "Біз"
+                ],
+                "answer": [
+                  "Біз",
+                  "кино",
+                  "көреміз."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Біз кино көреміз.",
+                "answer": [
+                  "Біз",
+                  "кино",
+                  "көреміз."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Мен үйге барамын.",
+                "options": [
+                  "I like the color blue.",
+                  "eight",
+                  "I am going home.",
+                  "Where is the shop?"
+                ],
+                "answerIndex": 2,
+                "translit": "men üyge baramın"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "I am going home.",
+                "bank": [
+                  "үйге",
+                  "Мен",
+                  "барамын."
+                ],
+                "answer": [
+                  "Мен",
+                  "үйге",
+                  "барамын."
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "Мен үйге барамын.",
+                "blankedEn": "I am ___ home.",
+                "answer": "going",
+                "options": [
+                  "name",
+                  "from",
+                  "sitting",
+                  "going"
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Мен тамақ жеймін.",
+                    "en": "I eat food."
+                  },
+                  {
+                    "native": "Сен су ішесің.",
+                    "en": "You drink water. (informal)"
+                  },
+                  {
+                    "native": "Ол кітап оқиды.",
+                    "en": "He/she reads a book."
+                  },
+                  {
+                    "native": "Біз мектепке барамыз.",
+                    "en": "We go to school."
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Олар үйде отыр.",
+                    "en": "They are sitting at home."
+                  },
+                  {
+                    "native": "Мен жұмыс істеймін.",
+                    "en": "I work."
+                  },
+                  {
+                    "native": "Сен ұйықтайсың ба?",
+                    "en": "Are you sleeping? (informal)"
+                  },
+                  {
+                    "native": "Мен қазақша сөйлеймін.",
+                    "en": "I speak Kazakh."
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Сен ағылшынша білесің бе?",
+                    "en": "Do you know English? (informal)"
+                  },
+                  {
+                    "native": "Ол мұғалім болып жұмыс істейді.",
+                    "en": "He/she works as a teacher."
+                  },
+                  {
+                    "native": "Біз кино көреміз.",
+                    "en": "We watch a movie."
+                  },
+                  {
+                    "native": "Мен үйге барамын.",
+                    "en": "I am going home."
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Күнделікті етістіктер"
+          },
+          {
+            "id": "kk-a1-8",
+            "number": 8,
+            "title": "Food & Drink",
+            "description": "Food & Drink",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Мен нан жеймін.",
+                "options": [
+                  "His/her car is black.",
+                  "I eat bread.",
+                  "You drink water. (informal)",
+                  "eleven"
+                ],
+                "answerIndex": 1,
+                "translit": "men nan jeymin"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "I eat bread.",
+                "bank": [
+                  "жеймін.",
+                  "Мен",
+                  "нан"
+                ],
+                "answer": [
+                  "Мен",
+                  "нан",
+                  "жеймін."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Мен нан жеймін.",
+                "options": [
+                  "This is my grandfather.",
+                  "I eat bread.",
+                  "Goodbye! (formal)",
+                  "What is your family like? (informal)"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Мен су ішкім келеді.",
+                "options": [
+                  "Nice to meet you.",
+                  "I want to drink water.",
+                  "Good afternoon!",
+                  "Who is here?"
+                ],
+                "answerIndex": 1,
+                "translit": "men suw işkim keledi"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "I want to drink water.",
+                "bank": [
+                  "Мен",
+                  "су",
+                  "ішкім",
+                  "келеді."
+                ],
+                "answer": [
+                  "Мен",
+                  "су",
+                  "ішкім",
+                  "келеді."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Мен су ішкім келеді.",
+                "answer": [
+                  "Мен",
+                  "су",
+                  "ішкім",
+                  "келеді."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Ет дәмді.",
+                "options": [
+                  "The meat is tasty.",
+                  "This is a yellow color.",
+                  "The grass is green.",
+                  "This is black."
+                ],
+                "answerIndex": 0,
+                "translit": "et dämdi"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "The meat is tasty.",
+                "bank": [
+                  "дәмді.",
+                  "Ет"
+                ],
+                "answer": [
+                  "Ет",
+                  "дәмді."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Шай ішесің бе?",
+                "options": [
+                  "Do you drink tea? (informal)",
+                  "Good evening!",
+                  "What is your name? (informal)",
+                  "I have three siblings."
+                ],
+                "answerIndex": 0,
+                "translit": "şay işesiñ be"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "Do you drink tea? (informal)",
+                "bank": [
+                  "бе?",
+                  "ішесің",
+                  "Шай"
+                ],
+                "answer": [
+                  "Шай",
+                  "ішесің",
+                  "бе?"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Шай ішесің бе?",
+                "options": [
+                  "nine",
+                  "Do you drink tea? (informal)",
+                  "I'm fine, thank you.",
+                  "I eat food."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "fill-blank",
+                "native": "Шай ішесің бе?",
+                "blankedEn": "Do you ___ tea? (informal)",
+                "answer": "drink",
+                "options": [
+                  "afternoon",
+                  "apple",
+                  "drink",
+                  "sister"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Мен кофе жақсы көремін.",
+                "options": [
+                  "I like coffee.",
+                  "How old are you? (informal)",
+                  "eight",
+                  "Which country are you from? (formal)"
+                ],
+                "answerIndex": 0,
+                "translit": "men kofe jaqsı köremin"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "I like coffee.",
+                "bank": [
+                  "Мен",
+                  "жақсы",
+                  "кофе",
+                  "көремін."
+                ],
+                "answer": [
+                  "Мен",
+                  "кофе",
+                  "жақсы",
+                  "көремін."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Мен кофе жақсы көремін.",
+                "answer": [
+                  "Мен",
+                  "кофе",
+                  "жақсы",
+                  "көремін."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Бұл сүт.",
+                "options": [
+                  "one",
+                  "What color do you like? (informal)",
+                  "What are you doing?",
+                  "This is milk."
+                ],
+                "answerIndex": 3,
+                "translit": "bul süt"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "This is milk.",
+                "bank": [
+                  "Бұл",
+                  "сүт."
+                ],
+                "answer": [
+                  "Бұл",
+                  "сүт."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Алма тәтті.",
+                "options": [
+                  "This is my older brother.",
+                  "The apple is sweet.",
+                  "I am 24 years old.",
+                  "Good morning!"
+                ],
+                "answerIndex": 1,
+                "translit": "alma tätti"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "The apple is sweet.",
+                "bank": [
+                  "тәтті.",
+                  "Алма"
+                ],
+                "answer": [
+                  "Алма",
+                  "тәтті."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Алма тәтті.",
+                "options": [
+                  "The apple is sweet.",
+                  "Why?",
+                  "The tea is hot.",
+                  "My shirt is white."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Мен ас үйде тамақ пісіремін.",
+                "options": [
+                  "I cook food in the kitchen.",
+                  "What is your name? (formal)",
+                  "ten",
+                  "This is my family."
+                ],
+                "answerIndex": 0,
+                "translit": "men as üyde tamaq pisiremin"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "I cook food in the kitchen.",
+                "bank": [
+                  "пісіремін.",
+                  "Мен",
+                  "ас",
+                  "үйде",
+                  "тамақ"
+                ],
+                "answer": [
+                  "Мен",
+                  "ас",
+                  "үйде",
+                  "тамақ",
+                  "пісіремін."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Мен ас үйде тамақ пісіремін.",
+                "answer": [
+                  "Мен",
+                  "ас",
+                  "үйде",
+                  "тамақ",
+                  "пісіремін."
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "Мен ас үйде тамақ пісіремін.",
+                "blankedEn": "I cook food in the ___",
+                "answer": "kitchen",
+                "options": [
+                  "shop",
+                  "kitchen",
+                  "coffee",
+                  "You're"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Су суық.",
+                "options": [
+                  "This is milk.",
+                  "What are you doing?",
+                  "The water is cold.",
+                  "I like the color blue."
+                ],
+                "answerIndex": 2,
+                "translit": "suw suwıq"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "The water is cold.",
+                "bank": [
+                  "суық.",
+                  "Су"
+                ],
+                "answer": [
+                  "Су",
+                  "суық."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Шай ыстық.",
+                "options": [
+                  "The tea is hot.",
+                  "Good evening!",
+                  "This is my mother.",
+                  "I cook food in the kitchen."
+                ],
+                "answerIndex": 0,
+                "translit": "şay ıstıq"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "The tea is hot.",
+                "bank": [
+                  "Шай",
+                  "ыстық."
+                ],
+                "answer": [
+                  "Шай",
+                  "ыстық."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Шай ыстық.",
+                "options": [
+                  "Nice to meet you.",
+                  "The tea is hot.",
+                  "I eat bread.",
+                  "Hello! (formal)"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Маған нан керек.",
+                "options": [
+                  "one",
+                  "This is my older brother.",
+                  "I need bread.",
+                  "This is my father."
+                ],
+                "answerIndex": 2,
+                "translit": "mağan nan kerek"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "I need bread.",
+                "bank": [
+                  "Маған",
+                  "нан",
+                  "керек."
+                ],
+                "answer": [
+                  "Маған",
+                  "нан",
+                  "керек."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Маған нан керек.",
+                "answer": [
+                  "Маған",
+                  "нан",
+                  "керек."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "kk-en",
+                "prompt": "Дәмді болды!",
+                "options": [
+                  "It was delicious!",
+                  "He is my son.",
+                  "Are you sleeping? (informal)",
+                  "They are sitting at home."
+                ],
+                "answerIndex": 0,
+                "translit": "dämdi boldı"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-kk",
+                "prompt": "It was delicious!",
+                "bank": [
+                  "болды!",
+                  "Дәмді"
+                ],
+                "answer": [
+                  "Дәмді",
+                  "болды!"
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "Дәмді болды!",
+                "blankedEn": "It was ___",
+                "answer": "delicious",
+                "options": [
+                  "speak",
+                  "father",
+                  "delicious",
+                  "afternoon"
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Мен нан жеймін.",
+                    "en": "I eat bread."
+                  },
+                  {
+                    "native": "Мен су ішкім келеді.",
+                    "en": "I want to drink water."
+                  },
+                  {
+                    "native": "Ет дәмді.",
+                    "en": "The meat is tasty."
+                  },
+                  {
+                    "native": "Шай ішесің бе?",
+                    "en": "Do you drink tea? (informal)"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Мен кофе жақсы көремін.",
+                    "en": "I like coffee."
+                  },
+                  {
+                    "native": "Бұл сүт.",
+                    "en": "This is milk."
+                  },
+                  {
+                    "native": "Алма тәтті.",
+                    "en": "The apple is sweet."
+                  },
+                  {
+                    "native": "Мен ас үйде тамақ пісіремін.",
+                    "en": "I cook food in the kitchen."
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Су суық.",
+                    "en": "The water is cold."
+                  },
+                  {
+                    "native": "Шай ыстық.",
+                    "en": "The tea is hot."
+                  },
+                  {
+                    "native": "Маған нан керек.",
+                    "en": "I need bread."
+                  },
+                  {
+                    "native": "Дәмді болды!",
+                    "en": "It was delicious!"
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Тамақ пен сусын"
+          }
+        ]
+      }
+    ]
+  }
+}

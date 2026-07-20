@@ -12,6 +12,7 @@
     { id: "arabic", file: "data/courses.json", legacyProgressKey: "muhkam-progress-v2", label: "Arabic — العربية", flag: "العربية" },
     { id: "tajik", file: "data/courses-tajik.json", label: "Tajik — Тоҷикӣ", flag: "Тоҷикӣ" },
     { id: "hebrew", file: "data/courses-hebrew.json", label: "Hebrew — עברית", flag: "עברית" },
+    { id: "kazakh", file: "data/courses-kazakh.json", label: "Kazakh — Қазақша", flag: "Қазақша" },
   ];
 
   // iOS Safari keeps a tapped <button> focused, which makes the
@@ -190,6 +191,7 @@
       /Google עברית/i,
       /Microsoft (Asaf|Avri).*(Natural|Online)/i,
     ],
+    kk: [],
   };
   let _voices = [];
   let _preferredVoiceEn = null;
