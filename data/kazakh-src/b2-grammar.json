@@ -1,0 +1,238 @@
+{
+  "level": "b2",
+  "grammarTopics": {
+    "b2-wishes": {
+      "title": "Wishes & Regrets: \"If Only\"",
+      "pattern": "[verb]+-са + екен = \"if only...\"",
+      "explanation": "Kazakh expresses a wistful wish or regret by combining the conditional (-са) with the particle екен: \"Барса екен!\" (If only he/she would go!), or for past regret, \"Барған болса екен\" (If only he/she had gone). The екен adds a note of hope or realization, distinct from a plain conditional statement.",
+      "fact": "You'll often hear \"екен\" tacked onto an ordinary sentence to mark that the speaker just realized or is reacting to something — \"Жаңбыр жауып тұр екен!\" (\"Oh, it's raining!\", as if noticing for the first time) — the same particle that flavors wishes also flavors fresh realizations.",
+      "dialogue": [
+        { "sp": "A", "native": "Ол келсе екен!", "en": "If only he/she would come!" },
+        { "sp": "B", "native": "Иә, күтіп жатырмыз.", "en": "Yes, we're waiting." }
+      ]
+    },
+    "b2-indirect-questions": {
+      "title": "Indirect Questions",
+      "pattern": "[embedded question] + ма/ме + екенін білу/сұрау = \"to know/ask whether...\"",
+      "explanation": "Kazakh embeds a yes/no question inside a larger sentence by keeping the original question particle and adding -екенін (\"that it is\") before the main verb: \"Ол келе ме екенін білмеймін\" (I don't know whether he/she is coming). For a wh-question, the question word stays, still followed by екенін.",
+      "fact": "This -екен(ін) suffix does the job English does with \"whether/if\" or \"that\" clauses — but it rides on the END of the embedded question rather than introducing it, mirroring Kazakh's general head-final word order.",
+      "dialogue": [
+        { "sp": "A", "native": "Ол келе ме екенін білесің бе?", "en": "Do you know whether he/she is coming? (informal)" },
+        { "sp": "B", "native": "Жоқ, білмеймін.", "en": "No, I don't know." }
+      ]
+    },
+    "b2-double-cases": {
+      "title": "Stacking Suffixes",
+      "pattern": "[possessor]+genitive + [noun]+possessive+case = long precise noun phrases",
+      "explanation": "Kazakh nouns can stack several suffixes in a fixed order to build compact phrases English needs several words for: genitive marks a possessor, a possessive suffix marks the possessed thing, and a further case suffix can attach on top: \"мектептің ауласындағы бала\" (\"the child in the schoolyard\", literally \"school-of yard-its-in child\").",
+      "fact": "The suffix order is fixed and never scrambles — once you know it, you can build arbitrarily long, precise noun phrases just by chaining suffixes onto a single root.",
+      "dialogue": [
+        { "sp": "A", "native": "Бала қайда ойнап жүр?", "en": "Where is the child playing?" },
+        { "sp": "B", "native": "Мектептің ауласында.", "en": "In the schoolyard." }
+      ]
+    },
+    "b2-aspectual-verbs": {
+      "title": "Aspectual Auxiliary Verbs",
+      "pattern": "[converb -ып/-іп] + тастау/қалу/шығу/жіберу = nuance of how an action completed",
+      "explanation": "Kazakh adds nuance to a verb's completion by pairing its converb form with a light auxiliary: \"жазып тастады\" (finished writing decisively), \"ұмытып қалды\" (ended up forgetting), \"естіп қалды\" (happened to hear). Each auxiliary carries its own flavor of completion.",
+      "fact": "These auxiliaries have mostly bleached out their original literal meaning (тастау alone means \"to throw/abandon\", қалу means \"to stay/remain\") — here they're pure grammatical nuance markers, similar to how English \"end up doing\" doesn't literally involve an end.",
+      "dialogue": [
+        { "sp": "A", "native": "Хатты жазып тастадың ба?", "en": "Did you finish writing the letter? (informal)" },
+        { "sp": "B", "native": "Иә, дайын.", "en": "Yes, it's ready." }
+      ]
+    },
+    "b2-modal-nuance": {
+      "title": "Degrees of Certainty",
+      "pattern": "шығар (probably), болар (perhaps/will likely be), мүмкін (maybe)",
+      "explanation": "шығар (from the verb \"to come out\") softens a guess: \"Үйде шығар\" (He's probably home). болар is similar but leans toward future likelihood: \"Жақсы болар\" (It'll probably be fine). мүмкін stands alone at the sentence start for a more open \"maybe\".",
+      "fact": "шығар and болар both grammaticalized from ordinary verbs (\"to emerge\", \"to become/be\") into fixed hedging particles — a common path across languages where a verb meaning \"to seem/emerge\" turns into an evidentiality marker over time.",
+      "dialogue": [
+        { "sp": "A", "native": "Ол қайда?", "en": "Where is he/she?" },
+        { "sp": "B", "native": "Үйде шығар.", "en": "Probably at home." }
+      ]
+    },
+    "b2-nominalization": {
+      "title": "Formal Nominalization",
+      "pattern": "[verb]+-у/-ым/-ыс/-іс = formal action noun",
+      "explanation": "Beyond the simple -у infinitive-noun, Kazakh has more formal nominalizing patterns common in official and written registers: \"келісу\" (to agree) relates to \"келісім\" (an agreement), \"шешу\" (to decide) to \"шешім\" (a decision). These nominal forms appear constantly in official documents, reports, and news.",
+      "fact": "Formal Kazakh writing leans heavily on nominalizations instead of full verb clauses, much like English officialese prefers \"the implementation of\" over \"we implemented\" — recognizing this pattern helps you read news and official texts more fluently.",
+      "dialogue": [
+        { "sp": "A", "native": "Келісімге қол қойылды ма?", "en": "Was the agreement signed?" },
+        { "sp": "B", "native": "Иә, кеше қол қойылды.", "en": "Yes, it was signed yesterday." }
+      ]
+    },
+    "b2-discourse-connectors": {
+      "title": "Advanced Connectors",
+      "pattern": "сондықтан (therefore), өйткені (because), әйтпесе (otherwise), соған қарамастан (nevertheless)",
+      "explanation": "These connectors link whole sentences in formal or careful speech, similar to English \"therefore\", \"because\", \"otherwise\", \"nevertheless\". сондықтан and өйткені are common in everyday explanation; әйтпесе and соған қарамастан show up more in argumentative or written contexts.",
+      "fact": "өйткені almost always starts a NEW sentence explaining the previous one, rather than joining mid-sentence like English \"because\" often does — Kazakh tends to state the result first, then a separate өйткені-sentence for the reason.",
+      "dialogue": [
+        { "sp": "A", "native": "Неге кешіктің?", "en": "Why were you late? (informal)" },
+        { "sp": "B", "native": "Көлік жүрмеді, сондықтан кештім.", "en": "The bus didn't come, so I was late." }
+      ]
+    },
+    "b2-relative-time": {
+      "title": "Relative Time Clauses",
+      "pattern": "[verb]+-мастан бұрын (before doing); [verb]+-ғаннан кейін (after doing)",
+      "explanation": "To sequence two actions precisely, Kazakh attaches -мастан бұрын (\"before doing X\") or -ғаннан кейін (\"after doing X\") to the first verb: \"тамақ ішместен бұрын қолымды жудым\" (I washed my hands before eating), \"жұмыстан келгеннен кейін демалдым\" (I rested after coming from work).",
+      "fact": "-мастан бұрын is built from the negative converb (-мас, \"not yet\") plus бұрын (\"before\") — literally \"before not-yet-doing\", a logical way to anchor \"before X\" to the moment X hasn't happened yet.",
+      "dialogue": [
+        { "sp": "A", "native": "Тамақ ішместен бұрын не істейсің?", "en": "What do you do before eating? (informal)" },
+        { "sp": "B", "native": "Қолымды жуамын.", "en": "I wash my hands." }
+      ]
+    },
+    "b2-hedging": {
+      "title": "Softening Statements",
+      "pattern": "сияқты (seems/like), шамамен (approximately), әлде (perhaps/or)",
+      "explanation": "сияқты softens a claim into an impression: \"Ол шаршаған сияқты\" (He/she seems tired). шамамен hedges a number: \"шамамен бес сағат\" (approximately five hours). әлде stands between two options to signal uncertainty: \"Ол келеді, әлде келмейді\" (He'll come, or maybe not).",
+      "fact": "сияқты is literally built from the equative -дай/-дей family you already know plus a support noun — the same underlying comparison logic you first met with \"арыстандай батыл\" (brave as a lion).",
+      "dialogue": [
+        { "sp": "A", "native": "Ол қалай?", "en": "How is he/she?" },
+        { "sp": "B", "native": "Шаршаған сияқты.", "en": "He/she seems tired." }
+      ]
+    },
+    "b2-passive-causative-combo": {
+      "title": "Combining Passive & Causative",
+      "pattern": "[verb]+causative+passive = \"is made to be done\"",
+      "explanation": "The causative and passive suffixes can stack on the same verb — causative first, then passive — to express that someone was made to have something done, or that an action was caused and then happened impersonally: \"оқытылды\" (was taught, from оқу→оқыт→оқытыл), \"тазартылды\" (was made clean).",
+      "fact": "This stacking order — causative before passive — is fixed and mirrors the logical order of events: first someone causes the action, then the passive removes the causer from focus, leaving only the impersonal \"was done\" result.",
+      "dialogue": [
+        { "sp": "A", "native": "Бөлме тазартылды ма?", "en": "Was the room cleaned?" },
+        { "sp": "B", "native": "Иә, таза.", "en": "Yes, it's clean." }
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Grammar: Wishes & Regrets",
+      "titleNative": "Тілек пен өкініш",
+      "topicId": "b2-wishes",
+      "items": [
+        { "kk": "Ол келсе екен!", "en": "If only he/she would come!", "translit": "ol kelse eken" },
+        { "kk": "Ақшам көп болса екен!", "en": "If only I had more money!", "translit": "aqşam köp bolsa eken" },
+        { "kk": "Уақыт болса екен!", "en": "If only there were time!", "translit": "waqıt bolsa eken" },
+        { "kk": "Ертерек білсем екен!", "en": "If only I had known earlier!", "translit": "erterek bilsem eken" },
+        { "kk": "Ол келген болса екен.", "en": "If only he/she had come.", "translit": "ol kelgen bolsa eken" },
+        { "kk": "Жаңбыр жауып тұр екен!", "en": "Oh, it's raining!", "translit": "jañbır jawıp tur eken" }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Grammar: Indirect Questions",
+      "titleNative": "Жанама сұрақтар",
+      "topicId": "b2-indirect-questions",
+      "items": [
+        { "kk": "Ол келе ме екенін білесің бе?", "en": "Do you know whether he/she is coming? (informal)", "translit": "ol kele me ekenin bilesiñ be" },
+        { "kk": "Жоқ, білмеймін.", "en": "No, I don't know.", "translit": "joq, bilmeymin" },
+        { "kk": "Қайда екенін білмеймін.", "en": "I don't know where it is.", "translit": "qayda ekenin bilmeymin" },
+        { "kk": "Ол келеді ме, келмейді ме, білмеймін.", "en": "I don't know whether he/she will come or not.", "translit": "ol keledi me, kelmeydi me, bilmeymin" },
+        { "kk": "Сен нешедесің екенін сұрады.", "en": "He/she asked how old you are. (informal)", "translit": "sen neşedesiñ ekenin suradı" }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Grammar: Stacking Suffixes",
+      "titleNative": "Жалғаулардың тізбегі",
+      "topicId": "b2-double-cases",
+      "items": [
+        { "kk": "Мектептің ауласындағы бала менің інім.", "en": "The child in the schoolyard is my younger brother.", "translit": "mekteptiñ awlasındağı bala meniñ inim" },
+        { "kk": "Достың үйіндегі кітап.", "en": "The book at the friend's house.", "translit": "dostıñ üyindegi kitap" },
+        { "kk": "Анамның қолындағы сөмке.", "en": "The bag in mother's hand.", "translit": "anamnıñ qolındağı sömke" },
+        { "kk": "Қаланың орталығындағы саябақ әдемі.", "en": "The park in the city center is beautiful.", "translit": "qalanıñ ortalığındağı sayabaq ädemi" },
+        { "kk": "Досымның бөлмесіндегі кітаптар көп.", "en": "There are many books in my friend's room.", "translit": "dosımnıñ bölmesindegi kitaptar köp" }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Grammar: Aspectual Auxiliaries",
+      "titleNative": "Күрделі етістіктер",
+      "topicId": "b2-aspectual-verbs",
+      "items": [
+        { "kk": "Хатты жазып тастадым.", "en": "I finished writing the letter (decisively).", "translit": "xattı jazıp tastadım" },
+        { "kk": "Мен ұмытып қалдым.", "en": "I ended up forgetting.", "translit": "men umıtıp qaldım" },
+        { "kk": "Ол кенеттен келіп қалды.", "en": "He/she suddenly showed up.", "translit": "ol kenetten kelip qaldı" },
+        { "kk": "Тамақты пісіріп қойдым.", "en": "I've already cooked the food (in advance).", "translit": "tamaqtı pisirip qoydım" },
+        { "kk": "Бәрін айтып жіберді.", "en": "He/she blurted out everything.", "translit": "bärin aytıp jiberdi" }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Grammar: Degrees of Certainty",
+      "titleNative": "Сенімділік дәрежесі",
+      "topicId": "b2-modal-nuance",
+      "items": [
+        { "kk": "Үйде шығар.", "en": "He/she is probably at home.", "translit": "üyde şığar" },
+        { "kk": "Жақсы болар.", "en": "It'll probably be fine.", "translit": "jaqsı bolar" },
+        { "kk": "Мүмкін, ол ұмытқан шығар.", "en": "Maybe he/she forgot.", "translit": "mümkin, ol umıtqan şığar" },
+        { "kk": "Ертең жаңбыр жауар шығар.", "en": "It'll probably rain tomorrow.", "translit": "erteñ jañbır jawar şığar" },
+        { "kk": "Ол келмейтін шығар.", "en": "He/she probably won't come.", "translit": "ol kelmeytin şığar" }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Grammar: Formal Nominalization",
+      "titleNative": "Ресми зат есімдену",
+      "topicId": "b2-nominalization",
+      "items": [
+        { "kk": "Келісімге қол қойылды.", "en": "The agreement was signed.", "translit": "kelisimge qol qoyıldı" },
+        { "kk": "Жиналысқа қатысу міндетті.", "en": "Participation in the meeting is mandatory.", "translit": "jïnalısqa qatısw mindetti" },
+        { "kk": "Шешім қабылдау оңай емес.", "en": "Decision-making is not easy.", "translit": "şeşim qabıldaw oñay emes" },
+        { "kk": "Білім алу құқығы бар.", "en": "Everyone has the right to receive education.", "translit": "bilim alw quqığı bar" },
+        { "kk": "Жоспарды іске асыру басталды.", "en": "Implementation of the plan has begun.", "translit": "jospardı iske asırw bastaldı" }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Grammar: Advanced Connectors",
+      "titleNative": "Күрделі жалғаулықтар",
+      "topicId": "b2-discourse-connectors",
+      "items": [
+        { "kk": "Көлік жүрмеді, сондықтан кештім.", "en": "The bus didn't come, so I was late.", "translit": "kölik jürmedi, sondıqtan keştim" },
+        { "kk": "Мен келмедім, өйткені ауырдым.", "en": "I didn't come because I was sick.", "translit": "men kelmedim, öytkeni awırdım" },
+        { "kk": "Тез шық, әйтпесе кешігесің.", "en": "Go out quickly, otherwise you'll be late. (informal)", "translit": "tez şıq, äytpese keşigesiñ" },
+        { "kk": "Қиын болса да, соған қарамастан жалғастырдық.", "en": "Even though it was hard, we continued nevertheless.", "translit": "qïın bolsa da, soğan qaramastan jalğastırdıq" },
+        { "kk": "Уақыт аз, сондықтан асығу керек.", "en": "Time is short, so we need to hurry.", "translit": "waqıt az, sondıqtan asığw kerek" }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Grammar: Relative Time Clauses",
+      "titleNative": "Мезгіл бағыныңқы сөйлемдер",
+      "topicId": "b2-relative-time",
+      "items": [
+        { "kk": "Тамақ ішместен бұрын қолымды жудым.", "en": "I washed my hands before eating.", "translit": "tamaq işmesten burın qolımdı judım" },
+        { "kk": "Жұмыстан келгеннен кейін демалдым.", "en": "I rested after coming from work.", "translit": "jumıstan kelgennen keyin demaldım" },
+        { "kk": "Ұйықтастан бұрын кітап оқимын.", "en": "I read a book before sleeping.", "translit": "uyıqtastan burın kitap oqïmın" },
+        { "kk": "Сабақ біткеннен кейін үйге бардым.", "en": "I went home after class finished.", "translit": "sabaq bitkennen keyin üyge bardım" },
+        { "kk": "Шешім қабылдамастан бұрын ойлан.", "en": "Think before making a decision. (informal)", "translit": "şeşim qabıldamastan burın oylan" }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Grammar: Softening Statements",
+      "titleNative": "Жұмсарту тәсілдері",
+      "topicId": "b2-hedging",
+      "items": [
+        { "kk": "Ол шаршаған сияқты.", "en": "He/she seems tired.", "translit": "ol şarşağan sïyaqtı" },
+        { "kk": "Шамамен бес сағат жүрдік.", "en": "We walked for approximately five hours.", "translit": "şamamen bes sağat jürdik" },
+        { "kk": "Ол келеді, әлде келмейді.", "en": "He'll come, or maybe not.", "translit": "ol keledi, älde kelmeydi" },
+        { "kk": "Жаңбыр жауатын сияқты.", "en": "It seems like it's going to rain.", "translit": "jañbır jawatın sïyaqtı" },
+        { "kk": "Шамамен жиырма адам келді.", "en": "Approximately twenty people came.", "translit": "şamamen jïırma adam keldi" }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Grammar: Passive + Causative",
+      "titleNative": "Ырықсыз және ортақ етіс",
+      "topicId": "b2-passive-causative-combo",
+      "items": [
+        { "kk": "Бөлме тазартылды.", "en": "The room was cleaned.", "translit": "bölme tazartıldı" },
+        { "kk": "Балалар оқытылды.", "en": "The children were taught.", "translit": "balalar oqıtıldı" },
+        { "kk": "Жоба аяқтатылды.", "en": "The project was made to be completed.", "translit": "joba ayaqtatıldı" },
+        { "kk": "Хат жаздырылды.", "en": "The letter was had-written.", "translit": "xat jazdırıldı" },
+        { "kk": "Тамақ пісірілді.", "en": "The food was cooked.", "translit": "tamaq pisirildi" }
+      ]
+    }
+  ]
+}
