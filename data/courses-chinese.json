@@ -1,0 +1,5951 @@
+{
+  "course": {
+    "id": "chinese-pinyin",
+    "title": "Chinese (Pinyin), Start to Fluent",
+    "subtitle": "Mandarin Chinese from absolute beginner through everyday fluency — every lesson shown in pinyin only, so you can start speaking immediately without first learning to read Hanzi characters",
+    "dir": "ltr",
+    "lang": "zh",
+    "languageName": "Chinese",
+    "fontNative": "'Inter', 'Noto Sans', sans-serif",
+    "flag": "Zhōngwén",
+    "heroEyebrow": "Mandarin Chinese (Pinyin) · A1 → C1",
+    "heroNative": "Cóng Jīchǔ dào Liúlì",
+    "heroLedeSuffix": "Real sentences from lesson one, shown entirely in pinyin — audio is real native-quality Mandarin pronunciation, so your ear learns the real language while your eyes read Latin script.",
+    "uiStrings": {
+      "wordHoard": "cíhuì kù",
+      "review": "fùxí",
+      "revision": "liànxí"
+    },
+    "grammarTopics": {
+      "a1-shi-tobe": {
+        "title": "The Verb 'To Be' (shì)",
+        "pattern": "Subject + shì + Noun",
+        "explanation": "Chinese verbs never conjugate for person or number — shì ('to be') stays exactly the same whether the subject is I, you, he, or they. To negate, place bù directly before it: bú shì ('is not'). There is no equivalent of English am/is/are — just one unchanging word.",
+        "fact": "shì is only used to link two nouns (X is Y). To describe a quality with an adjective (e.g. 'I am tall'), Chinese normally drops shì entirely and uses the adjective directly as the predicate: wǒ hěn gāo ('I am very tall') — no shì at all. Inserting shì there is one of the most common mistakes beginners make.",
+        "dialogue": [
+          {
+            "sp": "A",
+            "native": "Nǐ shì xuéshēng ma?",
+            "en": "Are you a student?"
+          },
+          {
+            "sp": "B",
+            "native": "Shì, wǒ shì xuéshēng. Nǐ ne?",
+            "en": "Yes, I am a student. And you?"
+          },
+          {
+            "sp": "A",
+            "native": "Wǒ bú shì xuéshēng, wǒ shì lǎoshī.",
+            "en": "I'm not a student, I'm a teacher."
+          }
+        ]
+      },
+      "a1-negation": {
+        "title": "Negation: bù vs méi",
+        "pattern": "bù + verb/adjective  |  méi(yǒu) + verb",
+        "explanation": "bù negates almost everything — verbs, adjectives, and future or habitual actions: wǒ bú qù ('I'm not going'), wǒ bù gāo ('I'm not tall'). méi, often as méiyǒu, negates possession ('don't have') and completed past actions: wǒ méiyǒu qián ('I don't have money'), wǒ méi chī zǎofàn ('I didn't eat breakfast'). Crucially, méi is never used with shì — 'is not' is always bú shì, never méi shì.",
+        "fact": "bù changes tone before another fourth-tone syllable — it becomes second tone (bú) instead of fourth (bù), e.g. 'is not' is pronounced bú shì, not bù shì, even though the underlying word never changes, only the spoken tone. This is why you'll see both bù and bú written in these lessons.",
+        "dialogue": [
+          {
+            "sp": "A",
+            "native": "Nǐ yǒu shíjiān ma?",
+            "en": "Do you have time?"
+          },
+          {
+            "sp": "B",
+            "native": "Duìbuqǐ, wǒ méiyǒu shíjiān.",
+            "en": "Sorry, I don't have time."
+          },
+          {
+            "sp": "A",
+            "native": "Méi guānxi, wǒmen míngtiān zài shuō.",
+            "en": "It's okay, we'll talk again tomorrow."
+          }
+        ]
+      },
+      "a1-questions": {
+        "title": "Yes/No Questions with ma",
+        "pattern": "Statement + ma?",
+        "explanation": "To turn any statement into a yes/no question, simply add the particle ma to the very end — no word order change, no auxiliary verb needed: nǐ shì xuéshēng ('You are a student') → nǐ shì xuéshēng ma? ('Are you a student?'). This is dramatically simpler than English question formation.",
+        "fact": "ma can never be combined with a question word like shénme ('what') or shéi ('who') in the same sentence — a sentence already containing a question word is already a question, and adding ma on top is a common beginner error that native speakers immediately notice sounds wrong.",
+        "dialogue": [
+          {
+            "sp": "A",
+            "native": "Zhè shì nǐ de bēizi ma?",
+            "en": "Is this your cup?"
+          },
+          {
+            "sp": "B",
+            "native": "Bú shì, nà shì tā de.",
+            "en": "No, that's hers."
+          },
+          {
+            "sp": "A",
+            "native": "Nà zhè shì shéi de?",
+            "en": "Then whose is this?"
+          }
+        ]
+      },
+      "a1-measure-words": {
+        "title": "Measure Words (liàngcí)",
+        "pattern": "Number + Measure Word + Noun",
+        "explanation": "Unlike English, Chinese requires a measure word between a number and almost every noun — you cannot say 'one book' as yī shū, you must say yì běn shū ('one [volume] book'). Different measure words go with different categories of noun: gè is the general, all-purpose measure word usable for most nouns when unsure; běn is for bound printed things like books; zhāng is for flat objects like paper or tickets; zhī is for many animals.",
+        "fact": "gè alone can safely substitute for almost any specific measure word in casual speech and will still be understood — a genuinely useful shortcut for beginners, even though native speakers use the more precise word when they know it.",
+        "dialogue": [
+          {
+            "sp": "A",
+            "native": "Nǐ yào jǐ gè jiǎozi?",
+            "en": "How many dumplings would you like?"
+          },
+          {
+            "sp": "B",
+            "native": "Wǒ yào shí gè jiǎozi hé yì bēi chá.",
+            "en": "I'd like ten dumplings and a cup of tea."
+          },
+          {
+            "sp": "A",
+            "native": "Hǎo de, mǎshàng lái.",
+            "en": "Sure, coming right up."
+          }
+        ]
+      }
+    },
+    "levels": [
+      {
+        "id": "a1",
+        "cefr": "A1",
+        "label": "Foundations",
+        "labelNative": "Jīchǔ",
+        "lessons": [
+          {
+            "id": "zh-a1-1",
+            "number": 1,
+            "title": "Greetings & Introductions",
+            "description": "Greetings & Introductions",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Nǐ hǎo!",
+                "promptHanzi": "你好！",
+                "options": [
+                  "Hello!",
+                  "I want to eat.",
+                  "Xiao Li and her friend go to a restaurant to eat.",
+                  "noodles"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "Hello!",
+                "bank": [
+                  "hǎo!",
+                  "Nǐ"
+                ],
+                "answer": [
+                  "Nǐ",
+                  "hǎo!"
+                ],
+                "answerHanzi": "你好！"
+              },
+              {
+                "type": "listening",
+                "native": "Nǐ hǎo!",
+                "nativeHanzi": "你好！",
+                "options": [
+                  "yellow",
+                  "One book",
+                  "Hello!",
+                  "I'm very well."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Nǐ hǎo ma?",
+                "promptHanzi": "你好吗？",
+                "options": [
+                  "What is this?",
+                  "to write",
+                  "How are you?",
+                  "Ten"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "How are you?",
+                "bank": [
+                  "Nǐ",
+                  "hǎo",
+                  "ma?"
+                ],
+                "answer": [
+                  "Nǐ",
+                  "hǎo",
+                  "ma?"
+                ],
+                "answerHanzi": "你好吗？"
+              },
+              {
+                "type": "listening-tap",
+                "native": "Nǐ hǎo ma?",
+                "nativeHanzi": "你好吗？",
+                "answer": [
+                  "Nǐ",
+                  "hǎo",
+                  "ma?"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Wǒ hěn hǎo.",
+                "promptHanzi": "我很好。",
+                "options": [
+                  "Are you a teacher?",
+                  "I'm very well.",
+                  "At 8 o'clock he goes to school.",
+                  "He gets up at 7am."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "I'm very well.",
+                "bank": [
+                  "hěn",
+                  "Wǒ",
+                  "hǎo."
+                ],
+                "answer": [
+                  "Wǒ",
+                  "hěn",
+                  "hǎo."
+                ],
+                "answerHanzi": "我很好。"
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Zàijiàn!",
+                "promptHanzi": "再见！",
+                "options": [
+                  "I have an older brother.",
+                  "Goodbye!",
+                  "You are a teacher.",
+                  "How much is this?"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "Goodbye!",
+                "bank": [
+                  "Zàijiàn!"
+                ],
+                "answer": [
+                  "Zàijiàn!"
+                ],
+                "answerHanzi": "再见！"
+              },
+              {
+                "type": "listening",
+                "native": "Zàijiàn!",
+                "nativeHanzi": "再见！",
+                "options": [
+                  "Goodbye!",
+                  "Four",
+                  "to see / look / watch",
+                  "to speak"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "fill-blank",
+                "native": "Zàijiàn!",
+                "blankedEn": "___",
+                "answer": "Goodbye",
+                "options": [
+                  "accept",
+                  "card",
+                  "doctor",
+                  "Goodbye"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Xièxie!",
+                "promptHanzi": "谢谢！",
+                "options": [
+                  "She is not my teacher.",
+                  "he / him",
+                  "Thank you!",
+                  "There are three tickets on the table."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "Thank you!",
+                "bank": [
+                  "Xièxie!"
+                ],
+                "answer": [
+                  "Xièxie!"
+                ],
+                "answerHanzi": "谢谢！"
+              },
+              {
+                "type": "listening-tap",
+                "native": "Xièxie!",
+                "nativeHanzi": "谢谢！",
+                "answer": [
+                  "Xièxie!"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Bú kèqi.",
+                "promptHanzi": "不客气。",
+                "options": [
+                  "Are you hungry?",
+                  "You're welcome.",
+                  "I want to eat.",
+                  "I am not a doctor."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "You're welcome.",
+                "bank": [
+                  "kèqi.",
+                  "Bú"
+                ],
+                "answer": [
+                  "Bú",
+                  "kèqi."
+                ],
+                "answerHanzi": "不客气。"
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Duìbuqǐ.",
+                "promptHanzi": "对不起。",
+                "options": [
+                  "dumplings",
+                  "We are learning Chinese.",
+                  "I'm sorry.",
+                  "He gets up at 7am."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "I'm sorry.",
+                "bank": [
+                  "Duìbuqǐ."
+                ],
+                "answer": [
+                  "Duìbuqǐ."
+                ],
+                "answerHanzi": "对不起。"
+              },
+              {
+                "type": "listening",
+                "native": "Duìbuqǐ.",
+                "nativeHanzi": "对不起。",
+                "options": [
+                  "I'm sorry.",
+                  "So cheap!",
+                  "Five yuan.",
+                  "She is very busy."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Méi guānxi.",
+                "promptHanzi": "没关系。",
+                "options": [
+                  "What time is it now?",
+                  "red",
+                  "It's okay.",
+                  "We aren't hungry."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "It's okay.",
+                "bank": [
+                  "guānxi.",
+                  "Méi"
+                ],
+                "answer": [
+                  "Méi",
+                  "guānxi."
+                ],
+                "answerHanzi": "没关系。"
+              },
+              {
+                "type": "listening-tap",
+                "native": "Méi guānxi.",
+                "nativeHanzi": "没关系。",
+                "answer": [
+                  "Méi",
+                  "guānxi."
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "Méi guānxi.",
+                "blankedEn": "It's ___",
+                "answer": "okay",
+                "options": [
+                  "okay",
+                  "people",
+                  "credit",
+                  "Thank"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Wǒ jiào Lǐ Míng.",
+                "promptHanzi": "我叫李明。",
+                "options": [
+                  "blue",
+                  "green",
+                  "My name is Li Ming.",
+                  "tomorrow"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "My name is Li Ming.",
+                "bank": [
+                  "Wǒ",
+                  "Míng.",
+                  "Lǐ",
+                  "jiào"
+                ],
+                "answer": [
+                  "Wǒ",
+                  "jiào",
+                  "Lǐ",
+                  "Míng."
+                ],
+                "answerHanzi": "我叫李明。"
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Nǐ jiào shénme míngzi?",
+                "promptHanzi": "你叫什么名字？",
+                "options": [
+                  "What is your name?",
+                  "One book",
+                  "I didn't see your phone.",
+                  "Eleven"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "What is your name?",
+                "bank": [
+                  "shénme",
+                  "Nǐ",
+                  "míngzi?",
+                  "jiào"
+                ],
+                "answer": [
+                  "Nǐ",
+                  "jiào",
+                  "shénme",
+                  "míngzi?"
+                ],
+                "answerHanzi": "你叫什么名字？"
+              },
+              {
+                "type": "listening",
+                "native": "Nǐ jiào shénme míngzi?",
+                "nativeHanzi": "你叫什么名字？",
+                "options": [
+                  "He eats breakfast and drinks milk.",
+                  "Would you like tea or coffee?",
+                  "After eating, they pay, then go home.",
+                  "What is your name?"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Hěn gāoxìng rènshi nǐ.",
+                "promptHanzi": "很高兴认识你。",
+                "options": [
+                  "We are learning Chinese.",
+                  "This is my father.",
+                  "I am not a doctor.",
+                  "Nice to meet you."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "Nice to meet you.",
+                "bank": [
+                  "Hěn",
+                  "gāoxìng",
+                  "nǐ.",
+                  "rènshi"
+                ],
+                "answer": [
+                  "Hěn",
+                  "gāoxìng",
+                  "rènshi",
+                  "nǐ."
+                ],
+                "answerHanzi": "很高兴认识你。"
+              },
+              {
+                "type": "listening-tap",
+                "native": "Hěn gāoxìng rènshi nǐ.",
+                "nativeHanzi": "很高兴认识你。",
+                "answer": [
+                  "Hěn",
+                  "gāoxìng",
+                  "rènshi",
+                  "nǐ."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Zǎoshang hǎo!",
+                "promptHanzi": "早上好！",
+                "options": [
+                  "He gets up at 7am.",
+                  "Goodbye!",
+                  "Can I pay by card?",
+                  "Good morning!"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "Good morning!",
+                "bank": [
+                  "Zǎoshang",
+                  "hǎo!"
+                ],
+                "answer": [
+                  "Zǎoshang",
+                  "hǎo!"
+                ],
+                "answerHanzi": "早上好！"
+              },
+              {
+                "type": "fill-blank",
+                "native": "Zǎoshang hǎo!",
+                "blankedEn": "Good ___",
+                "answer": "morning",
+                "options": [
+                  "Eleven",
+                  "morning",
+                  "school",
+                  "It's"
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Nǐ hǎo!",
+                    "en": "Hello!"
+                  },
+                  {
+                    "native": "Nǐ hǎo ma?",
+                    "en": "How are you?"
+                  },
+                  {
+                    "native": "Wǒ hěn hǎo.",
+                    "en": "I'm very well."
+                  },
+                  {
+                    "native": "Zàijiàn!",
+                    "en": "Goodbye!"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Xièxie!",
+                    "en": "Thank you!"
+                  },
+                  {
+                    "native": "Bú kèqi.",
+                    "en": "You're welcome."
+                  },
+                  {
+                    "native": "Duìbuqǐ.",
+                    "en": "I'm sorry."
+                  },
+                  {
+                    "native": "Méi guānxi.",
+                    "en": "It's okay."
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Wǒ jiào Lǐ Míng.",
+                    "en": "My name is Li Ming."
+                  },
+                  {
+                    "native": "Nǐ jiào shénme míngzi?",
+                    "en": "What is your name?"
+                  },
+                  {
+                    "native": "Hěn gāoxìng rènshi nǐ.",
+                    "en": "Nice to meet you."
+                  },
+                  {
+                    "native": "Zǎoshang hǎo!",
+                    "en": "Good morning!"
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Wènhòu yǔ Zìwǒ Jièshào"
+          },
+          {
+            "id": "zh-a1-2",
+            "number": 2,
+            "title": "Numbers 0-20",
+            "description": "Numbers 0-20",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Líng",
+                "promptHanzi": "零",
+                "options": [
+                  "Ten",
+                  "Too expensive.",
+                  "Do you accept credit cards here?",
+                  "Zero"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "Zero",
+                "bank": [
+                  "Líng"
+                ],
+                "answer": [
+                  "Líng"
+                ],
+                "answerHanzi": "零"
+              },
+              {
+                "type": "listening",
+                "native": "Líng",
+                "nativeHanzi": "零",
+                "options": [
+                  "See you on Friday.",
+                  "dumplings",
+                  "Zero",
+                  "School ends at 3pm."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Yī",
+                "promptHanzi": "一",
+                "options": [
+                  "How much money?",
+                  "One",
+                  "There are three tickets on the table.",
+                  "It's 3pm now."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "One",
+                "bank": [
+                  "Yī"
+                ],
+                "answer": [
+                  "Yī"
+                ],
+                "answerHanzi": "一"
+              },
+              {
+                "type": "listening-tap",
+                "native": "Yī",
+                "nativeHanzi": "一",
+                "answer": [
+                  "Yī"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Èr",
+                "promptHanzi": "二",
+                "options": [
+                  "Is this your book?",
+                  "Eight",
+                  "You're welcome.",
+                  "Two"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "Two",
+                "bank": [
+                  "Èr"
+                ],
+                "answer": [
+                  "Èr"
+                ],
+                "answerHanzi": "二"
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Sān",
+                "promptHanzi": "三",
+                "options": [
+                  "My name is Li Ming.",
+                  "yellow",
+                  "Three",
+                  "Nice to meet you."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "Three",
+                "bank": [
+                  "Sān"
+                ],
+                "answer": [
+                  "Sān"
+                ],
+                "answerHanzi": "三"
+              },
+              {
+                "type": "listening",
+                "native": "Sān",
+                "nativeHanzi": "三",
+                "options": [
+                  "I'm very hungry, I want to eat dumplings.",
+                  "Three",
+                  "Do you accept credit cards here?",
+                  "Two cats"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "fill-blank",
+                "native": "Sān",
+                "blankedEn": "___",
+                "answer": "Three",
+                "options": [
+                  "Three",
+                  "Fifteen",
+                  "Good",
+                  "credit"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Sì",
+                "promptHanzi": "四",
+                "options": [
+                  "This is my father.",
+                  "Eight",
+                  "See you on Friday.",
+                  "Four"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "Four",
+                "bank": [
+                  "Sì"
+                ],
+                "answer": [
+                  "Sì"
+                ],
+                "answerHanzi": "四"
+              },
+              {
+                "type": "listening-tap",
+                "native": "Sì",
+                "nativeHanzi": "四",
+                "answer": [
+                  "Sì"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Wǔ",
+                "promptHanzi": "五",
+                "options": [
+                  "Three",
+                  "It's okay.",
+                  "Five yuan.",
+                  "Five"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "Five",
+                "bank": [
+                  "Wǔ"
+                ],
+                "answer": [
+                  "Wǔ"
+                ],
+                "answerHanzi": "五"
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Liù",
+                "promptHanzi": "六",
+                "options": [
+                  "Two cats",
+                  "to walk / go",
+                  "I don't like coffee.",
+                  "Six"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "Six",
+                "bank": [
+                  "Liù"
+                ],
+                "answer": [
+                  "Liù"
+                ],
+                "answerHanzi": "六"
+              },
+              {
+                "type": "listening",
+                "native": "Liù",
+                "nativeHanzi": "六",
+                "options": [
+                  "Six",
+                  "One apple",
+                  "In the evening he does homework, then sleeps.",
+                  "noodles"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Qī",
+                "promptHanzi": "七",
+                "options": [
+                  "What day is it today?",
+                  "It's 3pm now.",
+                  "Seven",
+                  "green"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "Seven",
+                "bank": [
+                  "Qī"
+                ],
+                "answer": [
+                  "Qī"
+                ],
+                "answerHanzi": "七"
+              },
+              {
+                "type": "listening-tap",
+                "native": "Qī",
+                "nativeHanzi": "七",
+                "answer": [
+                  "Qī"
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "Qī",
+                "blankedEn": "___",
+                "answer": "Seven",
+                "options": [
+                  "Please",
+                  "Four",
+                  "Seven",
+                  "listen"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Bā",
+                "promptHanzi": "八",
+                "options": [
+                  "I'm sorry.",
+                  "Eight",
+                  "At 8 o'clock he goes to school.",
+                  "Too expensive."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "Eight",
+                "bank": [
+                  "Bā"
+                ],
+                "answer": [
+                  "Bā"
+                ],
+                "answerHanzi": "八"
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Jiǔ",
+                "promptHanzi": "九",
+                "options": [
+                  "to see / look / watch",
+                  "Nine",
+                  "In the evening he does homework, then sleeps.",
+                  "milk"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "Nine",
+                "bank": [
+                  "Jiǔ"
+                ],
+                "answer": [
+                  "Jiǔ"
+                ],
+                "answerHanzi": "九"
+              },
+              {
+                "type": "listening",
+                "native": "Jiǔ",
+                "nativeHanzi": "九",
+                "options": [
+                  "Monday",
+                  "noodles",
+                  "Nine",
+                  "There are three tickets on the table."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Shí",
+                "promptHanzi": "十",
+                "options": [
+                  "Ten",
+                  "Is this your book?",
+                  "Eight",
+                  "My family has one cat."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "Ten",
+                "bank": [
+                  "Shí"
+                ],
+                "answer": [
+                  "Shí"
+                ],
+                "answerHanzi": "十"
+              },
+              {
+                "type": "listening-tap",
+                "native": "Shí",
+                "nativeHanzi": "十",
+                "answer": [
+                  "Shí"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Shíyī",
+                "promptHanzi": "十一",
+                "options": [
+                  "Eleven",
+                  "Is this your book?",
+                  "fruit",
+                  "The waiter asks: \"What would you like to eat?\""
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "Eleven",
+                "bank": [
+                  "Shíyī"
+                ],
+                "answer": [
+                  "Shíyī"
+                ],
+                "answerHanzi": "十一"
+              },
+              {
+                "type": "fill-blank",
+                "native": "Shíyī",
+                "blankedEn": "___",
+                "answer": "Eleven",
+                "options": [
+                  "green",
+                  "Eleven",
+                  "Eight",
+                  "There's"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Shíwǔ",
+                "promptHanzi": "十五",
+                "options": [
+                  "Xiao Ming is a student. He is ten years old.",
+                  "Fifteen",
+                  "One book",
+                  "How much money?"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "Fifteen",
+                "bank": [
+                  "Shíwǔ"
+                ],
+                "answer": [
+                  "Shíwǔ"
+                ],
+                "answerHanzi": "十五"
+              },
+              {
+                "type": "listening",
+                "native": "Shíwǔ",
+                "nativeHanzi": "十五",
+                "options": [
+                  "Seven",
+                  "I didn't go to school yesterday.",
+                  "Fifteen",
+                  "green"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Èrshí",
+                "promptHanzi": "二十",
+                "options": [
+                  "yesterday",
+                  "to read",
+                  "Twenty",
+                  "fruit"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "Twenty",
+                "bank": [
+                  "Èrshí"
+                ],
+                "answer": [
+                  "Èrshí"
+                ],
+                "answerHanzi": "二十"
+              },
+              {
+                "type": "listening-tap",
+                "native": "Èrshí",
+                "nativeHanzi": "二十",
+                "answer": [
+                  "Èrshí"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Wǒ yǒu liǎng gè píngguǒ.",
+                "promptHanzi": "我有两个苹果。",
+                "options": [
+                  "I have two apples.",
+                  "At noon he eats with friends.",
+                  "After eating, they pay, then go home.",
+                  "Zero"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "I have two apples.",
+                "bank": [
+                  "liǎng",
+                  "gè",
+                  "Wǒ",
+                  "píngguǒ.",
+                  "yǒu"
+                ],
+                "answer": [
+                  "Wǒ",
+                  "yǒu",
+                  "liǎng",
+                  "gè",
+                  "píngguǒ."
+                ],
+                "answerHanzi": "我有两个苹果。"
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Líng",
+                    "en": "Zero"
+                  },
+                  {
+                    "native": "Yī",
+                    "en": "One"
+                  },
+                  {
+                    "native": "Èr",
+                    "en": "Two"
+                  },
+                  {
+                    "native": "Sān",
+                    "en": "Three"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Sì",
+                    "en": "Four"
+                  },
+                  {
+                    "native": "Wǔ",
+                    "en": "Five"
+                  },
+                  {
+                    "native": "Liù",
+                    "en": "Six"
+                  },
+                  {
+                    "native": "Qī",
+                    "en": "Seven"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Bā",
+                    "en": "Eight"
+                  },
+                  {
+                    "native": "Jiǔ",
+                    "en": "Nine"
+                  },
+                  {
+                    "native": "Shí",
+                    "en": "Ten"
+                  },
+                  {
+                    "native": "Shíyī",
+                    "en": "Eleven"
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Shùzì Líng dào Èrshí"
+          },
+          {
+            "id": "zh-a1-3",
+            "number": 3,
+            "title": "Pronouns & Family",
+            "description": "Pronouns & Family",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Wǒ",
+                "promptHanzi": "我",
+                "options": [
+                  "I / me",
+                  "yesterday",
+                  "I have an older brother.",
+                  "What day is it today?"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "I / me",
+                "bank": [
+                  "Wǒ"
+                ],
+                "answer": [
+                  "Wǒ"
+                ],
+                "answerHanzi": "我"
+              },
+              {
+                "type": "listening",
+                "native": "Wǒ",
+                "nativeHanzi": "我",
+                "options": [
+                  "I / me",
+                  "I am very happy.",
+                  "coffee",
+                  "Nice to meet you."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Nǐ",
+                "promptHanzi": "你",
+                "options": [
+                  "He is Chinese.",
+                  "I don't know him.",
+                  "you",
+                  "What is your name?"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "you",
+                "bank": [
+                  "Nǐ"
+                ],
+                "answer": [
+                  "Nǐ"
+                ],
+                "answerHanzi": "你"
+              },
+              {
+                "type": "listening-tap",
+                "native": "Nǐ",
+                "nativeHanzi": "你",
+                "answer": [
+                  "Nǐ"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Tā",
+                "promptHanzi": "他",
+                "options": [
+                  "There's no one here.",
+                  "Goodbye!",
+                  "he / him",
+                  "It's okay."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "he / him",
+                "bank": [
+                  "Tā"
+                ],
+                "answer": [
+                  "Tā"
+                ],
+                "answerHanzi": "他"
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Tā",
+                "promptHanzi": "她",
+                "options": [
+                  "I am not a doctor.",
+                  "milk",
+                  "she / her",
+                  "tea"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "she / her",
+                "bank": [
+                  "Tā"
+                ],
+                "answer": [
+                  "Tā"
+                ],
+                "answerHanzi": "她"
+              },
+              {
+                "type": "listening",
+                "native": "Tā",
+                "nativeHanzi": "她",
+                "options": [
+                  "black",
+                  "There's no one here.",
+                  "she / her",
+                  "I get up at 7am."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Wǒmen",
+                "promptHanzi": "我们",
+                "options": [
+                  "we",
+                  "He doesn't have money.",
+                  "There are three tickets on the table.",
+                  "Where do you live?"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "we",
+                "bank": [
+                  "Wǒmen"
+                ],
+                "answer": [
+                  "Wǒmen"
+                ],
+                "answerHanzi": "我们"
+              },
+              {
+                "type": "listening-tap",
+                "native": "Wǒmen",
+                "nativeHanzi": "我们",
+                "answer": [
+                  "Wǒmen"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Zhè shì wǒ de bàba.",
+                "promptHanzi": "这是我的爸爸。",
+                "options": [
+                  "Fifteen",
+                  "One",
+                  "This is my father.",
+                  "One book"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "This is my father.",
+                "bank": [
+                  "wǒ",
+                  "shì",
+                  "de",
+                  "bàba.",
+                  "Zhè"
+                ],
+                "answer": [
+                  "Zhè",
+                  "shì",
+                  "wǒ",
+                  "de",
+                  "bàba."
+                ],
+                "answerHanzi": "这是我的爸爸。"
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Zhè shì wǒ de māma.",
+                "promptHanzi": "这是我的妈妈。",
+                "options": [
+                  "water",
+                  "This is my mother.",
+                  "white",
+                  "I don't have an older sister."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "This is my mother.",
+                "bank": [
+                  "shì",
+                  "de",
+                  "Zhè",
+                  "māma.",
+                  "wǒ"
+                ],
+                "answer": [
+                  "Zhè",
+                  "shì",
+                  "wǒ",
+                  "de",
+                  "māma."
+                ],
+                "answerHanzi": "这是我的妈妈。"
+              },
+              {
+                "type": "listening",
+                "native": "Zhè shì wǒ de māma.",
+                "nativeHanzi": "这是我的妈妈。",
+                "options": [
+                  "This is my mother.",
+                  "How old are you? (polite, to an elder)",
+                  "He likes to read books.",
+                  "he / him"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Wǒ yǒu yí gè gēge.",
+                "promptHanzi": "我有一个哥哥。",
+                "options": [
+                  "Please speak a little slower.",
+                  "I have an older brother.",
+                  "Five yuan.",
+                  "Monday"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "I have an older brother.",
+                "bank": [
+                  "Wǒ",
+                  "gè",
+                  "yǒu",
+                  "gēge.",
+                  "yí"
+                ],
+                "answer": [
+                  "Wǒ",
+                  "yǒu",
+                  "yí",
+                  "gè",
+                  "gēge."
+                ],
+                "answerHanzi": "我有一个哥哥。"
+              },
+              {
+                "type": "listening-tap",
+                "native": "Wǒ yǒu yí gè gēge.",
+                "nativeHanzi": "我有一个哥哥。",
+                "answer": [
+                  "Wǒ",
+                  "yǒu",
+                  "yí",
+                  "gè",
+                  "gēge."
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "Wǒ yǒu yí gè gēge.",
+                "blankedEn": "I have an ___ brother.",
+                "answer": "older",
+                "options": [
+                  "paper",
+                  "white",
+                  "Saturday",
+                  "older"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Wǒ méiyǒu jiějie.",
+                "promptHanzi": "我没有姐姐。",
+                "options": [
+                  "yesterday",
+                  "Nice to meet you.",
+                  "I don't have an older sister.",
+                  "He eats breakfast and drinks milk."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "I don't have an older sister.",
+                "bank": [
+                  "méiyǒu",
+                  "Wǒ",
+                  "jiějie."
+                ],
+                "answer": [
+                  "Wǒ",
+                  "méiyǒu",
+                  "jiějie."
+                ],
+                "answerHanzi": "我没有姐姐。"
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Nǐ de jiā yǒu jǐ kǒu rén?",
+                "promptHanzi": "你的家有几口人？",
+                "options": [
+                  "yellow",
+                  "Six",
+                  "How many people are in your family?",
+                  "One book"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "How many people are in your family?",
+                "bank": [
+                  "de",
+                  "jǐ",
+                  "Nǐ",
+                  "yǒu",
+                  "kǒu",
+                  "jiā",
+                  "rén?"
+                ],
+                "answer": [
+                  "Nǐ",
+                  "de",
+                  "jiā",
+                  "yǒu",
+                  "jǐ",
+                  "kǒu",
+                  "rén?"
+                ],
+                "answerHanzi": "你的家有几口人？"
+              },
+              {
+                "type": "listening",
+                "native": "Nǐ de jiā yǒu jǐ kǒu rén?",
+                "nativeHanzi": "你的家有几口人？",
+                "options": [
+                  "There's no one here.",
+                  "She isn't hungry.",
+                  "What time is it now?",
+                  "How many people are in your family?"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Wǒ",
+                    "en": "I / me"
+                  },
+                  {
+                    "native": "Nǐ",
+                    "en": "you"
+                  },
+                  {
+                    "native": "Tā",
+                    "en": "he / him"
+                  },
+                  {
+                    "native": "Tā",
+                    "en": "she / her"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Wǒmen",
+                    "en": "we"
+                  },
+                  {
+                    "native": "Zhè shì wǒ de bàba.",
+                    "en": "This is my father."
+                  },
+                  {
+                    "native": "Zhè shì wǒ de māma.",
+                    "en": "This is my mother."
+                  },
+                  {
+                    "native": "Wǒ yǒu yí gè gēge.",
+                    "en": "I have an older brother."
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Dàicí yǔ Jiātíng"
+          },
+          {
+            "id": "zh-a1-4",
+            "number": 4,
+            "title": "Grammar: The Verb 'To Be' (shì)",
+            "description": "Grammar: The Verb 'To Be' (shì)",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Wǒ shì xuéshēng.",
+                "promptHanzi": "我是学生。",
+                "options": [
+                  "We are learning Chinese.",
+                  "I am a student.",
+                  "I'm sorry.",
+                  "My family has one cat."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "I am a student.",
+                "bank": [
+                  "Wǒ",
+                  "xuéshēng.",
+                  "shì"
+                ],
+                "answer": [
+                  "Wǒ",
+                  "shì",
+                  "xuéshēng."
+                ],
+                "answerHanzi": "我是学生。"
+              },
+              {
+                "type": "listening",
+                "native": "Wǒ shì xuéshēng.",
+                "nativeHanzi": "我是学生。",
+                "options": [
+                  "to listen",
+                  "Ten",
+                  "I am a student.",
+                  "This is my father."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Nǐ shì lǎoshī.",
+                "promptHanzi": "你是老师。",
+                "options": [
+                  "You are a teacher.",
+                  "This is my father.",
+                  "I don't like coffee.",
+                  "I want to eat."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "You are a teacher.",
+                "bank": [
+                  "Nǐ",
+                  "shì",
+                  "lǎoshī."
+                ],
+                "answer": [
+                  "Nǐ",
+                  "shì",
+                  "lǎoshī."
+                ],
+                "answerHanzi": "你是老师。"
+              },
+              {
+                "type": "listening-tap",
+                "native": "Nǐ shì lǎoshī.",
+                "nativeHanzi": "你是老师。",
+                "answer": [
+                  "Nǐ",
+                  "shì",
+                  "lǎoshī."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Tā shì Zhōngguó rén.",
+                "promptHanzi": "他是中国人。",
+                "options": [
+                  "I don't have cash.",
+                  "School ends at 3pm.",
+                  "He is Chinese.",
+                  "I am a student."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "He is Chinese.",
+                "bank": [
+                  "Tā",
+                  "Zhōngguó",
+                  "rén.",
+                  "shì"
+                ],
+                "answer": [
+                  "Tā",
+                  "shì",
+                  "Zhōngguó",
+                  "rén."
+                ],
+                "answerHanzi": "他是中国人。"
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Wǒmen shì péngyou.",
+                "promptHanzi": "我们是朋友。",
+                "options": [
+                  "We are friends.",
+                  "What is your name?",
+                  "tomorrow",
+                  "Six"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "We are friends.",
+                "bank": [
+                  "Wǒmen",
+                  "shì",
+                  "péngyou."
+                ],
+                "answer": [
+                  "Wǒmen",
+                  "shì",
+                  "péngyou."
+                ],
+                "answerHanzi": "我们是朋友。"
+              },
+              {
+                "type": "listening",
+                "native": "Wǒmen shì péngyou.",
+                "nativeHanzi": "我们是朋友。",
+                "options": [
+                  "I like blue.",
+                  "We are friends.",
+                  "She bought two books.",
+                  "Ten"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "fill-blank",
+                "native": "Wǒmen shì péngyou.",
+                "blankedEn": "We are ___",
+                "answer": "friends",
+                "options": [
+                  "friends",
+                  "aren't",
+                  "hamburger",
+                  "cards"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Wǒ bú shì yīshēng.",
+                "promptHanzi": "我不是医生。",
+                "options": [
+                  "I am not a doctor.",
+                  "Monday",
+                  "green",
+                  "Sunday"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "I am not a doctor.",
+                "bank": [
+                  "yīshēng.",
+                  "Wǒ",
+                  "shì",
+                  "bú"
+                ],
+                "answer": [
+                  "Wǒ",
+                  "bú",
+                  "shì",
+                  "yīshēng."
+                ],
+                "answerHanzi": "我不是医生。"
+              },
+              {
+                "type": "listening-tap",
+                "native": "Wǒ bú shì yīshēng.",
+                "nativeHanzi": "我不是医生。",
+                "answer": [
+                  "Wǒ",
+                  "bú",
+                  "shì",
+                  "yīshēng."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Tā bú shì wǒ de lǎoshī.",
+                "promptHanzi": "她不是我的老师。",
+                "options": [
+                  "milk",
+                  "Three",
+                  "She is not my teacher.",
+                  "What is this?"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "She is not my teacher.",
+                "bank": [
+                  "lǎoshī.",
+                  "wǒ",
+                  "de",
+                  "bú",
+                  "shì",
+                  "Tā"
+                ],
+                "answer": [
+                  "Tā",
+                  "bú",
+                  "shì",
+                  "wǒ",
+                  "de",
+                  "lǎoshī."
+                ],
+                "answerHanzi": "她不是我的老师。"
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Zhè shì wǒ de shū.",
+                "promptHanzi": "这是我的书。",
+                "options": [
+                  "He likes to read books.",
+                  "You are a teacher.",
+                  "This is my book.",
+                  "Twenty"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "This is my book.",
+                "bank": [
+                  "wǒ",
+                  "shū.",
+                  "de",
+                  "shì",
+                  "Zhè"
+                ],
+                "answer": [
+                  "Zhè",
+                  "shì",
+                  "wǒ",
+                  "de",
+                  "shū."
+                ],
+                "answerHanzi": "这是我的书。"
+              },
+              {
+                "type": "listening",
+                "native": "Zhè shì wǒ de shū.",
+                "nativeHanzi": "这是我的书。",
+                "options": [
+                  "you",
+                  "This is my book.",
+                  "How much is this?",
+                  "black"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Nà shì tā de chē.",
+                "promptHanzi": "那是他的车。",
+                "options": [
+                  "That is his car.",
+                  "In the evening he does homework, then sleeps.",
+                  "she / her",
+                  "He is not my friend."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "That is his car.",
+                "bank": [
+                  "tā",
+                  "Nà",
+                  "shì",
+                  "chē.",
+                  "de"
+                ],
+                "answer": [
+                  "Nà",
+                  "shì",
+                  "tā",
+                  "de",
+                  "chē."
+                ],
+                "answerHanzi": "那是他的车。"
+              },
+              {
+                "type": "listening-tap",
+                "native": "Nà shì tā de chē.",
+                "nativeHanzi": "那是他的车。",
+                "answer": [
+                  "Nà",
+                  "shì",
+                  "tā",
+                  "de",
+                  "chē."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Wǒ hěn gāoxìng.",
+                "promptHanzi": "我很高兴。",
+                "options": [
+                  "Xiao Ming is a student. He is ten years old.",
+                  "I get up at 7am.",
+                  "I am very happy.",
+                  "He gets up at 7am."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "I am very happy.",
+                "bank": [
+                  "gāoxìng.",
+                  "hěn",
+                  "Wǒ"
+                ],
+                "answer": [
+                  "Wǒ",
+                  "hěn",
+                  "gāoxìng."
+                ],
+                "answerHanzi": "我很高兴。"
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Tā hěn máng.",
+                "promptHanzi": "她很忙。",
+                "options": [
+                  "Six",
+                  "She is very busy.",
+                  "I'm very well.",
+                  "Please speak a little slower."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "She is very busy.",
+                "bank": [
+                  "Tā",
+                  "máng.",
+                  "hěn"
+                ],
+                "answer": [
+                  "Tā",
+                  "hěn",
+                  "máng."
+                ],
+                "answerHanzi": "她很忙。"
+              },
+              {
+                "type": "listening",
+                "native": "Tā hěn máng.",
+                "nativeHanzi": "她很忙。",
+                "options": [
+                  "This car is black.",
+                  "What time is it now?",
+                  "Five yuan.",
+                  "She is very busy."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Wǒ shì xuéshēng.",
+                    "en": "I am a student."
+                  },
+                  {
+                    "native": "Nǐ shì lǎoshī.",
+                    "en": "You are a teacher."
+                  },
+                  {
+                    "native": "Tā shì Zhōngguó rén.",
+                    "en": "He is Chinese."
+                  },
+                  {
+                    "native": "Wǒmen shì péngyou.",
+                    "en": "We are friends."
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Wǒ bú shì yīshēng.",
+                    "en": "I am not a doctor."
+                  },
+                  {
+                    "native": "Tā bú shì wǒ de lǎoshī.",
+                    "en": "She is not my teacher."
+                  },
+                  {
+                    "native": "Zhè shì wǒ de shū.",
+                    "en": "This is my book."
+                  },
+                  {
+                    "native": "Nà shì tā de chē.",
+                    "en": "That is his car."
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Yǔfǎ: Dòngcí 'Shì'",
+            "topicId": "a1-shi-tobe"
+          },
+          {
+            "id": "zh-a1-5",
+            "number": 5,
+            "title": "Grammar: Negation (bù vs méi)",
+            "description": "Grammar: Negation (bù vs méi)",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Wǒ bù xǐhuan kāfēi.",
+                "promptHanzi": "我不喜欢咖啡。",
+                "options": [
+                  "You are a teacher.",
+                  "He eats breakfast and drinks milk.",
+                  "Eleven",
+                  "I don't like coffee."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "I don't like coffee.",
+                "bank": [
+                  "xǐhuan",
+                  "kāfēi.",
+                  "Wǒ",
+                  "bù"
+                ],
+                "answer": [
+                  "Wǒ",
+                  "bù",
+                  "xǐhuan",
+                  "kāfēi."
+                ],
+                "answerHanzi": "我不喜欢咖啡。"
+              },
+              {
+                "type": "listening",
+                "native": "Wǒ bù xǐhuan kāfēi.",
+                "nativeHanzi": "我不喜欢咖啡。",
+                "options": [
+                  "to read",
+                  "One dog",
+                  "I don't like coffee.",
+                  "What day is it today?"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Tā bú è.",
+                "promptHanzi": "她不饿。",
+                "options": [
+                  "I am not a doctor.",
+                  "She isn't hungry.",
+                  "I am very happy.",
+                  "How much is this?"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "She isn't hungry.",
+                "bank": [
+                  "bú",
+                  "Tā",
+                  "è."
+                ],
+                "answer": [
+                  "Tā",
+                  "bú",
+                  "è."
+                ],
+                "answerHanzi": "她不饿。"
+              },
+              {
+                "type": "listening-tap",
+                "native": "Tā bú è.",
+                "nativeHanzi": "她不饿。",
+                "answer": [
+                  "Tā",
+                  "bú",
+                  "è."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Wǒ méiyǒu shíjiān.",
+                "promptHanzi": "我没有时间。",
+                "options": [
+                  "What day is it today?",
+                  "Are you hungry?",
+                  "We are learning Chinese.",
+                  "I don't have time."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "I don't have time.",
+                "bank": [
+                  "Wǒ",
+                  "méiyǒu",
+                  "shíjiān."
+                ],
+                "answer": [
+                  "Wǒ",
+                  "méiyǒu",
+                  "shíjiān."
+                ],
+                "answerHanzi": "我没有时间。"
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Tā méiyǒu qián.",
+                "promptHanzi": "他没有钱。",
+                "options": [
+                  "At noon he eats with friends.",
+                  "How much is this?",
+                  "He doesn't have money.",
+                  "How much money?"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "He doesn't have money.",
+                "bank": [
+                  "Tā",
+                  "qián.",
+                  "méiyǒu"
+                ],
+                "answer": [
+                  "Tā",
+                  "méiyǒu",
+                  "qián."
+                ],
+                "answerHanzi": "他没有钱。"
+              },
+              {
+                "type": "listening",
+                "native": "Tā méiyǒu qián.",
+                "nativeHanzi": "他没有钱。",
+                "options": [
+                  "At noon he eats with friends.",
+                  "Fifteen",
+                  "He doesn't have money.",
+                  "The waiter asks: \"What would you like to eat?\""
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "fill-blank",
+                "native": "Tā méiyǒu qián.",
+                "blankedEn": "He doesn't have ___",
+                "answer": "money",
+                "options": [
+                  "okay",
+                  "money",
+                  "paper",
+                  "elder"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Wǒ zuótiān méi qù xuéxiào.",
+                "promptHanzi": "我昨天没去学校。",
+                "options": [
+                  "This is my book.",
+                  "See you on Friday.",
+                  "I didn't go to school yesterday.",
+                  "One"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "I didn't go to school yesterday.",
+                "bank": [
+                  "xuéxiào.",
+                  "zuótiān",
+                  "qù",
+                  "Wǒ",
+                  "méi"
+                ],
+                "answer": [
+                  "Wǒ",
+                  "zuótiān",
+                  "méi",
+                  "qù",
+                  "xuéxiào."
+                ],
+                "answerHanzi": "我昨天没去学校。"
+              },
+              {
+                "type": "listening-tap",
+                "native": "Wǒ zuótiān méi qù xuéxiào.",
+                "nativeHanzi": "我昨天没去学校。",
+                "answer": [
+                  "Wǒ",
+                  "zuótiān",
+                  "méi",
+                  "qù",
+                  "xuéxiào."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Wǒmen bú è.",
+                "promptHanzi": "我们不饿。",
+                "options": [
+                  "I get up at 7am.",
+                  "At 8 o'clock he goes to school.",
+                  "We aren't hungry.",
+                  "Twenty"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "We aren't hungry.",
+                "bank": [
+                  "Wǒmen",
+                  "è.",
+                  "bú"
+                ],
+                "answer": [
+                  "Wǒmen",
+                  "bú",
+                  "è."
+                ],
+                "answerHanzi": "我们不饿。"
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Wǒ bú rènshi tā.",
+                "promptHanzi": "我不认识他。",
+                "options": [
+                  "red",
+                  "rice",
+                  "I don't know him.",
+                  "Goodbye!"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "I don't know him.",
+                "bank": [
+                  "tā.",
+                  "bú",
+                  "rènshi",
+                  "Wǒ"
+                ],
+                "answer": [
+                  "Wǒ",
+                  "bú",
+                  "rènshi",
+                  "tā."
+                ],
+                "answerHanzi": "我不认识他。"
+              },
+              {
+                "type": "listening",
+                "native": "Wǒ bú rènshi tā.",
+                "nativeHanzi": "我不认识他。",
+                "options": [
+                  "I don't know him.",
+                  "Twenty",
+                  "Three sheets of paper",
+                  "The sky is blue."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Zhèli méiyǒu rén.",
+                "promptHanzi": "这里没有人。",
+                "options": [
+                  "Two",
+                  "There's no one here.",
+                  "to write",
+                  "He doesn't have money."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "There's no one here.",
+                "bank": [
+                  "Zhèli",
+                  "rén.",
+                  "méiyǒu"
+                ],
+                "answer": [
+                  "Zhèli",
+                  "méiyǒu",
+                  "rén."
+                ],
+                "answerHanzi": "这里没有人。"
+              },
+              {
+                "type": "listening-tap",
+                "native": "Zhèli méiyǒu rén.",
+                "nativeHanzi": "这里没有人。",
+                "answer": [
+                  "Zhèli",
+                  "méiyǒu",
+                  "rén."
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "Zhèli méiyǒu rén.",
+                "blankedEn": "___ no one here.",
+                "answer": "There's",
+                "options": [
+                  "There's",
+                  "okay",
+                  "friends",
+                  "people"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Tā bú shì wǒ de péngyou.",
+                "promptHanzi": "他不是我的朋友。",
+                "options": [
+                  "dumplings",
+                  "milk",
+                  "This piece of clothing is red.",
+                  "He is not my friend."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "He is not my friend.",
+                "bank": [
+                  "de",
+                  "péngyou.",
+                  "shì",
+                  "bú",
+                  "Tā",
+                  "wǒ"
+                ],
+                "answer": [
+                  "Tā",
+                  "bú",
+                  "shì",
+                  "wǒ",
+                  "de",
+                  "péngyou."
+                ],
+                "answerHanzi": "他不是我的朋友。"
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Wǒ méi kànjiàn nǐ de shǒujī.",
+                "promptHanzi": "我没看见你的手机。",
+                "options": [
+                  "This is my mother.",
+                  "Nine",
+                  "he / him",
+                  "I didn't see your phone."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "I didn't see your phone.",
+                "bank": [
+                  "nǐ",
+                  "Wǒ",
+                  "kànjiàn",
+                  "de",
+                  "méi",
+                  "shǒujī."
+                ],
+                "answer": [
+                  "Wǒ",
+                  "méi",
+                  "kànjiàn",
+                  "nǐ",
+                  "de",
+                  "shǒujī."
+                ],
+                "answerHanzi": "我没看见你的手机。"
+              },
+              {
+                "type": "listening",
+                "native": "Wǒ méi kànjiàn nǐ de shǒujī.",
+                "nativeHanzi": "我没看见你的手机。",
+                "options": [
+                  "noodles",
+                  "Would you like tea or coffee?",
+                  "She is very busy.",
+                  "I didn't see your phone."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Wǒ bù xǐhuan kāfēi.",
+                    "en": "I don't like coffee."
+                  },
+                  {
+                    "native": "Tā bú è.",
+                    "en": "She isn't hungry."
+                  },
+                  {
+                    "native": "Wǒ méiyǒu shíjiān.",
+                    "en": "I don't have time."
+                  },
+                  {
+                    "native": "Tā méiyǒu qián.",
+                    "en": "He doesn't have money."
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Wǒ zuótiān méi qù xuéxiào.",
+                    "en": "I didn't go to school yesterday."
+                  },
+                  {
+                    "native": "Wǒmen bú è.",
+                    "en": "We aren't hungry."
+                  },
+                  {
+                    "native": "Wǒ bú rènshi tā.",
+                    "en": "I don't know him."
+                  },
+                  {
+                    "native": "Zhèli méiyǒu rén.",
+                    "en": "There's no one here."
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Yǔfǎ: Fǒudìng 'Bù' hé 'Méi'",
+            "topicId": "a1-negation"
+          },
+          {
+            "id": "zh-a1-6",
+            "number": 6,
+            "title": "Grammar: Yes/No Questions (ma)",
+            "description": "Grammar: Yes/No Questions (ma)",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Nǐ hǎo ma?",
+                "promptHanzi": "你好吗？",
+                "options": [
+                  "rice",
+                  "Fifteen",
+                  "How are you?",
+                  "Nice to meet you."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "How are you?",
+                "bank": [
+                  "Nǐ",
+                  "ma?",
+                  "hǎo"
+                ],
+                "answer": [
+                  "Nǐ",
+                  "hǎo",
+                  "ma?"
+                ],
+                "answerHanzi": "你好吗？"
+              },
+              {
+                "type": "listening",
+                "native": "Nǐ hǎo ma?",
+                "nativeHanzi": "你好吗？",
+                "options": [
+                  "We are learning Chinese.",
+                  "He is Chinese.",
+                  "fruit",
+                  "How are you?"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Nǐ shì lǎoshī ma?",
+                "promptHanzi": "你是老师吗？",
+                "options": [
+                  "tea",
+                  "Are you a teacher?",
+                  "Is this your book?",
+                  "Can I pay by card?"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "Are you a teacher?",
+                "bank": [
+                  "ma?",
+                  "Nǐ",
+                  "shì",
+                  "lǎoshī"
+                ],
+                "answer": [
+                  "Nǐ",
+                  "shì",
+                  "lǎoshī",
+                  "ma?"
+                ],
+                "answerHanzi": "你是老师吗？"
+              },
+              {
+                "type": "listening-tap",
+                "native": "Nǐ shì lǎoshī ma?",
+                "nativeHanzi": "你是老师吗？",
+                "answer": [
+                  "Nǐ",
+                  "shì",
+                  "lǎoshī",
+                  "ma?"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Zhè shì nǐ de shū ma?",
+                "promptHanzi": "这是你的书吗？",
+                "options": [
+                  "cheap",
+                  "we",
+                  "Three sheets of paper",
+                  "Is this your book?"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "Is this your book?",
+                "bank": [
+                  "Zhè",
+                  "shū",
+                  "ma?",
+                  "shì",
+                  "nǐ",
+                  "de"
+                ],
+                "answer": [
+                  "Zhè",
+                  "shì",
+                  "nǐ",
+                  "de",
+                  "shū",
+                  "ma?"
+                ],
+                "answerHanzi": "这是你的书吗？"
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Nǐ è ma?",
+                "promptHanzi": "你饿吗？",
+                "options": [
+                  "This is my father.",
+                  "Are you hungry?",
+                  "Two",
+                  "How old are you? (polite, to an elder)"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "Are you hungry?",
+                "bank": [
+                  "ma?",
+                  "è",
+                  "Nǐ"
+                ],
+                "answer": [
+                  "Nǐ",
+                  "è",
+                  "ma?"
+                ],
+                "answerHanzi": "你饿吗？"
+              },
+              {
+                "type": "listening",
+                "native": "Nǐ è ma?",
+                "nativeHanzi": "你饿吗？",
+                "options": [
+                  "We aren't hungry.",
+                  "I want a hamburger.",
+                  "I'm very well.",
+                  "Are you hungry?"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "fill-blank",
+                "native": "Nǐ è ma?",
+                "blankedEn": "Are you ___",
+                "answer": "hungry",
+                "options": [
+                  "want",
+                  "hungry",
+                  "Saturday",
+                  "piece"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Tā shì shéi?",
+                "promptHanzi": "他是谁？",
+                "options": [
+                  "I don't have time.",
+                  "coffee",
+                  "Nine",
+                  "Who is he?"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "Who is he?",
+                "bank": [
+                  "shì",
+                  "Tā",
+                  "shéi?"
+                ],
+                "answer": [
+                  "Tā",
+                  "shì",
+                  "shéi?"
+                ],
+                "answerHanzi": "他是谁？"
+              },
+              {
+                "type": "listening-tap",
+                "native": "Tā shì shéi?",
+                "nativeHanzi": "他是谁？",
+                "answer": [
+                  "Tā",
+                  "shì",
+                  "shéi?"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Zhè shì shénme?",
+                "promptHanzi": "这是什么？",
+                "options": [
+                  "Xiao Li says: \"I'd like dumplings.\"",
+                  "What is this?",
+                  "He likes to read books.",
+                  "I don't like coffee."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "What is this?",
+                "bank": [
+                  "shénme?",
+                  "Zhè",
+                  "shì"
+                ],
+                "answer": [
+                  "Zhè",
+                  "shì",
+                  "shénme?"
+                ],
+                "answerHanzi": "这是什么？"
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Nǐ zhù zài nǎr?",
+                "promptHanzi": "你住在哪儿？",
+                "options": [
+                  "What time is it now?",
+                  "Thank you!",
+                  "I / me",
+                  "Where do you live?"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "Where do you live?",
+                "bank": [
+                  "zhù",
+                  "zài",
+                  "Nǐ",
+                  "nǎr?"
+                ],
+                "answer": [
+                  "Nǐ",
+                  "zhù",
+                  "zài",
+                  "nǎr?"
+                ],
+                "answerHanzi": "你住在哪儿？"
+              },
+              {
+                "type": "listening",
+                "native": "Nǐ zhù zài nǎr?",
+                "nativeHanzi": "你住在哪儿？",
+                "options": [
+                  "How old are you? (polite, to an elder)",
+                  "Thank you!",
+                  "Where do you live?",
+                  "Please speak a little slower."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Xiànzài jǐ diǎn?",
+                "promptHanzi": "现在几点？",
+                "options": [
+                  "At noon he eats with friends.",
+                  "What time is it now?",
+                  "to read",
+                  "It's 3pm now."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "What time is it now?",
+                "bank": [
+                  "diǎn?",
+                  "jǐ",
+                  "Xiànzài"
+                ],
+                "answer": [
+                  "Xiànzài",
+                  "jǐ",
+                  "diǎn?"
+                ],
+                "answerHanzi": "现在几点？"
+              },
+              {
+                "type": "listening-tap",
+                "native": "Xiànzài jǐ diǎn?",
+                "nativeHanzi": "现在几点？",
+                "answer": [
+                  "Xiànzài",
+                  "jǐ",
+                  "diǎn?"
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "Xiànzài jǐ diǎn?",
+                "blankedEn": "What ___ is it now?",
+                "answer": "time",
+                "options": [
+                  "well",
+                  "school",
+                  "expensive",
+                  "time"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Nǐ jǐ suì?",
+                "promptHanzi": "你几岁？",
+                "options": [
+                  "How old are you?",
+                  "This car is black.",
+                  "I don't like coffee.",
+                  "cheap"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "How old are you?",
+                "bank": [
+                  "suì?",
+                  "Nǐ",
+                  "jǐ"
+                ],
+                "answer": [
+                  "Nǐ",
+                  "jǐ",
+                  "suì?"
+                ],
+                "answerHanzi": "你几岁？"
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Nín duō dà niánjì?",
+                "promptHanzi": "您多大年纪？",
+                "options": [
+                  "to write",
+                  "How old are you? (polite, to an elder)",
+                  "water",
+                  "It's okay."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "How old are you? (polite, to an elder)",
+                "bank": [
+                  "duō",
+                  "niánjì?",
+                  "dà",
+                  "Nín"
+                ],
+                "answer": [
+                  "Nín",
+                  "duō",
+                  "dà",
+                  "niánjì?"
+                ],
+                "answerHanzi": "您多大年纪？"
+              },
+              {
+                "type": "listening",
+                "native": "Nín duō dà niánjì?",
+                "nativeHanzi": "您多大年纪？",
+                "options": [
+                  "How old are you? (polite, to an elder)",
+                  "Six",
+                  "This piece of clothing is red.",
+                  "My family has one cat."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Nǐ hǎo ma?",
+                    "en": "How are you?"
+                  },
+                  {
+                    "native": "Nǐ shì lǎoshī ma?",
+                    "en": "Are you a teacher?"
+                  },
+                  {
+                    "native": "Zhè shì nǐ de shū ma?",
+                    "en": "Is this your book?"
+                  },
+                  {
+                    "native": "Nǐ è ma?",
+                    "en": "Are you hungry?"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Tā shì shéi?",
+                    "en": "Who is he?"
+                  },
+                  {
+                    "native": "Zhè shì shénme?",
+                    "en": "What is this?"
+                  },
+                  {
+                    "native": "Nǐ zhù zài nǎr?",
+                    "en": "Where do you live?"
+                  },
+                  {
+                    "native": "Xiànzài jǐ diǎn?",
+                    "en": "What time is it now?"
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Yǔfǎ: Yòng 'Ma' Tíwèn",
+            "topicId": "a1-questions"
+          },
+          {
+            "id": "zh-a1-7",
+            "number": 7,
+            "title": "Grammar: Measure Words (liàngcí)",
+            "description": "Grammar: Measure Words (liàngcí)",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Yí gè píngguǒ",
+                "promptHanzi": "一个苹果",
+                "options": [
+                  "One apple",
+                  "I am a student.",
+                  "He eats breakfast and drinks milk.",
+                  "The sky is blue."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "One apple",
+                "bank": [
+                  "gè",
+                  "Yí",
+                  "píngguǒ"
+                ],
+                "answer": [
+                  "Yí",
+                  "gè",
+                  "píngguǒ"
+                ],
+                "answerHanzi": "一个苹果"
+              },
+              {
+                "type": "listening",
+                "native": "Yí gè píngguǒ",
+                "nativeHanzi": "一个苹果",
+                "options": [
+                  "How much is this?",
+                  "One apple",
+                  "tomorrow",
+                  "I want to buy this."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Liǎng gè rén",
+                "promptHanzi": "两个人",
+                "options": [
+                  "Two people",
+                  "I don't know him.",
+                  "It's 3pm now.",
+                  "Sunday"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "Two people",
+                "bank": [
+                  "Liǎng",
+                  "gè",
+                  "rén"
+                ],
+                "answer": [
+                  "Liǎng",
+                  "gè",
+                  "rén"
+                ],
+                "answerHanzi": "两个人"
+              },
+              {
+                "type": "listening-tap",
+                "native": "Liǎng gè rén",
+                "nativeHanzi": "两个人",
+                "answer": [
+                  "Liǎng",
+                  "gè",
+                  "rén"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Yì běn shū",
+                "promptHanzi": "一本书",
+                "options": [
+                  "School ends at 3pm.",
+                  "Five yuan.",
+                  "Eleven",
+                  "One book"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "One book",
+                "bank": [
+                  "shū",
+                  "Yì",
+                  "běn"
+                ],
+                "answer": [
+                  "Yì",
+                  "běn",
+                  "shū"
+                ],
+                "answerHanzi": "一本书"
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Sān zhāng zhǐ",
+                "promptHanzi": "三张纸",
+                "options": [
+                  "Three sheets of paper",
+                  "How are you?",
+                  "Hello!",
+                  "What time is it now?"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "Three sheets of paper",
+                "bank": [
+                  "Sān",
+                  "zhāng",
+                  "zhǐ"
+                ],
+                "answer": [
+                  "Sān",
+                  "zhāng",
+                  "zhǐ"
+                ],
+                "answerHanzi": "三张纸"
+              },
+              {
+                "type": "listening",
+                "native": "Sān zhāng zhǐ",
+                "nativeHanzi": "三张纸",
+                "options": [
+                  "In the evening he does homework, then sleeps.",
+                  "I get up at 7am.",
+                  "We are learning Chinese.",
+                  "Three sheets of paper"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "fill-blank",
+                "native": "Sān zhāng zhǐ",
+                "blankedEn": "Three ___ of paper",
+                "answer": "sheets",
+                "options": [
+                  "piece",
+                  "sheets",
+                  "listen",
+                  "teacher"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Yì zhī gǒu",
+                "promptHanzi": "一只狗",
+                "options": [
+                  "Three sheets of paper",
+                  "It's okay.",
+                  "One dog",
+                  "She is very busy."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "One dog",
+                "bank": [
+                  "Yì",
+                  "zhī",
+                  "gǒu"
+                ],
+                "answer": [
+                  "Yì",
+                  "zhī",
+                  "gǒu"
+                ],
+                "answerHanzi": "一只狗"
+              },
+              {
+                "type": "listening-tap",
+                "native": "Yì zhī gǒu",
+                "nativeHanzi": "一只狗",
+                "answer": [
+                  "Yì",
+                  "zhī",
+                  "gǒu"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Liǎng zhī māo",
+                "promptHanzi": "两只猫",
+                "options": [
+                  "Two cats",
+                  "How much money?",
+                  "rice",
+                  "It's okay."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "Two cats",
+                "bank": [
+                  "Liǎng",
+                  "māo",
+                  "zhī"
+                ],
+                "answer": [
+                  "Liǎng",
+                  "zhī",
+                  "māo"
+                ],
+                "answerHanzi": "两只猫"
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Wǒ yào yí gè hànbǎobāo.",
+                "promptHanzi": "我要一个汉堡包。",
+                "options": [
+                  "blue",
+                  "I want a hamburger.",
+                  "So cheap!",
+                  "After eating, they pay, then go home."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "I want a hamburger.",
+                "bank": [
+                  "yí",
+                  "gè",
+                  "Wǒ",
+                  "yào",
+                  "hànbǎobāo."
+                ],
+                "answer": [
+                  "Wǒ",
+                  "yào",
+                  "yí",
+                  "gè",
+                  "hànbǎobāo."
+                ],
+                "answerHanzi": "我要一个汉堡包。"
+              },
+              {
+                "type": "listening",
+                "native": "Wǒ yào yí gè hànbǎobāo.",
+                "nativeHanzi": "我要一个汉堡包。",
+                "options": [
+                  "I want a hamburger.",
+                  "Eleven",
+                  "At 8 o'clock he goes to school.",
+                  "He likes to read books."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Tā mǎi le liǎng běn shū.",
+                "promptHanzi": "她买了两本书。",
+                "options": [
+                  "Twenty",
+                  "Monday",
+                  "She bought two books.",
+                  "Can I pay by card?"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "She bought two books.",
+                "bank": [
+                  "le",
+                  "shū.",
+                  "mǎi",
+                  "liǎng",
+                  "běn",
+                  "Tā"
+                ],
+                "answer": [
+                  "Tā",
+                  "mǎi",
+                  "le",
+                  "liǎng",
+                  "běn",
+                  "shū."
+                ],
+                "answerHanzi": "她买了两本书。"
+              },
+              {
+                "type": "listening-tap",
+                "native": "Tā mǎi le liǎng běn shū.",
+                "nativeHanzi": "她买了两本书。",
+                "answer": [
+                  "Tā",
+                  "mǎi",
+                  "le",
+                  "liǎng",
+                  "běn",
+                  "shū."
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "Tā mǎi le liǎng běn shū.",
+                "blankedEn": "She ___ two books.",
+                "answer": "bought",
+                "options": [
+                  "You're",
+                  "bought",
+                  "Zero",
+                  "sheets"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Zhuōzi shang yǒu sān zhāng piào.",
+                "promptHanzi": "桌子上有三张票。",
+                "options": [
+                  "There are three tickets on the table.",
+                  "I'm sorry.",
+                  "coffee",
+                  "He gets up at 7am."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "There are three tickets on the table.",
+                "bank": [
+                  "yǒu",
+                  "shang",
+                  "Zhuōzi",
+                  "sān",
+                  "piào.",
+                  "zhāng"
+                ],
+                "answer": [
+                  "Zhuōzi",
+                  "shang",
+                  "yǒu",
+                  "sān",
+                  "zhāng",
+                  "piào."
+                ],
+                "answerHanzi": "桌子上有三张票。"
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Wǒ jiā yǒu yì zhī māo.",
+                "promptHanzi": "我家有一只猫。",
+                "options": [
+                  "He likes to read books.",
+                  "Xiao Li says: \"I'd like dumplings.\"",
+                  "We are learning Chinese.",
+                  "My family has one cat."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "My family has one cat.",
+                "bank": [
+                  "yì",
+                  "zhī",
+                  "yǒu",
+                  "jiā",
+                  "Wǒ",
+                  "māo."
+                ],
+                "answer": [
+                  "Wǒ",
+                  "jiā",
+                  "yǒu",
+                  "yì",
+                  "zhī",
+                  "māo."
+                ],
+                "answerHanzi": "我家有一只猫。"
+              },
+              {
+                "type": "listening",
+                "native": "Wǒ jiā yǒu yì zhī māo.",
+                "nativeHanzi": "我家有一只猫。",
+                "options": [
+                  "My family has one cat.",
+                  "I didn't see your phone.",
+                  "cheap",
+                  "Thank you!"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Yí gè píngguǒ",
+                    "en": "One apple"
+                  },
+                  {
+                    "native": "Liǎng gè rén",
+                    "en": "Two people"
+                  },
+                  {
+                    "native": "Yì běn shū",
+                    "en": "One book"
+                  },
+                  {
+                    "native": "Sān zhāng zhǐ",
+                    "en": "Three sheets of paper"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Yì zhī gǒu",
+                    "en": "One dog"
+                  },
+                  {
+                    "native": "Liǎng zhī māo",
+                    "en": "Two cats"
+                  },
+                  {
+                    "native": "Wǒ yào yí gè hànbǎobāo.",
+                    "en": "I want a hamburger."
+                  },
+                  {
+                    "native": "Tā mǎi le liǎng běn shū.",
+                    "en": "She bought two books."
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Yǔfǎ: Liàngcí",
+            "topicId": "a1-measure-words"
+          },
+          {
+            "id": "zh-a1-8",
+            "number": 8,
+            "title": "Common Verbs",
+            "description": "Common Verbs",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Chī",
+                "promptHanzi": "吃",
+                "options": [
+                  "Eight",
+                  "to eat",
+                  "We aren't hungry.",
+                  "There's no one here."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "to eat",
+                "bank": [
+                  "Chī"
+                ],
+                "answer": [
+                  "Chī"
+                ],
+                "answerHanzi": "吃"
+              },
+              {
+                "type": "listening",
+                "native": "Chī",
+                "nativeHanzi": "吃",
+                "options": [
+                  "to eat",
+                  "My name is Li Ming.",
+                  "I have an older brother.",
+                  "I have two apples."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Hē",
+                "promptHanzi": "喝",
+                "options": [
+                  "Tomorrow is Saturday.",
+                  "Are you a teacher?",
+                  "to drink",
+                  "This is my mother."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "to drink",
+                "bank": [
+                  "Hē"
+                ],
+                "answer": [
+                  "Hē"
+                ],
+                "answerHanzi": "喝"
+              },
+              {
+                "type": "listening-tap",
+                "native": "Hē",
+                "nativeHanzi": "喝",
+                "answer": [
+                  "Hē"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Kàn",
+                "promptHanzi": "看",
+                "options": [
+                  "You're welcome.",
+                  "Monday",
+                  "I am very happy.",
+                  "to see / look / watch"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "to see / look / watch",
+                "bank": [
+                  "Kàn"
+                ],
+                "answer": [
+                  "Kàn"
+                ],
+                "answerHanzi": "看"
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Tīng",
+                "promptHanzi": "听",
+                "options": [
+                  "I am a student.",
+                  "We are learning Chinese.",
+                  "I don't have time.",
+                  "to listen"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "to listen",
+                "bank": [
+                  "Tīng"
+                ],
+                "answer": [
+                  "Tīng"
+                ],
+                "answerHanzi": "听"
+              },
+              {
+                "type": "listening",
+                "native": "Tīng",
+                "nativeHanzi": "听",
+                "options": [
+                  "Xiao Ming is a student. He is ten years old.",
+                  "to listen",
+                  "I don't have cash.",
+                  "How much money?"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "fill-blank",
+                "native": "Tīng",
+                "blankedEn": "to ___",
+                "answer": "listen",
+                "options": [
+                  "listen",
+                  "white",
+                  "book",
+                  "You're"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Shuō",
+                "promptHanzi": "说",
+                "options": [
+                  "to speak",
+                  "to drink",
+                  "How many people are in your family?",
+                  "It's okay."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "to speak",
+                "bank": [
+                  "Shuō"
+                ],
+                "answer": [
+                  "Shuō"
+                ],
+                "answerHanzi": "说"
+              },
+              {
+                "type": "listening-tap",
+                "native": "Shuō",
+                "nativeHanzi": "说",
+                "answer": [
+                  "Shuō"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Dú",
+                "promptHanzi": "读",
+                "options": [
+                  "noodles",
+                  "School ends at 3pm.",
+                  "How much is this?",
+                  "to read"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "to read",
+                "bank": [
+                  "Dú"
+                ],
+                "answer": [
+                  "Dú"
+                ],
+                "answerHanzi": "读"
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Xiě",
+                "promptHanzi": "写",
+                "options": [
+                  "I don't have time.",
+                  "She is very busy.",
+                  "to write",
+                  "My name is Li Ming."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "to write",
+                "bank": [
+                  "Xiě"
+                ],
+                "answer": [
+                  "Xiě"
+                ],
+                "answerHanzi": "写"
+              },
+              {
+                "type": "listening",
+                "native": "Xiě",
+                "nativeHanzi": "写",
+                "options": [
+                  "to write",
+                  "I am very happy.",
+                  "Her friend says: \"I'd like noodles and tea.\"",
+                  "One dog"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Zǒu",
+                "promptHanzi": "走",
+                "options": [
+                  "I'm sorry.",
+                  "One book",
+                  "to walk / go",
+                  "rice"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "to walk / go",
+                "bank": [
+                  "Zǒu"
+                ],
+                "answer": [
+                  "Zǒu"
+                ],
+                "answerHanzi": "走"
+              },
+              {
+                "type": "listening-tap",
+                "native": "Zǒu",
+                "nativeHanzi": "走",
+                "answer": [
+                  "Zǒu"
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "Zǒu",
+                "blankedEn": "to ___ / go",
+                "answer": "walk",
+                "options": [
+                  "walk",
+                  "write",
+                  "didn't",
+                  "dumplings"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Wǒ xiǎng chī fàn.",
+                "promptHanzi": "我想吃饭。",
+                "options": [
+                  "There's no one here.",
+                  "What is your name?",
+                  "Zero",
+                  "I want to eat."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "I want to eat.",
+                "bank": [
+                  "xiǎng",
+                  "Wǒ",
+                  "chī",
+                  "fàn."
+                ],
+                "answer": [
+                  "Wǒ",
+                  "xiǎng",
+                  "chī",
+                  "fàn."
+                ],
+                "answerHanzi": "我想吃饭。"
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Tā xǐhuan kàn shū.",
+                "promptHanzi": "他喜欢看书。",
+                "options": [
+                  "Eleven",
+                  "Hello!",
+                  "He likes to read books.",
+                  "to speak"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "He likes to read books.",
+                "bank": [
+                  "shū.",
+                  "Tā",
+                  "kàn",
+                  "xǐhuan"
+                ],
+                "answer": [
+                  "Tā",
+                  "xǐhuan",
+                  "kàn",
+                  "shū."
+                ],
+                "answerHanzi": "他喜欢看书。"
+              },
+              {
+                "type": "listening",
+                "native": "Tā xǐhuan kàn shū.",
+                "nativeHanzi": "他喜欢看书。",
+                "options": [
+                  "The food is delicious, they are happy.",
+                  "Can I pay by card?",
+                  "So cheap!",
+                  "He likes to read books."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Wǒmen zài xué Zhōngwén.",
+                "promptHanzi": "我们在学中文。",
+                "options": [
+                  "yesterday",
+                  "How are you?",
+                  "We are learning Chinese.",
+                  "Is this your book?"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "We are learning Chinese.",
+                "bank": [
+                  "zài",
+                  "Zhōngwén.",
+                  "xué",
+                  "Wǒmen"
+                ],
+                "answer": [
+                  "Wǒmen",
+                  "zài",
+                  "xué",
+                  "Zhōngwén."
+                ],
+                "answerHanzi": "我们在学中文。"
+              },
+              {
+                "type": "listening-tap",
+                "native": "Wǒmen zài xué Zhōngwén.",
+                "nativeHanzi": "我们在学中文。",
+                "answer": [
+                  "Wǒmen",
+                  "zài",
+                  "xué",
+                  "Zhōngwén."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Qǐng shuō màn yìdiǎn.",
+                "promptHanzi": "请说慢一点。",
+                "options": [
+                  "Please speak a little slower.",
+                  "I have two apples.",
+                  "How are you?",
+                  "Do you accept credit cards here?"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "Please speak a little slower.",
+                "bank": [
+                  "yìdiǎn.",
+                  "Qǐng",
+                  "màn",
+                  "shuō"
+                ],
+                "answer": [
+                  "Qǐng",
+                  "shuō",
+                  "màn",
+                  "yìdiǎn."
+                ],
+                "answerHanzi": "请说慢一点。"
+              },
+              {
+                "type": "fill-blank",
+                "native": "Qǐng shuō màn yìdiǎn.",
+                "blankedEn": "Please speak a little ___",
+                "answer": "slower",
+                "options": [
+                  "slower",
+                  "doesn't",
+                  "Good",
+                  "Nice"
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Chī",
+                    "en": "to eat"
+                  },
+                  {
+                    "native": "Hē",
+                    "en": "to drink"
+                  },
+                  {
+                    "native": "Kàn",
+                    "en": "to see / look / watch"
+                  },
+                  {
+                    "native": "Tīng",
+                    "en": "to listen"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Shuō",
+                    "en": "to speak"
+                  },
+                  {
+                    "native": "Dú",
+                    "en": "to read"
+                  },
+                  {
+                    "native": "Xiě",
+                    "en": "to write"
+                  },
+                  {
+                    "native": "Zǒu",
+                    "en": "to walk / go"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Wǒ xiǎng chī fàn.",
+                    "en": "I want to eat."
+                  },
+                  {
+                    "native": "Tā xǐhuan kàn shū.",
+                    "en": "He likes to read books."
+                  },
+                  {
+                    "native": "Wǒmen zài xué Zhōngwén.",
+                    "en": "We are learning Chinese."
+                  },
+                  {
+                    "native": "Qǐng shuō màn yìdiǎn.",
+                    "en": "Please speak a little slower."
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Chángyòng Dòngcí"
+          },
+          {
+            "id": "zh-a1-9",
+            "number": 9,
+            "title": "Food & Drink",
+            "description": "Food & Drink",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Mǐfàn",
+                "promptHanzi": "米饭",
+                "options": [
+                  "He is Chinese.",
+                  "rice",
+                  "I have two apples.",
+                  "I didn't see your phone."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "rice",
+                "bank": [
+                  "Mǐfàn"
+                ],
+                "answer": [
+                  "Mǐfàn"
+                ],
+                "answerHanzi": "米饭"
+              },
+              {
+                "type": "listening",
+                "native": "Mǐfàn",
+                "nativeHanzi": "米饭",
+                "options": [
+                  "I am not a doctor.",
+                  "How old are you? (polite, to an elder)",
+                  "rice",
+                  "This car is black."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Miàntiáo",
+                "promptHanzi": "面条",
+                "options": [
+                  "Tomorrow is Saturday.",
+                  "One",
+                  "rice",
+                  "noodles"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "noodles",
+                "bank": [
+                  "Miàntiáo"
+                ],
+                "answer": [
+                  "Miàntiáo"
+                ],
+                "answerHanzi": "面条"
+              },
+              {
+                "type": "listening-tap",
+                "native": "Miàntiáo",
+                "nativeHanzi": "面条",
+                "answer": [
+                  "Miàntiáo"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Chá",
+                "promptHanzi": "茶",
+                "options": [
+                  "This piece of clothing is red.",
+                  "There are three tickets on the table.",
+                  "to listen",
+                  "tea"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "tea",
+                "bank": [
+                  "Chá"
+                ],
+                "answer": [
+                  "Chá"
+                ],
+                "answerHanzi": "茶"
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Kāfēi",
+                "promptHanzi": "咖啡",
+                "options": [
+                  "coffee",
+                  "milk",
+                  "to drink",
+                  "In the evening he does homework, then sleeps."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "coffee",
+                "bank": [
+                  "Kāfēi"
+                ],
+                "answer": [
+                  "Kāfēi"
+                ],
+                "answerHanzi": "咖啡"
+              },
+              {
+                "type": "listening",
+                "native": "Kāfēi",
+                "nativeHanzi": "咖啡",
+                "options": [
+                  "I am very happy.",
+                  "Xiao Li says: \"I'd like dumplings.\"",
+                  "That is his car.",
+                  "coffee"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "fill-blank",
+                "native": "Kāfēi",
+                "blankedEn": "___",
+                "answer": "coffee",
+                "options": [
+                  "Tomorrow",
+                  "coffee",
+                  "father",
+                  "sorry"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Shuǐ",
+                "promptHanzi": "水",
+                "options": [
+                  "you",
+                  "Tomorrow is Saturday.",
+                  "water",
+                  "I didn't go to school yesterday."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "water",
+                "bank": [
+                  "Shuǐ"
+                ],
+                "answer": [
+                  "Shuǐ"
+                ],
+                "answerHanzi": "水"
+              },
+              {
+                "type": "listening-tap",
+                "native": "Shuǐ",
+                "nativeHanzi": "水",
+                "answer": [
+                  "Shuǐ"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Niúnǎi",
+                "promptHanzi": "牛奶",
+                "options": [
+                  "noodles",
+                  "milk",
+                  "I want a hamburger.",
+                  "I didn't go to school yesterday."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "milk",
+                "bank": [
+                  "Niúnǎi"
+                ],
+                "answer": [
+                  "Niúnǎi"
+                ],
+                "answerHanzi": "牛奶"
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Jiǎozi",
+                "promptHanzi": "饺子",
+                "options": [
+                  "dumplings",
+                  "Is this your book?",
+                  "How much money?",
+                  "One apple"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "dumplings",
+                "bank": [
+                  "Jiǎozi"
+                ],
+                "answer": [
+                  "Jiǎozi"
+                ],
+                "answerHanzi": "饺子"
+              },
+              {
+                "type": "listening",
+                "native": "Jiǎozi",
+                "nativeHanzi": "饺子",
+                "options": [
+                  "dumplings",
+                  "Goodbye!",
+                  "At noon he eats with friends.",
+                  "Nine"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Shuǐguǒ",
+                "promptHanzi": "水果",
+                "options": [
+                  "fruit",
+                  "After eating, they pay, then go home.",
+                  "Eight",
+                  "I didn't go to school yesterday."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "fruit",
+                "bank": [
+                  "Shuǐguǒ"
+                ],
+                "answer": [
+                  "Shuǐguǒ"
+                ],
+                "answerHanzi": "水果"
+              },
+              {
+                "type": "listening-tap",
+                "native": "Shuǐguǒ",
+                "nativeHanzi": "水果",
+                "answer": [
+                  "Shuǐguǒ"
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "Shuǐguǒ",
+                "blankedEn": "___",
+                "answer": "fruit",
+                "options": [
+                  "listen",
+                  "sorry",
+                  "cats",
+                  "fruit"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Wǒ hěn è, wǒ xiǎng chī jiǎozi.",
+                "promptHanzi": "我很饿，我想吃饺子。",
+                "options": [
+                  "cheap",
+                  "yesterday",
+                  "I'm very hungry, I want to eat dumplings.",
+                  "At 8 o'clock he goes to school."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "I'm very hungry, I want to eat dumplings.",
+                "bank": [
+                  "wǒ",
+                  "xiǎng",
+                  "hěn",
+                  "chī",
+                  "è,",
+                  "Wǒ",
+                  "jiǎozi."
+                ],
+                "answer": [
+                  "Wǒ",
+                  "hěn",
+                  "è,",
+                  "wǒ",
+                  "xiǎng",
+                  "chī",
+                  "jiǎozi."
+                ],
+                "answerHanzi": "我很饿，我想吃饺子。"
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Nǐ xiǎng hē chá háishi kāfēi?",
+                "promptHanzi": "你想喝茶还是咖啡？",
+                "options": [
+                  "Xiao Li says: \"I'd like dumplings.\"",
+                  "Would you like tea or coffee?",
+                  "What day is it today?",
+                  "There's no one here."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "Would you like tea or coffee?",
+                "bank": [
+                  "kāfēi?",
+                  "xiǎng",
+                  "Nǐ",
+                  "chá",
+                  "hē",
+                  "háishi"
+                ],
+                "answer": [
+                  "Nǐ",
+                  "xiǎng",
+                  "hē",
+                  "chá",
+                  "háishi",
+                  "kāfēi?"
+                ],
+                "answerHanzi": "你想喝茶还是咖啡？"
+              },
+              {
+                "type": "listening",
+                "native": "Nǐ xiǎng hē chá háishi kāfēi?",
+                "nativeHanzi": "你想喝茶还是咖啡？",
+                "options": [
+                  "Where do you live?",
+                  "We are friends.",
+                  "Would you like tea or coffee?",
+                  "This is my book."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Mǐfàn",
+                    "en": "rice"
+                  },
+                  {
+                    "native": "Miàntiáo",
+                    "en": "noodles"
+                  },
+                  {
+                    "native": "Chá",
+                    "en": "tea"
+                  },
+                  {
+                    "native": "Kāfēi",
+                    "en": "coffee"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Shuǐ",
+                    "en": "water"
+                  },
+                  {
+                    "native": "Niúnǎi",
+                    "en": "milk"
+                  },
+                  {
+                    "native": "Jiǎozi",
+                    "en": "dumplings"
+                  },
+                  {
+                    "native": "Shuǐguǒ",
+                    "en": "fruit"
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Shíwù yǔ Yǐnliào"
+          },
+          {
+            "id": "zh-a1-10",
+            "number": 10,
+            "title": "Colors & Descriptions",
+            "description": "Colors & Descriptions",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Hóngsè",
+                "promptHanzi": "红色",
+                "options": [
+                  "green",
+                  "red",
+                  "I have two apples.",
+                  "The sky is blue."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "red",
+                "bank": [
+                  "Hóngsè"
+                ],
+                "answer": [
+                  "Hóngsè"
+                ],
+                "answerHanzi": "红色"
+              },
+              {
+                "type": "listening",
+                "native": "Hóngsè",
+                "nativeHanzi": "红色",
+                "options": [
+                  "I don't have an older sister.",
+                  "We are friends.",
+                  "red",
+                  "Monday"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Lánsè",
+                "promptHanzi": "蓝色",
+                "options": [
+                  "Eleven",
+                  "rice",
+                  "How many people are in your family?",
+                  "blue"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "blue",
+                "bank": [
+                  "Lánsè"
+                ],
+                "answer": [
+                  "Lánsè"
+                ],
+                "answerHanzi": "蓝色"
+              },
+              {
+                "type": "listening-tap",
+                "native": "Lánsè",
+                "nativeHanzi": "蓝色",
+                "answer": [
+                  "Lánsè"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Lǜsè",
+                "promptHanzi": "绿色",
+                "options": [
+                  "Do you accept credit cards here?",
+                  "green",
+                  "After eating, they pay, then go home.",
+                  "That is his car."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "green",
+                "bank": [
+                  "Lǜsè"
+                ],
+                "answer": [
+                  "Lǜsè"
+                ],
+                "answerHanzi": "绿色"
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Huángsè",
+                "promptHanzi": "黄色",
+                "options": [
+                  "coffee",
+                  "Too expensive.",
+                  "yellow",
+                  "red"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "yellow",
+                "bank": [
+                  "Huángsè"
+                ],
+                "answer": [
+                  "Huángsè"
+                ],
+                "answerHanzi": "黄色"
+              },
+              {
+                "type": "listening",
+                "native": "Huángsè",
+                "nativeHanzi": "黄色",
+                "options": [
+                  "Xiao Li and her friend go to a restaurant to eat.",
+                  "The food is delicious, they are happy.",
+                  "She isn't hungry.",
+                  "yellow"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "fill-blank",
+                "native": "Huángsè",
+                "blankedEn": "___",
+                "answer": "yellow",
+                "options": [
+                  "doctor",
+                  "Four",
+                  "white",
+                  "yellow"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Hēisè",
+                "promptHanzi": "黑色",
+                "options": [
+                  "How old are you?",
+                  "to read",
+                  "What is this?",
+                  "black"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "black",
+                "bank": [
+                  "Hēisè"
+                ],
+                "answer": [
+                  "Hēisè"
+                ],
+                "answerHanzi": "黑色"
+              },
+              {
+                "type": "listening-tap",
+                "native": "Hēisè",
+                "nativeHanzi": "黑色",
+                "answer": [
+                  "Hēisè"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Báisè",
+                "promptHanzi": "白色",
+                "options": [
+                  "He is Chinese.",
+                  "she / her",
+                  "white",
+                  "It's okay."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "white",
+                "bank": [
+                  "Báisè"
+                ],
+                "answer": [
+                  "Báisè"
+                ],
+                "answerHanzi": "白色"
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Zhè jiàn yīfu shì hóngsè de.",
+                "promptHanzi": "这件衣服是红色的。",
+                "options": [
+                  "Two cats",
+                  "we",
+                  "I don't know him.",
+                  "This piece of clothing is red."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "This piece of clothing is red.",
+                "bank": [
+                  "Zhè",
+                  "de.",
+                  "hóngsè",
+                  "shì",
+                  "jiàn",
+                  "yīfu"
+                ],
+                "answer": [
+                  "Zhè",
+                  "jiàn",
+                  "yīfu",
+                  "shì",
+                  "hóngsè",
+                  "de."
+                ],
+                "answerHanzi": "这件衣服是红色的。"
+              },
+              {
+                "type": "listening",
+                "native": "Zhè jiàn yīfu shì hóngsè de.",
+                "nativeHanzi": "这件衣服是红色的。",
+                "options": [
+                  "Hello!",
+                  "Sunday",
+                  "This piece of clothing is red.",
+                  "he / him"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Wǒ xǐhuan lánsè.",
+                "promptHanzi": "我喜欢蓝色。",
+                "options": [
+                  "coffee",
+                  "we",
+                  "I like blue.",
+                  "I have two apples."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "I like blue.",
+                "bank": [
+                  "Wǒ",
+                  "lánsè.",
+                  "xǐhuan"
+                ],
+                "answer": [
+                  "Wǒ",
+                  "xǐhuan",
+                  "lánsè."
+                ],
+                "answerHanzi": "我喜欢蓝色。"
+              },
+              {
+                "type": "listening-tap",
+                "native": "Wǒ xǐhuan lánsè.",
+                "nativeHanzi": "我喜欢蓝色。",
+                "answer": [
+                  "Wǒ",
+                  "xǐhuan",
+                  "lánsè."
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "Wǒ xǐhuan lánsè.",
+                "blankedEn": "I ___ blue.",
+                "answer": "like",
+                "options": [
+                  "dumplings",
+                  "like",
+                  "today",
+                  "card"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Tiān shì lánsè de.",
+                "promptHanzi": "天是蓝色的。",
+                "options": [
+                  "yesterday",
+                  "I'm sorry.",
+                  "I'm very hungry, I want to eat dumplings.",
+                  "The sky is blue."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "The sky is blue.",
+                "bank": [
+                  "de.",
+                  "shì",
+                  "Tiān",
+                  "lánsè"
+                ],
+                "answer": [
+                  "Tiān",
+                  "shì",
+                  "lánsè",
+                  "de."
+                ],
+                "answerHanzi": "天是蓝色的。"
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Zhè liàng chē shì hēisè de.",
+                "promptHanzi": "这辆车是黑色的。",
+                "options": [
+                  "I didn't see your phone.",
+                  "today",
+                  "to speak",
+                  "This car is black."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "This car is black.",
+                "bank": [
+                  "liàng",
+                  "chē",
+                  "de.",
+                  "hēisè",
+                  "shì",
+                  "Zhè"
+                ],
+                "answer": [
+                  "Zhè",
+                  "liàng",
+                  "chē",
+                  "shì",
+                  "hēisè",
+                  "de."
+                ],
+                "answerHanzi": "这辆车是黑色的。"
+              },
+              {
+                "type": "listening",
+                "native": "Zhè liàng chē shì hēisè de.",
+                "nativeHanzi": "这辆车是黑色的。",
+                "options": [
+                  "to walk / go",
+                  "This car is black.",
+                  "Are you hungry?",
+                  "black"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Hóngsè",
+                    "en": "red"
+                  },
+                  {
+                    "native": "Lánsè",
+                    "en": "blue"
+                  },
+                  {
+                    "native": "Lǜsè",
+                    "en": "green"
+                  },
+                  {
+                    "native": "Huángsè",
+                    "en": "yellow"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Hēisè",
+                    "en": "black"
+                  },
+                  {
+                    "native": "Báisè",
+                    "en": "white"
+                  },
+                  {
+                    "native": "Zhè jiàn yīfu shì hóngsè de.",
+                    "en": "This piece of clothing is red."
+                  },
+                  {
+                    "native": "Wǒ xǐhuan lánsè.",
+                    "en": "I like blue."
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Yánsè yǔ Miáoshù"
+          },
+          {
+            "id": "zh-a1-11",
+            "number": 11,
+            "title": "Time & Days of the Week",
+            "description": "Time & Days of the Week",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Jīntiān",
+                "promptHanzi": "今天",
+                "options": [
+                  "This piece of clothing is red.",
+                  "today",
+                  "she / her",
+                  "dumplings"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "today",
+                "bank": [
+                  "Jīntiān"
+                ],
+                "answer": [
+                  "Jīntiān"
+                ],
+                "answerHanzi": "今天"
+              },
+              {
+                "type": "listening",
+                "native": "Jīntiān",
+                "nativeHanzi": "今天",
+                "options": [
+                  "It's okay.",
+                  "This is my father.",
+                  "today",
+                  "green"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Míngtiān",
+                "promptHanzi": "明天",
+                "options": [
+                  "I don't know him.",
+                  "It's 3pm now.",
+                  "coffee",
+                  "tomorrow"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "tomorrow",
+                "bank": [
+                  "Míngtiān"
+                ],
+                "answer": [
+                  "Míngtiān"
+                ],
+                "answerHanzi": "明天"
+              },
+              {
+                "type": "listening-tap",
+                "native": "Míngtiān",
+                "nativeHanzi": "明天",
+                "answer": [
+                  "Míngtiān"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Zuótiān",
+                "promptHanzi": "昨天",
+                "options": [
+                  "yesterday",
+                  "Two",
+                  "She is very busy.",
+                  "to read"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "yesterday",
+                "bank": [
+                  "Zuótiān"
+                ],
+                "answer": [
+                  "Zuótiān"
+                ],
+                "answerHanzi": "昨天"
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Xīngqīyī",
+                "promptHanzi": "星期一",
+                "options": [
+                  "What day is it today?",
+                  "she / her",
+                  "Monday",
+                  "At noon he eats with friends."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "Monday",
+                "bank": [
+                  "Xīngqīyī"
+                ],
+                "answer": [
+                  "Xīngqīyī"
+                ],
+                "answerHanzi": "星期一"
+              },
+              {
+                "type": "listening",
+                "native": "Xīngqīyī",
+                "nativeHanzi": "星期一",
+                "options": [
+                  "Monday",
+                  "This piece of clothing is red.",
+                  "noodles",
+                  "The sky is blue."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "fill-blank",
+                "native": "Xīngqīyī",
+                "blankedEn": "___",
+                "answer": "Monday",
+                "options": [
+                  "books",
+                  "Monday",
+                  "cash",
+                  "father"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Xīngqīrì",
+                "promptHanzi": "星期日",
+                "options": [
+                  "There are three tickets on the table.",
+                  "Four",
+                  "Sunday",
+                  "we"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "Sunday",
+                "bank": [
+                  "Xīngqīrì"
+                ],
+                "answer": [
+                  "Xīngqīrì"
+                ],
+                "answerHanzi": "星期日"
+              },
+              {
+                "type": "listening-tap",
+                "native": "Xīngqīrì",
+                "nativeHanzi": "星期日",
+                "answer": [
+                  "Xīngqīrì"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Jīntiān xīngqī jǐ?",
+                "promptHanzi": "今天星期几？",
+                "options": [
+                  "tea",
+                  "I want to buy this.",
+                  "We are learning Chinese.",
+                  "What day is it today?"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "What day is it today?",
+                "bank": [
+                  "Jīntiān",
+                  "jǐ?",
+                  "xīngqī"
+                ],
+                "answer": [
+                  "Jīntiān",
+                  "xīngqī",
+                  "jǐ?"
+                ],
+                "answerHanzi": "今天星期几？"
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Míngtiān shì xīngqīliù.",
+                "promptHanzi": "明天是星期六。",
+                "options": [
+                  "Two cats",
+                  "tea",
+                  "Tomorrow is Saturday.",
+                  "water"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "Tomorrow is Saturday.",
+                "bank": [
+                  "shì",
+                  "Míngtiān",
+                  "xīngqīliù."
+                ],
+                "answer": [
+                  "Míngtiān",
+                  "shì",
+                  "xīngqīliù."
+                ],
+                "answerHanzi": "明天是星期六。"
+              },
+              {
+                "type": "listening",
+                "native": "Míngtiān shì xīngqīliù.",
+                "nativeHanzi": "明天是星期六。",
+                "options": [
+                  "After eating, they pay, then go home.",
+                  "At 8 o'clock he goes to school.",
+                  "I am not a doctor.",
+                  "Tomorrow is Saturday."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Wǒmen xīngqīwǔ jiàn.",
+                "promptHanzi": "我们星期五见。",
+                "options": [
+                  "to read",
+                  "We are learning Chinese.",
+                  "Is this your book?",
+                  "See you on Friday."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "See you on Friday.",
+                "bank": [
+                  "jiàn.",
+                  "xīngqīwǔ",
+                  "Wǒmen"
+                ],
+                "answer": [
+                  "Wǒmen",
+                  "xīngqīwǔ",
+                  "jiàn."
+                ],
+                "answerHanzi": "我们星期五见。"
+              },
+              {
+                "type": "listening-tap",
+                "native": "Wǒmen xīngqīwǔ jiàn.",
+                "nativeHanzi": "我们星期五见。",
+                "answer": [
+                  "Wǒmen",
+                  "xīngqīwǔ",
+                  "jiàn."
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "Wǒmen xīngqīwǔ jiàn.",
+                "blankedEn": "See you on ___",
+                "answer": "Friday",
+                "options": [
+                  "time",
+                  "Friday",
+                  "accept",
+                  "elder"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Xiànzài shì xiàwǔ sān diǎn.",
+                "promptHanzi": "现在是下午三点。",
+                "options": [
+                  "He eats breakfast and drinks milk.",
+                  "noodles",
+                  "It's 3pm now.",
+                  "I have an older brother."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "It's 3pm now.",
+                "bank": [
+                  "sān",
+                  "Xiànzài",
+                  "diǎn.",
+                  "shì",
+                  "xiàwǔ"
+                ],
+                "answer": [
+                  "Xiànzài",
+                  "shì",
+                  "xiàwǔ",
+                  "sān",
+                  "diǎn."
+                ],
+                "answerHanzi": "现在是下午三点。"
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Wǒ zǎoshang qī diǎn qǐchuáng.",
+                "promptHanzi": "我早上七点起床。",
+                "options": [
+                  "coffee",
+                  "blue",
+                  "I get up at 7am.",
+                  "Two people"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "I get up at 7am.",
+                "bank": [
+                  "qī",
+                  "diǎn",
+                  "Wǒ",
+                  "qǐchuáng.",
+                  "zǎoshang"
+                ],
+                "answer": [
+                  "Wǒ",
+                  "zǎoshang",
+                  "qī",
+                  "diǎn",
+                  "qǐchuáng."
+                ],
+                "answerHanzi": "我早上七点起床。"
+              },
+              {
+                "type": "listening",
+                "native": "Wǒ zǎoshang qī diǎn qǐchuáng.",
+                "nativeHanzi": "我早上七点起床。",
+                "options": [
+                  "So cheap!",
+                  "How old are you? (polite, to an elder)",
+                  "I get up at 7am.",
+                  "That is his car."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Jīntiān",
+                    "en": "today"
+                  },
+                  {
+                    "native": "Míngtiān",
+                    "en": "tomorrow"
+                  },
+                  {
+                    "native": "Zuótiān",
+                    "en": "yesterday"
+                  },
+                  {
+                    "native": "Xīngqīyī",
+                    "en": "Monday"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Xīngqīrì",
+                    "en": "Sunday"
+                  },
+                  {
+                    "native": "Jīntiān xīngqī jǐ?",
+                    "en": "What day is it today?"
+                  },
+                  {
+                    "native": "Míngtiān shì xīngqīliù.",
+                    "en": "Tomorrow is Saturday."
+                  },
+                  {
+                    "native": "Wǒmen xīngqīwǔ jiàn.",
+                    "en": "See you on Friday."
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Shíjiān yǔ Xīngqī"
+          },
+          {
+            "id": "zh-a1-12",
+            "number": 12,
+            "title": "Shopping & Money",
+            "description": "Shopping & Money",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Duōshǎo qián?",
+                "promptHanzi": "多少钱？",
+                "options": [
+                  "You are a teacher.",
+                  "The waiter asks: \"What would you like to eat?\"",
+                  "How much money?",
+                  "What is this?"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "How much money?",
+                "bank": [
+                  "Duōshǎo",
+                  "qián?"
+                ],
+                "answer": [
+                  "Duōshǎo",
+                  "qián?"
+                ],
+                "answerHanzi": "多少钱？"
+              },
+              {
+                "type": "listening",
+                "native": "Duōshǎo qián?",
+                "nativeHanzi": "多少钱？",
+                "options": [
+                  "dumplings",
+                  "How much money?",
+                  "In the evening he does homework, then sleeps.",
+                  "Monday"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Tài guì le.",
+                "promptHanzi": "太贵了。",
+                "options": [
+                  "Too expensive.",
+                  "One book",
+                  "to listen",
+                  "He gets up at 7am."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "Too expensive.",
+                "bank": [
+                  "guì",
+                  "le.",
+                  "Tài"
+                ],
+                "answer": [
+                  "Tài",
+                  "guì",
+                  "le."
+                ],
+                "answerHanzi": "太贵了。"
+              },
+              {
+                "type": "listening-tap",
+                "native": "Tài guì le.",
+                "nativeHanzi": "太贵了。",
+                "answer": [
+                  "Tài",
+                  "guì",
+                  "le."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Piányi",
+                "promptHanzi": "便宜",
+                "options": [
+                  "I like blue.",
+                  "to listen",
+                  "cheap",
+                  "How are you?"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "cheap",
+                "bank": [
+                  "Piányi"
+                ],
+                "answer": [
+                  "Piányi"
+                ],
+                "answerHanzi": "便宜"
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Wǒ yào mǎi zhège.",
+                "promptHanzi": "我要买这个。",
+                "options": [
+                  "She isn't hungry.",
+                  "Tomorrow is Saturday.",
+                  "I want to buy this.",
+                  "He is not my friend."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "I want to buy this.",
+                "bank": [
+                  "mǎi",
+                  "zhège.",
+                  "Wǒ",
+                  "yào"
+                ],
+                "answer": [
+                  "Wǒ",
+                  "yào",
+                  "mǎi",
+                  "zhège."
+                ],
+                "answerHanzi": "我要买这个。"
+              },
+              {
+                "type": "listening",
+                "native": "Wǒ yào mǎi zhège.",
+                "nativeHanzi": "我要买这个。",
+                "options": [
+                  "My family has one cat.",
+                  "milk",
+                  "tomorrow",
+                  "I want to buy this."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "fill-blank",
+                "native": "Wǒ yào mǎi zhège.",
+                "blankedEn": "I ___ to buy this.",
+                "answer": "want",
+                "options": [
+                  "noodles",
+                  "want",
+                  "Hello",
+                  "write"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Kěyǐ shuākǎ ma?",
+                "promptHanzi": "可以刷卡吗？",
+                "options": [
+                  "white",
+                  "Sunday",
+                  "Can I pay by card?",
+                  "Six"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "Can I pay by card?",
+                "bank": [
+                  "Kěyǐ",
+                  "shuākǎ",
+                  "ma?"
+                ],
+                "answer": [
+                  "Kěyǐ",
+                  "shuākǎ",
+                  "ma?"
+                ],
+                "answerHanzi": "可以刷卡吗？"
+              },
+              {
+                "type": "listening-tap",
+                "native": "Kěyǐ shuākǎ ma?",
+                "nativeHanzi": "可以刷卡吗？",
+                "answer": [
+                  "Kěyǐ",
+                  "shuākǎ",
+                  "ma?"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Zhège duōshǎo qián?",
+                "promptHanzi": "这个多少钱？",
+                "options": [
+                  "After eating, they pay, then go home.",
+                  "to write",
+                  "How much is this?",
+                  "This is my father."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "How much is this?",
+                "bank": [
+                  "duōshǎo",
+                  "qián?",
+                  "Zhège"
+                ],
+                "answer": [
+                  "Zhège",
+                  "duōshǎo",
+                  "qián?"
+                ],
+                "answerHanzi": "这个多少钱？"
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Wǔ kuài qián.",
+                "promptHanzi": "五块钱。",
+                "options": [
+                  "Is this your book?",
+                  "Five yuan.",
+                  "I want a hamburger.",
+                  "I'm sorry."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "Five yuan.",
+                "bank": [
+                  "Wǔ",
+                  "qián.",
+                  "kuài"
+                ],
+                "answer": [
+                  "Wǔ",
+                  "kuài",
+                  "qián."
+                ],
+                "answerHanzi": "五块钱。"
+              },
+              {
+                "type": "listening",
+                "native": "Wǔ kuài qián.",
+                "nativeHanzi": "五块钱。",
+                "options": [
+                  "Are you a teacher?",
+                  "Fifteen",
+                  "Five yuan.",
+                  "You are a teacher."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Tài piányi le!",
+                "promptHanzi": "太便宜了！",
+                "options": [
+                  "Two people",
+                  "So cheap!",
+                  "blue",
+                  "to speak"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "So cheap!",
+                "bank": [
+                  "le!",
+                  "piányi",
+                  "Tài"
+                ],
+                "answer": [
+                  "Tài",
+                  "piányi",
+                  "le!"
+                ],
+                "answerHanzi": "太便宜了！"
+              },
+              {
+                "type": "listening-tap",
+                "native": "Tài piányi le!",
+                "nativeHanzi": "太便宜了！",
+                "answer": [
+                  "Tài",
+                  "piányi",
+                  "le!"
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "Tài piányi le!",
+                "blankedEn": "So ___",
+                "answer": "cheap",
+                "options": [
+                  "tickets",
+                  "fruit",
+                  "cheap",
+                  "drink"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Wǒ méiyǒu xiànjīn.",
+                "promptHanzi": "我没有现金。",
+                "options": [
+                  "He gets up at 7am.",
+                  "Five yuan.",
+                  "School ends at 3pm.",
+                  "I don't have cash."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "I don't have cash.",
+                "bank": [
+                  "xiànjīn.",
+                  "méiyǒu",
+                  "Wǒ"
+                ],
+                "answer": [
+                  "Wǒ",
+                  "méiyǒu",
+                  "xiànjīn."
+                ],
+                "answerHanzi": "我没有现金。"
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "zh-en",
+                "prompt": "Zhèli shōu xìnyòngkǎ ma?",
+                "promptHanzi": "这里收信用卡吗？",
+                "options": [
+                  "What time is it now?",
+                  "Do you accept credit cards here?",
+                  "to drink",
+                  "You are a teacher."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-zh",
+                "prompt": "Do you accept credit cards here?",
+                "bank": [
+                  "Zhèli",
+                  "xìnyòngkǎ",
+                  "shōu",
+                  "ma?"
+                ],
+                "answer": [
+                  "Zhèli",
+                  "shōu",
+                  "xìnyòngkǎ",
+                  "ma?"
+                ],
+                "answerHanzi": "这里收信用卡吗？"
+              },
+              {
+                "type": "listening",
+                "native": "Zhèli shōu xìnyòngkǎ ma?",
+                "nativeHanzi": "这里收信用卡吗？",
+                "options": [
+                  "Do you accept credit cards here?",
+                  "This is my mother.",
+                  "he / him",
+                  "yellow"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Duōshǎo qián?",
+                    "en": "How much money?"
+                  },
+                  {
+                    "native": "Tài guì le.",
+                    "en": "Too expensive."
+                  },
+                  {
+                    "native": "Piányi",
+                    "en": "cheap"
+                  },
+                  {
+                    "native": "Wǒ yào mǎi zhège.",
+                    "en": "I want to buy this."
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Kěyǐ shuākǎ ma?",
+                    "en": "Can I pay by card?"
+                  },
+                  {
+                    "native": "Zhège duōshǎo qián?",
+                    "en": "How much is this?"
+                  },
+                  {
+                    "native": "Wǔ kuài qián.",
+                    "en": "Five yuan."
+                  },
+                  {
+                    "native": "Tài piányi le!",
+                    "en": "So cheap!"
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Gòuwù yǔ Jīnqián"
+          },
+          {
+            "id": "zh-a1-13-reading",
+            "number": 13,
+            "title": "Xiao Ming's Day",
+            "titleNative": "Xiǎo Míng de Yì Tiān",
+            "description": "A short passage about a ten-year-old student's daily routine.",
+            "readingPassage": {
+              "context": "A short passage about a ten-year-old student's daily routine.",
+              "paragraphs": [
+                {
+                  "native": "Xiǎo Míng shì xuéshēng. Tā shí suì.",
+                  "nativeHanzi": "小明是学生。他十岁。",
+                  "en": "Xiao Ming is a student. He is ten years old."
+                },
+                {
+                  "native": "Tā zǎoshang qī diǎn qǐchuáng.",
+                  "nativeHanzi": "他早上七点起床。",
+                  "en": "He gets up at 7am."
+                },
+                {
+                  "native": "Tā chī zǎofàn, hē niúnǎi.",
+                  "nativeHanzi": "他吃早饭，喝牛奶。",
+                  "en": "He eats breakfast and drinks milk."
+                },
+                {
+                  "native": "Bā diǎn tā qù xuéxiào.",
+                  "nativeHanzi": "八点他去学校。",
+                  "en": "At 8 o'clock he goes to school."
+                },
+                {
+                  "native": "Zhōngwǔ tā hé péngyou yìqǐ chīfàn.",
+                  "nativeHanzi": "中午他和朋友一起吃饭。",
+                  "en": "At noon he eats with friends."
+                },
+                {
+                  "native": "Xiàwǔ sān diǎn fàngxué.",
+                  "nativeHanzi": "下午三点放学。",
+                  "en": "School ends at 3pm."
+                },
+                {
+                  "native": "Wǎnshang tā zuò zuòyè, ránhòu shuìjiào.",
+                  "nativeHanzi": "晚上他做作业，然后睡觉。",
+                  "en": "In the evening he does homework, then sleeps."
+                }
+              ]
+            },
+            "exercises": [
+              {
+                "type": "comprehension",
+                "question": "How old is Xiao Ming?",
+                "options": [
+                  "Eight",
+                  "Nine",
+                  "Ten",
+                  "Twelve"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "comprehension",
+                "question": "What does he drink for breakfast?",
+                "options": [
+                  "Tea",
+                  "Coffee",
+                  "Milk",
+                  "Juice"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "comprehension",
+                "question": "What time does he go to school?",
+                "options": [
+                  "7am",
+                  "8am",
+                  "9am",
+                  "10am"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "comprehension",
+                "question": "Who does he eat lunch with?",
+                "options": [
+                  "His family",
+                  "His teacher",
+                  "His friends",
+                  "Alone"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "comprehension",
+                "question": "What time does school end?",
+                "options": [
+                  "1pm",
+                  "2pm",
+                  "3pm",
+                  "4pm"
+                ],
+                "answerIndex": 2
+              }
+            ]
+          },
+          {
+            "id": "zh-a1-14-reading",
+            "number": 14,
+            "title": "At the Restaurant",
+            "titleNative": "Zài Fànguǎn",
+            "description": "A short passage about two friends ordering food at a restaurant.",
+            "readingPassage": {
+              "context": "A short passage about two friends ordering food at a restaurant.",
+              "paragraphs": [
+                {
+                  "native": "Xiǎo Lì hé péngyou qù fànguǎn chīfàn.",
+                  "nativeHanzi": "小丽和朋友去饭馆吃饭。",
+                  "en": "Xiao Li and her friend go to a restaurant to eat."
+                },
+                {
+                  "native": "Fúwùyuán wèn: \"Nǐmen yào chī shénme?\"",
+                  "nativeHanzi": "服务员问：“你们要吃什么？”",
+                  "en": "The waiter asks: \"What would you like to eat?\""
+                },
+                {
+                  "native": "Xiǎo Lì shuō: \"Wǒ yào jiǎozi.\"",
+                  "nativeHanzi": "小丽说：“我要饺子。”",
+                  "en": "Xiao Li says: \"I'd like dumplings.\""
+                },
+                {
+                  "native": "Péngyou shuō: \"Wǒ yào miàntiáo hé chá.\"",
+                  "nativeHanzi": "朋友说：“我要面条和茶。”",
+                  "en": "Her friend says: \"I'd like noodles and tea.\""
+                },
+                {
+                  "native": "Fàn hěn hǎochī, tāmen hěn gāoxìng.",
+                  "nativeHanzi": "饭很好吃，他们很高兴。",
+                  "en": "The food is delicious, they are happy."
+                },
+                {
+                  "native": "Chīwán fàn, tāmen fù qián, ránhòu huíjiā.",
+                  "nativeHanzi": "吃完饭，他们付钱，然后回家。",
+                  "en": "After eating, they pay, then go home."
+                }
+              ]
+            },
+            "exercises": [
+              {
+                "type": "comprehension",
+                "question": "Where do Xiao Li and her friend go?",
+                "options": [
+                  "A school",
+                  "A restaurant",
+                  "A shop",
+                  "A park"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "comprehension",
+                "question": "What does Xiao Li want to eat?",
+                "options": [
+                  "Noodles",
+                  "Rice",
+                  "Dumplings",
+                  "Bread"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "comprehension",
+                "question": "What does her friend order?",
+                "options": [
+                  "Tea and dumplings",
+                  "Noodles and tea",
+                  "Coffee and rice",
+                  "Milk and noodles"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "comprehension",
+                "question": "How do they feel about the food?",
+                "options": [
+                  "Angry",
+                  "Sad",
+                  "Happy",
+                  "Bored"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "comprehension",
+                "question": "What do they do after eating?",
+                "options": [
+                  "Sleep",
+                  "Pay and go home",
+                  "Order more food",
+                  "Complain"
+                ],
+                "answerIndex": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

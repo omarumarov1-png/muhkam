@@ -13,6 +13,7 @@
     { id: "tajik", file: "data/courses-tajik.json", label: "Tajik — Тоҷикӣ", flag: "Тоҷикӣ" },
     { id: "hebrew", file: "data/courses-hebrew.json", label: "Hebrew — עברית", flag: "עברית" },
     { id: "kazakh", file: "data/courses-kazakh.json", label: "Kazakh — Қазақша", flag: "Қазақша" },
+    { id: "chinese", file: "data/courses-chinese.json", label: "Chinese (Pinyin) — Zhōngwén", flag: "Zhōngwén" },
   ];
 
   // iOS Safari keeps a tapped <button> focused, which makes the
@@ -192,6 +193,23 @@
       /Microsoft (Asaf|Avri).*(Natural|Online)/i,
     ],
     kk: [],
+    // Mandarin (mainland) voices are widely available across platforms,
+    // unlike Tajik/Kazakh -- ranked by typical naturalness. `.lang` prefix
+    // matching ("zh") already covers zh-CN/zh-TW/zh-HK; the name patterns
+    // below specifically favour mainland/Mandarin voices over Cantonese or
+    // Taiwanese ones where a device offers a choice.
+    zh: [
+      // Edge's neural voices (Natural/Online) are meaningfully more natural-
+      // sounding than Chrome's older Google Mandarin voice or the classic
+      // Windows/macOS voices below, so they're ranked first when present.
+      /Microsoft Xiaoxiao.*(Natural|Online)/i,
+      /Microsoft Yunxi.*(Natural|Online)/i,
+      /Microsoft Xiaoyi.*(Natural|Online)/i,
+      /Google 普通话（中国大陆）/i,
+      /Tingting/i,
+      /Ting-Ting/i,
+      /Microsoft Huihui/i,
+    ],
   };
   let _voices = [];
   let _preferredVoiceEn = null;
@@ -313,17 +331,32 @@
     if (!spoken) { scheduleAdvance(fallbackDelay); return; }
     speak(spoken.text, spoken.voice, () => scheduleAdvance(0));
   }
-  // Always surface the target-language (Arabic/Tajik) text, never English —
-  // the whole point of the audio is reinforcing target pronunciation. Which
-  // field holds that text depends on direction: when the target language is
-  // the shown prompt (${lang}-en), speak the prompt; when it's the expected
-  // answer (en-${lang}), speak that. Comprehension questions have no target-
-  // language text tied to the specific answer, so they get no audio.
+  // Chinese displays pinyin only (no Hanzi shown to the learner anywhere),
+  // but a zh-CN voice fed literal pinyin text generally won't pronounce it
+  // as real Mandarin -- it needs the actual Hanzi. Exercises for this course
+  // carry a hidden Hanzi twin of whatever field is on screen, consulted only
+  // here/in the audio-stage helpers below, never rendered to the DOM.
+  function hanziIfChinese(pinyinText, hanziText) {
+    return (course.lang === "zh" && hanziText) || pinyinText;
+  }
+  // Always surface the target-language (Arabic/Tajik/Chinese) text, never
+  // English — the whole point of the audio is reinforcing target
+  // pronunciation. Which field holds that text depends on direction: when
+  // the target language is the shown prompt (${lang}-en), speak the prompt;
+  // when it's the expected answer (en-${lang}), speak that. Comprehension
+  // questions have no target-language text tied to the specific answer, so
+  // they get no audio.
   function targetLangText(ex) {
     if (ex.type === "comprehension") return null;
     const targetIsPrompt = ex.direction === `${course.lang}-en`;
-    if (ex.type === "word-bank") return targetIsPrompt ? ex.prompt : ex.answer.join(" ");
-    return targetIsPrompt ? ex.prompt : ex.options[ex.answerIndex];
+    if (ex.type === "word-bank") {
+      return targetIsPrompt
+        ? hanziIfChinese(ex.prompt, ex.promptHanzi)
+        : hanziIfChinese(ex.answer.join(" "), ex.answerHanzi);
+    }
+    return targetIsPrompt
+      ? hanziIfChinese(ex.prompt, ex.promptHanzi)
+      : hanziIfChinese(ex.options[ex.answerIndex], ex.optionsHanzi && ex.optionsHanzi[ex.answerIndex]);
   }
 
   let course = null;
@@ -1018,7 +1051,11 @@
         }
         lineEls.forEach(l => l.classList.remove("speaking"));
         if (lineEls[i]) lineEls[i].classList.add("speaking");
-        const u = new SpeechSynthesisUtterance(paragraphs[i].native);
+        // Chinese displays pinyin-only text in .native (no Hanzi shown to
+        // the learner), but a zh-CN voice needs real Hanzi to pronounce
+        // Mandarin correctly -- fall back to a parallel hidden field.
+        const speakText = (course.lang === "zh" && paragraphs[i].nativeHanzi) || paragraphs[i].native;
+        const u = new SpeechSynthesisUtterance(speakText);
         u.lang = _preferredVoiceTarget.lang;
         u.voice = _preferredVoiceTarget;
         u.rate = SPEECH_RATE;
@@ -1327,7 +1364,7 @@
       </div>
     `);
     wireGrammarPanel();
-    const play = wireAudioStage(ex.native);
+    const play = wireAudioStage(hanziIfChinese(ex.native, ex.nativeHanzi));
     const revealToggle = document.getElementById("listenRevealToggle");
     revealToggle.addEventListener("click", () => {
       const t = document.getElementById("listenRevealText");
@@ -1375,7 +1412,7 @@
       </div>
     `);
     wireGrammarPanel();
-    const play = wireAudioStage(ex.native);
+    const play = wireAudioStage(hanziIfChinese(ex.native, ex.nativeHanzi));
     setTimeout(play, 300);
 
     const targetEl = document.getElementById("bankTarget");
