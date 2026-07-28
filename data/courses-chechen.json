@@ -52,6 +52,60 @@
             "en": "My name is Ahmad. What is your name?"
           }
         ]
+      },
+      "a2-comparative": {
+        "title": "Comparative & Superlative",
+        "pattern": "[adjective] + -x/-ax (more ~) · уггар + [adjective] (the most ~) · [compared noun] + -л/-l (than ~)",
+        "explanation": "The comparative adds -x (or -ax after a consonant) to an adjective: хаза (beautiful) → хазах (more beautiful). The noun being compared against takes its own suffix, -л/-l: сан машина хьан машинал хазах ю (my car is prettier than your car, literally \"...than-your-car more-beautiful is\"). The superlative simply places уггар (\"the most\") before the plain adjective, with no extra ending needed.",
+        "fact": "Chechen's comparative construction packs the entire English phrase \"than your car\" into a single suffixed word, машинал -- there's no separate word for \"than\" at all, the case ending on the compared noun does that job by itself.",
+        "dialogue": [
+          {
+            "sp": "A",
+            "native": "Хьан машина хьенан машинал хазах ю?",
+            "en": "Whose car is your car prettier than?"
+          },
+          {
+            "sp": "B",
+            "native": "Сан машина хьан машинал хазах ю.",
+            "en": "My car is prettier than your car."
+          }
+        ]
+      },
+      "a2-reflexive-possession": {
+        "title": "Reflexive vs. Non-Reflexive Possession: шен / цуьнан",
+        "pattern": "шен (his/her OWN) vs. цуьнан (his/her, someone else's)",
+        "explanation": "Chechen distinguishes two different \"his/her\": шен marks that the possessor and the subject of the sentence are the SAME person (a true reflexive), while цуьнан marks that they're different people. Цунна шен йиша йеза (he loves his OWN sister) versus цунна цуьнан йиша йеза (he loves his -- someone else's -- sister) differ only in this one word, but mean two different things entirely.",
+        "fact": "This is a real, meaningful ambiguity English simply doesn't mark -- \"he loves his sister\" is genuinely unclear in English about whether it's his own sister or another man's, while Chechen is forced to specify it every single time a 3rd-person possessive is used.",
+        "dialogue": [
+          {
+            "sp": "A",
+            "native": "Цунна шен йиша йезий, цуьнан йиша йезий?",
+            "en": "Does he love his own sister, or someone else's sister?"
+          },
+          {
+            "sp": "B",
+            "native": "Цунна шен йиша йеза.",
+            "en": "He loves his own sister."
+          }
+        ]
+      },
+      "b1-dative-experiencer": {
+        "title": "Dative Experiencer (\"Psych\") Verbs",
+        "pattern": "[dative pronoun] + [absolutive noun] + [classed verb: хазахета/деза]",
+        "explanation": "Verbs describing emotion, liking, or perception put the person who experiences the feeling in the DATIVE case, not the nominative/absolutive the way English \"I like\" does: суна лаьмнаш хазахета (I like mountains, literally \"to-me mountains seem-beautiful\"). The verb still agrees with the noun-class of the thing being liked, not with the experiencer.",
+        "fact": "The same verb деза is \"labile\": with a dative subject it means \"to like/love\" (суна ... деза), but with an ERGATIVE subject plus an infinitive it shifts to mean \"need to\" (ас бепиг дан деза -- I need to make bread) -- one verb, two case-frames, two related-but-distinct meanings.",
+        "dialogue": [
+          {
+            "sp": "A",
+            "native": "Хьан цIе хIун ю?",
+            "en": "What is your name?"
+          },
+          {
+            "sp": "B",
+            "native": "Сан цIе Ахьмад ю. Суна лаьмнаш хазахета.",
+            "en": "My name is Ahmad. I like mountains."
+          }
+        ]
       }
     },
     "levels": [
@@ -208,10 +262,10 @@
                 "blankedEn": "How are you? (to a ___",
                 "answer": "male",
                 "options": [
+                  "well",
                   "male",
-                  "Aslan's",
-                  "hisher",
-                  "sister"
+                  "incl",
+                  "speaker"
                 ]
               },
               {
@@ -219,9 +273,9 @@
                 "direction": "ce-en",
                 "prompt": "Хьо муха ю?",
                 "options": [
-                  "This is my mother.",
-                  "Islam's car is not new.",
-                  "Thank you (may God be pleased).",
+                  "I have a daughter.",
+                  "Thank you!",
+                  "This is my son.",
                   "How are you? (to a female)"
                 ],
                 "answerIndex": 3
@@ -231,9 +285,9 @@
                 "direction": "en-ce",
                 "prompt": "How are you? (to a female)",
                 "bank": [
+                  "муха",
                   "ю?",
-                  "Хьо",
-                  "муха"
+                  "Хьо"
                 ],
                 "answer": [
                   "Хьо",
@@ -255,10 +309,10 @@
                 "direction": "ce-en",
                 "prompt": "Со дика ву.",
                 "options": [
-                  "That is my brother.",
-                  "This is Ruslan's mother.",
+                  "seven",
+                  "Aslan's father is well.",
                   "I'm fine. (male speaker)",
-                  "Who are you? (to a male)"
+                  "Is your sister well?"
                 ],
                 "answerIndex": 2
               },
@@ -267,9 +321,9 @@
                 "direction": "en-ce",
                 "prompt": "I'm fine. (male speaker)",
                 "bank": [
-                  "ву.",
                   "Со",
-                  "дика"
+                  "дика",
+                  "ву."
                 ],
                 "answer": [
                   "Со",
@@ -283,9 +337,9 @@
                 "prompt": "Со дика ю.",
                 "options": [
                   "I'm fine. (female speaker)",
-                  "Who is this?",
-                  "one",
-                  "eight"
+                  "That is my brother.",
+                  "Who is Zarema's father?",
+                  "Who is your brother?"
                 ],
                 "answerIndex": 0
               },
@@ -294,9 +348,9 @@
                 "direction": "en-ce",
                 "prompt": "I'm fine. (female speaker)",
                 "bank": [
-                  "Со",
+                  "ю.",
                   "дика",
-                  "ю."
+                  "Со"
                 ],
                 "answer": [
                   "Со",
@@ -308,12 +362,12 @@
                 "type": "listening",
                 "native": "Со дика ю.",
                 "options": [
-                  "ten",
-                  "six",
                   "I'm fine. (female speaker)",
-                  "Thank you!"
+                  "Thank you very much!",
+                  "That is not good.",
+                  "What is your name?"
                 ],
-                "answerIndex": 2
+                "answerIndex": 0
               },
               {
                 "type": "multiple-choice",
@@ -321,9 +375,9 @@
                 "prompt": "Баркалла!",
                 "options": [
                   "Thank you!",
-                  "Thank you very much!",
-                  "That is not good.",
-                  "What is your name?"
+                  "Who is Zarema's father?",
+                  "That is good.",
+                  "I have a son."
                 ],
                 "answerIndex": 0
               },
@@ -351,10 +405,10 @@
                 "blankedEn": "___ you!",
                 "answer": "Thank",
                 "options": [
-                  "Imran's",
+                  "bread",
+                  "brother",
                   "Thank",
-                  "Ruslan's",
-                  "mother"
+                  "anymore"
                 ]
               },
               {
@@ -362,12 +416,12 @@
                 "direction": "ce-en",
                 "prompt": "Дала реза хуьлда.",
                 "options": [
+                  "ten",
+                  "I am not well. (male speaker)",
                   "Thank you (may God be pleased).",
-                  "I am your sister.",
-                  "It's sunny. (lit. there is sun)",
-                  "Thank you very much (to you)."
+                  "How are you? (to a male)"
                 ],
-                "answerIndex": 0
+                "answerIndex": 2
               },
               {
                 "type": "word-bank",
@@ -389,22 +443,22 @@
                 "direction": "ce-en",
                 "prompt": "Дала реза хуьлда хьуна.",
                 "options": [
-                  "ten",
-                  "I am not well. (male speaker)",
+                  "Who is your (pl.) father?",
                   "Thank you very much (to you).",
-                  "How are you? (to a male)"
+                  "seven",
+                  "This is Ruslan's mother."
                 ],
-                "answerIndex": 2
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
                 "direction": "en-ce",
                 "prompt": "Thank you very much (to you).",
                 "bank": [
-                  "хуьлда",
+                  "реза",
                   "хьуна.",
-                  "Дала",
-                  "реза"
+                  "хуьлда",
+                  "Дала"
                 ],
                 "answer": [
                   "Дала",
@@ -417,12 +471,12 @@
                 "type": "listening",
                 "native": "Дала реза хуьлда хьуна.",
                 "options": [
-                  "Ruslan's brother is well.",
                   "Thank you very much (to you).",
-                  "This is my son.",
-                  "Who is your (pl.) father?"
+                  "I am well. (female speaker)",
+                  "I have a son.",
+                  "He is Islam."
                 ],
-                "answerIndex": 1
+                "answerIndex": 0
               },
               {
                 "type": "matching",
@@ -480,10 +534,10 @@
                 "direction": "ce-en",
                 "prompt": "Сан да ву.",
                 "options": [
-                  "We are well.",
-                  "They have a father.",
+                  "This is my son.",
+                  "Who is she?",
                   "I have a father.",
-                  "That is my brother."
+                  "I have a mother."
                 ],
                 "answerIndex": 2
               },
@@ -492,8 +546,8 @@
                 "direction": "en-ce",
                 "prompt": "I have a father.",
                 "bank": [
-                  "Сан",
                   "ву.",
+                  "Сан",
                   "да"
                 ],
                 "answer": [
@@ -506,33 +560,33 @@
                 "type": "listening",
                 "native": "Сан да ву.",
                 "options": [
-                  "This is my son.",
-                  "I have a father.",
-                  "He is my brother.",
-                  "Who is she?"
+                  "Who is he?",
+                  "I have a mother.",
+                  "I am your sister.",
+                  "I have a father."
                 ],
-                "answerIndex": 1
+                "answerIndex": 3
               },
               {
                 "type": "multiple-choice",
                 "direction": "ce-en",
                 "prompt": "Сан нана ю.",
                 "options": [
-                  "I have a mother.",
-                  "I have a sister.",
-                  "What is that?",
-                  "I am well. (female speaker)"
+                  "I have a brother.",
+                  "Thank you very much!",
+                  "My name is Ahmad.",
+                  "I have a mother."
                 ],
-                "answerIndex": 0
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
                 "direction": "en-ce",
                 "prompt": "I have a mother.",
                 "bank": [
-                  "ю.",
                   "нана",
-                  "Сан"
+                  "Сан",
+                  "ю."
                 ],
                 "answer": [
                   "Сан",
@@ -554,10 +608,10 @@
                 "direction": "ce-en",
                 "prompt": "Сан ваша ву.",
                 "options": [
-                  "eight",
-                  "My name is Ahmad.",
+                  "Who is your brother?",
+                  "He is Islam.",
                   "I have a brother.",
-                  "This is my father."
+                  "This is Aslan's sister."
                 ],
                 "answerIndex": 2
               },
@@ -567,8 +621,8 @@
                 "prompt": "I have a brother.",
                 "bank": [
                   "ву.",
-                  "Сан",
-                  "ваша"
+                  "ваша",
+                  "Сан"
                 ],
                 "answer": [
                   "Сан",
@@ -581,20 +635,20 @@
                 "direction": "ce-en",
                 "prompt": "Сан йиша ю.",
                 "options": [
-                  "Hello!",
-                  "I have a sister.",
-                  "Who is your brother?",
-                  "Ahmad's son is well."
+                  "He is my brother.",
+                  "He is well.",
+                  "This is my daughter.",
+                  "I have a sister."
                 ],
-                "answerIndex": 1
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
                 "direction": "en-ce",
                 "prompt": "I have a sister.",
                 "bank": [
-                  "йиша",
                   "Сан",
+                  "йиша",
                   "ю."
                 ],
                 "answer": [
@@ -607,10 +661,10 @@
                 "type": "listening",
                 "native": "Сан йиша ю.",
                 "options": [
-                  "He is my brother.",
-                  "How are you? (to a male)",
+                  "Who is she?",
+                  "Who are you?",
                   "I have a sister.",
-                  "That is not good."
+                  "one"
                 ],
                 "answerIndex": 2
               },
@@ -620,10 +674,10 @@
                 "blankedEn": "I have a ___",
                 "answer": "sister",
                 "options": [
-                  "daughter",
-                  "female",
-                  "sister",
-                  "pleased"
+                  "good",
+                  "eight",
+                  "Aslan",
+                  "sister"
                 ]
               },
               {
@@ -631,21 +685,21 @@
                 "direction": "ce-en",
                 "prompt": "Сан кIант ву.",
                 "options": [
-                  "I have a son.",
-                  "I am not well. (female speaker)",
-                  "How are you? (to a female)",
-                  "I'm fine. (female speaker)"
+                  "two",
+                  "That is my brother.",
+                  "Hello! (response)",
+                  "I have a son."
                 ],
-                "answerIndex": 0
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
                 "direction": "en-ce",
                 "prompt": "I have a son.",
                 "bank": [
+                  "Сан",
                   "кIант",
-                  "ву.",
-                  "Сан"
+                  "ву."
                 ],
                 "answer": [
                   "Сан",
@@ -667,9 +721,9 @@
                 "direction": "ce-en",
                 "prompt": "Сан йоI ю.",
                 "options": [
-                  "Hello! (response)",
-                  "two",
-                  "seven",
+                  "I'm fine. (male speaker)",
+                  "Ahmad's son is well.",
+                  "We are well.",
                   "I have a daughter."
                 ],
                 "answerIndex": 3
@@ -694,9 +748,9 @@
                 "direction": "ce-en",
                 "prompt": "Хьан да мила ву?",
                 "options": [
-                  "I'm fine. (male speaker)",
-                  "Ahmad's son is well.",
-                  "We are well.",
+                  "Welcome!",
+                  "Thank you!",
+                  "four",
                   "Who is your father?"
                 ],
                 "answerIndex": 3
@@ -706,8 +760,8 @@
                 "direction": "en-ce",
                 "prompt": "Who is your father?",
                 "bank": [
-                  "Хьан",
                   "ву?",
+                  "Хьан",
                   "да",
                   "мила"
                 ],
@@ -722,21 +776,21 @@
                 "type": "listening",
                 "native": "Хьан да мила ву?",
                 "options": [
-                  "That is good.",
-                  "Who is your father?",
-                  "Thank you!",
-                  "My name is Ahmad."
+                  "It's sunny. (lit. there is sun)",
+                  "ten",
+                  "Ahmad's car is new.",
+                  "Who is your father?"
                 ],
-                "answerIndex": 1
+                "answerIndex": 3
               },
               {
                 "type": "multiple-choice",
                 "direction": "ce-en",
                 "prompt": "Из сан ваша ву.",
                 "options": [
-                  "It's sunny. (lit. there is sun)",
-                  "ten",
-                  "Ahmad's car is new.",
+                  "Who are you?",
+                  "I am not well. (male speaker)",
+                  "How are you? (to a male)",
                   "He is my brother."
                 ],
                 "answerIndex": 3
@@ -746,8 +800,8 @@
                 "direction": "en-ce",
                 "prompt": "He is my brother.",
                 "bank": [
-                  "ваша",
                   "ву.",
+                  "ваша",
                   "сан",
                   "Из"
                 ],
@@ -774,10 +828,10 @@
                 "blankedEn": "He is my ___",
                 "answer": "brother",
                 "options": [
-                  "peace",
-                  "Zarema",
-                  "brother",
-                  "Zarema's"
+                  "nine",
+                  "Islam's",
+                  "boys",
+                  "brother"
                 ]
               },
               {
@@ -785,21 +839,21 @@
                 "direction": "ce-en",
                 "prompt": "Из сан йиша ю.",
                 "options": [
-                  "nine",
-                  "I am your brother.",
+                  "I'm fine. (female speaker)",
                   "She is my sister.",
-                  "Ruslan's brother is well."
+                  "He is my brother.",
+                  "four"
                 ],
-                "answerIndex": 2
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
                 "direction": "en-ce",
                 "prompt": "She is my sister.",
                 "bank": [
+                  "сан",
                   "Из",
                   "йиша",
-                  "сан",
                   "ю."
                 ],
                 "answer": [
@@ -814,22 +868,22 @@
                 "direction": "ce-en",
                 "prompt": "Сан нана дика ю.",
                 "options": [
-                  "eight",
+                  "How are you? (to a male)",
+                  "My mother is well.",
                   "He is her brother.",
-                  "He is my brother.",
-                  "My mother is well."
+                  "four"
                 ],
-                "answerIndex": 3
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
                 "direction": "en-ce",
                 "prompt": "My mother is well.",
                 "bank": [
-                  "Сан",
-                  "дика",
                   "нана",
-                  "ю."
+                  "Сан",
+                  "ю.",
+                  "дика"
                 ],
                 "answer": [
                   "Сан",
@@ -842,12 +896,12 @@
                 "type": "listening",
                 "native": "Сан нана дика ю.",
                 "options": [
-                  "That is his/her brother.",
-                  "My mother is well.",
-                  "Is your sister well?",
-                  "They have a father."
+                  "That is not good.",
+                  "This is Ruslan's mother.",
+                  "Ahmad's son is well.",
+                  "My mother is well."
                 ],
-                "answerIndex": 1
+                "answerIndex": 3
               },
               {
                 "type": "matching",
@@ -905,20 +959,20 @@
                 "direction": "ce-en",
                 "prompt": "Хьо мила ву?",
                 "options": [
-                  "That is not good.",
-                  "This is Ruslan's mother.",
-                  "Ahmad's son is well.",
-                  "Who are you? (to a male)"
+                  "We (excl.) have a father.",
+                  "Thank you very much (to you).",
+                  "Who are you? (to a male)",
+                  "We (you and I) are well."
                 ],
-                "answerIndex": 3
+                "answerIndex": 2
               },
               {
                 "type": "word-bank",
                 "direction": "en-ce",
                 "prompt": "Who are you? (to a male)",
                 "bank": [
-                  "ву?",
                   "мила",
+                  "ву?",
                   "Хьо"
                 ],
                 "answer": [
@@ -931,10 +985,10 @@
                 "type": "listening",
                 "native": "Хьо мила ву?",
                 "options": [
-                  "I am your sister.",
-                  "Ruslan's brother is well.",
+                  "I am not well. (male speaker)",
+                  "Who is this?",
                   "Who are you? (to a male)",
-                  "We (you and I) are well."
+                  "two"
                 ],
                 "answerIndex": 2
               },
@@ -943,22 +997,22 @@
                 "direction": "ce-en",
                 "prompt": "Со хьан ваша ву.",
                 "options": [
+                  "five",
                   "I am your brother.",
-                  "We are well.",
-                  "I am not well. (female speaker)",
-                  "This is my father."
+                  "Ahmad's car is new.",
+                  "Who is he?"
                 ],
-                "answerIndex": 0
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
                 "direction": "en-ce",
                 "prompt": "I am your brother.",
                 "bank": [
-                  "ву.",
                   "Со",
                   "ваша",
-                  "хьан"
+                  "хьан",
+                  "ву."
                 ],
                 "answer": [
                   "Со",
@@ -982,21 +1036,21 @@
                 "direction": "ce-en",
                 "prompt": "Со хьан йиша ю.",
                 "options": [
-                  "five",
+                  "Who is Zarema's father?",
+                  "Thank you very much (to you).",
                   "I am your sister.",
-                  "Ahmad's car is new.",
-                  "Who is he?"
+                  "I have a mother."
                 ],
-                "answerIndex": 1
+                "answerIndex": 2
               },
               {
                 "type": "word-bank",
                 "direction": "en-ce",
                 "prompt": "I am your sister.",
                 "bank": [
-                  "Со",
-                  "йиша",
                   "хьан",
+                  "йиша",
+                  "Со",
                   "ю."
                 ],
                 "answer": [
@@ -1011,10 +1065,10 @@
                 "direction": "ce-en",
                 "prompt": "Тхо дика ду.",
                 "options": [
-                  "Who is Zarema's father?",
-                  "I have a father.",
+                  "What is your name?",
+                  "Who is your brother?",
                   "We are well.",
-                  "I have a brother."
+                  "I am well. (male speaker)"
                 ],
                 "answerIndex": 2
               },
@@ -1037,12 +1091,12 @@
                 "type": "listening",
                 "native": "Тхо дика ду.",
                 "options": [
-                  "I am well. (male speaker)",
-                  "We are well.",
-                  "We (excl.) have a father.",
-                  "What is your name?"
+                  "This is my daughter.",
+                  "It's sunny. (lit. there is sun)",
+                  "I am not well. (female speaker)",
+                  "We are well."
                 ],
-                "answerIndex": 1
+                "answerIndex": 3
               },
               {
                 "type": "fill-blank",
@@ -1050,10 +1104,10 @@
                 "blankedEn": "We are ___",
                 "answer": "well",
                 "options": [
+                  "like",
+                  "Sheit",
                   "well",
-                  "sunny",
-                  "apple",
-                  "Hello"
+                  "else's"
                 ]
               },
               {
@@ -1061,20 +1115,20 @@
                 "direction": "ce-en",
                 "prompt": "Вай дика ду.",
                 "options": [
-                  "Who are you?",
-                  "Ruslan's brother is well.",
+                  "How are you? (to a male)",
                   "We (you and I) are well.",
-                  "Who is your (pl.) father?"
+                  "Who is your brother?",
+                  "My mother is well."
                 ],
-                "answerIndex": 2
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
                 "direction": "en-ce",
                 "prompt": "We (you and I) are well.",
                 "bank": [
-                  "Вай",
                   "дика",
+                  "Вай",
                   "ду."
                 ],
                 "answer": [
@@ -1099,8 +1153,8 @@
                 "options": [
                   "Who is he?",
                   "Her name is Zarema.",
-                  "He is well, thank you.",
-                  "He is my brother."
+                  "We (incl.) have a father.",
+                  "I am not well. (female speaker)"
                 ],
                 "answerIndex": 0
               },
@@ -1109,9 +1163,9 @@
                 "direction": "en-ce",
                 "prompt": "Who is he?",
                 "bank": [
+                  "Из",
                   "ву?",
-                  "мила",
-                  "Из"
+                  "мила"
                 ],
                 "answer": [
                   "Из",
@@ -1124,12 +1178,12 @@
                 "direction": "ce-en",
                 "prompt": "Из мила ю?",
                 "options": [
-                  "Who is your (pl.) father?",
-                  "That is my brother.",
+                  "He is Islam.",
                   "Who is she?",
-                  "How are you?"
+                  "She is well.",
+                  "I'm fine. (female speaker)"
                 ],
-                "answerIndex": 2
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
@@ -1137,8 +1191,8 @@
                 "prompt": "Who is she?",
                 "bank": [
                   "Из",
-                  "мила",
-                  "ю?"
+                  "ю?",
+                  "мила"
                 ],
                 "answer": [
                   "Из",
@@ -1150,21 +1204,21 @@
                 "type": "listening",
                 "native": "Из мила ю?",
                 "options": [
-                  "I have a daughter.",
-                  "two",
                   "Who is she?",
-                  "one"
+                  "This is Ruslan's mother.",
+                  "I am well. (female speaker)",
+                  "I am your brother."
                 ],
-                "answerIndex": 2
+                "answerIndex": 0
               },
               {
                 "type": "multiple-choice",
                 "direction": "ce-en",
                 "prompt": "ХIун ду из?",
                 "options": [
-                  "This is my son.",
-                  "Who is your brother?",
-                  "She is well.",
+                  "I have a brother.",
+                  "How are you? (to a female)",
+                  "Thank you!",
                   "What is that?"
                 ],
                 "answerIndex": 3
@@ -1174,9 +1228,9 @@
                 "direction": "en-ce",
                 "prompt": "What is that?",
                 "bank": [
+                  "ХIун",
                   "ду",
-                  "из?",
-                  "ХIун"
+                  "из?"
                 ],
                 "answer": [
                   "ХIун",
@@ -1198,21 +1252,21 @@
                 "direction": "ce-en",
                 "prompt": "Из дика ду.",
                 "options": [
+                  "Aslan's father is well.",
+                  "Who is your brother?",
                   "That is good.",
-                  "Who are you? (to a male)",
-                  "three",
-                  "He is my brother."
+                  "This is my father."
                 ],
-                "answerIndex": 0
+                "answerIndex": 2
               },
               {
                 "type": "word-bank",
                 "direction": "en-ce",
                 "prompt": "That is good.",
                 "bank": [
-                  "дика",
                   "Из",
-                  "ду."
+                  "ду.",
+                  "дика"
                 ],
                 "answer": [
                   "Из",
@@ -1225,21 +1279,21 @@
                 "direction": "ce-en",
                 "prompt": "Хьо муха ву?",
                 "options": [
-                  "Ruslan's brother is well.",
-                  "How are you? (to a male)",
-                  "That is his/her brother.",
-                  "I have a son."
+                  "I am well. (male speaker)",
+                  "Ahmad's car is new.",
+                  "He is well.",
+                  "How are you? (to a male)"
                 ],
-                "answerIndex": 1
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
                 "direction": "en-ce",
                 "prompt": "How are you? (to a male)",
                 "bank": [
-                  "ву?",
                   "Хьо",
-                  "муха"
+                  "муха",
+                  "ву?"
                 ],
                 "answer": [
                   "Хьо",
@@ -1251,12 +1305,12 @@
                 "type": "listening",
                 "native": "Хьо муха ву?",
                 "options": [
-                  "I'm fine. (female speaker)",
-                  "Hello! (peace be upon you)",
-                  "How are you? (to a female)",
-                  "How are you? (to a male)"
+                  "Hello! (response)",
+                  "three",
+                  "How are you? (to a male)",
+                  "Who is he?"
                 ],
-                "answerIndex": 3
+                "answerIndex": 2
               },
               {
                 "type": "matching",
@@ -1314,20 +1368,20 @@
                 "direction": "ce-en",
                 "prompt": "Со дика ву.",
                 "options": [
+                  "This is my father.",
                   "I am well. (male speaker)",
-                  "Islam's daughter is well.",
-                  "That is not good.",
-                  "I have a brother."
+                  "Thank you very much (to you).",
+                  "Thank you very much!"
                 ],
-                "answerIndex": 0
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
                 "direction": "en-ce",
                 "prompt": "I am well. (male speaker)",
                 "bank": [
-                  "ву.",
                   "дика",
+                  "ву.",
                   "Со"
                 ],
                 "answer": [
@@ -1340,21 +1394,21 @@
                 "type": "listening",
                 "native": "Со дика ву.",
                 "options": [
-                  "three",
-                  "Is he well?",
-                  "Thank you very much (to you).",
-                  "I am well. (male speaker)"
+                  "Ahmad's car is new.",
+                  "I am your brother.",
+                  "I am well. (male speaker)",
+                  "I'm fine. (female speaker)"
                 ],
-                "answerIndex": 3
+                "answerIndex": 2
               },
               {
                 "type": "multiple-choice",
                 "direction": "ce-en",
                 "prompt": "Со дика ю.",
                 "options": [
-                  "How are you?",
-                  "Her name is Zarema.",
-                  "Who is your father?",
+                  "Who is he?",
+                  "Hello! (peace be upon you)",
+                  "This is good.",
                   "I am well. (female speaker)"
                 ],
                 "answerIndex": 3
@@ -1364,9 +1418,9 @@
                 "direction": "en-ce",
                 "prompt": "I am well. (female speaker)",
                 "bank": [
-                  "дика",
+                  "ю.",
                   "Со",
-                  "ю."
+                  "дика"
                 ],
                 "answer": [
                   "Со",
@@ -1388,12 +1442,12 @@
                 "direction": "ce-en",
                 "prompt": "Со дика вац.",
                 "options": [
-                  "I am not well. (male speaker)",
-                  "That is good.",
-                  "I'm fine, thank you.",
-                  "ten"
+                  "Is your sister well?",
+                  "What is your name?",
+                  "It's an apple.",
+                  "I am not well. (male speaker)"
                 ],
-                "answerIndex": 0
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
@@ -1401,8 +1455,8 @@
                 "prompt": "I am not well. (male speaker)",
                 "bank": [
                   "вац.",
-                  "дика",
-                  "Со"
+                  "Со",
+                  "дика"
                 ],
                 "answer": [
                   "Со",
@@ -1415,21 +1469,21 @@
                 "direction": "ce-en",
                 "prompt": "Со дика яц.",
                 "options": [
-                  "We (incl.) have a father.",
-                  "Welcome!",
+                  "three",
                   "I am not well. (female speaker)",
-                  "I have a sister."
+                  "I am not well. (male speaker)",
+                  "This is good."
                 ],
-                "answerIndex": 2
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
                 "direction": "en-ce",
                 "prompt": "I am not well. (female speaker)",
                 "bank": [
-                  "яц.",
                   "дика",
-                  "Со"
+                  "Со",
+                  "яц."
                 ],
                 "answer": [
                   "Со",
@@ -1441,23 +1495,23 @@
                 "type": "listening",
                 "native": "Со дика яц.",
                 "options": [
-                  "four",
-                  "I am not well. (male speaker)",
                   "I am not well. (female speaker)",
-                  "It's sunny. (lit. there is sun)"
+                  "Who is this?",
+                  "My name is Ahmad.",
+                  "Who is your father?"
                 ],
-                "answerIndex": 2
+                "answerIndex": 0
               },
               {
                 "type": "fill-blank",
                 "native": "Со дика яц.",
-                "blankedEn": "I am not well. (female ___",
-                "answer": "speaker",
+                "blankedEn": "I am not ___ (female speaker)",
+                "answer": "well",
                 "options": [
-                  "incl",
-                  "fine",
-                  "speaker",
-                  "sunny"
+                  "short",
+                  "else's",
+                  "boys",
+                  "well"
                 ]
               },
               {
@@ -1465,21 +1519,21 @@
                 "direction": "ce-en",
                 "prompt": "Из дика ву.",
                 "options": [
-                  "We are well.",
-                  "He is well.",
-                  "Thank you (may God be pleased).",
-                  "I have a mother."
+                  "Who is she?",
+                  "I am your brother.",
+                  "Who is your (pl.) father?",
+                  "He is well."
                 ],
-                "answerIndex": 1
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
                 "direction": "en-ce",
                 "prompt": "He is well.",
                 "bank": [
-                  "ву.",
+                  "дика",
                   "Из",
-                  "дика"
+                  "ву."
                 ],
                 "answer": [
                   "Из",
@@ -1501,21 +1555,21 @@
                 "direction": "ce-en",
                 "prompt": "Из дика ю.",
                 "options": [
-                  "Who is she?",
                   "She is well.",
-                  "two",
-                  "Her name is Zarema."
+                  "nine",
+                  "one",
+                  "This is Aslan's sister."
                 ],
-                "answerIndex": 1
+                "answerIndex": 0
               },
               {
                 "type": "word-bank",
                 "direction": "en-ce",
                 "prompt": "She is well.",
                 "bank": [
-                  "дика",
                   "ю.",
-                  "Из"
+                  "Из",
+                  "дика"
                 ],
                 "answer": [
                   "Из",
@@ -1529,9 +1583,9 @@
                 "prompt": "Из дика ду.",
                 "options": [
                   "That is good.",
-                  "nine",
-                  "I am well. (female speaker)",
-                  "one"
+                  "Is he well?",
+                  "How are you?",
+                  "What is that?"
                 ],
                 "answerIndex": 0
               },
@@ -1540,9 +1594,9 @@
                 "direction": "en-ce",
                 "prompt": "That is good.",
                 "bank": [
-                  "ду.",
                   "Из",
-                  "дика"
+                  "дика",
+                  "ду."
                 ],
                 "answer": [
                   "Из",
@@ -1554,24 +1608,24 @@
                 "type": "listening",
                 "native": "Из дика ду.",
                 "options": [
-                  "That is good.",
-                  "Is he well?",
-                  "How are you?",
-                  "What is that?"
+                  "My mother is well.",
+                  "I have a mother.",
+                  "Ahmad's car is new.",
+                  "That is good."
                 ],
-                "answerIndex": 0
+                "answerIndex": 3
               },
               {
                 "type": "multiple-choice",
                 "direction": "ce-en",
                 "prompt": "Из дика дац.",
                 "options": [
-                  "She is my sister.",
+                  "I'm fine, thank you.",
+                  "My name is Ahmad.",
                   "That is not good.",
-                  "This is good.",
-                  "Ahmad's car is new."
+                  "We (excl.) have a father."
                 ],
-                "answerIndex": 1
+                "answerIndex": 2
               },
               {
                 "type": "word-bank",
@@ -1603,10 +1657,10 @@
                 "blankedEn": "That is not ___",
                 "answer": "good",
                 "options": [
+                  "prettier",
                   "good",
-                  "much",
-                  "Imran's",
-                  "upon"
+                  "like",
+                  "loves"
                 ]
               },
               {
@@ -1614,20 +1668,20 @@
                 "direction": "ce-en",
                 "prompt": "Тхо дика ду.",
                 "options": [
-                  "Hello! (peace be upon you)",
-                  "We are well.",
-                  "I'm fine, thank you.",
-                  "six"
+                  "I'm fine. (male speaker)",
+                  "five",
+                  "She is well.",
+                  "We are well."
                 ],
-                "answerIndex": 1
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
                 "direction": "en-ce",
                 "prompt": "We are well.",
                 "bank": [
-                  "Тхо",
                   "ду.",
+                  "Тхо",
                   "дика"
                 ],
                 "answer": [
@@ -1641,12 +1695,12 @@
                 "direction": "ce-en",
                 "prompt": "Вай дика ду.",
                 "options": [
-                  "Who is your (pl.) father?",
                   "We (you and I) are well.",
+                  "Thank you very much (to you).",
                   "That is his/her brother.",
-                  "He is well."
+                  "six"
                 ],
-                "answerIndex": 1
+                "answerIndex": 0
               },
               {
                 "type": "word-bank",
@@ -1654,8 +1708,8 @@
                 "prompt": "We (you and I) are well.",
                 "bank": [
                   "Вай",
-                  "ду.",
-                  "дика"
+                  "дика",
+                  "ду."
                 ],
                 "answer": [
                   "Вай",
@@ -1668,9 +1722,9 @@
                 "native": "Вай дика ду.",
                 "options": [
                   "We (you and I) are well.",
-                  "That is his/her brother.",
-                  "seven",
-                  "They have a father."
+                  "three",
+                  "I have a sister.",
+                  "This is Imran's son."
                 ],
                 "answerIndex": 0
               },
@@ -1680,9 +1734,9 @@
                 "prompt": "Малх бу.",
                 "options": [
                   "It's sunny. (lit. there is sun)",
-                  "seven",
-                  "Welcome!",
-                  "This is Imran's son."
+                  "one",
+                  "He is my brother.",
+                  "I am not well. (male speaker)"
                 ],
                 "answerIndex": 0
               },
@@ -1712,20 +1766,20 @@
                 "direction": "ce-en",
                 "prompt": "Iаж бу.",
                 "options": [
-                  "It's an apple.",
-                  "My mother is well.",
-                  "He is my brother.",
-                  "I have a father."
+                  "Is he well?",
+                  "Thank you very much!",
+                  "Hello!",
+                  "It's an apple."
                 ],
-                "answerIndex": 0
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
                 "direction": "en-ce",
                 "prompt": "It's an apple.",
                 "bank": [
-                  "Iаж",
-                  "бу."
+                  "бу.",
+                  "Iаж"
                 ],
                 "answer": [
                   "Iаж",
@@ -1735,13 +1789,13 @@
               {
                 "type": "fill-blank",
                 "native": "Iаж бу.",
-                "blankedEn": "It's an ___",
-                "answer": "apple",
+                "blankedEn": "___ an apple.",
+                "answer": "It's",
                 "options": [
-                  "Welcome",
-                  "good",
-                  "three",
-                  "apple"
+                  "It's",
+                  "heavy",
+                  "Ahmad",
+                  "someone"
                 ]
               },
               {
@@ -1822,9 +1876,9 @@
                 "direction": "ce-en",
                 "prompt": "Салам алейкум!",
                 "options": [
-                  "He is well.",
-                  "five",
-                  "Who is this?",
+                  "Islam's car is not new.",
+                  "They have a father.",
+                  "I'm fine. (female speaker)",
                   "Hello!"
                 ],
                 "answerIndex": 3
@@ -1834,8 +1888,8 @@
                 "direction": "en-ce",
                 "prompt": "Hello!",
                 "bank": [
-                  "Салам",
-                  "алейкум!"
+                  "алейкум!",
+                  "Салам"
                 ],
                 "answer": [
                   "Салам",
@@ -1846,10 +1900,10 @@
                 "type": "listening",
                 "native": "Салам алейкум!",
                 "options": [
-                  "Islam's car is not new.",
+                  "How are you?",
                   "Hello!",
-                  "They have a father.",
-                  "Thank you!"
+                  "Who is he?",
+                  "He is well, thank you."
                 ],
                 "answerIndex": 1
               },
@@ -1858,12 +1912,12 @@
                 "direction": "ce-en",
                 "prompt": "Ва алейкум салам!",
                 "options": [
-                  "Ahmad's son is well.",
-                  "He is my brother.",
                   "Hello! (response)",
-                  "He is well, thank you."
+                  "Who is she?",
+                  "This is Imran's son.",
+                  "We (you and I) are well."
                 ],
-                "answerIndex": 2
+                "answerIndex": 0
               },
               {
                 "type": "word-bank",
@@ -1894,12 +1948,12 @@
                 "direction": "ce-en",
                 "prompt": "Хьо муха ву?",
                 "options": [
+                  "Hello! (response)",
+                  "This is my father.",
                   "How are you?",
-                  "Who is she?",
-                  "We (excl.) have a father.",
-                  "I'm fine. (female speaker)"
+                  "eight"
                 ],
-                "answerIndex": 0
+                "answerIndex": 2
               },
               {
                 "type": "word-bank",
@@ -1921,22 +1975,22 @@
                 "direction": "ce-en",
                 "prompt": "Со дика ву, баркалла.",
                 "options": [
-                  "ten",
-                  "Welcome!",
-                  "eight",
-                  "I'm fine, thank you."
+                  "Who is your brother?",
+                  "Who are you?",
+                  "I'm fine, thank you.",
+                  "He is well, thank you."
                 ],
-                "answerIndex": 3
+                "answerIndex": 2
               },
               {
                 "type": "word-bank",
                 "direction": "en-ce",
                 "prompt": "I'm fine, thank you.",
                 "bank": [
-                  "баркалла.",
                   "ву,",
-                  "дика",
-                  "Со"
+                  "баркалла.",
+                  "Со",
+                  "дика"
                 ],
                 "answer": [
                   "Со",
@@ -1949,23 +2003,23 @@
                 "type": "listening",
                 "native": "Со дика ву, баркалла.",
                 "options": [
-                  "Who is your brother?",
-                  "Who are you?",
                   "I'm fine, thank you.",
-                  "He is well, thank you."
+                  "Is he well?",
+                  "I am well. (female speaker)",
+                  "This is my son."
                 ],
-                "answerIndex": 2
+                "answerIndex": 0
               },
               {
                 "type": "fill-blank",
                 "native": "Со дика ву, баркалла.",
-                "blankedEn": "I'm ___ thank you.",
-                "answer": "fine",
+                "blankedEn": "I'm fine, ___ you.",
+                "answer": "thank",
                 "options": [
-                  "fine",
-                  "Aslan's",
-                  "daughter",
-                  "excl"
+                  "loves",
+                  "thank",
+                  "speaker",
+                  "like"
                 ]
               },
               {
@@ -1974,9 +2028,9 @@
                 "prompt": "Хьо мила ву?",
                 "options": [
                   "Who are you?",
-                  "This is Aslan's sister.",
-                  "Who is he?",
-                  "I have a sister."
+                  "We are well.",
+                  "four",
+                  "Her name is Zarema."
                 ],
                 "answerIndex": 0
               },
@@ -1986,8 +2040,8 @@
                 "prompt": "Who are you?",
                 "bank": [
                   "мила",
-                  "ву?",
-                  "Хьо"
+                  "Хьо",
+                  "ву?"
                 ],
                 "answer": [
                   "Хьо",
@@ -2009,22 +2063,22 @@
                 "direction": "ce-en",
                 "prompt": "Со хьан ваша ву.",
                 "options": [
-                  "That is his/her brother.",
-                  "I'm fine, thank you.",
-                  "It's an apple.",
-                  "I am your brother."
+                  "How are you?",
+                  "one",
+                  "I am your brother.",
+                  "We (incl.) have a father."
                 ],
-                "answerIndex": 3
+                "answerIndex": 2
               },
               {
                 "type": "word-bank",
                 "direction": "en-ce",
                 "prompt": "I am your brother.",
                 "bank": [
-                  "Со",
                   "ваша",
-                  "ву.",
-                  "хьан"
+                  "хьан",
+                  "Со",
+                  "ву."
                 ],
                 "answer": [
                   "Со",
@@ -2038,21 +2092,21 @@
                 "direction": "ce-en",
                 "prompt": "Тхо дика ду.",
                 "options": [
-                  "Hello!",
-                  "This is Ruslan's mother.",
-                  "one",
-                  "We are well."
+                  "Thank you!",
+                  "We are well.",
+                  "Welcome!",
+                  "Thank you very much!"
                 ],
-                "answerIndex": 3
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
                 "direction": "en-ce",
                 "prompt": "We are well.",
                 "bank": [
-                  "ду.",
                   "дика",
-                  "Тхо"
+                  "Тхо",
+                  "ду."
                 ],
                 "answer": [
                   "Тхо",
@@ -2064,32 +2118,32 @@
                 "type": "listening",
                 "native": "Тхо дика ду.",
                 "options": [
-                  "Is he well?",
-                  "Who is Zarema's father?",
-                  "We are well.",
-                  "Who are you? (to a male)"
+                  "Her name is Zarema.",
+                  "Hello!",
+                  "Who are you? (to a male)",
+                  "We are well."
                 ],
-                "answerIndex": 2
+                "answerIndex": 3
               },
               {
                 "type": "multiple-choice",
                 "direction": "ce-en",
                 "prompt": "Дала реза хуьлда хьуна!",
                 "options": [
-                  "ten",
-                  "Thank you very much!",
-                  "He is her brother.",
-                  "Thank you!"
+                  "Who is he?",
+                  "She is my sister.",
+                  "He is Islam.",
+                  "Thank you very much!"
                 ],
-                "answerIndex": 1
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
                 "direction": "en-ce",
                 "prompt": "Thank you very much!",
                 "bank": [
-                  "хуьлда",
                   "Дала",
+                  "хуьлда",
                   "хьуна!",
                   "реза"
                 ],
@@ -2116,10 +2170,10 @@
                 "blankedEn": "___ you very much!",
                 "answer": "Thank",
                 "options": [
-                  "four",
-                  "Welcome",
-                  "much",
-                  "Thank"
+                  "Thank",
+                  "nine",
+                  "five",
+                  "excl"
                 ]
               },
               {
@@ -2178,12 +2232,12 @@
                 "direction": "ce-en",
                 "prompt": "цхьаъ",
                 "options": [
+                  "Ahmad's son is well.",
                   "one",
-                  "I have a father.",
-                  "She is well.",
-                  "She is my sister."
+                  "This is my father.",
+                  "We (you and I) are well."
                 ],
-                "answerIndex": 0
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
@@ -2201,9 +2255,9 @@
                 "native": "цхьаъ",
                 "options": [
                   "one",
-                  "eight",
-                  "We are well.",
-                  "I have a daughter."
+                  "Who is Zarema's father?",
+                  "Aslan's father is well.",
+                  "Who is she?"
                 ],
                 "answerIndex": 0
               },
@@ -2212,12 +2266,12 @@
                 "direction": "ce-en",
                 "prompt": "шиъ",
                 "options": [
-                  "three",
                   "two",
-                  "My mother is well.",
-                  "We are well."
+                  "Hello! (peace be upon you)",
+                  "My name is Ahmad.",
+                  "I have a sister."
                 ],
-                "answerIndex": 1
+                "answerIndex": 0
               },
               {
                 "type": "word-bank",
@@ -2242,12 +2296,12 @@
                 "direction": "ce-en",
                 "prompt": "кхоъ",
                 "options": [
-                  "That is good.",
-                  "seven",
-                  "ten",
-                  "three"
+                  "three",
+                  "I am well. (female speaker)",
+                  "Who is your brother?",
+                  "This is my daughter."
                 ],
-                "answerIndex": 3
+                "answerIndex": 0
               },
               {
                 "type": "word-bank",
@@ -2265,12 +2319,12 @@
                 "direction": "ce-en",
                 "prompt": "диъ",
                 "options": [
-                  "four",
-                  "My name is Ahmad.",
-                  "This is my mother.",
-                  "seven"
+                  "I have a daughter.",
+                  "Hello!",
+                  "I have a mother.",
+                  "four"
                 ],
-                "answerIndex": 0
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
@@ -2287,12 +2341,12 @@
                 "type": "listening",
                 "native": "диъ",
                 "options": [
-                  "How are you? (to a male)",
                   "four",
-                  "What is that?",
-                  "ten"
+                  "Who is she?",
+                  "Thank you (may God be pleased).",
+                  "This is Ruslan's mother."
                 ],
-                "answerIndex": 1
+                "answerIndex": 0
               },
               {
                 "type": "fill-blank",
@@ -2300,10 +2354,10 @@
                 "blankedEn": "___",
                 "answer": "four",
                 "options": [
-                  "good",
-                  "Ahmad",
+                  "girl",
+                  "response",
                   "four",
-                  "name"
+                  "father"
                 ]
               },
               {
@@ -2311,12 +2365,12 @@
                 "direction": "ce-en",
                 "prompt": "пхиъ",
                 "options": [
-                  "Who are you? (to a male)",
-                  "Ahmad's car is new.",
-                  "five",
-                  "Who is your brother?"
+                  "Islam's daughter is well.",
+                  "What is your name?",
+                  "I'm fine, thank you.",
+                  "five"
                 ],
-                "answerIndex": 2
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
@@ -2341,12 +2395,12 @@
                 "direction": "ce-en",
                 "prompt": "ялх",
                 "options": [
-                  "They have a father.",
+                  "What is that?",
+                  "Thank you very much!",
                   "six",
-                  "We are well.",
-                  "This is Imran's son."
+                  "four"
                 ],
-                "answerIndex": 1
+                "answerIndex": 2
               },
               {
                 "type": "word-bank",
@@ -2364,12 +2418,12 @@
                 "direction": "ce-en",
                 "prompt": "ворхӀ",
                 "options": [
-                  "nine",
-                  "She is well.",
+                  "Ahmad's son is well.",
                   "seven",
-                  "This is Ruslan's mother."
+                  "He is her brother.",
+                  "Who is this?"
                 ],
-                "answerIndex": 2
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
@@ -2386,24 +2440,24 @@
                 "type": "listening",
                 "native": "ворхӀ",
                 "options": [
-                  "Islam's daughter is well.",
-                  "What is your name?",
-                  "I'm fine, thank you.",
-                  "seven"
+                  "Who is your (pl.) father?",
+                  "one",
+                  "seven",
+                  "Thank you (may God be pleased)."
                 ],
-                "answerIndex": 3
+                "answerIndex": 2
               },
               {
                 "type": "multiple-choice",
                 "direction": "ce-en",
                 "prompt": "бархӀ",
                 "options": [
-                  "What is that?",
-                  "Thank you very much!",
-                  "eight",
-                  "four"
+                  "I am not well. (male speaker)",
+                  "Who is he?",
+                  "This is Aslan's sister.",
+                  "eight"
                 ],
-                "answerIndex": 2
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
@@ -2429,10 +2483,10 @@
                 "blankedEn": "___",
                 "answer": "eight",
                 "options": [
-                  "four",
-                  "Ruslan's",
-                  "Hello",
-                  "eight"
+                  "eight",
+                  "house",
+                  "else's",
+                  "Zarema"
                 ]
               },
               {
@@ -2440,9 +2494,9 @@
                 "direction": "ce-en",
                 "prompt": "исс",
                 "options": [
-                  "Who is he?",
-                  "What is your name?",
-                  "Islam's car is not new.",
+                  "six",
+                  "Hello! (response)",
+                  "I am your brother.",
                   "nine"
                 ],
                 "answerIndex": 3
@@ -2463,12 +2517,12 @@
                 "direction": "ce-en",
                 "prompt": "итт",
                 "options": [
+                  "Hello! (peace be upon you)",
+                  "Welcome!",
                   "ten",
-                  "I am not well. (female speaker)",
-                  "That is his/her brother.",
-                  "Hello!"
+                  "nine"
                 ],
-                "answerIndex": 0
+                "answerIndex": 2
               },
               {
                 "type": "word-bank",
@@ -2485,12 +2539,12 @@
                 "type": "listening",
                 "native": "итт",
                 "options": [
-                  "ten",
-                  "Thank you!",
-                  "I'm fine. (female speaker)",
-                  "three"
+                  "I am your brother.",
+                  "I am well. (female speaker)",
+                  "This is my father.",
+                  "ten"
                 ],
-                "answerIndex": 0
+                "answerIndex": 3
               },
               {
                 "type": "matching",
@@ -2548,22 +2602,22 @@
                 "direction": "ce-en",
                 "prompt": "ХӀара сан да ву.",
                 "options": [
-                  "seven",
-                  "Hello! (response)",
-                  "I am your brother.",
-                  "This is my father."
+                  "eight",
+                  "What is that?",
+                  "This is my father.",
+                  "Aslan's father is well."
                 ],
-                "answerIndex": 3
+                "answerIndex": 2
               },
               {
                 "type": "word-bank",
                 "direction": "en-ce",
                 "prompt": "This is my father.",
                 "bank": [
-                  "ХӀара",
-                  "ву.",
+                  "да",
                   "сан",
-                  "да"
+                  "ХӀара",
+                  "ву."
                 ],
                 "answer": [
                   "ХӀара",
@@ -2576,33 +2630,33 @@
                 "type": "listening",
                 "native": "ХӀара сан да ву.",
                 "options": [
-                  "That is not good.",
+                  "This is my father.",
                   "Welcome!",
-                  "I am not well. (male speaker)",
-                  "This is my father."
+                  "Who are you?",
+                  "Who is your (pl.) father?"
                 ],
-                "answerIndex": 3
+                "answerIndex": 0
               },
               {
                 "type": "multiple-choice",
                 "direction": "ce-en",
                 "prompt": "ХӀара сан нана ю.",
                 "options": [
-                  "Who is she?",
-                  "I have a daughter.",
-                  "This is my mother.",
-                  "seven"
+                  "I am well. (male speaker)",
+                  "He is my brother.",
+                  "Islam's daughter is well.",
+                  "This is my mother."
                 ],
-                "answerIndex": 2
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
                 "direction": "en-ce",
                 "prompt": "This is my mother.",
                 "bank": [
+                  "ХӀара",
                   "нана",
                   "сан",
-                  "ХӀара",
                   "ю."
                 ],
                 "answer": [
@@ -2628,9 +2682,9 @@
                 "prompt": "Иза сан ваша ву.",
                 "options": [
                   "That is my brother.",
-                  "Hello! (peace be upon you)",
-                  "Who are you?",
-                  "We (incl.) have a father."
+                  "Ahmad's car is new.",
+                  "I have a brother.",
+                  "Who is your (pl.) father?"
                 ],
                 "answerIndex": 0
               },
@@ -2639,10 +2693,10 @@
                 "direction": "en-ce",
                 "prompt": "That is my brother.",
                 "bank": [
-                  "ву.",
                   "сан",
-                  "ваша",
-                  "Иза"
+                  "Иза",
+                  "ву.",
+                  "ваша"
                 ],
                 "answer": [
                   "Иза",
@@ -2657,9 +2711,9 @@
                 "prompt": "ХӀара дика ду.",
                 "options": [
                   "This is good.",
-                  "That is his/her brother.",
-                  "My name is Ahmad.",
-                  "We (you and I) are well."
+                  "This is my mother.",
+                  "Who is Zarema's father?",
+                  "I have a mother."
                 ],
                 "answerIndex": 0
               },
@@ -2668,9 +2722,9 @@
                 "direction": "en-ce",
                 "prompt": "This is good.",
                 "bank": [
-                  "ду.",
                   "ХӀара",
-                  "дика"
+                  "дика",
+                  "ду."
                 ],
                 "answer": [
                   "ХӀара",
@@ -2682,12 +2736,12 @@
                 "type": "listening",
                 "native": "ХӀара дика ду.",
                 "options": [
-                  "two",
                   "This is good.",
-                  "I am your sister.",
-                  "He is her brother."
+                  "This is Imran's son.",
+                  "Who is this?",
+                  "Ahmad's car is new."
                 ],
-                "answerIndex": 1
+                "answerIndex": 0
               },
               {
                 "type": "fill-blank",
@@ -2695,10 +2749,10 @@
                 "blankedEn": "This is ___",
                 "answer": "good",
                 "options": [
-                  "good",
-                  "four",
-                  "incl",
-                  "Ruslan's"
+                  "stocky",
+                  "sunny",
+                  "Zarema",
+                  "good"
                 ]
               },
               {
@@ -2706,21 +2760,21 @@
                 "direction": "ce-en",
                 "prompt": "Иза дика дац.",
                 "options": [
-                  "What is that?",
-                  "ten",
                   "That is not good.",
-                  "Ahmad's son is well."
+                  "Thank you!",
+                  "Who is your brother?",
+                  "Thank you very much (to you)."
                 ],
-                "answerIndex": 2
+                "answerIndex": 0
               },
               {
                 "type": "word-bank",
                 "direction": "en-ce",
                 "prompt": "That is not good.",
                 "bank": [
-                  "дика",
+                  "дац.",
                   "Иза",
-                  "дац."
+                  "дика"
                 ],
                 "answer": [
                   "Иза",
@@ -2742,21 +2796,21 @@
                 "direction": "ce-en",
                 "prompt": "ХӀара мила ву?",
                 "options": [
-                  "Who is this?",
-                  "nine",
                   "I'm fine. (male speaker)",
-                  "Hello!"
+                  "He is my brother.",
+                  "I have a father.",
+                  "Who is this?"
                 ],
-                "answerIndex": 0
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
                 "direction": "en-ce",
                 "prompt": "Who is this?",
                 "bank": [
-                  "ХӀара",
                   "ву?",
-                  "мила"
+                  "мила",
+                  "ХӀара"
                 ],
                 "answer": [
                   "ХӀара",
@@ -2769,21 +2823,21 @@
                 "direction": "ce-en",
                 "prompt": "Иза хӀун ду?",
                 "options": [
-                  "Welcome!",
-                  "What is that?",
+                  "Thank you!",
+                  "It's an apple.",
                   "He is her brother.",
-                  "That is his/her brother."
+                  "What is that?"
                 ],
-                "answerIndex": 1
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
                 "direction": "en-ce",
                 "prompt": "What is that?",
                 "bank": [
-                  "Иза",
                   "хӀун",
-                  "ду?"
+                  "ду?",
+                  "Иза"
                 ],
                 "answer": [
                   "Иза",
@@ -2795,33 +2849,33 @@
                 "type": "listening",
                 "native": "Иза хӀун ду?",
                 "options": [
-                  "Who is your father?",
-                  "How are you?",
+                  "I have a son.",
                   "What is that?",
-                  "Thank you very much (to you)."
+                  "It's sunny. (lit. there is sun)",
+                  "one"
                 ],
-                "answerIndex": 2
+                "answerIndex": 1
               },
               {
                 "type": "multiple-choice",
                 "direction": "ce-en",
                 "prompt": "ХӀара сан кӀант ву.",
                 "options": [
-                  "Thank you!",
-                  "It's an apple.",
-                  "He is her brother.",
-                  "This is my son."
+                  "This is my son.",
+                  "I'm fine. (male speaker)",
+                  "I'm fine, thank you.",
+                  "This is my father."
                 ],
-                "answerIndex": 3
+                "answerIndex": 0
               },
               {
                 "type": "word-bank",
                 "direction": "en-ce",
                 "prompt": "This is my son.",
                 "bank": [
+                  "кӀант",
                   "ву.",
                   "ХӀара",
-                  "кӀант",
                   "сан"
                 ],
                 "answer": [
@@ -2846,22 +2900,22 @@
                 "direction": "ce-en",
                 "prompt": "ХӀара сан йоӀ ю.",
                 "options": [
-                  "I have a son.",
+                  "We are well.",
+                  "He is my brother.",
                   "This is my daughter.",
-                  "It's sunny. (lit. there is sun)",
-                  "What is that?"
+                  "Is your sister well?"
                 ],
-                "answerIndex": 1
+                "answerIndex": 2
               },
               {
                 "type": "word-bank",
                 "direction": "en-ce",
                 "prompt": "This is my daughter.",
                 "bank": [
-                  "йоӀ",
                   "сан",
                   "ю.",
-                  "ХӀара"
+                  "ХӀара",
+                  "йоӀ"
                 ],
                 "answer": [
                   "ХӀара",
@@ -2876,9 +2930,9 @@
                 "prompt": "Иза цуьнан ваша ву.",
                 "options": [
                   "Who is your brother?",
-                  "I have a mother.",
+                  "nine",
                   "That is his/her brother.",
-                  "Ahmad's car is new."
+                  "This is good."
                 ],
                 "answerIndex": 2
               },
@@ -2887,8 +2941,8 @@
                 "direction": "en-ce",
                 "prompt": "That is his/her brother.",
                 "bank": [
-                  "ву.",
                   "Иза",
+                  "ву.",
                   "цуьнан",
                   "ваша"
                 ],
@@ -2903,12 +2957,12 @@
                 "type": "listening",
                 "native": "Иза цуьнан ваша ву.",
                 "options": [
+                  "That is my brother.",
+                  "I have a son.",
                   "That is his/her brother.",
-                  "We are well.",
-                  "I have a mother.",
-                  "I am well. (female speaker)"
+                  "He is well, thank you."
                 ],
-                "answerIndex": 0
+                "answerIndex": 2
               },
               {
                 "type": "matching",
@@ -2966,10 +3020,10 @@
                 "direction": "ce-en",
                 "prompt": "Ахьмадан машина керла ю.",
                 "options": [
-                  "They have a father.",
+                  "Who are you?",
                   "Ahmad's car is new.",
-                  "I am not well. (female speaker)",
-                  "Islam's car is not new."
+                  "I'm fine, thank you.",
+                  "She is my sister."
                 ],
                 "answerIndex": 1
               },
@@ -2978,10 +3032,10 @@
                 "direction": "en-ce",
                 "prompt": "Ahmad's car is new.",
                 "bank": [
-                  "Ахьмадан",
-                  "ю.",
                   "керла",
-                  "машина"
+                  "машина",
+                  "ю.",
+                  "Ахьмадан"
                 ],
                 "answer": [
                   "Ахьмадан",
@@ -2994,34 +3048,34 @@
                 "type": "listening",
                 "native": "Ахьмадан машина керла ю.",
                 "options": [
-                  "That is his/her brother.",
                   "Ahmad's car is new.",
-                  "Thank you!",
-                  "Thank you very much (to you)."
+                  "Who are you? (to a male)",
+                  "He is well, thank you.",
+                  "She is well."
                 ],
-                "answerIndex": 1
+                "answerIndex": 0
               },
               {
                 "type": "multiple-choice",
                 "direction": "ce-en",
                 "prompt": "Асланан да дика ву.",
                 "options": [
-                  "This is Imran's son.",
+                  "This is my daughter.",
+                  "This is my father.",
                   "Aslan's father is well.",
-                  "How are you? (to a female)",
-                  "That is my brother."
+                  "That is his/her brother."
                 ],
-                "answerIndex": 1
+                "answerIndex": 2
               },
               {
                 "type": "word-bank",
                 "direction": "en-ce",
                 "prompt": "Aslan's father is well.",
                 "bank": [
-                  "дика",
-                  "да",
                   "Асланан",
-                  "ву."
+                  "ву.",
+                  "да",
+                  "дика"
                 ],
                 "answer": [
                   "Асланан",
@@ -3045,22 +3099,22 @@
                 "direction": "ce-en",
                 "prompt": "Исламан машина керла дац.",
                 "options": [
-                  "That is my brother.",
-                  "Who is Zarema's father?",
-                  "Thank you very much!",
-                  "Islam's car is not new."
+                  "This is my mother.",
+                  "Thank you very much (to you).",
+                  "Islam's car is not new.",
+                  "They have a father."
                 ],
-                "answerIndex": 3
+                "answerIndex": 2
               },
               {
                 "type": "word-bank",
                 "direction": "en-ce",
                 "prompt": "Islam's car is not new.",
                 "bank": [
-                  "керла",
-                  "Исламан",
+                  "машина",
                   "дац.",
-                  "машина"
+                  "керла",
+                  "Исламан"
                 ],
                 "answer": [
                   "Исламан",
@@ -3074,22 +3128,22 @@
                 "direction": "ce-en",
                 "prompt": "Русланан ваша дика ву.",
                 "options": [
-                  "We (excl.) have a father.",
+                  "We are well.",
+                  "That is not good.",
                   "Ruslan's brother is well.",
-                  "She is my sister.",
-                  "Ahmad's son is well."
+                  "I'm fine, thank you."
                 ],
-                "answerIndex": 1
+                "answerIndex": 2
               },
               {
                 "type": "word-bank",
                 "direction": "en-ce",
                 "prompt": "Ruslan's brother is well.",
                 "bank": [
-                  "дика",
+                  "ваша",
                   "ву.",
-                  "Русланан",
-                  "ваша"
+                  "дика",
+                  "Русланан"
                 ],
                 "answer": [
                   "Русланан",
@@ -3102,23 +3156,23 @@
                 "type": "listening",
                 "native": "Русланан ваша дика ву.",
                 "options": [
-                  "What is that?",
-                  "Who is your brother?",
+                  "ten",
+                  "Thank you (may God be pleased).",
                   "Ruslan's brother is well.",
-                  "I have a sister."
+                  "I have a mother."
                 ],
                 "answerIndex": 2
               },
               {
                 "type": "fill-blank",
                 "native": "Русланан ваша дика ву.",
-                "blankedEn": "___ brother is well.",
-                "answer": "Ruslan's",
+                "blankedEn": "Ruslan's brother is ___",
+                "answer": "well",
                 "options": [
-                  "excl",
-                  "response",
-                  "peace",
-                  "Ruslan's"
+                  "well",
+                  "name",
+                  "loves",
+                  "Ahmad"
                 ]
               },
               {
@@ -3126,21 +3180,21 @@
                 "direction": "ce-en",
                 "prompt": "Имранан кӀант ву.",
                 "options": [
-                  "This is my mother.",
                   "This is Imran's son.",
-                  "Thank you very much (to you).",
-                  "ten"
+                  "I am your brother.",
+                  "This is good.",
+                  "That is not good."
                 ],
-                "answerIndex": 1
+                "answerIndex": 0
               },
               {
                 "type": "word-bank",
                 "direction": "en-ce",
                 "prompt": "This is Imran's son.",
                 "bank": [
+                  "ву.",
                   "Имранан",
-                  "кӀант",
-                  "ву."
+                  "кӀант"
                 ],
                 "answer": [
                   "Имранан",
@@ -3162,22 +3216,22 @@
                 "direction": "ce-en",
                 "prompt": "Зареман да мила ву?",
                 "options": [
-                  "It's an apple.",
-                  "Hello! (response)",
-                  "That is his/her brother.",
-                  "Who is Zarema's father?"
+                  "Who is Zarema's father?",
+                  "I am your brother.",
+                  "Who is your father?",
+                  "I'm fine. (male speaker)"
                 ],
-                "answerIndex": 3
+                "answerIndex": 0
               },
               {
                 "type": "word-bank",
                 "direction": "en-ce",
                 "prompt": "Who is Zarema's father?",
                 "bank": [
-                  "да",
-                  "мила",
                   "ву?",
-                  "Зареман"
+                  "Зареман",
+                  "да",
+                  "мила"
                 ],
                 "answer": [
                   "Зареман",
@@ -3191,21 +3245,21 @@
                 "direction": "ce-en",
                 "prompt": "Асланан йиша ю.",
                 "options": [
-                  "Hello! (peace be upon you)",
                   "This is Aslan's sister.",
-                  "That is his/her brother.",
-                  "Ahmad's son is well."
+                  "We (incl.) have a father.",
+                  "What is that?",
+                  "How are you? (to a male)"
                 ],
-                "answerIndex": 1
+                "answerIndex": 0
               },
               {
                 "type": "word-bank",
                 "direction": "en-ce",
                 "prompt": "This is Aslan's sister.",
                 "bank": [
-                  "Асланан",
                   "йиша",
-                  "ю."
+                  "ю.",
+                  "Асланан"
                 ],
                 "answer": [
                   "Асланан",
@@ -3217,34 +3271,34 @@
                 "type": "listening",
                 "native": "Асланан йиша ю.",
                 "options": [
-                  "This is Aslan's sister.",
-                  "I am your brother.",
-                  "This is good.",
-                  "That is not good."
+                  "two",
+                  "four",
+                  "How are you? (to a female)",
+                  "This is Aslan's sister."
                 ],
-                "answerIndex": 0
+                "answerIndex": 3
               },
               {
                 "type": "multiple-choice",
                 "direction": "ce-en",
                 "prompt": "Ахьмадан кӀант дика ву.",
                 "options": [
-                  "Who is he?",
-                  "What is your name?",
+                  "It's an apple.",
                   "Ahmad's son is well.",
-                  "I'm fine. (male speaker)"
+                  "I'm fine. (male speaker)",
+                  "This is my daughter."
                 ],
-                "answerIndex": 2
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
                 "direction": "en-ce",
                 "prompt": "Ahmad's son is well.",
                 "bank": [
+                  "дика",
                   "Ахьмадан",
                   "кӀант",
-                  "ву.",
-                  "дика"
+                  "ву."
                 ],
                 "answer": [
                   "Ахьмадан",
@@ -3270,9 +3324,9 @@
                 "answer": "well",
                 "options": [
                   "well",
-                  "upon",
-                  "speaker",
-                  "female"
+                  "hisher",
+                  "Ahmad",
+                  "incl"
                 ]
               },
               {
@@ -3280,20 +3334,20 @@
                 "direction": "ce-en",
                 "prompt": "Русланан нана ю.",
                 "options": [
-                  "It's an apple.",
+                  "I have a daughter.",
+                  "I have a sister.",
                   "This is Ruslan's mother.",
-                  "I'm fine. (male speaker)",
-                  "This is my daughter."
+                  "seven"
                 ],
-                "answerIndex": 1
+                "answerIndex": 2
               },
               {
                 "type": "word-bank",
                 "direction": "en-ce",
                 "prompt": "This is Ruslan's mother.",
                 "bank": [
-                  "Русланан",
                   "ю.",
+                  "Русланан",
                   "нана"
                 ],
                 "answer": [
@@ -3307,22 +3361,22 @@
                 "direction": "ce-en",
                 "prompt": "Исламан йоӀ дика ю.",
                 "options": [
-                  "Who is he?",
-                  "I have a mother.",
+                  "Hello! (response)",
                   "Islam's daughter is well.",
-                  "Her name is Zarema."
+                  "Is he well?",
+                  "Who are you?"
                 ],
-                "answerIndex": 2
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
                 "direction": "en-ce",
                 "prompt": "Islam's daughter is well.",
                 "bank": [
-                  "ю.",
-                  "дика",
+                  "йоӀ",
                   "Исламан",
-                  "йоӀ"
+                  "дика",
+                  "ю."
                 ],
                 "answer": [
                   "Исламан",
@@ -3336,9 +3390,9 @@
                 "native": "Исламан йоӀ дика ю.",
                 "options": [
                   "Islam's daughter is well.",
-                  "He is my brother.",
-                  "What is your name?",
-                  "That is good."
+                  "two",
+                  "I am well. (male speaker)",
+                  "Who is your father?"
                 ],
                 "answerIndex": 0
               },
@@ -3398,22 +3452,22 @@
                 "direction": "ce-en",
                 "prompt": "Сан цIе Ахьмад ю.",
                 "options": [
+                  "He is her brother.",
                   "My name is Ahmad.",
-                  "That is his/her brother.",
-                  "Who is your father?",
-                  "two"
+                  "He is Islam.",
+                  "I am not well. (female speaker)"
                 ],
-                "answerIndex": 0
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
                 "direction": "en-ce",
                 "prompt": "My name is Ahmad.",
                 "bank": [
-                  "Ахьмад",
-                  "ю.",
+                  "цIе",
                   "Сан",
-                  "цIе"
+                  "Ахьмад",
+                  "ю."
                 ],
                 "answer": [
                   "Сан",
@@ -3426,22 +3480,22 @@
                 "type": "listening",
                 "native": "Сан цIе Ахьмад ю.",
                 "options": [
-                  "It's an apple.",
-                  "This is my daughter.",
-                  "He is well, thank you.",
-                  "My name is Ahmad."
+                  "That is good.",
+                  "My name is Ahmad.",
+                  "I am not well. (female speaker)",
+                  "Is he well?"
                 ],
-                "answerIndex": 3
+                "answerIndex": 1
               },
               {
                 "type": "multiple-choice",
                 "direction": "ce-en",
                 "prompt": "Хьан цIе хIун ю?",
                 "options": [
-                  "one",
+                  "I am not well. (male speaker)",
                   "What is your name?",
-                  "This is my mother.",
-                  "It's sunny. (lit. there is sun)"
+                  "She is my sister.",
+                  "That is his/her brother."
                 ],
                 "answerIndex": 1
               },
@@ -3450,10 +3504,10 @@
                 "direction": "en-ce",
                 "prompt": "What is your name?",
                 "bank": [
-                  "хIун",
-                  "Хьан",
                   "цIе",
-                  "ю?"
+                  "Хьан",
+                  "ю?",
+                  "хIун"
                 ],
                 "answer": [
                   "Хьан",
@@ -3477,22 +3531,22 @@
                 "direction": "ce-en",
                 "prompt": "Цуьнан цIе Зарема ю.",
                 "options": [
-                  "I have a sister.",
-                  "Her name is Zarema.",
-                  "This is Ruslan's mother.",
-                  "eight"
+                  "This is my daughter.",
+                  "three",
+                  "five",
+                  "Her name is Zarema."
                 ],
-                "answerIndex": 1
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
                 "direction": "en-ce",
                 "prompt": "Her name is Zarema.",
                 "bank": [
-                  "ю.",
-                  "Цуьнан",
+                  "цIе",
                   "Зарема",
-                  "цIе"
+                  "Цуьнан",
+                  "ю."
                 ],
                 "answer": [
                   "Цуьнан",
@@ -3506,9 +3560,9 @@
                 "direction": "ce-en",
                 "prompt": "Иза Ислам ву.",
                 "options": [
-                  "I have a mother.",
-                  "Is your sister well?",
-                  "Who is he?",
+                  "We (excl.) have a father.",
+                  "He is my brother.",
+                  "How are you?",
                   "He is Islam."
                 ],
                 "answerIndex": 3
@@ -3518,9 +3572,9 @@
                 "direction": "en-ce",
                 "prompt": "He is Islam.",
                 "bank": [
-                  "Ислам",
                   "Иза",
-                  "ву."
+                  "ву.",
+                  "Ислам"
                 ],
                 "answer": [
                   "Иза",
@@ -3532,12 +3586,12 @@
                 "type": "listening",
                 "native": "Иза Ислам ву.",
                 "options": [
-                  "I have a father.",
-                  "one",
-                  "He is Islam.",
-                  "Who is this?"
+                  "Thank you very much (to you).",
+                  "Who is this?",
+                  "He is well.",
+                  "He is Islam."
                 ],
-                "answerIndex": 2
+                "answerIndex": 3
               },
               {
                 "type": "fill-blank",
@@ -3545,10 +3599,10 @@
                 "blankedEn": "He is ___",
                 "answer": "Islam",
                 "options": [
-                  "apple",
-                  "seven",
+                  "girl",
                   "Islam",
-                  "Ahmad's"
+                  "Heshe",
+                  "Welcome"
                 ]
               },
               {
@@ -3556,21 +3610,21 @@
                 "direction": "ce-en",
                 "prompt": "Тхан да ву.",
                 "options": [
-                  "Is he well?",
-                  "Islam's car is not new.",
-                  "He is my brother.",
-                  "We (excl.) have a father."
+                  "We (excl.) have a father.",
+                  "I have a son.",
+                  "seven",
+                  "We are well."
                 ],
-                "answerIndex": 3
+                "answerIndex": 0
               },
               {
                 "type": "word-bank",
                 "direction": "en-ce",
                 "prompt": "We (excl.) have a father.",
                 "bank": [
-                  "ву.",
+                  "да",
                   "Тхан",
-                  "да"
+                  "ву."
                 ],
                 "answer": [
                   "Тхан",
@@ -3592,21 +3646,21 @@
                 "direction": "ce-en",
                 "prompt": "Вайн да ву.",
                 "options": [
-                  "nine",
-                  "I am well. (male speaker)",
-                  "Who is this?",
-                  "We (incl.) have a father."
+                  "This is Ruslan's mother.",
+                  "Is your sister well?",
+                  "We (incl.) have a father.",
+                  "We (you and I) are well."
                 ],
-                "answerIndex": 3
+                "answerIndex": 2
               },
               {
                 "type": "word-bank",
                 "direction": "en-ce",
                 "prompt": "We (incl.) have a father.",
                 "bank": [
-                  "ву.",
+                  "Вайн",
                   "да",
-                  "Вайн"
+                  "ву."
                 ],
                 "answer": [
                   "Вайн",
@@ -3619,22 +3673,22 @@
                 "direction": "ce-en",
                 "prompt": "Шун да мила ву?",
                 "options": [
-                  "Welcome!",
-                  "Is he well?",
-                  "Who is your (pl.) father?",
-                  "That is my brother."
+                  "We are well.",
+                  "Her name is Zarema.",
+                  "Who is she?",
+                  "Who is your (pl.) father?"
                 ],
-                "answerIndex": 2
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
                 "direction": "en-ce",
                 "prompt": "Who is your (pl.) father?",
                 "bank": [
-                  "мила",
-                  "Шун",
                   "ву?",
-                  "да"
+                  "Шун",
+                  "да",
+                  "мила"
                 ],
                 "answer": [
                   "Шун",
@@ -3647,22 +3701,22 @@
                 "type": "listening",
                 "native": "Шун да мила ву?",
                 "options": [
-                  "Who is your (pl.) father?",
                   "I have a son.",
-                  "I am not well. (female speaker)",
-                  "We are well."
+                  "two",
+                  "Who is Zarema's father?",
+                  "Who is your (pl.) father?"
                 ],
-                "answerIndex": 0
+                "answerIndex": 3
               },
               {
                 "type": "multiple-choice",
                 "direction": "ce-en",
                 "prompt": "Церан да ву.",
                 "options": [
-                  "We are well.",
+                  "four",
                   "They have a father.",
-                  "nine",
-                  "This is Ruslan's mother."
+                  "That is his/her brother.",
+                  "She is well."
                 ],
                 "answerIndex": 1
               },
@@ -3671,9 +3725,9 @@
                 "direction": "en-ce",
                 "prompt": "They have a father.",
                 "bank": [
-                  "да",
+                  "Церан",
                   "ву.",
-                  "Церан"
+                  "да"
                 ],
                 "answer": [
                   "Церан",
@@ -3696,9 +3750,9 @@
                 "blankedEn": "They have a ___",
                 "answer": "father",
                 "options": [
-                  "nine",
-                  "eight",
-                  "response",
+                  "like",
+                  "short",
+                  "beautiful",
                   "father"
                 ]
               },
@@ -3707,21 +3761,21 @@
                 "direction": "ce-en",
                 "prompt": "Иза цуьнан ваша ву.",
                 "options": [
-                  "four",
-                  "He is her brother.",
-                  "That is his/her brother.",
-                  "She is well."
+                  "We are well.",
+                  "What is that?",
+                  "I am well. (male speaker)",
+                  "He is her brother."
                 ],
-                "answerIndex": 1
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
                 "direction": "en-ce",
                 "prompt": "He is her brother.",
                 "bank": [
+                  "ву.",
                   "Иза",
                   "цуьнан",
-                  "ву.",
                   "ваша"
                 ],
                 "answer": [
@@ -3736,10 +3790,10 @@
                 "direction": "ce-en",
                 "prompt": "Хьан ваша мила ву?",
                 "options": [
-                  "two",
-                  "This is good.",
+                  "We (excl.) have a father.",
+                  "How are you?",
                   "Who is your brother?",
-                  "My name is Ahmad."
+                  "Who are you?"
                 ],
                 "answerIndex": 2
               },
@@ -3748,10 +3802,10 @@
                 "direction": "en-ce",
                 "prompt": "Who is your brother?",
                 "bank": [
-                  "Хьан",
-                  "мила",
                   "ваша",
-                  "ву?"
+                  "мила",
+                  "ву?",
+                  "Хьан"
                 ],
                 "answer": [
                   "Хьан",
@@ -3764,12 +3818,12 @@
                 "type": "listening",
                 "native": "Хьан ваша мила ву?",
                 "options": [
-                  "I have a daughter.",
                   "Who is your brother?",
-                  "two",
-                  "We (incl.) have a father."
+                  "We (you and I) are well.",
+                  "I have a brother.",
+                  "Who are you?"
                 ],
-                "answerIndex": 1
+                "answerIndex": 0
               },
               {
                 "type": "matching",
@@ -3828,9 +3882,9 @@
                 "direction": "ce-en",
                 "prompt": "Салам алейкум!",
                 "options": [
-                  "They have a father.",
-                  "That is not good.",
-                  "What is that?",
+                  "I am your brother.",
+                  "He is well, thank you.",
+                  "I have a mother.",
                   "Hello!"
                 ],
                 "answerIndex": 3
@@ -3840,8 +3894,8 @@
                 "direction": "en-ce",
                 "prompt": "Hello!",
                 "bank": [
-                  "алейкум!",
-                  "Салам"
+                  "Салам",
+                  "алейкум!"
                 ],
                 "answer": [
                   "Салам",
@@ -3852,9 +3906,9 @@
                 "type": "listening",
                 "native": "Салам алейкум!",
                 "options": [
-                  "five",
-                  "I'm fine. (female speaker)",
-                  "two",
+                  "This is my father.",
+                  "That is my brother.",
+                  "Who is she?",
                   "Hello!"
                 ],
                 "answerIndex": 3
@@ -3864,21 +3918,21 @@
                 "direction": "ce-en",
                 "prompt": "Ва алейкум салам!",
                 "options": [
-                  "I'm fine, thank you.",
-                  "This is good.",
-                  "Welcome!",
-                  "Hello! (response)"
+                  "That is his/her brother.",
+                  "How are you?",
+                  "Hello! (response)",
+                  "Who is this?"
                 ],
-                "answerIndex": 3
+                "answerIndex": 2
               },
               {
                 "type": "word-bank",
                 "direction": "en-ce",
                 "prompt": "Hello! (response)",
                 "bank": [
+                  "Ва",
                   "алейкум",
-                  "салам!",
-                  "Ва"
+                  "салам!"
                 ],
                 "answer": [
                   "Ва",
@@ -3900,22 +3954,22 @@
                 "direction": "ce-en",
                 "prompt": "Хьан цIе хIун ю?",
                 "options": [
+                  "What is that?",
                   "What is your name?",
-                  "It's sunny. (lit. there is sun)",
-                  "I have a brother.",
-                  "Who are you?"
+                  "That is not good.",
+                  "Thank you very much!"
                 ],
-                "answerIndex": 0
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
                 "direction": "en-ce",
                 "prompt": "What is your name?",
                 "bank": [
-                  "хIун",
-                  "цIе",
                   "ю?",
-                  "Хьан"
+                  "Хьан",
+                  "хIун",
+                  "цIе"
                 ],
                 "answer": [
                   "Хьан",
@@ -3929,22 +3983,22 @@
                 "direction": "ce-en",
                 "prompt": "Сан цIе Ахьмад ю.",
                 "options": [
-                  "Who is this?",
+                  "He is Islam.",
+                  "Who is your brother?",
                   "My name is Ahmad.",
-                  "They have a father.",
-                  "I have a father."
+                  "It's an apple."
                 ],
-                "answerIndex": 1
+                "answerIndex": 2
               },
               {
                 "type": "word-bank",
                 "direction": "en-ce",
                 "prompt": "My name is Ahmad.",
                 "bank": [
-                  "цIе",
-                  "Ахьмад",
                   "Сан",
-                  "ю."
+                  "ю.",
+                  "цIе",
+                  "Ахьмад"
                 ],
                 "answer": [
                   "Сан",
@@ -3957,9 +4011,9 @@
                 "type": "listening",
                 "native": "Сан цIе Ахьмад ю.",
                 "options": [
-                  "That is his/her brother.",
+                  "He is her brother.",
+                  "This is my daughter.",
                   "Who is this?",
-                  "This is my father.",
                   "My name is Ahmad."
                 ],
                 "answerIndex": 3
@@ -3967,13 +4021,13 @@
               {
                 "type": "fill-blank",
                 "native": "Сан цIе Ахьмад ю.",
-                "blankedEn": "My ___ is Ahmad.",
-                "answer": "name",
+                "blankedEn": "My name is ___",
+                "answer": "Ahmad",
                 "options": [
-                  "name",
-                  "hisher",
-                  "response",
-                  "It's"
+                  "much",
+                  "Aslan's",
+                  "Ahmad",
+                  "Ruslan's"
                 ]
               },
               {
@@ -3982,9 +4036,9 @@
                 "prompt": "ХIара мила ву?",
                 "options": [
                   "Who is this?",
-                  "Who is he?",
-                  "He is well.",
-                  "He is well, thank you."
+                  "Thank you!",
+                  "This is good.",
+                  "Islam's car is not new."
                 ],
                 "answerIndex": 0
               },
@@ -3993,8 +4047,8 @@
                 "direction": "en-ce",
                 "prompt": "Who is this?",
                 "bank": [
-                  "мила",
                   "ву?",
+                  "мила",
                   "ХIара"
                 ],
                 "answer": [
@@ -4017,21 +4071,21 @@
                 "direction": "ce-en",
                 "prompt": "ХIара сан да ву.",
                 "options": [
-                  "This is my father.",
-                  "That is his/her brother.",
-                  "Who is this?",
-                  "I am well. (male speaker)"
+                  "That is my brother.",
+                  "It's an apple.",
+                  "Thank you (may God be pleased).",
+                  "This is my father."
                 ],
-                "answerIndex": 0
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
                 "direction": "en-ce",
                 "prompt": "This is my father.",
                 "bank": [
-                  "да",
                   "сан",
                   "ХIара",
+                  "да",
                   "ву."
                 ],
                 "answer": [
@@ -4046,12 +4100,12 @@
                 "direction": "ce-en",
                 "prompt": "Иза дика ву?",
                 "options": [
-                  "one",
-                  "Hello! (response)",
-                  "This is good.",
-                  "Is he well?"
+                  "He is her brother.",
+                  "nine",
+                  "Is he well?",
+                  "What is your name?"
                 ],
-                "answerIndex": 3
+                "answerIndex": 2
               },
               {
                 "type": "word-bank",
@@ -4072,10 +4126,10 @@
                 "type": "listening",
                 "native": "Иза дика ву?",
                 "options": [
-                  "What is your name?",
-                  "I have a daughter.",
+                  "He is my brother.",
+                  "This is my mother.",
                   "Is he well?",
-                  "This is my mother."
+                  "six"
                 ],
                 "answerIndex": 2
               },
@@ -4084,9 +4138,9 @@
                 "direction": "ce-en",
                 "prompt": "Иза дика ву, баркалла.",
                 "options": [
-                  "Welcome!",
-                  "How are you? (to a female)",
-                  "two",
+                  "How are you? (to a male)",
+                  "That is his/her brother.",
+                  "five",
                   "He is well, thank you."
                 ],
                 "answerIndex": 3
@@ -4096,10 +4150,10 @@
                 "direction": "en-ce",
                 "prompt": "He is well, thank you.",
                 "bank": [
-                  "ву,",
                   "Иза",
                   "баркалла.",
-                  "дика"
+                  "дика",
+                  "ву,"
                 ],
                 "answer": [
                   "Иза",
@@ -4121,13 +4175,13 @@
               {
                 "type": "fill-blank",
                 "native": "Иза дика ву, баркалла.",
-                "blankedEn": "He is ___ thank you.",
-                "answer": "well",
+                "blankedEn": "He is well, ___ you.",
+                "answer": "thank",
                 "options": [
                   "thank",
-                  "apple",
-                  "well",
-                  "sunny"
+                  "Hello",
+                  "Ahmad's",
+                  "handsome"
                 ]
               },
               {
@@ -4135,9 +4189,9 @@
                 "direction": "ce-en",
                 "prompt": "Хьан йиша дика ю?",
                 "options": [
-                  "four",
-                  "nine",
-                  "six",
+                  "This is my father.",
+                  "I'm fine. (male speaker)",
+                  "I'm fine, thank you.",
                   "Is your sister well?"
                 ],
                 "answerIndex": 3
@@ -4147,10 +4201,10 @@
                 "direction": "en-ce",
                 "prompt": "Is your sister well?",
                 "bank": [
+                  "ю?",
                   "йиша",
-                  "дика",
                   "Хьан",
-                  "ю?"
+                  "дика"
                 ],
                 "answer": [
                   "Хьан",
@@ -4165,9 +4219,9 @@
                 "prompt": "Дала реза хуьлда хьуна!",
                 "options": [
                   "Thank you very much!",
-                  "six",
-                  "They have a father.",
-                  "I'm fine. (female speaker)"
+                  "Aslan's father is well.",
+                  "Hello!",
+                  "I have a sister."
                 ],
                 "answerIndex": 0
               },
@@ -4176,10 +4230,10 @@
                 "direction": "en-ce",
                 "prompt": "Thank you very much!",
                 "bank": [
-                  "хьуна!",
                   "хуьлда",
-                  "Дала",
-                  "реза"
+                  "хьуна!",
+                  "реза",
+                  "Дала"
                 ],
                 "answer": [
                   "Дала",
@@ -4192,12 +4246,12 @@
                 "type": "listening",
                 "native": "Дала реза хуьлда хьуна!",
                 "options": [
-                  "five",
-                  "I have a son.",
-                  "Islam's car is not new.",
-                  "Thank you very much!"
+                  "I'm fine. (female speaker)",
+                  "Thank you very much!",
+                  "seven",
+                  "Who is Zarema's father?"
                 ],
-                "answerIndex": 3
+                "answerIndex": 1
               },
               {
                 "type": "matching",
@@ -4243,6 +4297,2425 @@
               }
             ],
             "titleNative": "Къамел: доьзал дуьйцуш"
+          }
+        ]
+      },
+      {
+        "id": "a2",
+        "cefr": "A2",
+        "label": "Building Blocks",
+        "labelNative": "ГӀирсаш",
+        "lessons": [
+          {
+            "id": "ce-a2-11",
+            "number": 11,
+            "title": "Adjectives & Descriptions",
+            "description": "Adjectives & Descriptions",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "Иза дика кIант ву.",
+                "options": [
+                  "It is good, but short.",
+                  "He is a good boy.",
+                  "She/it is beautiful, but heavy.",
+                  "That is long."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "He is a good boy.",
+                "bank": [
+                  "кIант",
+                  "дика",
+                  "ву.",
+                  "Иза"
+                ],
+                "answer": [
+                  "Иза",
+                  "дика",
+                  "кIант",
+                  "ву."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Иза дика кIант ву.",
+                "options": [
+                  "The water is hot, but not full.",
+                  "I am well.",
+                  "He is a good boy.",
+                  "Ahmad's car is prettier than Aslan's car."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "Иза хаза йоI ю.",
+                "options": [
+                  "That is long.",
+                  "She is a beautiful girl.",
+                  "I have a father, I have a mother.",
+                  "He is handsome, but stocky."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "She is a beautiful girl.",
+                "bank": [
+                  "ю.",
+                  "Иза",
+                  "йоI",
+                  "хаза"
+                ],
+                "answer": [
+                  "Иза",
+                  "хаза",
+                  "йоI",
+                  "ю."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Иза хаза йоI ю.",
+                "answer": [
+                  "Иза",
+                  "хаза",
+                  "йоI",
+                  "ю."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "ХIара цIиэн машина ю.",
+                "options": [
+                  "He is well, thank you.",
+                  "Ahmad's car is prettier than Aslan's car.",
+                  "Ahmad's car is beautiful.",
+                  "This is a red car."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "This is a red car.",
+                "bank": [
+                  "ю.",
+                  "машина",
+                  "ХIара",
+                  "цIиэн"
+                ],
+                "answer": [
+                  "ХIара",
+                  "цIиэн",
+                  "машина",
+                  "ю."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "Иза вон ду.",
+                "options": [
+                  "That is bad.",
+                  "My car is prettier than your car.",
+                  "She/it is beautiful, but heavy.",
+                  "It is good, but short."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "That is bad.",
+                "bank": [
+                  "вон",
+                  "ду.",
+                  "Иза"
+                ],
+                "answer": [
+                  "Иза",
+                  "вон",
+                  "ду."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Иза вон ду.",
+                "options": [
+                  "She/it is beautiful, but heavy.",
+                  "Ahmad's car is prettier than Aslan's car.",
+                  "That is long.",
+                  "That is bad."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "Хи довха ду.",
+                "options": [
+                  "Thank you very much!",
+                  "Ahmad's car is prettier than Aslan's car.",
+                  "This is thick.",
+                  "The water is hot."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "The water is hot.",
+                "bank": [
+                  "ду.",
+                  "довха",
+                  "Хи"
+                ],
+                "answer": [
+                  "Хи",
+                  "довха",
+                  "ду."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Хи довха ду.",
+                "answer": [
+                  "Хи",
+                  "довха",
+                  "ду."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "Иза доккха ду.",
+                "options": [
+                  "She is a beautiful girl.",
+                  "Ahmad loves his own sister.",
+                  "Our father is well.",
+                  "That is big."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "That is big.",
+                "bank": [
+                  "Иза",
+                  "доккха",
+                  "ду."
+                ],
+                "answer": [
+                  "Иза",
+                  "доккха",
+                  "ду."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "Ахьмадан машина хаза ю.",
+                "options": [
+                  "It is beautiful, but heavy.",
+                  "That is bad.",
+                  "This is a red car.",
+                  "Ahmad's car is beautiful."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "Ahmad's car is beautiful.",
+                "bank": [
+                  "машина",
+                  "Ахьмадан",
+                  "ю.",
+                  "хаза"
+                ],
+                "answer": [
+                  "Ахьмадан",
+                  "машина",
+                  "хаза",
+                  "ю."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Ахьмадан машина хаза ю.",
+                "options": [
+                  "Thank you, but it's heavy.",
+                  "Ahmad's car is beautiful.",
+                  "Is your brother well?",
+                  "I am well."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "Асланан кIант доккха ву.",
+                "options": [
+                  "She/it is beautiful, but heavy.",
+                  "I am well.",
+                  "Your car is beautiful!",
+                  "Aslan's son is big."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "Aslan's son is big.",
+                "bank": [
+                  "кIант",
+                  "доккха",
+                  "Асланан",
+                  "ву."
+                ],
+                "answer": [
+                  "Асланан",
+                  "кIант",
+                  "доккха",
+                  "ву."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Асланан кIант доккха ву.",
+                "answer": [
+                  "Асланан",
+                  "кIант",
+                  "доккха",
+                  "ву."
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "Асланан кIант доккха ву.",
+                "blankedEn": "___ son is big.",
+                "answer": "Aslan's",
+                "options": [
+                  "three",
+                  "Aslan's",
+                  "making",
+                  "Islam's"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "Иза деха ду.",
+                "options": [
+                  "That is long.",
+                  "She is the most beautiful.",
+                  "He is well, thank you.",
+                  "That is big."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "That is long.",
+                "bank": [
+                  "Иза",
+                  "ду.",
+                  "деха"
+                ],
+                "answer": [
+                  "Иза",
+                  "деха",
+                  "ду."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "ХIара дуькъа ду.",
+                "options": [
+                  "He loves his (someone else's) sister.",
+                  "Ahmad's car is new.",
+                  "My car is red, but not new.",
+                  "This is thick."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "This is thick.",
+                "bank": [
+                  "ду.",
+                  "дуькъа",
+                  "ХIара"
+                ],
+                "answer": [
+                  "ХIара",
+                  "дуькъа",
+                  "ду."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "ХIара дуькъа ду.",
+                "options": [
+                  "He is a good boy.",
+                  "He loves his own sister.",
+                  "My car is prettier than your car.",
+                  "This is thick."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Иза дика кIант ву.",
+                    "en": "He is a good boy."
+                  },
+                  {
+                    "native": "Иза хаза йоI ю.",
+                    "en": "She is a beautiful girl."
+                  },
+                  {
+                    "native": "ХIара цIиэн машина ю.",
+                    "en": "This is a red car."
+                  },
+                  {
+                    "native": "Иза вон ду.",
+                    "en": "That is bad."
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Хи довха ду.",
+                    "en": "The water is hot."
+                  },
+                  {
+                    "native": "Иза доккха ду.",
+                    "en": "That is big."
+                  },
+                  {
+                    "native": "Ахьмадан машина хаза ю.",
+                    "en": "Ahmad's car is beautiful."
+                  },
+                  {
+                    "native": "Асланан кIант доккха ву.",
+                    "en": "Aslan's son is big."
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Класс дешнаш"
+          },
+          {
+            "id": "ce-a2-12",
+            "number": 12,
+            "title": "But (Coordination with амма)",
+            "description": "But (Coordination with амма)",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "Иза хаза ю, амма деза ю.",
+                "options": [
+                  "She/it is beautiful, but heavy.",
+                  "Ahmad is good, but not big.",
+                  "Ahmad's car is prettier than Aslan's car.",
+                  "My car is red, but not new."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "She/it is beautiful, but heavy.",
+                "bank": [
+                  "деза",
+                  "ю,",
+                  "хаза",
+                  "ю.",
+                  "Иза",
+                  "амма"
+                ],
+                "answer": [
+                  "Иза",
+                  "хаза",
+                  "ю,",
+                  "амма",
+                  "деза",
+                  "ю."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Иза хаза ю, амма деза ю.",
+                "options": [
+                  "Is your brother well?",
+                  "The water is hot, but not full.",
+                  "She/it is beautiful, but heavy.",
+                  "She is the most beautiful."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "Ахьмад дика ву, амма доккха вац.",
+                "options": [
+                  "I have a brother, I have a sister.",
+                  "He is handsome, but stocky.",
+                  "He is well, thank you.",
+                  "Ahmad is good, but not big."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "Ahmad is good, but not big.",
+                "bank": [
+                  "дика",
+                  "Ахьмад",
+                  "вац.",
+                  "ву,",
+                  "доккха",
+                  "амма"
+                ],
+                "answer": [
+                  "Ахьмад",
+                  "дика",
+                  "ву,",
+                  "амма",
+                  "доккха",
+                  "вац."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Ахьмад дика ву, амма доккха вац.",
+                "answer": [
+                  "Ахьмад",
+                  "дика",
+                  "ву,",
+                  "амма",
+                  "доккха",
+                  "вац."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "Сан машина цIиэн ю, амма керла дац.",
+                "options": [
+                  "He loves his own sister.",
+                  "My car is red, but not new.",
+                  "It is beautiful, but heavy.",
+                  "That is long."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "My car is red, but not new.",
+                "bank": [
+                  "керла",
+                  "дац.",
+                  "ю,",
+                  "машина",
+                  "амма",
+                  "цIиэн",
+                  "Сан"
+                ],
+                "answer": [
+                  "Сан",
+                  "машина",
+                  "цIиэн",
+                  "ю,",
+                  "амма",
+                  "керла",
+                  "дац."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "Иза дика ду, амма доца ду.",
+                "options": [
+                  "It is good, but short.",
+                  "Ahmad is good, but not big.",
+                  "My car is prettier than your car.",
+                  "Ahmad's car is new."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "It is good, but short.",
+                "bank": [
+                  "доца",
+                  "амма",
+                  "ду,",
+                  "дика",
+                  "Иза",
+                  "ду."
+                ],
+                "answer": [
+                  "Иза",
+                  "дика",
+                  "ду,",
+                  "амма",
+                  "доца",
+                  "ду."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Иза дика ду, амма доца ду.",
+                "options": [
+                  "It is good, but short.",
+                  "Is your brother well?",
+                  "He loves his (someone else's) sister.",
+                  "I am well."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "fill-blank",
+                "native": "Иза дика ду, амма доца ду.",
+                "blankedEn": "It is ___ but short.",
+                "answer": "good",
+                "options": [
+                  "hisher",
+                  "sunny",
+                  "best",
+                  "good"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "Хи довха ду, амма дуьзна дац.",
+                "options": [
+                  "Thank you, but it's heavy.",
+                  "The water is hot, but not full.",
+                  "I am well.",
+                  "He loves his own sister."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "The water is hot, but not full.",
+                "bank": [
+                  "дац.",
+                  "довха",
+                  "амма",
+                  "ду,",
+                  "Хи",
+                  "дуьзна"
+                ],
+                "answer": [
+                  "Хи",
+                  "довха",
+                  "ду,",
+                  "амма",
+                  "дуьзна",
+                  "дац."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Хи довха ду, амма дуьзна дац.",
+                "answer": [
+                  "Хи",
+                  "довха",
+                  "ду,",
+                  "амма",
+                  "дуьзна",
+                  "дац."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "Иза хаза ву, амма дуькъа ву.",
+                "options": [
+                  "Our father is well.",
+                  "This is a red car.",
+                  "Ahmad's car is prettier than Aslan's car.",
+                  "He is handsome, but stocky."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "He is handsome, but stocky.",
+                "bank": [
+                  "амма",
+                  "ву,",
+                  "Иза",
+                  "дуькъа",
+                  "хаза",
+                  "ву."
+                ],
+                "answer": [
+                  "Иза",
+                  "хаза",
+                  "ву,",
+                  "амма",
+                  "дуькъа",
+                  "ву."
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Иза хаза ю, амма деза ю.",
+                    "en": "She/it is beautiful, but heavy."
+                  },
+                  {
+                    "native": "Ахьмад дика ву, амма доккха вац.",
+                    "en": "Ahmad is good, but not big."
+                  },
+                  {
+                    "native": "Сан машина цIиэн ю, амма керла дац.",
+                    "en": "My car is red, but not new."
+                  },
+                  {
+                    "native": "Иза дика ду, амма доца ду.",
+                    "en": "It is good, but short."
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Амма дешдакъа"
+          },
+          {
+            "id": "ce-a2-13",
+            "number": 13,
+            "title": "Grammar: Comparative & Superlative",
+            "description": "Grammar: Comparative & Superlative",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "Сан машина хьан машинал хазах ю.",
+                "options": [
+                  "My car is prettier than your car.",
+                  "That is long.",
+                  "He is well, thank you.",
+                  "She is a beautiful girl."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "My car is prettier than your car.",
+                "bank": [
+                  "Сан",
+                  "машинал",
+                  "хазах",
+                  "ю.",
+                  "машина",
+                  "хьан"
+                ],
+                "answer": [
+                  "Сан",
+                  "машина",
+                  "хьан",
+                  "машинал",
+                  "хазах",
+                  "ю."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Сан машина хьан машинал хазах ю.",
+                "options": [
+                  "This is thick.",
+                  "This is a red car.",
+                  "My car is prettier than your car.",
+                  "My name is Ahmad."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "Ахьмадан машина Асланан машинал хазах ю.",
+                "options": [
+                  "Aslan loves his (someone else's) sister.",
+                  "That is bad.",
+                  "Aslan's son is big.",
+                  "Ahmad's car is prettier than Aslan's car."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "Ahmad's car is prettier than Aslan's car.",
+                "bank": [
+                  "ю.",
+                  "Ахьмадан",
+                  "машинал",
+                  "хазах",
+                  "Асланан",
+                  "машина"
+                ],
+                "answer": [
+                  "Ахьмадан",
+                  "машина",
+                  "Асланан",
+                  "машинал",
+                  "хазах",
+                  "ю."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Ахьмадан машина Асланан машинал хазах ю.",
+                "answer": [
+                  "Ахьмадан",
+                  "машина",
+                  "Асланан",
+                  "машинал",
+                  "хазах",
+                  "ю."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "Иза уггар хаза ю.",
+                "options": [
+                  "That is his/her (someone else's) car.",
+                  "She is the most beautiful.",
+                  "My name is Ahmad.",
+                  "Ahmad is good, but not big."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "She is the most beautiful.",
+                "bank": [
+                  "уггар",
+                  "хаза",
+                  "Иза",
+                  "ю."
+                ],
+                "answer": [
+                  "Иза",
+                  "уггар",
+                  "хаза",
+                  "ю."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "ХIара уггар дика ду.",
+                "options": [
+                  "This is the best.",
+                  "My car is red, but not new.",
+                  "Thank you very much!",
+                  "I am well."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "This is the best.",
+                "bank": [
+                  "ХIара",
+                  "уггар",
+                  "ду.",
+                  "дика"
+                ],
+                "answer": [
+                  "ХIара",
+                  "уггар",
+                  "дика",
+                  "ду."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "ХIара уггар дика ду.",
+                "options": [
+                  "That is bad.",
+                  "It is beautiful, but heavy.",
+                  "Is your brother well?",
+                  "This is the best."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "fill-blank",
+                "native": "ХIара уггар дика ду.",
+                "blankedEn": "This is the ___",
+                "answer": "best",
+                "options": [
+                  "upon",
+                  "really",
+                  "best",
+                  "excl"
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Сан машина хьан машинал хазах ю.",
+                    "en": "My car is prettier than your car."
+                  },
+                  {
+                    "native": "Ахьмадан машина Асланан машинал хазах ю.",
+                    "en": "Ahmad's car is prettier than Aslan's car."
+                  },
+                  {
+                    "native": "Иза уггар хаза ю.",
+                    "en": "She is the most beautiful."
+                  },
+                  {
+                    "native": "ХIара уггар дика ду.",
+                    "en": "This is the best."
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Грамматика: маса дукхабалам",
+            "topicId": "a2-comparative"
+          },
+          {
+            "id": "ce-a2-14",
+            "number": 14,
+            "title": "Grammar: шен vs цуьнан",
+            "description": "Grammar: шен vs цуьнан",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "Цунна шен йиша йеза.",
+                "options": [
+                  "The water is hot.",
+                  "Ahmad's car is prettier than Aslan's car.",
+                  "My car is prettier than your car.",
+                  "He loves his own sister."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "He loves his own sister.",
+                "bank": [
+                  "йиша",
+                  "Цунна",
+                  "йеза.",
+                  "шен"
+                ],
+                "answer": [
+                  "Цунна",
+                  "шен",
+                  "йиша",
+                  "йеза."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Цунна шен йиша йеза.",
+                "options": [
+                  "Ahmad loves his own sister.",
+                  "She is a beautiful girl.",
+                  "He loves his own sister.",
+                  "She is the most beautiful."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "Цунна цуьнан йиша йеза.",
+                "options": [
+                  "Ahmad loves his own sister.",
+                  "He loves his (someone else's) sister.",
+                  "Your car is beautiful!",
+                  "It is beautiful, but heavy."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "He loves his (someone else's) sister.",
+                "bank": [
+                  "йиша",
+                  "цуьнан",
+                  "йеза.",
+                  "Цунна"
+                ],
+                "answer": [
+                  "Цунна",
+                  "цуьнан",
+                  "йиша",
+                  "йеза."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Цунна цуьнан йиша йеза.",
+                "answer": [
+                  "Цунна",
+                  "цуьнан",
+                  "йиша",
+                  "йеза."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "Ахьмадна шен йиша йеза.",
+                "options": [
+                  "He is well, thank you.",
+                  "The water is hot, but not full.",
+                  "Ahmad's car is beautiful.",
+                  "Ahmad loves his own sister."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "Ahmad loves his own sister.",
+                "bank": [
+                  "йеза.",
+                  "Ахьмадна",
+                  "йиша",
+                  "шен"
+                ],
+                "answer": [
+                  "Ахьмадна",
+                  "шен",
+                  "йиша",
+                  "йеза."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "Асланна цуьнан йиша йеза.",
+                "options": [
+                  "Aslan loves his (someone else's) sister.",
+                  "Ahmad loves his own sister.",
+                  "Ahmad's car is prettier than Aslan's car.",
+                  "My name is Ahmad."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "Aslan loves his (someone else's) sister.",
+                "bank": [
+                  "цуьнан",
+                  "Асланна",
+                  "йиша",
+                  "йеза."
+                ],
+                "answer": [
+                  "Асланна",
+                  "цуьнан",
+                  "йиша",
+                  "йеза."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Асланна цуьнан йиша йеза.",
+                "options": [
+                  "My car is prettier than your car.",
+                  "Aslan loves his (someone else's) sister.",
+                  "Aslan's son is big.",
+                  "She is the most beautiful."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "fill-blank",
+                "native": "Асланна цуьнан йиша йеза.",
+                "blankedEn": "Aslan ___ his (someone else's) sister.",
+                "answer": "loves",
+                "options": [
+                  "room",
+                  "loves",
+                  "anymore",
+                  "stocky"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "ХIара шен машина ю.",
+                "options": [
+                  "Our father is well.",
+                  "This is his/her own car.",
+                  "My car is prettier than your car.",
+                  "That is long."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "This is his/her own car.",
+                "bank": [
+                  "ХIара",
+                  "шен",
+                  "ю.",
+                  "машина"
+                ],
+                "answer": [
+                  "ХIара",
+                  "шен",
+                  "машина",
+                  "ю."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "ХIара шен машина ю.",
+                "answer": [
+                  "ХIара",
+                  "шен",
+                  "машина",
+                  "ю."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "Иза цуьнан машина ю.",
+                "options": [
+                  "The water is hot.",
+                  "I have a father, I have a mother.",
+                  "I am well.",
+                  "That is his/her (someone else's) car."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "That is his/her (someone else's) car.",
+                "bank": [
+                  "Иза",
+                  "цуьнан",
+                  "ю.",
+                  "машина"
+                ],
+                "answer": [
+                  "Иза",
+                  "цуьнан",
+                  "машина",
+                  "ю."
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Цунна шен йиша йеза.",
+                    "en": "He loves his own sister."
+                  },
+                  {
+                    "native": "Цунна цуьнан йиша йеза.",
+                    "en": "He loves his (someone else's) sister."
+                  },
+                  {
+                    "native": "Ахьмадна шен йиша йеза.",
+                    "en": "Ahmad loves his own sister."
+                  },
+                  {
+                    "native": "Асланна цуьнан йиша йеза.",
+                    "en": "Aslan loves his (someone else's) sister."
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Грамматика: шен, цуьнан",
+            "topicId": "a2-reflexive-possession"
+          },
+          {
+            "id": "ce-a2-15",
+            "number": 15,
+            "title": "Conversation: Talking About Family",
+            "description": "Conversation: Talking About Family",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "Хьан машина хаза ю!",
+                "options": [
+                  "That is big.",
+                  "That is his/her (someone else's) car.",
+                  "Your car is beautiful!",
+                  "That is long."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "Your car is beautiful!",
+                "bank": [
+                  "машина",
+                  "хаза",
+                  "ю!",
+                  "Хьан"
+                ],
+                "answer": [
+                  "Хьан",
+                  "машина",
+                  "хаза",
+                  "ю!"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Хьан машина хаза ю!",
+                "options": [
+                  "Your car is beautiful!",
+                  "Ahmad's car is prettier.",
+                  "It is beautiful, but heavy.",
+                  "I have a brother, I have a sister."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "Баркалла, амма деза ю.",
+                "options": [
+                  "He is well, thank you.",
+                  "I have a brother, I have a sister.",
+                  "Thank you, but it's heavy.",
+                  "He is a good boy."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "Thank you, but it's heavy.",
+                "bank": [
+                  "деза",
+                  "Баркалла,",
+                  "ю.",
+                  "амма"
+                ],
+                "answer": [
+                  "Баркалла,",
+                  "амма",
+                  "деза",
+                  "ю."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Баркалла, амма деза ю.",
+                "answer": [
+                  "Баркалла,",
+                  "амма",
+                  "деза",
+                  "ю."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "Ахьмадан машина хазах ю.",
+                "options": [
+                  "This is thick.",
+                  "I have a father, I have a mother.",
+                  "That is long.",
+                  "Ahmad's car is prettier."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "Ahmad's car is prettier.",
+                "bank": [
+                  "ю.",
+                  "машина",
+                  "хазах",
+                  "Ахьмадан"
+                ],
+                "answer": [
+                  "Ахьмадан",
+                  "машина",
+                  "хазах",
+                  "ю."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "Хьан ваша дика ву?",
+                "options": [
+                  "Ahmad loves his own sister.",
+                  "This is thick.",
+                  "Is your brother well?",
+                  "Ahmad's car is prettier."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "Is your brother well?",
+                "bank": [
+                  "ваша",
+                  "ву?",
+                  "дика",
+                  "Хьан"
+                ],
+                "answer": [
+                  "Хьан",
+                  "ваша",
+                  "дика",
+                  "ву?"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Хьан ваша дика ву?",
+                "options": [
+                  "Your car is beautiful!",
+                  "Ahmad loves his own sister.",
+                  "Is your brother well?",
+                  "I am well."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "fill-blank",
+                "native": "Хьан ваша дика ву?",
+                "blankedEn": "Is your brother ___",
+                "answer": "well",
+                "options": [
+                  "well",
+                  "long",
+                  "someone",
+                  "stocky"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "Иза дика ву, баркалла.",
+                "options": [
+                  "He is well, thank you.",
+                  "Ahmad's car is prettier.",
+                  "That is long.",
+                  "That is big."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "He is well, thank you.",
+                "bank": [
+                  "Иза",
+                  "ву,",
+                  "дика",
+                  "баркалла."
+                ],
+                "answer": [
+                  "Иза",
+                  "дика",
+                  "ву,",
+                  "баркалла."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Иза дика ву, баркалла.",
+                "answer": [
+                  "Иза",
+                  "дика",
+                  "ву,",
+                  "баркалла."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "Цунна шен йиша йеза.",
+                "options": [
+                  "Ahmad loves his own sister.",
+                  "She is a beautiful girl.",
+                  "He loves his own sister.",
+                  "That is long."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "He loves his own sister.",
+                "bank": [
+                  "йеза.",
+                  "йиша",
+                  "шен",
+                  "Цунна"
+                ],
+                "answer": [
+                  "Цунна",
+                  "шен",
+                  "йиша",
+                  "йеза."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "Тхан да дика ву.",
+                "options": [
+                  "Thank you very much!",
+                  "My car is prettier than your car.",
+                  "This is thick.",
+                  "Our father is well."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "Our father is well.",
+                "bank": [
+                  "Тхан",
+                  "да",
+                  "дика",
+                  "ву."
+                ],
+                "answer": [
+                  "Тхан",
+                  "да",
+                  "дика",
+                  "ву."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Тхан да дика ву.",
+                "options": [
+                  "He is a good boy.",
+                  "This is thick.",
+                  "Ahmad's car is beautiful.",
+                  "Our father is well."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "Дала реза хуьлда хьуна!",
+                "options": [
+                  "Thank you very much!",
+                  "Is your brother well?",
+                  "Ahmad's car is prettier.",
+                  "Aslan loves his (someone else's) sister."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "Thank you very much!",
+                "bank": [
+                  "Дала",
+                  "хуьлда",
+                  "хьуна!",
+                  "реза"
+                ],
+                "answer": [
+                  "Дала",
+                  "реза",
+                  "хуьлда",
+                  "хьуна!"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Дала реза хуьлда хьуна!",
+                "answer": [
+                  "Дала",
+                  "реза",
+                  "хуьлда",
+                  "хьуна!"
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "Дала реза хуьлда хьуна!",
+                "blankedEn": "Thank you very ___",
+                "answer": "much",
+                "options": [
+                  "much",
+                  "Welcome",
+                  "loves",
+                  "Sheit"
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Хьан машина хаза ю!",
+                    "en": "Your car is beautiful!"
+                  },
+                  {
+                    "native": "Баркалла, амма деза ю.",
+                    "en": "Thank you, but it's heavy."
+                  },
+                  {
+                    "native": "Ахьмадан машина хазах ю.",
+                    "en": "Ahmad's car is prettier."
+                  },
+                  {
+                    "native": "Хьан ваша дика ву?",
+                    "en": "Is your brother well?"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Иза дика ву, баркалла.",
+                    "en": "He is well, thank you."
+                  },
+                  {
+                    "native": "Цунна шен йиша йеза.",
+                    "en": "He loves his own sister."
+                  },
+                  {
+                    "native": "Тхан да дика ву.",
+                    "en": "Our father is well."
+                  },
+                  {
+                    "native": "Дала реза хуьлда хьуна!",
+                    "en": "Thank you very much!"
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Къамел: доьзал хиларах лаьцна"
+          },
+          {
+            "id": "ce-a2-16-reading",
+            "number": 16,
+            "title": "Reading: Meeting Ahmad",
+            "titleNative": "ОьшургIа: Ахьмад вевзаш",
+            "description": "A short passage entirely built from sentences already used elsewhere in this course.",
+            "readingPassage": {
+              "context": "A short passage entirely built from sentences already used elsewhere in this course.",
+              "paragraphs": [
+                {
+                  "native": "Сан цIе Ахьмад ю.",
+                  "en": "My name is Ahmad."
+                },
+                {
+                  "native": "Со дика ву.",
+                  "en": "I am well."
+                },
+                {
+                  "native": "Сан да ву, сан нана ю.",
+                  "en": "I have a father, I have a mother."
+                },
+                {
+                  "native": "Сан ваша ву, сан йиша ю.",
+                  "en": "I have a brother, I have a sister."
+                },
+                {
+                  "native": "Ахьмадан машина керла ю.",
+                  "en": "Ahmad's car is new."
+                },
+                {
+                  "native": "Иза хаза ю, амма деза ю.",
+                  "en": "It is beautiful, but heavy."
+                },
+                {
+                  "native": "Тхан да дика ву.",
+                  "en": "Our father is well."
+                }
+              ]
+            },
+            "exercises": [
+              {
+                "type": "comprehension",
+                "question": "Ахьмадан машина муха ю?",
+                "options": [
+                  "Хаза ю, амма деза ю",
+                  "Вон ю",
+                  "Жима ю",
+                  "Доца ю"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "comprehension",
+                "question": "Ахьмадан да муха ву?",
+                "options": [
+                  "Вон ву",
+                  "Дика ву",
+                  "Доккха ву",
+                  "Жима ву"
+                ],
+                "answerIndex": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b1",
+        "cefr": "B1",
+        "label": "Everyday Fluency",
+        "labelNative": "ДийцарцӀена",
+        "lessons": [
+          {
+            "id": "ce-b1-17",
+            "number": 17,
+            "title": "Existence & Location",
+            "description": "Existence & Location",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "Кху чохь кхо кIант ву.",
+                "options": [
+                  "I like mountains.",
+                  "There are three boys in this room.",
+                  "What is your name?",
+                  "This is my house."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "There are three boys in this room.",
+                "bank": [
+                  "кхо",
+                  "кIант",
+                  "ву.",
+                  "чохь",
+                  "Кху"
+                ],
+                "answer": [
+                  "Кху",
+                  "чохь",
+                  "кхо",
+                  "кIант",
+                  "ву."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Кху чохь кхо кIант ву.",
+                "options": [
+                  "My name is Ahmad.",
+                  "It's an apple.",
+                  "I really like making bread.",
+                  "There are three boys in this room."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "Кху чохь кхо кIант хилла.",
+                "options": [
+                  "There were three boys in this room (not anymore).",
+                  "My name is Ahmad.",
+                  "I need to make bread.",
+                  "I really like making bread."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "There were three boys in this room (not anymore).",
+                "bank": [
+                  "кхо",
+                  "хилла.",
+                  "кIант",
+                  "Кху",
+                  "чохь"
+                ],
+                "answer": [
+                  "Кху",
+                  "чохь",
+                  "кхо",
+                  "кIант",
+                  "хилла."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Кху чохь кхо кIант хилла.",
+                "answer": [
+                  "Кху",
+                  "чохь",
+                  "кхо",
+                  "кIант",
+                  "хилла."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "Малх бу.",
+                "options": [
+                  "You like mountains.",
+                  "It's sunny. (lit. there is sun)",
+                  "He/she likes mountains.",
+                  "There are three boys in this room."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "It's sunny. (lit. there is sun)",
+                "bank": [
+                  "Малх",
+                  "бу."
+                ],
+                "answer": [
+                  "Малх",
+                  "бу."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "Iаж бу.",
+                "options": [
+                  "You like mountains.",
+                  "I need to make bread.",
+                  "We (excl.) like mountains.",
+                  "It's an apple."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "It's an apple.",
+                "bank": [
+                  "бу.",
+                  "Iаж"
+                ],
+                "answer": [
+                  "Iаж",
+                  "бу."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Iаж бу.",
+                "options": [
+                  "Thank you very much!",
+                  "He/she likes mountains.",
+                  "There were three boys in this room (not anymore).",
+                  "It's an apple."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "fill-blank",
+                "native": "Iаж бу.",
+                "blankedEn": "It's an ___",
+                "answer": "apple",
+                "options": [
+                  "apple",
+                  "room",
+                  "hisher",
+                  "male"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "ХIара сан цIа ду.",
+                "options": [
+                  "This is my house.",
+                  "We (excl.) like mountains.",
+                  "I need to make bread.",
+                  "I really like making bread."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "This is my house.",
+                "bank": [
+                  "ХIара",
+                  "ду.",
+                  "сан",
+                  "цIа"
+                ],
+                "answer": [
+                  "ХIара",
+                  "сан",
+                  "цIа",
+                  "ду."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "ХIара сан цIа ду.",
+                "answer": [
+                  "ХIара",
+                  "сан",
+                  "цIа",
+                  "ду."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "Иза цIахь ву.",
+                "options": [
+                  "I really like making bread.",
+                  "There are three boys in this room.",
+                  "He is at home.",
+                  "My name is Ahmad."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "He is at home.",
+                "bank": [
+                  "цIахь",
+                  "Иза",
+                  "ву."
+                ],
+                "answer": [
+                  "Иза",
+                  "цIахь",
+                  "ву."
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Кху чохь кхо кIант ву.",
+                    "en": "There are three boys in this room."
+                  },
+                  {
+                    "native": "Кху чохь кхо кIант хилла.",
+                    "en": "There were three boys in this room (not anymore)."
+                  },
+                  {
+                    "native": "Малх бу.",
+                    "en": "It's sunny. (lit. there is sun)"
+                  },
+                  {
+                    "native": "Iаж бу.",
+                    "en": "It's an apple."
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Хилар а, meттиг а"
+          },
+          {
+            "id": "ce-b1-18",
+            "number": 18,
+            "title": "Grammar: Dative Experiencer Verbs",
+            "description": "Grammar: Dative Experiencer Verbs",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "Суна лаьмнаш хазахета.",
+                "options": [
+                  "We (excl.) like mountains.",
+                  "It's an apple.",
+                  "I like mountains.",
+                  "Thank you very much!"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "I like mountains.",
+                "bank": [
+                  "лаьмнаш",
+                  "Суна",
+                  "хазахета."
+                ],
+                "answer": [
+                  "Суна",
+                  "лаьмнаш",
+                  "хазахета."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Суна лаьмнаш хазахета.",
+                "options": [
+                  "My name is Ahmad.",
+                  "I like mountains.",
+                  "I really like making bread.",
+                  "You like mountains."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "Хьуна лаьмнаш хазахета.",
+                "options": [
+                  "This is my house.",
+                  "It's sunny. (lit. there is sun)",
+                  "It's an apple.",
+                  "You like mountains."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "You like mountains.",
+                "bank": [
+                  "хазахета.",
+                  "Хьуна",
+                  "лаьмнаш"
+                ],
+                "answer": [
+                  "Хьуна",
+                  "лаьмнаш",
+                  "хазахета."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Хьуна лаьмнаш хазахета.",
+                "answer": [
+                  "Хьуна",
+                  "лаьмнаш",
+                  "хазахета."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "Цунна лаьмнаш хазахета.",
+                "options": [
+                  "This is my house.",
+                  "It's sunny. (lit. there is sun)",
+                  "I need to make bread.",
+                  "He/she likes mountains."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "He/she likes mountains.",
+                "bank": [
+                  "хазахета.",
+                  "Цунна",
+                  "лаьмнаш"
+                ],
+                "answer": [
+                  "Цунна",
+                  "лаьмнаш",
+                  "хазахета."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "Тхуна лаьмнаш хазахета.",
+                "options": [
+                  "It's sunny. (lit. there is sun)",
+                  "This is my house.",
+                  "We (excl.) like mountains.",
+                  "What is your name?"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "We (excl.) like mountains.",
+                "bank": [
+                  "Тхуна",
+                  "лаьмнаш",
+                  "хазахета."
+                ],
+                "answer": [
+                  "Тхуна",
+                  "лаьмнаш",
+                  "хазахета."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Тхуна лаьмнаш хазахета.",
+                "options": [
+                  "There were three boys in this room (not anymore).",
+                  "What is your name?",
+                  "There are three boys in this room.",
+                  "We (excl.) like mountains."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "fill-blank",
+                "native": "Тхуна лаьмнаш хазахета.",
+                "blankedEn": "We (excl.) ___ mountains.",
+                "answer": "like",
+                "options": [
+                  "Ruslan's",
+                  "like",
+                  "hisher",
+                  "handsome"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "Суна бепиг дар дукха деза.",
+                "options": [
+                  "You like mountains.",
+                  "We (excl.) like mountains.",
+                  "I really like making bread.",
+                  "My name is Ahmad."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "I really like making bread.",
+                "bank": [
+                  "дар",
+                  "дукха",
+                  "Суна",
+                  "деза.",
+                  "бепиг"
+                ],
+                "answer": [
+                  "Суна",
+                  "бепиг",
+                  "дар",
+                  "дукха",
+                  "деза."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Суна бепиг дар дукха деза.",
+                "answer": [
+                  "Суна",
+                  "бепиг",
+                  "дар",
+                  "дукха",
+                  "деза."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "Ас бепиг дан деза.",
+                "options": [
+                  "I need to make bread.",
+                  "What is your name?",
+                  "Thank you very much!",
+                  "He/she likes mountains."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "I need to make bread.",
+                "bank": [
+                  "дан",
+                  "деза.",
+                  "бепиг",
+                  "Ас"
+                ],
+                "answer": [
+                  "Ас",
+                  "бепиг",
+                  "дан",
+                  "деза."
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Суна лаьмнаш хазахета.",
+                    "en": "I like mountains."
+                  },
+                  {
+                    "native": "Хьуна лаьмнаш хазахета.",
+                    "en": "You like mountains."
+                  },
+                  {
+                    "native": "Цунна лаьмнаш хазахета.",
+                    "en": "He/she likes mountains."
+                  },
+                  {
+                    "native": "Тхуна лаьмнаш хазахета.",
+                    "en": "We (excl.) like mountains."
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Грамматика: дожаран дожадериг",
+            "topicId": "b1-dative-experiencer"
+          },
+          {
+            "id": "ce-b1-19",
+            "number": 19,
+            "title": "Conversation: At Home",
+            "description": "Conversation: At Home",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "Хьан цIе хIун ю?",
+                "options": [
+                  "I need to make bread.",
+                  "There are three boys in this room.",
+                  "We (excl.) like mountains.",
+                  "What is your name?"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "What is your name?",
+                "bank": [
+                  "Хьан",
+                  "цIе",
+                  "ю?",
+                  "хIун"
+                ],
+                "answer": [
+                  "Хьан",
+                  "цIе",
+                  "хIун",
+                  "ю?"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Хьан цIе хIун ю?",
+                "options": [
+                  "What is your name?",
+                  "There were three boys in this room (not anymore).",
+                  "I really like making bread.",
+                  "My name is Ahmad."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "Сан цIе Ахьмад ю.",
+                "options": [
+                  "There were three boys in this room (not anymore).",
+                  "You like mountains.",
+                  "My name is Ahmad.",
+                  "He/she likes mountains."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "My name is Ahmad.",
+                "bank": [
+                  "ю.",
+                  "Сан",
+                  "цIе",
+                  "Ахьмад"
+                ],
+                "answer": [
+                  "Сан",
+                  "цIе",
+                  "Ахьмад",
+                  "ю."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Сан цIе Ахьмад ю.",
+                "answer": [
+                  "Сан",
+                  "цIе",
+                  "Ахьмад",
+                  "ю."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "Иза цIахь ву.",
+                "options": [
+                  "It's an apple.",
+                  "He is at home.",
+                  "I really like making bread.",
+                  "Thank you very much!"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "He is at home.",
+                "bank": [
+                  "Иза",
+                  "цIахь",
+                  "ву."
+                ],
+                "answer": [
+                  "Иза",
+                  "цIахь",
+                  "ву."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "Суна лаьмнаш хазахета.",
+                "options": [
+                  "There were three boys in this room (not anymore).",
+                  "I like mountains.",
+                  "You like mountains.",
+                  "I really like making bread."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "I like mountains.",
+                "bank": [
+                  "хазахета.",
+                  "Суна",
+                  "лаьмнаш"
+                ],
+                "answer": [
+                  "Суна",
+                  "лаьмнаш",
+                  "хазахета."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Суна лаьмнаш хазахета.",
+                "options": [
+                  "I like mountains.",
+                  "I really like making bread.",
+                  "He/she likes mountains.",
+                  "This is my house."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "fill-blank",
+                "native": "Суна лаьмнаш хазахета.",
+                "blankedEn": "I like ___",
+                "answer": "mountains",
+                "options": [
+                  "mother",
+                  "mountains",
+                  "make",
+                  "excl"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "Кху чохь кхо кIант ву.",
+                "options": [
+                  "There are three boys in this room.",
+                  "You like mountains.",
+                  "My name is Ahmad.",
+                  "It's an apple."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "There are three boys in this room.",
+                "bank": [
+                  "кхо",
+                  "чохь",
+                  "ву.",
+                  "Кху",
+                  "кIант"
+                ],
+                "answer": [
+                  "Кху",
+                  "чохь",
+                  "кхо",
+                  "кIант",
+                  "ву."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Кху чохь кхо кIант ву.",
+                "answer": [
+                  "Кху",
+                  "чохь",
+                  "кхо",
+                  "кIант",
+                  "ву."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "Суна бепиг дар дукха деза.",
+                "options": [
+                  "There were three boys in this room (not anymore).",
+                  "It's sunny. (lit. there is sun)",
+                  "My name is Ahmad.",
+                  "I really like making bread."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "I really like making bread.",
+                "bank": [
+                  "деза.",
+                  "бепиг",
+                  "дар",
+                  "Суна",
+                  "дукха"
+                ],
+                "answer": [
+                  "Суна",
+                  "бепиг",
+                  "дар",
+                  "дукха",
+                  "деза."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ce-en",
+                "prompt": "Дала реза хуьлда хьуна!",
+                "options": [
+                  "This is my house.",
+                  "Thank you very much!",
+                  "We (excl.) like mountains.",
+                  "My name is Ahmad."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ce",
+                "prompt": "Thank you very much!",
+                "bank": [
+                  "Дала",
+                  "хуьлда",
+                  "реза",
+                  "хьуна!"
+                ],
+                "answer": [
+                  "Дала",
+                  "реза",
+                  "хуьлда",
+                  "хьуна!"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Дала реза хуьлда хьуна!",
+                "options": [
+                  "I like mountains.",
+                  "It's an apple.",
+                  "My name is Ahmad.",
+                  "Thank you very much!"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Хьан цIе хIун ю?",
+                    "en": "What is your name?"
+                  },
+                  {
+                    "native": "Сан цIе Ахьмад ю.",
+                    "en": "My name is Ahmad."
+                  },
+                  {
+                    "native": "Иза цIахь ву.",
+                    "en": "He is at home."
+                  },
+                  {
+                    "native": "Суна лаьмнаш хазахета.",
+                    "en": "I like mountains."
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Къамел: цIахь"
           }
         ]
       }

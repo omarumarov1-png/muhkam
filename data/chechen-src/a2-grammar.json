@@ -1,0 +1,99 @@
+{
+  "level": "a2",
+  "grammarTopics": {
+    "a2-comparative": {
+      "title": "Comparative & Superlative",
+      "pattern": "[adjective] + -x/-ax (more ~) · уггар + [adjective] (the most ~) · [compared noun] + -л/-l (than ~)",
+      "explanation": "The comparative adds -x (or -ax after a consonant) to an adjective: хаза (beautiful) → хазах (more beautiful). The noun being compared against takes its own suffix, -л/-l: сан машина хьан машинал хазах ю (my car is prettier than your car, literally \"...than-your-car more-beautiful is\"). The superlative simply places уггар (\"the most\") before the plain adjective, with no extra ending needed.",
+      "fact": "Chechen's comparative construction packs the entire English phrase \"than your car\" into a single suffixed word, машинал -- there's no separate word for \"than\" at all, the case ending on the compared noun does that job by itself.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Хьан машина хьенан машинал хазах ю?",
+          "en": "Whose car is your car prettier than?"
+        },
+        {
+          "sp": "B",
+          "native": "Сан машина хьан машинал хазах ю.",
+          "en": "My car is prettier than your car."
+        }
+      ]
+    },
+    "a2-reflexive-possession": {
+      "title": "Reflexive vs. Non-Reflexive Possession: шен / цуьнан",
+      "pattern": "шен (his/her OWN) vs. цуьнан (his/her, someone else's)",
+      "explanation": "Chechen distinguishes two different \"his/her\": шен marks that the possessor and the subject of the sentence are the SAME person (a true reflexive), while цуьнан marks that they're different people. Цунна шен йиша йеза (he loves his OWN sister) versus цунна цуьнан йиша йеза (he loves his -- someone else's -- sister) differ only in this one word, but mean two different things entirely.",
+      "fact": "This is a real, meaningful ambiguity English simply doesn't mark -- \"he loves his sister\" is genuinely unclear in English about whether it's his own sister or another man's, while Chechen is forced to specify it every single time a 3rd-person possessive is used.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Цунна шен йиша йезий, цуьнан йиша йезий?",
+          "en": "Does he love his own sister, or someone else's sister?"
+        },
+        {
+          "sp": "B",
+          "native": "Цунна шен йиша йеза.",
+          "en": "He loves his own sister."
+        }
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "number": 13,
+      "title": "Grammar: Comparative & Superlative",
+      "titleNative": "Грамматика: маса дукхабалам",
+      "topicId": "a2-comparative",
+      "items": [
+        {
+          "ce": "Сан машина хьан машинал хазах ю.",
+          "en": "My car is prettier than your car."
+        },
+        {
+          "ce": "Ахьмадан машина Асланан машинал хазах ю.",
+          "en": "Ahmad's car is prettier than Aslan's car."
+        },
+        {
+          "ce": "Иза уггар хаза ю.",
+          "en": "She is the most beautiful."
+        },
+        {
+          "ce": "ХIара уггар дика ду.",
+          "en": "This is the best."
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "title": "Grammar: шен vs цуьнан",
+      "titleNative": "Грамматика: шен, цуьнан",
+      "topicId": "a2-reflexive-possession",
+      "items": [
+        {
+          "ce": "Цунна шен йиша йеза.",
+          "en": "He loves his own sister."
+        },
+        {
+          "ce": "Цунна цуьнан йиша йеза.",
+          "en": "He loves his (someone else's) sister."
+        },
+        {
+          "ce": "Ахьмадна шен йиша йеза.",
+          "en": "Ahmad loves his own sister."
+        },
+        {
+          "ce": "Асланна цуьнан йиша йеза.",
+          "en": "Aslan loves his (someone else's) sister."
+        },
+        {
+          "ce": "ХIара шен машина ю.",
+          "en": "This is his/her own car."
+        },
+        {
+          "ce": "Иза цуьнан машина ю.",
+          "en": "That is his/her (someone else's) car."
+        }
+      ]
+    }
+  ]
+}

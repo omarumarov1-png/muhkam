@@ -1,0 +1,57 @@
+{
+  "level": "b1",
+  "grammarTopics": {
+    "b1-dative-experiencer": {
+      "title": "Dative Experiencer (\"Psych\") Verbs",
+      "pattern": "[dative pronoun] + [absolutive noun] + [classed verb: хазахета/деза]",
+      "explanation": "Verbs describing emotion, liking, or perception put the person who experiences the feeling in the DATIVE case, not the nominative/absolutive the way English \"I like\" does: суна лаьмнаш хазахета (I like mountains, literally \"to-me mountains seem-beautiful\"). The verb still agrees with the noun-class of the thing being liked, not with the experiencer.",
+      "fact": "The same verb деза is \"labile\": with a dative subject it means \"to like/love\" (суна ... деза), but with an ERGATIVE subject plus an infinitive it shifts to mean \"need to\" (ас бепиг дан деза -- I need to make bread) -- one verb, two case-frames, two related-but-distinct meanings.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Хьан цIе хIун ю?",
+          "en": "What is your name?"
+        },
+        {
+          "sp": "B",
+          "native": "Сан цIе Ахьмад ю. Суна лаьмнаш хазахета.",
+          "en": "My name is Ahmad. I like mountains."
+        }
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "number": 18,
+      "title": "Grammar: Dative Experiencer Verbs",
+      "titleNative": "Грамматика: дожаран дожадериг",
+      "topicId": "b1-dative-experiencer",
+      "items": [
+        {
+          "ce": "Суна лаьмнаш хазахета.",
+          "en": "I like mountains."
+        },
+        {
+          "ce": "Хьуна лаьмнаш хазахета.",
+          "en": "You like mountains."
+        },
+        {
+          "ce": "Цунна лаьмнаш хазахета.",
+          "en": "He/she likes mountains."
+        },
+        {
+          "ce": "Тхуна лаьмнаш хазахета.",
+          "en": "We (excl.) like mountains."
+        },
+        {
+          "ce": "Суна бепиг дар дукха деза.",
+          "en": "I really like making bread."
+        },
+        {
+          "ce": "Ас бепиг дан деза.",
+          "en": "I need to make bread."
+        }
+      ]
+    }
+  ]
+}
