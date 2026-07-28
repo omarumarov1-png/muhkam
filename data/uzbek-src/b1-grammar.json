@@ -1,0 +1,451 @@
+{
+  "level": "b1",
+  "grammarTopics": {
+    "b1-gan-participle": {
+      "title": "Experience/Result: -gan",
+      "pattern": "[verb stem] + -gan/-kan/-qan + [\"to be\" ending]",
+      "explanation": "Uzbek has no separate present-perfect verb form the way English does (\"have gone\"); instead the participle -gan (voiced to -kan or -qan depending on the stem's last sound) plus a predicative ending covers both \"has done X\" and \"did X, with present relevance\": men bu filmni ko'rganman (I have seen this movie), u Parijga borgan (he/she has been to Paris).",
+      "fact": "The very same -gan form, without any predicative ending at all, also works as a plain adjective built from a verb: o'qigan kishi literally means \"a person who has read/studied\" -- i.e. an educated person -- one suffix covering both a full sentence and a single descriptive word.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Siz bu shaharga borganmisiz?",
+          "en": "Have you been to this city?"
+        },
+        {
+          "sp": "B",
+          "native": "Ha, ikki marta borganman.",
+          "en": "Yes, I have been there twice."
+        }
+      ]
+    },
+    "b1-conditional": {
+      "title": "Conditional: -sa",
+      "pattern": "agar + [verb stem] + -sa + [person ending], [result]",
+      "explanation": "The conditional suffix -sa attaches directly to the verb stem, with the optional word agar (\"if\") added at the front for clarity: agar vaqtim bo'lsa, kelaman (if I have time, I'll come). The -sa clause always comes first, the result clause second.",
+      "fact": "Agar is genuinely optional -- vaqtim bo'lsa, kelaman means exactly the same thing without it -- because -sa alone already marks the clause as conditional; agar is there purely to flag the condition earlier for the listener, the way a comma-splice \"if\" softens a sentence in English but isn't grammatically required.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Agar ertaga yomg'ir yog'sa, nima qilamiz?",
+          "en": "If it rains tomorrow, what will we do?"
+        },
+        {
+          "sp": "B",
+          "native": "Yog'sa, uyda qolamiz.",
+          "en": "If it rains, we'll stay home."
+        }
+      ]
+    },
+    "b1-reported-speech": {
+      "title": "Reported Speech: deb",
+      "pattern": "\"[quoted clause]\" + deb + [verb of saying/thinking]",
+      "explanation": "Deb, a converb of demoq (\"to say\"), follows a quoted clause to mark it as reported speech or thought: Ertaga kelaman, deb aytdi (He/she said, \"I will come tomorrow\" / that he/she would come tomorrow). It can also report a belief or reason: kech qoldim, deb o'yladim (I thought I was late).",
+      "fact": "Deb is so productive it isn't limited to reporting speech at all -- it also marks the reason behind a naming or labeling, as in Toshkent, deb ataladi (\"[it] is called Tashkent\") -- the same tiny word bridges quotation, thought, and naming.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "U senga nima dedi?",
+          "en": "What did he/she tell you?"
+        },
+        {
+          "sp": "B",
+          "native": "Ertaga kelaman, deb aytdi.",
+          "en": "He/she said that he/she would come tomorrow."
+        }
+      ]
+    },
+    "b1-concession": {
+      "title": "Concession: -sa ham / garchi",
+      "pattern": "(garchi) + [verb stem] + -sa ham, [contrasting result]",
+      "explanation": "Adding ham (\"also/even\") after the conditional -sa turns \"if\" into \"even if/although\": yomg'ir yog'sa ham, boramiz (even if it rains, we'll go). Garchi (\"although\") can be added at the front for extra emphasis, but -sa ham alone already carries the full concessive meaning.",
+      "fact": "This means Uzbek builds \"although\" out of the exact same conditional suffix used for plain \"if\" -- just by adding one small word, ham, after it -- rather than needing a completely different grammatical structure the way English switches from \"if\" to \"although\".",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Charchagan bo'lsang ham, kelasanmi?",
+          "en": "Will you come even if you're tired?"
+        },
+        {
+          "sp": "B",
+          "native": "Ha, charchagan bo'lsam ham, albatta kelaman.",
+          "en": "Yes, even if I'm tired, I'll definitely come."
+        }
+      ]
+    },
+    "b1-passive": {
+      "title": "Passive Voice: -il / -in",
+      "pattern": "[verb stem] + -il/-in + [tense ending]",
+      "explanation": "The passive is formed by inserting -il (after most consonant-final stems) or -n (after vowel-final stems) between the verb stem and the tense ending: kitob o'qildi (the book was read), xat yozildi (the letter was written), eshik ochildi (the door was opened).",
+      "fact": "Because the passive marker sits in the same slot as -a olmoq (ability) and -moqchi (intention), a single Uzbek verb stem can in principle carry several of these layered suffixes at once, each one shifting the meaning by a small, predictable step.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Bu kitob qachon yozilgan?",
+          "en": "When was this book written?"
+        },
+        {
+          "sp": "B",
+          "native": "U o'tgan asrda yozilgan.",
+          "en": "It was written in the last century."
+        }
+      ]
+    },
+    "b1-digan": {
+      "title": "General Participle: -digan",
+      "pattern": "[verb stem] + -digan + [noun]",
+      "explanation": "-digan turns a verb into a description of habitual or general action, working much like an English relative clause: o'qiydigan kitob (\"a book that is read/for reading\"), ishlaydigan joy (\"a place where one works\", i.e. a workplace).",
+      "fact": "Unlike -gan (a specific, completed action), -digan describes something general or repeated -- kelgan kishi is \"the person who came [that one time]\", while keladigan kishi is \"the person who [regularly/is going to] come\" -- the same root, two different suffixes, two clearly different meanings.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Bu yerda o'qiydigan kitoblar bormi?",
+          "en": "Are there any books to read here?"
+        },
+        {
+          "sp": "B",
+          "native": "Ha, javonda ko'p qiziqarli kitoblar bor.",
+          "en": "Yes, there are many interesting books on the shelf."
+        }
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "number": 44,
+      "title": "Grammar: Experience -gan",
+      "titleNative": "Grammatika: -gan tajriba",
+      "topicId": "b1-gan-participle",
+      "items": [
+        {
+          "uz": "Men bu filmni ko'rganman.",
+          "en": "I have seen this movie."
+        },
+        {
+          "uz": "U Parijga borgan.",
+          "en": "He/she has been to Paris."
+        },
+        {
+          "uz": "Siz bu kitobni o'qiganmisiz?",
+          "en": "Have you read this book?"
+        },
+        {
+          "uz": "Biz bu masalani ko'p marta muhokama qilganmiz.",
+          "en": "We have discussed this issue many times."
+        },
+        {
+          "uz": "U hech qachon Amerikaga borgan emas.",
+          "en": "He/she has never been to America."
+        },
+        {
+          "uz": "Men bu odamni ilgari uchratganman.",
+          "en": "I have met this person before."
+        },
+        {
+          "uz": "Ular bu shahardan ko'chib ketishgan.",
+          "en": "They have moved away from this city."
+        },
+        {
+          "uz": "Siz bu ovqatni tatib ko'rganmisiz?",
+          "en": "Have you tried this food?"
+        },
+        {
+          "uz": "Men bu qo'shiqni ilgari eshitganman.",
+          "en": "I have heard this song before."
+        },
+        {
+          "uz": "U bu ishni bir necha marta bajargan.",
+          "en": "He/she has done this job several times."
+        },
+        {
+          "uz": "Biz bu yerga kelganimizga uch yil bo'ldi.",
+          "en": "It's been three years since we came here."
+        },
+        {
+          "uz": "Ular bu masalani hal qilganlar.",
+          "en": "They have resolved this issue."
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "title": "Grammar: Conditional -sa",
+      "titleNative": "Grammatika: -sa shart mayli",
+      "topicId": "b1-conditional",
+      "items": [
+        {
+          "uz": "Agar vaqtim bo'lsa, albatta kelaman.",
+          "en": "If I have time, I'll definitely come."
+        },
+        {
+          "uz": "Yomg'ir yog'sa, sayohatni bekor qilamiz.",
+          "en": "If it rains, we'll cancel the trip."
+        },
+        {
+          "uz": "Agar ko'p mashq qilsang, tez o'rganasan.",
+          "en": "If you practice a lot, you'll learn quickly."
+        },
+        {
+          "uz": "Pul yetarli bo'lsa, uy sotib olamiz.",
+          "en": "If we have enough money, we'll buy a house."
+        },
+        {
+          "uz": "Agar u kelmasa, boshlaymiz.",
+          "en": "If he/she doesn't come, we'll start."
+        },
+        {
+          "uz": "Erta tursam, mashq qilaman.",
+          "en": "If I wake up early, I exercise."
+        },
+        {
+          "uz": "Agar imkoniyat bo'lsa, chet elga borardim.",
+          "en": "If I had the opportunity, I would go abroad."
+        },
+        {
+          "uz": "Siz yordam bersangiz, tezroq tugatamiz.",
+          "en": "If you help, we'll finish faster."
+        },
+        {
+          "uz": "Agar bu ishni tugatsam, dam olaman.",
+          "en": "If I finish this task, I'll rest."
+        },
+        {
+          "uz": "Ob-havo yaxshi bo'lsa, bog'ga boramiz.",
+          "en": "If the weather is good, we'll go to the park."
+        },
+        {
+          "uz": "Agar siz istasangiz, men tushuntirib beraman.",
+          "en": "If you want, I'll explain it."
+        },
+        {
+          "uz": "U kelsa, menga xabar bering.",
+          "en": "If he/she comes, let me know."
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "title": "Grammar: Reported Speech deb",
+      "titleNative": "Grammatika: deb ko'chirma gap",
+      "topicId": "b1-reported-speech",
+      "items": [
+        {
+          "uz": "U ertaga keladi, deb aytdi.",
+          "en": "He/she said that he/she would come tomorrow."
+        },
+        {
+          "uz": "Men kech qoldim, deb o'yladim.",
+          "en": "I thought I was late."
+        },
+        {
+          "uz": "U bu ishni bajaraman, deb va'da berdi.",
+          "en": "He/she promised that he/she would do this task."
+        },
+        {
+          "uz": "Ular g'alaba qozonamiz, deb ishonishardi.",
+          "en": "They believed they would win."
+        },
+        {
+          "uz": "U meni tushunmadi, deb xafa bo'ldi.",
+          "en": "He/she got upset thinking that I didn't understand him/her."
+        },
+        {
+          "uz": "Onam ertaga bormaymiz, dedi.",
+          "en": "My mother said we wouldn't go tomorrow."
+        },
+        {
+          "uz": "U bu joy juda go'zal, deb yozgan edi.",
+          "en": "He/she had written that this place is very beautiful."
+        },
+        {
+          "uz": "Men bu to'g'ri, deb hisoblayman.",
+          "en": "I consider this to be correct."
+        },
+        {
+          "uz": "U meni chaqirmoqchi, deb o'yladim.",
+          "en": "I thought he/she wanted to call me."
+        },
+        {
+          "uz": "Ular kelishga ulgurmaymiz, deb qo'rqishdi.",
+          "en": "They were afraid they wouldn't make it in time."
+        },
+        {
+          "uz": "Bu shahar go'zal, deb ataladi.",
+          "en": "This city is called beautiful."
+        },
+        {
+          "uz": "U meni tanimadi, deb o'yladim.",
+          "en": "I thought he/she didn't recognize me."
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "title": "Grammar: Concession -sa ham",
+      "titleNative": "Grammatika: -sa ham imtiyoz",
+      "topicId": "b1-concession",
+      "items": [
+        {
+          "uz": "Yomg'ir yog'sa ham, biz boramiz.",
+          "en": "Even if it rains, we'll go."
+        },
+        {
+          "uz": "Charchagan bo'lsam ham, ishimni tugataman.",
+          "en": "Even though I'm tired, I'll finish my work."
+        },
+        {
+          "uz": "Garchi qiyin bo'lsa ham, u taslim bo'lmadi.",
+          "en": "Although it was difficult, he/she didn't give up."
+        },
+        {
+          "uz": "Pulim kam bo'lsa ham, yordam berdim.",
+          "en": "Even though I had little money, I helped."
+        },
+        {
+          "uz": "U kasal bo'lsa ham, ishga bordi.",
+          "en": "Even though he/she was sick, he/she went to work."
+        },
+        {
+          "uz": "Vaqtim yo'q bo'lsa ham, kelishga harakat qilaman.",
+          "en": "Even though I don't have time, I'll try to come."
+        },
+        {
+          "uz": "Garchi yosh bo'lsa ham, u juda aqlli.",
+          "en": "Although he/she is young, he/she is very smart."
+        },
+        {
+          "uz": "Sovuq bo'lsa ham, bolalar tashqarida o'ynashdi.",
+          "en": "Even though it was cold, the children played outside."
+        },
+        {
+          "uz": "Qiyin bo'lsa ham, men bu vazifani bajaraman.",
+          "en": "Even if it's hard, I'll complete this task."
+        },
+        {
+          "uz": "U charchagan bo'lsa ham, jilmayib turardi.",
+          "en": "Even though he/she was tired, he/she kept smiling."
+        },
+        {
+          "uz": "Garchi kech bo'lsa ham, u telefon qildi.",
+          "en": "Although it was late, he/she called."
+        },
+        {
+          "uz": "Pul yo'q bo'lsa ham, biz baxtlimiz.",
+          "en": "Even without money, we are happy."
+        }
+      ]
+    },
+    {
+      "number": 48,
+      "title": "Grammar: Passive Voice",
+      "titleNative": "Grammatika: majhul nisbat",
+      "topicId": "b1-passive",
+      "items": [
+        {
+          "uz": "Bu kitob o'tgan yili yozilgan.",
+          "en": "This book was written last year."
+        },
+        {
+          "uz": "Eshik kimdir tomonidan ochildi.",
+          "en": "The door was opened by someone."
+        },
+        {
+          "uz": "Bu uy o'n yil oldin qurilgan.",
+          "en": "This house was built ten years ago."
+        },
+        {
+          "uz": "Xat allaqachon yuborilgan.",
+          "en": "The letter has already been sent."
+        },
+        {
+          "uz": "Bu masala hali hal qilinmagan.",
+          "en": "This issue has not yet been resolved."
+        },
+        {
+          "uz": "Yangi qonun qabul qilindi.",
+          "en": "A new law was adopted."
+        },
+        {
+          "uz": "Bu taom maxsus retsept bo'yicha tayyorlanadi.",
+          "en": "This dish is prepared according to a special recipe."
+        },
+        {
+          "uz": "Loyiha muvaffaqiyatli yakunlandi.",
+          "en": "The project was successfully completed."
+        },
+        {
+          "uz": "Bu so'zlar hech qachon unutilmaydi.",
+          "en": "These words will never be forgotten."
+        },
+        {
+          "uz": "Kitob bir necha tilga tarjima qilingan.",
+          "en": "The book has been translated into several languages."
+        },
+        {
+          "uz": "Bu bino qayta ta'mirlandi.",
+          "en": "This building was renovated."
+        },
+        {
+          "uz": "Barcha hujjatlar tekshirildi.",
+          "en": "All documents were checked."
+        }
+      ]
+    },
+    {
+      "number": 49,
+      "title": "Grammar: General Participle -digan",
+      "titleNative": "Grammatika: -digan sifatdosh",
+      "topicId": "b1-digan",
+      "items": [
+        {
+          "uz": "Bu yerda o'qiydigan joy bormi?",
+          "en": "Is there a place to study here?"
+        },
+        {
+          "uz": "Menga yozadigan qalam kerak.",
+          "en": "I need a pen to write with."
+        },
+        {
+          "uz": "Bu ichadigan suvmi?",
+          "en": "Is this drinking water?"
+        },
+        {
+          "uz": "U ishlaydigan kompaniya juda katta.",
+          "en": "The company where he/she works is very big."
+        },
+        {
+          "uz": "Bu kiyaydigan kiyimlarim yo'q.",
+          "en": "I don't have clothes to wear."
+        },
+        {
+          "uz": "Sevadigan taomingiz nima?",
+          "en": "What is your favorite food (the food you love)?"
+        },
+        {
+          "uz": "Bu yashaydigan joyimiz.",
+          "en": "This is the place where we live."
+        },
+        {
+          "uz": "O'ynaydigan bolalar ko'chada.",
+          "en": "The playing children are on the street."
+        },
+        {
+          "uz": "Kutiladigan natija yaxshi bo'ladi.",
+          "en": "The expected result will be good."
+        },
+        {
+          "uz": "Bu sotiladigan mahsulot juda mashhur.",
+          "en": "This product that's being sold is very popular."
+        },
+        {
+          "uz": "O'qiydigan kitoblarim ko'p.",
+          "en": "I have many books to read."
+        },
+        {
+          "uz": "Bu boradigan yo'l juda uzoq.",
+          "en": "This road that leads there is very long."
+        }
+      ]
+    }
+  ]
+}

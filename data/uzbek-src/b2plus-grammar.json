@@ -1,0 +1,377 @@
+{
+  "level": "b2plus",
+  "grammarTopics": {
+    "b2plus-past-unreal": {
+      "title": "Past Unreal Conditional: -gan bo'lsa edi / -gan bo'lardi",
+      "pattern": "Agar + [-gan bo'lsa edi], [-gan bo'lardi]",
+      "explanation": "To talk about a past that didn't happen, Uzbek combines the -gan participle with bo'lsa edi in the \"if\" clause and bo'lardi (the conditional of bo'lmoq) in the result: agar bilganimda edi, kelmagan bo'lardim (if I had known, I wouldn't have come).",
+      "fact": "Every piece of this construction is independently familiar from earlier levels (-gan, edi, -sa, bo'lmoq) -- B2+ fluency here is less about learning new suffixes and more about correctly stacking four already-known ones in the right order.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Agar u yerda bo'lganingizda, nima qilardingiz?",
+          "en": "If you had been there, what would you have done?"
+        },
+        {
+          "sp": "B",
+          "native": "Darhol yordam bergan bo'lardim.",
+          "en": "I would have helped immediately."
+        }
+      ]
+    },
+    "b2plus-emphatic-ku": {
+      "title": "Emphatic Particle: -ku",
+      "pattern": "[statement] + -ku",
+      "explanation": "-ku attaches to the end of a clause to add assertive emphasis, roughly \"you know\" or \"after all\": men aytdim-ku! (I did tell you!/I told you, didn't I!). It signals the speaker feels the point should already be obvious or agreed on.",
+      "fact": "-ku carries a faintly argumentative or exasperated tone -- it's the grammatical equivalent of raising your eyebrows while saying something, and overusing it in formal writing reads as oddly confrontational.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Nega menga aytmading?",
+          "en": "Why didn't you tell me?"
+        },
+        {
+          "sp": "B",
+          "native": "Aytdim-ku, sen eshitmading!",
+          "en": "I did tell you, you just didn't listen!"
+        }
+      ]
+    },
+    "b2plus-axir": {
+      "title": "Discourse Marker: axir",
+      "pattern": "axir + [clause]",
+      "explanation": "Axir (\"after all/but\") opens a clause that reminds the listener of something relevant they seem to have overlooked: axir men senga aytgandim (after all, I did tell you), axir u hali yosh (but he/she is still young, after all).",
+      "fact": "Axir and -ku often appear in the very same sentence for double emphasis (axir aytdim-ku!, \"but I DID tell you, after all!\") -- Uzbek stacks its emphatic markers rather than treating them as mutually exclusive alternatives.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Nega bunga ishonmayapsiz?",
+          "en": "Why don't you believe this?"
+        },
+        {
+          "sp": "B",
+          "native": "Axir bu juda g'alati eshitiladi.",
+          "en": "But this sounds very strange, after all."
+        }
+      ]
+    },
+    "b2plus-converb-chain": {
+      "title": "Converb Chains: -ib",
+      "pattern": "[stem1] + -ib, [stem2] + -ib, ... [final verb, tensed]",
+      "explanation": "The converb -ib links a sequence of actions by the same subject into one flowing sentence, with only the LAST verb carrying full tense marking: turib, kiyinib, ishga bordim (I got up, got dressed, and went to work) -- literally \"getting up, getting dressed, I-went to work\".",
+      "fact": "Only the final verb in the chain shows person and tense at all -- turib and kiyinib are grammatically bare converbs, not separate finite verbs -- so a very long chain of actions can rest on a single tensed verb at the very end of the sentence.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Kechqurun nima qildingiz?",
+          "en": "What did you do in the evening?"
+        },
+        {
+          "sp": "B",
+          "native": "Ovqatlanib, kitob o'qib, uxladim.",
+          "en": "I ate, read a book, and went to sleep."
+        }
+      ]
+    },
+    "b2plus-double-negative": {
+      "title": "Emphatic Double Negative: -may qolmaydi",
+      "pattern": "[verb stem] + -may qolmaydi (won't fail to ~ / is bound to ~)",
+      "explanation": "Combining the negative converb -may with qolmaydi (\"won't remain/stay\") produces a strong positive claim through double negation: u kelmay qolmaydi (he/she won't fail to come = he/she is bound to come).",
+      "fact": "The two negatives (-may and qol-may-di's own negative) don't cancel out to plain neutral certainty -- they combine into something stronger and more emphatic than the simple affirmative u albatta keladi would sound, similar to how English \"won't NOT come\" reads as more forceful than a flat \"will come\".",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "U yig'ilishga kelarmikan?",
+          "en": "I wonder if he/she will come to the meeting."
+        },
+        {
+          "sp": "B",
+          "native": "Albatta keladi, kelmay qolmaydi.",
+          "en": "Of course he'll/she'll come, he/she is bound to."
+        }
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "number": 84,
+      "title": "Grammar: Past Unreal Conditional",
+      "titleNative": "Grammatika: o'tmish noreal shart",
+      "topicId": "b2plus-past-unreal",
+      "items": [
+        {
+          "uz": "Agar bilganimda edi, kelmagan bo'lardim.",
+          "en": "If I had known, I wouldn't have come."
+        },
+        {
+          "uz": "Agar vaqtim bo'lganida, sizga yordam bergan bo'lardim.",
+          "en": "If I had had time, I would have helped you."
+        },
+        {
+          "uz": "U ogohlantirilganida edi, bu xato yuz bermagan bo'lardi.",
+          "en": "If he/she had been warned, this mistake wouldn't have happened."
+        },
+        {
+          "uz": "Agar bu haqda oldinroq bilganimda, boshqacha qaror qabul qilgan bo'lardim.",
+          "en": "If I had known about this earlier, I would have made a different decision."
+        },
+        {
+          "uz": "Agar kechikmaganingizda, poyezdga ulgurgan bo'lardingiz.",
+          "en": "If you hadn't been late, you would have caught the train."
+        },
+        {
+          "uz": "Agar u yordam so'raganida, biz albatta bergan bo'lardik.",
+          "en": "If he/she had asked for help, we would have definitely given it."
+        },
+        {
+          "uz": "Agar bu imkoniyatni qo'ldan boy bermaganimda, hayotim boshqacha bo'lgan bo'lardi.",
+          "en": "If I hadn't missed this opportunity, my life would have been different."
+        },
+        {
+          "uz": "Agar u meni tinglaganida, bu muammo yuzaga kelmagan bo'lardi.",
+          "en": "If he/she had listened to me, this problem wouldn't have arisen."
+        },
+        {
+          "uz": "Agar ko'proq mashq qilganimda, imtihonni yaxshiroq topshirgan bo'lardim.",
+          "en": "If I had practiced more, I would have done better on the exam."
+        },
+        {
+          "uz": "Agar siz kelmaganingizda, tadbir boshqacha o'tgan bo'lardi.",
+          "en": "If you hadn't come, the event would have gone differently."
+        },
+        {
+          "uz": "Agar bu qaror to'g'ri bo'lganida, natija boshqacha bo'lardi.",
+          "en": "If this decision had been correct, the result would have been different."
+        },
+        {
+          "uz": "Agar u sabr qilganida, hammasi yaxshi tugagan bo'lardi.",
+          "en": "If he/she had been patient, everything would have ended well."
+        }
+      ]
+    },
+    {
+      "number": 85,
+      "title": "Grammar: Emphatic -ku",
+      "titleNative": "Grammatika: -ku ta'kid",
+      "topicId": "b2plus-emphatic-ku",
+      "items": [
+        {
+          "uz": "Men aytdim-ku!",
+          "en": "I did tell you!"
+        },
+        {
+          "uz": "Bu juda oson-ku!",
+          "en": "This is very easy, you know!"
+        },
+        {
+          "uz": "U kelgan-ku!",
+          "en": "He/she has come, you see!"
+        },
+        {
+          "uz": "Bilaman-ku, xavotir olma.",
+          "en": "I know, don't worry!"
+        },
+        {
+          "uz": "Bu to'g'ri emas-ku!",
+          "en": "This isn't right, is it!"
+        },
+        {
+          "uz": "Sen unutgansan-ku!",
+          "en": "You've forgotten, haven't you!"
+        },
+        {
+          "uz": "Vaqtimiz yo'q-ku!",
+          "en": "We don't have time, you know!"
+        },
+        {
+          "uz": "Bu masalani hal qildik-ku!",
+          "en": "We resolved this issue, didn't we!"
+        },
+        {
+          "uz": "U hali yosh-ku!",
+          "en": "He/she is still young, after all!"
+        },
+        {
+          "uz": "Bu juda qimmat-ku!",
+          "en": "This is very expensive, you know!"
+        },
+        {
+          "uz": "Men senga ishondim-ku!",
+          "en": "I trusted you, you know!"
+        },
+        {
+          "uz": "Bu ish qiyin emas-ku!",
+          "en": "This job isn't hard, is it!"
+        }
+      ]
+    },
+    {
+      "number": 86,
+      "title": "Grammar: Discourse Marker axir",
+      "titleNative": "Grammatika: axir bog'lovchisi",
+      "topicId": "b2plus-axir",
+      "items": [
+        {
+          "uz": "Axir men senga aytgandim.",
+          "en": "But I did tell you, after all."
+        },
+        {
+          "uz": "Axir u hali yosh.",
+          "en": "But he/she is still young, after all."
+        },
+        {
+          "uz": "Axir bu juda muhim masala.",
+          "en": "After all, this is a very important matter."
+        },
+        {
+          "uz": "Axir hammamiz xato qilamiz.",
+          "en": "After all, we all make mistakes."
+        },
+        {
+          "uz": "Axir vaqt hech kimni kutmaydi.",
+          "en": "After all, time waits for no one."
+        },
+        {
+          "uz": "Axir siz va'da bergandingiz.",
+          "en": "But you did promise, after all."
+        },
+        {
+          "uz": "Axir bu bizning vazifamiz.",
+          "en": "After all, this is our duty."
+        },
+        {
+          "uz": "Axir u mening do'stim.",
+          "en": "After all, he/she is my friend."
+        },
+        {
+          "uz": "Axir bu haqiqat.",
+          "en": "After all, this is the truth."
+        },
+        {
+          "uz": "Axir biz birga ishlaymiz.",
+          "en": "After all, we work together."
+        },
+        {
+          "uz": "Axir bu qaror sizga bog'liq.",
+          "en": "After all, this decision depends on you."
+        },
+        {
+          "uz": "Axir hech narsa oson bo'lmaydi.",
+          "en": "After all, nothing comes easy."
+        }
+      ]
+    },
+    {
+      "number": 87,
+      "title": "Grammar: Converb Chains",
+      "titleNative": "Grammatika: -ib ravishdosh zanjiri",
+      "topicId": "b2plus-converb-chain",
+      "items": [
+        {
+          "uz": "Turib, kiyinib, ishga bordim.",
+          "en": "I got up, got dressed, and went to work."
+        },
+        {
+          "uz": "U kelib, o'tirib, choy ichdi.",
+          "en": "He/she came, sat down, and drank tea."
+        },
+        {
+          "uz": "Ovqatlanib, kitob o'qib, uxladim.",
+          "en": "I ate, read a book, and went to sleep."
+        },
+        {
+          "uz": "Xat yozib, uni jo'natib, dam oldim.",
+          "en": "I wrote a letter, sent it, and rested."
+        },
+        {
+          "uz": "U yugurib kelib, xabarni yetkazdi.",
+          "en": "He/she came running and delivered the message."
+        },
+        {
+          "uz": "Kiyimlarni yuvib, quritib, taxlab qo'ydim.",
+          "en": "I washed the clothes, dried them, and folded them."
+        },
+        {
+          "uz": "U tik turib, gapira boshladi.",
+          "en": "He/she stood up and started speaking."
+        },
+        {
+          "uz": "Uyni tozalab, ovqat pishirib, mehmonlarni kutib oldim.",
+          "en": "I cleaned the house, cooked food, and welcomed the guests."
+        },
+        {
+          "uz": "Kitobni olib, sahifalarni varaqlab chiqdi.",
+          "en": "He/she took the book and flipped through the pages."
+        },
+        {
+          "uz": "Mashinani to'xtatib, tushib, atrofga qaradi.",
+          "en": "He/she stopped the car, got out, and looked around."
+        },
+        {
+          "uz": "Ishni tugatib, hisobotni topshirdim.",
+          "en": "I finished the work and submitted the report."
+        },
+        {
+          "uz": "U kulib, hazil qilib, hammani xursand qildi.",
+          "en": "He/she laughed, joked, and made everyone happy."
+        }
+      ]
+    },
+    {
+      "number": 88,
+      "title": "Grammar: Emphatic -may qolmaydi",
+      "titleNative": "Grammatika: -may qolmaydi kuchaytirilgan tasdiq",
+      "topicId": "b2plus-double-negative",
+      "items": [
+        {
+          "uz": "U kelmay qolmaydi.",
+          "en": "He/she is bound to come."
+        },
+        {
+          "uz": "Bu reja amalga oshmay qolmaydi.",
+          "en": "This plan is bound to be realized."
+        },
+        {
+          "uz": "U bu haqda bilmay qolmaydi.",
+          "en": "He/she is bound to know about this."
+        },
+        {
+          "uz": "Ishlar yaxshi ketmay qolmaydi.",
+          "en": "Things are bound to go well."
+        },
+        {
+          "uz": "Vaqt kelib, hammasi oshkor bo'lmay qolmaydi.",
+          "en": "In time, everything is bound to come to light."
+        },
+        {
+          "uz": "U so'zida turmay qolmaydi.",
+          "en": "He/she is bound to keep his/her word."
+        },
+        {
+          "uz": "Mehnat natija bermay qolmaydi.",
+          "en": "Hard work is bound to give results."
+        },
+        {
+          "uz": "Bu xato takrorlanmay qolmaydi.",
+          "en": "This mistake is bound to repeat."
+        },
+        {
+          "uz": "Haqiqat ertami-kechmi oshkor bo'lmay qolmaydi.",
+          "en": "The truth is bound to come out sooner or later."
+        },
+        {
+          "uz": "U bu gapni eshitmay qolmaydi.",
+          "en": "He/she is bound to hear this."
+        },
+        {
+          "uz": "Bunday sabr-toqat mukofotlanmay qolmaydi.",
+          "en": "Such patience is bound to be rewarded."
+        },
+        {
+          "uz": "Yaxshilik unutilmay qolmaydi.",
+          "en": "Kindness is bound not to be forgotten."
+        }
+      ]
+    }
+  ]
+}

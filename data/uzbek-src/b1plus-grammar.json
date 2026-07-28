@@ -1,0 +1,377 @@
+{
+  "level": "b1plus",
+  "grammarTopics": {
+    "b1plus-causative": {
+      "title": "Causative: -tir / -dir / -t",
+      "pattern": "[verb stem] + -tir/-dir/-t + [tense ending]",
+      "explanation": "The causative marks \"making/letting someone do something\": o'qimoq (to read/study) → o'qitmoq (to teach, literally \"to make [someone] study\"), yozmoq (to write) → yozdirmoq (to have [someone] write), kiymoq (to wear) → kiydirmoq (to dress someone).",
+      "fact": "O'qitmoq (\"to teach\") is itself a causative built on o'qimoq (\"to read/study\") -- Uzbek doesn't have a separate root for \"teach\" at all, it's grammatically just \"to cause to study\".",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Sizga bu maqolani kim yozdirdi?",
+          "en": "Who had you write this article?"
+        },
+        {
+          "sp": "B",
+          "native": "Rahbarim yozdirdi.",
+          "en": "My manager had me write it."
+        }
+      ]
+    },
+    "b1plus-until": {
+      "title": "Until: -guncha",
+      "pattern": "[verb stem] + -guncha, [main clause]",
+      "explanation": "-guncha (with voiced variants -kuncha/-quncha) means \"until [X happens]\": u kelguncha kutaman (I'll wait until he/she comes), ish tugaguncha ishladik (we worked until the job was finished).",
+      "fact": "The same suffix also covers \"the sooner ~, the better\" comparisons in fixed phrases like ko'p gapirguncha, kam gapir (\"rather than talking a lot, talk little\") -- \"until\" and \"rather than\" turn out to share one grammatical shape in Uzbek.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Qachongacha kutamiz?",
+          "en": "Until when will we wait?"
+        },
+        {
+          "sp": "B",
+          "native": "U kelguncha kutamiz.",
+          "en": "We'll wait until he/she comes."
+        }
+      ]
+    },
+    "b1plus-before-after": {
+      "title": "Before/After a Verb: -madan oldin / -gandan keyin",
+      "pattern": "[stem] + -madan oldin (before ~ing) · [stem] + -gandan keyin (after ~ing)",
+      "explanation": "To sequence two actions, Uzbek attaches oldin (\"before\") to a negative-form-looking but neutral -madan and keyin (\"after\") to the -gan participle: ovqatlanmasdan oldin qo'l yuvaman (I wash my hands before eating), ovqatlanganimdan keyin dam olaman (after eating I rest).",
+      "fact": "-madan oldin looks like it contains the negative -ma-, but it isn't a negation here at all -- it's a fixed fossilized pattern meaning \"before doing\", one of several places where a suffix's shape and its usual meaning have quietly drifted apart.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Uxlashdan oldin nima qilasiz?",
+          "en": "What do you do before sleeping?"
+        },
+        {
+          "sp": "B",
+          "native": "Kitob o'qiganimdan keyin uxlayman.",
+          "en": "I sleep after reading a book."
+        }
+      ]
+    },
+    "b1plus-optative": {
+      "title": "Wish: -sa edi",
+      "pattern": "[verb stem] + -sa + edi",
+      "explanation": "Adding edi (the past form of \"to be\") after the conditional -sa turns a condition into a wish about something not currently true: vaqtim bo'lsa edi... (if only I had time...), u shu yerda bo'lsa edi (if only he/she were here).",
+      "fact": "This is the same -sa used for ordinary \"if\" clauses -- edi is the only thing that shifts the meaning from a real possibility to a wistful wish about something that isn't the case, much like English swaps \"have\" for \"had\" to mark the same shift.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Nima orzu qilasiz?",
+          "en": "What do you wish for?"
+        },
+        {
+          "sp": "B",
+          "native": "Ko'proq vaqtim bo'lsa edi.",
+          "en": "If only I had more time."
+        }
+      ]
+    },
+    "b1plus-permission": {
+      "title": "Permission/Possibility: -sa bo'ladi",
+      "pattern": "[verb stem] + -sa bo'ladi?",
+      "explanation": "-sa bo'ladi (literally \"if ~, it becomes/works\") asks or grants permission: bu yerda o'tirsa bo'ladimi? (may I sit here?), kirsa bo'ladi (you may enter). The negative bo'lmaydi denies it: bu yerda chekilsa bo'lmaydi (smoking is not allowed here).",
+      "fact": "Because bo'lmoq means \"to become/turn out\", this construction literally asks \"if [I do this], will it turn out okay?\" -- permission in Uzbek is phrased as a check on the outcome, not a direct request for someone's approval the way English \"may I\" is.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Bu yerda surat olsa bo'ladimi?",
+          "en": "May I take a photo here?"
+        },
+        {
+          "sp": "B",
+          "native": "Ha, olsa bo'ladi.",
+          "en": "Yes, you may."
+        }
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "number": 58,
+      "title": "Grammar: Causative",
+      "titleNative": "Grammatika: orttirma nisbat",
+      "topicId": "b1plus-causative",
+      "items": [
+        {
+          "uz": "Ustoz bizga bu mavzuni o'qitdi.",
+          "en": "The teacher taught us this topic."
+        },
+        {
+          "uz": "Men unga xat yozdirdim.",
+          "en": "I had him/her write a letter."
+        },
+        {
+          "uz": "Ona bolasini kiydirdi.",
+          "en": "The mother dressed her child."
+        },
+        {
+          "uz": "Rahbar xodimga hisobot tayyorlatdi.",
+          "en": "The manager had the employee prepare a report."
+        },
+        {
+          "uz": "U menga mashina haydashni o'rgatdi.",
+          "en": "He/she taught me how to drive."
+        },
+        {
+          "uz": "Onam menga ovqat pishirishni o'rgatdi.",
+          "en": "My mother taught me how to cook."
+        },
+        {
+          "uz": "Ular bizga bu vazifani bajartirishdi.",
+          "en": "They made us complete this task."
+        },
+        {
+          "uz": "U bolalarga qo'shiq kuylatdi.",
+          "en": "He/she made the children sing a song."
+        },
+        {
+          "uz": "Men ustaga mashinani ta'mirlatdim.",
+          "en": "I had the mechanic repair the car."
+        },
+        {
+          "uz": "Direktor xodimlarga hisobot yozdirdi.",
+          "en": "The director had the employees write a report."
+        },
+        {
+          "uz": "U menga kitobni o'qitib chiqdi.",
+          "en": "He/she had me read through the book."
+        },
+        {
+          "uz": "Ona qizini kiyintirdi.",
+          "en": "The mother dressed her daughter."
+        }
+      ]
+    },
+    {
+      "number": 59,
+      "title": "Grammar: Until -guncha",
+      "titleNative": "Grammatika: -guncha muddat",
+      "topicId": "b1plus-until",
+      "items": [
+        {
+          "uz": "U kelguncha kutamiz.",
+          "en": "We'll wait until he/she comes."
+        },
+        {
+          "uz": "Ish tugaguncha ishladik.",
+          "en": "We worked until the job was finished."
+        },
+        {
+          "uz": "Imtihon boshlanguncha tayyorlandim.",
+          "en": "I prepared until the exam started."
+        },
+        {
+          "uz": "Yorug' bo'lguncha yo'lda edik.",
+          "en": "We were on the road until it got light."
+        },
+        {
+          "uz": "Bu masala hal bo'lguncha tinchimayman.",
+          "en": "I won't calm down until this issue is resolved."
+        },
+        {
+          "uz": "U uyga yetib boguncha yomg'ir yog'di.",
+          "en": "It rained until he/she got home."
+        },
+        {
+          "uz": "Ovqat tayyor bo'lguncha stol yig'ishtirdik.",
+          "en": "We set the table until the food was ready."
+        },
+        {
+          "uz": "Bola uxlaguncha ona kutdi.",
+          "en": "The mother waited until the child fell asleep."
+        },
+        {
+          "uz": "Bu ishni tugatguncha dam olmayman.",
+          "en": "I won't rest until I finish this task."
+        },
+        {
+          "uz": "Navbatim kelguncha o'tirib turdim.",
+          "en": "I sat and waited until my turn came."
+        },
+        {
+          "uz": "Kuz kelguncha issiq bo'ladi.",
+          "en": "It will be hot until autumn comes."
+        },
+        {
+          "uz": "U kechirim so'raguncha gaplashmadim.",
+          "en": "I didn't talk until he/she apologized."
+        }
+      ]
+    },
+    {
+      "number": 60,
+      "title": "Grammar: Before/After",
+      "titleNative": "Grammatika: oldin va keyin",
+      "topicId": "b1plus-before-after",
+      "items": [
+        {
+          "uz": "Ovqatlanishdan oldin qo'l yuvaman.",
+          "en": "I wash my hands before eating."
+        },
+        {
+          "uz": "Uxlashdan oldin kitob o'qiyman.",
+          "en": "I read a book before sleeping."
+        },
+        {
+          "uz": "Ishga borishdan oldin nonushta qilaman.",
+          "en": "I have breakfast before going to work."
+        },
+        {
+          "uz": "Imtihondan oldin yaxshi tayyorlandim.",
+          "en": "I prepared well before the exam."
+        },
+        {
+          "uz": "Ovqatlanganimdan keyin dam olaman.",
+          "en": "I rest after eating."
+        },
+        {
+          "uz": "Ishni tugatganimdan keyin uyga ketaman.",
+          "en": "I go home after finishing work."
+        },
+        {
+          "uz": "Kelganingizdan keyin gaplashamiz.",
+          "en": "We'll talk after you arrive."
+        },
+        {
+          "uz": "Imtihonni topshirganimdan keyin xursand bo'ldim.",
+          "en": "I was happy after taking the exam."
+        },
+        {
+          "uz": "Uni ko'rganimdan keyin xabar beraman.",
+          "en": "I'll let you know after I see him/her."
+        },
+        {
+          "uz": "Sayohatdan qaytganimdan keyin ishga tushdim.",
+          "en": "I got to work after returning from the trip."
+        },
+        {
+          "uz": "Kitobni o'qishdan oldin uning haqida so'radim.",
+          "en": "I asked about the book before reading it."
+        },
+        {
+          "uz": "Uyg'onganimdan keyin choy ichaman.",
+          "en": "I drink tea after waking up."
+        }
+      ]
+    },
+    {
+      "number": 61,
+      "title": "Grammar: Wish -sa edi",
+      "titleNative": "Grammatika: -sa edi orzu",
+      "topicId": "b1plus-optative",
+      "items": [
+        {
+          "uz": "Ko'proq vaqtim bo'lsa edi.",
+          "en": "If only I had more time."
+        },
+        {
+          "uz": "U shu yerda bo'lsa edi.",
+          "en": "If only he/she were here."
+        },
+        {
+          "uz": "Pulim yetarli bo'lsa edi.",
+          "en": "If only I had enough money."
+        },
+        {
+          "uz": "Bu imkoniyatni qo'ldan boy bermasam edi.",
+          "en": "If only I hadn't missed this opportunity."
+        },
+        {
+          "uz": "Havo yaxshi bo'lsa edi.",
+          "en": "If only the weather were good."
+        },
+        {
+          "uz": "Men bu haqida oldinroq bilsam edi.",
+          "en": "If only I had known about this earlier."
+        },
+        {
+          "uz": "U meni tushunsa edi.",
+          "en": "If only he/she understood me."
+        },
+        {
+          "uz": "Kelasi yil kelib qolsam edi.",
+          "en": "If only I could come next year."
+        },
+        {
+          "uz": "Bu kasallik davolansa edi.",
+          "en": "If only this illness were curable."
+        },
+        {
+          "uz": "Yoshligimga qaytsam edi.",
+          "en": "If only I could return to my youth."
+        },
+        {
+          "uz": "Bu ishni boshqacha qilsam edi.",
+          "en": "If only I had done this differently."
+        },
+        {
+          "uz": "Sen bilan ko'proq gaplashsam edi.",
+          "en": "If only I could talk with you more."
+        }
+      ]
+    },
+    {
+      "number": 62,
+      "title": "Grammar: Permission -sa bo'ladi",
+      "titleNative": "Grammatika: -sa bo'ladi ruxsat",
+      "topicId": "b1plus-permission",
+      "items": [
+        {
+          "uz": "Bu yerda o'tirsa bo'ladimi?",
+          "en": "May I sit here?"
+        },
+        {
+          "uz": "Derazani ochsa bo'ladimi?",
+          "en": "May I open the window?"
+        },
+        {
+          "uz": "Bu kitobni olsa bo'ladimi?",
+          "en": "May I take this book?"
+        },
+        {
+          "uz": "Bu yerda surat olsa bo'ladi.",
+          "en": "You may take a photo here."
+        },
+        {
+          "uz": "Bu yerda chekilsa bo'lmaydi.",
+          "en": "Smoking is not allowed here."
+        },
+        {
+          "uz": "Ertaga kelmasa bo'ladimi?",
+          "en": "Is it okay not to come tomorrow?"
+        },
+        {
+          "uz": "Bu savolni bersa bo'ladimi?",
+          "en": "May I ask this question?"
+        },
+        {
+          "uz": "Uyga erta ketsam bo'ladimi?",
+          "en": "May I go home early?"
+        },
+        {
+          "uz": "Bu yerga mashina qo'ysa bo'lmaydi.",
+          "en": "You can't park a car here."
+        },
+        {
+          "uz": "Menga qo'ng'iroq qilsangiz bo'ladi.",
+          "en": "You may call me."
+        },
+        {
+          "uz": "Bugun kelmasangiz ham bo'ladi.",
+          "en": "It's also fine if you don't come today."
+        },
+        {
+          "uz": "Bu masalani keyinroq hal qilsak bo'ladi.",
+          "en": "We can resolve this issue later."
+        }
+      ]
+    }
+  ]
+}

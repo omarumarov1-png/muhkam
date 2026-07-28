@@ -1,0 +1,377 @@
+{
+  "level": "b2",
+  "grammarTopics": {
+    "b2-nominalization": {
+      "title": "Verbal Noun: -(i)sh",
+      "pattern": "[verb stem] + -ish/-sh (the act of ~ing)",
+      "explanation": "Adding -ish (or just -sh after a vowel) to a verb stem turns the action itself into an abstract noun that can be the subject or object of a sentence: kitob o'qish foydali (reading books is useful), sport bilan shug'ullanish sog'liqqa yaxshi (exercising is good for health).",
+      "fact": "This same -ish is what dictionaries strip away to list a verb's bare stem -- o'qish (\"reading\") and o'qimoq (\"to read\", the citation form) share one root, just packaged for two different grammatical jobs: one as a noun, one as an infinitive label.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Sizningcha, chet tili o'rganish qiyinmi?",
+          "en": "In your opinion, is learning a foreign language difficult?"
+        },
+        {
+          "sp": "B",
+          "native": "Muntazam mashq qilish uni osonlashtiradi.",
+          "en": "Regular practice makes it easier."
+        }
+      ]
+    },
+    "b2-purpose": {
+      "title": "Purpose: -ish uchun",
+      "pattern": "[verb stem] + -ish + uchun (in order to ~)",
+      "explanation": "The verbal noun in -ish combines with uchun (\"for/because of\") to express purpose: pul topish uchun ishlayman (I work in order to earn money), imtihonga tayyorlanish uchun kutubxonaga bordim (I went to the library in order to prepare for the exam).",
+      "fact": "Uchun on its own is simply the word for \"for\" used with any noun (sen uchun, \"for you\") -- purpose clauses in Uzbek are built by feeding it a verbal noun instead of an ordinary one, not by inventing a separate \"in order to\" word the way English did.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Nega har kuni yuguryapsiz?",
+          "en": "Why do you run every day?"
+        },
+        {
+          "sp": "B",
+          "native": "Sog'lom bo'lish uchun yuguraman.",
+          "en": "I run in order to be healthy."
+        }
+      ]
+    },
+    "b2-wonder": {
+      "title": "Wondering: -mikan",
+      "pattern": "[clause] + -mikan?",
+      "explanation": "-mikan (from -mi, the question particle, plus ekan, \"apparently/it seems\") expresses genuine uncertainty or wondering, closer to \"I wonder if...\" than a direct question: u keladimikan? (I wonder if he/she will come?).",
+      "fact": "Because -mikan is built from the same -mi used for ordinary yes/no questions, it can be tacked onto almost any statement to soften it into a musing rather than a real question directed at a listener -- a way of thinking out loud grammatically.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Ertaga havo yaxshi bo'larmikan?",
+          "en": "I wonder if the weather will be good tomorrow."
+        },
+        {
+          "sp": "B",
+          "native": "Bilmadim, ko'ramiz.",
+          "en": "I don't know, we'll see."
+        }
+      ]
+    },
+    "b2-probability": {
+      "title": "Probability: -sa kerak",
+      "pattern": "[verb/adj/noun, conditional -sa form] + kerak",
+      "explanation": "Kerak, already familiar from obligation (\"must go\"), also expresses probability when attached after a -sa form: u uyda bo'lsa kerak (he/she is probably at home) -- a guess based on evidence, not a requirement.",
+      "fact": "The exact same word kerak covers both \"you must\" and \"it must be [the case]\" -- English needs two different senses of \"must\" for this too, but Uzbek marks the difference structurally: obligation uses a plain infinitive before kerak, probability uses the conditional -sa form.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "U nega hali kelmadi?",
+          "en": "Why hasn't he/she come yet?"
+        },
+        {
+          "sp": "B",
+          "native": "Yo'lda qolib ketgan bo'lsa kerak.",
+          "en": "He/she is probably stuck on the way."
+        }
+      ]
+    },
+    "b2-relative-case": {
+      "title": "Participle + Case in Chained Clauses",
+      "pattern": "[[-gan/-digan clause] + noun] + [case suffix]",
+      "explanation": "A -gan/-digan participle clause can itself take a case ending once it modifies a noun that is then further marked: men o'qigan maktabning direktori (the principal of the school where I studied) -- the whole clause \"the school where I studied\" gets the genitive -ning before direktori attaches.",
+      "fact": "This is how Uzbek builds what English needs a full relative clause plus a possessive for (\"the principal OF the school WHERE I studied\") out of a single chain of suffixes on ordinary nouns and participles, with no relative pronoun (\"where\", \"which\") anywhere in the sentence at all.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Siz ishlagan kompaniya qayerda joylashgan?",
+          "en": "Where is the company where you worked located?"
+        },
+        {
+          "sp": "B",
+          "native": "U Toshkentning markazida joylashgan.",
+          "en": "It's located in the center of Tashkent."
+        }
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "number": 71,
+      "title": "Grammar: Verbal Noun -ish",
+      "titleNative": "Grammatika: -ish harakat oti",
+      "topicId": "b2-nominalization",
+      "items": [
+        {
+          "uz": "Kitob o'qish foydali.",
+          "en": "Reading books is beneficial."
+        },
+        {
+          "uz": "Sport bilan shug'ullanish sog'liqqa yaxshi.",
+          "en": "Exercising is good for health."
+        },
+        {
+          "uz": "Yolg'on gapirish yomon odat.",
+          "en": "Lying is a bad habit."
+        },
+        {
+          "uz": "Ko'p uxlash ham foydali emas.",
+          "en": "Sleeping too much isn't beneficial either."
+        },
+        {
+          "uz": "Til o'rganish sabr talab qiladi.",
+          "en": "Learning a language requires patience."
+        },
+        {
+          "uz": "Boshqalarga yordam berish yaxshi fazilat.",
+          "en": "Helping others is a good virtue."
+        },
+        {
+          "uz": "Chekish sog'liqqa zararli.",
+          "en": "Smoking is harmful to health."
+        },
+        {
+          "uz": "Erta turish samaradorlikni oshiradi.",
+          "en": "Waking up early increases productivity."
+        },
+        {
+          "uz": "Muntazam mashq qilish natija beradi.",
+          "en": "Regular practice gives results."
+        },
+        {
+          "uz": "Ko'p ovqatlanish semirishga olib keladi.",
+          "en": "Eating too much leads to weight gain."
+        },
+        {
+          "uz": "Do'stlar bilan gaplashish kayfiyatni ko'taradi.",
+          "en": "Talking with friends lifts one's mood."
+        },
+        {
+          "uz": "Vaqtni to'g'ri rejalashtirish muhim.",
+          "en": "Planning time properly is important."
+        }
+      ]
+    },
+    {
+      "number": 72,
+      "title": "Grammar: Purpose -ish uchun",
+      "titleNative": "Grammatika: -ish uchun maqsad",
+      "topicId": "b2-purpose",
+      "items": [
+        {
+          "uz": "Pul topish uchun ishlayman.",
+          "en": "I work in order to earn money."
+        },
+        {
+          "uz": "Sog'lom bo'lish uchun sport bilan shug'ullanaman.",
+          "en": "I exercise in order to be healthy."
+        },
+        {
+          "uz": "Imtihonga tayyorlanish uchun kutubxonaga bordim.",
+          "en": "I went to the library in order to prepare for the exam."
+        },
+        {
+          "uz": "Vaqtni tejash uchun taksida bordim.",
+          "en": "I went by taxi in order to save time."
+        },
+        {
+          "uz": "Bilim olish uchun universitetga o'qishga kirdim.",
+          "en": "I enrolled at university in order to gain knowledge."
+        },
+        {
+          "uz": "Uni ko'rish uchun uzoq yo'l bosib o'tdim.",
+          "en": "I traveled a long way in order to see him/her."
+        },
+        {
+          "uz": "Kelajakni yaxshilash uchun harakat qilamiz.",
+          "en": "We are working in order to improve the future."
+        },
+        {
+          "uz": "Muammoni hal qilish uchun yig'ilish o'tkazdik.",
+          "en": "We held a meeting in order to resolve the problem."
+        },
+        {
+          "uz": "Mashg'ulotni o'tkazish uchun zal band qilindi.",
+          "en": "The hall was booked in order to hold the training."
+        },
+        {
+          "uz": "Xato qilmaslik uchun ikki marta tekshirdim.",
+          "en": "I checked twice in order not to make a mistake."
+        },
+        {
+          "uz": "Yaxshi natija olish uchun ko'p mehnat qildim.",
+          "en": "I worked hard in order to get a good result."
+        },
+        {
+          "uz": "Oilamni ta'minlash uchun ikkita ish qilaman.",
+          "en": "I work two jobs in order to provide for my family."
+        }
+      ]
+    },
+    {
+      "number": 73,
+      "title": "Grammar: Wondering -mikan",
+      "titleNative": "Grammatika: -mikan taxmin",
+      "topicId": "b2-wonder",
+      "items": [
+        {
+          "uz": "U kelarmikan?",
+          "en": "I wonder if he/she will come."
+        },
+        {
+          "uz": "Ertaga havo yaxshi bo'larmikan?",
+          "en": "I wonder if the weather will be good tomorrow."
+        },
+        {
+          "uz": "Bu haqiqatmikan?",
+          "en": "I wonder if this is true."
+        },
+        {
+          "uz": "U bizni tanirmikan?",
+          "en": "I wonder if he/she will recognize us."
+        },
+        {
+          "uz": "Bu ishni uddalay olarmikanman?",
+          "en": "I wonder if I'll be able to manage this task."
+        },
+        {
+          "uz": "U hozir uydamikan?",
+          "en": "I wonder if he/she is home right now."
+        },
+        {
+          "uz": "Bu narx to'g'rimikan?",
+          "en": "I wonder if this price is correct."
+        },
+        {
+          "uz": "Ular vaqtida yetib kelisharmikan?",
+          "en": "I wonder if they will arrive on time."
+        },
+        {
+          "uz": "Bu qaror to'g'rimikan?",
+          "en": "I wonder if this decision is correct."
+        },
+        {
+          "uz": "U meni eslarmikan?",
+          "en": "I wonder if he/she will remember me."
+        },
+        {
+          "uz": "Bu reja amalga osharmikan?",
+          "en": "I wonder if this plan will be realized."
+        },
+        {
+          "uz": "Bu kitobni topa olarmikanman?",
+          "en": "I wonder if I'll be able to find this book."
+        }
+      ]
+    },
+    {
+      "number": 74,
+      "title": "Grammar: Probability -sa kerak",
+      "titleNative": "Grammatika: -sa kerak taxmin",
+      "topicId": "b2-probability",
+      "items": [
+        {
+          "uz": "U uyda bo'lsa kerak.",
+          "en": "He/she is probably at home."
+        },
+        {
+          "uz": "Yo'lda qolib ketgan bo'lsa kerak.",
+          "en": "He/she probably got stuck on the way."
+        },
+        {
+          "uz": "Bu ish qiyin bo'lsa kerak.",
+          "en": "This work is probably difficult."
+        },
+        {
+          "uz": "U charchagan bo'lsa kerak.",
+          "en": "He/she is probably tired."
+        },
+        {
+          "uz": "Ular allaqachon kelib bo'lishsa kerak.",
+          "en": "They have probably already arrived."
+        },
+        {
+          "uz": "Bu narsa qimmat bo'lsa kerak.",
+          "en": "This thing is probably expensive."
+        },
+        {
+          "uz": "U bu haqda bilsa kerak.",
+          "en": "He/she probably knows about this."
+        },
+        {
+          "uz": "Havo sovuq bo'lsa kerak, kurtka kiying.",
+          "en": "It's probably cold, wear a jacket."
+        },
+        {
+          "uz": "U bugun band bo'lsa kerak.",
+          "en": "He/she is probably busy today."
+        },
+        {
+          "uz": "Bu xabar to'g'ri bo'lsa kerak.",
+          "en": "This news is probably true."
+        },
+        {
+          "uz": "Ular hali yo'lda bo'lsa kerak.",
+          "en": "They are probably still on the way."
+        },
+        {
+          "uz": "Bu masala hal bo'lgan bo'lsa kerak.",
+          "en": "This issue has probably been resolved."
+        }
+      ]
+    },
+    {
+      "number": 75,
+      "title": "Grammar: Chained Participle Clauses",
+      "titleNative": "Grammatika: zanjirli sifatdosh birikmalar",
+      "topicId": "b2-relative-case",
+      "items": [
+        {
+          "uz": "Men o'qigan maktabning direktori almashdi.",
+          "en": "The principal of the school where I studied changed."
+        },
+        {
+          "uz": "Siz ishlagan kompaniyaning nomi nima?",
+          "en": "What is the name of the company where you worked?"
+        },
+        {
+          "uz": "Biz uchrashgan kafening egasi mehribon edi.",
+          "en": "The owner of the café where we met was kind."
+        },
+        {
+          "uz": "U tug'ilgan shaharning tarixi boy.",
+          "en": "The history of the city where he/she was born is rich."
+        },
+        {
+          "uz": "Men yashaydigan uyning bog'i katta.",
+          "en": "The garden of the house where I live is big."
+        },
+        {
+          "uz": "Sen o'qiydigan kitobning muallifi kim?",
+          "en": "Who is the author of the book you're reading?"
+        },
+        {
+          "uz": "Biz borgan mamlakatning madaniyati qiziq edi.",
+          "en": "The culture of the country we went to was interesting."
+        },
+        {
+          "uz": "U ishlaydigan bo'limning boshlig'i qattiqqo'l.",
+          "en": "The head of the department where he/she works is strict."
+        },
+        {
+          "uz": "Men sevgan qo'shiqning muallifi mashhur.",
+          "en": "The author of the song I love is famous."
+        },
+        {
+          "uz": "Biz turgan mehmonxonaning xizmati zo'r edi.",
+          "en": "The service of the hotel where we stayed was great."
+        },
+        {
+          "uz": "Sen ishonadigan do'stingning fikri muhim.",
+          "en": "The opinion of the friend you trust matters."
+        },
+        {
+          "uz": "Men ko'rgan filmning rejissyori istaraqli.",
+          "en": "The director of the film I watched is talented."
+        }
+      ]
+    }
+  ]
+}

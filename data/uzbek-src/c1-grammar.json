@@ -1,0 +1,303 @@
+{
+  "level": "c1",
+  "grammarTopics": {
+    "c1-as-if": {
+      "title": "As If: -gandek",
+      "pattern": "[verb stem] + -gan + dek (as if/as though)",
+      "explanation": "Adding dek (\"like/as\") to the -gan participle creates \"as if\": u hammasini bilgandek gapirdi (he/she spoke as if he/she knew everything). It expresses a comparison to an event presented as unreal or merely apparent.",
+      "fact": "Dek is the same comparative word used in plain similes (sher dek kuchli, \"strong as a lion\") -- \"as if\" in Uzbek is grammatically just a simile whose point of comparison happens to be an entire completed action instead of a noun.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "U nega bunday xotirjam?",
+          "en": "Why is he/she so calm?"
+        },
+        {
+          "sp": "B",
+          "native": "Hech narsa bo'lmagandek harakat qilyapti.",
+          "en": "He/she is acting as if nothing happened."
+        }
+      ]
+    },
+    "c1-factual-concession": {
+      "title": "Factual Concession: -gani bilan",
+      "pattern": "[verb stem] + -gan + i + bilan (despite the fact that ~)",
+      "explanation": "-gani bilan (the -gan participle, possessive -i, plus bilan, \"with\") concedes a FACT already known to be true, unlike the more hypothetical -sa ham: boy bo'lgani bilan, baxtli emas (despite being rich, he/she isn't happy) presupposes that he/she really is rich.",
+      "fact": "Because -gani bilan presupposes the conceded fact is real, while -sa ham works for both real and merely hypothetical concessions, native speakers reach for -gani bilan specifically when they want to flag \"yes, that part is definitely true, but...\" -- a nuance that's easy to blur at lower levels.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "U juda boy-ku, nega xursand emas?",
+          "en": "He/she is very rich, so why isn't he/she happy?"
+        },
+        {
+          "sp": "B",
+          "native": "Boy bo'lgani bilan, baxtli emas.",
+          "en": "Despite being rich, he/she isn't happy."
+        }
+      ]
+    },
+    "c1-embedded-subject": {
+      "title": "Embedded Clause as Subject: -(i)shi",
+      "pattern": "[genitive subject] + [verb stem] + -(i)shi + [main clause]",
+      "explanation": "A possessive-marked verbal noun lets a whole clause act as the grammatical subject of another sentence: uning kelishi meni xursand qildi (\"his/her coming made me happy\", i.e. \"the fact that he/she came made me happy\") -- uning is genitive \"his/her\", kelishi is \"coming\" with a matching 3rd-person possessive ending.",
+      "fact": "The possessive ending on the verbal noun must agree with whoever performs the embedded action, not with the main sentence's subject -- uning kelishi (\"his/her coming\") keeps that -i ending no matter who is made happy by it, exactly the way mening kitobim (\"my book\") agrees with the owner, not the sentence's grammatical subject.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Nega bunchalik xursandsiz?",
+          "en": "Why are you so happy?"
+        },
+        {
+          "sp": "B",
+          "native": "Uning kelishi meni juda xursand qildi.",
+          "en": "His/her coming made me very happy."
+        }
+      ]
+    },
+    "c1-hearsay": {
+      "title": "Hearsay/Doubt: emish",
+      "pattern": "[statement] + emish",
+      "explanation": "Emish marks reported information the speaker isn't personally vouching for, often with a hint of skepticism: u mashhur olim emish (he/she is allegedly a famous scientist [so I've heard, but I'm not sure]).",
+      "fact": "Emish carries a distancing, sometimes slightly doubtful tone that -deb aytdi (plain reported speech, covered at B1) doesn't -- choosing emish over a neutral report is itself a small signal to the listener that the speaker isn't fully endorsing the claim.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "U yangi mashina olibdi, deyishyapti.",
+          "en": "They say he/she has bought a new car."
+        },
+        {
+          "sp": "B",
+          "native": "Rostdanmi? Juda boy odam emish-ku.",
+          "en": "Really? He's/she's allegedly a very rich person, apparently."
+        }
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "number": 97,
+      "title": "Grammar: As If -gandek",
+      "titleNative": "Grammatika: -gandek qiyoslash",
+      "topicId": "c1-as-if",
+      "items": [
+        {
+          "uz": "U hammasini bilgandek gapirdi.",
+          "en": "He/she spoke as if he/she knew everything."
+        },
+        {
+          "uz": "Hech narsa bo'lmagandek harakat qildi.",
+          "en": "He/she acted as if nothing had happened."
+        },
+        {
+          "uz": "U meni tanimagandek qaradi.",
+          "en": "He/she looked at me as if he/she didn't recognize me."
+        },
+        {
+          "uz": "Bu ish oson bo'lgandek tuyuldi.",
+          "en": "This task seemed as if it were easy."
+        },
+        {
+          "uz": "U charchamagandek ishlashda davom etdi.",
+          "en": "He/she continued working as if he/she wasn't tired."
+        },
+        {
+          "uz": "Bola kattalardek gapirdi.",
+          "en": "The child spoke as if he/she were an adult."
+        },
+        {
+          "uz": "U bu yerni yaxshi bilgandek yurdi.",
+          "en": "He/she walked as if he/she knew this place well."
+        },
+        {
+          "uz": "Hammasi rejadagidek ketayotgandek his qildim.",
+          "en": "I felt as if everything was going as planned."
+        },
+        {
+          "uz": "U meni ko'rmagandek o'tib ketdi.",
+          "en": "He/she passed by as if he/she hadn't seen me."
+        },
+        {
+          "uz": "Bu yerga ilgari kelgandek tuyuldi.",
+          "en": "It seemed as if I had been here before."
+        },
+        {
+          "uz": "U achchiqlanmagandek jilmayib qo'ydi.",
+          "en": "He/she smiled as if he/she wasn't angry."
+        },
+        {
+          "uz": "Ish tugagandek ko'rindi, lekin unday emas edi.",
+          "en": "The work seemed as if it were finished, but it wasn't."
+        }
+      ]
+    },
+    {
+      "number": 98,
+      "title": "Grammar: Concession -gani bilan",
+      "titleNative": "Grammatika: -gani bilan qat'iy qarshilik",
+      "topicId": "c1-factual-concession",
+      "items": [
+        {
+          "uz": "Boy bo'lgani bilan, baxtli emas.",
+          "en": "Despite being rich, he/she isn't happy."
+        },
+        {
+          "uz": "Yosh bo'lgani bilan, juda tajribali.",
+          "en": "Despite being young, he/she is very experienced."
+        },
+        {
+          "uz": "Charchagani bilan, ishini tugatdi.",
+          "en": "Despite being tired, he/she finished the work."
+        },
+        {
+          "uz": "Kasal bo'lgani bilan, ishga bordi.",
+          "en": "Despite being sick, he/she went to work."
+        },
+        {
+          "uz": "Ko'p pul topgani bilan, xursand emas.",
+          "en": "Despite earning a lot of money, he/she isn't happy."
+        },
+        {
+          "uz": "Uzr so'ragani bilan, men hali xafaman.",
+          "en": "Despite him/her apologizing, I'm still upset."
+        },
+        {
+          "uz": "Bilimli bo'lgani bilan, kamtar edi.",
+          "en": "Despite being knowledgeable, he/she was humble."
+        },
+        {
+          "uz": "Ko'p mashq qilgani bilan, natija bermadi.",
+          "en": "Despite practicing a lot, it didn't yield results."
+        },
+        {
+          "uz": "Qiyin bo'lgani bilan, taslim bo'lmadi.",
+          "en": "Despite it being difficult, he/she didn't give up."
+        },
+        {
+          "uz": "Mashhur bo'lgani bilan, oddiy hayot kechiradi.",
+          "en": "Despite being famous, he/she leads a simple life."
+        },
+        {
+          "uz": "Ko'p vaqt o'tgani bilan, hech narsani unutmadim.",
+          "en": "Despite a lot of time passing, I haven't forgotten anything."
+        },
+        {
+          "uz": "Yordam bergani bilan, muammo hal bo'lmadi.",
+          "en": "Despite him/her helping, the problem wasn't resolved."
+        }
+      ]
+    },
+    {
+      "number": 99,
+      "title": "Grammar: Embedded Clause as Subject",
+      "titleNative": "Grammatika: -(i)shi ega gapi",
+      "topicId": "c1-embedded-subject",
+      "items": [
+        {
+          "uz": "Uning kelishi meni xursand qildi.",
+          "en": "His/her coming made me happy."
+        },
+        {
+          "uz": "Sizning yordam berishingiz juda muhim edi.",
+          "en": "Your helping was very important."
+        },
+        {
+          "uz": "Bolaning tez o'sishi meni hayratga soldi.",
+          "en": "The child's fast growth surprised me."
+        },
+        {
+          "uz": "Uning bu ishni bajarishi hammani qoyil qoldirdi.",
+          "en": "His/her completing this task impressed everyone."
+        },
+        {
+          "uz": "Sizning kelishingiz kutilmagan edi.",
+          "en": "Your arrival was unexpected."
+        },
+        {
+          "uz": "Uning jim qolishi meni tashvishga soldi.",
+          "en": "His/her staying silent worried me."
+        },
+        {
+          "uz": "Bizning g'alaba qozonishimiz katta quvonch edi.",
+          "en": "Our winning was a great joy."
+        },
+        {
+          "uz": "Uning gapirishi hammani jim qildi.",
+          "en": "His/her speaking silenced everyone."
+        },
+        {
+          "uz": "Sizning tushunishingiz men uchun muhim.",
+          "en": "Your understanding is important to me."
+        },
+        {
+          "uz": "Uning kech qolishi odatiy holga aylandi.",
+          "en": "His/her being late became a usual occurrence."
+        },
+        {
+          "uz": "Bizning kelishuvga erishishimiz vaqt talab qildi.",
+          "en": "Our reaching an agreement took time."
+        },
+        {
+          "uz": "Uning muvaffaqiyati bizni ilhomlantirdi.",
+          "en": "His/her success inspired us."
+        }
+      ]
+    },
+    {
+      "number": 100,
+      "title": "Grammar: Hearsay emish",
+      "titleNative": "Grammatika: emish rivoyat",
+      "topicId": "c1-hearsay",
+      "items": [
+        {
+          "uz": "U mashhur olim emish.",
+          "en": "He/she is allegedly a famous scientist."
+        },
+        {
+          "uz": "Bu uy juda qimmat emish.",
+          "en": "This house is allegedly very expensive."
+        },
+        {
+          "uz": "U chet elga ko'chib ketar emish.",
+          "en": "He/she is allegedly moving abroad."
+        },
+        {
+          "uz": "Bu xabar rost emish.",
+          "en": "This news is allegedly true."
+        },
+        {
+          "uz": "U yangi ish topibdi emish.",
+          "en": "He/she has allegedly found a new job."
+        },
+        {
+          "uz": "Ular ajrashar emish.",
+          "en": "They are allegedly getting divorced."
+        },
+        {
+          "uz": "Bu film juda qiziqarli emish.",
+          "en": "This movie is allegedly very interesting."
+        },
+        {
+          "uz": "U katta mukofot yutibdi emish.",
+          "en": "He/she has allegedly won a big prize."
+        },
+        {
+          "uz": "Bu joy juda xavfli emish.",
+          "en": "This place is allegedly very dangerous."
+        },
+        {
+          "uz": "U bu ishni bilmas emish.",
+          "en": "He/she allegedly doesn't know about this matter."
+        },
+        {
+          "uz": "Ertaga bayram bo'lar emish.",
+          "en": "There will allegedly be a holiday tomorrow."
+        },
+        {
+          "uz": "U hammani aldar emish.",
+          "en": "He/she allegedly deceives everyone."
+        }
+      ]
+    }
+  ]
+}

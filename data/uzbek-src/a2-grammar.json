@@ -1,0 +1,525 @@
+{
+  "level": "a2",
+  "grammarTopics": {
+    "a2-modal-can": {
+      "title": "Ability: -(a)olmoq (\"can\")",
+      "pattern": "[verb stem] + -(a/y) ol + person ending",
+      "explanation": "To express ability, Uzbek inserts ol (from olmoq, \"to take/manage\") right after the verb stem, before the tense ending: bora olaman (I can go), bora olmayman (I cannot go, negative adds -ma- before the tense ending too).",
+      "fact": "The same ol also gives the language its word for \"to get/receive\" -- ability in Uzbek is literally framed as being able to \"take\" or \"manage\" an action, not a separate standalone modal verb the way English \"can\" is.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Siz suzishni bilasizmi?",
+          "en": "Do you know how to swim?"
+        },
+        {
+          "sp": "B",
+          "native": "Ha, men suza olaman.",
+          "en": "Yes, I can swim."
+        }
+      ]
+    },
+    "a2-modal-kerak": {
+      "title": "Obligation: kerak (\"must/should\")",
+      "pattern": "[verb, possessive-marked infinitive] + kerak",
+      "explanation": "Obligation is expressed with the standalone word kerak after a possessive-marked infinitive: men borishim kerak (I must go, literally \"my going is necessary\"), sen borishing kerak (you must go).",
+      "fact": "Because kerak is a free word rather than a suffix, it can also stand completely alone as a one-word answer meaning \"[it's] necessary\" -- much like English \"must\" can, but unlike most of Uzbek's other grammar markers, which are suffixes glued to the verb.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Men bugun ishlashim kerakmi?",
+          "en": "Do I have to work today?"
+        },
+        {
+          "sp": "B",
+          "native": "Yo'q, bugun dam olishing mumkin.",
+          "en": "No, you can rest today."
+        }
+      ]
+    },
+    "a2-comparative": {
+      "title": "Comparative & Superlative",
+      "pattern": "[adj] + -roq (more ~) · eng + [adj] (most ~)",
+      "explanation": "The comparative adds -roq directly to an adjective: katta → kattaroq (bigger). The superlative simply places eng (\"most\") in front of the plain adjective: eng katta (the biggest) -- no separate ending needed for superlative.",
+      "fact": "Because -roq attaches to any adjective with no exceptions, Uzbek has no irregular comparatives at all -- there's no equivalent of English's good/better/best needing three separate words.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Qaysi uy kattaroq?",
+          "en": "Which house is bigger?"
+        },
+        {
+          "sp": "B",
+          "native": "Bizning uyimiz eng katta.",
+          "en": "Our house is the biggest."
+        }
+      ]
+    },
+    "a2-imperative": {
+      "title": "Imperative",
+      "pattern": "[bare stem] (informal) · [stem] + -ing (formal) · [stem] + -ma (don't ~)",
+      "explanation": "An informal command is just the bare verb stem: bor! (go!). The formal/polite command adds -ing: boring! (please go!). Negative commands insert -ma right after the stem: borma! (don't go!), boring emas rather borma ni ng orqali - kelmang! (please don't come!, formal negative combines -ma and -ing: kel-ma-ng).",
+      "fact": "The formal negative imperative stacks BOTH markers onto one stem in a fixed order -- -ma before -ng, never the reverse (kelmang, never kelngma) -- one of the few places in Uzbek where suffix order is rigid rather than flexible.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Bu yerda chekmang, iltimos!",
+          "en": "Please don't smoke here!"
+        },
+        {
+          "sp": "B",
+          "native": "Uzr, albatta chekmayman.",
+          "en": "Sorry, of course I won't smoke."
+        }
+      ]
+    },
+    "a2-connectors": {
+      "title": "Connectors: chunki & shuning uchun",
+      "pattern": "[clause], chunki [reason] · [reason], shuning uchun [result]",
+      "explanation": "Chunki (\"because\") introduces a reason after the main clause: Men uyda qoldim, chunki kasal edim (I stayed home because I was sick). Shuning uchun (\"therefore/so\") does the reverse, introducing a result after the reason: Kasal edim, shuning uchun uyda qoldim (I was sick, so I stayed home).",
+      "fact": "The two words let a speaker present the exact same two facts in either order -- reason-then-result or result-then-reason -- just by picking which connector goes in the middle, without changing either clause itself.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Nega kecha kelmading?",
+          "en": "Why didn't you come yesterday?"
+        },
+        {
+          "sp": "B",
+          "native": "Ishim ko'p edi, shuning uchun kela olmadim.",
+          "en": "I had a lot of work, so I couldn't come."
+        }
+      ]
+    },
+    "a2-present-continuous": {
+      "title": "Present Continuous: -(a)yap(ti)",
+      "pattern": "[stem] + -(a)yap + person ending",
+      "explanation": "An action happening right now takes -yap (or -ayap after a consonant) plus a personal ending: yozayapman (I am writing), o'qiyapsan (you are reading), ishlayapti (he/she is working) -- distinct from the habitual/future -(a)di tense covered at A1.",
+      "fact": "Dropping the final -ti (yozayapman instead of the fuller yozayapti-man-like form) is so standard in everyday speech that the shorter form, not the technically fuller one, is what learners should treat as the default to imitate.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Hozir nima qilyapsan?",
+          "en": "What are you doing right now?"
+        },
+        {
+          "sp": "B",
+          "native": "Kitob o'qiyapman.",
+          "en": "I'm reading a book."
+        }
+      ]
+    },
+    "a2-intention": {
+      "title": "Intention: -moqchi",
+      "pattern": "[verb stem] + -moqchi + [\"to be\" ending]",
+      "explanation": "To say what someone intends or plans to do, Uzbek adds -moqchi to the verb stem, then the usual predicative \"to be\" ending: bormoqchiman (I intend/plan to go), bormoqchisan (you plan to go), bormoqchi (he/she plans to go).",
+      "fact": "-moqchi is built from -moq, the same ending that names a verb in its dictionary/infinitive form (bormoq = \"to go\") -- intention in Uzbek is grammatically framed as being oriented toward the bare infinitive itself, plus a state-of-being ending on top of it.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Dam olish kunlari nima qilmoqchisan?",
+          "en": "What do you plan to do on the weekend?"
+        },
+        {
+          "sp": "B",
+          "native": "Men tog'larga bormoqchiman.",
+          "en": "I plan to go to the mountains."
+        }
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "number": 27,
+      "title": "Grammar: Ability -(a)olmoq",
+      "titleNative": "Grammatika: -(a)olmoq imkoniyat",
+      "topicId": "a2-modal-can",
+      "items": [
+        {
+          "uz": "Men suza olaman.",
+          "en": "I can swim."
+        },
+        {
+          "uz": "U mashina hayday olmaydi.",
+          "en": "He/she cannot drive a car."
+        },
+        {
+          "uz": "Siz bu savolga javob bera olasizmi?",
+          "en": "Can you answer this question?"
+        },
+        {
+          "uz": "Biz ertaga kela olamiz.",
+          "en": "We can come tomorrow."
+        },
+        {
+          "uz": "Men bu vazifani bajara olmadim.",
+          "en": "I couldn't complete this task."
+        },
+        {
+          "uz": "U ingliz tilida gapira oladi.",
+          "en": "He/she can speak English."
+        },
+        {
+          "uz": "Sen bu yukni ko'tara olasanmi?",
+          "en": "Can you lift this load?"
+        },
+        {
+          "uz": "Men hozir gapira olmayman, bandman.",
+          "en": "I can't talk right now, I'm busy."
+        },
+        {
+          "uz": "Ular bu masalani hal qila olishdi.",
+          "en": "They were able to solve this problem."
+        },
+        {
+          "uz": "Men tez yura olaman.",
+          "en": "I can walk fast."
+        },
+        {
+          "uz": "U bu qo'shiqni yaxshi kuylay oladi.",
+          "en": "He/she can sing this song well."
+        },
+        {
+          "uz": "Biz bugun uchrasha olmaymiz.",
+          "en": "We can't meet today."
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "title": "Grammar: Obligation kerak",
+      "titleNative": "Grammatika: kerak zaruriyat",
+      "topicId": "a2-modal-kerak",
+      "items": [
+        {
+          "uz": "Men bugun ishlashim kerak.",
+          "en": "I have to work today."
+        },
+        {
+          "uz": "Senga dam olishing kerak.",
+          "en": "You need to rest."
+        },
+        {
+          "uz": "Bizga ko'proq mashq qilishimiz kerak.",
+          "en": "We need to practice more."
+        },
+        {
+          "uz": "Sizga shifokorga borishingiz kerak.",
+          "en": "You should go to the doctor."
+        },
+        {
+          "uz": "Ularga tezroq harakat qilishlari kerak.",
+          "en": "They need to act faster."
+        },
+        {
+          "uz": "Menga bu kitobni o'qishim kerak.",
+          "en": "I need to read this book."
+        },
+        {
+          "uz": "Bizga erta turishimiz kerak.",
+          "en": "We need to wake up early."
+        },
+        {
+          "uz": "Senga ko'proq suv ichishing kerak.",
+          "en": "You should drink more water."
+        },
+        {
+          "uz": "Menga pul jamg'arishim kerak.",
+          "en": "I need to save money."
+        },
+        {
+          "uz": "Ularga rozilik berishlari kerak.",
+          "en": "They need to give their consent."
+        },
+        {
+          "uz": "Sizga hujjatlaringizni olib kelishingiz kerak.",
+          "en": "You need to bring your documents."
+        },
+        {
+          "uz": "Bizga bu masalani hal qilishimiz kerak.",
+          "en": "We need to resolve this issue."
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "title": "Grammar: Comparative & Superlative",
+      "titleNative": "Grammatika: qiyosiy va orttirma daraja",
+      "topicId": "a2-comparative",
+      "items": [
+        {
+          "uz": "Bu uy o'shanisidan kattaroq.",
+          "en": "This house is bigger than that one."
+        },
+        {
+          "uz": "Toshkent Samarqanddan kattaroq shahar.",
+          "en": "Tashkent is a bigger city than Samarkand."
+        },
+        {
+          "uz": "Bu masala oldingisidan qiyinroq.",
+          "en": "This problem is harder than the previous one."
+        },
+        {
+          "uz": "Sen mendan tezroq yurasan.",
+          "en": "You walk faster than me."
+        },
+        {
+          "uz": "Bu yil qish o'tgan yildan sovuqroq.",
+          "en": "This winter is colder than last year."
+        },
+        {
+          "uz": "Eng katta muammo pul yetishmasligi.",
+          "en": "The biggest problem is lack of money."
+        },
+        {
+          "uz": "Bu mening eng yaxshi do'stim.",
+          "en": "This is my best friend."
+        },
+        {
+          "uz": "Bu eng qimmat mashina.",
+          "en": "This is the most expensive car."
+        },
+        {
+          "uz": "U sinfdagi eng aqlli o'quvchi.",
+          "en": "He/she is the smartest student in the class."
+        },
+        {
+          "uz": "Bu eng qiziqarli kitob edi.",
+          "en": "This was the most interesting book."
+        },
+        {
+          "uz": "Bugun kechagidan issiqroq.",
+          "en": "Today is hotter than yesterday."
+        },
+        {
+          "uz": "Bu yo'l o'shanisidan qisqaroq.",
+          "en": "This road is shorter than that one."
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "title": "Grammar: Imperative",
+      "titleNative": "Grammatika: buyruq mayli",
+      "topicId": "a2-imperative",
+      "items": [
+        {
+          "uz": "Eshikni yop!",
+          "en": "Close the door!"
+        },
+        {
+          "uz": "Iltimos, bu yerga o'tiring.",
+          "en": "Please sit here."
+        },
+        {
+          "uz": "Menga yordam bering.",
+          "en": "Please help me."
+        },
+        {
+          "uz": "Bu yerda kutib turing.",
+          "en": "Please wait here."
+        },
+        {
+          "uz": "Tezroq kel!",
+          "en": "Come quickly!"
+        },
+        {
+          "uz": "Bu yerda chekmang.",
+          "en": "Don't smoke here."
+        },
+        {
+          "uz": "Xavotir olmang.",
+          "en": "Don't worry."
+        },
+        {
+          "uz": "Hujjatlaringizni ko'rsating.",
+          "en": "Please show your documents."
+        },
+        {
+          "uz": "Bu haqda unutma!",
+          "en": "Don't forget about this!"
+        },
+        {
+          "uz": "Menga qo'ng'iroq qiling.",
+          "en": "Please call me."
+        },
+        {
+          "uz": "Ovqatni sovutmang.",
+          "en": "Don't let the food get cold."
+        },
+        {
+          "uz": "Kechikmang, iltimos.",
+          "en": "Please don't be late."
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "title": "Grammar: Connectors chunki & shuning uchun",
+      "titleNative": "Grammatika: chunki va shuning uchun",
+      "topicId": "a2-connectors",
+      "items": [
+        {
+          "uz": "Men uyda qoldim, chunki kasal edim.",
+          "en": "I stayed home because I was sick."
+        },
+        {
+          "uz": "U kelmadi, chunki ishi ko'p edi.",
+          "en": "He/she didn't come because he/she had a lot of work."
+        },
+        {
+          "uz": "Kasal edim, shuning uchun uyda qoldim.",
+          "en": "I was sick, so I stayed home."
+        },
+        {
+          "uz": "Yomg'ir yog'ayapti, shuning uchun soyabon oldim.",
+          "en": "It's raining, so I took an umbrella."
+        },
+        {
+          "uz": "Men charchadim, chunki kun bo'yi ishladim.",
+          "en": "I'm tired because I worked all day."
+        },
+        {
+          "uz": "Vaqtim yo'q edi, shuning uchun kela olmadim.",
+          "en": "I didn't have time, so I couldn't come."
+        },
+        {
+          "uz": "U xursand edi, chunki imtihonni yaxshi topshirdi.",
+          "en": "He/she was happy because he/she passed the exam well."
+        },
+        {
+          "uz": "Pulim tugadi, shuning uchun sotib ololmadim.",
+          "en": "My money ran out, so I couldn't buy it."
+        },
+        {
+          "uz": "Men erta uxladim, chunki ertaga erta turishim kerak edi.",
+          "en": "I slept early because I had to wake up early tomorrow."
+        },
+        {
+          "uz": "Yo'l band edi, shuning uchun kechikdim.",
+          "en": "The road was busy, so I was late."
+        },
+        {
+          "uz": "U yordam so'radi, chunki yolg'iz uddalay olmadi.",
+          "en": "He/she asked for help because he/she couldn't manage alone."
+        },
+        {
+          "uz": "Havo sovuq edi, shuning uchun kurtka kiydim.",
+          "en": "The weather was cold, so I wore a jacket."
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "title": "Grammar: Present Continuous",
+      "titleNative": "Grammatika: hozirgi davom etuvchi zamon",
+      "topicId": "a2-present-continuous",
+      "items": [
+        {
+          "uz": "Men hozir ovqat tayyorlayapman.",
+          "en": "I am cooking food right now."
+        },
+        {
+          "uz": "U televizor ko'rayapti.",
+          "en": "He/she is watching TV."
+        },
+        {
+          "uz": "Biz sizni kutayapmiz.",
+          "en": "We are waiting for you."
+        },
+        {
+          "uz": "Bolalar hovlida o'ynayapti.",
+          "en": "The children are playing in the yard."
+        },
+        {
+          "uz": "Men xat yozayapman.",
+          "en": "I am writing a letter."
+        },
+        {
+          "uz": "Sen nima qilyapsan?",
+          "en": "What are you doing?"
+        },
+        {
+          "uz": "Ular hozir suhbatlashyapti.",
+          "en": "They are talking right now."
+        },
+        {
+          "uz": "Men mashina haydayapman.",
+          "en": "I am driving a car."
+        },
+        {
+          "uz": "U kiyim yuvayapti.",
+          "en": "He/she is washing clothes."
+        },
+        {
+          "uz": "Biz muammoni muhokama qilyapmiz.",
+          "en": "We are discussing the problem."
+        },
+        {
+          "uz": "Men bu daqiqada ishlayapman.",
+          "en": "I am working at this moment."
+        },
+        {
+          "uz": "Ular bog'da sayr qilyapti.",
+          "en": "They are walking in the park."
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "title": "Grammar: Intention -moqchi",
+      "titleNative": "Grammatika: -moqchi niyat",
+      "topicId": "a2-intention",
+      "items": [
+        {
+          "uz": "Men yangi til o'rganmoqchiman.",
+          "en": "I intend to learn a new language."
+        },
+        {
+          "uz": "U uy sotib olmoqchi.",
+          "en": "He/she plans to buy a house."
+        },
+        {
+          "uz": "Biz kelasi yil sayohat qilmoqchimiz.",
+          "en": "We plan to travel next year."
+        },
+        {
+          "uz": "Sen nima qilmoqchisan?",
+          "en": "What do you plan to do?"
+        },
+        {
+          "uz": "Men ertaga ertaroq turmoqchiman.",
+          "en": "I plan to wake up earlier tomorrow."
+        },
+        {
+          "uz": "Ular yangi loyiha boshlamoqchi.",
+          "en": "They plan to start a new project."
+        },
+        {
+          "uz": "Men bugun dam olmoqchiman.",
+          "en": "I plan to rest today."
+        },
+        {
+          "uz": "U o'qishni davom ettirmoqchi.",
+          "en": "He/she intends to continue studying."
+        },
+        {
+          "uz": "Biz uy sharoitini yaxshilamoqchimiz.",
+          "en": "We plan to improve our living conditions."
+        },
+        {
+          "uz": "Men bu kitobni tugatmoqchiman.",
+          "en": "I intend to finish this book."
+        },
+        {
+          "uz": "Sen kelasi hafta kelmoqchimisan?",
+          "en": "Do you plan to come next week?"
+        },
+        {
+          "uz": "Ular yangi mashina olmoqchi.",
+          "en": "They plan to buy a new car."
+        }
+      ]
+    }
+  ]
+}

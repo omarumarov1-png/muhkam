@@ -1,0 +1,678 @@
+{
+  "level": "a1",
+  "grammarTopics": {
+    "a1-pronouns-tobe": {
+      "title": "Personal Pronouns & \"To Be\"",
+      "pattern": "men/sen/u/biz/siz/ular + [noun/adj] + -man/-san/(-)/-miz/-siz/(-lar)",
+      "explanation": "Uzbek has no separate verb 'to be' in the present tense — personal predicative endings attach directly to the noun or adjective, agreeing with the subject. Men talabaman (I am a student), sen talabasan (you are a student), u talaba (he/she is a student — no ending), biz talabamiz (we are students), siz talabasiz (you are a student, formal), ular talaba (they are students).",
+      "fact": "Because 3rd person takes no ending at all, a bare sentence like \"U shifokor\" already means the complete \"He/she is a doctor\" — no word is missing, word order alone carries the meaning.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Siz kimsiz?",
+          "en": "Who are you? (formal)"
+        },
+        {
+          "sp": "B",
+          "native": "Men o'qituvchiman. Ana siz-chi?",
+          "en": "I am a teacher. And you?"
+        },
+        {
+          "sp": "A",
+          "native": "Men talabaman.",
+          "en": "I am a student."
+        }
+      ]
+    },
+    "a1-possessive": {
+      "title": "Possessive Suffixes",
+      "pattern": "[noun] + -im/-ing/-i/-imiz/-ingiz/-i (my/your/his-her/our/your(pl)/their)",
+      "explanation": "Uzbek marks possession with a suffix on the noun itself rather than a separate possessive pronoun: kitobim (my book), kitobing (your book), kitobi (his/her book), kitobimiz (our book), kitobingiz (your book, formal/plural), kitobi (their book — same as 3rd singular, context tells them apart).",
+      "fact": "The possessive suffix alone can carry a full meaning: onam by itself already means \"my mother\", with no separate word for \"my\" needed at all.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Bu sizning kitobingizmi?",
+          "en": "Is this your book?"
+        },
+        {
+          "sp": "B",
+          "native": "Ha, bu mening kitobim.",
+          "en": "Yes, this is my book."
+        }
+      ]
+    },
+    "a1-plural": {
+      "title": "Plural: -lar",
+      "pattern": "[noun] + -lar",
+      "explanation": "Uzbek marks the plural with a single invariant suffix, -lar, added to any noun regardless of its final sound: kitob → kitoblar (books), uy → uylar (houses), bola → bolalar (children).",
+      "fact": "Unlike Kazakh or Turkish, standard Uzbek has largely lost vowel harmony, so -lar never changes shape (no -ler variant) — one suffix works for every noun in the language.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Uyda nechta xona bor?",
+          "en": "How many rooms are there in the house?"
+        },
+        {
+          "sp": "B",
+          "native": "Uyda uchta xona bor.",
+          "en": "There are three rooms in the house."
+        }
+      ]
+    },
+    "a1-questions": {
+      "title": "Yes/No Questions: -mi",
+      "pattern": "[word being asked about] + -mi?",
+      "explanation": "To turn a statement into a yes/no question, Uzbek attaches the particle -mi directly to the word being questioned (not necessarily the verb): Bu kitobmi? (Is this a book?), Siz talabamisiz? (Are you a student?).",
+      "fact": "Moving -mi to a different word in the same sentence shifts what's actually being asked: Siz talabamisiz? asks about being a student, while U sizmisiz? asks whether a specific person is you.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Bu sizning uyingizmi?",
+          "en": "Is this your house?"
+        },
+        {
+          "sp": "B",
+          "native": "Yo'q, bu mening uyim emas.",
+          "en": "No, this is not my house."
+        }
+      ]
+    },
+    "a1-cases-1": {
+      "title": "Cases I: Dative & Locative (-ga, -da)",
+      "pattern": "[noun] + -ga (to/toward) · [noun] + -da (in/at/on)",
+      "explanation": "Uzbek marks direction with the dative suffix -ga (maktabga — to school) and location with the locative suffix -da (maktabda — at school). These attach directly to the noun with no separate preposition needed.",
+      "fact": "The same suffix pair does double duty for time as well as place: bugun kechqurun-da works for \"this evening\" the same way uy-da works for \"at home\".",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Siz qayerga borasiz?",
+          "en": "Where are you going?"
+        },
+        {
+          "sp": "B",
+          "native": "Men bozorga boraman.",
+          "en": "I'm going to the market."
+        }
+      ]
+    },
+    "a1-cases-2": {
+      "title": "Cases II: Accusative & Ablative (-ni, -dan)",
+      "pattern": "[noun] + -ni (direct object) · [noun] + -dan (from/out of)",
+      "explanation": "The accusative suffix -ni marks a definite direct object: kitobni o'qiyman (I'm reading the book). The ablative suffix -dan marks origin or source: uydan chiqdim (I left the house / came out of the house).",
+      "fact": "Leaving -ni off a direct object is grammatical too, but changes the meaning slightly toward something less specific — kitob o'qiyman (\"I'm reading a book\", general) versus kitobni o'qiyman (\"I'm reading the book\", a specific one).",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Siz qayerdansiz?",
+          "en": "Where are you from?"
+        },
+        {
+          "sp": "B",
+          "native": "Men Toshkentdanman.",
+          "en": "I'm from Tashkent."
+        }
+      ]
+    },
+    "a1-present": {
+      "title": "Present-Future Tense: -(a)di",
+      "pattern": "[stem] + -(a)di + person ending",
+      "explanation": "Uzbek uses one tense form for both habitual present and future actions: boraman (I go / I will go), borasan, boradi, boramiz, borasiz, boradi(lar). Context makes clear whether it's a habit or a future plan.",
+      "fact": "The very same form men boraman can mean either \"I go [there every day]\" or \"I will go [tomorrow]\" — Uzbek doesn't force a speaker to choose between them the way English does.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Ertaga bozorga borasizmi?",
+          "en": "Will you go to the market tomorrow?"
+        },
+        {
+          "sp": "B",
+          "native": "Ha, ertaga boraman.",
+          "en": "Yes, I'll go tomorrow."
+        }
+      ]
+    },
+    "a1-past": {
+      "title": "Simple Past: -di",
+      "pattern": "[stem] + -di + person ending",
+      "explanation": "The simple past adds -di (or -ti after a voiceless consonant) directly to the verb stem: bordim (I went), bording, bordi, bordik, bordingiz, bordi(lar).",
+      "fact": "The 3rd person past form bordi looks identical whether the subject is singular or plural — u bordi (he/she went) and ular bordi (they went) are told apart only by the pronoun in front.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Kecha qayerga bording?",
+          "en": "Where did you go yesterday?"
+        },
+        {
+          "sp": "B",
+          "native": "Kecha men bozorga bordim.",
+          "en": "Yesterday I went to the market."
+        }
+      ]
+    },
+    "a1-negation": {
+      "title": "Negation: -ma- and emas",
+      "pattern": "verb: [stem] + -ma- + tense · noun/adj: [word] + emas",
+      "explanation": "Verbs are negated by inserting -ma- right after the stem and before the tense ending: bormadim (I didn't go), boraman → bormayman (I don't/won't go). Nouns and adjectives, which have no verb to modify, use the separate word emas instead: talaba emasman (I am not a student).",
+      "fact": "Because emas is a free-standing word rather than a suffix, it can be repeated on its own as a short \"no, not that\" answer — much like English \"not\" can stand alone in a quick correction.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Siz shifokormisiz?",
+          "en": "Are you a doctor?"
+        },
+        {
+          "sp": "B",
+          "native": "Yo'q, men shifokor emasman. Men o'qituvchiman.",
+          "en": "No, I am not a doctor. I am a teacher."
+        }
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "number": 9,
+      "title": "Grammar: Personal Pronouns & \"To Be\"",
+      "titleNative": "Grammatika: kishilik olmoshlari va bo'lish",
+      "topicId": "a1-pronouns-tobe",
+      "items": [
+        {
+          "uz": "Men talabaman.",
+          "en": "I am a student."
+        },
+        {
+          "uz": "Sen talabasan.",
+          "en": "You are a student. (informal)"
+        },
+        {
+          "uz": "U o'qituvchi.",
+          "en": "He/she is a teacher."
+        },
+        {
+          "uz": "Biz do'stmiz.",
+          "en": "We are friends."
+        },
+        {
+          "uz": "Siz shifokorsiz.",
+          "en": "You are a doctor. (formal)"
+        },
+        {
+          "uz": "Ular talaba.",
+          "en": "They are students."
+        },
+        {
+          "uz": "Men bandaman.",
+          "en": "I am busy."
+        },
+        {
+          "uz": "Sen yosh emassan.",
+          "en": "You are not young."
+        },
+        {
+          "uz": "U mehribon.",
+          "en": "He/she is kind."
+        },
+        {
+          "uz": "Biz Toshkentdanmiz.",
+          "en": "We are from Tashkent."
+        },
+        {
+          "uz": "Siz kasalmisiz?",
+          "en": "Are you sick? (formal)"
+        },
+        {
+          "uz": "Ular bugun band.",
+          "en": "They are busy today."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Grammar: Possessive Suffixes",
+      "titleNative": "Grammatika: egalik qo'shimchalari",
+      "topicId": "a1-possessive",
+      "items": [
+        {
+          "uz": "Bu mening kitobim.",
+          "en": "This is my book."
+        },
+        {
+          "uz": "Bu sizning uyingiz.",
+          "en": "This is your house. (formal)"
+        },
+        {
+          "uz": "Uning ismi Dilnoza.",
+          "en": "Her name is Dilnoza."
+        },
+        {
+          "uz": "Bizning maktabimiz katta.",
+          "en": "Our school is big."
+        },
+        {
+          "uz": "Sizning mashinangiz yangi.",
+          "en": "Your car is new. (formal)"
+        },
+        {
+          "uz": "Ularning uyi uzoqda.",
+          "en": "Their house is far away."
+        },
+        {
+          "uz": "Mening onam shifokor.",
+          "en": "My mother is a doctor."
+        },
+        {
+          "uz": "Sening ukang qayerda?",
+          "en": "Where is your younger brother? (informal)"
+        },
+        {
+          "uz": "Bu uning sumkasi.",
+          "en": "This is his/her bag."
+        },
+        {
+          "uz": "Bizning oilamiz katta.",
+          "en": "Our family is big."
+        },
+        {
+          "uz": "Sizning ismingiz nima?",
+          "en": "What is your name? (formal)"
+        },
+        {
+          "uz": "Mening telefonim yangi.",
+          "en": "My phone is new."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Grammar: Plural -lar",
+      "titleNative": "Grammatika: ko'plik -lar",
+      "topicId": "a1-plural",
+      "items": [
+        {
+          "uz": "Bu kitob.",
+          "en": "This is a book."
+        },
+        {
+          "uz": "Bular kitoblar.",
+          "en": "These are books."
+        },
+        {
+          "uz": "Uyda uchta xona bor.",
+          "en": "There are three rooms in the house."
+        },
+        {
+          "uz": "Ko'chada mashinalar ko'p.",
+          "en": "There are many cars on the street."
+        },
+        {
+          "uz": "Bolalar bog'chada o'ynayapti.",
+          "en": "The children are playing in the kindergarten."
+        },
+        {
+          "uz": "Do'konda ko'ylaklar bor.",
+          "en": "There are shirts in the shop."
+        },
+        {
+          "uz": "Talabalar sinfda o'qiydi.",
+          "en": "The students study in the classroom."
+        },
+        {
+          "uz": "Daraxtlar yashil.",
+          "en": "The trees are green."
+        },
+        {
+          "uz": "Stol ustida olmalar bor.",
+          "en": "There are apples on the table."
+        },
+        {
+          "uz": "Qushlar osmonda uchadi.",
+          "en": "The birds fly in the sky."
+        },
+        {
+          "uz": "Bu yerda ko'p odamlar bor.",
+          "en": "There are many people here."
+        },
+        {
+          "uz": "Ko'chalar band.",
+          "en": "The streets are crowded."
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Grammar: Yes/No Questions -mi",
+      "titleNative": "Grammatika: -mi savol qo'shimchasi",
+      "topicId": "a1-questions",
+      "items": [
+        {
+          "uz": "Bu kitobmi?",
+          "en": "Is this a book?"
+        },
+        {
+          "uz": "Siz talabamisiz?",
+          "en": "Are you a student?"
+        },
+        {
+          "uz": "U uydami?",
+          "en": "Is he/she at home?"
+        },
+        {
+          "uz": "Sizning ismingiz Alimi?",
+          "en": "Is your name Ali?"
+        },
+        {
+          "uz": "Bu yerda restoran bormi?",
+          "en": "Is there a restaurant here?"
+        },
+        {
+          "uz": "Siz charchadingizmi?",
+          "en": "Are you tired? (formal)"
+        },
+        {
+          "uz": "U kelganmi?",
+          "en": "Has he/she arrived?"
+        },
+        {
+          "uz": "Bugun juma kunimi?",
+          "en": "Is today Friday?"
+        },
+        {
+          "uz": "Sizga choy kerakmi?",
+          "en": "Do you need tea?"
+        },
+        {
+          "uz": "Bu sizning sumkangizmi?",
+          "en": "Is this your bag?"
+        },
+        {
+          "uz": "U shifokormi?",
+          "en": "Is he/she a doctor?"
+        },
+        {
+          "uz": "Hammasi tayyormi?",
+          "en": "Is everything ready?"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "title": "Grammar: Cases I — Dative & Locative",
+      "titleNative": "Grammatika: kelishiklar I — jo'nalish va o'rin",
+      "topicId": "a1-cases-1",
+      "items": [
+        {
+          "uz": "Men maktabga boraman.",
+          "en": "I go to school."
+        },
+        {
+          "uz": "U ishga ketdi.",
+          "en": "He/she went to work."
+        },
+        {
+          "uz": "Biz bozorga boramiz.",
+          "en": "We are going to the market."
+        },
+        {
+          "uz": "Men uyda o'tiribman.",
+          "en": "I am sitting at home."
+        },
+        {
+          "uz": "Kitob stolda yotibdi.",
+          "en": "The book is lying on the table."
+        },
+        {
+          "uz": "Bolalar hovlida o'ynayapti.",
+          "en": "The children are playing in the yard."
+        },
+        {
+          "uz": "Siz qayerga borasiz?",
+          "en": "Where are you going? (formal)"
+        },
+        {
+          "uz": "Men Samarqandga bormoqchiman.",
+          "en": "I want to go to Samarkand."
+        },
+        {
+          "uz": "U kasalxonada ishlaydi.",
+          "en": "He/she works at the hospital."
+        },
+        {
+          "uz": "Biz mehmonxonada turibmiz.",
+          "en": "We are staying at a hotel."
+        },
+        {
+          "uz": "Otam bog'da ishlayapti.",
+          "en": "My father is working in the garden."
+        },
+        {
+          "uz": "Men do'stimga xat yozdim.",
+          "en": "I wrote a letter to my friend."
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "title": "Grammar: Cases II — Accusative & Ablative",
+      "titleNative": "Grammatika: kelishiklar II — tushum va chiqish",
+      "topicId": "a1-cases-2",
+      "items": [
+        {
+          "uz": "Men kitobni o'qiyapman.",
+          "en": "I am reading the book."
+        },
+        {
+          "uz": "U olmani yeydi.",
+          "en": "He/she is eating the apple."
+        },
+        {
+          "uz": "Biz uyni tozaladik.",
+          "en": "We cleaned the house."
+        },
+        {
+          "uz": "Men Toshkentdanman.",
+          "en": "I am from Tashkent."
+        },
+        {
+          "uz": "U ishdan qaytdi.",
+          "en": "He/she came back from work."
+        },
+        {
+          "uz": "Biz maktabdan chiqdik.",
+          "en": "We came out of the school."
+        },
+        {
+          "uz": "Otam do'kondan non oldi.",
+          "en": "My father bought bread from the shop."
+        },
+        {
+          "uz": "Men mashinani yuvaman.",
+          "en": "I wash the car."
+        },
+        {
+          "uz": "U xatni o'qidi.",
+          "en": "He/she read the letter."
+        },
+        {
+          "uz": "Biz Samarqanddan keldik.",
+          "en": "We came from Samarkand."
+        },
+        {
+          "uz": "Sen choyni ichdingmi?",
+          "en": "Did you drink the tea?"
+        },
+        {
+          "uz": "Men bu savolni tushunmadim.",
+          "en": "I didn't understand this question."
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "title": "Grammar: Present-Future Tense",
+      "titleNative": "Grammatika: hozirgi-kelasi zamon",
+      "topicId": "a1-present",
+      "items": [
+        {
+          "uz": "Men har kuni maktabga boraman.",
+          "en": "I go to school every day."
+        },
+        {
+          "uz": "Sen ertalab choy ichasan.",
+          "en": "You drink tea in the morning."
+        },
+        {
+          "uz": "U kitob o'qiydi.",
+          "en": "He/she reads a book."
+        },
+        {
+          "uz": "Biz birga ishlaymiz.",
+          "en": "We work together."
+        },
+        {
+          "uz": "Siz ertaga kelasizmi?",
+          "en": "Will you come tomorrow? (formal)"
+        },
+        {
+          "uz": "Ular har hafta bozorga boradi.",
+          "en": "They go to the market every week."
+        },
+        {
+          "uz": "Men ertaga ishlamayman.",
+          "en": "I won't work tomorrow."
+        },
+        {
+          "uz": "Onam kechqurun ovqat pishiradi.",
+          "en": "My mother cooks dinner in the evening."
+        },
+        {
+          "uz": "Biz yakshanba kuni dam olamiz.",
+          "en": "We rest on Sundays."
+        },
+        {
+          "uz": "Sen menga yordam berasanmi?",
+          "en": "Will you help me?"
+        },
+        {
+          "uz": "U har kuni sport bilan shug'ullanadi.",
+          "en": "He/she exercises every day."
+        },
+        {
+          "uz": "Men bu kitobni o'qiyman.",
+          "en": "I will read this book."
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "title": "Grammar: Simple Past",
+      "titleNative": "Grammatika: o'tgan zamon",
+      "topicId": "a1-past",
+      "items": [
+        {
+          "uz": "Men kecha bozorga bordim.",
+          "en": "I went to the market yesterday."
+        },
+        {
+          "uz": "Sen kitobni o'qidingmi?",
+          "en": "Did you read the book?"
+        },
+        {
+          "uz": "U kecha ishladi.",
+          "en": "He/she worked yesterday."
+        },
+        {
+          "uz": "Biz uyga qaytdik.",
+          "en": "We returned home."
+        },
+        {
+          "uz": "Siz qachon keldingiz?",
+          "en": "When did you arrive? (formal)"
+        },
+        {
+          "uz": "Ular kecha kelishdi.",
+          "en": "They arrived yesterday."
+        },
+        {
+          "uz": "Men bu filmni ko'rdim.",
+          "en": "I watched this movie."
+        },
+        {
+          "uz": "Onam kecha non yopdi.",
+          "en": "My mother baked bread yesterday."
+        },
+        {
+          "uz": "Biz Samarqandga bordik.",
+          "en": "We went to Samarkand."
+        },
+        {
+          "uz": "Sen menga qo'ng'iroq qildingmi?",
+          "en": "Did you call me?"
+        },
+        {
+          "uz": "U maktabni tugatdi.",
+          "en": "He/she finished school."
+        },
+        {
+          "uz": "Men bu xatni yozdim.",
+          "en": "I wrote this letter."
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "title": "Grammar: Negation",
+      "titleNative": "Grammatika: inkor shakli",
+      "topicId": "a1-negation",
+      "items": [
+        {
+          "uz": "Men talaba emasman.",
+          "en": "I am not a student."
+        },
+        {
+          "uz": "Bu mening kitobim emas.",
+          "en": "This is not my book."
+        },
+        {
+          "uz": "Men bugun ishlamayman.",
+          "en": "I am not working today."
+        },
+        {
+          "uz": "U kelmadi.",
+          "en": "He/she didn't come."
+        },
+        {
+          "uz": "Biz hali tayyor emasmiz.",
+          "en": "We are not ready yet."
+        },
+        {
+          "uz": "Sen charchamading-mi?",
+          "en": "Aren't you tired?"
+        },
+        {
+          "uz": "Men bu ovqatni yoqtirmayman.",
+          "en": "I don't like this food."
+        },
+        {
+          "uz": "U shifokor emas, o'qituvchi.",
+          "en": "He/she is not a doctor, a teacher."
+        },
+        {
+          "uz": "Biz kecha bormadik.",
+          "en": "We didn't go yesterday."
+        },
+        {
+          "uz": "Men buni tushunmadim.",
+          "en": "I didn't understand this."
+        },
+        {
+          "uz": "Ular hali kelishmadi.",
+          "en": "They haven't arrived yet."
+        },
+        {
+          "uz": "Bu qiyin emas.",
+          "en": "This is not difficult."
+        }
+      ]
+    }
+  ]
+}

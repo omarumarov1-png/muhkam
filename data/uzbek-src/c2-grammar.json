@@ -1,0 +1,377 @@
+{
+  "level": "c2",
+  "grammarTopics": {
+    "c2-immediately-after": {
+      "title": "Immediately After: -gach",
+      "pattern": "[verb stem] + -gach, [main clause]",
+      "explanation": "-gach marks one action as happening immediately upon the completion of another, tighter in sequence than the more neutral -gandan keyin: u kelgach, boshladik (as soon as he/she arrived, we started) implies almost no gap between the two events.",
+      "fact": "-gach is a converb that never takes a personal ending at all, unlike -gan (which does when used predicatively) -- it exists purely to glue one clause tightly to the next, with the sentence's real tense and person carried entirely by the final verb.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Xabarni olgach, nima qildingiz?",
+          "en": "As soon as you received the news, what did you do?"
+        },
+        {
+          "sp": "B",
+          "native": "Olgach, darhol qo'ng'iroq qildim.",
+          "en": "As soon as I received it, I called immediately."
+        }
+      ]
+    },
+    "c2-esa": {
+      "title": "Contrastive Topic: esa",
+      "pattern": "[topic], esa [contrasting comment]",
+      "explanation": "Esa marks a shift in topic with an implied contrast, close to \"as for X.../whereas\": men choy ichaman, u esa qahva ichadi (I drink tea, whereas he/she drinks coffee). It highlights the new topic against what was just said, without needing a separate word for \"but\".",
+      "fact": "Esa can also stand at the very start of a clause with no preceding contrast at all, simply to mark \"now, about this...\" when shifting attention to a new subject -- its contrastive reading comes from context, not from any built-in meaning of opposition.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Siz sportni yoqtirasizmi?",
+          "en": "Do you like sports?"
+        },
+        {
+          "sp": "B",
+          "native": "Men futbolni yoqtiraman, akam esa shaxmatni afzal ko'radi.",
+          "en": "I like football, whereas my older brother prefers chess."
+        }
+      ]
+    },
+    "c2-evidential-ekan": {
+      "title": "Mirative/Evidential: ekan",
+      "pattern": "[clause] + ekan (it turns out that ~ / apparently ~)",
+      "explanation": "Ekan marks information the speaker has just realized or learned indirectly, without the skepticism emish carries: u juda mehnatkash ekan (it turns out he/she is very hard-working) reports a fresh realization, treated as reliable, not doubted hearsay.",
+      "fact": "Ekan and emish both mark information not witnessed firsthand, but they split \"apparently\" into two flavors English doesn't distinguish grammatically: ekan for a neutral, credible discovery, emish for something the speaker is holding at arm's length -- choosing the wrong one subtly misrepresents how much the speaker actually believes it.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "U qanday odam ekan?",
+          "en": "What kind of person does he/she turn out to be?"
+        },
+        {
+          "sp": "B",
+          "native": "Juda mehribon ekan.",
+          "en": "He/she turns out to be very kind."
+        }
+      ]
+    },
+    "c2-poetic-yu": {
+      "title": "Elevated Coordination: -u / -yu",
+      "pattern": "[noun/clause] + -u/-yu + [noun/clause] (paired, emphatic \"and\")",
+      "explanation": "The enclitic -u (after a consonant) or -yu (after a vowel) links a pair into one vivid, often emotionally heightened image: kechayu kunduz (night and day, ceaselessly), yig'lay-yig'lay gapirdi is plain repetition, but kuni-yu tuni ishladi (he/she worked day and night) uses -u/-yu to fuse the pair into a single continuous stretch of time.",
+      "fact": "This coordination is reserved for elevated or literary register -- swapping it for the plain conjunction va (kun va tun, \"day and va night\") is grammatically fine but strips out the sense of relentless, unbroken continuity that -u/-yu specifically signals.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "U bu loyiha ustida qanday ishladi?",
+          "en": "How did he/she work on this project?"
+        },
+        {
+          "sp": "B",
+          "native": "Kechayu kunduz tinmay ishladi.",
+          "en": "He/she worked tirelessly, night and day."
+        }
+      ]
+    },
+    "c2-formal-passive-causative": {
+      "title": "Formal Register: Stacked Passive-Causative",
+      "pattern": "[stem] + -tir/-dir (causative) + -il/-in (passive) + [ending]",
+      "explanation": "Bureaucratic and legal Uzbek often stacks the causative and passive on one stem for an impersonal, formal tone: ko'rib chiqilishi so'raladi (\"it is requested that [it] be reviewed\") distances the sentence from any named actor entirely -- nobody is said to be doing or requesting anything, only that reviewing-of-it is being requested.",
+      "fact": "This stacked, actor-erasing structure is essentially never used in casual speech -- reaching for it (rather than a plain active sentence with a named subject) is itself a register marker, signaling \"this is an official document\" the same way passive constructions do in formal English.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Ariza qachon ko'rib chiqiladi?",
+          "en": "When will the application be reviewed?"
+        },
+        {
+          "sp": "B",
+          "native": "Belgilangan muddatda ko'rib chiqilishi so'raladi.",
+          "en": "It is requested that it be reviewed within the established period."
+        }
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "number": 109,
+      "title": "Grammar: Immediately After -gach",
+      "titleNative": "Grammatika: -gach zudlik ravishdoshi",
+      "topicId": "c2-immediately-after",
+      "items": [
+        {
+          "uz": "U kelgach, boshladik.",
+          "en": "As soon as he/she arrived, we started."
+        },
+        {
+          "uz": "Xabarni olgach, darhol javob berdim.",
+          "en": "As soon as I received the news, I responded immediately."
+        },
+        {
+          "uz": "Ish tugagach, uyga qaytdik.",
+          "en": "As soon as the work was finished, we returned home."
+        },
+        {
+          "uz": "Quyosh chiqqach, sayohatga jo'nadik.",
+          "en": "As soon as the sun rose, we set off on the journey."
+        },
+        {
+          "uz": "Imtihon tugagach, hammamiz nafas rostladik.",
+          "en": "As soon as the exam ended, we all took a breath of relief."
+        },
+        {
+          "uz": "U gapini aytgach, hamma jim qoldi.",
+          "en": "As soon as he/she said his/her piece, everyone fell silent."
+        },
+        {
+          "uz": "Poyezd kelgach, yo'lovchilar chiqishga tayyorlanishdi.",
+          "en": "As soon as the train arrived, passengers got ready to disembark."
+        },
+        {
+          "uz": "Yomg'ir to'xtagach, tashqariga chiqdik.",
+          "en": "As soon as the rain stopped, we went outside."
+        },
+        {
+          "uz": "Xat yetib borgach, javob kutdim.",
+          "en": "As soon as the letter arrived, I waited for a reply."
+        },
+        {
+          "uz": "U so'zlagach, hammaning ko'ziga yosh keldi.",
+          "en": "As soon as he/she spoke, tears came to everyone's eyes."
+        },
+        {
+          "uz": "Kelishuv imzolangach, ikkala tomon ham xursand bo'ldi.",
+          "en": "As soon as the agreement was signed, both sides were pleased."
+        },
+        {
+          "uz": "Uyg'ongach, darrov ishga tushdim.",
+          "en": "As soon as I woke up, I immediately got to work."
+        }
+      ]
+    },
+    {
+      "number": 110,
+      "title": "Grammar: Contrastive Topic esa",
+      "titleNative": "Grammatika: esa qarama-qarshilik yuklamasi",
+      "topicId": "c2-esa",
+      "items": [
+        {
+          "uz": "Men futbolni yoqtiraman, akam esa shaxmatni.",
+          "en": "I like football, whereas my older brother likes chess."
+        },
+        {
+          "uz": "Bugun issiq, ertaga esa sovuq bo'ladi.",
+          "en": "Today it's hot, whereas tomorrow it will be cold."
+        },
+        {
+          "uz": "U shaharda, men esa qishloqda yashayman.",
+          "en": "He/she lives in the city, whereas I live in the countryside."
+        },
+        {
+          "uz": "Onam choy ichadi, dadam esa qahva.",
+          "en": "My mother drinks tea, whereas my father drinks coffee."
+        },
+        {
+          "uz": "Birinchi savol oson, ikkinchisi esa qiyin edi.",
+          "en": "The first question was easy, whereas the second was difficult."
+        },
+        {
+          "uz": "U kelishga rozi, men esa hali ikkilanaman.",
+          "en": "He/she agrees to come, whereas I'm still hesitant."
+        },
+        {
+          "uz": "Bu yil yomg'ir kam, o'tgan yili esa juda ko'p edi.",
+          "en": "This year rain is scarce, whereas last year there was a lot."
+        },
+        {
+          "uz": "Ular shaharga ko'chib ketishdi, biz esa qoldik.",
+          "en": "They moved to the city, whereas we stayed."
+        },
+        {
+          "uz": "Men kitob o'qishni yaxshi ko'raman, u esa film ko'rishni.",
+          "en": "I love reading books, whereas he/she loves watching movies."
+        },
+        {
+          "uz": "Bu masala oson, keyingisi esa ancha murakkab.",
+          "en": "This issue is easy, whereas the next one is quite complex."
+        },
+        {
+          "uz": "U tez orada keladi, men esa biroz kechikaman.",
+          "en": "He/she will come soon, whereas I'll be a bit late."
+        },
+        {
+          "uz": "Bahor yaqinlashmoqda, qish esa asta orqaga chekinmoqda.",
+          "en": "Spring is approaching, whereas winter is slowly retreating."
+        }
+      ]
+    },
+    {
+      "number": 111,
+      "title": "Grammar: Evidential ekan",
+      "titleNative": "Grammatika: ekan xabar ravishi",
+      "topicId": "c2-evidential-ekan",
+      "items": [
+        {
+          "uz": "U juda mehnatkash ekan.",
+          "en": "It turns out he/she is very hard-working."
+        },
+        {
+          "uz": "Bu masala aslida oson ekan.",
+          "en": "It turns out this problem is actually easy."
+        },
+        {
+          "uz": "U ko'pdan beri shu yerda yashar ekan.",
+          "en": "It turns out he/she has been living here for a long time."
+        },
+        {
+          "uz": "Bu kitob juda qiziqarli ekan.",
+          "en": "It turns out this book is very interesting."
+        },
+        {
+          "uz": "U mendan yosh ekan.",
+          "en": "It turns out he/she is younger than me."
+        },
+        {
+          "uz": "Bu yerda ajoyib manzaralar bor ekan.",
+          "en": "It turns out there are wonderful views here."
+        },
+        {
+          "uz": "U bu haqda hammasini bilar ekan.",
+          "en": "It turns out he/she knows everything about this."
+        },
+        {
+          "uz": "Ob-havo bugun juda yaxshi ekan.",
+          "en": "It turns out the weather is very nice today."
+        },
+        {
+          "uz": "Bu ish aslida ancha murakkab ekan.",
+          "en": "It turns out this task is actually quite complex."
+        },
+        {
+          "uz": "U doim shunday kamtar ekan.",
+          "en": "It turns out he/she has always been this humble."
+        },
+        {
+          "uz": "Bu yo'l ancha uzoq ekan.",
+          "en": "It turns out this road is quite long."
+        },
+        {
+          "uz": "U bizni butunlay unutmagan ekan.",
+          "en": "It turns out he/she hadn't forgotten us at all."
+        }
+      ]
+    },
+    {
+      "number": 112,
+      "title": "Grammar: Elevated Coordination -u/-yu",
+      "titleNative": "Grammatika: -u/-yu yuksak uslub bog'lovchisi",
+      "topicId": "c2-poetic-yu",
+      "items": [
+        {
+          "uz": "Kechayu kunduz tinmay ishladi.",
+          "en": "He/she worked tirelessly, night and day."
+        },
+        {
+          "uz": "Kuni-yu tuni bir-birini o'ylab o'tkazishdi.",
+          "en": "They spent day and night thinking of each other."
+        },
+        {
+          "uz": "Yozu qish bir xil mehnat qildi.",
+          "en": "He/she worked the same, summer and winter."
+        },
+        {
+          "uz": "Erta-yu kech yo'lda edi.",
+          "en": "He/she was on the road, early and late."
+        },
+        {
+          "uz": "Uzoq-u yaqin, hammani xabardor qildi.",
+          "en": "Far and near, he/she informed everyone."
+        },
+        {
+          "uz": "Achchiq-u shirin kunlarni birga o'tkazdik.",
+          "en": "We spent bitter and sweet days together."
+        },
+        {
+          "uz": "Ko'z yoshi-yu kulgi aralash o'tgan bir kun edi.",
+          "en": "It was a day mixed with tears and laughter."
+        },
+        {
+          "uz": "Qish-u yoz bir xil mehr bilan kutib oldi.",
+          "en": "Winter and summer, he/she welcomed with the same warmth."
+        },
+        {
+          "uz": "Uzoq yillar-u qisqa lahzalarni xotirladi.",
+          "en": "He/she remembered long years and short moments."
+        },
+        {
+          "uz": "Yaxshi-yu yomon kunlarni birga bosib o'tdik.",
+          "en": "We went through good and bad days together."
+        },
+        {
+          "uz": "Tog'u tosh kezib, izlanishda davom etdi.",
+          "en": "Roaming mountains and rocks, he/she continued the search."
+        },
+        {
+          "uz": "Sovuq-u issiqqa qaramay, yo'lida davom etdi.",
+          "en": "Regardless of cold and heat, he/she continued on his/her way."
+        }
+      ]
+    },
+    {
+      "number": 113,
+      "title": "Grammar: Formal Stacked Passive-Causative",
+      "titleNative": "Grammatika: rasmiy uslub -tirilish",
+      "topicId": "c2-formal-passive-causative",
+      "items": [
+        {
+          "uz": "Ariza ko'rib chiqilishi so'raladi.",
+          "en": "It is requested that the application be reviewed."
+        },
+        {
+          "uz": "Hujjatlar taqdim etilishi lozim.",
+          "en": "The documents are required to be submitted."
+        },
+        {
+          "uz": "Ushbu masala aniqlantirilishi kerak.",
+          "en": "This matter needs to be clarified."
+        },
+        {
+          "uz": "Belgilangan tartib buzilmasligi ta'minlanishi shart.",
+          "en": "It is required that the established order not be violated."
+        },
+        {
+          "uz": "Qaror tegishli idoraga yetkazilishi kerak.",
+          "en": "The decision needs to be delivered to the relevant authority."
+        },
+        {
+          "uz": "Barcha talablar bajarilishi nazorat qilinadi.",
+          "en": "The fulfillment of all requirements is monitored."
+        },
+        {
+          "uz": "Ushbu ma'lumot maxfiy saqlanishi lozim.",
+          "en": "This information is required to be kept confidential."
+        },
+        {
+          "uz": "Xato tuzatilishi va qayta yuborilishi so'raladi.",
+          "en": "It is requested that the error be corrected and resent."
+        },
+        {
+          "uz": "Yig'ilish bayonnomasi imzolanishi kerak.",
+          "en": "The meeting minutes need to be signed."
+        },
+        {
+          "uz": "Ushbu qoida hamma tomonidan bajarilishi shart.",
+          "en": "This rule is required to be followed by everyone."
+        },
+        {
+          "uz": "Natijalar rasmiy ravishda e'lon qilinishi kutilmoqda.",
+          "en": "The results are expected to be officially announced."
+        },
+        {
+          "uz": "Loyiha muddatida yakunlanishi ta'minlanishi kerak.",
+          "en": "It is required that the project's completion on schedule be ensured."
+        }
+      ]
+    }
+  ]
+}
