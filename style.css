@@ -61,6 +61,32 @@
   }
 }
 
+/* Book: a warm hardcover-and-lamplight reading room rather than the
+   illuminated-manuscript gold/maroon of light/dark -- muted brass and
+   leather-burgundy instead of bright gold, a library-green third accent
+   instead of teal, and Lora (a screen-tuned book serif) standing in for
+   Inter as --font-body everywhere, not just headings. See the drop-cap,
+   paper-grain and page-shadow rules further down, all scoped to this theme
+   only so light/dark are untouched. */
+:root[data-theme="book"] {
+  --paper: #efe3cc;
+  --paper-raised: #f7efdd;
+  --paper-deep: #e2d2ab;
+  --ink: #2b2118;
+  --ink-soft: #6b5d48;
+  --gold: #8a6a2f;
+  --gold-bright: #ab8a44;
+  --gold-wash: #ecdfc0;
+  --maroon: #6b2e2e;
+  --maroon-wash: #e9d9d3;
+  --teal: #3f5d43;
+  --teal-wash: #dfe6dd;
+  --line: #cbb98f;
+  --shadow: rgba(43, 30, 10, 0.24);
+  --btn-shadow: #4a1f1f;
+  --font-body: "Lora", Georgia, serif;
+}
+
 * { box-sizing: border-box; }
 
 html, body {
@@ -103,6 +129,29 @@ body {
       radial-gradient(circle at 20% 10%, rgba(184, 144, 31, 0.05), transparent 40%),
       radial-gradient(circle at 85% 80%, rgba(122, 31, 43, 0.04), transparent 45%);
   }
+}
+
+/* Book theme's own corner ornament -- an open flourish/vine curl rather
+   than the geometric square-and-circle medallion the manuscript themes
+   use, so it reads as "old book endpaper" rather than "illuminated tile".
+   Layered with a fine feTurbulence paper-grain wash (::before, below) so
+   the page itself has tooth instead of looking like flat, unconsidered
+   cream -- the single detail that reads as "computer generated" fastest
+   when it's missing. */
+:root[data-theme="book"] {
+  --corner-gold: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='320' height='320'%3E%3Cg fill='none' stroke='%238a6a2f' stroke-width='1.6' opacity='0.22'%3E%3Cpath d='M24 170C24 90 90 24 170 24'/%3E%3Cpath d='M24 170C60 170 72 122 72 96'/%3E%3Cpath d='M170 24C170 60 122 72 96 72'/%3E%3Cpath d='M96 72C122 82 134 108 122 132'/%3E%3Ccircle cx='170' cy='24' r='5'/%3E%3Ccircle cx='24' cy='170' r='5'/%3E%3Ccircle cx='122' cy='132' r='4'/%3E%3C/g%3E%3C/svg%3E");
+  --corner-maroon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='280' height='280'%3E%3Cg fill='none' stroke='%236b2e2e' stroke-width='1.6' opacity='0.18'%3E%3Cpath d='M20 150C20 80 80 20 150 20'/%3E%3Cpath d='M20 150C52 150 62 108 62 84'/%3E%3Cpath d='M150 20C150 52 108 62 84 62'/%3E%3Ccircle cx='150' cy='20' r='4.5'/%3E%3Ccircle cx='20' cy='150' r='4.5'/%3E%3C/g%3E%3C/svg%3E");
+}
+:root[data-theme="book"] body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.5;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0.16  0 0 0 0 0.13  0 0 0 0 0.09  0 0 0 0.05 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 180px 180px;
 }
 
 @keyframes content-in {
@@ -247,9 +296,12 @@ button.stat:hover { color: var(--teal); }
   transition: border-color 0.15s ease, transform 0.15s ease;
 }
 .theme-toggle:hover { border-color: var(--gold); transform: rotate(12deg); }
-.theme-toggle .icon-moon { display: none; }
+.theme-toggle .icon-moon,
+.theme-toggle .icon-book { display: none; }
 :root[data-theme="dark"] .theme-toggle .icon-sun { display: none; }
 :root[data-theme="dark"] .theme-toggle .icon-moon { display: block; }
+:root[data-theme="book"] .theme-toggle .icon-sun { display: none; }
+:root[data-theme="book"] .theme-toggle .icon-book { display: block; }
 
 .sound-toggle {
   background: none;
@@ -1232,4 +1284,83 @@ button.stat:hover { color: var(--teal); }
   .modal-card { padding: 20px 18px 16px; }
   .stats { gap: 8px; }
   .course-toggle { padding: 0 8px; font-size: 0.72rem; }
+}
+
+/* ============ Book theme layout ============ */
+/* A page, not a tile: softer lifted-paper shadow instead of the flat
+   1px border + gold corner brackets the manuscript themes use, and a
+   touch more radius so cards read as leaves of a book rather than UI
+   panels. The corner brackets stay (via --corner-gold/--corner-maroon
+   swapped above) but fade further back so this new shadow carries the
+   depth instead. */
+:root[data-theme="book"] .card {
+  border-color: var(--paper-deep);
+  border-radius: 10px;
+  box-shadow:
+    0 1px 0 var(--paper-deep),
+    0 14px 30px -18px var(--shadow),
+    0 2px 10px -4px var(--shadow);
+}
+:root[data-theme="book"] .card::before,
+:root[data-theme="book"] .card::after {
+  opacity: 0.16;
+}
+
+/* Drop cap on the two places actual prose appears -- a reading passage's
+   opening line and a grammar note's explanation -- the single strongest
+   "this is a book, not an app" signal typography can give. Restricted to
+   ltr text: a floated initial breaks RTL scripts (Arabic/Hebrew), where
+   the "first" glyph visually sits on the wrong side of the line. */
+:root[data-theme="book"] .grammar-explanation::first-letter,
+:root[data-theme="book"] .passage-line:first-child .passage-native[dir="ltr"]::first-letter {
+  float: left;
+  font-family: var(--font-display);
+  font-size: 3.1em;
+  line-height: 0.78;
+  font-weight: 600;
+  padding: 0.04em 0.09em 0 0;
+  color: var(--maroon);
+}
+
+:root[data-theme="book"] .passage-native {
+  line-height: 2;
+}
+
+/* Space Mono's tight geometric digits read as "app UI", not "book" --
+   swap the level/exercise counters onto the display serif's oldstyle
+   figures so page numbers feel typeset rather than dashboard-metric. */
+:root[data-theme="book"] .level-progress-info .pct,
+:root[data-theme="book"] .level-count,
+:root[data-theme="book"] .q-kicker {
+  font-family: var(--font-display);
+}
+:root[data-theme="book"] .q-kicker {
+  font-style: italic;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  font-size: 0.98rem;
+}
+
+/* Progress bar as a ribbon bookmark rather than a flat UI meter -- needs
+   the track's overflow opened up so the ribbon's pointed tail can hang
+   below it instead of being clipped. */
+:root[data-theme="book"] .progress-track {
+  background: var(--paper-deep);
+  border-radius: 2px;
+  overflow: visible;
+}
+:root[data-theme="book"] .progress-fill {
+  background: linear-gradient(180deg, var(--maroon) 0%, var(--btn-shadow) 100%);
+  border-radius: 2px 2px 0 0;
+  position: relative;
+}
+:root[data-theme="book"] .progress-fill::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 100%;
+  width: 10px;
+  height: 8px;
+  background: var(--btn-shadow);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 55%, 0 100%);
 }

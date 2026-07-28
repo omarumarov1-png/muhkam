@@ -14,6 +14,7 @@
     { id: "hebrew", file: "data/courses-hebrew.json", label: "Hebrew — עברית", flag: "עברית" },
     { id: "kazakh", file: "data/courses-kazakh.json", label: "Kazakh — Қазақша", flag: "Қазақша" },
     { id: "chinese", file: "data/courses-chinese.json", label: "Chinese (Pinyin) — Zhōngwén", flag: "Zhōngwén" },
+    { id: "uzbek", file: "data/courses-uzbek.json", audioManifest: "data/audio-uzbek/manifest.json", label: "Uzbek — Oʻzbekcha", flag: "Oʻzbekcha" },
   ];
 
   // iOS Safari keeps a tapped <button> focused, which makes the
@@ -46,21 +47,23 @@
   const courseModal = document.getElementById("courseModal");
 
   // ---------- theme ----------
+  const THEME_CYCLE = ["light", "dark", "book"];
   function initTheme() {
     const stored = localStorage.getItem(THEME_KEY);
-    if (stored === "light" || stored === "dark") {
+    if (THEME_CYCLE.includes(stored)) {
       document.documentElement.setAttribute("data-theme", stored);
     }
   }
 
   function currentEffectiveTheme() {
     const attr = document.documentElement.getAttribute("data-theme");
-    if (attr === "light" || attr === "dark") return attr;
+    if (THEME_CYCLE.includes(attr)) return attr;
     return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
   }
 
   function toggleTheme() {
-    const next = currentEffectiveTheme() === "dark" ? "light" : "dark";
+    const cur = THEME_CYCLE.indexOf(currentEffectiveTheme());
+    const next = THEME_CYCLE[(cur + 1) % THEME_CYCLE.length];
     document.documentElement.setAttribute("data-theme", next);
     localStorage.setItem(THEME_KEY, next);
   }
@@ -261,8 +264,37 @@
   const SPEECH_RATE_SLOW = 0.55;
   let _currentUtterance = null;
   let _speakToken = 0;
+  // Pre-generated audio (currently only Uzbek): text -> {file, voice}, loaded
+  // from the active course's audioManifest path if it declares one. Some
+  // languages here (Uzbek, and previously Kazakh/Tajik) have no usable
+  // browser speechSynthesis voice at all, so without bundled audio their
+  // target-language text would simply never be spoken -- see resolveSpeech().
+  let audioManifest = {};
+  let _currentBundledAudio = null;
+  function playBundledAudio(entry, onEnd) {
+    if (_currentBundledAudio) { _currentBundledAudio.pause(); _currentBundledAudio = null; }
+    const audio = new Audio(`data/audio-uzbek/${entry.file}`);
+    _currentBundledAudio = audio;
+    let settled = false;
+    const settle = () => { if (settled) return; settled = true; if (onEnd) onEnd(); };
+    audio.addEventListener("ended", settle, { once: true });
+    audio.addEventListener("error", settle, { once: true });
+    audio.play().catch(settle);
+  }
   function speak(text, voice, onEnd, rate, onError) {
-    if (!soundEnabled || !("speechSynthesis" in window) || !voice) { if (onEnd) onEnd(); return; }
+    if (!soundEnabled) { if (onEnd) onEnd(); return; }
+    // Only the normal rate has a bundled recording -- slow replay falls
+    // through to speechSynthesis (silently doing nothing if there's no
+    // voice either, same as before bundled audio existed).
+    const bundled = (!rate || rate === SPEECH_RATE) && audioManifest[text];
+    if (bundled) {
+      if (window.speechSynthesis && (window.speechSynthesis.speaking || window.speechSynthesis.pending)) {
+        window.speechSynthesis.cancel();
+      }
+      playBundledAudio(bundled, onEnd);
+      return;
+    }
+    if (!("speechSynthesis" in window) || !voice) { if (onEnd) onEnd(); return; }
     const token = ++_speakToken;
     let settled = false;
     try {
@@ -309,6 +341,10 @@
     if (!_preferredVoiceEn && !_preferredVoiceTarget && !_preferredVoiceFa) refreshVoices();
     if (isEnglish) return _preferredVoiceEn ? { text, voice: _preferredVoiceEn } : null;
     if (_preferredVoiceTarget) return { text, voice: _preferredVoiceTarget };
+    // No browser voice for this target language -- bundled audio (Uzbek)
+    // still counts as speakable even with voice: null, since speak() checks
+    // the manifest before it ever looks at the voice argument.
+    if (audioManifest[text]) return { text, voice: null };
     if (ex && ex.farsi && _preferredVoiceFa) return { text: ex.farsi, voice: _preferredVoiceFa };
     return null;
   }
@@ -509,11 +545,19 @@
   // ---------- boot ----------
   async function loadCourseData(courseId) {
     const meta = COURSES.find(c => c.id === courseId) || COURSES[0];
-    const res = await fetch(meta.file);
+    const [res, manifestRes] = await Promise.all([
+      fetch(meta.file),
+      meta.audioManifest ? fetch(meta.audioManifest).catch(() => null) : Promise.resolve(null),
+    ]);
     if (!res.ok) throw new Error("Failed to load course data");
     const data = await res.json();
     course = data.course;
     course.id = meta.id;
+    if (manifestRes && manifestRes.ok) {
+      try { audioManifest = await manifestRes.json(); } catch (e) { audioManifest = {}; }
+    } else {
+      audioManifest = {};
+    }
     _voicePollAttempts = 0;
     pollVoicesUntilFound();
 
@@ -1335,7 +1379,10 @@
       // One last synchronous re-scan in case the background poll gave up
       // before this particular device finished loading its voice list.
       if (!_preferredVoiceTarget) refreshVoices();
-      if (!_preferredVoiceTarget) { showAudioDiag(diagEl, "no-voice"); return; }
+      // Bundled audio (Uzbek) is speakable even with no browser voice at
+      // all -- speak() checks the manifest before it ever looks at the
+      // voice argument, so only bail out here if neither exists.
+      if (!_preferredVoiceTarget && !audioManifest[text]) { showAudioDiag(diagEl, "no-voice"); return; }
       if (diagEl) diagEl.classList.add("hidden");
       stage.classList.add("playing");
       speak(text, _preferredVoiceTarget, () => stage.classList.remove("playing"), rate,
