@@ -1,0 +1,155 @@
+{
+  "level": "b1",
+  "grammarTopics": {
+    "b1-quantifiers": {
+      "title": "Quantifiers: har, hamma, ba'zi",
+      "pattern": "har + [singular noun] (each/every) · hamma (everyone/all) · ba'zi + [noun] (some)",
+      "explanation": "Har combines with a singular noun for \"every\": har kuni (every day), har bir odam (each and every person). Hamma stands alone for \"everyone/everything\": hamma biladi (everyone knows). Ba'zi precedes a noun for \"some\": ba'zi odamlar (some people).",
+      "fact": "Har always takes a SINGULAR noun even though its meaning is distributive/plural in effect (har bir odam, never har odamlar) -- much like English \"every day\" stays singular even while covering all days, Uzbek locks the noun to singular grammatically no matter how universal the meaning is.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Hamma bu haqda bilarmikan?",
+          "en": "I wonder if everyone knows about this."
+        },
+        {
+          "sp": "B",
+          "native": "Yo'q, faqat ba'zi odamlar biladi.",
+          "en": "No, only some people know."
+        }
+      ]
+    },
+    "b1-purpose-sin-uchun": {
+      "title": "Purpose (3rd person): -sin uchun",
+      "pattern": "[verb stem] + -sin + uchun, [main clause]",
+      "explanation": "To express purpose involving a third party (\"so that he/she would...\"), Uzbek combines the jussive -sin (\"let him/her ~\") with uchun: u tushunsin uchun tushuntirdim (I explained so that he/she would understand).",
+      "fact": "This reuses -sin from its more basic \"let him/her do it\" command sense (kelsin! -- \"let him/her come!\") -- purpose-for-a-third-party in Uzbek is literally built as \"so that [let-it-happen], I did X\", folding a mild command into a purpose clause.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Nega bu qadar batafsil yozdingiz?",
+          "en": "Why did you write in such detail?"
+        },
+        {
+          "sp": "B",
+          "native": "Hamma tushunsin uchun batafsil yozdim.",
+          "en": "I wrote in detail so that everyone would understand."
+        }
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "number": 129,
+      "title": "Grammar: Quantifiers",
+      "titleNative": "Grammatika: miqdor olmoshlari",
+      "topicId": "b1-quantifiers",
+      "items": [
+        {
+          "uz": "Har kuni ertalab yuguraman.",
+          "en": "I run every morning."
+        },
+        {
+          "uz": "Hamma bu xabarni bilardi.",
+          "en": "Everyone knew this news."
+        },
+        {
+          "uz": "Ba'zi odamlar bunga ishonmaydi.",
+          "en": "Some people don't believe this."
+        },
+        {
+          "uz": "Har bir talaba imtihon topshirishi kerak.",
+          "en": "Every student must take the exam."
+        },
+        {
+          "uz": "Hamma narsa tayyor.",
+          "en": "Everything is ready."
+        },
+        {
+          "uz": "Ba'zi kitoblar juda qimmat.",
+          "en": "Some books are very expensive."
+        },
+        {
+          "uz": "Har safar u kechikadi.",
+          "en": "Every time, he/she is late."
+        },
+        {
+          "uz": "Hamma bu yerga yig'ildi.",
+          "en": "Everyone gathered here."
+        },
+        {
+          "uz": "Ba'zi kunlar juda qiyin bo'ladi.",
+          "en": "Some days are very difficult."
+        },
+        {
+          "uz": "Har bir ish o'z vaqtida bajarilishi kerak.",
+          "en": "Every task must be completed on time."
+        },
+        {
+          "uz": "Hamma xursand edi.",
+          "en": "Everyone was happy."
+        },
+        {
+          "uz": "Ba'zi savollarga javob topa olmadim.",
+          "en": "I couldn't find answers to some questions."
+        }
+      ]
+    },
+    {
+      "number": 130,
+      "title": "Grammar: Purpose -sin uchun",
+      "titleNative": "Grammatika: -sin uchun maqsad",
+      "topicId": "b1-purpose-sin-uchun",
+      "items": [
+        {
+          "uz": "U tushunsin uchun tushuntirdim.",
+          "en": "I explained so that he/she would understand."
+        },
+        {
+          "uz": "Hamma eshitsin uchun ovozimni ko'tardim.",
+          "en": "I raised my voice so that everyone would hear."
+        },
+        {
+          "uz": "Bola uxlasin uchun chiroqni o'chirdim.",
+          "en": "I turned off the light so that the child would sleep."
+        },
+        {
+          "uz": "U kelsin uchun xat yozdim.",
+          "en": "I wrote a letter so that he/she would come."
+        },
+        {
+          "uz": "Hammaga yetsin uchun ko'proq ovqat tayyorladik.",
+          "en": "We prepared more food so that there would be enough for everyone."
+        },
+        {
+          "uz": "U xotirjam bo'lsin uchun unga rost gapni aytmadim.",
+          "en": "I didn't tell him/her the truth so that he/she would stay calm."
+        },
+        {
+          "uz": "Ishlar tez bitsin uchun yordamlashdim.",
+          "en": "I helped so that the work would finish quickly."
+        },
+        {
+          "uz": "Bolalar to'g'ri o'ssin uchun ularga g'amxo'rlik qildik.",
+          "en": "We took care of the children so that they would grow up right."
+        },
+        {
+          "uz": "U meni kechirsin uchun uzr so'radim.",
+          "en": "I apologized so that he/she would forgive me."
+        },
+        {
+          "uz": "Hamma xavfsiz bo'lsin uchun qoidalarga rioya qildik.",
+          "en": "We followed the rules so that everyone would be safe."
+        },
+        {
+          "uz": "U tinchlansin uchun yoniga o'tirdim.",
+          "en": "I sat next to him/her so that he/she would calm down."
+        },
+        {
+          "uz": "Ish oson bo'lsin uchun rejalashtirdik.",
+          "en": "We planned so that the task would be easy."
+        }
+      ]
+    }
+  ]
+}

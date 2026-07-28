@@ -1,0 +1,155 @@
+{
+  "level": "b2plus",
+  "grammarTopics": {
+    "b2plus-continuative": {
+      "title": "Continuative Aspect: -avermoq",
+      "pattern": "[verb stem] + -aver + [tense ending] (keep on ~ing)",
+      "explanation": "-avermoq (from -a + vermoq, \"to give\") marks an action continuing without stopping: u kutib turaverdi (he/she kept on waiting), gapiraverdi (he/she kept on talking). It can also soften a command into permission to continue: gapiraveringiz (please, go on talking).",
+      "fact": "Vermoq (\"to give\") turns up as a grammaticalized helper verb here with no sense of \"giving\" left at all -- it's been repurposed purely to mark that an action keeps going, one of several originally full verbs in Uzbek (bor-, ol-, tur-) that have been hollowed out into pure aspect markers.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "U hali ham kutyaptimi?",
+          "en": "Is he/she still waiting?"
+        },
+        {
+          "sp": "B",
+          "native": "Ha, hech qayoqqa ketmay, kutib turaverdi.",
+          "en": "Yes, without going anywhere, he/she kept on waiting."
+        }
+      ]
+    },
+    "b2plus-converb-reduplication": {
+      "title": "Converb Reduplication for Vividness",
+      "pattern": "[converb]-[same converb], [main clause]",
+      "explanation": "Repeating a converb in -(i)b back-to-back paints a vivid, drawn-out picture of an action happening repeatedly or continuously alongside the main clause: yig'lab-yig'lab gapirdi (he/she spoke while crying and crying / spoke through repeated tears), kulib-kulib hikoya qildi (he/she told the story laughing and laughing).",
+      "fact": "This reduplication is a purely stylistic intensifier -- yig'lab gapirdi (single converb) and yig'lab-yig'lab gapirdi both mean \"spoke while crying\", but only the doubled form conveys that the crying was repeated, drawn-out, or emotionally heightened, the way English might reach for \"crying and crying\" instead of just \"crying\".",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "U voqeani qanday aytib berdi?",
+          "en": "How did he/she tell the story?"
+        },
+        {
+          "sp": "B",
+          "native": "Yig'lab-yig'lab, zo'rg'a gapirdi.",
+          "en": "Crying and crying, he/she barely managed to speak."
+        }
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "number": 144,
+      "title": "Grammar: Continuative -avermoq",
+      "titleNative": "Grammatika: -avermoq davomiylik",
+      "topicId": "b2plus-continuative",
+      "items": [
+        {
+          "uz": "U kutib turaverdi.",
+          "en": "He/she kept on waiting."
+        },
+        {
+          "uz": "Men ishlayveraman.",
+          "en": "I'll keep on working."
+        },
+        {
+          "uz": "U gapiraverdi, hech kim tinglamadi.",
+          "en": "He/she kept on talking, nobody listened."
+        },
+        {
+          "uz": "Bola yig'layverdi.",
+          "en": "The child kept on crying."
+        },
+        {
+          "uz": "Siz dam olaveringiz, men tugataman.",
+          "en": "Please keep resting, I'll finish."
+        },
+        {
+          "uz": "U yozaverdi, toki kitob tugagunicha.",
+          "en": "He/she kept on writing until the book was finished."
+        },
+        {
+          "uz": "Biz yuraverdik, manzilga yetguncha.",
+          "en": "We kept on walking until we reached the destination."
+        },
+        {
+          "uz": "U kulaverdi, gapim tugamasidan.",
+          "en": "He/she kept on laughing, even before I finished speaking."
+        },
+        {
+          "uz": "Siz o'qiyveringiz, men eshityapman.",
+          "en": "Please keep reading, I'm listening."
+        },
+        {
+          "uz": "Bola o'ynayverdi, charchamasdan.",
+          "en": "The child kept on playing, without getting tired."
+        },
+        {
+          "uz": "U izlayverdi, toki topguncha.",
+          "en": "He/she kept on searching until he/she found it."
+        },
+        {
+          "uz": "Biz kutaveramiz, u kelguncha.",
+          "en": "We'll keep on waiting until he/she comes."
+        }
+      ]
+    },
+    {
+      "number": 145,
+      "title": "Grammar: Converb Reduplication",
+      "titleNative": "Grammatika: ravishdosh takrori",
+      "topicId": "b2plus-converb-reduplication",
+      "items": [
+        {
+          "uz": "Yig'lab-yig'lab gapirdi.",
+          "en": "He/she spoke while crying and crying."
+        },
+        {
+          "uz": "Kulib-kulib hikoya qildi.",
+          "en": "He/she told the story laughing and laughing."
+        },
+        {
+          "uz": "Yugurib-yugurib keldi.",
+          "en": "He/she came running and running."
+        },
+        {
+          "uz": "Titrab-titrab gapga tushdi.",
+          "en": "Trembling and trembling, he/she began to speak."
+        },
+        {
+          "uz": "O'ylab-o'ylab, oxiri qaror qildi.",
+          "en": "Thinking and thinking, he/she finally decided."
+        },
+        {
+          "uz": "Kutib-kutib, umidini uzdi.",
+          "en": "Waiting and waiting, he/she lost hope."
+        },
+        {
+          "uz": "Yozib-yozib, kitobni tugatdi.",
+          "en": "Writing and writing, he/she finished the book."
+        },
+        {
+          "uz": "So'rab-so'rab, uyni topdi.",
+          "en": "Asking and asking, he/she found the house."
+        },
+        {
+          "uz": "Kula-kula, hazil qildi.",
+          "en": "Laughing away, he/she joked."
+        },
+        {
+          "uz": "Tinmay-tinmay ishladi.",
+          "en": "He/she worked without stopping at all."
+        },
+        {
+          "uz": "Izlab-izlab, hech narsa topmadi.",
+          "en": "Searching and searching, he/she found nothing."
+        },
+        {
+          "uz": "Chopib-chopib, nihoyat yetib bordi.",
+          "en": "Running and running, he/she finally arrived."
+        }
+      ]
+    }
+  ]
+}

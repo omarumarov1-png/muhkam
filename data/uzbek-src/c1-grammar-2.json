@@ -1,0 +1,155 @@
+{
+  "level": "c1",
+  "grammarTopics": {
+    "c1-speaker-inference": {
+      "title": "Speaker's Own Inference: shekilli",
+      "pattern": "[clause] + shekilli (it seems/apparently, based on what I observe)",
+      "explanation": "Shekilli hedges a claim as the SPEAKER's own inference from visible evidence, distinct from ekan (a fresh discovery), emish (distanced hearsay), and -mikan (wondering aloud): u charchagan shekilli (he/she seems tired [judging by how he/she looks]).",
+      "fact": "Uzbek grammatically distinguishes at least four flavors of \"apparently\" that English collapses into one word -- shekilli (my own visual/contextual inference), ekan (a fact I just discovered), emish (something I heard secondhand, held at a distance), and -mikan (my own open-ended wondering) -- and mixing them up is one of the clearest tells of a non-native speaker at this level.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "U nega bunday jim?",
+          "en": "Why is he/she so quiet?"
+        },
+        {
+          "sp": "B",
+          "native": "Charchagan shekilli, kun bo'yi ishladi.",
+          "en": "He/she seems tired, worked all day."
+        }
+      ]
+    },
+    "c1-on-the-verge": {
+      "title": "On the Verge Of: -gudek",
+      "pattern": "[verb stem] + -gudek + bo'lmoq (to be on the verge of ~ing / to such an extent that ~)",
+      "explanation": "-gudek combined with bo'lmoq expresses being right on the edge of an action or state: yig'lagudek bo'ldi (he/she was on the verge of crying). It can also intensify a description to an extreme degree: kulgudek gap emas (it's not a laughing matter, literally \"not talk to the extent of laughing\").",
+      "fact": "-gudek shares its -dek ending with the plain simile suffix (sher dek, \"like a lion\") and with -gandek (\"as if\") -- all three compare something to a reference point, but -gudek's reference point is a threshold not yet crossed, making it the only one of the three pointing at something imminent rather than already true or merely apparent.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "U bu xabarni eshitib nima qildi?",
+          "en": "What did he/she do upon hearing this news?"
+        },
+        {
+          "sp": "B",
+          "native": "Yig'lagudek bo'ldi, ammo o'zini tutib qoldi.",
+          "en": "He/she was on the verge of crying, but held himself/herself together."
+        }
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "number": 149,
+      "title": "Grammar: Speaker's Inference shekilli",
+      "titleNative": "Grammatika: shekilli taxmin",
+      "topicId": "c1-speaker-inference",
+      "items": [
+        {
+          "uz": "U charchagan shekilli.",
+          "en": "He/she seems tired."
+        },
+        {
+          "uz": "Bugun havo yaxshi bo'lar shekilli.",
+          "en": "The weather seems like it will be good today."
+        },
+        {
+          "uz": "U bu haqda bilmagan shekilli.",
+          "en": "It seems he/she didn't know about this."
+        },
+        {
+          "uz": "Ular allaqachon ketishgan shekilli.",
+          "en": "It seems they have already left."
+        },
+        {
+          "uz": "Bu ish unga yoqmagan shekilli.",
+          "en": "It seems this work didn't please him/her."
+        },
+        {
+          "uz": "U bugun band shekilli.",
+          "en": "He/she seems busy today."
+        },
+        {
+          "uz": "Yomg'ir yog'ar shekilli.",
+          "en": "It seems like it will rain."
+        },
+        {
+          "uz": "U meni tanimagan shekilli.",
+          "en": "It seems he/she didn't recognize me."
+        },
+        {
+          "uz": "Bu masala hal bo'lgan shekilli.",
+          "en": "It seems this matter has been resolved."
+        },
+        {
+          "uz": "U bu yerga kelmagan shekilli.",
+          "en": "It seems he/she hasn't come here."
+        },
+        {
+          "uz": "Bola uxlab qolgan shekilli.",
+          "en": "It seems the child has fallen asleep."
+        },
+        {
+          "uz": "Ular bu haqda gaplashgan shekilli.",
+          "en": "It seems they've talked about this."
+        }
+      ]
+    },
+    {
+      "number": 150,
+      "title": "Grammar: On the Verge -gudek",
+      "titleNative": "Grammatika: -gudek chegara holati",
+      "topicId": "c1-on-the-verge",
+      "items": [
+        {
+          "uz": "U yig'lagudek bo'ldi.",
+          "en": "He/she was on the verge of crying."
+        },
+        {
+          "uz": "Men kulgudek bo'ldim.",
+          "en": "I was on the verge of laughing."
+        },
+        {
+          "uz": "Bu kulgudek gap emas.",
+          "en": "This isn't a laughing matter."
+        },
+        {
+          "uz": "U charchagudek darajada ishladi.",
+          "en": "He/she worked to the point of exhaustion."
+        },
+        {
+          "uz": "Bola qo'rqqudek bo'ldi.",
+          "en": "The child was on the verge of getting scared."
+        },
+        {
+          "uz": "U jahli chiqqudek bo'ldi.",
+          "en": "He/she was on the verge of getting angry."
+        },
+        {
+          "uz": "Men uyalgudek ish qildim.",
+          "en": "I did something to be ashamed of."
+        },
+        {
+          "uz": "U yiqilgudek holga keldi.",
+          "en": "He/she was on the verge of collapsing."
+        },
+        {
+          "uz": "Bu hazil kulgudek emas edi.",
+          "en": "This joke wasn't funny at all."
+        },
+        {
+          "uz": "U hayratlangudek natijaga erishdi.",
+          "en": "He/she achieved a result that was astonishing."
+        },
+        {
+          "uz": "Bola yig'lagudek bo'lib, onasiga yugurdi.",
+          "en": "On the verge of crying, the child ran to his/her mother."
+        },
+        {
+          "uz": "U hushidan ketgudek bo'ldi.",
+          "en": "He/she was on the verge of fainting."
+        }
+      ]
+    }
+  ]
+}
