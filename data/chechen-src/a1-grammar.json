@@ -1,0 +1,147 @@
+{
+  "level": "a1",
+  "grammarTopics": {
+    "a1-copula": {
+      "title": "The Noun-Class Copula: ву / ю / ду",
+      "pattern": "[subject] + ву (masculine) / ю (feminine) / ду (default, abstract) -- negative: вац / яц / дац",
+      "explanation": "Chechen's \"to be\" isn't one fixed word -- it changes shape to agree with the grammatical class of its subject. A male referent takes ву (Со дика ву -- I am well, said by a man), a female referent takes ю (Со дика ю -- said by a woman), and most other subjects -- abstract statements and categories -- take ду. Each has a matching negative: вац, яц, дац.",
+      "fact": "This class-agreement system is one of the defining features of the Northeast Caucasian language family Chechen belongs to -- the same в-/й-/д- markers shown here on the copula reappear as prefixes on many other verbs and adjectives throughout the language, not just this one word. A fourth form, бу, exists for a further noun class (confirmed textbook examples: малх бу -- \"there is sun/it's sunny\", and Iаж бу -- \"it's an apple\") -- its full usage range isn't covered here yet, only these two specific attested words.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Хьо мила ву?",
+          "en": "Who are you?"
+        },
+        {
+          "sp": "B",
+          "native": "Со хьан ваша ву. Со дика ву.",
+          "en": "I am your brother. I am well."
+        }
+      ]
+    },
+    "a1-pronouns": {
+      "title": "Personal Pronouns & Their Genitive (Possessive) Forms",
+      "pattern": "со→сан (my) · хьо→хьан (your) · иза→цуьнан (his/her) · тхо→тхан (our, excl.) · вай→вайн (our, incl.) · шу→шун (your, pl.) · уьш→церан (their)",
+      "explanation": "Chechen forms possessives by putting the personal pronoun into its genitive case, not with a separate possessive word: со (I) becomes сан (my), хьо (you) becomes хьан (your), иза (he/she/it) becomes цуьнан (his/her). Chechen also splits \"we\" in two: тхо/тхан excludes the listener, вай/вайн includes them.",
+      "fact": "The noun \"name\" (цIе) is grammatically feminine (й-class) no matter whose name is being given -- Сан цIе Ахьмад ю (\"My name is Ahmad\") takes ю even though Ahmad himself would take ву -- the copula agrees with цIе, the word for \"name\" itself, not with the person it names.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Хьан цIе хIун ю?",
+          "en": "What is your name?"
+        },
+        {
+          "sp": "B",
+          "native": "Сан цIе Ахьмад ю. Хьан цIе хIун ю?",
+          "en": "My name is Ahmad. What is your name?"
+        }
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "number": 4,
+      "title": "Grammar: The Noun-Class Copula",
+      "titleNative": "Грамматика: тайпанан дийриг",
+      "topicId": "a1-copula",
+      "items": [
+        {
+          "ce": "Со дика ву.",
+          "en": "I am well. (male speaker)"
+        },
+        {
+          "ce": "Со дика ю.",
+          "en": "I am well. (female speaker)"
+        },
+        {
+          "ce": "Со дика вац.",
+          "en": "I am not well. (male speaker)"
+        },
+        {
+          "ce": "Со дика яц.",
+          "en": "I am not well. (female speaker)"
+        },
+        {
+          "ce": "Из дика ву.",
+          "en": "He is well."
+        },
+        {
+          "ce": "Из дика ю.",
+          "en": "She is well."
+        },
+        {
+          "ce": "Из дика ду.",
+          "en": "That is good."
+        },
+        {
+          "ce": "Из дика дац.",
+          "en": "That is not good."
+        },
+        {
+          "ce": "Тхо дика ду.",
+          "en": "We are well."
+        },
+        {
+          "ce": "Вай дика ду.",
+          "en": "We (you and I) are well."
+        },
+        {
+          "ce": "Малх бу.",
+          "en": "It's sunny. (lit. there is sun)"
+        },
+        {
+          "ce": "Iаж бу.",
+          "en": "It's an apple."
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Grammar: Personal Pronouns & Possessives",
+      "titleNative": "Грамматика: цIердешаш а, царах морфаш а",
+      "topicId": "a1-pronouns",
+      "items": [
+        {
+          "ce": "Сан цIе Ахьмад ю.",
+          "en": "My name is Ahmad."
+        },
+        {
+          "ce": "Хьан цIе хIун ю?",
+          "en": "What is your name?"
+        },
+        {
+          "ce": "Цуьнан цIе Зарема ю.",
+          "en": "Her name is Zarema."
+        },
+        {
+          "ce": "Иза Ислам ву.",
+          "en": "He is Islam."
+        },
+        {
+          "ce": "Тхан да ву.",
+          "en": "We (excl.) have a father."
+        },
+        {
+          "ce": "Вайн да ву.",
+          "en": "We (incl.) have a father."
+        },
+        {
+          "ce": "Шун да мила ву?",
+          "en": "Who is your (pl.) father?"
+        },
+        {
+          "ce": "Церан да ву.",
+          "en": "They have a father."
+        },
+        {
+          "ce": "Иза цуьнан ваша ву.",
+          "en": "He is her brother."
+        },
+        {
+          "ce": "Хьан ваша мила ву?",
+          "en": "Who is your brother?"
+        }
+      ]
+    }
+  ]
+}
