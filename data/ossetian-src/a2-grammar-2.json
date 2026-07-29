@@ -1,0 +1,95 @@
+{
+  "level": "a2",
+  "grammarTopics": {
+    "a2-possession": {
+      "title": "Possession: мӕ (my) & дӕ (your)",
+      "pattern": "мӕ + [noun] (my ~) · дӕ + [noun] (your ~)",
+      "explanation": "мӕ and дӕ go directly before the noun they possess, with no other change to the noun itself: мӕ телефон (my phone), дӕ къухтӕ (your hands). дӕ is the same word you already know as the \"you are\" copula (дӕ) -- Ossetian genuinely reuses this one small word for both jobs, and context tells them apart.",
+      "fact": "\"Мӕ телефон дзуры!\" (\"My phone is ringing!\") uses дзуры, the same verb that usually means \"speaks\" -- Ossetian extends \"speak\" to cover a ringing phone, much like some English speakers might say a phone is \"talking\" to them.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Дӕ къухтӕ ныхсадтай?",
+          "en": "Did you wash your hands?"
+        },
+        {
+          "sp": "B",
+          "native": "О, мӕ къухтӕ хорз сты.",
+          "en": "Yes, my hands are good (clean)."
+        }
+      ]
+    },
+    "a2-origin": {
+      "title": "Origin: -ӕй (from a place)",
+      "pattern": "[place]+ӕй + дӕн/дӕ/у (I am/you are/he-she-it is from ~)",
+      "explanation": "To say where someone is from, Ossetian adds -ӕй directly onto the place name and follows it with the copula: Аргентинӕйӕ дӕн (I'm from Argentina), Берлинӕй дӕ? (are you from Berlin?). This course only uses -ӕй with these two specific place names, both independently confirmed -- the suffix likely generalizes to other places too, but that hasn't been confirmed here yet.",
+      "fact": "The two confirmed examples (Argentina, Berlin) are both foreign place names borrowed into Ossetian largely as-is, with just -ӕй added -- a good sign that this suffix attaches easily to loanwords, though the details for native Ossetian place names aren't confirmed yet.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Берлинӕй дӕ?",
+          "en": "Are you from Berlin?"
+        },
+        {
+          "sp": "B",
+          "native": "Нӕ, ӕз Аргентинӕйӕ дӕн.",
+          "en": "No, I'm from Argentina."
+        }
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "number": 23,
+      "title": "Grammar: Possession мӕ & дӕ",
+      "titleNative": "Грамматикӕ: мӕ ӕмӕ дӕ",
+      "topicId": "a2-possession",
+      "items": [
+        {
+          "os": "Мӕ телефон дзуры.",
+          "en": "My phone is ringing."
+        },
+        {
+          "os": "Мӕ мад хорз у.",
+          "en": "My mother is good."
+        },
+        {
+          "os": "Мӕ фыр стонг у.",
+          "en": "My ram is hungry."
+        },
+        {
+          "os": "Дӕ къухтӕ хорз сты.",
+          "en": "Your hands are good (clean)."
+        },
+        {
+          "os": "Дӕ куыдз стыр у.",
+          "en": "Your dog is big."
+        },
+        {
+          "os": "Мӕ бӕх тынг хъӕздыг у.",
+          "en": "My horse is very rich (well-off)."
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "title": "Grammar: Origin -ӕй",
+      "titleNative": "Грамматикӕ: -ӕй",
+      "topicId": "a2-origin",
+      "items": [
+        {
+          "os": "Ӕз Аргентинӕйӕ дӕн.",
+          "en": "I'm from Argentina."
+        },
+        {
+          "os": "Берлинӕй дӕ?",
+          "en": "Are you from Berlin?"
+        },
+        {
+          "os": "Нӕ, ӕз Аргентинӕйӕ дӕн.",
+          "en": "No, I'm from Argentina."
+        }
+      ]
+    }
+  ]
+}
