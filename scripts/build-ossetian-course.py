@@ -140,20 +140,11 @@ def compile_regular_lesson(level, lesson, en_pool_by_level, word_pool):
             "answer": tokens,
         })
 
-        # Bundled audio (data/audio-ossetian/manifest.json, facebook/mms-tts-oss)
-        # makes listening/listening-tap viable from the start.
-        if i % 3 == 0:
-            d2 = sample_distractors(en, level, en_pool_by_level)
-            opts2 = [en] + d2
-            random.shuffle(opts2)
-            exercises.append({
-                "type": "listening",
-                "native": os_text,
-                "options": opts2,
-                "answerIndex": opts2.index(en),
-            })
-        elif i % 3 == 1:
-            exercises.append({"type": "listening-tap", "native": os_text, "answer": tokens})
+        # No "listening"/"listening-tap" exercises for Ossetian -- these are
+        # audio-first exercise types and the bundled TTS (mms-tts-oss)
+        # audio quality wasn't good enough to build exercises around. The
+        # audio manifest is kept and still powers the pronunciation-replay
+        # button on other exercise types.
 
         if i % 4 == 3:
             blank_word, blanked_en = pick_blank(en)

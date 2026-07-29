@@ -135,21 +135,11 @@ def compile_regular_lesson(level, lesson, en_pool_by_level, word_pool):
             "answer": tokens,
         })
 
-        # Bundled audio (data/audio-chechen/manifest.json, Silero b_che)
-        # makes listening/listening-tap viable from the start, same as
-        # Uzbek's second pass.
-        if i % 3 == 0:
-            d2 = sample_distractors(en, level, en_pool_by_level)
-            opts2 = [en] + d2
-            random.shuffle(opts2)
-            exercises.append({
-                "type": "listening",
-                "native": ce,
-                "options": opts2,
-                "answerIndex": opts2.index(en),
-            })
-        elif i % 3 == 1:
-            exercises.append({"type": "listening-tap", "native": ce, "answer": tokens})
+        # No "listening"/"listening-tap" exercises for Chechen -- these are
+        # audio-first exercise types and the bundled TTS (Silero b_che)
+        # audio quality wasn't good enough to build exercises around. The
+        # audio manifest is kept and still powers the pronunciation-replay
+        # button on other exercise types.
 
         if i % 4 == 3:
             blank_word, blanked_en = pick_blank(en)
