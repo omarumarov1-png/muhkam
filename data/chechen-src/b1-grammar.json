@@ -54,6 +54,24 @@
           "en": "No, I don't know him."
         }
       ]
+    },
+    "b1-present-alternation": {
+      "title": "Present Tense: Vowel Alternation",
+      "pattern": "[citation-form stem, vowel A] -> [present-tense stem, vowel B]",
+      "explanation": "The Chechen present tense isn't built by adding a suffix -- it's built by changing the stem's own vowel, following a handful of recurring patterns: мала (\"to drink\") becomes молу (\"drink/drinks\"), дохка (\"to sell\") becomes духку (\"sell/sells\"), дижа (\"to sleep\") becomes дуьжу (\"sleep/sleeps\"), хила (\"to be/happen\") becomes хуьлу (\"is/happens\"). The same present-tense form covers every grammatical person -- Chechen verbs don't change for \"I/you/he\" the way English or Russian verbs do.",
+      "fact": "Because the present tense carries no person marking at all, со молу, хьо молу, and иза молу (I/you/he-she drink[s]) use the exact same verb form -- only the pronoun tells you who's doing the drinking, everything else about \"who\" is carried by context alone.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Хьо хӀун молу?",
+          "en": "What do you drink?"
+        },
+        {
+          "sp": "B",
+          "native": "Со шура молу.",
+          "en": "I drink milk."
+        }
+      ]
     }
   },
   "lessons": [
@@ -142,6 +160,34 @@
         {
           "ce": "Уьш сан да-нана бу.",
           "en": "They are my parents."
+        }
+      ]
+    },
+    {
+      "number": 61,
+      "title": "Grammar: Present Tense Vowel Alternation",
+      "titleNative": "Грамматика: хьалхара заманан аса",
+      "topicId": "b1-present-alternation",
+      "items": [
+        {
+          "ce": "Со шура молу.",
+          "en": "I drink milk."
+        },
+        {
+          "ce": "Хьо чай молу.",
+          "en": "You drink tea."
+        },
+        {
+          "ce": "Иза бепиг духку.",
+          "en": "He/she sells bread."
+        },
+        {
+          "ce": "Бер дуьжу.",
+          "en": "The child sleeps."
+        },
+        {
+          "ce": "Хила тарло.",
+          "en": "It happens (maybe)."
         }
       ]
     }
