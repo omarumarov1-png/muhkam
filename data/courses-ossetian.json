@@ -1,0 +1,4192 @@
+{
+  "course": {
+    "id": "ossetian",
+    "title": "Ossetian, Start to Fluent",
+    "subtitle": "Modern Ossetian (Iron dialect) from absolute beginner through fluent, everyday command -- real sentences, grammar, and conversational practice",
+    "dir": "ltr",
+    "lang": "os",
+    "languageName": "Ossetian",
+    "fontNative": "'Noto Sans', 'Inter', sans-serif",
+    "flag": "Ирон ӕвзаг",
+    "heroEyebrow": "Ирон ӕвзаг · A1 → C2",
+    "heroNative": "Ирон ӕвзаг",
+    "heroLedeSuffix": "Real sentences from lesson one, built the same way as this app's other courses.",
+    "uiStrings": {},
+    "grammarTopics": {
+      "a1-pronouns-copula": {
+        "title": "Pronouns & the Verb \"To Be\"",
+        "pattern": "ӕз дӕн (I am) · ды дӕ (you are) · уый у (he/she/it is) · мах стӕм (we are) · сымах стут (you all are) · уыдон сты (they are)",
+        "explanation": "Unlike its Northeast Caucasian neighbors (Chechen, Avar), where \"to be\" changes shape to agree with the grammatical class of its SUBJECT NOUN, Ossetian's copula conjugates by PERSON, much like Russian or English \"to be\": ӕз (I) takes дӕн, ды (you) takes дӕ, уый (he/she/it) takes у, мах (we) takes стӕм, сымах (you-plural) takes стут, and уыдон (they) takes сты.",
+        "fact": "The 3rd-person singular has a second, less common form, ис, alongside у -- academic sources treat these as having a subtle distinction (existential vs. predicative), which is genuinely nuanced enough that this course only teaches у for now rather than risk blurring the two together incorrectly.",
+        "dialogue": [
+          {
+            "sp": "A",
+            "native": "Ды чи дӕ?",
+            "en": "Who are you?"
+          },
+          {
+            "sp": "B",
+            "native": "Ӕз... дӕн.",
+            "en": "I am ..."
+          }
+        ]
+      }
+    },
+    "levels": [
+      {
+        "id": "a1",
+        "cefr": "A1",
+        "label": "Foundations",
+        "labelNative": "Иу",
+        "lessons": [
+          {
+            "id": "os-a1-1",
+            "number": 1,
+            "title": "Greetings & Basic Phrases",
+            "description": "Greetings & Basic Phrases",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Арфӕ!",
+                "options": [
+                  "good",
+                  "Hello!",
+                  "Saturday",
+                  "arm"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "Hello!",
+                "bank": [
+                  "Арфӕ!"
+                ],
+                "answer": [
+                  "Арфӕ!"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Арфӕ!",
+                "options": [
+                  "eleven",
+                  "three",
+                  "Hello!",
+                  "seventeen"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Салам!",
+                "options": [
+                  "Hello! (informal)",
+                  "star",
+                  "to laugh",
+                  "No."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "Hello! (informal)",
+                "bank": [
+                  "Салам!"
+                ],
+                "answer": [
+                  "Салам!"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Салам!",
+                "answer": [
+                  "Салам!"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Куыд цӕрут?",
+                "options": [
+                  "to walk, to go",
+                  "How are you?",
+                  "seven",
+                  "man, husband"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "How are you?",
+                "bank": [
+                  "цӕрут?",
+                  "Куыд"
+                ],
+                "answer": [
+                  "Куыд",
+                  "цӕрут?"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Бузныг, хорз.",
+                "options": [
+                  "Fine, thank you.",
+                  "head",
+                  "red",
+                  "You are."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "Fine, thank you.",
+                "bank": [
+                  "Бузныг,",
+                  "хорз."
+                ],
+                "answer": [
+                  "Бузныг,",
+                  "хорз."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Бузныг, хорз.",
+                "options": [
+                  "Fine, thank you.",
+                  "Thursday",
+                  "twelve",
+                  "cold"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "fill-blank",
+                "native": "Бузныг, хорз.",
+                "blankedEn": "___ thank you.",
+                "answer": "Fine",
+                "options": [
+                  "little",
+                  "good",
+                  "Fine",
+                  "walk"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Табуафси.",
+                "options": [
+                  "Please.",
+                  "nineteen",
+                  "baby, little child",
+                  "fish"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "Please.",
+                "bank": [
+                  "Табуафси."
+                ],
+                "answer": [
+                  "Табуафси."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Табуафси.",
+                "answer": [
+                  "Табуафси."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Бузныг!",
+                "options": [
+                  "cat",
+                  "Thank you!",
+                  "snow",
+                  "He/she/it is."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "Thank you!",
+                "bank": [
+                  "Бузныг!"
+                ],
+                "answer": [
+                  "Бузныг!"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "О.",
+                "options": [
+                  "to hear",
+                  "nose",
+                  "Yes.",
+                  "red"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "Yes.",
+                "bank": [
+                  "О."
+                ],
+                "answer": [
+                  "О."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "О.",
+                "options": [
+                  "mountain",
+                  "wolf",
+                  "Yes.",
+                  "Please."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Нӕ.",
+                "options": [
+                  "No.",
+                  "bird",
+                  "goose",
+                  "sun"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "No.",
+                "bank": [
+                  "Нӕ."
+                ],
+                "answer": [
+                  "Нӕ."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Нӕ.",
+                "answer": [
+                  "Нӕ."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Бахатыр кӕнут.",
+                "options": [
+                  "tooth",
+                  "hand",
+                  "Excuse me.",
+                  "to know"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "Excuse me.",
+                "bank": [
+                  "кӕнут.",
+                  "Бахатыр"
+                ],
+                "answer": [
+                  "Бахатыр",
+                  "кӕнут."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Бахатыр кӕн.",
+                "options": [
+                  "I'm sorry.",
+                  "heart",
+                  "three",
+                  "He/she/it is good/fine."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "I'm sorry.",
+                "bank": [
+                  "кӕн.",
+                  "Бахатыр"
+                ],
+                "answer": [
+                  "Бахатыр",
+                  "кӕн."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Бахатыр кӕн.",
+                "options": [
+                  "I'm sorry.",
+                  "bird",
+                  "Sunday",
+                  "husband"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Фенынмӕ!",
+                "options": [
+                  "sister",
+                  "seventeen",
+                  "They are.",
+                  "Goodbye!"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "Goodbye!",
+                "bank": [
+                  "Фенынмӕ!"
+                ],
+                "answer": [
+                  "Фенынмӕ!"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Фенынмӕ!",
+                "answer": [
+                  "Фенынмӕ!"
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Арфӕ!",
+                    "en": "Hello!"
+                  },
+                  {
+                    "native": "Салам!",
+                    "en": "Hello! (informal)"
+                  },
+                  {
+                    "native": "Куыд цӕрут?",
+                    "en": "How are you?"
+                  },
+                  {
+                    "native": "Бузныг, хорз.",
+                    "en": "Fine, thank you."
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Табуафси.",
+                    "en": "Please."
+                  },
+                  {
+                    "native": "Бузныг!",
+                    "en": "Thank you!"
+                  },
+                  {
+                    "native": "О.",
+                    "en": "Yes."
+                  },
+                  {
+                    "native": "Нӕ.",
+                    "en": "No."
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Салам"
+          },
+          {
+            "id": "os-a1-2",
+            "number": 2,
+            "title": "Numbers 1-19",
+            "description": "Numbers 1-19",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "иу",
+                "options": [
+                  "one",
+                  "good",
+                  "bad",
+                  "ten"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "one",
+                "bank": [
+                  "иу"
+                ],
+                "answer": [
+                  "иу"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "иу",
+                "options": [
+                  "one",
+                  "five",
+                  "the Earth, soil",
+                  "to write"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "дыууӕ",
+                "options": [
+                  "to eat",
+                  "four",
+                  "two",
+                  "three"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "two",
+                "bank": [
+                  "дыууӕ"
+                ],
+                "answer": [
+                  "дыууӕ"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "дыууӕ",
+                "answer": [
+                  "дыууӕ"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "ӕртӕ",
+                "options": [
+                  "mouth",
+                  "six",
+                  "three",
+                  "Please."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "three",
+                "bank": [
+                  "ӕртӕ"
+                ],
+                "answer": [
+                  "ӕртӕ"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "цыппар",
+                "options": [
+                  "cat",
+                  "four",
+                  "eleven",
+                  "to walk, to go"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "four",
+                "bank": [
+                  "цыппар"
+                ],
+                "answer": [
+                  "цыппар"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "цыппар",
+                "options": [
+                  "Tuesday",
+                  "four",
+                  "fire",
+                  "I am good/fine."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "fill-blank",
+                "native": "цыппар",
+                "blankedEn": "___",
+                "answer": "four",
+                "options": [
+                  "four",
+                  "twelve",
+                  "father",
+                  "yellow"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "фондз",
+                "options": [
+                  "white",
+                  "You are good/fine.",
+                  "the Earth, soil",
+                  "five"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "five",
+                "bank": [
+                  "фондз"
+                ],
+                "answer": [
+                  "фондз"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "фондз",
+                "answer": [
+                  "фондз"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "ӕхсӕз",
+                "options": [
+                  "You are good/fine.",
+                  "to speak",
+                  "six",
+                  "We are good/fine."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "six",
+                "bank": [
+                  "ӕхсӕз"
+                ],
+                "answer": [
+                  "ӕхсӕз"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "авд",
+                "options": [
+                  "fourteen",
+                  "seven",
+                  "head",
+                  "Thursday"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "seven",
+                "bank": [
+                  "авд"
+                ],
+                "answer": [
+                  "авд"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "авд",
+                "options": [
+                  "two",
+                  "seven",
+                  "nose",
+                  "twelve"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "аст",
+                "options": [
+                  "eight",
+                  "eleven",
+                  "They are.",
+                  "to walk, to go"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "eight",
+                "bank": [
+                  "аст"
+                ],
+                "answer": [
+                  "аст"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "аст",
+                "answer": [
+                  "аст"
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "аст",
+                "blankedEn": "___",
+                "answer": "eight",
+                "options": [
+                  "eight",
+                  "wolf",
+                  "Tuesday",
+                  "eighteen"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "фараст",
+                "options": [
+                  "Excuse me.",
+                  "man, husband",
+                  "nine",
+                  "thin"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "nine",
+                "bank": [
+                  "фараст"
+                ],
+                "answer": [
+                  "фараст"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "дӕс",
+                "options": [
+                  "You are.",
+                  "hot",
+                  "mountain",
+                  "ten"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "ten",
+                "bank": [
+                  "дӕс"
+                ],
+                "answer": [
+                  "дӕс"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "дӕс",
+                "options": [
+                  "bird",
+                  "ten",
+                  "I am good/fine.",
+                  "white"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "иуӕндӕс",
+                "options": [
+                  "eleven",
+                  "hand",
+                  "bear",
+                  "sixteen"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "eleven",
+                "bank": [
+                  "иуӕндӕс"
+                ],
+                "answer": [
+                  "иуӕндӕс"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "иуӕндӕс",
+                "answer": [
+                  "иуӕндӕс"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "дыууадӕс",
+                "options": [
+                  "sixteen",
+                  "mother",
+                  "long",
+                  "twelve"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "twelve",
+                "bank": [
+                  "дыууадӕс"
+                ],
+                "answer": [
+                  "дыууадӕс"
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "дыууадӕс",
+                "blankedEn": "___",
+                "answer": "twelve",
+                "options": [
+                  "walk",
+                  "fish",
+                  "snow",
+                  "twelve"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "ӕртындӕс",
+                "options": [
+                  "We are.",
+                  "children, offspring",
+                  "thirteen",
+                  "fourteen"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "thirteen",
+                "bank": [
+                  "ӕртындӕс"
+                ],
+                "answer": [
+                  "ӕртындӕс"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "ӕртындӕс",
+                "options": [
+                  "nose",
+                  "thirteen",
+                  "wolf",
+                  "to write"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "цыппӕрдӕс",
+                "options": [
+                  "ten",
+                  "Yes.",
+                  "fourteen",
+                  "big, large"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "fourteen",
+                "bank": [
+                  "цыппӕрдӕс"
+                ],
+                "answer": [
+                  "цыппӕрдӕс"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "цыппӕрдӕс",
+                "answer": [
+                  "цыппӕрдӕс"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "фынддӕс",
+                "options": [
+                  "How are you?",
+                  "sister",
+                  "tooth",
+                  "fifteen"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "fifteen",
+                "bank": [
+                  "фынддӕс"
+                ],
+                "answer": [
+                  "фынддӕс"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "ӕхсӕрдӕс",
+                "options": [
+                  "long",
+                  "sixteen",
+                  "black",
+                  "to walk, to go"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "sixteen",
+                "bank": [
+                  "ӕхсӕрдӕс"
+                ],
+                "answer": [
+                  "ӕхсӕрдӕс"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "ӕхсӕрдӕс",
+                "options": [
+                  "sixteen",
+                  "sheep",
+                  "green",
+                  "six"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "fill-blank",
+                "native": "ӕхсӕрдӕс",
+                "blankedEn": "___",
+                "answer": "sixteen",
+                "options": [
+                  "children",
+                  "sixteen",
+                  "mother",
+                  "child"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "ӕвддӕс",
+                "options": [
+                  "green",
+                  "Wednesday",
+                  "seventeen",
+                  "sheep"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "seventeen",
+                "bank": [
+                  "ӕвддӕс"
+                ],
+                "answer": [
+                  "ӕвддӕс"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "ӕвддӕс",
+                "answer": [
+                  "ӕвддӕс"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "ӕстдӕс",
+                "options": [
+                  "eighteen",
+                  "They are.",
+                  "No.",
+                  "Hello!"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "eighteen",
+                "bank": [
+                  "ӕстдӕс"
+                ],
+                "answer": [
+                  "ӕстдӕс"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "нудӕс",
+                "options": [
+                  "nineteen",
+                  "I'm sorry.",
+                  "horse",
+                  "eleven"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "nineteen",
+                "bank": [
+                  "нудӕс"
+                ],
+                "answer": [
+                  "нудӕс"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "нудӕс",
+                "options": [
+                  "nineteen",
+                  "to drink",
+                  "thin",
+                  "I'm sorry."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "сӕдӕ",
+                "options": [
+                  "sister",
+                  "one hundred",
+                  "bird",
+                  "Thursday"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "one hundred",
+                "bank": [
+                  "сӕдӕ"
+                ],
+                "answer": [
+                  "сӕдӕ"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "сӕдӕ",
+                "answer": [
+                  "сӕдӕ"
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "сӕдӕ",
+                "blankedEn": "one ___",
+                "answer": "hundred",
+                "options": [
+                  "informal",
+                  "water",
+                  "yellow",
+                  "hundred"
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "иу",
+                    "en": "one"
+                  },
+                  {
+                    "native": "дыууӕ",
+                    "en": "two"
+                  },
+                  {
+                    "native": "ӕртӕ",
+                    "en": "three"
+                  },
+                  {
+                    "native": "цыппар",
+                    "en": "four"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "фондз",
+                    "en": "five"
+                  },
+                  {
+                    "native": "ӕхсӕз",
+                    "en": "six"
+                  },
+                  {
+                    "native": "авд",
+                    "en": "seven"
+                  },
+                  {
+                    "native": "аст",
+                    "en": "eight"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "фараст",
+                    "en": "nine"
+                  },
+                  {
+                    "native": "дӕс",
+                    "en": "ten"
+                  },
+                  {
+                    "native": "иуӕндӕс",
+                    "en": "eleven"
+                  },
+                  {
+                    "native": "дыууадӕс",
+                    "en": "twelve"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "ӕртындӕс",
+                    "en": "thirteen"
+                  },
+                  {
+                    "native": "цыппӕрдӕс",
+                    "en": "fourteen"
+                  },
+                  {
+                    "native": "фынддӕс",
+                    "en": "fifteen"
+                  },
+                  {
+                    "native": "ӕхсӕрдӕс",
+                    "en": "sixteen"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "ӕвддӕс",
+                    "en": "seventeen"
+                  },
+                  {
+                    "native": "ӕстдӕс",
+                    "en": "eighteen"
+                  },
+                  {
+                    "native": "нудӕс",
+                    "en": "nineteen"
+                  },
+                  {
+                    "native": "сӕдӕ",
+                    "en": "one hundred"
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Нымӕцтӕ"
+          },
+          {
+            "id": "os-a1-3",
+            "number": 3,
+            "title": "Family",
+            "description": "Family",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "мад",
+                "options": [
+                  "You are good/fine.",
+                  "father",
+                  "We are good/fine.",
+                  "mother"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "mother",
+                "bank": [
+                  "мад"
+                ],
+                "answer": [
+                  "мад"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "мад",
+                "options": [
+                  "twelve",
+                  "mother",
+                  "horse",
+                  "green"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "фидӕ",
+                "options": [
+                  "lip",
+                  "seven",
+                  "four",
+                  "father"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "father",
+                "bank": [
+                  "фидӕ"
+                ],
+                "answer": [
+                  "фидӕ"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "фидӕ",
+                "answer": [
+                  "фидӕ"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "хо",
+                "options": [
+                  "sister",
+                  "Fine, thank you.",
+                  "six",
+                  "to speak"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "sister",
+                "bank": [
+                  "хо"
+                ],
+                "answer": [
+                  "хо"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "ӕрвадӕ",
+                "options": [
+                  "fifteen",
+                  "Goodbye!",
+                  "brother",
+                  "twelve"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "brother",
+                "bank": [
+                  "ӕрвадӕ"
+                ],
+                "answer": [
+                  "ӕрвадӕ"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "ӕрвадӕ",
+                "options": [
+                  "brother",
+                  "six",
+                  "nine",
+                  "Excuse me."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "fill-blank",
+                "native": "ӕрвадӕ",
+                "blankedEn": "___",
+                "answer": "brother",
+                "options": [
+                  "speak",
+                  "wolf",
+                  "bird",
+                  "brother"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "лӕг",
+                "options": [
+                  "red",
+                  "man, husband",
+                  "one hundred",
+                  "seventeen"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "man, husband",
+                "bank": [
+                  "лӕг"
+                ],
+                "answer": [
+                  "лӕг"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "лӕг",
+                "answer": [
+                  "лӕг"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "ус",
+                "options": [
+                  "sheep",
+                  "woman",
+                  "donkey",
+                  "husband"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "woman",
+                "bank": [
+                  "ус"
+                ],
+                "answer": [
+                  "ус"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "мой",
+                "options": [
+                  "husband",
+                  "red",
+                  "eighteen",
+                  "three"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "husband",
+                "bank": [
+                  "мой"
+                ],
+                "answer": [
+                  "мой"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "мой",
+                "options": [
+                  "Thank you!",
+                  "bear",
+                  "husband",
+                  "to live"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "зӕнӕг",
+                "options": [
+                  "children, offspring",
+                  "to hear",
+                  "brother",
+                  "to write"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "children, offspring",
+                "bank": [
+                  "зӕнӕг"
+                ],
+                "answer": [
+                  "зӕнӕг"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "зӕнӕг",
+                "answer": [
+                  "зӕнӕг"
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "зӕнӕг",
+                "blankedEn": "___ offspring",
+                "answer": "children",
+                "options": [
+                  "child",
+                  "goodfine",
+                  "heart",
+                  "children"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "саби",
+                "options": [
+                  "fish",
+                  "bear",
+                  "baby, little child",
+                  "Saturday"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "baby, little child",
+                "bank": [
+                  "саби"
+                ],
+                "answer": [
+                  "саби"
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "мад",
+                    "en": "mother"
+                  },
+                  {
+                    "native": "фидӕ",
+                    "en": "father"
+                  },
+                  {
+                    "native": "хо",
+                    "en": "sister"
+                  },
+                  {
+                    "native": "ӕрвадӕ",
+                    "en": "brother"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "лӕг",
+                    "en": "man, husband"
+                  },
+                  {
+                    "native": "ус",
+                    "en": "woman"
+                  },
+                  {
+                    "native": "мой",
+                    "en": "husband"
+                  },
+                  {
+                    "native": "зӕнӕг",
+                    "en": "children, offspring"
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Бинонтӕ"
+          },
+          {
+            "id": "os-a1-4",
+            "number": 4,
+            "title": "Colors & Adjectives",
+            "description": "Colors & Adjectives",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "бур",
+                "options": [
+                  "yellow",
+                  "Monday",
+                  "to laugh",
+                  "dog"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "yellow",
+                "bank": [
+                  "бур"
+                ],
+                "answer": [
+                  "бур"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "бур",
+                "options": [
+                  "Fine, thank you.",
+                  "man, husband",
+                  "yellow",
+                  "thirteen"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "сау",
+                "options": [
+                  "He/she/it is good/fine.",
+                  "black",
+                  "good",
+                  "Please."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "black",
+                "bank": [
+                  "сау"
+                ],
+                "answer": [
+                  "сау"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "сау",
+                "answer": [
+                  "сау"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "урс",
+                "options": [
+                  "white",
+                  "Tuesday",
+                  "cold",
+                  "to sing"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "white",
+                "bank": [
+                  "урс"
+                ],
+                "answer": [
+                  "урс"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "сырх",
+                "options": [
+                  "dog",
+                  "I'm sorry.",
+                  "red",
+                  "star"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "red",
+                "bank": [
+                  "сырх"
+                ],
+                "answer": [
+                  "сырх"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "сырх",
+                "options": [
+                  "We are good/fine.",
+                  "twelve",
+                  "red",
+                  "donkey"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "цъӕх",
+                "options": [
+                  "green",
+                  "You (plural) are.",
+                  "hot",
+                  "seven"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "green",
+                "bank": [
+                  "цъӕх"
+                ],
+                "answer": [
+                  "цъӕх"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "цъӕх",
+                "answer": [
+                  "цъӕх"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "хорз",
+                "options": [
+                  "husband",
+                  "good",
+                  "goose",
+                  "I am good/fine."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "good",
+                "bank": [
+                  "хорз"
+                ],
+                "answer": [
+                  "хорз"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "ӕвзӕр",
+                "options": [
+                  "good",
+                  "bad",
+                  "hot",
+                  "five"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "bad",
+                "bank": [
+                  "ӕвзӕр"
+                ],
+                "answer": [
+                  "ӕвзӕр"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "ӕвзӕр",
+                "options": [
+                  "We are good/fine.",
+                  "bird",
+                  "to hear",
+                  "bad"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "стыр",
+                "options": [
+                  "big, large",
+                  "face",
+                  "sky",
+                  "lip"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "big, large",
+                "bank": [
+                  "стыр"
+                ],
+                "answer": [
+                  "стыр"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "стыр",
+                "answer": [
+                  "стыр"
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "стыр",
+                "blankedEn": "big, ___",
+                "answer": "large",
+                "options": [
+                  "Earth",
+                  "sing",
+                  "nineteen",
+                  "large"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "тӕнӕг",
+                "options": [
+                  "seven",
+                  "to do",
+                  "We are.",
+                  "thin"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "thin",
+                "bank": [
+                  "тӕнӕг"
+                ],
+                "answer": [
+                  "тӕнӕг"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "тӕвд",
+                "options": [
+                  "You (plural) are.",
+                  "fish",
+                  "Thursday",
+                  "hot"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "hot",
+                "bank": [
+                  "тӕвд"
+                ],
+                "answer": [
+                  "тӕвд"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "тӕвд",
+                "options": [
+                  "eye",
+                  "hot",
+                  "red",
+                  "fish"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "уазал",
+                "options": [
+                  "children, offspring",
+                  "cold",
+                  "Monday",
+                  "nineteen"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "cold",
+                "bank": [
+                  "уазал"
+                ],
+                "answer": [
+                  "уазал"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "уазал",
+                "answer": [
+                  "уазал"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "даргъ",
+                "options": [
+                  "Saturday",
+                  "long",
+                  "week",
+                  "seven"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "long",
+                "bank": [
+                  "даргъ"
+                ],
+                "answer": [
+                  "даргъ"
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "даргъ",
+                "blankedEn": "___",
+                "answer": "long",
+                "options": [
+                  "long",
+                  "Excuse",
+                  "sleep",
+                  "cold"
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "бур",
+                    "en": "yellow"
+                  },
+                  {
+                    "native": "сау",
+                    "en": "black"
+                  },
+                  {
+                    "native": "урс",
+                    "en": "white"
+                  },
+                  {
+                    "native": "сырх",
+                    "en": "red"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "цъӕх",
+                    "en": "green"
+                  },
+                  {
+                    "native": "хорз",
+                    "en": "good"
+                  },
+                  {
+                    "native": "ӕвзӕр",
+                    "en": "bad"
+                  },
+                  {
+                    "native": "стыр",
+                    "en": "big, large"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "тӕнӕг",
+                    "en": "thin"
+                  },
+                  {
+                    "native": "тӕвд",
+                    "en": "hot"
+                  },
+                  {
+                    "native": "уазал",
+                    "en": "cold"
+                  },
+                  {
+                    "native": "даргъ",
+                    "en": "long"
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Хуызтӕ"
+          },
+          {
+            "id": "os-a1-5",
+            "number": 5,
+            "title": "Nature & Animals",
+            "description": "Nature & Animals",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "хор",
+                "options": [
+                  "sun",
+                  "mountain",
+                  "fourteen",
+                  "fish"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "sun",
+                "bank": [
+                  "хор"
+                ],
+                "answer": [
+                  "хор"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "хор",
+                "options": [
+                  "father",
+                  "one hundred",
+                  "sun",
+                  "black"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "дон",
+                "options": [
+                  "green",
+                  "water, river",
+                  "woman",
+                  "star"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "water, river",
+                "bank": [
+                  "дон"
+                ],
+                "answer": [
+                  "дон"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "дон",
+                "answer": [
+                  "дон"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "хох",
+                "options": [
+                  "Fine, thank you.",
+                  "You are good/fine.",
+                  "mountain",
+                  "I am. (I exist / here I am)"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "mountain",
+                "bank": [
+                  "хох"
+                ],
+                "answer": [
+                  "хох"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "зӕхх",
+                "options": [
+                  "six",
+                  "star",
+                  "big, large",
+                  "the Earth, soil"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "the Earth, soil",
+                "bank": [
+                  "зӕхх"
+                ],
+                "answer": [
+                  "зӕхх"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "зӕхх",
+                "options": [
+                  "face",
+                  "Goodbye!",
+                  "fire",
+                  "the Earth, soil"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "fill-blank",
+                "native": "зӕхх",
+                "blankedEn": "the ___ soil",
+                "answer": "Earth",
+                "options": [
+                  "five",
+                  "Earth",
+                  "write",
+                  "thin"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "арв",
+                "options": [
+                  "sky",
+                  "good",
+                  "fish",
+                  "two"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "sky",
+                "bank": [
+                  "арв"
+                ],
+                "answer": [
+                  "арв"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "арв",
+                "answer": [
+                  "арв"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "стъалы",
+                "options": [
+                  "sky",
+                  "fourteen",
+                  "week",
+                  "star"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "star",
+                "bank": [
+                  "стъалы"
+                ],
+                "answer": [
+                  "стъалы"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "мит",
+                "options": [
+                  "I am. (I exist / here I am)",
+                  "thirteen",
+                  "snow",
+                  "knee"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "snow",
+                "bank": [
+                  "мит"
+                ],
+                "answer": [
+                  "мит"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "мит",
+                "options": [
+                  "face",
+                  "day",
+                  "snow",
+                  "twelve"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "арт",
+                "options": [
+                  "Goodbye!",
+                  "fire",
+                  "sky",
+                  "They are."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "fire",
+                "bank": [
+                  "арт"
+                ],
+                "answer": [
+                  "арт"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "арт",
+                "answer": [
+                  "арт"
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "арт",
+                "blankedEn": "___",
+                "answer": "fire",
+                "options": [
+                  "sleep",
+                  "fire",
+                  "long",
+                  "goose"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "куыдз",
+                "options": [
+                  "bear",
+                  "heart",
+                  "father",
+                  "dog"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "dog",
+                "bank": [
+                  "куыдз"
+                ],
+                "answer": [
+                  "куыдз"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "гӕды",
+                "options": [
+                  "four",
+                  "donkey",
+                  "tooth",
+                  "cat"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "cat",
+                "bank": [
+                  "гӕды"
+                ],
+                "answer": [
+                  "гӕды"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "гӕды",
+                "options": [
+                  "five",
+                  "cat",
+                  "hot",
+                  "Saturday"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "бӕх",
+                "options": [
+                  "heart",
+                  "tooth",
+                  "big, large",
+                  "horse"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "horse",
+                "bank": [
+                  "бӕх"
+                ],
+                "answer": [
+                  "бӕх"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "бӕх",
+                "answer": [
+                  "бӕх"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "хӕрӕг",
+                "options": [
+                  "wolf",
+                  "four",
+                  "donkey",
+                  "red"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "donkey",
+                "bank": [
+                  "хӕрӕг"
+                ],
+                "answer": [
+                  "хӕрӕг"
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "хӕрӕг",
+                "blankedEn": "___",
+                "answer": "donkey",
+                "options": [
+                  "speak",
+                  "thank",
+                  "mother",
+                  "donkey"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "арс",
+                "options": [
+                  "Sunday",
+                  "green",
+                  "tooth",
+                  "bear"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "bear",
+                "bank": [
+                  "арс"
+                ],
+                "answer": [
+                  "арс"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "арс",
+                "options": [
+                  "bear",
+                  "Monday",
+                  "fish",
+                  "head"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "бирӕгъ",
+                "options": [
+                  "star",
+                  "to sleep",
+                  "snow",
+                  "wolf"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "wolf",
+                "bank": [
+                  "бирӕгъ"
+                ],
+                "answer": [
+                  "бирӕгъ"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "бирӕгъ",
+                "answer": [
+                  "бирӕгъ"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "хъаз",
+                "options": [
+                  "goose",
+                  "face",
+                  "black",
+                  "sister"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "goose",
+                "bank": [
+                  "хъаз"
+                ],
+                "answer": [
+                  "хъаз"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "фыс",
+                "options": [
+                  "sheep",
+                  "mountain",
+                  "I am good/fine.",
+                  "children, offspring"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "sheep",
+                "bank": [
+                  "фыс"
+                ],
+                "answer": [
+                  "фыс"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "фыс",
+                "options": [
+                  "I am good/fine.",
+                  "white",
+                  "sheep",
+                  "to drink"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "fill-blank",
+                "native": "фыс",
+                "blankedEn": "___",
+                "answer": "sheep",
+                "options": [
+                  "sheep",
+                  "know",
+                  "Wednesday",
+                  "white"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "кӕсаг",
+                "options": [
+                  "fish",
+                  "Yes.",
+                  "cat",
+                  "tooth"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "fish",
+                "bank": [
+                  "кӕсаг"
+                ],
+                "answer": [
+                  "кӕсаг"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "кӕсаг",
+                "answer": [
+                  "кӕсаг"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "маргъ",
+                "options": [
+                  "brother",
+                  "I am. (I exist / here I am)",
+                  "bird",
+                  "Monday"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "bird",
+                "bank": [
+                  "маргъ"
+                ],
+                "answer": [
+                  "маргъ"
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "хор",
+                    "en": "sun"
+                  },
+                  {
+                    "native": "дон",
+                    "en": "water, river"
+                  },
+                  {
+                    "native": "хох",
+                    "en": "mountain"
+                  },
+                  {
+                    "native": "зӕхх",
+                    "en": "the Earth, soil"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "арв",
+                    "en": "sky"
+                  },
+                  {
+                    "native": "стъалы",
+                    "en": "star"
+                  },
+                  {
+                    "native": "мит",
+                    "en": "snow"
+                  },
+                  {
+                    "native": "арт",
+                    "en": "fire"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "куыдз",
+                    "en": "dog"
+                  },
+                  {
+                    "native": "гӕды",
+                    "en": "cat"
+                  },
+                  {
+                    "native": "бӕх",
+                    "en": "horse"
+                  },
+                  {
+                    "native": "хӕрӕг",
+                    "en": "donkey"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "арс",
+                    "en": "bear"
+                  },
+                  {
+                    "native": "бирӕгъ",
+                    "en": "wolf"
+                  },
+                  {
+                    "native": "хъаз",
+                    "en": "goose"
+                  },
+                  {
+                    "native": "фыс",
+                    "en": "sheep"
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Ӕрдз ӕмӕ сырдтӕ"
+          },
+          {
+            "id": "os-a1-6",
+            "number": 6,
+            "title": "Body Parts",
+            "description": "Body Parts",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "сӕр",
+                "options": [
+                  "to drink",
+                  "head",
+                  "bad",
+                  "nose"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "head",
+                "bank": [
+                  "сӕр"
+                ],
+                "answer": [
+                  "сӕр"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "сӕр",
+                "options": [
+                  "head",
+                  "cold",
+                  "white",
+                  "sun"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "цӕст",
+                "options": [
+                  "Friday",
+                  "sun",
+                  "thirteen",
+                  "eye"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "eye",
+                "bank": [
+                  "цӕст"
+                ],
+                "answer": [
+                  "цӕст"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "цӕст",
+                "answer": [
+                  "цӕст"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "фындз",
+                "options": [
+                  "eleven",
+                  "hand",
+                  "Goodbye!",
+                  "nose"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "nose",
+                "bank": [
+                  "фындз"
+                ],
+                "answer": [
+                  "фындз"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "ком",
+                "options": [
+                  "eye",
+                  "We are good/fine.",
+                  "white",
+                  "mouth"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "mouth",
+                "bank": [
+                  "ком"
+                ],
+                "answer": [
+                  "ком"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "ком",
+                "options": [
+                  "We are.",
+                  "nose",
+                  "mouth",
+                  "He/she/it is good/fine."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "fill-blank",
+                "native": "ком",
+                "blankedEn": "___",
+                "answer": "mouth",
+                "options": [
+                  "Saturday",
+                  "mouth",
+                  "woman",
+                  "walk"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "арм",
+                "options": [
+                  "No.",
+                  "tooth",
+                  "hand",
+                  "bird"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "hand",
+                "bank": [
+                  "арм"
+                ],
+                "answer": [
+                  "арм"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "арм",
+                "answer": [
+                  "арм"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "дӕндаг",
+                "options": [
+                  "twelve",
+                  "big, large",
+                  "good",
+                  "tooth"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "tooth",
+                "bank": [
+                  "дӕндаг"
+                ],
+                "answer": [
+                  "дӕндаг"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "зоныг",
+                "options": [
+                  "knee",
+                  "horse",
+                  "I am. (I exist / here I am)",
+                  "to write"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "knee",
+                "bank": [
+                  "зоныг"
+                ],
+                "answer": [
+                  "зоныг"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "зоныг",
+                "options": [
+                  "knee",
+                  "nineteen",
+                  "snow",
+                  "seventeen"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "цонг",
+                "options": [
+                  "head",
+                  "sixteen",
+                  "one hundred",
+                  "arm"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "arm",
+                "bank": [
+                  "цонг"
+                ],
+                "answer": [
+                  "цонг"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "цонг",
+                "answer": [
+                  "цонг"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "был",
+                "options": [
+                  "to laugh",
+                  "He/she/it is.",
+                  "sister",
+                  "lip"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "lip",
+                "bank": [
+                  "был"
+                ],
+                "answer": [
+                  "был"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "зӕрдӕ",
+                "options": [
+                  "sky",
+                  "heart",
+                  "big, large",
+                  "fourteen"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "heart",
+                "bank": [
+                  "зӕрдӕ"
+                ],
+                "answer": [
+                  "зӕрдӕ"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "зӕрдӕ",
+                "options": [
+                  "Sunday",
+                  "Hello! (informal)",
+                  "They are.",
+                  "heart"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "цӕсгом",
+                "options": [
+                  "mountain",
+                  "bad",
+                  "face",
+                  "bear"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "face",
+                "bank": [
+                  "цӕсгом"
+                ],
+                "answer": [
+                  "цӕсгом"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "цӕсгом",
+                "answer": [
+                  "цӕсгом"
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "сӕр",
+                    "en": "head"
+                  },
+                  {
+                    "native": "цӕст",
+                    "en": "eye"
+                  },
+                  {
+                    "native": "фындз",
+                    "en": "nose"
+                  },
+                  {
+                    "native": "ком",
+                    "en": "mouth"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "арм",
+                    "en": "hand"
+                  },
+                  {
+                    "native": "дӕндаг",
+                    "en": "tooth"
+                  },
+                  {
+                    "native": "зоныг",
+                    "en": "knee"
+                  },
+                  {
+                    "native": "цонг",
+                    "en": "arm"
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Буары хӕйттӕ"
+          },
+          {
+            "id": "os-a1-7",
+            "number": 7,
+            "title": "Common Verbs (Basic Forms)",
+            "description": "Common Verbs (Basic Forms)",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "кӕнын",
+                "options": [
+                  "I am good/fine.",
+                  "man, husband",
+                  "to do",
+                  "water, river"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "to do",
+                "bank": [
+                  "кӕнын"
+                ],
+                "answer": [
+                  "кӕнын"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "кӕнын",
+                "options": [
+                  "twelve",
+                  "nine",
+                  "horse",
+                  "to do"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "зонын",
+                "options": [
+                  "to know",
+                  "horse",
+                  "We are good/fine.",
+                  "three"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "to know",
+                "bank": [
+                  "зонын"
+                ],
+                "answer": [
+                  "зонын"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "зонын",
+                "answer": [
+                  "зонын"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "цӕуын",
+                "options": [
+                  "to walk, to go",
+                  "donkey",
+                  "man, husband",
+                  "Friday"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "to walk, to go",
+                "bank": [
+                  "цӕуын"
+                ],
+                "answer": [
+                  "цӕуын"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "хӕрын",
+                "options": [
+                  "sister",
+                  "twelve",
+                  "green",
+                  "to eat"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "to eat",
+                "bank": [
+                  "хӕрын"
+                ],
+                "answer": [
+                  "хӕрын"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "хӕрын",
+                "options": [
+                  "to eat",
+                  "Tuesday",
+                  "snow",
+                  "mountain"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "нуазын",
+                "options": [
+                  "nose",
+                  "to drink",
+                  "to speak",
+                  "to sleep"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "to drink",
+                "bank": [
+                  "нуазын"
+                ],
+                "answer": [
+                  "нуазын"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "нуазын",
+                "answer": [
+                  "нуазын"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "хъусын",
+                "options": [
+                  "to hear",
+                  "to write",
+                  "to live",
+                  "sheep"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "to hear",
+                "bank": [
+                  "хъусын"
+                ],
+                "answer": [
+                  "хъусын"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "фыссын",
+                "options": [
+                  "to write",
+                  "You (plural) are.",
+                  "water, river",
+                  "green"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "to write",
+                "bank": [
+                  "фыссын"
+                ],
+                "answer": [
+                  "фыссын"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "фыссын",
+                "options": [
+                  "sister",
+                  "to write",
+                  "Monday",
+                  "Please."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "дзурын",
+                "options": [
+                  "the Earth, soil",
+                  "to write",
+                  "to speak",
+                  "to live"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "to speak",
+                "bank": [
+                  "дзурын"
+                ],
+                "answer": [
+                  "дзурын"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "дзурын",
+                "answer": [
+                  "дзурын"
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "дзурын",
+                "blankedEn": "to ___",
+                "answer": "speak",
+                "options": [
+                  "eleven",
+                  "week",
+                  "speak",
+                  "Thank"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "зарын",
+                "options": [
+                  "eight",
+                  "to sing",
+                  "to write",
+                  "Friday"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "to sing",
+                "bank": [
+                  "зарын"
+                ],
+                "answer": [
+                  "зарын"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "худын",
+                "options": [
+                  "sheep",
+                  "mouth",
+                  "one hundred",
+                  "to laugh"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "to laugh",
+                "bank": [
+                  "худын"
+                ],
+                "answer": [
+                  "худын"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "худын",
+                "options": [
+                  "to laugh",
+                  "eye",
+                  "husband",
+                  "Goodbye!"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "хуыссын",
+                "options": [
+                  "to laugh",
+                  "bear",
+                  "to sleep",
+                  "bird"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "to sleep",
+                "bank": [
+                  "хуыссын"
+                ],
+                "answer": [
+                  "хуыссын"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "хуыссын",
+                "answer": [
+                  "хуыссын"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "цӕрын",
+                "options": [
+                  "to live",
+                  "knee",
+                  "thirteen",
+                  "eighteen"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "to live",
+                "bank": [
+                  "цӕрын"
+                ],
+                "answer": [
+                  "цӕрын"
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "цӕрын",
+                "blankedEn": "to ___",
+                "answer": "live",
+                "options": [
+                  "speak",
+                  "live",
+                  "plural",
+                  "thank"
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "кӕнын",
+                    "en": "to do"
+                  },
+                  {
+                    "native": "зонын",
+                    "en": "to know"
+                  },
+                  {
+                    "native": "цӕуын",
+                    "en": "to walk, to go"
+                  },
+                  {
+                    "native": "хӕрын",
+                    "en": "to eat"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "нуазын",
+                    "en": "to drink"
+                  },
+                  {
+                    "native": "хъусын",
+                    "en": "to hear"
+                  },
+                  {
+                    "native": "фыссын",
+                    "en": "to write"
+                  },
+                  {
+                    "native": "дзурын",
+                    "en": "to speak"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "зарын",
+                    "en": "to sing"
+                  },
+                  {
+                    "native": "худын",
+                    "en": "to laugh"
+                  },
+                  {
+                    "native": "хуыссын",
+                    "en": "to sleep"
+                  },
+                  {
+                    "native": "цӕрын",
+                    "en": "to live"
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Хъуыддӕгтӕ"
+          },
+          {
+            "id": "os-a1-8",
+            "number": 8,
+            "title": "Days of the Week",
+            "description": "Days of the Week",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "къуырисӕр",
+                "options": [
+                  "thirteen",
+                  "sky",
+                  "Monday",
+                  "dog"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "Monday",
+                "bank": [
+                  "къуырисӕр"
+                ],
+                "answer": [
+                  "къуырисӕр"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "къуырисӕр",
+                "options": [
+                  "donkey",
+                  "Monday",
+                  "one hundred",
+                  "father"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "дыццӕг",
+                "options": [
+                  "sheep",
+                  "to sleep",
+                  "Tuesday",
+                  "fire"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "Tuesday",
+                "bank": [
+                  "дыццӕг"
+                ],
+                "answer": [
+                  "дыццӕг"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "дыццӕг",
+                "answer": [
+                  "дыццӕг"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "ӕртиккӕг",
+                "options": [
+                  "You (plural) are.",
+                  "week",
+                  "Wednesday",
+                  "to drink"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "Wednesday",
+                "bank": [
+                  "ӕртиккӕг"
+                ],
+                "answer": [
+                  "ӕртиккӕг"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "цыппӕрӕм",
+                "options": [
+                  "fire",
+                  "fish",
+                  "You are good/fine.",
+                  "Thursday"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "Thursday",
+                "bank": [
+                  "цыппӕрӕм"
+                ],
+                "answer": [
+                  "цыппӕрӕм"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "цыппӕрӕм",
+                "options": [
+                  "to speak",
+                  "Goodbye!",
+                  "red",
+                  "Thursday"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "fill-blank",
+                "native": "цыппӕрӕм",
+                "blankedEn": "___",
+                "answer": "Thursday",
+                "options": [
+                  "large",
+                  "snow",
+                  "Thursday",
+                  "cold"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "майрӕмбон",
+                "options": [
+                  "You are.",
+                  "We are.",
+                  "You are good/fine.",
+                  "Friday"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "Friday",
+                "bank": [
+                  "майрӕмбон"
+                ],
+                "answer": [
+                  "майрӕмбон"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "майрӕмбон",
+                "answer": [
+                  "майрӕмбон"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "сабат",
+                "options": [
+                  "We are.",
+                  "fish",
+                  "Saturday",
+                  "horse"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "Saturday",
+                "bank": [
+                  "сабат"
+                ],
+                "answer": [
+                  "сабат"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "хуыцаубон",
+                "options": [
+                  "to eat",
+                  "Thursday",
+                  "He/she/it is good/fine.",
+                  "Sunday"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "Sunday",
+                "bank": [
+                  "хуыцаубон"
+                ],
+                "answer": [
+                  "хуыцаубон"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "хуыцаубон",
+                "options": [
+                  "mouth",
+                  "Tuesday",
+                  "Sunday",
+                  "star"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "бон",
+                "options": [
+                  "nose",
+                  "six",
+                  "day",
+                  "arm"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "day",
+                "bank": [
+                  "бон"
+                ],
+                "answer": [
+                  "бон"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "бон",
+                "answer": [
+                  "бон"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "къуыри",
+                "options": [
+                  "He/she/it is.",
+                  "week",
+                  "nose",
+                  "knee"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "week",
+                "bank": [
+                  "къуыри"
+                ],
+                "answer": [
+                  "къуыри"
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "къуырисӕр",
+                    "en": "Monday"
+                  },
+                  {
+                    "native": "дыццӕг",
+                    "en": "Tuesday"
+                  },
+                  {
+                    "native": "ӕртиккӕг",
+                    "en": "Wednesday"
+                  },
+                  {
+                    "native": "цыппӕрӕм",
+                    "en": "Thursday"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "майрӕмбон",
+                    "en": "Friday"
+                  },
+                  {
+                    "native": "сабат",
+                    "en": "Saturday"
+                  },
+                  {
+                    "native": "хуыцаубон",
+                    "en": "Sunday"
+                  },
+                  {
+                    "native": "бон",
+                    "en": "day"
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Къуырийы бонтӕ"
+          },
+          {
+            "id": "os-a1-9",
+            "number": 9,
+            "title": "Grammar: Pronouns & \"To Be\"",
+            "description": "Grammar: Pronouns & \"To Be\"",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Ӕз дӕн.",
+                "options": [
+                  "I am. (I exist / here I am)",
+                  "three",
+                  "knee",
+                  "I am good/fine."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "I am. (I exist / here I am)",
+                "bank": [
+                  "Ӕз",
+                  "дӕн."
+                ],
+                "answer": [
+                  "Ӕз",
+                  "дӕн."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Ӕз дӕн.",
+                "options": [
+                  "nine",
+                  "I am. (I exist / here I am)",
+                  "Friday",
+                  "to walk, to go"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Ды дӕ.",
+                "options": [
+                  "You are.",
+                  "three",
+                  "fish",
+                  "cat"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "You are.",
+                "bank": [
+                  "Ды",
+                  "дӕ."
+                ],
+                "answer": [
+                  "Ды",
+                  "дӕ."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Ды дӕ.",
+                "answer": [
+                  "Ды",
+                  "дӕ."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый у.",
+                "options": [
+                  "nineteen",
+                  "We are good/fine.",
+                  "yellow",
+                  "He/she/it is."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "He/she/it is.",
+                "bank": [
+                  "Уый",
+                  "у."
+                ],
+                "answer": [
+                  "Уый",
+                  "у."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Мах стӕм.",
+                "options": [
+                  "We are.",
+                  "seven",
+                  "to know",
+                  "green"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "We are.",
+                "bank": [
+                  "Мах",
+                  "стӕм."
+                ],
+                "answer": [
+                  "Мах",
+                  "стӕм."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Мах стӕм.",
+                "options": [
+                  "We are.",
+                  "How are you?",
+                  "father",
+                  "head"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Сымах стут.",
+                "options": [
+                  "cold",
+                  "Monday",
+                  "sun",
+                  "You (plural) are."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "You (plural) are.",
+                "bank": [
+                  "стут.",
+                  "Сымах"
+                ],
+                "answer": [
+                  "Сымах",
+                  "стут."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Сымах стут.",
+                "answer": [
+                  "Сымах",
+                  "стут."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уыдон сты.",
+                "options": [
+                  "to do",
+                  "They are.",
+                  "nineteen",
+                  "donkey"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "They are.",
+                "bank": [
+                  "Уыдон",
+                  "сты."
+                ],
+                "answer": [
+                  "Уыдон",
+                  "сты."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Ӕз хорз дӕн.",
+                "options": [
+                  "seven",
+                  "I am good/fine.",
+                  "week",
+                  "baby, little child"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "I am good/fine.",
+                "bank": [
+                  "хорз",
+                  "дӕн.",
+                  "Ӕз"
+                ],
+                "answer": [
+                  "Ӕз",
+                  "хорз",
+                  "дӕн."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Ӕз хорз дӕн.",
+                "options": [
+                  "We are good/fine.",
+                  "I am good/fine.",
+                  "Hello!",
+                  "six"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Ды хорз дӕ.",
+                "options": [
+                  "You are good/fine.",
+                  "one hundred",
+                  "four",
+                  "hot"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "You are good/fine.",
+                "bank": [
+                  "Ды",
+                  "хорз",
+                  "дӕ."
+                ],
+                "answer": [
+                  "Ды",
+                  "хорз",
+                  "дӕ."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Ды хорз дӕ.",
+                "answer": [
+                  "Ды",
+                  "хорз",
+                  "дӕ."
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "Ды хорз дӕ.",
+                "blankedEn": "You are ___",
+                "answer": "goodfine",
+                "options": [
+                  "Goodbye",
+                  "goodfine",
+                  "thin",
+                  "bear"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый хорз у.",
+                "options": [
+                  "yellow",
+                  "to live",
+                  "cold",
+                  "He/she/it is good/fine."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "He/she/it is good/fine.",
+                "bank": [
+                  "хорз",
+                  "Уый",
+                  "у."
+                ],
+                "answer": [
+                  "Уый",
+                  "хорз",
+                  "у."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Мах хорз стӕм.",
+                "options": [
+                  "Excuse me.",
+                  "We are good/fine.",
+                  "seven",
+                  "to know"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "We are good/fine.",
+                "bank": [
+                  "стӕм.",
+                  "Мах",
+                  "хорз"
+                ],
+                "answer": [
+                  "Мах",
+                  "хорз",
+                  "стӕм."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Мах хорз стӕм.",
+                "options": [
+                  "to do",
+                  "We are good/fine.",
+                  "Excuse me.",
+                  "to laugh"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Ӕз дӕн.",
+                    "en": "I am. (I exist / here I am)"
+                  },
+                  {
+                    "native": "Ды дӕ.",
+                    "en": "You are."
+                  },
+                  {
+                    "native": "Уый у.",
+                    "en": "He/she/it is."
+                  },
+                  {
+                    "native": "Мах стӕм.",
+                    "en": "We are."
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Сымах стут.",
+                    "en": "You (plural) are."
+                  },
+                  {
+                    "native": "Уыдон сты.",
+                    "en": "They are."
+                  },
+                  {
+                    "native": "Ӕз хорз дӕн.",
+                    "en": "I am good/fine."
+                  },
+                  {
+                    "native": "Ды хорз дӕ.",
+                    "en": "You are good/fine."
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Грамматикӕ: ӕз дӕн",
+            "topicId": "a1-pronouns-copula"
+          }
+        ]
+      }
+    ]
+  }
+}
