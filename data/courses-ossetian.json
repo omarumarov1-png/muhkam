@@ -50,10 +50,10 @@
                 "direction": "os-en",
                 "prompt": "Арфӕ!",
                 "options": [
-                  "good",
+                  "It is good.",
                   "Hello!",
-                  "Saturday",
-                  "arm"
+                  "It is Friday.",
+                  "That is an arm."
                 ],
                 "answerIndex": 1
               },
@@ -72,10 +72,10 @@
                 "type": "listening",
                 "native": "Арфӕ!",
                 "options": [
-                  "eleven",
-                  "three",
+                  "That is eleven.",
+                  "That is a week.",
                   "Hello!",
-                  "seventeen"
+                  "That is seventeen."
                 ],
                 "answerIndex": 2
               },
@@ -85,9 +85,9 @@
                 "prompt": "Салам!",
                 "options": [
                   "Hello! (informal)",
-                  "star",
-                  "to laugh",
-                  "No."
+                  "That is a book.",
+                  "That is a star.",
+                  "That is sixteen."
                 ],
                 "answerIndex": 0
               },
@@ -114,12 +114,12 @@
                 "direction": "os-en",
                 "prompt": "Куыд цӕрут?",
                 "options": [
-                  "to walk, to go",
+                  "That is blood.",
+                  "That is a bear.",
                   "How are you?",
-                  "seven",
-                  "man, husband"
+                  "He is a father."
                 ],
-                "answerIndex": 1
+                "answerIndex": 2
               },
               {
                 "type": "word-bank",
@@ -139,12 +139,12 @@
                 "direction": "os-en",
                 "prompt": "Бузныг, хорз.",
                 "options": [
+                  "That is intellect.",
                   "Fine, thank you.",
-                  "head",
-                  "red",
-                  "You are."
+                  "That is a room.",
+                  "How are you?"
                 ],
-                "answerIndex": 0
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
@@ -163,23 +163,23 @@
                 "type": "listening",
                 "native": "Бузныг, хорз.",
                 "options": [
+                  "That is a hat.",
                   "Fine, thank you.",
-                  "Thursday",
-                  "twelve",
-                  "cold"
+                  "That is nineteen.",
+                  "It is sharp."
                 ],
-                "answerIndex": 0
+                "answerIndex": 1
               },
               {
                 "type": "fill-blank",
                 "native": "Бузныг, хорз.",
-                "blankedEn": "___ thank you.",
-                "answer": "Fine",
+                "blankedEn": "Fine, ___ you.",
+                "answer": "thank",
                 "options": [
-                  "little",
-                  "good",
-                  "Fine",
-                  "walk"
+                  "tooth",
+                  "thank",
+                  "exist",
+                  "intellect"
                 ]
               },
               {
@@ -187,12 +187,12 @@
                 "direction": "os-en",
                 "prompt": "Табуафси.",
                 "options": [
+                  "It is big.",
+                  "That is seventeen.",
                   "Please.",
-                  "nineteen",
-                  "baby, little child",
-                  "fish"
+                  "That is a hand."
                 ],
-                "answerIndex": 0
+                "answerIndex": 2
               },
               {
                 "type": "word-bank",
@@ -217,12 +217,12 @@
                 "direction": "os-en",
                 "prompt": "Бузныг!",
                 "options": [
-                  "cat",
                   "Thank you!",
-                  "snow",
-                  "He/she/it is."
+                  "That is nineteen.",
+                  "That is a baby.",
+                  "That is a fish."
                 ],
-                "answerIndex": 1
+                "answerIndex": 0
               },
               {
                 "type": "word-bank",
@@ -240,12 +240,12 @@
                 "direction": "os-en",
                 "prompt": "О.",
                 "options": [
-                  "to hear",
-                  "nose",
+                  "That is a cat.",
                   "Yes.",
-                  "red"
+                  "That is snow.",
+                  "He/she/it is."
                 ],
-                "answerIndex": 2
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
@@ -262,10 +262,10 @@
                 "type": "listening",
                 "native": "О.",
                 "options": [
-                  "mountain",
-                  "wolf",
+                  "That is a hat.",
+                  "That is a nose.",
                   "Yes.",
-                  "Please."
+                  "It is red."
                 ],
                 "answerIndex": 2
               },
@@ -274,12 +274,12 @@
                 "direction": "os-en",
                 "prompt": "Нӕ.",
                 "options": [
+                  "That is a mountain.",
+                  "That is a wolf.",
                   "No.",
-                  "bird",
-                  "goose",
-                  "sun"
+                  "Please."
                 ],
-                "answerIndex": 0
+                "answerIndex": 2
               },
               {
                 "type": "word-bank",
@@ -304,20 +304,20 @@
                 "direction": "os-en",
                 "prompt": "Бахатыр кӕнут.",
                 "options": [
-                  "tooth",
-                  "hand",
                   "Excuse me.",
-                  "to know"
+                  "That is a bird.",
+                  "That is a goose.",
+                  "That is the sun."
                 ],
-                "answerIndex": 2
+                "answerIndex": 0
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
                 "prompt": "Excuse me.",
                 "bank": [
-                  "кӕнут.",
-                  "Бахатыр"
+                  "Бахатыр",
+                  "кӕнут."
                 ],
                 "answer": [
                   "Бахатыр",
@@ -329,20 +329,20 @@
                 "direction": "os-en",
                 "prompt": "Бахатыр кӕн.",
                 "options": [
+                  "You are a woman.",
+                  "You are good/fine.",
                   "I'm sorry.",
-                  "heart",
-                  "three",
-                  "He/she/it is good/fine."
+                  "That is twelve."
                 ],
-                "answerIndex": 0
+                "answerIndex": 2
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
                 "prompt": "I'm sorry.",
                 "bank": [
-                  "кӕн.",
-                  "Бахатыр"
+                  "Бахатыр",
+                  "кӕн."
                 ],
                 "answer": [
                   "Бахатыр",
@@ -354,9 +354,9 @@
                 "native": "Бахатыр кӕн.",
                 "options": [
                   "I'm sorry.",
-                  "bird",
-                  "Sunday",
-                  "husband"
+                  "That is two.",
+                  "That is a bird.",
+                  "It is Saturday."
                 ],
                 "answerIndex": 0
               },
@@ -365,9 +365,9 @@
                 "direction": "os-en",
                 "prompt": "Фенынмӕ!",
                 "options": [
-                  "sister",
-                  "seventeen",
-                  "They are.",
+                  "It is red.",
+                  "That is seventeen.",
+                  "It is yellow.",
                   "Goodbye!"
                 ],
                 "answerIndex": 3
@@ -444,667 +444,761 @@
               {
                 "type": "multiple-choice",
                 "direction": "os-en",
-                "prompt": "иу",
+                "prompt": "Уый иу у.",
                 "options": [
-                  "one",
-                  "good",
-                  "bad",
-                  "ten"
+                  "It is long.",
+                  "That is one.",
+                  "That is a stone.",
+                  "That is ten."
                 ],
-                "answerIndex": 0
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
-                "prompt": "one",
+                "prompt": "That is one.",
                 "bank": [
+                  "Уый",
+                  "у.",
                   "иу"
                 ],
                 "answer": [
-                  "иу"
+                  "Уый",
+                  "иу",
+                  "у."
                 ]
               },
               {
                 "type": "listening",
-                "native": "иу",
+                "native": "Уый иу у.",
                 "options": [
-                  "one",
-                  "five",
-                  "the Earth, soil",
-                  "to write"
+                  "That is one.",
+                  "That is five.",
+                  "That is the earth.",
+                  "That is a soul."
                 ],
                 "answerIndex": 0
               },
               {
                 "type": "multiple-choice",
                 "direction": "os-en",
-                "prompt": "дыууӕ",
+                "prompt": "Уый дыууӕ у.",
                 "options": [
-                  "to eat",
-                  "four",
-                  "two",
-                  "three"
+                  "That is a door.",
+                  "That is four.",
+                  "That is two.",
+                  "That is three."
                 ],
                 "answerIndex": 2
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
-                "prompt": "two",
+                "prompt": "That is two.",
                 "bank": [
-                  "дыууӕ"
+                  "дыууӕ",
+                  "у.",
+                  "Уый"
                 ],
                 "answer": [
-                  "дыууӕ"
+                  "Уый",
+                  "дыууӕ",
+                  "у."
                 ]
               },
               {
                 "type": "listening-tap",
-                "native": "дыууӕ",
+                "native": "Уый дыууӕ у.",
                 "answer": [
-                  "дыууӕ"
+                  "Уый",
+                  "дыууӕ",
+                  "у."
                 ]
               },
               {
                 "type": "multiple-choice",
                 "direction": "os-en",
-                "prompt": "ӕртӕ",
+                "prompt": "Уый ӕртӕ у.",
                 "options": [
-                  "mouth",
-                  "six",
-                  "three",
-                  "Please."
-                ],
-                "answerIndex": 2
-              },
-              {
-                "type": "word-bank",
-                "direction": "en-os",
-                "prompt": "three",
-                "bank": [
-                  "ӕртӕ"
-                ],
-                "answer": [
-                  "ӕртӕ"
-                ]
-              },
-              {
-                "type": "multiple-choice",
-                "direction": "os-en",
-                "prompt": "цыппар",
-                "options": [
-                  "cat",
-                  "four",
-                  "eleven",
-                  "to walk, to go"
+                  "That is five.",
+                  "That is three.",
+                  "No.",
+                  "That is a nose."
                 ],
                 "answerIndex": 1
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
-                "prompt": "four",
+                "prompt": "That is three.",
                 "bank": [
-                  "цыппар"
+                  "ӕртӕ",
+                  "Уый",
+                  "у."
                 ],
                 "answer": [
-                  "цыппар"
+                  "Уый",
+                  "ӕртӕ",
+                  "у."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый цыппар у.",
+                "options": [
+                  "Please.",
+                  "That is four.",
+                  "I am good/fine.",
+                  "That is a dog."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "That is four.",
+                "bank": [
+                  "у.",
+                  "цыппар",
+                  "Уый"
+                ],
+                "answer": [
+                  "Уый",
+                  "цыппар",
+                  "у."
                 ]
               },
               {
                 "type": "listening",
-                "native": "цыппар",
+                "native": "Уый цыппар у.",
                 "options": [
-                  "Tuesday",
-                  "four",
-                  "fire",
-                  "I am good/fine."
+                  "That is four.",
+                  "That is a hand.",
+                  "That is fourteen.",
+                  "It is Monday."
                 ],
-                "answerIndex": 1
+                "answerIndex": 0
               },
               {
                 "type": "fill-blank",
-                "native": "цыппар",
-                "blankedEn": "___",
+                "native": "Уый цыппар у.",
+                "blankedEn": "That is ___",
                 "answer": "four",
                 "options": [
+                  "fire",
+                  "horse",
                   "four",
-                  "twelve",
-                  "father",
-                  "yellow"
+                  "five"
                 ]
               },
               {
                 "type": "multiple-choice",
                 "direction": "os-en",
-                "prompt": "фондз",
+                "prompt": "Уый фондз у.",
                 "options": [
-                  "white",
                   "You are good/fine.",
-                  "the Earth, soil",
-                  "five"
+                  "That is an eye.",
+                  "It is long.",
+                  "That is five."
                 ],
                 "answerIndex": 3
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
-                "prompt": "five",
+                "prompt": "That is five.",
                 "bank": [
+                  "у.",
+                  "Уый",
                   "фондз"
                 ],
                 "answer": [
-                  "фондз"
+                  "Уый",
+                  "фондз",
+                  "у."
                 ]
               },
               {
                 "type": "listening-tap",
-                "native": "фондз",
+                "native": "Уый фондз у.",
                 "answer": [
-                  "фондз"
+                  "Уый",
+                  "фондз",
+                  "у."
                 ]
               },
               {
                 "type": "multiple-choice",
                 "direction": "os-en",
-                "prompt": "ӕхсӕз",
+                "prompt": "Уый ӕхсӕз у.",
                 "options": [
-                  "You are good/fine.",
-                  "to speak",
-                  "six",
-                  "We are good/fine."
-                ],
-                "answerIndex": 2
-              },
-              {
-                "type": "word-bank",
-                "direction": "en-os",
-                "prompt": "six",
-                "bank": [
-                  "ӕхсӕз"
-                ],
-                "answer": [
-                  "ӕхсӕз"
-                ]
-              },
-              {
-                "type": "multiple-choice",
-                "direction": "os-en",
-                "prompt": "авд",
-                "options": [
-                  "fourteen",
-                  "seven",
-                  "head",
-                  "Thursday"
+                  "That is two.",
+                  "That is six.",
+                  "That is a nose.",
+                  "That is twelve."
                 ],
                 "answerIndex": 1
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
-                "prompt": "seven",
+                "prompt": "That is six.",
                 "bank": [
-                  "авд"
+                  "ӕхсӕз",
+                  "у.",
+                  "Уый"
                 ],
                 "answer": [
-                  "авд"
+                  "Уый",
+                  "ӕхсӕз",
+                  "у."
                 ]
-              },
-              {
-                "type": "listening",
-                "native": "авд",
-                "options": [
-                  "two",
-                  "seven",
-                  "nose",
-                  "twelve"
-                ],
-                "answerIndex": 1
               },
               {
                 "type": "multiple-choice",
                 "direction": "os-en",
-                "prompt": "аст",
+                "prompt": "Уый авд у.",
                 "options": [
-                  "eight",
-                  "eleven",
-                  "They are.",
-                  "to walk, to go"
+                  "That is seven.",
+                  "That is a hand.",
+                  "It is correct.",
+                  "That is a goose."
                 ],
                 "answerIndex": 0
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
-                "prompt": "eight",
+                "prompt": "That is seven.",
                 "bank": [
+                  "авд",
+                  "у.",
+                  "Уый"
+                ],
+                "answer": [
+                  "Уый",
+                  "авд",
+                  "у."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Уый авд у.",
+                "options": [
+                  "That is eight.",
+                  "That is a horse.",
+                  "It is big.",
+                  "That is seven."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый аст у.",
+                "options": [
+                  "That is eight.",
+                  "That is fifteen.",
+                  "That is a horse.",
+                  "That is a question."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "That is eight.",
+                "bank": [
+                  "Уый",
+                  "у.",
                   "аст"
                 ],
                 "answer": [
-                  "аст"
+                  "Уый",
+                  "аст",
+                  "у."
                 ]
               },
               {
                 "type": "listening-tap",
-                "native": "аст",
+                "native": "Уый аст у.",
                 "answer": [
-                  "аст"
+                  "Уый",
+                  "аст",
+                  "у."
                 ]
               },
               {
                 "type": "fill-blank",
-                "native": "аст",
-                "blankedEn": "___",
+                "native": "Уый аст у.",
+                "blankedEn": "That is ___",
                 "answer": "eight",
                 "options": [
                   "eight",
-                  "wolf",
-                  "Tuesday",
-                  "eighteen"
+                  "exist",
+                  "goodfine",
+                  "mother"
                 ]
               },
               {
                 "type": "multiple-choice",
                 "direction": "os-en",
-                "prompt": "фараст",
+                "prompt": "Уый фараст у.",
                 "options": [
-                  "Excuse me.",
-                  "man, husband",
-                  "nine",
-                  "thin"
-                ],
-                "answerIndex": 2
-              },
-              {
-                "type": "word-bank",
-                "direction": "en-os",
-                "prompt": "nine",
-                "bank": [
-                  "фараст"
-                ],
-                "answer": [
-                  "фараст"
-                ]
-              },
-              {
-                "type": "multiple-choice",
-                "direction": "os-en",
-                "prompt": "дӕс",
-                "options": [
-                  "You are.",
-                  "hot",
-                  "mountain",
-                  "ten"
+                  "That is nineteen.",
+                  "That is an eye.",
+                  "I am good/fine.",
+                  "That is nine."
                 ],
                 "answerIndex": 3
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
-                "prompt": "ten",
+                "prompt": "That is nine.",
                 "bank": [
+                  "Уый",
+                  "фараст",
+                  "у."
+                ],
+                "answer": [
+                  "Уый",
+                  "фараст",
+                  "у."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый дӕс у.",
+                "options": [
+                  "That is sixteen.",
+                  "She is a mother.",
+                  "It is long.",
+                  "That is ten."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "That is ten.",
+                "bank": [
+                  "Уый",
+                  "у.",
                   "дӕс"
                 ],
                 "answer": [
-                  "дӕс"
+                  "Уый",
+                  "дӕс",
+                  "у."
                 ]
               },
               {
                 "type": "listening",
-                "native": "дӕс",
+                "native": "Уый дӕс у.",
                 "options": [
-                  "bird",
-                  "ten",
-                  "I am good/fine.",
-                  "white"
+                  "That is a heart.",
+                  "That is ten.",
+                  "That is a hat.",
+                  "That is a bear."
                 ],
                 "answerIndex": 1
               },
               {
                 "type": "multiple-choice",
                 "direction": "os-en",
-                "prompt": "иуӕндӕс",
+                "prompt": "Уый иуӕндӕс у.",
                 "options": [
-                  "eleven",
-                  "hand",
-                  "bear",
-                  "sixteen"
-                ],
-                "answerIndex": 0
-              },
-              {
-                "type": "word-bank",
-                "direction": "en-os",
-                "prompt": "eleven",
-                "bank": [
-                  "иуӕндӕс"
-                ],
-                "answer": [
-                  "иуӕндӕс"
-                ]
-              },
-              {
-                "type": "listening-tap",
-                "native": "иуӕндӕс",
-                "answer": [
-                  "иуӕндӕс"
-                ]
-              },
-              {
-                "type": "multiple-choice",
-                "direction": "os-en",
-                "prompt": "дыууадӕс",
-                "options": [
-                  "sixteen",
-                  "mother",
-                  "long",
-                  "twelve"
+                  "That is nineteen.",
+                  "It is white.",
+                  "He/she/it is good/fine.",
+                  "That is eleven."
                 ],
                 "answerIndex": 3
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
-                "prompt": "twelve",
+                "prompt": "That is eleven.",
                 "bank": [
-                  "дыууадӕс"
+                  "иуӕндӕс",
+                  "Уый",
+                  "у."
                 ],
                 "answer": [
-                  "дыууадӕс"
+                  "Уый",
+                  "иуӕндӕс",
+                  "у."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Уый иуӕндӕс у.",
+                "answer": [
+                  "Уый",
+                  "иуӕндӕс",
+                  "у."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый дыууадӕс у.",
+                "options": [
+                  "That is twelve.",
+                  "We are.",
+                  "That is a hand.",
+                  "That is eleven."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "That is twelve.",
+                "bank": [
+                  "дыууадӕс",
+                  "у.",
+                  "Уый"
+                ],
+                "answer": [
+                  "Уый",
+                  "дыууадӕс",
+                  "у."
                 ]
               },
               {
                 "type": "fill-blank",
-                "native": "дыууадӕс",
-                "blankedEn": "___",
+                "native": "Уый дыууадӕс у.",
+                "blankedEn": "That is ___",
                 "answer": "twelve",
                 "options": [
-                  "walk",
-                  "fish",
-                  "snow",
-                  "twelve"
+                  "soul",
+                  "heart",
+                  "twelve",
+                  "white"
                 ]
               },
               {
                 "type": "multiple-choice",
                 "direction": "os-en",
-                "prompt": "ӕртындӕс",
+                "prompt": "Уый ӕртындӕс у.",
                 "options": [
-                  "We are.",
-                  "children, offspring",
-                  "thirteen",
-                  "fourteen"
+                  "That is thirteen.",
+                  "It is cold.",
+                  "It is Wednesday.",
+                  "That is one hundred."
                 ],
-                "answerIndex": 2
+                "answerIndex": 0
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
-                "prompt": "thirteen",
+                "prompt": "That is thirteen.",
                 "bank": [
-                  "ӕртындӕс"
+                  "Уый",
+                  "ӕртындӕс",
+                  "у."
                 ],
                 "answer": [
-                  "ӕртындӕс"
+                  "Уый",
+                  "ӕртындӕс",
+                  "у."
                 ]
               },
               {
                 "type": "listening",
-                "native": "ӕртындӕс",
+                "native": "Уый ӕртындӕс у.",
                 "options": [
-                  "nose",
-                  "thirteen",
-                  "wolf",
-                  "to write"
+                  "That is a bear.",
+                  "That is a donkey.",
+                  "That is a bird.",
+                  "That is thirteen."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый цыппӕрдӕс у.",
+                "options": [
+                  "That is a room.",
+                  "That is fourteen.",
+                  "That is twelve.",
+                  "It is long."
                 ],
                 "answerIndex": 1
               },
               {
-                "type": "multiple-choice",
-                "direction": "os-en",
-                "prompt": "цыппӕрдӕс",
-                "options": [
-                  "ten",
-                  "Yes.",
-                  "fourteen",
-                  "big, large"
-                ],
-                "answerIndex": 2
-              },
-              {
                 "type": "word-bank",
                 "direction": "en-os",
-                "prompt": "fourteen",
+                "prompt": "That is fourteen.",
                 "bank": [
-                  "цыппӕрдӕс"
+                  "цыппӕрдӕс",
+                  "Уый",
+                  "у."
                 ],
                 "answer": [
-                  "цыппӕрдӕс"
+                  "Уый",
+                  "цыппӕрдӕс",
+                  "у."
                 ]
               },
               {
                 "type": "listening-tap",
-                "native": "цыппӕрдӕс",
+                "native": "Уый цыппӕрдӕс у.",
                 "answer": [
-                  "цыппӕрдӕс"
+                  "Уый",
+                  "цыппӕрдӕс",
+                  "у."
                 ]
               },
               {
                 "type": "multiple-choice",
                 "direction": "os-en",
-                "prompt": "фынддӕс",
+                "prompt": "Уый фынддӕс у.",
                 "options": [
-                  "How are you?",
-                  "sister",
-                  "tooth",
-                  "fifteen"
+                  "It is correct.",
+                  "That is a book.",
+                  "That is fourteen.",
+                  "That is fifteen."
                 ],
                 "answerIndex": 3
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
-                "prompt": "fifteen",
+                "prompt": "That is fifteen.",
                 "bank": [
-                  "фынддӕс"
+                  "фынддӕс",
+                  "Уый",
+                  "у."
                 ],
                 "answer": [
-                  "фынддӕс"
+                  "Уый",
+                  "фынддӕс",
+                  "у."
                 ]
               },
               {
                 "type": "multiple-choice",
                 "direction": "os-en",
-                "prompt": "ӕхсӕрдӕс",
+                "prompt": "Уый ӕхсӕрдӕс у.",
                 "options": [
-                  "long",
+                  "That is sixteen.",
+                  "She is a sister.",
+                  "That is eight.",
+                  "It is Sunday."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "That is sixteen.",
+                "bank": [
+                  "ӕхсӕрдӕс",
+                  "у.",
+                  "Уый"
+                ],
+                "answer": [
+                  "Уый",
+                  "ӕхсӕрдӕс",
+                  "у."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Уый ӕхсӕрдӕс у.",
+                "options": [
+                  "No.",
+                  "They are.",
+                  "That is five.",
+                  "That is sixteen."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "fill-blank",
+                "native": "Уый ӕхсӕрдӕс у.",
+                "blankedEn": "That is ___",
+                "answer": "sixteen",
+                "options": [
+                  "Saturday",
+                  "four",
                   "sixteen",
-                  "black",
-                  "to walk, to go"
+                  "door"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый ӕвддӕс у.",
+                "options": [
+                  "That is a hand.",
+                  "That is seventeen.",
+                  "That is five.",
+                  "That is a baby."
                 ],
                 "answerIndex": 1
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
-                "prompt": "sixteen",
+                "prompt": "That is seventeen.",
                 "bank": [
-                  "ӕхсӕрдӕс"
+                  "у.",
+                  "ӕвддӕс",
+                  "Уый"
                 ],
                 "answer": [
-                  "ӕхсӕрдӕс"
+                  "Уый",
+                  "ӕвддӕс",
+                  "у."
                 ]
               },
               {
-                "type": "listening",
-                "native": "ӕхсӕрдӕс",
-                "options": [
-                  "sixteen",
-                  "sheep",
-                  "green",
-                  "six"
-                ],
-                "answerIndex": 0
-              },
-              {
-                "type": "fill-blank",
-                "native": "ӕхсӕрдӕс",
-                "blankedEn": "___",
-                "answer": "sixteen",
-                "options": [
-                  "children",
-                  "sixteen",
-                  "mother",
-                  "child"
+                "type": "listening-tap",
+                "native": "Уый ӕвддӕс у.",
+                "answer": [
+                  "Уый",
+                  "ӕвддӕс",
+                  "у."
                 ]
               },
               {
                 "type": "multiple-choice",
                 "direction": "os-en",
-                "prompt": "ӕвддӕс",
+                "prompt": "Уый ӕстдӕс у.",
                 "options": [
-                  "green",
-                  "Wednesday",
-                  "seventeen",
-                  "sheep"
+                  "That is seventeen.",
+                  "That is eighteen.",
+                  "That is five.",
+                  "We are good/fine."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "That is eighteen.",
+                "bank": [
+                  "ӕстдӕс",
+                  "у.",
+                  "Уый"
+                ],
+                "answer": [
+                  "Уый",
+                  "ӕстдӕс",
+                  "у."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый нудӕс у.",
+                "options": [
+                  "You are good/fine.",
+                  "He is a father.",
+                  "We are good/fine.",
+                  "That is nineteen."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "That is nineteen.",
+                "bank": [
+                  "Уый",
+                  "у.",
+                  "нудӕс"
+                ],
+                "answer": [
+                  "Уый",
+                  "нудӕс",
+                  "у."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Уый нудӕс у.",
+                "options": [
+                  "You (plural) are.",
+                  "That is a sheep.",
+                  "That is nineteen.",
+                  "That is nine."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый сӕдӕ у.",
+                "options": [
+                  "That is water.",
+                  "Fine, thank you.",
+                  "That is one hundred.",
+                  "That is a room."
                 ],
                 "answerIndex": 2
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
-                "prompt": "seventeen",
+                "prompt": "That is one hundred.",
                 "bank": [
-                  "ӕвддӕс"
+                  "Уый",
+                  "сӕдӕ",
+                  "у."
                 ],
                 "answer": [
-                  "ӕвддӕс"
+                  "Уый",
+                  "сӕдӕ",
+                  "у."
                 ]
               },
               {
                 "type": "listening-tap",
-                "native": "ӕвддӕс",
+                "native": "Уый сӕдӕ у.",
                 "answer": [
-                  "ӕвддӕс"
-                ]
-              },
-              {
-                "type": "multiple-choice",
-                "direction": "os-en",
-                "prompt": "ӕстдӕс",
-                "options": [
-                  "eighteen",
-                  "They are.",
-                  "No.",
-                  "Hello!"
-                ],
-                "answerIndex": 0
-              },
-              {
-                "type": "word-bank",
-                "direction": "en-os",
-                "prompt": "eighteen",
-                "bank": [
-                  "ӕстдӕс"
-                ],
-                "answer": [
-                  "ӕстдӕс"
-                ]
-              },
-              {
-                "type": "multiple-choice",
-                "direction": "os-en",
-                "prompt": "нудӕс",
-                "options": [
-                  "nineteen",
-                  "I'm sorry.",
-                  "horse",
-                  "eleven"
-                ],
-                "answerIndex": 0
-              },
-              {
-                "type": "word-bank",
-                "direction": "en-os",
-                "prompt": "nineteen",
-                "bank": [
-                  "нудӕс"
-                ],
-                "answer": [
-                  "нудӕс"
-                ]
-              },
-              {
-                "type": "listening",
-                "native": "нудӕс",
-                "options": [
-                  "nineteen",
-                  "to drink",
-                  "thin",
-                  "I'm sorry."
-                ],
-                "answerIndex": 0
-              },
-              {
-                "type": "multiple-choice",
-                "direction": "os-en",
-                "prompt": "сӕдӕ",
-                "options": [
-                  "sister",
-                  "one hundred",
-                  "bird",
-                  "Thursday"
-                ],
-                "answerIndex": 1
-              },
-              {
-                "type": "word-bank",
-                "direction": "en-os",
-                "prompt": "one hundred",
-                "bank": [
-                  "сӕдӕ"
-                ],
-                "answer": [
-                  "сӕдӕ"
-                ]
-              },
-              {
-                "type": "listening-tap",
-                "native": "сӕдӕ",
-                "answer": [
-                  "сӕдӕ"
+                  "Уый",
+                  "сӕдӕ",
+                  "у."
                 ]
               },
               {
                 "type": "fill-blank",
-                "native": "сӕдӕ",
-                "blankedEn": "one ___",
+                "native": "Уый сӕдӕ у.",
+                "blankedEn": "That is one ___",
                 "answer": "hundred",
                 "options": [
-                  "informal",
-                  "water",
-                  "yellow",
-                  "hundred"
+                  "hundred",
+                  "eight",
+                  "fourteen",
+                  "correct"
                 ]
               },
               {
                 "type": "matching",
                 "pairs": [
                   {
-                    "native": "иу",
-                    "en": "one"
+                    "native": "Уый иу у.",
+                    "en": "That is one."
                   },
                   {
-                    "native": "дыууӕ",
-                    "en": "two"
+                    "native": "Уый дыууӕ у.",
+                    "en": "That is two."
                   },
                   {
-                    "native": "ӕртӕ",
-                    "en": "three"
+                    "native": "Уый ӕртӕ у.",
+                    "en": "That is three."
                   },
                   {
-                    "native": "цыппар",
-                    "en": "four"
+                    "native": "Уый цыппар у.",
+                    "en": "That is four."
                   }
                 ]
               },
@@ -1112,20 +1206,20 @@
                 "type": "matching",
                 "pairs": [
                   {
-                    "native": "фондз",
-                    "en": "five"
+                    "native": "Уый фондз у.",
+                    "en": "That is five."
                   },
                   {
-                    "native": "ӕхсӕз",
-                    "en": "six"
+                    "native": "Уый ӕхсӕз у.",
+                    "en": "That is six."
                   },
                   {
-                    "native": "авд",
-                    "en": "seven"
+                    "native": "Уый авд у.",
+                    "en": "That is seven."
                   },
                   {
-                    "native": "аст",
-                    "en": "eight"
+                    "native": "Уый аст у.",
+                    "en": "That is eight."
                   }
                 ]
               },
@@ -1133,20 +1227,20 @@
                 "type": "matching",
                 "pairs": [
                   {
-                    "native": "фараст",
-                    "en": "nine"
+                    "native": "Уый фараст у.",
+                    "en": "That is nine."
                   },
                   {
-                    "native": "дӕс",
-                    "en": "ten"
+                    "native": "Уый дӕс у.",
+                    "en": "That is ten."
                   },
                   {
-                    "native": "иуӕндӕс",
-                    "en": "eleven"
+                    "native": "Уый иуӕндӕс у.",
+                    "en": "That is eleven."
                   },
                   {
-                    "native": "дыууадӕс",
-                    "en": "twelve"
+                    "native": "Уый дыууадӕс у.",
+                    "en": "That is twelve."
                   }
                 ]
               },
@@ -1154,20 +1248,20 @@
                 "type": "matching",
                 "pairs": [
                   {
-                    "native": "ӕртындӕс",
-                    "en": "thirteen"
+                    "native": "Уый ӕртындӕс у.",
+                    "en": "That is thirteen."
                   },
                   {
-                    "native": "цыппӕрдӕс",
-                    "en": "fourteen"
+                    "native": "Уый цыппӕрдӕс у.",
+                    "en": "That is fourteen."
                   },
                   {
-                    "native": "фынддӕс",
-                    "en": "fifteen"
+                    "native": "Уый фынддӕс у.",
+                    "en": "That is fifteen."
                   },
                   {
-                    "native": "ӕхсӕрдӕс",
-                    "en": "sixteen"
+                    "native": "Уый ӕхсӕрдӕс у.",
+                    "en": "That is sixteen."
                   }
                 ]
               },
@@ -1175,20 +1269,20 @@
                 "type": "matching",
                 "pairs": [
                   {
-                    "native": "ӕвддӕс",
-                    "en": "seventeen"
+                    "native": "Уый ӕвддӕс у.",
+                    "en": "That is seventeen."
                   },
                   {
-                    "native": "ӕстдӕс",
-                    "en": "eighteen"
+                    "native": "Уый ӕстдӕс у.",
+                    "en": "That is eighteen."
                   },
                   {
-                    "native": "нудӕс",
-                    "en": "nineteen"
+                    "native": "Уый нудӕс у.",
+                    "en": "That is nineteen."
                   },
                   {
-                    "native": "сӕдӕ",
-                    "en": "one hundred"
+                    "native": "Уый сӕдӕ у.",
+                    "en": "That is one hundred."
                   }
                 ]
               }
@@ -1204,306 +1298,348 @@
               {
                 "type": "multiple-choice",
                 "direction": "os-en",
-                "prompt": "мад",
+                "prompt": "Уый мад у.",
                 "options": [
-                  "You are good/fine.",
-                  "father",
-                  "We are good/fine.",
-                  "mother"
-                ],
-                "answerIndex": 3
-              },
-              {
-                "type": "word-bank",
-                "direction": "en-os",
-                "prompt": "mother",
-                "bank": [
-                  "мад"
-                ],
-                "answer": [
-                  "мад"
-                ]
-              },
-              {
-                "type": "listening",
-                "native": "мад",
-                "options": [
-                  "twelve",
-                  "mother",
-                  "horse",
-                  "green"
-                ],
-                "answerIndex": 1
-              },
-              {
-                "type": "multiple-choice",
-                "direction": "os-en",
-                "prompt": "фидӕ",
-                "options": [
-                  "lip",
-                  "seven",
-                  "four",
-                  "father"
-                ],
-                "answerIndex": 3
-              },
-              {
-                "type": "word-bank",
-                "direction": "en-os",
-                "prompt": "father",
-                "bank": [
-                  "фидӕ"
-                ],
-                "answer": [
-                  "фидӕ"
-                ]
-              },
-              {
-                "type": "listening-tap",
-                "native": "фидӕ",
-                "answer": [
-                  "фидӕ"
-                ]
-              },
-              {
-                "type": "multiple-choice",
-                "direction": "os-en",
-                "prompt": "хо",
-                "options": [
-                  "sister",
-                  "Fine, thank you.",
-                  "six",
-                  "to speak"
-                ],
-                "answerIndex": 0
-              },
-              {
-                "type": "word-bank",
-                "direction": "en-os",
-                "prompt": "sister",
-                "bank": [
-                  "хо"
-                ],
-                "answer": [
-                  "хо"
-                ]
-              },
-              {
-                "type": "multiple-choice",
-                "direction": "os-en",
-                "prompt": "ӕрвадӕ",
-                "options": [
-                  "fifteen",
-                  "Goodbye!",
-                  "brother",
-                  "twelve"
+                  "That is a soul.",
+                  "It is thin.",
+                  "She is a mother.",
+                  "That is a question."
                 ],
                 "answerIndex": 2
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
-                "prompt": "brother",
+                "prompt": "She is a mother.",
                 "bank": [
-                  "ӕрвадӕ"
+                  "мад",
+                  "Уый",
+                  "у."
                 ],
                 "answer": [
-                  "ӕрвадӕ"
+                  "Уый",
+                  "мад",
+                  "у."
                 ]
               },
               {
                 "type": "listening",
-                "native": "ӕрвадӕ",
+                "native": "Уый мад у.",
                 "options": [
-                  "brother",
-                  "six",
-                  "nine",
-                  "Excuse me."
+                  "That is a hat.",
+                  "That is a cat.",
+                  "That is thirteen.",
+                  "She is a mother."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый фидӕ у.",
+                "options": [
+                  "He is a father.",
+                  "That is a nose.",
+                  "Yes.",
+                  "They are."
                 ],
                 "answerIndex": 0
               },
               {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "He is a father.",
+                "bank": [
+                  "Уый",
+                  "у.",
+                  "фидӕ"
+                ],
+                "answer": [
+                  "Уый",
+                  "фидӕ",
+                  "у."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Уый фидӕ у.",
+                "answer": [
+                  "Уый",
+                  "фидӕ",
+                  "у."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый хо у.",
+                "options": [
+                  "That is a hat.",
+                  "You are a woman.",
+                  "That is a stone.",
+                  "She is a sister."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "She is a sister.",
+                "bank": [
+                  "Уый",
+                  "хо",
+                  "у."
+                ],
+                "answer": [
+                  "Уый",
+                  "хо",
+                  "у."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый ӕрвадӕ у.",
+                "options": [
+                  "It is correct.",
+                  "That is a wolf.",
+                  "That is twelve.",
+                  "He is a brother."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "He is a brother.",
+                "bank": [
+                  "Уый",
+                  "у.",
+                  "ӕрвадӕ"
+                ],
+                "answer": [
+                  "Уый",
+                  "ӕрвадӕ",
+                  "у."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Уый ӕрвадӕ у.",
+                "options": [
+                  "It is Tuesday.",
+                  "That is a tooth.",
+                  "That is sixteen.",
+                  "He is a brother."
+                ],
+                "answerIndex": 3
+              },
+              {
                 "type": "fill-blank",
-                "native": "ӕрвадӕ",
-                "blankedEn": "___",
+                "native": "Уый ӕрвадӕ у.",
+                "blankedEn": "He is a ___",
                 "answer": "brother",
                 "options": [
-                  "speak",
-                  "wolf",
-                  "bird",
+                  "Hesheit",
+                  "tooth",
+                  "mother",
                   "brother"
                 ]
               },
               {
                 "type": "multiple-choice",
                 "direction": "os-en",
-                "prompt": "лӕг",
+                "prompt": "Ӕз лӕг дӕн.",
                 "options": [
-                  "red",
-                  "man, husband",
-                  "one hundred",
-                  "seventeen"
+                  "That is five.",
+                  "That is a face.",
+                  "He/she/it is.",
+                  "I am a man."
                 ],
-                "answerIndex": 1
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
-                "prompt": "man, husband",
+                "prompt": "I am a man.",
                 "bank": [
-                  "лӕг"
+                  "лӕг",
+                  "Ӕз",
+                  "дӕн."
                 ],
                 "answer": [
-                  "лӕг"
+                  "Ӕз",
+                  "лӕг",
+                  "дӕн."
                 ]
               },
               {
                 "type": "listening-tap",
-                "native": "лӕг",
+                "native": "Ӕз лӕг дӕн.",
                 "answer": [
-                  "лӕг"
+                  "Ӕз",
+                  "лӕг",
+                  "дӕн."
                 ]
               },
               {
                 "type": "multiple-choice",
                 "direction": "os-en",
-                "prompt": "ус",
+                "prompt": "Ды ус дӕ.",
                 "options": [
-                  "sheep",
-                  "woman",
-                  "donkey",
-                  "husband"
-                ],
-                "answerIndex": 1
-              },
-              {
-                "type": "word-bank",
-                "direction": "en-os",
-                "prompt": "woman",
-                "bank": [
-                  "ус"
-                ],
-                "answer": [
-                  "ус"
-                ]
-              },
-              {
-                "type": "multiple-choice",
-                "direction": "os-en",
-                "prompt": "мой",
-                "options": [
-                  "husband",
-                  "red",
-                  "eighteen",
-                  "three"
+                  "You are a woman.",
+                  "Goodbye!",
+                  "We are.",
+                  "That is a star."
                 ],
                 "answerIndex": 0
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
-                "prompt": "husband",
+                "prompt": "You are a woman.",
                 "bank": [
-                  "мой"
+                  "дӕ.",
+                  "ус",
+                  "Ды"
                 ],
                 "answer": [
-                  "мой"
+                  "Ды",
+                  "ус",
+                  "дӕ."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый мой у.",
+                "options": [
+                  "That is eight.",
+                  "That is fourteen.",
+                  "He is a husband.",
+                  "I am a man."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "He is a husband.",
+                "bank": [
+                  "у.",
+                  "мой",
+                  "Уый"
+                ],
+                "answer": [
+                  "Уый",
+                  "мой",
+                  "у."
                 ]
               },
               {
                 "type": "listening",
-                "native": "мой",
+                "native": "Уый мой у.",
                 "options": [
-                  "Thank you!",
-                  "bear",
-                  "husband",
-                  "to live"
+                  "No.",
+                  "That is a hat.",
+                  "He is a husband.",
+                  "It is Tuesday."
                 ],
                 "answerIndex": 2
               },
               {
                 "type": "multiple-choice",
                 "direction": "os-en",
-                "prompt": "зӕнӕг",
+                "prompt": "Мах зӕнӕг стӕм.",
                 "options": [
-                  "children, offspring",
-                  "to hear",
-                  "brother",
-                  "to write"
+                  "It is Monday.",
+                  "We are children.",
+                  "No.",
+                  "It is Friday."
                 ],
-                "answerIndex": 0
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
-                "prompt": "children, offspring",
+                "prompt": "We are children.",
                 "bank": [
-                  "зӕнӕг"
+                  "зӕнӕг",
+                  "Мах",
+                  "стӕм."
                 ],
                 "answer": [
-                  "зӕнӕг"
+                  "Мах",
+                  "зӕнӕг",
+                  "стӕм."
                 ]
               },
               {
                 "type": "listening-tap",
-                "native": "зӕнӕг",
+                "native": "Мах зӕнӕг стӕм.",
                 "answer": [
-                  "зӕнӕг"
+                  "Мах",
+                  "зӕнӕг",
+                  "стӕм."
                 ]
               },
               {
                 "type": "fill-blank",
-                "native": "зӕнӕг",
-                "blankedEn": "___ offspring",
+                "native": "Мах зӕнӕг стӕм.",
+                "blankedEn": "We are ___",
                 "answer": "children",
                 "options": [
-                  "child",
-                  "goodfine",
-                  "heart",
-                  "children"
+                  "fourteen",
+                  "children",
+                  "nine",
+                  "Monday"
                 ]
               },
               {
                 "type": "multiple-choice",
                 "direction": "os-en",
-                "prompt": "саби",
+                "prompt": "Уый саби у.",
                 "options": [
-                  "fish",
-                  "bear",
-                  "baby, little child",
-                  "Saturday"
+                  "We are.",
+                  "That is a baby.",
+                  "It is black.",
+                  "That is five."
                 ],
-                "answerIndex": 2
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
-                "prompt": "baby, little child",
+                "prompt": "That is a baby.",
                 "bank": [
-                  "саби"
+                  "саби",
+                  "Уый",
+                  "у."
                 ],
                 "answer": [
-                  "саби"
+                  "Уый",
+                  "саби",
+                  "у."
                 ]
               },
               {
                 "type": "matching",
                 "pairs": [
                   {
-                    "native": "мад",
-                    "en": "mother"
+                    "native": "Уый мад у.",
+                    "en": "She is a mother."
                   },
                   {
-                    "native": "фидӕ",
-                    "en": "father"
+                    "native": "Уый фидӕ у.",
+                    "en": "He is a father."
                   },
                   {
-                    "native": "хо",
-                    "en": "sister"
+                    "native": "Уый хо у.",
+                    "en": "She is a sister."
                   },
                   {
-                    "native": "ӕрвадӕ",
-                    "en": "brother"
+                    "native": "Уый ӕрвадӕ у.",
+                    "en": "He is a brother."
                   }
                 ]
               },
@@ -1511,20 +1647,20 @@
                 "type": "matching",
                 "pairs": [
                   {
-                    "native": "лӕг",
-                    "en": "man, husband"
+                    "native": "Ӕз лӕг дӕн.",
+                    "en": "I am a man."
                   },
                   {
-                    "native": "ус",
-                    "en": "woman"
+                    "native": "Ды ус дӕ.",
+                    "en": "You are a woman."
                   },
                   {
-                    "native": "мой",
-                    "en": "husband"
+                    "native": "Уый мой у.",
+                    "en": "He is a husband."
                   },
                   {
-                    "native": "зӕнӕг",
-                    "en": "children, offspring"
+                    "native": "Мах зӕнӕг стӕм.",
+                    "en": "We are children."
                   }
                 ]
               }
@@ -1540,393 +1676,437 @@
               {
                 "type": "multiple-choice",
                 "direction": "os-en",
-                "prompt": "бур",
+                "prompt": "Уый бур у.",
                 "options": [
-                  "yellow",
-                  "Monday",
-                  "to laugh",
-                  "dog"
+                  "We are good/fine.",
+                  "That is a bird.",
+                  "That is a hat.",
+                  "It is yellow."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "It is yellow.",
+                "bank": [
+                  "Уый",
+                  "бур",
+                  "у."
+                ],
+                "answer": [
+                  "Уый",
+                  "бур",
+                  "у."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Уый бур у.",
+                "options": [
+                  "That is blood.",
+                  "It is yellow.",
+                  "That is a head.",
+                  "It is black."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый сау у.",
+                "options": [
+                  "It is black.",
+                  "How are you?",
+                  "He/she/it is.",
+                  "It is big."
                 ],
                 "answerIndex": 0
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
-                "prompt": "yellow",
+                "prompt": "It is black.",
                 "bank": [
-                  "бур"
+                  "Уый",
+                  "сау",
+                  "у."
                 ],
                 "answer": [
-                  "бур"
+                  "Уый",
+                  "сау",
+                  "у."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Уый сау у.",
+                "answer": [
+                  "Уый",
+                  "сау",
+                  "у."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый урс у.",
+                "options": [
+                  "That is a bear.",
+                  "It is white.",
+                  "It is black.",
+                  "It is Thursday."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "It is white.",
+                "bank": [
+                  "у.",
+                  "Уый",
+                  "урс"
+                ],
+                "answer": [
+                  "Уый",
+                  "урс",
+                  "у."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый сырх у.",
+                "options": [
+                  "That is seven.",
+                  "That is a stone.",
+                  "We are.",
+                  "It is red."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "It is red.",
+                "bank": [
+                  "сырх",
+                  "у.",
+                  "Уый"
+                ],
+                "answer": [
+                  "Уый",
+                  "сырх",
+                  "у."
                 ]
               },
               {
                 "type": "listening",
-                "native": "бур",
+                "native": "Уый сырх у.",
+                "options": [
+                  "It is green.",
+                  "It is red.",
+                  "He is a father.",
+                  "That is five."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый цъӕх у.",
+                "options": [
+                  "We are children.",
+                  "It is green.",
+                  "It is correct.",
+                  "That is nineteen."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "It is green.",
+                "bank": [
+                  "у.",
+                  "цъӕх",
+                  "Уый"
+                ],
+                "answer": [
+                  "Уый",
+                  "цъӕх",
+                  "у."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Уый цъӕх у.",
+                "answer": [
+                  "Уый",
+                  "цъӕх",
+                  "у."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый хорз у.",
+                "options": [
+                  "It is good.",
+                  "That is a stone.",
+                  "It is Sunday.",
+                  "That is a wolf."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "It is good.",
+                "bank": [
+                  "хорз",
+                  "Уый",
+                  "у."
+                ],
+                "answer": [
+                  "Уый",
+                  "хорз",
+                  "у."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый ӕвзӕр у.",
+                "options": [
+                  "That is seventeen.",
+                  "That is the sun.",
+                  "I'm sorry.",
+                  "It is bad."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "It is bad.",
+                "bank": [
+                  "у.",
+                  "Уый",
+                  "ӕвзӕр"
+                ],
+                "answer": [
+                  "Уый",
+                  "ӕвзӕр",
+                  "у."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Уый ӕвзӕр у.",
+                "options": [
+                  "It is bad.",
+                  "She is a mother.",
+                  "That is a donkey.",
+                  "That is water."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый стыр у.",
+                "options": [
+                  "It is big.",
+                  "It is yellow.",
+                  "That is a fish.",
+                  "I am a man."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "It is big.",
+                "bank": [
+                  "Уый",
+                  "у.",
+                  "стыр"
+                ],
+                "answer": [
+                  "Уый",
+                  "стыр",
+                  "у."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Уый стыр у.",
+                "answer": [
+                  "Уый",
+                  "стыр",
+                  "у."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый тӕнӕг у.",
+                "options": [
+                  "It is thin.",
+                  "No.",
+                  "It is big.",
+                  "You are a woman."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "It is thin.",
+                "bank": [
+                  "у.",
+                  "Уый",
+                  "тӕнӕг"
+                ],
+                "answer": [
+                  "Уый",
+                  "тӕнӕг",
+                  "у."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый тӕвд у.",
                 "options": [
                   "Fine, thank you.",
-                  "man, husband",
-                  "yellow",
-                  "thirteen"
-                ],
-                "answerIndex": 2
-              },
-              {
-                "type": "multiple-choice",
-                "direction": "os-en",
-                "prompt": "сау",
-                "options": [
-                  "He/she/it is good/fine.",
-                  "black",
-                  "good",
-                  "Please."
-                ],
-                "answerIndex": 1
-              },
-              {
-                "type": "word-bank",
-                "direction": "en-os",
-                "prompt": "black",
-                "bank": [
-                  "сау"
-                ],
-                "answer": [
-                  "сау"
-                ]
-              },
-              {
-                "type": "listening-tap",
-                "native": "сау",
-                "answer": [
-                  "сау"
-                ]
-              },
-              {
-                "type": "multiple-choice",
-                "direction": "os-en",
-                "prompt": "урс",
-                "options": [
-                  "white",
-                  "Tuesday",
-                  "cold",
-                  "to sing"
-                ],
-                "answerIndex": 0
-              },
-              {
-                "type": "word-bank",
-                "direction": "en-os",
-                "prompt": "white",
-                "bank": [
-                  "урс"
-                ],
-                "answer": [
-                  "урс"
-                ]
-              },
-              {
-                "type": "multiple-choice",
-                "direction": "os-en",
-                "prompt": "сырх",
-                "options": [
-                  "dog",
-                  "I'm sorry.",
-                  "red",
-                  "star"
+                  "You are good/fine.",
+                  "It is hot.",
+                  "I am. (I exist / here I am)"
                 ],
                 "answerIndex": 2
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
-                "prompt": "red",
+                "prompt": "It is hot.",
                 "bank": [
-                  "сырх"
+                  "у.",
+                  "тӕвд",
+                  "Уый"
                 ],
                 "answer": [
-                  "сырх"
+                  "Уый",
+                  "тӕвд",
+                  "у."
                 ]
               },
               {
                 "type": "listening",
-                "native": "сырх",
+                "native": "Уый тӕвд у.",
                 "options": [
-                  "We are good/fine.",
-                  "twelve",
-                  "red",
-                  "donkey"
-                ],
-                "answerIndex": 2
-              },
-              {
-                "type": "multiple-choice",
-                "direction": "os-en",
-                "prompt": "цъӕх",
-                "options": [
-                  "green",
-                  "You (plural) are.",
-                  "hot",
-                  "seven"
-                ],
-                "answerIndex": 0
-              },
-              {
-                "type": "word-bank",
-                "direction": "en-os",
-                "prompt": "green",
-                "bank": [
-                  "цъӕх"
-                ],
-                "answer": [
-                  "цъӕх"
-                ]
-              },
-              {
-                "type": "listening-tap",
-                "native": "цъӕх",
-                "answer": [
-                  "цъӕх"
-                ]
-              },
-              {
-                "type": "multiple-choice",
-                "direction": "os-en",
-                "prompt": "хорз",
-                "options": [
-                  "husband",
-                  "good",
-                  "goose",
-                  "I am good/fine."
-                ],
-                "answerIndex": 1
-              },
-              {
-                "type": "word-bank",
-                "direction": "en-os",
-                "prompt": "good",
-                "bank": [
-                  "хорз"
-                ],
-                "answer": [
-                  "хорз"
-                ]
-              },
-              {
-                "type": "multiple-choice",
-                "direction": "os-en",
-                "prompt": "ӕвзӕр",
-                "options": [
-                  "good",
-                  "bad",
-                  "hot",
-                  "five"
-                ],
-                "answerIndex": 1
-              },
-              {
-                "type": "word-bank",
-                "direction": "en-os",
-                "prompt": "bad",
-                "bank": [
-                  "ӕвзӕр"
-                ],
-                "answer": [
-                  "ӕвзӕр"
-                ]
-              },
-              {
-                "type": "listening",
-                "native": "ӕвзӕр",
-                "options": [
-                  "We are good/fine.",
-                  "bird",
-                  "to hear",
-                  "bad"
-                ],
-                "answerIndex": 3
-              },
-              {
-                "type": "multiple-choice",
-                "direction": "os-en",
-                "prompt": "стыр",
-                "options": [
-                  "big, large",
-                  "face",
-                  "sky",
-                  "lip"
-                ],
-                "answerIndex": 0
-              },
-              {
-                "type": "word-bank",
-                "direction": "en-os",
-                "prompt": "big, large",
-                "bank": [
-                  "стыр"
-                ],
-                "answer": [
-                  "стыр"
-                ]
-              },
-              {
-                "type": "listening-tap",
-                "native": "стыр",
-                "answer": [
-                  "стыр"
-                ]
-              },
-              {
-                "type": "fill-blank",
-                "native": "стыр",
-                "blankedEn": "big, ___",
-                "answer": "large",
-                "options": [
-                  "Earth",
-                  "sing",
-                  "nineteen",
-                  "large"
-                ]
-              },
-              {
-                "type": "multiple-choice",
-                "direction": "os-en",
-                "prompt": "тӕнӕг",
-                "options": [
-                  "seven",
-                  "to do",
+                  "That is a star.",
+                  "That is a knee.",
                   "We are.",
-                  "thin"
+                  "It is hot."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый уазал у.",
+                "options": [
+                  "Excuse me.",
+                  "That is the sun.",
+                  "We are good/fine.",
+                  "It is cold."
                 ],
                 "answerIndex": 3
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
-                "prompt": "thin",
+                "prompt": "It is cold.",
                 "bank": [
-                  "тӕнӕг"
-                ],
-                "answer": [
-                  "тӕнӕг"
-                ]
-              },
-              {
-                "type": "multiple-choice",
-                "direction": "os-en",
-                "prompt": "тӕвд",
-                "options": [
-                  "You (plural) are.",
-                  "fish",
-                  "Thursday",
-                  "hot"
-                ],
-                "answerIndex": 3
-              },
-              {
-                "type": "word-bank",
-                "direction": "en-os",
-                "prompt": "hot",
-                "bank": [
-                  "тӕвд"
-                ],
-                "answer": [
-                  "тӕвд"
-                ]
-              },
-              {
-                "type": "listening",
-                "native": "тӕвд",
-                "options": [
-                  "eye",
-                  "hot",
-                  "red",
-                  "fish"
-                ],
-                "answerIndex": 1
-              },
-              {
-                "type": "multiple-choice",
-                "direction": "os-en",
-                "prompt": "уазал",
-                "options": [
-                  "children, offspring",
-                  "cold",
-                  "Monday",
-                  "nineteen"
-                ],
-                "answerIndex": 1
-              },
-              {
-                "type": "word-bank",
-                "direction": "en-os",
-                "prompt": "cold",
-                "bank": [
+                  "Уый",
+                  "у.",
                   "уазал"
                 ],
                 "answer": [
-                  "уазал"
+                  "Уый",
+                  "уазал",
+                  "у."
                 ]
               },
               {
                 "type": "listening-tap",
-                "native": "уазал",
+                "native": "Уый уазал у.",
                 "answer": [
-                  "уазал"
+                  "Уый",
+                  "уазал",
+                  "у."
                 ]
               },
               {
                 "type": "multiple-choice",
                 "direction": "os-en",
-                "prompt": "даргъ",
+                "prompt": "Уый даргъ у.",
                 "options": [
-                  "Saturday",
-                  "long",
-                  "week",
-                  "seven"
+                  "It is correct.",
+                  "It is long.",
+                  "That is a book.",
+                  "That is ten."
                 ],
                 "answerIndex": 1
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
-                "prompt": "long",
+                "prompt": "It is long.",
                 "bank": [
-                  "даргъ"
+                  "Уый",
+                  "даргъ",
+                  "у."
                 ],
                 "answer": [
-                  "даргъ"
+                  "Уый",
+                  "даргъ",
+                  "у."
                 ]
               },
               {
                 "type": "fill-blank",
-                "native": "даргъ",
-                "blankedEn": "___",
+                "native": "Уый даргъ у.",
+                "blankedEn": "It is ___",
                 "answer": "long",
                 "options": [
                   "long",
-                  "Excuse",
-                  "sleep",
-                  "cold"
+                  "hand",
+                  "donkey",
+                  "thin"
                 ]
               },
               {
                 "type": "matching",
                 "pairs": [
                   {
-                    "native": "бур",
-                    "en": "yellow"
+                    "native": "Уый бур у.",
+                    "en": "It is yellow."
                   },
                   {
-                    "native": "сау",
-                    "en": "black"
+                    "native": "Уый сау у.",
+                    "en": "It is black."
                   },
                   {
-                    "native": "урс",
-                    "en": "white"
+                    "native": "Уый урс у.",
+                    "en": "It is white."
                   },
                   {
-                    "native": "сырх",
-                    "en": "red"
+                    "native": "Уый сырх у.",
+                    "en": "It is red."
                   }
                 ]
               },
@@ -1934,20 +2114,20 @@
                 "type": "matching",
                 "pairs": [
                   {
-                    "native": "цъӕх",
-                    "en": "green"
+                    "native": "Уый цъӕх у.",
+                    "en": "It is green."
                   },
                   {
-                    "native": "хорз",
-                    "en": "good"
+                    "native": "Уый хорз у.",
+                    "en": "It is good."
                   },
                   {
-                    "native": "ӕвзӕр",
-                    "en": "bad"
+                    "native": "Уый ӕвзӕр у.",
+                    "en": "It is bad."
                   },
                   {
-                    "native": "стыр",
-                    "en": "big, large"
+                    "native": "Уый стыр у.",
+                    "en": "It is big."
                   }
                 ]
               },
@@ -1955,20 +2135,20 @@
                 "type": "matching",
                 "pairs": [
                   {
-                    "native": "тӕнӕг",
-                    "en": "thin"
+                    "native": "Уый тӕнӕг у.",
+                    "en": "It is thin."
                   },
                   {
-                    "native": "тӕвд",
-                    "en": "hot"
+                    "native": "Уый тӕвд у.",
+                    "en": "It is hot."
                   },
                   {
-                    "native": "уазал",
-                    "en": "cold"
+                    "native": "Уый уазал у.",
+                    "en": "It is cold."
                   },
                   {
-                    "native": "даргъ",
-                    "en": "long"
+                    "native": "Уый даргъ у.",
+                    "en": "It is long."
                   }
                 ]
               }
@@ -1984,591 +2164,675 @@
               {
                 "type": "multiple-choice",
                 "direction": "os-en",
-                "prompt": "хор",
+                "prompt": "Уый хор у.",
                 "options": [
-                  "sun",
-                  "mountain",
-                  "fourteen",
-                  "fish"
+                  "That is a day.",
+                  "It is Sunday.",
+                  "That is the earth.",
+                  "That is the sun."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "That is the sun.",
+                "bank": [
+                  "у.",
+                  "хор",
+                  "Уый"
+                ],
+                "answer": [
+                  "Уый",
+                  "хор",
+                  "у."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Уый хор у.",
+                "options": [
+                  "We are.",
+                  "It is red.",
+                  "That is a knee.",
+                  "That is the sun."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый дон у.",
+                "options": [
+                  "That is a question.",
+                  "That is a mountain.",
+                  "That is water.",
+                  "How are you?"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "That is water.",
+                "bank": [
+                  "дон",
+                  "Уый",
+                  "у."
+                ],
+                "answer": [
+                  "Уый",
+                  "дон",
+                  "у."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Уый дон у.",
+                "answer": [
+                  "Уый",
+                  "дон",
+                  "у."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый хох у.",
+                "options": [
+                  "That is a mountain.",
+                  "Goodbye!",
+                  "Thank you!",
+                  "It is Tuesday."
                 ],
                 "answerIndex": 0
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
-                "prompt": "sun",
+                "prompt": "That is a mountain.",
                 "bank": [
-                  "хор"
+                  "Уый",
+                  "хох",
+                  "у."
                 ],
                 "answer": [
-                  "хор"
-                ]
-              },
-              {
-                "type": "listening",
-                "native": "хор",
-                "options": [
-                  "father",
-                  "one hundred",
-                  "sun",
-                  "black"
-                ],
-                "answerIndex": 2
-              },
-              {
-                "type": "multiple-choice",
-                "direction": "os-en",
-                "prompt": "дон",
-                "options": [
-                  "green",
-                  "water, river",
-                  "woman",
-                  "star"
-                ],
-                "answerIndex": 1
-              },
-              {
-                "type": "word-bank",
-                "direction": "en-os",
-                "prompt": "water, river",
-                "bank": [
-                  "дон"
-                ],
-                "answer": [
-                  "дон"
-                ]
-              },
-              {
-                "type": "listening-tap",
-                "native": "дон",
-                "answer": [
-                  "дон"
+                  "Уый",
+                  "хох",
+                  "у."
                 ]
               },
               {
                 "type": "multiple-choice",
                 "direction": "os-en",
-                "prompt": "хох",
+                "prompt": "Уый зӕхх у.",
                 "options": [
-                  "Fine, thank you.",
-                  "You are good/fine.",
-                  "mountain",
-                  "I am. (I exist / here I am)"
-                ],
-                "answerIndex": 2
-              },
-              {
-                "type": "word-bank",
-                "direction": "en-os",
-                "prompt": "mountain",
-                "bank": [
-                  "хох"
-                ],
-                "answer": [
-                  "хох"
-                ]
-              },
-              {
-                "type": "multiple-choice",
-                "direction": "os-en",
-                "prompt": "зӕхх",
-                "options": [
-                  "six",
-                  "star",
-                  "big, large",
-                  "the Earth, soil"
-                ],
-                "answerIndex": 3
-              },
-              {
-                "type": "word-bank",
-                "direction": "en-os",
-                "prompt": "the Earth, soil",
-                "bank": [
-                  "зӕхх"
-                ],
-                "answer": [
-                  "зӕхх"
-                ]
-              },
-              {
-                "type": "listening",
-                "native": "зӕхх",
-                "options": [
-                  "face",
-                  "Goodbye!",
-                  "fire",
-                  "the Earth, soil"
-                ],
-                "answerIndex": 3
-              },
-              {
-                "type": "fill-blank",
-                "native": "зӕхх",
-                "blankedEn": "the ___ soil",
-                "answer": "Earth",
-                "options": [
-                  "five",
-                  "Earth",
-                  "write",
-                  "thin"
-                ]
-              },
-              {
-                "type": "multiple-choice",
-                "direction": "os-en",
-                "prompt": "арв",
-                "options": [
-                  "sky",
-                  "good",
-                  "fish",
-                  "two"
+                  "That is the earth.",
+                  "That is seventeen.",
+                  "That is a goose.",
+                  "That is a fish."
                 ],
                 "answerIndex": 0
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
-                "prompt": "sky",
+                "prompt": "That is the earth.",
                 "bank": [
-                  "арв"
+                  "у.",
+                  "Уый",
+                  "зӕхх"
                 ],
                 "answer": [
-                  "арв"
+                  "Уый",
+                  "зӕхх",
+                  "у."
                 ]
               },
               {
-                "type": "listening-tap",
-                "native": "арв",
-                "answer": [
-                  "арв"
+                "type": "listening",
+                "native": "Уый зӕхх у.",
+                "options": [
+                  "That is a bear.",
+                  "That is a heart.",
+                  "He is a father.",
+                  "That is the earth."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "fill-blank",
+                "native": "Уый зӕхх у.",
+                "blankedEn": "That is the ___",
+                "answer": "earth",
+                "options": [
+                  "twelve",
+                  "head",
+                  "earth",
+                  "sixteen"
                 ]
               },
               {
                 "type": "multiple-choice",
                 "direction": "os-en",
-                "prompt": "стъалы",
+                "prompt": "Уый арв у.",
                 "options": [
-                  "sky",
-                  "fourteen",
-                  "week",
-                  "star"
+                  "That is a bird.",
+                  "It is white.",
+                  "That is a stone.",
+                  "That is the sky."
                 ],
                 "answerIndex": 3
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
-                "prompt": "star",
+                "prompt": "That is the sky.",
                 "bank": [
-                  "стъалы"
+                  "Уый",
+                  "у.",
+                  "арв"
                 ],
                 "answer": [
-                  "стъалы"
+                  "Уый",
+                  "арв",
+                  "у."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Уый арв у.",
+                "answer": [
+                  "Уый",
+                  "арв",
+                  "у."
                 ]
               },
               {
                 "type": "multiple-choice",
                 "direction": "os-en",
-                "prompt": "мит",
+                "prompt": "Уый стъалы у.",
                 "options": [
-                  "I am. (I exist / here I am)",
-                  "thirteen",
-                  "snow",
-                  "knee"
-                ],
-                "answerIndex": 2
-              },
-              {
-                "type": "word-bank",
-                "direction": "en-os",
-                "prompt": "snow",
-                "bank": [
-                  "мит"
-                ],
-                "answer": [
-                  "мит"
-                ]
-              },
-              {
-                "type": "listening",
-                "native": "мит",
-                "options": [
-                  "face",
-                  "day",
-                  "snow",
-                  "twelve"
-                ],
-                "answerIndex": 2
-              },
-              {
-                "type": "multiple-choice",
-                "direction": "os-en",
-                "prompt": "арт",
-                "options": [
-                  "Goodbye!",
-                  "fire",
-                  "sky",
-                  "They are."
+                  "That is two.",
+                  "That is a star.",
+                  "That is the sky.",
+                  "That is eleven."
                 ],
                 "answerIndex": 1
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
-                "prompt": "fire",
+                "prompt": "That is a star.",
                 "bank": [
+                  "у.",
+                  "Уый",
+                  "стъалы"
+                ],
+                "answer": [
+                  "Уый",
+                  "стъалы",
+                  "у."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый мит у.",
+                "options": [
+                  "That is a mountain.",
+                  "You are.",
+                  "That is snow.",
+                  "He/she/it is good/fine."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "That is snow.",
+                "bank": [
+                  "мит",
+                  "Уый",
+                  "у."
+                ],
+                "answer": [
+                  "Уый",
+                  "мит",
+                  "у."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Уый мит у.",
+                "options": [
+                  "That is snow.",
+                  "It is green.",
+                  "It is correct.",
+                  "That is a head."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый арт у.",
+                "options": [
+                  "That is a star.",
+                  "It is tall.",
+                  "That is snow.",
+                  "That is fire."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "That is fire.",
+                "bank": [
+                  "Уый",
+                  "у.",
                   "арт"
                 ],
                 "answer": [
-                  "арт"
+                  "Уый",
+                  "арт",
+                  "у."
                 ]
               },
               {
                 "type": "listening-tap",
-                "native": "арт",
+                "native": "Уый арт у.",
                 "answer": [
-                  "арт"
+                  "Уый",
+                  "арт",
+                  "у."
                 ]
               },
               {
                 "type": "fill-blank",
-                "native": "арт",
-                "blankedEn": "___",
+                "native": "Уый арт у.",
+                "blankedEn": "That is ___",
                 "answer": "fire",
                 "options": [
-                  "sleep",
+                  "meat",
                   "fire",
-                  "long",
-                  "goose"
+                  "room",
+                  "horse"
                 ]
               },
               {
                 "type": "multiple-choice",
                 "direction": "os-en",
-                "prompt": "куыдз",
+                "prompt": "Уый куыдз у.",
                 "options": [
-                  "bear",
-                  "heart",
-                  "father",
-                  "dog"
+                  "That is a dog.",
+                  "That is blood.",
+                  "It is tall.",
+                  "It is bad."
                 ],
-                "answerIndex": 3
+                "answerIndex": 0
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
-                "prompt": "dog",
+                "prompt": "That is a dog.",
                 "bank": [
-                  "куыдз"
+                  "у.",
+                  "куыдз",
+                  "Уый"
                 ],
                 "answer": [
-                  "куыдз"
+                  "Уый",
+                  "куыдз",
+                  "у."
                 ]
               },
               {
                 "type": "multiple-choice",
                 "direction": "os-en",
-                "prompt": "гӕды",
+                "prompt": "Уый гӕды у.",
                 "options": [
-                  "four",
-                  "donkey",
-                  "tooth",
-                  "cat"
+                  "That is a cat.",
+                  "You are a woman.",
+                  "It is black.",
+                  "That is sixteen."
                 ],
-                "answerIndex": 3
+                "answerIndex": 0
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
-                "prompt": "cat",
+                "prompt": "That is a cat.",
                 "bank": [
-                  "гӕды"
+                  "гӕды",
+                  "Уый",
+                  "у."
                 ],
                 "answer": [
-                  "гӕды"
+                  "Уый",
+                  "гӕды",
+                  "у."
                 ]
               },
               {
                 "type": "listening",
-                "native": "гӕды",
+                "native": "Уый гӕды у.",
                 "options": [
-                  "five",
-                  "cat",
-                  "hot",
-                  "Saturday"
-                ],
-                "answerIndex": 1
-              },
-              {
-                "type": "multiple-choice",
-                "direction": "os-en",
-                "prompt": "бӕх",
-                "options": [
-                  "heart",
-                  "tooth",
-                  "big, large",
-                  "horse"
-                ],
-                "answerIndex": 3
-              },
-              {
-                "type": "word-bank",
-                "direction": "en-os",
-                "prompt": "horse",
-                "bank": [
-                  "бӕх"
-                ],
-                "answer": [
-                  "бӕх"
-                ]
-              },
-              {
-                "type": "listening-tap",
-                "native": "бӕх",
-                "answer": [
-                  "бӕх"
-                ]
-              },
-              {
-                "type": "multiple-choice",
-                "direction": "os-en",
-                "prompt": "хӕрӕг",
-                "options": [
-                  "wolf",
-                  "four",
-                  "donkey",
-                  "red"
+                  "It is Monday.",
+                  "That is six.",
+                  "That is a cat.",
+                  "That is a mountain."
                 ],
                 "answerIndex": 2
               },
               {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый бӕх у.",
+                "options": [
+                  "That is a horse.",
+                  "It is correct.",
+                  "We are.",
+                  "We are children."
+                ],
+                "answerIndex": 0
+              },
+              {
                 "type": "word-bank",
                 "direction": "en-os",
-                "prompt": "donkey",
+                "prompt": "That is a horse.",
                 "bank": [
+                  "у.",
+                  "Уый",
+                  "бӕх"
+                ],
+                "answer": [
+                  "Уый",
+                  "бӕх",
+                  "у."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Уый бӕх у.",
+                "answer": [
+                  "Уый",
+                  "бӕх",
+                  "у."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый хӕрӕг у.",
+                "options": [
+                  "That is a donkey.",
+                  "It is cold.",
+                  "It is white.",
+                  "That is the sun."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "That is a donkey.",
+                "bank": [
+                  "Уый",
+                  "у.",
                   "хӕрӕг"
                 ],
                 "answer": [
-                  "хӕрӕг"
+                  "Уый",
+                  "хӕрӕг",
+                  "у."
                 ]
               },
               {
                 "type": "fill-blank",
-                "native": "хӕрӕг",
-                "blankedEn": "___",
+                "native": "Уый хӕрӕг у.",
+                "blankedEn": "That is a ___",
                 "answer": "donkey",
                 "options": [
-                  "speak",
-                  "thank",
-                  "mother",
+                  "Sunday",
+                  "goose",
+                  "seventeen",
                   "donkey"
                 ]
               },
               {
                 "type": "multiple-choice",
                 "direction": "os-en",
-                "prompt": "арс",
+                "prompt": "Уый арс у.",
                 "options": [
-                  "Sunday",
-                  "green",
-                  "tooth",
-                  "bear"
+                  "We are.",
+                  "That is a mouth.",
+                  "That is a bear.",
+                  "He/she/it is good/fine."
                 ],
-                "answerIndex": 3
+                "answerIndex": 2
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
-                "prompt": "bear",
+                "prompt": "That is a bear.",
                 "bank": [
+                  "Уый",
+                  "у.",
                   "арс"
                 ],
                 "answer": [
-                  "арс"
+                  "Уый",
+                  "арс",
+                  "у."
                 ]
               },
               {
                 "type": "listening",
-                "native": "арс",
+                "native": "Уый арс у.",
                 "options": [
-                  "bear",
-                  "Monday",
-                  "fish",
-                  "head"
-                ],
-                "answerIndex": 0
-              },
-              {
-                "type": "multiple-choice",
-                "direction": "os-en",
-                "prompt": "бирӕгъ",
-                "options": [
-                  "star",
-                  "to sleep",
-                  "snow",
-                  "wolf"
+                  "That is an eye.",
+                  "It is cold.",
+                  "You (plural) are.",
+                  "That is a bear."
                 ],
                 "answerIndex": 3
               },
               {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый бирӕгъ у.",
+                "options": [
+                  "That is a wolf.",
+                  "It is Saturday.",
+                  "He/she/it is.",
+                  "That is the earth."
+                ],
+                "answerIndex": 0
+              },
+              {
                 "type": "word-bank",
                 "direction": "en-os",
-                "prompt": "wolf",
+                "prompt": "That is a wolf.",
                 "bank": [
+                  "у.",
+                  "Уый",
                   "бирӕгъ"
                 ],
                 "answer": [
-                  "бирӕгъ"
+                  "Уый",
+                  "бирӕгъ",
+                  "у."
                 ]
               },
               {
                 "type": "listening-tap",
-                "native": "бирӕгъ",
+                "native": "Уый бирӕгъ у.",
                 "answer": [
-                  "бирӕгъ"
+                  "Уый",
+                  "бирӕгъ",
+                  "у."
                 ]
               },
               {
                 "type": "multiple-choice",
                 "direction": "os-en",
-                "prompt": "хъаз",
+                "prompt": "Уый хъаз у.",
                 "options": [
-                  "goose",
-                  "face",
-                  "black",
-                  "sister"
+                  "No.",
+                  "That is a tooth.",
+                  "That is a goose.",
+                  "That is a head."
                 ],
-                "answerIndex": 0
+                "answerIndex": 2
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
-                "prompt": "goose",
+                "prompt": "That is a goose.",
                 "bank": [
+                  "Уый",
+                  "у.",
                   "хъаз"
                 ],
                 "answer": [
-                  "хъаз"
+                  "Уый",
+                  "хъаз",
+                  "у."
                 ]
               },
               {
                 "type": "multiple-choice",
                 "direction": "os-en",
-                "prompt": "фыс",
+                "prompt": "Уый фыс у.",
                 "options": [
-                  "sheep",
-                  "mountain",
-                  "I am good/fine.",
-                  "children, offspring"
+                  "It is good.",
+                  "He/she/it is good/fine.",
+                  "That is a wolf.",
+                  "That is a sheep."
                 ],
-                "answerIndex": 0
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
-                "prompt": "sheep",
+                "prompt": "That is a sheep.",
                 "bank": [
-                  "фыс"
+                  "фыс",
+                  "Уый",
+                  "у."
                 ],
                 "answer": [
-                  "фыс"
+                  "Уый",
+                  "фыс",
+                  "у."
                 ]
               },
               {
                 "type": "listening",
-                "native": "фыс",
+                "native": "Уый фыс у.",
                 "options": [
-                  "I am good/fine.",
-                  "white",
-                  "sheep",
-                  "to drink"
+                  "That is a sheep.",
+                  "He is a brother.",
+                  "Excuse me.",
+                  "That is seventeen."
                 ],
-                "answerIndex": 2
+                "answerIndex": 0
               },
               {
                 "type": "fill-blank",
-                "native": "фыс",
-                "blankedEn": "___",
+                "native": "Уый фыс у.",
+                "blankedEn": "That is a ___",
                 "answer": "sheep",
                 "options": [
-                  "sheep",
-                  "know",
-                  "Wednesday",
-                  "white"
+                  "tall",
+                  "seventeen",
+                  "Hesheit",
+                  "sheep"
                 ]
               },
               {
                 "type": "multiple-choice",
                 "direction": "os-en",
-                "prompt": "кӕсаг",
+                "prompt": "Уый кӕсаг у.",
                 "options": [
-                  "fish",
-                  "Yes.",
-                  "cat",
-                  "tooth"
+                  "That is the sky.",
+                  "That is a fish.",
+                  "It is big.",
+                  "That is fourteen."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "That is a fish.",
+                "bank": [
+                  "кӕсаг",
+                  "у.",
+                  "Уый"
+                ],
+                "answer": [
+                  "Уый",
+                  "кӕсаг",
+                  "у."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Уый кӕсаг у.",
+                "answer": [
+                  "Уый",
+                  "кӕсаг",
+                  "у."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый маргъ у.",
+                "options": [
+                  "That is a bird.",
+                  "That is a fish.",
+                  "It is Saturday.",
+                  "We are good/fine."
                 ],
                 "answerIndex": 0
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
-                "prompt": "fish",
+                "prompt": "That is a bird.",
                 "bank": [
-                  "кӕсаг"
+                  "Уый",
+                  "маргъ",
+                  "у."
                 ],
                 "answer": [
-                  "кӕсаг"
-                ]
-              },
-              {
-                "type": "listening-tap",
-                "native": "кӕсаг",
-                "answer": [
-                  "кӕсаг"
-                ]
-              },
-              {
-                "type": "multiple-choice",
-                "direction": "os-en",
-                "prompt": "маргъ",
-                "options": [
-                  "brother",
-                  "I am. (I exist / here I am)",
-                  "bird",
-                  "Monday"
-                ],
-                "answerIndex": 2
-              },
-              {
-                "type": "word-bank",
-                "direction": "en-os",
-                "prompt": "bird",
-                "bank": [
-                  "маргъ"
-                ],
-                "answer": [
-                  "маргъ"
+                  "Уый",
+                  "маргъ",
+                  "у."
                 ]
               },
               {
                 "type": "matching",
                 "pairs": [
                   {
-                    "native": "хор",
-                    "en": "sun"
+                    "native": "Уый хор у.",
+                    "en": "That is the sun."
                   },
                   {
-                    "native": "дон",
-                    "en": "water, river"
+                    "native": "Уый дон у.",
+                    "en": "That is water."
                   },
                   {
-                    "native": "хох",
-                    "en": "mountain"
+                    "native": "Уый хох у.",
+                    "en": "That is a mountain."
                   },
                   {
-                    "native": "зӕхх",
-                    "en": "the Earth, soil"
+                    "native": "Уый зӕхх у.",
+                    "en": "That is the earth."
                   }
                 ]
               },
@@ -2576,20 +2840,20 @@
                 "type": "matching",
                 "pairs": [
                   {
-                    "native": "арв",
-                    "en": "sky"
+                    "native": "Уый арв у.",
+                    "en": "That is the sky."
                   },
                   {
-                    "native": "стъалы",
-                    "en": "star"
+                    "native": "Уый стъалы у.",
+                    "en": "That is a star."
                   },
                   {
-                    "native": "мит",
-                    "en": "snow"
+                    "native": "Уый мит у.",
+                    "en": "That is snow."
                   },
                   {
-                    "native": "арт",
-                    "en": "fire"
+                    "native": "Уый арт у.",
+                    "en": "That is fire."
                   }
                 ]
               },
@@ -2597,20 +2861,20 @@
                 "type": "matching",
                 "pairs": [
                   {
-                    "native": "куыдз",
-                    "en": "dog"
+                    "native": "Уый куыдз у.",
+                    "en": "That is a dog."
                   },
                   {
-                    "native": "гӕды",
-                    "en": "cat"
+                    "native": "Уый гӕды у.",
+                    "en": "That is a cat."
                   },
                   {
-                    "native": "бӕх",
-                    "en": "horse"
+                    "native": "Уый бӕх у.",
+                    "en": "That is a horse."
                   },
                   {
-                    "native": "хӕрӕг",
-                    "en": "donkey"
+                    "native": "Уый хӕрӕг у.",
+                    "en": "That is a donkey."
                   }
                 ]
               },
@@ -2618,20 +2882,20 @@
                 "type": "matching",
                 "pairs": [
                   {
-                    "native": "арс",
-                    "en": "bear"
+                    "native": "Уый арс у.",
+                    "en": "That is a bear."
                   },
                   {
-                    "native": "бирӕгъ",
-                    "en": "wolf"
+                    "native": "Уый бирӕгъ у.",
+                    "en": "That is a wolf."
                   },
                   {
-                    "native": "хъаз",
-                    "en": "goose"
+                    "native": "Уый хъаз у.",
+                    "en": "That is a goose."
                   },
                   {
-                    "native": "фыс",
-                    "en": "sheep"
+                    "native": "Уый фыс у.",
+                    "en": "That is a sheep."
                   }
                 ]
               }
@@ -2647,358 +2911,410 @@
               {
                 "type": "multiple-choice",
                 "direction": "os-en",
-                "prompt": "сӕр",
+                "prompt": "Уый сӕр у.",
                 "options": [
-                  "to drink",
-                  "head",
-                  "bad",
-                  "nose"
+                  "That is seventeen.",
+                  "That is water.",
+                  "Please.",
+                  "That is a head."
                 ],
-                "answerIndex": 1
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
-                "prompt": "head",
+                "prompt": "That is a head.",
                 "bank": [
-                  "сӕр"
+                  "у.",
+                  "сӕр",
+                  "Уый"
                 ],
                 "answer": [
-                  "сӕр"
+                  "Уый",
+                  "сӕр",
+                  "у."
                 ]
               },
               {
                 "type": "listening",
-                "native": "сӕр",
+                "native": "Уый сӕр у.",
                 "options": [
-                  "head",
-                  "cold",
-                  "white",
-                  "sun"
+                  "That is twelve.",
+                  "That is nine.",
+                  "That is a horse.",
+                  "That is a head."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый цӕст у.",
+                "options": [
+                  "That is an eye.",
+                  "That is a horse.",
+                  "We are good/fine.",
+                  "That is three."
                 ],
                 "answerIndex": 0
               },
               {
-                "type": "multiple-choice",
-                "direction": "os-en",
-                "prompt": "цӕст",
-                "options": [
-                  "Friday",
-                  "sun",
-                  "thirteen",
-                  "eye"
-                ],
-                "answerIndex": 3
-              },
-              {
                 "type": "word-bank",
                 "direction": "en-os",
-                "prompt": "eye",
+                "prompt": "That is an eye.",
                 "bank": [
+                  "у.",
+                  "Уый",
                   "цӕст"
                 ],
                 "answer": [
-                  "цӕст"
+                  "Уый",
+                  "цӕст",
+                  "у."
                 ]
               },
               {
                 "type": "listening-tap",
-                "native": "цӕст",
+                "native": "Уый цӕст у.",
                 "answer": [
-                  "цӕст"
+                  "Уый",
+                  "цӕст",
+                  "у."
                 ]
               },
               {
                 "type": "multiple-choice",
                 "direction": "os-en",
-                "prompt": "фындз",
+                "prompt": "Уый фындз у.",
                 "options": [
-                  "eleven",
-                  "hand",
-                  "Goodbye!",
-                  "nose"
+                  "That is a nose.",
+                  "It is hot.",
+                  "It is Thursday.",
+                  "That is a tooth."
                 ],
-                "answerIndex": 3
+                "answerIndex": 0
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
-                "prompt": "nose",
+                "prompt": "That is a nose.",
                 "bank": [
-                  "фындз"
+                  "фындз",
+                  "Уый",
+                  "у."
                 ],
                 "answer": [
-                  "фындз"
+                  "Уый",
+                  "фындз",
+                  "у."
                 ]
               },
               {
                 "type": "multiple-choice",
                 "direction": "os-en",
-                "prompt": "ком",
+                "prompt": "Уый ком у.",
                 "options": [
-                  "eye",
-                  "We are good/fine.",
-                  "white",
-                  "mouth"
+                  "That is a mouth.",
+                  "That is snow.",
+                  "That is a fish.",
+                  "He is a brother."
                 ],
-                "answerIndex": 3
+                "answerIndex": 0
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
-                "prompt": "mouth",
+                "prompt": "That is a mouth.",
                 "bank": [
-                  "ком"
+                  "Уый",
+                  "ком",
+                  "у."
                 ],
                 "answer": [
-                  "ком"
+                  "Уый",
+                  "ком",
+                  "у."
                 ]
               },
               {
                 "type": "listening",
-                "native": "ком",
+                "native": "Уый ком у.",
                 "options": [
-                  "We are.",
-                  "nose",
-                  "mouth",
-                  "He/she/it is good/fine."
+                  "That is a mouth.",
+                  "That is a sheep.",
+                  "Hello!",
+                  "That is a donkey."
                 ],
-                "answerIndex": 2
+                "answerIndex": 0
               },
               {
                 "type": "fill-blank",
-                "native": "ком",
-                "blankedEn": "___",
+                "native": "Уый ком у.",
+                "blankedEn": "That is a ___",
                 "answer": "mouth",
                 "options": [
-                  "Saturday",
                   "mouth",
-                  "woman",
-                  "walk"
-                ]
-              },
-              {
-                "type": "multiple-choice",
-                "direction": "os-en",
-                "prompt": "арм",
-                "options": [
-                  "No.",
-                  "tooth",
+                  "baby",
                   "hand",
-                  "bird"
-                ],
-                "answerIndex": 2
-              },
-              {
-                "type": "word-bank",
-                "direction": "en-os",
-                "prompt": "hand",
-                "bank": [
-                  "арм"
-                ],
-                "answer": [
-                  "арм"
-                ]
-              },
-              {
-                "type": "listening-tap",
-                "native": "арм",
-                "answer": [
-                  "арм"
+                  "seven"
                 ]
               },
               {
                 "type": "multiple-choice",
                 "direction": "os-en",
-                "prompt": "дӕндаг",
+                "prompt": "Уый арм у.",
                 "options": [
-                  "twelve",
-                  "big, large",
-                  "good",
-                  "tooth"
-                ],
-                "answerIndex": 3
-              },
-              {
-                "type": "word-bank",
-                "direction": "en-os",
-                "prompt": "tooth",
-                "bank": [
-                  "дӕндаг"
-                ],
-                "answer": [
-                  "дӕндаг"
-                ]
-              },
-              {
-                "type": "multiple-choice",
-                "direction": "os-en",
-                "prompt": "зоныг",
-                "options": [
-                  "knee",
-                  "horse",
+                  "That is a hand.",
+                  "That is an arm.",
                   "I am. (I exist / here I am)",
-                  "to write"
+                  "It is good."
                 ],
                 "answerIndex": 0
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
-                "prompt": "knee",
+                "prompt": "That is a hand.",
                 "bank": [
-                  "зоныг"
+                  "Уый",
+                  "у.",
+                  "арм"
                 ],
                 "answer": [
-                  "зоныг"
-                ]
-              },
-              {
-                "type": "listening",
-                "native": "зоныг",
-                "options": [
-                  "knee",
-                  "nineteen",
-                  "snow",
-                  "seventeen"
-                ],
-                "answerIndex": 0
-              },
-              {
-                "type": "multiple-choice",
-                "direction": "os-en",
-                "prompt": "цонг",
-                "options": [
-                  "head",
-                  "sixteen",
-                  "one hundred",
-                  "arm"
-                ],
-                "answerIndex": 3
-              },
-              {
-                "type": "word-bank",
-                "direction": "en-os",
-                "prompt": "arm",
-                "bank": [
-                  "цонг"
-                ],
-                "answer": [
-                  "цонг"
+                  "Уый",
+                  "арм",
+                  "у."
                 ]
               },
               {
                 "type": "listening-tap",
-                "native": "цонг",
+                "native": "Уый арм у.",
                 "answer": [
-                  "цонг"
+                  "Уый",
+                  "арм",
+                  "у."
                 ]
               },
               {
                 "type": "multiple-choice",
                 "direction": "os-en",
-                "prompt": "был",
+                "prompt": "Уый дӕндаг у.",
                 "options": [
-                  "to laugh",
-                  "He/she/it is.",
-                  "sister",
-                  "lip"
-                ],
-                "answerIndex": 3
-              },
-              {
-                "type": "word-bank",
-                "direction": "en-os",
-                "prompt": "lip",
-                "bank": [
-                  "был"
-                ],
-                "answer": [
-                  "был"
-                ]
-              },
-              {
-                "type": "multiple-choice",
-                "direction": "os-en",
-                "prompt": "зӕрдӕ",
-                "options": [
-                  "sky",
-                  "heart",
-                  "big, large",
-                  "fourteen"
+                  "That is a horse.",
+                  "That is a tooth.",
+                  "It is Tuesday.",
+                  "It is Sunday."
                 ],
                 "answerIndex": 1
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
-                "prompt": "heart",
+                "prompt": "That is a tooth.",
                 "bank": [
-                  "зӕрдӕ"
+                  "Уый",
+                  "дӕндаг",
+                  "у."
                 ],
                 "answer": [
-                  "зӕрдӕ"
+                  "Уый",
+                  "дӕндаг",
+                  "у."
                 ]
-              },
-              {
-                "type": "listening",
-                "native": "зӕрдӕ",
-                "options": [
-                  "Sunday",
-                  "Hello! (informal)",
-                  "They are.",
-                  "heart"
-                ],
-                "answerIndex": 3
               },
               {
                 "type": "multiple-choice",
                 "direction": "os-en",
-                "prompt": "цӕсгом",
+                "prompt": "Уый зоныг у.",
                 "options": [
-                  "mountain",
-                  "bad",
-                  "face",
-                  "bear"
+                  "That is a soul.",
+                  "That is a room.",
+                  "That is a knee.",
+                  "He is a father."
                 ],
                 "answerIndex": 2
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
-                "prompt": "face",
+                "prompt": "That is a knee.",
                 "bank": [
-                  "цӕсгом"
+                  "у.",
+                  "зоныг",
+                  "Уый"
                 ],
                 "answer": [
-                  "цӕсгом"
+                  "Уый",
+                  "зоныг",
+                  "у."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Уый зоныг у.",
+                "options": [
+                  "That is one hundred.",
+                  "That is five.",
+                  "That is twelve.",
+                  "That is a knee."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый цонг у.",
+                "options": [
+                  "That is an arm.",
+                  "That is an eye.",
+                  "He is a husband.",
+                  "Goodbye!"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "That is an arm.",
+                "bank": [
+                  "цонг",
+                  "Уый",
+                  "у."
+                ],
+                "answer": [
+                  "Уый",
+                  "цонг",
+                  "у."
                 ]
               },
               {
                 "type": "listening-tap",
-                "native": "цӕсгом",
+                "native": "Уый цонг у.",
                 "answer": [
+                  "Уый",
+                  "цонг",
+                  "у."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый был у.",
+                "options": [
+                  "That is a lip.",
+                  "That is a knee.",
+                  "We are.",
+                  "Hello! (informal)"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "That is a lip.",
+                "bank": [
+                  "Уый",
+                  "был",
+                  "у."
+                ],
+                "answer": [
+                  "Уый",
+                  "был",
+                  "у."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый зӕрдӕ у.",
+                "options": [
+                  "That is a fish.",
+                  "That is a heart.",
+                  "That is four.",
+                  "That is eleven."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "That is a heart.",
+                "bank": [
+                  "у.",
+                  "зӕрдӕ",
+                  "Уый"
+                ],
+                "answer": [
+                  "Уый",
+                  "зӕрдӕ",
+                  "у."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Уый зӕрдӕ у.",
+                "options": [
+                  "It is Tuesday.",
+                  "It is hot.",
+                  "That is a heart.",
+                  "Yes."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый цӕсгом у.",
+                "options": [
+                  "That is thirteen.",
+                  "That is the sky.",
+                  "That is a face.",
+                  "That is a dog."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "That is a face.",
+                "bank": [
+                  "Уый",
+                  "у.",
                   "цӕсгом"
+                ],
+                "answer": [
+                  "Уый",
+                  "цӕсгом",
+                  "у."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Уый цӕсгом у.",
+                "answer": [
+                  "Уый",
+                  "цӕсгом",
+                  "у."
                 ]
               },
               {
                 "type": "matching",
                 "pairs": [
                   {
-                    "native": "сӕр",
-                    "en": "head"
+                    "native": "Уый сӕр у.",
+                    "en": "That is a head."
                   },
                   {
-                    "native": "цӕст",
-                    "en": "eye"
+                    "native": "Уый цӕст у.",
+                    "en": "That is an eye."
                   },
                   {
-                    "native": "фындз",
-                    "en": "nose"
+                    "native": "Уый фындз у.",
+                    "en": "That is a nose."
                   },
                   {
-                    "native": "ком",
-                    "en": "mouth"
+                    "native": "Уый ком у.",
+                    "en": "That is a mouth."
                   }
                 ]
               },
@@ -3006,20 +3322,20 @@
                 "type": "matching",
                 "pairs": [
                   {
-                    "native": "арм",
-                    "en": "hand"
+                    "native": "Уый арм у.",
+                    "en": "That is a hand."
                   },
                   {
-                    "native": "дӕндаг",
-                    "en": "tooth"
+                    "native": "Уый дӕндаг у.",
+                    "en": "That is a tooth."
                   },
                   {
-                    "native": "зоныг",
-                    "en": "knee"
+                    "native": "Уый зоныг у.",
+                    "en": "That is a knee."
                   },
                   {
-                    "native": "цонг",
-                    "en": "arm"
+                    "native": "Уый цонг у.",
+                    "en": "That is an arm."
                   }
                 ]
               }
@@ -3029,399 +3345,505 @@
           {
             "id": "os-a1-7",
             "number": 7,
-            "title": "Common Verbs (Basic Forms)",
-            "description": "Common Verbs (Basic Forms)",
+            "title": "More Everyday Words",
+            "description": "More Everyday Words",
             "exercises": [
               {
                 "type": "multiple-choice",
                 "direction": "os-en",
-                "prompt": "кӕнын",
+                "prompt": "Уый дур у.",
                 "options": [
-                  "I am good/fine.",
-                  "man, husband",
-                  "to do",
-                  "water, river"
-                ],
-                "answerIndex": 2
-              },
-              {
-                "type": "word-bank",
-                "direction": "en-os",
-                "prompt": "to do",
-                "bank": [
-                  "кӕнын"
-                ],
-                "answer": [
-                  "кӕнын"
-                ]
-              },
-              {
-                "type": "listening",
-                "native": "кӕнын",
-                "options": [
-                  "twelve",
-                  "nine",
-                  "horse",
-                  "to do"
-                ],
-                "answerIndex": 3
-              },
-              {
-                "type": "multiple-choice",
-                "direction": "os-en",
-                "prompt": "зонын",
-                "options": [
-                  "to know",
-                  "horse",
-                  "We are good/fine.",
-                  "three"
-                ],
-                "answerIndex": 0
-              },
-              {
-                "type": "word-bank",
-                "direction": "en-os",
-                "prompt": "to know",
-                "bank": [
-                  "зонын"
-                ],
-                "answer": [
-                  "зонын"
-                ]
-              },
-              {
-                "type": "listening-tap",
-                "native": "зонын",
-                "answer": [
-                  "зонын"
-                ]
-              },
-              {
-                "type": "multiple-choice",
-                "direction": "os-en",
-                "prompt": "цӕуын",
-                "options": [
-                  "to walk, to go",
-                  "donkey",
-                  "man, husband",
-                  "Friday"
-                ],
-                "answerIndex": 0
-              },
-              {
-                "type": "word-bank",
-                "direction": "en-os",
-                "prompt": "to walk, to go",
-                "bank": [
-                  "цӕуын"
-                ],
-                "answer": [
-                  "цӕуын"
-                ]
-              },
-              {
-                "type": "multiple-choice",
-                "direction": "os-en",
-                "prompt": "хӕрын",
-                "options": [
-                  "sister",
-                  "twelve",
-                  "green",
-                  "to eat"
+                  "He is a husband.",
+                  "That is a donkey.",
+                  "That is sixteen.",
+                  "That is a stone."
                 ],
                 "answerIndex": 3
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
-                "prompt": "to eat",
+                "prompt": "That is a stone.",
                 "bank": [
-                  "хӕрын"
+                  "у.",
+                  "дур",
+                  "Уый"
                 ],
                 "answer": [
-                  "хӕрын"
+                  "Уый",
+                  "дур",
+                  "у."
                 ]
               },
               {
                 "type": "listening",
-                "native": "хӕрын",
+                "native": "Уый дур у.",
                 "options": [
-                  "to eat",
-                  "Tuesday",
-                  "snow",
-                  "mountain"
-                ],
-                "answerIndex": 0
-              },
-              {
-                "type": "multiple-choice",
-                "direction": "os-en",
-                "prompt": "нуазын",
-                "options": [
-                  "nose",
-                  "to drink",
-                  "to speak",
-                  "to sleep"
-                ],
-                "answerIndex": 1
-              },
-              {
-                "type": "word-bank",
-                "direction": "en-os",
-                "prompt": "to drink",
-                "bank": [
-                  "нуазын"
-                ],
-                "answer": [
-                  "нуазын"
-                ]
-              },
-              {
-                "type": "listening-tap",
-                "native": "нуазын",
-                "answer": [
-                  "нуазын"
-                ]
-              },
-              {
-                "type": "multiple-choice",
-                "direction": "os-en",
-                "prompt": "хъусын",
-                "options": [
-                  "to hear",
-                  "to write",
-                  "to live",
-                  "sheep"
-                ],
-                "answerIndex": 0
-              },
-              {
-                "type": "word-bank",
-                "direction": "en-os",
-                "prompt": "to hear",
-                "bank": [
-                  "хъусын"
-                ],
-                "answer": [
-                  "хъусын"
-                ]
-              },
-              {
-                "type": "multiple-choice",
-                "direction": "os-en",
-                "prompt": "фыссын",
-                "options": [
-                  "to write",
                   "You (plural) are.",
-                  "water, river",
-                  "green"
-                ],
-                "answerIndex": 0
-              },
-              {
-                "type": "word-bank",
-                "direction": "en-os",
-                "prompt": "to write",
-                "bank": [
-                  "фыссын"
-                ],
-                "answer": [
-                  "фыссын"
-                ]
-              },
-              {
-                "type": "listening",
-                "native": "фыссын",
-                "options": [
-                  "sister",
-                  "to write",
-                  "Monday",
-                  "Please."
-                ],
-                "answerIndex": 1
-              },
-              {
-                "type": "multiple-choice",
-                "direction": "os-en",
-                "prompt": "дзурын",
-                "options": [
-                  "the Earth, soil",
-                  "to write",
-                  "to speak",
-                  "to live"
+                  "That is a day.",
+                  "That is a stone.",
+                  "That is a hat."
                 ],
                 "answerIndex": 2
               },
               {
-                "type": "word-bank",
-                "direction": "en-os",
-                "prompt": "to speak",
-                "bank": [
-                  "дзурын"
-                ],
-                "answer": [
-                  "дзурын"
-                ]
-              },
-              {
-                "type": "listening-tap",
-                "native": "дзурын",
-                "answer": [
-                  "дзурын"
-                ]
-              },
-              {
-                "type": "fill-blank",
-                "native": "дзурын",
-                "blankedEn": "to ___",
-                "answer": "speak",
-                "options": [
-                  "eleven",
-                  "week",
-                  "speak",
-                  "Thank"
-                ]
-              },
-              {
                 "type": "multiple-choice",
                 "direction": "os-en",
-                "prompt": "зарын",
+                "prompt": "Уый фыд у.",
                 "options": [
-                  "eight",
-                  "to sing",
-                  "to write",
-                  "Friday"
-                ],
-                "answerIndex": 1
-              },
-              {
-                "type": "word-bank",
-                "direction": "en-os",
-                "prompt": "to sing",
-                "bank": [
-                  "зарын"
-                ],
-                "answer": [
-                  "зарын"
-                ]
-              },
-              {
-                "type": "multiple-choice",
-                "direction": "os-en",
-                "prompt": "худын",
-                "options": [
-                  "sheep",
-                  "mouth",
-                  "one hundred",
-                  "to laugh"
+                  "That is fire.",
+                  "That is a fish.",
+                  "You are good/fine.",
+                  "That is meat."
                 ],
                 "answerIndex": 3
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
-                "prompt": "to laugh",
+                "prompt": "That is meat.",
                 "bank": [
-                  "худын"
+                  "у.",
+                  "фыд",
+                  "Уый"
                 ],
                 "answer": [
-                  "худын"
+                  "Уый",
+                  "фыд",
+                  "у."
                 ]
               },
               {
-                "type": "listening",
-                "native": "худын",
-                "options": [
-                  "to laugh",
-                  "eye",
-                  "husband",
-                  "Goodbye!"
-                ],
-                "answerIndex": 0
+                "type": "listening-tap",
+                "native": "Уый фыд у.",
+                "answer": [
+                  "Уый",
+                  "фыд",
+                  "у."
+                ]
               },
               {
                 "type": "multiple-choice",
                 "direction": "os-en",
-                "prompt": "хуыссын",
+                "prompt": "Уый туг у.",
                 "options": [
-                  "to laugh",
-                  "bear",
-                  "to sleep",
-                  "bird"
+                  "That is blood.",
+                  "That is a tooth.",
+                  "Fine, thank you.",
+                  "That is eight."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "That is blood.",
+                "bank": [
+                  "туг",
+                  "Уый",
+                  "у."
+                ],
+                "answer": [
+                  "Уый",
+                  "туг",
+                  "у."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый дуар у.",
+                "options": [
+                  "That is a door.",
+                  "Excuse me.",
+                  "It is tall.",
+                  "That is four."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "That is a door.",
+                "bank": [
+                  "Уый",
+                  "у.",
+                  "дуар"
+                ],
+                "answer": [
+                  "Уый",
+                  "дуар",
+                  "у."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Уый дуар у.",
+                "options": [
+                  "It is Sunday.",
+                  "That is eleven.",
+                  "That is a door.",
+                  "That is an arm."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "fill-blank",
+                "native": "Уый дуар у.",
+                "blankedEn": "That is a ___",
+                "answer": "door",
+                "options": [
+                  "seven",
+                  "white",
+                  "door",
+                  "star"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый уат у.",
+                "options": [
+                  "He is a brother.",
+                  "It is Thursday.",
+                  "That is a room.",
+                  "She is a mother."
                 ],
                 "answerIndex": 2
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
-                "prompt": "to sleep",
+                "prompt": "That is a room.",
                 "bank": [
-                  "хуыссын"
+                  "уат",
+                  "Уый",
+                  "у."
                 ],
                 "answer": [
-                  "хуыссын"
+                  "Уый",
+                  "уат",
+                  "у."
                 ]
               },
               {
                 "type": "listening-tap",
-                "native": "хуыссын",
+                "native": "Уый уат у.",
                 "answer": [
-                  "хуыссын"
+                  "Уый",
+                  "уат",
+                  "у."
                 ]
               },
               {
                 "type": "multiple-choice",
                 "direction": "os-en",
-                "prompt": "цӕрын",
+                "prompt": "Уый худ у.",
                 "options": [
-                  "to live",
-                  "knee",
-                  "thirteen",
-                  "eighteen"
+                  "It is Thursday.",
+                  "That is seventeen.",
+                  "That is a lip.",
+                  "That is a hat."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "That is a hat.",
+                "bank": [
+                  "у.",
+                  "худ",
+                  "Уый"
+                ],
+                "answer": [
+                  "Уый",
+                  "худ",
+                  "у."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый уд у.",
+                "options": [
+                  "That is two.",
+                  "That is a bear.",
+                  "We are.",
+                  "That is a soul."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "That is a soul.",
+                "bank": [
+                  "Уый",
+                  "уд",
+                  "у."
+                ],
+                "answer": [
+                  "Уый",
+                  "уд",
+                  "у."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Уый уд у.",
+                "options": [
+                  "That is the sun.",
+                  "That is a soul.",
+                  "That is eight.",
+                  "It is Thursday."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый зонд у.",
+                "options": [
+                  "That is intellect.",
+                  "That is two.",
+                  "That is a sheep.",
+                  "That is a dog."
                 ],
                 "answerIndex": 0
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
-                "prompt": "to live",
+                "prompt": "That is intellect.",
                 "bank": [
-                  "цӕрын"
+                  "у.",
+                  "Уый",
+                  "зонд"
                 ],
                 "answer": [
-                  "цӕрын"
+                  "Уый",
+                  "зонд",
+                  "у."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Уый зонд у.",
+                "answer": [
+                  "Уый",
+                  "зонд",
+                  "у."
                 ]
               },
               {
                 "type": "fill-blank",
-                "native": "цӕрын",
-                "blankedEn": "to ___",
-                "answer": "live",
+                "native": "Уый зонд у.",
+                "blankedEn": "That is ___",
+                "answer": "intellect",
                 "options": [
-                  "speak",
-                  "live",
-                  "plural",
-                  "thank"
+                  "intellect",
+                  "thirteen",
+                  "wolf",
+                  "sixteen"
                 ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый фарст у.",
+                "options": [
+                  "She is a mother.",
+                  "That is a bird.",
+                  "That is a week.",
+                  "That is a question."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "That is a question.",
+                "bank": [
+                  "Уый",
+                  "у.",
+                  "фарст"
+                ],
+                "answer": [
+                  "Уый",
+                  "фарст",
+                  "у."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый чиныг у.",
+                "options": [
+                  "Hello!",
+                  "That is a book.",
+                  "It is good.",
+                  "That is a hat."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "That is a book.",
+                "bank": [
+                  "Уый",
+                  "чиныг",
+                  "у."
+                ],
+                "answer": [
+                  "Уый",
+                  "чиныг",
+                  "у."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Уый чиныг у.",
+                "options": [
+                  "That is a book.",
+                  "It is black.",
+                  "That is a cat.",
+                  "That is a horse."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый бӕрзонд у.",
+                "options": [
+                  "It is good.",
+                  "He is a brother.",
+                  "It is tall.",
+                  "That is six."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "It is tall.",
+                "bank": [
+                  "бӕрзонд",
+                  "у.",
+                  "Уый"
+                ],
+                "answer": [
+                  "Уый",
+                  "бӕрзонд",
+                  "у."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Уый бӕрзонд у.",
+                "answer": [
+                  "Уый",
+                  "бӕрзонд",
+                  "у."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый цыргъ у.",
+                "options": [
+                  "That is one.",
+                  "We are good/fine.",
+                  "It is yellow.",
+                  "It is sharp."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "It is sharp.",
+                "bank": [
+                  "Уый",
+                  "у.",
+                  "цыргъ"
+                ],
+                "answer": [
+                  "Уый",
+                  "цыргъ",
+                  "у."
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "Уый цыргъ у.",
+                "blankedEn": "It is ___",
+                "answer": "sharp",
+                "options": [
+                  "cold",
+                  "sharp",
+                  "room",
+                  "Excuse"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый раст у.",
+                "options": [
+                  "That is a cat.",
+                  "It is correct.",
+                  "It is white.",
+                  "You are good/fine."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "It is correct.",
+                "bank": [
+                  "Уый",
+                  "у.",
+                  "раст"
+                ],
+                "answer": [
+                  "Уый",
+                  "раст",
+                  "у."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Уый раст у.",
+                "options": [
+                  "That is a soul.",
+                  "That is a book.",
+                  "It is correct.",
+                  "That is a lip."
+                ],
+                "answerIndex": 2
               },
               {
                 "type": "matching",
                 "pairs": [
                   {
-                    "native": "кӕнын",
-                    "en": "to do"
+                    "native": "Уый дур у.",
+                    "en": "That is a stone."
                   },
                   {
-                    "native": "зонын",
-                    "en": "to know"
+                    "native": "Уый фыд у.",
+                    "en": "That is meat."
                   },
                   {
-                    "native": "цӕуын",
-                    "en": "to walk, to go"
+                    "native": "Уый туг у.",
+                    "en": "That is blood."
                   },
                   {
-                    "native": "хӕрын",
-                    "en": "to eat"
+                    "native": "Уый дуар у.",
+                    "en": "That is a door."
                   }
                 ]
               },
@@ -3429,20 +3851,20 @@
                 "type": "matching",
                 "pairs": [
                   {
-                    "native": "нуазын",
-                    "en": "to drink"
+                    "native": "Уый уат у.",
+                    "en": "That is a room."
                   },
                   {
-                    "native": "хъусын",
-                    "en": "to hear"
+                    "native": "Уый худ у.",
+                    "en": "That is a hat."
                   },
                   {
-                    "native": "фыссын",
-                    "en": "to write"
+                    "native": "Уый уд у.",
+                    "en": "That is a soul."
                   },
                   {
-                    "native": "дзурын",
-                    "en": "to speak"
+                    "native": "Уый зонд у.",
+                    "en": "That is intellect."
                   }
                 ]
               },
@@ -3450,25 +3872,25 @@
                 "type": "matching",
                 "pairs": [
                   {
-                    "native": "зарын",
-                    "en": "to sing"
+                    "native": "Уый фарст у.",
+                    "en": "That is a question."
                   },
                   {
-                    "native": "худын",
-                    "en": "to laugh"
+                    "native": "Уый чиныг у.",
+                    "en": "That is a book."
                   },
                   {
-                    "native": "хуыссын",
-                    "en": "to sleep"
+                    "native": "Уый бӕрзонд у.",
+                    "en": "It is tall."
                   },
                   {
-                    "native": "цӕрын",
-                    "en": "to live"
+                    "native": "Уый цыргъ у.",
+                    "en": "It is sharp."
                   }
                 ]
               }
             ],
-            "titleNative": "Хъуыддӕгтӕ"
+            "titleNative": "Ӕндӕр дзырдтӕ"
           },
           {
             "id": "os-a1-8",
@@ -3479,294 +3901,336 @@
               {
                 "type": "multiple-choice",
                 "direction": "os-en",
-                "prompt": "къуырисӕр",
+                "prompt": "Уый къуырисӕр у.",
                 "options": [
-                  "thirteen",
-                  "sky",
-                  "Monday",
-                  "dog"
+                  "That is a knee.",
+                  "It is correct.",
+                  "She is a sister.",
+                  "It is Monday."
                 ],
-                "answerIndex": 2
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
-                "prompt": "Monday",
+                "prompt": "It is Monday.",
                 "bank": [
-                  "къуырисӕр"
+                  "къуырисӕр",
+                  "у.",
+                  "Уый"
                 ],
                 "answer": [
-                  "къуырисӕр"
+                  "Уый",
+                  "къуырисӕр",
+                  "у."
                 ]
               },
               {
                 "type": "listening",
-                "native": "къуырисӕр",
+                "native": "Уый къуырисӕр у.",
                 "options": [
-                  "donkey",
-                  "Monday",
-                  "one hundred",
-                  "father"
+                  "It is Saturday.",
+                  "It is Monday.",
+                  "That is a door.",
+                  "Hello! (informal)"
                 ],
                 "answerIndex": 1
               },
               {
                 "type": "multiple-choice",
                 "direction": "os-en",
-                "prompt": "дыццӕг",
+                "prompt": "Уый дыццӕг у.",
                 "options": [
-                  "sheep",
-                  "to sleep",
-                  "Tuesday",
-                  "fire"
+                  "Yes.",
+                  "It is Tuesday.",
+                  "It is yellow.",
+                  "It is Thursday."
                 ],
-                "answerIndex": 2
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
-                "prompt": "Tuesday",
+                "prompt": "It is Tuesday.",
                 "bank": [
+                  "у.",
+                  "Уый",
                   "дыццӕг"
                 ],
                 "answer": [
-                  "дыццӕг"
+                  "Уый",
+                  "дыццӕг",
+                  "у."
                 ]
               },
               {
                 "type": "listening-tap",
-                "native": "дыццӕг",
+                "native": "Уый дыццӕг у.",
                 "answer": [
-                  "дыццӕг"
+                  "Уый",
+                  "дыццӕг",
+                  "у."
                 ]
               },
               {
                 "type": "multiple-choice",
                 "direction": "os-en",
-                "prompt": "ӕртиккӕг",
+                "prompt": "Уый ӕртиккӕг у.",
                 "options": [
-                  "You (plural) are.",
-                  "week",
-                  "Wednesday",
-                  "to drink"
+                  "That is a soul.",
+                  "It is Wednesday.",
+                  "It is Thursday.",
+                  "It is hot."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "It is Wednesday.",
+                "bank": [
+                  "Уый",
+                  "ӕртиккӕг",
+                  "у."
+                ],
+                "answer": [
+                  "Уый",
+                  "ӕртиккӕг",
+                  "у."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый цыппӕрӕм у.",
+                "options": [
+                  "That is a bird.",
+                  "How are you?",
+                  "It is Thursday.",
+                  "It is hot."
                 ],
                 "answerIndex": 2
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
-                "prompt": "Wednesday",
+                "prompt": "It is Thursday.",
                 "bank": [
-                  "ӕртиккӕг"
-                ],
-                "answer": [
-                  "ӕртиккӕг"
-                ]
-              },
-              {
-                "type": "multiple-choice",
-                "direction": "os-en",
-                "prompt": "цыппӕрӕм",
-                "options": [
-                  "fire",
-                  "fish",
-                  "You are good/fine.",
-                  "Thursday"
-                ],
-                "answerIndex": 3
-              },
-              {
-                "type": "word-bank",
-                "direction": "en-os",
-                "prompt": "Thursday",
-                "bank": [
+                  "у.",
+                  "Уый",
                   "цыппӕрӕм"
                 ],
                 "answer": [
-                  "цыппӕрӕм"
+                  "Уый",
+                  "цыппӕрӕм",
+                  "у."
                 ]
               },
               {
                 "type": "listening",
-                "native": "цыппӕрӕм",
+                "native": "Уый цыппӕрӕм у.",
                 "options": [
-                  "to speak",
-                  "Goodbye!",
-                  "red",
-                  "Thursday"
+                  "It is long.",
+                  "It is Thursday.",
+                  "That is a lip.",
+                  "Fine, thank you."
                 ],
-                "answerIndex": 3
+                "answerIndex": 1
               },
               {
                 "type": "fill-blank",
-                "native": "цыппӕрӕм",
-                "blankedEn": "___",
+                "native": "Уый цыппӕрӕм у.",
+                "blankedEn": "It is ___",
                 "answer": "Thursday",
                 "options": [
-                  "large",
-                  "snow",
+                  "bear",
+                  "father",
                   "Thursday",
-                  "cold"
+                  "fifteen"
                 ]
               },
               {
                 "type": "multiple-choice",
                 "direction": "os-en",
-                "prompt": "майрӕмбон",
+                "prompt": "Уый майрӕмбон у.",
                 "options": [
-                  "You are.",
-                  "We are.",
-                  "You are good/fine.",
-                  "Friday"
-                ],
-                "answerIndex": 3
-              },
-              {
-                "type": "word-bank",
-                "direction": "en-os",
-                "prompt": "Friday",
-                "bank": [
-                  "майрӕмбон"
-                ],
-                "answer": [
-                  "майрӕмбон"
-                ]
-              },
-              {
-                "type": "listening-tap",
-                "native": "майрӕмбон",
-                "answer": [
-                  "майрӕмбон"
-                ]
-              },
-              {
-                "type": "multiple-choice",
-                "direction": "os-en",
-                "prompt": "сабат",
-                "options": [
-                  "We are.",
-                  "fish",
-                  "Saturday",
-                  "horse"
-                ],
-                "answerIndex": 2
-              },
-              {
-                "type": "word-bank",
-                "direction": "en-os",
-                "prompt": "Saturday",
-                "bank": [
-                  "сабат"
-                ],
-                "answer": [
-                  "сабат"
-                ]
-              },
-              {
-                "type": "multiple-choice",
-                "direction": "os-en",
-                "prompt": "хуыцаубон",
-                "options": [
-                  "to eat",
-                  "Thursday",
-                  "He/she/it is good/fine.",
-                  "Sunday"
-                ],
-                "answerIndex": 3
-              },
-              {
-                "type": "word-bank",
-                "direction": "en-os",
-                "prompt": "Sunday",
-                "bank": [
-                  "хуыцаубон"
-                ],
-                "answer": [
-                  "хуыцаубон"
-                ]
-              },
-              {
-                "type": "listening",
-                "native": "хуыцаубон",
-                "options": [
-                  "mouth",
-                  "Tuesday",
-                  "Sunday",
-                  "star"
-                ],
-                "answerIndex": 2
-              },
-              {
-                "type": "multiple-choice",
-                "direction": "os-en",
-                "prompt": "бон",
-                "options": [
-                  "nose",
-                  "six",
-                  "day",
-                  "arm"
-                ],
-                "answerIndex": 2
-              },
-              {
-                "type": "word-bank",
-                "direction": "en-os",
-                "prompt": "day",
-                "bank": [
-                  "бон"
-                ],
-                "answer": [
-                  "бон"
-                ]
-              },
-              {
-                "type": "listening-tap",
-                "native": "бон",
-                "answer": [
-                  "бон"
-                ]
-              },
-              {
-                "type": "multiple-choice",
-                "direction": "os-en",
-                "prompt": "къуыри",
-                "options": [
-                  "He/she/it is.",
-                  "week",
-                  "nose",
-                  "knee"
+                  "That is an eye.",
+                  "It is Friday.",
+                  "That is a hat.",
+                  "That is a bear."
                 ],
                 "answerIndex": 1
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
-                "prompt": "week",
+                "prompt": "It is Friday.",
                 "bank": [
-                  "къуыри"
+                  "майрӕмбон",
+                  "Уый",
+                  "у."
                 ],
                 "answer": [
-                  "къуыри"
+                  "Уый",
+                  "майрӕмбон",
+                  "у."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Уый майрӕмбон у.",
+                "answer": [
+                  "Уый",
+                  "майрӕмбон",
+                  "у."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый сабат у.",
+                "options": [
+                  "It is Saturday.",
+                  "You are a woman.",
+                  "It is Wednesday.",
+                  "I am good/fine."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "It is Saturday.",
+                "bank": [
+                  "сабат",
+                  "Уый",
+                  "у."
+                ],
+                "answer": [
+                  "Уый",
+                  "сабат",
+                  "у."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый хуыцаубон у.",
+                "options": [
+                  "That is a room.",
+                  "That is three.",
+                  "That is an eye.",
+                  "It is Sunday."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "It is Sunday.",
+                "bank": [
+                  "Уый",
+                  "у.",
+                  "хуыцаубон"
+                ],
+                "answer": [
+                  "Уый",
+                  "хуыцаубон",
+                  "у."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Уый хуыцаубон у.",
+                "options": [
+                  "It is good.",
+                  "It is Sunday.",
+                  "That is a week.",
+                  "I am good/fine."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый бон у.",
+                "options": [
+                  "He/she/it is good/fine.",
+                  "That is a day.",
+                  "That is a bear.",
+                  "That is a fish."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "That is a day.",
+                "bank": [
+                  "Уый",
+                  "у.",
+                  "бон"
+                ],
+                "answer": [
+                  "Уый",
+                  "бон",
+                  "у."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Уый бон у.",
+                "answer": [
+                  "Уый",
+                  "бон",
+                  "у."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "os-en",
+                "prompt": "Уый къуыри у.",
+                "options": [
+                  "That is a week.",
+                  "That is a book.",
+                  "We are.",
+                  "That is a fish."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-os",
+                "prompt": "That is a week.",
+                "bank": [
+                  "у.",
+                  "къуыри",
+                  "Уый"
+                ],
+                "answer": [
+                  "Уый",
+                  "къуыри",
+                  "у."
                 ]
               },
               {
                 "type": "matching",
                 "pairs": [
                   {
-                    "native": "къуырисӕр",
-                    "en": "Monday"
+                    "native": "Уый къуырисӕр у.",
+                    "en": "It is Monday."
                   },
                   {
-                    "native": "дыццӕг",
-                    "en": "Tuesday"
+                    "native": "Уый дыццӕг у.",
+                    "en": "It is Tuesday."
                   },
                   {
-                    "native": "ӕртиккӕг",
-                    "en": "Wednesday"
+                    "native": "Уый ӕртиккӕг у.",
+                    "en": "It is Wednesday."
                   },
                   {
-                    "native": "цыппӕрӕм",
-                    "en": "Thursday"
+                    "native": "Уый цыппӕрӕм у.",
+                    "en": "It is Thursday."
                   }
                 ]
               },
@@ -3774,20 +4238,20 @@
                 "type": "matching",
                 "pairs": [
                   {
-                    "native": "майрӕмбон",
-                    "en": "Friday"
+                    "native": "Уый майрӕмбон у.",
+                    "en": "It is Friday."
                   },
                   {
-                    "native": "сабат",
-                    "en": "Saturday"
+                    "native": "Уый сабат у.",
+                    "en": "It is Saturday."
                   },
                   {
-                    "native": "хуыцаубон",
-                    "en": "Sunday"
+                    "native": "Уый хуыцаубон у.",
+                    "en": "It is Sunday."
                   },
                   {
-                    "native": "бон",
-                    "en": "day"
+                    "native": "Уый бон у.",
+                    "en": "That is a day."
                   }
                 ]
               }
@@ -3805,20 +4269,20 @@
                 "direction": "os-en",
                 "prompt": "Ӕз дӕн.",
                 "options": [
-                  "I am. (I exist / here I am)",
-                  "three",
-                  "knee",
-                  "I am good/fine."
+                  "That is a cat.",
+                  "That is fire.",
+                  "That is a soul.",
+                  "I am. (I exist / here I am)"
                 ],
-                "answerIndex": 0
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
                 "prompt": "I am. (I exist / here I am)",
                 "bank": [
-                  "Ӕз",
-                  "дӕн."
+                  "дӕн.",
+                  "Ӕз"
                 ],
                 "answer": [
                   "Ӕз",
@@ -3829,12 +4293,12 @@
                 "type": "listening",
                 "native": "Ӕз дӕн.",
                 "options": [
-                  "nine",
+                  "That is a goose.",
+                  "It is hot.",
                   "I am. (I exist / here I am)",
-                  "Friday",
-                  "to walk, to go"
+                  "That is a dog."
                 ],
-                "answerIndex": 1
+                "answerIndex": 2
               },
               {
                 "type": "multiple-choice",
@@ -3842,9 +4306,9 @@
                 "prompt": "Ды дӕ.",
                 "options": [
                   "You are.",
-                  "three",
-                  "fish",
-                  "cat"
+                  "That is water.",
+                  "That is a week.",
+                  "That is meat."
                 ],
                 "answerIndex": 0
               },
@@ -3853,8 +4317,8 @@
                 "direction": "en-os",
                 "prompt": "You are.",
                 "bank": [
-                  "Ды",
-                  "дӕ."
+                  "дӕ.",
+                  "Ды"
                 ],
                 "answer": [
                   "Ды",
@@ -3874,9 +4338,9 @@
                 "direction": "os-en",
                 "prompt": "Уый у.",
                 "options": [
-                  "nineteen",
-                  "We are good/fine.",
-                  "yellow",
+                  "It is hot.",
+                  "That is seventeen.",
+                  "That is a face.",
                   "He/she/it is."
                 ],
                 "answerIndex": 3
@@ -3899,12 +4363,12 @@
                 "direction": "os-en",
                 "prompt": "Мах стӕм.",
                 "options": [
-                  "We are.",
-                  "seven",
-                  "to know",
-                  "green"
+                  "You are good/fine.",
+                  "It is sharp.",
+                  "It is Tuesday.",
+                  "We are."
                 ],
-                "answerIndex": 0
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
@@ -3923,21 +4387,21 @@
                 "type": "listening",
                 "native": "Мах стӕм.",
                 "options": [
+                  "Hello! (informal)",
+                  "It is hot.",
                   "We are.",
-                  "How are you?",
-                  "father",
-                  "head"
+                  "That is nineteen."
                 ],
-                "answerIndex": 0
+                "answerIndex": 2
               },
               {
                 "type": "multiple-choice",
                 "direction": "os-en",
                 "prompt": "Сымах стут.",
                 "options": [
-                  "cold",
-                  "Monday",
-                  "sun",
+                  "That is a hat.",
+                  "That is a dog.",
+                  "That is fifteen.",
                   "You (plural) are."
                 ],
                 "answerIndex": 3
@@ -3968,12 +4432,12 @@
                 "direction": "os-en",
                 "prompt": "Уыдон сты.",
                 "options": [
-                  "to do",
+                  "That is a heart.",
+                  "How are you?",
                   "They are.",
-                  "nineteen",
-                  "donkey"
+                  "That is snow."
                 ],
-                "answerIndex": 1
+                "answerIndex": 2
               },
               {
                 "type": "word-bank",
@@ -3993,20 +4457,20 @@
                 "direction": "os-en",
                 "prompt": "Ӕз хорз дӕн.",
                 "options": [
-                  "seven",
-                  "I am good/fine.",
-                  "week",
-                  "baby, little child"
+                  "We are children.",
+                  "Fine, thank you.",
+                  "That is a star.",
+                  "I am good/fine."
                 ],
-                "answerIndex": 1
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
                 "prompt": "I am good/fine.",
                 "bank": [
-                  "хорз",
                   "дӕн.",
+                  "хорз",
                   "Ӕз"
                 ],
                 "answer": [
@@ -4019,33 +4483,33 @@
                 "type": "listening",
                 "native": "Ӕз хорз дӕн.",
                 "options": [
-                  "We are good/fine.",
-                  "I am good/fine.",
-                  "Hello!",
-                  "six"
+                  "That is a hat.",
+                  "That is intellect.",
+                  "That is a baby.",
+                  "I am good/fine."
                 ],
-                "answerIndex": 1
+                "answerIndex": 3
               },
               {
                 "type": "multiple-choice",
                 "direction": "os-en",
                 "prompt": "Ды хорз дӕ.",
                 "options": [
-                  "You are good/fine.",
-                  "one hundred",
-                  "four",
-                  "hot"
+                  "We are good/fine.",
+                  "He/she/it is good/fine.",
+                  "That is a book.",
+                  "You are good/fine."
                 ],
-                "answerIndex": 0
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
                 "prompt": "You are good/fine.",
                 "bank": [
-                  "Ды",
+                  "дӕ.",
                   "хорз",
-                  "дӕ."
+                  "Ды"
                 ],
                 "answer": [
                   "Ды",
@@ -4068,10 +4532,10 @@
                 "blankedEn": "You are ___",
                 "answer": "goodfine",
                 "options": [
-                  "Goodbye",
+                  "Thursday",
+                  "nose",
                   "goodfine",
-                  "thin",
-                  "bear"
+                  "eight"
                 ]
               },
               {
@@ -4079,21 +4543,21 @@
                 "direction": "os-en",
                 "prompt": "Уый хорз у.",
                 "options": [
-                  "yellow",
-                  "to live",
-                  "cold",
-                  "He/she/it is good/fine."
+                  "It is Sunday.",
+                  "That is thirteen.",
+                  "He/she/it is good/fine.",
+                  "That is a tooth."
                 ],
-                "answerIndex": 3
+                "answerIndex": 2
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
                 "prompt": "He/she/it is good/fine.",
                 "bank": [
-                  "хорз",
                   "Уый",
-                  "у."
+                  "у.",
+                  "хорз"
                 ],
                 "answer": [
                   "Уый",
@@ -4106,21 +4570,21 @@
                 "direction": "os-en",
                 "prompt": "Мах хорз стӕм.",
                 "options": [
-                  "Excuse me.",
-                  "We are good/fine.",
-                  "seven",
-                  "to know"
+                  "That is a knee.",
+                  "You are a woman.",
+                  "That is twelve.",
+                  "We are good/fine."
                 ],
-                "answerIndex": 1
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
                 "direction": "en-os",
                 "prompt": "We are good/fine.",
                 "bank": [
-                  "стӕм.",
+                  "хорз",
                   "Мах",
-                  "хорз"
+                  "стӕм."
                 ],
                 "answer": [
                   "Мах",
@@ -4132,10 +4596,10 @@
                 "type": "listening",
                 "native": "Мах хорз стӕм.",
                 "options": [
-                  "to do",
+                  "That is a stone.",
                   "We are good/fine.",
-                  "Excuse me.",
-                  "to laugh"
+                  "That is a hand.",
+                  "That is a mouth."
                 ],
                 "answerIndex": 1
               },
