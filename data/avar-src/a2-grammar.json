@@ -1,0 +1,73 @@
+{
+  "level": "a2",
+  "grammarTopics": {
+    "a2-possession-dir": {
+      "title": "Possession: дир (my)",
+      "pattern": "дир (my) + [possessed noun, bare form] + copula (agreeing with the POSSESSED noun's class)",
+      "explanation": "Avar doesn't have a separate verb \"to have\" -- possession is expressed the same way existence is, with the copula from the previous lesson (вуго/йиго/буго). The possessor goes first as дир (\"my\", the genitive form of дун \"I\"), then the possessed noun, then the copula -- and the copula agrees with the CLASS OF THE THING POSSESSED, not with \"I\": Дир вас вуго (\"my son is [here]\" / \"I have a son\") takes вуго because вас (son) is masculine, while Дир яс йиго takes йиго because яс (daughter) is feminine.",
+      "fact": "This possessor-in-genitive-plus-copula pattern is well documented in the academic literature on Avar (compare the classic textbook example \"Ali's car is [there]\" = \"Ali has a car\"). Only дир (\"my\") is used here -- the possessive forms for \"your\", \"his/her\", \"our\", and \"their\" haven't been confirmed from a reliable source yet, so they're deliberately left for a later round rather than guessed.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Дир вас вуго.",
+          "en": "I have a son. / My son is here."
+        },
+        {
+          "sp": "B",
+          "native": "Лъикӏаб!",
+          "en": "Good!"
+        }
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "number": 17,
+      "title": "Grammar: Possession with дир",
+      "titleNative": "Грамматика: дир бугелъул",
+      "topicId": "a2-possession-dir",
+      "items": [
+        {
+          "av": "Дир вас вуго.",
+          "en": "My son is here. / I have a son."
+        },
+        {
+          "av": "Дир яс йиго.",
+          "en": "My daughter is here. / I have a daughter."
+        },
+        {
+          "av": "Дир эмен вуго.",
+          "en": "My father is here."
+        },
+        {
+          "av": "Дир эбел йиго.",
+          "en": "My mother is here."
+        },
+        {
+          "av": "Дир яц йиго.",
+          "en": "My sister is here."
+        },
+        {
+          "av": "Дир вац вуго.",
+          "en": "My brother is here."
+        },
+        {
+          "av": "Дир гьой буго.",
+          "en": "My dog is here. / I have a dog."
+        },
+        {
+          "av": "Дир чу буго.",
+          "en": "My horse is here. / I have a horse."
+        },
+        {
+          "av": "Дир рукъ буго.",
+          "en": "My house is here. / I have a house."
+        },
+        {
+          "av": "Дир хъизан буго.",
+          "en": "My family is here."
+        }
+      ]
+    }
+  ]
+}

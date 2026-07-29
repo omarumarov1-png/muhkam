@@ -30,6 +30,24 @@
             "en": "It's good, thank you!"
           }
         ]
+      },
+      "a2-possession-dir": {
+        "title": "Possession: дир (my)",
+        "pattern": "дир (my) + [possessed noun, bare form] + copula (agreeing with the POSSESSED noun's class)",
+        "explanation": "Avar doesn't have a separate verb \"to have\" -- possession is expressed the same way existence is, with the copula from the previous lesson (вуго/йиго/буго). The possessor goes first as дир (\"my\", the genitive form of дун \"I\"), then the possessed noun, then the copula -- and the copula agrees with the CLASS OF THE THING POSSESSED, not with \"I\": Дир вас вуго (\"my son is [here]\" / \"I have a son\") takes вуго because вас (son) is masculine, while Дир яс йиго takes йиго because яс (daughter) is feminine.",
+        "fact": "This possessor-in-genitive-plus-copula pattern is well documented in the academic literature on Avar (compare the classic textbook example \"Ali's car is [there]\" = \"Ali has a car\"). Only дир (\"my\") is used here -- the possessive forms for \"your\", \"his/her\", \"our\", and \"their\" haven't been confirmed from a reliable source yet, so they're deliberately left for a later round rather than guessed.",
+        "dialogue": [
+          {
+            "sp": "A",
+            "native": "Дир вас вуго.",
+            "en": "I have a son. / My son is here."
+          },
+          {
+            "sp": "B",
+            "native": "Лъикӏаб!",
+            "en": "Good!"
+          }
+        ]
       }
     },
     "levels": [
@@ -184,10 +202,10 @@
                 "blankedEn": "___ day!",
                 "answer": "Good",
                 "options": [
-                  "Good",
-                  "road",
-                  "yellow",
-                  "rain"
+                  "star",
+                  "know",
+                  "bull",
+                  "Good"
                 ]
               },
               {
@@ -195,20 +213,20 @@
                 "direction": "av-en",
                 "prompt": "Сордо лъикӏ!",
                 "options": [
-                  "to count",
                   "Good night!",
-                  "eleven",
-                  "I"
+                  "seventeen",
+                  "man (adult male)",
+                  "to eat"
                 ],
-                "answerIndex": 1
+                "answerIndex": 0
               },
               {
                 "type": "word-bank",
                 "direction": "en-av",
                 "prompt": "Good night!",
                 "bank": [
-                  "Сордо",
-                  "лъикӏ!"
+                  "лъикӏ!",
+                  "Сордо"
                 ],
                 "answer": [
                   "Сордо",
@@ -229,11 +247,11 @@
                 "prompt": "Баркала!",
                 "options": [
                   "how",
+                  "bad",
                   "Thank you!",
-                  "eighteen",
-                  "You are (here). (female addressee)"
+                  "man / person"
                 ],
-                "answerIndex": 1
+                "answerIndex": 2
               },
               {
                 "type": "word-bank",
@@ -251,12 +269,12 @@
                 "direction": "av-en",
                 "prompt": "ТӀасалъугьа.",
                 "options": [
-                  "bird",
-                  "The child is (here). (male child)",
-                  "Have a good trip!",
-                  "Sorry."
+                  "you (plural)",
+                  "who (feminine)",
+                  "Sorry.",
+                  "to sleep"
                 ],
-                "answerIndex": 3
+                "answerIndex": 2
               },
               {
                 "type": "word-bank",
@@ -273,12 +291,12 @@
                 "type": "listening",
                 "native": "ТӀасалъугьа.",
                 "options": [
+                  "bird",
+                  "short",
                   "Sorry.",
-                  "bad",
-                  "green",
-                  "Hello!"
+                  "Good night!"
                 ],
-                "answerIndex": 0
+                "answerIndex": 2
               },
               {
                 "type": "multiple-choice",
@@ -286,9 +304,9 @@
                 "prompt": "Бегьулеб батани...",
                 "options": [
                   "Please...",
-                  "black",
                   "to see",
-                  "twelve"
+                  "new",
+                  "dog"
                 ],
                 "answerIndex": 0
               },
@@ -297,8 +315,8 @@
                 "direction": "en-av",
                 "prompt": "Please...",
                 "bank": [
-                  "батани...",
-                  "Бегьулеб"
+                  "Бегьулеб",
+                  "батани..."
                 ],
                 "answer": [
                   "Бегьулеб",
@@ -319,10 +337,10 @@
                 "blankedEn": "___",
                 "answer": "Please",
                 "options": [
-                  "land",
-                  "fire",
-                  "masculine",
-                  "Please"
+                  "inclusive",
+                  "master",
+                  "Please",
+                  "fifteen"
                 ]
               },
               {
@@ -330,12 +348,12 @@
                 "direction": "av-en",
                 "prompt": "У.",
                 "options": [
-                  "road",
                   "Yes.",
                   "we (inclusive)",
-                  "eight"
+                  "road",
+                  "The sun is out."
                 ],
-                "answerIndex": 1
+                "answerIndex": 0
               },
               {
                 "type": "word-bank",
@@ -353,12 +371,12 @@
                 "direction": "av-en",
                 "prompt": "ГьечӀо.",
                 "options": [
+                  "big",
                   "No.",
-                  "water",
-                  "three",
-                  "twenty"
+                  "black",
+                  "ten"
                 ],
-                "answerIndex": 0
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
@@ -375,10 +393,10 @@
                 "type": "listening",
                 "native": "ГьечӀо.",
                 "options": [
-                  "they",
-                  "two",
+                  "what",
+                  "red",
                   "No.",
-                  "one"
+                  "eleven"
                 ],
                 "answerIndex": 2
               },
@@ -387,10 +405,10 @@
                 "direction": "av-en",
                 "prompt": "Щиб хӀал бугеб?",
                 "options": [
-                  "to walk",
-                  "four",
+                  "to say",
+                  "they",
                   "How are you?",
-                  "Good night!"
+                  "when"
                 ],
                 "answerIndex": 2
               },
@@ -400,8 +418,8 @@
                 "prompt": "How are you?",
                 "bank": [
                   "хӀал",
-                  "Щиб",
-                  "бугеб?"
+                  "бугеб?",
+                  "Щиб"
                 ],
                 "answer": [
                   "Щиб",
@@ -423,21 +441,21 @@
                 "direction": "av-en",
                 "prompt": "Дуда цӀар щиб?",
                 "options": [
-                  "bad",
-                  "to drink",
-                  "ten",
-                  "What's your name?"
+                  "three",
+                  "What's your name?",
+                  "Please...",
+                  "to sleep"
                 ],
-                "answerIndex": 3
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
                 "direction": "en-av",
                 "prompt": "What's your name?",
                 "bank": [
-                  "щиб?",
+                  "цӀар",
                   "Дуда",
-                  "цӀар"
+                  "щиб?"
                 ],
                 "answer": [
                   "Дуда",
@@ -451,10 +469,10 @@
                 "blankedEn": "___ your name?",
                 "answer": "What's",
                 "options": [
-                  "fourteen",
-                  "Please",
+                  "open",
+                  "bull",
                   "What's",
-                  "morning"
+                  "understand"
                 ]
               },
               {
@@ -462,12 +480,12 @@
                 "direction": "av-en",
                 "prompt": "Нух битӀаги!",
                 "options": [
-                  "red",
-                  "You are (here). (female addressee)",
+                  "Sorry.",
                   "Have a good trip!",
-                  "Hello! (response)"
+                  "husband",
+                  "water"
                 ],
-                "answerIndex": 2
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
@@ -486,12 +504,12 @@
                 "type": "listening",
                 "native": "Нух битӀаги!",
                 "options": [
-                  "You (plural) are (here).",
+                  "red",
+                  "You are (here). (female addressee)",
                   "Have a good trip!",
-                  "There is a man. / The man is (here).",
-                  "to know"
+                  "Hello! (response)"
                 ],
-                "answerIndex": 1
+                "answerIndex": 2
               },
               {
                 "type": "matching",
@@ -570,12 +588,12 @@
                 "direction": "av-en",
                 "prompt": "цо",
                 "options": [
-                  "ten",
-                  "to sleep",
-                  "one",
-                  "twenty"
+                  "You (plural) are (here).",
+                  "to know",
+                  "road",
+                  "one"
                 ],
-                "answerIndex": 2
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
@@ -592,24 +610,24 @@
                 "type": "listening",
                 "native": "цо",
                 "options": [
-                  "woman",
-                  "No.",
-                  "big",
-                  "one"
+                  "ten",
+                  "to sleep",
+                  "one",
+                  "twenty"
                 ],
-                "answerIndex": 3
+                "answerIndex": 2
               },
               {
                 "type": "multiple-choice",
                 "direction": "av-en",
                 "prompt": "кӏиго",
                 "options": [
-                  "two",
-                  "white",
-                  "new",
-                  "to come"
+                  "woman",
+                  "No.",
+                  "big",
+                  "two"
                 ],
-                "answerIndex": 0
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
@@ -635,9 +653,9 @@
                 "prompt": "лъабго",
                 "options": [
                   "three",
-                  "nine",
+                  "white",
                   "new",
-                  "There is a dog."
+                  "to come"
                 ],
                 "answerIndex": 0
               },
@@ -657,12 +675,12 @@
                 "direction": "av-en",
                 "prompt": "ункъго",
                 "options": [
-                  "Yes.",
-                  "We are (here).",
                   "four",
-                  "You are (here). (female addressee)"
+                  "nine",
+                  "new",
+                  "There is a dog."
                 ],
-                "answerIndex": 2
+                "answerIndex": 0
               },
               {
                 "type": "word-bank",
@@ -679,12 +697,12 @@
                 "type": "listening",
                 "native": "ункъго",
                 "options": [
-                  "four",
                   "Yes.",
-                  "sixteen",
-                  "eighteen"
+                  "We are (here).",
+                  "four",
+                  "You are (here). (female addressee)"
                 ],
-                "answerIndex": 0
+                "answerIndex": 2
               },
               {
                 "type": "fill-blank",
@@ -692,9 +710,9 @@
                 "blankedEn": "___",
                 "answer": "four",
                 "options": [
-                  "count",
-                  "plural",
-                  "road",
+                  "morning",
+                  "horse",
+                  "feminine",
                   "four"
                 ]
               },
@@ -703,12 +721,12 @@
                 "direction": "av-en",
                 "prompt": "щуго",
                 "options": [
+                  "to see",
                   "five",
-                  "sixteen",
-                  "to sleep",
-                  "they"
+                  "We are (here).",
+                  "moon"
                 ],
-                "answerIndex": 0
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
@@ -733,12 +751,12 @@
                 "direction": "av-en",
                 "prompt": "анлъго",
                 "options": [
-                  "What's your name?",
                   "six",
-                  "You are (here). (female addressee)",
-                  "we (inclusive)"
+                  "to come",
+                  "long",
+                  "fourteen"
                 ],
-                "answerIndex": 1
+                "answerIndex": 0
               },
               {
                 "type": "word-bank",
@@ -756,9 +774,9 @@
                 "direction": "av-en",
                 "prompt": "анкьго",
                 "options": [
-                  "two",
-                  "yellow",
-                  "long",
+                  "fourteen",
+                  "nineteen",
+                  "road",
                   "seven"
                 ],
                 "answerIndex": 3
@@ -778,24 +796,24 @@
                 "type": "listening",
                 "native": "анкьго",
                 "options": [
-                  "There is a dog.",
-                  "Please...",
-                  "fifteen",
-                  "seven"
+                  "long",
+                  "seven",
+                  "road",
+                  "eleven"
                 ],
-                "answerIndex": 3
+                "answerIndex": 1
               },
               {
                 "type": "multiple-choice",
                 "direction": "av-en",
                 "prompt": "микьго",
                 "options": [
-                  "There is water.",
-                  "man / person",
-                  "eight",
-                  "twelve"
+                  "seventeen",
+                  "moon",
+                  "I am (here). (male speaker)",
+                  "eight"
                 ],
-                "answerIndex": 2
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
@@ -821,10 +839,10 @@
                 "blankedEn": "___",
                 "answer": "eight",
                 "options": [
+                  "female",
+                  "village",
                   "eight",
-                  "name",
-                  "addressee",
-                  "eighteen"
+                  "understand"
                 ]
               },
               {
@@ -832,9 +850,9 @@
                 "direction": "av-en",
                 "prompt": "ичӏго",
                 "options": [
-                  "eleven",
-                  "to see",
-                  "red",
+                  "to drink",
+                  "Good day!",
+                  "green",
                   "nine"
                 ],
                 "answerIndex": 3
@@ -855,12 +873,12 @@
                 "direction": "av-en",
                 "prompt": "анцӏго",
                 "options": [
-                  "who (masculine)",
                   "ten",
-                  "eleven",
-                  "road"
+                  "earth / land",
+                  "Good morning!",
+                  "There is a dog."
                 ],
-                "answerIndex": 1
+                "answerIndex": 0
               },
               {
                 "type": "word-bank",
@@ -877,24 +895,24 @@
                 "type": "listening",
                 "native": "анцӏго",
                 "options": [
-                  "to play",
-                  "ten",
-                  "how",
-                  "Good night!"
+                  "eleven",
+                  "to see",
+                  "red",
+                  "ten"
                 ],
-                "answerIndex": 1
+                "answerIndex": 3
               },
               {
                 "type": "multiple-choice",
                 "direction": "av-en",
                 "prompt": "анцӏила цо",
                 "options": [
-                  "Have a good trip!",
-                  "who (feminine)",
-                  "to know",
-                  "eleven"
+                  "who (masculine)",
+                  "eleven",
+                  "ten",
+                  "road"
                 ],
-                "answerIndex": 3
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
@@ -922,12 +940,12 @@
                 "direction": "av-en",
                 "prompt": "анцӏила кӏиго",
                 "options": [
-                  "mother",
-                  "one",
-                  "twelve",
-                  "to drink"
+                  "how",
+                  "thirteen",
+                  "to drink",
+                  "twelve"
                 ],
-                "answerIndex": 2
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
@@ -949,9 +967,9 @@
                 "answer": "twelve",
                 "options": [
                   "twelve",
-                  "addressee",
-                  "small",
-                  "wind"
+                  "teacher",
+                  "building",
+                  "good"
                 ]
               },
               {
@@ -959,20 +977,20 @@
                 "direction": "av-en",
                 "prompt": "анцӏила лъабго",
                 "options": [
-                  "snow",
                   "thirteen",
-                  "Have a good trip!",
-                  "wife"
+                  "who (masculine)",
+                  "sky",
+                  "No."
                 ],
-                "answerIndex": 1
+                "answerIndex": 0
               },
               {
                 "type": "word-bank",
                 "direction": "en-av",
                 "prompt": "thirteen",
                 "bank": [
-                  "лъабго",
-                  "анцӏила"
+                  "анцӏила",
+                  "лъабго"
                 ],
                 "answer": [
                   "анцӏила",
@@ -983,10 +1001,10 @@
                 "type": "listening",
                 "native": "анцӏила лъабго",
                 "options": [
-                  "Good night!",
+                  "snow",
                   "thirteen",
-                  "to count",
-                  "You (plural) are (here)."
+                  "Have a good trip!",
+                  "wife"
                 ],
                 "answerIndex": 1
               },
@@ -995,9 +1013,9 @@
                 "direction": "av-en",
                 "prompt": "анцӏила ункъго",
                 "options": [
-                  "three",
-                  "eleven",
-                  "long",
+                  "five",
+                  "to come",
+                  "to count",
                   "fourteen"
                 ],
                 "answerIndex": 3
@@ -1007,8 +1025,8 @@
                 "direction": "en-av",
                 "prompt": "fourteen",
                 "bank": [
-                  "ункъго",
-                  "анцӏила"
+                  "анцӏила",
+                  "ункъго"
                 ],
                 "answer": [
                   "анцӏила",
@@ -1028,9 +1046,9 @@
                 "direction": "av-en",
                 "prompt": "анцӏила щуго",
                 "options": [
-                  "twenty",
                   "You are (here). (female addressee)",
-                  "to sleep",
+                  "three",
+                  "eleven",
                   "fifteen"
                 ],
                 "answerIndex": 3
@@ -1040,8 +1058,8 @@
                 "direction": "en-av",
                 "prompt": "fifteen",
                 "bank": [
-                  "анцӏила",
-                  "щуго"
+                  "щуго",
+                  "анцӏила"
                 ],
                 "answer": [
                   "анцӏила",
@@ -1053,9 +1071,9 @@
                 "direction": "av-en",
                 "prompt": "анцӏила анлъго",
                 "options": [
-                  "big",
-                  "ten",
-                  "seven",
+                  "twenty",
+                  "You are (here). (female addressee)",
+                  "to sleep",
                   "sixteen"
                 ],
                 "answerIndex": 3
@@ -1065,8 +1083,8 @@
                 "direction": "en-av",
                 "prompt": "sixteen",
                 "bank": [
-                  "анлъго",
-                  "анцӏила"
+                  "анцӏила",
+                  "анлъго"
                 ],
                 "answer": [
                   "анцӏила",
@@ -1077,12 +1095,12 @@
                 "type": "listening",
                 "native": "анцӏила анлъго",
                 "options": [
-                  "fish",
-                  "Good day!",
-                  "sixteen",
-                  "who (masculine)"
+                  "big",
+                  "ten",
+                  "seven",
+                  "sixteen"
                 ],
-                "answerIndex": 2
+                "answerIndex": 3
               },
               {
                 "type": "fill-blank",
@@ -1090,9 +1108,9 @@
                 "blankedEn": "___",
                 "answer": "sixteen",
                 "options": [
+                  "hundred",
+                  "Thursday",
                   "sixteen",
-                  "nineteen",
-                  "male",
                   "adult"
                 ]
               },
@@ -1101,12 +1119,12 @@
                 "direction": "av-en",
                 "prompt": "анцӏила анкьго",
                 "options": [
-                  "eighteen",
                   "seventeen",
-                  "we (inclusive)",
-                  "five"
+                  "how",
+                  "Yes.",
+                  "black"
                 ],
-                "answerIndex": 1
+                "answerIndex": 0
               },
               {
                 "type": "word-bank",
@@ -1134,12 +1152,12 @@
                 "direction": "av-en",
                 "prompt": "анцӏила микьго",
                 "options": [
-                  "to sleep",
-                  "Sorry.",
-                  "sun",
-                  "eighteen"
+                  "when",
+                  "eighteen",
+                  "snow",
+                  "what"
                 ],
-                "answerIndex": 3
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
@@ -1159,9 +1177,9 @@
                 "direction": "av-en",
                 "prompt": "анцӏила ичӏго",
                 "options": [
-                  "husband",
-                  "fifteen",
-                  "eighteen",
+                  "to come",
+                  "who (feminine)",
+                  "bad",
                   "nineteen"
                 ],
                 "answerIndex": 3
@@ -1171,8 +1189,8 @@
                 "direction": "en-av",
                 "prompt": "nineteen",
                 "bank": [
-                  "анцӏила",
-                  "ичӏго"
+                  "ичӏго",
+                  "анцӏила"
                 ],
                 "answer": [
                   "анцӏила",
@@ -1183,21 +1201,21 @@
                 "type": "listening",
                 "native": "анцӏила ичӏго",
                 "options": [
-                  "short",
-                  "ten",
                   "nineteen",
-                  "Hello! (response)"
+                  "The sun is out.",
+                  "to sleep",
+                  "earth / land"
                 ],
-                "answerIndex": 2
+                "answerIndex": 0
               },
               {
                 "type": "multiple-choice",
                 "direction": "av-en",
                 "prompt": "къого",
                 "options": [
-                  "twelve",
-                  "to say",
-                  "fourteen",
+                  "we (inclusive)",
+                  "eighteen",
+                  "husband",
                   "twenty"
                 ],
                 "answerIndex": 3
@@ -1226,10 +1244,10 @@
                 "blankedEn": "___",
                 "answer": "twenty",
                 "options": [
-                  "person",
-                  "woman",
                   "twenty",
-                  "Sorry"
+                  "black",
+                  "wife",
+                  "craftsman"
                 ]
               },
               {
@@ -1351,12 +1369,12 @@
                 "direction": "av-en",
                 "prompt": "эбел",
                 "options": [
-                  "you (singular)",
-                  "sixteen",
-                  "We are (here).",
-                  "mother"
+                  "There is a woman. / The woman is (here).",
+                  "earth / land",
+                  "mother",
+                  "rain"
                 ],
-                "answerIndex": 3
+                "answerIndex": 2
               },
               {
                 "type": "word-bank",
@@ -1373,22 +1391,22 @@
                 "type": "listening",
                 "native": "эбел",
                 "options": [
+                  "Hello! (response)",
                   "mother",
-                  "How are you?",
-                  "There is water.",
-                  "yellow"
+                  "nineteen",
+                  "You (plural) are (here)."
                 ],
-                "answerIndex": 0
+                "answerIndex": 1
               },
               {
                 "type": "multiple-choice",
                 "direction": "av-en",
                 "prompt": "эмен",
                 "options": [
-                  "Good day!",
-                  "husband",
+                  "three",
+                  "We are (here).",
                   "father",
-                  "eleven"
+                  "you (singular)"
                 ],
                 "answerIndex": 2
               },
@@ -1415,12 +1433,12 @@
                 "direction": "av-en",
                 "prompt": "лъади",
                 "options": [
-                  "I am (here). (male speaker)",
                   "wife",
-                  "rain",
-                  "Good night!"
+                  "How are you?",
+                  "There is water.",
+                  "yellow"
                 ],
-                "answerIndex": 1
+                "answerIndex": 0
               },
               {
                 "type": "word-bank",
@@ -1438,12 +1456,12 @@
                 "direction": "av-en",
                 "prompt": "рос",
                 "options": [
-                  "when",
+                  "Good day!",
+                  "wife",
                   "husband",
-                  "earth / land",
-                  "Please..."
+                  "eleven"
                 ],
-                "answerIndex": 1
+                "answerIndex": 2
               },
               {
                 "type": "word-bank",
@@ -1460,12 +1478,12 @@
                 "type": "listening",
                 "native": "рос",
                 "options": [
-                  "to see",
-                  "four",
-                  "long",
-                  "husband"
+                  "I am (here). (male speaker)",
+                  "husband",
+                  "rain",
+                  "Good night!"
                 ],
-                "answerIndex": 3
+                "answerIndex": 1
               },
               {
                 "type": "fill-blank",
@@ -1473,10 +1491,10 @@
                 "blankedEn": "___",
                 "answer": "husband",
                 "options": [
-                  "five",
                   "husband",
-                  "know",
-                  "small"
+                  "country",
+                  "twenty",
+                  "Please"
                 ]
               },
               {
@@ -1484,12 +1502,12 @@
                 "direction": "av-en",
                 "prompt": "лъимер",
                 "options": [
-                  "There is water.",
+                  "Sorry.",
+                  "wind",
                   "child",
-                  "sun",
                   "three"
                 ],
-                "answerIndex": 1
+                "answerIndex": 2
               },
               {
                 "type": "word-bank",
@@ -1514,12 +1532,12 @@
                 "direction": "av-en",
                 "prompt": "чи",
                 "options": [
-                  "to play",
-                  "You are (here). (female addressee)",
-                  "The sun is out.",
-                  "man / person"
+                  "We are (here).",
+                  "man / person",
+                  "mother",
+                  "eighteen"
                 ],
-                "answerIndex": 3
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
@@ -1537,12 +1555,12 @@
                 "direction": "av-en",
                 "prompt": "бихьинчи",
                 "options": [
+                  "There is water.",
                   "man (adult male)",
-                  "you (singular)",
-                  "green",
-                  "to count"
+                  "sun",
+                  "three"
                 ],
-                "answerIndex": 0
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
@@ -1559,12 +1577,12 @@
                 "type": "listening",
                 "native": "бихьинчи",
                 "options": [
-                  "who (feminine)",
-                  "to walk",
-                  "man (adult male)",
-                  "fish"
+                  "to play",
+                  "You are (here). (female addressee)",
+                  "The sun is out.",
+                  "man (adult male)"
                 ],
-                "answerIndex": 2
+                "answerIndex": 3
               },
               {
                 "type": "multiple-choice",
@@ -1572,9 +1590,9 @@
                 "prompt": "чӏужу",
                 "options": [
                   "woman",
-                  "water",
-                  "Good morning!",
-                  "fire"
+                  "you (singular)",
+                  "green",
+                  "to count"
                 ],
                 "answerIndex": 0
               },
@@ -1602,10 +1620,10 @@
                 "blankedEn": "___",
                 "answer": "woman",
                 "options": [
+                  "earth",
                   "woman",
-                  "mother",
-                  "Hello",
-                  "fish"
+                  "night",
+                  "come"
                 ]
               },
               {
@@ -1664,12 +1682,12 @@
                 "direction": "av-en",
                 "prompt": "бакъ",
                 "options": [
+                  "I",
                   "sun",
-                  "man / person",
-                  "fifteen",
-                  "What's your name?"
+                  "twenty",
+                  "when"
                 ],
-                "answerIndex": 0
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
@@ -1686,22 +1704,22 @@
                 "type": "listening",
                 "native": "бакъ",
                 "options": [
-                  "sun",
                   "five",
-                  "woman",
-                  "There is water."
+                  "to see",
+                  "sun",
+                  "You are (here). (female addressee)"
                 ],
-                "answerIndex": 0
+                "answerIndex": 2
               },
               {
                 "type": "multiple-choice",
                 "direction": "av-en",
                 "prompt": "моцӏ",
                 "options": [
-                  "seven",
+                  "water",
                   "moon",
-                  "small",
-                  "No."
+                  "twenty",
+                  "three"
                 ],
                 "answerIndex": 1
               },
@@ -1728,12 +1746,12 @@
                 "direction": "av-en",
                 "prompt": "цӏва",
                 "options": [
-                  "wind",
+                  "man / person",
+                  "fish",
                   "star",
-                  "twelve",
-                  "how"
+                  "seventeen"
                 ],
-                "answerIndex": 1
+                "answerIndex": 2
               },
               {
                 "type": "word-bank",
@@ -1752,9 +1770,9 @@
                 "prompt": "лъим",
                 "options": [
                   "water",
-                  "nineteen",
-                  "small",
-                  "fish"
+                  "short",
+                  "we (inclusive)",
+                  "woman"
                 ],
                 "answerIndex": 0
               },
@@ -1773,12 +1791,12 @@
                 "type": "listening",
                 "native": "лъим",
                 "options": [
+                  "seven",
                   "water",
-                  "woman",
-                  "to eat",
-                  "wife"
+                  "small",
+                  "No."
                 ],
-                "answerIndex": 0
+                "answerIndex": 1
               },
               {
                 "type": "fill-blank",
@@ -1786,10 +1804,10 @@
                 "blankedEn": "___",
                 "answer": "water",
                 "options": [
-                  "husband",
-                  "addressee",
                   "water",
-                  "fourteen"
+                  "city",
+                  "eighty",
+                  "exclusive"
                 ]
               },
               {
@@ -1797,12 +1815,12 @@
                 "direction": "av-en",
                 "prompt": "цӏад",
                 "options": [
-                  "four",
-                  "yellow",
+                  "rain",
                   "sky",
-                  "rain"
+                  "man (adult male)",
+                  "Please..."
                 ],
-                "answerIndex": 3
+                "answerIndex": 0
               },
               {
                 "type": "word-bank",
@@ -1827,9 +1845,9 @@
                 "direction": "av-en",
                 "prompt": "гӏазу",
                 "options": [
-                  "you (singular)",
-                  "How are you?",
-                  "black",
+                  "sun",
+                  "Good morning!",
+                  "There is a man. / The man is (here).",
                   "snow"
                 ],
                 "answerIndex": 3
@@ -1850,12 +1868,12 @@
                 "direction": "av-en",
                 "prompt": "цӏа",
                 "options": [
+                  "to walk",
                   "fire",
-                  "Thank you!",
-                  "water",
-                  "man (adult male)"
+                  "There is a dog.",
+                  "The sun is out."
                 ],
-                "answerIndex": 0
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
@@ -1872,9 +1890,9 @@
                 "type": "listening",
                 "native": "цӏа",
                 "options": [
-                  "sixteen",
-                  "eight",
-                  "how",
+                  "to give",
+                  "who (masculine)",
+                  "who (feminine)",
                   "fire"
                 ],
                 "answerIndex": 3
@@ -1884,9 +1902,9 @@
                 "direction": "av-en",
                 "prompt": "зоб",
                 "options": [
-                  "you (plural)",
-                  "Good morning!",
-                  "water",
+                  "Yes.",
+                  "dog",
+                  "You are (here). (female addressee)",
                   "sky"
                 ],
                 "answerIndex": 3
@@ -1914,12 +1932,12 @@
                 "direction": "av-en",
                 "prompt": "гьури",
                 "options": [
-                  "sixteen",
+                  "new",
+                  "wife",
                   "wind",
-                  "they",
-                  "how"
+                  "when"
                 ],
-                "answerIndex": 1
+                "answerIndex": 2
               },
               {
                 "type": "word-bank",
@@ -1937,12 +1955,12 @@
                 "direction": "av-en",
                 "prompt": "ракь",
                 "options": [
+                  "where",
+                  "new",
                   "earth / land",
-                  "to eat",
-                  "husband",
-                  "to sleep"
+                  "Hello! (response)"
                 ],
-                "answerIndex": 0
+                "answerIndex": 2
               },
               {
                 "type": "word-bank",
@@ -1960,23 +1978,23 @@
                 "native": "ракь",
                 "options": [
                   "There is a woman. / The woman is (here).",
-                  "Hello!",
                   "earth / land",
-                  "red"
+                  "Good morning!",
+                  "you (plural)"
                 ],
-                "answerIndex": 2
+                "answerIndex": 1
               },
               {
                 "type": "multiple-choice",
                 "direction": "av-en",
                 "prompt": "нух",
                 "options": [
-                  "There is water.",
-                  "star",
-                  "to give",
-                  "road"
+                  "road",
+                  "rain",
+                  "to eat",
+                  "Have a good trip!"
                 ],
-                "answerIndex": 3
+                "answerIndex": 0
               },
               {
                 "type": "word-bank",
@@ -2001,12 +2019,12 @@
                 "direction": "av-en",
                 "prompt": "гьой",
                 "options": [
-                  "when",
-                  "bird",
-                  "dog",
-                  "Good morning!"
+                  "yellow",
+                  "twelve",
+                  "red",
+                  "dog"
                 ],
-                "answerIndex": 2
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
@@ -2024,12 +2042,12 @@
                 "direction": "av-en",
                 "prompt": "ччугӏа",
                 "options": [
+                  "There is a man. / The man is (here).",
+                  "eleven",
                   "fish",
-                  "Hello! (response)",
-                  "Thank you!",
-                  "bad"
+                  "to give"
                 ],
-                "answerIndex": 0
+                "answerIndex": 2
               },
               {
                 "type": "word-bank",
@@ -2046,24 +2064,24 @@
                 "type": "listening",
                 "native": "ччугӏа",
                 "options": [
-                  "fish",
-                  "earth / land",
-                  "good",
-                  "to eat"
+                  "you (singular)",
+                  "sixteen",
+                  "ten",
+                  "fish"
                 ],
-                "answerIndex": 0
+                "answerIndex": 3
               },
               {
                 "type": "multiple-choice",
                 "direction": "av-en",
                 "prompt": "хӏинчӏ",
                 "options": [
-                  "how",
-                  "bird",
-                  "father",
-                  "thirteen"
+                  "The sun is out.",
+                  "yellow",
+                  "twelve",
+                  "bird"
                 ],
-                "answerIndex": 1
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
@@ -2160,12 +2178,12 @@
                 "direction": "av-en",
                 "prompt": "багӏараб",
                 "options": [
-                  "long",
-                  "I",
-                  "twenty",
-                  "red"
+                  "red",
+                  "wind",
+                  "earth / land",
+                  "eighteen"
                 ],
-                "answerIndex": 3
+                "answerIndex": 0
               },
               {
                 "type": "word-bank",
@@ -2182,24 +2200,24 @@
                 "type": "listening",
                 "native": "багӏараб",
                 "options": [
-                  "two",
-                  "small",
-                  "to say",
-                  "red"
+                  "how",
+                  "red",
+                  "father",
+                  "thirteen"
                 ],
-                "answerIndex": 3
+                "answerIndex": 1
               },
               {
                 "type": "multiple-choice",
                 "direction": "av-en",
                 "prompt": "гӏурччинаб",
                 "options": [
-                  "three",
-                  "green",
+                  "long",
                   "I",
-                  "wind"
+                  "twenty",
+                  "green"
                 ],
-                "answerIndex": 1
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
@@ -2224,9 +2242,9 @@
                 "direction": "av-en",
                 "prompt": "тӏогьилаб",
                 "options": [
-                  "I",
+                  "two",
+                  "small",
                   "to say",
-                  "fire",
                   "yellow"
                 ],
                 "answerIndex": 3
@@ -2247,12 +2265,12 @@
                 "direction": "av-en",
                 "prompt": "хъахӏаб",
                 "options": [
-                  "short",
-                  "two",
+                  "three",
                   "white",
-                  "star"
+                  "I",
+                  "wind"
                 ],
-                "answerIndex": 2
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
@@ -2269,12 +2287,12 @@
                 "type": "listening",
                 "native": "хъахӏаб",
                 "options": [
-                  "seventeen",
-                  "white",
-                  "twelve",
-                  "We are (here)."
+                  "I",
+                  "to say",
+                  "fire",
+                  "white"
                 ],
-                "answerIndex": 1
+                "answerIndex": 3
               },
               {
                 "type": "fill-blank",
@@ -2282,10 +2300,10 @@
                 "blankedEn": "___",
                 "answer": "white",
                 "options": [
-                  "white",
-                  "exclusive",
                   "hear",
-                  "five"
+                  "white",
+                  "building",
+                  "town"
                 ]
               },
               {
@@ -2293,9 +2311,9 @@
                 "direction": "av-en",
                 "prompt": "чӏегӏераб",
                 "options": [
-                  "Hello!",
-                  "white",
-                  "yellow",
+                  "There is a man. / The man is (here).",
+                  "There is a woman. / The woman is (here).",
+                  "moon",
                   "black"
                 ],
                 "answerIndex": 3
@@ -2323,12 +2341,12 @@
                 "direction": "av-en",
                 "prompt": "лъикӏаб",
                 "options": [
-                  "to sleep",
-                  "good",
-                  "How are you?",
-                  "wife"
+                  "you (plural)",
+                  "water",
+                  "to say",
+                  "good"
                 ],
-                "answerIndex": 1
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
@@ -2346,12 +2364,12 @@
                 "direction": "av-en",
                 "prompt": "квешаб",
                 "options": [
-                  "they",
-                  "bird",
                   "bad",
-                  "Please..."
+                  "to eat",
+                  "yellow",
+                  "to hear"
                 ],
-                "answerIndex": 2
+                "answerIndex": 0
               },
               {
                 "type": "word-bank",
@@ -2368,9 +2386,9 @@
                 "type": "listening",
                 "native": "квешаб",
                 "options": [
-                  "who (masculine)",
-                  "one",
-                  "wind",
+                  "Hello!",
+                  "white",
+                  "yellow",
                   "bad"
                 ],
                 "answerIndex": 3
@@ -2380,12 +2398,12 @@
                 "direction": "av-en",
                 "prompt": "кӏудияб",
                 "options": [
+                  "to sleep",
                   "big",
-                  "snow",
-                  "I am (here). (male speaker)",
-                  "fish"
+                  "How are you?",
+                  "wife"
                 ],
-                "answerIndex": 0
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
@@ -2410,12 +2428,12 @@
                 "direction": "av-en",
                 "prompt": "гьитӏинаб",
                 "options": [
+                  "they",
+                  "bird",
                   "small",
-                  "twelve",
-                  "You are (here). (female addressee)",
-                  "husband"
+                  "Please..."
                 ],
-                "answerIndex": 0
+                "answerIndex": 2
               },
               {
                 "type": "word-bank",
@@ -2433,12 +2451,12 @@
                 "direction": "av-en",
                 "prompt": "халатаб",
                 "options": [
-                  "eleven",
-                  "to say",
-                  "long",
-                  "bad"
+                  "who (masculine)",
+                  "one",
+                  "wind",
+                  "long"
                 ],
-                "answerIndex": 2
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
@@ -2455,24 +2473,24 @@
                 "type": "listening",
                 "native": "халатаб",
                 "options": [
-                  "man / person",
-                  "There is a man. / The man is (here).",
-                  "father",
-                  "long"
+                  "long",
+                  "snow",
+                  "I am (here). (male speaker)",
+                  "fish"
                 ],
-                "answerIndex": 3
+                "answerIndex": 0
               },
               {
                 "type": "multiple-choice",
                 "direction": "av-en",
                 "prompt": "къокъаб",
                 "options": [
-                  "who (masculine)",
                   "short",
-                  "snow",
-                  "to sleep"
+                  "twelve",
+                  "You are (here). (female addressee)",
+                  "husband"
                 ],
-                "answerIndex": 1
+                "answerIndex": 0
               },
               {
                 "type": "word-bank",
@@ -2497,12 +2515,12 @@
                 "direction": "av-en",
                 "prompt": "цӏияб",
                 "options": [
+                  "eleven",
+                  "to say",
                   "new",
-                  "earth / land",
-                  "moon",
-                  "dog"
+                  "bad"
                 ],
-                "answerIndex": 0
+                "answerIndex": 2
               },
               {
                 "type": "word-bank",
@@ -2592,12 +2610,12 @@
                 "direction": "av-en",
                 "prompt": "гьекъезе",
                 "options": [
-                  "eleven",
-                  "to drink",
-                  "There is a woman. / The woman is (here).",
-                  "dog"
+                  "man / person",
+                  "There is a man. / The man is (here).",
+                  "father",
+                  "to drink"
                 ],
-                "answerIndex": 1
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
@@ -2614,24 +2632,24 @@
                 "type": "listening",
                 "native": "гьекъезе",
                 "options": [
-                  "nine",
-                  "to come",
-                  "How are you?",
-                  "to drink"
+                  "who (masculine)",
+                  "to drink",
+                  "snow",
+                  "to sleep"
                 ],
-                "answerIndex": 3
+                "answerIndex": 1
               },
               {
                 "type": "multiple-choice",
                 "direction": "av-en",
                 "prompt": "кваназе",
                 "options": [
-                  "to sleep",
-                  "You are (here). (female addressee)",
+                  "to eat",
+                  "earth / land",
                   "moon",
-                  "to eat"
+                  "dog"
                 ],
-                "answerIndex": 3
+                "answerIndex": 0
               },
               {
                 "type": "word-bank",
@@ -2656,12 +2674,12 @@
                 "direction": "av-en",
                 "prompt": "бихьизе",
                 "options": [
-                  "There is water.",
-                  "to walk",
+                  "eleven",
                   "to see",
-                  "I am (here). (male speaker)"
+                  "There is a woman. / The woman is (here).",
+                  "dog"
                 ],
-                "answerIndex": 2
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
@@ -2679,12 +2697,12 @@
                 "direction": "av-en",
                 "prompt": "рагӏизе",
                 "options": [
-                  "fire",
-                  "to hear",
-                  "thirteen",
-                  "There is a dog."
+                  "nine",
+                  "to come",
+                  "How are you?",
+                  "to hear"
                 ],
-                "answerIndex": 1
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
@@ -2701,9 +2719,9 @@
                 "type": "listening",
                 "native": "рагӏизе",
                 "options": [
-                  "child",
-                  "ten",
-                  "red",
+                  "to sleep",
+                  "You are (here). (female addressee)",
+                  "moon",
                   "to hear"
                 ],
                 "answerIndex": 3
@@ -2714,10 +2732,10 @@
                 "blankedEn": "to ___",
                 "answer": "hear",
                 "options": [
-                  "addressee",
-                  "hear",
-                  "good",
-                  "father"
+                  "walk",
+                  "thirty",
+                  "exclusive",
+                  "hear"
                 ]
               },
               {
@@ -2726,9 +2744,9 @@
                 "prompt": "лъазе",
                 "options": [
                   "to know",
-                  "father",
-                  "Yes.",
-                  "fifteen"
+                  "Good morning!",
+                  "nineteen",
+                  "sky"
                 ],
                 "answerIndex": 0
               },
@@ -2755,12 +2773,12 @@
                 "direction": "av-en",
                 "prompt": "кьижизе",
                 "options": [
+                  "The child is (here). (male child)",
                   "to sleep",
-                  "earth / land",
-                  "rain",
-                  "to drink"
+                  "Please...",
+                  "ten"
                 ],
-                "answerIndex": 0
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
@@ -2778,9 +2796,9 @@
                 "direction": "av-en",
                 "prompt": "хьвадизе",
                 "options": [
-                  "to count",
-                  "you (plural)",
-                  "to come",
+                  "to play",
+                  "There is a dog.",
+                  "Sorry.",
                   "to walk"
                 ],
                 "answerIndex": 3
@@ -2800,24 +2818,24 @@
                 "type": "listening",
                 "native": "хьвадизе",
                 "options": [
-                  "how",
-                  "The child is (here). (male child)",
-                  "mother",
-                  "to walk"
+                  "to walk",
+                  "father",
+                  "fifteen",
+                  "white"
                 ],
-                "answerIndex": 3
+                "answerIndex": 0
               },
               {
                 "type": "multiple-choice",
                 "direction": "av-en",
                 "prompt": "бачӏине",
                 "options": [
-                  "green",
                   "to come",
-                  "fire",
-                  "twelve"
+                  "earth / land",
+                  "rain",
+                  "to drink"
                 ],
-                "answerIndex": 1
+                "answerIndex": 0
               },
               {
                 "type": "word-bank",
@@ -2843,10 +2861,10 @@
                 "blankedEn": "to ___",
                 "answer": "come",
                 "options": [
-                  "twelve",
-                  "bird",
+                  "night",
+                  "father",
                   "come",
-                  "Good"
+                  "exclusive"
                 ]
               },
               {
@@ -2854,12 +2872,12 @@
                 "direction": "av-en",
                 "prompt": "абизе",
                 "options": [
-                  "ten",
-                  "seven",
-                  "big",
-                  "to say"
+                  "to say",
+                  "You are (here). (female addressee)",
+                  "to eat",
+                  "who (masculine)"
                 ],
-                "answerIndex": 3
+                "answerIndex": 0
               },
               {
                 "type": "word-bank",
@@ -2877,12 +2895,12 @@
                 "direction": "av-en",
                 "prompt": "кьезе",
                 "options": [
-                  "to give",
-                  "big",
-                  "You are (here). (female addressee)",
-                  "one"
+                  "snow",
+                  "long",
+                  "bird",
+                  "to give"
                 ],
-                "answerIndex": 0
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
@@ -2899,21 +2917,21 @@
                 "type": "listening",
                 "native": "кьезе",
                 "options": [
-                  "to give",
-                  "small",
+                  "seven",
+                  "We are (here).",
                   "wife",
-                  "eight"
+                  "to give"
                 ],
-                "answerIndex": 0
+                "answerIndex": 3
               },
               {
                 "type": "multiple-choice",
                 "direction": "av-en",
                 "prompt": "хӏазе",
                 "options": [
-                  "what",
-                  "mother",
-                  "black",
+                  "ten",
+                  "seven",
+                  "big",
                   "to play"
                 ],
                 "answerIndex": 3
@@ -2942,9 +2960,9 @@
                 "prompt": "рикӏкӏине",
                 "options": [
                   "to count",
-                  "bird",
-                  "white",
-                  "child"
+                  "big",
+                  "You are (here). (female addressee)",
+                  "one"
                 ],
                 "answerIndex": 0
               },
@@ -2965,10 +2983,10 @@
                 "blankedEn": "to ___",
                 "answer": "count",
                 "options": [
-                  "child",
-                  "five",
-                  "eleven",
-                  "count"
+                  "count",
+                  "city",
+                  "goose",
+                  "sister"
                 ]
               },
               {
@@ -3048,12 +3066,12 @@
                 "direction": "av-en",
                 "prompt": "дун",
                 "options": [
-                  "where",
-                  "good",
                   "I",
-                  "eight"
+                  "to drink",
+                  "Hello!",
+                  "small"
                 ],
-                "answerIndex": 2
+                "answerIndex": 0
               },
               {
                 "type": "word-bank",
@@ -3071,9 +3089,9 @@
                 "native": "дун",
                 "options": [
                   "I",
-                  "seventeen",
-                  "to give",
-                  "mother"
+                  "There is a dog.",
+                  "fish",
+                  "water"
                 ],
                 "answerIndex": 0
               },
@@ -3082,12 +3100,12 @@
                 "direction": "av-en",
                 "prompt": "мун",
                 "options": [
-                  "star",
-                  "big",
+                  "mother",
                   "you (singular)",
-                  "to give"
+                  "long",
+                  "Good night!"
                 ],
-                "answerIndex": 2
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
@@ -3112,12 +3130,12 @@
                 "direction": "av-en",
                 "prompt": "нилъ",
                 "options": [
-                  "what",
-                  "who (masculine)",
-                  "we (inclusive)",
-                  "twenty"
+                  "fifteen",
+                  "red",
+                  "where",
+                  "we (inclusive)"
                 ],
-                "answerIndex": 2
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
@@ -3135,12 +3153,12 @@
                 "direction": "av-en",
                 "prompt": "ниж",
                 "options": [
-                  "fish",
-                  "where",
                   "we (exclusive)",
-                  "six"
+                  "nineteen",
+                  "seventeen",
+                  "to come"
                 ],
-                "answerIndex": 2
+                "answerIndex": 0
               },
               {
                 "type": "word-bank",
@@ -3157,12 +3175,12 @@
                 "type": "listening",
                 "native": "ниж",
                 "options": [
-                  "you (singular)",
-                  "to drink",
-                  "to walk",
-                  "we (exclusive)"
+                  "we (exclusive)",
+                  "child",
+                  "we (inclusive)",
+                  "three"
                 ],
-                "answerIndex": 3
+                "answerIndex": 0
               },
               {
                 "type": "fill-blank",
@@ -3170,10 +3188,10 @@
                 "blankedEn": "we ___",
                 "answer": "exclusive",
                 "options": [
-                  "adult",
-                  "walk",
                   "exclusive",
-                  "star"
+                  "twenty",
+                  "seventeen",
+                  "brother"
                 ]
               },
               {
@@ -3181,12 +3199,12 @@
                 "direction": "av-en",
                 "prompt": "нуж",
                 "options": [
-                  "seventeen",
-                  "to eat",
-                  "woman",
-                  "you (plural)"
+                  "bird",
+                  "long",
+                  "you (plural)",
+                  "to see"
                 ],
-                "answerIndex": 3
+                "answerIndex": 2
               },
               {
                 "type": "word-bank",
@@ -3211,12 +3229,12 @@
                 "direction": "av-en",
                 "prompt": "эл",
                 "options": [
-                  "Sorry.",
-                  "new",
                   "they",
-                  "wind"
+                  "to give",
+                  "eleven",
+                  "sixteen"
                 ],
-                "answerIndex": 2
+                "answerIndex": 0
               },
               {
                 "type": "word-bank",
@@ -3234,12 +3252,12 @@
                 "direction": "av-en",
                 "prompt": "щив",
                 "options": [
-                  "eleven",
-                  "green",
+                  "to eat",
                   "who (masculine)",
-                  "good"
+                  "two",
+                  "nine"
                 ],
-                "answerIndex": 2
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
@@ -3256,22 +3274,22 @@
                 "type": "listening",
                 "native": "щив",
                 "options": [
-                  "small",
                   "who (masculine)",
-                  "eighteen",
-                  "twenty"
+                  "We are (here).",
+                  "father",
+                  "Sorry."
                 ],
-                "answerIndex": 1
+                "answerIndex": 0
               },
               {
                 "type": "multiple-choice",
                 "direction": "av-en",
                 "prompt": "щий",
                 "options": [
-                  "to drink",
+                  "nine",
                   "who (feminine)",
-                  "fifteen",
-                  "black"
+                  "Yes.",
+                  "short"
                 ],
                 "answerIndex": 1
               },
@@ -3300,9 +3318,9 @@
                 "answer": "feminine",
                 "options": [
                   "sleep",
+                  "fort",
                   "feminine",
-                  "night",
-                  "twenty"
+                  "person"
                 ]
               },
               {
@@ -3310,12 +3328,12 @@
                 "direction": "av-en",
                 "prompt": "щиб",
                 "options": [
+                  "There is water.",
                   "what",
-                  "two",
-                  "Yes.",
-                  "black"
+                  "small",
+                  "short"
                 ],
-                "answerIndex": 0
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
@@ -3333,12 +3351,12 @@
                 "direction": "av-en",
                 "prompt": "киб",
                 "options": [
+                  "two",
                   "where",
-                  "twenty",
-                  "white",
-                  "fire"
+                  "ten",
+                  "We are (here)."
                 ],
-                "answerIndex": 0
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
@@ -3355,24 +3373,24 @@
                 "type": "listening",
                 "native": "киб",
                 "options": [
-                  "There is a woman. / The woman is (here).",
-                  "There is water.",
-                  "You (plural) are (here).",
-                  "where"
+                  "six",
+                  "where",
+                  "sun",
+                  "to hear"
                 ],
-                "answerIndex": 3
+                "answerIndex": 1
               },
               {
                 "type": "multiple-choice",
                 "direction": "av-en",
                 "prompt": "кида",
                 "options": [
-                  "There is water.",
-                  "to eat",
                   "when",
-                  "big"
+                  "two",
+                  "Yes.",
+                  "black"
                 ],
-                "answerIndex": 2
+                "answerIndex": 0
               },
               {
                 "type": "word-bank",
@@ -3398,9 +3416,9 @@
                 "prompt": "кин",
                 "options": [
                   "how",
-                  "You are (here). (female addressee)",
-                  "I am (here). (male speaker)",
-                  "they"
+                  "twenty",
+                  "white",
+                  "fire"
                 ],
                 "answerIndex": 0
               },
@@ -3492,12 +3510,12 @@
                 "direction": "av-en",
                 "prompt": "Чи вуго.",
                 "options": [
-                  "There is a man. / The man is (here).",
-                  "to walk",
-                  "fish",
-                  "five"
+                  "The child is (here). (male child)",
+                  "There is a dog.",
+                  "I am (here). (male speaker)",
+                  "There is a man. / The man is (here)."
                 ],
-                "answerIndex": 0
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
@@ -3516,10 +3534,10 @@
                 "type": "listening",
                 "native": "Чи вуго.",
                 "options": [
-                  "long",
+                  "sun",
                   "There is a man. / The man is (here).",
-                  "four",
-                  "There is water."
+                  "small",
+                  "to see"
                 ],
                 "answerIndex": 1
               },
@@ -3529,9 +3547,9 @@
                 "prompt": "Чӏужу йиго.",
                 "options": [
                   "There is a woman. / The woman is (here).",
-                  "one",
-                  "to give",
-                  "We are (here)."
+                  "Hello!",
+                  "You are (here). (female addressee)",
+                  "who (masculine)"
                 ],
                 "answerIndex": 0
               },
@@ -3540,8 +3558,8 @@
                 "direction": "en-av",
                 "prompt": "There is a woman. / The woman is (here).",
                 "bank": [
-                  "Чӏужу",
-                  "йиго."
+                  "йиго.",
+                  "Чӏужу"
                 ],
                 "answer": [
                   "Чӏужу",
@@ -3561,20 +3579,20 @@
                 "direction": "av-en",
                 "prompt": "Лъимер вуго.",
                 "options": [
-                  "you (plural)",
-                  "seven",
-                  "sun",
-                  "The child is (here). (male child)"
+                  "The child is (here). (male child)",
+                  "to count",
+                  "to walk",
+                  "fish"
                 ],
-                "answerIndex": 3
+                "answerIndex": 0
               },
               {
                 "type": "word-bank",
                 "direction": "en-av",
                 "prompt": "The child is (here). (male child)",
                 "bank": [
-                  "Лъимер",
-                  "вуго."
+                  "вуго.",
+                  "Лъимер"
                 ],
                 "answer": [
                   "Лъимер",
@@ -3586,20 +3604,20 @@
                 "direction": "av-en",
                 "prompt": "Лъим буго.",
                 "options": [
-                  "snow",
-                  "You are (here). (female addressee)",
+                  "long",
                   "There is water.",
-                  "seventeen"
+                  "four",
+                  "The child is (here). (male child)"
                 ],
-                "answerIndex": 2
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
                 "direction": "en-av",
                 "prompt": "There is water.",
                 "bank": [
-                  "Лъим",
-                  "буго."
+                  "буго.",
+                  "Лъим"
                 ],
                 "answer": [
                   "Лъим",
@@ -3610,12 +3628,12 @@
                 "type": "listening",
                 "native": "Лъим буго.",
                 "options": [
-                  "to eat",
-                  "big",
                   "There is water.",
-                  "wife"
+                  "We are (here).",
+                  "long",
+                  "to give"
                 ],
-                "answerIndex": 2
+                "answerIndex": 0
               },
               {
                 "type": "fill-blank",
@@ -3624,9 +3642,9 @@
                 "answer": "water",
                 "options": [
                   "water",
-                  "father",
-                  "Sorry",
-                  "seven"
+                  "house",
+                  "hero",
+                  "full"
                 ]
               },
               {
@@ -3635,9 +3653,9 @@
                 "prompt": "Гьой буго.",
                 "options": [
                   "There is a dog.",
-                  "moon",
-                  "big",
-                  "small"
+                  "five",
+                  "we (exclusive)",
+                  "water"
                 ],
                 "answerIndex": 0
               },
@@ -3646,8 +3664,8 @@
                 "direction": "en-av",
                 "prompt": "There is a dog.",
                 "bank": [
-                  "буго.",
-                  "Гьой"
+                  "Гьой",
+                  "буго."
                 ],
                 "answer": [
                   "Гьой",
@@ -3667,20 +3685,20 @@
                 "direction": "av-en",
                 "prompt": "Бакъ буго.",
                 "options": [
-                  "five",
-                  "snow",
                   "The sun is out.",
-                  "wife"
+                  "Good morning!",
+                  "twenty",
+                  "to hear"
                 ],
-                "answerIndex": 2
+                "answerIndex": 0
               },
               {
                 "type": "word-bank",
                 "direction": "en-av",
                 "prompt": "The sun is out.",
                 "bank": [
-                  "буго.",
-                  "Бакъ"
+                  "Бакъ",
+                  "буго."
                 ],
                 "answer": [
                   "Бакъ",
@@ -3692,12 +3710,12 @@
                 "direction": "av-en",
                 "prompt": "Нилъ руго.",
                 "options": [
-                  "Have a good trip!",
-                  "Hello!",
-                  "sun",
-                  "We are (here)."
+                  "earth / land",
+                  "We are (here).",
+                  "Hello! (response)",
+                  "snow"
                 ],
-                "answerIndex": 3
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
@@ -3717,9 +3735,9 @@
                 "native": "Нилъ руго.",
                 "options": [
                   "We are (here).",
-                  "small",
-                  "we (inclusive)",
-                  "wind"
+                  "moon",
+                  "big",
+                  "small"
                 ],
                 "answerIndex": 0
               },
@@ -3728,10 +3746,10 @@
                 "direction": "av-en",
                 "prompt": "Нуж руго.",
                 "options": [
-                  "rain",
-                  "The sun is out.",
+                  "snow",
+                  "wife",
                   "You (plural) are (here).",
-                  "four"
+                  "five"
                 ],
                 "answerIndex": 2
               },
@@ -3762,10 +3780,10 @@
                 "blankedEn": "You ___ are (here).",
                 "answer": "plural",
                 "options": [
-                  "trip",
-                  "child",
+                  "daughterinlaw",
+                  "full",
                   "plural",
-                  "husband"
+                  "week"
                 ]
               },
               {
@@ -3773,9 +3791,9 @@
                 "direction": "av-en",
                 "prompt": "Дун вуго.",
                 "options": [
-                  "to play",
-                  "to count",
-                  "father",
+                  "who (masculine)",
+                  "big",
+                  "three",
                   "I am (here). (male speaker)"
                 ],
                 "answerIndex": 3
@@ -3785,8 +3803,8 @@
                 "direction": "en-av",
                 "prompt": "I am (here). (male speaker)",
                 "bank": [
-                  "вуго.",
-                  "Дун"
+                  "Дун",
+                  "вуго."
                 ],
                 "answer": [
                   "Дун",
@@ -3798,20 +3816,20 @@
                 "direction": "av-en",
                 "prompt": "Мун йиго.",
                 "options": [
-                  "who (masculine)",
-                  "What's your name?",
-                  "we (inclusive)",
-                  "You are (here). (female addressee)"
+                  "sky",
+                  "You are (here). (female addressee)",
+                  "white",
+                  "two"
                 ],
-                "answerIndex": 3
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
                 "direction": "en-av",
                 "prompt": "You are (here). (female addressee)",
                 "bank": [
-                  "йиго.",
-                  "Мун"
+                  "Мун",
+                  "йиго."
                 ],
                 "answer": [
                   "Мун",
@@ -3822,10 +3840,10 @@
                 "type": "listening",
                 "native": "Мун йиго.",
                 "options": [
-                  "Please...",
+                  "woman",
                   "You are (here). (female addressee)",
-                  "sun",
-                  "small"
+                  "Sorry.",
+                  "husband"
                 ],
                 "answerIndex": 1
               },
@@ -3874,6 +3892,3421 @@
             ],
             "titleNative": "Грамматика: тайпаялъул кказе",
             "topicId": "a1-copula"
+          }
+        ]
+      },
+      {
+        "id": "a2",
+        "cefr": "A2",
+        "label": "Building Blocks",
+        "labelNative": "КӀиго",
+        "lessons": [
+          {
+            "id": "av-a2-9",
+            "number": 9,
+            "title": "Numbers 20-1000",
+            "description": "Numbers 20-1000",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "къого",
+                "options": [
+                  "week",
+                  "family",
+                  "one hundred",
+                  "twenty"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "twenty",
+                "bank": [
+                  "къого"
+                ],
+                "answer": [
+                  "къого"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "къого",
+                "options": [
+                  "Tuesday",
+                  "twenty",
+                  "one hundred",
+                  "forty"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "лъеберго",
+                "options": [
+                  "ninety",
+                  "thirty",
+                  "judge",
+                  "to teach"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "thirty",
+                "bank": [
+                  "лъеберго"
+                ],
+                "answer": [
+                  "лъеберго"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "лъеберго",
+                "answer": [
+                  "лъеберго"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "кӏикъого",
+                "options": [
+                  "round",
+                  "forty",
+                  "son, boy",
+                  "gate"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "forty",
+                "bank": [
+                  "кӏикъого"
+                ],
+                "answer": [
+                  "кӏикъого"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "кӏикъоялда анцӏго",
+                "options": [
+                  "to speak",
+                  "to cook",
+                  "fifty",
+                  "fort, castle"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "fifty",
+                "bank": [
+                  "анцӏго",
+                  "кӏикъоялда"
+                ],
+                "answer": [
+                  "кӏикъоялда",
+                  "анцӏго"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "кӏикъоялда анцӏго",
+                "options": [
+                  "My father is here.",
+                  "to be",
+                  "master, craftsman",
+                  "fifty"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "fill-blank",
+                "native": "кӏикъоялда анцӏго",
+                "blankedEn": "___",
+                "answer": "fifty",
+                "options": [
+                  "seven",
+                  "child",
+                  "fifty",
+                  "blind"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "лъабкъого",
+                "options": [
+                  "to speak",
+                  "sixty",
+                  "window",
+                  "fox"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "sixty",
+                "bank": [
+                  "лъабкъого"
+                ],
+                "answer": [
+                  "лъабкъого"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "лъабкъого",
+                "answer": [
+                  "лъабкъого"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "лъабкъоялда анцӏго",
+                "options": [
+                  "to go",
+                  "seventy",
+                  "Monday",
+                  "the people"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "seventy",
+                "bank": [
+                  "лъабкъоялда",
+                  "анцӏго"
+                ],
+                "answer": [
+                  "лъабкъоялда",
+                  "анцӏго"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "ункъого",
+                "options": [
+                  "person, man",
+                  "hero",
+                  "pig",
+                  "eighty"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "eighty",
+                "bank": [
+                  "ункъого"
+                ],
+                "answer": [
+                  "ункъого"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "ункъого",
+                "options": [
+                  "eighty",
+                  "sixty",
+                  "one thousand",
+                  "heavy"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "ункъоялда анцӏго",
+                "options": [
+                  "My dog is here. / I have a dog.",
+                  "week",
+                  "elephant",
+                  "ninety"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "ninety",
+                "bank": [
+                  "ункъоялда",
+                  "анцӏго"
+                ],
+                "answer": [
+                  "ункъоялда",
+                  "анцӏго"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "ункъоялда анцӏго",
+                "answer": [
+                  "ункъоялда",
+                  "анцӏго"
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "ункъоялда анцӏго",
+                "blankedEn": "___",
+                "answer": "ninety",
+                "options": [
+                  "speaker",
+                  "wind",
+                  "thirty",
+                  "ninety"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "нусго",
+                "options": [
+                  "cat",
+                  "to write",
+                  "one hundred",
+                  "My family is here."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "one hundred",
+                "bank": [
+                  "нусго"
+                ],
+                "answer": [
+                  "нусго"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "азарго",
+                "options": [
+                  "son, boy",
+                  "hare",
+                  "one thousand",
+                  "sister"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "one thousand",
+                "bank": [
+                  "азарго"
+                ],
+                "answer": [
+                  "азарго"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "азарго",
+                "options": [
+                  "to write",
+                  "My daughter is here. / I have a daughter.",
+                  "one thousand",
+                  "fort, castle"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "къого",
+                    "en": "twenty"
+                  },
+                  {
+                    "native": "лъеберго",
+                    "en": "thirty"
+                  },
+                  {
+                    "native": "кӏикъого",
+                    "en": "forty"
+                  },
+                  {
+                    "native": "кӏикъоялда анцӏго",
+                    "en": "fifty"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "лъабкъого",
+                    "en": "sixty"
+                  },
+                  {
+                    "native": "лъабкъоялда анцӏго",
+                    "en": "seventy"
+                  },
+                  {
+                    "native": "ункъого",
+                    "en": "eighty"
+                  },
+                  {
+                    "native": "ункъоялда анцӏго",
+                    "en": "ninety"
+                  }
+                ]
+              }
+            ],
+            "titleNative": "РикӀкӀен"
+          },
+          {
+            "id": "av-a2-10",
+            "number": 10,
+            "title": "Days of the Week",
+            "description": "Days of the Week",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "Итни",
+                "options": [
+                  "Monday",
+                  "seventy",
+                  "thirty",
+                  "My dog is here. / I have a dog."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "Monday",
+                "bank": [
+                  "Итни"
+                ],
+                "answer": [
+                  "Итни"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Итни",
+                "options": [
+                  "cat",
+                  "house (building)",
+                  "twenty",
+                  "Monday"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "Талат",
+                "options": [
+                  "to write",
+                  "yard, courtyard",
+                  "My dog is here. / I have a dog.",
+                  "Tuesday"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "Tuesday",
+                "bank": [
+                  "Талат"
+                ],
+                "answer": [
+                  "Талат"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Талат",
+                "answer": [
+                  "Талат"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "Арбагӏ",
+                "options": [
+                  "Friday",
+                  "thirty",
+                  "to go",
+                  "Wednesday"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "Wednesday",
+                "bank": [
+                  "Арбагӏ"
+                ],
+                "answer": [
+                  "Арбагӏ"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "Хамиз",
+                "options": [
+                  "man, human",
+                  "forty",
+                  "donkey",
+                  "Thursday"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "Thursday",
+                "bank": [
+                  "Хамиз"
+                ],
+                "answer": [
+                  "Хамиз"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Хамиз",
+                "options": [
+                  "the people",
+                  "gate",
+                  "sister",
+                  "Thursday"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "fill-blank",
+                "native": "Хамиз",
+                "blankedEn": "___",
+                "answer": "Thursday",
+                "options": [
+                  "twenty",
+                  "Thursday",
+                  "Good",
+                  "fifteen"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "Рузман",
+                "options": [
+                  "Friday",
+                  "Saturday",
+                  "Tuesday",
+                  "house (building)"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "Friday",
+                "bank": [
+                  "Рузман"
+                ],
+                "answer": [
+                  "Рузман"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Рузман",
+                "answer": [
+                  "Рузман"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "Щамат",
+                "options": [
+                  "Saturday",
+                  "goose",
+                  "one hundred",
+                  "forty"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "Saturday",
+                "bank": [
+                  "Щамат"
+                ],
+                "answer": [
+                  "Щамат"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "гьатӏан",
+                "options": [
+                  "shop",
+                  "to cook",
+                  "My family is here.",
+                  "Sunday"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "Sunday",
+                "bank": [
+                  "гьатӏан"
+                ],
+                "answer": [
+                  "гьатӏан"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "гьатӏан",
+                "options": [
+                  "round",
+                  "healthy",
+                  "Sunday",
+                  "hare"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "анкь",
+                "options": [
+                  "to write",
+                  "week",
+                  "My daughter is here. / I have a daughter.",
+                  "sweet"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "week",
+                "bank": [
+                  "анкь"
+                ],
+                "answer": [
+                  "анкь"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "анкь",
+                "answer": [
+                  "анкь"
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "анкь",
+                "blankedEn": "___",
+                "answer": "week",
+                "options": [
+                  "week",
+                  "land",
+                  "sleep",
+                  "Tuesday"
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Итни",
+                    "en": "Monday"
+                  },
+                  {
+                    "native": "Талат",
+                    "en": "Tuesday"
+                  },
+                  {
+                    "native": "Арбагӏ",
+                    "en": "Wednesday"
+                  },
+                  {
+                    "native": "Хамиз",
+                    "en": "Thursday"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Рузман",
+                    "en": "Friday"
+                  },
+                  {
+                    "native": "Щамат",
+                    "en": "Saturday"
+                  },
+                  {
+                    "native": "гьатӏан",
+                    "en": "Sunday"
+                  },
+                  {
+                    "native": "анкь",
+                    "en": "week"
+                  }
+                ]
+              }
+            ],
+            "titleNative": "АнкӀил къоял"
+          },
+          {
+            "id": "av-a2-11",
+            "number": 11,
+            "title": "House & Town",
+            "description": "House & Town",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "рукъ",
+                "options": [
+                  "sweet",
+                  "house",
+                  "yard, courtyard",
+                  "My mother is here."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "house",
+                "bank": [
+                  "рукъ"
+                ],
+                "answer": [
+                  "рукъ"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "рукъ",
+                "options": [
+                  "warrior",
+                  "house",
+                  "thirty",
+                  "one hundred"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "мина",
+                "options": [
+                  "goat",
+                  "to speak",
+                  "house (building)",
+                  "shop"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "house (building)",
+                "bank": [
+                  "мина"
+                ],
+                "answer": [
+                  "мина"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "мина",
+                "answer": [
+                  "мина"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "гордо",
+                "options": [
+                  "window",
+                  "My father is here.",
+                  "cat",
+                  "to go"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "window",
+                "bank": [
+                  "гордо"
+                ],
+                "answer": [
+                  "гордо"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "каву",
+                "options": [
+                  "My father is here.",
+                  "yard, courtyard",
+                  "gate",
+                  "market"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "gate",
+                "bank": [
+                  "каву"
+                ],
+                "answer": [
+                  "каву"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "каву",
+                "options": [
+                  "gate",
+                  "hare",
+                  "window",
+                  "country, land"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "fill-blank",
+                "native": "каву",
+                "blankedEn": "___",
+                "answer": "gate",
+                "options": [
+                  "gate",
+                  "fifteen",
+                  "hero",
+                  "warrior"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "тукен",
+                "options": [
+                  "thirty",
+                  "village",
+                  "My mother is here.",
+                  "shop"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "shop",
+                "bank": [
+                  "тукен"
+                ],
+                "answer": [
+                  "тукен"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "тукен",
+                "answer": [
+                  "тукен"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "шагьар",
+                "options": [
+                  "town, city",
+                  "pig",
+                  "forty",
+                  "yard, courtyard"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "town, city",
+                "bank": [
+                  "шагьар"
+                ],
+                "answer": [
+                  "шагьар"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "къватӏ",
+                "options": [
+                  "person, man",
+                  "teacher, educated man",
+                  "My son is here. / I have a son.",
+                  "street"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "street",
+                "bank": [
+                  "къватӏ"
+                ],
+                "answer": [
+                  "къватӏ"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "къватӏ",
+                "options": [
+                  "country, land",
+                  "street",
+                  "fox",
+                  "to turn around"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "азбар",
+                "options": [
+                  "to cook",
+                  "yard, courtyard",
+                  "goat",
+                  "cow"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "yard, courtyard",
+                "bank": [
+                  "азбар"
+                ],
+                "answer": [
+                  "азбар"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "азбар",
+                "answer": [
+                  "азбар"
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "азбар",
+                "blankedEn": "___ courtyard",
+                "answer": "yard",
+                "options": [
+                  "morning",
+                  "friend",
+                  "yard",
+                  "plural"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "базар",
+                "options": [
+                  "My house is here. / I have a house.",
+                  "one thousand",
+                  "bear",
+                  "market"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "market",
+                "bank": [
+                  "базар"
+                ],
+                "answer": [
+                  "базар"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "хъала",
+                "options": [
+                  "to understand",
+                  "fort, castle",
+                  "one thousand",
+                  "gate"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "fort, castle",
+                "bank": [
+                  "хъала"
+                ],
+                "answer": [
+                  "хъала"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "хъала",
+                "options": [
+                  "shop",
+                  "pig",
+                  "man, human",
+                  "fort, castle"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "росу",
+                "options": [
+                  "sixty",
+                  "seventy",
+                  "cow",
+                  "village"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "village",
+                "bank": [
+                  "росу"
+                ],
+                "answer": [
+                  "росу"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "росу",
+                "answer": [
+                  "росу"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "улка",
+                "options": [
+                  "My father is here.",
+                  "one thousand",
+                  "fort, castle",
+                  "country, land"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "country, land",
+                "bank": [
+                  "улка"
+                ],
+                "answer": [
+                  "улка"
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "улка",
+                "blankedEn": "___ land",
+                "answer": "country",
+                "options": [
+                  "castle",
+                  "Monday",
+                  "masculine",
+                  "country"
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "рукъ",
+                    "en": "house"
+                  },
+                  {
+                    "native": "мина",
+                    "en": "house (building)"
+                  },
+                  {
+                    "native": "гордо",
+                    "en": "window"
+                  },
+                  {
+                    "native": "каву",
+                    "en": "gate"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "тукен",
+                    "en": "shop"
+                  },
+                  {
+                    "native": "шагьар",
+                    "en": "town, city"
+                  },
+                  {
+                    "native": "къватӏ",
+                    "en": "street"
+                  },
+                  {
+                    "native": "азбар",
+                    "en": "yard, courtyard"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "базар",
+                    "en": "market"
+                  },
+                  {
+                    "native": "хъала",
+                    "en": "fort, castle"
+                  },
+                  {
+                    "native": "росу",
+                    "en": "village"
+                  },
+                  {
+                    "native": "улка",
+                    "en": "country, land"
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Рукъ ва шагьар"
+          },
+          {
+            "id": "av-a2-12",
+            "number": 12,
+            "title": "Extended Family",
+            "description": "Extended Family",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "яс",
+                "options": [
+                  "blind",
+                  "daughter, girl",
+                  "My father is here.",
+                  "My dog is here. / I have a dog."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "daughter, girl",
+                "bank": [
+                  "яс"
+                ],
+                "answer": [
+                  "яс"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "яс",
+                "options": [
+                  "pig",
+                  "market",
+                  "My son is here. / I have a son.",
+                  "daughter, girl"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "вас",
+                "options": [
+                  "to sell",
+                  "master, craftsman",
+                  "My daughter is here. / I have a daughter.",
+                  "son, boy"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "son, boy",
+                "bank": [
+                  "вас"
+                ],
+                "answer": [
+                  "вас"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "вас",
+                "answer": [
+                  "вас"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "вац",
+                "options": [
+                  "brother",
+                  "son, boy",
+                  "fifty",
+                  "the people"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "brother",
+                "bank": [
+                  "вац"
+                ],
+                "answer": [
+                  "вац"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "яц",
+                "options": [
+                  "person, man",
+                  "Sunday",
+                  "My horse is here. / I have a horse.",
+                  "sister"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "sister",
+                "bank": [
+                  "яц"
+                ],
+                "answer": [
+                  "яц"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "яц",
+                "options": [
+                  "sweet",
+                  "beautiful",
+                  "sister",
+                  "brother"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "fill-blank",
+                "native": "яц",
+                "blankedEn": "___",
+                "answer": "sister",
+                "options": [
+                  "water",
+                  "castle",
+                  "male",
+                  "sister"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "хъизан",
+                "options": [
+                  "person, man",
+                  "twenty",
+                  "ninety",
+                  "family"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "family",
+                "bank": [
+                  "хъизан"
+                ],
+                "answer": [
+                  "хъизан"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "хъизан",
+                "answer": [
+                  "хъизан"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "нус",
+                "options": [
+                  "daughter-in-law",
+                  "to turn around",
+                  "one hundred",
+                  "to speak"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "daughter-in-law",
+                "bank": [
+                  "нус"
+                ],
+                "answer": [
+                  "нус"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "гьудул",
+                "options": [
+                  "friend",
+                  "My mother is here.",
+                  "judge",
+                  "to chew"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "friend",
+                "bank": [
+                  "гьудул"
+                ],
+                "answer": [
+                  "гьудул"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "гьудул",
+                "options": [
+                  "My dog is here. / I have a dog.",
+                  "to teach",
+                  "friend",
+                  "Monday"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "яс",
+                    "en": "daughter, girl"
+                  },
+                  {
+                    "native": "вас",
+                    "en": "son, boy"
+                  },
+                  {
+                    "native": "вац",
+                    "en": "brother"
+                  },
+                  {
+                    "native": "яц",
+                    "en": "sister"
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Тухум, дагьабго кӏудияб"
+          },
+          {
+            "id": "av-a2-13",
+            "number": 13,
+            "title": "People & Professions",
+            "description": "People & Professions",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "гӏадан",
+                "options": [
+                  "son, boy",
+                  "to chew",
+                  "My family is here.",
+                  "person, man"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "person, man",
+                "bank": [
+                  "гӏадан"
+                ],
+                "answer": [
+                  "гӏадан"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "гӏадан",
+                "options": [
+                  "to sell",
+                  "the people",
+                  "brother",
+                  "person, man"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "инсан",
+                "options": [
+                  "fox",
+                  "blind",
+                  "wolf",
+                  "man, human"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "man, human",
+                "bank": [
+                  "инсан"
+                ],
+                "answer": [
+                  "инсан"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "инсан",
+                "answer": [
+                  "инсан"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "халкъ",
+                "options": [
+                  "heavy",
+                  "the people",
+                  "Monday",
+                  "to open"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "the people",
+                "bank": [
+                  "халкъ"
+                ],
+                "answer": [
+                  "халкъ"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "устар",
+                "options": [
+                  "master, craftsman",
+                  "to speak",
+                  "eighty",
+                  "sister"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "master, craftsman",
+                "bank": [
+                  "устар"
+                ],
+                "answer": [
+                  "устар"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "устар",
+                "options": [
+                  "full",
+                  "Wednesday",
+                  "master, craftsman",
+                  "forty"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "fill-blank",
+                "native": "устар",
+                "blankedEn": "master, ___",
+                "answer": "craftsman",
+                "options": [
+                  "sweet",
+                  "bird",
+                  "person",
+                  "craftsman"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "къади",
+                "options": [
+                  "My father is here.",
+                  "hero",
+                  "judge",
+                  "Thursday"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "judge",
+                "bank": [
+                  "къади"
+                ],
+                "answer": [
+                  "къади"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "къади",
+                "answer": [
+                  "къади"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "дибир",
+                "options": [
+                  "the people",
+                  "teacher, educated man",
+                  "family",
+                  "sweet"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "teacher, educated man",
+                "bank": [
+                  "дибир"
+                ],
+                "answer": [
+                  "дибир"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "багьадур",
+                "options": [
+                  "judge",
+                  "bear",
+                  "hero",
+                  "friend"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "hero",
+                "bank": [
+                  "багьадур"
+                ],
+                "answer": [
+                  "багьадур"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "багьадур",
+                "options": [
+                  "goose",
+                  "to think",
+                  "hero",
+                  "sweet"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "рагъухъан",
+                "options": [
+                  "warrior",
+                  "goat",
+                  "to sell",
+                  "twenty"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "warrior",
+                "bank": [
+                  "рагъухъан"
+                ],
+                "answer": [
+                  "рагъухъан"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "рагъухъан",
+                "answer": [
+                  "рагъухъан"
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "рагъухъан",
+                "blankedEn": "___",
+                "answer": "warrior",
+                "options": [
+                  "masculine",
+                  "market",
+                  "woman",
+                  "warrior"
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "гӏадан",
+                    "en": "person, man"
+                  },
+                  {
+                    "native": "инсан",
+                    "en": "man, human"
+                  },
+                  {
+                    "native": "халкъ",
+                    "en": "the people"
+                  },
+                  {
+                    "native": "устар",
+                    "en": "master, craftsman"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "къади",
+                    "en": "judge"
+                  },
+                  {
+                    "native": "дибир",
+                    "en": "teacher, educated man"
+                  },
+                  {
+                    "native": "багьадур",
+                    "en": "hero"
+                  },
+                  {
+                    "native": "рагъухъан",
+                    "en": "warrior"
+                  }
+                ]
+              }
+            ],
+            "titleNative": "ХӀалтӀухъаби"
+          },
+          {
+            "id": "av-a2-14",
+            "number": 14,
+            "title": "More Animals",
+            "description": "More Animals",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "хъаз",
+                "options": [
+                  "cat",
+                  "week",
+                  "goat",
+                  "goose"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "goose",
+                "bank": [
+                  "хъаз"
+                ],
+                "answer": [
+                  "хъаз"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "хъаз",
+                "options": [
+                  "gate",
+                  "goose",
+                  "shop",
+                  "sweet"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "пил",
+                "options": [
+                  "town, city",
+                  "to go",
+                  "elephant",
+                  "donkey"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "elephant",
+                "bank": [
+                  "пил"
+                ],
+                "answer": [
+                  "пил"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "пил",
+                "answer": [
+                  "пил"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "бацӏ",
+                "options": [
+                  "fox",
+                  "round",
+                  "My father is here.",
+                  "wolf"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "wolf",
+                "bank": [
+                  "бацӏ"
+                ],
+                "answer": [
+                  "бацӏ"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "ци",
+                "options": [
+                  "bear",
+                  "hare",
+                  "yard, courtyard",
+                  "to write"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "bear",
+                "bank": [
+                  "ци"
+                ],
+                "answer": [
+                  "ци"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "ци",
+                "options": [
+                  "judge",
+                  "sister",
+                  "My dog is here. / I have a dog.",
+                  "bear"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "fill-blank",
+                "native": "ци",
+                "blankedEn": "___",
+                "answer": "bear",
+                "options": [
+                  "sixty",
+                  "give",
+                  "bear",
+                  "five"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "кету",
+                "options": [
+                  "teacher, educated man",
+                  "eighty",
+                  "sixty",
+                  "cat"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "cat",
+                "bank": [
+                  "кету"
+                ],
+                "answer": [
+                  "кету"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "кету",
+                "answer": [
+                  "кету"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "чу",
+                "options": [
+                  "goat",
+                  "warrior",
+                  "horse",
+                  "Thursday"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "horse",
+                "bank": [
+                  "чу"
+                ],
+                "answer": [
+                  "чу"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "оц",
+                "options": [
+                  "yard, courtyard",
+                  "My sister is here.",
+                  "friend",
+                  "bull"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "bull",
+                "bank": [
+                  "оц"
+                ],
+                "answer": [
+                  "оц"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "оц",
+                "options": [
+                  "sister",
+                  "Saturday",
+                  "week",
+                  "bull"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "гӏака",
+                "options": [
+                  "elephant",
+                  "horse",
+                  "to think",
+                  "cow"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "cow",
+                "bank": [
+                  "гӏака"
+                ],
+                "answer": [
+                  "гӏака"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "гӏака",
+                "answer": [
+                  "гӏака"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "гӏанкӏ",
+                "options": [
+                  "village",
+                  "house",
+                  "hare",
+                  "sweet"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "hare",
+                "bank": [
+                  "гӏанкӏ"
+                ],
+                "answer": [
+                  "гӏанкӏ"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "цер",
+                "options": [
+                  "goat",
+                  "fox",
+                  "one thousand",
+                  "person, man"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "fox",
+                "bank": [
+                  "цер"
+                ],
+                "answer": [
+                  "цер"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "цер",
+                "options": [
+                  "eighty",
+                  "fox",
+                  "bear",
+                  "Tuesday"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "болъон",
+                "options": [
+                  "one hundred",
+                  "healthy",
+                  "pig",
+                  "thirty"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "pig",
+                "bank": [
+                  "болъон"
+                ],
+                "answer": [
+                  "болъон"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "болъон",
+                "answer": [
+                  "болъон"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "дегӏен",
+                "options": [
+                  "goat",
+                  "friend",
+                  "to turn around",
+                  "My father is here."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "goat",
+                "bank": [
+                  "дегӏен"
+                ],
+                "answer": [
+                  "дегӏен"
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "дегӏен",
+                "blankedEn": "___",
+                "answer": "goat",
+                "options": [
+                  "goat",
+                  "family",
+                  "courtyard",
+                  "nine"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "хӏама",
+                "options": [
+                  "to chew",
+                  "sixty",
+                  "fort, castle",
+                  "donkey"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "donkey",
+                "bank": [
+                  "хӏама"
+                ],
+                "answer": [
+                  "хӏама"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "хӏама",
+                "options": [
+                  "goose",
+                  "window",
+                  "donkey",
+                  "horse"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "хъаз",
+                    "en": "goose"
+                  },
+                  {
+                    "native": "пил",
+                    "en": "elephant"
+                  },
+                  {
+                    "native": "бацӏ",
+                    "en": "wolf"
+                  },
+                  {
+                    "native": "ци",
+                    "en": "bear"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "кету",
+                    "en": "cat"
+                  },
+                  {
+                    "native": "чу",
+                    "en": "horse"
+                  },
+                  {
+                    "native": "оц",
+                    "en": "bull"
+                  },
+                  {
+                    "native": "гӏака",
+                    "en": "cow"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "гӏанкӏ",
+                    "en": "hare"
+                  },
+                  {
+                    "native": "цер",
+                    "en": "fox"
+                  },
+                  {
+                    "native": "болъон",
+                    "en": "pig"
+                  },
+                  {
+                    "native": "дегӏен",
+                    "en": "goat"
+                  }
+                ]
+              }
+            ],
+            "titleNative": "ХӀайванал"
+          },
+          {
+            "id": "av-a2-15",
+            "number": 15,
+            "title": "More Verbs",
+            "description": "More Verbs",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "ине",
+                "options": [
+                  "My family is here.",
+                  "thirty",
+                  "to go",
+                  "Monday"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "to go",
+                "bank": [
+                  "ине"
+                ],
+                "answer": [
+                  "ине"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "ине",
+                "options": [
+                  "hare",
+                  "to sell",
+                  "to go",
+                  "market"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "кӏалъазе",
+                "options": [
+                  "family",
+                  "donkey",
+                  "to speak",
+                  "to sell"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "to speak",
+                "bank": [
+                  "кӏалъазе"
+                ],
+                "answer": [
+                  "кӏалъазе"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "кӏалъазе",
+                "answer": [
+                  "кӏалъазе"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "хъвазе",
+                "options": [
+                  "to write",
+                  "house (building)",
+                  "cat",
+                  "to sell"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "to write",
+                "bank": [
+                  "хъвазе"
+                ],
+                "answer": [
+                  "хъвазе"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "бичӏчӏизе",
+                "options": [
+                  "village",
+                  "cow",
+                  "My daughter is here. / I have a daughter.",
+                  "to understand"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "to understand",
+                "bank": [
+                  "бичӏчӏизе"
+                ],
+                "answer": [
+                  "бичӏчӏизе"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "бичӏчӏизе",
+                "options": [
+                  "Friday",
+                  "cow",
+                  "to understand",
+                  "My sister is here."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "fill-blank",
+                "native": "бичӏчӏизе",
+                "blankedEn": "to ___",
+                "answer": "understand",
+                "options": [
+                  "Monday",
+                  "shop",
+                  "understand",
+                  "eighty"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "белъине",
+                "options": [
+                  "to cook",
+                  "sixty",
+                  "daughter, girl",
+                  "judge"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "to cook",
+                "bank": [
+                  "белъине"
+                ],
+                "answer": [
+                  "белъине"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "белъине",
+                "answer": [
+                  "белъине"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "малъизе",
+                "options": [
+                  "beautiful",
+                  "fifty",
+                  "to teach",
+                  "fort, castle"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "to teach",
+                "bank": [
+                  "малъизе"
+                ],
+                "answer": [
+                  "малъизе"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "ургьизе",
+                "options": [
+                  "to think",
+                  "goose",
+                  "to laugh",
+                  "fast, quick"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "to think",
+                "bank": [
+                  "ургьизе"
+                ],
+                "answer": [
+                  "ургьизе"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "ургьизе",
+                "options": [
+                  "blind",
+                  "to think",
+                  "master, craftsman",
+                  "yard, courtyard"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "чӏамизе",
+                "options": [
+                  "My brother is here.",
+                  "bull",
+                  "to chew",
+                  "cow"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "to chew",
+                "bank": [
+                  "чӏамизе"
+                ],
+                "answer": [
+                  "чӏамизе"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "чӏамизе",
+                "answer": [
+                  "чӏамизе"
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "чӏамизе",
+                "blankedEn": "to ___",
+                "answer": "chew",
+                "options": [
+                  "gate",
+                  "adult",
+                  "Thursday",
+                  "chew"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "букӏине",
+                "options": [
+                  "My horse is here. / I have a horse.",
+                  "to be",
+                  "blind",
+                  "friend"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "to be",
+                "bank": [
+                  "букӏине"
+                ],
+                "answer": [
+                  "букӏине"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "велъизе",
+                "options": [
+                  "to laugh",
+                  "town, city",
+                  "hare",
+                  "to chew"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "to laugh",
+                "bank": [
+                  "велъизе"
+                ],
+                "answer": [
+                  "велъизе"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "велъизе",
+                "options": [
+                  "wolf",
+                  "to laugh",
+                  "to sell",
+                  "one thousand"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "рагьизе",
+                "options": [
+                  "market",
+                  "My house is here. / I have a house.",
+                  "thirty",
+                  "to open"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "to open",
+                "bank": [
+                  "рагьизе"
+                ],
+                "answer": [
+                  "рагьизе"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "рагьизе",
+                "answer": [
+                  "рагьизе"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "сверизе",
+                "options": [
+                  "fast, quick",
+                  "to turn around",
+                  "Friday",
+                  "My daughter is here. / I have a daughter."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "to turn around",
+                "bank": [
+                  "сверизе"
+                ],
+                "answer": [
+                  "сверизе"
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "сверизе",
+                "blankedEn": "to ___ around",
+                "answer": "turn",
+                "options": [
+                  "turn",
+                  "sixteen",
+                  "family",
+                  "Saturday"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "бичизе",
+                "options": [
+                  "to sell",
+                  "Sunday",
+                  "My son is here. / I have a son.",
+                  "sixty"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "to sell",
+                "bank": [
+                  "бичизе"
+                ],
+                "answer": [
+                  "бичизе"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "бичизе",
+                "options": [
+                  "fort, castle",
+                  "daughter-in-law",
+                  "bear",
+                  "to sell"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "ине",
+                    "en": "to go"
+                  },
+                  {
+                    "native": "кӏалъазе",
+                    "en": "to speak"
+                  },
+                  {
+                    "native": "хъвазе",
+                    "en": "to write"
+                  },
+                  {
+                    "native": "бичӏчӏизе",
+                    "en": "to understand"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "белъине",
+                    "en": "to cook"
+                  },
+                  {
+                    "native": "малъизе",
+                    "en": "to teach"
+                  },
+                  {
+                    "native": "ургьизе",
+                    "en": "to think"
+                  },
+                  {
+                    "native": "чӏамизе",
+                    "en": "to chew"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "букӏине",
+                    "en": "to be"
+                  },
+                  {
+                    "native": "велъизе",
+                    "en": "to laugh"
+                  },
+                  {
+                    "native": "рагьизе",
+                    "en": "to open"
+                  },
+                  {
+                    "native": "сверизе",
+                    "en": "to turn around"
+                  }
+                ]
+              }
+            ],
+            "titleNative": "ГьаракатцӀаял"
+          },
+          {
+            "id": "av-a2-16",
+            "number": 16,
+            "title": "More Adjectives",
+            "description": "More Adjectives",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "хехаб",
+                "options": [
+                  "fast, quick",
+                  "thirty",
+                  "to laugh",
+                  "to cook"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "fast, quick",
+                "bank": [
+                  "хехаб"
+                ],
+                "answer": [
+                  "хехаб"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "хехаб",
+                "options": [
+                  "seventy",
+                  "judge",
+                  "goat",
+                  "fast, quick"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "бакӏаб",
+                "options": [
+                  "goose",
+                  "to speak",
+                  "heavy",
+                  "family"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "heavy",
+                "bank": [
+                  "бакӏаб"
+                ],
+                "answer": [
+                  "бакӏаб"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "бакӏаб",
+                "answer": [
+                  "бакӏаб"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "гургинаб",
+                "options": [
+                  "cow",
+                  "round",
+                  "My son is here. / I have a son.",
+                  "week"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "round",
+                "bank": [
+                  "гургинаб"
+                ],
+                "answer": [
+                  "гургинаб"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "сахав",
+                "options": [
+                  "healthy",
+                  "teacher, educated man",
+                  "shop",
+                  "house (building)"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "healthy",
+                "bank": [
+                  "сахав"
+                ],
+                "answer": [
+                  "сахав"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "сахав",
+                "options": [
+                  "healthy",
+                  "to open",
+                  "full",
+                  "daughter, girl"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "fill-blank",
+                "native": "сахав",
+                "blankedEn": "___",
+                "answer": "healthy",
+                "options": [
+                  "sleep",
+                  "land",
+                  "healthy",
+                  "masculine"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "гьуиннаб",
+                "options": [
+                  "to go",
+                  "to sell",
+                  "sweet",
+                  "gate"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "sweet",
+                "bank": [
+                  "гьуиннаб"
+                ],
+                "answer": [
+                  "гьуиннаб"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "гьуиннаб",
+                "answer": [
+                  "гьуиннаб"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "беццаб",
+                "options": [
+                  "bear",
+                  "blind",
+                  "house (building)",
+                  "heavy"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "blind",
+                "bank": [
+                  "беццаб"
+                ],
+                "answer": [
+                  "беццаб"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "берцинаб",
+                "options": [
+                  "hero",
+                  "beautiful",
+                  "hare",
+                  "goat"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "beautiful",
+                "bank": [
+                  "берцинаб"
+                ],
+                "answer": [
+                  "берцинаб"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "берцинаб",
+                "options": [
+                  "cat",
+                  "son, boy",
+                  "daughter, girl",
+                  "beautiful"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "цӏураб",
+                "options": [
+                  "full",
+                  "sweet",
+                  "My son is here. / I have a son.",
+                  "ninety"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "full",
+                "bank": [
+                  "цӏураб"
+                ],
+                "answer": [
+                  "цӏураб"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "цӏураб",
+                "answer": [
+                  "цӏураб"
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "цӏураб",
+                "blankedEn": "___",
+                "answer": "full",
+                "options": [
+                  "people",
+                  "yard",
+                  "bull",
+                  "full"
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "хехаб",
+                    "en": "fast, quick"
+                  },
+                  {
+                    "native": "бакӏаб",
+                    "en": "heavy"
+                  },
+                  {
+                    "native": "гургинаб",
+                    "en": "round"
+                  },
+                  {
+                    "native": "сахав",
+                    "en": "healthy"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "гьуиннаб",
+                    "en": "sweet"
+                  },
+                  {
+                    "native": "беццаб",
+                    "en": "blind"
+                  },
+                  {
+                    "native": "берцинаб",
+                    "en": "beautiful"
+                  },
+                  {
+                    "native": "цӏураб",
+                    "en": "full"
+                  }
+                ]
+              }
+            ],
+            "titleNative": "ЦӀияб дурес рагӀаби"
+          },
+          {
+            "id": "av-a2-17",
+            "number": 17,
+            "title": "Grammar: Possession with дир",
+            "description": "Grammar: Possession with дир",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "Дир вас вуго.",
+                "options": [
+                  "market",
+                  "My son is here. / I have a son.",
+                  "yard, courtyard",
+                  "hero"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "My son is here. / I have a son.",
+                "bank": [
+                  "вуго.",
+                  "Дир",
+                  "вас"
+                ],
+                "answer": [
+                  "Дир",
+                  "вас",
+                  "вуго."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Дир вас вуго.",
+                "options": [
+                  "Saturday",
+                  "My son is here. / I have a son.",
+                  "house",
+                  "the people"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "Дир яс йиго.",
+                "options": [
+                  "thirty",
+                  "My daughter is here. / I have a daughter.",
+                  "to speak",
+                  "friend"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "My daughter is here. / I have a daughter.",
+                "bank": [
+                  "Дир",
+                  "яс",
+                  "йиго."
+                ],
+                "answer": [
+                  "Дир",
+                  "яс",
+                  "йиго."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Дир яс йиго.",
+                "answer": [
+                  "Дир",
+                  "яс",
+                  "йиго."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "Дир эмен вуго.",
+                "options": [
+                  "master, craftsman",
+                  "to open",
+                  "hare",
+                  "My father is here."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "My father is here.",
+                "bank": [
+                  "эмен",
+                  "Дир",
+                  "вуго."
+                ],
+                "answer": [
+                  "Дир",
+                  "эмен",
+                  "вуго."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "Дир эбел йиго.",
+                "options": [
+                  "My mother is here.",
+                  "fifty",
+                  "to turn around",
+                  "elephant"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "My mother is here.",
+                "bank": [
+                  "эбел",
+                  "Дир",
+                  "йиго."
+                ],
+                "answer": [
+                  "Дир",
+                  "эбел",
+                  "йиго."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Дир эбел йиго.",
+                "options": [
+                  "My mother is here.",
+                  "town, city",
+                  "country, land",
+                  "blind"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "fill-blank",
+                "native": "Дир эбел йиго.",
+                "blankedEn": "My ___ is here.",
+                "answer": "mother",
+                "options": [
+                  "yard",
+                  "mother",
+                  "plural",
+                  "hear"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "Дир яц йиго.",
+                "options": [
+                  "My sister is here.",
+                  "week",
+                  "elephant",
+                  "pig"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "My sister is here.",
+                "bank": [
+                  "Дир",
+                  "йиго.",
+                  "яц"
+                ],
+                "answer": [
+                  "Дир",
+                  "яц",
+                  "йиго."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Дир яц йиго.",
+                "answer": [
+                  "Дир",
+                  "яц",
+                  "йиго."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "Дир вац вуго.",
+                "options": [
+                  "hero",
+                  "My brother is here.",
+                  "hare",
+                  "heavy"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "My brother is here.",
+                "bank": [
+                  "вуго.",
+                  "вац",
+                  "Дир"
+                ],
+                "answer": [
+                  "Дир",
+                  "вац",
+                  "вуго."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "Дир гьой буго.",
+                "options": [
+                  "forty",
+                  "warrior",
+                  "My father is here.",
+                  "My dog is here. / I have a dog."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "My dog is here. / I have a dog.",
+                "bank": [
+                  "Дир",
+                  "буго.",
+                  "гьой"
+                ],
+                "answer": [
+                  "Дир",
+                  "гьой",
+                  "буго."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Дир гьой буго.",
+                "options": [
+                  "ninety",
+                  "cat",
+                  "My dog is here. / I have a dog.",
+                  "eighty"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "Дир чу буго.",
+                "options": [
+                  "elephant",
+                  "Tuesday",
+                  "My horse is here. / I have a horse.",
+                  "My sister is here."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "My horse is here. / I have a horse.",
+                "bank": [
+                  "буго.",
+                  "Дир",
+                  "чу"
+                ],
+                "answer": [
+                  "Дир",
+                  "чу",
+                  "буго."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Дир чу буго.",
+                "answer": [
+                  "Дир",
+                  "чу",
+                  "буго."
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "Дир чу буго.",
+                "blankedEn": "My horse is here. / I have a ___",
+                "answer": "horse",
+                "options": [
+                  "craftsman",
+                  "trip",
+                  "singular",
+                  "horse"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "Дир рукъ буго.",
+                "options": [
+                  "elephant",
+                  "to turn around",
+                  "My house is here. / I have a house.",
+                  "to chew"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "My house is here. / I have a house.",
+                "bank": [
+                  "буго.",
+                  "рукъ",
+                  "Дир"
+                ],
+                "answer": [
+                  "Дир",
+                  "рукъ",
+                  "буго."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "Дир хъизан буго.",
+                "options": [
+                  "My horse is here. / I have a horse.",
+                  "one thousand",
+                  "eighty",
+                  "My family is here."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "My family is here.",
+                "bank": [
+                  "Дир",
+                  "хъизан",
+                  "буго."
+                ],
+                "answer": [
+                  "Дир",
+                  "хъизан",
+                  "буго."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Дир хъизан буго.",
+                "options": [
+                  "house (building)",
+                  "My house is here. / I have a house.",
+                  "My sister is here.",
+                  "My family is here."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Дир вас вуго.",
+                    "en": "My son is here. / I have a son."
+                  },
+                  {
+                    "native": "Дир яс йиго.",
+                    "en": "My daughter is here. / I have a daughter."
+                  },
+                  {
+                    "native": "Дир эмен вуго.",
+                    "en": "My father is here."
+                  },
+                  {
+                    "native": "Дир эбел йиго.",
+                    "en": "My mother is here."
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Дир яц йиго.",
+                    "en": "My sister is here."
+                  },
+                  {
+                    "native": "Дир вац вуго.",
+                    "en": "My brother is here."
+                  },
+                  {
+                    "native": "Дир гьой буго.",
+                    "en": "My dog is here. / I have a dog."
+                  },
+                  {
+                    "native": "Дир чу буго.",
+                    "en": "My horse is here. / I have a horse."
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Грамматика: дир бугелъул",
+            "topicId": "a2-possession-dir"
           }
         ]
       }
