@@ -1,0 +1,115 @@
+{
+  "level": "b1plus",
+  "grammarTopics": {
+    "b1plus-yesno-particle": {
+      "title": "Yes/No Questions: -й/-и",
+      "pattern": "[tensed verb] + -й (after a vowel) / -и (after a consonant)",
+      "explanation": "Chechen yes/no questions add the particle -й (after a vowel-final verb, e.g. the copula) or -и (after a consonant) directly onto the tensed verb, along with a rise in tone: воьду (I go) becomes воьдий (do you/I go?), ву (is) becomes вуй (is he/she?). WH-questions never take this particle -- the WH-word alone is enough to mark the question.",
+      "fact": "This single suffix is doing exactly the job that English does with word order alone (\"you go\" -> \"do you go\") -- Chechen keeps the same subject-verb order in both the statement and the question, and lets one small suffix carry the entire distinction.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Хьо балха автобусаца воьдий?",
+          "en": "Do you go to work by bus?"
+        },
+        {
+          "sp": "B",
+          "native": "ХӀа-хӀаъ, со балха машенаца воьду.",
+          "en": "No, I go to work by car."
+        }
+      ]
+    },
+    "b1plus-wh-quantity": {
+      "title": "WH-Questions of Quantity: маса & мел",
+      "pattern": "маса + [noun] (how many ~) · мел + [noun] (how much ~)",
+      "explanation": "Маса asks about a countable quantity: маса дешархо ву кху чохь? (how many students are in this room?). Мел asks about an uncountable amount: мел ахча ду дешархочуьнгахь? (how much money does the student have?). Both stay in place where the answer would go, like other Chechen WH-words, rather than moving to the front of the sentence.",
+      "fact": "Chechen has a whole family of distinct WH-words for \"how\": муха (how, manner), маса (how many, count), мел (how much, amount), and масазза (how many times, frequency) -- English collapses several of these into one word, but Chechen keeps them grammatically separate.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Маса дешархо ву кху чохь?",
+          "en": "How many students are in this room?"
+        },
+        {
+          "sp": "B",
+          "native": "Кху чохь итт дешархо ву.",
+          "en": "In this room there are 10 students."
+        }
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "number": 44,
+      "title": "Grammar: Yes/No Questions -й/-и",
+      "titleNative": "Грамматика: хаттаран мукъам",
+      "topicId": "b1plus-yesno-particle",
+      "items": [
+        {
+          "ce": "Хьо балха автобусаца воьдий?",
+          "en": "Do you go to work by bus?"
+        },
+        {
+          "ce": "ХӀа-хӀаъ, со балха машенаца воьду.",
+          "en": "No, I go to work by car."
+        },
+        {
+          "ce": "Мурад школехь доьшуш вуй?",
+          "en": "Does Murad go to (study) school?"
+        },
+        {
+          "ce": "ХӀаъ, иза школехь доьшуш ву.",
+          "en": "Yes, he studies at school."
+        },
+        {
+          "ce": "Хьо дика вуй?",
+          "en": "Are you well?"
+        },
+        {
+          "ce": "ХӀаъ, со дика ву.",
+          "en": "Yes, I am well."
+        },
+        {
+          "ce": "Иза цӀахь вуй?",
+          "en": "Is he at home?"
+        },
+        {
+          "ce": "ХӀаъ, иза цӀахь ву.",
+          "en": "Yes, he is at home."
+        },
+        {
+          "ce": "Хьан да дика вуй?",
+          "en": "Is your father well?"
+        },
+        {
+          "ce": "ХӀаъ, сан да дика ву.",
+          "en": "Yes, my father is well."
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "title": "Grammar: маса & мел",
+      "titleNative": "Грамматика: маса, мел",
+      "topicId": "b1plus-wh-quantity",
+      "items": [
+        {
+          "ce": "Маса дешархо ву кху чохь?",
+          "en": "How many students are in this room?"
+        },
+        {
+          "ce": "Кху чохь итт дешархо ву.",
+          "en": "In this room there are 10 students."
+        },
+        {
+          "ce": "Мел ахча ду дешархочуьнгахь?",
+          "en": "How much money does the student have?"
+        },
+        {
+          "ce": "Цуьнгахь дукха ахча ду.",
+          "en": "He has a lot of money."
+        }
+      ]
+    }
+  ]
+}
