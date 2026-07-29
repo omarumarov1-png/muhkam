@@ -16,6 +16,7 @@
     { id: "chinese", file: "data/courses-chinese.json", label: "Chinese (Pinyin) — Zhōngwén", flag: "Zhōngwén" },
     { id: "uzbek", file: "data/courses-uzbek.json", audioManifest: "data/audio-uzbek/manifest.json", label: "Uzbek — Oʻzbekcha", flag: "Oʻzbekcha" },
     { id: "chechen", file: "data/courses-chechen.json", audioManifest: "data/audio-chechen/manifest.json", label: "Chechen — Нохчийн", flag: "Нохчийн" },
+    { id: "avar", file: "data/courses-avar.json", audioManifest: "data/audio-avar/manifest.json", label: "Avar — МагӀарул мацӏ", flag: "МагӀарул мацӏ" },
   ];
 
   // iOS Safari keeps a tapped <button> focused, which makes the

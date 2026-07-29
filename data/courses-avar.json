@@ -1,0 +1,3882 @@
+{
+  "course": {
+    "id": "avar",
+    "title": "Avar, Start to Fluent",
+    "subtitle": "Modern Avar from absolute beginner through fluent, everyday command -- real sentences, grammar, and conversational practice",
+    "dir": "ltr",
+    "lang": "av",
+    "languageName": "Avar",
+    "fontNative": "'Noto Sans', 'Inter', sans-serif",
+    "flag": "МагӀарул мацӏ",
+    "heroEyebrow": "МагӀарул мацӏ · A1 → C2",
+    "heroNative": "МагӀарул мацӏ",
+    "heroLedeSuffix": "Real sentences from lesson one, built the same way as this app's other courses.",
+    "uiStrings": {},
+    "grammarTopics": {
+      "a1-copula": {
+        "title": "The Noun-Class Copula: вуго / йиго / буго / руго",
+        "pattern": "[subject, bare form] + вуго (masculine) / йиго (feminine) / буго (default/non-human) / руго (plural)",
+        "explanation": "Avar's \"to be\"/\"there is\" doesn't have one fixed shape -- like its sister Northeast Caucasian languages, it changes to agree with the grammatical class of its subject. A masculine human subject takes вуго (Чи вуго -- \"there is a man\"), a feminine human subject takes йиго (Чӏужу йиго -- \"there is a woman\"), and most other subjects -- objects, animals, abstract things -- take буго (Лъим буго -- \"there is water\"). Plural subjects take руго (Нилъ руго -- \"we are [here]\").",
+        "fact": "This в-/й-/б-/р- agreement pattern is one of the defining features of the Northeast Caucasian family Avar belongs to, and it doesn't stop at this one verb -- the same class markers reappear as prefixes across many other verbs, adjectives, and even some postpositions throughout the language. The masculine/feminine/default three-way split (вуго/йиго/буго) is well documented in academic descriptions; the plural form руго is corroborated independently but with a narrower confirmed example base so far, so treat it as attested-but-still-being-verified, the same caution applied to a comparable uncertain form early in this app's Chechen course.",
+        "dialogue": [
+          {
+            "sp": "A",
+            "native": "Щиб хӀал бугеб?",
+            "en": "How are you? (lit. what condition is-there)"
+          },
+          {
+            "sp": "B",
+            "native": "Лъикӏ буго, баркала!",
+            "en": "It's good, thank you!"
+          }
+        ]
+      }
+    },
+    "levels": [
+      {
+        "id": "a1",
+        "cefr": "A1",
+        "label": "Foundations",
+        "labelNative": "Цо",
+        "lessons": [
+          {
+            "id": "av-a1-1",
+            "number": 1,
+            "title": "Greetings & Basic Phrases",
+            "description": "Greetings & Basic Phrases",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "Салам гӏалейкум!",
+                "options": [
+                  "rain",
+                  "Hello!",
+                  "to play",
+                  "road"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "Hello!",
+                "bank": [
+                  "Салам",
+                  "гӏалейкум!"
+                ],
+                "answer": [
+                  "Салам",
+                  "гӏалейкум!"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Салам гӏалейкум!",
+                "options": [
+                  "one",
+                  "Hello!",
+                  "two",
+                  "nine"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "Ва гӏалейкум салам!",
+                "options": [
+                  "Hello! (response)",
+                  "wind",
+                  "long",
+                  "nineteen"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "Hello! (response)",
+                "bank": [
+                  "салам!",
+                  "гӏалейкум",
+                  "Ва"
+                ],
+                "answer": [
+                  "Ва",
+                  "гӏалейкум",
+                  "салам!"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Ва гӏалейкум салам!",
+                "answer": [
+                  "Ва",
+                  "гӏалейкум",
+                  "салам!"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "Радал лъикӏ!",
+                "options": [
+                  "There is a dog.",
+                  "where",
+                  "to play",
+                  "Good morning!"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "Good morning!",
+                "bank": [
+                  "Радал",
+                  "лъикӏ!"
+                ],
+                "answer": [
+                  "Радал",
+                  "лъикӏ!"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "Къо-мех лъикӏ!",
+                "options": [
+                  "white",
+                  "Good day!",
+                  "seventeen",
+                  "who (feminine)"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "Good day!",
+                "bank": [
+                  "Къо-мех",
+                  "лъикӏ!"
+                ],
+                "answer": [
+                  "Къо-мех",
+                  "лъикӏ!"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Къо-мех лъикӏ!",
+                "options": [
+                  "Good day!",
+                  "long",
+                  "to walk",
+                  "bad"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "fill-blank",
+                "native": "Къо-мех лъикӏ!",
+                "blankedEn": "___ day!",
+                "answer": "Good",
+                "options": [
+                  "Good",
+                  "road",
+                  "yellow",
+                  "rain"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "Сордо лъикӏ!",
+                "options": [
+                  "to count",
+                  "Good night!",
+                  "eleven",
+                  "I"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "Good night!",
+                "bank": [
+                  "Сордо",
+                  "лъикӏ!"
+                ],
+                "answer": [
+                  "Сордо",
+                  "лъикӏ!"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Сордо лъикӏ!",
+                "answer": [
+                  "Сордо",
+                  "лъикӏ!"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "Баркала!",
+                "options": [
+                  "how",
+                  "Thank you!",
+                  "eighteen",
+                  "You are (here). (female addressee)"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "Thank you!",
+                "bank": [
+                  "Баркала!"
+                ],
+                "answer": [
+                  "Баркала!"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "ТӀасалъугьа.",
+                "options": [
+                  "bird",
+                  "The child is (here). (male child)",
+                  "Have a good trip!",
+                  "Sorry."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "Sorry.",
+                "bank": [
+                  "ТӀасалъугьа."
+                ],
+                "answer": [
+                  "ТӀасалъугьа."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "ТӀасалъугьа.",
+                "options": [
+                  "Sorry.",
+                  "bad",
+                  "green",
+                  "Hello!"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "Бегьулеб батани...",
+                "options": [
+                  "Please...",
+                  "black",
+                  "to see",
+                  "twelve"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "Please...",
+                "bank": [
+                  "батани...",
+                  "Бегьулеб"
+                ],
+                "answer": [
+                  "Бегьулеб",
+                  "батани..."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Бегьулеб батани...",
+                "answer": [
+                  "Бегьулеб",
+                  "батани..."
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "Бегьулеб батани...",
+                "blankedEn": "___",
+                "answer": "Please",
+                "options": [
+                  "land",
+                  "fire",
+                  "masculine",
+                  "Please"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "У.",
+                "options": [
+                  "road",
+                  "Yes.",
+                  "we (inclusive)",
+                  "eight"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "Yes.",
+                "bank": [
+                  "У."
+                ],
+                "answer": [
+                  "У."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "ГьечӀо.",
+                "options": [
+                  "No.",
+                  "water",
+                  "three",
+                  "twenty"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "No.",
+                "bank": [
+                  "ГьечӀо."
+                ],
+                "answer": [
+                  "ГьечӀо."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "ГьечӀо.",
+                "options": [
+                  "they",
+                  "two",
+                  "No.",
+                  "one"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "Щиб хӀал бугеб?",
+                "options": [
+                  "to walk",
+                  "four",
+                  "How are you?",
+                  "Good night!"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "How are you?",
+                "bank": [
+                  "хӀал",
+                  "Щиб",
+                  "бугеб?"
+                ],
+                "answer": [
+                  "Щиб",
+                  "хӀал",
+                  "бугеб?"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Щиб хӀал бугеб?",
+                "answer": [
+                  "Щиб",
+                  "хӀал",
+                  "бугеб?"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "Дуда цӀар щиб?",
+                "options": [
+                  "bad",
+                  "to drink",
+                  "ten",
+                  "What's your name?"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "What's your name?",
+                "bank": [
+                  "щиб?",
+                  "Дуда",
+                  "цӀар"
+                ],
+                "answer": [
+                  "Дуда",
+                  "цӀар",
+                  "щиб?"
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "Дуда цӀар щиб?",
+                "blankedEn": "___ your name?",
+                "answer": "What's",
+                "options": [
+                  "fourteen",
+                  "Please",
+                  "What's",
+                  "morning"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "Нух битӀаги!",
+                "options": [
+                  "red",
+                  "You are (here). (female addressee)",
+                  "Have a good trip!",
+                  "Hello! (response)"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "Have a good trip!",
+                "bank": [
+                  "Нух",
+                  "битӀаги!"
+                ],
+                "answer": [
+                  "Нух",
+                  "битӀаги!"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Нух битӀаги!",
+                "options": [
+                  "You (plural) are (here).",
+                  "Have a good trip!",
+                  "There is a man. / The man is (here).",
+                  "to know"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Салам гӏалейкум!",
+                    "en": "Hello!"
+                  },
+                  {
+                    "native": "Ва гӏалейкум салам!",
+                    "en": "Hello! (response)"
+                  },
+                  {
+                    "native": "Радал лъикӏ!",
+                    "en": "Good morning!"
+                  },
+                  {
+                    "native": "Къо-мех лъикӏ!",
+                    "en": "Good day!"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Сордо лъикӏ!",
+                    "en": "Good night!"
+                  },
+                  {
+                    "native": "Баркала!",
+                    "en": "Thank you!"
+                  },
+                  {
+                    "native": "ТӀасалъугьа.",
+                    "en": "Sorry."
+                  },
+                  {
+                    "native": "Бегьулеб батани...",
+                    "en": "Please..."
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "У.",
+                    "en": "Yes."
+                  },
+                  {
+                    "native": "ГьечӀо.",
+                    "en": "No."
+                  },
+                  {
+                    "native": "Щиб хӀал бугеб?",
+                    "en": "How are you?"
+                  },
+                  {
+                    "native": "Дуда цӀар щиб?",
+                    "en": "What's your name?"
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Салам гӏалейкум"
+          },
+          {
+            "id": "av-a1-2",
+            "number": 2,
+            "title": "Numbers 1-20",
+            "description": "Numbers 1-20",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "цо",
+                "options": [
+                  "ten",
+                  "to sleep",
+                  "one",
+                  "twenty"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "one",
+                "bank": [
+                  "цо"
+                ],
+                "answer": [
+                  "цо"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "цо",
+                "options": [
+                  "woman",
+                  "No.",
+                  "big",
+                  "one"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "кӏиго",
+                "options": [
+                  "two",
+                  "white",
+                  "new",
+                  "to come"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "two",
+                "bank": [
+                  "кӏиго"
+                ],
+                "answer": [
+                  "кӏиго"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "кӏиго",
+                "answer": [
+                  "кӏиго"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "лъабго",
+                "options": [
+                  "three",
+                  "nine",
+                  "new",
+                  "There is a dog."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "three",
+                "bank": [
+                  "лъабго"
+                ],
+                "answer": [
+                  "лъабго"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "ункъго",
+                "options": [
+                  "Yes.",
+                  "We are (here).",
+                  "four",
+                  "You are (here). (female addressee)"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "four",
+                "bank": [
+                  "ункъго"
+                ],
+                "answer": [
+                  "ункъго"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "ункъго",
+                "options": [
+                  "four",
+                  "Yes.",
+                  "sixteen",
+                  "eighteen"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "fill-blank",
+                "native": "ункъго",
+                "blankedEn": "___",
+                "answer": "four",
+                "options": [
+                  "count",
+                  "plural",
+                  "road",
+                  "four"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "щуго",
+                "options": [
+                  "five",
+                  "sixteen",
+                  "to sleep",
+                  "they"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "five",
+                "bank": [
+                  "щуго"
+                ],
+                "answer": [
+                  "щуго"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "щуго",
+                "answer": [
+                  "щуго"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "анлъго",
+                "options": [
+                  "What's your name?",
+                  "six",
+                  "You are (here). (female addressee)",
+                  "we (inclusive)"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "six",
+                "bank": [
+                  "анлъго"
+                ],
+                "answer": [
+                  "анлъго"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "анкьго",
+                "options": [
+                  "two",
+                  "yellow",
+                  "long",
+                  "seven"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "seven",
+                "bank": [
+                  "анкьго"
+                ],
+                "answer": [
+                  "анкьго"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "анкьго",
+                "options": [
+                  "There is a dog.",
+                  "Please...",
+                  "fifteen",
+                  "seven"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "микьго",
+                "options": [
+                  "There is water.",
+                  "man / person",
+                  "eight",
+                  "twelve"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "eight",
+                "bank": [
+                  "микьго"
+                ],
+                "answer": [
+                  "микьго"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "микьго",
+                "answer": [
+                  "микьго"
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "микьго",
+                "blankedEn": "___",
+                "answer": "eight",
+                "options": [
+                  "eight",
+                  "name",
+                  "addressee",
+                  "eighteen"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "ичӏго",
+                "options": [
+                  "eleven",
+                  "to see",
+                  "red",
+                  "nine"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "nine",
+                "bank": [
+                  "ичӏго"
+                ],
+                "answer": [
+                  "ичӏго"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "анцӏго",
+                "options": [
+                  "who (masculine)",
+                  "ten",
+                  "eleven",
+                  "road"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "ten",
+                "bank": [
+                  "анцӏго"
+                ],
+                "answer": [
+                  "анцӏго"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "анцӏго",
+                "options": [
+                  "to play",
+                  "ten",
+                  "how",
+                  "Good night!"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "анцӏила цо",
+                "options": [
+                  "Have a good trip!",
+                  "who (feminine)",
+                  "to know",
+                  "eleven"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "eleven",
+                "bank": [
+                  "цо",
+                  "анцӏила"
+                ],
+                "answer": [
+                  "анцӏила",
+                  "цо"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "анцӏила цо",
+                "answer": [
+                  "анцӏила",
+                  "цо"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "анцӏила кӏиго",
+                "options": [
+                  "mother",
+                  "one",
+                  "twelve",
+                  "to drink"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "twelve",
+                "bank": [
+                  "кӏиго",
+                  "анцӏила"
+                ],
+                "answer": [
+                  "анцӏила",
+                  "кӏиго"
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "анцӏила кӏиго",
+                "blankedEn": "___",
+                "answer": "twelve",
+                "options": [
+                  "twelve",
+                  "addressee",
+                  "small",
+                  "wind"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "анцӏила лъабго",
+                "options": [
+                  "snow",
+                  "thirteen",
+                  "Have a good trip!",
+                  "wife"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "thirteen",
+                "bank": [
+                  "лъабго",
+                  "анцӏила"
+                ],
+                "answer": [
+                  "анцӏила",
+                  "лъабго"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "анцӏила лъабго",
+                "options": [
+                  "Good night!",
+                  "thirteen",
+                  "to count",
+                  "You (plural) are (here)."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "анцӏила ункъго",
+                "options": [
+                  "three",
+                  "eleven",
+                  "long",
+                  "fourteen"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "fourteen",
+                "bank": [
+                  "ункъго",
+                  "анцӏила"
+                ],
+                "answer": [
+                  "анцӏила",
+                  "ункъго"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "анцӏила ункъго",
+                "answer": [
+                  "анцӏила",
+                  "ункъго"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "анцӏила щуго",
+                "options": [
+                  "twenty",
+                  "You are (here). (female addressee)",
+                  "to sleep",
+                  "fifteen"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "fifteen",
+                "bank": [
+                  "анцӏила",
+                  "щуго"
+                ],
+                "answer": [
+                  "анцӏила",
+                  "щуго"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "анцӏила анлъго",
+                "options": [
+                  "big",
+                  "ten",
+                  "seven",
+                  "sixteen"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "sixteen",
+                "bank": [
+                  "анлъго",
+                  "анцӏила"
+                ],
+                "answer": [
+                  "анцӏила",
+                  "анлъго"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "анцӏила анлъго",
+                "options": [
+                  "fish",
+                  "Good day!",
+                  "sixteen",
+                  "who (masculine)"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "fill-blank",
+                "native": "анцӏила анлъго",
+                "blankedEn": "___",
+                "answer": "sixteen",
+                "options": [
+                  "sixteen",
+                  "nineteen",
+                  "male",
+                  "adult"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "анцӏила анкьго",
+                "options": [
+                  "eighteen",
+                  "seventeen",
+                  "we (inclusive)",
+                  "five"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "seventeen",
+                "bank": [
+                  "анцӏила",
+                  "анкьго"
+                ],
+                "answer": [
+                  "анцӏила",
+                  "анкьго"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "анцӏила анкьго",
+                "answer": [
+                  "анцӏила",
+                  "анкьго"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "анцӏила микьго",
+                "options": [
+                  "to sleep",
+                  "Sorry.",
+                  "sun",
+                  "eighteen"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "eighteen",
+                "bank": [
+                  "анцӏила",
+                  "микьго"
+                ],
+                "answer": [
+                  "анцӏила",
+                  "микьго"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "анцӏила ичӏго",
+                "options": [
+                  "husband",
+                  "fifteen",
+                  "eighteen",
+                  "nineteen"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "nineteen",
+                "bank": [
+                  "анцӏила",
+                  "ичӏго"
+                ],
+                "answer": [
+                  "анцӏила",
+                  "ичӏго"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "анцӏила ичӏго",
+                "options": [
+                  "short",
+                  "ten",
+                  "nineteen",
+                  "Hello! (response)"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "къого",
+                "options": [
+                  "twelve",
+                  "to say",
+                  "fourteen",
+                  "twenty"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "twenty",
+                "bank": [
+                  "къого"
+                ],
+                "answer": [
+                  "къого"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "къого",
+                "answer": [
+                  "къого"
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "къого",
+                "blankedEn": "___",
+                "answer": "twenty",
+                "options": [
+                  "person",
+                  "woman",
+                  "twenty",
+                  "Sorry"
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "цо",
+                    "en": "one"
+                  },
+                  {
+                    "native": "кӏиго",
+                    "en": "two"
+                  },
+                  {
+                    "native": "лъабго",
+                    "en": "three"
+                  },
+                  {
+                    "native": "ункъго",
+                    "en": "four"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "щуго",
+                    "en": "five"
+                  },
+                  {
+                    "native": "анлъго",
+                    "en": "six"
+                  },
+                  {
+                    "native": "анкьго",
+                    "en": "seven"
+                  },
+                  {
+                    "native": "микьго",
+                    "en": "eight"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "ичӏго",
+                    "en": "nine"
+                  },
+                  {
+                    "native": "анцӏго",
+                    "en": "ten"
+                  },
+                  {
+                    "native": "анцӏила цо",
+                    "en": "eleven"
+                  },
+                  {
+                    "native": "анцӏила кӏиго",
+                    "en": "twelve"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "анцӏила лъабго",
+                    "en": "thirteen"
+                  },
+                  {
+                    "native": "анцӏила ункъго",
+                    "en": "fourteen"
+                  },
+                  {
+                    "native": "анцӏила щуго",
+                    "en": "fifteen"
+                  },
+                  {
+                    "native": "анцӏила анлъго",
+                    "en": "sixteen"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "анцӏила анкьго",
+                    "en": "seventeen"
+                  },
+                  {
+                    "native": "анцӏила микьго",
+                    "en": "eighteen"
+                  },
+                  {
+                    "native": "анцӏила ичӏго",
+                    "en": "nineteen"
+                  },
+                  {
+                    "native": "къого",
+                    "en": "twenty"
+                  }
+                ]
+              }
+            ],
+            "titleNative": "РикӀкӀен"
+          },
+          {
+            "id": "av-a1-3",
+            "number": 3,
+            "title": "Family & People",
+            "description": "Family & People",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "эбел",
+                "options": [
+                  "you (singular)",
+                  "sixteen",
+                  "We are (here).",
+                  "mother"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "mother",
+                "bank": [
+                  "эбел"
+                ],
+                "answer": [
+                  "эбел"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "эбел",
+                "options": [
+                  "mother",
+                  "How are you?",
+                  "There is water.",
+                  "yellow"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "эмен",
+                "options": [
+                  "Good day!",
+                  "husband",
+                  "father",
+                  "eleven"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "father",
+                "bank": [
+                  "эмен"
+                ],
+                "answer": [
+                  "эмен"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "эмен",
+                "answer": [
+                  "эмен"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "лъади",
+                "options": [
+                  "I am (here). (male speaker)",
+                  "wife",
+                  "rain",
+                  "Good night!"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "wife",
+                "bank": [
+                  "лъади"
+                ],
+                "answer": [
+                  "лъади"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "рос",
+                "options": [
+                  "when",
+                  "husband",
+                  "earth / land",
+                  "Please..."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "husband",
+                "bank": [
+                  "рос"
+                ],
+                "answer": [
+                  "рос"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "рос",
+                "options": [
+                  "to see",
+                  "four",
+                  "long",
+                  "husband"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "fill-blank",
+                "native": "рос",
+                "blankedEn": "___",
+                "answer": "husband",
+                "options": [
+                  "five",
+                  "husband",
+                  "know",
+                  "small"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "лъимер",
+                "options": [
+                  "There is water.",
+                  "child",
+                  "sun",
+                  "three"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "child",
+                "bank": [
+                  "лъимер"
+                ],
+                "answer": [
+                  "лъимер"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "лъимер",
+                "answer": [
+                  "лъимер"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "чи",
+                "options": [
+                  "to play",
+                  "You are (here). (female addressee)",
+                  "The sun is out.",
+                  "man / person"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "man / person",
+                "bank": [
+                  "чи"
+                ],
+                "answer": [
+                  "чи"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "бихьинчи",
+                "options": [
+                  "man (adult male)",
+                  "you (singular)",
+                  "green",
+                  "to count"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "man (adult male)",
+                "bank": [
+                  "бихьинчи"
+                ],
+                "answer": [
+                  "бихьинчи"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "бихьинчи",
+                "options": [
+                  "who (feminine)",
+                  "to walk",
+                  "man (adult male)",
+                  "fish"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "чӏужу",
+                "options": [
+                  "woman",
+                  "water",
+                  "Good morning!",
+                  "fire"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "woman",
+                "bank": [
+                  "чӏужу"
+                ],
+                "answer": [
+                  "чӏужу"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "чӏужу",
+                "answer": [
+                  "чӏужу"
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "чӏужу",
+                "blankedEn": "___",
+                "answer": "woman",
+                "options": [
+                  "woman",
+                  "mother",
+                  "Hello",
+                  "fish"
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "эбел",
+                    "en": "mother"
+                  },
+                  {
+                    "native": "эмен",
+                    "en": "father"
+                  },
+                  {
+                    "native": "лъади",
+                    "en": "wife"
+                  },
+                  {
+                    "native": "рос",
+                    "en": "husband"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "лъимер",
+                    "en": "child"
+                  },
+                  {
+                    "native": "чи",
+                    "en": "man / person"
+                  },
+                  {
+                    "native": "бихьинчи",
+                    "en": "man (adult male)"
+                  },
+                  {
+                    "native": "чӏужу",
+                    "en": "woman"
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Тухум"
+          },
+          {
+            "id": "av-a1-4",
+            "number": 4,
+            "title": "Nature, Animals & Weather",
+            "description": "Nature, Animals & Weather",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "бакъ",
+                "options": [
+                  "sun",
+                  "man / person",
+                  "fifteen",
+                  "What's your name?"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "sun",
+                "bank": [
+                  "бакъ"
+                ],
+                "answer": [
+                  "бакъ"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "бакъ",
+                "options": [
+                  "sun",
+                  "five",
+                  "woman",
+                  "There is water."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "моцӏ",
+                "options": [
+                  "seven",
+                  "moon",
+                  "small",
+                  "No."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "moon",
+                "bank": [
+                  "моцӏ"
+                ],
+                "answer": [
+                  "моцӏ"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "моцӏ",
+                "answer": [
+                  "моцӏ"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "цӏва",
+                "options": [
+                  "wind",
+                  "star",
+                  "twelve",
+                  "how"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "star",
+                "bank": [
+                  "цӏва"
+                ],
+                "answer": [
+                  "цӏва"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "лъим",
+                "options": [
+                  "water",
+                  "nineteen",
+                  "small",
+                  "fish"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "water",
+                "bank": [
+                  "лъим"
+                ],
+                "answer": [
+                  "лъим"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "лъим",
+                "options": [
+                  "water",
+                  "woman",
+                  "to eat",
+                  "wife"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "fill-blank",
+                "native": "лъим",
+                "blankedEn": "___",
+                "answer": "water",
+                "options": [
+                  "husband",
+                  "addressee",
+                  "water",
+                  "fourteen"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "цӏад",
+                "options": [
+                  "four",
+                  "yellow",
+                  "sky",
+                  "rain"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "rain",
+                "bank": [
+                  "цӏад"
+                ],
+                "answer": [
+                  "цӏад"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "цӏад",
+                "answer": [
+                  "цӏад"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "гӏазу",
+                "options": [
+                  "you (singular)",
+                  "How are you?",
+                  "black",
+                  "snow"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "snow",
+                "bank": [
+                  "гӏазу"
+                ],
+                "answer": [
+                  "гӏазу"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "цӏа",
+                "options": [
+                  "fire",
+                  "Thank you!",
+                  "water",
+                  "man (adult male)"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "fire",
+                "bank": [
+                  "цӏа"
+                ],
+                "answer": [
+                  "цӏа"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "цӏа",
+                "options": [
+                  "sixteen",
+                  "eight",
+                  "how",
+                  "fire"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "зоб",
+                "options": [
+                  "you (plural)",
+                  "Good morning!",
+                  "water",
+                  "sky"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "sky",
+                "bank": [
+                  "зоб"
+                ],
+                "answer": [
+                  "зоб"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "зоб",
+                "answer": [
+                  "зоб"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "гьури",
+                "options": [
+                  "sixteen",
+                  "wind",
+                  "they",
+                  "how"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "wind",
+                "bank": [
+                  "гьури"
+                ],
+                "answer": [
+                  "гьури"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "ракь",
+                "options": [
+                  "earth / land",
+                  "to eat",
+                  "husband",
+                  "to sleep"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "earth / land",
+                "bank": [
+                  "ракь"
+                ],
+                "answer": [
+                  "ракь"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "ракь",
+                "options": [
+                  "There is a woman. / The woman is (here).",
+                  "Hello!",
+                  "earth / land",
+                  "red"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "нух",
+                "options": [
+                  "There is water.",
+                  "star",
+                  "to give",
+                  "road"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "road",
+                "bank": [
+                  "нух"
+                ],
+                "answer": [
+                  "нух"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "нух",
+                "answer": [
+                  "нух"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "гьой",
+                "options": [
+                  "when",
+                  "bird",
+                  "dog",
+                  "Good morning!"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "dog",
+                "bank": [
+                  "гьой"
+                ],
+                "answer": [
+                  "гьой"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "ччугӏа",
+                "options": [
+                  "fish",
+                  "Hello! (response)",
+                  "Thank you!",
+                  "bad"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "fish",
+                "bank": [
+                  "ччугӏа"
+                ],
+                "answer": [
+                  "ччугӏа"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "ччугӏа",
+                "options": [
+                  "fish",
+                  "earth / land",
+                  "good",
+                  "to eat"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "хӏинчӏ",
+                "options": [
+                  "how",
+                  "bird",
+                  "father",
+                  "thirteen"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "bird",
+                "bank": [
+                  "хӏинчӏ"
+                ],
+                "answer": [
+                  "хӏинчӏ"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "хӏинчӏ",
+                "answer": [
+                  "хӏинчӏ"
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "бакъ",
+                    "en": "sun"
+                  },
+                  {
+                    "native": "моцӏ",
+                    "en": "moon"
+                  },
+                  {
+                    "native": "цӏва",
+                    "en": "star"
+                  },
+                  {
+                    "native": "лъим",
+                    "en": "water"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "цӏад",
+                    "en": "rain"
+                  },
+                  {
+                    "native": "гӏазу",
+                    "en": "snow"
+                  },
+                  {
+                    "native": "цӏа",
+                    "en": "fire"
+                  },
+                  {
+                    "native": "зоб",
+                    "en": "sky"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "гьури",
+                    "en": "wind"
+                  },
+                  {
+                    "native": "ракь",
+                    "en": "earth / land"
+                  },
+                  {
+                    "native": "нух",
+                    "en": "road"
+                  },
+                  {
+                    "native": "гьой",
+                    "en": "dog"
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Дунял"
+          },
+          {
+            "id": "av-a1-5",
+            "number": 5,
+            "title": "Colors & Common Adjectives",
+            "description": "Colors & Common Adjectives",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "багӏараб",
+                "options": [
+                  "long",
+                  "I",
+                  "twenty",
+                  "red"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "red",
+                "bank": [
+                  "багӏараб"
+                ],
+                "answer": [
+                  "багӏараб"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "багӏараб",
+                "options": [
+                  "two",
+                  "small",
+                  "to say",
+                  "red"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "гӏурччинаб",
+                "options": [
+                  "three",
+                  "green",
+                  "I",
+                  "wind"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "green",
+                "bank": [
+                  "гӏурччинаб"
+                ],
+                "answer": [
+                  "гӏурччинаб"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "гӏурччинаб",
+                "answer": [
+                  "гӏурччинаб"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "тӏогьилаб",
+                "options": [
+                  "I",
+                  "to say",
+                  "fire",
+                  "yellow"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "yellow",
+                "bank": [
+                  "тӏогьилаб"
+                ],
+                "answer": [
+                  "тӏогьилаб"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "хъахӏаб",
+                "options": [
+                  "short",
+                  "two",
+                  "white",
+                  "star"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "white",
+                "bank": [
+                  "хъахӏаб"
+                ],
+                "answer": [
+                  "хъахӏаб"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "хъахӏаб",
+                "options": [
+                  "seventeen",
+                  "white",
+                  "twelve",
+                  "We are (here)."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "fill-blank",
+                "native": "хъахӏаб",
+                "blankedEn": "___",
+                "answer": "white",
+                "options": [
+                  "white",
+                  "exclusive",
+                  "hear",
+                  "five"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "чӏегӏераб",
+                "options": [
+                  "Hello!",
+                  "white",
+                  "yellow",
+                  "black"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "black",
+                "bank": [
+                  "чӏегӏераб"
+                ],
+                "answer": [
+                  "чӏегӏераб"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "чӏегӏераб",
+                "answer": [
+                  "чӏегӏераб"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "лъикӏаб",
+                "options": [
+                  "to sleep",
+                  "good",
+                  "How are you?",
+                  "wife"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "good",
+                "bank": [
+                  "лъикӏаб"
+                ],
+                "answer": [
+                  "лъикӏаб"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "квешаб",
+                "options": [
+                  "they",
+                  "bird",
+                  "bad",
+                  "Please..."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "bad",
+                "bank": [
+                  "квешаб"
+                ],
+                "answer": [
+                  "квешаб"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "квешаб",
+                "options": [
+                  "who (masculine)",
+                  "one",
+                  "wind",
+                  "bad"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "кӏудияб",
+                "options": [
+                  "big",
+                  "snow",
+                  "I am (here). (male speaker)",
+                  "fish"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "big",
+                "bank": [
+                  "кӏудияб"
+                ],
+                "answer": [
+                  "кӏудияб"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "кӏудияб",
+                "answer": [
+                  "кӏудияб"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "гьитӏинаб",
+                "options": [
+                  "small",
+                  "twelve",
+                  "You are (here). (female addressee)",
+                  "husband"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "small",
+                "bank": [
+                  "гьитӏинаб"
+                ],
+                "answer": [
+                  "гьитӏинаб"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "халатаб",
+                "options": [
+                  "eleven",
+                  "to say",
+                  "long",
+                  "bad"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "long",
+                "bank": [
+                  "халатаб"
+                ],
+                "answer": [
+                  "халатаб"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "халатаб",
+                "options": [
+                  "man / person",
+                  "There is a man. / The man is (here).",
+                  "father",
+                  "long"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "къокъаб",
+                "options": [
+                  "who (masculine)",
+                  "short",
+                  "snow",
+                  "to sleep"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "short",
+                "bank": [
+                  "къокъаб"
+                ],
+                "answer": [
+                  "къокъаб"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "къокъаб",
+                "answer": [
+                  "къокъаб"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "цӏияб",
+                "options": [
+                  "new",
+                  "earth / land",
+                  "moon",
+                  "dog"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "new",
+                "bank": [
+                  "цӏияб"
+                ],
+                "answer": [
+                  "цӏияб"
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "багӏараб",
+                    "en": "red"
+                  },
+                  {
+                    "native": "гӏурччинаб",
+                    "en": "green"
+                  },
+                  {
+                    "native": "тӏогьилаб",
+                    "en": "yellow"
+                  },
+                  {
+                    "native": "хъахӏаб",
+                    "en": "white"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "чӏегӏераб",
+                    "en": "black"
+                  },
+                  {
+                    "native": "лъикӏаб",
+                    "en": "good"
+                  },
+                  {
+                    "native": "квешаб",
+                    "en": "bad"
+                  },
+                  {
+                    "native": "кӏудияб",
+                    "en": "big"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "гьитӏинаб",
+                    "en": "small"
+                  },
+                  {
+                    "native": "халатаб",
+                    "en": "long"
+                  },
+                  {
+                    "native": "къокъаб",
+                    "en": "short"
+                  },
+                  {
+                    "native": "цӏияб",
+                    "en": "new"
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Ранг"
+          },
+          {
+            "id": "av-a1-6",
+            "number": 6,
+            "title": "Common Verbs (Basic Forms)",
+            "description": "Common Verbs (Basic Forms)",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "гьекъезе",
+                "options": [
+                  "eleven",
+                  "to drink",
+                  "There is a woman. / The woman is (here).",
+                  "dog"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "to drink",
+                "bank": [
+                  "гьекъезе"
+                ],
+                "answer": [
+                  "гьекъезе"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "гьекъезе",
+                "options": [
+                  "nine",
+                  "to come",
+                  "How are you?",
+                  "to drink"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "кваназе",
+                "options": [
+                  "to sleep",
+                  "You are (here). (female addressee)",
+                  "moon",
+                  "to eat"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "to eat",
+                "bank": [
+                  "кваназе"
+                ],
+                "answer": [
+                  "кваназе"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "кваназе",
+                "answer": [
+                  "кваназе"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "бихьизе",
+                "options": [
+                  "There is water.",
+                  "to walk",
+                  "to see",
+                  "I am (here). (male speaker)"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "to see",
+                "bank": [
+                  "бихьизе"
+                ],
+                "answer": [
+                  "бихьизе"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "рагӏизе",
+                "options": [
+                  "fire",
+                  "to hear",
+                  "thirteen",
+                  "There is a dog."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "to hear",
+                "bank": [
+                  "рагӏизе"
+                ],
+                "answer": [
+                  "рагӏизе"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "рагӏизе",
+                "options": [
+                  "child",
+                  "ten",
+                  "red",
+                  "to hear"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "fill-blank",
+                "native": "рагӏизе",
+                "blankedEn": "to ___",
+                "answer": "hear",
+                "options": [
+                  "addressee",
+                  "hear",
+                  "good",
+                  "father"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "лъазе",
+                "options": [
+                  "to know",
+                  "father",
+                  "Yes.",
+                  "fifteen"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "to know",
+                "bank": [
+                  "лъазе"
+                ],
+                "answer": [
+                  "лъазе"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "лъазе",
+                "answer": [
+                  "лъазе"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "кьижизе",
+                "options": [
+                  "to sleep",
+                  "earth / land",
+                  "rain",
+                  "to drink"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "to sleep",
+                "bank": [
+                  "кьижизе"
+                ],
+                "answer": [
+                  "кьижизе"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "хьвадизе",
+                "options": [
+                  "to count",
+                  "you (plural)",
+                  "to come",
+                  "to walk"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "to walk",
+                "bank": [
+                  "хьвадизе"
+                ],
+                "answer": [
+                  "хьвадизе"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "хьвадизе",
+                "options": [
+                  "how",
+                  "The child is (here). (male child)",
+                  "mother",
+                  "to walk"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "бачӏине",
+                "options": [
+                  "green",
+                  "to come",
+                  "fire",
+                  "twelve"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "to come",
+                "bank": [
+                  "бачӏине"
+                ],
+                "answer": [
+                  "бачӏине"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "бачӏине",
+                "answer": [
+                  "бачӏине"
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "бачӏине",
+                "blankedEn": "to ___",
+                "answer": "come",
+                "options": [
+                  "twelve",
+                  "bird",
+                  "come",
+                  "Good"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "абизе",
+                "options": [
+                  "ten",
+                  "seven",
+                  "big",
+                  "to say"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "to say",
+                "bank": [
+                  "абизе"
+                ],
+                "answer": [
+                  "абизе"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "кьезе",
+                "options": [
+                  "to give",
+                  "big",
+                  "You are (here). (female addressee)",
+                  "one"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "to give",
+                "bank": [
+                  "кьезе"
+                ],
+                "answer": [
+                  "кьезе"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "кьезе",
+                "options": [
+                  "to give",
+                  "small",
+                  "wife",
+                  "eight"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "хӏазе",
+                "options": [
+                  "what",
+                  "mother",
+                  "black",
+                  "to play"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "to play",
+                "bank": [
+                  "хӏазе"
+                ],
+                "answer": [
+                  "хӏазе"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "хӏазе",
+                "answer": [
+                  "хӏазе"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "рикӏкӏине",
+                "options": [
+                  "to count",
+                  "bird",
+                  "white",
+                  "child"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "to count",
+                "bank": [
+                  "рикӏкӏине"
+                ],
+                "answer": [
+                  "рикӏкӏине"
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "рикӏкӏине",
+                "blankedEn": "to ___",
+                "answer": "count",
+                "options": [
+                  "child",
+                  "five",
+                  "eleven",
+                  "count"
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "гьекъезе",
+                    "en": "to drink"
+                  },
+                  {
+                    "native": "кваназе",
+                    "en": "to eat"
+                  },
+                  {
+                    "native": "бихьизе",
+                    "en": "to see"
+                  },
+                  {
+                    "native": "рагӏизе",
+                    "en": "to hear"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "лъазе",
+                    "en": "to know"
+                  },
+                  {
+                    "native": "кьижизе",
+                    "en": "to sleep"
+                  },
+                  {
+                    "native": "хьвадизе",
+                    "en": "to walk"
+                  },
+                  {
+                    "native": "бачӏине",
+                    "en": "to come"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "абизе",
+                    "en": "to say"
+                  },
+                  {
+                    "native": "кьезе",
+                    "en": "to give"
+                  },
+                  {
+                    "native": "хӏазе",
+                    "en": "to play"
+                  },
+                  {
+                    "native": "рикӏкӏине",
+                    "en": "to count"
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Гьаракатал"
+          },
+          {
+            "id": "av-a1-7",
+            "number": 7,
+            "title": "Question Words & Pronouns",
+            "description": "Question Words & Pronouns",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "дун",
+                "options": [
+                  "where",
+                  "good",
+                  "I",
+                  "eight"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "I",
+                "bank": [
+                  "дун"
+                ],
+                "answer": [
+                  "дун"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "дун",
+                "options": [
+                  "I",
+                  "seventeen",
+                  "to give",
+                  "mother"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "мун",
+                "options": [
+                  "star",
+                  "big",
+                  "you (singular)",
+                  "to give"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "you (singular)",
+                "bank": [
+                  "мун"
+                ],
+                "answer": [
+                  "мун"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "мун",
+                "answer": [
+                  "мун"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "нилъ",
+                "options": [
+                  "what",
+                  "who (masculine)",
+                  "we (inclusive)",
+                  "twenty"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "we (inclusive)",
+                "bank": [
+                  "нилъ"
+                ],
+                "answer": [
+                  "нилъ"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "ниж",
+                "options": [
+                  "fish",
+                  "where",
+                  "we (exclusive)",
+                  "six"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "we (exclusive)",
+                "bank": [
+                  "ниж"
+                ],
+                "answer": [
+                  "ниж"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "ниж",
+                "options": [
+                  "you (singular)",
+                  "to drink",
+                  "to walk",
+                  "we (exclusive)"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "fill-blank",
+                "native": "ниж",
+                "blankedEn": "we ___",
+                "answer": "exclusive",
+                "options": [
+                  "adult",
+                  "walk",
+                  "exclusive",
+                  "star"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "нуж",
+                "options": [
+                  "seventeen",
+                  "to eat",
+                  "woman",
+                  "you (plural)"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "you (plural)",
+                "bank": [
+                  "нуж"
+                ],
+                "answer": [
+                  "нуж"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "нуж",
+                "answer": [
+                  "нуж"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "эл",
+                "options": [
+                  "Sorry.",
+                  "new",
+                  "they",
+                  "wind"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "they",
+                "bank": [
+                  "эл"
+                ],
+                "answer": [
+                  "эл"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "щив",
+                "options": [
+                  "eleven",
+                  "green",
+                  "who (masculine)",
+                  "good"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "who (masculine)",
+                "bank": [
+                  "щив"
+                ],
+                "answer": [
+                  "щив"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "щив",
+                "options": [
+                  "small",
+                  "who (masculine)",
+                  "eighteen",
+                  "twenty"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "щий",
+                "options": [
+                  "to drink",
+                  "who (feminine)",
+                  "fifteen",
+                  "black"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "who (feminine)",
+                "bank": [
+                  "щий"
+                ],
+                "answer": [
+                  "щий"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "щий",
+                "answer": [
+                  "щий"
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "щий",
+                "blankedEn": "who ___",
+                "answer": "feminine",
+                "options": [
+                  "sleep",
+                  "feminine",
+                  "night",
+                  "twenty"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "щиб",
+                "options": [
+                  "what",
+                  "two",
+                  "Yes.",
+                  "black"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "what",
+                "bank": [
+                  "щиб"
+                ],
+                "answer": [
+                  "щиб"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "киб",
+                "options": [
+                  "where",
+                  "twenty",
+                  "white",
+                  "fire"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "where",
+                "bank": [
+                  "киб"
+                ],
+                "answer": [
+                  "киб"
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "киб",
+                "options": [
+                  "There is a woman. / The woman is (here).",
+                  "There is water.",
+                  "You (plural) are (here).",
+                  "where"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "кида",
+                "options": [
+                  "There is water.",
+                  "to eat",
+                  "when",
+                  "big"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "when",
+                "bank": [
+                  "кида"
+                ],
+                "answer": [
+                  "кида"
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "кида",
+                "answer": [
+                  "кида"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "кин",
+                "options": [
+                  "how",
+                  "You are (here). (female addressee)",
+                  "I am (here). (male speaker)",
+                  "they"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "how",
+                "bank": [
+                  "кин"
+                ],
+                "answer": [
+                  "кин"
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "дун",
+                    "en": "I"
+                  },
+                  {
+                    "native": "мун",
+                    "en": "you (singular)"
+                  },
+                  {
+                    "native": "нилъ",
+                    "en": "we (inclusive)"
+                  },
+                  {
+                    "native": "ниж",
+                    "en": "we (exclusive)"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "нуж",
+                    "en": "you (plural)"
+                  },
+                  {
+                    "native": "эл",
+                    "en": "they"
+                  },
+                  {
+                    "native": "щив",
+                    "en": "who (masculine)"
+                  },
+                  {
+                    "native": "щий",
+                    "en": "who (feminine)"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "щиб",
+                    "en": "what"
+                  },
+                  {
+                    "native": "киб",
+                    "en": "where"
+                  },
+                  {
+                    "native": "кида",
+                    "en": "when"
+                  },
+                  {
+                    "native": "кин",
+                    "en": "how"
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Суалалъул рагӏаби"
+          },
+          {
+            "id": "av-a1-8",
+            "number": 8,
+            "title": "Grammar: The Noun-Class Copula",
+            "description": "Grammar: The Noun-Class Copula",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "Чи вуго.",
+                "options": [
+                  "There is a man. / The man is (here).",
+                  "to walk",
+                  "fish",
+                  "five"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "There is a man. / The man is (here).",
+                "bank": [
+                  "вуго.",
+                  "Чи"
+                ],
+                "answer": [
+                  "Чи",
+                  "вуго."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Чи вуго.",
+                "options": [
+                  "long",
+                  "There is a man. / The man is (here).",
+                  "four",
+                  "There is water."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "Чӏужу йиго.",
+                "options": [
+                  "There is a woman. / The woman is (here).",
+                  "one",
+                  "to give",
+                  "We are (here)."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "There is a woman. / The woman is (here).",
+                "bank": [
+                  "Чӏужу",
+                  "йиго."
+                ],
+                "answer": [
+                  "Чӏужу",
+                  "йиго."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Чӏужу йиго.",
+                "answer": [
+                  "Чӏужу",
+                  "йиго."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "Лъимер вуго.",
+                "options": [
+                  "you (plural)",
+                  "seven",
+                  "sun",
+                  "The child is (here). (male child)"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "The child is (here). (male child)",
+                "bank": [
+                  "Лъимер",
+                  "вуго."
+                ],
+                "answer": [
+                  "Лъимер",
+                  "вуго."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "Лъим буго.",
+                "options": [
+                  "snow",
+                  "You are (here). (female addressee)",
+                  "There is water.",
+                  "seventeen"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "There is water.",
+                "bank": [
+                  "Лъим",
+                  "буго."
+                ],
+                "answer": [
+                  "Лъим",
+                  "буго."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Лъим буго.",
+                "options": [
+                  "to eat",
+                  "big",
+                  "There is water.",
+                  "wife"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "fill-blank",
+                "native": "Лъим буго.",
+                "blankedEn": "There is ___",
+                "answer": "water",
+                "options": [
+                  "water",
+                  "father",
+                  "Sorry",
+                  "seven"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "Гьой буго.",
+                "options": [
+                  "There is a dog.",
+                  "moon",
+                  "big",
+                  "small"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "There is a dog.",
+                "bank": [
+                  "буго.",
+                  "Гьой"
+                ],
+                "answer": [
+                  "Гьой",
+                  "буго."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Гьой буго.",
+                "answer": [
+                  "Гьой",
+                  "буго."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "Бакъ буго.",
+                "options": [
+                  "five",
+                  "snow",
+                  "The sun is out.",
+                  "wife"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "The sun is out.",
+                "bank": [
+                  "буго.",
+                  "Бакъ"
+                ],
+                "answer": [
+                  "Бакъ",
+                  "буго."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "Нилъ руго.",
+                "options": [
+                  "Have a good trip!",
+                  "Hello!",
+                  "sun",
+                  "We are (here)."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "We are (here).",
+                "bank": [
+                  "Нилъ",
+                  "руго."
+                ],
+                "answer": [
+                  "Нилъ",
+                  "руго."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Нилъ руго.",
+                "options": [
+                  "We are (here).",
+                  "small",
+                  "we (inclusive)",
+                  "wind"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "Нуж руго.",
+                "options": [
+                  "rain",
+                  "The sun is out.",
+                  "You (plural) are (here).",
+                  "four"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "You (plural) are (here).",
+                "bank": [
+                  "руго.",
+                  "Нуж"
+                ],
+                "answer": [
+                  "Нуж",
+                  "руго."
+                ]
+              },
+              {
+                "type": "listening-tap",
+                "native": "Нуж руго.",
+                "answer": [
+                  "Нуж",
+                  "руго."
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "Нуж руго.",
+                "blankedEn": "You ___ are (here).",
+                "answer": "plural",
+                "options": [
+                  "trip",
+                  "child",
+                  "plural",
+                  "husband"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "Дун вуго.",
+                "options": [
+                  "to play",
+                  "to count",
+                  "father",
+                  "I am (here). (male speaker)"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "I am (here). (male speaker)",
+                "bank": [
+                  "вуго.",
+                  "Дун"
+                ],
+                "answer": [
+                  "Дун",
+                  "вуго."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "av-en",
+                "prompt": "Мун йиго.",
+                "options": [
+                  "who (masculine)",
+                  "What's your name?",
+                  "we (inclusive)",
+                  "You are (here). (female addressee)"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-av",
+                "prompt": "You are (here). (female addressee)",
+                "bank": [
+                  "йиго.",
+                  "Мун"
+                ],
+                "answer": [
+                  "Мун",
+                  "йиго."
+                ]
+              },
+              {
+                "type": "listening",
+                "native": "Мун йиго.",
+                "options": [
+                  "Please...",
+                  "You are (here). (female addressee)",
+                  "sun",
+                  "small"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Чи вуго.",
+                    "en": "There is a man. / The man is (here)."
+                  },
+                  {
+                    "native": "Чӏужу йиго.",
+                    "en": "There is a woman. / The woman is (here)."
+                  },
+                  {
+                    "native": "Лъимер вуго.",
+                    "en": "The child is (here). (male child)"
+                  },
+                  {
+                    "native": "Лъим буго.",
+                    "en": "There is water."
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Гьой буго.",
+                    "en": "There is a dog."
+                  },
+                  {
+                    "native": "Бакъ буго.",
+                    "en": "The sun is out."
+                  },
+                  {
+                    "native": "Нилъ руго.",
+                    "en": "We are (here)."
+                  },
+                  {
+                    "native": "Нуж руго.",
+                    "en": "You (plural) are (here)."
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Грамматика: тайпаялъул кказе",
+            "topicId": "a1-copula"
+          }
+        ]
+      }
+    ]
+  }
+}

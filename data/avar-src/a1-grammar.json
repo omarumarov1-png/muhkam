@@ -1,0 +1,73 @@
+{
+  "level": "a1",
+  "grammarTopics": {
+    "a1-copula": {
+      "title": "The Noun-Class Copula: вуго / йиго / буго / руго",
+      "pattern": "[subject, bare form] + вуго (masculine) / йиго (feminine) / буго (default/non-human) / руго (plural)",
+      "explanation": "Avar's \"to be\"/\"there is\" doesn't have one fixed shape -- like its sister Northeast Caucasian languages, it changes to agree with the grammatical class of its subject. A masculine human subject takes вуго (Чи вуго -- \"there is a man\"), a feminine human subject takes йиго (Чӏужу йиго -- \"there is a woman\"), and most other subjects -- objects, animals, abstract things -- take буго (Лъим буго -- \"there is water\"). Plural subjects take руго (Нилъ руго -- \"we are [here]\").",
+      "fact": "This в-/й-/б-/р- agreement pattern is one of the defining features of the Northeast Caucasian family Avar belongs to, and it doesn't stop at this one verb -- the same class markers reappear as prefixes across many other verbs, adjectives, and even some postpositions throughout the language. The masculine/feminine/default three-way split (вуго/йиго/буго) is well documented in academic descriptions; the plural form руго is corroborated independently but with a narrower confirmed example base so far, so treat it as attested-but-still-being-verified, the same caution applied to a comparable uncertain form early in this app's Chechen course.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Щиб хӀал бугеб?",
+          "en": "How are you? (lit. what condition is-there)"
+        },
+        {
+          "sp": "B",
+          "native": "Лъикӏ буго, баркала!",
+          "en": "It's good, thank you!"
+        }
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "number": 8,
+      "title": "Grammar: The Noun-Class Copula",
+      "titleNative": "Грамматика: тайпаялъул кказе",
+      "topicId": "a1-copula",
+      "items": [
+        {
+          "av": "Чи вуго.",
+          "en": "There is a man. / The man is (here)."
+        },
+        {
+          "av": "Чӏужу йиго.",
+          "en": "There is a woman. / The woman is (here)."
+        },
+        {
+          "av": "Лъимер вуго.",
+          "en": "The child is (here). (male child)"
+        },
+        {
+          "av": "Лъим буго.",
+          "en": "There is water."
+        },
+        {
+          "av": "Гьой буго.",
+          "en": "There is a dog."
+        },
+        {
+          "av": "Бакъ буго.",
+          "en": "The sun is out."
+        },
+        {
+          "av": "Нилъ руго.",
+          "en": "We are (here)."
+        },
+        {
+          "av": "Нуж руго.",
+          "en": "You (plural) are (here)."
+        },
+        {
+          "av": "Дун вуго.",
+          "en": "I am (here). (male speaker)"
+        },
+        {
+          "av": "Мун йиго.",
+          "en": "You are (here). (female addressee)"
+        }
+      ]
+    }
+  ]
+}
