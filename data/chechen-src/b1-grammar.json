@@ -18,6 +18,42 @@
           "en": "My name is Ahmad. I like mountains."
         }
       ]
+    },
+    "b1-live-locative": {
+      "title": "Living Somewhere: Ӏаш ву/ю + locative",
+      "pattern": "[subject] + [place, locative case] + Ӏаш ву/ю (lives/is-living in ~)",
+      "explanation": "To say where someone lives, Chechen uses Ӏаш (a participle of Ian, \"to sit/dwell\") plus the class-agreeing copula, with the place name in the locative case: со Соьлжа-гӀалахь Ӏаш ву (I live in Grozny), сан ваша Москвахь Ӏаш ву (my brother lives in Moscow).",
+      "fact": "Ӏаш literally means something closer to \"sitting/dwelling\" than a dedicated verb \"to live\" -- Chechen expresses long-term residence with the same participle used for the physical posture of sitting, not a separate abstract verb the way English does.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Хьо мичахь Ӏаш ву?",
+          "en": "Where do you live?"
+        },
+        {
+          "sp": "B",
+          "native": "Со Соьлжа-гӀалахь Ӏаш ву.",
+          "en": "I live in Grozny."
+        }
+      ]
+    },
+    "b1-know-person": {
+      "title": "Knowing a Person: воьвза/йоьвза",
+      "pattern": "суна (dative) + [absolutive person] + (ца) воьвза/йоьвза",
+      "explanation": "\"To know a person\" is another dative-experiencer verb, agreeing with the person known: суна иза ца воьвза (I don't know him, masc.), суна иза ца йоьвза (I don't know her, fem.) -- ца is the ordinary negative particle placed before the verb.",
+      "fact": "This is a different verb entirely from ган (\"to see\") and хаза/деза (\"to like/love\") covered earlier -- Chechen doesn't extend one all-purpose \"know\" verb to cover both people and facts the way English does with a single word \"know\".",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Хьуна и стаг вевза?",
+          "en": "Do you know that man?"
+        },
+        {
+          "sp": "B",
+          "native": "ХӀан-хӀа, суна иза ца воьвза.",
+          "en": "No, I don't know him."
+        }
+      ]
     }
   },
   "lessons": [
@@ -50,6 +86,62 @@
         {
           "ce": "Ас бепиг дан деза.",
           "en": "I need to make bread."
+        }
+      ]
+    },
+    {
+      "number": 51,
+      "title": "Grammar: Living Somewhere",
+      "titleNative": "Грамматика: Ӏаш хилар",
+      "topicId": "b1-live-locative",
+      "items": [
+        {
+          "ce": "Хьо мичахь Ӏаш ву?",
+          "en": "Where do you live?"
+        },
+        {
+          "ce": "Со Соьлжа-гӀалахь Ӏаш ву.",
+          "en": "I live in Grozny."
+        },
+        {
+          "ce": "Иза мичахь Ӏаш ю?",
+          "en": "Where does she live?"
+        },
+        {
+          "ce": "Иза да-нана долчохь Ӏаш ю.",
+          "en": "She lives with her parents."
+        },
+        {
+          "ce": "Хьан ваша мичахь Ӏаш ву?",
+          "en": "Where does your brother live?"
+        },
+        {
+          "ce": "Сан ваша Москвахь Ӏаш ву.",
+          "en": "My brother lives in Moscow."
+        }
+      ]
+    },
+    {
+      "number": 52,
+      "title": "Grammar: Knowing a Person",
+      "titleNative": "Грамматика: стаг вовзар",
+      "topicId": "b1-know-person",
+      "items": [
+        {
+          "ce": "Суна иза ца воьвза.",
+          "en": "I don't know him."
+        },
+        {
+          "ce": "Суна иза ца йоьвза.",
+          "en": "I don't know her."
+        },
+        {
+          "ce": "Уьш муьлш бу?",
+          "en": "Who are they?"
+        },
+        {
+          "ce": "Уьш сан да-нана бу.",
+          "en": "They are my parents."
         }
       ]
     }
