@@ -1,0 +1,111 @@
+{
+  "level": "a2",
+  "grammarTopics": {
+    "a2-past-copula": {
+      "title": "Past Tense: To Be (partial)",
+      "pattern": "уыдтӕн (I was) · уыди (he/she/it was) · уыдысты (they were)",
+      "explanation": "\"To be\" has its own past-tense forms, built on a different stem (уыд-) from the present (у/ис): Ахуыргӕнӕг уыдтӕн (I was a teacher), Фын уыди (it was a dream), Сӕхимӕ уыдысты? (were they at home?).",
+      "fact": "Only three persons of this past-tense paradigm are confirmed so far (I/he-she-it/they) -- the \"you\" and \"we\" forms aren't taught yet since a clean confirmed example hasn't turned up.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Уый фын уыди?",
+          "en": "Was it a dream?"
+        },
+        {
+          "sp": "B",
+          "native": "О, фын уыди.",
+          "en": "Yes, it was a dream."
+        }
+      ]
+    },
+    "a2-verbs-more": {
+      "title": "More Verbs in Full Conjugation",
+      "pattern": "хъусын (to hear) · уынын (to see), conjugated across persons",
+      "explanation": "More practice with the full present-tense pattern you already know, applied to two more verbs: хъусын (to hear) -> хъусын/хъусыс/хъусы/хъусӕм/хъусут/хъусынц, and уынын (to see) -> уынын/уынис/уыны/уынӕм/уынут/уынынц.",
+      "fact": "уынын is a great example of the 1sg-equals-infinitive rule in action: on its own it's ambiguous between \"to see\" and \"I see\", and only the sentence around it (or a subject pronoun) tells you which.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Ды цы уыныс?",
+          "en": "What do you see?"
+        },
+        {
+          "sp": "B",
+          "native": "Ӕз бӕх уынын.",
+          "en": "I see a horse."
+        }
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "number": 53,
+      "title": "Grammar: Past Tense of To Be",
+      "titleNative": "Грамматикӕ: уыдтӕн, уыди, уыдысты",
+      "topicId": "a2-past-copula",
+      "items": [
+        {
+          "os": "Ӕз ахуыргӕнӕг уыдтӕн.",
+          "en": "I was a teacher."
+        },
+        {
+          "os": "Уый фын уыди.",
+          "en": "It was a dream."
+        },
+        {
+          "os": "Уый сусӕг уыди.",
+          "en": "It was a secret."
+        },
+        {
+          "os": "Уыдон стонг уыдысты.",
+          "en": "They were hungry."
+        }
+      ]
+    },
+    {
+      "number": 54,
+      "title": "Grammar: More Verbs Conjugated",
+      "titleNative": "Грамматикӕ: хъусын, уынын",
+      "topicId": "a2-verbs-more",
+      "items": [
+        {
+          "os": "Ӕз хъусын.",
+          "en": "I hear."
+        },
+        {
+          "os": "Ды хъусыс.",
+          "en": "You hear."
+        },
+        {
+          "os": "Уый хъусы.",
+          "en": "He/she hears."
+        },
+        {
+          "os": "Мах хъусӕм.",
+          "en": "We hear."
+        },
+        {
+          "os": "Уыдон хъусынц.",
+          "en": "They hear."
+        },
+        {
+          "os": "Ӕз уынын.",
+          "en": "I see."
+        },
+        {
+          "os": "Уый уыны.",
+          "en": "He/she sees."
+        },
+        {
+          "os": "Ды цы уыныс?",
+          "en": "What do you see?"
+        },
+        {
+          "os": "Ӕз бӕх уынын.",
+          "en": "I see a horse."
+        }
+      ]
+    }
+  ]
+}
