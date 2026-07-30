@@ -3,6 +3,7 @@
 
   const THEME_KEY = "muhkam-theme";
   const ACTIVE_COURSE_KEY = "muhkam-active-course";
+  const DATA_VERSION = "1785416469";
   const MAX_MISSED = 150;
   const REVISION_SIZE = 20;
   const ADVANCE_DELAY_CORRECT = 900;
@@ -548,9 +549,11 @@
   // ---------- boot ----------
   async function loadCourseData(courseId) {
     const meta = COURSES.find(c => c.id === courseId) || COURSES[0];
+    const bust = `v=${DATA_VERSION}`;
+    const withVersion = url => url + (url.includes("?") ? "&" : "?") + bust;
     const [res, manifestRes] = await Promise.all([
-      fetch(meta.file),
-      meta.audioManifest ? fetch(meta.audioManifest).catch(() => null) : Promise.resolve(null),
+      fetch(withVersion(meta.file), { cache: "no-cache" }),
+      meta.audioManifest ? fetch(withVersion(meta.audioManifest), { cache: "no-cache" }).catch(() => null) : Promise.resolve(null),
     ]);
     if (!res.ok) throw new Error("Failed to load course data");
     const data = await res.json();
