@@ -15,9 +15,9 @@
     { id: "kazakh", file: "data/courses-kazakh.json", label: "Kazakh — Қазақша", flag: "Қазақша" },
     { id: "chinese", file: "data/courses-chinese.json", label: "Chinese (Pinyin) — Zhōngwén", flag: "Zhōngwén" },
     { id: "uzbek", file: "data/courses-uzbek.json", audioManifest: "data/audio-uzbek/manifest.json", label: "Uzbek — Oʻzbekcha", flag: "Oʻzbekcha" },
-    { id: "chechen", file: "data/courses-chechen.json", audioManifest: "data/audio-chechen/manifest.json", label: "Chechen — Нохчийн", flag: "Нохчийн" },
+    { id: "chechen", file: "data/courses-chechen.json", label: "Chechen — Нохчийн", flag: "Нохчийн" },
     { id: "avar", file: "data/courses-avar.json", audioManifest: "data/audio-avar/manifest.json", label: "Avar — МагӀарул мацӏ", flag: "МагӀарул мацӏ" },
-    { id: "ossetian", file: "data/courses-ossetian.json", audioManifest: "data/audio-ossetian/manifest.json", label: "Ossetian — Ирон ӕвзаг", flag: "Ирон ӕвзаг" },
+    { id: "ossetian", file: "data/courses-ossetian.json", label: "Ossetian — Ирон ӕвзаг", flag: "Ирон ӕвзаг" },
   ];
 
   // iOS Safari keeps a tapped <button> focused, which makes the
