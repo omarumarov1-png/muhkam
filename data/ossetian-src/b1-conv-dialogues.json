@@ -1,0 +1,111 @@
+{
+  "level": "b1",
+  "grammarTopics": {
+    "b1-conv-everyday": {
+      "title": "Conversation: Checking In",
+      "pattern": "Куыддӕ? — [reaction] (a real everyday exchange)",
+      "explanation": "\"Куыддӕ?\" (how are you?) is one of the most common things you'll actually hear in conversation. These lines are attested, real sentences from native speakers -- sequenced here as a natural back-and-forth, not asserted as a fixed script.",
+      "fact": "Ossetian yes/no questions are often made just by tone/context (Кусы. \"It works.\" vs Кусы? \"Is it working?\") rather than a special question word -- the same word can be a statement or a question depending on how it's said.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Куыддӕ?",
+          "en": "How are you?"
+        },
+        {
+          "sp": "B",
+          "native": "Хорз. Бузныг.",
+          "en": "Good. Thank you."
+        },
+        {
+          "sp": "A",
+          "native": "Ӕххормаг стут?",
+          "en": "Are you hungry?"
+        },
+        {
+          "sp": "B",
+          "native": "О, тынг.",
+          "en": "Yes, very much."
+        }
+      ]
+    },
+    "b1-conv-invite": {
+      "title": "Conversation: Making Plans",
+      "pattern": "Cӕуӕм / Цом + place (let's go ~)",
+      "explanation": "Real invitations and small plans, built from attested sentences: suggesting to go somewhere, asking when, and agreeing.",
+      "fact": "\"Цом!\" is an everyday, casual way to say \"Let's go!/Come on!\" -- much more common in speech than a longer grammatical construction would be.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Киномӕ цом!",
+          "en": "Let's go to the movies!"
+        },
+        {
+          "sp": "B",
+          "native": "Кӕд цӕуӕм?",
+          "en": "When do we go?"
+        },
+        {
+          "sp": "A",
+          "native": "Абон.",
+          "en": "Today."
+        },
+        {
+          "sp": "B",
+          "native": "Хорз, разы дӕн.",
+          "en": "Okay, I agree."
+        }
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "number": 116,
+      "title": "Conversations: Real Exchanges",
+      "titleNative": "Ныхӕстӕ: ӕцӕг ныхас",
+      "topicId": "b1-conv-everyday",
+      "items": [
+        {
+          "os": "Куыддӕ?",
+          "en": "How are you?"
+        },
+        {
+          "os": "Хорз. Бузныг.",
+          "en": "Good. Thank you."
+        },
+        {
+          "os": "Ӕххормаг стут?",
+          "en": "Are you hungry?"
+        },
+        {
+          "os": "О, тынг.",
+          "en": "Yes, very much."
+        }
+      ]
+    },
+    {
+      "number": 117,
+      "title": "Conversations: Making Plans",
+      "titleNative": "Ныхӕстӕ: плантӕ",
+      "topicId": "b1-conv-invite",
+      "items": [
+        {
+          "os": "Киномӕ цом!",
+          "en": "Let's go to the movies!"
+        },
+        {
+          "os": "Кӕд цӕуӕм?",
+          "en": "When do we go?"
+        },
+        {
+          "os": "Абон.",
+          "en": "Today."
+        },
+        {
+          "os": "Хорз, разы дӕн.",
+          "en": "Okay, I agree."
+        }
+      ]
+    }
+  ]
+}
