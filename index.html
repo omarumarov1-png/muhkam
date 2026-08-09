@@ -147,6 +147,7 @@
       <button class="modal-close" id="accountClose" aria-label="Close">&times;</button>
     </div>
     <p class="modal-sub">Signed in as <strong id="accountEmail"></strong></p>
+    <p class="modal-sub" id="lastSyncDiagnostic" style="font-size:0.78rem;opacity:0.75;"></p>
     <p class="modal-sub" id="voiceDiagnostic" style="font-size:0.78rem;opacity:0.75;"></p>
     <p class="modal-sub" id="audioDiagnostic" style="font-size:0.78rem;opacity:0.75;"></p>
     <button class="sync-btn" id="testSoundBtn" type="button" style="margin-bottom:10px;">🔊 Test sound</button>
@@ -179,8 +180,8 @@
 </div>
 
 <script src="firebase-config.js?v=1"></script>
-<script src="app.js?v=1786302416"></script>
-<script src="auth.js?v=8"></script>
+<script src="app.js?v=1786303064"></script>
+<script src="auth.js?v=9"></script>
 <script>
   if ("serviceWorker" in navigator) {
     window.addEventListener("load", () => {

@@ -211,6 +211,23 @@
     if (accountBtn) {
       accountBtn.addEventListener("click", () => {
         accountModal.classList.remove("hidden");
+        // Shows the REAL last-write outcome, independent of whatever the
+        // Sync now button's status text last said -- that text only
+        // reflects the moment it was clicked, while normal background
+        // saves (completing lessons) happen silently and this is the only
+        // place their actual success/failure is visible at all.
+        const syncDiagEl = document.getElementById("lastSyncDiagnostic");
+        if (syncDiagEl && window.CloudSync) {
+          if (window.CloudSync.lastPushError) {
+            syncDiagEl.textContent = `Last cloud save FAILED: ${window.CloudSync.lastPushError}`;
+          } else if (window.CloudSync.lastPushAt) {
+            const secs = Math.round((Date.now() - window.CloudSync.lastPushAt) / 1000);
+            const ago = secs < 60 ? `${secs}s ago` : `${Math.round(secs / 60)}m ago`;
+            syncDiagEl.textContent = `Last cloud save: successful, ${ago}.`;
+          } else {
+            syncDiagEl.textContent = "No cloud save has happened yet this session.";
+          }
+        }
         const diagEl = document.getElementById("voiceDiagnostic");
         if (diagEl && "speechSynthesis" in window) {
           const voices = window.speechSynthesis.getVoices() || [];
@@ -255,18 +272,14 @@
         clearTimeout(pushTimer);
         pushTimer = setTimeout(() => this.flushPush(), 800);
       },
-      // Writes whatever's pending right now, bypassing the debounce delay.
-      // Called on the normal 800ms timer, and also on visibilitychange /
-      // pagehide -- otherwise a tab closed or backgrounded within that
-      // window loses the write entirely (it's fire-and-forget, no retry),
-      // which is exactly the kind of silent gap that can make progress
-      // made on one device never actually reach the cloud for another
-      // device to pull.
-      flushPush(isRetry) {
-        clearTimeout(pushTimer);
-        const payload = pendingPushPayload;
-        pendingPushPayload = null;
-        if (!payload || !this.user) return;
+      // The actual Firestore write, shared by the fire-and-forget debounced
+      // path and the awaited manual path below. Returns a promise so a
+      // caller that needs real confirmation (not just "scheduled") can get
+      // it -- everything before this always reported success optimistically
+      // the instant a write was *queued*, which is why "uploaded too" could
+      // show up in the UI even when the write hadn't happened yet, or had
+      // already silently failed.
+      _writeToCloud(payload) {
         // Flat fields (not buried in progressJson) so the Firestore
         // console's table view is scannable/sortable without opening
         // every document — this is the "who and how much" view. Muḥkam's
@@ -283,7 +296,7 @@
           streak = Math.max(streak, c.streak || 0);
           perCourse[courseId] = { xp: c.xp || 0, lessonsCompleted: done, streak: c.streak || 0 };
         });
-        setDoc(doc(db, "apps", APP_ID, "users", this.user.uid), {
+        return setDoc(doc(db, "apps", APP_ID, "users", this.user.uid), {
           email: this.user.email || null,
           displayName: this.user.displayName || null,
           progressJson: JSON.stringify(payload),
@@ -300,10 +313,26 @@
           // like a Firestore security-rules rejection) had no visible
           // effect anywhere, so "my progress isn't showing up on my other
           // device" was indistinguishable from a real sync bug. Now the
-          // real reason is at least inspectable (Account modal), plus one
-          // automatic retry for the common case of a brief network blip.
+          // real reason is at least inspectable (Account modal).
           this.lastPushError = (err && (err.code || err.message)) || "unknown error";
           console.warn("Muhkam cloud push failed:", err);
+          throw err;
+        });
+      },
+      // Writes whatever's pending right now, bypassing the debounce delay.
+      // Called on the normal 800ms timer, and also on visibilitychange /
+      // pagehide -- otherwise a tab closed or backgrounded within that
+      // window loses the write entirely, which is exactly the kind of
+      // silent gap that can make progress made on one device never
+      // actually reach the cloud for another device to pull. Fire-and-
+      // forget by design (nothing is waiting on this specific call), with
+      // one automatic retry for a brief network blip.
+      flushPush(isRetry) {
+        clearTimeout(pushTimer);
+        const payload = pendingPushPayload;
+        pendingPushPayload = null;
+        if (!payload || !this.user) return;
+        this._writeToCloud(payload).catch(() => {
           if (!isRetry) {
             setTimeout(() => {
               // Only retry with this exact snapshot if nothing newer has
@@ -317,6 +346,16 @@
             }, 5000);
           }
         });
+      },
+      // Awaited variant for callers that need to know the real outcome
+      // (the manual "Sync now" button) rather than just having a write
+      // queued. Cancels any pending debounced push for the same payload so
+      // this doesn't race with it.
+      async pushProgressNow(payload) {
+        if (!this.user) throw new Error("not signed in");
+        clearTimeout(pushTimer);
+        pendingPushPayload = null;
+        await this._writeToCloud(payload);
       },
     };
     document.addEventListener("visibilitychange", () => {

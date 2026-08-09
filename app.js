@@ -674,7 +674,13 @@
     // leave that gap in place until the next lesson happens to trigger a
     // save, which is exactly the state a "Sync now" tap is supposed to fix
     // immediately.
-    window.CloudSync.pushProgress(buildProgressPayload());
+    //
+    // Awaited (not fire-and-forget): a caller reporting "uploaded" to the
+    // user needs that to mean the write actually happened, not just that
+    // it was scheduled -- the previous version said "uploaded too" the
+    // instant the debounced write was queued, which could show success
+    // right before that same write silently failed 800ms later.
+    await window.CloudSync.pushProgressNow(buildProgressPayload());
     return { found, lessonsInCloud };
   }
 
