@@ -657,15 +657,18 @@
   // boot -- progress made on another device afterward never shows up here
   // until either a full reload or an explicit manual sync.
   async function syncFromCloud() {
-    if (!(window.CloudSync && window.CloudSync.user)) return false;
+    if (!(window.CloudSync && window.CloudSync.user)) return { found: false };
     const remote = await window.CloudSync.pullProgress();
     if (remote && remote.courses) {
+      const lessonsInCloud = Object.keys(remote.courses)
+        .reduce((n, id) => n + ((remote.courses[id].completedLessons || []).length), 0);
       applyProgressPayload(remote);
       progress = loadProgress();
+      return { found: true, lessonsInCloud };
     } else {
       window.CloudSync.pushProgress(buildProgressPayload());
+      return { found: false };
     }
-    return true;
   }
 
   async function boot() {
@@ -730,12 +733,20 @@
         syncNowBtn.disabled = true;
         if (syncStatusEl) syncStatusEl.textContent = "Syncing…";
         try {
-          await syncFromCloud();
+          const result = await syncFromCloud();
           refreshTopStats();
           renderHome();
-          if (syncStatusEl) syncStatusEl.textContent = "Synced just now.";
+          if (syncStatusEl) {
+            syncStatusEl.textContent = result.found
+              ? `Synced — found ${result.lessonsInCloud} completed lesson(s) in the cloud.`
+              : "Synced — the cloud has no saved progress for this account yet (this device's progress was uploaded instead).";
+          }
         } catch (e) {
-          if (syncStatusEl) syncStatusEl.textContent = "Couldn't reach the cloud — check your connection and try again.";
+          // Show the real reason (e.g. Firestore's own error code, like
+          // "permission-denied") instead of a generic guess -- a security
+          // rules problem and a network blip look identical to the user
+          // otherwise, and only one of them is fixed by "try again later".
+          if (syncStatusEl) syncStatusEl.textContent = `Sync failed: ${(e && (e.code || e.message)) || "unknown error"}`;
         } finally {
           syncNowBtn.disabled = false;
         }

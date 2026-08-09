@@ -233,9 +233,17 @@
     window.CloudSync = {
       appId: APP_ID,
       user: null,
+      lastPushError: null,
+      lastPushAt: null,
       async pullProgress() {
         if (!this.user) return null;
-        const snap = await getDoc(doc(db, "apps", APP_ID, "users", this.user.uid));
+        // Timeout-guarded for the same reason the approval check above is:
+        // a getDoc() against an unreachable network with no persistence
+        // cache can hang indefinitely instead of rejecting, which without
+        // this would leave boot() (and the "Sync now" button) stuck
+        // forever instead of falling back to local progress or surfacing
+        // an error.
+        const snap = await withTimeout(getDoc(doc(db, "apps", APP_ID, "users", this.user.uid)), 8000);
         if (!snap.exists()) return null;
         const data = snap.data();
         if (!data.progressJson) return null;
@@ -254,7 +262,7 @@
       // which is exactly the kind of silent gap that can make progress
       // made on one device never actually reach the cloud for another
       // device to pull.
-      flushPush() {
+      flushPush(isRetry) {
         clearTimeout(pushTimer);
         const payload = pendingPushPayload;
         pendingPushPayload = null;
@@ -284,7 +292,31 @@
           lessonsCompleted,
           streak,
           perCourse,
-        }, { merge: true }).catch(() => { /* offline — next save will retry */ });
+        }, { merge: true }).then(() => {
+          this.lastPushError = null;
+          this.lastPushAt = Date.now();
+        }).catch(err => {
+          // Genuinely silent before: a failed save (offline, or something
+          // like a Firestore security-rules rejection) had no visible
+          // effect anywhere, so "my progress isn't showing up on my other
+          // device" was indistinguishable from a real sync bug. Now the
+          // real reason is at least inspectable (Account modal), plus one
+          // automatic retry for the common case of a brief network blip.
+          this.lastPushError = (err && (err.code || err.message)) || "unknown error";
+          console.warn("Muhkam cloud push failed:", err);
+          if (!isRetry) {
+            setTimeout(() => {
+              // Only retry with this exact snapshot if nothing newer has
+              // been queued in the meantime -- otherwise this would push
+              // stale data over whatever more-recent progress already
+              // went out (or is about to).
+              if (pendingPushPayload === null) {
+                pendingPushPayload = payload;
+                this.flushPush(true);
+              }
+            }, 5000);
+          }
+        });
       },
     };
     document.addEventListener("visibilitychange", () => {
