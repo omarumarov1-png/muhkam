@@ -489,7 +489,12 @@
     // back to real Date objects to find which side is actually more recent.
     const localTime = local.lastActiveDate ? new Date(local.lastActiveDate).getTime() : 0;
     const remoteTime = remote.lastActiveDate ? new Date(remote.lastActiveDate).getTime() : 0;
-    return {
+    // Base is remote-then-local (so any field neither of the two blocks
+    // below knows about -- e.g. migratedSplitIdsV1, or anything added
+    // later -- survives the merge instead of silently vanishing, with
+    // local's own copy of it preferred when both sides have one) --
+    // MAX_MISSED-capped 6 fields below then override with the real merge.
+    return Object.assign({}, remote, local, {
       xp: Math.max(local.xp || 0, remote.xp || 0),
       streak: Math.max(local.streak || 0, remote.streak || 0),
       lastActiveDate: remoteTime > localTime ? remote.lastActiveDate : local.lastActiveDate,
@@ -499,7 +504,7 @@
       // the live eviction in afterAnswer().
       missedBank: union(local.missedBank, remote.missedBank).slice(-MAX_MISSED),
       wordHoard: union(local.wordHoard, remote.wordHoard),
-    };
+    });
   }
 
   // Returns the number of courses written, or throws on invalid/unreadable input.
