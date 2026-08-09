@@ -3,7 +3,7 @@
 
   const THEME_KEY = "muhkam-theme";
   const ACTIVE_COURSE_KEY = "muhkam-active-course";
-  const DATA_VERSION = "1785416469";
+  const DATA_VERSION = "1786269698";
   const MAX_MISSED = 150;
   const REVISION_SIZE = 20;
   const ADVANCE_DELAY_CORRECT = 900;
@@ -277,7 +277,15 @@
   let _currentBundledAudio = null;
   function playBundledAudio(entry, onEnd) {
     if (_currentBundledAudio) { _currentBundledAudio.pause(); _currentBundledAudio = null; }
-    const audio = new Audio(`data/audio-uzbek/${entry.file}`);
+    // Directory derived from the ACTIVE course's own audioManifest path
+    // (e.g. "data/audio-avar/manifest.json" -> "data/audio-avar/"), not
+    // hardcoded to Uzbek -- this used to always point at data/audio-uzbek/
+    // regardless of which course was active, so Avar's real bundled audio
+    // (data/audio-avar/, a separate set of files) silently 404'd every
+    // time and was never actually heard.
+    const meta = COURSES.find(c => c.id === activeCourseId);
+    const dir = (meta && meta.audioManifest) ? meta.audioManifest.replace(/manifest\.json$/, "") : "data/audio-uzbek/";
+    const audio = new Audio(`${dir}${entry.file}`);
     _currentBundledAudio = audio;
     let settled = false;
     const settle = () => { if (settled) return; settled = true; if (onEnd) onEnd(); };
@@ -1417,14 +1425,19 @@
       </div>
     `);
     wireGrammarPanel();
-    const play = wireAudioStage(hanziIfChinese(ex.native, ex.nativeHanzi));
+    // Deliberately no autoplay: audio.play()/speechSynthesis.speak() called
+    // from a setTimeout (i.e. outside the click that rendered this screen)
+    // has no user gesture behind it, which iOS Safari in particular will
+    // often silently refuse -- exactly the kind of "audio just doesn't
+    // work" failure this app kept running into. The big audio-stage play
+    // button is the real, reliable entry point; tapping it always works.
+    wireAudioStage(hanziIfChinese(ex.native, ex.nativeHanzi));
     const revealToggle = document.getElementById("listenRevealToggle");
     revealToggle.addEventListener("click", () => {
       const t = document.getElementById("listenRevealText");
       t.classList.toggle("hidden");
       revealToggle.textContent = t.classList.contains("hidden") ? "Show text" : "Hide text";
     });
-    setTimeout(play, 300);
 
     const optionEls = Array.from(screenEl.querySelectorAll(".option"));
     optionEls.forEach(btn => {
@@ -1465,8 +1478,8 @@
       </div>
     `);
     wireGrammarPanel();
-    const play = wireAudioStage(hanziIfChinese(ex.native, ex.nativeHanzi));
-    setTimeout(play, 300);
+    // No autoplay here either -- see the matching note in renderListening().
+    wireAudioStage(hanziIfChinese(ex.native, ex.nativeHanzi));
 
     const targetEl = document.getElementById("bankTarget");
     const poolEl = document.getElementById("bankPool");

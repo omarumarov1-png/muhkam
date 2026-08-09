@@ -221,6 +221,11 @@ input:focus-visible {
   align-items: center;
   justify-content: space-between;
   padding: 18px 20px 20px;
+  /* installed-on-iPhone only: the status-bar-style meta tag lets our own
+     background show through under the notch/Dynamic Island, so the real
+     topbar content needs its own push clear of it. env() is 0px in an
+     ordinary browser tab, so this is a no-op there. */
+  padding-top: max(18px, env(safe-area-inset-top));
 }
 .topbar::after {
   content: "";
