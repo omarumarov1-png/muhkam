@@ -659,16 +659,23 @@
   async function syncFromCloud() {
     if (!(window.CloudSync && window.CloudSync.user)) return { found: false };
     const remote = await window.CloudSync.pullProgress();
+    let found = false, lessonsInCloud = 0;
     if (remote && remote.courses) {
-      const lessonsInCloud = Object.keys(remote.courses)
+      found = true;
+      lessonsInCloud = Object.keys(remote.courses)
         .reduce((n, id) => n + ((remote.courses[id].completedLessons || []).length), 0);
       applyProgressPayload(remote);
       progress = loadProgress();
-      return { found: true, lessonsInCloud };
-    } else {
-      window.CloudSync.pushProgress(buildProgressPayload());
-      return { found: false };
     }
+    // Always push the merged result back up, not only when the cloud had
+    // nothing at all. A cloud document can exist with a courses object
+    // that's empty or missing this course entirely (e.g. a push from this
+    // account genuinely never landed) -- pulling alone would silently
+    // leave that gap in place until the next lesson happens to trigger a
+    // save, which is exactly the state a "Sync now" tap is supposed to fix
+    // immediately.
+    window.CloudSync.pushProgress(buildProgressPayload());
+    return { found, lessonsInCloud };
   }
 
   async function boot() {
@@ -738,8 +745,8 @@
           renderHome();
           if (syncStatusEl) {
             syncStatusEl.textContent = result.found
-              ? `Synced — found ${result.lessonsInCloud} completed lesson(s) in the cloud.`
-              : "Synced — the cloud has no saved progress for this account yet (this device's progress was uploaded instead).";
+              ? `Synced — found ${result.lessonsInCloud} completed lesson(s) in the cloud; this device's progress was uploaded too.`
+              : "The cloud had no saved progress for this account — this device's progress was uploaded.";
           }
         } catch (e) {
           // Show the real reason (e.g. Firestore's own error code, like
