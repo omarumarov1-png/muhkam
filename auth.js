@@ -144,6 +144,7 @@
 
     let mode = "signin";
     let pushTimer = null;
+    let pendingPushPayload = null;
 
     function setError(msg) { errorEl.textContent = msg || ""; }
 
@@ -242,37 +243,54 @@
       },
       pushProgress(payload) {
         if (!this.user) return;
+        pendingPushPayload = payload;
         clearTimeout(pushTimer);
-        pushTimer = setTimeout(() => {
-          // Flat fields (not buried in progressJson) so the Firestore
-          // console's table view is scannable/sortable without opening
-          // every document — this is the "who and how much" view. Muḥkam's
-          // payload spans multiple courses, so these are combined totals
-          // plus a per-course breakdown.
-          const courses = payload.courses || {};
-          let totalXp = 0, lessonsCompleted = 0, streak = 0;
-          const perCourse = {};
-          Object.keys(courses).forEach(courseId => {
-            const c = courses[courseId] || {};
-            const done = (c.completedLessons || []).length;
-            totalXp += c.xp || 0;
-            lessonsCompleted += done;
-            streak = Math.max(streak, c.streak || 0);
-            perCourse[courseId] = { xp: c.xp || 0, lessonsCompleted: done, streak: c.streak || 0 };
-          });
-          setDoc(doc(db, "apps", APP_ID, "users", this.user.uid), {
-            email: this.user.email || null,
-            displayName: this.user.displayName || null,
-            progressJson: JSON.stringify(payload),
-            updatedAt: serverTimestamp(),
-            totalXp,
-            lessonsCompleted,
-            streak,
-            perCourse,
-          }, { merge: true }).catch(() => { /* offline — next save will retry */ });
-        }, 800);
+        pushTimer = setTimeout(() => this.flushPush(), 800);
+      },
+      // Writes whatever's pending right now, bypassing the debounce delay.
+      // Called on the normal 800ms timer, and also on visibilitychange /
+      // pagehide -- otherwise a tab closed or backgrounded within that
+      // window loses the write entirely (it's fire-and-forget, no retry),
+      // which is exactly the kind of silent gap that can make progress
+      // made on one device never actually reach the cloud for another
+      // device to pull.
+      flushPush() {
+        clearTimeout(pushTimer);
+        const payload = pendingPushPayload;
+        pendingPushPayload = null;
+        if (!payload || !this.user) return;
+        // Flat fields (not buried in progressJson) so the Firestore
+        // console's table view is scannable/sortable without opening
+        // every document — this is the "who and how much" view. Muḥkam's
+        // payload spans multiple courses, so these are combined totals
+        // plus a per-course breakdown.
+        const courses = payload.courses || {};
+        let totalXp = 0, lessonsCompleted = 0, streak = 0;
+        const perCourse = {};
+        Object.keys(courses).forEach(courseId => {
+          const c = courses[courseId] || {};
+          const done = (c.completedLessons || []).length;
+          totalXp += c.xp || 0;
+          lessonsCompleted += done;
+          streak = Math.max(streak, c.streak || 0);
+          perCourse[courseId] = { xp: c.xp || 0, lessonsCompleted: done, streak: c.streak || 0 };
+        });
+        setDoc(doc(db, "apps", APP_ID, "users", this.user.uid), {
+          email: this.user.email || null,
+          displayName: this.user.displayName || null,
+          progressJson: JSON.stringify(payload),
+          updatedAt: serverTimestamp(),
+          totalXp,
+          lessonsCompleted,
+          streak,
+          perCourse,
+        }, { merge: true }).catch(() => { /* offline — next save will retry */ });
       },
     };
+    document.addEventListener("visibilitychange", () => {
+      if (document.visibilityState === "hidden") window.CloudSync.flushPush();
+    });
+    window.addEventListener("pagehide", () => window.CloudSync.flushPush());
 
     onAuthStateChanged(auth, async user => {
       window.CloudSync.user = user;

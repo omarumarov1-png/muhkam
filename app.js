@@ -651,19 +651,28 @@
     renderHome();
   }
 
+  // Pulls the cloud copy and merges it into local progress for every
+  // course. Shared by boot() (runs once automatically) and the "Sync now"
+  // button, which exists because a device only ever auto-pulls once, at
+  // boot -- progress made on another device afterward never shows up here
+  // until either a full reload or an explicit manual sync.
+  async function syncFromCloud() {
+    if (!(window.CloudSync && window.CloudSync.user)) return false;
+    const remote = await window.CloudSync.pullProgress();
+    if (remote && remote.courses) {
+      applyProgressPayload(remote);
+      progress = loadProgress();
+    } else {
+      window.CloudSync.pushProgress(buildProgressPayload());
+    }
+    return true;
+  }
+
   async function boot() {
     await loadCourseData(activeCourseId);
     progress = loadProgress();
     if (window.CloudSync && window.CloudSync.user) {
-      try {
-        const remote = await window.CloudSync.pullProgress();
-        if (remote && remote.courses) {
-          applyProgressPayload(remote);
-          progress = loadProgress();
-        } else {
-          window.CloudSync.pushProgress(buildProgressPayload());
-        }
-      } catch (e) { /* offline — continue with local progress */ }
+      try { await syncFromCloud(); } catch (e) { /* offline — continue with local progress */ }
     }
     migrateSplitLessonIds();
     refreshTopStats();
@@ -707,6 +716,29 @@
           // spoken audio, which is why voice playback still works either way.
           diagEl.textContent = "If you didn't hear it: on iPhone/iPad, check the side silent-mode switch — it mutes short sound effects, though voice playback still works either way.";
         }, 250);
+      });
+    }
+
+    const syncNowBtn = document.getElementById("syncNowBtn");
+    const syncStatusEl = document.getElementById("syncStatus");
+    if (syncNowBtn) {
+      syncNowBtn.addEventListener("click", async () => {
+        if (!(window.CloudSync && window.CloudSync.user)) {
+          if (syncStatusEl) syncStatusEl.textContent = "Not signed in.";
+          return;
+        }
+        syncNowBtn.disabled = true;
+        if (syncStatusEl) syncStatusEl.textContent = "Syncing…";
+        try {
+          await syncFromCloud();
+          refreshTopStats();
+          renderHome();
+          if (syncStatusEl) syncStatusEl.textContent = "Synced just now.";
+        } catch (e) {
+          if (syncStatusEl) syncStatusEl.textContent = "Couldn't reach the cloud — check your connection and try again.";
+        } finally {
+          syncNowBtn.disabled = false;
+        }
       });
     }
 

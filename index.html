@@ -150,6 +150,8 @@
     <p class="modal-sub" id="voiceDiagnostic" style="font-size:0.78rem;opacity:0.75;"></p>
     <p class="modal-sub" id="audioDiagnostic" style="font-size:0.78rem;opacity:0.75;"></p>
     <button class="sync-btn" id="testSoundBtn" type="button" style="margin-bottom:10px;">🔊 Test sound</button>
+    <button class="sync-btn" id="syncNowBtn" type="button" style="margin-bottom:10px;">☁️ Sync now</button>
+    <p class="modal-sub" id="syncStatus" style="font-size:0.78rem;opacity:0.75;"></p>
     <button class="sync-btn" id="signOutBtn">Sign out</button>
   </div>
 </div>
@@ -177,8 +179,8 @@
 </div>
 
 <script src="firebase-config.js?v=1"></script>
-<script src="app.js?v=1786289053"></script>
-<script src="auth.js?v=6"></script>
+<script src="app.js?v=1786292632"></script>
+<script src="auth.js?v=7"></script>
 <script>
   if ("serviceWorker" in navigator) {
     window.addEventListener("load", () => {
