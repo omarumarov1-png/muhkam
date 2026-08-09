@@ -333,11 +333,16 @@
       // event, no end event, nothing ever plays. A watchdog distinguishes
       // that "silent drop" case from a real, still-loading voice so the UI
       // can say something more useful than nothing happening at all.
+      // Scaled to the utterance's own estimated length (same estimate the
+      // feedback timer bar already uses, which bakes in a 1s buffer) rather
+      // than a flat 4s -- a affected device used to stall for a full 4
+      // seconds after even a two-word answer; short utterances now recover
+      // much faster, longer ones still get proportionally more room.
       setTimeout(() => {
         if (settled || token !== _speakToken) return;
         if (onError) onError("silent-timeout");
         if (onEnd) onEnd();
-      }, 4000);
+      }, Math.max(1500, speechDurationMs(text)));
     } catch (e) {
       if (onError) onError(e.message || String(e));
       if (onEnd) onEnd();
