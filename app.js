@@ -471,12 +471,46 @@
     return { version: 1, exportedAt: new Date().toISOString(), courses };
   }
 
+  // Merge, not overwrite: this ran as a flat overwrite for a while, which
+  // meant every boot while signed in pulled whatever was in the cloud and
+  // silently replaced local progress with it outright -- including
+  // progress made THIS session that just hadn't reached the 800ms debounced
+  // push yet (completing an exercise, then reloading or closing the tab
+  // quickly, before it caught up), and any real progress made on a device
+  // that had gone a while without syncing. Same reasoning as Wird's card
+  // merge: keep whichever side represents more actual study investment,
+  // never pick a side wholesale.
+  function mergeProgress(local, remote) {
+    if (!local) return remote;
+    if (!remote) return local;
+    const union = (a, b) => Array.from(new Set([...(a || []), ...(b || [])]));
+    // toDateString() (e.g. "Mon Aug 09 2026") puts the weekday first, so
+    // comparing those strings directly is not chronological order -- parse
+    // back to real Date objects to find which side is actually more recent.
+    const localTime = local.lastActiveDate ? new Date(local.lastActiveDate).getTime() : 0;
+    const remoteTime = remote.lastActiveDate ? new Date(remote.lastActiveDate).getTime() : 0;
+    return {
+      xp: Math.max(local.xp || 0, remote.xp || 0),
+      streak: Math.max(local.streak || 0, remote.streak || 0),
+      lastActiveDate: remoteTime > localTime ? remote.lastActiveDate : local.lastActiveDate,
+      completedLessons: union(local.completedLessons, remote.completedLessons),
+      // capped queue -- union first so nothing genuinely unresolved on
+      // either side is lost, then trim from the front (oldest) same as
+      // the live eviction in afterAnswer().
+      missedBank: union(local.missedBank, remote.missedBank).slice(-MAX_MISSED),
+      wordHoard: union(local.wordHoard, remote.wordHoard),
+    };
+  }
+
   // Returns the number of courses written, or throws on invalid/unreadable input.
   function applyProgressPayload(payload) {
     if (!payload || typeof payload.courses !== "object") throw new Error("Not a valid sync payload");
     let count = 0;
     Object.keys(payload.courses).forEach(courseId => {
-      localStorage.setItem(progressKeyFor(courseId), JSON.stringify(payload.courses[courseId]));
+      let localCourse = null;
+      try { localCourse = JSON.parse(localStorage.getItem(progressKeyFor(courseId)) || "null"); } catch (e) { /* corrupt local -- remote wins for this course */ }
+      const merged = mergeProgress(localCourse, payload.courses[courseId]);
+      localStorage.setItem(progressKeyFor(courseId), JSON.stringify(merged));
       count++;
     });
     return count;
