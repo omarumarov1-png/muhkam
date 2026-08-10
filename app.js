@@ -275,7 +275,7 @@
   // target-language text would simply never be spoken -- see resolveSpeech().
   let audioManifest = {};
   let _currentBundledAudio = null;
-  function playBundledAudio(entry, onEnd) {
+  function playBundledAudio(entry, onEnd, onError) {
     if (_currentBundledAudio) { _currentBundledAudio.pause(); _currentBundledAudio = null; }
     // Directory derived from the ACTIVE course's own audioManifest path
     // (e.g. "data/audio-avar/manifest.json" -> "data/audio-avar/"), not
@@ -285,13 +285,41 @@
     // time and was never actually heard.
     const meta = COURSES.find(c => c.id === activeCourseId);
     const dir = (meta && meta.audioManifest) ? meta.audioManifest.replace(/manifest\.json$/, "") : "data/audio-uzbek/";
-    const audio = new Audio(`${dir}${entry.file}`);
+    const url = `${dir}${entry.file}`;
+    const audio = new Audio(url);
     _currentBundledAudio = audio;
     let settled = false;
+    let retried = false;
+    // A failed load fires BOTH the play() promise rejection AND the
+    // element's own 'error' event for the same failure -- same pattern
+    // (and same real-world "plays sometimes, not others" symptom) already
+    // found and fixed in Wird's playAudio(). This used to treat ANY
+    // failure identically to a real completion (settle() either way),
+    // silently -- a caller relying on onError (wireAudioStage's listening
+    // exercise, which shows a diagnostic message) never found out a
+    // bundled-audio file failed to load at all.
+    let handledThisAttempt = false;
     const settle = () => { if (settled) return; settled = true; if (onEnd) onEnd(); };
+    function retryPlay() {
+      handledThisAttempt = false;
+      audio.load();
+      audio.play().catch(handleError);
+    }
+    function handleError() {
+      if (_currentBundledAudio !== audio || settled || handledThisAttempt) return;
+      handledThisAttempt = true;
+      if (!retried) {
+        retried = true;
+        setTimeout(() => { if (_currentBundledAudio === audio && !settled) retryPlay(); }, 500);
+        return;
+      }
+      settled = true;
+      if (onError) onError("bundled-audio-failed");
+      else if (onEnd) onEnd();
+    }
     audio.addEventListener("ended", settle, { once: true });
-    audio.addEventListener("error", settle, { once: true });
-    audio.play().catch(settle);
+    audio.addEventListener("error", handleError);
+    audio.play().catch(handleError);
   }
   function speak(text, voice, onEnd, rate, onError) {
     if (!soundEnabled) { if (onEnd) onEnd(); return; }
@@ -303,7 +331,7 @@
       if (window.speechSynthesis && (window.speechSynthesis.speaking || window.speechSynthesis.pending)) {
         window.speechSynthesis.cancel();
       }
-      playBundledAudio(bundled, onEnd);
+      playBundledAudio(bundled, onEnd, onError);
       return;
     }
     if (!("speechSynthesis" in window) || !voice) { if (onEnd) onEnd(); return; }
