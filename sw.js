@@ -25,7 +25,7 @@ const SHELL_URLS = [
   "./",
   "./index.html",
   "./style.css?v=1784552040",
-  "./app.js?v=1786372620",
+  "./app.js?v=1786372961",
   "./auth.js?v=9",
   "./firebase-config.js?v=1",
   "./manifest.json?v=1",

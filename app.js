@@ -1763,12 +1763,24 @@
   function renderSummary() {
     const perfect = session.mistakes === 0;
     const xpEarned = 10 + (perfect ? 5 : 0);
-    progress.xp += xpEarned;
-    if (session.mode === "lesson" && !progress.completedLessons.includes(session.lesson.id)) {
-      progress.completedLessons.push(session.lesson.id);
+    // XP/streak/completedLessons are awarded as a side effect of
+    // rendering, not from a single guarded call site -- renderExercise()
+    // reaches this function every time its queue is empty, and while every
+    // path that could plausibly call it twice for the same session (the
+    // Enter-key skip-advance shortcut in particular) already appears
+    // self-guarded by advanceTimer's own truthiness check, this flag makes
+    // double-awarding structurally impossible regardless, rather than
+    // relying on every future code path continuing to get that guard
+    // right on its own.
+    if (!session.summarized) {
+      session.summarized = true;
+      progress.xp += xpEarned;
+      if (session.mode === "lesson" && !progress.completedLessons.includes(session.lesson.id)) {
+        progress.completedLessons.push(session.lesson.id);
+      }
+      updateStreakOnCompletion();
+      refreshTopStats();
     }
-    updateStreakOnCompletion();
-    refreshTopStats();
 
     const summaryTitle = perfect
       ? "Perfect run"
