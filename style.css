@@ -43,14 +43,15 @@
   --line: #40372a;
   --shadow: rgba(0, 0, 0, 0.5);
   --btn-shadow: #6e2129;
-  /* Solid, not translucent like --gold-wash -- a low-alpha gold wash over
-     this theme's near-black --paper composites to a dark brown that's
-     fine in a controlled render, but a solid color removes any dependency
-     on what's actually behind it (a real device's color management, or
-     the highlight ever sitting over something other than plain --paper)
-     -- reported as making the Arabic text hard to read during passage
-     playback. #4a3812 against --ink #ecdfc4 here is ~8.5:1 contrast. */
-  --reading-highlight: #4a3812;
+  /* Solid, not translucent like --gold-wash -- a low-alpha wash over this
+     theme's near-black --paper composites in a way that depends on
+     whatever's actually behind it (a real device's color management, or
+     the highlight ever sitting over something other than plain --paper).
+     A dark-brown solid version of this was reported as unpleasant/hard to
+     read -- switched to a dark teal instead (a color already in the
+     palette's own accent family, not gold/brown), still solid. #123a34
+     against --ink #ecdfc4 here is ~9:1 contrast. */
+  --reading-highlight: #123a34;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -70,7 +71,7 @@
     --line: #40372a;
     --shadow: rgba(0, 0, 0, 0.5);
     --btn-shadow: #6e2129;
-    --reading-highlight: #4a3812;
+    --reading-highlight: #123a34;
   }
 }
 
