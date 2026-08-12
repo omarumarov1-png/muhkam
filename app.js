@@ -725,13 +725,41 @@
     wireGlobalUi();
   }
 
+  // Reads a course's saved progress straight from localStorage without
+  // switching to it or loading its (potentially uncached) course JSON --
+  // the course picker needs this for every course at once just to render,
+  // so it has to stay cheap. Returns null for a course that's never been
+  // opened (no progress key written yet) so the caller can show "Not
+  // started" instead of a misleading "0 lessons".
+  function readCourseStats(courseId) {
+    try {
+      const raw = localStorage.getItem(progressKeyFor(courseId));
+      if (!raw) return null;
+      const p = JSON.parse(raw);
+      const lessonsDone = (p.completedLessons || []).length;
+      if (lessonsDone === 0 && !(p.xp > 0)) return null;
+      return { lessonsDone, streak: p.streak || 0, xp: p.xp || 0 };
+    } catch (e) {
+      return null; // corrupt entry for that course -- treat as not started
+    }
+  }
+
   function renderCoursePicker() {
     const list = document.getElementById("courseList");
-    list.innerHTML = COURSES.map(meta => `
+    list.innerHTML = COURSES.map(meta => {
+      const s = meta.id === activeCourseId ? { lessonsDone: progress.completedLessons.length, streak: progress.streak, xp: progress.xp } : readCourseStats(meta.id);
+      const sub = s
+        ? `${s.lessonsDone} lesson${s.lessonsDone === 1 ? "" : "s"} · ${s.xp} XP${s.streak > 0 ? ` · ${s.streak}🔥` : ""}`
+        : "Not started";
+      return `
       <button class="course-option ${meta.id === activeCourseId ? "active" : ""}" data-course="${meta.id}">
-        <span class="course-option-name">${meta.label}</span>
+        <span class="course-option-text">
+          <span class="course-option-name">${meta.label}</span>
+          <span class="course-option-sub">${sub}</span>
+        </span>
       </button>
-    `).join("");
+    `;
+    }).join("");
     list.querySelectorAll(".course-option").forEach(btn => {
       btn.addEventListener("click", async () => {
         const id = btn.dataset.course;
@@ -1260,12 +1288,23 @@
         window.speechSynthesis.speak(u);
         // Same silent-drop watchdog as speak(): some Android builds never
         // fire onend/onerror at all when playback fails, so the passage
-        // would otherwise just hang on the first line forever.
+        // would otherwise just hang on the first line forever. Scaled to
+        // this paragraph's own estimated length (same fix speak() already
+        // got in "Scale the speechSynthesis silent-drop watchdog to the
+        // utterance's own length instead of a flat 4s") -- this second,
+        // independent implementation never got that same fix, so any
+        // paragraph whose real speech took longer than a flat 4s had its
+        // watchdog fire mid-sentence: it force-advanced the line index and
+        // the "speaking" highlight to the NEXT paragraph while THIS one's
+        // utterance was still actually playing (nothing here calls
+        // .cancel() before the next speak()), so the highlighted line and
+        // the audio you actually heard fell out of sync -- exactly the
+        // "the highlight doesn't always work" symptom.
         setTimeout(() => {
           if (advanced || token !== _passageToken) return;
           if (i === 0) showAudioDiag(diagEl, "silent-timeout");
           advance();
-        }, 4000);
+        }, Math.max(1500, speechDurationMs(speakText)));
       }
       step();
     });

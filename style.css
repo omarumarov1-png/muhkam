@@ -15,6 +15,10 @@
   --line: #d9c7a3;
   --shadow: rgba(43, 30, 10, 0.18);
   --btn-shadow: #4d1119;
+  /* Dedicated (not --gold-wash) so the reading-passage highlight can be a
+     solid, guaranteed-legible color per theme without changing the many
+     small pill/badge elements that also use --gold-wash. */
+  --reading-highlight: #f1e2b6;
 
   --font-display: "Cormorant Garamond", Georgia, serif;
   --font-arabic: "Amiri", "Traditional Arabic", serif;
@@ -39,6 +43,14 @@
   --line: #40372a;
   --shadow: rgba(0, 0, 0, 0.5);
   --btn-shadow: #6e2129;
+  /* Solid, not translucent like --gold-wash -- a low-alpha gold wash over
+     this theme's near-black --paper composites to a dark brown that's
+     fine in a controlled render, but a solid color removes any dependency
+     on what's actually behind it (a real device's color management, or
+     the highlight ever sitting over something other than plain --paper)
+     -- reported as making the Arabic text hard to read during passage
+     playback. #4a3812 against --ink #ecdfc4 here is ~8.5:1 contrast. */
+  --reading-highlight: #4a3812;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -58,6 +70,7 @@
     --line: #40372a;
     --shadow: rgba(0, 0, 0, 0.5);
     --btn-shadow: #6e2129;
+    --reading-highlight: #4a3812;
   }
 }
 
@@ -85,6 +98,7 @@
   --shadow: rgba(43, 30, 10, 0.24);
   --btn-shadow: #4a1f1f;
   --font-body: "Lora", Georgia, serif;
+  --reading-highlight: #ecdfc0;
 }
 
 * { box-sizing: border-box; }
@@ -377,6 +391,8 @@ button.stat:hover { color: var(--teal); }
 }
 .course-option:hover { border-color: var(--gold); }
 .course-option.active { border-color: var(--teal); background: var(--teal-wash); }
+.course-option-text { display: flex; flex-direction: column; gap: 3px; }
+.course-option-sub { font-size: 0.76rem; font-weight: 500; color: var(--ink-soft); }
 
 /* min-width: 0 overrides the flex-item default of min-width: auto, which
    otherwise refuses to shrink below the content's natural intrinsic width —
@@ -783,7 +799,7 @@ button.stat:hover { color: var(--teal); }
 }
 .passage-listen-btn:hover { background: var(--gold); color: var(--paper); }
 .passage-line { margin-bottom: 12px; padding: 4px 8px; margin-left: -8px; margin-right: -8px; border-radius: 3px; transition: background-color 0.2s ease; }
-.passage-line.speaking { background: var(--gold-wash); }
+.passage-line.speaking { background: var(--reading-highlight); }
 .passage-native {
   font-family: var(--font-native);
   font-size: 1.3rem;

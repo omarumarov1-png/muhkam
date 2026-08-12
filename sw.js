@@ -24,9 +24,9 @@ const RUNTIME_CACHE = `muhkam-runtime-v${CACHE_VERSION}`;
 const SHELL_URLS = [
   "./",
   "./index.html",
-  "./style.css?v=1784552040",
-  "./app.js?v=1786372961",
-  "./auth.js?v=9",
+  "./style.css?v=1786547740",
+  "./app.js?v=1786547739",
+  "./auth.js?v=10",
   "./firebase-config.js?v=1",
   "./manifest.json?v=1",
   "./icons/apple-touch-icon-180.png?v=1",

@@ -264,7 +264,20 @@
         if (!snap.exists()) return null;
         const data = snap.data();
         if (!data.progressJson) return null;
-        try { return JSON.parse(data.progressJson); } catch (e) { return null; }
+        try {
+          // Dropping __proto__/constructor/prototype keys during parse (not
+          // after) means a crafted payload can never reach the later
+          // Object.assign-based merge in app.js's mergeProgress() with one
+          // of those as an own key -- Object.assign DOES invoke the
+          // Object.prototype.__proto__ setter for an own "__proto__" key on
+          // its source, which would repoint the merged object's prototype.
+          // This document is already scoped to the signed-in user's own
+          // uid by Firestore rules, so the practical blast radius is a user
+          // corrupting their own local merge, not another account's data --
+          // still worth closing off at zero cost.
+          return JSON.parse(data.progressJson, (key, value) =>
+            (key === "__proto__" || key === "constructor" || key === "prototype") ? undefined : value);
+        } catch (e) { return null; }
       },
       pushProgress(payload) {
         if (!this.user) return;
