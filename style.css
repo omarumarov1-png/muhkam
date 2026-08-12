@@ -290,6 +290,11 @@ button.stat {
   padding: 0;
 }
 button.stat:hover { color: var(--teal); }
+.offline-pill {
+  display: flex; align-items: center; gap: 4px; font-family: var(--font-mono); font-size: 0.72rem; font-weight: 700;
+  color: var(--gold); background: var(--gold-wash); border: 1px solid var(--gold);
+  border-radius: 999px; padding: 4px 9px; white-space: nowrap;
+}
 .stat-mistakes:hover { color: var(--maroon); }
 .stat-mistakes.hidden { display: none; }
 .stat-practice:hover { color: var(--teal); }
@@ -388,7 +393,7 @@ button.stat:hover { color: var(--teal); }
   font-size: 0.95rem;
   font-weight: 600;
   color: var(--ink);
-  transition: border-color 0.15s ease;
+  transition: border-color 0.15s ease, transform 0.12s ease;
 }
 .course-option:hover { border-color: var(--gold); }
 .course-option.active { border-color: var(--teal); background: var(--teal-wash); }
@@ -406,6 +411,25 @@ button.stat:hover { color: var(--teal); }
    width and its flex children default to the left edge — a centered
    header sitting above a roadmap column crammed left with a huge empty
    void on the right, instead of the intended centered column. */
+.pull-indicator {
+  /* Fixed pixel left-offset, not left:50%+transform:translateX(-50%) --
+     the pull gesture drives this element's own `transform` directly as a
+     plain translateY, which would clobber a transform-based centering on
+     every touchmove. */
+  position: fixed; left: calc(50% - 17px); top: -60px;
+  width: 34px; height: 34px; border-radius: 50%; background: var(--paper-raised); border: 1px solid var(--line);
+  display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 10px var(--shadow);
+  z-index: 30; transition: transform 0.05s linear;
+}
+.pull-indicator.armed { border-color: var(--gold); }
+.pull-spin {
+  width: 15px; height: 15px; border-radius: 50%; border: 2px solid var(--line); border-top-color: var(--ink-soft);
+  transition: border-color 0.15s ease;
+}
+.pull-indicator.armed .pull-spin { border-top-color: var(--gold); }
+.pull-indicator.spinning { transition: none; }
+.pull-indicator.spinning .pull-spin { animation: pullSpin 0.7s linear infinite; border-top-color: var(--gold); }
+@keyframes pullSpin { to { transform: rotate(360deg); } }
 .screen {
   flex: 1;
   min-width: 0;
@@ -413,6 +437,27 @@ button.stat:hover { color: var(--teal); }
   max-width: 760px;
   margin: 0 auto;
   padding: 28px 20px 60px;
+}
+.screen-fade-in { animation: screenFadeIn 0.28s cubic-bezier(0.2,0.7,0.3,1); }
+@keyframes screenFadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+@media (prefers-reduced-motion: reduce) { .screen-fade-in { animation: none; } }
+
+/* Tactile press feedback for the flatter tap targets that don't already
+   have their own 3D-press treatment (.btn-primary/.trail-node/
+   .listen-play-btn already translateY + drop their shadow on :active --
+   left alone here, this only fills in the ones with no press feedback
+   at all yet). A plain scale-down fits these better than forcing the 3D
+   look onto elements with no resting box-shadow to reduce. */
+.option:active:not(:disabled), .tile:active:not(:disabled), .match-card:active:not(:disabled),
+.course-option:active, .course-toggle:active, .stat:active, .menu-toggle:active,
+.theme-toggle:active, .sound-toggle:active, .level-trophy:active {
+  transform: scale(0.96);
+}
+@media (prefers-reduced-motion: reduce) {
+  .option:active, .tile:active, .match-card:active, .course-option:active,
+  .course-toggle:active, .stat:active, .menu-toggle:active, .theme-toggle:active, .sound-toggle:active, .level-trophy:active {
+    transform: none;
+  }
 }
 
 /* ============ Home ============ */
@@ -480,6 +525,13 @@ button.stat:hover { color: var(--teal); }
   letter-spacing: 0.04em;
 }
 .level-count { font-family: var(--font-mono); font-size: 0.75rem; color: var(--ink-soft); }
+.level-trophies { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin: 14px 0 4px; }
+.level-trophy {
+  font-family: var(--font-mono); font-size: 0.78rem; font-weight: 700; color: var(--gold);
+  background: var(--gold-wash); border: 1px solid var(--gold); border-radius: 999px; padding: 5px 12px;
+  cursor: pointer; transition: transform 0.12s ease, background-color 0.15s ease;
+}
+.level-trophy:hover { background: var(--gold); color: #fff; }
 .level-locked-note { font-size: 0.8rem; color: var(--ink-soft); background: var(--paper-raised); border: 1px dashed var(--line); border-radius: 4px; padding: 14px 16px; margin-top: 10px; }
 
 /* A calm vertical trail: one plain CSS line (.trail-rail), no computed
@@ -494,6 +546,7 @@ button.stat:hover { color: var(--teal); }
 .trail-rail-fill {
   position: absolute; top: 0; left: 0; width: 100%;
   background: linear-gradient(to bottom, var(--maroon), var(--gold));
+  transition: height .5s cubic-bezier(.2,.8,.3,1);
 }
 .trail-list { display: flex; flex-direction: column; gap: 24px; }
 .trail-row { position: relative; z-index: 1; display: flex; align-items: center; gap: 16px; }
@@ -650,6 +703,13 @@ button.stat:hover { color: var(--teal); }
   display: grid;
   gap: 10px;
 }
+.kbd-hint { display: none; margin: 10px 0 0; font-size: 0.72rem; color: var(--ink-soft); text-align: center; }
+.kbd-hint kbd {
+  font-family: var(--font-mono); font-size: 0.68rem;
+  background: var(--paper-deep); border: 1px solid var(--line); border-radius: 4px; padding: 1px 6px;
+  margin: 0 2px;
+}
+@media (hover: hover) and (pointer: fine) { .kbd-hint { display: block; } }
 .option {
   text-align: left;
   background: var(--paper);
@@ -717,7 +777,7 @@ button.stat:hover { color: var(--teal); }
 .match-card {
   padding: 12px 10px; border-radius: 3px; border: 1.5px solid var(--line); background: var(--paper);
   color: var(--ink); font-size: 0.85rem; text-align: left; line-height: 1.45; cursor: pointer;
-  transition: border-color 0.12s ease, background-color 0.12s ease, opacity 0.2s ease;
+  transition: border-color 0.12s ease, background-color 0.12s ease, opacity 0.2s ease, transform 0.12s ease;
 }
 .match-card[dir="rtl"], .matching-col[dir="rtl"] .match-card { font-family: var(--font-native); font-size: 1rem; text-align: right; }
 .match-card:hover:not(:disabled) { border-color: var(--gold); }
@@ -1017,6 +1077,32 @@ button.stat:hover { color: var(--teal); }
   color: var(--maroon);
   display: block;
 }
+.level-complete-card { text-align: center; align-items: center; padding: 40px 26px 30px; max-width: 380px; }
+.level-complete-card .medal { width: 76px; height: 76px; margin: 0 auto 14px; animation: content-in 0.35s ease-out; }
+.level-complete-badge {
+  display: inline-block; font-family: var(--font-mono); font-size: 0.8rem; font-weight: 700;
+  color: var(--gold); background: var(--gold-wash); border: 1px solid var(--gold);
+  border-radius: 4px; padding: 4px 10px; letter-spacing: 0.04em; margin-bottom: 10px;
+}
+.level-complete-card h2 { font-family: var(--font-display); font-size: 1.9rem; margin: 0 0 8px; }
+.level-complete-card p { color: var(--ink-soft); margin: 0 0 24px; font-size: 0.92rem; line-height: 1.5; }
+.level-complete-card .btn-primary { width: 100%; max-width: 220px; }
+.confetti-canvas { position: fixed; inset: 0; z-index: 20; pointer-events: none; }
+
+.streak-toast {
+  position: fixed; left: 50%; bottom: 22px; transform: translate(-50%, 12px);
+  display: flex; align-items: center; gap: 10px;
+  background: var(--paper-raised); border: 1px solid var(--gold); border-radius: 40px;
+  padding: 12px 20px; box-shadow: 0 8px 24px var(--shadow);
+  opacity: 0; transition: opacity 0.25s ease, transform 0.25s ease;
+  z-index: 30; max-width: calc(100vw - 40px);
+}
+.streak-toast.show { opacity: 1; transform: translate(-50%, 0); }
+.streak-toast-flame { font-size: 1.2rem; }
+.streak-toast-text { font-size: 0.9rem; color: var(--ink); white-space: nowrap; }
+.streak-toast-text b { color: var(--gold); }
+@media (prefers-reduced-motion: reduce) { .streak-toast { transition: opacity 0.25s ease; } }
+
 .summary-stats .stat-block .lbl {
   font-family: var(--font-mono);
   font-size: 0.7rem;

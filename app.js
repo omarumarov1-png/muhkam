@@ -72,6 +72,61 @@
     localStorage.setItem(THEME_KEY, next);
   }
 
+  // The app already works fully offline (course JSON + bundled audio are
+  // both runtime-cached by the service worker) but never showed the user
+  // whether they actually were offline -- this is the only UI surface for
+  // that state.
+  function wireOfflineIndicator() {
+    const pill = document.getElementById("offlinePill");
+    if (!pill) return;
+    const update = () => pill.classList.toggle("hidden", navigator.onLine);
+    window.addEventListener("online", update);
+    window.addEventListener("offline", update);
+    update();
+  }
+
+  // Pull-to-refresh on the roadmap only -- mid-lesson (session is non-null
+  // the whole time a lesson/review is in progress) a stray downward drag
+  // re-syncing and re-rendering out from under the learner would lose
+  // their place, not help them. Same gesture/damping as Wird's port of
+  // this same idea -- see the comment there for the full reasoning.
+  function wirePullToRefresh() {
+    const indicator = document.getElementById("pullIndicator");
+    if (!indicator) return;
+    const THRESHOLD = 68;
+    let startY = null, pulling = false, refreshing = false;
+    document.addEventListener("touchstart", e => {
+      if (session !== null || window.scrollY > 0 || refreshing) { startY = null; return; }
+      startY = e.touches[0].clientY;
+      pulling = false;
+    }, { passive: true });
+    document.addEventListener("touchmove", e => {
+      if (startY === null || refreshing) return;
+      const dy = e.touches[0].clientY - startY;
+      if (dy <= 0) { pulling = false; indicator.style.transform = ""; indicator.classList.remove("armed"); return; }
+      if (window.scrollY > 0) return;
+      pulling = true;
+      const dist = Math.min(THRESHOLD * 1.6, dy * 0.5);
+      indicator.style.transform = `translateY(${dist}px)`;
+      indicator.classList.toggle("armed", dist >= THRESHOLD);
+    }, { passive: true });
+    document.addEventListener("touchend", async () => {
+      if (!pulling) { startY = null; return; }
+      pulling = false;
+      const armed = indicator.classList.contains("armed");
+      if (!armed) { indicator.style.transform = ""; startY = null; return; }
+      refreshing = true;
+      indicator.classList.add("spinning");
+      indicator.style.transform = `translateY(${THRESHOLD}px)`;
+      try { await syncFromCloud(); } catch (e) { /* offline or signed out -- pull-to-refresh just becomes a no-op */ }
+      if (session === null) renderHome();
+      indicator.classList.remove("spinning", "armed");
+      indicator.style.transform = "";
+      refreshing = false;
+      startY = null;
+    });
+  }
+
   initTheme();
 
   // ---------- sound ----------
@@ -162,6 +217,13 @@
       playTone(ctx, 207.65, 0, 0.24, 0.13);
       playTone(ctx, 174.61, 0.06, 0.3, 0.11);
     });
+  }
+  // No iOS Safari support at all (silently a no-op there); Android needs a
+  // real user gesture, which every call site here already has (an answer
+  // tap, a celebration triggered by one). Not gated on soundEnabled --
+  // muting sound effects isn't the same preference as wanting no vibration.
+  function haptic(pattern) {
+    try { if (navigator.vibrate) navigator.vibrate(pattern); } catch (e) { /* unsupported or blocked -- silently skip */ }
   }
 
   // ---------- text-to-speech ----------
@@ -532,6 +594,7 @@
       // the live eviction in afterAnswer().
       missedBank: union(local.missedBank, remote.missedBank).slice(-MAX_MISSED),
       wordHoard: union(local.wordHoard, remote.wordHoard),
+      celebratedLevels: union(local.celebratedLevels, remote.celebratedLevels),
     });
   }
 
@@ -549,14 +612,56 @@
     return count;
   }
 
+  const STREAK_MILESTONES = [3, 7, 14, 30, 50, 100, 200, 365];
   function updateStreakOnCompletion() {
     const today = new Date().toDateString();
     if (progress.lastActiveDate !== today) {
       const yesterday = new Date(Date.now() - 86400000).toDateString();
       progress.streak = progress.lastActiveDate === yesterday ? progress.streak + 1 : 1;
       progress.lastActiveDate = today;
+      // The lastActiveDate guard above only lets this branch run once per
+      // real calendar day, and streak either increments by exactly 1 or
+      // resets to 1 -- so hitting an exact milestone value only ever
+      // happens once per streak run, no separate "already shown" flag needed.
+      if (STREAK_MILESTONES.includes(progress.streak)) showStreakMilestoneToast(progress.streak);
     }
     saveProgress();
+  }
+  // A brief, self-dismissing toast rather than a full modal -- a streak
+  // milestone is a nice nudge, not something that should block the flow
+  // back to the roadmap the way a level-complete celebration does.
+  function showStreakMilestoneToast(days) {
+    const toast = document.createElement("div");
+    toast.className = "streak-toast";
+    toast.innerHTML = `<span class="streak-toast-flame">🔥</span><span class="streak-toast-text"><b>${days}-day streak!</b> Keep it going.</span>`;
+    document.body.appendChild(toast);
+    haptic([15, 30, 15]);
+    requestAnimationFrame(() => toast.classList.add("show"));
+    setTimeout(() => {
+      toast.classList.remove("show");
+      setTimeout(() => toast.remove(), 400);
+    }, 3200);
+  }
+
+  // Animates every [data-count] element's textContent from 0 up to its
+  // target integer -- purely decorative, so a reduced-motion preference
+  // just snaps straight to the final value instead of skipping it.
+  function animateCountUps(container) {
+    const els = container.querySelectorAll("[data-count]");
+    const reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    els.forEach(el => {
+      const target = Number(el.dataset.count) || 0;
+      if (reduce || target === 0) { el.textContent = target; return; }
+      const duration = Math.min(900, 250 + target * 12);
+      const start = performance.now();
+      function tick(now) {
+        const p = Math.min(1, (now - start) / duration);
+        const eased = 1 - Math.pow(1 - p, 3);
+        el.textContent = Math.round(eased * target);
+        if (p < 1) requestAnimationFrame(tick);
+      }
+      requestAnimationFrame(tick);
+    });
   }
 
   function refreshTopStats() {
@@ -772,6 +877,8 @@
   function wireGlobalUi() {
     themeToggleEl.addEventListener("click", toggleTheme);
     soundToggleEl.addEventListener("click", toggleSound);
+    wireOfflineIndicator();
+    wirePullToRefresh();
     const testSoundBtn = document.getElementById("testSoundBtn");
     if (testSoundBtn) {
       testSoundBtn.addEventListener("click", () => {
@@ -920,9 +1027,26 @@
     let html = "";
     for (let i = 0; i < count; i++) {
       const h = 8 + Math.round(Math.sin((i / count) * Math.PI) * 22);
-      html += `<div class="bar${i < filled ? " filled" : ""}" style="height:${h}px"></div>`;
+      // Starts at height:0 -- growGrowthWaveform() below animates each bar
+      // up to its real data-h shortly after mount, using the height
+      // transition .waveform .bar already has for its progress-color
+      // change, just triggered on mount instead.
+      html += `<div class="bar${i < filled ? " filled" : ""}" data-h="${h}" style="height:0"></div>`;
     }
     return html;
+  }
+  // Staggers each bar's grow-in so the waveform sweeps up left-to-right
+  // rather than popping in all at once. Skipped under reduced-motion --
+  // bars just render at their real height immediately in that case, since
+  // the inline height:0 from waveformBars() would otherwise leave them
+  // permanently flat.
+  function growWaveform(container) {
+    const bars = container.querySelectorAll(".waveform .bar");
+    const reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    bars.forEach((bar, i) => {
+      if (reduce) { bar.style.height = bar.dataset.h + "px"; return; }
+      setTimeout(() => { bar.style.height = bar.dataset.h + "px"; }, 20 + i * 22);
+    });
   }
 
   // The level whose roadmap should show by default: the one containing the
@@ -946,6 +1070,16 @@
     renderLevelRoadmap();
   }
 
+  // Scoped to the roadmap and the lesson-summary screen only -- the actual
+  // per-exercise re-renders inside a lesson happen every ~1-2 seconds and
+  // already have their own feedback-state animation, so fading the whole
+  // screen on every one of those would be noisy rather than smooth.
+  function applyScreenFadeIn() {
+    screenEl.classList.remove("screen-fade-in");
+    void screenEl.offsetWidth;
+    screenEl.classList.add("screen-fade-in");
+  }
+
   // Each level gets its own roadmap: lessons as round nodes running bottom
   // (lesson 1) to top (last lesson), like climbing toward the level's peak.
   // Completing the level unlocks a "next level" node above the last lesson.
@@ -964,6 +1098,14 @@
     const levelDone = levelLessons.filter(l => progress.completedLessons.includes(l.id)).length;
     const levelComplete = levelLessons.length > 0 && levelDone === levelLessons.length;
     const railPct = levelLessons.length ? Math.round((levelDone / levelLessons.length) * 100) : 0;
+
+    // Every completed level gets its one-time confetti celebration (see
+    // checkLevelComplete/showLevelCompleteCelebration), but that moment
+    // passes and progress.celebratedLevels was never shown anywhere again
+    // afterward -- no way to look back at what you'd actually finished.
+    const trophyLevels = (progress.celebratedLevels || [])
+      .map(id => course.levels.find(lv => lv.id === id))
+      .filter(Boolean);
 
     // A calm vertical trail instead of a computed winding road: one plain
     // CSS line (no JS geometry, no SVG) with rows gently alternating indent
@@ -997,11 +1139,16 @@
       <div class="level-progress-card">
         <div class="waveform">${waveformBars(overallPct)}</div>
         <div class="level-progress-info">
-          <div class="pct">${overallPct}%</div>
+          <div class="pct"><b data-count="${overallPct}">0</b>%</div>
           <div class="label">Overall progress</div>
           <div class="count">${doneLessons} / ${totalLessons} lessons</div>
         </div>
       </div>
+      ${trophyLevels.length ? `
+        <div class="level-trophies">
+          ${trophyLevels.map(lv => `<button class="level-trophy" data-level="${lv.id}" title="${lv.label}${lv.labelNative ? ` · ${lv.labelNative}` : ""} — completed">🏆 ${lv.cefr}</button>`).join("")}
+        </div>
+      ` : ""}
       <div class="roadmap-header">
         <button class="roadmap-arrow" id="prevLevelBtn" ${prevLevel ? "" : "disabled"} aria-label="Previous level">‹</button>
         <div class="roadmap-level-info">
@@ -1014,12 +1161,24 @@
       ${!levelLessons.length
         ? `<div class="level-locked-note">Lessons for ${level.cefr} are still being prepared and will appear here soon.</div>`
         : `<div class="trail-wrap">
-            <div class="trail-rail"><div class="trail-rail-fill" style="height:${railPct}%"></div></div>
+            <div class="trail-rail"><div class="trail-rail-fill" data-h="${railPct}" style="height:0"></div></div>
             <div class="trail-list" id="roadmapEl">${rowsHtml}</div>
            </div>`
       }
     `;
+    applyScreenFadeIn();
+    growWaveform(screenEl);
+    animateCountUps(screenEl);
+    const railFill = screenEl.querySelector(".trail-rail-fill");
+    if (railFill) {
+      const reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      if (reduce) railFill.style.height = railFill.dataset.h + "%";
+      else setTimeout(() => { railFill.style.height = railFill.dataset.h + "%"; }, 80);
+    }
 
+    document.querySelectorAll(".level-trophy").forEach(btn => {
+      btn.addEventListener("click", () => { currentLevelId = btn.dataset.level; renderLevelRoadmap(); });
+    });
     document.getElementById("prevLevelBtn").addEventListener("click", () => {
       if (!prevLevel) return;
       currentLevelId = prevLevel.id;
@@ -1142,6 +1301,13 @@
     });
   }
 
+  // The global 1-4 number-key shortcut (picks the Nth .options .option --
+  // see wireGlobalUi's keydown handler) had no visible hint anywhere.
+  // Hidden on touch-only devices via the same hover:hover+pointer:fine
+  // gate Wird uses for its own arrow-key hint.
+  function kbdHintHtml() {
+    return `<div class="kbd-hint"><kbd>1</kbd><kbd>2</kbd><kbd>3</kbd><kbd>4</kbd> to pick &nbsp;&middot;&nbsp; <kbd>&crarr;</kbd> to continue</div>`;
+  }
   function kicker(ex) {
     if (ex.type === "word-bank") return `Build the sentence in ${course.languageName || course.title}`;
     if (ex.type === "comprehension") return "Reading comprehension";
@@ -1373,6 +1539,7 @@
   function afterAnswer(correct) {
     const ex = currentExercise();
     correct ? playCorrectSound() : playIncorrectSound();
+    haptic(correct ? 12 : 35);
     if (correct) {
       session.solved.add(ex._idx);
       session.combo++;
@@ -1407,6 +1574,7 @@
         ${ex.type === "comprehension" ? passagePanel() : ""}
         ${promptBlock(ex)}
         <div class="options">${options}</div>
+        ${kbdHintHtml()}
         <div id="feedbackSlot"></div>
       </div>
     `);
@@ -1588,6 +1756,7 @@
         <div class="options">
           ${ex.options.map((opt, i) => `<button class="option" data-i="${i}">${opt}</button>`).join("")}
         </div>
+        ${kbdHintHtml()}
         <div id="feedbackSlot"></div>
       </div>
     `);
@@ -1718,6 +1887,7 @@
         <div class="options">
           ${options.map(opt => `<button class="option" data-word="${opt}">${opt}</button>`).join("")}
         </div>
+        ${kbdHintHtml()}
         <div id="feedbackSlot"></div>
       </div>
     `);
@@ -1811,11 +1981,13 @@
     // double-awarding structurally impossible regardless, rather than
     // relying on every future code path continuing to get that guard
     // right on its own.
+    let justCompletedLevelId = null;
     if (!session.summarized) {
       session.summarized = true;
       progress.xp += xpEarned;
       if (session.mode === "lesson" && !progress.completedLessons.includes(session.lesson.id)) {
         progress.completedLessons.push(session.lesson.id);
+        justCompletedLevelId = checkLevelComplete(session.lesson.levelId);
       }
       updateStreakOnCompletion();
       refreshTopStats();
@@ -1833,17 +2005,103 @@
         <h2>${summaryTitle}</h2>
         <p>${session.lesson.title}${session.lesson.titleNative ? ` &middot; ${session.lesson.titleNative}` : ""}</p>
         <div class="summary-stats">
-          <div class="stat-block"><span class="num">+${xpEarned}</span><span class="lbl">XP</span></div>
-          <div class="stat-block"><span class="num">${session.mistakes}</span><span class="lbl">Mistakes</span></div>
-          <div class="stat-block"><span class="num">${progress.streak}</span><span class="lbl">Day streak</span></div>
+          <div class="stat-block"><span class="num">+<b data-count="${xpEarned}">0</b></span><span class="lbl">XP</span></div>
+          <div class="stat-block"><span class="num"><b data-count="${session.mistakes}">0</b></span><span class="lbl">Mistakes</span></div>
+          <div class="stat-block"><span class="num"><b data-count="${progress.streak}">0</b></span><span class="lbl">Day streak</span></div>
         </div>
         <button class="btn btn-primary" id="continueHome">Continue</button>
       </div>
     `;
+    animateCountUps(screenEl);
     document.getElementById("continueHome").addEventListener("click", () => {
       session = null;
       renderHome();
     });
+    if (justCompletedLevelId) showLevelCompleteCelebration(justCompletedLevelId);
+  }
+
+  // Fires once the first time every lesson in a level is completed (never
+  // again for that level -- see progress.celebratedLevels below). Returns
+  // the level's id if this lesson was genuinely the one that finished it,
+  // so the caller can show the celebration overlay -- or null otherwise,
+  // covering both "this level was already complete/celebrated" and "this
+  // lesson wasn't the last one needed".
+  function checkLevelComplete(levelId) {
+    if (!levelId) return null;
+    progress.celebratedLevels = progress.celebratedLevels || [];
+    if (progress.celebratedLevels.includes(levelId)) return null;
+    const levelLessons = flatLessons.filter(l => l.levelId === levelId);
+    if (!levelLessons.length) return null;
+    if (!levelLessons.every(l => progress.completedLessons.includes(l.id))) return null;
+    progress.celebratedLevels.push(levelId);
+    return levelId;
+  }
+
+  // Same one-shot canvas confetti approach as Wird's achievement overlay
+  // (this app's sibling, same zero-dependency/no-build-step philosophy) --
+  // ported rather than shared since the two apps don't share any code.
+  function fireConfetti() {
+    if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    const canvas = document.createElement("canvas");
+    canvas.className = "confetti-canvas";
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    document.body.appendChild(canvas);
+    const ctx = canvas.getContext("2d");
+    if (!ctx) { canvas.remove(); return; }
+    const colors = ["#b8901f", "#d6ac33", "#7a1f2b", "#2f6f63", "#6cc0ae"];
+    const particles = Array.from({ length: 70 }, () => ({
+      x: canvas.width / 2 + (Math.random() - 0.5) * 140,
+      y: canvas.height * 0.32 + (Math.random() - 0.5) * 40,
+      vx: (Math.random() - 0.5) * 9,
+      vy: -Math.random() * 9 - 4,
+      size: 4 + Math.random() * 4,
+      color: colors[Math.floor(Math.random() * colors.length)],
+      rot: Math.random() * Math.PI * 2,
+      vrot: (Math.random() - 0.5) * 0.3,
+    }));
+    const gravity = 0.28;
+    const duration = 1700;
+    const start = performance.now();
+    function frame(now) {
+      const elapsed = now - start;
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      particles.forEach(p => {
+        p.vy += gravity;
+        p.x += p.vx;
+        p.y += p.vy;
+        p.rot += p.vrot;
+        ctx.save();
+        ctx.translate(p.x, p.y);
+        ctx.rotate(p.rot);
+        ctx.fillStyle = p.color;
+        ctx.globalAlpha = Math.max(0, 1 - elapsed / duration);
+        ctx.fillRect(-p.size / 2, -p.size / 2, p.size, p.size * 0.6);
+        ctx.restore();
+      });
+      if (elapsed < duration) requestAnimationFrame(frame);
+      else canvas.remove();
+    }
+    requestAnimationFrame(frame);
+  }
+
+  function showLevelCompleteCelebration(levelId) {
+    const level = course.levels.find(lv => lv.id === levelId);
+    if (!level) return;
+    const modal = document.getElementById("levelCompleteModal");
+    if (!modal) return;
+    const levelLessons = flatLessons.filter(l => l.levelId === levelId);
+    document.getElementById("levelCompleteBadge").textContent = level.cefr;
+    document.getElementById("levelCompleteTitle").textContent = "Level Complete";
+    document.getElementById("levelCompleteSub").textContent =
+      `${level.label}${level.labelNative ? ` · ${level.labelNative}` : ""} — ${levelLessons.length} lessons, done.`;
+    modal.classList.remove("hidden");
+    fireConfetti();
+    haptic([20, 40, 20, 40, 40]);
+    const closeBtn = document.getElementById("levelCompleteCloseBtn");
+    const close = () => modal.classList.add("hidden");
+    closeBtn.onclick = close;
+    modal.onclick = e => { if (e.target === modal) close(); };
   }
 
   window.__appReady = boot;
