@@ -295,6 +295,11 @@ button.stat:hover { color: var(--teal); }
   color: var(--gold); background: var(--gold-wash); border: 1px solid var(--gold);
   border-radius: 999px; padding: 4px 9px; white-space: nowrap;
 }
+/* Every other .hidden toggle in this file is scoped per-element -- this one
+   was missing entirely, so the "hidden" class on this pill did nothing at
+   all and it stayed permanently visible regardless of wireOfflineIndicator
+   ever running. */
+.offline-pill.hidden { display: none; }
 .stat-mistakes:hover { color: var(--maroon); }
 .stat-mistakes.hidden { display: none; }
 .stat-practice:hover { color: var(--teal); }
