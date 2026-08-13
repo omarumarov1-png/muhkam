@@ -877,7 +877,8 @@
   function wireGlobalUi() {
     themeToggleEl.addEventListener("click", toggleTheme);
     soundToggleEl.addEventListener("click", toggleSound);
-    wireOfflineIndicator();
+    // Disabled for now -- navigator.onLine was flagging false positives.
+    // wireOfflineIndicator();
     wirePullToRefresh();
     const testSoundBtn = document.getElementById("testSoundBtn");
     if (testSoundBtn) {
