@@ -383,6 +383,9 @@ button.stat:hover { color: var(--teal); }
   display: flex;
   flex-direction: column;
   gap: 8px;
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
 }
 .course-option {
   display: flex;
@@ -1144,6 +1147,7 @@ button.stat:hover { color: var(--teal); }
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-shrink: 0;
 }
 .modal-header h3 {
   font-family: var(--font-display);
@@ -1170,6 +1174,7 @@ button.stat:hover { color: var(--teal); }
   font-size: 0.85rem;
   color: var(--ink-soft);
   margin: 6px 0 16px;
+  flex-shrink: 0;
 }
 
 .sync-btn {
