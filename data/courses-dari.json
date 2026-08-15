@@ -1,0 +1,1386 @@
+{
+  "course": {
+    "id": "dari",
+    "title": "Dari, Start to Fluent",
+    "subtitle": "Afghan Dari Persian from absolute beginner through fluent, everyday command -- real sentences, grammar, and conversational practice",
+    "dir": "rtl",
+    "lang": "prs",
+    "languageName": "Dari",
+    "fontNative": "'Vazirmatn', 'Noto Sans Arabic', serif",
+    "flag": "دری",
+    "heroEyebrow": "دری · A1 → C2",
+    "heroNative": "دری",
+    "heroLedeSuffix": "Real sentences from lesson one, built the same way as this app's other courses.",
+    "uiStrings": {
+      "grammarNote": "قاعده",
+      "didYouKnow": "آیا می‌دانید؟"
+    },
+    "grammarTopics": {
+      "greetings-copula": {
+        "title": "Greeting Someone and Saying \"I am...\"",
+        "pattern": "[Subject] + [adjective] + هستم/هستی/است/هستیم/هستید/هستند",
+        "explanation": "Dari's \"to be\" verb (بودن) comes AFTER the word it describes, unlike English \"I am good\" -> \"من خوب هستم\" is literally \"I good am.\" Each person has its own ending: هستم (I am), هستی (you are, one friend), است (he/she/it is), هستیم (we are), هستید (you are, formal or more than one person), هستند (they are). This copula is often shortened to -am/-i/-ast/-im/-id/-and in fast speech, but the full forms here are always correct and are what you will see written.",
+        "fact": "شما (shomā) works as both a polite \"you\" for one person and the plain \"you\" for a group -- Dari does not force a separate plural pronoun the way English needs \"you all.\"",
+        "dialogue": [
+          {
+            "native": "سلام، شما چطور هستید؟",
+            "en": "Hello, how are you?"
+          },
+          {
+            "native": "من خوب هستم، تشکر. تو چطور هستی؟",
+            "en": "I am good, thank you. How are you?"
+          },
+          {
+            "native": "من هم خوب هستم.",
+            "en": "I am also good."
+          }
+        ]
+      }
+    },
+    "levels": [
+      {
+        "id": "a1",
+        "cefr": "A1",
+        "label": "Foundations",
+        "labelNative": "بنیاد",
+        "lessons": [
+          {
+            "id": "prs-a1-1",
+            "number": 1,
+            "title": "Greetings",
+            "description": "Greetings",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "prs-en",
+                "prompt": "سلام.",
+                "options": [
+                  "I am good, thank you.",
+                  "Hello.",
+                  "No.",
+                  "We are three sisters."
+                ],
+                "answerIndex": 1,
+                "translit": "Salaam."
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-prs",
+                "prompt": "Hello.",
+                "bank": [
+                  "سلام."
+                ],
+                "answer": [
+                  "سلام."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "prs-en",
+                "prompt": "سلام، شما چطور هستید؟",
+                "options": [
+                  "I am from Kabul.",
+                  "How are you?",
+                  "I have one brother.",
+                  "Hello, how are you?"
+                ],
+                "answerIndex": 3,
+                "translit": "Salaam, shomā chetor hastid?"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-prs",
+                "prompt": "Hello, how are you?",
+                "bank": [
+                  "هستید؟",
+                  "سلام،",
+                  "چطور",
+                  "شما"
+                ],
+                "answer": [
+                  "سلام،",
+                  "شما",
+                  "چطور",
+                  "هستید؟"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "prs-en",
+                "prompt": "من خوب هستم، تشکر.",
+                "options": [
+                  "Goodbye.",
+                  "My father and mother are good.",
+                  "I am very happy.",
+                  "I am good, thank you."
+                ],
+                "answerIndex": 3,
+                "translit": "Man khub hastam, tashakor."
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-prs",
+                "prompt": "I am good, thank you.",
+                "bank": [
+                  "تشکر.",
+                  "من",
+                  "خوب",
+                  "هستم،"
+                ],
+                "answer": [
+                  "من",
+                  "خوب",
+                  "هستم،",
+                  "تشکر."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "prs-en",
+                "prompt": "تو چطور هستی؟",
+                "options": [
+                  "How are you?",
+                  "This is my brother.",
+                  "Yes, this is my house.",
+                  "I am good, thank you."
+                ],
+                "answerIndex": 0,
+                "translit": "To chetor hasti?"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-prs",
+                "prompt": "How are you?",
+                "bank": [
+                  "تو",
+                  "چطور",
+                  "هستی؟"
+                ],
+                "answer": [
+                  "تو",
+                  "چطور",
+                  "هستی؟"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "prs-en",
+                "prompt": "من هم خوب هستم.",
+                "options": [
+                  "Hello, how are you?",
+                  "I am also good.",
+                  "One, two, three.",
+                  "These are my two books."
+                ],
+                "answerIndex": 1,
+                "translit": "Man ham khub hastam."
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-prs",
+                "prompt": "I am also good.",
+                "bank": [
+                  "هستم.",
+                  "خوب",
+                  "هم",
+                  "من"
+                ],
+                "answer": [
+                  "من",
+                  "هم",
+                  "خوب",
+                  "هستم."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "prs-en",
+                "prompt": "بلی.",
+                "options": [
+                  "I am from Afghanistan.",
+                  "Yes.",
+                  "Thank you.",
+                  "I am very happy."
+                ],
+                "answerIndex": 1,
+                "translit": "Bali."
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-prs",
+                "prompt": "Yes.",
+                "bank": [
+                  "بلی."
+                ],
+                "answer": [
+                  "بلی."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "prs-en",
+                "prompt": "نه.",
+                "options": [
+                  "Seven, eight, nine, ten.",
+                  "No.",
+                  "This is my brother.",
+                  "I am very happy."
+                ],
+                "answerIndex": 1,
+                "translit": "Na."
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-prs",
+                "prompt": "No.",
+                "bank": [
+                  "نه."
+                ],
+                "answer": [
+                  "نه."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "prs-en",
+                "prompt": "تشکر.",
+                "options": [
+                  "This is my sister.",
+                  "I am also good.",
+                  "Thank you.",
+                  "This is my brother."
+                ],
+                "answerIndex": 2,
+                "translit": "Tashakor."
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-prs",
+                "prompt": "Thank you.",
+                "bank": [
+                  "تشکر."
+                ],
+                "answer": [
+                  "تشکر."
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "تشکر.",
+                "blankedEn": "___ you.",
+                "answer": "Thank",
+                "options": [
+                  "school",
+                  "sister",
+                  "Thank",
+                  "Four"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "prs-en",
+                "prompt": "ببخشید.",
+                "options": [
+                  "They are at school.",
+                  "This is my father.",
+                  "Is that your house?",
+                  "Excuse me. / I'm sorry."
+                ],
+                "answerIndex": 3,
+                "translit": "Bebakhshid."
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-prs",
+                "prompt": "Excuse me. / I'm sorry.",
+                "bank": [
+                  "ببخشید."
+                ],
+                "answer": [
+                  "ببخشید."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "prs-en",
+                "prompt": "خداحافظ.",
+                "options": [
+                  "We are in one house.",
+                  "Goodbye.",
+                  "No.",
+                  "This is my mother."
+                ],
+                "answerIndex": 1,
+                "translit": "Khudāhāfez."
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-prs",
+                "prompt": "Goodbye.",
+                "bank": [
+                  "خداحافظ."
+                ],
+                "answer": [
+                  "خداحافظ."
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "سلام.",
+                    "en": "Hello."
+                  },
+                  {
+                    "native": "سلام، شما چطور هستید؟",
+                    "en": "Hello, how are you?"
+                  },
+                  {
+                    "native": "من خوب هستم، تشکر.",
+                    "en": "I am good, thank you."
+                  },
+                  {
+                    "native": "تو چطور هستی؟",
+                    "en": "How are you?"
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "من هم خوب هستم.",
+                    "en": "I am also good."
+                  },
+                  {
+                    "native": "بلی.",
+                    "en": "Yes."
+                  },
+                  {
+                    "native": "نه.",
+                    "en": "No."
+                  },
+                  {
+                    "native": "تشکر.",
+                    "en": "Thank you."
+                  }
+                ]
+              }
+            ],
+            "titleNative": "سلام",
+            "topicId": "greetings-copula"
+          },
+          {
+            "id": "prs-a1-2",
+            "number": 2,
+            "title": "Names",
+            "description": "Names",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "prs-en",
+                "prompt": "نام شما چیست؟",
+                "options": [
+                  "This is my father.",
+                  "What is your name?",
+                  "Four, five, six.",
+                  "I have one brother."
+                ],
+                "answerIndex": 1,
+                "translit": "Nām-e shomā chist?"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-prs",
+                "prompt": "What is your name?",
+                "bank": [
+                  "شما",
+                  "نام",
+                  "چیست؟"
+                ],
+                "answer": [
+                  "نام",
+                  "شما",
+                  "چیست؟"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "prs-en",
+                "prompt": "نام من احمد است.",
+                "options": [
+                  "I am good, thank you.",
+                  "What is your name?",
+                  "My father and mother are good.",
+                  "My name is Ahmad."
+                ],
+                "answerIndex": 3,
+                "translit": "Nām-e man Ahmad ast."
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-prs",
+                "prompt": "My name is Ahmad.",
+                "bank": [
+                  "احمد",
+                  "نام",
+                  "است.",
+                  "من"
+                ],
+                "answer": [
+                  "نام",
+                  "من",
+                  "احمد",
+                  "است."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "prs-en",
+                "prompt": "نام تو چیست؟",
+                "options": [
+                  "What is your name?",
+                  "This is my father.",
+                  "This is my sister.",
+                  "I am from Kabul."
+                ],
+                "answerIndex": 0,
+                "translit": "Nām-e to chist?"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-prs",
+                "prompt": "What is your name?",
+                "bank": [
+                  "تو",
+                  "نام",
+                  "چیست؟"
+                ],
+                "answer": [
+                  "نام",
+                  "تو",
+                  "چیست؟"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "prs-en",
+                "prompt": "این کتاب من است.",
+                "options": [
+                  "Goodbye.",
+                  "I am very happy.",
+                  "This is my book.",
+                  "I am from Kabul."
+                ],
+                "answerIndex": 2,
+                "translit": "In kitāb-e man ast."
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-prs",
+                "prompt": "This is my book.",
+                "bank": [
+                  "این",
+                  "من",
+                  "است.",
+                  "کتاب"
+                ],
+                "answer": [
+                  "این",
+                  "کتاب",
+                  "من",
+                  "است."
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "این کتاب من است.",
+                "blankedEn": "This is my ___",
+                "answer": "book",
+                "options": [
+                  "sorry",
+                  "brother",
+                  "years",
+                  "book"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "prs-en",
+                "prompt": "آن خانه شما است؟",
+                "options": [
+                  "Four, five, six.",
+                  "Excuse me. / I'm sorry.",
+                  "My name is Ahmad.",
+                  "Is that your house?"
+                ],
+                "answerIndex": 3,
+                "translit": "Ān khāna-ye shomā ast?"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-prs",
+                "prompt": "Is that your house?",
+                "bank": [
+                  "شما",
+                  "است؟",
+                  "خانه",
+                  "آن"
+                ],
+                "answer": [
+                  "آن",
+                  "خانه",
+                  "شما",
+                  "است؟"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "prs-en",
+                "prompt": "بلی، این خانه من است.",
+                "options": [
+                  "We are three sisters.",
+                  "I have one brother.",
+                  "Yes, this is my house.",
+                  "I am good, thank you."
+                ],
+                "answerIndex": 2,
+                "translit": "Bali, in khāna-ye man ast."
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-prs",
+                "prompt": "Yes, this is my house.",
+                "bank": [
+                  "این",
+                  "است.",
+                  "بلی،",
+                  "من",
+                  "خانه"
+                ],
+                "answer": [
+                  "بلی،",
+                  "این",
+                  "خانه",
+                  "من",
+                  "است."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "prs-en",
+                "prompt": "شما از کجا هستید؟",
+                "options": [
+                  "This is my book.",
+                  "I have one brother.",
+                  "Where are you from?",
+                  "Hello, how are you?"
+                ],
+                "answerIndex": 2,
+                "translit": "Shomā az kojā hastid?"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-prs",
+                "prompt": "Where are you from?",
+                "bank": [
+                  "کجا",
+                  "از",
+                  "هستید؟",
+                  "شما"
+                ],
+                "answer": [
+                  "شما",
+                  "از",
+                  "کجا",
+                  "هستید؟"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "prs-en",
+                "prompt": "من از افغانستان هستم.",
+                "options": [
+                  "This is my father.",
+                  "Our house is very good.",
+                  "I am from Afghanistan.",
+                  "Yes, this is my house."
+                ],
+                "answerIndex": 2,
+                "translit": "Man az Afghānistān hastam."
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-prs",
+                "prompt": "I am from Afghanistan.",
+                "bank": [
+                  "از",
+                  "هستم.",
+                  "افغانستان",
+                  "من"
+                ],
+                "answer": [
+                  "من",
+                  "از",
+                  "افغانستان",
+                  "هستم."
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "من از افغانستان هستم.",
+                "blankedEn": "I am from ___",
+                "answer": "Afghanistan",
+                "options": [
+                  "Afghanistan",
+                  "father",
+                  "house",
+                  "HeShe"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "prs-en",
+                "prompt": "من از کابل هستم.",
+                "options": [
+                  "He/She is my friend.",
+                  "One, two, three.",
+                  "My name is Ahmad.",
+                  "I am from Kabul."
+                ],
+                "answerIndex": 3,
+                "translit": "Man az Kābul hastam."
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-prs",
+                "prompt": "I am from Kabul.",
+                "bank": [
+                  "از",
+                  "من",
+                  "هستم.",
+                  "کابل"
+                ],
+                "answer": [
+                  "من",
+                  "از",
+                  "کابل",
+                  "هستم."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "prs-en",
+                "prompt": "زبان من دری است.",
+                "options": [
+                  "This is my brother.",
+                  "Four, five, six.",
+                  "My language is Dari.",
+                  "I am from Kabul."
+                ],
+                "answerIndex": 2,
+                "translit": "Zabān-e man Dari ast."
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-prs",
+                "prompt": "My language is Dari.",
+                "bank": [
+                  "من",
+                  "دری",
+                  "است.",
+                  "زبان"
+                ],
+                "answer": [
+                  "زبان",
+                  "من",
+                  "دری",
+                  "است."
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "نام شما چیست؟",
+                    "en": "What is your name?"
+                  },
+                  {
+                    "native": "نام من احمد است.",
+                    "en": "My name is Ahmad."
+                  },
+                  {
+                    "native": "نام تو چیست؟",
+                    "en": "What is your name?"
+                  },
+                  {
+                    "native": "این کتاب من است.",
+                    "en": "This is my book."
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "آن خانه شما است؟",
+                    "en": "Is that your house?"
+                  },
+                  {
+                    "native": "بلی، این خانه من است.",
+                    "en": "Yes, this is my house."
+                  },
+                  {
+                    "native": "شما از کجا هستید؟",
+                    "en": "Where are you from?"
+                  },
+                  {
+                    "native": "من از افغانستان هستم.",
+                    "en": "I am from Afghanistan."
+                  }
+                ]
+              }
+            ],
+            "titleNative": "نام‌ها",
+            "topicId": "greetings-copula"
+          },
+          {
+            "id": "prs-a1-3",
+            "number": 3,
+            "title": "Family",
+            "description": "Family",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "prs-en",
+                "prompt": "این پدر من است.",
+                "options": [
+                  "This is my father.",
+                  "My father and mother are good.",
+                  "We are in one house.",
+                  "What is your name?"
+                ],
+                "answerIndex": 0,
+                "translit": "In pedar-e man ast."
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-prs",
+                "prompt": "This is my father.",
+                "bank": [
+                  "پدر",
+                  "این",
+                  "من",
+                  "است."
+                ],
+                "answer": [
+                  "این",
+                  "پدر",
+                  "من",
+                  "است."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "prs-en",
+                "prompt": "این مادر من است.",
+                "options": [
+                  "They are at school.",
+                  "This is my mother.",
+                  "What is your name?",
+                  "We are in one house."
+                ],
+                "answerIndex": 1,
+                "translit": "In mādar-e man ast."
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-prs",
+                "prompt": "This is my mother.",
+                "bank": [
+                  "مادر",
+                  "است.",
+                  "من",
+                  "این"
+                ],
+                "answer": [
+                  "این",
+                  "مادر",
+                  "من",
+                  "است."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "prs-en",
+                "prompt": "این برادر من است.",
+                "options": [
+                  "Seven, eight, nine, ten.",
+                  "This is my brother.",
+                  "Our house is very good.",
+                  "This is my book."
+                ],
+                "answerIndex": 1,
+                "translit": "In barādar-e man ast."
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-prs",
+                "prompt": "This is my brother.",
+                "bank": [
+                  "برادر",
+                  "این",
+                  "است.",
+                  "من"
+                ],
+                "answer": [
+                  "این",
+                  "برادر",
+                  "من",
+                  "است."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "prs-en",
+                "prompt": "این خواهر من است.",
+                "options": [
+                  "This is my sister.",
+                  "We are three sisters.",
+                  "Hello, how are you?",
+                  "This is my mother."
+                ],
+                "answerIndex": 0,
+                "translit": "In khwāhar-e man ast."
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-prs",
+                "prompt": "This is my sister.",
+                "bank": [
+                  "من",
+                  "خواهر",
+                  "است.",
+                  "این"
+                ],
+                "answer": [
+                  "این",
+                  "خواهر",
+                  "من",
+                  "است."
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "این خواهر من است.",
+                "blankedEn": "This is my ___",
+                "answer": "sister",
+                "options": [
+                  "books",
+                  "Four",
+                  "sister",
+                  "eight"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "prs-en",
+                "prompt": "او دوست من است.",
+                "options": [
+                  "We are three sisters.",
+                  "Is that your house?",
+                  "Thank you.",
+                  "He/She is my friend."
+                ],
+                "answerIndex": 3,
+                "translit": "U dost-e man ast."
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-prs",
+                "prompt": "He/She is my friend.",
+                "bank": [
+                  "من",
+                  "است.",
+                  "دوست",
+                  "او"
+                ],
+                "answer": [
+                  "او",
+                  "دوست",
+                  "من",
+                  "است."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "prs-en",
+                "prompt": "ما در یک خانه هستیم.",
+                "options": [
+                  "Our house is very good.",
+                  "We are in one house.",
+                  "Goodbye.",
+                  "My language is Dari."
+                ],
+                "answerIndex": 1,
+                "translit": "Mā dar yak khāna hastim."
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-prs",
+                "prompt": "We are in one house.",
+                "bank": [
+                  "یک",
+                  "ما",
+                  "در",
+                  "خانه",
+                  "هستیم."
+                ],
+                "answer": [
+                  "ما",
+                  "در",
+                  "یک",
+                  "خانه",
+                  "هستیم."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "prs-en",
+                "prompt": "آنها در مکتب هستند.",
+                "options": [
+                  "They are at school.",
+                  "This is my brother.",
+                  "My father and mother are good.",
+                  "Where are you from?"
+                ],
+                "answerIndex": 0,
+                "translit": "Ānhā dar maktab hastand."
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-prs",
+                "prompt": "They are at school.",
+                "bank": [
+                  "مکتب",
+                  "در",
+                  "آنها",
+                  "هستند."
+                ],
+                "answer": [
+                  "آنها",
+                  "در",
+                  "مکتب",
+                  "هستند."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "prs-en",
+                "prompt": "پدر و مادر من خوب هستند.",
+                "options": [
+                  "I am good, thank you.",
+                  "Yes, this is my house.",
+                  "My language is Dari.",
+                  "My father and mother are good."
+                ],
+                "answerIndex": 3,
+                "translit": "Pedar wa mādar-e man khub hastand."
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-prs",
+                "prompt": "My father and mother are good.",
+                "bank": [
+                  "خوب",
+                  "پدر",
+                  "من",
+                  "هستند.",
+                  "مادر",
+                  "و"
+                ],
+                "answer": [
+                  "پدر",
+                  "و",
+                  "مادر",
+                  "من",
+                  "خوب",
+                  "هستند."
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "پدر و مادر من خوب هستند.",
+                "blankedEn": "My ___ and mother are good.",
+                "answer": "father",
+                "options": [
+                  "sisters",
+                  "Four",
+                  "father",
+                  "HeShe"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "prs-en",
+                "prompt": "خانه ما خیلی خوب است.",
+                "options": [
+                  "What is your name?",
+                  "Hello.",
+                  "I am also good.",
+                  "Our house is very good."
+                ],
+                "answerIndex": 3,
+                "translit": "Khāna-ye mā khaili khub ast."
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-prs",
+                "prompt": "Our house is very good.",
+                "bank": [
+                  "خانه",
+                  "خوب",
+                  "است.",
+                  "خیلی",
+                  "ما"
+                ],
+                "answer": [
+                  "خانه",
+                  "ما",
+                  "خیلی",
+                  "خوب",
+                  "است."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "prs-en",
+                "prompt": "من خیلی خوش هستم.",
+                "options": [
+                  "I have one brother.",
+                  "I am very happy.",
+                  "I am from Kabul.",
+                  "This is my brother."
+                ],
+                "answerIndex": 1,
+                "translit": "Man khaili khosh hastam."
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-prs",
+                "prompt": "I am very happy.",
+                "bank": [
+                  "خوش",
+                  "هستم.",
+                  "من",
+                  "خیلی"
+                ],
+                "answer": [
+                  "من",
+                  "خیلی",
+                  "خوش",
+                  "هستم."
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "این پدر من است.",
+                    "en": "This is my father."
+                  },
+                  {
+                    "native": "این مادر من است.",
+                    "en": "This is my mother."
+                  },
+                  {
+                    "native": "این برادر من است.",
+                    "en": "This is my brother."
+                  },
+                  {
+                    "native": "این خواهر من است.",
+                    "en": "This is my sister."
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "او دوست من است.",
+                    "en": "He/She is my friend."
+                  },
+                  {
+                    "native": "ما در یک خانه هستیم.",
+                    "en": "We are in one house."
+                  },
+                  {
+                    "native": "آنها در مکتب هستند.",
+                    "en": "They are at school."
+                  },
+                  {
+                    "native": "پدر و مادر من خوب هستند.",
+                    "en": "My father and mother are good."
+                  }
+                ]
+              }
+            ],
+            "titleNative": "خانواده",
+            "topicId": "greetings-copula"
+          },
+          {
+            "id": "prs-a1-4",
+            "number": 4,
+            "title": "Numbers 1-10",
+            "description": "Numbers 1-10",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "prs-en",
+                "prompt": "یک، دو، سه.",
+                "options": [
+                  "I am good, thank you.",
+                  "My language is Dari.",
+                  "Yes, this is my house.",
+                  "One, two, three."
+                ],
+                "answerIndex": 3,
+                "translit": "Yak, du, se."
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-prs",
+                "prompt": "One, two, three.",
+                "bank": [
+                  "سه.",
+                  "یک،",
+                  "دو،"
+                ],
+                "answer": [
+                  "یک،",
+                  "دو،",
+                  "سه."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "prs-en",
+                "prompt": "چهار، پنج، شش.",
+                "options": [
+                  "I am from Kabul.",
+                  "Goodbye.",
+                  "Excuse me. / I'm sorry.",
+                  "Four, five, six."
+                ],
+                "answerIndex": 3,
+                "translit": "Chahār, panj, shash."
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-prs",
+                "prompt": "Four, five, six.",
+                "bank": [
+                  "پنج،",
+                  "شش.",
+                  "چهار،"
+                ],
+                "answer": [
+                  "چهار،",
+                  "پنج،",
+                  "شش."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "prs-en",
+                "prompt": "هفت، هشت، نه، ده.",
+                "options": [
+                  "I am from Kabul.",
+                  "He/She is my friend.",
+                  "I am very happy.",
+                  "Seven, eight, nine, ten."
+                ],
+                "answerIndex": 3,
+                "translit": "Haft, hasht, noh, dah."
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-prs",
+                "prompt": "Seven, eight, nine, ten.",
+                "bank": [
+                  "نه،",
+                  "ده.",
+                  "هفت،",
+                  "هشت،"
+                ],
+                "answer": [
+                  "هفت،",
+                  "هشت،",
+                  "نه،",
+                  "ده."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "prs-en",
+                "prompt": "من یک برادر دارم.",
+                "options": [
+                  "I have one brother.",
+                  "Seven, eight, nine, ten.",
+                  "He/She is ten years old.",
+                  "Hello, how are you?"
+                ],
+                "answerIndex": 0,
+                "translit": "Man yak barādar dāram."
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-prs",
+                "prompt": "I have one brother.",
+                "bank": [
+                  "من",
+                  "یک",
+                  "دارم.",
+                  "برادر"
+                ],
+                "answer": [
+                  "من",
+                  "یک",
+                  "برادر",
+                  "دارم."
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "من یک برادر دارم.",
+                "blankedEn": "I have one ___",
+                "answer": "brother",
+                "options": [
+                  "Kabul",
+                  "brother",
+                  "Goodbye",
+                  "thank"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "prs-en",
+                "prompt": "این دو کتاب من است.",
+                "options": [
+                  "These are my two books.",
+                  "They are at school.",
+                  "One, two, three.",
+                  "He/She is my friend."
+                ],
+                "answerIndex": 0,
+                "translit": "In du kitāb-e man ast."
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-prs",
+                "prompt": "These are my two books.",
+                "bank": [
+                  "است.",
+                  "کتاب",
+                  "دو",
+                  "این",
+                  "من"
+                ],
+                "answer": [
+                  "این",
+                  "دو",
+                  "کتاب",
+                  "من",
+                  "است."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "prs-en",
+                "prompt": "ما سه خواهر هستیم.",
+                "options": [
+                  "Our house is very good.",
+                  "I am from Kabul.",
+                  "We are three sisters.",
+                  "Where are you from?"
+                ],
+                "answerIndex": 2,
+                "translit": "Mā se khwāhar hastim."
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-prs",
+                "prompt": "We are three sisters.",
+                "bank": [
+                  "هستیم.",
+                  "ما",
+                  "خواهر",
+                  "سه"
+                ],
+                "answer": [
+                  "ما",
+                  "سه",
+                  "خواهر",
+                  "هستیم."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "prs-en",
+                "prompt": "او ده سال دارد.",
+                "options": [
+                  "Hello, how are you?",
+                  "He/She is ten years old.",
+                  "I have one brother.",
+                  "I am from Afghanistan."
+                ],
+                "answerIndex": 1,
+                "translit": "U dah sāl dārad."
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-prs",
+                "prompt": "He/She is ten years old.",
+                "bank": [
+                  "سال",
+                  "ده",
+                  "او",
+                  "دارد."
+                ],
+                "answer": [
+                  "او",
+                  "ده",
+                  "سال",
+                  "دارد."
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "یک، دو، سه.",
+                    "en": "One, two, three."
+                  },
+                  {
+                    "native": "چهار، پنج، شش.",
+                    "en": "Four, five, six."
+                  },
+                  {
+                    "native": "هفت، هشت، نه، ده.",
+                    "en": "Seven, eight, nine, ten."
+                  },
+                  {
+                    "native": "من یک برادر دارم.",
+                    "en": "I have one brother."
+                  }
+                ]
+              }
+            ],
+            "titleNative": "شمردن از یک تا ده",
+            "topicId": "greetings-copula"
+          }
+        ]
+      }
+    ]
+  }
+}

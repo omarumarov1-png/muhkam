@@ -1,0 +1,87 @@
+{
+  "level": "a1",
+  "grammarTopics": {
+    "greetings-copula": {
+      "title": "Greeting Someone and Saying \"I am...\"",
+      "pattern": "[Subject] + [adjective] + هستم/هستی/است/هستیم/هستید/هستند",
+      "explanation": "Dari's \"to be\" verb (بودن) comes AFTER the word it describes, unlike English \"I am good\" -> \"من خوب هستم\" is literally \"I good am.\" Each person has its own ending: هستم (I am), هستی (you are, one friend), است (he/she/it is), هستیم (we are), هستید (you are, formal or more than one person), هستند (they are). This copula is often shortened to -am/-i/-ast/-im/-id/-and in fast speech, but the full forms here are always correct and are what you will see written.",
+      "fact": "شما (shomā) works as both a polite \"you\" for one person and the plain \"you\" for a group -- Dari does not force a separate plural pronoun the way English needs \"you all.\"",
+      "dialogue": [
+        { "native": "سلام، شما چطور هستید؟", "en": "Hello, how are you?" },
+        { "native": "من خوب هستم، تشکر. تو چطور هستی؟", "en": "I am good, thank you. How are you?" },
+        { "native": "من هم خوب هستم.", "en": "I am also good." }
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Greetings",
+      "titleNative": "سلام",
+      "topicId": "greetings-copula",
+      "items": [
+        { "dari": "سلام.", "en": "Hello.", "translit": "Salaam." },
+        { "dari": "سلام، شما چطور هستید؟", "en": "Hello, how are you?", "translit": "Salaam, shomā chetor hastid?" },
+        { "dari": "من خوب هستم، تشکر.", "en": "I am good, thank you.", "translit": "Man khub hastam, tashakor." },
+        { "dari": "تو چطور هستی؟", "en": "How are you?", "translit": "To chetor hasti?" },
+        { "dari": "من هم خوب هستم.", "en": "I am also good.", "translit": "Man ham khub hastam." },
+        { "dari": "بلی.", "en": "Yes.", "translit": "Bali." },
+        { "dari": "نه.", "en": "No.", "translit": "Na." },
+        { "dari": "تشکر.", "en": "Thank you.", "translit": "Tashakor." },
+        { "dari": "ببخشید.", "en": "Excuse me. / I'm sorry.", "translit": "Bebakhshid." },
+        { "dari": "خداحافظ.", "en": "Goodbye.", "translit": "Khudāhāfez." }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Names",
+      "titleNative": "نام‌ها",
+      "topicId": "greetings-copula",
+      "items": [
+        { "dari": "نام شما چیست؟", "en": "What is your name?", "translit": "Nām-e shomā chist?" },
+        { "dari": "نام من احمد است.", "en": "My name is Ahmad.", "translit": "Nām-e man Ahmad ast." },
+        { "dari": "نام تو چیست؟", "en": "What is your name?", "translit": "Nām-e to chist?" },
+        { "dari": "این کتاب من است.", "en": "This is my book.", "translit": "In kitāb-e man ast." },
+        { "dari": "آن خانه شما است؟", "en": "Is that your house?", "translit": "Ān khāna-ye shomā ast?" },
+        { "dari": "بلی، این خانه من است.", "en": "Yes, this is my house.", "translit": "Bali, in khāna-ye man ast." },
+        { "dari": "شما از کجا هستید؟", "en": "Where are you from?", "translit": "Shomā az kojā hastid?" },
+        { "dari": "من از افغانستان هستم.", "en": "I am from Afghanistan.", "translit": "Man az Afghānistān hastam." },
+        { "dari": "من از کابل هستم.", "en": "I am from Kabul.", "translit": "Man az Kābul hastam." },
+        { "dari": "زبان من دری است.", "en": "My language is Dari.", "translit": "Zabān-e man Dari ast." }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Family",
+      "titleNative": "خانواده",
+      "topicId": "greetings-copula",
+      "items": [
+        { "dari": "این پدر من است.", "en": "This is my father.", "translit": "In pedar-e man ast." },
+        { "dari": "این مادر من است.", "en": "This is my mother.", "translit": "In mādar-e man ast." },
+        { "dari": "این برادر من است.", "en": "This is my brother.", "translit": "In barādar-e man ast." },
+        { "dari": "این خواهر من است.", "en": "This is my sister.", "translit": "In khwāhar-e man ast." },
+        { "dari": "او دوست من است.", "en": "He/She is my friend.", "translit": "U dost-e man ast." },
+        { "dari": "ما در یک خانه هستیم.", "en": "We are in one house.", "translit": "Mā dar yak khāna hastim." },
+        { "dari": "آنها در مکتب هستند.", "en": "They are at school.", "translit": "Ānhā dar maktab hastand." },
+        { "dari": "پدر و مادر من خوب هستند.", "en": "My father and mother are good.", "translit": "Pedar wa mādar-e man khub hastand." },
+        { "dari": "خانه ما خیلی خوب است.", "en": "Our house is very good.", "translit": "Khāna-ye mā khaili khub ast." },
+        { "dari": "من خیلی خوش هستم.", "en": "I am very happy.", "translit": "Man khaili khosh hastam." }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Numbers 1-10",
+      "titleNative": "شمردن از یک تا ده",
+      "topicId": "greetings-copula",
+      "items": [
+        { "dari": "یک، دو، سه.", "en": "One, two, three.", "translit": "Yak, du, se." },
+        { "dari": "چهار، پنج، شش.", "en": "Four, five, six.", "translit": "Chahār, panj, shash." },
+        { "dari": "هفت، هشت، نه، ده.", "en": "Seven, eight, nine, ten.", "translit": "Haft, hasht, noh, dah." },
+        { "dari": "من یک برادر دارم.", "en": "I have one brother.", "translit": "Man yak barādar dāram." },
+        { "dari": "این دو کتاب من است.", "en": "These are my two books.", "translit": "In du kitāb-e man ast." },
+        { "dari": "ما سه خواهر هستیم.", "en": "We are three sisters.", "translit": "Mā se khwāhar hastim." },
+        { "dari": "او ده سال دارد.", "en": "He/She is ten years old.", "translit": "U dah sāl dārad." }
+      ]
+    }
+  ]
+}

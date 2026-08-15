@@ -19,6 +19,7 @@
     { id: "chechen", file: "data/courses-chechen.json", label: "Chechen — Нохчийн", flag: "Нохчийн" },
     { id: "avar", file: "data/courses-avar.json", audioManifest: "data/audio-avar/manifest.json", label: "Avar — МагӀарул мацӏ", flag: "МагӀарул мацӏ" },
     { id: "ossetian", file: "data/courses-ossetian.json", label: "Ossetian — Ирон ӕвзаг", flag: "Ирон ӕвзаг" },
+    { id: "dari", file: "data/courses-dari.json", audioManifest: "data/audio-dari/manifest.json", label: "Dari — دری", flag: "دری" },
   ];
 
   // iOS Safari keeps a tapped <button> focused, which makes the
@@ -1483,12 +1484,12 @@
     if (!topic) return "";
     return `
       <details class="grammar-panel">
-        <summary>Grammar note <span class="ar">ملاحظة نحوية</span></summary>
+        <summary>Grammar note <span class="ar">${(course.uiStrings && course.uiStrings.grammarNote) || ""}</span></summary>
         <h4>${topic.title}</h4>
         <p class="grammar-pattern">${topic.pattern}</p>
         <p class="grammar-explanation">${topic.explanation}</p>
         <div class="fact-box">
-          <span class="fact-label">Did you know? <span class="ar">هل تعلم؟</span></span>
+          <span class="fact-label">Did you know? <span class="ar">${(course.uiStrings && course.uiStrings.didYouKnow) || ""}</span></span>
           <p>${topic.fact}</p>
         </div>
         <button class="btn btn-ghost btn-small" id="dialogueBtn">View example dialogue</button>
