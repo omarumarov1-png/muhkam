@@ -1,0 +1,184 @@
+{
+  "level": "a1",
+  "grammarTopics": {
+    "adjectives-order": {
+      "title": "Describing Things: Adjective After the Noun",
+      "pattern": "[noun] + ی + [adjective]",
+      "explanation": "In Dari, the describing word comes AFTER the noun, joined by an unwritten -e/-ye sound (the ezafe): خانهٔ بزرگ (khāna-ye bozorg) is literally \"house-of big,\" meaning \"a/the big house.\" This is the opposite order from English \"big house.\" The ezafe is not usually written, but it is always pronounced.",
+      "fact": "The same ezafe -e/-ye links a noun to its owner too, which you already saw in نام شما (nām-e shomā, \"your name\") — one small grammatical glue connects both descriptions and possession.",
+      "dialogue": [
+        { "native": "این یک خانهٔ بزرگ است.", "en": "This is a big house." },
+        { "native": "موتر شما نو است یا کهنه؟", "en": "Is your car new or old?" },
+        { "native": "موتر من نو است.", "en": "My car is new." }
+      ]
+    },
+    "present-tense": {
+      "title": "Talking About Now: The Present Tense",
+      "pattern": "می + [verb stem] + ـم/ـی/ـد/ـیم/ـید/ـند",
+      "explanation": "Most Dari verbs build their present tense with می in front of a present stem, then a personal ending: می‌روم (I go), می‌روی (you go), می‌رود (he/she goes), می‌رویم (we go), می‌روید (you all go), می‌روند (they go). The tricky part is that the present stem often looks nothing like the dictionary (infinitive) form -- رفتن (raftan, \"to go\") has the stem رو (raw), and دیدن (didan, \"to see\") has the stem بین (bin). These stems have to be learned one at a time, the same way English learners must simply learn that \"go\" becomes \"went.\"",
+      "fact": "Because the personal ending already shows who is doing the action, Dari sentences very often drop the separate pronoun altogether -- می‌روم alone already means \"I go,\" no من needed.",
+      "dialogue": [
+        { "native": "شما هر روز به مکتب می‌روید؟", "en": "Do you go to school every day?" },
+        { "native": "بلی، من هر روز می‌روم.", "en": "Yes, I go every day." },
+        { "native": "من هم صبح چای می‌نوشم.", "en": "I also drink tea in the morning." }
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "number": 5,
+      "title": "Colors",
+      "titleNative": "رنگ‌ها",
+      "topicId": "adjectives-order",
+      "items": [
+        { "dari": "این کتاب سرخ است.", "en": "This book is red.", "translit": "In kitāb sorkh ast." },
+        { "dari": "خانه ما سفید است.", "en": "Our house is white.", "translit": "Khāna-ye mā safed ast." },
+        { "dari": "آسمان آبی است.", "en": "The sky is blue.", "translit": "Āsmān ābi ast." },
+        { "dari": "این کالای زرد است.", "en": "This clothing is yellow.", "translit": "In kālā-ye zard ast." },
+        { "dari": "پیراهن من سبز است.", "en": "My shirt is green.", "translit": "Pirāhan-e man sabz ast." },
+        { "dari": "موی او سیاه است.", "en": "His/her hair is black.", "translit": "Moy-e u siyāh ast." },
+        { "dari": "این رنگ خیلی زیبا است.", "en": "This color is very beautiful.", "translit": "In rang khaili zibā ast." },
+        { "dari": "کدام رنگ را دوست دارید؟", "en": "Which color do you like?", "translit": "Kudām rang rā dost dārid?" }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Numbers to 100",
+      "titleNative": "شمردن تا صد",
+      "topicId": "adjectives-order",
+      "items": [
+        { "dari": "یازده، دوازده، سیزده.", "en": "Eleven, twelve, thirteen.", "translit": "Yāzdah, dawāzdah, sizdah." },
+        { "dari": "چهارده، پانزده، شانزده.", "en": "Fourteen, fifteen, sixteen.", "translit": "Chahārdah, pānzdah, shānzdah." },
+        { "dari": "هفده، هجده، نزده، بیست.", "en": "Seventeen, eighteen, nineteen, twenty.", "translit": "Hifdah, hejdah, nozdah, bist." },
+        { "dari": "سی، چهل، پنجاه.", "en": "Thirty, forty, fifty.", "translit": "Si, chehel, panjāh." },
+        { "dari": "شصت، هفتاد، هشتاد، نود.", "en": "Sixty, seventy, eighty, ninety.", "translit": "Shast, haftād, hashtād, nawad." },
+        { "dari": "صد.", "en": "A hundred.", "translit": "Sad." },
+        { "dari": "او بیست سال دارد.", "en": "He/She is twenty years old.", "translit": "U bist sāl dārad." },
+        { "dari": "من صد کتاب دارم.", "en": "I have a hundred books.", "translit": "Man sad kitāb dāram." }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Days of the Week",
+      "titleNative": "روزهای هفته",
+      "topicId": "adjectives-order",
+      "items": [
+        { "dari": "امروز شنبه است.", "en": "Today is Saturday.", "translit": "Emroz shanba ast." },
+        { "dari": "فردا یکشنبه است.", "en": "Tomorrow is Sunday.", "translit": "Fardā yakshamba ast." },
+        { "dari": "دوشنبه، سه‌شنبه، چهارشنبه.", "en": "Monday, Tuesday, Wednesday.", "translit": "Dushamba, seshamba, chāharshamba." },
+        { "dari": "پنجشنبه و جمعه.", "en": "Thursday and Friday.", "translit": "Panjshamba wa juma." },
+        { "dari": "من روز جمعه به مکتب نمی‌روم.", "en": "I do not go to school on Friday.", "translit": "Man roz-e juma ba maktab nemiraum." },
+        { "dari": "یک هفته هفت روز دارد.", "en": "One week has seven days.", "translit": "Yak hafta haft roz dārad." },
+        { "dari": "امروز چه روز است؟", "en": "What day is it today?", "translit": "Emroz che roz ast?" }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Food and Drink",
+      "titleNative": "خوراک و نوشیدنی",
+      "topicId": "present-tense",
+      "items": [
+        { "dari": "من صبح نان و چای می‌خورم.", "en": "I eat bread and tea in the morning.", "translit": "Man sob nān wa chāy mikhoram." },
+        { "dari": "او برنج و گوشت می‌خورد.", "en": "He/She eats rice and meat.", "translit": "U berenj wa gosht mikhorad." },
+        { "dari": "ما میوه و سبزی دوست داریم.", "en": "We like fruit and vegetables.", "translit": "Mā mewa wa sabzi dost dārim." },
+        { "dari": "شما چای می‌نوشید یا شیر؟", "en": "Do you drink tea or milk?", "translit": "Shomā chāy minoshid yā shir?" },
+        { "dari": "من هر روز آب زیاد می‌نوشم.", "en": "I drink a lot of water every day.", "translit": "Man har roz āb ziyād minosham." },
+        { "dari": "سیب و پرتقال میوه است.", "en": "Apple and orange are fruit.", "translit": "Sib wa portaqāl mewa ast." },
+        { "dari": "این غذا خیلی خوب است.", "en": "This food is very good.", "translit": "In ghazā khaili khub ast." },
+        { "dari": "نمک و شکر در آشپزخانه است.", "en": "Salt and sugar are in the kitchen.", "translit": "Namak wa shakar dar āshpazkhāna ast." }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "House and Rooms",
+      "titleNative": "خانه و اتاق‌ها",
+      "topicId": "adjectives-order",
+      "items": [
+        { "dari": "این خانهٔ بزرگ است.", "en": "This is a big house.", "translit": "In khāna-ye bozorg ast." },
+        { "dari": "خانه ما سه اتاق دارد.", "en": "Our house has three rooms.", "translit": "Khāna-ye mā se otāq dārad." },
+        { "dari": "میز و چوکی در اتاق است.", "en": "The table and chair are in the room.", "translit": "Meyz wa choki dar otāq ast." },
+        { "dari": "بستر من در این اتاق است.", "en": "My bed is in this room.", "translit": "Bestar-e man dar in otāq ast." },
+        { "dari": "آشپزخانه کجاست؟", "en": "Where is the kitchen?", "translit": "Āshpazkhāna kojāst?" },
+        { "dari": "حمام نزدیک اتاق من است.", "en": "The bathroom is near my room.", "translit": "Hamām nazdik-e otāq-e man ast." },
+        { "dari": "دروازه خانه ما سرخ است.", "en": "Our house's door is red.", "translit": "Darwāza-ye khāna-ye mā sorkh ast." },
+        { "dari": "کلکین این اتاق بزرگ است.", "en": "This room's window is big.", "translit": "Kalkin-e in otāq bozorg ast." }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "The Body",
+      "titleNative": "بدن",
+      "topicId": "adjectives-order",
+      "items": [
+        { "dari": "سر، چشم، گوش.", "en": "Head, eye, ear.", "translit": "Sar, chashm, gosh." },
+        { "dari": "دهان، دست، پا.", "en": "Mouth, hand, leg/foot.", "translit": "Dahān, dast, pā." },
+        { "dari": "چشمان او سیاه است.", "en": "His/her eyes are black.", "translit": "Chashmān-e u siyāh ast." },
+        { "dari": "موی من دراز است.", "en": "My hair is long.", "translit": "Moy-e man derāz ast." },
+        { "dari": "دست‌های او بزرگ است.", "en": "His/her hands are big.", "translit": "Dast-hā-ye u bozorg ast." },
+        { "dari": "بینی و دهان در روی است.", "en": "The nose and mouth are on the face.", "translit": "Bini wa dahān dar roy ast." },
+        { "dari": "دل من خوش است.", "en": "My heart is happy.", "translit": "Del-e man khosh ast." }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Clothing",
+      "titleNative": "لباس",
+      "topicId": "adjectives-order",
+      "items": [
+        { "dari": "این پیراهن من است.", "en": "This is my shirt.", "translit": "In pirāhan-e man ast." },
+        { "dari": "شلوار او سیاه است.", "en": "His/her trousers are black.", "translit": "Shalwār-e u siyāh ast." },
+        { "dari": "کفش من نو است.", "en": "My shoes are new.", "translit": "Kafsh-e man naw ast." },
+        { "dari": "جوراب سفید کجاست؟", "en": "Where are the white socks?", "translit": "Jurāb-e safed kojāst?" },
+        { "dari": "کلاه او بزرگ است.", "en": "His/her hat is big.", "translit": "Kolāh-e u bozorg ast." },
+        { "dari": "کالای نو گران است.", "en": "New clothing is expensive.", "translit": "Kālā-ye naw gerān ast." },
+        { "dari": "این کفش ارزان است.", "en": "These shoes are cheap.", "translit": "In kafsh arzān ast." }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Weather",
+      "titleNative": "هوا",
+      "topicId": "adjectives-order",
+      "items": [
+        { "dari": "امروز هوا گرم است.", "en": "Today the weather is hot.", "translit": "Emroz hawā garm ast." },
+        { "dari": "فردا هوا سرد است.", "en": "Tomorrow the weather is cold.", "translit": "Fardā hawā sard ast." },
+        { "dari": "امروز باران می‌بارد.", "en": "It is raining today.", "translit": "Emroz bārān mibārad." },
+        { "dari": "زمستان برف می‌بارد.", "en": "It snows in winter.", "translit": "Zemestān barf mibārad." },
+        { "dari": "باد خیلی تیز است.", "en": "The wind is very strong.", "translit": "Bād khaili tez ast." },
+        { "dari": "امروز آفتاب است.", "en": "Today it is sunny.", "translit": "Emroz āftāb ast." },
+        { "dari": "آسمان پر از ابر است.", "en": "The sky is full of clouds.", "translit": "Āsmān por az abr ast." }
+      ]
+    },
+    {
+      "number": 13,
+      "title": "Animals",
+      "titleNative": "حیوانات",
+      "topicId": "adjectives-order",
+      "items": [
+        { "dari": "این سگ من است.", "en": "This is my dog.", "translit": "In sag-e man ast." },
+        { "dari": "پشک ما سفید است.", "en": "Our cat is white.", "translit": "Pashak-e mā safed ast." },
+        { "dari": "او یک اسپ بزرگ دارد.", "en": "He/She has a big horse.", "translit": "U yak asp-e bozorg dārad." },
+        { "dari": "گاو و گوسفند در حویلی است.", "en": "The cow and sheep are in the yard.", "translit": "Gāw wa gosfand dar hawli ast." },
+        { "dari": "مرغ و ماهی غذای خوب است.", "en": "Chicken and fish are good food.", "translit": "Morgh wa māhi ghazā-ye khub ast." },
+        { "dari": "پرنده در آسمان است.", "en": "The bird is in the sky.", "translit": "Paranda dar āsmān ast." },
+        { "dari": "شیر یک حیوان بزرگ است.", "en": "The lion is a big animal.", "translit": "Shir yak haywān-e bozorg ast." }
+      ]
+    },
+    {
+      "number": 14,
+      "title": "Daily Actions",
+      "titleNative": "کارهای روزمره",
+      "topicId": "present-tense",
+      "items": [
+        { "dari": "من صبح بیدار می‌شوم.", "en": "I wake up in the morning.", "translit": "Man sob bidār misham." },
+        { "dari": "او هر روز کار می‌کند.", "en": "He/She works every day.", "translit": "U har roz kār mikonad." },
+        { "dari": "ما به مکتب می‌رویم.", "en": "We go to school.", "translit": "Mā ba maktab miraim." },
+        { "dari": "شما چه وقت می‌خوابید؟", "en": "When do you sleep?", "translit": "Shomā che waqt mikhwābid?" },
+        { "dari": "من کتاب می‌خوانم.", "en": "I read a book.", "translit": "Man kitāb mikhwānam." },
+        { "dari": "او نامه می‌نویسد.", "en": "He/She writes a letter.", "translit": "U nāma minawisad." },
+        { "dari": "آنها در خانه می‌نشینند.", "en": "They sit at home.", "translit": "Ānhā dar khāna minashinand." },
+        { "dari": "من دری یاد می‌گیرم.", "en": "I am learning Dari.", "translit": "Man Dari yād migiram." }
+      ]
+    }
+  ]
+}

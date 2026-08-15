@@ -1,0 +1,259 @@
+{
+  "level": "a1",
+  "grammarTopics": {
+    "questions": {
+      "title": "Asking Questions",
+      "pattern": "چی/کجا/کی/چرا/چند + [sentence]",
+      "explanation": "Dari question words stay right where the answer would go, rather than moving to the front the way English does. \"شما کجا هستید؟\" is literally \"You where are?\" -- کجا (kojā, where) simply sits in the spot the place-answer would fill. The same is true for چی (chi, what), کی (kay, when), چرا (cherā, why), and چند (chand, how many).",
+      "fact": "چند (chand) does double duty: alone before a noun it means \"how many/how much\" (چند کتاب؟ \"how many books?\"), but with -م attached it becomes چندم (\"which number in order\") for asking someone's rank or position.",
+      "dialogue": [
+        { "native": "شما کجا کار می‌کنید؟", "en": "Where do you work?" },
+        { "native": "من در یک دوکان کار می‌کنم.", "en": "I work in a shop." },
+        { "native": "چند سال است که آنجا کار می‌کنید؟", "en": "How many years have you worked there?" }
+      ]
+    },
+    "prepositions-location": {
+      "title": "Saying Where Something Is",
+      "pattern": "[thing] + در/نزدیک/دور/زیر/روی + [place]",
+      "explanation": "Location words like در (in), نزدیک (near), دور (far from), زیر (under), and روی (on) come directly before the place they describe, just like English \"in,\" \"near,\" \"under.\" کتاب روی میز است is \"the book is on the table.\"",
+      "fact": "روی literally means \"face\" as a noun (as in چهره/روی, \"face\") -- \"on top of\" grew out of the image of something resting face-up on a surface.",
+      "dialogue": [
+        { "native": "کتاب من کجاست؟", "en": "Where is my book?" },
+        { "native": "روی میز است.", "en": "It's on the table." },
+        { "native": "خانه شما نزدیک است یا دور؟", "en": "Is your house near or far?" }
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "number": 15,
+      "title": "Professions",
+      "titleNative": "کارها و مسلک‌ها",
+      "topicId": "present-tense",
+      "items": [
+        { "dari": "پدر من داکتر است.", "en": "My father is a doctor.", "translit": "Pedar-e man dāktar ast." },
+        { "dari": "مادر من معلم است.", "en": "My mother is a teacher.", "translit": "Mādar-e man mo'alim ast." },
+        { "dari": "برادر من مهندس است.", "en": "My brother is an engineer.", "translit": "Barādar-e man muhandis ast." },
+        { "dari": "او در بازار کار می‌کند.", "en": "He/She works at the market.", "translit": "U dar bāzār kār mikonad." },
+        { "dari": "آشپز در آشپزخانه کار می‌کند.", "en": "The cook works in the kitchen.", "translit": "Āshpaz dar āshpazkhāna kār mikonad." },
+        { "dari": "دهقان در زمین کار می‌کند.", "en": "The farmer works in the field.", "translit": "Dehqān dar zamin kār mikonad." },
+        { "dari": "شما چه کار می‌کنید؟", "en": "What work do you do?", "translit": "Shomā che kār mikonid?" }
+      ]
+    },
+    {
+      "number": 16,
+      "title": "Getting Around",
+      "titleNative": "رفت و آمد",
+      "topicId": "present-tense",
+      "items": [
+        { "dari": "من با موتر به مکتب می‌روم.", "en": "I go to school by car.", "translit": "Man ba motar ba maktab miraum." },
+        { "dari": "او با بس به کار می‌رود.", "en": "He/She goes to work by bus.", "translit": "U ba bas ba kār miraud." },
+        { "dari": "این سرک بزرگ است.", "en": "This road is big.", "translit": "In sarak bozorg ast." },
+        { "dari": "طیاره در آسمان است.", "en": "The airplane is in the sky.", "translit": "Tayāra dar āsmān ast." },
+        { "dari": "قطار خیلی تیز می‌رود.", "en": "The train goes very fast.", "translit": "Qatār khaili tez miraud." },
+        { "dari": "کشتی روی آب است.", "en": "The boat is on the water.", "translit": "Kashti roy-e āb ast." },
+        { "dari": "موتر شما کجاست؟", "en": "Where is your car?", "translit": "Motar-e shomā kojāst?" }
+      ]
+    },
+    {
+      "number": 17,
+      "title": "Asking Questions",
+      "titleNative": "پرسیدن سوال",
+      "topicId": "questions",
+      "items": [
+        { "dari": "این چیست؟", "en": "What is this?", "translit": "In chist?" },
+        { "dari": "شما کجا هستید؟", "en": "Where are you?", "translit": "Shomā kojā hastid?" },
+        { "dari": "او کی می‌آید؟", "en": "When is he/she coming?", "translit": "U kay miāyad?" },
+        { "dari": "چرا شما خوشحال هستید؟", "en": "Why are you happy?", "translit": "Cherā shomā khoshhāl hastid?" },
+        { "dari": "چند کتاب دارید؟", "en": "How many books do you have?", "translit": "Chand kitāb dārid?" },
+        { "dari": "کدام خانه شما است؟", "en": "Which house is yours?", "translit": "Kudām khāna-ye shomā ast?" },
+        { "dari": "چگونه به بازار می‌روید؟", "en": "How do you go to the market?", "translit": "Chegona ba bāzār miraid?" }
+      ]
+    },
+    {
+      "number": 18,
+      "title": "Where Things Are",
+      "titleNative": "جای چیزها",
+      "topicId": "prepositions-location",
+      "items": [
+        { "dari": "کتاب روی میز است.", "en": "The book is on the table.", "translit": "Kitāb roy-e meyz ast." },
+        { "dari": "پشک زیر چوکی است.", "en": "The cat is under the chair.", "translit": "Pashak zir-e choki ast." },
+        { "dari": "خانه ما نزدیک بازار است.", "en": "Our house is near the market.", "translit": "Khāna-ye mā nazdik-e bāzār ast." },
+        { "dari": "مکتب دور از خانه است.", "en": "The school is far from home.", "translit": "Maktab dor az khāna ast." },
+        { "dari": "من در اتاق هستم.", "en": "I am in the room.", "translit": "Man dar otāq hastam." },
+        { "dari": "او پیش دروازه است.", "en": "He/She is in front of the door.", "translit": "U pish-e darwāza ast." },
+        { "dari": "پول در دست من است.", "en": "The money is in my hand.", "translit": "Pul dar dast-e man ast." }
+      ]
+    },
+    {
+      "number": 19,
+      "title": "Big and Small",
+      "titleNative": "بزرگ و کوچک",
+      "topicId": "adjectives-order",
+      "items": [
+        { "dari": "این خانه بزرگ است و آن خانه کوچک است.", "en": "This house is big and that house is small.", "translit": "In khāna bozorg ast wa ān khāna kuchak ast." },
+        { "dari": "موتر او دراز و بلند است.", "en": "His/her car is long and tall.", "translit": "Motar-e u derāz wa boland ast." },
+        { "dari": "کفش کوچک برای طفل خوب است.", "en": "Small shoes are good for a child.", "translit": "Kafsh-e kuchak barāy-e tefl khub ast." },
+        { "dari": "این کتاب کهنه است، آن کتاب نو است.", "en": "This book is old, that book is new.", "translit": "In kitāb kohna ast, ān kitāb naw ast." },
+        { "dari": "خانه بزرگ گران است.", "en": "A big house is expensive.", "translit": "Khāna-ye bozorg gerān ast." },
+        { "dari": "این میز تنگ است.", "en": "This table is narrow.", "translit": "In meyz tang ast." }
+      ]
+    },
+    {
+      "number": 20,
+      "title": "Feelings",
+      "titleNative": "احساسات",
+      "topicId": "adjectives-order",
+      "items": [
+        { "dari": "من امروز خوشحال هستم.", "en": "I am happy today.", "translit": "Man emroz khoshhāl hastam." },
+        { "dari": "او غمگین است.", "en": "He/She is sad.", "translit": "U ghamgin ast." },
+        { "dari": "ما خسته هستیم.", "en": "We are tired.", "translit": "Mā khasta hastim." },
+        { "dari": "چرا عصبانی هستید؟", "en": "Why are you angry?", "translit": "Cherā asabāni hastid?" },
+        { "dari": "او از سگ بزرگ می‌ترسد.", "en": "He/She is afraid of the big dog.", "translit": "U az sag-e bozorg mitarsad." },
+        { "dari": "من آرام هستم.", "en": "I am calm.", "translit": "Man ārām hastam." },
+        { "dari": "بعد از کار، من خسته می‌شوم.", "en": "After work, I get tired.", "translit": "Ba'd az kār, man khasta misham." }
+      ]
+    },
+    {
+      "number": 21,
+      "title": "At School",
+      "titleNative": "در مکتب",
+      "topicId": "present-tense",
+      "items": [
+        { "dari": "من قلم و کتابچه دارم.", "en": "I have a pen and a notebook.", "translit": "Man qalam wa kitābcha dāram." },
+        { "dari": "معلم در صنف است.", "en": "The teacher is in the classroom.", "translit": "Mo'alim dar sanf ast." },
+        { "dari": "شاگردان درس می‌خوانند.", "en": "The students read the lesson.", "translit": "Shāgerdān dars mikhwānand." },
+        { "dari": "امروز امتحان داریم.", "en": "We have an exam today.", "translit": "Emroz emtehān dārim." },
+        { "dari": "او در پوهنتون درس می‌خواند.", "en": "He/She studies at university.", "translit": "U dar pohantun dars mikhwānad." },
+        { "dari": "من زبان دری یاد می‌گیرم.", "en": "I am learning the Dari language.", "translit": "Man zabān-e Dari yād migiram." },
+        { "dari": "این درس مشکل است.", "en": "This lesson is difficult.", "translit": "In dars moshkel ast." }
+      ]
+    },
+    {
+      "number": 22,
+      "title": "Telling Time",
+      "titleNative": "گفتن ساعت",
+      "topicId": "prepositions-location",
+      "items": [
+        { "dari": "حالا ساعت چند است؟", "en": "What time is it now?", "translit": "Hālā sā'at chand ast?" },
+        { "dari": "ساعت هفت صبح است.", "en": "It is seven in the morning.", "translit": "Sā'at haft-e sob ast." },
+        { "dari": "من ساعت هشت به مکتب می‌روم.", "en": "I go to school at eight o'clock.", "translit": "Man sā'at hasht ba maktab miraum." },
+        { "dari": "شب چند بجه می‌خوابید؟", "en": "What time do you sleep at night?", "translit": "Shab chand baja mikhwābid?" },
+        { "dari": "ظهر ما غذا می‌خوریم.", "en": "We eat food at noon.", "translit": "Zohr mā ghazā mikhorim." },
+        { "dari": "دیروز، امروز، فردا.", "en": "Yesterday, today, tomorrow.", "translit": "Diroz, emroz, fardā." },
+        { "dari": "او همیشه به وقت می‌آید.", "en": "He/She always comes on time.", "translit": "U hamesha ba waqt miāyad." }
+      ]
+    },
+    {
+      "number": 23,
+      "title": "Extended Family",
+      "titleNative": "خانواده بزرگ",
+      "topicId": "adjectives-order",
+      "items": [
+        { "dari": "پدربزرگ من خیلی مهربان است.", "en": "My grandfather is very kind.", "translit": "Pedarbozorg-e man khaili mehrabān ast." },
+        { "dari": "مادربزرگ من در خانه ما است.", "en": "My grandmother is at our house.", "translit": "Mādarbozorg-e man dar khāna-ye mā ast." },
+        { "dari": "کاکای من داکتر است.", "en": "My paternal uncle is a doctor.", "translit": "Kākā-ye man dāktar ast." },
+        { "dari": "ماما و خاله من در کابل هستند.", "en": "My maternal uncle and aunt are in Kabul.", "translit": "Māmā wa khāla-ye man dar Kābul hastand." },
+        { "dari": "عمه من معلم است.", "en": "My paternal aunt is a teacher.", "translit": "Amma-ye man mo'alim ast." },
+        { "dari": "این طفل کوچک، نواسه من است.", "en": "This small child is my grandchild.", "translit": "In tefl-e kuchak, nawāsa-ye man ast." }
+      ]
+    },
+    {
+      "number": 24,
+      "title": "My Day",
+      "titleNative": "روز من",
+      "topicId": "present-tense",
+      "items": [
+        { "dari": "من صبح زود بیدار می‌شوم.", "en": "I wake up early in the morning.", "translit": "Man sob-e zud bidār misham." },
+        { "dari": "بعد از آن، صبحانه می‌خورم.", "en": "After that, I eat breakfast.", "translit": "Ba'd az ān, sobhāna mikhoram." },
+        { "dari": "من به مکتب می‌روم و درس می‌خوانم.", "en": "I go to school and study lessons.", "translit": "Man ba maktab miraum wa dars mikhwānam." },
+        { "dari": "ظهر با دوستان خود غذا می‌خورم.", "en": "At noon I eat with my friends.", "translit": "Zohr bā dostān-e khod ghazā mikhoram." },
+        { "dari": "عصر به خانه می‌آیم.", "en": "In the evening I come home.", "translit": "Asr ba khāna miāyam." },
+        { "dari": "شب کتاب می‌خوانم و می‌خوابم.", "en": "At night I read a book and sleep.", "translit": "Shab kitāb mikhwānam wa mikhwābam." }
+      ]
+    },
+    {
+      "number": 25,
+      "title": "At the Market",
+      "titleNative": "در بازار",
+      "topicId": "questions",
+      "items": [
+        { "dari": "این چند است؟", "en": "How much is this?", "translit": "In chand ast?" },
+        { "dari": "قیمت این کتاب چند است؟", "en": "What is the price of this book?", "translit": "Qeymat-e in kitāb chand ast?" },
+        { "dari": "من می‌خواهم سیب بخرم.", "en": "I want to buy apples.", "translit": "Man mikhwāham sib bekharam." },
+        { "dari": "فروشنده در دوکان است.", "en": "The seller is in the shop.", "translit": "Foroshanda dar dokān ast." },
+        { "dari": "پول من کم است.", "en": "My money is little.", "translit": "Pul-e man kam ast." },
+        { "dari": "این بازار خیلی بزرگ است.", "en": "This market is very big.", "translit": "In bāzār khaili bozorg ast." },
+        { "dari": "او هر روز از بازار خرید می‌کند.", "en": "He/She shops at the market every day.", "translit": "U har roz az bāzār kharid mikonad." }
+      ]
+    },
+    {
+      "number": 26,
+      "title": "Likes and Dislikes",
+      "titleNative": "خوش داشتن",
+      "topicId": "present-tense",
+      "items": [
+        { "dari": "من چای را دوست دارم.", "en": "I like tea.", "translit": "Man chāy rā dost dāram." },
+        { "dari": "او رنگ آبی را دوست دارد.", "en": "He/She likes the color blue.", "translit": "U rang-e ābi rā dost dārad." },
+        { "dari": "ما این کتاب را می‌پسندیم.", "en": "We like this book.", "translit": "Mā in kitāb rā mipasandim." },
+        { "dari": "من به موسیقی علاقه دارم.", "en": "I have interest in music.", "translit": "Man ba musiqi alāqa dāram." },
+        { "dari": "شما کدام غذا را دوست دارید؟", "en": "Which food do you like?", "translit": "Shomā kudām ghazā rā dost dārid?" },
+        { "dari": "او هوای سرد را دوست ندارد.", "en": "He/She does not like cold weather.", "translit": "U hawā-ye sard rā dost nadārad." }
+      ]
+    },
+    {
+      "number": 27,
+      "title": "How Often",
+      "titleNative": "چند وقت به وقت",
+      "topicId": "questions",
+      "items": [
+        { "dari": "من همیشه صبحانه می‌خورم.", "en": "I always eat breakfast.", "translit": "Man hamesha sobhāna mikhoram." },
+        { "dari": "او معمولا به مکتب می‌رود.", "en": "He/She usually goes to school.", "translit": "U ma'mulan ba maktab miraud." },
+        { "dari": "ما گاهی به بازار می‌رویم.", "en": "We sometimes go to the market.", "translit": "Mā gāhi ba bāzār miraim." },
+        { "dari": "او هیچ چای نمی‌نوشد.", "en": "He/She never drinks tea.", "translit": "U hich chāy neminoshad." },
+        { "dari": "من همیشه کتاب می‌خوانم.", "en": "I always read books.", "translit": "Man hamesha kitāb mikhwānam." },
+        { "dari": "شما چند وقت به بازار می‌روید؟", "en": "How often do you go to the market?", "translit": "Shomā chand waqt ba bāzār miraid?" }
+      ]
+    },
+    {
+      "number": 28,
+      "title": "Simple Conversations",
+      "titleNative": "گفتگوهای ساده",
+      "topicId": "questions",
+      "items": [
+        { "dari": "سلام، حال شما چطور است؟", "en": "Hello, how are you?", "translit": "Salaam, hāl-e shomā chetor ast?" },
+        { "dari": "من خوب هستم، شما چطور هستید؟", "en": "I am good, how are you?", "translit": "Man khub hastam, shomā chetor hastid?" },
+        { "dari": "امروز کار می‌کنید یا نه؟", "en": "Are you working today or not?", "translit": "Emroz kār mikonid yā na?" },
+        { "dari": "بلی، من امروز کار می‌کنم.", "en": "Yes, I am working today.", "translit": "Bali, man emroz kār mikonam." },
+        { "dari": "فردا چه می‌کنید؟", "en": "What are you doing tomorrow?", "translit": "Fardā che mikonid?" },
+        { "dari": "فردا به بازار می‌روم.", "en": "Tomorrow I am going to the market.", "translit": "Fardā ba bāzār miraum." }
+      ]
+    },
+    {
+      "number": 29,
+      "title": "Review: Everyday Sentences",
+      "titleNative": "تکرار: جملات روزمره",
+      "topicId": "present-tense",
+      "items": [
+        { "dari": "نام من احمد است و من از کابل هستم.", "en": "My name is Ahmad and I am from Kabul.", "translit": "Nām-e man Ahmad ast wa man az Kābul hastam." },
+        { "dari": "من هر روز به مکتب می‌روم و درس می‌خوانم.", "en": "I go to school and study every day.", "translit": "Man har roz ba maktab miraum wa dars mikhwānam." },
+        { "dari": "خانه ما بزرگ است و نزدیک بازار است.", "en": "Our house is big and near the market.", "translit": "Khāna-ye mā bozorg ast wa nazdik-e bāzār ast." },
+        { "dari": "من چای و نان را دوست دارم.", "en": "I like tea and bread.", "translit": "Man chāy wa nān rā dost dāram." },
+        { "dari": "برادر من داکتر است و در شفاخانه کار می‌کند.", "en": "My brother is a doctor and works at the hospital.", "translit": "Barādar-e man dāktar ast wa dar shafākhāna kār mikonad." }
+      ]
+    },
+    {
+      "number": 30,
+      "title": "Review: Questions and Answers",
+      "titleNative": "تکرار: پرسش و پاسخ",
+      "topicId": "questions",
+      "items": [
+        { "dari": "نام شما چیست؟ -- نام من مریم است.", "en": "What is your name? -- My name is Maryam.", "translit": "Nām-e shomā chist? -- Nām-e man Maryam ast." },
+        { "dari": "شما از کجا هستید؟ -- من از هرات هستم.", "en": "Where are you from? -- I am from Herat.", "translit": "Shomā az kojā hastid? -- Man az Herāt hastam." },
+        { "dari": "چند سال دارید؟ -- من بیست سال دارم.", "en": "How old are you? -- I am twenty years old.", "translit": "Chand sāl dārid? -- Man bist sāl dāram." },
+        { "dari": "چه کار می‌کنید؟ -- من معلم هستم.", "en": "What work do you do? -- I am a teacher.", "translit": "Che kār mikonid? -- Man mo'alim hastam." },
+        { "dari": "کدام رنگ را دوست دارید؟ -- من رنگ سبز را دوست دارم.", "en": "Which color do you like? -- I like the color green.", "translit": "Kudām rang rā dost dārid? -- Man rang-e sabz rā dost dāram." }
+      ]
+    }
+  ]
+}

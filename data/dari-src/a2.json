@@ -1,0 +1,169 @@
+{
+  "level": "a2",
+  "grammarTopics": {
+    "past-tense": {
+      "title": "Talking About the Past",
+      "pattern": "[past stem] + ـم/ـی/ـ/ـیم/ـید/ـند",
+      "explanation": "The simple past is much more regular than the present: for almost every verb, the past stem is just the infinitive with the final ن removed. رفتن (raftan, \"to go\") -> رفت (raft, \"went\"); خوردن (khordan, \"to eat\") -> خورد (khord, \"ate\"). Personal endings attach directly, and the \"he/she/it\" form has NO ending at all -- the bare past stem alone already means \"he/she/it did.\"",
+      "fact": "Because the present tense stems are so irregular but the past stems are so regular, many Dari textbooks actually teach the past tense before the present -- it is the easier one to predict.",
+      "dialogue": [
+        { "native": "دیروز کجا رفتید؟", "en": "Where did you go yesterday?" },
+        { "native": "من به بازار رفتم و میوه خریدم.", "en": "I went to the market and bought fruit." },
+        { "native": "خوب بود؟", "en": "Was it good?" }
+      ]
+    },
+    "plurals-comparatives": {
+      "title": "More Than One, and Comparing Things",
+      "pattern": "[noun] + ها (plural)   |   [adjective] + تر (comparative)",
+      "explanation": "To make almost any Dari noun plural, add ها to the end: کتاب (book) -> کتاب‌ها (books). To compare two things, add تر to an adjective: بزرگ (big) -> بزرگ‌تر (bigger). Adding ترین instead makes the superlative: بزرگ‌ترین (the biggest).",
+      "fact": "بهتر (\"better\") and بدتر (\"worse\") are irregular comparatives, built from به/خوب (good) and بد (bad) -- the same kind of exception English has with \"good -> better,\" not \"gooder.\"",
+      "dialogue": [
+        { "native": "این کتاب‌ها از شما است؟", "en": "Are these books yours?" },
+        { "native": "بلی، این کتاب از آن کتاب بهتر است.", "en": "Yes, this book is better than that book." },
+        { "native": "کدام کتاب بزرگ‌ترین است؟", "en": "Which book is the biggest?" }
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Yesterday",
+      "titleNative": "دیروز",
+      "topicId": "past-tense",
+      "items": [
+        { "dari": "دیروز من به بازار رفتم.", "en": "Yesterday I went to the market.", "translit": "Diroz man ba bāzār raftam." },
+        { "dari": "او دیروز نان خورد.", "en": "He/She ate bread yesterday.", "translit": "U diroz nān khord." },
+        { "dari": "ما دیروز یک فلم دیدیم.", "en": "We saw a movie yesterday.", "translit": "Mā diroz yak film didim." },
+        { "dari": "شما دیروز چه گفتید؟", "en": "What did you say yesterday?", "translit": "Shomā diroz che goftid?" },
+        { "dari": "آنها دیروز کار کردند.", "en": "They worked yesterday.", "translit": "Ānhā diroz kār kardand." },
+        { "dari": "من دیروز کتاب نو خریدم.", "en": "I bought a new book yesterday.", "translit": "Man diroz kitāb-e naw kharidam." },
+        { "dari": "او دیروز به خانه ما آمد.", "en": "He/She came to our house yesterday.", "translit": "U diroz ba khāna-ye mā āmad." }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "A Trip",
+      "titleNative": "یک سفر",
+      "topicId": "past-tense",
+      "items": [
+        { "dari": "پارسال من به هرات سفر کردم.", "en": "Last year I traveled to Herat.", "translit": "Pārsāl man ba Herāt safar kardam." },
+        { "dari": "پاسپورت و ویزا لازم بود.", "en": "A passport and visa were needed.", "translit": "Pāsport wa wiza lāzem bud." },
+        { "dari": "ما در یک هوتل خوب ماندیم.", "en": "We stayed in a good hotel.", "translit": "Mā dar yak hotel-e khub māndim." },
+        { "dari": "من چمدان بزرگ داشتم.", "en": "I had a big suitcase.", "translit": "Man chamadān-e bozorg dāshtam." },
+        { "dari": "مسافران زیاد در میدان هوایی بودند.", "en": "There were many travelers at the airport.", "translit": "Musāferān-e ziyād dar meydān-e hawāyi budand." },
+        { "dari": "این سفر خیلی خوب بود.", "en": "This trip was very good.", "translit": "In safar khaili khub bud." }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "At the Restaurant",
+      "titleNative": "در رستورانت",
+      "topicId": "past-tense",
+      "items": [
+        { "dari": "ما دیشب به یک رستورانت رفتیم.", "en": "We went to a restaurant last night.", "translit": "Mā dishab ba yak restorant raftim." },
+        { "dari": "من کباب و سالاد خواستم.", "en": "I wanted kebab and salad.", "translit": "Man kabāb wa sālād khwāstam." },
+        { "dari": "او شوربا خورد.", "en": "He/She ate soup.", "translit": "U shorbā khord." },
+        { "dari": "بشقاب و کارد روی میز بود.", "en": "The plate and knife were on the table.", "translit": "Boshqāb wa kārd roy-e meyz bud." },
+        { "dari": "غذا خیلی خوشمزه بود.", "en": "The food was very delicious.", "translit": "Ghazā khaili khoshmaza bud." },
+        { "dari": "بعد از غذا، ما چای نوشیدیم.", "en": "After the food, we drank tea.", "translit": "Ba'd az ghazā, mā chāy noshidim." }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Feeling Sick",
+      "titleNative": "مریض بودن",
+      "topicId": "past-tense",
+      "items": [
+        { "dari": "دیروز من مریض بودم.", "en": "Yesterday I was sick.", "translit": "Diroz man mariz budam." },
+        { "dari": "سر من درد داشت.", "en": "My head hurt.", "translit": "Sar-e man dard dāsht." },
+        { "dari": "تب و سرفه داشتم.", "en": "I had a fever and cough.", "translit": "Tab wa sorfa dāshtam." },
+        { "dari": "من به شفاخانه رفتم.", "en": "I went to the hospital.", "translit": "Man ba shafākhāna raftam." },
+        { "dari": "داکتر دوا داد.", "en": "The doctor gave medicine.", "translit": "Dāktar dawā dād." },
+        { "dari": "حالا صحت من خوب است.", "en": "Now my health is good.", "translit": "Hālā sehat-e man khub ast." }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "The Four Seasons",
+      "titleNative": "چهار فصل",
+      "topicId": "plurals-comparatives",
+      "items": [
+        { "dari": "چهار فصل داریم: بهار، تابستان، خزان، و زمستان.", "en": "We have four seasons: spring, summer, autumn, and winter.", "translit": "Chahār fasl dārim: bahār, tābestān, khazān, wa zemestān." },
+        { "dari": "تابستان از زمستان گرم‌تر است.", "en": "Summer is hotter than winter.", "translit": "Tābestān az zemestān garmtar ast." },
+        { "dari": "زمستان از تابستان سردتر است.", "en": "Winter is colder than summer.", "translit": "Zemestān az tābestān sardtar ast." },
+        { "dari": "بهار فصل زیبایی است.", "en": "Spring is a beautiful season.", "translit": "Bahār fasl-e zibāyi ast." },
+        { "dari": "کدام فصل را بیشتر دوست دارید؟", "en": "Which season do you like most?", "translit": "Kudām fasl rā bishtar dost dārid?" },
+        { "dari": "خزان بهترین فصل است.", "en": "Autumn is the best season.", "translit": "Khazān behtarin fasl ast." }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "On the Phone",
+      "titleNative": "در تلفن",
+      "topicId": "past-tense",
+      "items": [
+        { "dari": "دیروز من به شما زنگ زدم.", "en": "Yesterday I called you.", "translit": "Diroz man ba shomā zang zadam." },
+        { "dari": "موبایل من در دست من بود.", "en": "My mobile phone was in my hand.", "translit": "Mobāyl-e man dar dast-e man bud." },
+        { "dari": "او یک پیام فرستاد.", "en": "He/She sent a message.", "translit": "U yak payām ferestād." },
+        { "dari": "من پیام شما را خواندم.", "en": "I read your message.", "translit": "Man payām-e shomā rā khwāndam." },
+        { "dari": "چرا زنگ نزدید؟", "en": "Why didn't you call?", "translit": "Cherā zang nazadid?" },
+        { "dari": "تلفن من کار نکرد.", "en": "My phone didn't work.", "translit": "Telefon-e man kār nakard." }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Giving Directions",
+      "titleNative": "نشان دادن راه",
+      "topicId": "plurals-comparatives",
+      "items": [
+        { "dari": "مستقیم بروید.", "en": "Go straight.", "translit": "Mustaqim beraud." },
+        { "dari": "بعد به راست بروید.", "en": "Then go right.", "translit": "Ba'd ba rāst beraud." },
+        { "dari": "خانه من نزدیک چوک است.", "en": "My house is near the square.", "translit": "Khāna-ye man nazdik-e chowk ast." },
+        { "dari": "از این گوشه به چپ بروید.", "en": "Go left from this corner.", "translit": "Az in gosha ba chap beraud." },
+        { "dari": "بازار از خانه ما دورتر است.", "en": "The market is farther than our house.", "translit": "Bāzār az khāna-ye mā dortar ast." },
+        { "dari": "مکتب نزدیک‌تر از بازار است.", "en": "The school is closer than the market.", "translit": "Maktab nazdiktar az bāzār ast." }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Comparing Things",
+      "titleNative": "مقایسه کردن",
+      "topicId": "plurals-comparatives",
+      "items": [
+        { "dari": "این موتر از آن موتر بزرگ‌تر است.", "en": "This car is bigger than that car.", "translit": "In motar az ān motar bozorgtar ast." },
+        { "dari": "برادر من از من بلندتر است.", "en": "My brother is taller than me.", "translit": "Barādar-e man az man boland-tar ast." },
+        { "dari": "این خانه از آن خانه ارزان‌تر است.", "en": "This house is cheaper than that house.", "translit": "In khāna az ān khāna arzāntar ast." },
+        { "dari": "کدام کتاب بهتر است؟", "en": "Which book is better?", "translit": "Kudām kitāb behtar ast?" },
+        { "dari": "این کارها از آن کار بدتر است.", "en": "This work is worse than that work.", "translit": "In kār az ān kār badtar ast." },
+        { "dari": "او بزرگ‌ترین شاگرد صنف است.", "en": "He/She is the biggest student in the class.", "translit": "U bozorgtarin shāgerd-e sanf ast." }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Weekend Activities",
+      "titleNative": "کارهای آخر هفته",
+      "topicId": "past-tense",
+      "items": [
+        { "dari": "آخر هفته من با دوستان خود بازی کردم.", "en": "On the weekend I played with my friends.", "translit": "Ākher-e hafta man bā dostān-e khod bāzi kardam." },
+        { "dari": "ما به پارک رفتیم.", "en": "We went to the park.", "translit": "Mā ba pārk raftim." },
+        { "dari": "خواهر من کتاب‌های زیاد خواند.", "en": "My sister read many books.", "translit": "Khwāhar-e man kitāb-hā-ye ziyād khwānd." },
+        { "dari": "پدر و مادر من در خانه ماندند.", "en": "My father and mother stayed home.", "translit": "Pedar wa mādar-e man dar khāna māndand." },
+        { "dari": "شنبه چه کردید؟", "en": "What did you do on Saturday?", "translit": "Shanba che kardid?" },
+        { "dari": "من هیچ کار نکردم، فقط استراحت کردم.", "en": "I did nothing, I just rested.", "translit": "Man hich kār nakardam, faqat esterāhat kardam." }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Review: Past and Present",
+      "titleNative": "تکرار: گذشته و حال",
+      "topicId": "past-tense",
+      "items": [
+        { "dari": "امروز من به مکتب می‌روم، دیروز هم رفتم.", "en": "Today I go to school, yesterday too I went.", "translit": "Emroz man ba maktab miraum, diroz ham raftam." },
+        { "dari": "حالا او کار می‌کند، دیروز هم کار کرد.", "en": "Now he/she works, yesterday too he/she worked.", "translit": "Hālā u kār mikonad, diroz ham kār kard." },
+        { "dari": "پارسال ما در کابل بودیم، امسال در هرات هستیم.", "en": "Last year we were in Kabul, this year we are in Herat.", "translit": "Pārsāl mā dar Kābul budim, emsāl dar Herāt hastim." },
+        { "dari": "این کتاب‌ها از کتاب‌های پارسال بهتر است.", "en": "These books are better than last year's books.", "translit": "In kitāb-hā az kitāb-hā-ye pārsāl behtar ast." },
+        { "dari": "او دیروز مریض بود، امروز صحت او خوب است.", "en": "He/She was sick yesterday, today his/her health is good.", "translit": "U diroz mariz bud, emroz sehat-e u khub ast." }
+      ]
+    }
+  ]
+}
