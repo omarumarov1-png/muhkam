@@ -99,12 +99,12 @@
                 "direction": "ps-en",
                 "prompt": "کوټه",
                 "options": [
-                  "full",
+                  "What is your name?",
+                  "I eat food.",
                   "room",
-                  "This room is full.",
-                  "I have one daughter."
+                  "Today the weather is hot."
                 ],
-                "answerIndex": 1,
+                "answerIndex": 2,
                 "translit": "koTa"
               },
               {
@@ -123,12 +123,12 @@
                 "direction": "ps-en",
                 "prompt": "ټوکر",
                 "options": [
-                  "What is your name?",
+                  "This apple is red.",
+                  "The sun is out.",
                   "piece",
-                  "I have one friend.",
-                  "My family is big."
+                  "I want animals."
                 ],
-                "answerIndex": 1,
+                "answerIndex": 2,
                 "translit": "Tokar"
               },
               {
@@ -147,12 +147,12 @@
                 "direction": "ps-en",
                 "prompt": "ډک",
                 "options": [
-                  "I have one son.",
-                  "He is handsome.",
-                  "Seven, eight, nine, ten.",
-                  "full"
+                  "I want a book.",
+                  "full",
+                  "number",
+                  "There is one house there."
                 ],
-                "answerIndex": 3,
+                "answerIndex": 1,
                 "translit": "Dak"
               },
               {
@@ -171,12 +171,12 @@
                 "direction": "ps-en",
                 "prompt": "ډنډ",
                 "options": [
-                  "Have a good day.",
-                  "He is handsome.",
-                  "we",
-                  "pool"
+                  "The sun is out.",
+                  "pool",
+                  "Our house is in the city.",
+                  "building"
                 ],
-                "answerIndex": 3,
+                "answerIndex": 1,
                 "translit": "DanD"
               },
               {
@@ -197,9 +197,9 @@
                 "answer": "pool",
                 "options": [
                   "pool",
-                  "book",
-                  "person",
-                  "five"
+                  "woman",
+                  "ninety",
+                  "garden"
                 ]
               },
               {
@@ -208,9 +208,9 @@
                 "prompt": "کوڼ",
                 "options": [
                   "deaf",
-                  "I have one sister.",
-                  "piece",
-                  "This is a man."
+                  "The sun is out.",
+                  "I go to school.",
+                  "I have one son."
                 ],
                 "answerIndex": 0,
                 "translit": "kooN"
@@ -231,12 +231,12 @@
                 "direction": "ps-en",
                 "prompt": "ماڼۍ",
                 "options": [
-                  "full",
-                  "I have one son.",
-                  "Seven, eight, nine, ten.",
-                  "building"
+                  "I want water.",
+                  "I want food and tea.",
+                  "building",
+                  "Eighty, ninety, hundred."
                 ],
-                "answerIndex": 3,
+                "answerIndex": 2,
                 "translit": "maaNuy"
               },
               {
@@ -255,12 +255,12 @@
                 "direction": "ps-en",
                 "prompt": "دا کوټه ډکه ده.",
                 "options": [
-                  "I have one daughter.",
-                  "I am fine.",
+                  "This is my father.",
                   "This room is full.",
-                  "This is my father."
+                  "This is my ear.",
+                  "My name is..."
                 ],
-                "answerIndex": 2,
+                "answerIndex": 1,
                 "translit": "Da koTa Daka da."
               },
               {
@@ -268,10 +268,10 @@
                 "direction": "en-ps",
                 "prompt": "This room is full.",
                 "bank": [
-                  "ډکه",
-                  "کوټه",
+                  "ده.",
                   "دا",
-                  "ده."
+                  "کوټه",
+                  "ډکه"
                 ],
                 "answer": [
                   "دا",
@@ -316,12 +316,12 @@
                 "direction": "ps-en",
                 "prompt": "سوړ",
                 "options": [
-                  "I am fine.",
-                  "cold",
-                  "I have one daughter.",
-                  "This is my mother."
+                  "place",
+                  "This is white.",
+                  "It is snowing.",
+                  "cold"
                 ],
-                "answerIndex": 1,
+                "answerIndex": 3,
                 "translit": "sooR"
               },
               {
@@ -340,12 +340,12 @@
                 "direction": "ps-en",
                 "prompt": "اړخ",
                 "options": [
-                  "Afghanistan is my country.",
-                  "flower",
-                  "side",
-                  "room"
+                  "because",
+                  "I have one friend.",
+                  "Today the weather is hot.",
+                  "side"
                 ],
-                "answerIndex": 2,
+                "answerIndex": 3,
                 "translit": "aRkh"
               },
               {
@@ -364,12 +364,12 @@
                 "direction": "ps-en",
                 "prompt": "غوږ",
                 "options": [
-                  "This is a woman.",
-                  "full",
-                  "family",
-                  "ear"
+                  "My family is big.",
+                  "ear",
+                  "Have a good day.",
+                  "The house is black."
                 ],
-                "answerIndex": 3,
+                "answerIndex": 1,
                 "translit": "ghwuG"
               },
               {
@@ -388,12 +388,12 @@
                 "direction": "ps-en",
                 "prompt": "موږ",
                 "options": [
-                  "piece",
-                  "I have one daughter.",
                   "we",
-                  "Have a good day."
+                  "How are you?",
+                  "Fifty, sixty, seventy.",
+                  "This house is big."
                 ],
-                "answerIndex": 2,
+                "answerIndex": 0,
                 "translit": "muG"
               },
               {
@@ -412,12 +412,12 @@
                 "direction": "ps-en",
                 "prompt": "ښه",
                 "options": [
-                  "ear",
-                  "How are you?",
                   "good",
-                  "What is your name?"
+                  "I go home.",
+                  "These clothes are a lot.",
+                  "There is a garden in the house."
                 ],
-                "answerIndex": 2,
+                "answerIndex": 0,
                 "translit": "ṣ̌a"
               },
               {
@@ -436,12 +436,12 @@
                 "direction": "ps-en",
                 "prompt": "غاښ",
                 "options": [
-                  "I am fine.",
-                  "side",
                   "tooth",
-                  "He is handsome."
+                  "This is my mother.",
+                  "Have a good day.",
+                  "My father is a doctor."
                 ],
-                "answerIndex": 2,
+                "answerIndex": 0,
                 "translit": "ghaaṣ̌"
               },
               {
@@ -460,12 +460,12 @@
                 "direction": "ps-en",
                 "prompt": "زما غوږ دی.",
                 "options": [
-                  "This is my family.",
-                  "There is one book here.",
-                  "I have one son.",
-                  "This is my ear."
+                  "The sun is out.",
+                  "This is my ear.",
+                  "Fourteen, fifteen, sixteen.",
+                  "This room is full."
                 ],
-                "answerIndex": 3,
+                "answerIndex": 1,
                 "translit": "Zma ghwuG dai."
               },
               {
@@ -473,9 +473,9 @@
                 "direction": "en-ps",
                 "prompt": "This is my ear.",
                 "bank": [
+                  "دی.",
                   "غوږ",
-                  "زما",
-                  "دی."
+                  "زما"
                 ],
                 "answer": [
                   "زما",
@@ -519,12 +519,12 @@
                 "direction": "ps-en",
                 "prompt": "ځای",
                 "options": [
-                  "expensive, dear",
                   "place",
-                  "family",
-                  "This is my place."
+                  "It is snowing.",
+                  "Eleven, twelve, thirteen.",
+                  "side"
                 ],
-                "answerIndex": 1,
+                "answerIndex": 0,
                 "translit": "dzaay"
               },
               {
@@ -543,12 +543,12 @@
                 "direction": "ps-en",
                 "prompt": "ځوان",
                 "options": [
+                  "I want a doctor.",
                   "young person",
-                  "Thank you.",
-                  "There is one house there.",
-                  "He is young."
+                  "What color is this?",
+                  "Our house is in the city."
                 ],
-                "answerIndex": 0,
+                "answerIndex": 1,
                 "translit": "dzawaan"
               },
               {
@@ -567,12 +567,12 @@
                 "direction": "ps-en",
                 "prompt": "ځکه",
                 "options": [
-                  "Four, five, six.",
                   "because",
-                  "we",
-                  "full"
+                  "Today the weather is cold.",
+                  "The cat is small.",
+                  "Thursday and Friday."
                 ],
-                "answerIndex": 1,
+                "answerIndex": 0,
                 "translit": "dzaka"
               },
               {
@@ -591,12 +591,12 @@
                 "direction": "ps-en",
                 "prompt": "څنګ",
                 "options": [
-                  "Four, five, six.",
-                  "pool",
-                  "side",
-                  "My name is Ahmad."
+                  "Head, eye, ear.",
+                  "This man is a teacher.",
+                  "we",
+                  "side"
                 ],
-                "answerIndex": 2,
+                "answerIndex": 3,
                 "translit": "tsang"
               },
               {
@@ -616,10 +616,10 @@
                 "blankedEn": "___",
                 "answer": "side",
                 "options": [
-                  "pool",
-                  "good",
-                  "country",
-                  "side"
+                  "profession",
+                  "person",
+                  "side",
+                  "full"
                 ]
               },
               {
@@ -627,12 +627,12 @@
                 "direction": "ps-en",
                 "prompt": "څلور",
                 "options": [
-                  "number",
-                  "My name is...",
-                  "four",
-                  "cold"
+                  "This is my hand.",
+                  "We want water.",
+                  "My mother is a teacher.",
+                  "four"
                 ],
-                "answerIndex": 2,
+                "answerIndex": 3,
                 "translit": "tsalor"
               },
               {
@@ -651,12 +651,12 @@
                 "direction": "ps-en",
                 "prompt": "دا زما ځای دی.",
                 "options": [
-                  "One, two, three.",
-                  "number",
-                  "This is a man.",
-                  "This is my place."
+                  "This is my place.",
+                  "side",
+                  "Fifty, sixty, seventy.",
+                  "My family is big."
                 ],
-                "answerIndex": 3,
+                "answerIndex": 0,
                 "translit": "Da zma dzaay dai."
               },
               {
@@ -664,9 +664,9 @@
                 "direction": "en-ps",
                 "prompt": "This is my place.",
                 "bank": [
-                  "دا",
                   "دی.",
                   "ځای",
+                  "دا",
                   "زما"
                 ],
                 "answer": [
@@ -681,12 +681,12 @@
                 "direction": "ps-en",
                 "prompt": "هغه ځوان دی.",
                 "options": [
-                  "This is my mother.",
-                  "I have one brother.",
+                  "There is a garden in the house.",
                   "He is young.",
-                  "One, two, three."
+                  "My family is big.",
+                  "My clothes are in the city."
                 ],
-                "answerIndex": 2,
+                "answerIndex": 1,
                 "translit": "Hagha dzawaan dai."
               },
               {
@@ -694,8 +694,8 @@
                 "direction": "en-ps",
                 "prompt": "He is young.",
                 "bank": [
-                  "هغه",
                   "ځوان",
+                  "هغه",
                   "دی."
                 ],
                 "answer": [
@@ -740,12 +740,12 @@
                 "direction": "ps-en",
                 "prompt": "ګران",
                 "options": [
-                  "room",
-                  "because",
-                  "cold",
-                  "expensive, dear"
+                  "Afghanistan is my country.",
+                  "My mother is a teacher.",
+                  "expensive, dear",
+                  "What is your name?"
                 ],
-                "answerIndex": 3,
+                "answerIndex": 2,
                 "translit": "graan"
               },
               {
@@ -764,12 +764,12 @@
                 "direction": "ps-en",
                 "prompt": "ګل",
                 "options": [
+                  "full",
                   "flower",
-                  "I have one brother.",
-                  "I have one daughter.",
-                  "tooth"
+                  "My clothes are in the city.",
+                  "This is a cow."
                 ],
-                "answerIndex": 0,
+                "answerIndex": 1,
                 "translit": "gul"
               },
               {
@@ -788,12 +788,12 @@
                 "direction": "ps-en",
                 "prompt": "هېواد",
                 "options": [
-                  "I have one brother.",
+                  "This is a cow.",
+                  "It is raining.",
                   "country",
-                  "deaf",
-                  "place"
+                  "This is our house."
                 ],
-                "answerIndex": 1,
+                "answerIndex": 2,
                 "translit": "hewaad"
               },
               {
@@ -812,12 +812,12 @@
                 "direction": "ps-en",
                 "prompt": "شمېر",
                 "options": [
-                  "Seven, eight, nine, ten.",
-                  "What is your name?",
+                  "Eleven, twelve, thirteen.",
                   "number",
-                  "piece"
+                  "family",
+                  "How are you?"
                 ],
-                "answerIndex": 2,
+                "answerIndex": 1,
                 "translit": "shmer"
               },
               {
@@ -837,10 +837,10 @@
                 "blankedEn": "___",
                 "answer": "number",
                 "options": [
-                  "Hello",
-                  "side",
-                  "number",
-                  "piece"
+                  "brother",
+                  "eight",
+                  "flower",
+                  "number"
                 ]
               },
               {
@@ -848,12 +848,12 @@
                 "direction": "ps-en",
                 "prompt": "کورنۍ",
                 "options": [
-                  "deaf",
-                  "four",
                   "family",
-                  "I have one daughter."
+                  "I have one daughter.",
+                  "we",
+                  "I want new clothes."
                 ],
-                "answerIndex": 2,
+                "answerIndex": 0,
                 "translit": "koranai"
               },
               {
@@ -872,10 +872,10 @@
                 "direction": "ps-en",
                 "prompt": "دا زما کورنۍ ده.",
                 "options": [
-                  "we",
+                  "My heart is good.",
                   "This is my family.",
-                  "Hello.",
-                  "I am fine."
+                  "I have one friend.",
+                  "Seven, eight, nine, ten."
                 ],
                 "answerIndex": 1,
                 "translit": "Da zma koranai da."
@@ -885,10 +885,10 @@
                 "direction": "en-ps",
                 "prompt": "This is my family.",
                 "bank": [
-                  "زما",
-                  "کورنۍ",
                   "دا",
-                  "ده."
+                  "کورنۍ",
+                  "ده.",
+                  "زما"
                 ],
                 "answer": [
                   "دا",
@@ -902,12 +902,12 @@
                 "direction": "ps-en",
                 "prompt": "افغانستان زما هېواد دی.",
                 "options": [
-                  "Afghanistan is my country.",
-                  "I have one sister.",
-                  "This is my place.",
-                  "deaf"
+                  "I have one daughter.",
+                  "room",
+                  "He is young.",
+                  "Afghanistan is my country."
                 ],
-                "answerIndex": 0,
+                "answerIndex": 3,
                 "translit": "Afghanistan zma hewaad dai."
               },
               {
@@ -915,10 +915,10 @@
                 "direction": "en-ps",
                 "prompt": "Afghanistan is my country.",
                 "bank": [
-                  "دی.",
-                  "زما",
                   "افغانستان",
-                  "هېواد"
+                  "دی.",
+                  "هېواد",
+                  "زما"
                 ],
                 "answer": [
                   "افغانستان",
@@ -963,12 +963,12 @@
                 "direction": "ps-en",
                 "prompt": "سلام.",
                 "options": [
-                  "There is one book here.",
-                  "pool",
-                  "room",
-                  "Hello."
+                  "This is my father.",
+                  "Hello.",
+                  "Eighty, ninety, hundred.",
+                  "Afghanistan is my country."
                 ],
-                "answerIndex": 3,
+                "answerIndex": 1,
                 "translit": "Salaam."
               },
               {
@@ -987,12 +987,12 @@
                 "direction": "ps-en",
                 "prompt": "زه ښه یم.",
                 "options": [
-                  "I am fine.",
-                  "we",
-                  "country",
-                  "This is my family."
+                  "room",
+                  "This is my hand.",
+                  "I want food and tea.",
+                  "I am fine."
                 ],
-                "answerIndex": 0,
+                "answerIndex": 3,
                 "translit": "Za ṣ̌a yim."
               },
               {
@@ -1015,12 +1015,12 @@
                 "direction": "ps-en",
                 "prompt": "ته څنګه یې؟",
                 "options": [
+                  "I have one daughter.",
                   "How are you?",
-                  "young person",
-                  "There is one house there.",
-                  "I have one sister."
+                  "Fifty, sixty, seventy.",
+                  "These clothes are a lot."
                 ],
-                "answerIndex": 0,
+                "answerIndex": 1,
                 "translit": "Ta tsanga ye?"
               },
               {
@@ -1028,9 +1028,9 @@
                 "direction": "en-ps",
                 "prompt": "How are you?",
                 "bank": [
+                  "یې؟",
                   "ته",
-                  "څنګه",
-                  "یې؟"
+                  "څنګه"
                 ],
                 "answer": [
                   "ته",
@@ -1043,12 +1043,12 @@
                 "direction": "ps-en",
                 "prompt": "مننه.",
                 "options": [
-                  "expensive, dear",
-                  "This is my mother.",
-                  "building",
-                  "Thank you."
+                  "I have one daughter.",
+                  "I eat food.",
+                  "Thank you.",
+                  "pool"
                 ],
-                "answerIndex": 3,
+                "answerIndex": 2,
                 "translit": "Manana."
               },
               {
@@ -1068,10 +1068,10 @@
                 "blankedEn": "___ you.",
                 "answer": "Thank",
                 "options": [
-                  "friend",
-                  "Thank",
-                  "tooth",
-                  "handsome"
+                  "eleven",
+                  "nineteen",
+                  "teacher",
+                  "Thank"
                 ]
               },
               {
@@ -1079,12 +1079,12 @@
                 "direction": "ps-en",
                 "prompt": "زما نوم دی.",
                 "options": [
-                  "country",
-                  "This is my friend.",
-                  "tooth",
-                  "My name is..."
+                  "Fifty, sixty, seventy.",
+                  "My name is...",
+                  "My room is full.",
+                  "My book is red."
                 ],
-                "answerIndex": 3,
+                "answerIndex": 1,
                 "translit": "Zma noom dai."
               },
               {
@@ -1107,12 +1107,12 @@
                 "direction": "ps-en",
                 "prompt": "ستا نوم څه دی؟",
                 "options": [
-                  "flower",
-                  "This is my family.",
-                  "I have one son.",
-                  "What is your name?"
+                  "My name is Ahmad.",
+                  "What is your name?",
+                  "room",
+                  "There is one house there."
                 ],
-                "answerIndex": 3,
+                "answerIndex": 1,
                 "translit": "Sta noom tsa dai?"
               },
               {
@@ -1120,10 +1120,10 @@
                 "direction": "en-ps",
                 "prompt": "What is your name?",
                 "bank": [
-                  "دی؟",
+                  "ستا",
                   "نوم",
-                  "څه",
-                  "ستا"
+                  "دی؟",
+                  "څه"
                 ],
                 "answer": [
                   "ستا",
@@ -1137,9 +1137,9 @@
                 "direction": "ps-en",
                 "prompt": "ښه ورځ.",
                 "options": [
-                  "full",
-                  "side",
-                  "This is my friend.",
+                  "He is young.",
+                  "This is a woman.",
+                  "I have one son.",
                   "Have a good day."
                 ],
                 "answerIndex": 3,
@@ -1193,10 +1193,10 @@
                 "direction": "ps-en",
                 "prompt": "دا زما ملګری دی.",
                 "options": [
-                  "I have one daughter.",
+                  "How is the weather today?",
                   "This is my friend.",
-                  "Hello.",
-                  "deaf"
+                  "My room is full.",
+                  "Thursday and Friday."
                 ],
                 "answerIndex": 1,
                 "translit": "Da zma malgari dai."
@@ -1206,10 +1206,10 @@
                 "direction": "en-ps",
                 "prompt": "This is my friend.",
                 "bank": [
-                  "زما",
-                  "دا",
                   "ملګری",
-                  "دی."
+                  "دا",
+                  "دی.",
+                  "زما"
                 ],
                 "answer": [
                   "دا",
@@ -1223,12 +1223,12 @@
                 "direction": "ps-en",
                 "prompt": "هغه ښکلی دی.",
                 "options": [
-                  "Seven, eight, nine, ten.",
+                  "tooth",
+                  "This is a cow.",
                   "He is handsome.",
-                  "I have one daughter.",
-                  "piece"
+                  "A week has seven days."
                 ],
-                "answerIndex": 1,
+                "answerIndex": 2,
                 "translit": "Hagha ṣ̌kali dai."
               },
               {
@@ -1236,9 +1236,9 @@
                 "direction": "en-ps",
                 "prompt": "He is handsome.",
                 "bank": [
-                  "دی.",
                   "هغه",
-                  "ښکلی"
+                  "ښکلی",
+                  "دی."
                 ],
                 "answer": [
                   "هغه",
@@ -1252,9 +1252,9 @@
                 "prompt": "زما نوم احمد دی.",
                 "options": [
                   "My name is Ahmad.",
-                  "I have one sister.",
-                  "flower",
-                  "expensive, dear"
+                  "There is a garden in the house.",
+                  "There are thirty books here.",
+                  "This is my foot."
                 ],
                 "answerIndex": 0,
                 "translit": "Zma noom Ahmad dai."
@@ -1265,9 +1265,9 @@
                 "prompt": "My name is Ahmad.",
                 "bank": [
                   "دی.",
-                  "نوم",
                   "احمد",
-                  "زما"
+                  "زما",
+                  "نوم"
                 ],
                 "answer": [
                   "زما",
@@ -1281,12 +1281,12 @@
                 "direction": "ps-en",
                 "prompt": "ستا نوم څه دی؟",
                 "options": [
-                  "full",
                   "What is your name?",
-                  "I have one sister.",
-                  "This is my mother."
+                  "What color is this?",
+                  "This book has twenty pages.",
+                  "My clothes are in the city."
                 ],
-                "answerIndex": 1,
+                "answerIndex": 0,
                 "translit": "Sta noom tsa dai?"
               },
               {
@@ -1294,10 +1294,10 @@
                 "direction": "en-ps",
                 "prompt": "What is your name?",
                 "bank": [
-                  "دی؟",
                   "ستا",
                   "څه",
-                  "نوم"
+                  "نوم",
+                  "دی؟"
                 ],
                 "answer": [
                   "ستا",
@@ -1312,10 +1312,10 @@
                 "blankedEn": "What is your ___",
                 "answer": "name",
                 "options": [
-                  "sister",
-                  "father",
-                  "name",
-                  "Four"
+                  "country",
+                  "Seven",
+                  "garden",
+                  "name"
                 ]
               },
               {
@@ -1323,12 +1323,12 @@
                 "direction": "ps-en",
                 "prompt": "دا سړی دی.",
                 "options": [
-                  "I have one daughter.",
-                  "This is a woman.",
-                  "This is a man.",
-                  "I have one son."
+                  "There is a garden in the house.",
+                  "This is white.",
+                  "This is red.",
+                  "This is a man."
                 ],
-                "answerIndex": 2,
+                "answerIndex": 3,
                 "translit": "Da saray dai."
               },
               {
@@ -1351,12 +1351,12 @@
                 "direction": "ps-en",
                 "prompt": "دا ښځه ده.",
                 "options": [
-                  "This is a woman.",
-                  "we",
+                  "This is our house.",
                   "good",
-                  "I have one son."
+                  "What is your name?",
+                  "This is a woman."
                 ],
-                "answerIndex": 0,
+                "answerIndex": 3,
                 "translit": "Da ṣ̌dza da."
               },
               {
@@ -1364,9 +1364,9 @@
                 "direction": "en-ps",
                 "prompt": "This is a woman.",
                 "bank": [
-                  "دا",
+                  "ښځه",
                   "ده.",
-                  "ښځه"
+                  "دا"
                 ],
                 "answer": [
                   "دا",
@@ -1379,12 +1379,12 @@
                 "direction": "ps-en",
                 "prompt": "دا زما ملګرې ده.",
                 "options": [
-                  "My name is Ahmad.",
                   "This is my friend.",
-                  "One, two, three.",
-                  "flower"
+                  "My clothes are in the city.",
+                  "My family is big.",
+                  "My name is..."
                 ],
-                "answerIndex": 1,
+                "answerIndex": 0,
                 "translit": "Da zma malgare da."
               },
               {
@@ -1392,10 +1392,10 @@
                 "direction": "en-ps",
                 "prompt": "This is my friend.",
                 "bank": [
-                  "ملګرې",
-                  "ده.",
                   "دا",
-                  "زما"
+                  "زما",
+                  "ده.",
+                  "ملګرې"
                 ],
                 "answer": [
                   "دا",
@@ -1439,12 +1439,12 @@
                 "direction": "ps-en",
                 "prompt": "دا زما کورنۍ ده.",
                 "options": [
-                  "full",
-                  "This is my place.",
-                  "place",
-                  "This is my family."
+                  "There is one house there.",
+                  "This is my family.",
+                  "Afghanistan is my country.",
+                  "One, two, three."
                 ],
-                "answerIndex": 3,
+                "answerIndex": 1,
                 "translit": "Da zma koranai da."
               },
               {
@@ -1452,10 +1452,10 @@
                 "direction": "en-ps",
                 "prompt": "This is my family.",
                 "bank": [
-                  "زما",
                   "ده.",
                   "دا",
-                  "کورنۍ"
+                  "کورنۍ",
+                  "زما"
                 ],
                 "answer": [
                   "دا",
@@ -1469,10 +1469,10 @@
                 "direction": "ps-en",
                 "prompt": "دا زما مور ده.",
                 "options": [
-                  "ear",
+                  "These are my clothes.",
                   "This is my mother.",
-                  "There is one house there.",
-                  "side"
+                  "We want water.",
+                  "This is my room."
                 ],
                 "answerIndex": 1,
                 "translit": "Da zma moor da."
@@ -1482,9 +1482,9 @@
                 "direction": "en-ps",
                 "prompt": "This is my mother.",
                 "bank": [
-                  "زما",
-                  "مور",
                   "دا",
+                  "مور",
+                  "زما",
                   "ده."
                 ],
                 "answer": [
@@ -1499,12 +1499,12 @@
                 "direction": "ps-en",
                 "prompt": "دا زما پلار دی.",
                 "options": [
-                  "four",
-                  "number",
-                  "I am fine.",
-                  "This is my father."
+                  "I have one brother.",
+                  "we",
+                  "This is my father.",
+                  "My name is Ahmad."
                 ],
-                "answerIndex": 3,
+                "answerIndex": 2,
                 "translit": "Da zma plaar dai."
               },
               {
@@ -1512,10 +1512,10 @@
                 "direction": "en-ps",
                 "prompt": "This is my father.",
                 "bank": [
-                  "پلار",
-                  "دی.",
                   "دا",
-                  "زما"
+                  "دی.",
+                  "زما",
+                  "پلار"
                 ],
                 "answer": [
                   "دا",
@@ -1529,12 +1529,12 @@
                 "direction": "ps-en",
                 "prompt": "زما یو ورور دی.",
                 "options": [
+                  "What color is this?",
+                  "because",
                   "I have one brother.",
-                  "There is one book here.",
-                  "My name is...",
-                  "piece"
+                  "I want food and tea."
                 ],
-                "answerIndex": 0,
+                "answerIndex": 2,
                 "translit": "Zma yaw wror dai."
               },
               {
@@ -1542,10 +1542,10 @@
                 "direction": "en-ps",
                 "prompt": "I have one brother.",
                 "bank": [
-                  "زما",
-                  "یو",
                   "دی.",
-                  "ورور"
+                  "ورور",
+                  "یو",
+                  "زما"
                 ],
                 "answer": [
                   "زما",
@@ -1560,10 +1560,10 @@
                 "blankedEn": "I have one ___",
                 "answer": "brother",
                 "options": [
+                  "pages",
                   "brother",
-                  "five",
-                  "nine",
-                  "handsome"
+                  "book",
+                  "twenty"
                 ]
               },
               {
@@ -1571,12 +1571,12 @@
                 "direction": "ps-en",
                 "prompt": "زما یوه خور ده.",
                 "options": [
-                  "I have one sister.",
-                  "This is my family.",
-                  "I have one son.",
-                  "number"
+                  "I want animals.",
+                  "I have one daughter.",
+                  "This room is full.",
+                  "I have one sister."
                 ],
-                "answerIndex": 0,
+                "answerIndex": 3,
                 "translit": "Zma yawa khor da."
               },
               {
@@ -1584,10 +1584,10 @@
                 "direction": "en-ps",
                 "prompt": "I have one sister.",
                 "bank": [
-                  "خور",
-                  "یوه",
+                  "ده.",
                   "زما",
-                  "ده."
+                  "یوه",
+                  "خور"
                 ],
                 "answer": [
                   "زما",
@@ -1601,12 +1601,12 @@
                 "direction": "ps-en",
                 "prompt": "زما یو زوی دی.",
                 "options": [
-                  "Hello.",
                   "I have one son.",
-                  "four",
-                  "flower"
+                  "country",
+                  "This is meat.",
+                  "Eleven, twelve, thirteen."
                 ],
-                "answerIndex": 1,
+                "answerIndex": 0,
                 "translit": "Zma yaw zoy dai."
               },
               {
@@ -1615,8 +1615,8 @@
                 "prompt": "I have one son.",
                 "bank": [
                   "دی.",
-                  "زوی",
                   "زما",
+                  "زوی",
                   "یو"
                 ],
                 "answer": [
@@ -1631,10 +1631,10 @@
                 "direction": "ps-en",
                 "prompt": "زما کورنۍ لویه ده.",
                 "options": [
-                  "piece",
+                  "This is my ear.",
                   "My family is big.",
-                  "What is your name?",
-                  "because"
+                  "This book has twenty pages.",
+                  "Thursday and Friday."
                 ],
                 "answerIndex": 1,
                 "translit": "Zma koranai loya da."
@@ -1644,8 +1644,8 @@
                 "direction": "en-ps",
                 "prompt": "My family is big.",
                 "bank": [
-                  "لویه",
                   "کورنۍ",
+                  "لویه",
                   "زما",
                   "ده."
                 ],
@@ -1691,12 +1691,12 @@
                 "direction": "ps-en",
                 "prompt": "یو، دوه، درې.",
                 "options": [
-                  "He is handsome.",
-                  "One, two, three.",
-                  "flower",
-                  "four"
+                  "This is my father.",
+                  "Today the weather is cold.",
+                  "number",
+                  "One, two, three."
                 ],
-                "answerIndex": 1,
+                "answerIndex": 3,
                 "translit": "Yaw, dwa, dre."
               },
               {
@@ -1705,8 +1705,8 @@
                 "prompt": "One, two, three.",
                 "bank": [
                   "درې.",
-                  "یو،",
-                  "دوه،"
+                  "دوه،",
+                  "یو،"
                 ],
                 "answer": [
                   "یو،",
@@ -1720,8 +1720,8 @@
                 "prompt": "څلور، پنځه، شپږ.",
                 "options": [
                   "Four, five, six.",
-                  "Afghanistan is my country.",
-                  "cold",
+                  "This is red.",
+                  "How are you?",
                   "Have a good day."
                 ],
                 "answerIndex": 0,
@@ -1732,9 +1732,9 @@
                 "direction": "en-ps",
                 "prompt": "Four, five, six.",
                 "bank": [
-                  "پنځه،",
+                  "شپږ.",
                   "څلور،",
-                  "شپږ."
+                  "پنځه،"
                 ],
                 "answer": [
                   "څلور،",
@@ -1747,12 +1747,12 @@
                 "direction": "ps-en",
                 "prompt": "اووه، اته، نه، لس.",
                 "options": [
-                  "Seven, eight, nine, ten.",
-                  "young person",
-                  "My name is Ahmad.",
-                  "we"
+                  "This book has twenty pages.",
+                  "we",
+                  "I want water.",
+                  "Seven, eight, nine, ten."
                 ],
-                "answerIndex": 0,
+                "answerIndex": 3,
                 "translit": "Owa, ata, na, las."
               },
               {
@@ -1761,8 +1761,8 @@
                 "prompt": "Seven, eight, nine, ten.",
                 "bank": [
                   "اته،",
-                  "لس.",
                   "اووه،",
+                  "لس.",
                   "نه،"
                 ],
                 "answer": [
@@ -1777,12 +1777,12 @@
                 "direction": "ps-en",
                 "prompt": "زما یو ملګری دی.",
                 "options": [
-                  "expensive, dear",
+                  "My clothes are black.",
+                  "I am fine.",
                   "I have one friend.",
-                  "good",
-                  "Four, five, six."
+                  "place"
                 ],
-                "answerIndex": 1,
+                "answerIndex": 2,
                 "translit": "Zma yaw malgari dai."
               },
               {
@@ -1790,10 +1790,10 @@
                 "direction": "en-ps",
                 "prompt": "I have one friend.",
                 "bank": [
-                  "یو",
-                  "ملګری",
                   "زما",
-                  "دی."
+                  "ملګری",
+                  "دی.",
+                  "یو"
                 ],
                 "answer": [
                   "زما",
@@ -1808,10 +1808,10 @@
                 "blankedEn": "I have one ___",
                 "answer": "friend",
                 "options": [
+                  "Wednesday",
                   "friend",
-                  "tooth",
-                  "book",
-                  "flower"
+                  "school",
+                  "pages"
                 ]
               },
               {
@@ -1819,12 +1819,12 @@
                 "direction": "ps-en",
                 "prompt": "زما یوه لور ده.",
                 "options": [
-                  "This is my family.",
-                  "ear",
-                  "I have one daughter.",
-                  "This is a woman."
+                  "There is one house there.",
+                  "young person",
+                  "There is one book here.",
+                  "I have one daughter."
                 ],
-                "answerIndex": 2,
+                "answerIndex": 3,
                 "translit": "Zma yawa loor da."
               },
               {
@@ -1833,9 +1833,9 @@
                 "prompt": "I have one daughter.",
                 "bank": [
                   "لور",
-                  "یوه",
                   "ده.",
-                  "زما"
+                  "زما",
+                  "یوه"
                 ],
                 "answer": [
                   "زما",
@@ -1849,12 +1849,12 @@
                 "direction": "ps-en",
                 "prompt": "دلته یو کتاب دی.",
                 "options": [
+                  "The flower is yellow.",
                   "There is one book here.",
-                  "country",
-                  "Four, five, six.",
-                  "building"
+                  "I want a book.",
+                  "This is a man."
                 ],
-                "answerIndex": 0,
+                "answerIndex": 1,
                 "translit": "Dalta yaw kitaab dai."
               },
               {
@@ -1862,10 +1862,10 @@
                 "direction": "en-ps",
                 "prompt": "There is one book here.",
                 "bank": [
-                  "کتاب",
-                  "دی.",
+                  "دلته",
                   "یو",
-                  "دلته"
+                  "کتاب",
+                  "دی."
                 ],
                 "answer": [
                   "دلته",
@@ -1879,12 +1879,12 @@
                 "direction": "ps-en",
                 "prompt": "هلته یو کور دی.",
                 "options": [
-                  "Afghanistan is my country.",
                   "There is one house there.",
-                  "ear",
-                  "country"
+                  "This is a man.",
+                  "This is my friend.",
+                  "pool"
                 ],
-                "answerIndex": 1,
+                "answerIndex": 0,
                 "translit": "Halta yaw kor dai."
               },
               {
@@ -1892,10 +1892,10 @@
                 "direction": "en-ps",
                 "prompt": "There is one house there.",
                 "bank": [
-                  "کور",
                   "یو",
+                  "دی.",
                   "هلته",
-                  "دی."
+                  "کور"
                 ],
                 "answer": [
                   "هلته",
@@ -1927,6 +1927,2894 @@
               }
             ],
             "titleNative": "شمېرې"
+          },
+          {
+            "id": "ps-a1-9",
+            "number": 9,
+            "title": "Colors",
+            "description": "Colors",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "دا سور دی.",
+                "options": [
+                  "There are thirty books here.",
+                  "I go to school.",
+                  "This is red.",
+                  "This is a cat."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "This is red.",
+                "bank": [
+                  "دی.",
+                  "سور",
+                  "دا"
+                ],
+                "answer": [
+                  "دا",
+                  "سور",
+                  "دی."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "دا سپینه ده.",
+                "options": [
+                  "This is white.",
+                  "There are thirty books here.",
+                  "Eighty, ninety, hundred.",
+                  "My book is red."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "This is white.",
+                "bank": [
+                  "دا",
+                  "سپینه",
+                  "ده."
+                ],
+                "answer": [
+                  "دا",
+                  "سپینه",
+                  "ده."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "کور تور دی.",
+                "options": [
+                  "expensive, dear",
+                  "The house is black.",
+                  "My clothes are in the city.",
+                  "This is my place."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "The house is black.",
+                "bank": [
+                  "کور",
+                  "دی.",
+                  "تور"
+                ],
+                "answer": [
+                  "کور",
+                  "تور",
+                  "دی."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "اسمان شین دی.",
+                "options": [
+                  "I have one brother.",
+                  "The sky is blue.",
+                  "He is young.",
+                  "Thursday and Friday."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "The sky is blue.",
+                "bank": [
+                  "اسمان",
+                  "دی.",
+                  "شین"
+                ],
+                "answer": [
+                  "اسمان",
+                  "شین",
+                  "دی."
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "اسمان شین دی.",
+                "blankedEn": "The sky is ___",
+                "answer": "blue",
+                "options": [
+                  "four",
+                  "blue",
+                  "read",
+                  "nine"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "ګل ژېړ دی.",
+                "options": [
+                  "The flower is yellow.",
+                  "This is our house.",
+                  "My clothes are in the city.",
+                  "This food is good."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "The flower is yellow.",
+                "bank": [
+                  "ژېړ",
+                  "ګل",
+                  "دی."
+                ],
+                "answer": [
+                  "ګل",
+                  "ژېړ",
+                  "دی."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "زما کتاب سور دی.",
+                "options": [
+                  "My book is red.",
+                  "Fifty, sixty, seventy.",
+                  "Tomorrow is Sunday.",
+                  "I have eleven books."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "My book is red.",
+                "bank": [
+                  "کتاب",
+                  "دی.",
+                  "زما",
+                  "سور"
+                ],
+                "answer": [
+                  "زما",
+                  "کتاب",
+                  "سور",
+                  "دی."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "دا کوم رنګ دی؟",
+                "options": [
+                  "What color is this?",
+                  "I do not go to school on Friday.",
+                  "I want a hundred.",
+                  "tooth"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "What color is this?",
+                "bank": [
+                  "کوم",
+                  "دی؟",
+                  "رنګ",
+                  "دا"
+                ],
+                "answer": [
+                  "دا",
+                  "کوم",
+                  "رنګ",
+                  "دی؟"
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "دا سور دی.",
+                    "en": "This is red."
+                  },
+                  {
+                    "native": "دا سپینه ده.",
+                    "en": "This is white."
+                  },
+                  {
+                    "native": "کور تور دی.",
+                    "en": "The house is black."
+                  },
+                  {
+                    "native": "اسمان شین دی.",
+                    "en": "The sky is blue."
+                  }
+                ]
+              }
+            ],
+            "titleNative": "رنګونه"
+          },
+          {
+            "id": "ps-a1-10",
+            "number": 10,
+            "title": "Numbers 11-20",
+            "description": "Numbers 11-20",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "یوولس، دولس، دیارلس.",
+                "options": [
+                  "deaf",
+                  "There is a garden in the house.",
+                  "It is raining.",
+                  "Eleven, twelve, thirteen."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "Eleven, twelve, thirteen.",
+                "bank": [
+                  "یوولس،",
+                  "دیارلس.",
+                  "دولس،"
+                ],
+                "answer": [
+                  "یوولس،",
+                  "دولس،",
+                  "دیارلس."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "څوارلس، پنځلس، شپاړس.",
+                "options": [
+                  "Have a good day.",
+                  "Our house is in the city.",
+                  "Fourteen, fifteen, sixteen.",
+                  "I have one sister."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "Fourteen, fifteen, sixteen.",
+                "bank": [
+                  "شپاړس.",
+                  "پنځلس،",
+                  "څوارلس،"
+                ],
+                "answer": [
+                  "څوارلس،",
+                  "پنځلس،",
+                  "شپاړس."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "اوولس، اتلس، نولس، شل.",
+                "options": [
+                  "Seventeen, eighteen, nineteen, twenty.",
+                  "This is my place.",
+                  "This man is a teacher.",
+                  "This is red."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "Seventeen, eighteen, nineteen, twenty.",
+                "bank": [
+                  "نولس،",
+                  "اتلس،",
+                  "شل.",
+                  "اوولس،"
+                ],
+                "answer": [
+                  "اوولس،",
+                  "اتلس،",
+                  "نولس،",
+                  "شل."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "زما لس کتابونه دي.",
+                "options": [
+                  "building",
+                  "I have ten books.",
+                  "My book is red.",
+                  "This is my hand."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "I have ten books.",
+                "bank": [
+                  "کتابونه",
+                  "دي.",
+                  "زما",
+                  "لس"
+                ],
+                "answer": [
+                  "زما",
+                  "لس",
+                  "کتابونه",
+                  "دي."
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "زما لس کتابونه دي.",
+                "blankedEn": "I have ten ___",
+                "answer": "books",
+                "options": [
+                  "color",
+                  "eight",
+                  "books",
+                  "tooth"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "دلته شل ماشومان دي.",
+                "options": [
+                  "This is a cat.",
+                  "The sky is blue.",
+                  "My book is red.",
+                  "There are twenty children here."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "There are twenty children here.",
+                "bank": [
+                  "شل",
+                  "دي.",
+                  "ماشومان",
+                  "دلته"
+                ],
+                "answer": [
+                  "دلته",
+                  "شل",
+                  "ماشومان",
+                  "دي."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "زه یوولس کتابونه لرم.",
+                "options": [
+                  "This room is full.",
+                  "What color is this?",
+                  "I have eleven books.",
+                  "I have one daughter."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "I have eleven books.",
+                "bank": [
+                  "زه",
+                  "یوولس",
+                  "کتابونه",
+                  "لرم."
+                ],
+                "answer": [
+                  "زه",
+                  "یوولس",
+                  "کتابونه",
+                  "لرم."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "دا کتاب شل پاڼې لري.",
+                "options": [
+                  "This book has twenty pages.",
+                  "I go home.",
+                  "What day is today?",
+                  "I have ten books."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "This book has twenty pages.",
+                "bank": [
+                  "دا",
+                  "کتاب",
+                  "شل",
+                  "لري.",
+                  "پاڼې"
+                ],
+                "answer": [
+                  "دا",
+                  "کتاب",
+                  "شل",
+                  "پاڼې",
+                  "لري."
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "یوولس، دولس، دیارلس.",
+                    "en": "Eleven, twelve, thirteen."
+                  },
+                  {
+                    "native": "څوارلس، پنځلس، شپاړس.",
+                    "en": "Fourteen, fifteen, sixteen."
+                  },
+                  {
+                    "native": "اوولس، اتلس، نولس، شل.",
+                    "en": "Seventeen, eighteen, nineteen, twenty."
+                  },
+                  {
+                    "native": "زما لس کتابونه دي.",
+                    "en": "I have ten books."
+                  }
+                ]
+              }
+            ],
+            "titleNative": "شمېرې ۱۱-۲۰"
+          },
+          {
+            "id": "ps-a1-11",
+            "number": 11,
+            "title": "Numbers 20-100",
+            "description": "Numbers 20-100",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "شل، دېرش، څلوېښت.",
+                "options": [
+                  "ear",
+                  "This is my place.",
+                  "These clothes are a lot.",
+                  "Twenty, thirty, forty."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "Twenty, thirty, forty.",
+                "bank": [
+                  "دېرش،",
+                  "شل،",
+                  "څلوېښت."
+                ],
+                "answer": [
+                  "شل،",
+                  "دېرش،",
+                  "څلوېښت."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "پنځوس، شپېته، اویا.",
+                "options": [
+                  "The sun is out.",
+                  "I have one son.",
+                  "Fifty, sixty, seventy.",
+                  "I want a doctor."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "Fifty, sixty, seventy.",
+                "bank": [
+                  "پنځوس،",
+                  "اویا.",
+                  "شپېته،"
+                ],
+                "answer": [
+                  "پنځوس،",
+                  "شپېته،",
+                  "اویا."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "اتیا، نوي، سل.",
+                "options": [
+                  "Have a good day.",
+                  "Today the weather is hot.",
+                  "I have ten books.",
+                  "Eighty, ninety, hundred."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "Eighty, ninety, hundred.",
+                "bank": [
+                  "اتیا،",
+                  "سل.",
+                  "نوي،"
+                ],
+                "answer": [
+                  "اتیا،",
+                  "نوي،",
+                  "سل."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "دا ښوونځی سل ماشومان لري.",
+                "options": [
+                  "This school has a hundred children.",
+                  "This is a horse.",
+                  "I have one sister.",
+                  "My family is big."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "This school has a hundred children.",
+                "bank": [
+                  "سل",
+                  "دا",
+                  "لري.",
+                  "ماشومان",
+                  "ښوونځی"
+                ],
+                "answer": [
+                  "دا",
+                  "ښوونځی",
+                  "سل",
+                  "ماشومان",
+                  "لري."
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "دا ښوونځی سل ماشومان لري.",
+                "blankedEn": "This school has a ___ children.",
+                "answer": "hundred",
+                "options": [
+                  "hundred",
+                  "full",
+                  "water",
+                  "forty"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "دلته پنځوس کتابونه دي.",
+                "options": [
+                  "I want water.",
+                  "place",
+                  "I read a book every day.",
+                  "There are fifty books here."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "There are fifty books here.",
+                "bank": [
+                  "دي.",
+                  "دلته",
+                  "کتابونه",
+                  "پنځوس"
+                ],
+                "answer": [
+                  "دلته",
+                  "پنځوس",
+                  "کتابونه",
+                  "دي."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "دلته دېرش کتابونه دي.",
+                "options": [
+                  "tooth",
+                  "room",
+                  "There are thirty books here.",
+                  "Seventeen, eighteen, nineteen, twenty."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "There are thirty books here.",
+                "bank": [
+                  "دلته",
+                  "دېرش",
+                  "کتابونه",
+                  "دي."
+                ],
+                "answer": [
+                  "دلته",
+                  "دېرش",
+                  "کتابونه",
+                  "دي."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "زه یو سل غواړم.",
+                "options": [
+                  "Seventeen, eighteen, nineteen, twenty.",
+                  "This is my hand.",
+                  "My clothes are black.",
+                  "I want a hundred."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "I want a hundred.",
+                "bank": [
+                  "سل",
+                  "یو",
+                  "غواړم.",
+                  "زه"
+                ],
+                "answer": [
+                  "زه",
+                  "یو",
+                  "سل",
+                  "غواړم."
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "شل، دېرش، څلوېښت.",
+                    "en": "Twenty, thirty, forty."
+                  },
+                  {
+                    "native": "پنځوس، شپېته، اویا.",
+                    "en": "Fifty, sixty, seventy."
+                  },
+                  {
+                    "native": "اتیا، نوي، سل.",
+                    "en": "Eighty, ninety, hundred."
+                  },
+                  {
+                    "native": "دا ښوونځی سل ماشومان لري.",
+                    "en": "This school has a hundred children."
+                  }
+                ]
+              }
+            ],
+            "titleNative": "شمېرې ۲۰-۱۰۰"
+          },
+          {
+            "id": "ps-a1-12",
+            "number": 12,
+            "title": "Days of the Week",
+            "description": "Days of the Week",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "نن شنبه ده.",
+                "options": [
+                  "number",
+                  "This is my hand.",
+                  "Twenty, thirty, forty.",
+                  "Today is Saturday."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "Today is Saturday.",
+                "bank": [
+                  "شنبه",
+                  "نن",
+                  "ده."
+                ],
+                "answer": [
+                  "نن",
+                  "شنبه",
+                  "ده."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "سبا یکشنبه ده.",
+                "options": [
+                  "Eleven, twelve, thirteen.",
+                  "Today the weather is hot.",
+                  "Tomorrow is Sunday.",
+                  "This is my friend."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "Tomorrow is Sunday.",
+                "bank": [
+                  "ده.",
+                  "یکشنبه",
+                  "سبا"
+                ],
+                "answer": [
+                  "سبا",
+                  "یکشنبه",
+                  "ده."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "دوشنبه، سه شنبه، چهارشنبه.",
+                "options": [
+                  "I have eleven books.",
+                  "This is my family.",
+                  "He is young.",
+                  "Monday, Tuesday, Wednesday."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "Monday, Tuesday, Wednesday.",
+                "bank": [
+                  "شنبه،",
+                  "دوشنبه،",
+                  "سه",
+                  "چهارشنبه."
+                ],
+                "answer": [
+                  "دوشنبه،",
+                  "سه",
+                  "شنبه،",
+                  "چهارشنبه."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "پنجشنبه او جمعه.",
+                "options": [
+                  "Thursday and Friday.",
+                  "These clothes are good.",
+                  "tooth",
+                  "We want water."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "Thursday and Friday.",
+                "bank": [
+                  "پنجشنبه",
+                  "جمعه.",
+                  "او"
+                ],
+                "answer": [
+                  "پنجشنبه",
+                  "او",
+                  "جمعه."
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "پنجشنبه او جمعه.",
+                "blankedEn": "___ and Friday.",
+                "answer": "Thursday",
+                "options": [
+                  "good",
+                  "Thursday",
+                  "Tomorrow",
+                  "teacher"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "زه د جمعې په ورځ ښوونځي ته نه ځم.",
+                "options": [
+                  "My room is full.",
+                  "I do not go to school on Friday.",
+                  "This is my friend.",
+                  "My clothes are black."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "I do not go to school on Friday.",
+                "bank": [
+                  "زه",
+                  "د",
+                  "په",
+                  "ځم.",
+                  "ته",
+                  "ښوونځي",
+                  "جمعې",
+                  "ورځ",
+                  "نه"
+                ],
+                "answer": [
+                  "زه",
+                  "د",
+                  "جمعې",
+                  "په",
+                  "ورځ",
+                  "ښوونځي",
+                  "ته",
+                  "نه",
+                  "ځم."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "اونۍ اوه ورځې لري.",
+                "options": [
+                  "Fifty, sixty, seventy.",
+                  "I read a book.",
+                  "A week has seven days.",
+                  "Twenty, thirty, forty."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "A week has seven days.",
+                "bank": [
+                  "ورځې",
+                  "اونۍ",
+                  "لري.",
+                  "اوه"
+                ],
+                "answer": [
+                  "اونۍ",
+                  "اوه",
+                  "ورځې",
+                  "لري."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "نن کومه ورځ ده؟",
+                "options": [
+                  "What day is today?",
+                  "This food is good.",
+                  "This is a woman.",
+                  "We want water."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "What day is today?",
+                "bank": [
+                  "نن",
+                  "کومه",
+                  "ده؟",
+                  "ورځ"
+                ],
+                "answer": [
+                  "نن",
+                  "کومه",
+                  "ورځ",
+                  "ده؟"
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "نن شنبه ده.",
+                    "en": "Today is Saturday."
+                  },
+                  {
+                    "native": "سبا یکشنبه ده.",
+                    "en": "Tomorrow is Sunday."
+                  },
+                  {
+                    "native": "دوشنبه، سه شنبه، چهارشنبه.",
+                    "en": "Monday, Tuesday, Wednesday."
+                  },
+                  {
+                    "native": "پنجشنبه او جمعه.",
+                    "en": "Thursday and Friday."
+                  }
+                ]
+              }
+            ],
+            "titleNative": "د اونۍ ورځې"
+          },
+          {
+            "id": "ps-a1-13",
+            "number": 13,
+            "title": "Food and Drink",
+            "description": "Food and Drink",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "زه ډوډۍ او چای غواړم.",
+                "options": [
+                  "It is snowing.",
+                  "I want food and tea.",
+                  "full",
+                  "We want water."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "I want food and tea.",
+                "bank": [
+                  "ډوډۍ",
+                  "او",
+                  "چای",
+                  "غواړم.",
+                  "زه"
+                ],
+                "answer": [
+                  "زه",
+                  "ډوډۍ",
+                  "او",
+                  "چای",
+                  "غواړم."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "دا غوښه ده.",
+                "options": [
+                  "This is a man.",
+                  "We want water.",
+                  "This is meat.",
+                  "My clothes are white."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "This is meat.",
+                "bank": [
+                  "ده.",
+                  "غوښه",
+                  "دا"
+                ],
+                "answer": [
+                  "دا",
+                  "غوښه",
+                  "ده."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "زه مڼه لرم.",
+                "options": [
+                  "There is one house there.",
+                  "I have a dog.",
+                  "I have an apple.",
+                  "There are thirty books here."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "I have an apple.",
+                "bank": [
+                  "زه",
+                  "مڼه",
+                  "لرم."
+                ],
+                "answer": [
+                  "زه",
+                  "مڼه",
+                  "لرم."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "موږ اوبه غواړو.",
+                "options": [
+                  "young person",
+                  "This room is full.",
+                  "Hello.",
+                  "We want water."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "We want water.",
+                "bank": [
+                  "غواړو.",
+                  "اوبه",
+                  "موږ"
+                ],
+                "answer": [
+                  "موږ",
+                  "اوبه",
+                  "غواړو."
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "موږ اوبه غواړو.",
+                "blankedEn": "We ___ water.",
+                "answer": "want",
+                "options": [
+                  "fifteen",
+                  "house",
+                  "seventy",
+                  "want"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "دا خوراک ښه دی.",
+                "options": [
+                  "This food is good.",
+                  "we",
+                  "expensive, dear",
+                  "I want a book."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "This food is good.",
+                "bank": [
+                  "دی.",
+                  "دا",
+                  "ښه",
+                  "خوراک"
+                ],
+                "answer": [
+                  "دا",
+                  "خوراک",
+                  "ښه",
+                  "دی."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "زه اوبه غواړم.",
+                "options": [
+                  "country",
+                  "Today is Saturday.",
+                  "I want water.",
+                  "This man is a teacher."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "I want water.",
+                "bank": [
+                  "غواړم.",
+                  "اوبه",
+                  "زه"
+                ],
+                "answer": [
+                  "زه",
+                  "اوبه",
+                  "غواړم."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "دا مڼه سره ده.",
+                "options": [
+                  "This is my room.",
+                  "This apple is red.",
+                  "This is my foot.",
+                  "Today the weather is cold."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "This apple is red.",
+                "bank": [
+                  "سره",
+                  "ده.",
+                  "مڼه",
+                  "دا"
+                ],
+                "answer": [
+                  "دا",
+                  "مڼه",
+                  "سره",
+                  "ده."
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "زه ډوډۍ او چای غواړم.",
+                    "en": "I want food and tea."
+                  },
+                  {
+                    "native": "دا غوښه ده.",
+                    "en": "This is meat."
+                  },
+                  {
+                    "native": "زه مڼه لرم.",
+                    "en": "I have an apple."
+                  },
+                  {
+                    "native": "موږ اوبه غواړو.",
+                    "en": "We want water."
+                  }
+                ]
+              }
+            ],
+            "titleNative": "خوراک او څښاک"
+          },
+          {
+            "id": "ps-a1-14",
+            "number": 14,
+            "title": "House and Rooms",
+            "description": "House and Rooms",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "دا زموږ کور دی.",
+                "options": [
+                  "This is our house.",
+                  "I want a doctor.",
+                  "This is meat.",
+                  "I eat food."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "This is our house.",
+                "bank": [
+                  "کور",
+                  "دا",
+                  "زموږ",
+                  "دی."
+                ],
+                "answer": [
+                  "دا",
+                  "زموږ",
+                  "کور",
+                  "دی."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "زموږ کور دری خونې لري.",
+                "options": [
+                  "Our house has three rooms.",
+                  "This is my friend.",
+                  "I have ten books.",
+                  "Thank you."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "Our house has three rooms.",
+                "bank": [
+                  "خونې",
+                  "دری",
+                  "کور",
+                  "لري.",
+                  "زموږ"
+                ],
+                "answer": [
+                  "زموږ",
+                  "کور",
+                  "دری",
+                  "خونې",
+                  "لري."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "دا زما کوټه ده.",
+                "options": [
+                  "My eyes are black.",
+                  "family",
+                  "One, two, three.",
+                  "This is my room."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "This is my room.",
+                "bank": [
+                  "دا",
+                  "ده.",
+                  "کوټه",
+                  "زما"
+                ],
+                "answer": [
+                  "دا",
+                  "زما",
+                  "کوټه",
+                  "ده."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "کور کې یو باغ دی.",
+                "options": [
+                  "My eyes are black.",
+                  "I have one friend.",
+                  "I do not go to school on Friday.",
+                  "There is a garden in the house."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "There is a garden in the house.",
+                "bank": [
+                  "یو",
+                  "کور",
+                  "دی.",
+                  "باغ",
+                  "کې"
+                ],
+                "answer": [
+                  "کور",
+                  "کې",
+                  "یو",
+                  "باغ",
+                  "دی."
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "کور کې یو باغ دی.",
+                "blankedEn": "There is a garden in the ___",
+                "answer": "house",
+                "options": [
+                  "brother",
+                  "house",
+                  "Friday",
+                  "meat"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "زموږ کور ښار کې دی.",
+                "options": [
+                  "This is my mother.",
+                  "There is one house there.",
+                  "This book has twenty pages.",
+                  "Our house is in the city."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "Our house is in the city.",
+                "bank": [
+                  "کور",
+                  "کې",
+                  "دی.",
+                  "ښار",
+                  "زموږ"
+                ],
+                "answer": [
+                  "زموږ",
+                  "کور",
+                  "ښار",
+                  "کې",
+                  "دی."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "دا کور لوی دی.",
+                "options": [
+                  "Seventeen, eighteen, nineteen, twenty.",
+                  "This is my room.",
+                  "A week has seven days.",
+                  "This house is big."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "This house is big.",
+                "bank": [
+                  "دا",
+                  "کور",
+                  "لوی",
+                  "دی."
+                ],
+                "answer": [
+                  "دا",
+                  "کور",
+                  "لوی",
+                  "دی."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "زما کوټه ډکه ده.",
+                "options": [
+                  "I want a doctor.",
+                  "I have one brother.",
+                  "This is my family.",
+                  "My room is full."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "My room is full.",
+                "bank": [
+                  "زما",
+                  "کوټه",
+                  "ډکه",
+                  "ده."
+                ],
+                "answer": [
+                  "زما",
+                  "کوټه",
+                  "ډکه",
+                  "ده."
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "دا زموږ کور دی.",
+                    "en": "This is our house."
+                  },
+                  {
+                    "native": "زموږ کور دری خونې لري.",
+                    "en": "Our house has three rooms."
+                  },
+                  {
+                    "native": "دا زما کوټه ده.",
+                    "en": "This is my room."
+                  },
+                  {
+                    "native": "کور کې یو باغ دی.",
+                    "en": "There is a garden in the house."
+                  }
+                ]
+              }
+            ],
+            "titleNative": "کور او خونې"
+          },
+          {
+            "id": "ps-a1-15",
+            "number": 15,
+            "title": "The Body",
+            "description": "The Body",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "سر، سترګه، غوږ.",
+                "options": [
+                  "What is your name?",
+                  "Head, eye, ear.",
+                  "The house is black.",
+                  "My clothes are black."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "Head, eye, ear.",
+                "bank": [
+                  "سر،",
+                  "غوږ.",
+                  "سترګه،"
+                ],
+                "answer": [
+                  "سر،",
+                  "سترګه،",
+                  "غوږ."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "خوله، لاس، پښه.",
+                "options": [
+                  "Mouth, hand, foot.",
+                  "piece",
+                  "I want water.",
+                  "Monday, Tuesday, Wednesday."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "Mouth, hand, foot.",
+                "bank": [
+                  "لاس،",
+                  "خوله،",
+                  "پښه."
+                ],
+                "answer": [
+                  "خوله،",
+                  "لاس،",
+                  "پښه."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "زما سترګې تورې دي.",
+                "options": [
+                  "What profession do you have?",
+                  "We want water.",
+                  "My eyes are black.",
+                  "This book has twenty pages."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "My eyes are black.",
+                "bank": [
+                  "دي.",
+                  "سترګې",
+                  "تورې",
+                  "زما"
+                ],
+                "answer": [
+                  "زما",
+                  "سترګې",
+                  "تورې",
+                  "دي."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "زما لاس دی.",
+                "options": [
+                  "This is my hand.",
+                  "This is my father.",
+                  "This is my place.",
+                  "We want water."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "This is my hand.",
+                "bank": [
+                  "لاس",
+                  "زما",
+                  "دی."
+                ],
+                "answer": [
+                  "زما",
+                  "لاس",
+                  "دی."
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "زما لاس دی.",
+                "blankedEn": "This is my ___",
+                "answer": "hand",
+                "options": [
+                  "snowing",
+                  "hand",
+                  "fine",
+                  "woman"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "زما زړه ښه دی.",
+                "options": [
+                  "I have one daughter.",
+                  "I have one sister.",
+                  "My heart is good.",
+                  "four"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "My heart is good.",
+                "bank": [
+                  "زما",
+                  "دی.",
+                  "زړه",
+                  "ښه"
+                ],
+                "answer": [
+                  "زما",
+                  "زړه",
+                  "ښه",
+                  "دی."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "دا زما پښه ده.",
+                "options": [
+                  "What is your name?",
+                  "cold",
+                  "Fifty, sixty, seventy.",
+                  "This is my foot."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "This is my foot.",
+                "bank": [
+                  "دا",
+                  "زما",
+                  "پښه",
+                  "ده."
+                ],
+                "answer": [
+                  "دا",
+                  "زما",
+                  "پښه",
+                  "ده."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "زما غوږ دی.",
+                "options": [
+                  "we",
+                  "This school has a hundred children.",
+                  "I want a doctor.",
+                  "This is my ear."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "This is my ear.",
+                "bank": [
+                  "زما",
+                  "دی.",
+                  "غوږ"
+                ],
+                "answer": [
+                  "زما",
+                  "غوږ",
+                  "دی."
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "سر، سترګه، غوږ.",
+                    "en": "Head, eye, ear."
+                  },
+                  {
+                    "native": "خوله، لاس، پښه.",
+                    "en": "Mouth, hand, foot."
+                  },
+                  {
+                    "native": "زما سترګې تورې دي.",
+                    "en": "My eyes are black."
+                  },
+                  {
+                    "native": "زما لاس دی.",
+                    "en": "This is my hand."
+                  }
+                ]
+              }
+            ],
+            "titleNative": "بدن"
+          },
+          {
+            "id": "ps-a1-16",
+            "number": 16,
+            "title": "Clothing",
+            "description": "Clothing",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "دا زما جامې دي.",
+                "options": [
+                  "My mother is a teacher.",
+                  "Twenty, thirty, forty.",
+                  "These are my clothes.",
+                  "My eyes are black."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "These are my clothes.",
+                "bank": [
+                  "زما",
+                  "جامې",
+                  "دا",
+                  "دي."
+                ],
+                "answer": [
+                  "دا",
+                  "زما",
+                  "جامې",
+                  "دي."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "زما کالي تور دي.",
+                "options": [
+                  "This is white.",
+                  "The cat is small.",
+                  "These clothes are good.",
+                  "My clothes are black."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "My clothes are black.",
+                "bank": [
+                  "دي.",
+                  "تور",
+                  "کالي",
+                  "زما"
+                ],
+                "answer": [
+                  "زما",
+                  "کالي",
+                  "تور",
+                  "دي."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "دا جامې ښې دي.",
+                "options": [
+                  "There is one book here.",
+                  "My friend is a teacher.",
+                  "These clothes are good.",
+                  "side"
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "These clothes are good.",
+                "bank": [
+                  "دي.",
+                  "دا",
+                  "ښې",
+                  "جامې"
+                ],
+                "answer": [
+                  "دا",
+                  "جامې",
+                  "ښې",
+                  "دي."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "زه نوي کالي غواړم.",
+                "options": [
+                  "I do not go to school on Friday.",
+                  "I want new clothes.",
+                  "I have one daughter.",
+                  "This is white."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "I want new clothes.",
+                "bank": [
+                  "غواړم.",
+                  "نوي",
+                  "زه",
+                  "کالي"
+                ],
+                "answer": [
+                  "زه",
+                  "نوي",
+                  "کالي",
+                  "غواړم."
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "زه نوي کالي غواړم.",
+                "blankedEn": "I ___ new clothes.",
+                "answer": "want",
+                "options": [
+                  "want",
+                  "young",
+                  "twenty",
+                  "today"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "زما جامې سپینې دي.",
+                "options": [
+                  "country",
+                  "My clothes are white.",
+                  "I go to school.",
+                  "four"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "My clothes are white.",
+                "bank": [
+                  "زما",
+                  "دي.",
+                  "سپینې",
+                  "جامې"
+                ],
+                "answer": [
+                  "زما",
+                  "جامې",
+                  "سپینې",
+                  "دي."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "دا جامې ډېرې دي.",
+                "options": [
+                  "These clothes are a lot.",
+                  "I do not go to school on Friday.",
+                  "The house is black.",
+                  "I want a book."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "These clothes are a lot.",
+                "bank": [
+                  "دي.",
+                  "دا",
+                  "جامې",
+                  "ډېرې"
+                ],
+                "answer": [
+                  "دا",
+                  "جامې",
+                  "ډېرې",
+                  "دي."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "زما جامې ښار کې دي.",
+                "options": [
+                  "Thursday and Friday.",
+                  "My clothes are in the city.",
+                  "A week has seven days.",
+                  "This is my ear."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "My clothes are in the city.",
+                "bank": [
+                  "کې",
+                  "ښار",
+                  "زما",
+                  "جامې",
+                  "دي."
+                ],
+                "answer": [
+                  "زما",
+                  "جامې",
+                  "ښار",
+                  "کې",
+                  "دي."
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "دا زما جامې دي.",
+                    "en": "These are my clothes."
+                  },
+                  {
+                    "native": "زما کالي تور دي.",
+                    "en": "My clothes are black."
+                  },
+                  {
+                    "native": "دا جامې ښې دي.",
+                    "en": "These clothes are good."
+                  },
+                  {
+                    "native": "زه نوي کالي غواړم.",
+                    "en": "I want new clothes."
+                  }
+                ]
+              }
+            ],
+            "titleNative": "جامې"
+          },
+          {
+            "id": "ps-a1-17",
+            "number": 17,
+            "title": "Weather",
+            "description": "Weather",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "نن هوا ګرمه ده.",
+                "options": [
+                  "The sun is out.",
+                  "I want a doctor.",
+                  "Today the weather is hot.",
+                  "This is our house."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "Today the weather is hot.",
+                "bank": [
+                  "نن",
+                  "ګرمه",
+                  "ده.",
+                  "هوا"
+                ],
+                "answer": [
+                  "نن",
+                  "هوا",
+                  "ګرمه",
+                  "ده."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "نن هوا سوړه ده.",
+                "options": [
+                  "I want animals.",
+                  "Today the weather is cold.",
+                  "Thursday and Friday.",
+                  "My heart is good."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "Today the weather is cold.",
+                "bank": [
+                  "ده.",
+                  "سوړه",
+                  "نن",
+                  "هوا"
+                ],
+                "answer": [
+                  "نن",
+                  "هوا",
+                  "سوړه",
+                  "ده."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "باران دی.",
+                "options": [
+                  "My room is full.",
+                  "It is raining.",
+                  "There are thirty books here.",
+                  "There is one house there."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "It is raining.",
+                "bank": [
+                  "دی.",
+                  "باران"
+                ],
+                "answer": [
+                  "باران",
+                  "دی."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "واوره ده.",
+                "options": [
+                  "I read a book.",
+                  "room",
+                  "It is snowing.",
+                  "Today is Saturday."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "It is snowing.",
+                "bank": [
+                  "واوره",
+                  "ده."
+                ],
+                "answer": [
+                  "واوره",
+                  "ده."
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "واوره ده.",
+                "blankedEn": "It is ___",
+                "answer": "snowing",
+                "options": [
+                  "Monday",
+                  "house",
+                  "foot",
+                  "snowing"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "لمر دی.",
+                "options": [
+                  "This is our house.",
+                  "The cat is small.",
+                  "tooth",
+                  "The sun is out."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "The sun is out.",
+                "bank": [
+                  "لمر",
+                  "دی."
+                ],
+                "answer": [
+                  "لمر",
+                  "دی."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "اسمان شین دی.",
+                "options": [
+                  "My name is Ahmad.",
+                  "This house is big.",
+                  "This is a cat.",
+                  "The sky is blue."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "The sky is blue.",
+                "bank": [
+                  "شین",
+                  "دی.",
+                  "اسمان"
+                ],
+                "answer": [
+                  "اسمان",
+                  "شین",
+                  "دی."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "نن هوا څنګه ده؟",
+                "options": [
+                  "This is a horse.",
+                  "Thank you.",
+                  "How is the weather today?",
+                  "Twenty, thirty, forty."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "How is the weather today?",
+                "bank": [
+                  "هوا",
+                  "څنګه",
+                  "نن",
+                  "ده؟"
+                ],
+                "answer": [
+                  "نن",
+                  "هوا",
+                  "څنګه",
+                  "ده؟"
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "نن هوا ګرمه ده.",
+                    "en": "Today the weather is hot."
+                  },
+                  {
+                    "native": "نن هوا سوړه ده.",
+                    "en": "Today the weather is cold."
+                  },
+                  {
+                    "native": "باران دی.",
+                    "en": "It is raining."
+                  },
+                  {
+                    "native": "واوره ده.",
+                    "en": "It is snowing."
+                  }
+                ]
+              }
+            ],
+            "titleNative": "هوا"
+          },
+          {
+            "id": "ps-a1-18",
+            "number": 18,
+            "title": "Animals",
+            "description": "Animals",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "زه سپی لرم.",
+                "options": [
+                  "four",
+                  "My mother is a teacher.",
+                  "I have a dog.",
+                  "Hello."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "I have a dog.",
+                "bank": [
+                  "لرم.",
+                  "زه",
+                  "سپی"
+                ],
+                "answer": [
+                  "زه",
+                  "سپی",
+                  "لرم."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "دا پيشو ده.",
+                "options": [
+                  "This is a cat.",
+                  "Afghanistan is my country.",
+                  "Today the weather is cold.",
+                  "My name is..."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "This is a cat.",
+                "bank": [
+                  "ده.",
+                  "دا",
+                  "پيشو"
+                ],
+                "answer": [
+                  "دا",
+                  "پيشو",
+                  "ده."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "دا غوا ده.",
+                "options": [
+                  "My room is full.",
+                  "This is my friend.",
+                  "One, two, three.",
+                  "This is a cow."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "This is a cow.",
+                "bank": [
+                  "دا",
+                  "ده.",
+                  "غوا"
+                ],
+                "answer": [
+                  "دا",
+                  "غوا",
+                  "ده."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "دا اس دی.",
+                "options": [
+                  "My clothes are in the city.",
+                  "This is white.",
+                  "I go home.",
+                  "This is a horse."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "This is a horse.",
+                "bank": [
+                  "اس",
+                  "دی.",
+                  "دا"
+                ],
+                "answer": [
+                  "دا",
+                  "اس",
+                  "دی."
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "دا اس دی.",
+                "blankedEn": "This is a ___",
+                "answer": "horse",
+                "options": [
+                  "fifty",
+                  "horse",
+                  "family",
+                  "fine"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "زما سپی لوی دی.",
+                "options": [
+                  "This is my friend.",
+                  "My dog is big.",
+                  "I want water.",
+                  "This is red."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "My dog is big.",
+                "bank": [
+                  "زما",
+                  "سپی",
+                  "لوی",
+                  "دی."
+                ],
+                "answer": [
+                  "زما",
+                  "سپی",
+                  "لوی",
+                  "دی."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "پيشو کوچنۍ ده.",
+                "options": [
+                  "It is snowing.",
+                  "Today is Saturday.",
+                  "The cat is small.",
+                  "Today the weather is cold."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "The cat is small.",
+                "bank": [
+                  "ده.",
+                  "کوچنۍ",
+                  "پيشو"
+                ],
+                "answer": [
+                  "پيشو",
+                  "کوچنۍ",
+                  "ده."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "زه حیوانات غواړم.",
+                "options": [
+                  "I have one brother.",
+                  "I have one sister.",
+                  "full",
+                  "I want animals."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "I want animals.",
+                "bank": [
+                  "حیوانات",
+                  "زه",
+                  "غواړم."
+                ],
+                "answer": [
+                  "زه",
+                  "حیوانات",
+                  "غواړم."
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "زه سپی لرم.",
+                    "en": "I have a dog."
+                  },
+                  {
+                    "native": "دا پيشو ده.",
+                    "en": "This is a cat."
+                  },
+                  {
+                    "native": "دا غوا ده.",
+                    "en": "This is a cow."
+                  },
+                  {
+                    "native": "دا اس دی.",
+                    "en": "This is a horse."
+                  }
+                ]
+              }
+            ],
+            "titleNative": "حیوانات"
+          },
+          {
+            "id": "ps-a1-19",
+            "number": 19,
+            "title": "Daily Actions",
+            "description": "Daily Actions",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "زه کتاب لولم.",
+                "options": [
+                  "Thursday and Friday.",
+                  "I read a book.",
+                  "There is one book here.",
+                  "This room is full."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "I read a book.",
+                "bank": [
+                  "لولم.",
+                  "کتاب",
+                  "زه"
+                ],
+                "answer": [
+                  "زه",
+                  "کتاب",
+                  "لولم."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "زه ډوډۍ خورم.",
+                "options": [
+                  "My friend is a teacher.",
+                  "This book has twenty pages.",
+                  "Thursday and Friday.",
+                  "I eat food."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "I eat food.",
+                "bank": [
+                  "زه",
+                  "ډوډۍ",
+                  "خورم."
+                ],
+                "answer": [
+                  "زه",
+                  "ډوډۍ",
+                  "خورم."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "زه ښوونځي ته ځم.",
+                "options": [
+                  "I go to school.",
+                  "This is meat.",
+                  "I have an apple.",
+                  "There are twenty children here."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "I go to school.",
+                "bank": [
+                  "زه",
+                  "ځم.",
+                  "ښوونځي",
+                  "ته"
+                ],
+                "answer": [
+                  "زه",
+                  "ښوونځي",
+                  "ته",
+                  "ځم."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "زه کور ته ځم.",
+                "options": [
+                  "cold",
+                  "I go home.",
+                  "What is your name?",
+                  "This school has a hundred children."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "I go home.",
+                "bank": [
+                  "کور",
+                  "ته",
+                  "ځم.",
+                  "زه"
+                ],
+                "answer": [
+                  "زه",
+                  "کور",
+                  "ته",
+                  "ځم."
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "زه کور ته ځم.",
+                "blankedEn": "I go ___",
+                "answer": "home",
+                "options": [
+                  "Monday",
+                  "home",
+                  "full",
+                  "city"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "زه اوبه غواړم.",
+                "options": [
+                  "we",
+                  "Thursday and Friday.",
+                  "Today the weather is hot.",
+                  "I want water."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "I want water.",
+                "bank": [
+                  "غواړم.",
+                  "زه",
+                  "اوبه"
+                ],
+                "answer": [
+                  "زه",
+                  "اوبه",
+                  "غواړم."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "زه کتاب غواړم.",
+                "options": [
+                  "My book is red.",
+                  "There are fifty books here.",
+                  "There are thirty books here.",
+                  "I want a book."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "I want a book.",
+                "bank": [
+                  "غواړم.",
+                  "کتاب",
+                  "زه"
+                ],
+                "answer": [
+                  "زه",
+                  "کتاب",
+                  "غواړم."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "زه هر ورځ کتاب لولم.",
+                "options": [
+                  "I read a book every day.",
+                  "He is handsome.",
+                  "pool",
+                  "This is my mother."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "I read a book every day.",
+                "bank": [
+                  "کتاب",
+                  "لولم.",
+                  "هر",
+                  "زه",
+                  "ورځ"
+                ],
+                "answer": [
+                  "زه",
+                  "هر",
+                  "ورځ",
+                  "کتاب",
+                  "لولم."
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "زه کتاب لولم.",
+                    "en": "I read a book."
+                  },
+                  {
+                    "native": "زه ډوډۍ خورم.",
+                    "en": "I eat food."
+                  },
+                  {
+                    "native": "زه ښوونځي ته ځم.",
+                    "en": "I go to school."
+                  },
+                  {
+                    "native": "زه کور ته ځم.",
+                    "en": "I go home."
+                  }
+                ]
+              }
+            ],
+            "titleNative": "ورځنۍ کارونه"
+          },
+          {
+            "id": "ps-a1-20",
+            "number": 20,
+            "title": "Professions",
+            "description": "Professions",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "زما پلار ډاکټر دی.",
+                "options": [
+                  "My father is a doctor.",
+                  "I have ten books.",
+                  "My room is full.",
+                  "The sky is blue."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "My father is a doctor.",
+                "bank": [
+                  "زما",
+                  "دی.",
+                  "پلار",
+                  "ډاکټر"
+                ],
+                "answer": [
+                  "زما",
+                  "پلار",
+                  "ډاکټر",
+                  "دی."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "زما مور ښوونکې ده.",
+                "options": [
+                  "I read a book every day.",
+                  "My family is big.",
+                  "My mother is a teacher.",
+                  "My friend is a teacher."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "My mother is a teacher.",
+                "bank": [
+                  "ښوونکې",
+                  "ده.",
+                  "مور",
+                  "زما"
+                ],
+                "answer": [
+                  "زما",
+                  "مور",
+                  "ښوونکې",
+                  "ده."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "دا سړی ښوونکی دی.",
+                "options": [
+                  "This man is a teacher.",
+                  "flower",
+                  "I read a book every day.",
+                  "I want a book."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "This man is a teacher.",
+                "bank": [
+                  "دی.",
+                  "ښوونکی",
+                  "سړی",
+                  "دا"
+                ],
+                "answer": [
+                  "دا",
+                  "سړی",
+                  "ښوونکی",
+                  "دی."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "زه ډاکټر غواړم.",
+                "options": [
+                  "I want a doctor.",
+                  "Hello.",
+                  "My clothes are black.",
+                  "full"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "I want a doctor.",
+                "bank": [
+                  "زه",
+                  "ډاکټر",
+                  "غواړم."
+                ],
+                "answer": [
+                  "زه",
+                  "ډاکټر",
+                  "غواړم."
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "زه ډاکټر غواړم.",
+                "blankedEn": "I want a ___",
+                "answer": "doctor",
+                "options": [
+                  "doctor",
+                  "four",
+                  "five",
+                  "Mouth"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "زما ملګری ښوونکی دی.",
+                "options": [
+                  "My friend is a teacher.",
+                  "flower",
+                  "I have a dog.",
+                  "This school has a hundred children."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "My friend is a teacher.",
+                "bank": [
+                  "زما",
+                  "ښوونکی",
+                  "ملګری",
+                  "دی."
+                ],
+                "answer": [
+                  "زما",
+                  "ملګری",
+                  "ښوونکی",
+                  "دی."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "زما خور ډاکټر ده.",
+                "options": [
+                  "This is my family.",
+                  "This is my father.",
+                  "My sister is a doctor.",
+                  "It is snowing."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "My sister is a doctor.",
+                "bank": [
+                  "خور",
+                  "زما",
+                  "ده.",
+                  "ډاکټر"
+                ],
+                "answer": [
+                  "زما",
+                  "خور",
+                  "ډاکټر",
+                  "ده."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "ته کوم مسلک لرې؟",
+                "options": [
+                  "What profession do you have?",
+                  "I am fine.",
+                  "Eleven, twelve, thirteen.",
+                  "I do not go to school on Friday."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "What profession do you have?",
+                "bank": [
+                  "کوم",
+                  "لرې؟",
+                  "ته",
+                  "مسلک"
+                ],
+                "answer": [
+                  "ته",
+                  "کوم",
+                  "مسلک",
+                  "لرې؟"
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "زما پلار ډاکټر دی.",
+                    "en": "My father is a doctor."
+                  },
+                  {
+                    "native": "زما مور ښوونکې ده.",
+                    "en": "My mother is a teacher."
+                  },
+                  {
+                    "native": "دا سړی ښوونکی دی.",
+                    "en": "This man is a teacher."
+                  },
+                  {
+                    "native": "زه ډاکټر غواړم.",
+                    "en": "I want a doctor."
+                  }
+                ]
+              }
+            ],
+            "titleNative": "مسلکونه"
           }
         ]
       }
