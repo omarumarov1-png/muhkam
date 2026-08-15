@@ -21,6 +21,7 @@
     { id: "ossetian", file: "data/courses-ossetian.json", label: "Ossetian — Ирон ӕвзаг", flag: "Ирон ӕвзаг" },
     { id: "dari", file: "data/courses-dari.json", audioManifest: "data/audio-dari/manifest.json", label: "Dari — دری", flag: "دری" },
     { id: "pashto", file: "data/courses-pashto.json", audioManifest: "data/audio-pashto/manifest.json", label: "Pashto — پښتو", flag: "پښتو" },
+    { id: "turkmen", file: "data/courses-turkmen.json", audioManifest: "data/audio-turkmen/manifest.json", label: "Turkmen — Türkmençe", flag: "Türkmençe" },
   ];
 
   // iOS Safari keeps a tapped <button> focused, which makes the

@@ -1,0 +1,932 @@
+{
+  "course": {
+    "id": "turkmen",
+    "title": "Turkmen, Start to Fluent",
+    "subtitle": "Turkmen from absolute beginner through fluent, everyday command -- real sentences, grammar, and conversational practice",
+    "dir": "ltr",
+    "lang": "tk",
+    "languageName": "Turkmen",
+    "fontNative": "'Inter', 'Noto Sans', sans-serif",
+    "flag": "Türkmençe",
+    "heroEyebrow": "Türkmençe · A1 → C2",
+    "heroNative": "Türkmençe",
+    "heroLedeSuffix": "Real sentences from lesson one, built the same way as this app's other courses.",
+    "uiStrings": {
+      "grammarNote": "Sapak",
+      "didYouKnow": "Bilim"
+    },
+    "grammarTopics": {},
+    "levels": [
+      {
+        "id": "a1",
+        "cefr": "A1",
+        "label": "Foundations",
+        "labelNative": "Esaslar",
+        "lessons": [
+          {
+            "id": "tk-a1-1",
+            "number": 1,
+            "title": "Greetings",
+            "description": "Greetings",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "tk-en",
+                "prompt": "Salam.",
+                "options": [
+                  "Thank you.",
+                  "Hello.",
+                  "I am fine.",
+                  "There is one book in the house."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-tk",
+                "prompt": "Hello.",
+                "bank": [
+                  "Salam."
+                ],
+                "answer": [
+                  "Salam."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "tk-en",
+                "prompt": "Sag boluň.",
+                "options": [
+                  "I have a sister.",
+                  "Thank you.",
+                  "I have two sisters.",
+                  "I have one friend."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-tk",
+                "prompt": "Thank you.",
+                "bank": [
+                  "boluň.",
+                  "Sag"
+                ],
+                "answer": [
+                  "Sag",
+                  "boluň."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "tk-en",
+                "prompt": "Nähilisiň?",
+                "options": [
+                  "Thank you.",
+                  "What is your name?",
+                  "This is my father.",
+                  "How are you?"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-tk",
+                "prompt": "How are you?",
+                "bank": [
+                  "Nähilisiň?"
+                ],
+                "answer": [
+                  "Nähilisiň?"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "tk-en",
+                "prompt": "Men gowy.",
+                "options": [
+                  "I am fine.",
+                  "This is my father.",
+                  "Thank you.",
+                  "Hello."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-tk",
+                "prompt": "I am fine.",
+                "bank": [
+                  "Men",
+                  "gowy."
+                ],
+                "answer": [
+                  "Men",
+                  "gowy."
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "Men gowy.",
+                "blankedEn": "I am ___",
+                "answer": "fine",
+                "options": [
+                  "three",
+                  "fine",
+                  "young",
+                  "elder"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "tk-en",
+                "prompt": "Meniň adym...",
+                "options": [
+                  "How are you?",
+                  "I have a sister.",
+                  "My name is...",
+                  "This is my mother."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-tk",
+                "prompt": "My name is...",
+                "bank": [
+                  "adym...",
+                  "Meniň"
+                ],
+                "answer": [
+                  "Meniň",
+                  "adym..."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "tk-en",
+                "prompt": "Adyň näme?",
+                "options": [
+                  "What is your name?",
+                  "I have a sister.",
+                  "There is one book in the house.",
+                  "Hello."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-tk",
+                "prompt": "What is your name?",
+                "bank": [
+                  "Adyň",
+                  "näme?"
+                ],
+                "answer": [
+                  "Adyň",
+                  "näme?"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "tk-en",
+                "prompt": "Hawa.",
+                "options": [
+                  "This is my mother.",
+                  "This is my friend.",
+                  "My family is big.",
+                  "Yes."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-tk",
+                "prompt": "Yes.",
+                "bank": [
+                  "Hawa."
+                ],
+                "answer": [
+                  "Hawa."
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Salam.",
+                    "en": "Hello."
+                  },
+                  {
+                    "native": "Sag boluň.",
+                    "en": "Thank you."
+                  },
+                  {
+                    "native": "Nähilisiň?",
+                    "en": "How are you?"
+                  },
+                  {
+                    "native": "Men gowy.",
+                    "en": "I am fine."
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Salamlar"
+          },
+          {
+            "id": "tk-a1-2",
+            "number": 2,
+            "title": "Names",
+            "description": "Names",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "tk-en",
+                "prompt": "Bu meniň dostum.",
+                "options": [
+                  "How are you?",
+                  "This is my friend.",
+                  "Thank you.",
+                  "My name is..."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-tk",
+                "prompt": "This is my friend.",
+                "bank": [
+                  "Bu",
+                  "meniň",
+                  "dostum."
+                ],
+                "answer": [
+                  "Bu",
+                  "meniň",
+                  "dostum."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "tk-en",
+                "prompt": "Ol gowy oglan.",
+                "options": [
+                  "Hello.",
+                  "There is one book in the house.",
+                  "He is a good boy.",
+                  "I have a child."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-tk",
+                "prompt": "He is a good boy.",
+                "bank": [
+                  "oglan.",
+                  "Ol",
+                  "gowy"
+                ],
+                "answer": [
+                  "Ol",
+                  "gowy",
+                  "oglan."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "tk-en",
+                "prompt": "Meniň adym...",
+                "options": [
+                  "I have an elder brother.",
+                  "I have a sister.",
+                  "My name is...",
+                  "He is a good boy."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-tk",
+                "prompt": "My name is...",
+                "bank": [
+                  "Meniň",
+                  "adym..."
+                ],
+                "answer": [
+                  "Meniň",
+                  "adym..."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "tk-en",
+                "prompt": "Adyň näme?",
+                "options": [
+                  "That is a boy.",
+                  "This is my friend.",
+                  "What is your name?",
+                  "There is one book in the house."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-tk",
+                "prompt": "What is your name?",
+                "bank": [
+                  "näme?",
+                  "Adyň"
+                ],
+                "answer": [
+                  "Adyň",
+                  "näme?"
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "Adyň näme?",
+                "blankedEn": "What is your ___",
+                "answer": "name",
+                "options": [
+                  "nine",
+                  "name",
+                  "child",
+                  "good"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "tk-en",
+                "prompt": "Bu gyz.",
+                "options": [
+                  "This is a book.",
+                  "Thank you.",
+                  "This is a girl.",
+                  "My family is big."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-tk",
+                "prompt": "This is a girl.",
+                "bank": [
+                  "gyz.",
+                  "Bu"
+                ],
+                "answer": [
+                  "Bu",
+                  "gyz."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "tk-en",
+                "prompt": "Ol oglan.",
+                "options": [
+                  "That is a boy.",
+                  "This is a girl.",
+                  "My friend is young.",
+                  "He is a good boy."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-tk",
+                "prompt": "That is a boy.",
+                "bank": [
+                  "oglan.",
+                  "Ol"
+                ],
+                "answer": [
+                  "Ol",
+                  "oglan."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "tk-en",
+                "prompt": "Meniň dostum ýaş.",
+                "options": [
+                  "My name is...",
+                  "This is my father.",
+                  "My friend is young.",
+                  "He is a good boy."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-tk",
+                "prompt": "My friend is young.",
+                "bank": [
+                  "ýaş.",
+                  "dostum",
+                  "Meniň"
+                ],
+                "answer": [
+                  "Meniň",
+                  "dostum",
+                  "ýaş."
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Bu meniň dostum.",
+                    "en": "This is my friend."
+                  },
+                  {
+                    "native": "Ol gowy oglan.",
+                    "en": "He is a good boy."
+                  },
+                  {
+                    "native": "Meniň adym...",
+                    "en": "My name is..."
+                  },
+                  {
+                    "native": "Adyň näme?",
+                    "en": "What is your name?"
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Atlar"
+          },
+          {
+            "id": "tk-a1-3",
+            "number": 3,
+            "title": "Family",
+            "description": "Family",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "tk-en",
+                "prompt": "Bu meniň maşgalam.",
+                "options": [
+                  "My friend is young.",
+                  "I have a sister.",
+                  "This is my family.",
+                  "I am fine."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-tk",
+                "prompt": "This is my family.",
+                "bank": [
+                  "Bu",
+                  "meniň",
+                  "maşgalam."
+                ],
+                "answer": [
+                  "Bu",
+                  "meniň",
+                  "maşgalam."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "tk-en",
+                "prompt": "Bu meniň ejem.",
+                "options": [
+                  "I have a child.",
+                  "This is my mother.",
+                  "This is a book.",
+                  "How are you?"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-tk",
+                "prompt": "This is my mother.",
+                "bank": [
+                  "Bu",
+                  "meniň",
+                  "ejem."
+                ],
+                "answer": [
+                  "Bu",
+                  "meniň",
+                  "ejem."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "tk-en",
+                "prompt": "Bu meniň kakam.",
+                "options": [
+                  "Four, five, six.",
+                  "Seven, eight, nine, ten.",
+                  "This is my father.",
+                  "This is a book."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-tk",
+                "prompt": "This is my father.",
+                "bank": [
+                  "Bu",
+                  "meniň",
+                  "kakam."
+                ],
+                "answer": [
+                  "Bu",
+                  "meniň",
+                  "kakam."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "tk-en",
+                "prompt": "Meniň agam bar.",
+                "options": [
+                  "Hello.",
+                  "He is a good boy.",
+                  "I am fine.",
+                  "I have an elder brother."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-tk",
+                "prompt": "I have an elder brother.",
+                "bank": [
+                  "agam",
+                  "bar.",
+                  "Meniň"
+                ],
+                "answer": [
+                  "Meniň",
+                  "agam",
+                  "bar."
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "Meniň agam bar.",
+                "blankedEn": "I have an elder ___",
+                "answer": "brother",
+                "options": [
+                  "girl",
+                  "Hello",
+                  "sister",
+                  "brother"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "tk-en",
+                "prompt": "Meniň uýam bar.",
+                "options": [
+                  "My family is big.",
+                  "I have a sister.",
+                  "I am fine.",
+                  "This is my father."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-tk",
+                "prompt": "I have a sister.",
+                "bank": [
+                  "Meniň",
+                  "uýam",
+                  "bar."
+                ],
+                "answer": [
+                  "Meniň",
+                  "uýam",
+                  "bar."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "tk-en",
+                "prompt": "Meniň çagam bar.",
+                "options": [
+                  "That is a boy.",
+                  "I have a child.",
+                  "Hello.",
+                  "How are you?"
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-tk",
+                "prompt": "I have a child.",
+                "bank": [
+                  "çagam",
+                  "Meniň",
+                  "bar."
+                ],
+                "answer": [
+                  "Meniň",
+                  "çagam",
+                  "bar."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "tk-en",
+                "prompt": "Meniň maşgalam uly.",
+                "options": [
+                  "How are you?",
+                  "He is a good boy.",
+                  "My family is big.",
+                  "There is one book in the house."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-tk",
+                "prompt": "My family is big.",
+                "bank": [
+                  "Meniň",
+                  "uly.",
+                  "maşgalam"
+                ],
+                "answer": [
+                  "Meniň",
+                  "maşgalam",
+                  "uly."
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Bu meniň maşgalam.",
+                    "en": "This is my family."
+                  },
+                  {
+                    "native": "Bu meniň ejem.",
+                    "en": "This is my mother."
+                  },
+                  {
+                    "native": "Bu meniň kakam.",
+                    "en": "This is my father."
+                  },
+                  {
+                    "native": "Meniň agam bar.",
+                    "en": "I have an elder brother."
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Maşgala"
+          },
+          {
+            "id": "tk-a1-4",
+            "number": 4,
+            "title": "Numbers 1-10",
+            "description": "Numbers 1-10",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "tk-en",
+                "prompt": "Bir, iki, üç.",
+                "options": [
+                  "This is a girl.",
+                  "What is your name?",
+                  "One, two, three.",
+                  "I have two sisters."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-tk",
+                "prompt": "One, two, three.",
+                "bank": [
+                  "iki,",
+                  "üç.",
+                  "Bir,"
+                ],
+                "answer": [
+                  "Bir,",
+                  "iki,",
+                  "üç."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "tk-en",
+                "prompt": "Dört, bäş, alty.",
+                "options": [
+                  "Four, five, six.",
+                  "Seven, eight, nine, ten.",
+                  "This is a girl.",
+                  "How are you?"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-tk",
+                "prompt": "Four, five, six.",
+                "bank": [
+                  "Dört,",
+                  "bäş,",
+                  "alty."
+                ],
+                "answer": [
+                  "Dört,",
+                  "bäş,",
+                  "alty."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "tk-en",
+                "prompt": "Ýedi, sekiz, dokuz, on.",
+                "options": [
+                  "Hello.",
+                  "There is one book in the house.",
+                  "He is a good boy.",
+                  "Seven, eight, nine, ten."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-tk",
+                "prompt": "Seven, eight, nine, ten.",
+                "bank": [
+                  "on.",
+                  "sekiz,",
+                  "Ýedi,",
+                  "dokuz,"
+                ],
+                "answer": [
+                  "Ýedi,",
+                  "sekiz,",
+                  "dokuz,",
+                  "on."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "tk-en",
+                "prompt": "Meniň bir dostum bar.",
+                "options": [
+                  "I have one friend.",
+                  "My friend is young.",
+                  "This is a girl.",
+                  "I have a sister."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-tk",
+                "prompt": "I have one friend.",
+                "bank": [
+                  "dostum",
+                  "bar.",
+                  "Meniň",
+                  "bir"
+                ],
+                "answer": [
+                  "Meniň",
+                  "bir",
+                  "dostum",
+                  "bar."
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "Meniň bir dostum bar.",
+                "blankedEn": "I have one ___",
+                "answer": "friend",
+                "options": [
+                  "young",
+                  "friend",
+                  "book",
+                  "family"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "tk-en",
+                "prompt": "Bu kitap.",
+                "options": [
+                  "This is a girl.",
+                  "This is a book.",
+                  "This is my friend.",
+                  "My family is big."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-tk",
+                "prompt": "This is a book.",
+                "bank": [
+                  "Bu",
+                  "kitap."
+                ],
+                "answer": [
+                  "Bu",
+                  "kitap."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "tk-en",
+                "prompt": "Meniň iki uýam bar.",
+                "options": [
+                  "He is a good boy.",
+                  "I have one friend.",
+                  "I have a sister.",
+                  "I have two sisters."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-tk",
+                "prompt": "I have two sisters.",
+                "bank": [
+                  "uýam",
+                  "bar.",
+                  "iki",
+                  "Meniň"
+                ],
+                "answer": [
+                  "Meniň",
+                  "iki",
+                  "uýam",
+                  "bar."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "tk-en",
+                "prompt": "Öýde bir kitap bar.",
+                "options": [
+                  "There is one book in the house.",
+                  "I have a sister.",
+                  "How are you?",
+                  "I have a child."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-tk",
+                "prompt": "There is one book in the house.",
+                "bank": [
+                  "bir",
+                  "bar.",
+                  "kitap",
+                  "Öýde"
+                ],
+                "answer": [
+                  "Öýde",
+                  "bir",
+                  "kitap",
+                  "bar."
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "Bir, iki, üç.",
+                    "en": "One, two, three."
+                  },
+                  {
+                    "native": "Dört, bäş, alty.",
+                    "en": "Four, five, six."
+                  },
+                  {
+                    "native": "Ýedi, sekiz, dokuz, on.",
+                    "en": "Seven, eight, nine, ten."
+                  },
+                  {
+                    "native": "Meniň bir dostum bar.",
+                    "en": "I have one friend."
+                  }
+                ]
+              }
+            ],
+            "titleNative": "Sanlar"
+          }
+        ]
+      }
+    ]
+  }
+}
