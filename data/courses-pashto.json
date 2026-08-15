@@ -15,7 +15,72 @@
       "grammarNote": "زده",
       "didYouKnow": "پوښتنه"
     },
-    "grammarTopics": {},
+    "grammarTopics": {
+      "script-retroflex-stops": {
+        "title": "Extra Letters: ټ ډ ڼ",
+        "pattern": "ت → ټ    د → ډ    ن → ڼ",
+        "explanation": "These three Pashto letters are the familiar Farsi/Dari letters ت (t), د (d), and ن (n) with a small ring added. The ring means: curl the tip of your tongue back and up to touch the roof of your mouth, then release. That gives a \"harder,\" retroflex version of the sound -- something like the American English t/d/n in \"bird\" or \"party.\"",
+        "fact": "These retroflex rings are one of the fastest ways to spot Pashto at a glance -- if you see a small loop worked into a ت, د, or ن, you're reading Pashto, not Persian.",
+        "dialogue": [
+          {
+            "native": "دا کوټه ډکه ده.",
+            "en": "This room is full."
+          },
+          {
+            "native": "هغه کوڼ دی.",
+            "en": "He is deaf."
+          }
+        ]
+      },
+      "script-retroflex-fricatives": {
+        "title": "Extra Letters: ړ ږ ښ",
+        "pattern": "ر → ړ    ز/ژ → ږ    س/ش → ښ",
+        "explanation": "This trio is usually the hardest part of Pashto pronunciation for a Farsi speaker, because none of the three sounds exist in Farsi/Dari at all. ړ is a retroflex r -- curl the tongue back like for ټ, but let air flow around it. ږ and ښ are retroflex versions of z/zh and s/sh: same tongue curl, with a hiss of air passing by it.",
+        "fact": "Pronunciation of ښ and ږ varies a lot by region -- some speakers say ښ closer to \"kh,\" others closer to \"sh.\" That's one reason Pashto dialects can sound quite different from each other even to native speakers.",
+        "dialogue": [
+          {
+            "native": "زما غوږ دی.",
+            "en": "This is my ear."
+          },
+          {
+            "native": "دا خواږه دي.",
+            "en": "These are sweets."
+          }
+        ]
+      },
+      "script-affricates": {
+        "title": "Extra Letters: ځ څ",
+        "pattern": "(no Farsi letter) → ځ (dz)    (no Farsi letter) → څ (ts)",
+        "explanation": "ځ and څ aren't modified Farsi letters at all -- they're genuinely new letters for sounds Farsi doesn't have. ځ sounds like the \"dz\" in English \"adze,\" and څ sounds like the \"ts\" in English \"cats.\" Say those English sounds and you're most of the way to pronouncing them correctly.",
+        "fact": "څلور (four) is one of the very first number words most learners meet, and it already uses څ -- so if you've done the numbers lesson, you've been reading څ without realizing it.",
+        "dialogue": [
+          {
+            "native": "دا زما ځای دی.",
+            "en": "This is my place."
+          },
+          {
+            "native": "هغه ځوان دی.",
+            "en": "He is young."
+          }
+        ]
+      },
+      "script-g-and-vowels": {
+        "title": "Extra Letters: ګ ې ۍ",
+        "pattern": "گ → ګ (same sound)    (no letter in Farsi) → ې    ی → ۍ",
+        "explanation": "ګ makes exactly the same \"g\" sound as Farsi's گ -- it's purely a different way of drawing the letter (a ring instead of two strokes on top), standard in Afghan Pashto printing. ې is a vowel letter Farsi doesn't write out -- it spells a short \"e\" sound. ۍ is a special ending: ی (the letter Farsi and Pashto share for \"y\") with a small hook added, marking many feminine nouns.",
+        "fact": "ۍ is why so many Pashto words for \"a female X\" or \"a small X\" end the same way -- کورنۍ (family), نجلۍ (girl), and ماڼۍ (building) all carry it.",
+        "dialogue": [
+          {
+            "native": "دا زما کورنۍ ده.",
+            "en": "This is my family."
+          },
+          {
+            "native": "افغانستان زما هېواد دی.",
+            "en": "Afghanistan is my country."
+          }
+        ]
+      }
+    },
     "levels": [
       {
         "id": "a1",
@@ -26,6 +91,870 @@
           {
             "id": "ps-a1-1",
             "number": 1,
+            "title": "Extra Letters I: ټ ډ ڼ",
+            "description": "Extra Letters I: ټ ډ ڼ",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "کوټه",
+                "options": [
+                  "full",
+                  "room",
+                  "This room is full.",
+                  "I have one daughter."
+                ],
+                "answerIndex": 1,
+                "translit": "koTa"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "room",
+                "bank": [
+                  "کوټه"
+                ],
+                "answer": [
+                  "کوټه"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "ټوکر",
+                "options": [
+                  "What is your name?",
+                  "piece",
+                  "I have one friend.",
+                  "My family is big."
+                ],
+                "answerIndex": 1,
+                "translit": "Tokar"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "piece",
+                "bank": [
+                  "ټوکر"
+                ],
+                "answer": [
+                  "ټوکر"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "ډک",
+                "options": [
+                  "I have one son.",
+                  "He is handsome.",
+                  "Seven, eight, nine, ten.",
+                  "full"
+                ],
+                "answerIndex": 3,
+                "translit": "Dak"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "full",
+                "bank": [
+                  "ډک"
+                ],
+                "answer": [
+                  "ډک"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "ډنډ",
+                "options": [
+                  "Have a good day.",
+                  "He is handsome.",
+                  "we",
+                  "pool"
+                ],
+                "answerIndex": 3,
+                "translit": "DanD"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "pool",
+                "bank": [
+                  "ډنډ"
+                ],
+                "answer": [
+                  "ډنډ"
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "ډنډ",
+                "blankedEn": "___",
+                "answer": "pool",
+                "options": [
+                  "pool",
+                  "book",
+                  "person",
+                  "five"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "کوڼ",
+                "options": [
+                  "deaf",
+                  "I have one sister.",
+                  "piece",
+                  "This is a man."
+                ],
+                "answerIndex": 0,
+                "translit": "kooN"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "deaf",
+                "bank": [
+                  "کوڼ"
+                ],
+                "answer": [
+                  "کوڼ"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "ماڼۍ",
+                "options": [
+                  "full",
+                  "I have one son.",
+                  "Seven, eight, nine, ten.",
+                  "building"
+                ],
+                "answerIndex": 3,
+                "translit": "maaNuy"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "building",
+                "bank": [
+                  "ماڼۍ"
+                ],
+                "answer": [
+                  "ماڼۍ"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "دا کوټه ډکه ده.",
+                "options": [
+                  "I have one daughter.",
+                  "I am fine.",
+                  "This room is full.",
+                  "This is my father."
+                ],
+                "answerIndex": 2,
+                "translit": "Da koTa Daka da."
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "This room is full.",
+                "bank": [
+                  "ډکه",
+                  "کوټه",
+                  "دا",
+                  "ده."
+                ],
+                "answer": [
+                  "دا",
+                  "کوټه",
+                  "ډکه",
+                  "ده."
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "کوټه",
+                    "en": "room"
+                  },
+                  {
+                    "native": "ټوکر",
+                    "en": "piece"
+                  },
+                  {
+                    "native": "ډک",
+                    "en": "full"
+                  },
+                  {
+                    "native": "ډنډ",
+                    "en": "pool"
+                  }
+                ]
+              }
+            ],
+            "titleNative": "ټ، ډ، ڼ",
+            "topicId": "script-retroflex-stops"
+          },
+          {
+            "id": "ps-a1-2",
+            "number": 2,
+            "title": "Extra Letters II: ړ ږ ښ",
+            "description": "Extra Letters II: ړ ږ ښ",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "سوړ",
+                "options": [
+                  "I am fine.",
+                  "cold",
+                  "I have one daughter.",
+                  "This is my mother."
+                ],
+                "answerIndex": 1,
+                "translit": "sooR"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "cold",
+                "bank": [
+                  "سوړ"
+                ],
+                "answer": [
+                  "سوړ"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "اړخ",
+                "options": [
+                  "Afghanistan is my country.",
+                  "flower",
+                  "side",
+                  "room"
+                ],
+                "answerIndex": 2,
+                "translit": "aRkh"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "side",
+                "bank": [
+                  "اړخ"
+                ],
+                "answer": [
+                  "اړخ"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "غوږ",
+                "options": [
+                  "This is a woman.",
+                  "full",
+                  "family",
+                  "ear"
+                ],
+                "answerIndex": 3,
+                "translit": "ghwuG"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "ear",
+                "bank": [
+                  "غوږ"
+                ],
+                "answer": [
+                  "غوږ"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "موږ",
+                "options": [
+                  "piece",
+                  "I have one daughter.",
+                  "we",
+                  "Have a good day."
+                ],
+                "answerIndex": 2,
+                "translit": "muG"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "we",
+                "bank": [
+                  "موږ"
+                ],
+                "answer": [
+                  "موږ"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "ښه",
+                "options": [
+                  "ear",
+                  "How are you?",
+                  "good",
+                  "What is your name?"
+                ],
+                "answerIndex": 2,
+                "translit": "ṣ̌a"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "good",
+                "bank": [
+                  "ښه"
+                ],
+                "answer": [
+                  "ښه"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "غاښ",
+                "options": [
+                  "I am fine.",
+                  "side",
+                  "tooth",
+                  "He is handsome."
+                ],
+                "answerIndex": 2,
+                "translit": "ghaaṣ̌"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "tooth",
+                "bank": [
+                  "غاښ"
+                ],
+                "answer": [
+                  "غاښ"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "زما غوږ دی.",
+                "options": [
+                  "This is my family.",
+                  "There is one book here.",
+                  "I have one son.",
+                  "This is my ear."
+                ],
+                "answerIndex": 3,
+                "translit": "Zma ghwuG dai."
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "This is my ear.",
+                "bank": [
+                  "غوږ",
+                  "زما",
+                  "دی."
+                ],
+                "answer": [
+                  "زما",
+                  "غوږ",
+                  "دی."
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "سوړ",
+                    "en": "cold"
+                  },
+                  {
+                    "native": "اړخ",
+                    "en": "side"
+                  },
+                  {
+                    "native": "غوږ",
+                    "en": "ear"
+                  },
+                  {
+                    "native": "موږ",
+                    "en": "we"
+                  }
+                ]
+              }
+            ],
+            "titleNative": "ړ، ږ، ښ",
+            "topicId": "script-retroflex-fricatives"
+          },
+          {
+            "id": "ps-a1-3",
+            "number": 3,
+            "title": "Extra Letters III: ځ څ",
+            "description": "Extra Letters III: ځ څ",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "ځای",
+                "options": [
+                  "expensive, dear",
+                  "place",
+                  "family",
+                  "This is my place."
+                ],
+                "answerIndex": 1,
+                "translit": "dzaay"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "place",
+                "bank": [
+                  "ځای"
+                ],
+                "answer": [
+                  "ځای"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "ځوان",
+                "options": [
+                  "young person",
+                  "Thank you.",
+                  "There is one house there.",
+                  "He is young."
+                ],
+                "answerIndex": 0,
+                "translit": "dzawaan"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "young person",
+                "bank": [
+                  "ځوان"
+                ],
+                "answer": [
+                  "ځوان"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "ځکه",
+                "options": [
+                  "Four, five, six.",
+                  "because",
+                  "we",
+                  "full"
+                ],
+                "answerIndex": 1,
+                "translit": "dzaka"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "because",
+                "bank": [
+                  "ځکه"
+                ],
+                "answer": [
+                  "ځکه"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "څنګ",
+                "options": [
+                  "Four, five, six.",
+                  "pool",
+                  "side",
+                  "My name is Ahmad."
+                ],
+                "answerIndex": 2,
+                "translit": "tsang"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "side",
+                "bank": [
+                  "څنګ"
+                ],
+                "answer": [
+                  "څنګ"
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "څنګ",
+                "blankedEn": "___",
+                "answer": "side",
+                "options": [
+                  "pool",
+                  "good",
+                  "country",
+                  "side"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "څلور",
+                "options": [
+                  "number",
+                  "My name is...",
+                  "four",
+                  "cold"
+                ],
+                "answerIndex": 2,
+                "translit": "tsalor"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "four",
+                "bank": [
+                  "څلور"
+                ],
+                "answer": [
+                  "څلور"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "دا زما ځای دی.",
+                "options": [
+                  "One, two, three.",
+                  "number",
+                  "This is a man.",
+                  "This is my place."
+                ],
+                "answerIndex": 3,
+                "translit": "Da zma dzaay dai."
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "This is my place.",
+                "bank": [
+                  "دا",
+                  "دی.",
+                  "ځای",
+                  "زما"
+                ],
+                "answer": [
+                  "دا",
+                  "زما",
+                  "ځای",
+                  "دی."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "هغه ځوان دی.",
+                "options": [
+                  "This is my mother.",
+                  "I have one brother.",
+                  "He is young.",
+                  "One, two, three."
+                ],
+                "answerIndex": 2,
+                "translit": "Hagha dzawaan dai."
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "He is young.",
+                "bank": [
+                  "هغه",
+                  "ځوان",
+                  "دی."
+                ],
+                "answer": [
+                  "هغه",
+                  "ځوان",
+                  "دی."
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "ځای",
+                    "en": "place"
+                  },
+                  {
+                    "native": "ځوان",
+                    "en": "young person"
+                  },
+                  {
+                    "native": "ځکه",
+                    "en": "because"
+                  },
+                  {
+                    "native": "څنګ",
+                    "en": "side"
+                  }
+                ]
+              }
+            ],
+            "titleNative": "ځ، څ",
+            "topicId": "script-affricates"
+          },
+          {
+            "id": "ps-a1-4",
+            "number": 4,
+            "title": "Extra Letters IV: ګ ې ۍ",
+            "description": "Extra Letters IV: ګ ې ۍ",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "ګران",
+                "options": [
+                  "room",
+                  "because",
+                  "cold",
+                  "expensive, dear"
+                ],
+                "answerIndex": 3,
+                "translit": "graan"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "expensive, dear",
+                "bank": [
+                  "ګران"
+                ],
+                "answer": [
+                  "ګران"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "ګل",
+                "options": [
+                  "flower",
+                  "I have one brother.",
+                  "I have one daughter.",
+                  "tooth"
+                ],
+                "answerIndex": 0,
+                "translit": "gul"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "flower",
+                "bank": [
+                  "ګل"
+                ],
+                "answer": [
+                  "ګل"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "هېواد",
+                "options": [
+                  "I have one brother.",
+                  "country",
+                  "deaf",
+                  "place"
+                ],
+                "answerIndex": 1,
+                "translit": "hewaad"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "country",
+                "bank": [
+                  "هېواد"
+                ],
+                "answer": [
+                  "هېواد"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "شمېر",
+                "options": [
+                  "Seven, eight, nine, ten.",
+                  "What is your name?",
+                  "number",
+                  "piece"
+                ],
+                "answerIndex": 2,
+                "translit": "shmer"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "number",
+                "bank": [
+                  "شمېر"
+                ],
+                "answer": [
+                  "شمېر"
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "شمېر",
+                "blankedEn": "___",
+                "answer": "number",
+                "options": [
+                  "Hello",
+                  "side",
+                  "number",
+                  "piece"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "کورنۍ",
+                "options": [
+                  "deaf",
+                  "four",
+                  "family",
+                  "I have one daughter."
+                ],
+                "answerIndex": 2,
+                "translit": "koranai"
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "family",
+                "bank": [
+                  "کورنۍ"
+                ],
+                "answer": [
+                  "کورنۍ"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "دا زما کورنۍ ده.",
+                "options": [
+                  "we",
+                  "This is my family.",
+                  "Hello.",
+                  "I am fine."
+                ],
+                "answerIndex": 1,
+                "translit": "Da zma koranai da."
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "This is my family.",
+                "bank": [
+                  "زما",
+                  "کورنۍ",
+                  "دا",
+                  "ده."
+                ],
+                "answer": [
+                  "دا",
+                  "زما",
+                  "کورنۍ",
+                  "ده."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "افغانستان زما هېواد دی.",
+                "options": [
+                  "Afghanistan is my country.",
+                  "I have one sister.",
+                  "This is my place.",
+                  "deaf"
+                ],
+                "answerIndex": 0,
+                "translit": "Afghanistan zma hewaad dai."
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "Afghanistan is my country.",
+                "bank": [
+                  "دی.",
+                  "زما",
+                  "افغانستان",
+                  "هېواد"
+                ],
+                "answer": [
+                  "افغانستان",
+                  "زما",
+                  "هېواد",
+                  "دی."
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "ګران",
+                    "en": "expensive, dear"
+                  },
+                  {
+                    "native": "ګل",
+                    "en": "flower"
+                  },
+                  {
+                    "native": "هېواد",
+                    "en": "country"
+                  },
+                  {
+                    "native": "شمېر",
+                    "en": "number"
+                  }
+                ]
+              }
+            ],
+            "titleNative": "ګ، ې، ۍ",
+            "topicId": "script-g-and-vowels"
+          },
+          {
+            "id": "ps-a1-5",
+            "number": 5,
             "title": "Greetings",
             "description": "Greetings",
             "exercises": [
@@ -34,12 +963,12 @@
                 "direction": "ps-en",
                 "prompt": "سلام.",
                 "options": [
-                  "I am fine.",
-                  "Hello.",
-                  "Thank you.",
-                  "There is one house there."
+                  "There is one book here.",
+                  "pool",
+                  "room",
+                  "Hello."
                 ],
-                "answerIndex": 1,
+                "answerIndex": 3,
                 "translit": "Salaam."
               },
               {
@@ -58,12 +987,12 @@
                 "direction": "ps-en",
                 "prompt": "زه ښه یم.",
                 "options": [
-                  "I have one sister.",
                   "I am fine.",
-                  "There is one book here.",
-                  "I have one friend."
+                  "we",
+                  "country",
+                  "This is my family."
                 ],
-                "answerIndex": 1,
+                "answerIndex": 0,
                 "translit": "Za ṣ̌a yim."
               },
               {
@@ -71,8 +1000,8 @@
                 "direction": "en-ps",
                 "prompt": "I am fine.",
                 "bank": [
-                  "ښه",
                   "زه",
+                  "ښه",
                   "یم."
                 ],
                 "answer": [
@@ -86,12 +1015,12 @@
                 "direction": "ps-en",
                 "prompt": "ته څنګه یې؟",
                 "options": [
-                  "I am fine.",
-                  "What is your name?",
-                  "This is my father.",
-                  "How are you?"
+                  "How are you?",
+                  "young person",
+                  "There is one house there.",
+                  "I have one sister."
                 ],
-                "answerIndex": 3,
+                "answerIndex": 0,
                 "translit": "Ta tsanga ye?"
               },
               {
@@ -99,9 +1028,9 @@
                 "direction": "en-ps",
                 "prompt": "How are you?",
                 "bank": [
-                  "یې؟",
                   "ته",
-                  "څنګه"
+                  "څنګه",
+                  "یې؟"
                 ],
                 "answer": [
                   "ته",
@@ -114,12 +1043,12 @@
                 "direction": "ps-en",
                 "prompt": "مننه.",
                 "options": [
-                  "There is one house there.",
-                  "Thank you.",
-                  "I am fine.",
-                  "This is a woman."
+                  "expensive, dear",
+                  "This is my mother.",
+                  "building",
+                  "Thank you."
                 ],
-                "answerIndex": 1,
+                "answerIndex": 3,
                 "translit": "Manana."
               },
               {
@@ -139,10 +1068,10 @@
                 "blankedEn": "___ you.",
                 "answer": "Thank",
                 "options": [
-                  "book",
-                  "Thank",
                   "friend",
-                  "brother"
+                  "Thank",
+                  "tooth",
+                  "handsome"
                 ]
               },
               {
@@ -150,12 +1079,12 @@
                 "direction": "ps-en",
                 "prompt": "زما نوم دی.",
                 "options": [
-                  "How are you?",
-                  "I have one sister.",
-                  "My name is...",
-                  "This is my mother."
+                  "country",
+                  "This is my friend.",
+                  "tooth",
+                  "My name is..."
                 ],
-                "answerIndex": 2,
+                "answerIndex": 3,
                 "translit": "Zma noom dai."
               },
               {
@@ -163,9 +1092,9 @@
                 "direction": "en-ps",
                 "prompt": "My name is...",
                 "bank": [
-                  "دی.",
                   "نوم",
-                  "زما"
+                  "زما",
+                  "دی."
                 ],
                 "answer": [
                   "زما",
@@ -178,12 +1107,12 @@
                 "direction": "ps-en",
                 "prompt": "ستا نوم څه دی؟",
                 "options": [
-                  "What is your name?",
-                  "Hello.",
-                  "This is my father.",
-                  "There is one house there."
+                  "flower",
+                  "This is my family.",
+                  "I have one son.",
+                  "What is your name?"
                 ],
-                "answerIndex": 0,
+                "answerIndex": 3,
                 "translit": "Sta noom tsa dai?"
               },
               {
@@ -191,10 +1120,10 @@
                 "direction": "en-ps",
                 "prompt": "What is your name?",
                 "bank": [
-                  "نوم",
-                  "ستا",
                   "دی؟",
-                  "څه"
+                  "نوم",
+                  "څه",
+                  "ستا"
                 ],
                 "answer": [
                   "ستا",
@@ -208,12 +1137,12 @@
                 "direction": "ps-en",
                 "prompt": "ښه ورځ.",
                 "options": [
-                  "This is my mother.",
-                  "This is a woman.",
-                  "Have a good day.",
-                  "Hello."
+                  "full",
+                  "side",
+                  "This is my friend.",
+                  "Have a good day."
                 ],
-                "answerIndex": 2,
+                "answerIndex": 3,
                 "translit": "Ṣ̌a wradz."
               },
               {
@@ -254,8 +1183,8 @@
             "titleNative": "سلامونه"
           },
           {
-            "id": "ps-a1-2",
-            "number": 2,
+            "id": "ps-a1-6",
+            "number": 6,
             "title": "Names",
             "description": "Names",
             "exercises": [
@@ -264,12 +1193,12 @@
                 "direction": "ps-en",
                 "prompt": "دا زما ملګری دی.",
                 "options": [
-                  "One, two, three.",
-                  "This is my family.",
+                  "I have one daughter.",
                   "This is my friend.",
-                  "I am fine."
+                  "Hello.",
+                  "deaf"
                 ],
-                "answerIndex": 2,
+                "answerIndex": 1,
                 "translit": "Da zma malgari dai."
               },
               {
@@ -277,10 +1206,10 @@
                 "direction": "en-ps",
                 "prompt": "This is my friend.",
                 "bank": [
-                  "دی.",
-                  "ملګری",
                   "زما",
-                  "دا"
+                  "دا",
+                  "ملګری",
+                  "دی."
                 ],
                 "answer": [
                   "دا",
@@ -294,10 +1223,10 @@
                 "direction": "ps-en",
                 "prompt": "هغه ښکلی دی.",
                 "options": [
-                  "I have one sister.",
+                  "Seven, eight, nine, ten.",
                   "He is handsome.",
-                  "I have one brother.",
-                  "My name is..."
+                  "I have one daughter.",
+                  "piece"
                 ],
                 "answerIndex": 1,
                 "translit": "Hagha ṣ̌kali dai."
@@ -307,9 +1236,9 @@
                 "direction": "en-ps",
                 "prompt": "He is handsome.",
                 "bank": [
+                  "دی.",
                   "هغه",
-                  "ښکلی",
-                  "دی."
+                  "ښکلی"
                 ],
                 "answer": [
                   "هغه",
@@ -322,12 +1251,12 @@
                 "direction": "ps-en",
                 "prompt": "زما نوم احمد دی.",
                 "options": [
-                  "Have a good day.",
-                  "This is a man.",
                   "My name is Ahmad.",
-                  "There is one house there."
+                  "I have one sister.",
+                  "flower",
+                  "expensive, dear"
                 ],
-                "answerIndex": 2,
+                "answerIndex": 0,
                 "translit": "Zma noom Ahmad dai."
               },
               {
@@ -336,8 +1265,8 @@
                 "prompt": "My name is Ahmad.",
                 "bank": [
                   "دی.",
-                  "احمد",
                   "نوم",
+                  "احمد",
                   "زما"
                 ],
                 "answer": [
@@ -352,12 +1281,12 @@
                 "direction": "ps-en",
                 "prompt": "ستا نوم څه دی؟",
                 "options": [
-                  "I have one friend.",
-                  "I have one brother.",
-                  "My name is Ahmad.",
-                  "What is your name?"
+                  "full",
+                  "What is your name?",
+                  "I have one sister.",
+                  "This is my mother."
                 ],
-                "answerIndex": 3,
+                "answerIndex": 1,
                 "translit": "Sta noom tsa dai?"
               },
               {
@@ -365,10 +1294,10 @@
                 "direction": "en-ps",
                 "prompt": "What is your name?",
                 "bank": [
+                  "دی؟",
                   "ستا",
                   "څه",
-                  "نوم",
-                  "دی؟"
+                  "نوم"
                 ],
                 "answer": [
                   "ستا",
@@ -383,10 +1312,10 @@
                 "blankedEn": "What is your ___",
                 "answer": "name",
                 "options": [
-                  "Hello",
+                  "sister",
+                  "father",
                   "name",
-                  "mother",
-                  "daughter"
+                  "Four"
                 ]
               },
               {
@@ -394,12 +1323,12 @@
                 "direction": "ps-en",
                 "prompt": "دا سړی دی.",
                 "options": [
-                  "There is one house there.",
-                  "My name is Ahmad.",
-                  "Four, five, six.",
-                  "This is a man."
+                  "I have one daughter.",
+                  "This is a woman.",
+                  "This is a man.",
+                  "I have one son."
                 ],
-                "answerIndex": 3,
+                "answerIndex": 2,
                 "translit": "Da saray dai."
               },
               {
@@ -423,9 +1352,9 @@
                 "prompt": "دا ښځه ده.",
                 "options": [
                   "This is a woman.",
-                  "Four, five, six.",
-                  "How are you?",
-                  "I am fine."
+                  "we",
+                  "good",
+                  "I have one son."
                 ],
                 "answerIndex": 0,
                 "translit": "Da ṣ̌dza da."
@@ -435,9 +1364,9 @@
                 "direction": "en-ps",
                 "prompt": "This is a woman.",
                 "bank": [
+                  "دا",
                   "ده.",
-                  "ښځه",
-                  "دا"
+                  "ښځه"
                 ],
                 "answer": [
                   "دا",
@@ -450,12 +1379,12 @@
                 "direction": "ps-en",
                 "prompt": "دا زما ملګرې ده.",
                 "options": [
+                  "My name is Ahmad.",
                   "This is my friend.",
-                  "This is a man.",
-                  "Hello.",
-                  "There is one house there."
+                  "One, two, three.",
+                  "flower"
                 ],
-                "answerIndex": 0,
+                "answerIndex": 1,
                 "translit": "Da zma malgare da."
               },
               {
@@ -463,10 +1392,10 @@
                 "direction": "en-ps",
                 "prompt": "This is my friend.",
                 "bank": [
-                  "ده.",
                   "ملګرې",
-                  "زما",
-                  "دا"
+                  "ده.",
+                  "دا",
+                  "زما"
                 ],
                 "answer": [
                   "دا",
@@ -500,8 +1429,8 @@
             "titleNative": "نومونه"
           },
           {
-            "id": "ps-a1-3",
-            "number": 3,
+            "id": "ps-a1-7",
+            "number": 7,
             "title": "Family",
             "description": "Family",
             "exercises": [
@@ -510,12 +1439,12 @@
                 "direction": "ps-en",
                 "prompt": "دا زما کورنۍ ده.",
                 "options": [
-                  "There is one book here.",
-                  "This is my family.",
-                  "My name is...",
-                  "Four, five, six."
+                  "full",
+                  "This is my place.",
+                  "place",
+                  "This is my family."
                 ],
-                "answerIndex": 1,
+                "answerIndex": 3,
                 "translit": "Da zma koranai da."
               },
               {
@@ -523,10 +1452,10 @@
                 "direction": "en-ps",
                 "prompt": "This is my family.",
                 "bank": [
-                  "کورنۍ",
                   "زما",
                   "ده.",
-                  "دا"
+                  "دا",
+                  "کورنۍ"
                 ],
                 "answer": [
                   "دا",
@@ -540,12 +1469,12 @@
                 "direction": "ps-en",
                 "prompt": "دا زما مور ده.",
                 "options": [
-                  "Hello.",
-                  "He is handsome.",
-                  "Thank you.",
-                  "This is my mother."
+                  "ear",
+                  "This is my mother.",
+                  "There is one house there.",
+                  "side"
                 ],
-                "answerIndex": 3,
+                "answerIndex": 1,
                 "translit": "Da zma moor da."
               },
               {
@@ -553,10 +1482,10 @@
                 "direction": "en-ps",
                 "prompt": "This is my mother.",
                 "bank": [
-                  "ده.",
-                  "دا",
+                  "زما",
                   "مور",
-                  "زما"
+                  "دا",
+                  "ده."
                 ],
                 "answer": [
                   "دا",
@@ -570,9 +1499,9 @@
                 "direction": "ps-en",
                 "prompt": "دا زما پلار دی.",
                 "options": [
-                  "My name is Ahmad.",
-                  "This is my friend.",
-                  "This is my mother.",
+                  "four",
+                  "number",
+                  "I am fine.",
                   "This is my father."
                 ],
                 "answerIndex": 3,
@@ -583,10 +1512,10 @@
                 "direction": "en-ps",
                 "prompt": "This is my father.",
                 "bank": [
-                  "زما",
-                  "دی.",
                   "پلار",
-                  "دا"
+                  "دی.",
+                  "دا",
+                  "زما"
                 ],
                 "answer": [
                   "دا",
@@ -600,12 +1529,12 @@
                 "direction": "ps-en",
                 "prompt": "زما یو ورور دی.",
                 "options": [
-                  "I have one sister.",
+                  "I have one brother.",
+                  "There is one book here.",
                   "My name is...",
-                  "He is handsome.",
-                  "I have one brother."
+                  "piece"
                 ],
-                "answerIndex": 3,
+                "answerIndex": 0,
                 "translit": "Zma yaw wror dai."
               },
               {
@@ -613,10 +1542,10 @@
                 "direction": "en-ps",
                 "prompt": "I have one brother.",
                 "bank": [
-                  "دی.",
+                  "زما",
                   "یو",
-                  "ورور",
-                  "زما"
+                  "دی.",
+                  "ورور"
                 ],
                 "answer": [
                   "زما",
@@ -631,10 +1560,10 @@
                 "blankedEn": "I have one ___",
                 "answer": "brother",
                 "options": [
-                  "sister",
-                  "family",
-                  "house",
-                  "brother"
+                  "brother",
+                  "five",
+                  "nine",
+                  "handsome"
                 ]
               },
               {
@@ -642,12 +1571,12 @@
                 "direction": "ps-en",
                 "prompt": "زما یوه خور ده.",
                 "options": [
-                  "I am fine.",
                   "I have one sister.",
-                  "This is a woman.",
-                  "This is my family."
+                  "This is my family.",
+                  "I have one son.",
+                  "number"
                 ],
-                "answerIndex": 1,
+                "answerIndex": 0,
                 "translit": "Zma yawa khor da."
               },
               {
@@ -655,10 +1584,10 @@
                 "direction": "en-ps",
                 "prompt": "I have one sister.",
                 "bank": [
-                  "ده.",
-                  "زما",
+                  "خور",
                   "یوه",
-                  "خور"
+                  "زما",
+                  "ده."
                 ],
                 "answer": [
                   "زما",
@@ -672,12 +1601,12 @@
                 "direction": "ps-en",
                 "prompt": "زما یو زوی دی.",
                 "options": [
-                  "How are you?",
-                  "One, two, three.",
-                  "This is my father.",
-                  "I have one son."
+                  "Hello.",
+                  "I have one son.",
+                  "four",
+                  "flower"
                 ],
-                "answerIndex": 3,
+                "answerIndex": 1,
                 "translit": "Zma yaw zoy dai."
               },
               {
@@ -685,10 +1614,10 @@
                 "direction": "en-ps",
                 "prompt": "I have one son.",
                 "bank": [
-                  "زما",
+                  "دی.",
                   "زوی",
-                  "یو",
-                  "دی."
+                  "زما",
+                  "یو"
                 ],
                 "answer": [
                   "زما",
@@ -702,12 +1631,12 @@
                 "direction": "ps-en",
                 "prompt": "زما کورنۍ لویه ده.",
                 "options": [
-                  "I have one son.",
-                  "Hello.",
+                  "piece",
                   "My family is big.",
-                  "My name is Ahmad."
+                  "What is your name?",
+                  "because"
                 ],
-                "answerIndex": 2,
+                "answerIndex": 1,
                 "translit": "Zma koranai loya da."
               },
               {
@@ -715,10 +1644,10 @@
                 "direction": "en-ps",
                 "prompt": "My family is big.",
                 "bank": [
-                  "ده.",
-                  "کورنۍ",
                   "لویه",
-                  "زما"
+                  "کورنۍ",
+                  "زما",
+                  "ده."
                 ],
                 "answer": [
                   "زما",
@@ -752,8 +1681,8 @@
             "titleNative": "کورنۍ"
           },
           {
-            "id": "ps-a1-4",
-            "number": 4,
+            "id": "ps-a1-8",
+            "number": 8,
             "title": "Numbers 1-10",
             "description": "Numbers 1-10",
             "exercises": [
@@ -762,12 +1691,12 @@
                 "direction": "ps-en",
                 "prompt": "یو، دوه، درې.",
                 "options": [
+                  "He is handsome.",
                   "One, two, three.",
-                  "What is your name?",
-                  "This is a woman.",
-                  "This is my family."
+                  "flower",
+                  "four"
                 ],
-                "answerIndex": 0,
+                "answerIndex": 1,
                 "translit": "Yaw, dwa, dre."
               },
               {
@@ -775,9 +1704,9 @@
                 "direction": "en-ps",
                 "prompt": "One, two, three.",
                 "bank": [
+                  "درې.",
                   "یو،",
-                  "دوه،",
-                  "درې."
+                  "دوه،"
                 ],
                 "answer": [
                   "یو،",
@@ -791,9 +1720,9 @@
                 "prompt": "څلور، پنځه، شپږ.",
                 "options": [
                   "Four, five, six.",
-                  "This is my friend.",
-                  "Seven, eight, nine, ten.",
-                  "What is your name?"
+                  "Afghanistan is my country.",
+                  "cold",
+                  "Have a good day."
                 ],
                 "answerIndex": 0,
                 "translit": "Tsalor, pindza, shpag."
@@ -803,9 +1732,9 @@
                 "direction": "en-ps",
                 "prompt": "Four, five, six.",
                 "bank": [
-                  "شپږ.",
+                  "پنځه،",
                   "څلور،",
-                  "پنځه،"
+                  "شپږ."
                 ],
                 "answer": [
                   "څلور،",
@@ -819,9 +1748,9 @@
                 "prompt": "اووه، اته، نه، لس.",
                 "options": [
                   "Seven, eight, nine, ten.",
-                  "I have one son.",
-                  "Thank you.",
-                  "One, two, three."
+                  "young person",
+                  "My name is Ahmad.",
+                  "we"
                 ],
                 "answerIndex": 0,
                 "translit": "Owa, ata, na, las."
@@ -831,10 +1760,10 @@
                 "direction": "en-ps",
                 "prompt": "Seven, eight, nine, ten.",
                 "bank": [
-                  "اووه،",
-                  "نه،",
+                  "اته،",
                   "لس.",
-                  "اته،"
+                  "اووه،",
+                  "نه،"
                 ],
                 "answer": [
                   "اووه،",
@@ -848,10 +1777,10 @@
                 "direction": "ps-en",
                 "prompt": "زما یو ملګری دی.",
                 "options": [
-                  "This is a woman.",
+                  "expensive, dear",
                   "I have one friend.",
-                  "Thank you.",
-                  "He is handsome."
+                  "good",
+                  "Four, five, six."
                 ],
                 "answerIndex": 1,
                 "translit": "Zma yaw malgari dai."
@@ -862,9 +1791,9 @@
                 "prompt": "I have one friend.",
                 "bank": [
                   "یو",
+                  "ملګری",
                   "زما",
-                  "دی.",
-                  "ملګری"
+                  "دی."
                 ],
                 "answer": [
                   "زما",
@@ -879,10 +1808,10 @@
                 "blankedEn": "I have one ___",
                 "answer": "friend",
                 "options": [
-                  "three",
-                  "Seven",
-                  "Hello",
-                  "friend"
+                  "friend",
+                  "tooth",
+                  "book",
+                  "flower"
                 ]
               },
               {
@@ -890,12 +1819,12 @@
                 "direction": "ps-en",
                 "prompt": "زما یوه لور ده.",
                 "options": [
-                  "Thank you.",
-                  "Hello.",
-                  "Seven, eight, nine, ten.",
-                  "I have one daughter."
+                  "This is my family.",
+                  "ear",
+                  "I have one daughter.",
+                  "This is a woman."
                 ],
-                "answerIndex": 3,
+                "answerIndex": 2,
                 "translit": "Zma yawa loor da."
               },
               {
@@ -903,8 +1832,8 @@
                 "direction": "en-ps",
                 "prompt": "I have one daughter.",
                 "bank": [
-                  "یوه",
                   "لور",
+                  "یوه",
                   "ده.",
                   "زما"
                 ],
@@ -920,12 +1849,12 @@
                 "direction": "ps-en",
                 "prompt": "دلته یو کتاب دی.",
                 "options": [
-                  "There is one house there.",
-                  "My family is big.",
-                  "Have a good day.",
-                  "There is one book here."
+                  "There is one book here.",
+                  "country",
+                  "Four, five, six.",
+                  "building"
                 ],
-                "answerIndex": 3,
+                "answerIndex": 0,
                 "translit": "Dalta yaw kitaab dai."
               },
               {
@@ -950,10 +1879,10 @@
                 "direction": "ps-en",
                 "prompt": "هلته یو کور دی.",
                 "options": [
-                  "My name is Ahmad.",
+                  "Afghanistan is my country.",
                   "There is one house there.",
-                  "My name is...",
-                  "There is one book here."
+                  "ear",
+                  "country"
                 ],
                 "answerIndex": 1,
                 "translit": "Halta yaw kor dai."
@@ -963,10 +1892,10 @@
                 "direction": "en-ps",
                 "prompt": "There is one house there.",
                 "bank": [
-                  "دی.",
-                  "یو",
                   "کور",
-                  "هلته"
+                  "یو",
+                  "هلته",
+                  "دی."
                 ],
                 "answer": [
                   "هلته",

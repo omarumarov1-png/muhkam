@@ -1,0 +1,107 @@
+{
+  "level": "a1",
+  "grammarTopics": {
+    "script-retroflex-stops": {
+      "title": "Extra Letters: ټ ډ ڼ",
+      "pattern": "ت → ټ    د → ډ    ن → ڼ",
+      "explanation": "These three Pashto letters are the familiar Farsi/Dari letters ت (t), د (d), and ن (n) with a small ring added. The ring means: curl the tip of your tongue back and up to touch the roof of your mouth, then release. That gives a \"harder,\" retroflex version of the sound -- something like the American English t/d/n in \"bird\" or \"party.\"",
+      "fact": "These retroflex rings are one of the fastest ways to spot Pashto at a glance -- if you see a small loop worked into a ت, د, or ن, you're reading Pashto, not Persian.",
+      "dialogue": [
+        { "native": "دا کوټه ډکه ده.", "en": "This room is full." },
+        { "native": "هغه کوڼ دی.", "en": "He is deaf." }
+      ]
+    },
+    "script-retroflex-fricatives": {
+      "title": "Extra Letters: ړ ږ ښ",
+      "pattern": "ر → ړ    ز/ژ → ږ    س/ش → ښ",
+      "explanation": "This trio is usually the hardest part of Pashto pronunciation for a Farsi speaker, because none of the three sounds exist in Farsi/Dari at all. ړ is a retroflex r -- curl the tongue back like for ټ, but let air flow around it. ږ and ښ are retroflex versions of z/zh and s/sh: same tongue curl, with a hiss of air passing by it.",
+      "fact": "Pronunciation of ښ and ږ varies a lot by region -- some speakers say ښ closer to \"kh,\" others closer to \"sh.\" That's one reason Pashto dialects can sound quite different from each other even to native speakers.",
+      "dialogue": [
+        { "native": "زما غوږ دی.", "en": "This is my ear." },
+        { "native": "دا خواږه دي.", "en": "These are sweets." }
+      ]
+    },
+    "script-affricates": {
+      "title": "Extra Letters: ځ څ",
+      "pattern": "(no Farsi letter) → ځ (dz)    (no Farsi letter) → څ (ts)",
+      "explanation": "ځ and څ aren't modified Farsi letters at all -- they're genuinely new letters for sounds Farsi doesn't have. ځ sounds like the \"dz\" in English \"adze,\" and څ sounds like the \"ts\" in English \"cats.\" Say those English sounds and you're most of the way to pronouncing them correctly.",
+      "fact": "څلور (four) is one of the very first number words most learners meet, and it already uses څ -- so if you've done the numbers lesson, you've been reading څ without realizing it.",
+      "dialogue": [
+        { "native": "دا زما ځای دی.", "en": "This is my place." },
+        { "native": "هغه ځوان دی.", "en": "He is young." }
+      ]
+    },
+    "script-g-and-vowels": {
+      "title": "Extra Letters: ګ ې ۍ",
+      "pattern": "گ → ګ (same sound)    (no letter in Farsi) → ې    ی → ۍ",
+      "explanation": "ګ makes exactly the same \"g\" sound as Farsi's گ -- it's purely a different way of drawing the letter (a ring instead of two strokes on top), standard in Afghan Pashto printing. ې is a vowel letter Farsi doesn't write out -- it spells a short \"e\" sound. ۍ is a special ending: ی (the letter Farsi and Pashto share for \"y\") with a small hook added, marking many feminine nouns.",
+      "fact": "ۍ is why so many Pashto words for \"a female X\" or \"a small X\" end the same way -- کورنۍ (family), نجلۍ (girl), and ماڼۍ (building) all carry it.",
+      "dialogue": [
+        { "native": "دا زما کورنۍ ده.", "en": "This is my family." },
+        { "native": "افغانستان زما هېواد دی.", "en": "Afghanistan is my country." }
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Extra Letters I: ټ ډ ڼ",
+      "titleNative": "ټ، ډ، ڼ",
+      "topicId": "script-retroflex-stops",
+      "items": [
+        { "pashto": "کوټه", "en": "room", "translit": "koTa" },
+        { "pashto": "ټوکر", "en": "piece", "translit": "Tokar" },
+        { "pashto": "ډک", "en": "full", "translit": "Dak" },
+        { "pashto": "ډنډ", "en": "pool", "translit": "DanD" },
+        { "pashto": "کوڼ", "en": "deaf", "translit": "kooN" },
+        { "pashto": "ماڼۍ", "en": "building", "translit": "maaNuy" },
+        { "pashto": "دا کوټه ډکه ده.", "en": "This room is full.", "translit": "Da koTa Daka da." }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Extra Letters II: ړ ږ ښ",
+      "titleNative": "ړ، ږ، ښ",
+      "topicId": "script-retroflex-fricatives",
+      "items": [
+        { "pashto": "سوړ", "en": "cold", "translit": "sooR" },
+        { "pashto": "اړخ", "en": "side", "translit": "aRkh" },
+        { "pashto": "غوږ", "en": "ear", "translit": "ghwuG" },
+        { "pashto": "موږ", "en": "we", "translit": "muG" },
+        { "pashto": "ښه", "en": "good", "translit": "ṣ̌a" },
+        { "pashto": "غاښ", "en": "tooth", "translit": "ghaaṣ̌" },
+        { "pashto": "زما غوږ دی.", "en": "This is my ear.", "translit": "Zma ghwuG dai." }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Extra Letters III: ځ څ",
+      "titleNative": "ځ، څ",
+      "topicId": "script-affricates",
+      "items": [
+        { "pashto": "ځای", "en": "place", "translit": "dzaay" },
+        { "pashto": "ځوان", "en": "young person", "translit": "dzawaan" },
+        { "pashto": "ځکه", "en": "because", "translit": "dzaka" },
+        { "pashto": "څنګ", "en": "side", "translit": "tsang" },
+        { "pashto": "څلور", "en": "four", "translit": "tsalor" },
+        { "pashto": "دا زما ځای دی.", "en": "This is my place.", "translit": "Da zma dzaay dai." },
+        { "pashto": "هغه ځوان دی.", "en": "He is young.", "translit": "Hagha dzawaan dai." }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Extra Letters IV: ګ ې ۍ",
+      "titleNative": "ګ، ې، ۍ",
+      "topicId": "script-g-and-vowels",
+      "items": [
+        { "pashto": "ګران", "en": "expensive, dear", "translit": "graan" },
+        { "pashto": "ګل", "en": "flower", "translit": "gul" },
+        { "pashto": "هېواد", "en": "country", "translit": "hewaad" },
+        { "pashto": "شمېر", "en": "number", "translit": "shmer" },
+        { "pashto": "کورنۍ", "en": "family", "translit": "koranai" },
+        { "pashto": "دا زما کورنۍ ده.", "en": "This is my family.", "translit": "Da zma koranai da." },
+        { "pashto": "افغانستان زما هېواد دی.", "en": "Afghanistan is my country.", "translit": "Afghanistan zma hewaad dai." }
+      ]
+    }
+  ]
+}
