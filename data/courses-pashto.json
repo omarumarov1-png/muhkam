@@ -196,9 +196,9 @@
                 "blankedEn": "___",
                 "answer": "pool",
                 "options": [
-                  "meat",
-                  "foot",
-                  "Twenty",
+                  "market",
+                  "chair",
+                  "forest",
                   "pool"
                 ]
               },
@@ -616,9 +616,9 @@
                 "blankedEn": "___",
                 "answer": "side",
                 "options": [
-                  "river",
-                  "ninety",
-                  "money",
+                  "raining",
+                  "going",
+                  "Trees",
                   "side"
                 ]
               },
@@ -837,10 +837,10 @@
                 "blankedEn": "___",
                 "answer": "number",
                 "options": [
-                  "children",
-                  "last",
+                  "book",
+                  "minute",
                   "number",
-                  "flower"
+                  "yesterday"
                 ]
               },
               {
@@ -1068,9 +1068,9 @@
                 "blankedEn": "___ you.",
                 "answer": "Thank",
                 "options": [
-                  "want",
-                  "read",
-                  "mountain",
+                  "pages",
+                  "Four",
+                  "garden",
                   "Thank"
                 ]
               },
@@ -1312,9 +1312,9 @@
                 "blankedEn": "What is your ___",
                 "answer": "name",
                 "options": [
-                  "Eighty",
-                  "cheaper",
-                  "bigger",
+                  "works",
+                  "much",
+                  "Fifty",
                   "name"
                 ]
               },
@@ -1560,10 +1560,10 @@
                 "blankedEn": "I have one ___",
                 "answer": "brother",
                 "options": [
-                  "Seventeen",
+                  "door",
                   "brother",
-                  "animals",
-                  "letter"
+                  "eleven",
+                  "school"
                 ]
               },
               {
@@ -1808,10 +1808,10 @@
                 "blankedEn": "I have one ___",
                 "answer": "friend",
                 "options": [
-                  "eight",
+                  "mine",
                   "friend",
-                  "money",
-                  "window"
+                  "Trees",
+                  "little"
                 ]
               },
               {
@@ -2049,9 +2049,9 @@
                 "answer": "blue",
                 "options": [
                   "blue",
-                  "small",
-                  "Yesterday's",
-                  "chairs"
+                  "person",
+                  "children",
+                  "mountain"
                 ]
               },
               {
@@ -2287,9 +2287,9 @@
                 "blankedEn": "I have ten ___",
                 "answer": "books",
                 "options": [
-                  "color",
-                  "doctor",
-                  "little",
+                  "horse",
+                  "sixty",
+                  "heart",
                   "books"
                 ]
               },
@@ -2531,9 +2531,9 @@
                 "answer": "school",
                 "options": [
                   "school",
-                  "many",
-                  "eighteen",
-                  "Thank"
+                  "well",
+                  "Seven",
+                  "road"
                 ]
               },
               {
@@ -2769,9 +2769,9 @@
                 "blankedEn": "Thursday and ___",
                 "answer": "Friday",
                 "options": [
-                  "yellow",
-                  "Tuesday",
-                  "minute",
+                  "colder",
+                  "Autumn",
+                  "flower",
                   "Friday"
                 ]
               },
@@ -3020,10 +3020,10 @@
                 "blankedEn": "We want ___",
                 "answer": "water",
                 "options": [
-                  "English",
-                  "Seventeen",
+                  "fifteen",
                   "water",
-                  "Tonight"
+                  "door",
+                  "meat"
                 ]
               },
               {
@@ -3031,22 +3031,22 @@
                 "direction": "ps-en",
                 "prompt": "دا خوراک ښه دی.",
                 "options": [
-                  "The apple is cheap.",
                   "Do you have help?",
-                  "Who is your friend?",
-                  "This food is good."
+                  "The apple is cheap.",
+                  "This food is good.",
+                  "I have little money."
                 ],
-                "answerIndex": 3
+                "answerIndex": 2
               },
               {
                 "type": "word-bank",
                 "direction": "en-ps",
                 "prompt": "This food is good.",
                 "bank": [
+                  "خوراک",
                   "دی.",
-                  "دا",
                   "ښه",
-                  "خوراک"
+                  "دا"
                 ],
                 "answer": [
                   "دا",
@@ -3060,12 +3060,12 @@
                 "direction": "ps-en",
                 "prompt": "زه اوبه غواړم.",
                 "options": [
-                  "My friend wants help.",
-                  "good",
+                  "This is my hand.",
                   "I want water.",
-                  "Hello, my name is... What is your name?"
+                  "Hello, my name is... What is your name?",
+                  "It is raining."
                 ],
-                "answerIndex": 2
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
@@ -3087,22 +3087,22 @@
                 "direction": "ps-en",
                 "prompt": "دا مڼه سره ده.",
                 "options": [
-                  "full",
-                  "This apple is red.",
-                  "My father is a doctor.",
-                  "Tomorrow is Sunday."
+                  "My friend wants help.",
+                  "This is an airplane.",
+                  "Tomorrow is Sunday.",
+                  "This apple is red."
                 ],
-                "answerIndex": 1
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
                 "direction": "en-ps",
                 "prompt": "This apple is red.",
                 "bank": [
-                  "دا",
-                  "ده.",
                   "سره",
-                  "مڼه"
+                  "مڼه",
+                  "ده.",
+                  "دا"
                 ],
                 "answer": [
                   "دا",
@@ -3267,9 +3267,9 @@
                 "blankedEn": "There is a ___ in the house.",
                 "answer": "garden",
                 "options": [
-                  "people",
-                  "rainy",
-                  "English",
+                  "Thursday",
+                  "family",
+                  "bird",
                   "garden"
                 ]
               },
@@ -3509,9 +3509,9 @@
                 "answer": "hand",
                 "options": [
                   "hand",
-                  "Pashto",
-                  "side",
-                  "Monday"
+                  "learning",
+                  "weather",
+                  "seventy"
                 ]
               },
               {
@@ -3751,10 +3751,10 @@
                 "blankedEn": "I want new ___",
                 "answer": "clothes",
                 "options": [
-                  "summer",
-                  "heart",
+                  "Books",
+                  "Today",
                   "clothes",
-                  "child"
+                  "Good"
                 ]
               },
               {
@@ -3990,10 +3990,10 @@
                 "blankedEn": "It is ___",
                 "answer": "snowing",
                 "options": [
-                  "because",
-                  "Dari",
+                  "happy",
+                  "side",
                   "snowing",
-                  "Summer"
+                  "reads"
                 ]
               },
               {
@@ -4221,9 +4221,9 @@
                 "blankedEn": "This is a ___",
                 "answer": "horse",
                 "options": [
-                  "Sunday",
-                  "paternal",
-                  "yellow",
+                  "small",
+                  "fast",
+                  "colder",
                   "horse"
                 ]
               },
@@ -4458,9 +4458,9 @@
                 "blankedEn": "I go ___",
                 "answer": "home",
                 "options": [
-                  "learning",
-                  "clothes",
-                  "goes",
+                  "daughter",
+                  "young",
+                  "It's",
                   "home"
                 ]
               },
@@ -4699,10 +4699,10 @@
                 "blankedEn": "I ___ a doctor.",
                 "answer": "want",
                 "options": [
-                  "pages",
-                  "village",
+                  "Summer",
+                  "letter",
                   "want",
-                  "spring"
+                  "Yesterday"
                 ]
               },
               {
@@ -4940,10 +4940,10 @@
                 "blankedEn": "I go to the ___",
                 "answer": "city",
                 "options": [
-                  "Seven",
+                  "smaller",
                   "city",
-                  "cold",
-                  "eats"
+                  "blue",
+                  "phone"
                 ]
               },
               {
@@ -5178,9 +5178,9 @@
                 "answer": "city",
                 "options": [
                   "city",
-                  "spring",
-                  "room",
-                  "people"
+                  "Yesterday",
+                  "week",
+                  "Thursday"
                 ]
               },
               {
@@ -5424,10 +5424,10 @@
                 "blankedEn": "This child is ___",
                 "answer": "small",
                 "options": [
-                  "thirty",
-                  "teacher",
+                  "summer",
+                  "Fourteen",
                   "small",
-                  "slow"
+                  "Ahmad"
                 ]
               },
               {
@@ -5672,9 +5672,9 @@
                 "answer": "uncle",
                 "options": [
                   "uncle",
-                  "four",
-                  "dear",
-                  "apple"
+                  "read",
+                  "snowing",
+                  "Whose"
                 ]
               },
               {
@@ -5917,9 +5917,9 @@
                 "answer": "time",
                 "options": [
                   "time",
-                  "Head",
-                  "hotter",
-                  "house"
+                  "five",
+                  "bigger",
+                  "speak"
                 ]
               },
               {
@@ -6155,10 +6155,10 @@
                 "blankedEn": "I ___ an apple.",
                 "answer": "want",
                 "options": [
-                  "Friday",
+                  "ours",
                   "want",
-                  "expensive",
-                  "road"
+                  "restaurant",
+                  "fifty"
                 ]
               },
               {
@@ -6398,10 +6398,10 @@
                 "blankedEn": "I go ___",
                 "answer": "home",
                 "options": [
-                  "faster",
+                  "country",
                   "home",
-                  "mother",
-                  "water"
+                  "tooth",
+                  "spring"
                 ]
               },
               {
@@ -6647,9 +6647,9 @@
                 "blankedEn": "My maternal ___ is big.",
                 "answer": "uncle",
                 "options": [
-                  "paternal",
-                  "twenty",
-                  "twelve",
+                  "fast",
+                  "home",
+                  "Yesterday's",
                   "uncle"
                 ]
               },
@@ -6896,10 +6896,10 @@
                 "blankedEn": "My car is ___",
                 "answer": "small",
                 "options": [
-                  "learning",
-                  "profession",
+                  "daughter",
+                  "tree",
                   "small",
-                  "ninety"
+                  "going"
                 ]
               },
               {
@@ -7145,10 +7145,10 @@
                 "blankedEn": "They go to the ___",
                 "answer": "city",
                 "options": [
-                  "Hello",
-                  "letter",
+                  "hundred",
+                  "school",
                   "city",
-                  "night"
+                  "full"
                 ]
               },
               {
@@ -7397,9 +7397,9 @@
                 "answer": "sick",
                 "options": [
                   "sick",
-                  "faster",
-                  "brother",
-                  "deaf"
+                  "country",
+                  "winter",
+                  "thinks"
                 ]
               },
               {
@@ -7631,10 +7631,10 @@
                 "blankedEn": "The ___ is big.",
                 "answer": "mountain",
                 "options": [
-                  "school",
+                  "Monday",
                   "mountain",
-                  "weather",
-                  "piece"
+                  "piece",
+                  "forty"
                 ]
               },
               {
@@ -7865,9 +7865,9 @@
                 "answer": "Spring",
                 "options": [
                   "Spring",
-                  "faster",
-                  "fifteen",
-                  "language"
+                  "country",
+                  "Mouth",
+                  "every"
                 ]
               },
               {
@@ -8103,10 +8103,10 @@
                 "blankedEn": "Is this ___",
                 "answer": "expensive",
                 "options": [
-                  "spring",
-                  "number",
+                  "Yesterday",
+                  "aunt",
                   "expensive",
-                  "last"
+                  "minute"
                 ]
               },
               {
@@ -8346,10 +8346,10 @@
                 "blankedEn": "We ___ help.",
                 "answer": "want",
                 "options": [
-                  "wants",
+                  "windy",
                   "want",
-                  "Thursday",
-                  "seven"
+                  "work",
+                  "apple"
                 ]
               },
               {
@@ -8595,10 +8595,10 @@
                 "blankedEn": "___ is my season.",
                 "answer": "Spring",
                 "options": [
-                  "speak",
+                  "people",
                   "Spring",
-                  "paternal",
-                  "minute"
+                  "fast",
+                  "flower"
                 ]
               },
               {
@@ -8872,10 +8872,10 @@
                 "blankedEn": "My ___ is big.",
                 "answer": "family",
                 "options": [
-                  "profession",
+                  "tree",
                   "family",
-                  "child",
-                  "Tomorrow"
+                  "Good",
+                  "maternal"
                 ]
               },
               {
@@ -9382,9 +9382,9 @@
                 "blankedEn": "Do you go to school? Yes, I go to ___",
                 "answer": "school",
                 "options": [
-                  "work",
-                  "Tuesday",
-                  "It's",
+                  "faster",
+                  "Autumn",
+                  "clouds",
                   "school"
                 ]
               },
@@ -9676,9 +9676,9 @@
                 "answer": "grandfather",
                 "options": [
                   "grandfather",
-                  "thirteen",
-                  "twelve",
-                  "minute"
+                  "trees",
+                  "Yesterday's",
+                  "flower"
                 ]
               },
               {
@@ -9934,10 +9934,10 @@
                 "blankedEn": "There are few ___ here.",
                 "answer": "children",
                 "options": [
-                  "country",
+                  "three",
                   "children",
-                  "tables",
-                  "water"
+                  "books",
+                  "spring"
                 ]
               },
               {
@@ -10189,9 +10189,9 @@
                 "blankedEn": "Do you have ___",
                 "answer": "work",
                 "options": [
-                  "maternal",
-                  "meat",
-                  "eighteen",
+                  "Last",
+                  "market",
+                  "Seven",
                   "work"
                 ]
               },
@@ -10440,9 +10440,9 @@
                 "blankedEn": "This ___ is old.",
                 "answer": "tree",
                 "options": [
-                  "young",
-                  "work",
-                  "ninety",
+                  "sports",
+                  "faster",
+                  "going",
                   "tree"
                 ]
               },
@@ -10693,10 +10693,10 @@
                 "blankedEn": "There is a book in my ___",
                 "answer": "house",
                 "options": [
-                  "learn",
+                  "goes",
                   "house",
-                  "clothes",
-                  "Books"
+                  "young",
+                  "thirty"
                 ]
               },
               {
@@ -10956,10 +10956,10 @@
                 "blankedEn": "Tomorrow I go to the ___",
                 "answer": "market",
                 "options": [
-                  "Twenty",
+                  "forest",
                   "market",
-                  "people",
-                  "slow"
+                  "Thursday",
+                  "Ahmad"
                 ]
               },
               {
@@ -11208,9 +11208,9 @@
                 "answer": "Ahmad",
                 "options": [
                   "Ahmad",
-                  "Every",
-                  "going",
-                  "thousand"
+                  "twelve",
+                  "house",
+                  "pool"
                 ]
               },
               {
@@ -11480,9 +11480,9 @@
                 "blankedEn": "My son is ___ My daughter is good.",
                 "answer": "good",
                 "options": [
-                  "money",
-                  "forty",
-                  "Whose",
+                  "Trees",
+                  "Every",
+                  "profession",
                   "good"
                 ]
               },
@@ -11757,10 +11757,10 @@
                 "blankedEn": "The sky is ___ the sun is out.",
                 "answer": "blue",
                 "options": [
-                  "last",
+                  "minute",
                   "blue",
-                  "near",
-                  "window"
+                  "thirteen",
+                  "little"
                 ]
               },
               {
@@ -12020,9 +12020,9 @@
                 "blankedEn": "I go to the market ___",
                 "answer": "tomorrow",
                 "options": [
-                  "Autumn",
-                  "dear",
-                  "letter",
+                  "fine",
+                  "snowing",
+                  "school",
                   "tomorrow"
                 ]
               },
@@ -12293,10 +12293,10 @@
                 "blankedEn": "I read a book and eat ___ every day.",
                 "answer": "food",
                 "options": [
-                  "five",
+                  "green",
                   "food",
-                  "garden",
-                  "Fifty"
+                  "days",
+                  "four"
                 ]
               },
               {
@@ -12574,10 +12574,10 @@
                 "blankedEn": "Do you have ___ Yes, I have money.",
                 "answer": "money",
                 "options": [
-                  "rooms",
+                  "Saturday",
                   "money",
-                  "cold",
-                  "seventy"
+                  "blue",
+                  "chairs"
                 ]
               },
               {
@@ -12855,9 +12855,9 @@
                 "blankedEn": "I go to school every day, I ___ a book.",
                 "answer": "read",
                 "options": [
-                  "Afghanistan",
-                  "room",
-                  "white",
+                  "Wednesday",
+                  "week",
+                  "nine",
                   "read"
                 ]
               },
@@ -13126,9 +13126,9 @@
                 "blankedEn": "My friend was ___ yesterday.",
                 "answer": "sick",
                 "options": [
-                  "Yesterday",
-                  "wants",
-                  "before",
+                  "handsome",
+                  "windy",
+                  "learn",
                   "sick"
                 ]
               },
@@ -13372,10 +13372,10 @@
                 "blankedEn": "I was sick ___",
                 "answer": "yesterday",
                 "options": [
-                  "green",
-                  "forty",
+                  "Winter",
+                  "Every",
                   "yesterday",
-                  "city"
+                  "deaf"
                 ]
               },
               {
@@ -13613,10 +13613,10 @@
                 "blankedEn": "This was my ___",
                 "answer": "book",
                 "options": [
-                  "trees",
-                  "Wednesday",
+                  "Cheap",
+                  "city",
                   "book",
-                  "near"
+                  "thirteen"
                 ]
               },
               {
@@ -13868,10 +13868,10 @@
                 "blankedEn": "My aunt was here last ___",
                 "answer": "week",
                 "options": [
-                  "windy",
-                  "eyes",
+                  "Eleven",
                   "week",
-                  "morning"
+                  "meat",
+                  "speaks"
                 ]
               },
               {
@@ -13879,21 +13879,21 @@
                 "direction": "ps-en",
                 "prompt": "تاسو تېره اونۍ چېرته وئ؟",
                 "options": [
+                  "It is raining and windy.",
+                  "I speak Pashto, I work.",
                   "My car is much faster than your car.",
-                  "Where were you last week?",
-                  "Is your room big or small?",
-                  "This was my book."
+                  "Where were you last week?"
                 ],
-                "answerIndex": 1
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
                 "direction": "en-ps",
                 "prompt": "Where were you last week?",
                 "bank": [
-                  "اونۍ",
-                  "تاسو",
                   "چېرته",
+                  "تاسو",
+                  "اونۍ",
                   "تېره",
                   "وئ؟"
                 ],
@@ -13910,24 +13910,24 @@
                 "direction": "ps-en",
                 "prompt": "زما کار تېره اونۍ ډېر و.",
                 "options": [
-                  "My work was a lot last week.",
                   "This car is fast.",
-                  "My friend is learning English.",
-                  "This was my apple."
+                  "We were children.",
+                  "Is this table big or small?",
+                  "My work was a lot last week."
                 ],
-                "answerIndex": 0
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
                 "direction": "en-ps",
                 "prompt": "My work was a lot last week.",
                 "bank": [
-                  "ډېر",
-                  "تېره",
-                  "زما",
                   "و.",
+                  "زما",
                   "اونۍ",
-                  "کار"
+                  "کار",
+                  "تېره",
+                  "ډېر"
                 ],
                 "answer": [
                   "زما",
@@ -13943,22 +13943,22 @@
                 "direction": "ps-en",
                 "prompt": "تېر ژمی سوړ و.",
                 "options": [
+                  "I was sick yesterday.",
+                  "My mother speaks Dari, my father speaks Pashto.",
                   "Are you sick? Do you go to the doctor?",
-                  "I speak Pashto and Dari.",
-                  "Last winter was cold.",
-                  "My book is cheap, my car is expensive."
+                  "Last winter was cold."
                 ],
-                "answerIndex": 2
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
                 "direction": "en-ps",
                 "prompt": "Last winter was cold.",
                 "bank": [
-                  "ژمی",
                   "و.",
                   "سوړ",
-                  "تېر"
+                  "تېر",
+                  "ژمی"
                 ],
                 "answer": [
                   "تېر",
@@ -14002,12 +14002,12 @@
                 "direction": "ps-en",
                 "prompt": "زموږ کور لوی دی، ستا کور کوچنی دی.",
                 "options": [
-                  "Is this door new or old?",
-                  "Yesterday the weather was cold, today it is hot.",
+                  "These are my shoes, these are my clothes.",
                   "Our house is big, your house is small.",
-                  "I eat food here."
+                  "I eat food here.",
+                  "I go to the restaurant."
                 ],
-                "answerIndex": 2
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
@@ -14015,13 +14015,13 @@
                 "prompt": "Our house is big, your house is small.",
                 "bank": [
                   "زموږ",
-                  "دی،",
-                  "کوچنی",
+                  "کور",
                   "ستا",
+                  "کوچنی",
+                  "کور",
+                  "دی.",
                   "لوی",
-                  "کور",
-                  "کور",
-                  "دی."
+                  "دی،"
                 ],
                 "answer": [
                   "زموږ",
@@ -14039,10 +14039,10 @@
                 "direction": "ps-en",
                 "prompt": "دا موټر ارزان دی، هغه موټر ګران دی.",
                 "options": [
-                  "Our house is much bigger than your house.",
-                  "I will work tomorrow.",
+                  "Today the weather is good, the sky is blue.",
+                  "Last night I was at home.",
                   "This car is cheap, that car is expensive.",
-                  "Last night I was at home."
+                  "Our house is much bigger than your house."
                 ],
                 "answerIndex": 2
               },
@@ -14151,10 +14151,10 @@
                 "blankedEn": "This mountain is big, this ___ is small.",
                 "answer": "tree",
                 "options": [
-                  "city",
+                  "deaf",
                   "tree",
-                  "heart",
-                  "mine"
+                  "Today",
+                  "sunny"
                 ]
               },
               {
@@ -14451,9 +14451,9 @@
                 "answer": "yesterday",
                 "options": [
                   "yesterday",
-                  "well",
-                  "work",
-                  "garden"
+                  "thousand",
+                  "faster",
+                  "days"
                 ]
               },
               {
@@ -14720,9 +14720,9 @@
                 "answer": "work",
                 "options": [
                   "work",
-                  "Wednesday",
-                  "Four",
-                  "three"
+                  "city",
+                  "Fatima",
+                  "Sunday"
                 ]
               },
               {
@@ -15000,9 +15000,9 @@
                 "answer": "works",
                 "options": [
                   "works",
-                  "hand",
-                  "aunt",
-                  "mother"
+                  "nineteen",
+                  "money",
+                  "tooth"
                 ]
               },
               {
@@ -15266,10 +15266,10 @@
                 "blankedEn": "There are one thousand ___ here.",
                 "answer": "children",
                 "options": [
-                  "place",
+                  "animals",
                   "children",
-                  "Eighty",
-                  "eighteen"
+                  "works",
+                  "Seven"
                 ]
               },
               {
@@ -15542,9 +15542,9 @@
                 "answer": "sister",
                 "options": [
                   "sister",
-                  "Ahmad",
-                  "going",
-                  "fifty"
+                  "Twenty",
+                  "house",
+                  "Head"
                 ]
               },
               {
@@ -15824,10 +15824,10 @@
                 "blankedEn": "Before I was sick, now I am ___",
                 "answer": "well",
                 "options": [
-                  "Dari",
+                  "side",
                   "well",
-                  "people",
-                  "Seventeen"
+                  "Thursday",
+                  "door"
                 ]
               },
               {
@@ -16115,9 +16115,9 @@
                 "blankedEn": "My father is a ___ he works every day.",
                 "answer": "doctor",
                 "options": [
-                  "grandmother",
-                  "many",
-                  "yesterday",
+                  "number",
+                  "well",
+                  "food",
                   "doctor"
                 ]
               },
@@ -16388,9 +16388,9 @@
                 "blankedEn": "Our family speaks ___",
                 "answer": "Pashto",
                 "options": [
-                  "wants",
-                  "table",
-                  "Tuesday",
+                  "windy",
+                  "sixteen",
+                  "Autumn",
                   "Pashto"
                 ]
               },
@@ -16637,10 +16637,10 @@
                 "blankedEn": "We are at the ___",
                 "answer": "restaurant",
                 "options": [
-                  "sick",
+                  "river",
                   "restaurant",
-                  "shoes",
-                  "thank"
+                  "yellow",
+                  "meat"
                 ]
               },
               {
@@ -16915,9 +16915,9 @@
                 "answer": "small",
                 "options": [
                   "small",
-                  "Sunday",
-                  "Before",
-                  "Wednesday"
+                  "eighteen",
+                  "before",
+                  "city"
                 ]
               },
               {
@@ -17445,9 +17445,9 @@
                 "answer": "works",
                 "options": [
                   "works",
-                  "many",
-                  "eyes",
-                  "Eighty"
+                  "speaks",
+                  "father",
+                  "well"
                 ]
               },
               {
@@ -17726,9 +17726,9 @@
                 "answer": "sick",
                 "options": [
                   "sick",
-                  "Whose",
-                  "fifteen",
-                  "sister"
+                  "profession",
+                  "Mouth",
+                  "eats"
                 ]
               },
               {
@@ -17998,9 +17998,9 @@
                 "blankedEn": "It is raining and ___",
                 "answer": "windy",
                 "options": [
-                  "teacher",
-                  "market",
-                  "sister",
+                  "Fourteen",
+                  "English",
+                  "eats",
                   "windy"
                 ]
               },
@@ -18251,9 +18251,9 @@
                 "blankedEn": "The sky is ___ the tree is green.",
                 "answer": "blue",
                 "options": [
-                  "expensive",
-                  "works",
-                  "phone",
+                  "restaurant",
+                  "sick",
+                  "minutes",
                   "blue"
                 ]
               },
@@ -18510,10 +18510,10 @@
                 "blankedEn": "These clothes are ___",
                 "answer": "yours",
                 "options": [
-                  "learning",
+                  "daughter",
                   "yours",
-                  "market",
-                  "work"
+                  "English",
+                  "faster"
                 ]
               },
               {
@@ -18789,9 +18789,9 @@
                 "blankedEn": "This book is mine, this car is ___",
                 "answer": "yours",
                 "options": [
-                  "white",
-                  "summer",
-                  "nineteen",
+                  "nine",
+                  "Books",
+                  "wants",
                   "yours"
                 ]
               },
@@ -19044,10 +19044,10 @@
                 "blankedEn": "This is a ___",
                 "answer": "window",
                 "options": [
-                  "wants",
+                  "windy",
                   "window",
-                  "maternal",
-                  "Fatima"
+                  "Last",
+                  "dear"
                 ]
               },
               {
@@ -19351,10 +19351,10 @@
                 "blankedEn": "Is this ___ new or old?",
                 "answer": "door",
                 "options": [
-                  "tomorrow",
-                  "hour",
+                  "language",
+                  "building",
                   "door",
-                  "water"
+                  "spring"
                 ]
               },
               {
@@ -19610,10 +19610,10 @@
                 "blankedEn": "We ___ at school.",
                 "answer": "learn",
                 "options": [
-                  "three",
+                  "Sunday",
                   "learn",
-                  "airplane",
-                  "sixteen"
+                  "want",
+                  "thank"
                 ]
               },
               {
@@ -19884,9 +19884,9 @@
                 "answer": "market",
                 "options": [
                   "market",
-                  "Yesterday's",
-                  "summer",
-                  "Summer"
+                  "children",
+                  "Books",
+                  "reads"
                 ]
               },
               {
@@ -20172,9 +20172,9 @@
                 "blankedEn": "Today is ___ I work.",
                 "answer": "Monday",
                 "options": [
-                  "weather",
-                  "Dari",
-                  "want",
+                  "piece",
+                  "side",
+                  "pages",
                   "Monday"
                 ]
               },
@@ -20427,10 +20427,10 @@
                 "blankedEn": "The ___ is here.",
                 "answer": "fish",
                 "options": [
-                  "heart",
+                  "Today",
                   "fish",
-                  "speak",
-                  "many"
+                  "people",
+                  "well"
                 ]
               },
               {
@@ -20695,9 +20695,9 @@
                 "answer": "going",
                 "options": [
                   "going",
-                  "chair",
-                  "friend",
-                  "hundred"
+                  "Before",
+                  "woman",
+                  "eighteen"
                 ]
               },
               {
@@ -20953,9 +20953,9 @@
                 "answer": "weather",
                 "options": [
                   "weather",
-                  "learning",
-                  "family",
-                  "money"
+                  "daughter",
+                  "airplane",
+                  "Trees"
                 ]
               },
               {
@@ -21213,10 +21213,10 @@
                 "blankedEn": "Yesterday I was ___ to the market.",
                 "answer": "going",
                 "options": [
-                  "white",
+                  "nine",
                   "going",
-                  "Dari",
-                  "Summer"
+                  "side",
+                  "reads"
                 ]
               },
               {
@@ -21479,9 +21479,9 @@
                 "answer": "slow",
                 "options": [
                   "slow",
-                  "bigger",
-                  "today",
-                  "restaurant"
+                  "Fifty",
+                  "last",
+                  "sister"
                 ]
               },
               {
@@ -21980,10 +21980,10 @@
                 "blankedEn": "This ___ is good.",
                 "answer": "food",
                 "options": [
-                  "want",
-                  "sick",
+                  "pages",
+                  "river",
                   "food",
-                  "books"
+                  "twenty"
                 ]
               },
               {
@@ -22251,10 +22251,10 @@
                 "blankedEn": "My ___ will go to the market.",
                 "answer": "friend",
                 "options": [
-                  "sixty",
-                  "Wednesday",
+                  "time",
+                  "city",
                   "friend",
-                  "Autumn"
+                  "fine"
                 ]
               },
               {
@@ -22517,10 +22517,10 @@
                 "blankedEn": "Will you go to the market or ___",
                 "answer": "home",
                 "options": [
-                  "Fatima",
+                  "dear",
                   "home",
-                  "It's",
-                  "Seventeen"
+                  "clouds",
+                  "door"
                 ]
               },
               {
@@ -22772,9 +22772,9 @@
                 "blankedEn": "I read a ___",
                 "answer": "letter",
                 "options": [
-                  "summer",
-                  "Whose",
-                  "Fatima",
+                  "Books",
+                  "profession",
+                  "dear",
                   "letter"
                 ]
               },
@@ -23071,9 +23071,9 @@
                 "blankedEn": "I will go to the ___ will you also go?",
                 "answer": "market",
                 "options": [
-                  "windy",
-                  "before",
-                  "Spring",
+                  "color",
+                  "learn",
+                  "friend",
                   "market"
                 ]
               },
@@ -23360,10 +23360,10 @@
                 "blankedEn": "This ___ is much bigger than the river.",
                 "answer": "mountain",
                 "options": [
-                  "Afghanistan",
+                  "Wednesday",
                   "mountain",
-                  "green",
-                  "smaller"
+                  "Winter",
+                  "cheap"
                 ]
               },
               {
@@ -23661,9 +23661,9 @@
                 "answer": "much",
                 "options": [
                   "much",
-                  "wants",
-                  "Head",
-                  "Wednesday"
+                  "windy",
+                  "five",
+                  "city"
                 ]
               },
               {
@@ -23931,10 +23931,10 @@
                 "blankedEn": "Are these ___ yours or mine?",
                 "answer": "shoes",
                 "options": [
-                  "tooth",
-                  "yours",
+                  "friends",
+                  "Pashto",
                   "shoes",
-                  "Tomorrow"
+                  "maternal"
                 ]
               },
               {
@@ -24208,9 +24208,9 @@
                 "blankedEn": "My house is much bigger than your ___",
                 "answer": "house",
                 "options": [
-                  "Winter",
-                  "blue",
-                  "maternal",
+                  "night",
+                  "window",
+                  "Last",
                   "house"
                 ]
               },
@@ -24487,9 +24487,9 @@
                 "blankedEn": "What do you want? I want ___",
                 "answer": "water",
                 "options": [
-                  "tooth",
-                  "good",
-                  "Tuesday",
+                  "Friday",
+                  "spring",
+                  "friends",
                   "water"
                 ]
               },
@@ -24753,9 +24753,9 @@
                 "answer": "winter",
                 "options": [
                   "winter",
-                  "little",
-                  "young",
-                  "hour"
+                  "heart",
+                  "sports",
+                  "building"
                 ]
               },
               {
@@ -25037,9 +25037,9 @@
                 "blankedEn": "Which of your ___ is cheap?",
                 "answer": "books",
                 "options": [
-                  "eight",
-                  "Whose",
-                  "grandfather",
+                  "mine",
+                  "profession",
+                  "black",
                   "books"
                 ]
               },
@@ -25311,9 +25311,9 @@
                 "answer": "hundred",
                 "options": [
                   "hundred",
-                  "help",
-                  "children",
-                  "door"
+                  "eighteen",
+                  "book",
+                  "white"
                 ]
               },
               {
@@ -25587,9 +25587,9 @@
                 "blankedEn": "We were going to the market ___",
                 "answer": "yesterday",
                 "options": [
-                  "weather",
-                  "friend",
-                  "Mouth",
+                  "piece",
+                  "woman",
+                  "clothes",
                   "yesterday"
                 ]
               },
@@ -25854,10 +25854,10 @@
                 "blankedEn": "This ___ is big, this room is small.",
                 "answer": "house",
                 "options": [
-                  "well",
+                  "thousand",
                   "house",
-                  "bigger",
-                  "raining"
+                  "Fifty",
+                  "doctor"
                 ]
               },
               {
@@ -26135,10 +26135,10 @@
                 "blankedEn": "Do you ___ or go to school?",
                 "answer": "work",
                 "options": [
-                  "trees",
-                  "days",
+                  "Cheap",
+                  "room",
                   "work",
-                  "last"
+                  "minute"
                 ]
               },
               {
@@ -26442,10 +26442,10 @@
                 "blankedEn": "The ___ restaurant, and doctor are near.",
                 "answer": "market",
                 "options": [
-                  "before",
-                  "wants",
+                  "learn",
+                  "windy",
                   "market",
-                  "deaf"
+                  "thinks"
                 ]
               },
               {
@@ -26720,9 +26720,9 @@
                 "answer": "yesterday",
                 "options": [
                   "yesterday",
-                  "mountain",
-                  "eats",
-                  "Pashto"
+                  "garden",
+                  "phone",
+                  "learning"
                 ]
               },
               {
@@ -27003,9 +27003,9 @@
                 "answer": "house",
                 "options": [
                   "house",
-                  "rainy",
-                  "little",
-                  "forest"
+                  "family",
+                  "heart",
+                  "Tomorrow"
                 ]
               },
               {
@@ -27221,8 +27221,8 @@
                 "prompt": "زما ملګری خوشحاله دی.",
                 "options": [
                   "My friend is happy.",
-                  "There are many trees in the forest.",
                   "Do they do sports or read books?",
+                  "Why are you sad?",
                   "My children do sports."
                 ],
                 "answerIndex": 0
@@ -27232,9 +27232,9 @@
                 "direction": "en-ps",
                 "prompt": "My friend is happy.",
                 "bank": [
-                  "خوشحاله",
                   "زما",
                   "ملګری",
+                  "خوشحاله",
                   "دی."
                 ],
                 "answer": [
@@ -27249,21 +27249,21 @@
                 "direction": "ps-en",
                 "prompt": "ته خفه یې؟",
                 "options": [
-                  "I am not sad, I am happy.",
+                  "I am sad.",
+                  "There are cities and villages in our country.",
                   "Are you sad?",
-                  "There is a big forest in our country.",
-                  "There are many trees in the forest."
+                  "There is a big forest in our country."
                 ],
-                "answerIndex": 1
+                "answerIndex": 2
               },
               {
                 "type": "word-bank",
                 "direction": "en-ps",
                 "prompt": "Are you sad?",
                 "bank": [
-                  "خفه",
+                  "یې؟",
                   "ته",
-                  "یې؟"
+                  "خفه"
                 ],
                 "answer": [
                   "ته",
@@ -27276,22 +27276,22 @@
                 "direction": "ps-en",
                 "prompt": "زما پلار ډېر خوشحاله و.",
                 "options": [
+                  "I am happy.",
+                  "Why are you sad?",
                   "My father was very happy.",
-                  "These people are good.",
-                  "Is your brother happy or sad?",
-                  "This is my country."
+                  "This forest is in our country."
                 ],
-                "answerIndex": 0
+                "answerIndex": 2
               },
               {
                 "type": "word-bank",
                 "direction": "en-ps",
                 "prompt": "My father was very happy.",
                 "bank": [
-                  "ډېر",
+                  "و.",
                   "خوشحاله",
                   "زما",
-                  "و.",
+                  "ډېر",
                   "پلار"
                 ],
                 "answer": [
@@ -27307,12 +27307,12 @@
                 "direction": "ps-en",
                 "prompt": "زما مور خفه وه.",
                 "options": [
-                  "This is a forest.",
+                  "My mother was sad.",
+                  "My father was very happy.",
                   "There are many cities and villages in our country.",
-                  "There are cities and villages in our country.",
-                  "My mother was sad."
+                  "Is this country big or small?"
                 ],
-                "answerIndex": 3
+                "answerIndex": 0
               },
               {
                 "type": "word-bank",
@@ -27320,8 +27320,8 @@
                 "prompt": "My mother was sad.",
                 "bank": [
                   "وه.",
-                  "خفه",
                   "مور",
+                  "خفه",
                   "زما"
                 ],
                 "answer": [
@@ -27336,23 +27336,23 @@
                 "direction": "ps-en",
                 "prompt": "ته خوشحاله یې که خفه؟",
                 "options": [
+                  "My friend is happy because he has a new house.",
+                  "My friend is sad, he is sick.",
                   "Are you happy or sad?",
-                  "Is your brother happy or sad?",
-                  "Do they do sports or read books?",
-                  "I do sports."
+                  "There are many cities and villages in our country."
                 ],
-                "answerIndex": 0
+                "answerIndex": 2
               },
               {
                 "type": "word-bank",
                 "direction": "en-ps",
                 "prompt": "Are you happy or sad?",
                 "bank": [
-                  "خوشحاله",
-                  "یې",
                   "ته",
-                  "خفه؟",
-                  "که"
+                  "یې",
+                  "خوشحاله",
+                  "که",
+                  "خفه؟"
                 ],
                 "answer": [
                   "ته",
@@ -27399,9 +27399,9 @@
                 "prompt": "زه نن خوشحاله یم، پرون خفه وم.",
                 "options": [
                   "I am happy today, I was sad yesterday.",
-                  "There is a big forest in our country.",
-                  "These people are happy.",
-                  "This forest is in our country."
+                  "My friend is sad, he is sick.",
+                  "My friend is happy.",
+                  "These people are happy."
                 ],
                 "answerIndex": 0
               },
@@ -27410,13 +27410,13 @@
                 "direction": "en-ps",
                 "prompt": "I am happy today, I was sad yesterday.",
                 "bank": [
-                  "یم،",
-                  "خوشحاله",
-                  "پرون",
-                  "زه",
-                  "وم.",
                   "خفه",
-                  "نن"
+                  "یم،",
+                  "زه",
+                  "پرون",
+                  "نن",
+                  "وم.",
+                  "خوشحاله"
                 ],
                 "answer": [
                   "زه",
@@ -27433,8 +27433,8 @@
                 "direction": "ps-en",
                 "prompt": "زما ملګری خفه دی، هغه ناروغ دی.",
                 "options": [
-                  "My friend is happy.",
                   "There is a big forest in our country.",
+                  "Are there people here?",
                   "My friend is sad, he is sick.",
                   "Are there many people in your city?"
                 ],
@@ -27446,12 +27446,12 @@
                 "prompt": "My friend is sad, he is sick.",
                 "bank": [
                   "ناروغ",
-                  "خفه",
-                  "ملګری",
                   "دی.",
-                  "دی،",
                   "هغه",
-                  "زما"
+                  "دی،",
+                  "زما",
+                  "خفه",
+                  "ملګری"
                 ],
                 "answer": [
                   "زما",
@@ -27468,27 +27468,27 @@
                 "direction": "ps-en",
                 "prompt": "زما مور خوشحاله ده، زما پلار هم خوشحاله دی.",
                 "options": [
-                  "Are there people here?",
                   "My mother is happy, my father is also happy.",
-                  "My family is happy.",
-                  "Is this country big or small?"
+                  "Are there people here?",
+                  "Is this forest big or small?",
+                  "My family is happy."
                 ],
-                "answerIndex": 1
+                "answerIndex": 0
               },
               {
                 "type": "word-bank",
                 "direction": "en-ps",
                 "prompt": "My mother is happy, my father is also happy.",
                 "bank": [
-                  "پلار",
+                  "زما",
                   "خوشحاله",
-                  "زما",
-                  "دی.",
-                  "زما",
-                  "ده،",
                   "هم",
+                  "پلار",
+                  "ده،",
+                  "مور",
+                  "زما",
                   "خوشحاله",
-                  "مور"
+                  "دی."
                 ],
                 "answer": [
                   "زما",
@@ -27507,12 +27507,12 @@
                 "direction": "ps-en",
                 "prompt": "ستا ورور خوشحاله دی که خفه؟",
                 "options": [
+                  "We are at home because the weather is cold.",
                   "There are cities and villages in our country.",
-                  "I do sports.",
-                  "There are many people in my country.",
-                  "Is your brother happy or sad?"
+                  "Is your brother happy or sad?",
+                  "My friend is happy because he has a new house."
                 ],
-                "answerIndex": 3
+                "answerIndex": 2
               },
               {
                 "type": "word-bank",
@@ -27520,10 +27520,10 @@
                 "prompt": "Is your brother happy or sad?",
                 "bank": [
                   "ستا",
-                  "که",
-                  "خفه؟",
                   "خوشحاله",
+                  "که",
                   "دی",
+                  "خفه؟",
                   "ورور"
                 ],
                 "answer": [
@@ -27541,10 +27541,10 @@
                 "blankedEn": "Is your brother ___ or sad?",
                 "answer": "happy",
                 "options": [
-                  "cold",
-                  "road",
+                  "yesterday",
+                  "aunt",
                   "happy",
-                  "cheaper"
+                  "blue"
                 ]
               },
               {
@@ -27553,9 +27553,9 @@
                 "prompt": "دا ماشوم خوشحاله دی.",
                 "options": [
                   "My friend is sad, he is sick.",
-                  "This is my country.",
+                  "My family is happy.",
                   "This child is happy.",
-                  "Are you happy or sad?"
+                  "I am not sad, I am happy."
                 ],
                 "answerIndex": 2
               },
@@ -27564,10 +27564,10 @@
                 "direction": "en-ps",
                 "prompt": "This child is happy.",
                 "bank": [
-                  "خوشحاله",
                   "ماشوم",
+                  "دی.",
                   "دا",
-                  "دی."
+                  "خوشحاله"
                 ],
                 "answer": [
                   "دا",
@@ -27581,22 +27581,22 @@
                 "direction": "ps-en",
                 "prompt": "زما کورنۍ خوشحاله ده.",
                 "options": [
+                  "Is this forest big or small?",
                   "My family is happy.",
-                  "This is a forest.",
-                  "I am happy.",
-                  "My country is big."
+                  "My friend is happy.",
+                  "There is a big forest in our country."
                 ],
-                "answerIndex": 0
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
                 "direction": "en-ps",
                 "prompt": "My family is happy.",
                 "bank": [
-                  "خوشحاله",
-                  "زما",
+                  "ده.",
                   "کورنۍ",
-                  "ده."
+                  "خوشحاله",
+                  "زما"
                 ],
                 "answer": [
                   "زما",
@@ -27610,25 +27610,25 @@
                 "direction": "ps-en",
                 "prompt": "زه خفه نه یم، زه خوشحاله یم.",
                 "options": [
-                  "Are you sad?",
-                  "I am happy today, I was sad yesterday.",
-                  "My friend is happy.",
-                  "I am not sad, I am happy."
+                  "This forest is in our country.",
+                  "I am not sad, I am happy.",
+                  "My friend is happy because he has a new house.",
+                  "These people are good."
                 ],
-                "answerIndex": 3
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
                 "direction": "en-ps",
                 "prompt": "I am not sad, I am happy.",
                 "bank": [
+                  "خفه",
+                  "نه",
+                  "یم،",
+                  "زه",
                   "یم.",
                   "خوشحاله",
-                  "خفه",
-                  "زه",
-                  "نه",
-                  "زه",
-                  "یم،"
+                  "زه"
                 ],
                 "answer": [
                   "زه",
@@ -27675,10 +27675,10 @@
                 "direction": "ps-en",
                 "prompt": "زما هېواد لوی دی.",
                 "options": [
-                  "My village is small, my city is big.",
-                  "My friend is sad, he is sick.",
+                  "I am happy because my family is good.",
+                  "My mother is happy, my father is also happy.",
                   "My country is big.",
-                  "There are animals in the forest."
+                  "This is a forest."
                 ],
                 "answerIndex": 2
               },
@@ -27687,10 +27687,10 @@
                 "direction": "en-ps",
                 "prompt": "My country is big.",
                 "bank": [
-                  "لوی",
+                  "دی.",
                   "زما",
                   "هېواد",
-                  "دی."
+                  "لوی"
                 ],
                 "answer": [
                   "زما",
@@ -27704,22 +27704,22 @@
                 "direction": "ps-en",
                 "prompt": "دا زما هېواد دی.",
                 "options": [
-                  "This child is happy.",
-                  "This is my country.",
+                  "My village is small, my city is big.",
                   "My friend is sad, he is sick.",
-                  "What is your country?"
+                  "This is my country.",
+                  "There are animals in the forest."
                 ],
-                "answerIndex": 1
+                "answerIndex": 2
               },
               {
                 "type": "word-bank",
                 "direction": "en-ps",
                 "prompt": "This is my country.",
                 "bank": [
-                  "دی.",
                   "هېواد",
                   "دا",
-                  "زما"
+                  "زما",
+                  "دی."
                 ],
                 "answer": [
                   "دا",
@@ -27733,10 +27733,10 @@
                 "direction": "ps-en",
                 "prompt": "زما هېواد ښه دی.",
                 "options": [
-                  "There are many cities and villages in our country.",
-                  "I do sports.",
+                  "We think that the weather is good.",
+                  "What do you think?",
                   "My country is good.",
-                  "My children do sports."
+                  "What is your country?"
                 ],
                 "answerIndex": 2
               },
@@ -27745,10 +27745,10 @@
                 "direction": "en-ps",
                 "prompt": "My country is good.",
                 "bank": [
-                  "زما",
-                  "دی.",
                   "هېواد",
-                  "ښه"
+                  "ښه",
+                  "زما",
+                  "دی."
                 ],
                 "answer": [
                   "زما",
@@ -27762,22 +27762,22 @@
                 "direction": "ps-en",
                 "prompt": "ستا هېواد کوم دی؟",
                 "options": [
+                  "My mother was sad.",
+                  "I am sad.",
                   "What is your country?",
-                  "There are cities and villages in our country.",
-                  "I am happy today, I was sad yesterday.",
-                  "Are there people here?"
+                  "There are many cities and villages in our country."
                 ],
-                "answerIndex": 0
+                "answerIndex": 2
               },
               {
                 "type": "word-bank",
                 "direction": "en-ps",
                 "prompt": "What is your country?",
                 "bank": [
+                  "ستا",
                   "دی؟",
                   "هېواد",
-                  "کوم",
-                  "ستا"
+                  "کوم"
                 ],
                 "answer": [
                   "ستا",
@@ -27792,10 +27792,10 @@
                 "blankedEn": "What is your ___",
                 "answer": "country",
                 "options": [
-                  "country",
-                  "wants",
-                  "tomorrow",
-                  "chairs"
+                  "thousand",
+                  "Seven",
+                  "cities",
+                  "country"
                 ]
               },
               {
@@ -27803,25 +27803,25 @@
                 "direction": "ps-en",
                 "prompt": "زموږ هېواد کې ښارونه او کلي دي.",
                 "options": [
-                  "My mother was sad.",
-                  "There are animals in the forest.",
-                  "There are many people in my country.",
-                  "There are cities and villages in our country."
+                  "There are cities and villages in our country.",
+                  "Do they do sports or read books?",
+                  "There are few people in my village.",
+                  "I am learning Pashto because it is a good language."
                 ],
-                "answerIndex": 3
+                "answerIndex": 0
               },
               {
                 "type": "word-bank",
                 "direction": "en-ps",
                 "prompt": "There are cities and villages in our country.",
                 "bank": [
-                  "هېواد",
-                  "زموږ",
-                  "کلي",
                   "دي.",
-                  "او",
+                  "زموږ",
                   "ښارونه",
-                  "کې"
+                  "او",
+                  "کلي",
+                  "کې",
+                  "هېواد"
                 ],
                 "answer": [
                   "زموږ",
@@ -27838,22 +27838,22 @@
                 "direction": "ps-en",
                 "prompt": "زما کلی کوچنی دی، زما ښار لوی دی.",
                 "options": [
-                  "There are many trees in the forest.",
                   "My village is small, my city is big.",
-                  "What is your country?",
-                  "My father was very happy."
+                  "Is this country big or small?",
+                  "Are you sad?",
+                  "What is your country?"
                 ],
-                "answerIndex": 1
+                "answerIndex": 0
               },
               {
                 "type": "word-bank",
                 "direction": "en-ps",
                 "prompt": "My village is small, my city is big.",
                 "bank": [
-                  "کوچنی",
+                  "ښار",
                   "زما",
                   "کلی",
-                  "ښار",
+                  "کوچنی",
                   "زما",
                   "دی.",
                   "لوی",
@@ -27875,24 +27875,24 @@
                 "direction": "ps-en",
                 "prompt": "دا هېواد لوی دی که کوچنی؟",
                 "options": [
-                  "My village is near the forest.",
-                  "I am happy.",
                   "Is this country big or small?",
-                  "We do sports every day."
+                  "We do sports every day.",
+                  "My country is big.",
+                  "My friend thinks that this is cheap."
                 ],
-                "answerIndex": 2
+                "answerIndex": 0
               },
               {
                 "type": "word-bank",
                 "direction": "en-ps",
                 "prompt": "Is this country big or small?",
                 "bank": [
+                  "دی",
                   "که",
-                  "لوی",
                   "کوچنی؟",
-                  "هېواد",
                   "دا",
-                  "دی"
+                  "هېواد",
+                  "لوی"
                 ],
                 "answer": [
                   "دا",
@@ -27938,24 +27938,24 @@
                 "direction": "ps-en",
                 "prompt": "زما هېواد کې ډېر خلک دي.",
                 "options": [
-                  "There are few people in my village.",
-                  "This forest is in our country.",
+                  "I am happy today, I was sad yesterday.",
                   "There are many people in my country.",
-                  "I am sad."
+                  "Are there many people in your city?",
+                  "I am learning Pashto because it is a good language."
                 ],
-                "answerIndex": 2
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
                 "direction": "en-ps",
                 "prompt": "There are many people in my country.",
                 "bank": [
-                  "خلک",
-                  "ډېر",
                   "دي.",
                   "زما",
-                  "هېواد",
-                  "کې"
+                  "خلک",
+                  "ډېر",
+                  "کې",
+                  "هېواد"
                 ],
                 "answer": [
                   "زما",
@@ -27971,22 +27971,22 @@
                 "direction": "ps-en",
                 "prompt": "دا خلک ښه دي.",
                 "options": [
-                  "These people are good.",
-                  "My family is happy.",
-                  "My friend is happy.",
-                  "There are many people in my country."
+                  "There are many people in my country.",
+                  "I am sad.",
+                  "There are few people in my village.",
+                  "These people are good."
                 ],
-                "answerIndex": 0
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
                 "direction": "en-ps",
                 "prompt": "These people are good.",
                 "bank": [
-                  "ښه",
                   "خلک",
+                  "دي.",
                   "دا",
-                  "دي."
+                  "ښه"
                 ],
                 "answer": [
                   "دا",
@@ -28000,24 +28000,24 @@
                 "direction": "ps-en",
                 "prompt": "زما کلي کې لږ خلک دي.",
                 "options": [
-                  "These people are good.",
-                  "There are many people in my country.",
-                  "There are few people in my village.",
-                  "Are there people here?"
+                  "I work because I want money.",
+                  "My friend is happy because he has a new house.",
+                  "My friend is happy.",
+                  "There are few people in my village."
                 ],
-                "answerIndex": 2
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
                 "direction": "en-ps",
                 "prompt": "There are few people in my village.",
                 "bank": [
-                  "دي.",
-                  "کلي",
-                  "کې",
-                  "خلک",
                   "زما",
-                  "لږ"
+                  "خلک",
+                  "کلي",
+                  "لږ",
+                  "کې",
+                  "دي."
                 ],
                 "answer": [
                   "زما",
@@ -28034,9 +28034,9 @@
                 "prompt": "ستا ښار کې ډېر خلک دي؟",
                 "options": [
                   "Are there many people in your city?",
-                  "My children do sports.",
-                  "I am happy today, I was sad yesterday.",
-                  "My village is small, my city is big."
+                  "Are there people here?",
+                  "I am learning Pashto because it is a good language.",
+                  "My father was very happy."
                 ],
                 "answerIndex": 0
               },
@@ -28045,12 +28045,12 @@
                 "direction": "en-ps",
                 "prompt": "Are there many people in your city?",
                 "bank": [
-                  "خلک",
-                  "ډېر",
                   "ښار",
                   "کې",
+                  "ستا",
                   "دي؟",
-                  "ستا"
+                  "خلک",
+                  "ډېر"
                 ],
                 "answer": [
                   "ستا",
@@ -28067,9 +28067,9 @@
                 "blankedEn": "Are there many ___ in your city?",
                 "answer": "people",
                 "options": [
-                  "Pashto",
-                  "water",
-                  "young",
+                  "mountain",
+                  "happy",
+                  "Sunday",
                   "people"
                 ]
               },
@@ -28078,9 +28078,9 @@
                 "direction": "ps-en",
                 "prompt": "دا خلک خوشحاله دي.",
                 "options": [
-                  "Are you sad?",
-                  "This forest is in our country.",
-                  "My friend is happy.",
+                  "I am sad.",
+                  "Do you think this is big or small?",
+                  "My village is near the forest.",
                   "These people are happy."
                 ],
                 "answerIndex": 3
@@ -28107,26 +28107,26 @@
                 "direction": "ps-en",
                 "prompt": "زموږ هېواد کې ډېر ښارونه او کلي دي.",
                 "options": [
-                  "My country is good.",
-                  "There are many cities and villages in our country.",
-                  "I am happy.",
-                  "My friend is happy."
+                  "There is a big forest in our country.",
+                  "I think that this is good.",
+                  "Do they do sports or read books?",
+                  "There are many cities and villages in our country."
                 ],
-                "answerIndex": 1
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
                 "direction": "en-ps",
                 "prompt": "There are many cities and villages in our country.",
                 "bank": [
-                  "کې",
-                  "ښارونه",
-                  "زموږ",
-                  "ډېر",
-                  "هېواد",
                   "کلي",
+                  "کې",
+                  "هېواد",
+                  "ښارونه",
+                  "او",
                   "دي.",
-                  "او"
+                  "ډېر",
+                  "زموږ"
                 ],
                 "answer": [
                   "زموږ",
@@ -28144,12 +28144,12 @@
                 "direction": "ps-en",
                 "prompt": "دلته خلک دي؟",
                 "options": [
-                  "My children do sports.",
-                  "Are there people here?",
-                  "I am sad.",
-                  "I do sports."
+                  "This forest is in our country.",
+                  "Are you sad?",
+                  "I work because I want money.",
+                  "Are there people here?"
                 ],
-                "answerIndex": 1
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
@@ -28157,8 +28157,8 @@
                 "prompt": "Are there people here?",
                 "bank": [
                   "دي؟",
-                  "دلته",
-                  "خلک"
+                  "خلک",
+                  "دلته"
                 ],
                 "answer": [
                   "دلته",
@@ -28201,21 +28201,21 @@
                 "direction": "ps-en",
                 "prompt": "دا ځنګل دی.",
                 "options": [
-                  "There are many cities and villages in our country.",
-                  "There are many trees in the forest.",
-                  "This is a forest.",
-                  "My mother is happy, my father is also happy."
+                  "Are there many people in your city?",
+                  "There is a big forest in our country.",
+                  "Are you happy or sad?",
+                  "This is a forest."
                 ],
-                "answerIndex": 2
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
                 "direction": "en-ps",
                 "prompt": "This is a forest.",
                 "bank": [
-                  "دا",
                   "ځنګل",
-                  "دی."
+                  "دی.",
+                  "دا"
                 ],
                 "answer": [
                   "دا",
@@ -28228,12 +28228,12 @@
                 "direction": "ps-en",
                 "prompt": "زموږ هېواد کې یو لوی ځنګل دی.",
                 "options": [
-                  "I will do sports tomorrow.",
-                  "This forest is in our country.",
-                  "I am sad.",
-                  "There is a big forest in our country."
+                  "Why are you sad?",
+                  "There is a big forest in our country.",
+                  "I am sad because my friend is sick.",
+                  "There are many people in my country."
                 ],
-                "answerIndex": 3
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
@@ -28241,12 +28241,12 @@
                 "prompt": "There is a big forest in our country.",
                 "bank": [
                   "هېواد",
-                  "لوی",
-                  "کې",
-                  "ځنګل",
-                  "زموږ",
+                  "دی.",
                   "یو",
-                  "دی."
+                  "زموږ",
+                  "لوی",
+                  "ځنګل",
+                  "کې"
                 ],
                 "answer": [
                   "زموږ",
@@ -28263,22 +28263,22 @@
                 "direction": "ps-en",
                 "prompt": "ځنګل کې ډېرې ونې دي.",
                 "options": [
-                  "My children do sports.",
-                  "My village is near the forest.",
-                  "There is a big forest in our country.",
-                  "There are many trees in the forest."
+                  "Are you sad?",
+                  "There are many trees in the forest.",
+                  "My village is small, my city is big.",
+                  "My friend does sports."
                 ],
-                "answerIndex": 3
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
                 "direction": "en-ps",
                 "prompt": "There are many trees in the forest.",
                 "bank": [
+                  "دي.",
                   "کې",
                   "ځنګل",
                   "ډېرې",
-                  "دي.",
                   "ونې"
                 ],
                 "answer": [
@@ -28294,9 +28294,9 @@
                 "direction": "ps-en",
                 "prompt": "دا ځنګل لوی دی که کوچنی؟",
                 "options": [
-                  "Are you sad?",
-                  "Do they do sports or read books?",
-                  "Is your brother happy or sad?",
+                  "We are at home because the weather is cold.",
+                  "There are few people in my village.",
+                  "I work because I want money.",
                   "Is this forest big or small?"
                 ],
                 "answerIndex": 3
@@ -28307,11 +28307,11 @@
                 "prompt": "Is this forest big or small?",
                 "bank": [
                   "لوی",
-                  "دی",
-                  "که",
-                  "کوچنی؟",
                   "دا",
-                  "ځنګل"
+                  "دی",
+                  "ځنګل",
+                  "کوچنی؟",
+                  "که"
                 ],
                 "answer": [
                   "دا",
@@ -28328,9 +28328,9 @@
                 "blankedEn": "Is this forest big or ___",
                 "answer": "small",
                 "options": [
-                  "teacher",
                   "small",
-                  "side",
+                  "number",
+                  "learning",
                   "grandmother"
                 ]
               },
@@ -28339,24 +28339,24 @@
                 "direction": "ps-en",
                 "prompt": "زما کلی ځنګل ته نږدې دی.",
                 "options": [
-                  "My country is big.",
-                  "There are animals in the forest.",
+                  "Are you sad?",
                   "My village is near the forest.",
-                  "My mother was sad."
+                  "My family is happy.",
+                  "This forest is in our country."
                 ],
-                "answerIndex": 2
+                "answerIndex": 1
               },
               {
                 "type": "word-bank",
                 "direction": "en-ps",
                 "prompt": "My village is near the forest.",
                 "bank": [
-                  "نږدې",
+                  "ته",
+                  "ځنګل",
+                  "زما",
                   "دی.",
                   "کلی",
-                  "زما",
-                  "ته",
-                  "ځنګل"
+                  "نږدې"
                 ],
                 "answer": [
                   "زما",
@@ -28372,21 +28372,21 @@
                 "direction": "ps-en",
                 "prompt": "ځنګل کې حیوانات دي.",
                 "options": [
-                  "There are animals in the forest.",
-                  "Are you happy or sad?",
-                  "Do they do sports or read books?",
-                  "My father was very happy."
+                  "This is my country.",
+                  "My country is good.",
+                  "There are many trees in the forest.",
+                  "There are animals in the forest."
                 ],
-                "answerIndex": 0
+                "answerIndex": 3
               },
               {
                 "type": "word-bank",
                 "direction": "en-ps",
                 "prompt": "There are animals in the forest.",
                 "bank": [
-                  "دي.",
-                  "کې",
                   "ځنګل",
+                  "کې",
+                  "دي.",
                   "حیوانات"
                 ],
                 "answer": [
@@ -28401,9 +28401,9 @@
                 "direction": "ps-en",
                 "prompt": "دا ځنګل زموږ هېواد کې دی.",
                 "options": [
-                  "My family is happy.",
-                  "Do they do sports or read books?",
-                  "My father was very happy.",
+                  "I think that Pashto is a good language.",
+                  "My mother is happy, my father is also happy.",
+                  "We do sports every day.",
                   "This forest is in our country."
                 ],
                 "answerIndex": 3
@@ -28413,12 +28413,12 @@
                 "direction": "en-ps",
                 "prompt": "This forest is in our country.",
                 "bank": [
-                  "دی.",
-                  "ځنګل",
-                  "هېواد",
                   "زموږ",
+                  "ځنګل",
                   "کې",
-                  "دا"
+                  "دا",
+                  "هېواد",
+                  "دی."
                 ],
                 "answer": [
                   "دا",
@@ -28464,10 +28464,10 @@
                 "direction": "ps-en",
                 "prompt": "زه سپورټ کوم.",
                 "options": [
-                  "These people are happy.",
-                  "My friend is happy.",
+                  "There are many cities and villages in our country.",
+                  "Are there many people in your city?",
                   "I do sports.",
-                  "Are you sad?"
+                  "My mother was sad."
                 ],
                 "answerIndex": 2
               },
@@ -28477,8 +28477,8 @@
                 "prompt": "I do sports.",
                 "bank": [
                   "زه",
-                  "کوم.",
-                  "سپورټ"
+                  "سپورټ",
+                  "کوم."
                 ],
                 "answer": [
                   "زه",
@@ -28492,9 +28492,9 @@
                 "prompt": "زما ملګری سپورټ کوي.",
                 "options": [
                   "My friend does sports.",
-                  "Are you sad?",
-                  "My friend is happy.",
-                  "I am sad."
+                  "Why are you sad?",
+                  "I will do sports tomorrow.",
+                  "I work because I want money."
                 ],
                 "answerIndex": 0
               },
@@ -28505,8 +28505,8 @@
                 "bank": [
                   "زما",
                   "کوي.",
-                  "ملګری",
-                  "سپورټ"
+                  "سپورټ",
+                  "ملګری"
                 ],
                 "answer": [
                   "زما",
@@ -28520,9 +28520,9 @@
                 "direction": "ps-en",
                 "prompt": "موږ هره ورځ سپورټ کوو.",
                 "options": [
+                  "My friend thinks that this is cheap.",
                   "Do they do sports or read books?",
-                  "There are many cities and villages in our country.",
-                  "My country is big.",
+                  "My family is happy.",
                   "We do sports every day."
                 ],
                 "answerIndex": 3
@@ -28532,11 +28532,11 @@
                 "direction": "en-ps",
                 "prompt": "We do sports every day.",
                 "bank": [
-                  "کوو.",
                   "ورځ",
-                  "موږ",
                   "هره",
-                  "سپورټ"
+                  "سپورټ",
+                  "کوو.",
+                  "موږ"
                 ],
                 "answer": [
                   "موږ",
@@ -28551,12 +28551,12 @@
                 "direction": "ps-en",
                 "prompt": "ته سپورټ کوې؟",
                 "options": [
-                  "We do sports every day.",
+                  "I think that this is good.",
+                  "I will do sports tomorrow.",
                   "Do you do sports?",
-                  "My children do sports.",
-                  "My village is small, my city is big."
+                  "There are animals in the forest."
                 ],
-                "answerIndex": 1
+                "answerIndex": 2
               },
               {
                 "type": "word-bank",
@@ -28580,9 +28580,9 @@
                 "answer": "sports",
                 "options": [
                   "sports",
-                  "before",
-                  "Mouth",
-                  "apple"
+                  "fifty",
+                  "rainy",
+                  "small"
                 ]
               },
               {
@@ -28590,22 +28590,22 @@
                 "direction": "ps-en",
                 "prompt": "زما ماشومان سپورټ کوي.",
                 "options": [
-                  "Are there many people in your city?",
+                  "I work because I want money.",
+                  "I think that this is good.",
                   "My children do sports.",
-                  "I do sports.",
-                  "My country is good."
+                  "We think that the weather is good."
                 ],
-                "answerIndex": 1
+                "answerIndex": 2
               },
               {
                 "type": "word-bank",
                 "direction": "en-ps",
                 "prompt": "My children do sports.",
                 "bank": [
-                  "کوي.",
-                  "ماشومان",
+                  "سپورټ",
                   "زما",
-                  "سپورټ"
+                  "کوي.",
+                  "ماشومان"
                 ],
                 "answer": [
                   "زما",
@@ -28619,20 +28619,20 @@
                 "direction": "ps-en",
                 "prompt": "زه به سبا سپورټ کوم.",
                 "options": [
-                  "There are many people in my country.",
-                  "There are many cities and villages in our country.",
                   "I will do sports tomorrow.",
-                  "Is this country big or small?"
+                  "I think that this is good.",
+                  "There are animals in the forest.",
+                  "I am happy today, I was sad yesterday."
                 ],
-                "answerIndex": 2
+                "answerIndex": 0
               },
               {
                 "type": "word-bank",
                 "direction": "en-ps",
                 "prompt": "I will do sports tomorrow.",
                 "bank": [
-                  "زه",
                   "به",
+                  "زه",
                   "سبا",
                   "کوم.",
                   "سپورټ"
@@ -28650,10 +28650,10 @@
                 "direction": "ps-en",
                 "prompt": "هغوی سپورټ کوي که کتابونه لولي؟",
                 "options": [
-                  "There are few people in my village.",
-                  "Do they do sports or read books?",
                   "These people are good.",
-                  "I am happy."
+                  "Do they do sports or read books?",
+                  "There are animals in the forest.",
+                  "My mother is happy, my father is also happy."
                 ],
                 "answerIndex": 1
               },
@@ -28662,12 +28662,12 @@
                 "direction": "en-ps",
                 "prompt": "Do they do sports or read books?",
                 "bank": [
-                  "هغوی",
-                  "کتابونه",
                   "که",
-                  "سپورټ",
+                  "کوي",
                   "لولي؟",
-                  "کوي"
+                  "کتابونه",
+                  "سپورټ",
+                  "هغوی"
                 ],
                 "answer": [
                   "هغوی",
@@ -28701,6 +28701,601 @@
               }
             ],
             "titleNative": "سپورټ"
+          },
+          {
+            "id": "ps-b1-7",
+            "number": 7,
+            "title": "Because",
+            "description": "Because",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "زه خوشحاله یم، ځکه چې زما کورنۍ ښه ده.",
+                "options": [
+                  "I am happy because my family is good.",
+                  "I am learning Pashto because it is a good language.",
+                  "My friend is sad, he is sick.",
+                  "I think that Pashto is a good language."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "I am happy because my family is good.",
+                "bank": [
+                  "زما",
+                  "ده.",
+                  "ښه",
+                  "خوشحاله",
+                  "یم،",
+                  "زه",
+                  "ځکه",
+                  "کورنۍ",
+                  "چې"
+                ],
+                "answer": [
+                  "زه",
+                  "خوشحاله",
+                  "یم،",
+                  "ځکه",
+                  "چې",
+                  "زما",
+                  "کورنۍ",
+                  "ښه",
+                  "ده."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "زه خفه یم، ځکه چې زما ملګری ناروغ دی.",
+                "options": [
+                  "Is this country big or small?",
+                  "There are many people in my country.",
+                  "I am sad because my friend is sick.",
+                  "I think that this is good."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "I am sad because my friend is sick.",
+                "bank": [
+                  "ځکه",
+                  "خفه",
+                  "زه",
+                  "دی.",
+                  "زما",
+                  "یم،",
+                  "چې",
+                  "ملګری",
+                  "ناروغ"
+                ],
+                "answer": [
+                  "زه",
+                  "خفه",
+                  "یم،",
+                  "ځکه",
+                  "چې",
+                  "زما",
+                  "ملګری",
+                  "ناروغ",
+                  "دی."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "زه کار کوم، ځکه چې پیسې غواړم.",
+                "options": [
+                  "I work because I want money.",
+                  "There are animals in the forest.",
+                  "My mother was sad.",
+                  "My friend does sports."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "I work because I want money.",
+                "bank": [
+                  "چې",
+                  "زه",
+                  "پیسې",
+                  "کوم،",
+                  "ځکه",
+                  "کار",
+                  "غواړم."
+                ],
+                "answer": [
+                  "زه",
+                  "کار",
+                  "کوم،",
+                  "ځکه",
+                  "چې",
+                  "پیسې",
+                  "غواړم."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "زما ملګری خوشحاله دی، ځکه چې نوی کور لري.",
+                "options": [
+                  "My friend is happy because he has a new house.",
+                  "What is your country?",
+                  "They think that this house is expensive.",
+                  "Are you happy or sad?"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "My friend is happy because he has a new house.",
+                "bank": [
+                  "چې",
+                  "خوشحاله",
+                  "ځکه",
+                  "دی،",
+                  "لري.",
+                  "نوی",
+                  "کور",
+                  "ملګری",
+                  "زما"
+                ],
+                "answer": [
+                  "زما",
+                  "ملګری",
+                  "خوشحاله",
+                  "دی،",
+                  "ځکه",
+                  "چې",
+                  "نوی",
+                  "کور",
+                  "لري."
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "زما ملګری خوشحاله دی، ځکه چې نوی کور لري.",
+                "blankedEn": "My friend is happy because he has a new ___",
+                "answer": "house",
+                "options": [
+                  "Tonight",
+                  "animals",
+                  "house",
+                  "twenty"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "زه پښتو زده کوم، ځکه چې دا ښه ژبه ده.",
+                "options": [
+                  "There is a big forest in our country.",
+                  "I am learning Pashto because it is a good language.",
+                  "My father was very happy.",
+                  "There are many trees in the forest."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "I am learning Pashto because it is a good language.",
+                "bank": [
+                  "زده",
+                  "ښه",
+                  "کوم،",
+                  "ده.",
+                  "پښتو",
+                  "ژبه",
+                  "ځکه",
+                  "چې",
+                  "زه",
+                  "دا"
+                ],
+                "answer": [
+                  "زه",
+                  "پښتو",
+                  "زده",
+                  "کوم،",
+                  "ځکه",
+                  "چې",
+                  "دا",
+                  "ښه",
+                  "ژبه",
+                  "ده."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "موږ کور کې یو، ځکه چې هوا سوړه ده.",
+                "options": [
+                  "Are there people here?",
+                  "I am sad.",
+                  "We are at home because the weather is cold.",
+                  "I am happy because my family is good."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "We are at home because the weather is cold.",
+                "bank": [
+                  "ځکه",
+                  "موږ",
+                  "یو،",
+                  "ده.",
+                  "چې",
+                  "سوړه",
+                  "کې",
+                  "کور",
+                  "هوا"
+                ],
+                "answer": [
+                  "موږ",
+                  "کور",
+                  "کې",
+                  "یو،",
+                  "ځکه",
+                  "چې",
+                  "هوا",
+                  "سوړه",
+                  "ده."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "ته ولې خفه یې؟",
+                "options": [
+                  "My friend is sad, he is sick.",
+                  "My friend is happy because he has a new house.",
+                  "I am not sad, I am happy.",
+                  "Why are you sad?"
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "Why are you sad?",
+                "bank": [
+                  "خفه",
+                  "ولې",
+                  "ته",
+                  "یې؟"
+                ],
+                "answer": [
+                  "ته",
+                  "ولې",
+                  "خفه",
+                  "یې؟"
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "زه خوشحاله یم، ځکه چې زما کورنۍ ښه ده.",
+                    "en": "I am happy because my family is good."
+                  },
+                  {
+                    "native": "زه خفه یم، ځکه چې زما ملګری ناروغ دی.",
+                    "en": "I am sad because my friend is sick."
+                  },
+                  {
+                    "native": "زه کار کوم، ځکه چې پیسې غواړم.",
+                    "en": "I work because I want money."
+                  },
+                  {
+                    "native": "زما ملګری خوشحاله دی، ځکه چې نوی کور لري.",
+                    "en": "My friend is happy because he has a new house."
+                  }
+                ]
+              }
+            ],
+            "titleNative": "ځکه چې",
+            "topicId": "because-clause"
+          },
+          {
+            "id": "ps-b1-8",
+            "number": 8,
+            "title": "Opinions",
+            "description": "Opinions",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "زه فکر کوم چې دا ښه دی.",
+                "options": [
+                  "I think that this is good.",
+                  "Are there people here?",
+                  "This forest is in our country.",
+                  "I am sad."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "I think that this is good.",
+                "bank": [
+                  "چې",
+                  "کوم",
+                  "فکر",
+                  "ښه",
+                  "دی.",
+                  "دا",
+                  "زه"
+                ],
+                "answer": [
+                  "زه",
+                  "فکر",
+                  "کوم",
+                  "چې",
+                  "دا",
+                  "ښه",
+                  "دی."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "ته څه فکر کوې؟",
+                "options": [
+                  "What do you think?",
+                  "My friend thinks that this is cheap.",
+                  "What is your country?",
+                  "I am not sad, I am happy."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "What do you think?",
+                "bank": [
+                  "فکر",
+                  "څه",
+                  "کوې؟",
+                  "ته"
+                ],
+                "answer": [
+                  "ته",
+                  "څه",
+                  "فکر",
+                  "کوې؟"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "زما ملګری فکر کوي چې دا ارزان دی.",
+                "options": [
+                  "Is your brother happy or sad?",
+                  "My friend thinks that this is cheap.",
+                  "Do they do sports or read books?",
+                  "My children do sports."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "My friend thinks that this is cheap.",
+                "bank": [
+                  "چې",
+                  "کوي",
+                  "فکر",
+                  "دا",
+                  "ملګری",
+                  "زما",
+                  "دی.",
+                  "ارزان"
+                ],
+                "answer": [
+                  "زما",
+                  "ملګری",
+                  "فکر",
+                  "کوي",
+                  "چې",
+                  "دا",
+                  "ارزان",
+                  "دی."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "زه فکر کوم چې پښتو ښه ژبه ده.",
+                "options": [
+                  "My father was very happy.",
+                  "I think that Pashto is a good language.",
+                  "My village is near the forest.",
+                  "I am happy."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "I think that Pashto is a good language.",
+                "bank": [
+                  "ده.",
+                  "زه",
+                  "کوم",
+                  "ښه",
+                  "چې",
+                  "فکر",
+                  "پښتو",
+                  "ژبه"
+                ],
+                "answer": [
+                  "زه",
+                  "فکر",
+                  "کوم",
+                  "چې",
+                  "پښتو",
+                  "ښه",
+                  "ژبه",
+                  "ده."
+                ]
+              },
+              {
+                "type": "fill-blank",
+                "native": "زه فکر کوم چې پښتو ښه ژبه ده.",
+                "blankedEn": "I think that ___ is a good language.",
+                "answer": "Pashto",
+                "options": [
+                  "eyes",
+                  "Before",
+                  "Pashto",
+                  "cold"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "موږ فکر کوو چې هوا ښه ده.",
+                "options": [
+                  "Are there people here?",
+                  "My friend is happy because he has a new house.",
+                  "We think that the weather is good.",
+                  "This is my country."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "We think that the weather is good.",
+                "bank": [
+                  "موږ",
+                  "ښه",
+                  "ده.",
+                  "چې",
+                  "فکر",
+                  "هوا",
+                  "کوو"
+                ],
+                "answer": [
+                  "موږ",
+                  "فکر",
+                  "کوو",
+                  "چې",
+                  "هوا",
+                  "ښه",
+                  "ده."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "هغوی فکر کوي چې دا کور ګران دی.",
+                "options": [
+                  "I am sad.",
+                  "Are you sad?",
+                  "We do sports every day.",
+                  "They think that this house is expensive."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "They think that this house is expensive.",
+                "bank": [
+                  "کوي",
+                  "دا",
+                  "کور",
+                  "چې",
+                  "هغوی",
+                  "ګران",
+                  "دی.",
+                  "فکر"
+                ],
+                "answer": [
+                  "هغوی",
+                  "فکر",
+                  "کوي",
+                  "چې",
+                  "دا",
+                  "کور",
+                  "ګران",
+                  "دی."
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ps-en",
+                "prompt": "ته فکر کوې چې دا لوی دی که کوچنی؟",
+                "options": [
+                  "There are cities and villages in our country.",
+                  "Do you think this is big or small?",
+                  "I think that Pashto is a good language.",
+                  "My country is good."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ps",
+                "prompt": "Do you think this is big or small?",
+                "bank": [
+                  "چې",
+                  "فکر",
+                  "دا",
+                  "کوچنی؟",
+                  "دی",
+                  "لوی",
+                  "ته",
+                  "که",
+                  "کوې"
+                ],
+                "answer": [
+                  "ته",
+                  "فکر",
+                  "کوې",
+                  "چې",
+                  "دا",
+                  "لوی",
+                  "دی",
+                  "که",
+                  "کوچنی؟"
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "زه فکر کوم چې دا ښه دی.",
+                    "en": "I think that this is good."
+                  },
+                  {
+                    "native": "ته څه فکر کوې؟",
+                    "en": "What do you think?"
+                  },
+                  {
+                    "native": "زما ملګری فکر کوي چې دا ارزان دی.",
+                    "en": "My friend thinks that this is cheap."
+                  },
+                  {
+                    "native": "زه فکر کوم چې پښتو ښه ژبه ده.",
+                    "en": "I think that Pashto is a good language."
+                  }
+                ]
+              }
+            ],
+            "titleNative": "فکر کول"
           }
         ]
       }
