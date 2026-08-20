@@ -792,10 +792,11 @@ button.stat:hover { color: var(--teal); }
   background: var(--paper-deep);
   border-radius: 6px;
   overflow: hidden;
+  box-shadow: inset 0 1px 2px var(--shadow);
 }
 .progress-fill {
   height: 100%;
-  background: var(--teal);
+  background: linear-gradient(90deg, var(--maroon), var(--gold));
   transition: width 0.25s ease;
 }
 
@@ -819,39 +820,43 @@ button.stat:hover { color: var(--teal); }
 }
 
 .exit-btn {
+  flex-shrink: 0;
+  width: 30px; height: 30px;
+  display: flex; align-items: center; justify-content: center;
   background: none;
-  border: none;
-  font-size: 1.3rem;
+  border: 1.5px solid var(--line);
+  border-radius: 50%;
   color: var(--ink-soft);
-  line-height: 1;
-  padding: 4px;
+  transition: border-color 0.15s ease, color 0.15s ease;
 }
-.exit-btn:hover { color: var(--maroon); }
+.exit-btn:hover { color: var(--maroon); border-color: var(--maroon); }
 
 .card {
   position: relative;
   background: var(--paper-raised);
   border: 1px solid var(--line);
-  border-radius: 4px;
+  border-radius: 8px;
   padding: 34px 30px;
   min-height: 280px;
   overflow: hidden;
+  box-shadow: 0 2px 0 var(--line), 0 10px 28px var(--shadow);
   animation: content-in 0.3s ease-out;
 }
 .card::before,
 .card::after {
   content: "";
   position: absolute;
-  width: 30px;
-  height: 30px;
+  width: 38px;
+  height: 38px;
   border: 1.5px solid var(--gold);
-  opacity: 0.3;
+  opacity: 0.4;
   pointer-events: none;
 }
-.card::before { top: 10px; left: 10px; border-right: none; border-bottom: none; }
-.card::after { bottom: 10px; right: 10px; border-left: none; border-top: none; }
+.card::before { top: 12px; left: 12px; border-right: none; border-bottom: none; }
+.card::after { bottom: 12px; right: 12px; border-left: none; border-top: none; }
 
 .q-kicker {
+  display: flex; align-items: center; gap: 7px;
   font-family: var(--font-mono);
   font-size: 0.72rem;
   letter-spacing: 0.1em;
@@ -859,6 +864,7 @@ button.stat:hover { color: var(--teal); }
   color: var(--ink-soft);
   margin: 0 0 18px;
 }
+.q-kicker::before { content: ""; width: 6px; height: 6px; background: var(--gold); transform: rotate(45deg); flex-shrink: 0; }
 
 .prompt-native {
   font-family: var(--font-native);
@@ -920,21 +926,37 @@ button.stat:hover { color: var(--teal); }
 }
 @media (hover: hover) and (pointer: fine) { .kbd-hint { display: block; } }
 .option {
+  display: flex; align-items: center; gap: 14px;
   text-align: left;
   background: var(--paper);
   border: 1.5px solid var(--line);
-  border-radius: 3px;
-  padding: 14px 16px;
+  border-radius: 8px;
+  padding: 12px 16px;
   font-size: 1rem;
   color: var(--ink);
-  transition: border-color 0.15s ease, background-color 0.15s ease, transform 0.12s ease;
+  box-shadow: 0 2px 0 var(--line);
+  transition: border-color 0.15s ease, background-color 0.15s ease, transform 0.12s ease, box-shadow 0.15s ease;
 }
-.option:hover:not(:disabled) { border-color: var(--gold); transform: translateX(2px); }
+.option-letter {
+  flex-shrink: 0;
+  width: 28px; height: 28px;
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--font-mono); font-size: 0.82rem; font-weight: 700;
+  color: var(--ink-soft); background: var(--paper-deep);
+  border-radius: 50%;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+.option-text { flex: 1; min-width: 0; }
+.option:hover:not(:disabled) { border-color: var(--gold); transform: translateY(-1px); box-shadow: 0 3px 8px var(--shadow); }
+.option:hover:not(:disabled) .option-letter { background: var(--gold-wash); color: var(--gold); }
 .option.selected { border-color: var(--maroon); background: var(--maroon-wash); }
-.option.correct { border-color: var(--teal); background: var(--teal-wash); animation: option-settle 0.3s ease; }
-.option.incorrect { border-color: var(--maroon); background: var(--maroon-wash); animation: option-settle 0.3s ease; }
+.option.selected .option-letter { background: var(--maroon); color: var(--paper-raised); }
+.option.correct { border-color: var(--teal); background: var(--teal-wash); box-shadow: 0 2px 0 var(--teal); animation: option-settle 0.3s ease; }
+.option.correct .option-letter { background: var(--teal); color: var(--paper-raised); }
+.option.incorrect { border-color: var(--maroon); background: var(--maroon-wash); box-shadow: 0 2px 0 var(--maroon); animation: option-settle 0.3s ease; }
+.option.incorrect .option-letter { background: var(--maroon); color: var(--paper-raised); }
 .option:disabled { cursor: default; }
-.option:disabled:not(.correct):not(.incorrect) { opacity: 0.55; }
+.option:disabled:not(.correct):not(.incorrect) { opacity: 0.5; }
 
 /* The listening "stage": a big play button with pulsing rings that only
    animate while audio is actually speaking (driven by speak()'s onEnd
@@ -1212,15 +1234,28 @@ button.stat:hover { color: var(--teal); }
   bottom: 0;
   margin-top: 26px;
   padding: 20px 22px;
-  border-radius: 4px;
+  border-radius: 8px;
   overflow: hidden;
   animation: feedback-in 0.22s ease-out;
   display: flex;
   align-items: center;
   gap: 14px;
+  box-shadow: 0 4px 16px var(--shadow);
 }
 .feedback.correct { background: var(--teal-wash); border: 1px solid var(--teal); }
 .feedback.incorrect { background: var(--maroon-wash); border: 1px solid var(--maroon); }
+.feedback-icon {
+  flex-shrink: 0;
+  width: 38px; height: 38px;
+  display: flex; align-items: center; justify-content: center;
+  border-radius: 50%;
+  color: var(--paper-raised);
+  animation: feedback-icon-pop 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.feedback.correct .feedback-icon { background: var(--teal); }
+.feedback.incorrect .feedback-icon { background: var(--maroon); }
+@keyframes feedback-icon-pop { 0% { transform: scale(0.4); opacity: 0; } 100% { transform: scale(1); opacity: 1; } }
+@media (prefers-reduced-motion: reduce) { .feedback-icon { animation: none; } }
 .feedback-text { flex: 1; min-width: 0; }
 .feedback-text .title {
   font-weight: 700;

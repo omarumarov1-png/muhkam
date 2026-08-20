@@ -41,6 +41,8 @@
   const ICON_SLOW = `<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M4 12a8 8 0 1116 0 8 8 0 01-16 0z" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 8v4l2.6 2.6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M2.5 12h1.5M20 12h1.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="1 2.4"/></svg>`;
   const ICON_CLOUD = `<svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true" style="vertical-align:-2px"><path d="M7 18a4 4 0 01-.5-7.97A5 5 0 0116.9 9.1 3.5 3.5 0 0116.5 16H7z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>`;
   const ICON_BOLT = `<svg viewBox="0 0 24 24" width="12" height="12" aria-hidden="true" style="vertical-align:-1px"><path d="M13 2L4 14h6l-1 8 9-12h-6l1-8z" fill="currentColor"/></svg>`;
+  const ICON_CHECK_BIG = `<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M4 12.5l5.5 5.5L20 6.5" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+  const ICON_X_BIG = `<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>`;
 
   // iOS Safari keeps a tapped <button> focused, which makes the
   // button:focus-visible gold ring (meant for keyboard nav) stick around
@@ -1362,7 +1364,7 @@
 
     screenEl.innerHTML = `
       <div class="lesson-bar">
-        <button class="exit-btn" id="exitBtn" aria-label="Exit lesson">&times;</button>
+        <button class="exit-btn" id="exitBtn" aria-label="Exit lesson"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>
         <div class="progress-track"><div class="progress-fill" style="width:${pct}%"></div></div>
         ${combo}
         <span class="infinity-badge" title="Unlimited lives — wrong answers just come back around">&infin;</span>
@@ -1598,11 +1600,12 @@
     const farsi = opts && opts.farsiHint;
     return `
       <div class="feedback ${correct ? "correct" : "incorrect"}" role="status">
-        ${showSpeak ? `<button class="speak-btn" id="feedbackSpeakBtn" title="Play pronunciation" aria-label="Play pronunciation">${ICON_SPEAKER}</button>` : ""}
+        <span class="feedback-icon">${correct ? ICON_CHECK_BIG : ICON_X_BIG}</span>
         <div class="feedback-text">
           <div class="title">${correct ? "Correct" : "Not quite"}</div>
           ${correct ? "" : `<div class="detail">${correctText}${farsi ? `<span class="farsi-hint" dir="rtl" lang="fa">${farsi}</span>` : ""}</div>`}
         </div>
+        ${showSpeak ? `<button class="speak-btn" id="feedbackSpeakBtn" title="Play pronunciation" aria-label="Play pronunciation">${ICON_SPEAKER}</button>` : ""}
         <div class="feedback-timer" style="animation-duration:${delay}ms"></div>
       </div>
     `;
@@ -1638,9 +1641,10 @@
   }
 
   // ---- multiple choice / comprehension ----
+  const OPTION_LETTERS = ["A", "B", "C", "D", "E", "F"];
   function renderMultipleChoice(ex) {
     const options = ex.options.map((opt, i) =>
-      `<button class="option" data-i="${i}">${opt}</button>`
+      `<button class="option" data-i="${i}"><span class="option-letter">${OPTION_LETTERS[i] || i + 1}</span><span class="option-text">${opt}</span></button>`
     ).join("");
 
     renderLessonChrome(`
