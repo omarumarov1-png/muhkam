@@ -31,6 +31,17 @@
     { id: "turkmen", file: "data/courses-turkmen.json", audioManifest: "data/audio-turkmen/manifest.json", label: "Turkmen — Türkmençe", native: "Türkmençe", en: "Turkmen", flag: "Türkmençe", group: "underserved", accent: "maroon" },
   ];
 
+  // A small shared icon set (currentColor throughout, so each one just
+  // inherits whatever color/state its container already sets) used in
+  // place of emoji across the app -- emoji render inconsistently across
+  // platforms/fonts, these don't.
+  const ICON_FLAME = `<svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path d="M12 2c1 3-2.5 4-2.5 7a2.5 2.5 0 005 0c0-1.2-.6-2-1-2.8 2.3 1 4 3.4 4 6.3a5.5 5.5 0 01-11 0C6.5 8 9 5.5 12 2z" fill="currentColor"/></svg>`;
+  const ICON_SPEAKER = `<svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true" style="vertical-align:-2px"><path d="M4 9v6h4l5 4V5L8 9H4z" fill="currentColor"/><path d="M16.5 9a3.5 3.5 0 010 6M19 6.5a7 7 0 010 11" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>`;
+  const ICON_STOP = `<svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true" style="vertical-align:-2px"><rect x="5" y="5" width="14" height="14" rx="2" fill="currentColor"/></svg>`;
+  const ICON_SLOW = `<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M4 12a8 8 0 1116 0 8 8 0 01-16 0z" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 8v4l2.6 2.6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M2.5 12h1.5M20 12h1.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="1 2.4"/></svg>`;
+  const ICON_CLOUD = `<svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true" style="vertical-align:-2px"><path d="M7 18a4 4 0 01-.5-7.97A5 5 0 0116.9 9.1 3.5 3.5 0 0116.5 16H7z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>`;
+  const ICON_BOLT = `<svg viewBox="0 0 24 24" width="12" height="12" aria-hidden="true" style="vertical-align:-1px"><path d="M13 2L4 14h6l-1 8 9-12h-6l1-8z" fill="currentColor"/></svg>`;
+
   // iOS Safari keeps a tapped <button> focused, which makes the
   // button:focus-visible gold ring (meant for keyboard nav) stick around
   // on the last-tapped tile/option even though the user just touched it.
@@ -643,7 +654,7 @@
   function showStreakMilestoneToast(days) {
     const toast = document.createElement("div");
     toast.className = "streak-toast";
-    toast.innerHTML = `<span class="streak-toast-flame">🔥</span><span class="streak-toast-text"><b>${days}-day streak!</b> Keep it going.</span>`;
+    toast.innerHTML = `<span class="streak-toast-flame">${ICON_FLAME}</span><span class="streak-toast-text"><b>${days}-day streak!</b> Keep it going.</span>`;
     document.body.appendChild(toast);
     haptic([15, 30, 15]);
     requestAnimationFrame(() => toast.classList.add("show"));
@@ -871,7 +882,7 @@
       ? `<span class="course-card-stats">
           <span class="course-card-pill">${s.lessonsDone} lesson${s.lessonsDone === 1 ? "" : "s"}</span>
           <span class="course-card-pill">${s.xp} XP</span>
-          ${s.streak > 0 ? `<span class="course-card-pill course-card-pill--streak">${s.streak}🔥</span>` : ""}
+          ${s.streak > 0 ? `<span class="course-card-pill course-card-pill--streak">${s.streak}${ICON_FLAME}</span>` : ""}
         </span>`
       : `<span class="course-card-empty">Not started — tap to begin</span>`;
     return `
@@ -1423,7 +1434,7 @@
         ${context}
         <div class="passage-controls">
           <button class="translit-toggle" id="passageToggle">Show English</button>
-          <button class="passage-listen-btn" id="passageListenBtn" title="Listen to the passage" aria-label="Listen to the passage">🔊 Listen</button>
+          <button class="passage-listen-btn" id="passageListenBtn" title="Listen to the passage" aria-label="Listen to the passage">${ICON_SPEAKER} Listen</button>
         </div>
         <p class="audio-diag hidden" id="passageAudioDiag"></p>
         ${rows}
@@ -1467,7 +1478,7 @@
         _passageToken++;
         window.speechSynthesis.cancel();
         _passagePlaying = false;
-        btn.textContent = "🔊 Listen";
+        btn.innerHTML = `${ICON_SPEAKER} Listen`;
         lineEls.forEach(l => l.classList.remove("speaking"));
         return;
       }
@@ -1485,12 +1496,12 @@
       if (diagEl) diagEl.classList.add("hidden");
       window.speechSynthesis.cancel();
       _passagePlaying = true;
-      btn.textContent = "⏹ Stop";
+      btn.innerHTML = `${ICON_STOP} Stop`;
       const token = ++_passageToken;
       let i = 0;
       function step() {
         if (token !== _passageToken || i >= paragraphs.length) {
-          if (token === _passageToken) { _passagePlaying = false; btn.textContent = "🔊 Listen"; }
+          if (token === _passageToken) { _passagePlaying = false; btn.innerHTML = `${ICON_SPEAKER} Listen`; }
           lineEls.forEach(l => l.classList.remove("speaking"));
           return;
         }
@@ -1587,7 +1598,7 @@
     const farsi = opts && opts.farsiHint;
     return `
       <div class="feedback ${correct ? "correct" : "incorrect"}" role="status">
-        ${showSpeak ? `<button class="speak-btn" id="feedbackSpeakBtn" title="Play pronunciation" aria-label="Play pronunciation">🔊</button>` : ""}
+        ${showSpeak ? `<button class="speak-btn" id="feedbackSpeakBtn" title="Play pronunciation" aria-label="Play pronunciation">${ICON_SPEAKER}</button>` : ""}
         <div class="feedback-text">
           <div class="title">${correct ? "Correct" : "Not quite"}</div>
           ${correct ? "" : `<div class="detail">${correctText}${farsi ? `<span class="farsi-hint" dir="rtl" lang="fa">${farsi}</span>` : ""}</div>`}
@@ -1760,9 +1771,9 @@
       <div class="audio-stage${big ? " audio-stage-lg" : ""}">
         <button class="listen-play-btn" id="listenPlayBtn" type="button" aria-label="Listen">
           <span class="audio-rings"><span></span><span></span><span></span></span>
-          <span class="audio-icon">🔊</span>
+          <span class="audio-icon">${ICON_SPEAKER}</span>
         </button>
-        <button class="listen-slow-btn" id="listenSlowBtn" type="button" title="Slow" aria-label="Listen slowly">🐢</button>
+        <button class="listen-slow-btn" id="listenSlowBtn" type="button" title="Slow" aria-label="Listen slowly">${ICON_SLOW}</button>
       </div>
       <p class="audio-diag hidden" id="audioDiag"></p>
     `;
