@@ -1117,10 +1117,13 @@
   const TRAIL_ICON_LOCK = `<svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2.2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M8 11V7.6a4 4 0 018 0V11" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>`;
   const TRAIL_ICON_CHECK = `<svg viewBox="0 0 24 24" width="23" height="23" aria-hidden="true"><path d="M5 12.5l4.3 4.3L19 7" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
   const TRAIL_ICON_FLAG = `<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M6.5 3v18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M6.5 4.2h10.5l-2.8 3.8 2.8 3.8H6.5z" fill="currentColor" opacity="0.9"/></svg>`;
+  const TRAIL_ICON_TROPHY = `<svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true" style="vertical-align:-2px"><path d="M7 4h10v4a5 5 0 01-10 0V4z" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M7 5H4v1.5A3.5 3.5 0 007.5 10M17 5h3v1.5A3.5 3.5 0 0116.5 10" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M12 12.5v3M9 19h6M10 19c-.3-1.5-.3-2.3 0-3.5M14 19c.3-1.5.3-2.3 0-3.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>`;
 
-  // Each level gets its own roadmap: lessons as round nodes running bottom
-  // (lesson 1) to top (last lesson), like climbing toward the level's peak.
-  // Completing the level unlocks a "next level" node above the last lesson.
+  // A book, not a game board: instead of a path of circles to climb, the
+  // level opens on a "continue reading" hero for wherever you actually
+  // are, with the rest of the chapter laid out below as a real table of
+  // contents -- numbered, titled, a status mark per row, nothing to
+  // navigate along. Replaces the old circle-and-rail trail entirely.
   function renderLevelRoadmap() {
     const totalLessons = flatLessons.length;
     const doneLessons = flatLessons.filter(l => progress.completedLessons.includes(l.id)).length;
@@ -1135,7 +1138,6 @@
     const levelLessons = flatLessons.filter(l => l.levelId === level.id);
     const levelDone = levelLessons.filter(l => progress.completedLessons.includes(l.id)).length;
     const levelComplete = levelLessons.length > 0 && levelDone === levelLessons.length;
-    const railPct = levelLessons.length ? Math.round((levelDone / levelLessons.length) * 100) : 0;
 
     // Every completed level gets its one-time confetti celebration (see
     // checkLevelComplete/showLevelCompleteCelebration), but that moment
@@ -1145,33 +1147,59 @@
       .map(id => course.levels.find(lv => lv.id === id))
       .filter(Boolean);
 
-    // A calm vertical trail instead of a computed winding road: one plain
-    // CSS line (no JS geometry, no SVG) with rows gently alternating indent
-    // for rhythm. Reads top (lesson 1) to bottom (last lesson), so there's
-    // nothing to "jump to" — the current lesson just scrolls into view.
-    let rowsHtml = "";
-    levelLessons.forEach((lesson, i) => {
+    let currentLesson = null;
+    for (const lesson of levelLessons) {
       const flatIndex = flatLessons.indexOf(lesson);
-      const unlocked = isLessonUnlocked(flatIndex);
       const done = progress.completedLessons.includes(lesson.id);
-      const isCurrent = unlocked && !done;
-      rowsHtml += `
-        <div class="trail-row">
-          <button class="trail-node ${done ? "done" : unlocked ? "unlocked" : "locked"} ${isCurrent ? "current" : ""}" data-lesson="${lesson.id}" ${unlocked ? "" : "disabled"} aria-label="${lesson.title}">
-            ${done ? TRAIL_ICON_CHECK : unlocked ? `<span class="trail-node-num">${lesson.number}</span>` : TRAIL_ICON_LOCK}
-          </button>
-          <div class="trail-info"><span class="trail-title">${lesson.title}</span><span class="trail-title-native">${lesson.titleNative || ""}</span></div>
+      if (!done && isLessonUnlocked(flatIndex)) { currentLesson = lesson; break; }
+    }
+
+    let heroHtml = "";
+    if (currentLesson) {
+      heroHtml = `
+        <div class="chapter-hero">
+          <div class="chapter-hero-eyebrow">Continue where you left off</div>
+          <div class="chapter-hero-main">
+            <div class="chapter-hero-num">${currentLesson.number}</div>
+            <div class="chapter-hero-text">
+              <h3>${currentLesson.title}</h3>
+              ${currentLesson.titleNative ? `<span class="chapter-hero-native" dir="auto">${currentLesson.titleNative}</span>` : ""}
+            </div>
+          </div>
+          <button class="btn btn-primary btn-block" id="heroStartBtn" data-lesson="${currentLesson.id}">Begin Lesson</button>
         </div>
       `;
-    });
-    if (levelComplete && nextLevel) {
-      rowsHtml += `
-        <div class="trail-row">
-          <button class="trail-node trail-next-node" id="nextLevelBtn" aria-label="Next level">${TRAIL_ICON_FLAG}</button>
-          <div class="trail-info"><span class="trail-title">Level complete!</span><span class="trail-title-native">Next: ${nextLevel.cefr}</span></div>
+    } else if (levelComplete) {
+      heroHtml = `
+        <div class="chapter-hero chapter-hero--complete">
+          <div class="chapter-hero-eyebrow">Chapter complete</div>
+          <div class="chapter-hero-main">
+            <div class="chapter-hero-num">${TRAIL_ICON_FLAG}</div>
+            <div class="chapter-hero-text">
+              <h3>Every lesson here is finished.</h3>
+              ${nextLevel ? `<span class="chapter-hero-native">Onward to ${nextLevel.cefr} — ${nextLevel.label}</span>` : `<span class="chapter-hero-native">More chapters are on the way.</span>`}
+            </div>
+          </div>
+          ${nextLevel ? `<button class="btn btn-primary btn-block" id="heroNextLevelBtn">Start ${nextLevel.cefr}</button>` : ""}
         </div>
       `;
     }
+
+    const indexRowsHtml = levelLessons.map(lesson => {
+      const flatIndex = flatLessons.indexOf(lesson);
+      const unlocked = isLessonUnlocked(flatIndex);
+      const done = progress.completedLessons.includes(lesson.id);
+      const isCurrent = !!currentLesson && lesson.id === currentLesson.id;
+      const stateClass = done ? "done" : isCurrent ? "current" : unlocked ? "unlocked" : "locked";
+      const status = done ? TRAIL_ICON_CHECK : isCurrent ? `<span class="index-dot"></span>` : !unlocked ? TRAIL_ICON_LOCK : "";
+      return `
+        <button class="chapter-index-row ${stateClass}" data-lesson="${lesson.id}" ${unlocked ? "" : "disabled"}>
+          <span class="index-num">${lesson.number}</span>
+          <span class="index-text"><span class="index-title">${lesson.title}</span><span class="index-native" dir="auto">${lesson.titleNative || ""}</span></span>
+          <span class="index-status">${status}</span>
+        </button>
+      `;
+    }).join("");
 
     screenEl.innerHTML = `
       <div class="level-progress-card">
@@ -1184,7 +1212,7 @@
       </div>
       ${trophyLevels.length ? `
         <div class="level-trophies">
-          ${trophyLevels.map(lv => `<button class="level-trophy" data-level="${lv.id}" title="${lv.label}${lv.labelNative ? ` · ${lv.labelNative}` : ""} — completed">🏆 ${lv.cefr}</button>`).join("")}
+          ${trophyLevels.map(lv => `<button class="level-trophy" data-level="${lv.id}" title="${lv.label}${lv.labelNative ? ` · ${lv.labelNative}` : ""} — completed">${TRAIL_ICON_TROPHY} ${lv.cefr}</button>`).join("")}
         </div>
       ` : ""}
       <div class="roadmap-header">
@@ -1198,21 +1226,16 @@
       </div>
       ${!levelLessons.length
         ? `<div class="level-locked-note">Lessons for ${level.cefr} are still being prepared and will appear here soon.</div>`
-        : `<div class="trail-wrap">
-            <div class="trail-rail"><div class="trail-rail-fill" data-h="${railPct}" style="height:0"></div></div>
-            <div class="trail-list" id="roadmapEl">${rowsHtml}</div>
+        : `${heroHtml}
+           <div class="chapter-index-wrap">
+             <div class="chapter-index-label">Full index &middot; ${level.cefr}</div>
+             <div class="chapter-index">${indexRowsHtml}</div>
            </div>`
       }
     `;
     applyScreenFadeIn();
     growWaveform(screenEl);
     animateCountUps(screenEl);
-    const railFill = screenEl.querySelector(".trail-rail-fill");
-    if (railFill) {
-      const reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-      if (reduce) railFill.style.height = railFill.dataset.h + "%";
-      else setTimeout(() => { railFill.style.height = railFill.dataset.h + "%"; }, 80);
-    }
 
     document.querySelectorAll(".level-trophy").forEach(btn => {
       btn.addEventListener("click", () => { currentLevelId = btn.dataset.level; renderLevelRoadmap(); });
@@ -1227,23 +1250,27 @@
       currentLevelId = nextLevel.id;
       renderLevelRoadmap();
     });
-    const nextLevelBtn = document.getElementById("nextLevelBtn");
-    if (nextLevelBtn) {
-      nextLevelBtn.addEventListener("click", () => {
+    const heroNextLevelBtn = document.getElementById("heroNextLevelBtn");
+    if (heroNextLevelBtn) {
+      heroNextLevelBtn.addEventListener("click", () => {
         if (!nextLevel) return;
         currentLevelId = nextLevel.id;
         renderLevelRoadmap();
       });
     }
-    screenEl.querySelectorAll(".trail-node:not(.locked)").forEach(node => {
-      node.addEventListener("click", () => {
-        const lesson = flatLessons.find(l => l.id === node.dataset.lesson);
+    const heroStartBtn = document.getElementById("heroStartBtn");
+    if (heroStartBtn) {
+      heroStartBtn.addEventListener("click", () => {
+        const lesson = flatLessons.find(l => l.id === heroStartBtn.dataset.lesson);
+        if (lesson) startLesson(lesson);
+      });
+    }
+    screenEl.querySelectorAll(".chapter-index-row:not(:disabled)").forEach(row => {
+      row.addEventListener("click", () => {
+        const lesson = flatLessons.find(l => l.id === row.dataset.lesson);
         if (lesson) startLesson(lesson);
       });
     });
-
-    const target = screenEl.querySelector(".trail-node.current") || screenEl.querySelector(".trail-node.unlocked");
-    if (target) requestAnimationFrame(() => target.scrollIntoView({ block: "center", behavior: "auto" }));
   }
 
   // ---------- LESSON / REVIEW ----------

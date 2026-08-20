@@ -553,8 +553,8 @@ button.stat:hover { color: var(--teal); }
 @media (prefers-reduced-motion: reduce) { .screen-fade-in { animation: none; } }
 
 /* Tactile press feedback for the flatter tap targets that don't already
-   have their own 3D-press treatment (.btn-primary/.trail-node/
-   .listen-play-btn already translateY + drop their shadow on :active --
+   have their own 3D-press treatment (.btn-primary/.listen-play-btn
+   already translateY + drop their shadow on :active --
    left alone here, this only fills in the ones with no press feedback
    at all yet). A plain scale-down fits these better than forcing the 3D
    look onto elements with no resting box-shadow to reduce. */
@@ -608,6 +608,17 @@ button.stat:hover { color: var(--teal); }
 }
 :root[data-theme="book"] .level-progress-card::before {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cg fill='none' stroke='%238a6a2f' stroke-width='1.6' opacity='0.32'%3E%3Crect x='38' y='38' width='64' height='64'/%3E%3Crect x='38' y='38' width='64' height='64' transform='rotate(45 70 70)'/%3E%3Ccircle cx='70' cy='70' r='26'/%3E%3C/g%3E%3C/svg%3E");
+}
+:root[data-theme="dark"] .chapter-hero::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cg fill='none' stroke='%23dd7c86' stroke-width='1.6' opacity='0.3'%3E%3Crect x='38' y='38' width='64' height='64'/%3E%3Crect x='38' y='38' width='64' height='64' transform='rotate(45 70 70)'/%3E%3Ccircle cx='70' cy='70' r='26'/%3E%3C/g%3E%3C/svg%3E");
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .chapter-hero::before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cg fill='none' stroke='%23dd7c86' stroke-width='1.6' opacity='0.3'%3E%3Crect x='38' y='38' width='64' height='64'/%3E%3Crect x='38' y='38' width='64' height='64' transform='rotate(45 70 70)'/%3E%3Ccircle cx='70' cy='70' r='26'/%3E%3C/g%3E%3C/svg%3E");
+  }
+}
+:root[data-theme="book"] .chapter-hero::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cg fill='none' stroke='%236b2e2e' stroke-width='1.6' opacity='0.32'%3E%3Crect x='38' y='38' width='64' height='64'/%3E%3Crect x='38' y='38' width='64' height='64' transform='rotate(45 70 70)'/%3E%3Ccircle cx='70' cy='70' r='26'/%3E%3C/g%3E%3C/svg%3E");
 }
 .level-progress-card .waveform { flex-shrink: 0; position: relative; }
 .level-progress-info { flex: 1; position: relative; }
@@ -690,66 +701,82 @@ button.stat:hover { color: var(--teal); }
 .level-trophy:hover { background: var(--gold); color: #fff; }
 .level-locked-note { font-size: 0.8rem; color: var(--ink-soft); background: var(--paper-raised); border: 1px dashed var(--line); border-radius: 4px; padding: 14px 16px; margin-top: 10px; }
 
-/* A calm vertical trail: one plain CSS line (.trail-rail), no computed
-   path, no SVG, no scroll-jump buttons — rows alternate a small indent
-   for rhythm (nth-child below) and the current lesson scrolls into view
-   on render. Reads top (lesson 1) to bottom (last lesson), normal
-   reading order. */
-.trail-wrap { position: relative; padding: 6px 4px 8px 0; }
-.trail-rail {
-  position: absolute; left: 31.5px; top: 29px; bottom: 29px; width: 3px;
-  background: var(--paper-deep); border-radius: 2px; overflow: hidden; z-index: 0;
+/* ---------- chapter hero + index ---------- */
+/* A book, not a game board: the level opens on a featured "continue
+   reading" card for wherever you actually are, then the rest of the
+   chapter below as a real table of contents -- no path, no circles,
+   nothing to climb. */
+.chapter-hero {
+  position: relative; overflow: hidden;
+  background: linear-gradient(155deg, var(--maroon-wash), var(--paper-raised) 55%);
+  border: 1px solid var(--line); border-radius: 12px;
+  padding: 26px 24px 24px; margin-bottom: 28px;
+  box-shadow: 0 2px 0 var(--line);
+  animation: content-in 0.35s ease-out;
 }
-.trail-rail-fill {
-  position: absolute; top: 0; left: 0; width: 100%;
-  background: linear-gradient(to bottom, var(--maroon), var(--gold));
-  box-shadow: 0 0 8px var(--gold-wash);
-  transition: height .5s cubic-bezier(.2,.8,.3,1);
+.chapter-hero::before {
+  content: "";
+  position: absolute; top: -34px; right: -34px; width: 140px; height: 140px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cg fill='none' stroke='%237a1f2b' stroke-width='1.6' opacity='0.18'%3E%3Crect x='38' y='38' width='64' height='64'/%3E%3Crect x='38' y='38' width='64' height='64' transform='rotate(45 70 70)'/%3E%3Ccircle cx='70' cy='70' r='26'/%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: no-repeat; pointer-events: none;
 }
-.trail-list { display: flex; flex-direction: column; gap: 22px; }
-.trail-row {
-  position: relative; z-index: 1; display: flex; align-items: center; gap: 16px;
-  padding: 6px 10px 6px 6px; margin: -6px -10px -6px -6px; border-radius: 12px;
-  transition: background-color 0.15s ease, transform 0.15s ease;
+.chapter-hero--complete { background: linear-gradient(155deg, var(--gold-wash), var(--paper-raised) 55%); }
+.chapter-hero-eyebrow {
+  font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.09em;
+  color: var(--maroon); position: relative;
 }
-/* A gentle left/right sway instead of a flat column -- purely cosmetic,
-   computed with nth-child so it needs no JS geometry, matching the same
-   "no computed path" discipline the trail already follows. */
-.trail-row:nth-child(even) { transform: translateX(10px); }
-.trail-row:nth-child(4n+3) { transform: translateX(4px); }
-.trail-row:has(.trail-node:not(:disabled)):hover { background: var(--paper-deep); }
-.trail-node {
-  flex-shrink: 0; width: 58px; height: 58px; border-radius: 50%; border: 3px solid var(--paper-deep); background: var(--paper-raised);
-  color: var(--ink-soft); font-family: var(--font-mono); font-weight: 700; font-size: 1.1rem;
-  display: flex; align-items: center; justify-content: center; cursor: pointer;
-  box-shadow: 0 3px 0 var(--line); transition: transform 0.1s ease, box-shadow 0.1s ease;
+.chapter-hero--complete .chapter-hero-eyebrow { color: var(--gold); }
+.chapter-hero-main { display: flex; align-items: center; gap: 18px; margin: 14px 0 20px; position: relative; }
+/* A framed illuminated numeral -- the "drop cap" a real manuscript would
+   give a chapter opening, standing in for the old circular lesson node. */
+.chapter-hero-num {
+  flex-shrink: 0; width: 68px; height: 68px;
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--font-display); font-size: 2.1rem; font-weight: 600; color: var(--maroon);
+  background: var(--paper-raised); border: 1.5px solid var(--maroon); border-radius: 4px;
+  box-shadow: 0 0 0 4px var(--maroon-wash);
 }
-.trail-node:active:not(:disabled) { transform: translateY(2px); box-shadow: 0 1px 0 var(--line); }
-.trail-node.unlocked { border-color: var(--maroon); color: var(--maroon); background: var(--maroon-wash); }
-.trail-node.unlocked.current {
-  width: 64px; height: 64px;
-  box-shadow: 0 3px 0 var(--btn-shadow), 0 0 0 5px var(--maroon-wash);
-  animation: trail-current-glow 2.6s ease-in-out infinite;
+.chapter-hero--complete .chapter-hero-num { color: var(--gold); border-color: var(--gold); box-shadow: 0 0 0 4px var(--gold-wash); }
+.chapter-hero-text { min-width: 0; }
+.chapter-hero-text h3 { font-family: var(--font-display); font-size: 1.35rem; font-weight: 700; margin: 0 0 4px; color: var(--ink); line-height: 1.25; }
+.chapter-hero-native { font-family: var(--font-native); font-size: 0.95rem; color: var(--ink-soft); }
+.chapter-hero .btn { position: relative; }
+
+.chapter-index-wrap { margin-bottom: 8px; }
+.chapter-index-label {
+  font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em;
+  color: var(--ink-soft); margin-bottom: 8px;
 }
-.trail-node.done {
-  border-color: var(--gold); background: linear-gradient(155deg, var(--gold-bright), var(--gold));
-  color: var(--paper-raised); box-shadow: 0 3px 0 var(--btn-shadow);
+.chapter-index {
+  display: flex; flex-direction: column;
+  border-top: 1px solid var(--line);
 }
-.trail-node.locked { cursor: default; opacity: 0.55; }
-@keyframes trail-current-glow {
-  0%, 100% { box-shadow: 0 3px 0 var(--btn-shadow), 0 0 0 5px var(--maroon-wash); }
-  50% { box-shadow: 0 3px 0 var(--btn-shadow), 0 0 0 8px var(--maroon-wash); }
+.chapter-index-row {
+  display: flex; align-items: center; gap: 14px; width: 100%; text-align: left;
+  background: none; border: none; border-bottom: 1px dotted var(--line);
+  padding: 13px 6px; cursor: pointer;
+  transition: background-color 0.12s ease;
 }
-@media (prefers-reduced-motion: reduce) {
-  .trail-node.unlocked.current { animation: none; }
+.chapter-index-row:hover:not(:disabled) { background: var(--paper-deep); }
+.chapter-index-row:disabled { cursor: default; }
+.index-num {
+  flex-shrink: 0; width: 26px; text-align: center;
+  font-family: var(--font-mono); font-size: 0.82rem; font-weight: 700; color: var(--ink-soft);
 }
-.trail-node:disabled { cursor: default; }
-.trail-next-node { border-color: var(--teal); background: var(--teal-wash); font-size: 1.5rem; }
-.trail-info { display: flex; flex-direction: column; min-width: 0; }
-.trail-title { font-family: var(--font-display); font-weight: 700; font-size: 0.95rem; color: var(--ink); }
-.trail-title-native {
-  font-family: var(--font-native); direction: rtl; font-size: 0.82rem; color: var(--maroon); margin-top: 1px;
-}
+.index-text { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+.index-title { font-family: var(--font-display); font-weight: 600; font-size: 0.98rem; color: var(--ink); }
+.index-native { font-family: var(--font-native); font-size: 0.8rem; color: var(--ink-soft); }
+.index-status { flex-shrink: 0; width: 22px; display: flex; align-items: center; justify-content: center; color: var(--ink-soft); }
+.index-dot { width: 9px; height: 9px; border-radius: 50%; background: var(--maroon); box-shadow: 0 0 0 3px var(--maroon-wash); }
+
+.chapter-index-row.done .index-num { color: var(--gold); }
+.chapter-index-row.done .index-status { color: var(--gold); }
+.chapter-index-row.done .index-title { color: var(--ink-soft); }
+.chapter-index-row.current { background: var(--maroon-wash); }
+.chapter-index-row.current .index-num,
+.chapter-index-row.current .index-title { color: var(--maroon); }
+.chapter-index-row.locked { opacity: 0.5; }
+.chapter-index-row.locked .index-title { color: var(--ink-soft); }
 
 /* ============ Lesson ============ */
 .lesson-bar {
