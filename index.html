@@ -110,7 +110,10 @@
             <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="12" cy="8" r="3.4" fill="none" stroke="var(--gold)" stroke-width="1.6"/><path d="M4.5 20c1.4-3.6 4.4-5.5 7.5-5.5s6.1 1.9 7.5 5.5" fill="none" stroke="var(--gold)" stroke-width="1.6" stroke-linecap="round"/></svg>
             <span class="menu-label">Account</span>
           </button>
-          <button class="course-toggle" id="courseToggle" title="Switch language course" aria-label="Switch language course">العربية</button>
+          <button class="course-toggle" id="courseToggle" title="Switch language course" aria-label="Switch language course">
+            <svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path d="M3 5h11M8.5 3v2.3C8.2 9 6 12.3 3 14.3M6 9.5c1 2 3.6 4.3 6.5 5.3" fill="none" stroke="var(--gold)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M13 21l3.8-9 3.8 9M14.3 18h5" fill="none" stroke="var(--gold)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span class="course-toggle-label" id="courseToggleLabel">العربية</span>
+          </button>
           <button class="theme-toggle" id="themeToggle" title="Switch between light, dark and book" aria-label="Cycle theme">
             <svg class="icon-sun" viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="12" cy="12" r="4.5" fill="none" stroke="var(--gold)" stroke-width="1.6"/><path d="M12 2v2.5M12 19.5V22M4.2 4.2l1.8 1.8M18 18l1.8 1.8M2 12h2.5M19.5 12H22M4.2 19.8L6 18M18 6l1.8-1.8" stroke="var(--gold)" stroke-width="1.6" stroke-linecap="round"/></svg>
             <svg class="icon-moon" viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5z" fill="none" stroke="var(--gold)" stroke-width="1.6" stroke-linejoin="round"/></svg>
@@ -160,7 +163,7 @@
 </div>
 
 <div class="modal hidden" id="courseModal">
-  <div class="modal-card">
+  <div class="modal-card modal-card--wide">
     <div class="modal-header">
       <h3>Choose a Course</h3>
       <button class="modal-close" id="courseClose" aria-label="Close">&times;</button>

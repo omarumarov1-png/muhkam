@@ -9,19 +9,26 @@
   const ADVANCE_DELAY_CORRECT = 900;
   const ADVANCE_DELAY_WRONG = 2000;
 
+  // `group` drives the course-picker's two sections, and matches this
+  // project's real distinction, not a cosmetic one: "established" is the
+  // set of pre-existing courses; "underserved" is every course built from
+  // scratch for a language mainstream apps don't teach. `accent` cycles
+  // through a curated palette (see the --course-accent-* tokens in
+  // style.css) purely so the picker's cards are visually distinguishable
+  // at a glance -- it carries no other meaning.
   const COURSES = [
-    { id: "arabic", file: "data/courses.json", legacyProgressKey: "muhkam-progress-v2", label: "Arabic — العربية", flag: "العربية" },
-    { id: "tajik", file: "data/courses-tajik.json", label: "Tajik — Тоҷикӣ", flag: "Тоҷикӣ" },
-    { id: "hebrew", file: "data/courses-hebrew.json", label: "Hebrew — עברית", flag: "עברית" },
-    { id: "kazakh", file: "data/courses-kazakh.json", label: "Kazakh — Қазақша", flag: "Қазақша" },
-    { id: "chinese", file: "data/courses-chinese.json", label: "Chinese (Pinyin) — Zhōngwén", flag: "Zhōngwén" },
-    { id: "uzbek", file: "data/courses-uzbek.json", audioManifest: "data/audio-uzbek/manifest.json", label: "Uzbek — Oʻzbekcha", flag: "Oʻzbekcha" },
-    { id: "chechen", file: "data/courses-chechen.json", label: "Chechen — Нохчийн", flag: "Нохчийн" },
-    { id: "avar", file: "data/courses-avar.json", audioManifest: "data/audio-avar/manifest.json", label: "Avar — МагӀарул мацӏ", flag: "МагӀарул мацӏ" },
-    { id: "ossetian", file: "data/courses-ossetian.json", label: "Ossetian — Ирон ӕвзаг", flag: "Ирон ӕвзаг" },
-    { id: "dari", file: "data/courses-dari.json", audioManifest: "data/audio-dari/manifest.json", label: "Dari — دری", flag: "دری" },
-    { id: "pashto", file: "data/courses-pashto.json", audioManifest: "data/audio-pashto/manifest.json", label: "Pashto — پښتو", flag: "پښتو" },
-    { id: "turkmen", file: "data/courses-turkmen.json", audioManifest: "data/audio-turkmen/manifest.json", label: "Turkmen — Türkmençe", flag: "Türkmençe" },
+    { id: "arabic", file: "data/courses.json", legacyProgressKey: "muhkam-progress-v2", label: "Arabic — العربية", native: "العربية", en: "Arabic", flag: "العربية", group: "established", accent: "gold" },
+    { id: "tajik", file: "data/courses-tajik.json", label: "Tajik — Тоҷикӣ", native: "Тоҷикӣ", en: "Tajik", flag: "Тоҷикӣ", group: "established", accent: "teal" },
+    { id: "hebrew", file: "data/courses-hebrew.json", label: "Hebrew — עברית", native: "עברית", en: "Hebrew", flag: "עברית", group: "established", accent: "indigo" },
+    { id: "kazakh", file: "data/courses-kazakh.json", label: "Kazakh — Қазақша", native: "Қазақша", en: "Kazakh", flag: "Қазақша", group: "established", accent: "sage" },
+    { id: "chinese", file: "data/courses-chinese.json", label: "Chinese (Pinyin) — Zhōngwén", native: "Zhōngwén", en: "Chinese (Pinyin)", flag: "Zhōngwén", group: "established", accent: "rust" },
+    { id: "uzbek", file: "data/courses-uzbek.json", audioManifest: "data/audio-uzbek/manifest.json", label: "Uzbek — Oʻzbekcha", native: "Oʻzbekcha", en: "Uzbek", flag: "Oʻzbekcha", group: "underserved", accent: "gold" },
+    { id: "chechen", file: "data/courses-chechen.json", label: "Chechen — Нохчийн", native: "Нохчийн", en: "Chechen", flag: "Нохчийн", group: "underserved", accent: "maroon" },
+    { id: "avar", file: "data/courses-avar.json", audioManifest: "data/audio-avar/manifest.json", label: "Avar — МагӀарул мацӏ", native: "МагӀарул мацӏ", en: "Avar", flag: "МагӀарул мацӏ", group: "underserved", accent: "teal" },
+    { id: "ossetian", file: "data/courses-ossetian.json", label: "Ossetian — Ирон ӕвзаг", native: "Ирон ӕвзаг", en: "Ossetian", flag: "Ирон ӕвзаг", group: "underserved", accent: "indigo" },
+    { id: "dari", file: "data/courses-dari.json", audioManifest: "data/audio-dari/manifest.json", label: "Dari — دری", native: "دری", en: "Dari", flag: "دری", group: "underserved", accent: "sage" },
+    { id: "pashto", file: "data/courses-pashto.json", audioManifest: "data/audio-pashto/manifest.json", label: "Pashto — پښتو", native: "پښتو", en: "Pashto", flag: "پښتو", group: "underserved", accent: "rust" },
+    { id: "turkmen", file: "data/courses-turkmen.json", audioManifest: "data/audio-turkmen/manifest.json", label: "Turkmen — Türkmençe", native: "Türkmençe", en: "Turkmen", flag: "Türkmençe", group: "underserved", accent: "maroon" },
   ];
 
   // iOS Safari keeps a tapped <button> focused, which makes the
@@ -768,7 +775,8 @@
 
     document.documentElement.style.setProperty("--font-native", course.fontNative || "var(--font-arabic)");
     document.title = `Muḥkam — ${course.title}`;
-    courseToggleEl.textContent = course.flag || course.languageName || course.id;
+    const courseToggleLabel = document.getElementById("courseToggleLabel");
+    if (courseToggleLabel) courseToggleLabel.textContent = course.flag || course.languageName || course.id;
     const hoardNativeLabel = document.getElementById("hoardNativeLabel");
     if (hoardNativeLabel) hoardNativeLabel.textContent = (course.uiStrings && course.uiStrings.wordHoard) || "";
   }
@@ -852,23 +860,42 @@
     }
   }
 
-  function renderCoursePicker() {
-    const list = document.getElementById("courseList");
-    list.innerHTML = COURSES.map(meta => {
-      const s = meta.id === activeCourseId ? { lessonsDone: progress.completedLessons.length, streak: progress.streak, xp: progress.xp } : readCourseStats(meta.id);
-      const sub = s
-        ? `${s.lessonsDone} lesson${s.lessonsDone === 1 ? "" : "s"} · ${s.xp} XP${s.streak > 0 ? ` · ${s.streak}🔥` : ""}`
-        : "Not started";
-      return `
-      <button class="course-option ${meta.id === activeCourseId ? "active" : ""}" data-course="${meta.id}">
-        <span class="course-option-text">
-          <span class="course-option-name">${meta.label}</span>
-          <span class="course-option-sub">${sub}</span>
-        </span>
+  const COURSE_SECTIONS = [
+    { group: "established", title: "Languages" },
+    { group: "underserved", title: "Underserved Languages" },
+  ];
+
+  function courseCardHtml(meta) {
+    const s = meta.id === activeCourseId ? { lessonsDone: progress.completedLessons.length, streak: progress.streak, xp: progress.xp } : readCourseStats(meta.id);
+    const statsHtml = s
+      ? `<span class="course-card-stats">
+          <span class="course-card-pill">${s.lessonsDone} lesson${s.lessonsDone === 1 ? "" : "s"}</span>
+          <span class="course-card-pill">${s.xp} XP</span>
+          ${s.streak > 0 ? `<span class="course-card-pill course-card-pill--streak">${s.streak}🔥</span>` : ""}
+        </span>`
+      : `<span class="course-card-empty">Not started — tap to begin</span>`;
+    return `
+      <button class="course-card course-card--${meta.accent} ${meta.id === activeCourseId ? "active" : ""}" data-course="${meta.id}">
+        <span class="course-card-native" dir="auto">${meta.native}</span>
+        <span class="course-card-en">${meta.en}</span>
+        ${statsHtml}
       </button>
     `;
+  }
+
+  function renderCoursePicker() {
+    const list = document.getElementById("courseList");
+    list.innerHTML = COURSE_SECTIONS.map(sec => {
+      const courses = COURSES.filter(c => c.group === sec.group);
+      if (!courses.length) return "";
+      return `
+        <section class="course-section">
+          <h4 class="course-section-title">${sec.title}</h4>
+          <div class="course-grid">${courses.map(courseCardHtml).join("")}</div>
+        </section>
+      `;
     }).join("");
-    list.querySelectorAll(".course-option").forEach(btn => {
+    list.querySelectorAll(".course-card").forEach(btn => {
       btn.addEventListener("click", async () => {
         const id = btn.dataset.course;
         courseModal.classList.add("hidden");

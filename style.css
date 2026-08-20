@@ -12,6 +12,16 @@
   --maroon-wash: #f3dbdb;
   --teal: #2f6f63;
   --teal-wash: #dcebe4;
+  /* Extra accent family, used only to color-code course-picker cards (see
+     .course-card--* in the course-picker section below) -- not referenced
+     anywhere else, so these three are safe to reuse/extend independently
+     of gold/maroon/teal's other meanings elsewhere in the app. */
+  --indigo: #3d4f7a;
+  --indigo-wash: #dde3f0;
+  --sage: #5c7a4f;
+  --sage-wash: #e2ead9;
+  --rust: #a85a34;
+  --rust-wash: #f0dcc9;
   --line: #d9c7a3;
   --shadow: rgba(43, 30, 10, 0.18);
   --btn-shadow: #4d1119;
@@ -40,6 +50,12 @@
   --maroon-wash: rgba(221, 124, 134, 0.16);
   --teal: #6cc0ae;
   --teal-wash: rgba(108, 192, 174, 0.16);
+  --indigo: #8593c4;
+  --indigo-wash: rgba(133, 147, 196, 0.16);
+  --sage: #9bc084;
+  --sage-wash: rgba(155, 192, 132, 0.16);
+  --rust: #e08a5c;
+  --rust-wash: rgba(224, 138, 92, 0.16);
   --line: #40372a;
   --shadow: rgba(0, 0, 0, 0.5);
   --btn-shadow: #6e2129;
@@ -68,6 +84,12 @@
     --maroon-wash: rgba(221, 124, 134, 0.16);
     --teal: #6cc0ae;
     --teal-wash: rgba(108, 192, 174, 0.16);
+    --indigo: #8593c4;
+    --indigo-wash: rgba(133, 147, 196, 0.16);
+    --sage: #9bc084;
+    --sage-wash: rgba(155, 192, 132, 0.16);
+    --rust: #e08a5c;
+    --rust-wash: rgba(224, 138, 92, 0.16);
     --line: #40372a;
     --shadow: rgba(0, 0, 0, 0.5);
     --btn-shadow: #6e2129;
@@ -95,6 +117,12 @@
   --maroon-wash: #e9d9d3;
   --teal: #3f5d43;
   --teal-wash: #dfe6dd;
+  --indigo: #4a5570;
+  --indigo-wash: #dee1e9;
+  --sage: #6b7a4a;
+  --sage-wash: #e4e6d7;
+  --rust: #9c5a35;
+  --rust-wash: #ecdccb;
   --line: #cbb98f;
   --shadow: rgba(43, 30, 10, 0.24);
   --btn-shadow: #4a1f1f;
@@ -370,7 +398,10 @@ button.stat:hover { color: var(--teal); }
   border: 1.5px solid var(--line);
   border-radius: 20px;
   height: 32px;
-  padding: 0 12px;
+  padding: 0 14px 0 10px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
   font-family: var(--font-body);
   font-size: 0.82rem;
   font-weight: 600;
@@ -378,35 +409,106 @@ button.stat:hover { color: var(--teal); }
   transition: border-color 0.15s ease, transform 0.15s ease;
 }
 .course-toggle:hover { border-color: var(--gold); transform: translateY(-1px); }
+.course-toggle-label { line-height: 1; }
 
+/* ============ Course picker ============ */
 .course-list {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 22px;
   flex: 1 1 auto;
   min-height: 0;
   overflow-y: auto;
 }
-.course-option {
+.course-section-title {
+  margin: 0 0 10px;
+  font-family: var(--font-display);
+  font-size: 1.02rem;
+  font-weight: 600;
+  color: var(--ink-soft);
+  letter-spacing: 0.02em;
+}
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 12px;
+}
+.course-card {
+  --card-accent: var(--gold);
+  --card-accent-wash: var(--gold-wash);
+  position: relative;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
   width: 100%;
   text-align: left;
   background: var(--paper);
   border: 1.5px solid var(--line);
-  border-radius: 4px;
-  padding: 12px 16px;
+  border-top: 3px solid var(--card-accent);
+  border-radius: 8px;
+  padding: 14px 14px 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 0 var(--line);
+  transition: border-color 0.15s ease, transform 0.12s ease, box-shadow 0.12s ease;
+}
+.course-card:hover { border-color: var(--card-accent); transform: translateY(-2px); box-shadow: 0 4px 10px var(--shadow); }
+.course-card:active { transform: translateY(0); box-shadow: 0 1px 0 var(--line); }
+.course-card.active {
+  background: var(--card-accent-wash);
+  border-color: var(--card-accent);
+  box-shadow: 0 2px 0 var(--card-accent);
+}
+/* A quiet corner mark on the current course rather than a text badge --
+   keeps the card's own native-script typography as the focal point. */
+.course-card.active::after {
+  content: "";
+  position: absolute;
+  top: 0; right: 0;
+  border-style: solid;
+  border-width: 0 18px 18px 0;
+  border-color: transparent var(--card-accent) transparent transparent;
+}
+.course-card--gold { --card-accent: var(--gold); --card-accent-wash: var(--gold-wash); }
+.course-card--maroon { --card-accent: var(--maroon); --card-accent-wash: var(--maroon-wash); }
+.course-card--teal { --card-accent: var(--teal); --card-accent-wash: var(--teal-wash); }
+.course-card--indigo { --card-accent: var(--indigo); --card-accent-wash: var(--indigo-wash); }
+.course-card--sage { --card-accent: var(--sage); --card-accent-wash: var(--sage-wash); }
+.course-card--rust { --card-accent: var(--rust); --card-accent-wash: var(--rust-wash); }
+
+.course-card-native {
+  font-family: var(--font-native);
+  font-size: 1.35rem;
+  line-height: 1.2;
+  color: var(--ink);
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.course-card-en {
   font-family: var(--font-body);
-  font-size: 0.95rem;
+  font-size: 0.76rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+.course-card-stats { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 4px; }
+.course-card-pill {
+  font-size: 0.7rem;
   font-weight: 600;
   color: var(--ink);
-  transition: border-color 0.15s ease, transform 0.12s ease;
+  background: var(--paper-deep);
+  border-radius: 999px;
+  padding: 2px 8px;
 }
-.course-option:hover { border-color: var(--gold); }
-.course-option.active { border-color: var(--teal); background: var(--teal-wash); }
-.course-option-text { display: flex; flex-direction: column; gap: 3px; }
-.course-option-sub { font-size: 0.76rem; font-weight: 500; color: var(--ink-soft); }
+.course-card-pill--streak { background: var(--card-accent-wash); color: var(--card-accent); }
+.course-card-empty {
+  font-size: 0.74rem;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
 
 /* min-width: 0 overrides the flex-item default of min-width: auto, which
    otherwise refuses to shrink below the content's natural intrinsic width —
@@ -457,15 +559,16 @@ button.stat:hover { color: var(--teal); }
    at all yet). A plain scale-down fits these better than forcing the 3D
    look onto elements with no resting box-shadow to reduce. */
 .option:active:not(:disabled), .tile:active:not(:disabled), .match-card:active:not(:disabled),
-.course-option:active, .course-toggle:active, .stat:active, .menu-toggle:active,
+.course-toggle:active, .stat:active, .menu-toggle:active,
 .theme-toggle:active, .sound-toggle:active, .level-trophy:active {
   transform: scale(0.96);
 }
 @media (prefers-reduced-motion: reduce) {
-  .option:active, .tile:active, .match-card:active, .course-option:active,
+  .option:active, .tile:active, .match-card:active,
   .course-toggle:active, .stat:active, .menu-toggle:active, .theme-toggle:active, .sound-toggle:active, .level-trophy:active {
     transform: none;
   }
+  .course-card:active { transform: none; box-shadow: 0 2px 0 var(--line); }
 }
 
 /* ============ Home ============ */
@@ -1143,6 +1246,7 @@ button.stat:hover { color: var(--teal); }
   display: flex;
   flex-direction: column;
 }
+.modal-card--wide { max-width: 640px; max-height: 78vh; }
 .modal-header {
   display: flex;
   align-items: center;
