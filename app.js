@@ -1111,6 +1111,13 @@
     screenEl.classList.add("screen-fade-in");
   }
 
+  // currentColor so each icon automatically matches its node's own state
+  // color (ink-soft when locked, maroon when unlocked, the paper tone when
+  // done-on-gold-fill) without needing a separate CSS rule per state.
+  const TRAIL_ICON_LOCK = `<svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2.2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M8 11V7.6a4 4 0 018 0V11" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>`;
+  const TRAIL_ICON_CHECK = `<svg viewBox="0 0 24 24" width="23" height="23" aria-hidden="true"><path d="M5 12.5l4.3 4.3L19 7" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+  const TRAIL_ICON_FLAG = `<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M6.5 3v18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M6.5 4.2h10.5l-2.8 3.8 2.8 3.8H6.5z" fill="currentColor" opacity="0.9"/></svg>`;
+
   // Each level gets its own roadmap: lessons as round nodes running bottom
   // (lesson 1) to top (last lesson), like climbing toward the level's peak.
   // Completing the level unlocks a "next level" node above the last lesson.
@@ -1151,7 +1158,7 @@
       rowsHtml += `
         <div class="trail-row">
           <button class="trail-node ${done ? "done" : unlocked ? "unlocked" : "locked"} ${isCurrent ? "current" : ""}" data-lesson="${lesson.id}" ${unlocked ? "" : "disabled"} aria-label="${lesson.title}">
-            ${done ? "✓" : unlocked ? lesson.number : "🔒"}
+            ${done ? TRAIL_ICON_CHECK : unlocked ? `<span class="trail-node-num">${lesson.number}</span>` : TRAIL_ICON_LOCK}
           </button>
           <div class="trail-info"><span class="trail-title">${lesson.title}</span><span class="trail-title-native">${lesson.titleNative || ""}</span></div>
         </div>
@@ -1160,7 +1167,7 @@
     if (levelComplete && nextLevel) {
       rowsHtml += `
         <div class="trail-row">
-          <button class="trail-node trail-next-node" id="nextLevelBtn" aria-label="Next level">🏁</button>
+          <button class="trail-node trail-next-node" id="nextLevelBtn" aria-label="Next level">${TRAIL_ICON_FLAG}</button>
           <div class="trail-info"><span class="trail-title">Level complete!</span><span class="trail-title-native">Next: ${nextLevel.cefr}</span></div>
         </div>
       `;

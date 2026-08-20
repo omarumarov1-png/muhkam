@@ -574,16 +574,44 @@ button.stat:hover { color: var(--teal); }
 /* ============ Home ============ */
 .waveform { display: flex; align-items: flex-end; gap: 3px; height: 34px; }
 .waveform .bar { width: 4px; border-radius: 2px; background: var(--paper-deep); transition: background 0.2s ease, height 0.3s ease; }
-.waveform .bar.filled { background: var(--gold); }
+.waveform .bar.filled { background: linear-gradient(to top, var(--gold), var(--gold-bright)); }
 
 .level-progress-card {
-  background: var(--paper-raised); border: 1px solid var(--line); border-radius: 4px;
-  padding: 22px 20px; margin: 20px 0 22px; display: flex; align-items: center; gap: 18px;
+  position: relative;
+  overflow: hidden;
+  background: var(--paper-raised); border: 1px solid var(--line); border-radius: 10px;
+  padding: 22px 20px; margin: 20px 0 26px; display: flex; align-items: center; gap: 18px;
+  box-shadow: 0 2px 0 var(--line);
   animation: content-in 0.35s ease-out;
 }
-.level-progress-card .waveform { flex-shrink: 0; }
-.level-progress-info { flex: 1; }
-.level-progress-info .pct { font-family: var(--font-mono); font-size: 1.6rem; font-weight: 700; color: var(--gold); }
+/* A small illuminated-manuscript flourish in the corner -- same rotated
+   square + circle language as the page background's --corner-gold, but
+   its own brighter SVG (that one is tuned for a whole-viewport texture,
+   too faint to read at card scale). Purely decorative (a background
+   image, not real content), so it costs nothing for screen readers. */
+.level-progress-card::before {
+  content: "";
+  position: absolute;
+  top: -34px; right: -34px;
+  width: 140px; height: 140px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cg fill='none' stroke='%23b8901f' stroke-width='1.6' opacity='0.3'%3E%3Crect x='38' y='38' width='64' height='64'/%3E%3Crect x='38' y='38' width='64' height='64' transform='rotate(45 70 70)'/%3E%3Ccircle cx='70' cy='70' r='26'/%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  pointer-events: none;
+}
+:root[data-theme="dark"] .level-progress-card::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cg fill='none' stroke='%23d6ac33' stroke-width='1.6' opacity='0.3'%3E%3Crect x='38' y='38' width='64' height='64'/%3E%3Crect x='38' y='38' width='64' height='64' transform='rotate(45 70 70)'/%3E%3Ccircle cx='70' cy='70' r='26'/%3E%3C/g%3E%3C/svg%3E");
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .level-progress-card::before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cg fill='none' stroke='%23d6ac33' stroke-width='1.6' opacity='0.3'%3E%3Crect x='38' y='38' width='64' height='64'/%3E%3Crect x='38' y='38' width='64' height='64' transform='rotate(45 70 70)'/%3E%3Ccircle cx='70' cy='70' r='26'/%3E%3C/g%3E%3C/svg%3E");
+  }
+}
+:root[data-theme="book"] .level-progress-card::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cg fill='none' stroke='%238a6a2f' stroke-width='1.6' opacity='0.32'%3E%3Crect x='38' y='38' width='64' height='64'/%3E%3Crect x='38' y='38' width='64' height='64' transform='rotate(45 70 70)'/%3E%3Ccircle cx='70' cy='70' r='26'/%3E%3C/g%3E%3C/svg%3E");
+}
+.level-progress-card .waveform { flex-shrink: 0; position: relative; }
+.level-progress-info { flex: 1; position: relative; }
+.level-progress-info .pct { font-family: var(--font-mono); font-size: 1.9rem; font-weight: 700; color: var(--gold); letter-spacing: -0.01em; }
 .level-progress-info .label { font-size: 0.72rem; color: var(--ink-soft); text-transform: uppercase; letter-spacing: 0.08em; margin-top: 2px; }
 .level-progress-info .count { font-family: var(--font-display); font-size: 1.15rem; font-weight: 600; margin-top: 4px; }
 
@@ -620,20 +648,37 @@ button.stat:hover { color: var(--teal); }
 .btn-block { width: 100%; }
 
 /* ---------- level roadmap ---------- */
-.roadmap-header { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+.roadmap-header { display: flex; align-items: center; gap: 10px; margin-bottom: 20px; }
 .roadmap-arrow {
   width: 34px; height: 34px; border-radius: 50%; border: 1.5px solid var(--line); background: var(--paper-raised);
   color: var(--ink); font-size: 1.1rem; line-height: 1; cursor: pointer; flex-shrink: 0;
   display: flex; align-items: center; justify-content: center;
+  transition: border-color 0.15s ease, color 0.15s ease, transform 0.12s ease;
 }
-.roadmap-arrow:hover:not(:disabled) { border-color: var(--gold); color: var(--gold); }
+.roadmap-arrow:hover:not(:disabled) { border-color: var(--gold); color: var(--gold); transform: translateY(-1px); }
 .roadmap-arrow:disabled { opacity: 0.25; cursor: default; }
-.roadmap-level-info { flex: 1; text-align: center; }
-.roadmap-level-info h2 { font-family: var(--font-display); font-size: 1.3rem; margin: 4px 0 2px; color: var(--ink); }
+.roadmap-level-info { flex: 1; text-align: center; position: relative; padding-bottom: 12px; }
+.roadmap-level-info h2 { font-family: var(--font-display); font-size: 1.4rem; margin: 6px 0 2px; color: var(--ink); }
+/* A short ornamental rule instead of a plain border -- echoes the same
+   dotted-diamond motif used under the app's own header (see .header
+   below) at a smaller, quieter scale so a level change still feels like
+   "part of this book" rather than a generic card divider. */
+.roadmap-level-info::after {
+  content: "";
+  position: absolute;
+  left: 50%; bottom: 0;
+  width: 64px; height: 1px;
+  transform: translateX(-50%);
+  background: linear-gradient(to right, transparent, var(--gold), transparent);
+}
 .roadmap-level-info .level-badge {
   font-family: var(--font-mono); font-size: 0.75rem; font-weight: 700; color: var(--gold);
-  background: var(--gold-wash); border: 1px solid var(--gold); border-radius: 4px; padding: 3px 8px;
+  background: var(--gold-wash); border: 1px solid var(--gold); border-radius: 999px; padding: 4px 12px 4px 9px;
   letter-spacing: 0.04em;
+  display: inline-flex; align-items: center; gap: 5px;
+}
+.roadmap-level-info .level-badge::before {
+  content: ""; width: 5px; height: 5px; border-radius: 1px; background: var(--gold); transform: rotate(45deg); flex-shrink: 0;
 }
 .level-count { font-family: var(--font-mono); font-size: 0.75rem; color: var(--ink-soft); }
 .level-trophies { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin: 14px 0 4px; }
@@ -646,9 +691,10 @@ button.stat:hover { color: var(--teal); }
 .level-locked-note { font-size: 0.8rem; color: var(--ink-soft); background: var(--paper-raised); border: 1px dashed var(--line); border-radius: 4px; padding: 14px 16px; margin-top: 10px; }
 
 /* A calm vertical trail: one plain CSS line (.trail-rail), no computed
-   path, no SVG, no scroll-jump buttons — rows just alternate a small
-   indent for rhythm and the current lesson scrolls into view on render.
-   Reads top (lesson 1) to bottom (last lesson), normal reading order. */
+   path, no SVG, no scroll-jump buttons — rows alternate a small indent
+   for rhythm (nth-child below) and the current lesson scrolls into view
+   on render. Reads top (lesson 1) to bottom (last lesson), normal
+   reading order. */
 .trail-wrap { position: relative; padding: 6px 4px 8px 0; }
 .trail-rail {
   position: absolute; left: 31.5px; top: 29px; bottom: 29px; width: 3px;
@@ -657,21 +703,46 @@ button.stat:hover { color: var(--teal); }
 .trail-rail-fill {
   position: absolute; top: 0; left: 0; width: 100%;
   background: linear-gradient(to bottom, var(--maroon), var(--gold));
+  box-shadow: 0 0 8px var(--gold-wash);
   transition: height .5s cubic-bezier(.2,.8,.3,1);
 }
-.trail-list { display: flex; flex-direction: column; gap: 24px; }
-.trail-row { position: relative; z-index: 1; display: flex; align-items: center; gap: 16px; }
+.trail-list { display: flex; flex-direction: column; gap: 22px; }
+.trail-row {
+  position: relative; z-index: 1; display: flex; align-items: center; gap: 16px;
+  padding: 6px 10px 6px 6px; margin: -6px -10px -6px -6px; border-radius: 12px;
+  transition: background-color 0.15s ease, transform 0.15s ease;
+}
+/* A gentle left/right sway instead of a flat column -- purely cosmetic,
+   computed with nth-child so it needs no JS geometry, matching the same
+   "no computed path" discipline the trail already follows. */
+.trail-row:nth-child(even) { transform: translateX(10px); }
+.trail-row:nth-child(4n+3) { transform: translateX(4px); }
+.trail-row:has(.trail-node:not(:disabled)):hover { background: var(--paper-deep); }
 .trail-node {
   flex-shrink: 0; width: 58px; height: 58px; border-radius: 50%; border: 3px solid var(--paper-deep); background: var(--paper-raised);
   color: var(--ink-soft); font-family: var(--font-mono); font-weight: 700; font-size: 1.1rem;
   display: flex; align-items: center; justify-content: center; cursor: pointer;
-  box-shadow: 0 3px 0 var(--line); transition: transform 0.1s ease;
+  box-shadow: 0 3px 0 var(--line); transition: transform 0.1s ease, box-shadow 0.1s ease;
 }
 .trail-node:active:not(:disabled) { transform: translateY(2px); box-shadow: 0 1px 0 var(--line); }
 .trail-node.unlocked { border-color: var(--maroon); color: var(--maroon); background: var(--maroon-wash); }
-.trail-node.unlocked.current { box-shadow: 0 3px 0 var(--btn-shadow), 0 0 0 5px var(--maroon-wash); }
-.trail-node.done { border-color: var(--gold); background: var(--gold); color: var(--paper-raised); box-shadow: 0 3px 0 var(--btn-shadow); }
-.trail-node.locked { cursor: default; opacity: 0.6; }
+.trail-node.unlocked.current {
+  width: 64px; height: 64px;
+  box-shadow: 0 3px 0 var(--btn-shadow), 0 0 0 5px var(--maroon-wash);
+  animation: trail-current-glow 2.6s ease-in-out infinite;
+}
+.trail-node.done {
+  border-color: var(--gold); background: linear-gradient(155deg, var(--gold-bright), var(--gold));
+  color: var(--paper-raised); box-shadow: 0 3px 0 var(--btn-shadow);
+}
+.trail-node.locked { cursor: default; opacity: 0.55; }
+@keyframes trail-current-glow {
+  0%, 100% { box-shadow: 0 3px 0 var(--btn-shadow), 0 0 0 5px var(--maroon-wash); }
+  50% { box-shadow: 0 3px 0 var(--btn-shadow), 0 0 0 8px var(--maroon-wash); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .trail-node.unlocked.current { animation: none; }
+}
 .trail-node:disabled { cursor: default; }
 .trail-next-node { border-color: var(--teal); background: var(--teal-wash); font-size: 1.5rem; }
 .trail-info { display: flex; flex-direction: column; min-width: 0; }
