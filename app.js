@@ -361,6 +361,14 @@
   // target-language text would simply never be spoken -- see resolveSpeech().
   let audioManifest = {};
   let _currentBundledAudio = null;
+  // Stops whichever audio source a reading passage happens to be using —
+  // bundled .m4a playback (Urdu/Dari/Uzbek etc., no browser voice) or real
+  // speechSynthesis (languages with one) — since a passage can switch
+  // between the two paragraph-to-paragraph depending on what's available.
+  function stopPassageAudio() {
+    window.speechSynthesis.cancel();
+    if (_currentBundledAudio) { _currentBundledAudio.pause(); _currentBundledAudio = null; }
+  }
   function playBundledAudio(entry, onEnd, onError) {
     if (_currentBundledAudio) { _currentBundledAudio.pause(); _currentBundledAudio = null; }
     // Directory derived from the ACTIVE course's own audioManifest path
@@ -400,8 +408,14 @@
         return;
       }
       settled = true;
+      // Always call BOTH, matching speak()'s speechSynthesis path (u.onerror
+      // there calls onError then unconditionally onEnd too) -- a caller
+      // that passes both (as the reading-passage listener now does, to
+      // advance to the next paragraph even after a failure) used to get
+      // silently stuck forever on a bundled-audio error, since only one of
+      // the two ever fired here.
       if (onError) onError("bundled-audio-failed");
-      else if (onEnd) onEnd();
+      if (onEnd) onEnd();
     }
     audio.addEventListener("ended", settle, { once: true });
     audio.addEventListener("error", handleError);
@@ -1357,7 +1371,7 @@
   function renderLessonChrome(bodyHtml) {
     if (_passagePlaying) {
       _passageToken++;
-      window.speechSynthesis.cancel();
+      stopPassageAudio();
       _passagePlaying = false;
     }
     const pct = Math.round((session.solved.size / session.total) * 100);
@@ -1374,7 +1388,7 @@
     `;
     document.getElementById("exitBtn").addEventListener("click", () => {
       cancelAdvance();
-      if (_passagePlaying) { _passageToken++; window.speechSynthesis.cancel(); _passagePlaying = false; }
+      if (_passagePlaying) { _passageToken++; stopPassageAudio(); _passagePlaying = false; }
       session = null;
       renderHome();
     });
@@ -1468,6 +1482,17 @@
   // chain, a per-step "already advanced" guard absorbs duplicate end
   // events, and a small gap between utterances avoids WebKit's glitch
   // when speak() is called immediately from inside another onend.
+  //
+  // Playback itself goes through the shared speak() helper (used by every
+  // other audio button in the app) rather than a hand-rolled
+  // SpeechSynthesisUtterance: speak() already checks the bundled-audio
+  // manifest before falling back to a browser voice, which matters a lot
+  // here — Urdu/Dari/Uzbek/Turkmen/Pashto/Avar (and Tajik, permanently)
+  // have no real browser voice on most devices, so a version that only
+  // ever tried speechSynthesis would silently do nothing for every
+  // paragraph on exactly the languages reading passages were being added
+  // to. This bug pre-dated this change and affected Uzbek's existing
+  // reading lessons the same way, invisibly, since nothing surfaced it.
   function wirePassageListen() {
     const btn = document.getElementById("passageListenBtn");
     if (!btn) return;
@@ -1476,28 +1501,24 @@
     if (!lesson.readingPassage) return;
     const paragraphs = lesson.readingPassage.paragraphs;
     const lineEls = Array.from(document.querySelectorAll(".passage-line"));
+    const textFor = p => (course.lang === "zh" && p.nativeHanzi) || p.native;
     btn.addEventListener("click", () => {
       if (_passagePlaying) {
         _passageToken++;
-        window.speechSynthesis.cancel();
+        stopPassageAudio();
         _passagePlaying = false;
         btn.innerHTML = `${ICON_SPEAKER} Listen`;
         lineEls.forEach(l => l.classList.remove("speaking"));
         return;
       }
-      // Reading passages are shown in the target language (Arabic/Tajik) —
-      // the audio must match, so this speaks .native with the course's own
-      // target-language voice, not the English translation with an English
-      // voice. (Tajik has no usable TTS voice at all — a known, accepted
-      // platform limitation — so _preferredVoiceTarget stays null there and
-      // the button simply does nothing, same as everywhere else in the app.)
       // One last synchronous re-scan in case the background poll gave up
       // before this particular device finished loading its voice list.
       if (!_preferredVoiceTarget) refreshVoices();
-      if (!_preferredVoiceTarget) { showAudioDiag(diagEl, "no-voice"); return; }
+      const hasAnyAudio = paragraphs.some(p => _preferredVoiceTarget || audioManifest[textFor(p)]);
+      if (!hasAnyAudio) { showAudioDiag(diagEl, "no-voice"); return; }
       if (!soundEnabled) return;
       if (diagEl) diagEl.classList.add("hidden");
-      window.speechSynthesis.cancel();
+      stopPassageAudio();
       _passagePlaying = true;
       btn.innerHTML = `${ICON_STOP} Stop`;
       const token = ++_passageToken;
@@ -1510,14 +1531,7 @@
         }
         lineEls.forEach(l => l.classList.remove("speaking"));
         if (lineEls[i]) lineEls[i].classList.add("speaking");
-        // Chinese displays pinyin-only text in .native (no Hanzi shown to
-        // the learner), but a zh-CN voice needs real Hanzi to pronounce
-        // Mandarin correctly -- fall back to a parallel hidden field.
-        const speakText = (course.lang === "zh" && paragraphs[i].nativeHanzi) || paragraphs[i].native;
-        const u = new SpeechSynthesisUtterance(speakText);
-        u.lang = _preferredVoiceTarget.lang;
-        u.voice = _preferredVoiceTarget;
-        u.rate = SPEECH_RATE;
+        const speakText = textFor(paragraphs[i]);
         let advanced = false;
         function advance() {
           if (advanced || token !== _passageToken) return;
@@ -1525,31 +1539,9 @@
           i++;
           setTimeout(step, 150);
         }
-        u.onend = advance;
-        u.onerror = e => {
-          if (i === 0) showAudioDiag(diagEl, (e && e.error) || "unknown");
-          advance();
-        };
-        window.speechSynthesis.speak(u);
-        // Same silent-drop watchdog as speak(): some Android builds never
-        // fire onend/onerror at all when playback fails, so the passage
-        // would otherwise just hang on the first line forever. Scaled to
-        // this paragraph's own estimated length (same fix speak() already
-        // got in "Scale the speechSynthesis silent-drop watchdog to the
-        // utterance's own length instead of a flat 4s") -- this second,
-        // independent implementation never got that same fix, so any
-        // paragraph whose real speech took longer than a flat 4s had its
-        // watchdog fire mid-sentence: it force-advanced the line index and
-        // the "speaking" highlight to the NEXT paragraph while THIS one's
-        // utterance was still actually playing (nothing here calls
-        // .cancel() before the next speak()), so the highlighted line and
-        // the audio you actually heard fell out of sync -- exactly the
-        // "the highlight doesn't always work" symptom.
-        setTimeout(() => {
-          if (advanced || token !== _passageToken) return;
-          if (i === 0) showAudioDiag(diagEl, "silent-timeout");
-          advance();
-        }, Math.max(1500, speechDurationMs(speakText)));
+        speak(speakText, _preferredVoiceTarget, advance, SPEECH_RATE, err => {
+          if (i === 0) showAudioDiag(diagEl, err || "unknown");
+        });
       }
       step();
     });
