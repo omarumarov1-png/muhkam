@@ -29,6 +29,7 @@
     { id: "dari", file: "data/courses-dari.json", audioManifest: "data/audio-dari/manifest.json", label: "Dari — دری", native: "دری", en: "Dari", flag: "دری", group: "underserved", accent: "sage" },
     { id: "pashto", file: "data/courses-pashto.json", audioManifest: "data/audio-pashto/manifest.json", label: "Pashto — پښتو", native: "پښتو", en: "Pashto", flag: "پښتو", group: "underserved", accent: "rust" },
     { id: "turkmen", file: "data/courses-turkmen.json", audioManifest: "data/audio-turkmen/manifest.json", label: "Turkmen — Türkmençe", native: "Türkmençe", en: "Turkmen", flag: "Türkmençe", group: "underserved", accent: "maroon" },
+    { id: "urdu", file: "data/courses-urdu.json", audioManifest: "data/audio-urdu/manifest.json", label: "Urdu — اردو", native: "اردو", en: "Urdu", flag: "اردو", group: "underserved", accent: "gold" },
   ];
 
   // A small shared icon set (currentColor throughout, so each one just
