@@ -1,0 +1,2402 @@
+{
+  "level": "b1",
+  "grammarTopics": {
+    "b1-imperative": {
+      "title": "Imperative: Giving Commands",
+      "pattern": "tu/nous/vous forms of the present tense, minus the subject pronoun",
+      "explanation": "The imperative just drops the subject pronoun from the tu/nous/vous present-tense forms: \"Parle !\" (Speak!, tu), \"Parlons !\" (Let's speak!, nous), \"Parlez !\" (Speak!, vous). One quirk: -er verbs (and \"aller\") drop the final -s from the tu form: \"tu parles\" → \"Parle !\" not \"Parles !\". Negative commands wrap \"ne...pas\" around the verb as usual: \"Ne parle pas !\" (Don't speak!).",
+      "fact": "\"Être\", \"avoir\", and \"savoir\" have irregular imperatives borrowed from their subjunctive stems: \"sois/soyons/soyez\" (be), \"aie/ayons/ayez\" (have), \"sache/sachons/sachez\" (know) — these don't follow the normal drop-the-pronoun rule at all.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Sois patient, ça va bientôt arriver !",
+          "en": "Be patient, it's going to arrive soon!"
+        },
+        {
+          "sp": "B",
+          "native": "D'accord, mais dépêchons-nous quand même un peu.",
+          "en": "Okay, but let's still hurry a little."
+        }
+      ]
+    },
+    "b1-subjunctive-intro": {
+      "title": "Present Subjunctive: Wishes, Wants, and Necessity",
+      "pattern": "que + [subject] + subjunctive stem + -e/-es/-e/-ions/-iez/-ent",
+      "explanation": "When one person wants or needs another to do something, French switches the second verb into the subjunctive after \"que\": \"Je veux que tu viennes\" (I want you to come), \"Il faut que nous partions\" (We need to leave). Most subjunctive stems come from the \"ils\" present-tense form minus -ent, plus these endings: -e/-es/-e/-ions/-iez/-ent. \"Nous\"/\"vous\" forms often match the imperfect instead.",
+      "fact": "\"Il faut que\" (it is necessary that) is one of the most common subjunctive triggers in everyday French, used constantly for obligations: \"Il faut que je parte\" (I have to leave) — far more common in speech than the more formal \"il est nécessaire que\".",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Il faut que tu finisses ce travail aujourd'hui.",
+          "en": "You need to finish this work today."
+        },
+        {
+          "sp": "B",
+          "native": "Je sais, je veux juste qu'on m'aide un peu.",
+          "en": "I know, I just want someone to help me a little."
+        }
+      ]
+    },
+    "b1-relative-clauses": {
+      "title": "Relative Clauses: Connecting Ideas with Qui, Que, Où, Dont",
+      "pattern": "qui (subject) · que (object) · où (place/time) · dont (of/about which, replaces de + noun)",
+      "explanation": "\"Qui\" replaces the SUBJECT of the relative clause: \"la femme qui parle\" (the woman who is speaking). \"Que\" replaces the OBJECT: \"le livre que je lis\" (the book that I'm reading). \"Où\" replaces a place or time: \"la ville où je suis né\" (the city where I was born). \"Dont\" replaces anything introduced by \"de\": \"le livre dont je parle\" (the book I'm talking about, from \"parler de\").",
+      "fact": "Unlike English, French never drops the relative pronoun — English allows \"the book I read\" with no \"that,\" but French always requires \"le livre que j'ai lu\", \"que\" can never be omitted.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "C'est la ville où j'ai grandi.",
+          "en": "This is the city where I grew up."
+        },
+        {
+          "sp": "B",
+          "native": "Et qui est cette personne dont tu me parlais l'autre jour ?",
+          "en": "And who is that person you were telling me about the other day?"
+        }
+      ]
+    },
+    "b1-time-expressions": {
+      "title": "Depuis, Pendant, Il y a: Talking About Duration",
+      "pattern": "depuis + present tense (ongoing) · pendant + duration (completed span) · il y a + time (ago)",
+      "explanation": "\"Depuis\" (since/for) pairs with the PRESENT tense for something still ongoing: \"J'habite ici depuis trois ans\" (I've lived here for three years — and still do). \"Pendant\" (for/during) describes a completed span, often with the passé composé: \"J'ai vécu à Lyon pendant trois ans\" (I lived in Lyon for three years — no longer). \"Il y a\" (ago) marks a point in the past: \"Je suis arrivé il y a trois ans\" (I arrived three years ago).",
+      "fact": "This depuis-with-present pattern is a classic difference from English, where \"I have lived here for three years\" uses a perfect tense — French uses the simple present because, from the speaker's perspective, the action is still happening right now.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Tu habites à Paris depuis combien de temps ?",
+          "en": "How long have you lived in Paris?"
+        },
+        {
+          "sp": "B",
+          "native": "J'y habite depuis cinq ans, mais avant j'ai vécu à Nice pendant deux ans.",
+          "en": "I've lived here for five years, but before that I lived in Nice for two years."
+        }
+      ]
+    },
+    "b1-plus-que-parfait": {
+      "title": "Plus-que-parfait: An Action Before Another Past Action",
+      "pattern": "avoir/être (imparfait) + past participle",
+      "explanation": "The plus-que-parfait describes something that had already happened before another point in the past: \"Quand je suis arrivé, ils avaient déjà commencé\" (when I arrived, they had already started). It's built with the IMPERFECT of \"avoir\" or \"être\" plus the past participle — the same auxiliary-choice and agreement rules as the passé composé, just with the auxiliary itself pushed one step further into the past.",
+      "fact": "This tense is what lets you clearly sequence two past events in a story — without it, \"j'ai perdu mes clés que j'avais achetées\" (I lost the keys I had bought) would collapse into ambiguous timing about which event came first.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Quand nous sommes arrivés au cinéma, le film avait déjà commencé.",
+          "en": "When we got to the movies, the film had already started."
+        },
+        {
+          "sp": "B",
+          "native": "Quel dommage ! Je n'étais jamais arrivé aussi en retard.",
+          "en": "What a shame! I had never arrived so late."
+        }
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Kitchen Instructions",
+      "titleNative": "Instructions dans la cuisine",
+      "items": [
+        {
+          "fr": "Coupe les légumes en petits morceaux.",
+          "en": "Cut the vegetables into small pieces."
+        },
+        {
+          "fr": "Ajoute du sel et du poivre selon ton goût.",
+          "en": "Add salt and pepper to your taste."
+        },
+        {
+          "fr": "Ne mets pas trop d'eau dans la casserole.",
+          "en": "Don't put too much water in the pot."
+        },
+        {
+          "fr": "Mélange tous les ingrédients avec soin.",
+          "en": "Mix all the ingredients carefully."
+        }
+      ],
+      "topicId": "b1-imperative"
+    },
+    {
+      "number": 2,
+      "title": "Directions and Advice",
+      "titleNative": "Directions et conseils",
+      "items": [
+        {
+          "fr": "Marche deux rues et tourne à droite.",
+          "en": "Walk two blocks and turn right."
+        },
+        {
+          "fr": "Ne t'inquiète pas trop de ce que pensent les autres.",
+          "en": "Don't worry so much about what others think."
+        },
+        {
+          "fr": "Sois patient, tout va bien se passer.",
+          "en": "Be patient, everything will turn out fine."
+        },
+        {
+          "fr": "Écoute attentivement ce que je vais te dire.",
+          "en": "Listen carefully to what I'm going to tell you."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Classroom Instructions",
+      "titleNative": "Instructions en classe",
+      "items": [
+        {
+          "fr": "Ouvrez vos livres à la page vingt.",
+          "en": "Open your books to page twenty."
+        },
+        {
+          "fr": "Écrivez vos noms en haut de la page.",
+          "en": "Write your names at the top of the page."
+        },
+        {
+          "fr": "Ne parlez pas tous en même temps, s'il vous plaît.",
+          "en": "Don't all talk at the same time, please."
+        },
+        {
+          "fr": "Levez la main si vous avez une question.",
+          "en": "Raise your hand if you have a question."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Formal Requests",
+      "titleNative": "Demandes formelles",
+      "items": [
+        {
+          "fr": "Envoyez-moi le document avant vendredi, s'il vous plaît.",
+          "en": "Please send me the document before Friday."
+        },
+        {
+          "fr": "Signez ici et indiquez la date d'aujourd'hui.",
+          "en": "Sign here and indicate today's date."
+        },
+        {
+          "fr": "N'oubliez pas d'apporter votre pièce d'identité.",
+          "en": "Don't forget to bring your ID."
+        },
+        {
+          "fr": "Attendez un instant pendant que je vérifie vos informations.",
+          "en": "Wait a moment while I check your information."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Health Advice",
+      "titleNative": "Conseils de santé",
+      "items": [
+        {
+          "fr": "Bois suffisamment d'eau pendant la journée.",
+          "en": "Drink enough water during the day."
+        },
+        {
+          "fr": "Dors au moins huit heures chaque nuit.",
+          "en": "Sleep at least eight hours every night."
+        },
+        {
+          "fr": "Ne fume pas, c'est très mauvais pour ta santé.",
+          "en": "Don't smoke, it's very bad for your health."
+        },
+        {
+          "fr": "Fais du sport régulièrement pour te sentir mieux.",
+          "en": "Exercise regularly to feel better."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Household Chores",
+      "titleNative": "Tâches ménagères",
+      "items": [
+        {
+          "fr": "Lave la vaisselle après le dîner.",
+          "en": "Wash the dishes after dinner."
+        },
+        {
+          "fr": "Sors la poubelle avant que le camion n'arrive.",
+          "en": "Take out the trash before the truck arrives."
+        },
+        {
+          "fr": "Ne laisse pas tes vêtements par terre.",
+          "en": "Don't leave your clothes on the floor."
+        },
+        {
+          "fr": "Range ta chambre avant de sortir jouer.",
+          "en": "Tidy your room before going out to play."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Safety Instructions",
+      "titleNative": "Consignes de sécurité",
+      "items": [
+        {
+          "fr": "Ferme la porte à clé avant de dormir.",
+          "en": "Lock the door before sleeping."
+        },
+        {
+          "fr": "Ne traverse pas la rue sans regarder des deux côtés.",
+          "en": "Don't cross the street without looking both ways."
+        },
+        {
+          "fr": "Mets toujours ta ceinture de sécurité.",
+          "en": "Always put on your seatbelt."
+        },
+        {
+          "fr": "Garde une distance de sécurité avec la voiture devant toi.",
+          "en": "Keep a safe distance from the car in front of you."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Encouraging Someone",
+      "titleNative": "Encourager quelqu'un",
+      "items": [
+        {
+          "fr": "N'abandonne pas, tu es tout près d'y arriver.",
+          "en": "Don't give up, you're very close to achieving it."
+        },
+        {
+          "fr": "Aie confiance en toi, tu peux le faire.",
+          "en": "Have confidence in yourself, you can do it."
+        },
+        {
+          "fr": "Continue d'essayer, chaque erreur t'apprend quelque chose.",
+          "en": "Keep trying, every mistake teaches you something."
+        },
+        {
+          "fr": "Sois courageux et fais le premier pas.",
+          "en": "Be brave and take the first step."
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Giving Someone a Recipe",
+      "titleNative": "Donner une recette à quelqu'un",
+      "items": [
+        {
+          "fr": "D'abord, fais chauffer l'huile dans une grande poêle.",
+          "en": "First, heat the oil in a large pan."
+        },
+        {
+          "fr": "Ajoute l'oignon et fais-le cuire jusqu'à ce qu'il dore.",
+          "en": "Add the onion and cook it until it's golden."
+        },
+        {
+          "fr": "Ne le laisse pas cuire trop longtemps.",
+          "en": "Don't let it cook too long."
+        },
+        {
+          "fr": "Sers le plat chaud avec un peu de citron.",
+          "en": "Serve the dish hot with a bit of lemon."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Review: Giving Instructions",
+      "titleNative": "Repaso: Donner des instructions",
+      "items": [
+        {
+          "fr": "Suis ces étapes et tout se passera parfaitement.",
+          "en": "Follow these steps and everything will turn out perfect."
+        },
+        {
+          "fr": "N'oublie pas de tout vérifier avant de rendre le travail.",
+          "en": "Don't forget to check everything before turning in the work."
+        },
+        {
+          "fr": "Sois prudent et préviens-moi si tu as besoin d'aide.",
+          "en": "Be careful and let me know if you need help."
+        },
+        {
+          "fr": "Fais de ton mieux, c'est la seule chose qui compte.",
+          "en": "Do your best, that's the only thing that matters."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "What We Want Others to Do",
+      "titleNative": "Ce que nous voulons que les autres fassent",
+      "items": [
+        {
+          "fr": "Je veux que tu étudies davantage pour l'examen.",
+          "en": "I want you to study more for the exam."
+        },
+        {
+          "fr": "Mes parents veulent que je devienne médecin.",
+          "en": "My parents want me to become a doctor."
+        },
+        {
+          "fr": "Le patron veut que nous finissions le projet aujourd'hui.",
+          "en": "The boss wants us to finish the project today."
+        },
+        {
+          "fr": "Nous voulons que vous veniez au mariage de ma sœur.",
+          "en": "We want you all to come to my sister's wedding."
+        }
+      ],
+      "topicId": "b1-subjunctive-intro"
+    },
+    {
+      "number": 12,
+      "title": "Necessity with Il Faut Que",
+      "titleNative": "La nécessité avec il faut que",
+      "items": [
+        {
+          "fr": "Il faut que je parte tôt demain matin.",
+          "en": "I need to leave early tomorrow morning."
+        },
+        {
+          "fr": "Il faut que nous trouvions une solution rapidement.",
+          "en": "We need to find a solution quickly."
+        },
+        {
+          "fr": "Il faut qu'elle finisse ses devoirs avant le dîner.",
+          "en": "She needs to finish her homework before dinner."
+        },
+        {
+          "fr": "Il faut que vous soyez à l'heure pour la réunion.",
+          "en": "You need to be on time for the meeting."
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "title": "Hopes and Wishes",
+      "titleNative": "Espoirs et souhaits",
+      "items": [
+        {
+          "fr": "J'espère que tu passes un bon voyage.",
+          "en": "I hope you have a good trip."
+        },
+        {
+          "fr": "Nous espérons que tout se passe bien à l'opération.",
+          "en": "We hope everything goes well in the surgery."
+        },
+        {
+          "fr": "J'espère que tu te sentes mieux bientôt.",
+          "en": "I hope you feel better soon."
+        },
+        {
+          "fr": "Nous espérons tous que la situation s'améliore.",
+          "en": "We all hope the situation improves."
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "title": "Doubt and Uncertainty",
+      "titleNative": "Doute et incertitude",
+      "items": [
+        {
+          "fr": "Je doute qu'il arrive à l'heure avec ce trafic.",
+          "en": "I doubt he'll arrive on time with this traffic."
+        },
+        {
+          "fr": "Je ne crois pas que ce soit une bonne idée d'y aller seul.",
+          "en": "I don't think it's a good idea to go alone."
+        },
+        {
+          "fr": "Il est possible qu'il pleuve demain après-midi.",
+          "en": "It's possible that it will rain tomorrow afternoon."
+        },
+        {
+          "fr": "Il n'est pas certain que le vol parte à l'heure.",
+          "en": "It's not certain that the flight will leave on time."
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "title": "Emotions and Feelings",
+      "titleNative": "Émotions et sentiments",
+      "items": [
+        {
+          "fr": "Je suis content que tu sois venu nous rendre visite.",
+          "en": "I'm glad that you came to visit us."
+        },
+        {
+          "fr": "Nous sommes surpris qu'il n'ait pas encore appelé.",
+          "en": "We're surprised that he hasn't called yet."
+        },
+        {
+          "fr": "Ça me dérange que les gens arrivent en retard.",
+          "en": "It bothers me when people arrive late."
+        },
+        {
+          "fr": "Elle adore que ses petits-enfants viennent le dimanche.",
+          "en": "She loves it when her grandchildren come on Sundays."
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "title": "Recommendations and Advice",
+      "titleNative": "Recommandations et conseils",
+      "items": [
+        {
+          "fr": "Je te recommande que tu lises ce livre, il est excellent.",
+          "en": "I recommend that you read that book, it's excellent."
+        },
+        {
+          "fr": "Le médecin suggère qu'il se repose quelques jours.",
+          "en": "The doctor suggests that he rest for a few days."
+        },
+        {
+          "fr": "Je te conseille de lui parler directement.",
+          "en": "I advise you to talk to him directly."
+        },
+        {
+          "fr": "Nous recommandons que vous réserviez la table à l'avance.",
+          "en": "We recommend that you reserve the table in advance."
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "title": "Permission and Prohibition",
+      "titleNative": "Permission et interdiction",
+      "items": [
+        {
+          "fr": "Mes parents ne permettent pas que je sorte tard en semaine.",
+          "en": "My parents don't allow me to go out late on weekdays."
+        },
+        {
+          "fr": "Le professeur interdit qu'on utilise le téléphone en classe.",
+          "en": "The teacher forbids using the phone in class."
+        },
+        {
+          "fr": "Tu permets que je te pose une question ?",
+          "en": "Will you allow me to ask you a question?"
+        },
+        {
+          "fr": "Ils ne laissent pas les enfants jouer dans la rue.",
+          "en": "They don't let the children play in the street."
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "title": "Impersonal Expressions",
+      "titleNative": "Expressions impersonnelles",
+      "items": [
+        {
+          "fr": "Il est important que tout le monde participe à la décision.",
+          "en": "It's important that everyone participate in the decision."
+        },
+        {
+          "fr": "Il est nécessaire que tu apportes ta pièce d'identité.",
+          "en": "It's necessary that you bring your ID."
+        },
+        {
+          "fr": "Il vaut mieux que nous partions tôt pour éviter le trafic.",
+          "en": "It's better that we leave early to avoid traffic."
+        },
+        {
+          "fr": "Il est étrange qu'elle n'ait pas répondu au message.",
+          "en": "It's strange that she hasn't answered the message."
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "title": "Giving Advice at Work",
+      "titleNative": "Donner des conseils au travail",
+      "items": [
+        {
+          "fr": "Je suggère que nous vérifiions le budget avant de décider.",
+          "en": "I suggest we review the budget before deciding."
+        },
+        {
+          "fr": "Il est essentiel que l'équipe travaille ensemble.",
+          "en": "It's essential that the team work together."
+        },
+        {
+          "fr": "Je préfère que tu m'envoies le rapport par courriel.",
+          "en": "I prefer that you send me the report by email."
+        },
+        {
+          "fr": "J'insiste pour que tu te reposes avant de continuer à travailler.",
+          "en": "I insist that you rest before continuing to work."
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "title": "Review: Present Subjunctive",
+      "titleNative": "Repaso: Présent du subjonctif",
+      "items": [
+        {
+          "fr": "Pourvu que tout se passe comme nous l'avons prévu.",
+          "en": "I hope everything turns out as we planned."
+        },
+        {
+          "fr": "Je ne pense pas que ce soit aussi difficile que ça en a l'air.",
+          "en": "I don't think it's as difficult as it seems."
+        },
+        {
+          "fr": "Il est probable que nous arrivions un peu en retard.",
+          "en": "It's likely that we'll arrive a bit late."
+        },
+        {
+          "fr": "Je veux que tu saches que tu peux toujours compter sur moi.",
+          "en": "I want you to know that you can always count on me."
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "title": "Describing People",
+      "titleNative": "Décrire des personnes",
+      "items": [
+        {
+          "fr": "C'est l'homme qui travaille à la boulangerie.",
+          "en": "That's the man who works at the bakery."
+        },
+        {
+          "fr": "La fille que tu as rencontrée hier est ma cousine.",
+          "en": "The girl you met yesterday is my cousin."
+        },
+        {
+          "fr": "Les amis que j'ai invités n'ont pas pu venir.",
+          "en": "The friends I invited couldn't come."
+        },
+        {
+          "fr": "C'est une personne en qui j'ai totalement confiance.",
+          "en": "He's a person I trust completely."
+        }
+      ],
+      "topicId": "b1-relative-clauses"
+    },
+    {
+      "number": 22,
+      "title": "Describing Places",
+      "titleNative": "Décrire des lieux",
+      "items": [
+        {
+          "fr": "C'est le restaurant où nous nous sommes rencontrés.",
+          "en": "This is the restaurant where we met."
+        },
+        {
+          "fr": "Le village où j'habite est très calme.",
+          "en": "The town where I live is very quiet."
+        },
+        {
+          "fr": "Nous sommes allés au parc où nous jouions enfants.",
+          "en": "We went to the park where we used to play as kids."
+        },
+        {
+          "fr": "La ville où je suis né a beaucoup changé.",
+          "en": "The city where I was born has changed a lot."
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "title": "Describing Objects",
+      "titleNative": "Décrire des objets",
+      "items": [
+        {
+          "fr": "La voiture que j'ai achetée est très économique.",
+          "en": "The car I bought is very economical."
+        },
+        {
+          "fr": "La maison que nous avons vue hier a un immense jardin.",
+          "en": "The house we saw yesterday has a huge garden."
+        },
+        {
+          "fr": "J'ai perdu le parapluie que tu m'as offert.",
+          "en": "I lost the umbrella you gave me."
+        },
+        {
+          "fr": "Voici les documents que tu dois signer.",
+          "en": "These are the documents you need to sign."
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "title": "Talking About Colleagues",
+      "titleNative": "Parler de collègues",
+      "items": [
+        {
+          "fr": "Mon patron, qui est très exigeant, a approuvé le projet.",
+          "en": "My boss, who is very demanding, approved the project."
+        },
+        {
+          "fr": "La collègue avec qui je partage un bureau est très gentille.",
+          "en": "The colleague I share an office with is very kind."
+        },
+        {
+          "fr": "Le client pour qui nous travaillons était satisfait.",
+          "en": "The client we worked for was satisfied."
+        },
+        {
+          "fr": "J'ai un collègue qui arrive toujours en retard.",
+          "en": "I have a coworker who always arrives late."
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "title": "Family Relations",
+      "titleNative": "Relations familiales",
+      "items": [
+        {
+          "fr": "Mon oncle, qui habite en Espagne, vient nous rendre visite.",
+          "en": "My uncle, who lives in Spain, is coming to visit us."
+        },
+        {
+          "fr": "La grand-mère dont je t'ai parlé fête ses quatre-vingt-dix ans.",
+          "en": "The grandmother I told you about is turning ninety."
+        },
+        {
+          "fr": "J'ai un frère qui étudie la médecine.",
+          "en": "I have a brother who studies medicine."
+        },
+        {
+          "fr": "C'est la maison où mes parents ont grandi.",
+          "en": "That's the house where my parents grew up."
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "title": "Reasons and Explanations",
+      "titleNative": "Raisons et explications",
+      "items": [
+        {
+          "fr": "La raison pour laquelle je suis arrivé en retard était le trafic.",
+          "en": "The reason I arrived late was the traffic."
+        },
+        {
+          "fr": "Je ne comprends pas la raison pour laquelle il s'est fâché.",
+          "en": "I don't understand the reason he got angry."
+        },
+        {
+          "fr": "C'est la raison pour laquelle j'ai décidé de changer de travail.",
+          "en": "That's the reason I decided to change jobs."
+        },
+        {
+          "fr": "Le jour où nous nous sommes rencontrés était très spécial.",
+          "en": "The day we met was very special."
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "title": "Complex Descriptions",
+      "titleNative": "Descriptions complexes",
+      "items": [
+        {
+          "fr": "Le livre que je lis parle de l'histoire du Mexique.",
+          "en": "The book I'm reading is about the history of Mexico."
+        },
+        {
+          "fr": "L'entreprise pour laquelle je travaille se consacre à la technologie.",
+          "en": "The company I work for is dedicated to technology."
+        },
+        {
+          "fr": "Les gens qui respectent les autres sont admirables.",
+          "en": "People who respect others are admirable."
+        },
+        {
+          "fr": "Le projet sur lequel nous travaillons est très intéressant.",
+          "en": "The project we're working on is very interesting."
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "title": "Opinions with Relative Clauses",
+      "titleNative": "Opinions avec des propositions relatives",
+      "items": [
+        {
+          "fr": "Ce que j'aime le plus dans cette ville, c'est la nourriture.",
+          "en": "What I like most about this city is the food."
+        },
+        {
+          "fr": "Je ne comprends pas ce que tu essaies de dire.",
+          "en": "I don't understand what you're trying to say."
+        },
+        {
+          "fr": "C'est exactement ce que nous avions besoin d'entendre.",
+          "en": "That's exactly what we needed to hear."
+        },
+        {
+          "fr": "Ce qui s'est passé hier ne se reproduira plus.",
+          "en": "What happened yesterday won't happen again."
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "title": "Combining Information",
+      "titleNative": "Combiner des informations",
+      "items": [
+        {
+          "fr": "Le médecin qui m'a soigné était très professionnel.",
+          "en": "The doctor who treated me was very professional."
+        },
+        {
+          "fr": "L'université où j'ai étudié se trouve près du centre-ville.",
+          "en": "The university where I studied is close to downtown."
+        },
+        {
+          "fr": "Les voisins qui habitent à côté sont très bruyants.",
+          "en": "The neighbors who live next door are very noisy."
+        },
+        {
+          "fr": "C'est la raison pour laquelle nous avons décidé de déménager.",
+          "en": "That's the reason why we decided to move."
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "title": "Review: Relative Clauses",
+      "titleNative": "Repaso: Propositions relatives",
+      "items": [
+        {
+          "fr": "La personne que j'admire le plus, c'est ma grand-mère.",
+          "en": "The person I admire most is my grandmother."
+        },
+        {
+          "fr": "L'endroit où nous avons passé les vacances était incroyable.",
+          "en": "The place where we spent our vacation was incredible."
+        },
+        {
+          "fr": "Je ne me souviens pas du nom de l'hôtel où nous sommes restés.",
+          "en": "I don't remember the name of the hotel where we stayed."
+        },
+        {
+          "fr": "C'est ce qui rend cette ville spéciale.",
+          "en": "That's what makes this city special."
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "title": "Ongoing Situations with Depuis",
+      "titleNative": "Situations en cours avec depuis",
+      "items": [
+        {
+          "fr": "J'apprends le français depuis six mois.",
+          "en": "I've been learning French for six months."
+        },
+        {
+          "fr": "Elle travaille dans cette entreprise depuis deux ans.",
+          "en": "She's worked at this company for two years."
+        },
+        {
+          "fr": "Nous habitons dans ce quartier depuis notre mariage.",
+          "en": "We've lived in this neighborhood since our wedding."
+        },
+        {
+          "fr": "Il pleut depuis ce matin.",
+          "en": "It's been raining since this morning."
+        }
+      ],
+      "topicId": "b1-time-expressions"
+    },
+    {
+      "number": 32,
+      "title": "Completed Durations with Pendant",
+      "titleNative": "Durées terminées avec pendant",
+      "items": [
+        {
+          "fr": "J'ai vécu en Italie pendant cinq ans.",
+          "en": "I lived in Italy for five years."
+        },
+        {
+          "fr": "Elle a étudié le droit pendant quatre ans.",
+          "en": "She studied law for four years."
+        },
+        {
+          "fr": "Nous avons attendu pendant deux heures à l'aéroport.",
+          "en": "We waited for two hours at the airport."
+        },
+        {
+          "fr": "Il a travaillé dans cette usine pendant vingt ans.",
+          "en": "He worked at that factory for twenty years."
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "title": "Past Points with Il y a",
+      "titleNative": "Points dans le passé avec il y a",
+      "items": [
+        {
+          "fr": "Je suis arrivé dans cette ville il y a trois ans.",
+          "en": "I arrived in this city three years ago."
+        },
+        {
+          "fr": "Elle a déménagé il y a six mois.",
+          "en": "She moved six months ago."
+        },
+        {
+          "fr": "Nous nous sommes rencontrés il y a longtemps.",
+          "en": "We met a long time ago."
+        },
+        {
+          "fr": "Il a commencé ce travail il y a une semaine.",
+          "en": "He started this job a week ago."
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "title": "Combining All Three",
+      "titleNative": "Combiner les trois expressions",
+      "items": [
+        {
+          "fr": "J'ai déménagé ici il y a deux ans, et depuis, je m'y sens chez moi.",
+          "en": "I moved here two years ago, and since then, I feel at home here."
+        },
+        {
+          "fr": "Elle a étudié la médecine pendant six ans avant de devenir médecin.",
+          "en": "She studied medicine for six years before becoming a doctor."
+        },
+        {
+          "fr": "Nous nous connaissons depuis longtemps, depuis l'université en fait.",
+          "en": "We've known each other for a long time, since university actually."
+        },
+        {
+          "fr": "Il a vécu à l'étranger pendant dix ans avant de rentrer il y a peu.",
+          "en": "He lived abroad for ten years before returning recently."
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "title": "Asking About Duration",
+      "titleNative": "Demander la durée",
+      "items": [
+        {
+          "fr": "Depuis combien de temps apprends-tu le français ?",
+          "en": "How long have you been learning French?"
+        },
+        {
+          "fr": "Depuis quand habites-tu dans cette ville ?",
+          "en": "Since when have you lived in this city?"
+        },
+        {
+          "fr": "Pendant combien de temps as-tu voyagé en Asie ?",
+          "en": "How long did you travel in Asia?"
+        },
+        {
+          "fr": "Il y a combien de temps que tu as commencé ce travail ?",
+          "en": "How long ago did you start this job?"
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "title": "Career Timeline",
+      "titleNative": "Parcours professionnel",
+      "items": [
+        {
+          "fr": "Je travaille dans ce domaine depuis dix ans.",
+          "en": "I've worked in this field for ten years."
+        },
+        {
+          "fr": "Elle a été directrice pendant cinq ans avant de démissionner.",
+          "en": "She was director for five years before resigning."
+        },
+        {
+          "fr": "Il a changé de carrière il y a deux ans.",
+          "en": "He changed careers two years ago."
+        },
+        {
+          "fr": "Nous collaborons ensemble depuis le début du projet.",
+          "en": "We've been collaborating since the beginning of the project."
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "title": "Relationships Over Time",
+      "titleNative": "Relations dans le temps",
+      "items": [
+        {
+          "fr": "Ils sont mariés depuis vingt ans.",
+          "en": "They've been married for twenty years."
+        },
+        {
+          "fr": "Nous sommes amis depuis le lycée.",
+          "en": "We've been friends since high school."
+        },
+        {
+          "fr": "Elle a été en couple avec lui pendant trois ans.",
+          "en": "She was in a relationship with him for three years."
+        },
+        {
+          "fr": "Ils se sont rencontrés il y a très longtemps.",
+          "en": "They met a very long time ago."
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "title": "Health and Habits Over Time",
+      "titleNative": "Santé et habitudes dans le temps",
+      "items": [
+        {
+          "fr": "Je fais du sport régulièrement depuis janvier.",
+          "en": "I've been exercising regularly since January."
+        },
+        {
+          "fr": "Elle a arrêté de fumer il y a un an.",
+          "en": "She quit smoking a year ago."
+        },
+        {
+          "fr": "Il a suivi ce régime pendant trois mois.",
+          "en": "He followed this diet for three months."
+        },
+        {
+          "fr": "Nous mangeons plus sainement depuis quelques mois.",
+          "en": "We've been eating healthier for a few months."
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "title": "Historical Events with Time Markers",
+      "titleNative": "Événements historiques avec marqueurs temporels",
+      "items": [
+        {
+          "fr": "Cette entreprise existe depuis plus de cent ans.",
+          "en": "This company has existed for more than a hundred years."
+        },
+        {
+          "fr": "La guerre a duré pendant quatre longues années.",
+          "en": "The war lasted for four long years."
+        },
+        {
+          "fr": "Ce monument a été construit il y a plusieurs siècles.",
+          "en": "This monument was built several centuries ago."
+        },
+        {
+          "fr": "Le pays est indépendant depuis mille neuf cent soixante.",
+          "en": "The country has been independent since 1960."
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "title": "Review: Time Expressions",
+      "titleNative": "Repaso: Expressions de temps",
+      "items": [
+        {
+          "fr": "Je vis dans cette maison depuis ma naissance.",
+          "en": "I've lived in this house since I was born."
+        },
+        {
+          "fr": "Nous avons voyagé pendant tout l'été.",
+          "en": "We traveled all summer."
+        },
+        {
+          "fr": "Ils se sont installés ici il y a dix ans.",
+          "en": "They settled here ten years ago."
+        },
+        {
+          "fr": "Elle apprend le piano depuis qu'elle a cinq ans.",
+          "en": "She's been learning piano since she was five."
+        }
+      ]
+    },
+    {
+      "number": 41,
+      "title": "Before Something Else Happened",
+      "titleNative": "Avant que quelque chose d'autre n'arrive",
+      "items": [
+        {
+          "fr": "Quand je me suis réveillé, mon frère était déjà parti travailler.",
+          "en": "When I woke up, my brother had already left for work."
+        },
+        {
+          "fr": "Nous avions déjà dîné quand les invités sont arrivés.",
+          "en": "We had already had dinner when the guests arrived."
+        },
+        {
+          "fr": "Je n'avais jamais vu un endroit aussi beau.",
+          "en": "I had never seen such a beautiful place."
+        },
+        {
+          "fr": "Quand j'ai trouvé les clés, j'avais déjà appelé un serrurier.",
+          "en": "When I found the keys, I had already called a locksmith."
+        }
+      ],
+      "topicId": "b1-plus-que-parfait"
+    },
+    {
+      "number": 42,
+      "title": "Life Before a Major Change",
+      "titleNative": "La vie avant un grand changement",
+      "items": [
+        {
+          "fr": "Avant de déménager, nous avions déjà vécu dans cette ville enfants.",
+          "en": "Before moving, we had already lived in that city as children."
+        },
+        {
+          "fr": "J'avais déjà fini l'université quand j'ai rencontré ma femme.",
+          "en": "I had already finished college when I met my wife."
+        },
+        {
+          "fr": "Mes grands-parents avaient émigré d'Italie il y a de nombreuses années.",
+          "en": "My grandparents had emigrated from Italy many years ago."
+        },
+        {
+          "fr": "L'entreprise avait déjà fermé quand nous avons décidé d'investir.",
+          "en": "The company had already closed when we decided to invest."
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "title": "Storytelling in the Past",
+      "titleNative": "Raconter des histoires au passé",
+      "items": [
+        {
+          "fr": "Le détective a découvert que le suspect s'était déjà échappé.",
+          "en": "The detective discovered that the suspect had already escaped."
+        },
+        {
+          "fr": "Personne ne savait qu'elle avait vécu dans tant de pays.",
+          "en": "No one knew she had lived in so many countries."
+        },
+        {
+          "fr": "Quand l'orage a cessé, la rivière avait déjà beaucoup monté.",
+          "en": "When the storm ended, the river had already risen a lot."
+        },
+        {
+          "fr": "Les enfants ont été surpris de voir ce qu'ils avaient construit.",
+          "en": "The children were surprised to see what they had built."
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "title": "Sequence of Past Events",
+      "titleNative": "Séquence d'événements passés",
+      "items": [
+        {
+          "fr": "Après que nous avions mangé, nous sommes sortis marcher.",
+          "en": "After we had eaten, we went out for a walk."
+        },
+        {
+          "fr": "Il faisait déjà nuit quand nous avons fini le travail.",
+          "en": "It had already gotten dark when we finished the work."
+        },
+        {
+          "fr": "Nous avions prévu le voyage bien avant la pandémie.",
+          "en": "We had planned the trip long before the pandemic."
+        },
+        {
+          "fr": "Quand le médecin est arrivé, le patient avait déjà amélioré.",
+          "en": "When the doctor arrived, the patient had already improved."
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "title": "What Had Changed",
+      "titleNative": "Ce qui avait changé",
+      "items": [
+        {
+          "fr": "Le village avait beaucoup changé depuis ma dernière visite.",
+          "en": "The town had changed a lot since my last visit."
+        },
+        {
+          "fr": "Je n'ai pas reconnu la rue car ils avaient construit de nouveaux bâtiments.",
+          "en": "I didn't recognize the street because they had built new buildings."
+        },
+        {
+          "fr": "Mon ami avait beaucoup maigri depuis la dernière fois que je l'ai vu.",
+          "en": "My friend had lost a lot of weight since I last saw him."
+        },
+        {
+          "fr": "L'entreprise avait énormément grandi en quelques années.",
+          "en": "The company had grown enormously in a few years."
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "title": "Combining Past Tenses",
+      "titleNative": "Combiner les temps du passé",
+      "items": [
+        {
+          "fr": "Quand je suis sorti de la maison, il avait déjà commencé à pleuvoir.",
+          "en": "When I left home, it had already started to rain."
+        },
+        {
+          "fr": "Elle était fatiguée parce qu'elle avait travaillé toute la nuit.",
+          "en": "She was tired because she had worked all night."
+        },
+        {
+          "fr": "Nous n'avons pas pu entrer parce qu'ils avaient déjà fermé la porte.",
+          "en": "We couldn't get in because they had already closed the door."
+        },
+        {
+          "fr": "Il connaissait la réponse parce qu'il avait lu le livre deux fois.",
+          "en": "He knew the answer because he had read the book twice."
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "title": "Surprises About the Past",
+      "titleNative": "Surprises sur le passé",
+      "items": [
+        {
+          "fr": "J'ai été surpris d'apprendre qu'ils avaient annulé le vol.",
+          "en": "I was surprised to learn that they had canceled the flight."
+        },
+        {
+          "fr": "Je n'imaginais pas que tu avais vécu quelque chose d'aussi difficile.",
+          "en": "I didn't imagine you had lived through something so difficult."
+        },
+        {
+          "fr": "Nous avons découvert que la maison avait appartenu à un artiste célèbre.",
+          "en": "We discovered that the house had belonged to a famous artist."
+        },
+        {
+          "fr": "On ne m'avait jamais raconté cette histoire de famille.",
+          "en": "No one had ever told me that family story."
+        }
+      ]
+    },
+    {
+      "number": 48,
+      "title": "Reflecting on Past Decisions",
+      "titleNative": "Réfléchir sur des décisions passées",
+      "items": [
+        {
+          "fr": "Nous avions décidé d'attendre, et c'était la bonne décision.",
+          "en": "We had decided to wait, and it was the right decision."
+        },
+        {
+          "fr": "J'avais déjà considéré cette option avant de la rejeter.",
+          "en": "I had already considered that option before rejecting it."
+        },
+        {
+          "fr": "Ils avaient discuté du sujet plusieurs fois avant de décider.",
+          "en": "They had discussed the topic many times before deciding."
+        },
+        {
+          "fr": "J'avais déjà démissionné quand on m'a offert la promotion.",
+          "en": "I had already resigned when they offered me the promotion."
+        }
+      ]
+    },
+    {
+      "number": 49,
+      "title": "Emotional Reflections",
+      "titleNative": "Réflexions émotionnelles",
+      "items": [
+        {
+          "fr": "Elle avait toujours rêvé de visiter Paris.",
+          "en": "She had always dreamed of visiting Paris."
+        },
+        {
+          "fr": "Nous n'avions jamais parlé de ce sujet avec autant de calme.",
+          "en": "We had never talked about this topic so calmly."
+        },
+        {
+          "fr": "Il avait espéré une réponse différente.",
+          "en": "He had hoped for a different answer."
+        },
+        {
+          "fr": "Je m'étais habitué à vivre seul avant de te rencontrer.",
+          "en": "I had gotten used to living alone before meeting you."
+        }
+      ]
+    },
+    {
+      "number": 50,
+      "title": "Review: Plus-que-parfait",
+      "titleNative": "Repaso: Plus-que-parfait",
+      "items": [
+        {
+          "fr": "Quand nous sommes arrivés, la fête avait déjà fini.",
+          "en": "When we arrived, the party had already ended."
+        },
+        {
+          "fr": "Je n'avais jamais goûté un plat aussi délicieux.",
+          "en": "I had never tried such a delicious dish."
+        },
+        {
+          "fr": "Nous avions déjà parlé de cela avant ton arrivée.",
+          "en": "We had already talked about this before you arrived."
+        },
+        {
+          "fr": "L'équipe avait gagné trois matchs de suite avant de perdre.",
+          "en": "The team had won three games in a row before losing."
+        }
+      ]
+    },
+    {
+      "number": 51,
+      "title": "Public Transportation",
+      "titleNative": "Transports en commun",
+      "items": [
+        {
+          "fr": "Je préfère prendre le métro parce que c'est plus rapide que le bus.",
+          "en": "I prefer to take the subway because it's faster than the bus."
+        },
+        {
+          "fr": "La station est à dix minutes à pied de chez moi.",
+          "en": "The station is a ten-minute walk from my house."
+        },
+        {
+          "fr": "Aux heures de pointe, les trains sont complètement bondés.",
+          "en": "During rush hour, the trains are completely packed."
+        },
+        {
+          "fr": "J'ai acheté un abonnement mensuel pour économiser de l'argent.",
+          "en": "I bought a monthly pass to save money."
+        }
+      ]
+    },
+    {
+      "number": 52,
+      "title": "Traffic and Congestion",
+      "titleNative": "Circulation et embouteillages",
+      "items": [
+        {
+          "fr": "La circulation dans cette ville empire chaque année.",
+          "en": "The traffic in this city gets worse every year."
+        },
+        {
+          "fr": "Il y a un embouteillage énorme sur l'avenue principale.",
+          "en": "There's a huge traffic jam on the main avenue."
+        },
+        {
+          "fr": "Beaucoup de gens préfèrent le vélo pour éviter les embouteillages.",
+          "en": "Many people prefer bicycles to avoid traffic jams."
+        },
+        {
+          "fr": "La mairie prévoit de construire plus de voies pour les bus.",
+          "en": "The city council plans to build more bus lanes."
+        }
+      ]
+    },
+    {
+      "number": 53,
+      "title": "Urban Planning",
+      "titleNative": "Urbanisme",
+      "items": [
+        {
+          "fr": "Ils construisent un nouveau parc au centre-ville.",
+          "en": "They're building a new park downtown."
+        },
+        {
+          "fr": "La ville a besoin de plus d'espaces verts pour les habitants.",
+          "en": "The city needs more green spaces for residents."
+        },
+        {
+          "fr": "Le nouveau bâtiment aura des panneaux solaires sur le toit.",
+          "en": "The new building will have solar panels on the roof."
+        },
+        {
+          "fr": "Le quartier a beaucoup changé grâce aux nouveaux investissements.",
+          "en": "The neighborhood has changed a lot thanks to new investments."
+        }
+      ]
+    },
+    {
+      "number": 54,
+      "title": "Environmental Issues",
+      "titleNative": "Problèmes environnementaux",
+      "items": [
+        {
+          "fr": "La pollution de l'air affecte la santé de tout le monde.",
+          "en": "Air pollution affects everyone's health."
+        },
+        {
+          "fr": "Il est important de recycler le plastique et le verre.",
+          "en": "It's important to recycle plastic and glass."
+        },
+        {
+          "fr": "Le réchauffement climatique change le climat de la planète.",
+          "en": "Global warming is changing the planet's climate."
+        },
+        {
+          "fr": "Nous devrions réduire l'utilisation des sacs plastiques.",
+          "en": "We should reduce the use of plastic bags."
+        }
+      ]
+    },
+    {
+      "number": 55,
+      "title": "Water and Energy Conservation",
+      "titleNative": "Économie d'eau et d'énergie",
+      "items": [
+        {
+          "fr": "Nous fermons le robinet en nous brossant les dents.",
+          "en": "We turn off the tap while we brush our teeth."
+        },
+        {
+          "fr": "Éteins les lumières quand tu quittes la pièce.",
+          "en": "Turn off the lights when you leave the room."
+        },
+        {
+          "fr": "Le gouvernement encourage l'usage des énergies renouvelables.",
+          "en": "The government promotes the use of renewable energy."
+        },
+        {
+          "fr": "Nous avons installé des panneaux solaires pour économiser l'électricité.",
+          "en": "We installed solar panels to save electricity."
+        }
+      ]
+    },
+    {
+      "number": 56,
+      "title": "Wildlife and Nature",
+      "titleNative": "Faune et nature",
+      "items": [
+        {
+          "fr": "La déforestation met en danger de nombreuses espèces.",
+          "en": "Deforestation endangers many species."
+        },
+        {
+          "fr": "Nous avons vu plusieurs animaux sauvages pendant la randonnée.",
+          "en": "We saw several wild animals during the hike."
+        },
+        {
+          "fr": "La forêt abrite des milliers d'espèces de plantes.",
+          "en": "The forest is home to thousands of plant species."
+        },
+        {
+          "fr": "Il est essentiel de protéger les océans et leurs créatures.",
+          "en": "It's essential to protect the oceans and their creatures."
+        }
+      ]
+    },
+    {
+      "number": 57,
+      "title": "Community Life",
+      "titleNative": "Vie communautaire",
+      "items": [
+        {
+          "fr": "Les voisins ont organisé un nettoyage du parc.",
+          "en": "The neighbors organized a park cleanup."
+        },
+        {
+          "fr": "Nous avons participé à une collecte pour aider les plus démunis.",
+          "en": "We participated in a drive to help the neediest."
+        },
+        {
+          "fr": "La communauté s'est unie pour reconstruire l'école.",
+          "en": "The community came together to rebuild the school."
+        },
+        {
+          "fr": "Il y a un marché local tous les samedis sur la place.",
+          "en": "There's a local market every Saturday in the square."
+        }
+      ]
+    },
+    {
+      "number": 58,
+      "title": "City Services",
+      "titleNative": "Services municipaux",
+      "items": [
+        {
+          "fr": "La bibliothèque publique propose des cours de langues gratuits.",
+          "en": "The public library offers free language classes."
+        },
+        {
+          "fr": "L'hôpital municipal accueille des milliers de patients par mois.",
+          "en": "The municipal hospital treats thousands of patients a month."
+        },
+        {
+          "fr": "Il faut renouveler son permis de conduire tous les cinq ans.",
+          "en": "You have to renew your driver's license every five years."
+        },
+        {
+          "fr": "La mairie a amélioré l'éclairage public du quartier.",
+          "en": "The city council improved the neighborhood's street lighting."
+        }
+      ]
+    },
+    {
+      "number": 59,
+      "title": "Living in a Big City vs. a Small Town",
+      "titleNative": "Vivre en grande ville ou dans un petit village",
+      "items": [
+        {
+          "fr": "En ville, il y a plus d'opportunités de travail.",
+          "en": "In the city there are more job opportunities."
+        },
+        {
+          "fr": "Au village, la vie est plus tranquille et moins chère.",
+          "en": "In the town, life is quieter and less expensive."
+        },
+        {
+          "fr": "Le silence de la campagne me manque quand je suis en ville.",
+          "en": "I miss the silence of the countryside when I'm in the city."
+        },
+        {
+          "fr": "Beaucoup de jeunes déménagent dans la capitale pour étudier.",
+          "en": "Many young people move to the capital to study."
+        }
+      ]
+    },
+    {
+      "number": 60,
+      "title": "Review: City and Environment",
+      "titleNative": "Repaso: Ville et environnement",
+      "items": [
+        {
+          "fr": "Notre ville s'est beaucoup améliorée en matière d'environnement.",
+          "en": "Our city has improved a lot in environmental matters."
+        },
+        {
+          "fr": "Nous devrions tous faire notre part pour protéger la planète.",
+          "en": "We should all do our part to take care of the planet."
+        },
+        {
+          "fr": "Les transports en commun aident à réduire la pollution.",
+          "en": "Public transportation helps reduce pollution."
+        },
+        {
+          "fr": "J'espère que la prochaine génération héritera d'un monde meilleur.",
+          "en": "I hope the next generation inherits a better world."
+        }
+      ]
+    },
+    {
+      "number": 61,
+      "title": "Smartphones and Apps",
+      "titleNative": "Smartphones et applications",
+      "items": [
+        {
+          "fr": "J'ai téléchargé une nouvelle application pour apprendre des langues.",
+          "en": "I downloaded a new app to learn languages."
+        },
+        {
+          "fr": "Mon téléphone n'avait plus de batterie au pire moment.",
+          "en": "My phone ran out of battery at the worst moment."
+        },
+        {
+          "fr": "J'utilise mon portable pour presque tout, du paiement au travail.",
+          "en": "I use my phone for almost everything, from paying to working."
+        },
+        {
+          "fr": "J'ai mis à jour le système de mon ordinateur hier.",
+          "en": "I updated my computer's operating system yesterday."
+        }
+      ]
+    },
+    {
+      "number": 62,
+      "title": "Social Media",
+      "titleNative": "Réseaux sociaux",
+      "items": [
+        {
+          "fr": "Je passe trop de temps à regarder les réseaux sociaux.",
+          "en": "I spend too much time checking social media."
+        },
+        {
+          "fr": "Elle a publié une photo de ses vacances à la plage.",
+          "en": "She posted a photo of her beach vacation."
+        },
+        {
+          "fr": "Beaucoup de gens partagent de fausses nouvelles sans les vérifier.",
+          "en": "A lot of people share fake news without checking it."
+        },
+        {
+          "fr": "J'ai arrêté de suivre plusieurs comptes qui me faisaient sentir mal.",
+          "en": "I stopped following several accounts that made me feel bad."
+        }
+      ]
+    },
+    {
+      "number": 63,
+      "title": "Streaming and Entertainment",
+      "titleNative": "Streaming et divertissement",
+      "items": [
+        {
+          "fr": "Nous avons regardé toute la série en un seul week-end.",
+          "en": "We watched the whole series in a single weekend."
+        },
+        {
+          "fr": "Je préfère écouter de la musique plutôt que regarder la télévision.",
+          "en": "I prefer listening to music instead of watching television."
+        },
+        {
+          "fr": "La plateforme a ajouté plusieurs nouveaux films ce mois-ci.",
+          "en": "The platform added several new movies this month."
+        },
+        {
+          "fr": "J'ai annulé mon abonnement parce que je ne l'utilisais presque jamais.",
+          "en": "I canceled my subscription because I barely used it."
+        }
+      ]
+    },
+    {
+      "number": 64,
+      "title": "Online Communication",
+      "titleNative": "Communication en ligne",
+      "items": [
+        {
+          "fr": "Je lui ai envoyé un message mais il n'a pas encore répondu.",
+          "en": "I sent him a message but he hasn't answered yet."
+        },
+        {
+          "fr": "Nous avons fait un appel vidéo pour parler avec toute la famille.",
+          "en": "We did a video call to talk with the whole family."
+        },
+        {
+          "fr": "Je préfère appeler plutôt qu'écrire des messages.",
+          "en": "I prefer calling on the phone instead of writing messages."
+        },
+        {
+          "fr": "Le courriel reste important pour le travail.",
+          "en": "Email is still important for work."
+        }
+      ]
+    },
+    {
+      "number": 65,
+      "title": "Online Shopping",
+      "titleNative": "Achats en ligne",
+      "items": [
+        {
+          "fr": "J'ai acheté ces chaussures en ligne la semaine dernière.",
+          "en": "I bought these shoes online last week."
+        },
+        {
+          "fr": "Le colis est arrivé plus tôt que prévu.",
+          "en": "The package arrived earlier than I expected."
+        },
+        {
+          "fr": "Je compare les prix sur plusieurs sites avant d'acheter quelque chose.",
+          "en": "I compare prices on several sites before buying something."
+        },
+        {
+          "fr": "J'ai renvoyé le produit parce que ce n'était pas ce que j'avais commandé.",
+          "en": "I returned the product because it wasn't what I had ordered."
+        }
+      ]
+    },
+    {
+      "number": 66,
+      "title": "Cybersecurity and Privacy",
+      "titleNative": "Cybersécurité et vie privée",
+      "items": [
+        {
+          "fr": "Il est important d'utiliser des mots de passe forts et différents.",
+          "en": "It's important to use strong, different passwords."
+        },
+        {
+          "fr": "J'ai reçu un courriel suspect qui ressemblait à une arnaque.",
+          "en": "I received a suspicious email that looked like a scam."
+        },
+        {
+          "fr": "Ne partage pas tes informations personnelles avec des inconnus.",
+          "en": "Don't share your personal information with strangers."
+        },
+        {
+          "fr": "J'ai activé la vérification en deux étapes pour plus de sécurité.",
+          "en": "I turned on two-step verification for more security."
+        }
+      ]
+    },
+    {
+      "number": 67,
+      "title": "Working from Home",
+      "titleNative": "Télétravail",
+      "items": [
+        {
+          "fr": "Je travaille de la maison trois jours par semaine.",
+          "en": "I work from home three days a week."
+        },
+        {
+          "fr": "Il est difficile de se concentrer avec autant de distractions.",
+          "en": "It's hard to concentrate when there are so many distractions."
+        },
+        {
+          "fr": "Nous avons une réunion virtuelle tous les lundis matin.",
+          "en": "We have a virtual meeting every Monday morning."
+        },
+        {
+          "fr": "Les interactions en face à face avec mes collègues me manquent.",
+          "en": "I miss face-to-face interaction with my coworkers."
+        }
+      ]
+    },
+    {
+      "number": 68,
+      "title": "Artificial Intelligence",
+      "titleNative": "Intelligence artificielle",
+      "items": [
+        {
+          "fr": "L'intelligence artificielle transforme de nombreux métiers.",
+          "en": "Artificial intelligence is changing many jobs."
+        },
+        {
+          "fr": "Certaines entreprises utilisent des robots pour les tâches répétitives.",
+          "en": "Some companies use robots for repetitive tasks."
+        },
+        {
+          "fr": "Nous ne savons pas encore jusqu'où ira cette technologie.",
+          "en": "We still don't know how far this technology will go."
+        },
+        {
+          "fr": "Cette application traduit les textes automatiquement.",
+          "en": "That app translates texts automatically."
+        }
+      ]
+    },
+    {
+      "number": 69,
+      "title": "News and Journalism",
+      "titleNative": "Actualités et journalisme",
+      "items": [
+        {
+          "fr": "Je lis les nouvelles en ligne tous les matins.",
+          "en": "I read the news online every morning."
+        },
+        {
+          "fr": "Il est important de vérifier la source avant de croire une nouvelle.",
+          "en": "It's important to check the source before believing a news story."
+        },
+        {
+          "fr": "Le journal local a publié un article sur ce sujet.",
+          "en": "The local newspaper published an article about the topic."
+        },
+        {
+          "fr": "J'ai entendu la nouvelle à la radio en allant au travail.",
+          "en": "I heard the news on the radio on my way to work."
+        }
+      ]
+    },
+    {
+      "number": 70,
+      "title": "Review: Technology and Media",
+      "titleNative": "Repaso: Technologie et médias",
+      "items": [
+        {
+          "fr": "La technologie a changé notre façon de communiquer.",
+          "en": "Technology has changed the way we communicate."
+        },
+        {
+          "fr": "Parfois, il est bon de se déconnecter des écrans.",
+          "en": "Sometimes it's good to disconnect from screens."
+        },
+        {
+          "fr": "Grâce à internet, nous pouvons apprendre presque n'importe quoi.",
+          "en": "Thanks to the internet, we can learn almost anything."
+        },
+        {
+          "fr": "J'espère que nous saurons utiliser la technologie avec responsabilité.",
+          "en": "I hope we know how to use technology responsibly."
+        }
+      ]
+    },
+    {
+      "number": 71,
+      "title": "Holidays and Celebrations",
+      "titleNative": "Fêtes et célébrations",
+      "items": [
+        {
+          "fr": "Noël se fête en famille dans presque tous les foyers français.",
+          "en": "Christmas is celebrated with family in almost every French household."
+        },
+        {
+          "fr": "Chaque région a ses propres traditions pour les fêtes.",
+          "en": "Each region has its own traditions for the holidays."
+        },
+        {
+          "fr": "Nous décorons la maison avec des lumières pour la fête.",
+          "en": "We decorate the house with lights for the celebration."
+        },
+        {
+          "fr": "Toute la famille se réunit pour célébrer le Nouvel An ensemble.",
+          "en": "The whole family gets together to celebrate New Year's together."
+        }
+      ]
+    },
+    {
+      "number": 72,
+      "title": "Weddings and Family Events",
+      "titleNative": "Mariages et événements familiaux",
+      "items": [
+        {
+          "fr": "Le mariage aura lieu dans un jardin en plein air.",
+          "en": "The wedding will be held in an outdoor garden."
+        },
+        {
+          "fr": "Les mariés ont dansé leur première chanson ensemble.",
+          "en": "The bride and groom danced their first song together."
+        },
+        {
+          "fr": "C'était un baptême très émouvant pour toute la famille.",
+          "en": "It was a very emotional baptism for the whole family."
+        },
+        {
+          "fr": "Nous avons célébré l'anniversaire de mariage de mes parents avec un dîner.",
+          "en": "We celebrated my parents' wedding anniversary with a dinner."
+        }
+      ]
+    },
+    {
+      "number": 73,
+      "title": "Music and Dance",
+      "titleNative": "Musique et danse",
+      "items": [
+        {
+          "fr": "La chanson française a une longue et riche histoire.",
+          "en": "French song has a long and rich history."
+        },
+        {
+          "fr": "J'adore danser la valse le week-end.",
+          "en": "I love dancing the waltz on weekends."
+        },
+        {
+          "fr": "La musique folklorique raconte l'histoire de notre peuple.",
+          "en": "Folk music tells the story of our people."
+        },
+        {
+          "fr": "Ce chanteur mélange des rythmes traditionnels avec des sons modernes.",
+          "en": "That singer mixes traditional rhythms with modern sounds."
+        }
+      ]
+    },
+    {
+      "number": 74,
+      "title": "Food and Culinary Traditions",
+      "titleNative": "Cuisine et traditions culinaires",
+      "items": [
+        {
+          "fr": "Chaque région française a son propre plat typique.",
+          "en": "Each French region has its own typical dish."
+        },
+        {
+          "fr": "Ma grand-mère m'a appris la recette secrète de la famille.",
+          "en": "My grandmother taught me the family's secret recipe."
+        },
+        {
+          "fr": "Le pain est un ingrédient essentiel dans de nombreux repas français.",
+          "en": "Bread is an essential ingredient in many French meals."
+        },
+        {
+          "fr": "Nous préparons des crêpes ensemble comme tradition chaque février.",
+          "en": "We prepare crepes together as a tradition every February."
+        }
+      ]
+    },
+    {
+      "number": 75,
+      "title": "Art and Literature",
+      "titleNative": "Art et littérature",
+      "items": [
+        {
+          "fr": "Ce peintre est connu pour ses tableaux pleins de couleur.",
+          "en": "That painter is known for his paintings full of color."
+        },
+        {
+          "fr": "J'ai lu un roman qui a gagné un prix littéraire important.",
+          "en": "I read a novel that won an important literary prize."
+        },
+        {
+          "fr": "Le musée expose des œuvres d'artistes français contemporains.",
+          "en": "The museum exhibits works by contemporary French artists."
+        },
+        {
+          "fr": "La poésie de cet auteur reflète la vie à la campagne.",
+          "en": "That author's poetry reflects life in the countryside."
+        }
+      ]
+    },
+    {
+      "number": 76,
+      "title": "Regional Diversity",
+      "titleNative": "Diversité régionale",
+      "items": [
+        {
+          "fr": "Chaque région du pays a son propre accent et ses expressions.",
+          "en": "Each region of the country has its own accent and expressions."
+        },
+        {
+          "fr": "Les montagnes et la côte offrent des paysages complètement différents.",
+          "en": "The mountains and the coast offer completely different landscapes."
+        },
+        {
+          "fr": "La gastronomie change beaucoup d'une région à l'autre.",
+          "en": "The cuisine changes a lot from one region to another."
+        },
+        {
+          "fr": "Nous avons visité plusieurs villages avec des coutumes très différentes.",
+          "en": "We visited several villages with very different customs."
+        }
+      ]
+    },
+    {
+      "number": 77,
+      "title": "Historical Figures and Events",
+      "titleNative": "Personnages et événements historiques",
+      "items": [
+        {
+          "fr": "Ce dirigeant s'est battu pour l'indépendance de son pays.",
+          "en": "That leader fought for his country's independence."
+        },
+        {
+          "fr": "La révolution a complètement changé l'histoire de la nation.",
+          "en": "The revolution completely changed the nation's history."
+        },
+        {
+          "fr": "Nous avons étudié la vie de plusieurs héros nationaux à l'école.",
+          "en": "We studied the lives of several national heroes in school."
+        },
+        {
+          "fr": "Le monument rend hommage à ceux qui ont lutté pour la liberté.",
+          "en": "The monument commemorates those who fought for freedom."
+        }
+      ]
+    },
+    {
+      "number": 78,
+      "title": "Festivals and Public Events",
+      "titleNative": "Festivals et événements publics",
+      "items": [
+        {
+          "fr": "Le festival de cinéma attire des visiteurs du monde entier.",
+          "en": "The film festival attracts visitors from all over the world."
+        },
+        {
+          "fr": "Il y a un immense défilé dans les rues principales chaque année.",
+          "en": "There's a huge parade through the main streets every year."
+        },
+        {
+          "fr": "Le carnaval est l'une des célébrations les plus importantes de l'année.",
+          "en": "Carnival is one of the most important celebrations of the year."
+        },
+        {
+          "fr": "Des milliers de personnes assistent au concert gratuit dans le parc.",
+          "en": "Thousands of people attend the free concert in the park."
+        }
+      ]
+    },
+    {
+      "number": 79,
+      "title": "Language and Identity",
+      "titleNative": "Langue et identité",
+      "items": [
+        {
+          "fr": "La langue fait partie intégrante de notre identité.",
+          "en": "Language is a fundamental part of our identity."
+        },
+        {
+          "fr": "De nombreuses communautés parlent encore leurs langues régionales.",
+          "en": "Many communities still speak their regional languages."
+        },
+        {
+          "fr": "Apprendre une nouvelle langue ouvre des portes vers d'autres cultures.",
+          "en": "Learning a new language opens doors to other cultures."
+        },
+        {
+          "fr": "Nous sommes fiers de nos racines et de nos traditions.",
+          "en": "We feel proud of our roots and traditions."
+        }
+      ]
+    },
+    {
+      "number": 80,
+      "title": "Review: Culture and Traditions",
+      "titleNative": "Repaso: Culture et traditions",
+      "items": [
+        {
+          "fr": "Les traditions nous relient aux générations précédentes.",
+          "en": "Traditions connect us with previous generations."
+        },
+        {
+          "fr": "J'espère que ces coutumes se transmettront aux enfants.",
+          "en": "I hope these customs are passed on to the children."
+        },
+        {
+          "fr": "Chaque célébration raconte une partie de notre histoire.",
+          "en": "Each celebration tells a part of our history."
+        },
+        {
+          "fr": "J'adore découvrir les traditions d'autres pays.",
+          "en": "I love discovering the traditions of other countries."
+        }
+      ]
+    },
+    {
+      "number": 81,
+      "title": "Combining Tenses: A Busy Week",
+      "titleNative": "Combiner les temps : une semaine chargée",
+      "items": [
+        {
+          "fr": "J'ai eu une semaine très chargée, mais j'ai réussi à tout finir.",
+          "en": "I've had a very busy week, but I've managed to finish everything."
+        },
+        {
+          "fr": "Hier, j'avais promis d'appeler ma mère, et je l'ai enfin fait.",
+          "en": "Yesterday I had promised to call my mother, and I finally did it."
+        },
+        {
+          "fr": "J'espère que la semaine prochaine sera un peu plus calme.",
+          "en": "I hope next week is a bit calmer."
+        },
+        {
+          "fr": "Il faut que tu m'aides à organiser mon agenda.",
+          "en": "I need you to help me organize my schedule."
+        }
+      ]
+    },
+    {
+      "number": 82,
+      "title": "Making Plans and Requests",
+      "titleNative": "Faire des projets et des demandes",
+      "items": [
+        {
+          "fr": "Je veux que vous veniez tous au dîner de samedi.",
+          "en": "I want everyone to come to Saturday's dinner."
+        },
+        {
+          "fr": "Le restaurant où nous allons fêter cela est excellent.",
+          "en": "The restaurant where we're going to celebrate is excellent."
+        },
+        {
+          "fr": "J'ai acheté ceci pour toi pour ton anniversaire.",
+          "en": "I bought this for you for your birthday."
+        },
+        {
+          "fr": "Il est important que tu confirmes ta présence avant vendredi.",
+          "en": "It's important that you confirm your attendance before Friday."
+        }
+      ]
+    },
+    {
+      "number": 83,
+      "title": "Talking About Change",
+      "titleNative": "Parler du changement",
+      "items": [
+        {
+          "fr": "La ville a beaucoup changé depuis que j'étais enfant.",
+          "en": "The city has changed a lot since I was a child."
+        },
+        {
+          "fr": "Quand je suis rentré, ils avaient déjà construit le nouveau pont.",
+          "en": "When I returned, they had already built the new bridge."
+        },
+        {
+          "fr": "J'espère que ces changements profiteront à toute la communauté.",
+          "en": "I hope these changes benefit the whole community."
+        },
+        {
+          "fr": "Il faut que nous continuions à nous adapter à cette nouvelle réalité.",
+          "en": "It's necessary that we keep adapting to the new reality."
+        }
+      ]
+    },
+    {
+      "number": 84,
+      "title": "Expressing Opinions Clearly",
+      "titleNative": "Exprimer des opinions clairement",
+      "items": [
+        {
+          "fr": "Je ne pense pas que ce soit la meilleure solution au problème.",
+          "en": "I don't think it's the best solution to the problem."
+        },
+        {
+          "fr": "Pour moi, la chose la plus importante, c'est l'honnêteté.",
+          "en": "For me, the most important thing is honesty."
+        },
+        {
+          "fr": "La personne à qui j'ai parlé avait raison sur tout.",
+          "en": "The person I spoke with was right about everything."
+        },
+        {
+          "fr": "Il est probable que nous changions d'avis avec plus d'informations.",
+          "en": "It's likely we'll change our minds with more information."
+        }
+      ]
+    },
+    {
+      "number": 85,
+      "title": "Describing a Memorable Trip",
+      "titleNative": "Décrire un voyage mémorable",
+      "items": [
+        {
+          "fr": "Nous avions prévu ce voyage depuis presque un an.",
+          "en": "We had planned that trip for almost a year."
+        },
+        {
+          "fr": "L'endroit où nous logions avait une vue incroyable.",
+          "en": "The place where we stayed had an incredible view."
+        },
+        {
+          "fr": "J'ai voyagé dans de nombreux pays, mais celui-là était spécial.",
+          "en": "I've traveled to many countries, but that one was special."
+        },
+        {
+          "fr": "J'espère que tu pourras visiter cet endroit un jour.",
+          "en": "I hope you can visit that place someday."
+        }
+      ]
+    },
+    {
+      "number": 86,
+      "title": "Giving Formal Advice",
+      "titleNative": "Donner des conseils formels",
+      "items": [
+        {
+          "fr": "Je vous recommande de parler directement au directeur.",
+          "en": "I recommend that you speak directly with the director."
+        },
+        {
+          "fr": "Il est essentiel que vous révisiez le contrat avant de signer.",
+          "en": "It's essential that you review the contract before signing."
+        },
+        {
+          "fr": "Veuillez m'envoyer les informations par courriel.",
+          "en": "Please send me the information by email."
+        },
+        {
+          "fr": "Il faut que tout le monde arrive à l'heure pour la réunion.",
+          "en": "We need everyone to arrive on time for the meeting."
+        }
+      ]
+    },
+    {
+      "number": 87,
+      "title": "Reflecting on Personal Growth",
+      "titleNative": "Réfléchir sur son évolution personnelle",
+      "items": [
+        {
+          "fr": "J'ai beaucoup appris de mes propres erreurs.",
+          "en": "I've learned a lot from my own mistakes."
+        },
+        {
+          "fr": "Avant de déménager, je n'avais jamais vécu seul.",
+          "en": "Before moving, I had never lived alone."
+        },
+        {
+          "fr": "Je suis content que tu aies trouvé quelque chose qui te passionne.",
+          "en": "I'm glad you've found something you're passionate about."
+        },
+        {
+          "fr": "C'est incroyable tout ce que nous avons accompli ensemble cette année.",
+          "en": "It's incredible everything we've achieved together this year."
+        }
+      ]
+    },
+    {
+      "number": 88,
+      "title": "Talking About the Future with Confidence",
+      "titleNative": "Parler de l'avenir avec confiance",
+      "items": [
+        {
+          "fr": "J'espère que l'année prochaine apportera de nombreuses nouvelles opportunités.",
+          "en": "I hope next year brings many new opportunities."
+        },
+        {
+          "fr": "Pour l'avenir, je veux que mes enfants apprennent plusieurs langues.",
+          "en": "For the future, I want my children to learn several languages."
+        },
+        {
+          "fr": "Il est probable que nous déménagions dans une autre ville bientôt.",
+          "en": "It's likely we'll move to another city soon."
+        },
+        {
+          "fr": "Je fais confiance au fait que tout se passera bien à la fin.",
+          "en": "I trust that everything will turn out well in the end."
+        }
+      ]
+    },
+    {
+      "number": 89,
+      "title": "A Conversation Between Friends",
+      "titleNative": "Une conversation entre amis",
+      "items": [
+        {
+          "fr": "Tu as parlé à Sophie récemment ? Elle me manque beaucoup.",
+          "en": "Have you talked to Sophie lately? I miss her a lot."
+        },
+        {
+          "fr": "Oui, elle m'a dit qu'elle avait déménagé dans une autre ville pour le travail.",
+          "en": "Yes, she told me she has moved to another city for work."
+        },
+        {
+          "fr": "J'espère que nous pourrons lui rendre visite bientôt, même pour quelques jours.",
+          "en": "I hope we can visit her soon, even if just for a few days."
+        },
+        {
+          "fr": "Bien sûr, c'est l'amie avec qui j'ai le plus partagé dans ma vie.",
+          "en": "Of course, she's the friend I've shared the most with in life."
+        }
+      ]
+    },
+    {
+      "number": 90,
+      "title": "More Grammar Integration",
+      "titleNative": "Plus d'intégration grammaticale",
+      "items": [
+        {
+          "fr": "Nous avons beaucoup couvert à ce niveau, et tu as énormément progressé.",
+          "en": "We've covered a lot at this level, and you've progressed enormously."
+        },
+        {
+          "fr": "J'espère que tu continueras à pratiquer tout ce que tu as appris.",
+          "en": "I hope you keep practicing everything you've learned."
+        },
+        {
+          "fr": "La personne qui a commencé ce cours n'est pas la même que celle qui le termine aujourd'hui.",
+          "en": "The person who started this course isn't the same one finishing it today."
+        },
+        {
+          "fr": "Je suis sûr que tu es prêt pour le niveau suivant.",
+          "en": "I'm sure you're ready for the next level."
+        }
+      ]
+    },
+    {
+      "number": 91,
+      "title": "A Difficult Decision",
+      "titleNative": "Une décision difficile",
+      "items": [
+        {
+          "fr": "Il fallait que je décide rapidement, alors j'ai pris une décision.",
+          "en": "I needed to decide quickly, so I made a decision."
+        },
+        {
+          "fr": "Je ne savais pas encore que cette décision changerait tout.",
+          "en": "I didn't know yet that this decision would change everything."
+        },
+        {
+          "fr": "Mes amis, qui me connaissent bien, m'ont soutenu dans mon choix.",
+          "en": "My friends, who know me well, supported me in my choice."
+        },
+        {
+          "fr": "Depuis ce jour-là, je n'ai jamais regretté ce que j'avais décidé.",
+          "en": "Since that day, I've never regretted what I had decided."
+        }
+      ]
+    },
+    {
+      "number": 92,
+      "title": "A Job Interview",
+      "titleNative": "Un entretien d'embauche",
+      "items": [
+        {
+          "fr": "J'avais préparé mes réponses pendant plusieurs jours.",
+          "en": "I had prepared my answers for several days."
+        },
+        {
+          "fr": "Il fallait que je sois confiant, même si j'étais nerveux.",
+          "en": "I needed to be confident, even though I was nervous."
+        },
+        {
+          "fr": "La personne qui m'a interviewé était très sympathique.",
+          "en": "The person who interviewed me was very nice."
+        },
+        {
+          "fr": "Depuis ce jour, je travaille dans cette entreprise avec plaisir.",
+          "en": "Since that day, I've worked at that company happily."
+        }
+      ]
+    },
+    {
+      "number": 93,
+      "title": "A Reunion with Old Friends",
+      "titleNative": "Des retrouvailles avec de vieux amis",
+      "items": [
+        {
+          "fr": "Nous ne nous étions pas vus depuis dix ans.",
+          "en": "We hadn't seen each other in ten years."
+        },
+        {
+          "fr": "Le restaurant où nous nous sommes retrouvés était exactement le même qu'avant.",
+          "en": "The restaurant where we met up was exactly the same as before."
+        },
+        {
+          "fr": "Il fallait que nous parlions pendant des heures pour tout se raconter.",
+          "en": "We needed to talk for hours to catch up on everything."
+        },
+        {
+          "fr": "Depuis ce soir-là, nous nous voyons beaucoup plus souvent.",
+          "en": "Since that evening, we see each other much more often."
+        }
+      ]
+    },
+    {
+      "number": 94,
+      "title": "Starting a New Chapter",
+      "titleNative": "Commencer un nouveau chapitre",
+      "items": [
+        {
+          "fr": "Avant de commencer ce nouveau travail, j'avais beaucoup hésité.",
+          "en": "Before starting this new job, I had hesitated a lot."
+        },
+        {
+          "fr": "Il fallait que je sorte de ma zone de confort.",
+          "en": "I needed to step out of my comfort zone."
+        },
+        {
+          "fr": "Les collègues que j'ai rencontrés sont devenus de vrais amis.",
+          "en": "The colleagues I met became real friends."
+        },
+        {
+          "fr": "Depuis, je ne regrette absolument pas ce changement.",
+          "en": "Since then, I absolutely don't regret this change."
+        }
+      ]
+    },
+    {
+      "number": 95,
+      "title": "A Lesson Learned the Hard Way",
+      "titleNative": "Une leçon apprise à la dure",
+      "items": [
+        {
+          "fr": "Je n'avais jamais imaginé que cela pourrait mal se passer.",
+          "en": "I had never imagined this could go wrong."
+        },
+        {
+          "fr": "Il fallait que j'accepte mon erreur pour pouvoir avancer.",
+          "en": "I needed to accept my mistake in order to move forward."
+        },
+        {
+          "fr": "La leçon que j'ai apprise ce jour-là m'a beaucoup servi depuis.",
+          "en": "The lesson I learned that day has served me well since."
+        },
+        {
+          "fr": "Depuis cette expérience, je réfléchis toujours deux fois avant d'agir.",
+          "en": "Since that experience, I always think twice before acting."
+        }
+      ]
+    },
+    {
+      "number": 96,
+      "title": "Reconnecting with Family",
+      "titleNative": "Renouer avec la famille",
+      "items": [
+        {
+          "fr": "Nous n'avions pas parlé depuis des mois à cause d'un malentendu.",
+          "en": "We hadn't spoken in months because of a misunderstanding."
+        },
+        {
+          "fr": "Il fallait que quelqu'un fasse le premier pas.",
+          "en": "Someone needed to make the first move."
+        },
+        {
+          "fr": "La conversation que nous avons eue a tout changé entre nous.",
+          "en": "The conversation we had changed everything between us."
+        },
+        {
+          "fr": "Depuis, notre relation est plus forte qu'avant.",
+          "en": "Since then, our relationship is stronger than before."
+        }
+      ]
+    },
+    {
+      "number": 97,
+      "title": "A New Skill Mastered",
+      "titleNative": "Une nouvelle compétence maîtrisée",
+      "items": [
+        {
+          "fr": "Il y a un an, je n'avais jamais touché un piano.",
+          "en": "A year ago, I had never touched a piano."
+        },
+        {
+          "fr": "Il fallait que je pratique tous les jours pour progresser.",
+          "en": "I needed to practice every day to progress."
+        },
+        {
+          "fr": "Le professeur qui m'a enseigné était incroyablement patient.",
+          "en": "The teacher who taught me was incredibly patient."
+        },
+        {
+          "fr": "Depuis, jouer du piano est devenu ma plus grande passion.",
+          "en": "Since then, playing piano has become my greatest passion."
+        }
+      ]
+    },
+    {
+      "number": 98,
+      "title": "Overcoming a Fear",
+      "titleNative": "Surmonter une peur",
+      "items": [
+        {
+          "fr": "J'avais toujours eu peur de parler en public.",
+          "en": "I had always been afraid of speaking in public."
+        },
+        {
+          "fr": "Il fallait que j'affronte cette peur un jour ou l'autre.",
+          "en": "I needed to face that fear sooner or later."
+        },
+        {
+          "fr": "Le discours que j'ai donné ce jour-là a changé ma confiance en moi.",
+          "en": "The speech I gave that day changed my self-confidence."
+        },
+        {
+          "fr": "Depuis, je n'ai plus jamais eu aussi peur de parler devant les autres.",
+          "en": "Since then, I've never been as afraid to speak in front of others again."
+        }
+      ]
+    },
+    {
+      "number": 99,
+      "title": "A Promise Kept",
+      "titleNative": "Une promesse tenue",
+      "items": [
+        {
+          "fr": "Il y a des années, j'avais promis à ma grand-mère de finir mes études.",
+          "en": "Years ago, I had promised my grandmother I would finish my studies."
+        },
+        {
+          "fr": "Il fallait que je tienne cette promesse, quoi qu'il arrive.",
+          "en": "I needed to keep that promise, whatever happened."
+        },
+        {
+          "fr": "Le jour où j'ai obtenu mon diplôme était l'un des plus beaux de ma vie.",
+          "en": "The day I got my degree was one of the most beautiful of my life."
+        },
+        {
+          "fr": "Depuis, je sais que je peux accomplir tout ce que je me fixe comme but.",
+          "en": "Since then, I know I can accomplish anything I set as a goal."
+        }
+      ]
+    },
+    {
+      "number": 100,
+      "title": "Review: B1 Capstone",
+      "titleNative": "Repaso: Cierre de B1",
+      "items": [
+        {
+          "fr": "Nous avons couvert beaucoup de choses, et tu as énormément progressé.",
+          "en": "We've covered a lot, and you've progressed enormously."
+        },
+        {
+          "fr": "J'espère que tu continueras à pratiquer tout ce que tu as appris ici.",
+          "en": "I hope you keep practicing everything you've learned here."
+        },
+        {
+          "fr": "La personne qui a commencé ce niveau n'est plus tout à fait la même aujourd'hui.",
+          "en": "The person who started this level isn't quite the same today."
+        },
+        {
+          "fr": "Je suis certain que tu es prêt pour le niveau suivant.",
+          "en": "I'm certain you're ready for the next level."
+        }
+      ]
+    }
+  ]
+}
