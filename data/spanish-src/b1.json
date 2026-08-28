@@ -1,0 +1,2421 @@
+{
+  "level": "b1",
+  "grammarTopics": {
+    "b1-commands": {
+      "title": "Commands: Telling People What to Do",
+      "pattern": "tú: [present-tense él/ella form] · usted: [present subjunctive] · negative: no + subjunctive",
+      "explanation": "Informal (tú) commands mostly borrow the él/ella present-tense form: \"¡Habla!\" (Talk!), \"¡Come!\" (Eat!), \"¡Escribe!\" (Write!). Formal (usted) commands use the present subjunctive form instead: \"¡Hable!\", \"¡Coma!\", \"¡Escriba!\". Negative commands ALWAYS use the subjunctive, even for tú: \"¡No hables!\", \"¡No comas!\".",
+      "fact": "A handful of very common verbs have irregular tú affirmative commands that don't follow the él/ella-form rule at all: \"decir\" → \"di\", \"hacer\" → \"haz\", \"ir\" → \"ve\", \"poner\" → \"pon\", \"salir\" → \"sal\", \"ser\" → \"sé\", \"tener\" → \"ten\", \"venir\" → \"ven\" — these eight are simply memorized.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "¡Ven aquí y ayúdame con esto!",
+          "en": "Come here and help me with this!"
+        },
+        {
+          "sp": "B",
+          "native": "Ya voy, no te preocupes.",
+          "en": "I'm coming, don't worry."
+        }
+      ]
+    },
+    "b1-present-perfect": {
+      "title": "Present Perfect: Talking About Recent Experience",
+      "pattern": "haber (he/has/ha/hemos/habéis/han) + past participle (-ado/-ido)",
+      "explanation": "The present perfect connects a past action to now — something that happened recently, or an experience that still matters. Form it with a conjugated form of \"haber\" plus the past participle: \"he hablado\" (I have spoken), \"has comido\" (you have eaten), \"ha vivido\" (he/she has lived). The participle never changes for gender or number here — it always ends in -ado or -ido.",
+      "fact": "Several very common verbs have irregular past participles that must be memorized: \"hacer\" → \"hecho\", \"decir\" → \"dicho\", \"ver\" → \"visto\", \"poner\" → \"puesto\", \"escribir\" → \"escrito\", \"volver\" → \"vuelto\", \"abrir\" → \"abierto\", \"romper\" → \"roto\", \"morir\" → \"muerto\".",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "¿Has visto la nueva película de la que todos hablan?",
+          "en": "Have you seen the new movie everyone's talking about?"
+        },
+        {
+          "sp": "B",
+          "native": "No, todavía no he tenido tiempo de verla.",
+          "en": "No, I haven't had time to see it yet."
+        }
+      ]
+    },
+    "b1-subjunctive-intro": {
+      "title": "Present Subjunctive: Wishes, Wants, and Doubts",
+      "pattern": "querer/esperar/necesitar que + [subject] + subjunctive verb (-e for -ar verbs, -a for -er/-ir verbs)",
+      "explanation": "When one subject wants, hopes, or needs another subject to do something, Spanish switches the second verb into the subjunctive mood after \"que\": \"Quiero que vengas\" (I want you to come), \"Espero que estés bien\" (I hope you're well), \"Necesito que me ayudes\" (I need you to help me). The subjunctive endings flip the usual pattern: -ar verbs take -e endings, -er/-ir verbs take -a endings.",
+      "fact": "The subjunctive is only used when the subject of \"querer\"/\"esperar\" and the subject of the second verb are DIFFERENT people. If they're the same person, Spanish just uses an infinitive instead: \"Quiero ir\" (I want to go — not \"quiero que vaya\"), but \"Quiero que vayas\" (I want you to go).",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Espero que puedas venir a mi fiesta el sábado.",
+          "en": "I hope you can come to my party on Saturday."
+        },
+        {
+          "sp": "B",
+          "native": "Claro, quiero que sea una noche inolvidable.",
+          "en": "Of course, I want it to be an unforgettable night."
+        }
+      ]
+    },
+    "b1-relative-clauses": {
+      "title": "Relative Clauses: Connecting Ideas with que, quien, donde",
+      "pattern": "que (that/which/who) · quien(es) (who, after a preposition) · donde (where)",
+      "explanation": "\"Que\" is the all-purpose relative pronoun for both people and things: \"el libro que leí\" (the book that I read), \"la mujer que conocí\" (the woman I met). \"Quien\"/\"quienes\" refers only to people and is used mainly after a preposition: \"la persona con quien hablé\" (the person with whom I spoke). \"Donde\" replaces a place: \"la casa donde nací\" (the house where I was born).",
+      "fact": "Unlike English, Spanish never drops the relative pronoun. English allows \"the book I read\" with no \"that,\" but Spanish always requires \"el libro que leí\" — \"que\" can never be omitted.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Esta es la ciudad donde crecí.",
+          "en": "This is the city where I grew up."
+        },
+        {
+          "sp": "B",
+          "native": "¿Y quién es esa persona con quien estás hablando?",
+          "en": "And who is that person you're talking with?"
+        }
+      ]
+    },
+    "b1-por-para": {
+      "title": "Por vs Para: Two Words for 'For'",
+      "pattern": "por = cause/means/exchange/duration · para = purpose/destination/deadline/recipient",
+      "explanation": "\"Por\" looks backward to a cause, means, or exchange: \"Gracias por tu ayuda\" (thanks for your help — cause), \"Viajamos por tren\" (we traveled by train — means), \"Pagué veinte dólares por el libro\" (I paid twenty dollars for the book — exchange). \"Para\" looks forward to a purpose, destination, or deadline: \"Este regalo es para ti\" (this gift is for you — recipient), \"Salgo para Madrid mañana\" (I leave for Madrid tomorrow — destination), \"Necesito esto para el lunes\" (I need this by Monday — deadline).",
+      "fact": "A useful shortcut: \"por\" often answers \"why/how,\" while \"para\" answers \"for what purpose/for whom.\" \"Trabajo por dinero\" (I work because of/for the sake of money) versus \"Trabajo para una empresa grande\" (I work for a big company — the employer, not the motive).",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "¿Para quién es este paquete?",
+          "en": "Who is this package for?"
+        },
+        {
+          "sp": "B",
+          "native": "Es para mi madre, lo compré por su cumpleaños.",
+          "en": "It's for my mother, I bought it for her birthday."
+        }
+      ]
+    },
+    "b1-past-perfect": {
+      "title": "Past Perfect: An Action Before Another Past Action",
+      "pattern": "había/habías/había/habíamos/habíais/habían + past participle",
+      "explanation": "The past perfect (pluscuamperfecto) describes something that had already happened before another point in the past: \"Cuando llegué, ya habían empezado la reunión\" (when I arrived, they had already started the meeting). It's built with the imperfect of \"haber\" plus the past participle, and it's what lets you clearly sequence two past events.",
+      "fact": "The same irregular participles from the present perfect carry over unchanged: \"había hecho\", \"había visto\", \"había dicho\", \"había puesto\" — if you know the present perfect's irregulars, the past perfect uses exactly the same set.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Cuando llegamos al cine, la película ya había comenzado.",
+          "en": "When we got to the movies, the film had already started."
+        },
+        {
+          "sp": "B",
+          "native": "¡Qué mal! Nunca había llegado tan tarde.",
+          "en": "That's too bad! I had never arrived so late."
+        }
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Instructions in the Kitchen",
+      "titleNative": "Instrucciones en la cocina",
+      "items": [
+        {
+          "es": "Corta las verduras en pedazos pequeños.",
+          "en": "Cut the vegetables into small pieces."
+        },
+        {
+          "es": "Añade sal y pimienta al gusto.",
+          "en": "Add salt and pepper to taste."
+        },
+        {
+          "es": "No pongas demasiada agua en la olla.",
+          "en": "Don't put too much water in the pot."
+        },
+        {
+          "es": "Mezcla todos los ingredientes con cuidado.",
+          "en": "Mix all the ingredients carefully."
+        }
+      ],
+      "topicId": "b1-commands"
+    },
+    {
+      "number": 2,
+      "title": "Directions and Advice",
+      "titleNative": "Direcciones y consejos",
+      "items": [
+        {
+          "es": "Camina dos cuadras y dobla a la derecha.",
+          "en": "Walk two blocks and turn right."
+        },
+        {
+          "es": "No te preocupes tanto por lo que piensan los demás.",
+          "en": "Don't worry so much about what others think."
+        },
+        {
+          "es": "Ten paciencia, todo va a salir bien.",
+          "en": "Have patience, everything will turn out fine."
+        },
+        {
+          "es": "Escucha con atención lo que te voy a decir.",
+          "en": "Listen carefully to what I'm going to tell you."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Classroom Instructions",
+      "titleNative": "Instrucciones en el salón de clases",
+      "items": [
+        {
+          "es": "Abran sus libros en la página veinte.",
+          "en": "Open your books to page twenty."
+        },
+        {
+          "es": "Escriban sus nombres en la parte de arriba.",
+          "en": "Write your names at the top."
+        },
+        {
+          "es": "No hablen todos al mismo tiempo, por favor.",
+          "en": "Don't all talk at the same time, please."
+        },
+        {
+          "es": "Levanten la mano si tienen alguna pregunta.",
+          "en": "Raise your hand if you have any questions."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Formal Requests",
+      "titleNative": "Solicitudes formales",
+      "items": [
+        {
+          "es": "Por favor, envíeme el documento antes del viernes.",
+          "en": "Please send me the document before Friday."
+        },
+        {
+          "es": "Firme aquí y ponga la fecha de hoy.",
+          "en": "Sign here and put today's date."
+        },
+        {
+          "es": "No olvide traer su identificación.",
+          "en": "Don't forget to bring your ID."
+        },
+        {
+          "es": "Espere un momento mientras reviso su información.",
+          "en": "Wait a moment while I check your information."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Health Advice",
+      "titleNative": "Consejos de salud",
+      "items": [
+        {
+          "es": "Bebe suficiente agua durante todo el día.",
+          "en": "Drink enough water throughout the day."
+        },
+        {
+          "es": "Duerme al menos ocho horas cada noche.",
+          "en": "Sleep at least eight hours every night."
+        },
+        {
+          "es": "No fumes, es muy malo para tu salud.",
+          "en": "Don't smoke, it's very bad for your health."
+        },
+        {
+          "es": "Haz ejercicio regularmente para sentirte mejor.",
+          "en": "Exercise regularly to feel better."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Household Chores",
+      "titleNative": "Tareas del hogar",
+      "items": [
+        {
+          "es": "Lava los platos después de cenar.",
+          "en": "Wash the dishes after dinner."
+        },
+        {
+          "es": "Saca la basura antes de que llegue el camión.",
+          "en": "Take out the trash before the truck arrives."
+        },
+        {
+          "es": "No dejes la ropa tirada en el piso.",
+          "en": "Don't leave clothes thrown on the floor."
+        },
+        {
+          "es": "Ordena tu cuarto antes de salir a jugar.",
+          "en": "Tidy your room before going out to play."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Safety Instructions",
+      "titleNative": "Instrucciones de seguridad",
+      "items": [
+        {
+          "es": "Cierra la puerta con llave antes de dormir.",
+          "en": "Lock the door before sleeping."
+        },
+        {
+          "es": "No cruces la calle sin mirar a los dos lados.",
+          "en": "Don't cross the street without looking both ways."
+        },
+        {
+          "es": "Ponte el cinturón de seguridad siempre.",
+          "en": "Always put on your seatbelt."
+        },
+        {
+          "es": "Mantén una distancia segura del auto de enfrente.",
+          "en": "Keep a safe distance from the car in front."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Encouraging Someone",
+      "titleNative": "Animar a alguien",
+      "items": [
+        {
+          "es": "No te rindas, estás muy cerca de lograrlo.",
+          "en": "Don't give up, you're very close to achieving it."
+        },
+        {
+          "es": "Confía en ti mismo, puedes hacerlo.",
+          "en": "Trust yourself, you can do it."
+        },
+        {
+          "es": "Sigue intentando, cada error te enseña algo.",
+          "en": "Keep trying, every mistake teaches you something."
+        },
+        {
+          "es": "Sé valiente y da el primer paso.",
+          "en": "Be brave and take the first step."
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Giving Someone a Recipe",
+      "titleNative": "Dar una receta a alguien",
+      "items": [
+        {
+          "es": "Primero, calienta el aceite en una sartén grande.",
+          "en": "First, heat the oil in a large pan."
+        },
+        {
+          "es": "Agrega la cebolla y cocina hasta que esté dorada.",
+          "en": "Add the onion and cook until it's golden."
+        },
+        {
+          "es": "No la dejes cocinar demasiado tiempo.",
+          "en": "Don't let it cook too long."
+        },
+        {
+          "es": "Sirve el plato caliente con un poco de limón.",
+          "en": "Serve the dish hot with a bit of lemon."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Review: Giving Instructions",
+      "titleNative": "Repaso: Dar instrucciones",
+      "items": [
+        {
+          "es": "Sigue estos pasos y todo va a salir perfecto.",
+          "en": "Follow these steps and everything will turn out perfect."
+        },
+        {
+          "es": "No te olvides de revisar todo antes de entregar el trabajo.",
+          "en": "Don't forget to check everything before turning in the work."
+        },
+        {
+          "es": "Ten cuidado y avísame si necesitas ayuda.",
+          "en": "Be careful and let me know if you need help."
+        },
+        {
+          "es": "Haz tu mejor esfuerzo, eso es lo único que importa.",
+          "en": "Do your best effort, that's the only thing that matters."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Recent Events",
+      "titleNative": "Eventos recientes",
+      "items": [
+        {
+          "es": "He terminado mi trabajo más temprano de lo normal.",
+          "en": "I have finished my work earlier than usual."
+        },
+        {
+          "es": "¿Has hablado con tu hermano esta semana?",
+          "en": "Have you talked to your brother this week?"
+        },
+        {
+          "es": "Todavía no hemos decidido a dónde ir de vacaciones.",
+          "en": "We haven't decided where to go on vacation yet."
+        },
+        {
+          "es": "Ella ha empezado un nuevo trabajo en el hospital.",
+          "en": "She has started a new job at the hospital."
+        }
+      ],
+      "topicId": "b1-present-perfect"
+    },
+    {
+      "number": 12,
+      "title": "Life Experiences",
+      "titleNative": "Experiencias de vida",
+      "items": [
+        {
+          "es": "Nunca he viajado fuera de mi país.",
+          "en": "I have never traveled outside my country."
+        },
+        {
+          "es": "¿Alguna vez has probado la comida tailandesa?",
+          "en": "Have you ever tried Thai food?"
+        },
+        {
+          "es": "Hemos vivido en tres ciudades diferentes.",
+          "en": "We have lived in three different cities."
+        },
+        {
+          "es": "Mis padres han visitado casi todos los países de Europa.",
+          "en": "My parents have visited almost every country in Europe."
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "title": "Irregular Participles",
+      "titleNative": "Participios irregulares",
+      "items": [
+        {
+          "es": "He hecho todo lo que pude para ayudarte.",
+          "en": "I have done everything I could to help you."
+        },
+        {
+          "es": "¿Has visto mis llaves? No las encuentro.",
+          "en": "Have you seen my keys? I can't find them."
+        },
+        {
+          "es": "Todavía no hemos abierto los regalos.",
+          "en": "We haven't opened the gifts yet."
+        },
+        {
+          "es": "Le he escrito varias cartas pero no responde.",
+          "en": "I have written him several letters but he doesn't respond."
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "title": "What Has Happened Today",
+      "titleNative": "Lo que ha pasado hoy",
+      "items": [
+        {
+          "es": "Hoy he recibido buenas noticias del médico.",
+          "en": "Today I have received good news from the doctor."
+        },
+        {
+          "es": "¿Qué ha pasado en la reunión esta mañana?",
+          "en": "What has happened at the meeting this morning?"
+        },
+        {
+          "es": "Ha llovido mucho durante toda la tarde.",
+          "en": "It has rained a lot all afternoon."
+        },
+        {
+          "es": "Los precios han subido bastante este mes.",
+          "en": "Prices have gone up quite a bit this month."
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "title": "Achievements",
+      "titleNative": "Logros",
+      "items": [
+        {
+          "es": "He aprendido mucho durante este curso.",
+          "en": "I have learned a lot during this course."
+        },
+        {
+          "es": "Has mejorado muchísimo tu pronunciación.",
+          "en": "You have improved your pronunciation a lot."
+        },
+        {
+          "es": "Hemos logrado terminar el proyecto a tiempo.",
+          "en": "We have managed to finish the project on time."
+        },
+        {
+          "es": "Ella ha conseguido el puesto que tanto quería.",
+          "en": "She has gotten the position she wanted so much."
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "title": "Family News",
+      "titleNative": "Noticias familiares",
+      "items": [
+        {
+          "es": "Mi hermana ha tenido un bebé la semana pasada.",
+          "en": "My sister has had a baby last week."
+        },
+        {
+          "es": "Mis abuelos han celebrado cincuenta años de casados.",
+          "en": "My grandparents have celebrated fifty years of marriage."
+        },
+        {
+          "es": "¿Han vuelto tus primos de su viaje?",
+          "en": "Have your cousins returned from their trip?"
+        },
+        {
+          "es": "Hemos hablado por teléfono casi todos los días.",
+          "en": "We have talked on the phone almost every day."
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "title": "Complaints and Problems",
+      "titleNative": "Quejas y problemas",
+      "items": [
+        {
+          "es": "Se ha roto la lavadora otra vez.",
+          "en": "The washing machine has broken again."
+        },
+        {
+          "es": "He perdido mi cartera en algún lugar del centro.",
+          "en": "I have lost my wallet somewhere downtown."
+        },
+        {
+          "es": "El vecino no ha pagado el alquiler este mes.",
+          "en": "The neighbor hasn't paid the rent this month."
+        },
+        {
+          "es": "Hemos tenido varios problemas con el internet.",
+          "en": "We have had several problems with the internet."
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "title": "Work Updates",
+      "titleNative": "Actualizaciones del trabajo",
+      "items": [
+        {
+          "es": "He enviado el informe al jefe esta mañana.",
+          "en": "I have sent the report to the boss this morning."
+        },
+        {
+          "es": "¿Has terminado de revisar los contratos?",
+          "en": "Have you finished reviewing the contracts?"
+        },
+        {
+          "es": "Todavía no han contratado a nadie para ese puesto.",
+          "en": "They still haven't hired anyone for that position."
+        },
+        {
+          "es": "Hemos resuelto el problema con el cliente.",
+          "en": "We have solved the problem with the client."
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "title": "Sports and Hobbies",
+      "titleNative": "Deportes y pasatiempos",
+      "items": [
+        {
+          "es": "He jugado tenis desde que era niño.",
+          "en": "I have played tennis since I was a child."
+        },
+        {
+          "es": "¿Has corrido alguna vez un maratón?",
+          "en": "Have you ever run a marathon?"
+        },
+        {
+          "es": "Nuestro equipo ha ganado el campeonato este año.",
+          "en": "Our team has won the championship this year."
+        },
+        {
+          "es": "Nunca he sabido nadar muy bien.",
+          "en": "I have never known how to swim very well."
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "title": "Review: Present Perfect",
+      "titleNative": "Repaso: Pretérito perfecto",
+      "items": [
+        {
+          "es": "Hemos hecho grandes cambios en nuestra rutina.",
+          "en": "We have made big changes to our routine."
+        },
+        {
+          "es": "¿Qué has aprendido de esta experiencia?",
+          "en": "What have you learned from this experience?"
+        },
+        {
+          "es": "La situación ha mejorado mucho desde el año pasado.",
+          "en": "The situation has improved a lot since last year."
+        },
+        {
+          "es": "No he dicho nada porque no quería preocuparte.",
+          "en": "I haven't said anything because I didn't want to worry you."
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "title": "What We Want Others to Do",
+      "titleNative": "Lo que queremos que otros hagan",
+      "items": [
+        {
+          "es": "Quiero que estudies más para el examen.",
+          "en": "I want you to study more for the exam."
+        },
+        {
+          "es": "Mis padres quieren que yo sea médico.",
+          "en": "My parents want me to be a doctor."
+        },
+        {
+          "es": "El jefe quiere que terminemos el proyecto hoy.",
+          "en": "The boss wants us to finish the project today."
+        },
+        {
+          "es": "Queremos que vengan a la boda de mi hermana.",
+          "en": "We want you all to come to my sister's wedding."
+        }
+      ],
+      "topicId": "b1-subjunctive-intro"
+    },
+    {
+      "number": 22,
+      "title": "Hopes and Wishes",
+      "titleNative": "Esperanzas y deseos",
+      "items": [
+        {
+          "es": "Espero que tengas un buen viaje.",
+          "en": "I hope you have a good trip."
+        },
+        {
+          "es": "Esperamos que todo salga bien en la operación.",
+          "en": "We hope everything goes well in the surgery."
+        },
+        {
+          "es": "Espero que te sientas mejor pronto.",
+          "en": "I hope you feel better soon."
+        },
+        {
+          "es": "Todos esperamos que la situación mejore.",
+          "en": "We all hope the situation improves."
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "title": "Needs and Requirements",
+      "titleNative": "Necesidades y requisitos",
+      "items": [
+        {
+          "es": "Necesito que me expliques esto otra vez.",
+          "en": "I need you to explain this to me again."
+        },
+        {
+          "es": "La empresa necesita que todos lleguen a tiempo.",
+          "en": "The company needs everyone to arrive on time."
+        },
+        {
+          "es": "Necesitamos que alguien nos ayude con las maletas.",
+          "en": "We need someone to help us with the suitcases."
+        },
+        {
+          "es": "¿Necesitas que te acompañe al médico?",
+          "en": "Do you need me to go with you to the doctor?"
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "title": "Recommendations",
+      "titleNative": "Recomendaciones",
+      "items": [
+        {
+          "es": "Te recomiendo que leas ese libro, es excelente.",
+          "en": "I recommend that you read that book, it's excellent."
+        },
+        {
+          "es": "El doctor sugiere que descanse unos días.",
+          "en": "The doctor suggests that he rest for a few days."
+        },
+        {
+          "es": "Te aconsejo que hables con ella directamente.",
+          "en": "I advise you to talk to her directly."
+        },
+        {
+          "es": "Recomendamos que reserven la mesa con anticipación.",
+          "en": "We recommend that you reserve the table in advance."
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "title": "Permission and Prohibition",
+      "titleNative": "Permiso y prohibición",
+      "items": [
+        {
+          "es": "Mis padres no permiten que salga tarde entre semana.",
+          "en": "My parents don't allow me to go out late on weekdays."
+        },
+        {
+          "es": "El profesor prohíbe que usemos el teléfono en clase.",
+          "en": "The teacher forbids us from using the phone in class."
+        },
+        {
+          "es": "¿Me permites que te haga una pregunta?",
+          "en": "Will you allow me to ask you a question?"
+        },
+        {
+          "es": "No dejan que los niños jueguen en la calle.",
+          "en": "They don't let the children play in the street."
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "title": "Emotions and Feelings",
+      "titleNative": "Emociones y sentimientos",
+      "items": [
+        {
+          "es": "Me alegra que hayas venido a visitarnos.",
+          "en": "I'm glad that you came to visit us."
+        },
+        {
+          "es": "Nos sorprende que no haya llamado todavía.",
+          "en": "We're surprised that he hasn't called yet."
+        },
+        {
+          "es": "Me molesta que la gente llegue tarde.",
+          "en": "It bothers me when people arrive late."
+        },
+        {
+          "es": "Le encanta que sus nietos vengan los domingos.",
+          "en": "She loves it when her grandchildren come on Sundays."
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "title": "Doubt and Uncertainty",
+      "titleNative": "Duda e incertidumbre",
+      "items": [
+        {
+          "es": "Dudo que llegue a tiempo con este tráfico.",
+          "en": "I doubt he'll arrive on time with this traffic."
+        },
+        {
+          "es": "No creo que sea buena idea ir solo.",
+          "en": "I don't think it's a good idea to go alone."
+        },
+        {
+          "es": "Es posible que llueva mañana por la tarde.",
+          "en": "It's possible that it will rain tomorrow afternoon."
+        },
+        {
+          "es": "No es seguro que el vuelo salga a tiempo.",
+          "en": "It's not certain that the flight will leave on time."
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "title": "Impersonal Expressions",
+      "titleNative": "Expresiones impersonales",
+      "items": [
+        {
+          "es": "Es importante que todos participen en la decisión.",
+          "en": "It's important that everyone participate in the decision."
+        },
+        {
+          "es": "Es necesario que traigas tu identificación.",
+          "en": "It's necessary that you bring your ID."
+        },
+        {
+          "es": "Es mejor que salgamos temprano para evitar el tráfico.",
+          "en": "It's better that we leave early to avoid traffic."
+        },
+        {
+          "es": "Es raro que ella no haya contestado el mensaje.",
+          "en": "It's strange that she hasn't answered the message."
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "title": "Giving Advice at Work",
+      "titleNative": "Dar consejos en el trabajo",
+      "items": [
+        {
+          "es": "Sugiero que revisemos el presupuesto antes de decidir.",
+          "en": "I suggest we review the budget before deciding."
+        },
+        {
+          "es": "Es fundamental que el equipo trabaje unido.",
+          "en": "It's essential that the team work together."
+        },
+        {
+          "es": "Prefiero que me envíes el informe por correo.",
+          "en": "I prefer that you send me the report by email."
+        },
+        {
+          "es": "Insisto en que descanses antes de seguir trabajando.",
+          "en": "I insist that you rest before continuing to work."
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "title": "Review: Present Subjunctive",
+      "titleNative": "Repaso: Presente de subjuntivo",
+      "items": [
+        {
+          "es": "Ojalá que todo salga como lo planeamos.",
+          "en": "I hope everything turns out as we planned."
+        },
+        {
+          "es": "No pienso que sea tan difícil como parece.",
+          "en": "I don't think it's as difficult as it seems."
+        },
+        {
+          "es": "Es probable que lleguemos un poco tarde.",
+          "en": "It's likely that we'll arrive a bit late."
+        },
+        {
+          "es": "Quiero que sepas que siempre puedes contar conmigo.",
+          "en": "I want you to know that you can always count on me."
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "title": "Describing People",
+      "titleNative": "Describir a personas",
+      "items": [
+        {
+          "es": "Ese es el hombre que trabaja en la panadería.",
+          "en": "That's the man who works at the bakery."
+        },
+        {
+          "es": "La chica que conociste ayer es mi prima.",
+          "en": "The girl you met yesterday is my cousin."
+        },
+        {
+          "es": "Los amigos que invité no pudieron venir.",
+          "en": "The friends I invited couldn't come."
+        },
+        {
+          "es": "Es una persona en quien confío completamente.",
+          "en": "He's a person I trust completely."
+        }
+      ],
+      "topicId": "b1-relative-clauses"
+    },
+    {
+      "number": 32,
+      "title": "Describing Places",
+      "titleNative": "Describir lugares",
+      "items": [
+        {
+          "es": "Este es el restaurante donde nos conocimos.",
+          "en": "This is the restaurant where we met."
+        },
+        {
+          "es": "El pueblo donde vivo es muy tranquilo.",
+          "en": "The town where I live is very quiet."
+        },
+        {
+          "es": "Fuimos al parque donde jugábamos de niños.",
+          "en": "We went to the park where we used to play as kids."
+        },
+        {
+          "es": "La ciudad donde nací ha cambiado mucho.",
+          "en": "The city where I was born has changed a lot."
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "title": "Describing Objects",
+      "titleNative": "Describir objetos",
+      "items": [
+        {
+          "es": "El coche que compré es muy económico.",
+          "en": "The car I bought is very economical."
+        },
+        {
+          "es": "La casa que vimos ayer tiene un jardín enorme.",
+          "en": "The house we saw yesterday has a huge garden."
+        },
+        {
+          "es": "Perdí el paraguas que me regalaste.",
+          "en": "I lost the umbrella you gave me."
+        },
+        {
+          "es": "Estos son los documentos que necesitas firmar.",
+          "en": "These are the documents you need to sign."
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "title": "Talking About Work Colleagues",
+      "titleNative": "Hablar de compañeros de trabajo",
+      "items": [
+        {
+          "es": "Mi jefe, que es muy exigente, aprobó el proyecto.",
+          "en": "My boss, who is very demanding, approved the project."
+        },
+        {
+          "es": "La colega con quien comparto oficina es muy amable.",
+          "en": "The colleague I share an office with is very kind."
+        },
+        {
+          "es": "El cliente para quien trabajamos quedó satisfecho.",
+          "en": "The client we worked for was satisfied."
+        },
+        {
+          "es": "Tengo un compañero que siempre llega tarde.",
+          "en": "I have a coworker who always arrives late."
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "title": "Family Relations",
+      "titleNative": "Relaciones familiares",
+      "items": [
+        {
+          "es": "Mi tío, que vive en Colombia, viene a visitarnos.",
+          "en": "My uncle, who lives in Colombia, is coming to visit us."
+        },
+        {
+          "es": "La abuela de quien te hablé cumple noventa años.",
+          "en": "The grandmother I told you about is turning ninety."
+        },
+        {
+          "es": "Tengo un hermano que estudia medicina.",
+          "en": "I have a brother who studies medicine."
+        },
+        {
+          "es": "Esa es la casa donde crecieron mis padres.",
+          "en": "That's the house where my parents grew up."
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "title": "Reasons and Explanations",
+      "titleNative": "Razones y explicaciones",
+      "items": [
+        {
+          "es": "La razón por la que llegué tarde fue el tráfico.",
+          "en": "The reason I arrived late was the traffic."
+        },
+        {
+          "es": "No entiendo el motivo por el que se enojó.",
+          "en": "I don't understand the reason he got angry."
+        },
+        {
+          "es": "Esa es la razón por la que decidí cambiar de trabajo.",
+          "en": "That's the reason I decided to change jobs."
+        },
+        {
+          "es": "El día en que nos conocimos fue muy especial.",
+          "en": "The day we met was very special."
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "title": "Complex Descriptions",
+      "titleNative": "Descripciones complejas",
+      "items": [
+        {
+          "es": "El libro que estoy leyendo trata sobre la historia de México.",
+          "en": "The book I'm reading is about the history of Mexico."
+        },
+        {
+          "es": "La empresa para la que trabajo se dedica a la tecnología.",
+          "en": "The company I work for is dedicated to technology."
+        },
+        {
+          "es": "Las personas que respetan a los demás son admirables.",
+          "en": "People who respect others are admirable."
+        },
+        {
+          "es": "El proyecto en el que estamos trabajando es muy interesante.",
+          "en": "The project we're working on is very interesting."
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "title": "Opinions with Relative Clauses",
+      "titleNative": "Opiniones con oraciones relativas",
+      "items": [
+        {
+          "es": "Lo que más me gusta de esta ciudad es la comida.",
+          "en": "What I like most about this city is the food."
+        },
+        {
+          "es": "No entiendo lo que estás tratando de decir.",
+          "en": "I don't understand what you're trying to say."
+        },
+        {
+          "es": "Eso es exactamente lo que necesitábamos escuchar.",
+          "en": "That's exactly what we needed to hear."
+        },
+        {
+          "es": "Lo que pasó ayer no volverá a repetirse.",
+          "en": "What happened yesterday won't happen again."
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "title": "Combining Information",
+      "titleNative": "Combinar información",
+      "items": [
+        {
+          "es": "El médico que me atendió fue muy profesional.",
+          "en": "The doctor who treated me was very professional."
+        },
+        {
+          "es": "La universidad donde estudié queda cerca del centro.",
+          "en": "The university where I studied is close to downtown."
+        },
+        {
+          "es": "Los vecinos que viven al lado son muy ruidosos.",
+          "en": "The neighbors who live next door are very noisy."
+        },
+        {
+          "es": "Ese es el motivo por el cual decidimos mudarnos.",
+          "en": "That's the reason why we decided to move."
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "title": "Review: Relative Clauses",
+      "titleNative": "Repaso: Oraciones relativas",
+      "items": [
+        {
+          "es": "La persona que más admiro es mi abuela.",
+          "en": "The person I admire most is my grandmother."
+        },
+        {
+          "es": "El lugar donde pasamos las vacaciones fue increíble.",
+          "en": "The place where we spent our vacation was incredible."
+        },
+        {
+          "es": "No recuerdo el nombre del hotel donde nos quedamos.",
+          "en": "I don't remember the name of the hotel where we stayed."
+        },
+        {
+          "es": "Eso es lo que hace especial a esta ciudad.",
+          "en": "That's what makes this city special."
+        }
+      ]
+    },
+    {
+      "number": 41,
+      "title": "Giving Thanks and Reasons (por)",
+      "titleNative": "Dar las gracias y razones (por)",
+      "items": [
+        {
+          "es": "Gracias por venir a mi cumpleaños.",
+          "en": "Thanks for coming to my birthday."
+        },
+        {
+          "es": "Te llamé por lo que me dijiste ayer.",
+          "en": "I called you because of what you told me yesterday."
+        },
+        {
+          "es": "Lo hice por amor a mi familia.",
+          "en": "I did it out of love for my family."
+        },
+        {
+          "es": "Disculpa por llegar tarde a la reunión.",
+          "en": "Sorry for arriving late to the meeting."
+        }
+      ],
+      "topicId": "b1-por-para"
+    },
+    {
+      "number": 42,
+      "title": "Means and Method (por)",
+      "titleNative": "Medios y métodos (por)",
+      "items": [
+        {
+          "es": "Prefiero comunicarme por correo electrónico.",
+          "en": "I prefer to communicate by email."
+        },
+        {
+          "es": "Viajamos por avión porque es más rápido.",
+          "en": "We traveled by plane because it's faster."
+        },
+        {
+          "es": "Te lo explico por teléfono si prefieres.",
+          "en": "I'll explain it to you over the phone if you prefer."
+        },
+        {
+          "es": "Envié el paquete por correo la semana pasada.",
+          "en": "I sent the package by mail last week."
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "title": "Exchange and Price (por)",
+      "titleNative": "Intercambio y precio (por)",
+      "items": [
+        {
+          "es": "Pagué mucho dinero por este abrigo.",
+          "en": "I paid a lot of money for this coat."
+        },
+        {
+          "es": "Cambié mi carro viejo por uno nuevo.",
+          "en": "I traded my old car for a new one."
+        },
+        {
+          "es": "Te doy mi libro por el tuyo.",
+          "en": "I'll give you my book for yours."
+        },
+        {
+          "es": "Compré esta camisa por veinte dólares.",
+          "en": "I bought this shirt for twenty dollars."
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "title": "Duration and Movement Through (por)",
+      "titleNative": "Duración y movimiento a través de (por)",
+      "items": [
+        {
+          "es": "Caminamos por el parque toda la tarde.",
+          "en": "We walked through the park all afternoon."
+        },
+        {
+          "es": "Voy a estar en México por dos semanas.",
+          "en": "I'm going to be in Mexico for two weeks."
+        },
+        {
+          "es": "Pasamos por tu casa antes de ir al cine.",
+          "en": "We'll pass by your house before going to the movies."
+        },
+        {
+          "es": "Estudié por muchas horas anoche.",
+          "en": "I studied for many hours last night."
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "title": "Purpose (para)",
+      "titleNative": "Propósito (para)",
+      "items": [
+        {
+          "es": "Estudio para aprender, no solo para pasar el examen.",
+          "en": "I study to learn, not just to pass the exam."
+        },
+        {
+          "es": "Ahorramos dinero para comprar una casa.",
+          "en": "We're saving money to buy a house."
+        },
+        {
+          "es": "Uso este cuaderno para anotar mis ideas.",
+          "en": "I use this notebook to jot down my ideas."
+        },
+        {
+          "es": "Necesito una bolsa más grande para llevar todo esto.",
+          "en": "I need a bigger bag to carry all this."
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "title": "Recipient (para)",
+      "titleNative": "Destinatario (para)",
+      "items": [
+        {
+          "es": "Este regalo es para ti, espero que te guste.",
+          "en": "This gift is for you, I hope you like it."
+        },
+        {
+          "es": "Compré flores para mi mamá.",
+          "en": "I bought flowers for my mom."
+        },
+        {
+          "es": "La carta es para el director de la empresa.",
+          "en": "The letter is for the company director."
+        },
+        {
+          "es": "Hice esta comida especialmente para ustedes.",
+          "en": "I made this food especially for you all."
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "title": "Destination (para)",
+      "titleNative": "Destino (para)",
+      "items": [
+        {
+          "es": "Salimos para la playa mañana temprano.",
+          "en": "We're leaving for the beach early tomorrow."
+        },
+        {
+          "es": "El tren para Barcelona sale a las diez.",
+          "en": "The train for Barcelona leaves at ten."
+        },
+        {
+          "es": "Voy para el aeropuerto en una hora.",
+          "en": "I'm heading to the airport in an hour."
+        },
+        {
+          "es": "Este autobús va para el centro de la ciudad.",
+          "en": "This bus goes to downtown."
+        }
+      ]
+    },
+    {
+      "number": 48,
+      "title": "Deadlines and Opinions (para)",
+      "titleNative": "Fechas límite y opiniones (para)",
+      "items": [
+        {
+          "es": "Necesito el informe listo para el viernes.",
+          "en": "I need the report ready by Friday."
+        },
+        {
+          "es": "Para mí, esta es la mejor decisión.",
+          "en": "For me, this is the best decision."
+        },
+        {
+          "es": "El proyecto debe estar terminado para fin de mes.",
+          "en": "The project must be finished by the end of the month."
+        },
+        {
+          "es": "Para ser sincero, no me gustó la película.",
+          "en": "To be honest, I didn't like the movie."
+        }
+      ]
+    },
+    {
+      "number": 49,
+      "title": "Por vs Para in Context",
+      "titleNative": "Por y para en contexto",
+      "items": [
+        {
+          "es": "Trabajo para una empresa de tecnología por las mañanas.",
+          "en": "I work for a technology company in the mornings."
+        },
+        {
+          "es": "Compré este libro por diez dólares para regalárselo a mi hijo.",
+          "en": "I bought this book for ten dollars to give to my son."
+        },
+        {
+          "es": "Viajamos por carretera para ahorrar dinero.",
+          "en": "We traveled by road to save money."
+        },
+        {
+          "es": "Hago ejercicio por mi salud, para vivir mejor.",
+          "en": "I exercise for my health, to live better."
+        }
+      ]
+    },
+    {
+      "number": 50,
+      "title": "Review: Por vs Para",
+      "titleNative": "Repaso: Por y para",
+      "items": [
+        {
+          "es": "Gracias por todo lo que has hecho por mí.",
+          "en": "Thanks for everything you've done for me."
+        },
+        {
+          "es": "Este mensaje es para ti, léelo por favor.",
+          "en": "This message is for you, please read it."
+        },
+        {
+          "es": "Salimos para el aeropuerto por la mañana.",
+          "en": "We're leaving for the airport in the morning."
+        },
+        {
+          "es": "Estudiamos por horas para prepararnos para el examen.",
+          "en": "We studied for hours to prepare for the exam."
+        }
+      ]
+    },
+    {
+      "number": 51,
+      "title": "Before Something Else Happened",
+      "titleNative": "Antes de que pasara algo más",
+      "items": [
+        {
+          "es": "Cuando desperté, mi hermano ya se había ido a trabajar.",
+          "en": "When I woke up, my brother had already left for work."
+        },
+        {
+          "es": "Ya habíamos cenado cuando llegaron los invitados.",
+          "en": "We had already had dinner when the guests arrived."
+        },
+        {
+          "es": "Nunca había visto un lugar tan hermoso.",
+          "en": "I had never seen such a beautiful place."
+        },
+        {
+          "es": "Cuando encontré las llaves, ya había llamado a un cerrajero.",
+          "en": "When I found the keys, I had already called a locksmith."
+        }
+      ],
+      "topicId": "b1-past-perfect"
+    },
+    {
+      "number": 52,
+      "title": "Regrets and Missed Opportunities",
+      "titleNative": "Arrepentimientos y oportunidades perdidas",
+      "items": [
+        {
+          "es": "Si hubiera sabido eso antes, habría actuado diferente.",
+          "en": "If I had known that before, I would have acted differently."
+        },
+        {
+          "es": "Ella había estudiado mucho, pero aún así estaba nerviosa.",
+          "en": "She had studied a lot, but she was still nervous."
+        },
+        {
+          "es": "Nunca habíamos hablado de este tema con tanta calma.",
+          "en": "We had never talked about this topic so calmly."
+        },
+        {
+          "es": "Para cuando llegó la ayuda, el problema ya se había resuelto solo.",
+          "en": "By the time help arrived, the problem had already resolved itself."
+        }
+      ]
+    },
+    {
+      "number": 53,
+      "title": "Life Before a Major Change",
+      "titleNative": "La vida antes de un gran cambio",
+      "items": [
+        {
+          "es": "Antes de mudarnos, ya habíamos vivido en esa ciudad de niños.",
+          "en": "Before moving, we had already lived in that city as children."
+        },
+        {
+          "es": "Ya había terminado la universidad cuando conocí a mi esposa.",
+          "en": "I had already finished college when I met my wife."
+        },
+        {
+          "es": "Mis abuelos habían emigrado de España hace muchos años.",
+          "en": "My grandparents had emigrated from Spain many years ago."
+        },
+        {
+          "es": "La empresa ya había cerrado cuando decidimos invertir.",
+          "en": "The company had already closed when we decided to invest."
+        }
+      ]
+    },
+    {
+      "number": 54,
+      "title": "Storytelling in the Past",
+      "titleNative": "Contar historias en el pasado",
+      "items": [
+        {
+          "es": "El detective descubrió que el sospechoso ya había escapado.",
+          "en": "The detective discovered that the suspect had already escaped."
+        },
+        {
+          "es": "Nadie sabía que ella había vivido en tantos países.",
+          "en": "No one knew she had lived in so many countries."
+        },
+        {
+          "es": "Cuando terminó la tormenta, el río ya había subido mucho.",
+          "en": "When the storm ended, the river had already risen a lot."
+        },
+        {
+          "es": "Los niños se sorprendieron al ver lo que habían construido.",
+          "en": "The children were surprised to see what they had built."
+        }
+      ]
+    },
+    {
+      "number": 55,
+      "title": "Sequence of Past Events",
+      "titleNative": "Secuencia de eventos pasados",
+      "items": [
+        {
+          "es": "Después de que habíamos comido, salimos a caminar.",
+          "en": "After we had eaten, we went out for a walk."
+        },
+        {
+          "es": "Ya había oscurecido cuando terminamos el trabajo.",
+          "en": "It had already gotten dark when we finished the work."
+        },
+        {
+          "es": "Habíamos planeado el viaje mucho antes de la pandemia.",
+          "en": "We had planned the trip long before the pandemic."
+        },
+        {
+          "es": "Cuando el médico llegó, el paciente ya había mejorado.",
+          "en": "When the doctor arrived, the patient had already improved."
+        }
+      ]
+    },
+    {
+      "number": 56,
+      "title": "What Had Changed",
+      "titleNative": "Lo que había cambiado",
+      "items": [
+        {
+          "es": "El pueblo había cambiado mucho desde mi última visita.",
+          "en": "The town had changed a lot since my last visit."
+        },
+        {
+          "es": "No reconocí la calle porque habían construido edificios nuevos.",
+          "en": "I didn't recognize the street because they had built new buildings."
+        },
+        {
+          "es": "Mi amigo había perdido mucho peso desde que lo vi.",
+          "en": "My friend had lost a lot of weight since I last saw him."
+        },
+        {
+          "es": "La empresa había crecido enormemente en pocos años.",
+          "en": "The company had grown enormously in a few years."
+        }
+      ]
+    },
+    {
+      "number": 57,
+      "title": "Combining Past Tenses",
+      "titleNative": "Combinar tiempos pasados",
+      "items": [
+        {
+          "es": "Cuando salí de casa, ya había empezado a llover.",
+          "en": "When I left home, it had already started to rain."
+        },
+        {
+          "es": "Ella estaba cansada porque había trabajado toda la noche.",
+          "en": "She was tired because she had worked all night."
+        },
+        {
+          "es": "No pudimos entrar porque ya habían cerrado la puerta.",
+          "en": "We couldn't get in because they had already closed the door."
+        },
+        {
+          "es": "Sabía la respuesta porque había leído el libro dos veces.",
+          "en": "He knew the answer because he had read the book twice."
+        }
+      ]
+    },
+    {
+      "number": 58,
+      "title": "Surprises About the Past",
+      "titleNative": "Sorpresas sobre el pasado",
+      "items": [
+        {
+          "es": "Me sorprendió saber que habían cancelado el vuelo.",
+          "en": "I was surprised to learn that they had canceled the flight."
+        },
+        {
+          "es": "No imaginaba que habías vivido algo tan difícil.",
+          "en": "I didn't imagine you had lived through something so difficult."
+        },
+        {
+          "es": "Descubrimos que la casa había pertenecido a un artista famoso.",
+          "en": "We discovered that the house had belonged to a famous artist."
+        },
+        {
+          "es": "Nunca me habían contado esa historia de la familia.",
+          "en": "No one had ever told me that family story."
+        }
+      ]
+    },
+    {
+      "number": 59,
+      "title": "Reflecting on Past Decisions",
+      "titleNative": "Reflexionar sobre decisiones pasadas",
+      "items": [
+        {
+          "es": "Habíamos decidido esperar, y fue la decisión correcta.",
+          "en": "We had decided to wait, and it was the right decision."
+        },
+        {
+          "es": "Ya había considerado esa opción antes de rechazarla.",
+          "en": "I had already considered that option before rejecting it."
+        },
+        {
+          "es": "Habían discutido el tema muchas veces antes de decidir.",
+          "en": "They had discussed the topic many times before deciding."
+        },
+        {
+          "es": "Yo ya había renunciado cuando me ofrecieron el ascenso.",
+          "en": "I had already resigned when they offered me the promotion."
+        }
+      ]
+    },
+    {
+      "number": 60,
+      "title": "Review: Past Perfect",
+      "titleNative": "Repaso: Pluscuamperfecto",
+      "items": [
+        {
+          "es": "Cuando llegamos, la fiesta ya había terminado.",
+          "en": "When we arrived, the party had already ended."
+        },
+        {
+          "es": "Nunca había probado un plato tan delicioso.",
+          "en": "I had never tried such a delicious dish."
+        },
+        {
+          "es": "Ya habíamos hablado de esto antes de tu llegada.",
+          "en": "We had already talked about this before you arrived."
+        },
+        {
+          "es": "El equipo había ganado tres partidos seguidos antes de perder.",
+          "en": "The team had won three games in a row before losing."
+        }
+      ]
+    },
+    {
+      "number": 61,
+      "title": "Public Transportation",
+      "titleNative": "Transporte público",
+      "items": [
+        {
+          "es": "Prefiero tomar el metro porque es más rápido que el autobús.",
+          "en": "I prefer to take the subway because it's faster than the bus."
+        },
+        {
+          "es": "La estación queda a diez minutos caminando de mi casa.",
+          "en": "The station is a ten-minute walk from my house."
+        },
+        {
+          "es": "Durante la hora pico, los trenes van completamente llenos.",
+          "en": "During rush hour, the trains go completely full."
+        },
+        {
+          "es": "Compré un boleto mensual para ahorrar dinero.",
+          "en": "I bought a monthly pass to save money."
+        }
+      ]
+    },
+    {
+      "number": 62,
+      "title": "Traffic and Congestion",
+      "titleNative": "Tráfico y congestión",
+      "items": [
+        {
+          "es": "El tráfico en esta ciudad empeora cada año.",
+          "en": "The traffic in this city gets worse every year."
+        },
+        {
+          "es": "Hay un embotellamiento enorme en la avenida principal.",
+          "en": "There's a huge traffic jam on the main avenue."
+        },
+        {
+          "es": "Muchas personas prefieren la bicicleta para evitar el tráfico.",
+          "en": "Many people prefer bicycles to avoid traffic."
+        },
+        {
+          "es": "El ayuntamiento planea construir más carriles para autobuses.",
+          "en": "The city council plans to build more bus lanes."
+        }
+      ]
+    },
+    {
+      "number": 63,
+      "title": "Urban Planning",
+      "titleNative": "Planificación urbana",
+      "items": [
+        {
+          "es": "Están construyendo un nuevo parque en el centro de la ciudad.",
+          "en": "They're building a new park downtown."
+        },
+        {
+          "es": "La ciudad necesita más espacios verdes para los residentes.",
+          "en": "The city needs more green spaces for residents."
+        },
+        {
+          "es": "El nuevo edificio tendrá paneles solares en el techo.",
+          "en": "The new building will have solar panels on the roof."
+        },
+        {
+          "es": "El barrio ha cambiado mucho gracias a las nuevas inversiones.",
+          "en": "The neighborhood has changed a lot thanks to new investments."
+        }
+      ]
+    },
+    {
+      "number": 64,
+      "title": "Environmental Issues",
+      "titleNative": "Problemas ambientales",
+      "items": [
+        {
+          "es": "La contaminación del aire afecta la salud de todos.",
+          "en": "Air pollution affects everyone's health."
+        },
+        {
+          "es": "Es importante reciclar el plástico y el vidrio.",
+          "en": "It's important to recycle plastic and glass."
+        },
+        {
+          "es": "El calentamiento global está cambiando el clima del planeta.",
+          "en": "Global warming is changing the planet's climate."
+        },
+        {
+          "es": "Debemos reducir el uso de bolsas de plástico.",
+          "en": "We should reduce the use of plastic bags."
+        }
+      ]
+    },
+    {
+      "number": 65,
+      "title": "Water and Energy Conservation",
+      "titleNative": "Conservación de agua y energía",
+      "items": [
+        {
+          "es": "Cerramos el grifo mientras nos cepillamos los dientes.",
+          "en": "We turn off the tap while we brush our teeth."
+        },
+        {
+          "es": "Apaga las luces cuando salgas de la habitación.",
+          "en": "Turn off the lights when you leave the room."
+        },
+        {
+          "es": "El gobierno promueve el uso de energía renovable.",
+          "en": "The government promotes the use of renewable energy."
+        },
+        {
+          "es": "Instalamos paneles solares para ahorrar electricidad.",
+          "en": "We installed solar panels to save electricity."
+        }
+      ]
+    },
+    {
+      "number": 66,
+      "title": "Wildlife and Nature",
+      "titleNative": "Vida silvestre y naturaleza",
+      "items": [
+        {
+          "es": "La deforestación pone en peligro a muchas especies.",
+          "en": "Deforestation endangers many species."
+        },
+        {
+          "es": "Vimos varios animales salvajes durante la caminata.",
+          "en": "We saw several wild animals during the hike."
+        },
+        {
+          "es": "El bosque es el hogar de miles de especies de plantas.",
+          "en": "The forest is home to thousands of plant species."
+        },
+        {
+          "es": "Es fundamental proteger los océanos y sus criaturas.",
+          "en": "It's essential to protect the oceans and their creatures."
+        }
+      ]
+    },
+    {
+      "number": 67,
+      "title": "Community Life",
+      "titleNative": "Vida comunitaria",
+      "items": [
+        {
+          "es": "Los vecinos organizaron una limpieza del parque.",
+          "en": "The neighbors organized a park cleanup."
+        },
+        {
+          "es": "Participamos en una campaña para ayudar a los más necesitados.",
+          "en": "We participated in a campaign to help the neediest."
+        },
+        {
+          "es": "La comunidad se unió para reconstruir la escuela.",
+          "en": "The community came together to rebuild the school."
+        },
+        {
+          "es": "Hay un mercado local todos los sábados en la plaza.",
+          "en": "There's a local market every Saturday in the square."
+        }
+      ]
+    },
+    {
+      "number": 68,
+      "title": "City Services",
+      "titleNative": "Servicios de la ciudad",
+      "items": [
+        {
+          "es": "La biblioteca pública ofrece clases gratuitas de idiomas.",
+          "en": "The public library offers free language classes."
+        },
+        {
+          "es": "El hospital municipal atiende a miles de pacientes al mes.",
+          "en": "The municipal hospital treats thousands of patients a month."
+        },
+        {
+          "es": "Hay que renovar el permiso de conducir cada cinco años.",
+          "en": "You have to renew your driver's license every five years."
+        },
+        {
+          "es": "El ayuntamiento mejoró el alumbrado público del barrio.",
+          "en": "The city council improved the neighborhood's street lighting."
+        }
+      ]
+    },
+    {
+      "number": 69,
+      "title": "Living in a Big City vs. a Small Town",
+      "titleNative": "Vivir en una gran ciudad frente a un pueblo pequeño",
+      "items": [
+        {
+          "es": "En la ciudad hay más oportunidades de trabajo.",
+          "en": "In the city there are more job opportunities."
+        },
+        {
+          "es": "En el pueblo la vida es más tranquila y menos costosa.",
+          "en": "In the town, life is quieter and less expensive."
+        },
+        {
+          "es": "Extraño el silencio del campo cuando estoy en la ciudad.",
+          "en": "I miss the silence of the countryside when I'm in the city."
+        },
+        {
+          "es": "Muchos jóvenes se mudan a la capital para estudiar.",
+          "en": "Many young people move to the capital to study."
+        }
+      ]
+    },
+    {
+      "number": 70,
+      "title": "Review: City and Environment",
+      "titleNative": "Repaso: Ciudad y medioambiente",
+      "items": [
+        {
+          "es": "Nuestra ciudad ha mejorado mucho en cuestiones ambientales.",
+          "en": "Our city has improved a lot in environmental matters."
+        },
+        {
+          "es": "Todos debemos hacer nuestra parte para cuidar el planeta.",
+          "en": "We should all do our part to take care of the planet."
+        },
+        {
+          "es": "El transporte público ayuda a reducir la contaminación.",
+          "en": "Public transportation helps reduce pollution."
+        },
+        {
+          "es": "Espero que la próxima generación herede un mundo mejor.",
+          "en": "I hope the next generation inherits a better world."
+        }
+      ]
+    },
+    {
+      "number": 71,
+      "title": "Smartphones and Apps",
+      "titleNative": "Teléfonos inteligentes y aplicaciones",
+      "items": [
+        {
+          "es": "Descargué una aplicación nueva para aprender idiomas.",
+          "en": "I downloaded a new app to learn languages."
+        },
+        {
+          "es": "Mi teléfono se quedó sin batería en el peor momento.",
+          "en": "My phone ran out of battery at the worst moment."
+        },
+        {
+          "es": "Uso el celular para casi todo, desde pagar hasta trabajar.",
+          "en": "I use my phone for almost everything, from paying to working."
+        },
+        {
+          "es": "Actualicé el sistema operativo de mi computadora ayer.",
+          "en": "I updated my computer's operating system yesterday."
+        }
+      ]
+    },
+    {
+      "number": 72,
+      "title": "Social Media",
+      "titleNative": "Redes sociales",
+      "items": [
+        {
+          "es": "Paso demasiado tiempo revisando las redes sociales.",
+          "en": "I spend too much time checking social media."
+        },
+        {
+          "es": "Publicó una foto de sus vacaciones en la playa.",
+          "en": "She posted a photo of her beach vacation."
+        },
+        {
+          "es": "Mucha gente comparte noticias falsas sin verificarlas.",
+          "en": "A lot of people share fake news without checking it."
+        },
+        {
+          "es": "Dejé de seguir varias cuentas que me hacían sentir mal.",
+          "en": "I stopped following several accounts that made me feel bad."
+        }
+      ]
+    },
+    {
+      "number": 73,
+      "title": "Streaming and Entertainment",
+      "titleNative": "Transmisión de contenido y entretenimiento",
+      "items": [
+        {
+          "es": "Vimos toda la serie en un solo fin de semana.",
+          "en": "We watched the whole series in a single weekend."
+        },
+        {
+          "es": "Prefiero escuchar música en lugar de ver televisión.",
+          "en": "I prefer listening to music instead of watching television."
+        },
+        {
+          "es": "La plataforma añadió varias películas nuevas este mes.",
+          "en": "The platform added several new movies this month."
+        },
+        {
+          "es": "Cancelé mi suscripción porque casi no la usaba.",
+          "en": "I canceled my subscription because I barely used it."
+        }
+      ]
+    },
+    {
+      "number": 74,
+      "title": "Online Communication",
+      "titleNative": "Comunicación en línea",
+      "items": [
+        {
+          "es": "Le mandé un mensaje pero todavía no ha respondido.",
+          "en": "I sent him a message but he hasn't answered yet."
+        },
+        {
+          "es": "Hicimos una videollamada para hablar con toda la familia.",
+          "en": "We did a video call to talk with the whole family."
+        },
+        {
+          "es": "Prefiero llamar por teléfono en lugar de escribir mensajes.",
+          "en": "I prefer calling on the phone instead of writing messages."
+        },
+        {
+          "es": "El correo electrónico sigue siendo importante para el trabajo.",
+          "en": "Email is still important for work."
+        }
+      ]
+    },
+    {
+      "number": 75,
+      "title": "Online Shopping",
+      "titleNative": "Compras en línea",
+      "items": [
+        {
+          "es": "Compré estos zapatos por internet la semana pasada.",
+          "en": "I bought these shoes online last week."
+        },
+        {
+          "es": "El paquete llegó antes de lo que esperaba.",
+          "en": "The package arrived earlier than I expected."
+        },
+        {
+          "es": "Comparo precios en varias páginas antes de comprar algo.",
+          "en": "I compare prices on several sites before buying something."
+        },
+        {
+          "es": "Devolví el producto porque no era lo que había pedido.",
+          "en": "I returned the product because it wasn't what I had ordered."
+        }
+      ]
+    },
+    {
+      "number": 76,
+      "title": "Cybersecurity and Privacy",
+      "titleNative": "Ciberseguridad y privacidad",
+      "items": [
+        {
+          "es": "Es importante usar contraseñas seguras y diferentes.",
+          "en": "It's important to use strong, different passwords."
+        },
+        {
+          "es": "Recibí un correo sospechoso que parecía una estafa.",
+          "en": "I received a suspicious email that looked like a scam."
+        },
+        {
+          "es": "No compartas tu información personal con desconocidos.",
+          "en": "Don't share your personal information with strangers."
+        },
+        {
+          "es": "Activé la verificación en dos pasos para más seguridad.",
+          "en": "I turned on two-step verification for more security."
+        }
+      ]
+    },
+    {
+      "number": 77,
+      "title": "Working from Home",
+      "titleNative": "Trabajar desde casa",
+      "items": [
+        {
+          "es": "Trabajo desde casa tres días a la semana.",
+          "en": "I work from home three days a week."
+        },
+        {
+          "es": "Es difícil concentrarse cuando hay tantas distracciones.",
+          "en": "It's hard to concentrate when there are so many distractions."
+        },
+        {
+          "es": "Tenemos una reunión virtual todos los lunes por la mañana.",
+          "en": "We have a virtual meeting every Monday morning."
+        },
+        {
+          "es": "Extraño la interacción cara a cara con mis compañeros.",
+          "en": "I miss face-to-face interaction with my coworkers."
+        }
+      ]
+    },
+    {
+      "number": 78,
+      "title": "Artificial Intelligence",
+      "titleNative": "Inteligencia artificial",
+      "items": [
+        {
+          "es": "La inteligencia artificial está cambiando muchos trabajos.",
+          "en": "Artificial intelligence is changing many jobs."
+        },
+        {
+          "es": "Algunas empresas usan robots para tareas repetitivas.",
+          "en": "Some companies use robots for repetitive tasks."
+        },
+        {
+          "es": "Todavía no sabemos hasta dónde llegará esta tecnología.",
+          "en": "We still don't know how far this technology will go."
+        },
+        {
+          "es": "Esa aplicación traduce textos automáticamente.",
+          "en": "That app translates texts automatically."
+        }
+      ]
+    },
+    {
+      "number": 79,
+      "title": "News and Journalism",
+      "titleNative": "Noticias y periodismo",
+      "items": [
+        {
+          "es": "Leo las noticias en línea todas las mañanas.",
+          "en": "I read the news online every morning."
+        },
+        {
+          "es": "Es importante verificar la fuente antes de creer una noticia.",
+          "en": "It's important to check the source before believing a news story."
+        },
+        {
+          "es": "El periódico local publicó un artículo sobre el tema.",
+          "en": "The local newspaper published an article about the topic."
+        },
+        {
+          "es": "Escuché la noticia en la radio de camino al trabajo.",
+          "en": "I heard the news on the radio on my way to work."
+        }
+      ]
+    },
+    {
+      "number": 80,
+      "title": "Review: Technology and Media",
+      "titleNative": "Repaso: Tecnología y medios",
+      "items": [
+        {
+          "es": "La tecnología ha cambiado la forma en que nos comunicamos.",
+          "en": "Technology has changed the way we communicate."
+        },
+        {
+          "es": "A veces es bueno desconectarse de las pantallas.",
+          "en": "Sometimes it's good to disconnect from screens."
+        },
+        {
+          "es": "Gracias a internet, podemos aprender casi cualquier cosa.",
+          "en": "Thanks to the internet, we can learn almost anything."
+        },
+        {
+          "es": "Espero que sepamos usar la tecnología con responsabilidad.",
+          "en": "I hope we know how to use technology responsibly."
+        }
+      ]
+    },
+    {
+      "number": 81,
+      "title": "Holidays and Celebrations",
+      "titleNative": "Días festivos y celebraciones",
+      "items": [
+        {
+          "es": "El Día de los Muertos se celebra a principios de noviembre.",
+          "en": "The Day of the Dead is celebrated in early November."
+        },
+        {
+          "es": "Cada región tiene sus propias tradiciones para las fiestas.",
+          "en": "Each region has its own traditions for the holidays."
+        },
+        {
+          "es": "Decoramos la casa con flores y velas para la celebración.",
+          "en": "We decorate the house with flowers and candles for the celebration."
+        },
+        {
+          "es": "Toda la familia se reúne para celebrar la Navidad juntos.",
+          "en": "The whole family gets together to celebrate Christmas together."
+        }
+      ]
+    },
+    {
+      "number": 82,
+      "title": "Weddings and Family Events",
+      "titleNative": "Bodas y eventos familiares",
+      "items": [
+        {
+          "es": "La boda se celebrará en un jardín al aire libre.",
+          "en": "The wedding will be held in an outdoor garden."
+        },
+        {
+          "es": "Los novios bailaron su primera canción juntos.",
+          "en": "The bride and groom danced their first song together."
+        },
+        {
+          "es": "Fue un bautizo muy emotivo para toda la familia.",
+          "en": "It was a very emotional baptism for the whole family."
+        },
+        {
+          "es": "Celebramos el aniversario de bodas de mis padres con una cena.",
+          "en": "We celebrated my parents' wedding anniversary with a dinner."
+        }
+      ]
+    },
+    {
+      "number": 83,
+      "title": "Music and Dance",
+      "titleNative": "Música y baile",
+      "items": [
+        {
+          "es": "El tango nació en Buenos Aires a finales del siglo diecinueve.",
+          "en": "Tango was born in Buenos Aires in the late nineteenth century."
+        },
+        {
+          "es": "Me encanta bailar salsa los fines de semana.",
+          "en": "I love dancing salsa on weekends."
+        },
+        {
+          "es": "La música folclórica cuenta la historia de nuestro pueblo.",
+          "en": "Folk music tells the story of our people."
+        },
+        {
+          "es": "Ese cantante mezcla ritmos tradicionales con sonidos modernos.",
+          "en": "That singer mixes traditional rhythms with modern sounds."
+        }
+      ]
+    },
+    {
+      "number": 84,
+      "title": "Food and Culinary Traditions",
+      "titleNative": "Comida y tradiciones culinarias",
+      "items": [
+        {
+          "es": "Cada país latinoamericano tiene su propio plato típico.",
+          "en": "Each Latin American country has its own typical dish."
+        },
+        {
+          "es": "Mi abuela me enseñó la receta secreta de la familia.",
+          "en": "My grandmother taught me the family's secret recipe."
+        },
+        {
+          "es": "El maíz es un ingrediente esencial en muchas cocinas de la región.",
+          "en": "Corn is an essential ingredient in many of the region's cuisines."
+        },
+        {
+          "es": "Preparamos tamales juntos como tradición cada diciembre.",
+          "en": "We prepare tamales together as a tradition every December."
+        }
+      ]
+    },
+    {
+      "number": 85,
+      "title": "Art and Literature",
+      "titleNative": "Arte y literatura",
+      "items": [
+        {
+          "es": "Ese pintor es conocido por sus murales llenos de color.",
+          "en": "That painter is known for his murals full of color."
+        },
+        {
+          "es": "Leí una novela que ganó un premio literario importante.",
+          "en": "I read a novel that won an important literary prize."
+        },
+        {
+          "es": "El museo exhibe obras de artistas latinoamericanos contemporáneos.",
+          "en": "The museum exhibits works by contemporary Latin American artists."
+        },
+        {
+          "es": "La poesía de ese autor refleja la vida en el campo.",
+          "en": "That author's poetry reflects life in the countryside."
+        }
+      ]
+    },
+    {
+      "number": 86,
+      "title": "Regional Diversity",
+      "titleNative": "Diversidad regional",
+      "items": [
+        {
+          "es": "Cada región del país tiene su propio acento y expresiones.",
+          "en": "Each region of the country has its own accent and expressions."
+        },
+        {
+          "es": "Las montañas y la costa ofrecen paisajes completamente distintos.",
+          "en": "The mountains and the coast offer completely different landscapes."
+        },
+        {
+          "es": "La gastronomía cambia mucho de una provincia a otra.",
+          "en": "The cuisine changes a lot from one province to another."
+        },
+        {
+          "es": "Visitamos varios pueblos con costumbres muy diferentes.",
+          "en": "We visited several towns with very different customs."
+        }
+      ]
+    },
+    {
+      "number": 87,
+      "title": "Historical Figures and Events",
+      "titleNative": "Personajes y eventos históricos",
+      "items": [
+        {
+          "es": "Ese líder luchó por la independencia de su país.",
+          "en": "That leader fought for his country's independence."
+        },
+        {
+          "es": "La revolución cambió por completo la historia de la nación.",
+          "en": "The revolution completely changed the nation's history."
+        },
+        {
+          "es": "Estudiamos la vida de varios héroes nacionales en la escuela.",
+          "en": "We studied the lives of several national heroes in school."
+        },
+        {
+          "es": "El monumento conmemora a los que lucharon por la libertad.",
+          "en": "The monument commemorates those who fought for freedom."
+        }
+      ]
+    },
+    {
+      "number": 88,
+      "title": "Festivals and Public Events",
+      "titleNative": "Festivales y eventos públicos",
+      "items": [
+        {
+          "es": "El festival de cine atrae a visitantes de todo el mundo.",
+          "en": "The film festival attracts visitors from all over the world."
+        },
+        {
+          "es": "Hay un desfile enorme por las calles principales cada año.",
+          "en": "There's a huge parade through the main streets every year."
+        },
+        {
+          "es": "El carnaval es una de las celebraciones más importantes del año.",
+          "en": "Carnival is one of the most important celebrations of the year."
+        },
+        {
+          "es": "Miles de personas asisten al concierto gratuito en el parque.",
+          "en": "Thousands of people attend the free concert in the park."
+        }
+      ]
+    },
+    {
+      "number": 89,
+      "title": "Language and Identity",
+      "titleNative": "Idioma e identidad",
+      "items": [
+        {
+          "es": "El idioma es una parte fundamental de nuestra identidad.",
+          "en": "Language is a fundamental part of our identity."
+        },
+        {
+          "es": "Muchas comunidades indígenas todavía hablan sus lenguas originales.",
+          "en": "Many indigenous communities still speak their original languages."
+        },
+        {
+          "es": "Aprender un nuevo idioma abre puertas a otras culturas.",
+          "en": "Learning a new language opens doors to other cultures."
+        },
+        {
+          "es": "Nos sentimos orgullosos de nuestras raíces y tradiciones.",
+          "en": "We feel proud of our roots and traditions."
+        }
+      ]
+    },
+    {
+      "number": 90,
+      "title": "Review: Culture and Traditions",
+      "titleNative": "Repaso: Cultura y tradiciones",
+      "items": [
+        {
+          "es": "Las tradiciones nos conectan con las generaciones anteriores.",
+          "en": "Traditions connect us with previous generations."
+        },
+        {
+          "es": "Espero que estas costumbres se transmitan a los niños.",
+          "en": "I hope these customs are passed on to the children."
+        },
+        {
+          "es": "Cada celebración cuenta una parte de nuestra historia.",
+          "en": "Each celebration tells a part of our history."
+        },
+        {
+          "es": "Me encanta descubrir las tradiciones de otros países.",
+          "en": "I love discovering the traditions of other countries."
+        }
+      ]
+    },
+    {
+      "number": 91,
+      "title": "Combining Tenses: A Busy Week",
+      "titleNative": "Combinar tiempos: Una semana ocupada",
+      "items": [
+        {
+          "es": "He tenido una semana muy ocupada, pero he logrado terminar todo.",
+          "en": "I've had a very busy week, but I've managed to finish everything."
+        },
+        {
+          "es": "Ayer había prometido llamar a mi madre, y por fin lo hice.",
+          "en": "Yesterday I had promised to call my mother, and I finally did it."
+        },
+        {
+          "es": "Espero que la próxima semana sea un poco más tranquila.",
+          "en": "I hope next week is a bit calmer."
+        },
+        {
+          "es": "Necesito que me ayudes a organizar mi agenda.",
+          "en": "I need you to help me organize my schedule."
+        }
+      ]
+    },
+    {
+      "number": 92,
+      "title": "Making Plans and Requests",
+      "titleNative": "Hacer planes y pedidos",
+      "items": [
+        {
+          "es": "Quiero que vengan todos a la cena del sábado.",
+          "en": "I want everyone to come to Saturday's dinner."
+        },
+        {
+          "es": "El restaurante donde vamos a celebrar es excelente.",
+          "en": "The restaurant where we're going to celebrate is excellent."
+        },
+        {
+          "es": "Compré esto para ti por tu cumpleaños.",
+          "en": "I bought this for you for your birthday."
+        },
+        {
+          "es": "Es importante que confirmes tu asistencia antes del viernes.",
+          "en": "It's important that you confirm your attendance before Friday."
+        }
+      ]
+    },
+    {
+      "number": 93,
+      "title": "Talking About Change",
+      "titleNative": "Hablar de cambios",
+      "items": [
+        {
+          "es": "La ciudad ha cambiado mucho desde que era niño.",
+          "en": "The city has changed a lot since I was a child."
+        },
+        {
+          "es": "Cuando volví, ya habían construido el nuevo puente.",
+          "en": "When I returned, they had already built the new bridge."
+        },
+        {
+          "es": "Espero que estos cambios beneficien a toda la comunidad.",
+          "en": "I hope these changes benefit the whole community."
+        },
+        {
+          "es": "Es necesario que sigamos adaptándonos a la nueva realidad.",
+          "en": "It's necessary that we keep adapting to the new reality."
+        }
+      ]
+    },
+    {
+      "number": 94,
+      "title": "Expressing Opinions Clearly",
+      "titleNative": "Expresar opiniones con claridad",
+      "items": [
+        {
+          "es": "No creo que sea la mejor solución para el problema.",
+          "en": "I don't think it's the best solution to the problem."
+        },
+        {
+          "es": "Para mí, lo más importante es la honestidad.",
+          "en": "For me, the most important thing is honesty."
+        },
+        {
+          "es": "La persona con quien hablé tenía razón en todo.",
+          "en": "The person I spoke with was right about everything."
+        },
+        {
+          "es": "Es probable que cambiemos de opinión con más información.",
+          "en": "It's likely we'll change our minds with more information."
+        }
+      ]
+    },
+    {
+      "number": 95,
+      "title": "Describing a Memorable Trip",
+      "titleNative": "Describir un viaje memorable",
+      "items": [
+        {
+          "es": "Habíamos planeado ese viaje durante casi un año.",
+          "en": "We had planned that trip for almost a year."
+        },
+        {
+          "es": "El lugar donde nos hospedamos tenía una vista increíble.",
+          "en": "The place where we stayed had an incredible view."
+        },
+        {
+          "es": "He viajado a muchos países, pero ese fue especial.",
+          "en": "I've traveled to many countries, but that one was special."
+        },
+        {
+          "es": "Espero que puedas visitar ese lugar algún día.",
+          "en": "I hope you can visit that place someday."
+        }
+      ]
+    },
+    {
+      "number": 96,
+      "title": "Giving Formal Advice",
+      "titleNative": "Dar consejos formales",
+      "items": [
+        {
+          "es": "Le recomiendo que hable directamente con el director.",
+          "en": "I recommend that you speak directly with the director."
+        },
+        {
+          "es": "Es fundamental que revise el contrato antes de firmar.",
+          "en": "It's essential that you review the contract before signing."
+        },
+        {
+          "es": "Por favor, envíeme la información por correo electrónico.",
+          "en": "Please send me the information by email."
+        },
+        {
+          "es": "Necesitamos que todos lleguen a tiempo para la reunión.",
+          "en": "We need everyone to arrive on time for the meeting."
+        }
+      ]
+    },
+    {
+      "number": 97,
+      "title": "Reflecting on Personal Growth",
+      "titleNative": "Reflexionar sobre el crecimiento personal",
+      "items": [
+        {
+          "es": "He aprendido mucho de mis propios errores.",
+          "en": "I've learned a lot from my own mistakes."
+        },
+        {
+          "es": "Antes de mudarme, nunca había vivido solo.",
+          "en": "Before moving, I had never lived alone."
+        },
+        {
+          "es": "Me alegra que hayas encontrado algo que te apasiona.",
+          "en": "I'm glad you've found something you're passionate about."
+        },
+        {
+          "es": "Es increíble todo lo que hemos logrado juntos este año.",
+          "en": "It's incredible everything we've achieved together this year."
+        }
+      ]
+    },
+    {
+      "number": 98,
+      "title": "Talking About the Future with Confidence",
+      "titleNative": "Hablar del futuro con confianza",
+      "items": [
+        {
+          "es": "Espero que el próximo año traiga muchas oportunidades nuevas.",
+          "en": "I hope next year brings many new opportunities."
+        },
+        {
+          "es": "Para el futuro, quiero que mis hijos aprendan varios idiomas.",
+          "en": "For the future, I want my children to learn several languages."
+        },
+        {
+          "es": "Es probable que nos mudemos a otra ciudad pronto.",
+          "en": "It's likely we'll move to another city soon."
+        },
+        {
+          "es": "Confío en que todo va a salir bien al final.",
+          "en": "I trust that everything will turn out well in the end."
+        }
+      ]
+    },
+    {
+      "number": 99,
+      "title": "A Conversation Between Friends",
+      "titleNative": "Una conversación entre amigos",
+      "items": [
+        {
+          "es": "¿Has hablado con Marta últimamente? La extraño mucho.",
+          "en": "Have you talked to Marta lately? I miss her a lot."
+        },
+        {
+          "es": "Sí, me contó que se ha mudado a otra ciudad por trabajo.",
+          "en": "Yes, she told me she has moved to another city for work."
+        },
+        {
+          "es": "Espero que podamos visitarla pronto, aunque sea por unos días.",
+          "en": "I hope we can visit her soon, even if just for a few days."
+        },
+        {
+          "es": "Claro, es la amiga con quien más he compartido en la vida.",
+          "en": "Of course, she's the friend I've shared the most with in life."
+        }
+      ]
+    },
+    {
+      "number": 100,
+      "title": "Review: B1 Capstone",
+      "titleNative": "Repaso: Cierre de B1",
+      "items": [
+        {
+          "es": "Hemos cubierto mucho en este nivel, y has progresado enormemente.",
+          "en": "We've covered a lot at this level, and you've progressed enormously."
+        },
+        {
+          "es": "Espero que sigas practicando todo lo que has aprendido.",
+          "en": "I hope you keep practicing everything you've learned."
+        },
+        {
+          "es": "La persona que empezó este curso no es la misma que lo termina hoy.",
+          "en": "The person who started this course isn't the same one finishing it today."
+        },
+        {
+          "es": "Estoy seguro de que estás listo para el siguiente nivel.",
+          "en": "I'm sure you're ready for the next level."
+        }
+      ]
+    }
+  ]
+}
