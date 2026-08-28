@@ -9,10 +9,14 @@
   const ADVANCE_DELAY_CORRECT = 900;
   const ADVANCE_DELAY_WRONG = 2000;
 
-  // `group` drives the course-picker's two sections, and matches this
+  // `group` drives the course-picker's sections, and matches this
   // project's real distinction, not a cosmetic one: "established" is the
-  // set of pre-existing courses; "underserved" is every course built from
-  // scratch for a language mainstream apps don't teach. `accent` cycles
+  // set of pre-existing courses; "world" is a major, mainstream-taught
+  // language built from scratch for this project (e.g. Spanish) -- NOT
+  // "underserved", which specifically means a language mainstream apps
+  // don't teach and would be a false claim for a language like Spanish;
+  // "underserved" is every course built from scratch for a language
+  // mainstream apps don't teach. `accent` cycles
   // through a curated palette (see the --course-accent-* tokens in
   // style.css) purely so the picker's cards are visually distinguishable
   // at a glance -- it carries no other meaning.
@@ -30,6 +34,7 @@
     { id: "pashto", file: "data/courses-pashto.json", audioManifest: "data/audio-pashto/manifest.json", label: "Pashto — پښتو", native: "پښتو", en: "Pashto", flag: "پښتو", group: "underserved", accent: "rust" },
     { id: "turkmen", file: "data/courses-turkmen.json", audioManifest: "data/audio-turkmen/manifest.json", label: "Turkmen — Türkmençe", native: "Türkmençe", en: "Turkmen", flag: "Türkmençe", group: "underserved", accent: "maroon" },
     { id: "urdu", file: "data/courses-urdu.json", audioManifest: "data/audio-urdu/manifest.json", label: "Urdu — اردو", native: "اردو", en: "Urdu", flag: "اردو", group: "underserved", accent: "gold" },
+    { id: "spanish", file: "data/courses-spanish.json", audioManifest: "data/audio-spanish/manifest.json", label: "Spanish — Español", native: "Español", en: "Spanish", flag: "Español", group: "world", accent: "gold" },
   ];
 
   // A small shared icon set (currentColor throughout, so each one just
@@ -890,6 +895,7 @@
 
   const COURSE_SECTIONS = [
     { group: "established", title: "Languages" },
+    { group: "world", title: "World Languages" },
     { group: "underserved", title: "Underserved Languages" },
   ];
 
