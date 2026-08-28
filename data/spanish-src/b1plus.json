@@ -1,0 +1,2402 @@
+{
+  "level": "b1plus",
+  "grammarTopics": {
+    "b1plus-future": {
+      "title": "Future Tense: What Will Happen",
+      "pattern": "infinitive + -é/-ás/-á/-emos/-éis/-án",
+      "explanation": "The future tense attaches endings directly onto the infinitive, the same endings for -ar/-er/-ir verbs: \"hablaré\" (I will speak), \"comerás\" (you will eat), \"vivirá\" (he/she will live). It's used for predictions and plans, and also — a distinctly Spanish use — to express probability about the present: \"¿Qué hora será?\" (I wonder what time it is / What time could it be?).",
+      "fact": "About a dozen common verbs have an irregular future stem while keeping the regular endings: \"tener\" → \"tendr-\", \"poner\" → \"pondr-\", \"salir\" → \"saldr-\", \"venir\" → \"vendr-\", \"decir\" → \"dir-\", \"hacer\" → \"har-\", \"poder\" → \"podr-\", \"querer\" → \"querr-\", \"saber\" → \"sabr-\" — so \"tendré\", \"haré\", \"podrás\", etc.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "¿Crees que lloverá mañana?",
+          "en": "Do you think it will rain tomorrow?"
+        },
+        {
+          "sp": "B",
+          "native": "No lo sé, pero llevaré un paraguas por si acaso.",
+          "en": "I don't know, but I'll bring an umbrella just in case."
+        }
+      ]
+    },
+    "b1plus-conditional": {
+      "title": "Conditional Tense: What Would Happen",
+      "pattern": "infinitive + -ía/-ías/-ía/-íamos/-íais/-ían",
+      "explanation": "The conditional uses the same stems as the future (including the same irregulars) but swaps in the imperfect-style -ía endings: \"hablaría\" (I would speak), \"tendría\" (I would have), \"haría\" (I would do). It expresses hypothetical actions, polite requests, and past-projected future (\"dijo que vendría\" — he said he would come).",
+      "fact": "\"Me gustaría\" (I would like) is the most common conditional phrase in everyday Spanish — softer and more polite than \"quiero\" (I want), much like English \"I would like\" versus \"I want.\"",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "¿Qué harías tú en mi situación?",
+          "en": "What would you do in my situation?"
+        },
+        {
+          "sp": "B",
+          "native": "Yo hablaría con ella directamente, sería lo más honesto.",
+          "en": "I would talk to her directly, it would be the most honest thing."
+        }
+      ]
+    },
+    "b1plus-passive": {
+      "title": "Passive Voice: When the Subject Receives the Action",
+      "pattern": "ser + past participle (agrees in gender/number) · se + verb (impersonal passive)",
+      "explanation": "Formal passive voice uses \"ser\" plus a past participle that AGREES with the subject: \"La carta fue escrita por Ana\" (The letter was written by Ana), \"Los premios serán entregados mañana\" (The prizes will be given out tomorrow). Everyday spoken Spanish more often uses the \"se pasiva\" instead: \"Se venden casas\" (Houses [are] sold / For sale), \"Se habla español aquí\" (Spanish is spoken here) — no agent mentioned, and the verb agrees with the noun that follows.",
+      "fact": "The \"se pasiva\" is everywhere on real signs and everyday speech — \"Se prohíbe fumar\" (Smoking is prohibited), \"Se busca camarero\" (Waiter wanted) — while the \"ser + participle\" passive sounds more formal and is common in news writing and formal reports.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "¿Sabes si se aceptan tarjetas de crédito aquí?",
+          "en": "Do you know if credit cards are accepted here?"
+        },
+        {
+          "sp": "B",
+          "native": "Creo que sí, pero el menú fue actualizado la semana pasada, mejor pregunta.",
+          "en": "I think so, but the menu was updated last week, better ask."
+        }
+      ]
+    },
+    "b1plus-indirect-speech": {
+      "title": "Indirect Speech: Reporting What Someone Said",
+      "pattern": "decir/preguntar que + [reported clause, tense shifted back one step]",
+      "explanation": "When you report what someone said, the verb tense usually shifts back one step: present becomes imperfect (\"Tengo hambre\" → dijo que tenía hambre), present perfect becomes past perfect (\"He terminado\" → dijo que había terminado), future becomes conditional (\"Vendré\" → dijo que vendría). Questions use \"si\" for yes/no questions or the question word directly: \"me preguntó si vendría\" (she asked me if I would come), \"me preguntó dónde vivía\" (she asked me where I lived).",
+      "fact": "If the reporting verb is in the present tense (\"dice que...\"), no tense shift is needed at all — the shift only happens when reporting from a past-tense perspective (\"dijo que...\"), because that's when the original statement's \"now\" has already moved into the past.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "¿Qué te dijo el médico?",
+          "en": "What did the doctor tell you?"
+        },
+        {
+          "sp": "B",
+          "native": "Me dijo que descansara y que volviera si no mejoraba.",
+          "en": "He told me to rest and to come back if I didn't get better."
+        }
+      ]
+    },
+    "b1plus-subjunctive-deeper": {
+      "title": "Subjunctive Beyond Wishes: Purpose, Concession, Conditions",
+      "pattern": "para que / sin que / antes de que / aunque / a menos que + subjunctive",
+      "explanation": "Certain connectors always trigger the subjunctive in the clause that follows, because they introduce something not yet realized or hypothetical: \"para que\" (so that) — \"Te lo explico para que entiendas\"; \"antes de que\" (before) — \"Llama antes de que sea tarde\"; \"sin que\" (without) — \"Salió sin que nadie lo viera\"; \"a menos que\" (unless) — \"No iré a menos que me acompañes.\" \"Aunque\" (although/even if) takes the subjunctive specifically when the concession is hypothetical or unconfirmed, and the indicative when it's an accepted fact.",
+      "fact": "\"Ojalá\" (I wish / hopefully), borrowed from Arabic \"law šā' allāh\" (God willing) centuries ago during the Moorish period in Spain, ALWAYS takes the subjunctive and is one of the most common ways to express a wish in everyday Spanish: \"Ojalá que ganemos\" (I hope we win).",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Aunque llueva, vamos a ir a la playa.",
+          "en": "Even if it rains, we're going to go to the beach."
+        },
+        {
+          "sp": "B",
+          "native": "Ojalá que salga el sol, sería perfecto.",
+          "en": "I hope the sun comes out, it would be perfect."
+        }
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Predictions About Tomorrow",
+      "titleNative": "Predicciones sobre el mañana",
+      "items": [
+        {
+          "es": "Mañana hará mucho calor según el pronóstico.",
+          "en": "Tomorrow it will be very hot according to the forecast."
+        },
+        {
+          "es": "El próximo año viviremos en una casa más grande.",
+          "en": "Next year we will live in a bigger house."
+        },
+        {
+          "es": "Creo que ella ganará el premio, es la mejor.",
+          "en": "I think she will win the prize, she's the best."
+        },
+        {
+          "es": "Los precios subirán otra vez el mes que viene.",
+          "en": "Prices will go up again next month."
+        }
+      ],
+      "topicId": "b1plus-future"
+    },
+    {
+      "number": 2,
+      "title": "Personal Plans and Promises",
+      "titleNative": "Planes y promesas personales",
+      "items": [
+        {
+          "es": "Te llamaré en cuanto llegue al aeropuerto.",
+          "en": "I'll call you as soon as I arrive at the airport."
+        },
+        {
+          "es": "Prometo que tendré más cuidado la próxima vez.",
+          "en": "I promise I'll be more careful next time."
+        },
+        {
+          "es": "Terminaremos el proyecto antes del viernes.",
+          "en": "We will finish the project before Friday."
+        },
+        {
+          "es": "Ella dice que vendrá a visitarnos en verano.",
+          "en": "She says she will come visit us in summer."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Irregular Future Stems",
+      "titleNative": "Raíces irregulares del futuro",
+      "items": [
+        {
+          "es": "No sabré la respuesta hasta mañana.",
+          "en": "I won't know the answer until tomorrow."
+        },
+        {
+          "es": "¿Podrás ayudarme con la mudanza el sábado?",
+          "en": "Will you be able to help me with the move on Saturday?"
+        },
+        {
+          "es": "Haremos todo lo posible para llegar a tiempo.",
+          "en": "We will do everything possible to arrive on time."
+        },
+        {
+          "es": "Dirán la verdad cuando estén listos.",
+          "en": "They will tell the truth when they are ready."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Probability and Speculation",
+      "titleNative": "Probabilidad y especulación",
+      "items": [
+        {
+          "es": "Serán las diez de la noche, no estoy seguro.",
+          "en": "It's probably ten at night, I'm not sure."
+        },
+        {
+          "es": "¿Dónde estará mi hermano a esta hora?",
+          "en": "Where could my brother be at this hour?"
+        },
+        {
+          "es": "Tendrá unos treinta años, calculo yo.",
+          "en": "He's probably about thirty years old, I'd guess."
+        },
+        {
+          "es": "No contesta el teléfono, estará ocupada.",
+          "en": "She's not answering the phone, she's probably busy."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Future Consequences",
+      "titleNative": "Consecuencias futuras",
+      "items": [
+        {
+          "es": "Si no estudias, no aprobarás el examen.",
+          "en": "If you don't study, you won't pass the exam."
+        },
+        {
+          "es": "Si sigues así, tendrás problemas de salud.",
+          "en": "If you keep this up, you'll have health problems."
+        },
+        {
+          "es": "Cuando termines la universidad, encontrarás un buen trabajo.",
+          "en": "When you finish college, you'll find a good job."
+        },
+        {
+          "es": "En cuanto lleguemos, te avisaré por mensaje.",
+          "en": "As soon as we arrive, I'll let you know by message."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Career and Future Goals",
+      "titleNative": "Carrera y metas futuras",
+      "items": [
+        {
+          "es": "Algún día abriré mi propio negocio.",
+          "en": "Someday I will open my own business."
+        },
+        {
+          "es": "Estudiaré medicina porque quiero ayudar a la gente.",
+          "en": "I will study medicine because I want to help people."
+        },
+        {
+          "es": "Con el tiempo, ella se convertirá en una gran líder.",
+          "en": "With time, she will become a great leader."
+        },
+        {
+          "es": "Trabajaremos duro hasta lograr nuestros sueños.",
+          "en": "We will work hard until we achieve our dreams."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Weather and Seasons",
+      "titleNative": "Clima y estaciones",
+      "items": [
+        {
+          "es": "El invierno será más frío este año, según los expertos.",
+          "en": "Winter will be colder this year, according to experts."
+        },
+        {
+          "es": "En primavera florecerán todos los árboles del parque.",
+          "en": "In spring all the trees in the park will bloom."
+        },
+        {
+          "es": "La tormenta llegará por la noche, dicen las noticias.",
+          "en": "The storm will arrive at night, the news says."
+        },
+        {
+          "es": "No sé si nevará este fin de semana.",
+          "en": "I don't know if it will snow this weekend."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Future in Relationships",
+      "titleNative": "El futuro en las relaciones",
+      "items": [
+        {
+          "es": "Nos casaremos el próximo verano en la playa.",
+          "en": "We will get married next summer at the beach."
+        },
+        {
+          "es": "Algún día tendremos hijos y una casa con jardín.",
+          "en": "Someday we will have children and a house with a garden."
+        },
+        {
+          "es": "Seguiremos siendo amigos pase lo que pase.",
+          "en": "We will keep being friends no matter what happens."
+        },
+        {
+          "es": "Ella siempre estará en mi corazón.",
+          "en": "She will always be in my heart."
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Technology's Future",
+      "titleNative": "El futuro de la tecnología",
+      "items": [
+        {
+          "es": "En el futuro, los coches se conducirán solos.",
+          "en": "In the future, cars will drive themselves."
+        },
+        {
+          "es": "La inteligencia artificial cambiará muchos aspectos de la vida.",
+          "en": "Artificial intelligence will change many aspects of life."
+        },
+        {
+          "es": "Los robots harán muchas de las tareas repetitivas.",
+          "en": "Robots will do many of the repetitive tasks."
+        },
+        {
+          "es": "¿Cómo será el mundo dentro de cincuenta años?",
+          "en": "What will the world be like in fifty years?"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Review: Future Tense",
+      "titleNative": "Repaso: Tiempo futuro",
+      "items": [
+        {
+          "es": "Mañana será un día importante para todos nosotros.",
+          "en": "Tomorrow will be an important day for all of us."
+        },
+        {
+          "es": "No sabremos el resultado hasta la próxima semana.",
+          "en": "We won't know the result until next week."
+        },
+        {
+          "es": "Todo saldrá bien si trabajamos juntos.",
+          "en": "Everything will turn out fine if we work together."
+        },
+        {
+          "es": "Con paciencia, lograremos todo lo que nos propongamos.",
+          "en": "With patience, we will achieve everything we set out to do."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Polite Requests",
+      "titleNative": "Peticiones corteses",
+      "items": [
+        {
+          "es": "Me gustaría reservar una mesa para dos personas.",
+          "en": "I would like to reserve a table for two people."
+        },
+        {
+          "es": "¿Podrías ayudarme a cargar estas cajas?",
+          "en": "Could you help me carry these boxes?"
+        },
+        {
+          "es": "¿Le importaría cerrar la ventana, por favor?",
+          "en": "Would you mind closing the window, please?"
+        },
+        {
+          "es": "Querría hacerte una pregunta, si tienes un momento.",
+          "en": "I would like to ask you a question, if you have a moment."
+        }
+      ],
+      "topicId": "b1plus-conditional"
+    },
+    {
+      "number": 12,
+      "title": "Hypothetical Situations",
+      "titleNative": "Situaciones hipotéticas",
+      "items": [
+        {
+          "es": "Si tuviera más dinero, viajaría por todo el mundo.",
+          "en": "If I had more money, I would travel all over the world."
+        },
+        {
+          "es": "En tu lugar, yo hablaría con el jefe directamente.",
+          "en": "In your place, I would talk to the boss directly."
+        },
+        {
+          "es": "Nunca haría algo así sin pensarlo primero.",
+          "en": "I would never do something like that without thinking it through first."
+        },
+        {
+          "es": "¿Qué comprarías si ganaras la lotería?",
+          "en": "What would you buy if you won the lottery?"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "title": "Giving Advice with the Conditional",
+      "titleNative": "Dar consejos con el condicional",
+      "items": [
+        {
+          "es": "Yo que tú, descansaría un poco más.",
+          "en": "If I were you, I would rest a bit more."
+        },
+        {
+          "es": "Deberías hablar con un médico sobre eso.",
+          "en": "You should talk to a doctor about that."
+        },
+        {
+          "es": "Sería mejor esperar hasta mañana para decidir.",
+          "en": "It would be better to wait until tomorrow to decide."
+        },
+        {
+          "es": "Convendría revisar el contrato antes de firmarlo.",
+          "en": "It would be advisable to review the contract before signing it."
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "title": "Reported Speech in the Past",
+      "titleNative": "Discurso reportado en pasado",
+      "items": [
+        {
+          "es": "Me dijo que llegaría a las ocho, pero llegó tarde.",
+          "en": "He told me he would arrive at eight, but he arrived late."
+        },
+        {
+          "es": "Ella prometió que me llamaría después del trabajo.",
+          "en": "She promised she would call me after work."
+        },
+        {
+          "es": "Pensé que sería más fácil terminar el proyecto.",
+          "en": "I thought it would be easier to finish the project."
+        },
+        {
+          "es": "Sabíamos que la reunión duraría varias horas.",
+          "en": "We knew the meeting would last several hours."
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "title": "Imagining a Different Life",
+      "titleNative": "Imaginar una vida diferente",
+      "items": [
+        {
+          "es": "Si pudiera empezar de nuevo, estudiaría otra carrera.",
+          "en": "If I could start over, I would study a different career."
+        },
+        {
+          "es": "Me encantaría vivir cerca del mar algún día.",
+          "en": "I would love to live near the sea someday."
+        },
+        {
+          "es": "Sin tu ayuda, no habría terminado este proyecto.",
+          "en": "Without your help, I wouldn't have finished this project."
+        },
+        {
+          "es": "¿Dónde vivirías si pudieras elegir cualquier lugar?",
+          "en": "Where would you live if you could choose any place?"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "title": "Expressing Preferences Politely",
+      "titleNative": "Expresar preferencias con cortesía",
+      "items": [
+        {
+          "es": "Preferiría quedarme en casa esta noche.",
+          "en": "I would prefer to stay home tonight."
+        },
+        {
+          "es": "Nos encantaría que vinieras a la cena del domingo.",
+          "en": "We would love for you to come to Sunday's dinner."
+        },
+        {
+          "es": "¿Te importaría cambiar de asiento conmigo?",
+          "en": "Would you mind switching seats with me?"
+        },
+        {
+          "es": "Sería un honor trabajar con un equipo tan talentoso.",
+          "en": "It would be an honor to work with such a talented team."
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "title": "Speculating About the Past",
+      "titleNative": "Especular sobre el pasado",
+      "items": [
+        {
+          "es": "¿Qué hora sería cuando llegaste anoche?",
+          "en": "What time was it, do you think, when you arrived last night?"
+        },
+        {
+          "es": "Tendría unos veinte años cuando tomó esa foto.",
+          "en": "He was probably about twenty when he took that photo."
+        },
+        {
+          "es": "No sé por qué no contestó, estaría dormida.",
+          "en": "I don't know why she didn't answer, she was probably asleep."
+        },
+        {
+          "es": "Serían las tres cuando por fin llegamos a casa.",
+          "en": "It was probably three when we finally got home."
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "title": "Making Suggestions",
+      "titleNative": "Hacer sugerencias",
+      "items": [
+        {
+          "es": "Podríamos ir al cine este fin de semana.",
+          "en": "We could go to the movies this weekend."
+        },
+        {
+          "es": "¿Y si intentáramos algo diferente esta vez?",
+          "en": "What if we tried something different this time?"
+        },
+        {
+          "es": "Sería divertido organizar una fiesta sorpresa.",
+          "en": "It would be fun to organize a surprise party."
+        },
+        {
+          "es": "Tal vez deberíamos posponer la reunión.",
+          "en": "Maybe we should postpone the meeting."
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "title": "Wishes and Regrets",
+      "titleNative": "Deseos y arrepentimientos",
+      "items": [
+        {
+          "es": "Me habría gustado conocerlo antes de que se fuera.",
+          "en": "I would have liked to meet him before he left."
+        },
+        {
+          "es": "Habría sido más fácil pedir ayuda desde el principio.",
+          "en": "It would have been easier to ask for help from the start."
+        },
+        {
+          "es": "Ojalá pudiera cambiar lo que pasó ese día.",
+          "en": "I wish I could change what happened that day."
+        },
+        {
+          "es": "Con más tiempo, habríamos hecho un mejor trabajo.",
+          "en": "With more time, we would have done a better job."
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "title": "Review: Conditional Tense",
+      "titleNative": "Repaso: Condicional",
+      "items": [
+        {
+          "es": "Me gustaría agradecerte por toda tu ayuda.",
+          "en": "I would like to thank you for all your help."
+        },
+        {
+          "es": "En esa situación, cualquiera habría reaccionado igual.",
+          "en": "In that situation, anyone would have reacted the same way."
+        },
+        {
+          "es": "¿Qué harías si tuvieras la oportunidad de viajar gratis?",
+          "en": "What would you do if you had the chance to travel for free?"
+        },
+        {
+          "es": "Sería genial si pudiéramos vernos la próxima semana.",
+          "en": "It would be great if we could see each other next week."
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "title": "Formal Passive with Ser",
+      "titleNative": "Voz pasiva formal con ser",
+      "items": [
+        {
+          "es": "El puente fue construido hace más de cien años.",
+          "en": "The bridge was built more than a hundred years ago."
+        },
+        {
+          "es": "La novela fue traducida a varios idiomas.",
+          "en": "The novel was translated into several languages."
+        },
+        {
+          "es": "Los resultados serán anunciados la próxima semana.",
+          "en": "The results will be announced next week."
+        },
+        {
+          "es": "El edificio fue diseñado por un arquitecto famoso.",
+          "en": "The building was designed by a famous architect."
+        }
+      ],
+      "topicId": "b1plus-passive"
+    },
+    {
+      "number": 22,
+      "title": "Se Pasiva in Everyday Signs",
+      "titleNative": "Se pasiva en letreros cotidianos",
+      "items": [
+        {
+          "es": "Se venden casas y apartamentos en esta zona.",
+          "en": "Houses and apartments are sold in this area."
+        },
+        {
+          "es": "Se prohíbe fumar dentro del edificio.",
+          "en": "Smoking is prohibited inside the building."
+        },
+        {
+          "es": "Se habla inglés y español en esta tienda.",
+          "en": "English and Spanish are spoken in this store."
+        },
+        {
+          "es": "Se necesita experiencia previa para este puesto.",
+          "en": "Previous experience is needed for this position."
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "title": "News and Reports",
+      "titleNative": "Noticias e informes",
+      "items": [
+        {
+          "es": "El acuerdo fue firmado por ambos países ayer.",
+          "en": "The agreement was signed by both countries yesterday."
+        },
+        {
+          "es": "Miles de árboles fueron plantados en la reserva.",
+          "en": "Thousands of trees were planted in the reserve."
+        },
+        {
+          "es": "El sospechoso fue arrestado esta madrugada.",
+          "en": "The suspect was arrested early this morning."
+        },
+        {
+          "es": "La ley será revisada por el congreso este mes.",
+          "en": "The law will be reviewed by congress this month."
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "title": "Historical Events",
+      "titleNative": "Eventos históricos",
+      "items": [
+        {
+          "es": "La ciudad fue fundada en el siglo dieciséis.",
+          "en": "The city was founded in the sixteenth century."
+        },
+        {
+          "es": "El monumento fue construido para honrar a los héroes.",
+          "en": "The monument was built to honor the heroes."
+        },
+        {
+          "es": "Esa tradición fue transmitida de generación en generación.",
+          "en": "That tradition was passed down from generation to generation."
+        },
+        {
+          "es": "El tratado fue negociado durante varios años.",
+          "en": "The treaty was negotiated over several years."
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "title": "Processes and Production",
+      "titleNative": "Procesos y producción",
+      "items": [
+        {
+          "es": "El vino se produce en esta región desde hace siglos.",
+          "en": "Wine has been produced in this region for centuries."
+        },
+        {
+          "es": "Los productos se fabrican con materiales reciclados.",
+          "en": "The products are made with recycled materials."
+        },
+        {
+          "es": "El café se cultiva en las montañas del país.",
+          "en": "Coffee is grown in the country's mountains."
+        },
+        {
+          "es": "Esta receta se prepara con ingredientes frescos.",
+          "en": "This recipe is made with fresh ingredients."
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "title": "Anonymous Actions",
+      "titleNative": "Acciones anónimas",
+      "items": [
+        {
+          "es": "Se rompió una ventana durante la tormenta.",
+          "en": "A window was broken during the storm."
+        },
+        {
+          "es": "Se perdió mi maleta en el aeropuerto.",
+          "en": "My suitcase was lost at the airport."
+        },
+        {
+          "es": "Se encontraron varios objetos antiguos en la excavación.",
+          "en": "Several ancient objects were found in the excavation."
+        },
+        {
+          "es": "Se resolvió el problema sin mucha dificultad.",
+          "en": "The problem was solved without much difficulty."
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "title": "Passive with Future and Conditional",
+      "titleNative": "Pasiva con futuro y condicional",
+      "items": [
+        {
+          "es": "La decisión será tomada por el comité directivo.",
+          "en": "The decision will be made by the board of directors."
+        },
+        {
+          "es": "Este proyecto sería financiado con fondos públicos.",
+          "en": "This project would be funded with public funds."
+        },
+        {
+          "es": "Los nuevos empleados serán capacitados la próxima semana.",
+          "en": "The new employees will be trained next week."
+        },
+        {
+          "es": "El puente sería reparado si hubiera suficiente presupuesto.",
+          "en": "The bridge would be repaired if there were enough budget."
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "title": "Passive Voice in Instructions",
+      "titleNative": "Voz pasiva en instrucciones",
+      "items": [
+        {
+          "es": "Se debe firmar el documento antes de entregarlo.",
+          "en": "The document must be signed before submitting it."
+        },
+        {
+          "es": "No se permite el ingreso después de las nueve.",
+          "en": "Entry is not allowed after nine."
+        },
+        {
+          "es": "Se recomienda llegar con anticipación.",
+          "en": "It is recommended to arrive early."
+        },
+        {
+          "es": "Se requiere una identificación válida para entrar.",
+          "en": "A valid ID is required to enter."
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "title": "Comparing Active and Passive",
+      "titleNative": "Comparar voz activa y pasiva",
+      "items": [
+        {
+          "es": "Un famoso chef preparó esta cena, y la cena fue preparada con mucho cuidado.",
+          "en": "A famous chef prepared this dinner, and the dinner was prepared with great care."
+        },
+        {
+          "es": "La empresa anunció el cambio, así que el cambio fue anunciado a todos.",
+          "en": "The company announced the change, so the change was announced to everyone."
+        },
+        {
+          "es": "El gobierno aprobó la ley, y la ley fue aprobada por unanimidad.",
+          "en": "The government approved the law, and the law was approved unanimously."
+        },
+        {
+          "es": "Mi abuela escribió estas cartas, que fueron guardadas por años.",
+          "en": "My grandmother wrote these letters, which were kept for years."
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "title": "Review: Passive Voice",
+      "titleNative": "Repaso: Voz pasiva",
+      "items": [
+        {
+          "es": "Este museo fue inaugurado hace veinte años.",
+          "en": "This museum was inaugurated twenty years ago."
+        },
+        {
+          "es": "Se hablan más de cuatrocientos idiomas en el mundo.",
+          "en": "More than four hundred languages are spoken in the world."
+        },
+        {
+          "es": "Los datos serán analizados por un equipo de expertos.",
+          "en": "The data will be analyzed by a team of experts."
+        },
+        {
+          "es": "Se necesitan más voluntarios para este proyecto.",
+          "en": "More volunteers are needed for this project."
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "title": "Reporting Statements",
+      "titleNative": "Reportar declaraciones",
+      "items": [
+        {
+          "es": "Ella dijo que estaba muy cansada después del viaje.",
+          "en": "She said she was very tired after the trip."
+        },
+        {
+          "es": "Mi jefe me dijo que el proyecto había sido un éxito.",
+          "en": "My boss told me the project had been a success."
+        },
+        {
+          "es": "Me contó que se mudaría a otra ciudad en verano.",
+          "en": "He told me he would move to another city in summer."
+        },
+        {
+          "es": "Nos avisaron que la reunión se cambiaría de hora.",
+          "en": "They let us know the meeting time would change."
+        }
+      ],
+      "topicId": "b1plus-indirect-speech"
+    },
+    {
+      "number": 32,
+      "title": "Reporting Questions",
+      "titleNative": "Reportar preguntas",
+      "items": [
+        {
+          "es": "Me preguntó si quería ir al cine con ella.",
+          "en": "She asked me if I wanted to go to the movies with her."
+        },
+        {
+          "es": "Le pregunté dónde había comprado esos zapatos.",
+          "en": "I asked her where she had bought those shoes."
+        },
+        {
+          "es": "Quería saber por qué no habíamos llegado a tiempo.",
+          "en": "He wanted to know why we hadn't arrived on time."
+        },
+        {
+          "es": "Me preguntaron cuánto tiempo llevaba viviendo aquí.",
+          "en": "They asked me how long I had been living here."
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "title": "Reporting Commands and Requests",
+      "titleNative": "Reportar órdenes y peticiones",
+      "items": [
+        {
+          "es": "El profesor nos dijo que estudiáramos para el examen.",
+          "en": "The teacher told us to study for the exam."
+        },
+        {
+          "es": "Me pidió que le enviara el documento cuanto antes.",
+          "en": "He asked me to send him the document as soon as possible."
+        },
+        {
+          "es": "Nos ordenaron que saliéramos del edificio de inmediato.",
+          "en": "They ordered us to leave the building immediately."
+        },
+        {
+          "es": "Le rogué que me perdonara por el malentendido.",
+          "en": "I begged him to forgive me for the misunderstanding."
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "title": "Tense Shifts in Practice",
+      "titleNative": "Cambios de tiempo en la práctica",
+      "items": [
+        {
+          "es": "Dijo que tenía hambre, así que le preparé algo de comer.",
+          "en": "He said he was hungry, so I made him something to eat."
+        },
+        {
+          "es": "Explicó que había perdido su pasaporte en el hotel.",
+          "en": "She explained she had lost her passport at the hotel."
+        },
+        {
+          "es": "Prometió que llegaría antes de las nueve.",
+          "en": "He promised he would arrive before nine."
+        },
+        {
+          "es": "Aseguró que todo estaría listo para el lunes.",
+          "en": "She assured us that everything would be ready by Monday."
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "title": "Reporting Opinions",
+      "titleNative": "Reportar opiniones",
+      "items": [
+        {
+          "es": "Mi hermana opina que deberíamos vender la casa.",
+          "en": "My sister thinks we should sell the house."
+        },
+        {
+          "es": "El experto afirmó que la economía mejoraría pronto.",
+          "en": "The expert stated that the economy would improve soon."
+        },
+        {
+          "es": "Todos coincidieron en que la propuesta era razonable.",
+          "en": "Everyone agreed that the proposal was reasonable."
+        },
+        {
+          "es": "Ella insistió en que no había hecho nada malo.",
+          "en": "She insisted she hadn't done anything wrong."
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "title": "Conversations Retold",
+      "titleNative": "Conversaciones contadas de nuevo",
+      "items": [
+        {
+          "es": "Me contó que había discutido con su hermano por el dinero.",
+          "en": "She told me she had argued with her brother about money."
+        },
+        {
+          "es": "Le expliqué que no podía asistir a la boda ese día.",
+          "en": "I explained to him that I couldn't attend the wedding that day."
+        },
+        {
+          "es": "Nos comentó que el vuelo se había retrasado varias horas.",
+          "en": "He mentioned to us that the flight had been delayed several hours."
+        },
+        {
+          "es": "Me confesó que siempre había querido ser cantante.",
+          "en": "She confessed to me that she had always wanted to be a singer."
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "title": "Work Communication",
+      "titleNative": "Comunicación laboral",
+      "items": [
+        {
+          "es": "El gerente anunció que habría cambios en el equipo.",
+          "en": "The manager announced there would be changes in the team."
+        },
+        {
+          "es": "Nos informaron que el proyecto se retrasaría un mes.",
+          "en": "We were informed the project would be delayed a month."
+        },
+        {
+          "es": "El cliente comentó que estaba satisfecho con el servicio.",
+          "en": "The client commented that he was satisfied with the service."
+        },
+        {
+          "es": "Mi colega me advirtió que la reunión sería larga.",
+          "en": "My colleague warned me the meeting would be long."
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "title": "Family Conversations",
+      "titleNative": "Conversaciones familiares",
+      "items": [
+        {
+          "es": "Mi madre me dijo que la visitara más seguido.",
+          "en": "My mother told me to visit her more often."
+        },
+        {
+          "es": "Mi hijo me contó que había hecho un nuevo amigo en la escuela.",
+          "en": "My son told me he had made a new friend at school."
+        },
+        {
+          "es": "Mis padres decidieron que era momento de vender la casa.",
+          "en": "My parents decided it was time to sell the house."
+        },
+        {
+          "es": "Mi abuela siempre decía que la familia era lo más importante.",
+          "en": "My grandmother always said that family was the most important thing."
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "title": "Reporting News",
+      "titleNative": "Reportar noticias",
+      "items": [
+        {
+          "es": "Las noticias anunciaron que habría una nueva ley.",
+          "en": "The news announced there would be a new law."
+        },
+        {
+          "es": "El periódico informó que el precio del combustible subiría.",
+          "en": "The newspaper reported that fuel prices would rise."
+        },
+        {
+          "es": "Anunciaron que el evento se cancelaría por el mal tiempo.",
+          "en": "They announced the event would be canceled due to bad weather."
+        },
+        {
+          "es": "Confirmaron que el equipo local ganaría el campeonato.",
+          "en": "They confirmed the local team would win the championship."
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "title": "Review: Indirect Speech",
+      "titleNative": "Repaso: Discurso indirecto",
+      "items": [
+        {
+          "es": "Me dijo que vendría, pero al final no pudo.",
+          "en": "He told me he would come, but in the end he couldn't."
+        },
+        {
+          "es": "Le pregunté qué había pasado y no supo qué decir.",
+          "en": "I asked her what had happened and she didn't know what to say."
+        },
+        {
+          "es": "Nos pidieron que esperáramos unos minutos más.",
+          "en": "They asked us to wait a few more minutes."
+        },
+        {
+          "es": "Explicaron que el retraso se debía al mal clima.",
+          "en": "They explained that the delay was due to bad weather."
+        }
+      ]
+    },
+    {
+      "number": 41,
+      "title": "Purpose Clauses (para que)",
+      "titleNative": "Cláusulas de propósito (para que)",
+      "items": [
+        {
+          "es": "Te doy mi número para que me llames si necesitas algo.",
+          "en": "I'm giving you my number so you can call me if you need anything."
+        },
+        {
+          "es": "Hablamos despacio para que todos entiendan bien.",
+          "en": "We speak slowly so that everyone understands well."
+        },
+        {
+          "es": "Dejé la puerta abierta para que entrara el gato.",
+          "en": "I left the door open so the cat could come in."
+        },
+        {
+          "es": "Ahorramos dinero para que nuestros hijos estudien en la universidad.",
+          "en": "We save money so our children can study at university."
+        }
+      ],
+      "topicId": "b1plus-subjunctive-deeper"
+    },
+    {
+      "number": 42,
+      "title": "Before and Without (antes de que, sin que)",
+      "titleNative": "Antes de que y sin que",
+      "items": [
+        {
+          "es": "Llegamos antes de que empezara la película.",
+          "en": "We arrived before the movie started."
+        },
+        {
+          "es": "Quiero hablar contigo antes de que tomes una decisión.",
+          "en": "I want to talk to you before you make a decision."
+        },
+        {
+          "es": "Se fue sin que nadie se diera cuenta.",
+          "en": "He left without anyone noticing."
+        },
+        {
+          "es": "No puedes firmar sin que lo revise un abogado primero.",
+          "en": "You can't sign without a lawyer reviewing it first."
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "title": "Unless and Provided That",
+      "titleNative": "A menos que y con tal de que",
+      "items": [
+        {
+          "es": "No saldremos a menos que deje de llover.",
+          "en": "We won't go out unless it stops raining."
+        },
+        {
+          "es": "Iré contigo con tal de que salgamos temprano.",
+          "en": "I'll go with you provided that we leave early."
+        },
+        {
+          "es": "No firmaré el contrato a menos que cambien esta cláusula.",
+          "en": "I won't sign the contract unless they change this clause."
+        },
+        {
+          "es": "Puedes usar mi carro con tal de que lo devuelvas lleno.",
+          "en": "You can use my car provided that you return it full."
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "title": "Aunque: Hypothetical Concession",
+      "titleNative": "Aunque: Concesión hipotética",
+      "items": [
+        {
+          "es": "Aunque sea difícil, vamos a intentarlo.",
+          "en": "Even if it's difficult, we're going to try it."
+        },
+        {
+          "es": "Iré a la fiesta aunque no conozca a nadie.",
+          "en": "I'll go to the party even if I don't know anyone."
+        },
+        {
+          "es": "Aunque no tengamos mucho tiempo, terminaremos el proyecto.",
+          "en": "Even if we don't have much time, we'll finish the project."
+        },
+        {
+          "es": "Seguiré estudiando español aunque sea complicado a veces.",
+          "en": "I'll keep studying Spanish even if it's complicated sometimes."
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "title": "Aunque: Accepted Fact (indicative)",
+      "titleNative": "Aunque: Hecho aceptado (indicativo)",
+      "items": [
+        {
+          "es": "Aunque llueve, decidimos salir de todas formas.",
+          "en": "Even though it's raining, we decided to go out anyway."
+        },
+        {
+          "es": "Aunque tiene poco dinero, siempre ayuda a los demás.",
+          "en": "Although he has little money, he always helps others."
+        },
+        {
+          "es": "Compramos la casa aunque era más cara de lo esperado.",
+          "en": "We bought the house even though it was more expensive than expected."
+        },
+        {
+          "es": "Aunque no me gusta el café, lo tomo por la mañana.",
+          "en": "Even though I don't like coffee, I drink it in the morning."
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "title": "Ojalá and Wishes",
+      "titleNative": "Ojalá y deseos",
+      "items": [
+        {
+          "es": "Ojalá que todo salga bien en tu entrevista.",
+          "en": "I hope everything goes well in your interview."
+        },
+        {
+          "es": "Ojalá pudiera estar allí contigo en este momento.",
+          "en": "I wish I could be there with you right now."
+        },
+        {
+          "es": "Ojalá que llueva pronto, necesitamos el agua.",
+          "en": "I hope it rains soon, we need the water."
+        },
+        {
+          "es": "Ojalá hubiéramos sabido eso antes de comprar la casa.",
+          "en": "I wish we had known that before buying the house."
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "title": "En Caso de Que (in case)",
+      "titleNative": "En caso de que",
+      "items": [
+        {
+          "es": "Lleva un paraguas en caso de que llueva.",
+          "en": "Bring an umbrella in case it rains."
+        },
+        {
+          "es": "Te dejo mi número en caso de que necesites ayuda.",
+          "en": "I'll leave you my number in case you need help."
+        },
+        {
+          "es": "Guardamos comida extra en caso de que vengan más invitados.",
+          "en": "We kept extra food in case more guests came."
+        },
+        {
+          "es": "Reserva otra habitación en caso de que no haya suficiente espacio.",
+          "en": "Reserve another room in case there isn't enough space."
+        }
+      ]
+    },
+    {
+      "number": 48,
+      "title": "Combining Connectors",
+      "titleNative": "Combinar conectores",
+      "items": [
+        {
+          "es": "Te ayudo con esto para que termines antes de que anochezca.",
+          "en": "I'll help you with this so you finish before it gets dark."
+        },
+        {
+          "es": "No podrás entrar a menos que traigas tu identificación.",
+          "en": "You won't be able to enter unless you bring your ID."
+        },
+        {
+          "es": "Aunque estemos cansados, terminaremos antes de que sea tarde.",
+          "en": "Even if we're tired, we'll finish before it's too late."
+        },
+        {
+          "es": "Prepara todo en caso de que la reunión empiece antes de lo previsto.",
+          "en": "Prepare everything in case the meeting starts earlier than planned."
+        }
+      ]
+    },
+    {
+      "number": 49,
+      "title": "Everyday Uses of These Connectors",
+      "titleNative": "Usos cotidianos de estos conectores",
+      "items": [
+        {
+          "es": "Bajo la voz para que el bebé no se despierte.",
+          "en": "I lower my voice so the baby doesn't wake up."
+        },
+        {
+          "es": "No voy a firmar nada sin que me lo expliquen bien.",
+          "en": "I'm not going to sign anything without them explaining it well to me."
+        },
+        {
+          "es": "Aunque me cueste, voy a terminar la maratón.",
+          "en": "Even if it's hard for me, I'm going to finish the marathon."
+        },
+        {
+          "es": "Ojalá que encuentres pronto lo que estás buscando.",
+          "en": "I hope you find soon what you're looking for."
+        }
+      ]
+    },
+    {
+      "number": 50,
+      "title": "Review: Advanced Subjunctive Triggers",
+      "titleNative": "Repaso: Conectores avanzados con subjuntivo",
+      "items": [
+        {
+          "es": "Te escribo para que sepas que todo está bien.",
+          "en": "I'm writing to you so you know everything is fine."
+        },
+        {
+          "es": "Aunque sea complicado, vamos a resolverlo juntos.",
+          "en": "Even if it's complicated, we're going to solve it together."
+        },
+        {
+          "es": "Ojalá que nos veamos pronto otra vez.",
+          "en": "I hope we see each other again soon."
+        },
+        {
+          "es": "No saldremos a menos que mejore el clima.",
+          "en": "We won't go out unless the weather improves."
+        }
+      ]
+    },
+    {
+      "number": 51,
+      "title": "Negotiating a Deal",
+      "titleNative": "Negociar un acuerdo",
+      "items": [
+        {
+          "es": "Las dos empresas negociaron durante meses antes de llegar a un acuerdo.",
+          "en": "The two companies negotiated for months before reaching an agreement."
+        },
+        {
+          "es": "Propusimos condiciones más flexibles para cerrar el trato.",
+          "en": "We proposed more flexible terms to close the deal."
+        },
+        {
+          "es": "El contrato incluye una cláusula sobre plazos de entrega.",
+          "en": "The contract includes a clause about delivery deadlines."
+        },
+        {
+          "es": "Ambas partes quedaron satisfechas con los términos finales.",
+          "en": "Both parties were satisfied with the final terms."
+        }
+      ]
+    },
+    {
+      "number": 52,
+      "title": "Meetings and Presentations",
+      "titleNative": "Reuniones y presentaciones",
+      "items": [
+        {
+          "es": "Preparé una presentación con los datos más recientes.",
+          "en": "I prepared a presentation with the most recent data."
+        },
+        {
+          "es": "El director resumió los objetivos del próximo trimestre.",
+          "en": "The director summarized next quarter's goals."
+        },
+        {
+          "es": "Varios empleados hicieron preguntas sobre el nuevo plan.",
+          "en": "Several employees asked questions about the new plan."
+        },
+        {
+          "es": "La reunión se extendió más de lo previsto.",
+          "en": "The meeting ran longer than expected."
+        }
+      ]
+    },
+    {
+      "number": 53,
+      "title": "Finance and Budgets",
+      "titleNative": "Finanzas y presupuestos",
+      "items": [
+        {
+          "es": "Necesitamos ajustar el presupuesto para el próximo año.",
+          "en": "We need to adjust the budget for next year."
+        },
+        {
+          "es": "Los gastos superaron lo que habíamos calculado.",
+          "en": "Expenses exceeded what we had calculated."
+        },
+        {
+          "es": "La empresa invirtió una gran cantidad en investigación.",
+          "en": "The company invested a large amount in research."
+        },
+        {
+          "es": "Las ganancias aumentaron gracias a la nueva estrategia.",
+          "en": "Profits increased thanks to the new strategy."
+        }
+      ]
+    },
+    {
+      "number": 54,
+      "title": "Leadership and Management",
+      "titleNative": "Liderazgo y gestión",
+      "items": [
+        {
+          "es": "Un buen líder escucha las ideas de todo el equipo.",
+          "en": "A good leader listens to the whole team's ideas."
+        },
+        {
+          "es": "La gerente delegó varias tareas para cumplir el plazo.",
+          "en": "The manager delegated several tasks to meet the deadline."
+        },
+        {
+          "es": "Es importante reconocer el esfuerzo de los empleados.",
+          "en": "It's important to recognize employees' effort."
+        },
+        {
+          "es": "Su capacidad de liderazgo ayudó a la empresa a crecer.",
+          "en": "Her leadership ability helped the company grow."
+        }
+      ]
+    },
+    {
+      "number": 55,
+      "title": "Job Applications and Careers",
+      "titleNative": "Solicitudes de empleo y carreras",
+      "items": [
+        {
+          "es": "Envié mi currículum a varias empresas del sector.",
+          "en": "I sent my résumé to several companies in the sector."
+        },
+        {
+          "es": "La entrevista salió mejor de lo que esperaba.",
+          "en": "The interview went better than I expected."
+        },
+        {
+          "es": "Después de años de esfuerzo, logró el ascenso que quería.",
+          "en": "After years of effort, she achieved the promotion she wanted."
+        },
+        {
+          "es": "Cambiar de carrera a los cuarenta requiere mucho valor.",
+          "en": "Changing careers at forty requires a lot of courage."
+        }
+      ]
+    },
+    {
+      "number": 56,
+      "title": "Conflicts at Work",
+      "titleNative": "Conflictos en el trabajo",
+      "items": [
+        {
+          "es": "Hubo un malentendido entre dos miembros del equipo.",
+          "en": "There was a misunderstanding between two team members."
+        },
+        {
+          "es": "Resolvimos el conflicto hablando con calma.",
+          "en": "We resolved the conflict by talking calmly."
+        },
+        {
+          "es": "El jefe medió entre los empleados para llegar a una solución.",
+          "en": "The boss mediated between the employees to reach a solution."
+        },
+        {
+          "es": "Es normal tener desacuerdos, lo importante es cómo se manejan.",
+          "en": "It's normal to have disagreements, what matters is how they're handled."
+        }
+      ]
+    },
+    {
+      "number": 57,
+      "title": "Entrepreneurship",
+      "titleNative": "Emprendimiento",
+      "items": [
+        {
+          "es": "Decidió dejar su trabajo para fundar su propia empresa.",
+          "en": "She decided to quit her job to found her own company."
+        },
+        {
+          "es": "Los primeros meses de un negocio suelen ser los más difíciles.",
+          "en": "The first months of a business tend to be the hardest."
+        },
+        {
+          "es": "Consiguió inversores gracias a una idea innovadora.",
+          "en": "He got investors thanks to an innovative idea."
+        },
+        {
+          "es": "El emprendimiento requiere paciencia y mucha disciplina.",
+          "en": "Entrepreneurship requires patience and a lot of discipline."
+        }
+      ]
+    },
+    {
+      "number": 58,
+      "title": "Remote and Global Teams",
+      "titleNative": "Equipos remotos y globales",
+      "items": [
+        {
+          "es": "Nuestro equipo trabaja con colegas de cinco países distintos.",
+          "en": "Our team works with colleagues from five different countries."
+        },
+        {
+          "es": "La diferencia de horario dificulta a veces la comunicación.",
+          "en": "The time difference sometimes makes communication difficult."
+        },
+        {
+          "es": "Organizamos reuniones virtuales para coordinar el trabajo.",
+          "en": "We organize virtual meetings to coordinate the work."
+        },
+        {
+          "es": "Trabajar con personas de otras culturas enriquece la empresa.",
+          "en": "Working with people from other cultures enriches the company."
+        }
+      ]
+    },
+    {
+      "number": 59,
+      "title": "Career Change and Growth",
+      "titleNative": "Cambio y crecimiento profesional",
+      "items": [
+        {
+          "es": "Decidió estudiar de nuevo para cambiar completamente de profesión.",
+          "en": "He decided to study again to completely change professions."
+        },
+        {
+          "es": "El crecimiento profesional requiere aprender constantemente.",
+          "en": "Professional growth requires constant learning."
+        },
+        {
+          "es": "Aceptó un puesto con menos salario pero más oportunidades.",
+          "en": "She accepted a position with less salary but more opportunities."
+        },
+        {
+          "es": "Nunca es tarde para perseguir una nueva pasión.",
+          "en": "It's never too late to pursue a new passion."
+        }
+      ]
+    },
+    {
+      "number": 60,
+      "title": "Review: Business and Work",
+      "titleNative": "Repaso: Negocios y trabajo",
+      "items": [
+        {
+          "es": "El éxito de la empresa depende del trabajo de todo el equipo.",
+          "en": "The company's success depends on the whole team's work."
+        },
+        {
+          "es": "Aprendimos mucho de los errores que cometimos al principio.",
+          "en": "We learned a lot from the mistakes we made at the beginning."
+        },
+        {
+          "es": "Espero que este proyecto abra nuevas oportunidades para todos.",
+          "en": "I hope this project opens new opportunities for everyone."
+        },
+        {
+          "es": "Con esfuerzo y paciencia, cualquier meta profesional es posible.",
+          "en": "With effort and patience, any professional goal is possible."
+        }
+      ]
+    },
+    {
+      "number": 61,
+      "title": "Mental Health",
+      "titleNative": "Salud mental",
+      "items": [
+        {
+          "es": "Cada vez más gente habla abiertamente sobre la salud mental.",
+          "en": "More and more people talk openly about mental health."
+        },
+        {
+          "es": "Es importante pedir ayuda cuando uno se siente abrumado.",
+          "en": "It's important to ask for help when you feel overwhelmed."
+        },
+        {
+          "es": "La terapia le ayudó a manejar mejor su ansiedad.",
+          "en": "Therapy helped him manage his anxiety better."
+        },
+        {
+          "es": "Dormir bien y hacer ejercicio mejora mucho el estado de ánimo.",
+          "en": "Sleeping well and exercising greatly improves your mood."
+        }
+      ]
+    },
+    {
+      "number": 62,
+      "title": "Stress and Relaxation",
+      "titleNative": "Estrés y relajación",
+      "items": [
+        {
+          "es": "El trabajo me ha causado mucho estrés últimamente.",
+          "en": "Work has caused me a lot of stress lately."
+        },
+        {
+          "es": "Practico yoga para relajarme después de un día difícil.",
+          "en": "I practice yoga to relax after a difficult day."
+        },
+        {
+          "es": "Es necesario que aprendamos a desconectar del trabajo.",
+          "en": "It's necessary that we learn to disconnect from work."
+        },
+        {
+          "es": "Salir a caminar me ayuda a despejar la mente.",
+          "en": "Going for a walk helps me clear my mind."
+        }
+      ]
+    },
+    {
+      "number": 63,
+      "title": "Describing Emotions in Depth",
+      "titleNative": "Describir emociones a profundidad",
+      "items": [
+        {
+          "es": "Me sentí una mezcla de alegría y nostalgia al volver a casa.",
+          "en": "I felt a mix of joy and nostalgia coming back home."
+        },
+        {
+          "es": "La noticia la dejó completamente sorprendida.",
+          "en": "The news left her completely surprised."
+        },
+        {
+          "es": "Estaba tan emocionado que no podía dormir la noche anterior.",
+          "en": "He was so excited he couldn't sleep the night before."
+        },
+        {
+          "es": "Sentí un gran alivio cuando supe que todo estaba bien.",
+          "en": "I felt great relief when I learned everything was fine."
+        }
+      ]
+    },
+    {
+      "number": 64,
+      "title": "Illness and Recovery",
+      "titleNative": "Enfermedad y recuperación",
+      "items": [
+        {
+          "es": "Estuvo hospitalizado varios días después de la cirugía.",
+          "en": "He was hospitalized for several days after the surgery."
+        },
+        {
+          "es": "La recuperación fue lenta pero finalmente mejoró por completo.",
+          "en": "The recovery was slow but he eventually fully improved."
+        },
+        {
+          "es": "El médico le recetó un tratamiento de varias semanas.",
+          "en": "The doctor prescribed him a treatment lasting several weeks."
+        },
+        {
+          "es": "Es importante seguir las indicaciones médicas al pie de la letra.",
+          "en": "It's important to follow medical instructions exactly."
+        }
+      ]
+    },
+    {
+      "number": 65,
+      "title": "Healthy Habits",
+      "titleNative": "Hábitos saludables",
+      "items": [
+        {
+          "es": "Intento comer más verduras y menos comida procesada.",
+          "en": "I try to eat more vegetables and less processed food."
+        },
+        {
+          "es": "Camino al trabajo en lugar de tomar el autobús.",
+          "en": "I walk to work instead of taking the bus."
+        },
+        {
+          "es": "Dejar de fumar fue una de las mejores decisiones de mi vida.",
+          "en": "Quitting smoking was one of the best decisions of my life."
+        },
+        {
+          "es": "Trato de dormir al menos siete horas cada noche.",
+          "en": "I try to sleep at least seven hours every night."
+        }
+      ]
+    },
+    {
+      "number": 66,
+      "title": "Grief and Loss",
+      "titleNative": "Duelo y pérdida",
+      "items": [
+        {
+          "es": "Perder a un ser querido es una de las experiencias más difíciles.",
+          "en": "Losing a loved one is one of the most difficult experiences."
+        },
+        {
+          "es": "Cada persona vive el duelo de una manera diferente.",
+          "en": "Every person experiences grief in a different way."
+        },
+        {
+          "es": "Con el tiempo, el dolor se vuelve más fácil de sobrellevar.",
+          "en": "With time, the pain becomes easier to bear."
+        },
+        {
+          "es": "Hablar con otros que han pasado por lo mismo puede ayudar mucho.",
+          "en": "Talking with others who have gone through the same thing can help a lot."
+        }
+      ]
+    },
+    {
+      "number": 67,
+      "title": "Building Confidence",
+      "titleNative": "Construir confianza",
+      "items": [
+        {
+          "es": "Superar ese miedo le dio mucha más confianza en sí misma.",
+          "en": "Overcoming that fear gave her much more confidence in herself."
+        },
+        {
+          "es": "Aprender algo nuevo siempre mejora la autoestima.",
+          "en": "Learning something new always improves self-esteem."
+        },
+        {
+          "es": "Dejó de compararse con los demás y se sintió más tranquilo.",
+          "en": "He stopped comparing himself to others and felt calmer."
+        },
+        {
+          "es": "Celebrar los pequeños logros ayuda a mantener la motivación.",
+          "en": "Celebrating small achievements helps maintain motivation."
+        }
+      ]
+    },
+    {
+      "number": 68,
+      "title": "Empathy and Support",
+      "titleNative": "Empatía y apoyo",
+      "items": [
+        {
+          "es": "Escuchar sin juzgar es una de las formas más grandes de apoyo.",
+          "en": "Listening without judging is one of the greatest forms of support."
+        },
+        {
+          "es": "Trato de ponerme en el lugar de la otra persona.",
+          "en": "I try to put myself in the other person's shoes."
+        },
+        {
+          "es": "Sus amigos la apoyaron durante todo el proceso.",
+          "en": "Her friends supported her throughout the whole process."
+        },
+        {
+          "es": "A veces solo necesitamos que alguien nos escuche.",
+          "en": "Sometimes we just need someone to listen to us."
+        }
+      ]
+    },
+    {
+      "number": 69,
+      "title": "Balance and Well-being",
+      "titleNative": "Equilibrio y bienestar",
+      "items": [
+        {
+          "es": "Encontrar un equilibrio entre el trabajo y la vida personal no es fácil.",
+          "en": "Finding a balance between work and personal life isn't easy."
+        },
+        {
+          "es": "Dedico tiempo cada día a algo que realmente disfruto.",
+          "en": "I dedicate time each day to something I truly enjoy."
+        },
+        {
+          "es": "El bienestar no significa la ausencia de problemas, sino saber manejarlos.",
+          "en": "Well-being doesn't mean the absence of problems, but knowing how to handle them."
+        },
+        {
+          "es": "Aprendí a decir que no cuando algo no me hace bien.",
+          "en": "I learned to say no when something isn't good for me."
+        }
+      ]
+    },
+    {
+      "number": 70,
+      "title": "Review: Health and Emotions",
+      "titleNative": "Repaso: Salud y emociones",
+      "items": [
+        {
+          "es": "Cuidar la salud mental es tan importante como cuidar el cuerpo.",
+          "en": "Taking care of mental health is as important as taking care of the body."
+        },
+        {
+          "es": "Espero que aprendas a escucharte a ti mismo más seguido.",
+          "en": "I hope you learn to listen to yourself more often."
+        },
+        {
+          "es": "Con paciencia y apoyo, cualquiera puede superar momentos difíciles.",
+          "en": "With patience and support, anyone can overcome difficult moments."
+        },
+        {
+          "es": "La verdadera fortaleza está en pedir ayuda cuando se necesita.",
+          "en": "True strength lies in asking for help when it's needed."
+        }
+      ]
+    },
+    {
+      "number": 71,
+      "title": "Friendship Through the Years",
+      "titleNative": "Amistad a través de los años",
+      "items": [
+        {
+          "es": "Hemos sido amigos desde la escuela primaria.",
+          "en": "We've been friends since elementary school."
+        },
+        {
+          "es": "A pesar de la distancia, seguimos tan unidos como siempre.",
+          "en": "Despite the distance, we're still as close as ever."
+        },
+        {
+          "es": "Una verdadera amistad se nota en los momentos difíciles.",
+          "en": "True friendship shows in difficult moments."
+        },
+        {
+          "es": "Nos reencontramos después de diez años como si nada hubiera cambiado.",
+          "en": "We reunited after ten years as if nothing had changed."
+        }
+      ]
+    },
+    {
+      "number": 72,
+      "title": "Romantic Relationships",
+      "titleNative": "Relaciones de pareja",
+      "items": [
+        {
+          "es": "Llevan juntos más de quince años y siguen enamorados.",
+          "en": "They've been together for more than fifteen years and are still in love."
+        },
+        {
+          "es": "La comunicación es clave para que una relación funcione.",
+          "en": "Communication is key for a relationship to work."
+        },
+        {
+          "es": "Después de la ruptura, tardó tiempo en sentirse bien otra vez.",
+          "en": "After the breakup, it took time for her to feel good again."
+        },
+        {
+          "es": "Se conocieron por casualidad en una fiesta de amigos comunes.",
+          "en": "They met by chance at a party of mutual friends."
+        }
+      ]
+    },
+    {
+      "number": 73,
+      "title": "Parenting",
+      "titleNative": "Crianza de los hijos",
+      "items": [
+        {
+          "es": "Ser padre cambió por completo su forma de ver la vida.",
+          "en": "Becoming a father completely changed the way he sees life."
+        },
+        {
+          "es": "Es importante escuchar a los hijos sin interrumpirlos.",
+          "en": "It's important to listen to your children without interrupting them."
+        },
+        {
+          "es": "Cada niño se desarrolla a su propio ritmo.",
+          "en": "Every child develops at their own pace."
+        },
+        {
+          "es": "Establecer límites claros ayuda a los niños a sentirse seguros.",
+          "en": "Setting clear limits helps children feel secure."
+        }
+      ]
+    },
+    {
+      "number": 74,
+      "title": "Generational Differences",
+      "titleNative": "Diferencias generacionales",
+      "items": [
+        {
+          "es": "Mis abuelos tenían valores muy diferentes a los míos.",
+          "en": "My grandparents had very different values from mine."
+        },
+        {
+          "es": "Cada generación enfrenta sus propios desafíos particulares.",
+          "en": "Each generation faces its own particular challenges."
+        },
+        {
+          "es": "Es interesante ver cómo la tecnología ha cambiado la comunicación familiar.",
+          "en": "It's interesting to see how technology has changed family communication."
+        },
+        {
+          "es": "A pesar de las diferencias, aprendemos mucho de las generaciones anteriores.",
+          "en": "Despite the differences, we learn a lot from previous generations."
+        }
+      ]
+    },
+    {
+      "number": 75,
+      "title": "Equality and Fairness",
+      "titleNative": "Igualdad y justicia",
+      "items": [
+        {
+          "es": "Todos merecemos las mismas oportunidades sin importar de dónde vengamos.",
+          "en": "We all deserve the same opportunities no matter where we come from."
+        },
+        {
+          "es": "La empresa promueve la igualdad salarial entre hombres y mujeres.",
+          "en": "The company promotes equal pay between men and women."
+        },
+        {
+          "es": "Es fundamental que todos tengan acceso a una buena educación.",
+          "en": "It's essential that everyone have access to a good education."
+        },
+        {
+          "es": "Muchas organizaciones luchan contra la discriminación en el trabajo.",
+          "en": "Many organizations fight against discrimination at work."
+        }
+      ]
+    },
+    {
+      "number": 76,
+      "title": "Immigration and Belonging",
+      "titleNative": "Inmigración y pertenencia",
+      "items": [
+        {
+          "es": "Llegó a este país hace veinte años sin conocer el idioma.",
+          "en": "He arrived in this country twenty years ago without knowing the language."
+        },
+        {
+          "es": "Al principio fue difícil, pero poco a poco encontró su lugar.",
+          "en": "At first it was difficult, but little by little she found her place."
+        },
+        {
+          "es": "Muchos inmigrantes contribuyen enormemente a la economía local.",
+          "en": "Many immigrants contribute enormously to the local economy."
+        },
+        {
+          "es": "Extraña su país de origen, pero también ama su nueva vida aquí.",
+          "en": "He misses his home country, but he also loves his new life here."
+        }
+      ]
+    },
+    {
+      "number": 77,
+      "title": "Community and Neighbors",
+      "titleNative": "Comunidad y vecinos",
+      "items": [
+        {
+          "es": "Nuestros vecinos siempre están dispuestos a ayudar.",
+          "en": "Our neighbors are always willing to help."
+        },
+        {
+          "es": "La comunidad se organizó para apoyar a las familias afectadas.",
+          "en": "The community organized to support the affected families."
+        },
+        {
+          "es": "Un sentido de comunidad hace que un barrio se sienta como un hogar.",
+          "en": "A sense of community makes a neighborhood feel like home."
+        },
+        {
+          "es": "Compartimos herramientas y recetas con los vecinos con frecuencia.",
+          "en": "We frequently share tools and recipes with the neighbors."
+        }
+      ]
+    },
+    {
+      "number": 78,
+      "title": "Conflict Resolution",
+      "titleNative": "Resolución de conflictos",
+      "items": [
+        {
+          "es": "Es mejor hablar las cosas en lugar de guardar el rencor.",
+          "en": "It's better to talk things out instead of holding a grudge."
+        },
+        {
+          "es": "Escuchar el punto de vista del otro ayuda a resolver los problemas.",
+          "en": "Listening to the other person's point of view helps solve problems."
+        },
+        {
+          "es": "Después de la discusión, decidieron perdonarse y seguir adelante.",
+          "en": "After the argument, they decided to forgive each other and move forward."
+        },
+        {
+          "es": "A veces es necesario pedir disculpas aunque no sea fácil.",
+          "en": "Sometimes it's necessary to apologize even if it's not easy."
+        }
+      ]
+    },
+    {
+      "number": 79,
+      "title": "Volunteering and Giving Back",
+      "titleNative": "Voluntariado y retribuir a la comunidad",
+      "items": [
+        {
+          "es": "Dedica sus fines de semana a ayudar en un comedor comunitario.",
+          "en": "He dedicates his weekends to helping at a community kitchen."
+        },
+        {
+          "es": "Donar tiempo puede ser tan valioso como donar dinero.",
+          "en": "Donating time can be as valuable as donating money."
+        },
+        {
+          "es": "La organización busca voluntarios para enseñar a leer a los niños.",
+          "en": "The organization is looking for volunteers to teach children to read."
+        },
+        {
+          "es": "Ayudar a otros le da un propósito muy claro a su vida.",
+          "en": "Helping others gives her life a very clear purpose."
+        }
+      ]
+    },
+    {
+      "number": 80,
+      "title": "Review: Relationships and Society",
+      "titleNative": "Repaso: Relaciones y sociedad",
+      "items": [
+        {
+          "es": "Las relaciones que construimos definen gran parte de nuestra vida.",
+          "en": "The relationships we build define a large part of our lives."
+        },
+        {
+          "es": "Espero que sigamos construyendo comunidades más solidarias.",
+          "en": "I hope we keep building more supportive communities."
+        },
+        {
+          "es": "La empatía y el respeto son la base de cualquier sociedad sana.",
+          "en": "Empathy and respect are the foundation of any healthy society."
+        },
+        {
+          "es": "Cada pequeño acto de bondad puede cambiar la vida de alguien.",
+          "en": "Every small act of kindness can change someone's life."
+        }
+      ]
+    },
+    {
+      "number": 81,
+      "title": "Planning an International Trip",
+      "titleNative": "Planear un viaje internacional",
+      "items": [
+        {
+          "es": "Necesitamos renovar el pasaporte antes de reservar los vuelos.",
+          "en": "We need to renew our passports before booking the flights."
+        },
+        {
+          "es": "Investigamos qué documentos se requieren para entrar al país.",
+          "en": "We researched what documents are required to enter the country."
+        },
+        {
+          "es": "Compramos un seguro de viaje por si surge alguna emergencia.",
+          "en": "We bought travel insurance in case an emergency comes up."
+        },
+        {
+          "es": "Planeamos la ruta con meses de anticipación.",
+          "en": "We planned the route months in advance."
+        }
+      ]
+    },
+    {
+      "number": 82,
+      "title": "Cultural Differences While Traveling",
+      "titleNative": "Diferencias culturales al viajar",
+      "items": [
+        {
+          "es": "En algunos países es de mala educación llegar tarde.",
+          "en": "In some countries it's rude to arrive late."
+        },
+        {
+          "es": "Aprendimos algunas frases básicas antes de llegar.",
+          "en": "We learned a few basic phrases before arriving."
+        },
+        {
+          "es": "Las costumbres de mesa varían mucho de un país a otro.",
+          "en": "Table customs vary a lot from one country to another."
+        },
+        {
+          "es": "Respetar las tradiciones locales enriquece cualquier viaje.",
+          "en": "Respecting local traditions enriches any trip."
+        }
+      ]
+    },
+    {
+      "number": 83,
+      "title": "Adventure Travel",
+      "titleNative": "Viajes de aventura",
+      "items": [
+        {
+          "es": "Escalamos una montaña que nunca habíamos visto antes.",
+          "en": "We climbed a mountain we had never seen before."
+        },
+        {
+          "es": "El guía nos advirtió que el sendero sería difícil.",
+          "en": "The guide warned us that the trail would be difficult."
+        },
+        {
+          "es": "Acampamos junto a un lago rodeado de bosques.",
+          "en": "We camped by a lake surrounded by forests."
+        },
+        {
+          "es": "Fue una experiencia que puso a prueba nuestros límites.",
+          "en": "It was an experience that tested our limits."
+        }
+      ]
+    },
+    {
+      "number": 84,
+      "title": "Global Issues",
+      "titleNative": "Problemas globales",
+      "items": [
+        {
+          "es": "El cambio climático afecta a todos los países del mundo.",
+          "en": "Climate change affects every country in the world."
+        },
+        {
+          "es": "Muchas organizaciones trabajan para reducir la pobreza global.",
+          "en": "Many organizations work to reduce global poverty."
+        },
+        {
+          "es": "La cooperación internacional es clave para resolver estos problemas.",
+          "en": "International cooperation is key to solving these problems."
+        },
+        {
+          "es": "Se necesita que los países trabajen juntos para lograr un cambio real.",
+          "en": "Countries need to work together to achieve real change."
+        }
+      ]
+    },
+    {
+      "number": 85,
+      "title": "World Economies",
+      "titleNative": "Economías mundiales",
+      "items": [
+        {
+          "es": "La economía global depende cada vez más de la tecnología.",
+          "en": "The global economy increasingly depends on technology."
+        },
+        {
+          "es": "El comercio entre países ha crecido enormemente en las últimas décadas.",
+          "en": "Trade between countries has grown enormously in recent decades."
+        },
+        {
+          "es": "Algunas naciones dependen principalmente de la exportación de recursos naturales.",
+          "en": "Some nations depend mainly on exporting natural resources."
+        },
+        {
+          "es": "La crisis afectó a economías de todo el mundo.",
+          "en": "The crisis affected economies all over the world."
+        }
+      ]
+    },
+    {
+      "number": 86,
+      "title": "Global Communication",
+      "titleNative": "Comunicación global",
+      "items": [
+        {
+          "es": "Gracias a internet, podemos hablar con cualquier persona del mundo.",
+          "en": "Thanks to the internet, we can talk to anyone in the world."
+        },
+        {
+          "es": "El inglés se usa como idioma común en muchas conferencias internacionales.",
+          "en": "English is used as a common language at many international conferences."
+        },
+        {
+          "es": "Las videollamadas han acortado las distancias entre países.",
+          "en": "Video calls have shortened the distances between countries."
+        },
+        {
+          "es": "Aprender varios idiomas abre muchas puertas profesionales.",
+          "en": "Learning several languages opens many professional doors."
+        }
+      ]
+    },
+    {
+      "number": 87,
+      "title": "Expat Life",
+      "titleNative": "Vida como expatriado",
+      "items": [
+        {
+          "es": "Se mudó a otro país por trabajo hace cinco años.",
+          "en": "He moved to another country for work five years ago."
+        },
+        {
+          "es": "Adaptarse a una nueva cultura toma tiempo y paciencia.",
+          "en": "Adapting to a new culture takes time and patience."
+        },
+        {
+          "es": "Extraña la comida de su país, pero disfruta su nueva vida.",
+          "en": "She misses her country's food, but enjoys her new life."
+        },
+        {
+          "es": "Hizo amigos de todo el mundo gracias a su trabajo internacional.",
+          "en": "He made friends from all over the world thanks to his international job."
+        }
+      ]
+    },
+    {
+      "number": 88,
+      "title": "Natural Wonders",
+      "titleNative": "Maravillas naturales",
+      "items": [
+        {
+          "es": "Visitamos una de las cascadas más altas del mundo.",
+          "en": "We visited one of the tallest waterfalls in the world."
+        },
+        {
+          "es": "El desierto tiene un silencio que impresiona a cualquiera.",
+          "en": "The desert has a silence that impresses anyone."
+        },
+        {
+          "es": "La selva alberga una biodiversidad increíble.",
+          "en": "The jungle is home to incredible biodiversity."
+        },
+        {
+          "es": "Ver ese paisaje nos dejó sin palabras.",
+          "en": "Seeing that landscape left us speechless."
+        }
+      ]
+    },
+    {
+      "number": 89,
+      "title": "Traveling Responsibly",
+      "titleNative": "Viajar de manera responsable",
+      "items": [
+        {
+          "es": "Tratamos de reducir nuestro impacto ambiental al viajar.",
+          "en": "We try to reduce our environmental impact when we travel."
+        },
+        {
+          "es": "Apoyamos negocios locales en lugar de grandes cadenas.",
+          "en": "We support local businesses instead of big chains."
+        },
+        {
+          "es": "Es importante respetar la fauna y no dejar basura en la naturaleza.",
+          "en": "It's important to respect wildlife and not leave trash in nature."
+        },
+        {
+          "es": "El turismo responsable beneficia tanto a los viajeros como a las comunidades.",
+          "en": "Responsible tourism benefits both travelers and communities."
+        }
+      ]
+    },
+    {
+      "number": 90,
+      "title": "Review: Travel and Global Topics",
+      "titleNative": "Repaso: Viajes y temas globales",
+      "items": [
+        {
+          "es": "Viajar amplía nuestra forma de ver el mundo.",
+          "en": "Traveling broadens the way we see the world."
+        },
+        {
+          "es": "Espero que podamos visitar juntos muchos más países.",
+          "en": "I hope we can visit many more countries together."
+        },
+        {
+          "es": "Cada cultura tiene algo valioso que enseñarnos.",
+          "en": "Every culture has something valuable to teach us."
+        },
+        {
+          "es": "El mundo es mucho más grande e interesante de lo que imaginamos.",
+          "en": "The world is much bigger and more interesting than we imagine."
+        }
+      ]
+    },
+    {
+      "number": 91,
+      "title": "A Life-Changing Decision",
+      "titleNative": "Una decisión que cambió la vida",
+      "items": [
+        {
+          "es": "Renunció a un trabajo estable para seguir su verdadera pasión.",
+          "en": "He quit a stable job to follow his true passion."
+        },
+        {
+          "es": "Aunque fue arriesgado, nunca se arrepintió de esa decisión.",
+          "en": "Although it was risky, he never regretted that decision."
+        },
+        {
+          "es": "Sus amigos le dijeron que sería difícil, pero lo logró de todas formas.",
+          "en": "His friends told him it would be difficult, but he achieved it anyway."
+        },
+        {
+          "es": "Ahora vive de algo que realmente ama hacer.",
+          "en": "Now he makes a living from something he truly loves doing."
+        }
+      ]
+    },
+    {
+      "number": 92,
+      "title": "A Difficult Negotiation",
+      "titleNative": "Una negociación difícil",
+      "items": [
+        {
+          "es": "Se aseguró de que ambas partes salieran beneficiadas del acuerdo.",
+          "en": "He made sure both parties benefited from the agreement."
+        },
+        {
+          "es": "Se necesitó mucha paciencia para que llegaran a un consenso.",
+          "en": "It took a lot of patience for them to reach a consensus."
+        },
+        {
+          "es": "El contrato fue firmado después de semanas de discusión.",
+          "en": "The contract was signed after weeks of discussion."
+        },
+        {
+          "es": "Ojalá que esta alianza traiga beneficios para ambas empresas.",
+          "en": "I hope this partnership brings benefits for both companies."
+        }
+      ]
+    },
+    {
+      "number": 93,
+      "title": "Reflecting on Personal Change",
+      "titleNative": "Reflexionar sobre el cambio personal",
+      "items": [
+        {
+          "es": "Hace unos años, no habría tenido el valor de hacer esto.",
+          "en": "A few years ago, I wouldn't have had the courage to do this."
+        },
+        {
+          "es": "Me convertí en una persona más paciente sin que me diera cuenta.",
+          "en": "I became a more patient person without realizing it."
+        },
+        {
+          "es": "Aunque el camino fue difícil, valió la pena cada paso.",
+          "en": "Even though the path was difficult, every step was worth it."
+        },
+        {
+          "es": "Espero seguir creciendo tanto como lo he hecho este año.",
+          "en": "I hope to keep growing as much as I have this year."
+        }
+      ]
+    },
+    {
+      "number": 94,
+      "title": "Discussing the Future of Work",
+      "titleNative": "Hablar del futuro del trabajo",
+      "items": [
+        {
+          "es": "Se dice que muchos trabajos serán reemplazados por máquinas.",
+          "en": "It's said that many jobs will be replaced by machines."
+        },
+        {
+          "es": "Aunque la tecnología avanza rápido, siempre habrá lugar para la creatividad humana.",
+          "en": "Although technology advances quickly, there will always be room for human creativity."
+        },
+        {
+          "es": "Sería inteligente aprender nuevas habilidades para el futuro.",
+          "en": "It would be smart to learn new skills for the future."
+        },
+        {
+          "es": "Nadie sabe con certeza cómo será el mercado laboral dentro de veinte años.",
+          "en": "No one knows for certain what the job market will be like in twenty years."
+        }
+      ]
+    },
+    {
+      "number": 95,
+      "title": "A Community Coming Together",
+      "titleNative": "Una comunidad que se une",
+      "items": [
+        {
+          "es": "Cuando llegó la tormenta, los vecinos se ayudaron sin que nadie lo pidiera.",
+          "en": "When the storm arrived, the neighbors helped each other without anyone asking."
+        },
+        {
+          "es": "Se organizaron para que todos tuvieran comida y un lugar seguro.",
+          "en": "They organized so that everyone had food and a safe place."
+        },
+        {
+          "es": "Fue reconstruido gracias al esfuerzo de toda la comunidad.",
+          "en": "It was rebuilt thanks to the effort of the whole community."
+        },
+        {
+          "es": "Ojalá que este espíritu de solidaridad nunca se pierda.",
+          "en": "I hope this spirit of solidarity is never lost."
+        }
+      ]
+    },
+    {
+      "number": 96,
+      "title": "Long-Distance Relationships",
+      "titleNative": "Relaciones a distancia",
+      "items": [
+        {
+          "es": "Mantuvieron su relación aunque vivían en países diferentes.",
+          "en": "They kept their relationship going even though they lived in different countries."
+        },
+        {
+          "es": "Se hablaban todos los días para que la distancia no los separara.",
+          "en": "They talked every day so the distance wouldn't separate them."
+        },
+        {
+          "es": "Prometieron que se reunirían en cuanto fuera posible.",
+          "en": "They promised they would reunite as soon as it was possible."
+        },
+        {
+          "es": "Al final, ella se mudó para que pudieran estar juntos.",
+          "en": "In the end, she moved so they could be together."
+        }
+      ]
+    },
+    {
+      "number": 97,
+      "title": "An Unexpected Opportunity",
+      "titleNative": "Una oportunidad inesperada",
+      "items": [
+        {
+          "es": "Nunca pensó que le ofrecerían ese puesto tan pronto.",
+          "en": "He never thought they would offer him that position so soon."
+        },
+        {
+          "es": "Le dijeron que tendría que mudarse en caso de que aceptara.",
+          "en": "They told her she would have to move in case she accepted."
+        },
+        {
+          "es": "Habría dudado antes, pero ahora se sentía lista para el reto.",
+          "en": "She would have hesitated before, but now she felt ready for the challenge."
+        },
+        {
+          "es": "Aceptó la oferta sin que nadie tuviera que convencerla.",
+          "en": "She accepted the offer without anyone having to convince her."
+        }
+      ]
+    },
+    {
+      "number": 98,
+      "title": "A Letter to the Future",
+      "titleNative": "Una carta al futuro",
+      "items": [
+        {
+          "es": "Escribo esto para que lo leas dentro de diez años.",
+          "en": "I'm writing this so you'll read it in ten years."
+        },
+        {
+          "es": "Ojalá que hayas logrado todo lo que te propusiste.",
+          "en": "I hope you've achieved everything you set out to do."
+        },
+        {
+          "es": "Espero que seas más feliz de lo que eres hoy.",
+          "en": "I hope you're happier than you are today."
+        },
+        {
+          "es": "Aunque no sé qué traerá el futuro, confío en que estarás bien.",
+          "en": "Although I don't know what the future will bring, I trust you'll be fine."
+        }
+      ]
+    },
+    {
+      "number": 99,
+      "title": "Wisdom Gained Over Time",
+      "titleNative": "Sabiduría ganada con el tiempo",
+      "items": [
+        {
+          "es": "Con los años, aprendí que no todo se puede controlar.",
+          "en": "Over the years, I learned that not everything can be controlled."
+        },
+        {
+          "es": "Sería un error pensar que el éxito llega sin esfuerzo.",
+          "en": "It would be a mistake to think success comes without effort."
+        },
+        {
+          "es": "Aunque cometí muchos errores, cada uno me enseñó algo valioso.",
+          "en": "Although I made many mistakes, each one taught me something valuable."
+        },
+        {
+          "es": "Ahora sé que la felicidad se construye día a día.",
+          "en": "Now I know that happiness is built day by day."
+        }
+      ]
+    },
+    {
+      "number": 100,
+      "title": "Review: B1+ Capstone",
+      "titleNative": "Repaso: Cierre de B1+",
+      "items": [
+        {
+          "es": "Has aprendido a expresar ideas mucho más complejas que antes.",
+          "en": "You've learned to express much more complex ideas than before."
+        },
+        {
+          "es": "Ojalá que sigas practicando y que no pierdas el ritmo.",
+          "en": "I hope you keep practicing and don't lose momentum."
+        },
+        {
+          "es": "Aunque el camino sea largo, cada lección te acerca a la fluidez.",
+          "en": "Even though the road is long, each lesson brings you closer to fluency."
+        },
+        {
+          "es": "Estoy seguro de que estás más que listo para el siguiente nivel.",
+          "en": "I'm sure you're more than ready for the next level."
+        }
+      ]
+    }
+  ]
+}

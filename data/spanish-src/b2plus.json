@@ -1,0 +1,2364 @@
+{
+  "level": "b2plus",
+  "grammarTopics": {
+    "b2plus-ser-estar-nuanced": {
+      "title": "Ser vs Estar: Beyond the Basic Rule",
+      "pattern": "ser = defining trait/norm · estar = perceived state/deviation from the norm",
+      "explanation": "Beyond the classic \"permanent vs temporary\" rule, both verbs can describe the SAME adjective with a real meaning shift: \"es guapo\" (he's handsome — an inherent trait) versus \"está guapo\" (he looks handsome [right now, in that outfit] — a perceived state). \"Es aburrido\" (he's a boring person) versus \"está aburrido\" (he's bored right now). \"Ser listo\" (to be clever) versus \"estar listo\" (to be ready). The real distinction isn't duration — it's whether you're naming an inherent identity/norm (ser) or describing a perceived, comparable condition (estar).",
+      "fact": "\"Estar\" is also the only option for location, no matter how permanent: \"Madrid está en España\" (Madrid is in Spain) uses \"está\" even though that fact never changes — location always takes \"estar\", one of the few genuinely fixed rules in this otherwise nuanced pair.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "¡Qué guapa estás hoy! Ese vestido te queda increíble.",
+          "en": "You look so beautiful today! That dress looks amazing on you."
+        },
+        {
+          "sp": "B",
+          "native": "Gracias, aunque tú siempre eres el más elegante del grupo.",
+          "en": "Thanks, though you're always the most elegant one in the group."
+        }
+      ]
+    },
+    "b2plus-compound-tenses": {
+      "title": "Compound Tenses Together: The Full Perfect System",
+      "pattern": "he/había/habré/habría hablado — present/past/future/conditional perfect, all built the same way",
+      "explanation": "Spanish has a full family of compound tenses, all built the same way (a form of \"haber\" + past participle), just with \"haber\" itself in a different tense: present perfect \"he hablado\" (I have spoken), past perfect \"había hablado\" (I had spoken), future perfect \"habré hablado\" (I will have spoken, by some future point), conditional perfect \"habría hablado\" (I would have spoken). Once you know the participle, all four tenses are just a matter of conjugating \"haber\" correctly.",
+      "fact": "The future perfect also has the same probability use as the simple future: \"Ya habrán llegado\" doesn't just mean \"they will have already arrived\" — in casual speech it often means \"they've probably already arrived,\" a guess about a completed action, not a genuine future prediction.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Para cuando lleguemos, ya habrán empezado sin nosotros.",
+          "en": "By the time we arrive, they will have already started without us."
+        },
+        {
+          "sp": "B",
+          "native": "Si hubiéramos salido antes, habríamos llegado a tiempo.",
+          "en": "If we had left earlier, we would have arrived on time."
+        }
+      ]
+    },
+    "b2plus-nominalization": {
+      "title": "Nominalization: Turning Verbs and Adjectives into Nouns",
+      "pattern": "-ción/-miento/-dad/-eza (verb/adjective → noun), common in formal and written Spanish",
+      "explanation": "Formal and written Spanish favors nouns where everyday speech uses verbs: instead of \"decidimos rápido\" (we decided quickly), a report might say \"la rapidez de la decisión\" (the speed of the decision). Common noun-forming suffixes: \"-ción\" (construir → construcción), \"-miento\" (crecer → crecimiento), \"-dad\" (posible → posibilidad), \"-eza\" (triste → tristeza). Recognizing these patterns unlocks a huge amount of formal vocabulary at once, since most of these nouns are entirely predictable from a verb or adjective you already know.",
+      "fact": "This nominal style is sometimes criticized in style guides as \"lenguaje burocrático\" (bureaucratic language) when overused — native writers are taught that a strong verb (\"decidieron rápido\") often reads better than its noun version (\"hubo rapidez en la decisión\"), even though both are grammatically correct.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "La implementación del nuevo sistema requerirá varios meses.",
+          "en": "The implementation of the new system will require several months."
+        },
+        {
+          "sp": "B",
+          "native": "Entiendo, aunque preferiría que simplemente nos dijeran cuándo van a implementarlo.",
+          "en": "I understand, although I'd prefer they just tell us when they're going to implement it."
+        }
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Adjectives That Change Meaning",
+      "titleNative": "Adjetivos que cambian de significado",
+      "items": [
+        {
+          "es": "Mi tío es muy vivo, siempre tiene una solución para todo.",
+          "en": "My uncle is very sharp, he always has a solution for everything."
+        },
+        {
+          "es": "Después del susto, todavía está vivo el recuerdo en mi mente.",
+          "en": "After the scare, the memory is still vivid in my mind."
+        },
+        {
+          "es": "Ella es lista, resuelve problemas complicados con facilidad.",
+          "en": "She's clever, she solves complicated problems with ease."
+        },
+        {
+          "es": "¿Ya estás lista para salir o necesitas más tiempo?",
+          "en": "Are you ready to go or do you need more time?"
+        }
+      ],
+      "topicId": "b2plus-ser-estar-nuanced"
+    },
+    {
+      "number": 2,
+      "title": "Perceived States vs Inherent Traits",
+      "titleNative": "Estados percibidos frente a rasgos inherentes",
+      "items": [
+        {
+          "es": "Ese actor es muy bueno, siempre da actuaciones increíbles.",
+          "en": "That actor is very good, he always gives incredible performances."
+        },
+        {
+          "es": "La sopa está muy buena hoy, la cocinera se lució.",
+          "en": "The soup is very good today, the cook outdid herself."
+        },
+        {
+          "es": "Mi abuelo es callado por naturaleza, casi nunca habla mucho.",
+          "en": "My grandfather is quiet by nature, he almost never talks much."
+        },
+        {
+          "es": "Hoy está muy callado, algo le debe estar preocupando.",
+          "en": "He's very quiet today, something must be worrying him."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Describing Appearance and Change",
+      "titleNative": "Describir apariencia y cambio",
+      "items": [
+        {
+          "es": "Está más delgado que la última vez que lo vi.",
+          "en": "He looks thinner than the last time I saw him."
+        },
+        {
+          "es": "Es una persona delgada desde que era joven.",
+          "en": "He's been a thin person since he was young."
+        },
+        {
+          "es": "¡Qué joven estás! No has cambiado nada en años.",
+          "en": "You look so young! You haven't changed at all in years."
+        },
+        {
+          "es": "Es joven todavía, apenas tiene veinticinco años.",
+          "en": "He's still young, he's barely twenty-five."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Location Always Takes Estar",
+      "titleNative": "La ubicación siempre lleva estar",
+      "items": [
+        {
+          "es": "El museo está en el centro de la ciudad.",
+          "en": "The museum is in the city center."
+        },
+        {
+          "es": "Mis padres están en Perú visitando a mis abuelos.",
+          "en": "My parents are in Peru visiting my grandparents."
+        },
+        {
+          "es": "La capital de Francia está en Europa, no en otro continente.",
+          "en": "The capital of France is in Europe, not on another continent."
+        },
+        {
+          "es": "¿Dónde está la estación de tren más cercana?",
+          "en": "Where is the nearest train station?"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Ser for Origin, Material, and Ownership",
+      "titleNative": "Ser para origen, material y posesión",
+      "items": [
+        {
+          "es": "Este anillo es de oro puro.",
+          "en": "This ring is made of pure gold."
+        },
+        {
+          "es": "Ella es de Colombia, aunque vive en España desde hace años.",
+          "en": "She's from Colombia, although she's lived in Spain for years."
+        },
+        {
+          "es": "Esa casa es de mis abuelos desde hace generaciones.",
+          "en": "That house has belonged to my grandparents for generations."
+        },
+        {
+          "es": "La mesa es de madera maciza.",
+          "en": "The table is made of solid wood."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Estar with Gerund (Progressive)",
+      "titleNative": "Estar con gerundio (progresivo)",
+      "items": [
+        {
+          "es": "Estoy terminando el informe, dame diez minutos más.",
+          "en": "I'm finishing the report, give me ten more minutes."
+        },
+        {
+          "es": "Estaban discutiendo cuando llegamos a la reunión.",
+          "en": "They were arguing when we arrived at the meeting."
+        },
+        {
+          "es": "¿Qué estás haciendo esta noche? Podríamos salir a cenar.",
+          "en": "What are you doing tonight? We could go out for dinner."
+        },
+        {
+          "es": "Estábamos disfrutando del paisaje cuando empezó a llover.",
+          "en": "We were enjoying the scenery when it started raining."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Estar with Past Participle (Resulting State)",
+      "titleNative": "Estar con participio (estado resultante)",
+      "items": [
+        {
+          "es": "La puerta está cerrada, tendrás que tocar el timbre.",
+          "en": "The door is closed, you'll have to ring the bell."
+        },
+        {
+          "es": "El trabajo ya está terminado, puedes revisarlo cuando quieras.",
+          "en": "The work is already finished, you can review it whenever you want."
+        },
+        {
+          "es": "Las ventanas estaban rotas después de la tormenta.",
+          "en": "The windows were broken after the storm."
+        },
+        {
+          "es": "Todo está preparado para la fiesta de esta noche.",
+          "en": "Everything is ready for tonight's party."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Emotional States with Estar",
+      "titleNative": "Estados emocionales con estar",
+      "items": [
+        {
+          "es": "Está feliz porque consiguió el trabajo que quería.",
+          "en": "He's happy because he got the job he wanted."
+        },
+        {
+          "es": "Estábamos preocupados porque no contestabas el teléfono.",
+          "en": "We were worried because you weren't answering the phone."
+        },
+        {
+          "es": "Estoy agradecido por todo el apoyo que me han dado.",
+          "en": "I'm grateful for all the support you've given me."
+        },
+        {
+          "es": "Estaba nerviosa antes de la presentación, pero salió muy bien.",
+          "en": "She was nervous before the presentation, but it went very well."
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Ser for Events and Time",
+      "titleNative": "Ser para eventos y tiempo",
+      "items": [
+        {
+          "es": "La boda es en el jardín del hotel el próximo sábado.",
+          "en": "The wedding is at the hotel garden next Saturday."
+        },
+        {
+          "es": "Hoy es martes, así que la reunión es mañana.",
+          "en": "Today is Tuesday, so the meeting is tomorrow."
+        },
+        {
+          "es": "El concierto fue increíble, la banda tocó durante tres horas.",
+          "en": "The concert was incredible, the band played for three hours."
+        },
+        {
+          "es": "¿A qué hora es la cena esta noche?",
+          "en": "What time is dinner tonight?"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Review: Ser vs Estar Nuanced",
+      "titleNative": "Repaso: Ser y estar con matices",
+      "items": [
+        {
+          "es": "Es una persona muy generosa, siempre ayuda a los demás.",
+          "en": "He's a very generous person, he always helps others."
+        },
+        {
+          "es": "Está muy generoso hoy, nos invitó a todos a cenar.",
+          "en": "He's being very generous today, he invited us all to dinner."
+        },
+        {
+          "es": "El restaurante está cerca de mi casa, así que voy caminando.",
+          "en": "The restaurant is near my house, so I walk there."
+        },
+        {
+          "es": "Estamos listos para lo que sea que venga a continuación.",
+          "en": "We're ready for whatever comes next."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Future Perfect: Predictions About Completion",
+      "titleNative": "Futuro perfecto: predicciones sobre lo terminado",
+      "items": [
+        {
+          "es": "Para el año que viene, habré terminado mis estudios.",
+          "en": "By next year, I will have finished my studies."
+        },
+        {
+          "es": "Cuando llegues, ya habremos preparado todo para la fiesta.",
+          "en": "By the time you arrive, we will have already prepared everything for the party."
+        },
+        {
+          "es": "Para entonces, la empresa habrá cambiado de dueño varias veces.",
+          "en": "By then, the company will have changed owners several times."
+        },
+        {
+          "es": "Habrán salido ya, la casa está completamente vacía.",
+          "en": "They must have already left, the house is completely empty."
+        }
+      ],
+      "topicId": "b2plus-compound-tenses"
+    },
+    {
+      "number": 12,
+      "title": "Conditional Perfect: What Would Have Happened",
+      "titleNative": "Condicional perfecto: lo que habría pasado",
+      "items": [
+        {
+          "es": "Habría llamado antes, pero se me olvidó por completo.",
+          "en": "I would have called earlier, but I completely forgot."
+        },
+        {
+          "es": "Sin tu ayuda, no habríamos podido terminar el proyecto a tiempo.",
+          "en": "Without your help, we wouldn't have been able to finish the project on time."
+        },
+        {
+          "es": "Habrían llegado antes si no hubiera habido tanto tráfico.",
+          "en": "They would have arrived earlier if there hadn't been so much traffic."
+        },
+        {
+          "es": "Yo habría elegido una opción diferente en tu lugar.",
+          "en": "I would have chosen a different option in your place."
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "title": "All Four Perfects in Sequence",
+      "titleNative": "Los cuatro tiempos perfectos en secuencia",
+      "items": [
+        {
+          "es": "He estudiado mucho este año, había estudiado poco el año pasado, pero habré estudiado aún más para el próximo examen.",
+          "en": "I've studied a lot this year, I had studied little last year, but I will have studied even more for the next exam."
+        },
+        {
+          "es": "Habríamos llegado antes si hubiéramos salido cuando habíamos planeado.",
+          "en": "We would have arrived earlier if we had left when we had planned."
+        },
+        {
+          "es": "Para cuando te gradúes, habrás aprendido más de lo que imaginas ahora.",
+          "en": "By the time you graduate, you will have learned more than you imagine now."
+        },
+        {
+          "es": "Habría sido más fácil si hubiéramos empezado antes.",
+          "en": "It would have been easier if we had started earlier."
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "title": "Perfect Tenses in Storytelling",
+      "titleNative": "Tiempos perfectos al contar historias",
+      "items": [
+        {
+          "es": "Cuando por fin encontramos la casa, ya habíamos caminado más de dos horas.",
+          "en": "When we finally found the house, we had already walked more than two hours."
+        },
+        {
+          "es": "Habrá sido difícil para ella tomar esa decisión sola.",
+          "en": "It must have been difficult for her to make that decision alone."
+        },
+        {
+          "es": "Si hubiéramos sabido antes, habríamos actuado de otra manera.",
+          "en": "If we had known earlier, we would have acted differently."
+        },
+        {
+          "es": "Para el final de la novela, el personaje ya había cambiado por completo.",
+          "en": "By the end of the novel, the character had already changed completely."
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "title": "Business Deadlines with Future Perfect",
+      "titleNative": "Fechas límite laborales con futuro perfecto",
+      "items": [
+        {
+          "es": "Para el viernes, habremos enviado todos los contratos firmados.",
+          "en": "By Friday, we will have sent all the signed contracts."
+        },
+        {
+          "es": "El equipo habrá completado la fase inicial para fin de mes.",
+          "en": "The team will have completed the initial phase by the end of the month."
+        },
+        {
+          "es": "Habré terminado la presentación antes de la reunión de mañana.",
+          "en": "I will have finished the presentation before tomorrow's meeting."
+        },
+        {
+          "es": "Para entonces, ya habrán contratado a un nuevo gerente.",
+          "en": "By then, they will have already hired a new manager."
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "title": "Regrets Using Conditional Perfect",
+      "titleNative": "Arrepentimientos con condicional perfecto",
+      "items": [
+        {
+          "es": "Habría preferido quedarme en casa esa noche.",
+          "en": "I would have preferred to stay home that night."
+        },
+        {
+          "es": "No habríamos cometido ese error si hubiéramos revisado todo dos veces.",
+          "en": "We wouldn't have made that mistake if we had checked everything twice."
+        },
+        {
+          "es": "Habría sido mejor esperar un poco más antes de decidir.",
+          "en": "It would have been better to wait a bit longer before deciding."
+        },
+        {
+          "es": "¿Qué habrías hecho tú en esa situación?",
+          "en": "What would you have done in that situation?"
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "title": "Combining Perfects with Subjunctive",
+      "titleNative": "Combinar tiempos perfectos con subjuntivo",
+      "items": [
+        {
+          "es": "Espero que para entonces ya hayamos resuelto el problema.",
+          "en": "I hope that by then we'll have already solved the problem."
+        },
+        {
+          "es": "Dudaba que hubiera terminado el trabajo tan rápido.",
+          "en": "I doubted he had finished the work so quickly."
+        },
+        {
+          "es": "Ojalá hubiéramos sabido eso antes de firmar el contrato.",
+          "en": "I wish we had known that before signing the contract."
+        },
+        {
+          "es": "Es probable que para el próximo año ya hayan mudado de oficina.",
+          "en": "It's likely that by next year they'll have already moved offices."
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "title": "Probability About the Past (future perfect)",
+      "titleNative": "Probabilidad sobre el pasado (futuro perfecto)",
+      "items": [
+        {
+          "es": "Habrá sido un malentendido, no creo que lo haya hecho a propósito.",
+          "en": "It was probably a misunderstanding, I don't think he did it on purpose."
+        },
+        {
+          "es": "No contesta, se le habrá acabado la batería del teléfono.",
+          "en": "He's not answering, his phone battery probably died."
+        },
+        {
+          "es": "Habrán tenido sus razones para tomar esa decisión.",
+          "en": "They must have had their reasons for making that decision."
+        },
+        {
+          "es": "Se habrá quedado dormida, por eso no llegó a tiempo.",
+          "en": "She probably fell asleep, that's why she didn't arrive on time."
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "title": "Perfect Tenses in Formal Writing",
+      "titleNative": "Tiempos perfectos en escritura formal",
+      "items": [
+        {
+          "es": "Para la fecha de entrega, el comité habrá revisado todas las propuestas.",
+          "en": "By the delivery date, the committee will have reviewed all the proposals."
+        },
+        {
+          "es": "Se habría evitado la crisis si se hubieran tomado medidas antes.",
+          "en": "The crisis would have been avoided if measures had been taken earlier."
+        },
+        {
+          "es": "Los resultados finales se habrán publicado antes de fin de año.",
+          "en": "The final results will have been published before the end of the year."
+        },
+        {
+          "es": "El informe habría sido más completo con más tiempo de investigación.",
+          "en": "The report would have been more complete with more research time."
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "title": "Review: Compound Tenses",
+      "titleNative": "Repaso: Tiempos compuestos",
+      "items": [
+        {
+          "es": "Para cuando termines de leer esto, ya habrás aprendido los cuatro tiempos perfectos.",
+          "en": "By the time you finish reading this, you will have already learned the four perfect tenses."
+        },
+        {
+          "es": "Si hubiera practicado más, los habría dominado mucho antes.",
+          "en": "If I had practiced more, I would have mastered them much earlier."
+        },
+        {
+          "es": "Habrá valido la pena todo este esfuerzo cuando por fin hables con fluidez.",
+          "en": "All this effort will have been worth it when you finally speak fluently."
+        },
+        {
+          "es": "Espero que hayas disfrutado aprendiendo algo tan complejo como esto.",
+          "en": "I hope you've enjoyed learning something as complex as this."
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "title": "Nouns from Verbs (-ción)",
+      "titleNative": "Sustantivos de verbos (-ción)",
+      "items": [
+        {
+          "es": "La construcción del nuevo hospital comenzará el próximo mes.",
+          "en": "The construction of the new hospital will begin next month."
+        },
+        {
+          "es": "Su explicación fue clara y convincente.",
+          "en": "His explanation was clear and convincing."
+        },
+        {
+          "es": "La organización del evento tomó varios meses de planificación.",
+          "en": "The organization of the event took several months of planning."
+        },
+        {
+          "es": "La reducción de costos fue el objetivo principal de la reunión.",
+          "en": "The reduction of costs was the main objective of the meeting."
+        }
+      ],
+      "topicId": "b2plus-nominalization"
+    },
+    {
+      "number": 22,
+      "title": "Nouns from Verbs (-miento)",
+      "titleNative": "Sustantivos de verbos (-miento)",
+      "items": [
+        {
+          "es": "El crecimiento de la empresa ha sido notable este año.",
+          "en": "The company's growth has been remarkable this year."
+        },
+        {
+          "es": "El descubrimiento cambió por completo nuestra comprensión del tema.",
+          "en": "The discovery completely changed our understanding of the topic."
+        },
+        {
+          "es": "El movimiento social logró cambios importantes en la ley.",
+          "en": "The social movement achieved important changes in the law."
+        },
+        {
+          "es": "Su nombramiento como directora fue anunciado esta mañana.",
+          "en": "Her appointment as director was announced this morning."
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "title": "Nouns from Adjectives (-dad, -eza)",
+      "titleNative": "Sustantivos de adjetivos (-dad, -eza)",
+      "items": [
+        {
+          "es": "La posibilidad de un acuerdo aumentó después de la reunión.",
+          "en": "The possibility of an agreement increased after the meeting."
+        },
+        {
+          "es": "Admiramos su honestidad en todo momento.",
+          "en": "We admired his honesty at all times."
+        },
+        {
+          "es": "La tristeza que sintió al despedirse era evidente.",
+          "en": "The sadness she felt when saying goodbye was evident."
+        },
+        {
+          "es": "La certeza de su respuesta nos tranquilizó a todos.",
+          "en": "The certainty of his answer reassured us all."
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "title": "Formal vs Informal Phrasing",
+      "titleNative": "Frases formales frente a informales",
+      "items": [
+        {
+          "es": "Se solicita la presencia de todos los socios en la asamblea.",
+          "en": "The presence of all partners at the assembly is requested."
+        },
+        {
+          "es": "Necesitamos que todos vengan a la reunión, por favor.",
+          "en": "We need everyone to come to the meeting, please."
+        },
+        {
+          "es": "La aprobación del proyecto quedó pendiente hasta la próxima sesión.",
+          "en": "The approval of the project remained pending until the next session."
+        },
+        {
+          "es": "Todavía no aprobaron el proyecto, lo van a decidir después.",
+          "en": "They still haven't approved the project, they'll decide later."
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "title": "Reading Formal Documents",
+      "titleNative": "Leer documentos formales",
+      "items": [
+        {
+          "es": "La solicitud debe presentarse antes de la fecha límite indicada.",
+          "en": "The application must be submitted before the indicated deadline."
+        },
+        {
+          "es": "El incumplimiento de esta cláusula podría resultar en sanciones.",
+          "en": "Failure to comply with this clause could result in penalties."
+        },
+        {
+          "es": "Se recomienda la lectura detallada del contrato antes de firmarlo.",
+          "en": "A detailed reading of the contract is recommended before signing it."
+        },
+        {
+          "es": "La modificación de los términos requiere el consentimiento de ambas partes.",
+          "en": "Modification of the terms requires the consent of both parties."
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "title": "Academic and Professional Writing",
+      "titleNative": "Escritura académica y profesional",
+      "items": [
+        {
+          "es": "La investigación reveló resultados sorprendentes sobre el tema.",
+          "en": "The research revealed surprising results about the topic."
+        },
+        {
+          "es": "El análisis de los datos tomó varias semanas.",
+          "en": "The analysis of the data took several weeks."
+        },
+        {
+          "es": "Su contribución al proyecto fue fundamental para su éxito.",
+          "en": "His contribution to the project was fundamental to its success."
+        },
+        {
+          "es": "La conclusión del estudio confirma la hipótesis inicial.",
+          "en": "The study's conclusion confirms the initial hypothesis."
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "title": "Speeches and Formal Address",
+      "titleNative": "Discursos y trato formal",
+      "items": [
+        {
+          "es": "Distinguidos invitados, es un honor darles la bienvenida esta noche.",
+          "en": "Distinguished guests, it's an honor to welcome you tonight."
+        },
+        {
+          "es": "Quisiera expresar mi más sincero agradecimiento a todo el equipo.",
+          "en": "I would like to express my most sincere gratitude to the whole team."
+        },
+        {
+          "es": "Es un privilegio dirigirme a ustedes en esta ocasión tan especial.",
+          "en": "It's a privilege to address you on this very special occasion."
+        },
+        {
+          "es": "Permítanme presentar los resultados obtenidos durante este año.",
+          "en": "Allow me to present the results obtained during this year."
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "title": "Legal and Institutional Language",
+      "titleNative": "Lenguaje legal e institucional",
+      "items": [
+        {
+          "es": "El demandante presentó pruebas suficientes ante el tribunal.",
+          "en": "The plaintiff presented sufficient evidence before the court."
+        },
+        {
+          "es": "La institución garantiza la confidencialidad de los datos personales.",
+          "en": "The institution guarantees the confidentiality of personal data."
+        },
+        {
+          "es": "El acuerdo entrará en vigor a partir de la fecha de la firma.",
+          "en": "The agreement will take effect from the date of signing."
+        },
+        {
+          "es": "Ambas partes se comprometen a cumplir con lo estipulado en el contrato.",
+          "en": "Both parties commit to complying with what is stipulated in the contract."
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "title": "Switching Between Registers",
+      "titleNative": "Cambiar entre registros",
+      "items": [
+        {
+          "es": "En la reunión formal dijo: \"Procederemos con la implementación del plan.\"",
+          "en": "In the formal meeting he said: \"We will proceed with the implementation of the plan.\""
+        },
+        {
+          "es": "Después, con sus amigos, simplemente dijo: \"Vamos a hacerlo ya.\"",
+          "en": "Later, with his friends, he simply said: \"Let's just do it now.\""
+        },
+        {
+          "es": "El profesor explica con precisión técnica, pero su hijo lo cuenta de forma sencilla.",
+          "en": "The professor explains with technical precision, but his son tells it simply."
+        },
+        {
+          "es": "Saber adaptar el lenguaje según la situación es una habilidad valiosa.",
+          "en": "Knowing how to adapt language according to the situation is a valuable skill."
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "title": "Review: Formal Register",
+      "titleNative": "Repaso: Registro formal",
+      "items": [
+        {
+          "es": "La finalización exitosa del proyecto se debió a la dedicación de todo el equipo.",
+          "en": "The successful completion of the project was due to the dedication of the whole team."
+        },
+        {
+          "es": "Agradecemos profundamente su colaboración y confianza durante este proceso.",
+          "en": "We deeply appreciate your collaboration and trust during this process."
+        },
+        {
+          "es": "La claridad y la precisión son esenciales en cualquier comunicación formal.",
+          "en": "Clarity and precision are essential in any formal communication."
+        },
+        {
+          "es": "Esperamos que esta experiencia haya sido de gran utilidad para todos ustedes.",
+          "en": "We hope this experience has been very useful for all of you."
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "title": "Personal Finance",
+      "titleNative": "Finanzas personales",
+      "items": [
+        {
+          "es": "Es importante llevar un control detallado de los gastos mensuales.",
+          "en": "It's important to keep detailed track of monthly expenses."
+        },
+        {
+          "es": "Abrió una cuenta de ahorros para su jubilación.",
+          "en": "She opened a savings account for her retirement."
+        },
+        {
+          "es": "El interés compuesto puede hacer crecer una inversión considerablemente.",
+          "en": "Compound interest can grow an investment considerably."
+        },
+        {
+          "es": "Es recomendable tener un fondo de emergencia equivalente a varios meses de gastos.",
+          "en": "It's advisable to have an emergency fund equivalent to several months of expenses."
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "title": "Stock Markets and Investment",
+      "titleNative": "Mercados bursátiles e inversión",
+      "items": [
+        {
+          "es": "El mercado bursátil experimentó una fuerte caída esta semana.",
+          "en": "The stock market experienced a sharp drop this week."
+        },
+        {
+          "es": "Diversificar las inversiones reduce el riesgo financiero.",
+          "en": "Diversifying investments reduces financial risk."
+        },
+        {
+          "es": "Las acciones de esa empresa se dispararon después del anuncio.",
+          "en": "That company's shares skyrocketed after the announcement."
+        },
+        {
+          "es": "Muchos inversionistas prefieren estrategias a largo plazo.",
+          "en": "Many investors prefer long-term strategies."
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "title": "Banking and Credit",
+      "titleNative": "Banca y crédito",
+      "items": [
+        {
+          "es": "Solicitó un préstamo para financiar la compra de su casa.",
+          "en": "He applied for a loan to finance the purchase of his house."
+        },
+        {
+          "es": "La tasa de interés del préstamo depende del historial crediticio.",
+          "en": "The loan's interest rate depends on credit history."
+        },
+        {
+          "es": "Es importante pagar las tarjetas de crédito a tiempo para evitar intereses.",
+          "en": "It's important to pay credit cards on time to avoid interest."
+        },
+        {
+          "es": "El banco aprobó su solicitud de hipoteca después de revisar sus documentos.",
+          "en": "The bank approved her mortgage application after reviewing her documents."
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "title": "Inflation and the Economy",
+      "titleNative": "Inflación y la economía",
+      "items": [
+        {
+          "es": "La inflación ha afectado el poder adquisitivo de muchas familias.",
+          "en": "Inflation has affected the purchasing power of many families."
+        },
+        {
+          "es": "El banco central ajustó las tasas de interés para controlar la inflación.",
+          "en": "The central bank adjusted interest rates to control inflation."
+        },
+        {
+          "es": "El desempleo bajó considerablemente durante el último trimestre.",
+          "en": "Unemployment dropped considerably during the last quarter."
+        },
+        {
+          "es": "Los economistas debaten sobre las mejores políticas para estimular el crecimiento.",
+          "en": "Economists debate the best policies to stimulate growth."
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "title": "International Trade",
+      "titleNative": "Comercio internacional",
+      "items": [
+        {
+          "es": "El país exporta principalmente productos agrícolas y minerales.",
+          "en": "The country mainly exports agricultural products and minerals."
+        },
+        {
+          "es": "Los aranceles afectan el precio de los productos importados.",
+          "en": "Tariffs affect the price of imported products."
+        },
+        {
+          "es": "Firmaron un tratado de libre comercio con varios países vecinos.",
+          "en": "They signed a free trade agreement with several neighboring countries."
+        },
+        {
+          "es": "La cadena de suministro global se vio afectada por la crisis.",
+          "en": "The global supply chain was affected by the crisis."
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "title": "Corporate Finance",
+      "titleNative": "Finanzas corporativas",
+      "items": [
+        {
+          "es": "La empresa reportó ganancias récord en el último trimestre.",
+          "en": "The company reported record profits in the last quarter."
+        },
+        {
+          "es": "Los accionistas aprobaron la fusión con la otra compañía.",
+          "en": "The shareholders approved the merger with the other company."
+        },
+        {
+          "es": "El presupuesto anual se distribuye entre varios departamentos.",
+          "en": "The annual budget is distributed among several departments."
+        },
+        {
+          "es": "La junta directiva decidirá sobre la nueva estrategia de inversión.",
+          "en": "The board of directors will decide on the new investment strategy."
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "title": "Startups and Venture Capital",
+      "titleNative": "Startups y capital de riesgo",
+      "items": [
+        {
+          "es": "La startup recibió una inversión millonaria de un grupo de inversionistas.",
+          "en": "The startup received a multi-million-dollar investment from a group of investors."
+        },
+        {
+          "es": "Los fundadores cedieron parte de las acciones a cambio de financiamiento.",
+          "en": "The founders gave up part of the shares in exchange for financing."
+        },
+        {
+          "es": "Muchas nuevas empresas fracasan durante sus primeros años.",
+          "en": "Many new companies fail during their first years."
+        },
+        {
+          "es": "El capital de riesgo impulsa la innovación en muchos sectores.",
+          "en": "Venture capital drives innovation in many sectors."
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "title": "Economic Inequality",
+      "titleNative": "Desigualdad económica",
+      "items": [
+        {
+          "es": "La brecha entre ricos y pobres sigue creciendo en muchos países.",
+          "en": "The gap between rich and poor keeps growing in many countries."
+        },
+        {
+          "es": "El acceso desigual a la educación perpetúa la pobreza.",
+          "en": "Unequal access to education perpetuates poverty."
+        },
+        {
+          "es": "Algunos economistas proponen políticas redistributivas para reducir la desigualdad.",
+          "en": "Some economists propose redistributive policies to reduce inequality."
+        },
+        {
+          "es": "La movilidad social se ha vuelto más difícil en las últimas décadas.",
+          "en": "Social mobility has become more difficult in recent decades."
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "title": "Cryptocurrency and Digital Finance",
+      "titleNative": "Criptomonedas y finanzas digitales",
+      "items": [
+        {
+          "es": "El valor de esa criptomoneda subió considerablemente este año.",
+          "en": "The value of that cryptocurrency rose considerably this year."
+        },
+        {
+          "es": "Muchos bancos están explorando el uso de tecnología blockchain.",
+          "en": "Many banks are exploring the use of blockchain technology."
+        },
+        {
+          "es": "Invertir en criptomonedas implica un riesgo alto por su volatilidad.",
+          "en": "Investing in cryptocurrencies involves high risk due to their volatility."
+        },
+        {
+          "es": "Las billeteras digitales han cambiado la forma en que gestionamos el dinero.",
+          "en": "Digital wallets have changed the way we manage money."
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "title": "Review: Economics and Finance",
+      "titleNative": "Repaso: Economía y finanzas",
+      "items": [
+        {
+          "es": "Entender de finanzas nos ayuda a tomar mejores decisiones económicas.",
+          "en": "Understanding finance helps us make better economic decisions."
+        },
+        {
+          "es": "Espero que la economía mejore para que todos tengan más oportunidades.",
+          "en": "I hope the economy improves so everyone has more opportunities."
+        },
+        {
+          "es": "El ahorro y la planificación son claves para un futuro financiero sólido.",
+          "en": "Saving and planning are key to a solid financial future."
+        },
+        {
+          "es": "Con el tiempo, aprender sobre finanzas se vuelve tan importante como cualquier otra habilidad.",
+          "en": "Over time, learning about finance becomes as important as any other skill."
+        }
+      ]
+    },
+    {
+      "number": 41,
+      "title": "Climate Science",
+      "titleNative": "Ciencia climática",
+      "items": [
+        {
+          "es": "Las emisiones de dióxido de carbono han aumentado dramáticamente desde la revolución industrial.",
+          "en": "Carbon dioxide emissions have increased dramatically since the industrial revolution."
+        },
+        {
+          "es": "Los científicos advierten sobre el aumento del nivel del mar en las próximas décadas.",
+          "en": "Scientists warn about rising sea levels in the coming decades."
+        },
+        {
+          "es": "Los patrones climáticos se han vuelto más impredecibles en los últimos años.",
+          "en": "Weather patterns have become more unpredictable in recent years."
+        },
+        {
+          "es": "La capa de ozono se ha ido recuperando gracias a políticas internacionales.",
+          "en": "The ozone layer has been recovering thanks to international policies."
+        }
+      ]
+    },
+    {
+      "number": 42,
+      "title": "Renewable Energy",
+      "titleNative": "Energía renovable",
+      "items": [
+        {
+          "es": "Los paneles solares se han vuelto más eficientes y económicos.",
+          "en": "Solar panels have become more efficient and affordable."
+        },
+        {
+          "es": "La energía eólica representa una parte cada vez mayor de la matriz energética.",
+          "en": "Wind energy represents a growing share of the energy matrix."
+        },
+        {
+          "es": "Invertir en energías limpias reduce la dependencia de los combustibles fósiles.",
+          "en": "Investing in clean energy reduces dependence on fossil fuels."
+        },
+        {
+          "es": "Varios países se han comprometido a alcanzar cero emisiones netas para el año dos mil cincuenta.",
+          "en": "Several countries have committed to reaching net zero emissions by the year 2050."
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "title": "Biodiversity and Conservation",
+      "titleNative": "Biodiversidad y conservación",
+      "items": [
+        {
+          "es": "La pérdida de biodiversidad amenaza el equilibrio de los ecosistemas.",
+          "en": "The loss of biodiversity threatens the balance of ecosystems."
+        },
+        {
+          "es": "Se estableció una reserva natural para proteger a las especies en peligro de extinción.",
+          "en": "A nature reserve was established to protect endangered species."
+        },
+        {
+          "es": "La restauración de los humedales ayuda a controlar las inundaciones.",
+          "en": "Wetland restoration helps control flooding."
+        },
+        {
+          "es": "Los corales están desapareciendo debido al aumento de la temperatura del océano.",
+          "en": "Coral reefs are disappearing due to rising ocean temperatures."
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "title": "Waste and Circular Economy",
+      "titleNative": "Residuos y economía circular",
+      "items": [
+        {
+          "es": "La economía circular busca reducir, reutilizar y reciclar los recursos.",
+          "en": "The circular economy seeks to reduce, reuse, and recycle resources."
+        },
+        {
+          "es": "Los vertederos generan gases de efecto invernadero al descomponerse la basura.",
+          "en": "Landfills generate greenhouse gases as trash decomposes."
+        },
+        {
+          "es": "Cada vez más empresas diseñan productos pensando en su ciclo de vida completo.",
+          "en": "More and more companies design products with their full life cycle in mind."
+        },
+        {
+          "es": "Reducir el desperdicio de alimentos es una de las formas más efectivas de ayudar al planeta.",
+          "en": "Reducing food waste is one of the most effective ways to help the planet."
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "title": "Environmental Policy",
+      "titleNative": "Política ambiental",
+      "items": [
+        {
+          "es": "El acuerdo internacional establece metas específicas para reducir las emisiones.",
+          "en": "The international agreement sets specific targets to reduce emissions."
+        },
+        {
+          "es": "Los impuestos al carbono buscan incentivar prácticas más sostenibles.",
+          "en": "Carbon taxes seek to incentivize more sustainable practices."
+        },
+        {
+          "es": "La regulación ambiental varía enormemente de un país a otro.",
+          "en": "Environmental regulation varies enormously from one country to another."
+        },
+        {
+          "es": "Los grupos ambientalistas presionan a los gobiernos para que actúen con más urgencia.",
+          "en": "Environmental groups pressure governments to act with more urgency."
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "title": "Water Resources",
+      "titleNative": "Recursos hídricos",
+      "items": [
+        {
+          "es": "La escasez de agua afecta a millones de personas en todo el mundo.",
+          "en": "Water scarcity affects millions of people around the world."
+        },
+        {
+          "es": "Los acuíferos subterráneos se están agotando más rápido de lo que se recargan.",
+          "en": "Underground aquifers are being depleted faster than they recharge."
+        },
+        {
+          "es": "La contaminación de los ríos pone en riesgo tanto a la fauna como a la salud humana.",
+          "en": "River pollution puts both wildlife and human health at risk."
+        },
+        {
+          "es": "Las plantas de desalinización ofrecen una solución, aunque costosa, a la escasez de agua.",
+          "en": "Desalination plants offer a solution, albeit costly, to water scarcity."
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "title": "Sustainable Agriculture",
+      "titleNative": "Agricultura sostenible",
+      "items": [
+        {
+          "es": "La agricultura sostenible busca producir alimentos sin agotar el suelo.",
+          "en": "Sustainable agriculture seeks to produce food without depleting the soil."
+        },
+        {
+          "es": "La rotación de cultivos ayuda a mantener la fertilidad de la tierra.",
+          "en": "Crop rotation helps maintain soil fertility."
+        },
+        {
+          "es": "Cada vez más agricultores adoptan técnicas orgánicas de cultivo.",
+          "en": "More and more farmers are adopting organic farming techniques."
+        },
+        {
+          "es": "Reducir el uso de pesticidas beneficia tanto a los insectos polinizadores como a los consumidores.",
+          "en": "Reducing pesticide use benefits both pollinating insects and consumers."
+        }
+      ]
+    },
+    {
+      "number": 48,
+      "title": "Green Cities and Urban Sustainability",
+      "titleNative": "Ciudades verdes y sostenibilidad urbana",
+      "items": [
+        {
+          "es": "Las ciudades inteligentes utilizan tecnología para reducir el consumo de energía.",
+          "en": "Smart cities use technology to reduce energy consumption."
+        },
+        {
+          "es": "Los techos verdes ayudan a regular la temperatura de los edificios.",
+          "en": "Green roofs help regulate building temperature."
+        },
+        {
+          "es": "Fomentar el transporte público reduce significativamente la contaminación urbana.",
+          "en": "Promoting public transportation significantly reduces urban pollution."
+        },
+        {
+          "es": "La planificación urbana sostenible considera el impacto ambiental a largo plazo.",
+          "en": "Sustainable urban planning considers long-term environmental impact."
+        }
+      ]
+    },
+    {
+      "number": 49,
+      "title": "Environmental Activism",
+      "titleNative": "Activismo ambiental",
+      "items": [
+        {
+          "es": "Los jóvenes activistas exigen medidas más contundentes contra el cambio climático.",
+          "en": "Young activists demand stronger measures against climate change."
+        },
+        {
+          "es": "Las manifestaciones lograron llamar la atención de los medios internacionales.",
+          "en": "The protests managed to draw the attention of international media."
+        },
+        {
+          "es": "Muchas organizaciones no gubernamentales trabajan para proteger los bosques restantes.",
+          "en": "Many non-governmental organizations work to protect the remaining forests."
+        },
+        {
+          "es": "El activismo ambiental ha logrado cambios legislativos importantes en varios países.",
+          "en": "Environmental activism has achieved important legislative changes in several countries."
+        }
+      ]
+    },
+    {
+      "number": 50,
+      "title": "Review: Environment and Sustainability",
+      "titleNative": "Repaso: Medioambiente y sostenibilidad",
+      "items": [
+        {
+          "es": "Proteger el planeta requiere el esfuerzo conjunto de gobiernos, empresas e individuos.",
+          "en": "Protecting the planet requires the joint effort of governments, businesses, and individuals."
+        },
+        {
+          "es": "Espero que las próximas generaciones hereden un mundo más sano que el actual.",
+          "en": "I hope future generations inherit a healthier world than the current one."
+        },
+        {
+          "es": "Cada decisión sostenible, por pequeña que sea, contribuye a un futuro mejor.",
+          "en": "Every sustainable decision, however small, contributes to a better future."
+        },
+        {
+          "es": "Todavía hay tiempo para cambiar el rumbo si actuamos con decisión.",
+          "en": "There's still time to change course if we act decisively."
+        }
+      ]
+    },
+    {
+      "number": 51,
+      "title": "Cognitive Biases",
+      "titleNative": "Sesgos cognitivos",
+      "items": [
+        {
+          "es": "Tendemos a buscar información que confirme lo que ya creemos.",
+          "en": "We tend to seek information that confirms what we already believe."
+        },
+        {
+          "es": "El miedo a perder algo suele pesar más que la posibilidad de ganar algo similar.",
+          "en": "The fear of losing something usually weighs more than the possibility of gaining something similar."
+        },
+        {
+          "es": "Nuestra memoria no es tan precisa como solemos pensar.",
+          "en": "Our memory isn't as accurate as we tend to think."
+        },
+        {
+          "es": "Reconocer nuestros propios sesgos es el primer paso para pensar con más claridad.",
+          "en": "Recognizing our own biases is the first step to thinking more clearly."
+        }
+      ]
+    },
+    {
+      "number": 52,
+      "title": "Motivation and Habits",
+      "titleNative": "Motivación y hábitos",
+      "items": [
+        {
+          "es": "Los hábitos se forman a través de la repetición constante.",
+          "en": "Habits are formed through constant repetition."
+        },
+        {
+          "es": "La motivación externa rara vez dura tanto como la motivación interna.",
+          "en": "External motivation rarely lasts as long as internal motivation."
+        },
+        {
+          "es": "Establecer metas pequeñas y alcanzables ayuda a mantener la disciplina.",
+          "en": "Setting small, achievable goals helps maintain discipline."
+        },
+        {
+          "es": "Romper un mal hábito requiere entender qué lo desencadena.",
+          "en": "Breaking a bad habit requires understanding what triggers it."
+        }
+      ]
+    },
+    {
+      "number": 53,
+      "title": "Persuasion and Social Influence",
+      "titleNative": "Persuasión e influencia social",
+      "items": [
+        {
+          "es": "Tendemos a seguir el comportamiento de la mayoría, incluso sin darnos cuenta.",
+          "en": "We tend to follow the majority's behavior, even without realizing it."
+        },
+        {
+          "es": "Los expertos utilizan estrategias específicas para hacer sus argumentos más convincentes.",
+          "en": "Experts use specific strategies to make their arguments more convincing."
+        },
+        {
+          "es": "La autoridad percibida de alguien influye enormemente en cómo recibimos su mensaje.",
+          "en": "Someone's perceived authority greatly influences how we receive their message."
+        },
+        {
+          "es": "Ser consciente de estas técnicas nos ayuda a tomar decisiones más informadas.",
+          "en": "Being aware of these techniques helps us make more informed decisions."
+        }
+      ]
+    },
+    {
+      "number": 54,
+      "title": "Personality and Temperament",
+      "titleNative": "Personalidad y temperamento",
+      "items": [
+        {
+          "es": "Cada persona reacciona de manera distinta ante situaciones de estrés.",
+          "en": "Each person reacts differently to stressful situations."
+        },
+        {
+          "es": "Algunos rasgos de personalidad parecen mantenerse estables a lo largo de la vida.",
+          "en": "Some personality traits seem to remain stable throughout life."
+        },
+        {
+          "es": "La introversión no significa timidez, sino una preferencia por ambientes tranquilos.",
+          "en": "Introversion doesn't mean shyness, but a preference for calm environments."
+        },
+        {
+          "es": "Entender nuestro propio temperamento nos ayuda a manejar mejor nuestras emociones.",
+          "en": "Understanding our own temperament helps us manage our emotions better."
+        }
+      ]
+    },
+    {
+      "number": 55,
+      "title": "Decision-Making",
+      "titleNative": "Toma de decisiones",
+      "items": [
+        {
+          "es": "Tomamos miles de decisiones cada día, la mayoría de forma casi automática.",
+          "en": "We make thousands of decisions every day, most almost automatically."
+        },
+        {
+          "es": "El exceso de opciones puede paralizarnos en lugar de ayudarnos a decidir.",
+          "en": "Too many options can paralyze us instead of helping us decide."
+        },
+        {
+          "es": "Las emociones juegan un papel más importante en nuestras decisiones de lo que solemos admitir.",
+          "en": "Emotions play a bigger role in our decisions than we usually admit."
+        },
+        {
+          "es": "A veces la mejor decisión es simplemente confiar en la intuición.",
+          "en": "Sometimes the best decision is simply to trust intuition."
+        }
+      ]
+    },
+    {
+      "number": 56,
+      "title": "Memory and Learning",
+      "titleNative": "Memoria y aprendizaje",
+      "items": [
+        {
+          "es": "Repetir información espaciada en el tiempo mejora la retención a largo plazo.",
+          "en": "Repeating information spaced out over time improves long-term retention."
+        },
+        {
+          "es": "Dormir bien es fundamental para consolidar lo que aprendimos durante el día.",
+          "en": "Sleeping well is essential for consolidating what we learned during the day."
+        },
+        {
+          "es": "Asociar nueva información con algo que ya conocemos facilita el aprendizaje.",
+          "en": "Associating new information with something we already know facilitates learning."
+        },
+        {
+          "es": "El estrés excesivo puede dificultar tanto la memoria como la concentración.",
+          "en": "Excessive stress can hinder both memory and concentration."
+        }
+      ]
+    },
+    {
+      "number": 57,
+      "title": "Social Dynamics",
+      "titleNative": "Dinámicas sociales",
+      "items": [
+        {
+          "es": "Nos comportamos de forma diferente cuando estamos en grupo que cuando estamos solos.",
+          "en": "We behave differently when we're in a group than when we're alone."
+        },
+        {
+          "es": "La necesidad de pertenecer a un grupo es una de las motivaciones humanas más fuertes.",
+          "en": "The need to belong to a group is one of the strongest human motivations."
+        },
+        {
+          "es": "Los pequeños gestos de amabilidad pueden fortalecer significativamente una relación.",
+          "en": "Small gestures of kindness can significantly strengthen a relationship."
+        },
+        {
+          "es": "El conflicto grupal a menudo surge de una comunicación deficiente.",
+          "en": "Group conflict often arises from poor communication."
+        }
+      ]
+    },
+    {
+      "number": 58,
+      "title": "Resilience and Coping",
+      "titleNative": "Resiliencia y afrontamiento",
+      "items": [
+        {
+          "es": "La resiliencia no significa no sentir dolor, sino saber recuperarse de él.",
+          "en": "Resilience doesn't mean not feeling pain, but knowing how to recover from it."
+        },
+        {
+          "es": "Contar con una red de apoyo sólida hace una gran diferencia ante la adversidad.",
+          "en": "Having a solid support network makes a big difference in the face of adversity."
+        },
+        {
+          "es": "Reinterpretar una situación difícil puede cambiar por completo cómo la vivimos.",
+          "en": "Reinterpreting a difficult situation can completely change how we experience it."
+        },
+        {
+          "es": "La capacidad de adaptarse se fortalece cada vez que enfrentamos un desafío.",
+          "en": "The ability to adapt strengthens every time we face a challenge."
+        }
+      ]
+    },
+    {
+      "number": 59,
+      "title": "Emotional Intelligence",
+      "titleNative": "Inteligencia emocional",
+      "items": [
+        {
+          "es": "Reconocer nuestras propias emociones es el primer paso hacia la inteligencia emocional.",
+          "en": "Recognizing our own emotions is the first step toward emotional intelligence."
+        },
+        {
+          "es": "La empatía nos permite comprender mejor las emociones de los demás.",
+          "en": "Empathy allows us to better understand others' emotions."
+        },
+        {
+          "es": "Gestionar bien las emociones no significa reprimirlas, sino entenderlas y expresarlas con equilibrio.",
+          "en": "Managing emotions well doesn't mean suppressing them, but understanding and expressing them in balance."
+        },
+        {
+          "es": "Las relaciones más sanas suelen basarse en una comunicación emocional honesta.",
+          "en": "The healthiest relationships tend to be based on honest emotional communication."
+        }
+      ]
+    },
+    {
+      "number": 60,
+      "title": "Review: Psychology and Behavior",
+      "titleNative": "Repaso: Psicología y comportamiento",
+      "items": [
+        {
+          "es": "Comprender cómo funciona la mente humana nos ayuda a comprendernos mejor a nosotros mismos.",
+          "en": "Understanding how the human mind works helps us understand ourselves better."
+        },
+        {
+          "es": "Espero que estas ideas te ayuden a reflexionar sobre tu propio comportamiento.",
+          "en": "I hope these ideas help you reflect on your own behavior."
+        },
+        {
+          "es": "Nadie es completamente racional, y reconocerlo nos hace más humildes.",
+          "en": "No one is completely rational, and recognizing that makes us more humble."
+        },
+        {
+          "es": "El autoconocimiento es un proceso largo, pero profundamente valioso.",
+          "en": "Self-knowledge is a long process, but a deeply valuable one."
+        }
+      ]
+    },
+    {
+      "number": 61,
+      "title": "The Creative Process",
+      "titleNative": "El proceso creativo",
+      "items": [
+        {
+          "es": "La inspiración rara vez llega de la nada, suele surgir de la práctica constante.",
+          "en": "Inspiration rarely comes out of nowhere, it usually arises from constant practice."
+        },
+        {
+          "es": "Muchos artistas describen su proceso creativo como una lucha entre la disciplina y la espontaneidad.",
+          "en": "Many artists describe their creative process as a struggle between discipline and spontaneity."
+        },
+        {
+          "es": "El bloqueo creativo es una experiencia común entre escritores y pintores.",
+          "en": "Creative block is a common experience among writers and painters."
+        },
+        {
+          "es": "Experimentar sin miedo al fracaso es esencial para crear algo verdaderamente original.",
+          "en": "Experimenting without fear of failure is essential to creating something truly original."
+        }
+      ]
+    },
+    {
+      "number": 62,
+      "title": "Film and Cinema",
+      "titleNative": "Cine y películas",
+      "items": [
+        {
+          "es": "Esa película exploró temas profundos con una narrativa poco convencional.",
+          "en": "That film explored deep themes with an unconventional narrative."
+        },
+        {
+          "es": "El director utilizó la iluminación para reforzar la tensión emocional de la escena.",
+          "en": "The director used lighting to reinforce the scene's emotional tension."
+        },
+        {
+          "es": "La banda sonora contribuyó enormemente al impacto de la película.",
+          "en": "The soundtrack contributed enormously to the film's impact."
+        },
+        {
+          "es": "Ese guion fue reconocido por su capacidad de mezclar humor y tragedia.",
+          "en": "That screenplay was recognized for its ability to blend humor and tragedy."
+        }
+      ]
+    },
+    {
+      "number": 63,
+      "title": "Literature and Storytelling",
+      "titleNative": "Literatura y narrativa",
+      "items": [
+        {
+          "es": "La novela utiliza múltiples narradores para contar la misma historia desde distintas perspectivas.",
+          "en": "The novel uses multiple narrators to tell the same story from different perspectives."
+        },
+        {
+          "es": "El autor construyó personajes con una profundidad psicológica poco común.",
+          "en": "The author built characters with unusually deep psychology."
+        },
+        {
+          "es": "La metáfora central del libro se revela poco a poco a lo largo de la trama.",
+          "en": "The book's central metaphor is revealed gradually throughout the plot."
+        },
+        {
+          "es": "Ese poema captura la fugacidad de la vida con una sencillez conmovedora.",
+          "en": "That poem captures the fleeting nature of life with moving simplicity."
+        }
+      ]
+    },
+    {
+      "number": 64,
+      "title": "Visual Arts",
+      "titleNative": "Artes visuales",
+      "items": [
+        {
+          "es": "La exposición reunió obras de artistas emergentes de toda la región.",
+          "en": "The exhibition brought together works by emerging artists from across the region."
+        },
+        {
+          "es": "Esa escultura combina materiales industriales con formas orgánicas.",
+          "en": "That sculpture combines industrial materials with organic shapes."
+        },
+        {
+          "es": "El uso del color en ese cuadro transmite una sensación de inquietud.",
+          "en": "The use of color in that painting conveys a sense of unease."
+        },
+        {
+          "es": "El arte callejero se ha convertido en una forma legítima de expresión urbana.",
+          "en": "Street art has become a legitimate form of urban expression."
+        }
+      ]
+    },
+    {
+      "number": 65,
+      "title": "Music and Composition",
+      "titleNative": "Música y composición",
+      "items": [
+        {
+          "es": "Ese compositor mezcla elementos clásicos con ritmos contemporáneos.",
+          "en": "That composer mixes classical elements with contemporary rhythms."
+        },
+        {
+          "es": "La melodía se repite con pequeñas variaciones a lo largo de toda la pieza.",
+          "en": "The melody repeats with small variations throughout the whole piece."
+        },
+        {
+          "es": "La letra de esa canción aborda temas de identidad y pertenencia.",
+          "en": "That song's lyrics address themes of identity and belonging."
+        },
+        {
+          "es": "Interpretar una pieza musical requiere tanto técnica como sensibilidad.",
+          "en": "Performing a piece of music requires both technique and sensitivity."
+        }
+      ]
+    },
+    {
+      "number": 66,
+      "title": "Theater and Performance",
+      "titleNative": "Teatro y actuación",
+      "items": [
+        {
+          "es": "La obra rompe la cuarta pared para involucrar directamente al público.",
+          "en": "The play breaks the fourth wall to directly involve the audience."
+        },
+        {
+          "es": "El actor transmitió una vulnerabilidad genuina en cada escena.",
+          "en": "The actor conveyed genuine vulnerability in every scene."
+        },
+        {
+          "es": "La puesta en escena minimalista permitió que el texto brillara por sí solo.",
+          "en": "The minimalist staging allowed the text to shine on its own."
+        },
+        {
+          "es": "El teatro en vivo ofrece una conexión inmediata que otros medios no logran igualar.",
+          "en": "Live theater offers an immediate connection that other media can't quite match."
+        }
+      ]
+    },
+    {
+      "number": 67,
+      "title": "Design and Architecture",
+      "titleNative": "Diseño y arquitectura",
+      "items": [
+        {
+          "es": "El edificio combina líneas modernas con materiales tradicionales de la región.",
+          "en": "The building combines modern lines with traditional materials from the region."
+        },
+        {
+          "es": "Un buen diseño equilibra la funcionalidad con la estética.",
+          "en": "Good design balances functionality with aesthetics."
+        },
+        {
+          "es": "El arquitecto priorizó la luz natural en cada espacio del proyecto.",
+          "en": "The architect prioritized natural light in every space of the project."
+        },
+        {
+          "es": "Ese diseño de producto revolucionó la manera en que interactuamos con la tecnología.",
+          "en": "That product design revolutionized the way we interact with technology."
+        }
+      ]
+    },
+    {
+      "number": 68,
+      "title": "Photography",
+      "titleNative": "Fotografía",
+      "items": [
+        {
+          "es": "El fotógrafo capturó un instante que resume toda una época.",
+          "en": "The photographer captured a moment that sums up an entire era."
+        },
+        {
+          "es": "La composición de esa imagen guía la mirada hacia el centro de la escena.",
+          "en": "That image's composition guides the eye toward the center of the scene."
+        },
+        {
+          "es": "El contraste entre luz y sombra le da a la foto una fuerza dramática.",
+          "en": "The contrast between light and shadow gives the photo dramatic power."
+        },
+        {
+          "es": "La fotografía documental tiene el poder de cambiar la percepción pública de un evento.",
+          "en": "Documentary photography has the power to change public perception of an event."
+        }
+      ]
+    },
+    {
+      "number": 69,
+      "title": "Art and Society",
+      "titleNative": "Arte y sociedad",
+      "items": [
+        {
+          "es": "El arte ha sido históricamente una herramienta de resistencia y denuncia social.",
+          "en": "Art has historically been a tool for resistance and social protest."
+        },
+        {
+          "es": "Muchos movimientos artísticos surgieron como reacción a los cambios políticos de su época.",
+          "en": "Many artistic movements arose as a reaction to the political changes of their time."
+        },
+        {
+          "es": "El financiamiento público de las artes sigue siendo un tema de debate.",
+          "en": "Public funding for the arts remains a topic of debate."
+        },
+        {
+          "es": "El arte tiene la capacidad de generar empatía hacia experiencias que no hemos vivido.",
+          "en": "Art has the ability to generate empathy toward experiences we haven't lived."
+        }
+      ]
+    },
+    {
+      "number": 70,
+      "title": "Review: Arts and Creativity",
+      "titleNative": "Repaso: Arte y creatividad",
+      "items": [
+        {
+          "es": "La creatividad no es un talento reservado para unos pocos, sino una habilidad que se cultiva.",
+          "en": "Creativity isn't a talent reserved for a few, but a skill that is cultivated."
+        },
+        {
+          "es": "Espero que sigas explorando distintas formas de expresión artística.",
+          "en": "I hope you keep exploring different forms of artistic expression."
+        },
+        {
+          "es": "El arte nos conecta con emociones que a veces las palabras no logran expresar.",
+          "en": "Art connects us with emotions that words sometimes fail to express."
+        },
+        {
+          "es": "Cada obra de arte cuenta una historia, aunque no siempre sea evidente al primer vistazo.",
+          "en": "Every work of art tells a story, even if it's not always obvious at first glance."
+        }
+      ]
+    },
+    {
+      "number": 71,
+      "title": "Empires and Colonization",
+      "titleNative": "Imperios y colonización",
+      "items": [
+        {
+          "es": "El imperio se extendió por tres continentes en su punto máximo de poder.",
+          "en": "The empire spread across three continents at its peak of power."
+        },
+        {
+          "es": "La colonización tuvo consecuencias profundas y duraderas para las poblaciones indígenas.",
+          "en": "Colonization had deep and lasting consequences for indigenous populations."
+        },
+        {
+          "es": "Muchas naciones lograron su independencia después de largas luchas armadas.",
+          "en": "Many nations achieved their independence after long armed struggles."
+        },
+        {
+          "es": "Los historiadores siguen debatiendo el verdadero impacto de ese período histórico.",
+          "en": "Historians continue to debate the true impact of that historical period."
+        }
+      ]
+    },
+    {
+      "number": 72,
+      "title": "Wars and Conflicts",
+      "titleNative": "Guerras y conflictos",
+      "items": [
+        {
+          "es": "El conflicto duró más de una década y transformó la región por completo.",
+          "en": "The conflict lasted more than a decade and completely transformed the region."
+        },
+        {
+          "es": "El tratado de paz puso fin a años de enfrentamientos entre ambos países.",
+          "en": "The peace treaty ended years of confrontation between both countries."
+        },
+        {
+          "es": "Las consecuencias de esa guerra todavía se sienten generaciones después.",
+          "en": "The consequences of that war are still felt generations later."
+        },
+        {
+          "es": "Los historiadores analizan las causas económicas y políticas que llevaron al conflicto.",
+          "en": "Historians analyze the economic and political causes that led to the conflict."
+        }
+      ]
+    },
+    {
+      "number": 73,
+      "title": "Revolutions and Social Change",
+      "titleNative": "Revoluciones y cambio social",
+      "items": [
+        {
+          "es": "La revolución transformó radicalmente la estructura social del país.",
+          "en": "The revolution radically transformed the country's social structure."
+        },
+        {
+          "es": "Miles de personas se unieron al movimiento exigiendo reformas profundas.",
+          "en": "Thousands of people joined the movement demanding deep reforms."
+        },
+        {
+          "es": "El cambio no llegó de la noche a la mañana, sino tras décadas de lucha.",
+          "en": "Change didn't come overnight, but after decades of struggle."
+        },
+        {
+          "es": "Esa revolución inspiró movimientos similares en países vecinos.",
+          "en": "That revolution inspired similar movements in neighboring countries."
+        }
+      ]
+    },
+    {
+      "number": 74,
+      "title": "Historical Memory",
+      "titleNative": "Memoria histórica",
+      "items": [
+        {
+          "es": "El país sigue procesando las heridas dejadas por ese período oscuro de su historia.",
+          "en": "The country is still processing the wounds left by that dark period of its history."
+        },
+        {
+          "es": "Se construyó un monumento para que las nuevas generaciones no olviden lo ocurrido.",
+          "en": "A monument was built so new generations wouldn't forget what happened."
+        },
+        {
+          "es": "Los testimonios de los sobrevivientes son fundamentales para preservar la memoria histórica.",
+          "en": "Survivors' testimonies are essential for preserving historical memory."
+        },
+        {
+          "es": "Reconocer los errores del pasado es un paso necesario hacia la reconciliación.",
+          "en": "Acknowledging the mistakes of the past is a necessary step toward reconciliation."
+        }
+      ]
+    },
+    {
+      "number": 75,
+      "title": "Geopolitical Power",
+      "titleNative": "Poder geopolítico",
+      "items": [
+        {
+          "es": "Las grandes potencias compiten por influencia en distintas regiones del mundo.",
+          "en": "The great powers compete for influence in different regions of the world."
+        },
+        {
+          "es": "Los recursos naturales han sido, históricamente, una fuente constante de conflicto.",
+          "en": "Natural resources have historically been a constant source of conflict."
+        },
+        {
+          "es": "Las alianzas internacionales cambian según los intereses económicos y estratégicos.",
+          "en": "International alliances change according to economic and strategic interests."
+        },
+        {
+          "es": "La posición geográfica de un país influye enormemente en su papel geopolítico.",
+          "en": "A country's geographic position greatly influences its geopolitical role."
+        }
+      ]
+    },
+    {
+      "number": 76,
+      "title": "Borders and Territory",
+      "titleNative": "Fronteras y territorio",
+      "items": [
+        {
+          "es": "La disputa territorial entre ambos países se remonta a hace más de un siglo.",
+          "en": "The territorial dispute between both countries goes back more than a century."
+        },
+        {
+          "es": "Las fronteras actuales fueron trazadas, en muchos casos, sin considerar las poblaciones locales.",
+          "en": "Current borders were drawn, in many cases, without considering local populations."
+        },
+        {
+          "es": "El acceso al mar sigue siendo un tema central en las negociaciones entre esos países.",
+          "en": "Access to the sea remains a central issue in negotiations between those countries."
+        },
+        {
+          "es": "Las zonas fronterizas suelen tener una identidad cultural muy particular.",
+          "en": "Border areas often have a very particular cultural identity."
+        }
+      ]
+    },
+    {
+      "number": 77,
+      "title": "Diplomacy and Negotiation",
+      "titleNative": "Diplomacia y negociación",
+      "items": [
+        {
+          "es": "Los embajadores trabajaron durante meses para llegar a un acuerdo aceptable para ambas partes.",
+          "en": "The ambassadors worked for months to reach an agreement acceptable to both parties."
+        },
+        {
+          "es": "La diplomacia silenciosa a menudo logra más que las declaraciones públicas.",
+          "en": "Quiet diplomacy often achieves more than public statements."
+        },
+        {
+          "es": "Las sanciones económicas se utilizan como herramienta de presión política.",
+          "en": "Economic sanctions are used as a tool of political pressure."
+        },
+        {
+          "es": "Un buen negociador sabe cuándo ceder y cuándo mantenerse firme.",
+          "en": "A good negotiator knows when to give in and when to stand firm."
+        }
+      ]
+    },
+    {
+      "number": 78,
+      "title": "National Identity",
+      "titleNative": "Identidad nacional",
+      "items": [
+        {
+          "es": "La identidad nacional se construye a partir de una historia, una lengua y símbolos compartidos.",
+          "en": "National identity is built from a shared history, language, and symbols."
+        },
+        {
+          "es": "En países con gran diversidad étnica, la identidad nacional puede ser un tema complejo.",
+          "en": "In countries with great ethnic diversity, national identity can be a complex issue."
+        },
+        {
+          "es": "El himno y la bandera son símbolos que unen a los ciudadanos en momentos importantes.",
+          "en": "The anthem and flag are symbols that unite citizens at important moments."
+        },
+        {
+          "es": "La identidad de un país evoluciona constantemente con cada nueva generación.",
+          "en": "A country's identity constantly evolves with each new generation."
+        }
+      ]
+    },
+    {
+      "number": 79,
+      "title": "Learning from History",
+      "titleNative": "Aprender de la historia",
+      "items": [
+        {
+          "es": "Quienes olvidan la historia corren el riesgo de repetir los mismos errores.",
+          "en": "Those who forget history risk repeating the same mistakes."
+        },
+        {
+          "es": "Estudiar el pasado nos ayuda a entender mejor los desafíos del presente.",
+          "en": "Studying the past helps us better understand the challenges of the present."
+        },
+        {
+          "es": "La historia no es solo una lista de fechas, sino una red compleja de causas y efectos.",
+          "en": "History isn't just a list of dates, but a complex web of causes and effects."
+        },
+        {
+          "es": "Cada generación reinterpreta la historia desde su propia perspectiva.",
+          "en": "Each generation reinterprets history from its own perspective."
+        }
+      ]
+    },
+    {
+      "number": 80,
+      "title": "Review: History and Geopolitics",
+      "titleNative": "Repaso: Historia y geopolítica",
+      "items": [
+        {
+          "es": "Entender la historia nos permite comprender mejor el mundo en que vivimos hoy.",
+          "en": "Understanding history allows us to better understand the world we live in today."
+        },
+        {
+          "es": "Espero que aprendamos de los errores del pasado para construir un futuro mejor.",
+          "en": "I hope we learn from the mistakes of the past to build a better future."
+        },
+        {
+          "es": "La paz duradera requiere tanto memoria como voluntad de perdonar.",
+          "en": "Lasting peace requires both memory and a willingness to forgive."
+        },
+        {
+          "es": "El curso de la historia nunca está completamente escrito de antemano.",
+          "en": "The course of history is never completely written in advance."
+        }
+      ]
+    },
+    {
+      "number": 81,
+      "title": "Giving Formal Feedback",
+      "titleNative": "Dar retroalimentación formal",
+      "items": [
+        {
+          "es": "Agradezco su esfuerzo, aunque creo que el informe podría mejorarse en algunos aspectos.",
+          "en": "I appreciate your effort, although I think the report could be improved in some aspects."
+        },
+        {
+          "es": "Le sugiero que reconsidere la estructura del documento antes de la próxima entrega.",
+          "en": "I suggest you reconsider the document's structure before the next submission."
+        },
+        {
+          "es": "Sus ideas son valiosas, pero necesitan estar respaldadas con más datos concretos.",
+          "en": "Your ideas are valuable, but they need to be backed up with more concrete data."
+        },
+        {
+          "es": "En general, el trabajo cumple con las expectativas, aunque hay margen de mejora.",
+          "en": "Overall, the work meets expectations, although there is room for improvement."
+        }
+      ]
+    },
+    {
+      "number": 82,
+      "title": "Chairing a Meeting",
+      "titleNative": "Presidir una reunión",
+      "items": [
+        {
+          "es": "Demos inicio a la reunión revisando los puntos pendientes de la sesión anterior.",
+          "en": "Let's begin the meeting by reviewing the pending items from the previous session."
+        },
+        {
+          "es": "Propongo que pasemos al siguiente punto del orden del día.",
+          "en": "I propose we move on to the next item on the agenda."
+        },
+        {
+          "es": "Antes de cerrar, ¿alguien tiene alguna observación adicional?",
+          "en": "Before closing, does anyone have any additional comments?"
+        },
+        {
+          "es": "Quedamos entonces en que el equipo enviará el reporte antes del jueves.",
+          "en": "We agree, then, that the team will send the report before Thursday."
+        }
+      ]
+    },
+    {
+      "number": 83,
+      "title": "Writing Persuasive Emails",
+      "titleNative": "Escribir correos persuasivos",
+      "items": [
+        {
+          "es": "Le escribo para proponerle una posible colaboración entre nuestras empresas.",
+          "en": "I'm writing to propose a possible collaboration between our companies."
+        },
+        {
+          "es": "Estoy convencido de que esta alianza beneficiaría a ambas partes considerablemente.",
+          "en": "I'm convinced this partnership would benefit both parties considerably."
+        },
+        {
+          "es": "Quedo a la espera de sus comentarios y con gusto podemos coordinar una llamada.",
+          "en": "I look forward to your feedback and would be glad to coordinate a call."
+        },
+        {
+          "es": "Agradezco de antemano su tiempo y consideración.",
+          "en": "I appreciate in advance your time and consideration."
+        }
+      ]
+    },
+    {
+      "number": 84,
+      "title": "Handling Disagreement Professionally",
+      "titleNative": "Manejar el desacuerdo profesionalmente",
+      "items": [
+        {
+          "es": "Entiendo su punto de vista, aunque respetuosamente no estoy del todo de acuerdo.",
+          "en": "I understand your point of view, although I respectfully don't fully agree."
+        },
+        {
+          "es": "Propongo que busquemos un punto intermedio que satisfaga a ambas partes.",
+          "en": "I propose we look for a middle ground that satisfies both parties."
+        },
+        {
+          "es": "Agradezco su franqueza, aunque me gustaría exponer una perspectiva diferente.",
+          "en": "I appreciate your frankness, although I would like to present a different perspective."
+        },
+        {
+          "es": "Quizás debamos revisar los datos juntos antes de llegar a una conclusión final.",
+          "en": "Perhaps we should review the data together before reaching a final conclusion."
+        }
+      ]
+    },
+    {
+      "number": 85,
+      "title": "Presenting Data and Results",
+      "titleNative": "Presentar datos y resultados",
+      "items": [
+        {
+          "es": "Como pueden observar en este gráfico, las ventas aumentaron considerablemente.",
+          "en": "As you can see in this chart, sales increased considerably."
+        },
+        {
+          "es": "Estos resultados confirman la tendencia que veníamos observando desde hace meses.",
+          "en": "These results confirm the trend we had been observing for months."
+        },
+        {
+          "es": "Cabe destacar que estos datos corresponden únicamente al último trimestre.",
+          "en": "It should be noted that this data corresponds only to the last quarter."
+        },
+        {
+          "es": "En resumen, los números respaldan claramente nuestra propuesta.",
+          "en": "In summary, the numbers clearly support our proposal."
+        }
+      ]
+    },
+    {
+      "number": 86,
+      "title": "Formal Apologies and Corrections",
+      "titleNative": "Disculpas y correcciones formales",
+      "items": [
+        {
+          "es": "Lamentamos sinceramente cualquier inconveniente que esta situación haya causado.",
+          "en": "We sincerely regret any inconvenience this situation may have caused."
+        },
+        {
+          "es": "Reconocemos el error y ya estamos trabajando en una solución.",
+          "en": "We acknowledge the mistake and are already working on a solution."
+        },
+        {
+          "es": "Le aseguramos que tomaremos las medidas necesarias para que esto no vuelva a ocurrir.",
+          "en": "We assure you we will take the necessary measures so this doesn't happen again."
+        },
+        {
+          "es": "Agradecemos su paciencia mientras resolvemos este asunto por completo.",
+          "en": "We appreciate your patience while we fully resolve this matter."
+        }
+      ]
+    },
+    {
+      "number": 87,
+      "title": "Negotiating Terms",
+      "titleNative": "Negociar términos",
+      "items": [
+        {
+          "es": "Estamos dispuestos a ajustar el plazo si eso facilita el acuerdo.",
+          "en": "We're willing to adjust the timeline if that facilitates the agreement."
+        },
+        {
+          "es": "¿Sería posible revisar las condiciones de pago antes de firmar?",
+          "en": "Would it be possible to review the payment terms before signing?"
+        },
+        {
+          "es": "Necesitamos que ambas partes se comprometan por escrito antes de continuar.",
+          "en": "We need both parties to commit in writing before proceeding."
+        },
+        {
+          "es": "Creemos que estos términos son justos para todos los involucrados.",
+          "en": "We believe these terms are fair for everyone involved."
+        }
+      ]
+    },
+    {
+      "number": 88,
+      "title": "Cross-Cultural Communication",
+      "titleNative": "Comunicación intercultural",
+      "items": [
+        {
+          "es": "Es importante adaptar el tono según la cultura empresarial de cada país.",
+          "en": "It's important to adapt the tone according to each country's business culture."
+        },
+        {
+          "es": "Lo que se considera directo en una cultura puede parecer grosero en otra.",
+          "en": "What is considered direct in one culture may seem rude in another."
+        },
+        {
+          "es": "Tomarse el tiempo para entender las costumbres locales genera confianza inmediata.",
+          "en": "Taking the time to understand local customs generates immediate trust."
+        },
+        {
+          "es": "La paciencia y la curiosidad son claves al trabajar con equipos internacionales.",
+          "en": "Patience and curiosity are key when working with international teams."
+        }
+      ]
+    },
+    {
+      "number": 89,
+      "title": "Public Speaking",
+      "titleNative": "Hablar en público",
+      "items": [
+        {
+          "es": "Respirar profundamente antes de hablar ayuda a calmar los nervios.",
+          "en": "Breathing deeply before speaking helps calm the nerves."
+        },
+        {
+          "es": "Una buena presentación conecta con el público desde los primeros segundos.",
+          "en": "A good presentation connects with the audience from the first few seconds."
+        },
+        {
+          "es": "El contacto visual genera una conexión genuina con quienes escuchan.",
+          "en": "Eye contact generates a genuine connection with listeners."
+        },
+        {
+          "es": "Contar una historia personal suele ser más memorable que enumerar datos.",
+          "en": "Telling a personal story is usually more memorable than listing facts."
+        }
+      ]
+    },
+    {
+      "number": 90,
+      "title": "Review: Professional Communication",
+      "titleNative": "Repaso: Comunicación profesional",
+      "items": [
+        {
+          "es": "Comunicarse con claridad y respeto abre muchas más puertas de las que imaginamos.",
+          "en": "Communicating clearly and respectfully opens many more doors than we imagine."
+        },
+        {
+          "es": "Espero que estas herramientas te sean útiles en tu vida profesional.",
+          "en": "I hope these tools are useful to you in your professional life."
+        },
+        {
+          "es": "La práctica constante es lo que realmente perfecciona estas habilidades.",
+          "en": "Constant practice is what really perfects these skills."
+        },
+        {
+          "es": "Con confianza y preparación, cualquier conversación difícil se vuelve manejable.",
+          "en": "With confidence and preparation, any difficult conversation becomes manageable."
+        }
+      ]
+    },
+    {
+      "number": 91,
+      "title": "A Company's Turning Point",
+      "titleNative": "El punto de inflexión de una empresa",
+      "items": [
+        {
+          "es": "La empresa estaba a punto de cerrar cuando, para cuando llegó el nuevo director, todo cambió por completo.",
+          "en": "The company was about to close when, by the time the new director arrived, everything changed completely."
+        },
+        {
+          "es": "Es guapo el cambio que logró, aunque en realidad estuvo enfocado, no en la apariencia, sino en la reestructuración financiera.",
+          "en": "The change he achieved is impressive, although it was actually focused, not on appearance, but on financial restructuring."
+        },
+        {
+          "es": "La implementación de nuevas políticas habría fracasado sin el apoyo total del equipo.",
+          "en": "The implementation of new policies would have failed without the team's full support."
+        },
+        {
+          "es": "Para el próximo año, la empresa habrá recuperado más del doble de su valor original.",
+          "en": "By next year, the company will have recovered more than double its original value."
+        }
+      ]
+    },
+    {
+      "number": 92,
+      "title": "An Artist's Legacy",
+      "titleNative": "El legado de un artista",
+      "items": [
+        {
+          "es": "Se dice que estaba loco, pero en realidad estaba absolutamente comprometido con su visión creativa.",
+          "en": "They say he was crazy, but he was actually absolutely committed to his creative vision."
+        },
+        {
+          "es": "Su obra habría sido ignorada si no hubiera sido por la insistencia de unos pocos coleccionistas.",
+          "en": "His work would have been ignored if it hadn't been for the insistence of a few collectors."
+        },
+        {
+          "es": "La exposición de sus cuadros marcó un antes y un después en el arte de la región.",
+          "en": "The exhibition of his paintings marked a turning point in the region's art."
+        },
+        {
+          "es": "Ojalá hubiera vivido para ver el reconocimiento que finalmente recibió su trabajo.",
+          "en": "I wish he had lived to see the recognition his work finally received."
+        }
+      ]
+    },
+    {
+      "number": 93,
+      "title": "A Nation Rebuilding",
+      "titleNative": "Una nación que se reconstruye",
+      "items": [
+        {
+          "es": "Después de años de conflicto, el país inició un lento proceso de reconstrucción.",
+          "en": "After years of conflict, the country began a slow process of reconstruction."
+        },
+        {
+          "es": "La reconciliación no habría sido posible sin el reconocimiento honesto de los errores del pasado.",
+          "en": "Reconciliation wouldn't have been possible without honest acknowledgment of past mistakes."
+        },
+        {
+          "es": "Para la próxima década, se espera que la economía se haya estabilizado por completo.",
+          "en": "By the next decade, the economy is expected to have completely stabilized."
+        },
+        {
+          "es": "A pesar de todo lo vivido, la esperanza de sus ciudadanos nunca desapareció del todo.",
+          "en": "Despite everything experienced, its citizens' hope never completely disappeared."
+        }
+      ]
+    },
+    {
+      "number": 94,
+      "title": "A Scientist's Ethical Dilemma",
+      "titleNative": "El dilema ético de una científica",
+      "items": [
+        {
+          "es": "Si publicara sus hallazgos ahora, podría salvar vidas, pero dado que los datos aún no están completos, teme equivocarse.",
+          "en": "If she published her findings now, she could save lives, but since the data isn't complete yet, she fears being wrong."
+        },
+        {
+          "es": "Ha sido guapa la manera en que ha manejado la presión, manteniéndose fiel a sus principios científicos.",
+          "en": "The way she has handled the pressure has been admirable, staying true to her scientific principles."
+        },
+        {
+          "es": "Sin la paciencia de años de investigación, jamás habría llegado a esta conclusión.",
+          "en": "Without the patience of years of research, she would never have reached this conclusion."
+        },
+        {
+          "es": "Espero que, para cuando publique, haya resuelto todas sus dudas.",
+          "en": "I hope that, by the time she publishes, she'll have resolved all her doubts."
+        }
+      ]
+    },
+    {
+      "number": 95,
+      "title": "Reflecting on Language Learning",
+      "titleNative": "Reflexionar sobre el aprendizaje de idiomas",
+      "items": [
+        {
+          "es": "Cuando empecé este curso, dudaba que algún día pudiera hablar con esta fluidez.",
+          "en": "When I started this course, I doubted I could ever speak with this fluency."
+        },
+        {
+          "es": "A pesar de las dificultades, dado que seguí practicando, todo empezó a fluir naturalmente.",
+          "en": "Despite the difficulties, since I kept practicing, everything started to flow naturally."
+        },
+        {
+          "es": "Sin la constancia diaria, no habría llegado tan lejos.",
+          "en": "Without daily consistency, I wouldn't have come this far."
+        },
+        {
+          "es": "Ojalá sigas disfrutando este idioma tanto como yo he disfrutado aprenderlo.",
+          "en": "I hope you keep enjoying this language as much as I've enjoyed learning it."
+        }
+      ]
+    },
+    {
+      "number": 96,
+      "title": "A Difficult Conversation, Handled Well",
+      "titleNative": "Una conversación difícil, bien manejada",
+      "items": [
+        {
+          "es": "Entiendo tu perspectiva, aunque, dado lo que ha pasado, me gustaría exponer la mía.",
+          "en": "I understand your perspective, although, given what has happened, I would like to share mine."
+        },
+        {
+          "es": "Si no hubiéramos hablado con honestidad, esta relación se habría deteriorado por completo.",
+          "en": "If we hadn't talked honestly, this relationship would have deteriorated completely."
+        },
+        {
+          "es": "Para cuando terminamos de hablar, ya habíamos encontrado una solución que beneficiaba a ambos.",
+          "en": "By the time we finished talking, we had already found a solution that benefited both of us."
+        },
+        {
+          "es": "A pesar de lo incómodo del momento, sin duda valió la pena.",
+          "en": "Despite how uncomfortable the moment was, it was definitely worth it."
+        }
+      ]
+    },
+    {
+      "number": 97,
+      "title": "A Community Facing Climate Change",
+      "titleNative": "Una comunidad frente al cambio climático",
+      "items": [
+        {
+          "es": "Si no hubieran actuado a tiempo, el pueblo entero habría quedado bajo el agua.",
+          "en": "If they hadn't acted in time, the whole town would have been underwater."
+        },
+        {
+          "es": "Dado que dependían tanto de la pesca, el cambio climático amenazaba su forma de vida por completo.",
+          "en": "Since they depended so much on fishing, climate change completely threatened their way of life."
+        },
+        {
+          "es": "Gracias a la energía renovable que implementaron, para el próximo año habrán reducido sus emisiones a la mitad.",
+          "en": "Thanks to the renewable energy they implemented, by next year they will have cut their emissions in half."
+        },
+        {
+          "es": "Ojalá más comunidades sigan su ejemplo antes de que sea demasiado tarde.",
+          "en": "I hope more communities follow their example before it's too late."
+        }
+      ]
+    },
+    {
+      "number": 98,
+      "title": "A Life Devoted to Others",
+      "titleNative": "Una vida dedicada a los demás",
+      "items": [
+        {
+          "es": "Es generosa por naturaleza, y está aún más comprometida desde que empezó a trabajar con los refugiados.",
+          "en": "She's generous by nature, and she's even more committed since she started working with refugees."
+        },
+        {
+          "es": "Si no hubiera dedicado su vida a esta causa, cientos de familias no habrían recibido ayuda.",
+          "en": "If she hadn't dedicated her life to this cause, hundreds of families wouldn't have received help."
+        },
+        {
+          "es": "A pesar del agotamiento, dado que ve el impacto de su trabajo cada día, nunca pierde la motivación.",
+          "en": "Despite the exhaustion, since she sees the impact of her work every day, she never loses motivation."
+        },
+        {
+          "es": "Para cuando se retire, habrá cambiado la vida de miles de personas.",
+          "en": "By the time she retires, she will have changed the lives of thousands of people."
+        }
+      ]
+    },
+    {
+      "number": 99,
+      "title": "The Wisdom of Simplicity",
+      "titleNative": "La sabiduría de la sencillez",
+      "items": [
+        {
+          "es": "A pesar de todo lo complejo que hemos aprendido, a veces la respuesta más sabia es la más simple.",
+          "en": "Despite all the complex things we've learned, sometimes the wisest answer is the simplest one."
+        },
+        {
+          "es": "Si hubiéramos entendido esto antes, nos habríamos ahorrado mucho estrés innecesario.",
+          "en": "If we had understood this before, we would have saved ourselves a lot of unnecessary stress."
+        },
+        {
+          "es": "Dado que la vida ya es complicada, no hace falta que compliquemos aún más lo que es sencillo.",
+          "en": "Given that life is already complicated, we don't need to complicate what is simple even further."
+        },
+        {
+          "es": "Ojalá recordemos siempre que la felicidad, muchas veces, está en lo pequeño.",
+          "en": "I hope we always remember that happiness is often found in small things."
+        }
+      ]
+    },
+    {
+      "number": 100,
+      "title": "Review: B2+ Capstone",
+      "titleNative": "Repaso: Cierre de B2+",
+      "items": [
+        {
+          "es": "Has llegado a un nivel en el que puedes expresar ideas verdaderamente complejas y matizadas.",
+          "en": "You've reached a level where you can express truly complex and nuanced ideas."
+        },
+        {
+          "es": "Para cuando termines el próximo nivel, habrás dominado matices que muchos hablantes nativos ni siquiera notan.",
+          "en": "By the time you finish the next level, you'll have mastered nuances that many native speakers don't even notice."
+        },
+        {
+          "es": "Espero que sigas adelante con la misma pasión que te trajo hasta aquí.",
+          "en": "I hope you continue with the same passion that brought you this far."
+        },
+        {
+          "es": "Estoy convencido de que estás más que preparado para el nivel avanzado que sigue.",
+          "en": "I'm convinced you're more than ready for the advanced level that follows."
+        }
+      ]
+    }
+  ]
+}

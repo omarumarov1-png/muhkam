@@ -1,0 +1,2364 @@
+{
+  "level": "c2",
+  "grammarTopics": {
+    "c2-proverbs": {
+      "title": "Proverbs (Refranes): Compressed Cultural Wisdom",
+      "pattern": "fixed traditional sayings, often rhymed or rhythmic, carrying a moral or practical lesson",
+      "explanation": "Refranes are centuries-old compressed wisdom, often built for memorability with rhyme or rhythm: \"A quien madruga, Dios le ayuda\" (God helps those who rise early), \"En boca cerrada no entran moscas\" (Flies don't enter a closed mouth = silence is often wise), \"Dime con quién andas y te diré quién eres\" (Tell me who you walk with and I'll tell you who you are). Using one naturally, at the right moment, is one of the clearest markers of near-native fluency — they can't be improvised or translated, only known.",
+      "fact": "Many refranes exist as rhyming pairs where the second half is often left unsaid because everyone already knows it — a native speaker might just say \"a quien madruga...\" and trail off, trusting the listener to mentally complete \"Dios le ayuda\", the same way English speakers might say \"when in Rome...\" without finishing the phrase.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Llevo tres días levantándome a las cinco para terminar el proyecto.",
+          "en": "I've been getting up at five for three days to finish the project."
+        },
+        {
+          "sp": "B",
+          "native": "Bueno, ya sabes lo que dicen: a quien madruga, Dios le ayuda.",
+          "en": "Well, you know what they say: God helps those who rise early."
+        }
+      ]
+    },
+    "c2-literary-allusion": {
+      "title": "Literary Allusion: Referencing a Shared Canon",
+      "pattern": "brief references to well-known literary works/figures, used to compress meaning",
+      "explanation": "At mastery level, speakers and writers reference well-known literary or cultural touchstones to compress a whole idea into a phrase, trusting the listener to fill in the rest: calling something \"quijotesco\" (quixotic, after Don Quijote) evokes noble but impractical idealism in a single word; \"kafkiano\" (Kafkaesque) evokes absurd, oppressive bureaucracy. These allusions function like idioms but draw specifically from literature rather than folk speech.",
+      "fact": "\"Como agua para chocolate\" — literally \"like water for chocolate,\" referring to water hot enough to make chocolate — is itself a common Spanish expression meaning someone is furious or emotionally boiling over, and it's also the title of a famous novel by Laura Esquivel, so the phrase carries a double resonance for readers.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Todo este trámite burocrático es completamente kafkiano.",
+          "en": "This whole bureaucratic process is completely Kafkaesque."
+        },
+        {
+          "sp": "B",
+          "native": "Sí, es una búsqueda tan quijotesca como inútil.",
+          "en": "Yes, it's as quixotic a quest as it is useless."
+        }
+      ]
+    },
+    "c2-register-shifting": {
+      "title": "Register-Shifting: Reading the Room in Real Time",
+      "pattern": "the same idea expressed at intimate/casual/professional/formal-ceremonial registers",
+      "explanation": "Mastery means fluidly moving between registers within a single conversation, the same way a native speaker toggles tone depending on who's listening. Telling a close friend something went badly might be \"la cagué\" (very crude/intimate); the same fact to a coworker might be \"se me complicó un poco\"; to a client, \"hubo un contratiempo que ya estamos resolviendo\"; at a formal ceremony, \"lamentamos profundamente el inconveniente ocasionado.\" A C2 speaker chooses instinctively, without translating in their head.",
+      "fact": "Register mismatches are one of the most common ways an otherwise-fluent non-native speaker gets flagged as foreign — using a stiff, textbook-formal phrase with close friends (or, worse, a crude/intimate phrase in a professional setting) reads as more of a tell than any grammar mistake, because native speakers rarely consciously notice register — they just feel when it's wrong.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Oye, la cagué con lo del informe, se me olvidó por completo.",
+          "en": "Hey, I messed up with the report, I completely forgot."
+        },
+        {
+          "sp": "B",
+          "native": "Tranquilo, se lo explicamos al cliente como que hubo un pequeño contratiempo.",
+          "en": "Relax, we'll explain to the client that there was a small hiccup."
+        }
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Proverbs About Effort",
+      "titleNative": "Refranes sobre el esfuerzo",
+      "items": [
+        {
+          "es": "A quien madruga, Dios le ayuda, así que mejor empecemos temprano.",
+          "en": "God helps those who rise early, so let's better start early."
+        },
+        {
+          "es": "El que algo quiere, algo le cuesta, y este proyecto no será la excepción.",
+          "en": "He who wants something must pay for it, and this project won't be the exception."
+        },
+        {
+          "es": "No hay atajo sin trabajo, por más que busquemos una solución fácil.",
+          "en": "There's no shortcut without work, no matter how much we look for an easy solution."
+        },
+        {
+          "es": "Poco a poco se llega lejos, así que no te desesperes por los resultados inmediatos.",
+          "en": "Little by little one goes far, so don't despair over immediate results."
+        }
+      ],
+      "topicId": "c2-proverbs"
+    },
+    {
+      "number": 2,
+      "title": "Proverbs About Caution",
+      "titleNative": "Refranes sobre la cautela",
+      "items": [
+        {
+          "es": "En boca cerrada no entran moscas, así que mejor piensa antes de hablar.",
+          "en": "Flies don't enter a closed mouth, so better think before you speak."
+        },
+        {
+          "es": "Más vale prevenir que lamentar, por eso revisamos todo dos veces.",
+          "en": "Better safe than sorry, that's why we check everything twice."
+        },
+        {
+          "es": "No cuentes las gallinas antes de que nazcan, todavía falta confirmar el trato.",
+          "en": "Don't count your chickens before they hatch, we still need to confirm the deal."
+        },
+        {
+          "es": "Quien mucho abarca, poco aprieta, así que enfoquémonos en menos proyectos.",
+          "en": "He who grasps too much holds little, so let's focus on fewer projects."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Proverbs About Character",
+      "titleNative": "Refranes sobre el carácter",
+      "items": [
+        {
+          "es": "Dime con quién andas y te diré quién eres, por eso elijo bien mis amistades.",
+          "en": "Tell me who you walk with and I'll tell you who you are, that's why I choose my friendships carefully."
+        },
+        {
+          "es": "Genio y figura hasta la sepultura, nunca ha cambiado su forma de ser.",
+          "en": "A leopard never changes its spots, he has never changed who he is."
+        },
+        {
+          "es": "De tal palo, tal astilla, se nota que heredó el carácter de su padre.",
+          "en": "Like father, like son, you can tell he inherited his father's character."
+        },
+        {
+          "es": "Obras son amores, y no buenas razones, así que demuéstralo con hechos.",
+          "en": "Actions speak louder than words, so prove it with deeds."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Proverbs About Time and Patience",
+      "titleNative": "Refranes sobre el tiempo y la paciencia",
+      "items": [
+        {
+          "es": "No por mucho madrugar amanece más temprano, así que ten paciencia con el proceso.",
+          "en": "Rushing doesn't make the sun rise earlier, so be patient with the process."
+        },
+        {
+          "es": "El tiempo todo lo cura, incluso las heridas más profundas.",
+          "en": "Time heals all wounds, even the deepest ones."
+        },
+        {
+          "es": "No dejes para mañana lo que puedas hacer hoy, así evitarás el estrés de último momento.",
+          "en": "Don't leave for tomorrow what you can do today, that way you'll avoid last-minute stress."
+        },
+        {
+          "es": "Roma no se construyó en un día, así que ten paciencia con tu propio progreso.",
+          "en": "Rome wasn't built in a day, so be patient with your own progress."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Proverbs About Adversity",
+      "titleNative": "Refranes sobre la adversidad",
+      "items": [
+        {
+          "es": "No hay mal que dure cien años, ni cuerpo que lo resista.",
+          "en": "No bad situation lasts a hundred years, nor a body that can endure it."
+        },
+        {
+          "es": "Después de la tormenta, siempre llega la calma.",
+          "en": "After the storm, calm always comes."
+        },
+        {
+          "es": "A mal tiempo, buena cara, así que sigamos adelante con optimismo.",
+          "en": "Keep a good face in bad weather, so let's move forward with optimism."
+        },
+        {
+          "es": "Lo que no te mata, te hace más fuerte, aunque en el momento no lo parezca.",
+          "en": "What doesn't kill you makes you stronger, even if it doesn't seem that way at the time."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Proverbs About Knowledge",
+      "titleNative": "Refranes sobre el conocimiento",
+      "items": [
+        {
+          "es": "Más sabe el diablo por viejo que por diablo, así que escucha a los mayores.",
+          "en": "The devil knows more from being old than from being the devil, so listen to your elders."
+        },
+        {
+          "es": "Nunca es tarde para aprender algo nuevo.",
+          "en": "It's never too late to learn something new."
+        },
+        {
+          "es": "En casa de herrero, cuchillo de palo, y eso pasa más de lo que crees.",
+          "en": "In a blacksmith's house, a wooden knife, and that happens more than you think."
+        },
+        {
+          "es": "El saber no ocupa lugar, así que nunca dejes de estudiar.",
+          "en": "Knowledge takes up no space, so never stop studying."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Proverbs About Opportunity",
+      "titleNative": "Refranes sobre la oportunidad",
+      "items": [
+        {
+          "es": "A caballo regalado no se le mira el diente, así que acepta la ayuda con gratitud.",
+          "en": "Don't look a gift horse in the mouth, so accept the help with gratitude."
+        },
+        {
+          "es": "Cuando una puerta se cierra, otra se abre.",
+          "en": "When one door closes, another opens."
+        },
+        {
+          "es": "Más vale pájaro en mano que ciento volando, así que no arriesgues lo seguro.",
+          "en": "A bird in hand is worth more than a hundred flying, so don't risk what's certain."
+        },
+        {
+          "es": "Hay que aprovechar mientras el hierro está caliente.",
+          "en": "You have to strike while the iron is hot."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Proverbs About Relationships",
+      "titleNative": "Refranes sobre las relaciones",
+      "items": [
+        {
+          "es": "Amigo en la adversidad es amigo de verdad.",
+          "en": "A friend in adversity is a true friend."
+        },
+        {
+          "es": "Quien tiene un amigo, tiene un tesoro, así que cuídalo bien.",
+          "en": "He who has a friend has a treasure, so take good care of it."
+        },
+        {
+          "es": "Al mejor cocinero se le va un tomate entero, nadie está libre de errores.",
+          "en": "Even the best cook lets a whole tomato slip by, no one is free from mistakes."
+        },
+        {
+          "es": "Las apariencias engañan, así que nunca juzgues sin conocer bien a alguien.",
+          "en": "Appearances deceive, so never judge without truly knowing someone."
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Proverbs About Wisdom and Balance",
+      "titleNative": "Refranes sobre la sabiduría y el equilibrio",
+      "items": [
+        {
+          "es": "Ni tan calvo, ni con dos pelucas, hay que buscar siempre el equilibrio.",
+          "en": "Neither too bald nor with two wigs, one must always seek balance."
+        },
+        {
+          "es": "El que no arriesga, no gana, aunque a veces dé miedo intentarlo.",
+          "en": "Nothing ventured, nothing gained, even though it's sometimes scary to try."
+        },
+        {
+          "es": "Zapatero a tus zapatos, cada quien debería enfocarse en lo que sabe hacer.",
+          "en": "Cobbler, stick to your shoes, everyone should focus on what they know how to do."
+        },
+        {
+          "es": "Todo con medida y nada con exceso, esa ha sido siempre mi filosofía.",
+          "en": "Everything in moderation, nothing to excess, that has always been my philosophy."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Review: Proverbs",
+      "titleNative": "Repaso: Refranes",
+      "items": [
+        {
+          "es": "A quien madruga, Dios le ayuda, y hoy por fin lo comprobamos.",
+          "en": "God helps those who rise early, and today we finally proved it."
+        },
+        {
+          "es": "Después de la tormenta, siempre llega la calma, y así fue en nuestro caso.",
+          "en": "After the storm, calm always comes, and so it was in our case."
+        },
+        {
+          "es": "Quien tiene un amigo, tiene un tesoro, y hoy lo valoro más que nunca.",
+          "en": "He who has a friend has a treasure, and today I value it more than ever."
+        },
+        {
+          "es": "En definitiva, cada refrán guarda una verdad que el tiempo ha demostrado una y otra vez.",
+          "en": "Ultimately, every proverb holds a truth that time has proven again and again."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "References to Don Quijote",
+      "titleNative": "Referencias a Don Quijote",
+      "items": [
+        {
+          "es": "Su lucha contra la burocracia se ha vuelto casi quijotesca.",
+          "en": "His fight against bureaucracy has become almost quixotic."
+        },
+        {
+          "es": "Como buen soñador, siempre persigue molinos de viento imaginarios.",
+          "en": "Like a true dreamer, he's always chasing imaginary windmills."
+        },
+        {
+          "es": "Su idealismo, aunque admirable, a veces roza lo quijotesco.",
+          "en": "His idealism, though admirable, sometimes borders on the quixotic."
+        },
+        {
+          "es": "Tiene un Sancho Panza a su lado que siempre lo mantiene con los pies en la tierra.",
+          "en": "He has a Sancho Panza by his side who always keeps him grounded."
+        }
+      ],
+      "topicId": "c2-literary-allusion"
+    },
+    {
+      "number": 12,
+      "title": "References to Kafka",
+      "titleNative": "Referencias a Kafka",
+      "items": [
+        {
+          "es": "El proceso burocrático fue tan kafkiano que nadie entendía las reglas.",
+          "en": "The bureaucratic process was so Kafkaesque that no one understood the rules."
+        },
+        {
+          "es": "Se sintió atrapado en una pesadilla kafkiana de formularios sin sentido.",
+          "en": "He felt trapped in a Kafkaesque nightmare of nonsensical paperwork."
+        },
+        {
+          "es": "La situación tenía algo de absurdo kafkiano que resultaba casi cómico.",
+          "en": "The situation had a Kafkaesque absurdity that was almost comical."
+        },
+        {
+          "es": "Nadie podía explicarle por qué el sistema funcionaba de manera tan kafkiana.",
+          "en": "No one could explain to him why the system worked in such a Kafkaesque way."
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "title": "References to García Márquez",
+      "titleNative": "Referencias a García Márquez",
+      "items": [
+        {
+          "es": "La historia de su familia parece sacada de una novela de realismo mágico.",
+          "en": "His family's story seems taken from a magical realism novel."
+        },
+        {
+          "es": "Aquel pueblo tenía un aire a Macondo, con sus historias imposibles de creer.",
+          "en": "That town had a Macondo-like air, with its stories impossible to believe."
+        },
+        {
+          "es": "Vivió su amor con la intensidad de cien años de soledad.",
+          "en": "She lived her love with the intensity of a hundred years of solitude."
+        },
+        {
+          "es": "Su vida cotidiana estaba llena de pequeños milagros casi mágicos.",
+          "en": "His everyday life was full of small, almost magical miracles."
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "title": "References to Cervantes and Golden Age Literature",
+      "titleNative": "Referencias a Cervantes y el Siglo de Oro",
+      "items": [
+        {
+          "es": "Su discurso tenía la elocuencia y el ingenio propios del Siglo de Oro español.",
+          "en": "His speech had the eloquence and wit typical of the Spanish Golden Age."
+        },
+        {
+          "es": "Habla con un lenguaje casi cervantino, lleno de ironía y sabiduría.",
+          "en": "He speaks with an almost Cervantine language, full of irony and wisdom."
+        },
+        {
+          "es": "Su forma de narrar recuerda a los grandes clásicos de la literatura española.",
+          "en": "His way of narrating recalls the great classics of Spanish literature."
+        },
+        {
+          "es": "Aquella comedia de enredos parecía sacada directamente del teatro clásico.",
+          "en": "That comedy of errors seemed taken directly from classical theater."
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "title": "References to Neruda and Poetry",
+      "titleNative": "Referencias a Neruda y la poesía",
+      "items": [
+        {
+          "es": "Le escribió versos con la pasión de un poema de Neruda.",
+          "en": "He wrote her verses with the passion of a Neruda poem."
+        },
+        {
+          "es": "Su forma de hablar del amor tiene algo profundamente poético.",
+          "en": "His way of talking about love has something deeply poetic."
+        },
+        {
+          "es": "Describió el mar con una belleza casi digna de un gran poeta.",
+          "en": "He described the sea with a beauty almost worthy of a great poet."
+        },
+        {
+          "es": "Sus palabras, cargadas de metáforas, parecían versos improvisados.",
+          "en": "His words, full of metaphors, seemed like improvised verses."
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "title": "Common Cultural Touchstones",
+      "titleNative": "Referentes culturales comunes",
+      "items": [
+        {
+          "es": "Esa frase se ha vuelto tan famosa como agua para chocolate.",
+          "en": "That phrase has become as famous as water for chocolate."
+        },
+        {
+          "es": "Su ambición desmedida recuerda a los grandes personajes trágicos de la literatura.",
+          "en": "His excessive ambition recalls the great tragic characters of literature."
+        },
+        {
+          "es": "Aquella traición fue tan dramática como cualquier tragedia clásica.",
+          "en": "That betrayal was as dramatic as any classical tragedy."
+        },
+        {
+          "es": "Su historia de amor imposible parece sacada de una novela romántica del siglo diecinueve.",
+          "en": "Their impossible love story seems taken from a nineteenth-century romance novel."
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "title": "Allusion in Everyday Speech",
+      "titleNative": "Alusión en el habla cotidiana",
+      "items": [
+        {
+          "es": "Esta reunión se está volviendo tan interminable como una novela de mil páginas.",
+          "en": "This meeting is becoming as endless as a thousand-page novel."
+        },
+        {
+          "es": "Su plan tenía tantos giros inesperados como una buena novela de misterio.",
+          "en": "His plan had as many unexpected twists as a good mystery novel."
+        },
+        {
+          "es": "El final de la serie fue tan trágico como el de una obra clásica.",
+          "en": "The series finale was as tragic as that of a classic work."
+        },
+        {
+          "es": "Su vida parece una novela, con giros que nadie podría haber imaginado.",
+          "en": "His life seems like a novel, with twists no one could have imagined."
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "title": "Allusion in Political and Social Commentary",
+      "titleNative": "Alusión en comentarios políticos y sociales",
+      "items": [
+        {
+          "es": "El discurso del político tenía un tono orwelliano preocupante.",
+          "en": "The politician's speech had a worrying Orwellian tone."
+        },
+        {
+          "es": "La vigilancia constante recuerda inevitablemente a las distopías literarias.",
+          "en": "The constant surveillance inevitably recalls literary dystopias."
+        },
+        {
+          "es": "Aquella sociedad parecía sacada directamente de una novela distópica.",
+          "en": "That society seemed taken directly from a dystopian novel."
+        },
+        {
+          "es": "Su forma de manipular la información tiene algo profundamente kafkiano.",
+          "en": "His way of manipulating information has something deeply Kafkaesque."
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "title": "Blending Allusion with Everyday Wit",
+      "titleNative": "Combinar alusión con ingenio cotidiano",
+      "items": [
+        {
+          "es": "Esperar en esa fila fue una odisea digna de Homero.",
+          "en": "Waiting in that line was an odyssey worthy of Homer."
+        },
+        {
+          "es": "Su búsqueda del trabajo perfecto se ha vuelto casi una epopeya.",
+          "en": "His search for the perfect job has become almost an epic."
+        },
+        {
+          "es": "Cada intento fallido se sumaba a su propia comedia de errores personal.",
+          "en": "Each failed attempt added to his own personal comedy of errors."
+        },
+        {
+          "es": "Sobrevivir a esa mudanza fue toda una hazaña homérica.",
+          "en": "Surviving that move was quite a Homeric feat."
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "title": "Review: Literary Allusion",
+      "titleNative": "Repaso: Alusión literaria",
+      "items": [
+        {
+          "es": "Usar referencias literarias con naturalidad es señal de un dominio profundo del idioma.",
+          "en": "Using literary references naturally is a sign of deep mastery of the language."
+        },
+        {
+          "es": "Cada alusión, bien empleada, añade capas de significado a una simple frase.",
+          "en": "Each allusion, well used, adds layers of meaning to a simple phrase."
+        },
+        {
+          "es": "Espero que reconozcas estas referencias la próxima vez que las encuentres.",
+          "en": "I hope you recognize these references the next time you encounter them."
+        },
+        {
+          "es": "En definitiva, la literatura se ha convertido en parte del lenguaje cotidiano.",
+          "en": "Ultimately, literature has become part of everyday language."
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "title": "The Limits of Language",
+      "titleNative": "Los límites del lenguaje",
+      "items": [
+        {
+          "es": "Hay emociones tan complejas que ningún idioma logra capturarlas por completo.",
+          "en": "There are emotions so complex that no language manages to capture them completely."
+        },
+        {
+          "es": "El lenguaje moldea, en cierta medida, la forma en que percibimos la realidad misma.",
+          "en": "Language shapes, to some extent, the way we perceive reality itself."
+        },
+        {
+          "es": "Cuanto más profundizamos en un idioma, más conscientes somos de sus límites inherentes.",
+          "en": "The deeper we delve into a language, the more aware we become of its inherent limits."
+        },
+        {
+          "es": "Ciertas palabras intraducibles revelan matices culturales que otras lenguas ni siquiera contemplan.",
+          "en": "Certain untranslatable words reveal cultural nuances that other languages don't even consider."
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "title": "The Paradox of Choice",
+      "titleNative": "La paradoja de la elección",
+      "items": [
+        {
+          "es": "Cuantas más opciones tenemos, paradójicamente, más difícil resulta decidir.",
+          "en": "The more options we have, paradoxically, the harder it becomes to decide."
+        },
+        {
+          "es": "La libertad absoluta, sin ningún tipo de límite, puede volverse tan paralizante como la falta de opciones.",
+          "en": "Absolute freedom, without any kind of limit, can become as paralyzing as a lack of options."
+        },
+        {
+          "es": "A veces anhelamos la libertad, sin darnos cuenta de que también tememos sus consecuencias.",
+          "en": "Sometimes we long for freedom, without realizing we also fear its consequences."
+        },
+        {
+          "es": "Elegir siempre implica, inevitablemente, renunciar a todas las demás posibilidades.",
+          "en": "Choosing always inevitably implies giving up all other possibilities."
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "title": "The Nature of Consciousness",
+      "titleNative": "La naturaleza de la conciencia",
+      "items": [
+        {
+          "es": "Nadie ha logrado explicar del todo por qué la materia da lugar a la experiencia subjetiva.",
+          "en": "No one has fully managed to explain why matter gives rise to subjective experience."
+        },
+        {
+          "es": "¿Cómo podemos estar seguros de que otra persona experimenta el mundo tal como nosotros lo hacemos?",
+          "en": "How can we be sure that another person experiences the world exactly as we do?"
+        },
+        {
+          "es": "La conciencia sigue siendo, quizás, el mayor misterio irresuelto de la ciencia.",
+          "en": "Consciousness remains, perhaps, science's greatest unresolved mystery."
+        },
+        {
+          "es": "Algunos sostienen que la conciencia es simplemente una ilusión generada por el cerebro.",
+          "en": "Some argue that consciousness is simply an illusion generated by the brain."
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "title": "Reality and Simulation",
+      "titleNative": "Realidad y simulación",
+      "items": [
+        {
+          "es": "Filósofos y físicos por igual se preguntan si nuestra realidad podría ser una simulación.",
+          "en": "Philosophers and physicists alike wonder whether our reality could be a simulation."
+        },
+        {
+          "es": "Aunque no podamos demostrarlo, la posibilidad en sí misma resulta perturbadora.",
+          "en": "Although we can't prove it, the possibility itself is unsettling."
+        },
+        {
+          "es": "¿Importaría realmente si viviéramos dentro de una simulación, si la experiencia se siente tan real?",
+          "en": "Would it really matter if we lived inside a simulation, if the experience feels so real?"
+        },
+        {
+          "es": "Nuestra percepción de lo real siempre está mediada por los límites de nuestros sentidos.",
+          "en": "Our perception of what's real is always mediated by the limits of our senses."
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "title": "The Ethics of Artificial Minds",
+      "titleNative": "La ética de las mentes artificiales",
+      "items": [
+        {
+          "es": "Si una inteligencia artificial pudiera sufrir, ¿tendríamos entonces obligaciones morales hacia ella?",
+          "en": "If an artificial intelligence could suffer, would we then have moral obligations toward it?"
+        },
+        {
+          "es": "La línea entre simulación de conciencia y conciencia real se vuelve cada vez más difusa.",
+          "en": "The line between simulated consciousness and real consciousness becomes increasingly blurry."
+        },
+        {
+          "es": "Crear algo capaz de sentir, sin garantizarle bienestar, plantea un dilema ético profundo.",
+          "en": "Creating something capable of feeling, without guaranteeing its well-being, poses a deep ethical dilemma."
+        },
+        {
+          "es": "Quizás la pregunta no sea si la máquina piensa, sino si merece que le importe.",
+          "en": "Perhaps the question isn't whether the machine thinks, but whether it deserves to be cared about."
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "title": "Beauty and Subjectivity",
+      "titleNative": "La belleza y la subjetividad",
+      "items": [
+        {
+          "es": "¿Existe la belleza objetivamente, o es enteramente una construcción de quien observa?",
+          "en": "Does beauty exist objectively, or is it entirely a construction of the observer?"
+        },
+        {
+          "es": "Lo que una cultura considera bello, otra podría considerarlo del todo indiferente.",
+          "en": "What one culture considers beautiful, another might consider entirely unremarkable."
+        },
+        {
+          "es": "Tal vez la belleza resida, precisamente, en esa tensión entre lo universal y lo personal.",
+          "en": "Perhaps beauty resides precisely in that tension between the universal and the personal."
+        },
+        {
+          "es": "Encontrar belleza en lo imperfecto es, en sí mismo, una forma de sabiduría.",
+          "en": "Finding beauty in imperfection is, in itself, a form of wisdom."
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "title": "The Illusion of Permanence",
+      "titleNative": "La ilusión de la permanencia",
+      "items": [
+        {
+          "es": "Nos aferramos a la idea de permanencia, aunque todo a nuestro alrededor esté en constante cambio.",
+          "en": "We cling to the idea of permanence, even though everything around us is constantly changing."
+        },
+        {
+          "es": "Quizás el sufrimiento surja, precisamente, de resistirnos a aceptar lo efímero de todas las cosas.",
+          "en": "Perhaps suffering arises precisely from resisting the acceptance of how fleeting all things are."
+        },
+        {
+          "es": "Ninguna identidad, por más sólida que parezca, permanece exactamente igual con el paso del tiempo.",
+          "en": "No identity, however solid it may seem, remains exactly the same over time."
+        },
+        {
+          "es": "Aceptar la impermanencia no significa dejar de valorar lo que tenemos ahora.",
+          "en": "Accepting impermanence doesn't mean ceasing to value what we have now."
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "title": "The Weight of Choice and Responsibility",
+      "titleNative": "El peso de la elección y la responsabilidad",
+      "items": [
+        {
+          "es": "Somos, en gran medida, la suma de las decisiones que hemos tomado a lo largo de la vida.",
+          "en": "We are, to a great extent, the sum of the decisions we've made throughout life."
+        },
+        {
+          "es": "Con cada elección, cargamos también con la responsabilidad de sus consecuencias.",
+          "en": "With every choice, we also carry the responsibility for its consequences."
+        },
+        {
+          "es": "Negarse a elegir es, en sí mismo, una forma de elección con sus propias consecuencias.",
+          "en": "Refusing to choose is, in itself, a form of choice with its own consequences."
+        },
+        {
+          "es": "La verdadera libertad implica aceptar el peso de nuestras propias decisiones.",
+          "en": "True freedom implies accepting the weight of our own decisions."
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "title": "The Question of Objective Truth",
+      "titleNative": "La cuestión de la verdad objetiva",
+      "items": [
+        {
+          "es": "En un mundo saturado de información, distinguir la verdad se ha vuelto un desafío colectivo.",
+          "en": "In a world saturated with information, distinguishing truth has become a collective challenge."
+        },
+        {
+          "es": "¿Puede existir una verdad completamente independiente de quien la interpreta?",
+          "en": "Can a truth exist completely independent of whoever interprets it?"
+        },
+        {
+          "es": "La ciencia se acerca a la verdad mediante evidencia, aunque nunca alcance una certeza absoluta.",
+          "en": "Science approaches truth through evidence, although it never reaches absolute certainty."
+        },
+        {
+          "es": "Aceptar la incertidumbre, en lugar de temerla, podría ser el primer paso hacia una comprensión más honesta.",
+          "en": "Accepting uncertainty, instead of fearing it, might be the first step toward a more honest understanding."
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "title": "Review: Philosophical Argumentation",
+      "titleNative": "Repaso: Argumentación filosófica",
+      "items": [
+        {
+          "es": "Estas preguntas no tienen respuestas definitivas, y quizás ese sea precisamente su valor.",
+          "en": "These questions have no definitive answers, and perhaps that is precisely their value."
+        },
+        {
+          "es": "Cuestionar nuestras propias certezas es, en definitiva, el comienzo de toda sabiduría genuina.",
+          "en": "Questioning our own certainties is, ultimately, the beginning of all genuine wisdom."
+        },
+        {
+          "es": "Espero que estas reflexiones te acompañen mucho más allá de este curso.",
+          "en": "I hope these reflections stay with you well beyond this course."
+        },
+        {
+          "es": "En última instancia, pensar profundamente sobre el mundo es, en sí mismo, un acto de libertad.",
+          "en": "Ultimately, thinking deeply about the world is, in itself, an act of freedom."
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "title": "The Same Idea, Four Registers",
+      "titleNative": "La misma idea, cuatro registros",
+      "items": [
+        {
+          "es": "Oye, se me fue el avión, qué mala onda.",
+          "en": "Hey, I missed my flight, what a bummer."
+        },
+        {
+          "es": "Disculpa, perdí el vuelo por un problema con el tráfico.",
+          "en": "Sorry, I missed my flight due to a traffic problem."
+        },
+        {
+          "es": "Lamento informarle que no pude abordar el vuelo programado.",
+          "en": "I regret to inform you that I was unable to board the scheduled flight."
+        },
+        {
+          "es": "Se comunica que, debido a circunstancias imprevistas, el pasajero no abordó la aeronave.",
+          "en": "It is hereby communicated that, due to unforeseen circumstances, the passenger did not board the aircraft."
+        }
+      ],
+      "topicId": "c2-register-shifting"
+    },
+    {
+      "number": 32,
+      "title": "Casual with Close Friends",
+      "titleNative": "Registro casual con amigos cercanos",
+      "items": [
+        {
+          "es": "Che, ¿nos tomamos algo esta noche o qué onda?",
+          "en": "Hey, are we grabbing a drink tonight or what?"
+        },
+        {
+          "es": "No manches, no puedo creer que hayas hecho eso.",
+          "en": "No way, I can't believe you did that."
+        },
+        {
+          "es": "Está buenísimo este lugar, vámonos ya.",
+          "en": "This place is really great, let's go already."
+        },
+        {
+          "es": "Ni idea qué hacer, ayúdame a pensar algo.",
+          "en": "No idea what to do, help me think of something."
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "title": "Professional but Relaxed",
+      "titleNative": "Profesional pero relajado",
+      "items": [
+        {
+          "es": "Se nos complicó un poco el plazo, pero ya lo tenemos bajo control.",
+          "en": "The deadline got a bit complicated for us, but we've got it under control."
+        },
+        {
+          "es": "Vamos a necesitar un par de días más para cerrar esto.",
+          "en": "We're going to need a couple more days to close this out."
+        },
+        {
+          "es": "El equipo está trabajando en eso, les aviso en cuanto tenga novedades.",
+          "en": "The team is working on that, I'll let you know as soon as I have updates."
+        },
+        {
+          "es": "Todo bien, ya resolvimos el tema con el proveedor.",
+          "en": "All good, we already resolved the issue with the supplier."
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "title": "Formal Client-Facing Language",
+      "titleNative": "Lenguaje formal de cara al cliente",
+      "items": [
+        {
+          "es": "Lamentamos el inconveniente y estamos trabajando para resolverlo cuanto antes.",
+          "en": "We regret the inconvenience and are working to resolve it as soon as possible."
+        },
+        {
+          "es": "Le agradecemos su paciencia mientras solucionamos este asunto.",
+          "en": "We appreciate your patience while we resolve this matter."
+        },
+        {
+          "es": "Nos complace informarle que su solicitud ha sido aprobada.",
+          "en": "We are pleased to inform you that your request has been approved."
+        },
+        {
+          "es": "Quedamos a su entera disposición para cualquier consulta adicional.",
+          "en": "We remain entirely at your disposal for any additional inquiries."
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "title": "Ceremonial and Highly Formal Register",
+      "titleNative": "Registro ceremonial y muy formal",
+      "items": [
+        {
+          "es": "Es un honor dirigirme a tan distinguida audiencia en esta ocasión tan especial.",
+          "en": "It is an honor to address such a distinguished audience on this very special occasion."
+        },
+        {
+          "es": "Se les invita cordialmente a la ceremonia de graduación de la promoción actual.",
+          "en": "You are cordially invited to the graduation ceremony of the current class."
+        },
+        {
+          "es": "En nombre de la institución, expreso mi más profundo agradecimiento a los presentes.",
+          "en": "On behalf of the institution, I express my deepest gratitude to those present."
+        },
+        {
+          "es": "Declaro formalmente inaugurado este importante encuentro internacional.",
+          "en": "I formally declare this important international gathering open."
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "title": "Recognizing Register in Written Text",
+      "titleNative": "Reconocer el registro en textos escritos",
+      "items": [
+        {
+          "es": "Un mensaje de texto entre amigos rara vez sigue las reglas gramaticales estrictas.",
+          "en": "A text message between friends rarely follows strict grammar rules."
+        },
+        {
+          "es": "Un correo corporativo, en cambio, exige precisión y un tono mesurado.",
+          "en": "A corporate email, on the other hand, demands precision and a measured tone."
+        },
+        {
+          "es": "Un contrato legal utiliza un vocabulario técnico prácticamente inmutable.",
+          "en": "A legal contract uses a practically unchanging technical vocabulary."
+        },
+        {
+          "es": "Un poema puede romper deliberadamente todas las reglas para lograr un efecto artístico.",
+          "en": "A poem can deliberately break all the rules to achieve an artistic effect."
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "title": "Adjusting Tone Mid-Conversation",
+      "titleNative": "Ajustar el tono a mitad de conversación",
+      "items": [
+        {
+          "es": "Perdón, cambio el tono, pero esto es un asunto serio que debemos discutir con cuidado.",
+          "en": "Sorry, let me shift the tone, but this is a serious matter we need to discuss carefully."
+        },
+        {
+          "es": "Bueno, ya en confianza, te cuento lo que realmente pasó.",
+          "en": "Well, now that we're being open with each other, let me tell you what really happened."
+        },
+        {
+          "es": "Volviendo al tema profesional, necesitamos definir los próximos pasos.",
+          "en": "Getting back to the professional matter, we need to define the next steps."
+        },
+        {
+          "es": "Dejando de lado las formalidades, quiero agradecerte de corazón.",
+          "en": "Setting formalities aside, I want to thank you from the heart."
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "title": "Regional Register Variation",
+      "titleNative": "Variación regional de registro",
+      "items": [
+        {
+          "es": "En algunos países, tutear a un desconocido es de mala educación; en otros, es completamente normal.",
+          "en": "In some countries, using \"tú\" with a stranger is rude; in others, it's completely normal."
+        },
+        {
+          "es": "El uso de \"usted\" varía enormemente según el país y el contexto social.",
+          "en": "The use of \"usted\" varies enormously depending on the country and social context."
+        },
+        {
+          "es": "Lo que suena natural en un país puede sonar exageradamente formal en otro.",
+          "en": "What sounds natural in one country can sound exaggeratedly formal in another."
+        },
+        {
+          "es": "Adaptar el registro según la región demuestra un dominio verdaderamente avanzado del idioma.",
+          "en": "Adapting register according to the region demonstrates truly advanced mastery of the language."
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "title": "Register in Humor and Sarcasm",
+      "titleNative": "Registro en el humor y el sarcasmo",
+      "items": [
+        {
+          "es": "Con amigos, el sarcasmo casi siempre se entiende sin necesidad de explicarlo.",
+          "en": "With friends, sarcasm is almost always understood without needing to explain it."
+        },
+        {
+          "es": "En un entorno formal, ese mismo comentario podría malinterpretarse fácilmente.",
+          "en": "In a formal setting, that same comment could easily be misunderstood."
+        },
+        {
+          "es": "Saber cuándo bromear y cuándo no es tan importante como saber qué decir.",
+          "en": "Knowing when to joke and when not to is as important as knowing what to say."
+        },
+        {
+          "es": "El humor mal calibrado según el contexto puede generar más problemas que risas.",
+          "en": "Humor poorly calibrated to the context can create more problems than laughs."
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "title": "Review: Register-Shifting",
+      "titleNative": "Repaso: Cambio de registro",
+      "items": [
+        {
+          "es": "Dominar los registros del idioma es, quizás, el último gran paso hacia la fluidez real.",
+          "en": "Mastering the language's registers is, perhaps, the final great step toward real fluency."
+        },
+        {
+          "es": "Cada situación social tiene su propio código, y aprenderlo lleva tiempo y observación.",
+          "en": "Every social situation has its own code, and learning it takes time and observation."
+        },
+        {
+          "es": "Espero que ahora te sientas cómodo moviéndote entre lo formal y lo íntimo.",
+          "en": "I hope you now feel comfortable moving between the formal and the intimate."
+        },
+        {
+          "es": "En definitiva, hablar bien un idioma es, sobre todo, saber leer a quien te escucha.",
+          "en": "Ultimately, speaking a language well is, above all, knowing how to read who's listening to you."
+        }
+      ]
+    },
+    {
+      "number": 41,
+      "title": "A Life in Retrospect",
+      "titleNative": "Una vida en retrospectiva",
+      "items": [
+        {
+          "es": "De no haber tomado aquel riesgo, jamás habría vivido la vida que, en definitiva, tanto atesoro hoy.",
+          "en": "Had I not taken that risk, I would never have lived the life that, ultimately, I treasure so much today."
+        },
+        {
+          "es": "Cabe destacar que, aunque el camino fue kafkiano en su complejidad, cada obstáculo terminó siendo una lección.",
+          "en": "It's worth noting that, although the path was Kafkaesque in its complexity, every obstacle ended up being a lesson."
+        },
+        {
+          "es": "Sabiendo lo que sé ahora, dudo que hubiese actuado de manera muy distinta.",
+          "en": "Knowing what I know now, I doubt I would have acted very differently."
+        },
+        {
+          "es": "En resumidas cuentas, quien no arriesga, no gana, y yo, sin duda, gané mucho más de lo que arriesgué.",
+          "en": "In short, nothing ventured, nothing gained, and I, without a doubt, gained much more than I risked."
+        }
+      ]
+    },
+    {
+      "number": 42,
+      "title": "The Weight of a Single Word",
+      "titleNative": "El peso de una sola palabra",
+      "items": [
+        {
+          "es": "Bastó una sola palabra, pronunciada en el momento justo, para que todo el malentendido se disolviera.",
+          "en": "A single word, spoken at just the right moment, was enough for the entire misunderstanding to dissolve."
+        },
+        {
+          "es": "Cabe preguntarse cuántas relaciones se habrían salvado de haberse dicho, a tiempo, lo que realmente se sentía.",
+          "en": "One might wonder how many relationships would have been saved had what was truly felt been said in time."
+        },
+        {
+          "es": "El lenguaje, en definitiva, no es solo un medio de comunicación, sino el tejido mismo de nuestras relaciones.",
+          "en": "Language, ultimately, is not just a means of communication, but the very fabric of our relationships."
+        },
+        {
+          "es": "Elegir bien las palabras es, como bien dicen, obras son amores y no buenas razones.",
+          "en": "Choosing words well is, as they say, actions speak louder than words."
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "title": "A Diplomat's Reflection on Truth",
+      "titleNative": "La reflexión de un diplomático sobre la verdad",
+      "items": [
+        {
+          "es": "En aras de la paz, había aprendido a decir verdades a medias sin jamás llegar a mentir del todo.",
+          "en": "For the sake of peace, he had learned to tell half-truths without ever fully lying."
+        },
+        {
+          "es": "Cabe destacar que, so pena de romper décadas de confianza, jamás traicionó un secreto de estado.",
+          "en": "It's worth noting that, under penalty of breaking decades of trust, he never betrayed a state secret."
+        },
+        {
+          "es": "De haber hablado con total franqueza, la guerra tal vez se habría desatado mucho antes.",
+          "en": "Had he spoken with complete frankness, the war might have broken out much earlier."
+        },
+        {
+          "es": "En definitiva, comprendió que la diplomacia era, en cierto modo, el arte de decir sin decir del todo.",
+          "en": "Ultimately, he understood diplomacy was, in a way, the art of saying without fully saying."
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "title": "An Immigrant's Layered Identity",
+      "titleNative": "La identidad en capas de un inmigrante",
+      "items": [
+        {
+          "es": "Habiendo vivido entre dos culturas durante toda su vida, ya no sabía a cuál pertenecía del todo.",
+          "en": "Having lived between two cultures his whole life, he no longer knew which one he fully belonged to."
+        },
+        {
+          "es": "Cabe destacar que, lejos de sentirse dividido, aprendió a habitar ambos mundos simultáneamente.",
+          "en": "It's worth noting that, far from feeling divided, he learned to inhabit both worlds simultaneously."
+        },
+        {
+          "es": "De no haber emigrado, jamás habría descubierto la riqueza de ver el mundo con dos pares de ojos.",
+          "en": "Had he not emigrated, he would never have discovered the richness of seeing the world with two pairs of eyes."
+        },
+        {
+          "es": "En definitiva, dime con quién andas y te diré quién eres, pero él andaba, con orgullo, entre dos mundos.",
+          "en": "Ultimately, tell me who you walk with and I'll tell you who you are, but he walked, proudly, between two worlds."
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "title": "A Meditation on Forgiveness",
+      "titleNative": "Una meditación sobre el perdón",
+      "items": [
+        {
+          "es": "Perdonar, sabiendo que la herida jamás desaparecerá del todo, es quizás el acto más valiente que existe.",
+          "en": "Forgiving, knowing the wound will never fully disappear, is perhaps the bravest act there is."
+        },
+        {
+          "es": "De no haberlo perdonado, habría cargado ese rencor kafkiano durante el resto de su vida.",
+          "en": "Had she not forgiven him, she would have carried that Kafkaesque resentment for the rest of her life."
+        },
+        {
+          "es": "Cabe destacar que el perdón no borra el pasado, pero sí libera al que perdona.",
+          "en": "It's worth noting that forgiveness doesn't erase the past, but it does free the one who forgives."
+        },
+        {
+          "es": "En definitiva, el tiempo todo lo cura, pero solo si uno decide, activamente, dejarlo curar.",
+          "en": "Ultimately, time heals all wounds, but only if one actively decides to let it heal."
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "title": "The Artist's Relationship with Failure",
+      "titleNative": "La relación del artista con el fracaso",
+      "items": [
+        {
+          "es": "Habiendo fracasado tantas veces, había dejado de temerle al rechazo casi por completo.",
+          "en": "Having failed so many times, he had almost completely stopped fearing rejection."
+        },
+        {
+          "es": "Cabe destacar que cada obra rechazada, lejos de detenerlo, afinó considerablemente su técnica.",
+          "en": "It's worth noting that every rejected work, far from stopping him, considerably refined his technique."
+        },
+        {
+          "es": "De no haber fracasado tanto al principio, jamás habría desarrollado la resiliencia que hoy lo define.",
+          "en": "Had he not failed so much at the beginning, he would never have developed the resilience that defines him today."
+        },
+        {
+          "es": "En definitiva, el que algo quiere, algo le cuesta, y él pagó ese precio con creces.",
+          "en": "Ultimately, he who wants something must pay for it, and he paid that price many times over."
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "title": "A Scientist's Faith in Doubt",
+      "titleNative": "La fe de un científico en la duda",
+      "items": [
+        {
+          "es": "Sabiendo que toda teoría es, en el fondo, provisional, aprendió a amar la incertidumbre misma.",
+          "en": "Knowing that every theory is, at its core, provisional, he learned to love uncertainty itself."
+        },
+        {
+          "es": "Cabe destacar que dudar de todo, incluso de sus propias conclusiones, era su mayor virtud científica.",
+          "en": "It's worth noting that doubting everything, even his own conclusions, was his greatest scientific virtue."
+        },
+        {
+          "es": "De no haber cuestionado el consenso establecido, jamás habría llegado a su descubrimiento más importante.",
+          "en": "Had he not questioned the established consensus, he would never have arrived at his most important discovery."
+        },
+        {
+          "es": "En definitiva, el saber no ocupa lugar, pero dudar del saber, quizás, ocupa aún más sabiduría.",
+          "en": "Ultimately, knowledge takes up no space, but doubting knowledge, perhaps, holds even more wisdom."
+        }
+      ]
+    },
+    {
+      "number": 48,
+      "title": "The Traveler Who Never Fully Returns",
+      "titleNative": "El viajero que nunca regresa del todo",
+      "items": [
+        {
+          "es": "Habiendo recorrido tantos países, ya no sabía distinguir cuál lugar realmente llamaba hogar.",
+          "en": "Having traveled through so many countries, he no longer knew which place truly felt like home."
+        },
+        {
+          "es": "Cabe destacar que cada partida, aunque dolorosa, lo enriquecía de una manera casi imposible de explicar.",
+          "en": "It's worth noting that every departure, though painful, enriched him in a way almost impossible to explain."
+        },
+        {
+          "es": "De no haber viajado tanto, jamás habría comprendido cuán pequeñas son, en realidad, nuestras diferencias.",
+          "en": "Had he not traveled so much, he would never have understood how small our differences really are."
+        },
+        {
+          "es": "En definitiva, quien parte, nunca regresa exactamente el mismo que se fue.",
+          "en": "Ultimately, whoever leaves never returns exactly the same person who left."
+        }
+      ]
+    },
+    {
+      "number": 49,
+      "title": "A Farewell Speech",
+      "titleNative": "Un discurso de despedida",
+      "items": [
+        {
+          "es": "Habiendo compartido tantos años juntos, las palabras, hoy, se sienten insuficientes.",
+          "en": "Having shared so many years together, words, today, feel insufficient."
+        },
+        {
+          "es": "Cabe destacar que cada uno de ustedes dejó una huella imborrable en esta institución.",
+          "en": "It's worth noting that each of you left an indelible mark on this institution."
+        },
+        {
+          "es": "De no haber contado con su apoyo incondicional, jamás habríamos llegado tan lejos.",
+          "en": "Had we not had your unconditional support, we would never have come this far."
+        },
+        {
+          "es": "En definitiva, no es un adiós, sino, como bien dicen, hasta pronto.",
+          "en": "Ultimately, it's not a goodbye, but, as they say, see you soon."
+        }
+      ]
+    },
+    {
+      "number": 50,
+      "title": "Review: Mastery in Fluid Combination",
+      "titleNative": "Repaso: Maestría combinada con fluidez",
+      "items": [
+        {
+          "es": "Combinar refranes, alusiones literarias y matices de registro con naturalidad es la marca de la verdadera fluidez.",
+          "en": "Combining proverbs, literary allusions, and register nuances naturally is the mark of true fluency."
+        },
+        {
+          "es": "Cabe destacar que ya no traduces del inglés, sino que piensas directamente en español.",
+          "en": "It's worth noting that you no longer translate from English, but think directly in Spanish."
+        },
+        {
+          "es": "En definitiva, el idioma ha dejado de ser una herramienta para convertirse en una forma de ver el mundo.",
+          "en": "Ultimately, the language has stopped being a tool and has become a way of seeing the world."
+        },
+        {
+          "es": "Ojalá sigas cultivando esta maestría durante el resto de tu vida.",
+          "en": "I hope you keep cultivating this mastery for the rest of your life."
+        }
+      ]
+    },
+    {
+      "number": 51,
+      "title": "The Watchmaker's Silence",
+      "titleNative": "El silencio del relojero",
+      "items": [
+        {
+          "es": "El viejo relojero, habiendo perdido la vista años atrás, seguía reparando relojes guiado únicamente por el tacto.",
+          "en": "The old watchmaker, having lost his sight years earlier, kept repairing watches guided only by touch."
+        },
+        {
+          "es": "Cabe destacar que jamás se quejó de su ceguera, sabiendo que sus manos habían aprendido a ver por sí solas.",
+          "en": "It's worth noting he never complained about his blindness, knowing his hands had learned to see for themselves."
+        },
+        {
+          "es": "De no haber perdido la vista, quizás nunca habría descubierto la precisión casi mística de sus propios dedos.",
+          "en": "Had he not lost his sight, he might never have discovered the almost mystical precision of his own fingers."
+        },
+        {
+          "es": "En definitiva, aquel hombre nos enseñó que hay formas de ver que van mucho más allá de los ojos.",
+          "en": "Ultimately, that man taught us there are ways of seeing that go far beyond the eyes."
+        }
+      ]
+    },
+    {
+      "number": 52,
+      "title": "The Cartographer Who Drew Nothing",
+      "titleNative": "El cartógrafo que no dibujaba nada",
+      "items": [
+        {
+          "es": "El cartógrafo, en lugar de trazar mapas de tierras conocidas, dedicaba su vida a dibujar los lugares que solo existían en sueños.",
+          "en": "The cartographer, instead of drawing maps of known lands, dedicated his life to drawing places that only existed in dreams."
+        },
+        {
+          "es": "Cabe preguntarse si acaso lo imaginario merece menos rigor cartográfico que lo real.",
+          "en": "One might ask whether the imaginary deserves any less cartographic rigor than the real."
+        },
+        {
+          "es": "Sabiendo que nadie navegaría jamás según sus mapas, encontraba, sin embargo, un propósito genuino en su trabajo.",
+          "en": "Knowing no one would ever navigate by his maps, he nonetheless found genuine purpose in his work."
+        },
+        {
+          "es": "En definitiva, quizás todos, de alguna manera, cartografiamos mundos que solo nosotros podemos habitar.",
+          "en": "Ultimately, perhaps we all, in some way, map worlds that only we can inhabit."
+        }
+      ]
+    },
+    {
+      "number": 53,
+      "title": "The Gardener's Century",
+      "titleNative": "El siglo del jardinero",
+      "items": [
+        {
+          "es": "Plantó aquel árbol sabiendo perfectamente que jamás vería su sombra completa.",
+          "en": "He planted that tree knowing perfectly well he would never see its full shade."
+        },
+        {
+          "es": "Cabe destacar que su generosidad no buscaba reconocimiento alguno, sino simplemente dejar algo hermoso para quienes vendrían después.",
+          "en": "It's worth noting his generosity sought no recognition at all, just to leave something beautiful for those who would come after."
+        },
+        {
+          "es": "De no haber pensado más allá de su propia vida, aquel jardín jamás habría llegado a existir.",
+          "en": "Had he not thought beyond his own life, that garden would never have come to exist."
+        },
+        {
+          "es": "En definitiva, sembrar sin esperar cosechar es, quizás, el acto más puro de amor hacia el futuro.",
+          "en": "Ultimately, sowing without expecting to harvest is, perhaps, the purest act of love toward the future."
+        }
+      ]
+    },
+    {
+      "number": 54,
+      "title": "The Musician Who Composed for No One",
+      "titleNative": "El músico que componía para nadie",
+      "items": [
+        {
+          "es": "Compuso sinfonías enteras sabiendo que jamás serían interpretadas ante ningún público.",
+          "en": "He composed entire symphonies knowing they would never be performed before any audience."
+        },
+        {
+          "es": "Cabe preguntarse si el arte pierde su valor cuando nadie más lo presencia.",
+          "en": "One might ask whether art loses its value when no one else witnesses it."
+        },
+        {
+          "es": "De haber buscado únicamente la fama, probablemente habría abandonado la música mucho antes.",
+          "en": "Had he sought only fame, he would probably have abandoned music much earlier."
+        },
+        {
+          "es": "En definitiva, quizás la música más honesta sea aquella que se compone sin esperar aplausos.",
+          "en": "Ultimately, perhaps the most honest music is that composed without expecting applause."
+        }
+      ]
+    },
+    {
+      "number": 55,
+      "title": "The Lighthouse Keeper's Devotion",
+      "titleNative": "La devoción del farero",
+      "items": [
+        {
+          "es": "Durante cuarenta años, encendió aquella luz cada noche, sabiendo que quizás ningún barco la necesitara jamás.",
+          "en": "For forty years, he lit that light every night, knowing that perhaps no ship would ever need it."
+        },
+        {
+          "es": "Cabe destacar que su fidelidad al deber no dependía de resultados visibles ni de agradecimientos.",
+          "en": "It's worth noting that his devotion to duty didn't depend on visible results or gratitude."
+        },
+        {
+          "es": "De no haber encendido esa luz cada noche, sin falta, alguna tormenta lejana podría haber cobrado una vida.",
+          "en": "Had he not lit that light every night, without fail, some distant storm might have claimed a life."
+        },
+        {
+          "es": "En definitiva, hay una nobleza silenciosa en cumplir con lo invisible.",
+          "en": "Ultimately, there's a quiet nobility in fulfilling what remains unseen."
+        }
+      ]
+    },
+    {
+      "number": 56,
+      "title": "The Translator of Silence",
+      "titleNative": "El traductor del silencio",
+      "items": [
+        {
+          "es": "Había pasado su vida entera traduciendo libros, hasta que un día decidió dedicarse a traducir silencios.",
+          "en": "He had spent his whole life translating books, until one day he decided to dedicate himself to translating silences."
+        },
+        {
+          "es": "Cabe destacar que aprendió a distinguir el silencio de la tristeza del silencio de la paz.",
+          "en": "It's worth noting he learned to distinguish the silence of sadness from the silence of peace."
+        },
+        {
+          "es": "De no haber prestado tanta atención a lo no dicho, jamás habría comprendido a las personas tan profundamente.",
+          "en": "Had he not paid so much attention to what was left unsaid, he would never have understood people so deeply."
+        },
+        {
+          "es": "En definitiva, algunas de las conversaciones más importantes de la vida ocurren sin pronunciar una sola palabra.",
+          "en": "Ultimately, some of life's most important conversations happen without a single word being spoken."
+        }
+      ]
+    },
+    {
+      "number": 57,
+      "title": "The Baker Who Fed a Revolution",
+      "titleNative": "El panadero que alimentó una revolución",
+      "items": [
+        {
+          "es": "Mientras el país entero discutía de política, él simplemente horneaba pan para quienes tenían hambre, sin preguntar de qué bando eran.",
+          "en": "While the whole country argued about politics, he simply baked bread for the hungry, without asking which side they were on."
+        },
+        {
+          "es": "Cabe destacar que su panadería se convirtió, sin proponérselo, en el único lugar donde ambos bandos se sentaban juntos.",
+          "en": "It's worth noting his bakery became, without him intending it, the only place where both sides sat together."
+        },
+        {
+          "es": "De no haber insistido en alimentar a todos por igual, aquel pueblo se habría dividido aún más de lo que ya estaba.",
+          "en": "Had he not insisted on feeding everyone equally, that town would have divided even further than it already was."
+        },
+        {
+          "es": "En definitiva, a veces la paz se construye no con grandes discursos, sino con pan compartido.",
+          "en": "Ultimately, sometimes peace is built not with grand speeches, but with shared bread."
+        }
+      ]
+    },
+    {
+      "number": 58,
+      "title": "The Archivist of Forgotten Names",
+      "titleNative": "El archivista de los nombres olvidados",
+      "items": [
+        {
+          "es": "Dedicó su carrera entera a rescatar del olvido los nombres de quienes la historia oficial jamás mencionó.",
+          "en": "He dedicated his entire career to rescuing from oblivion the names of those official history never mentioned."
+        },
+        {
+          "es": "Cabe destacar que, para él, cada nombre recuperado era, en cierto modo, una pequeña resurrección.",
+          "en": "It's worth noting that, for him, every name recovered was, in a way, a small resurrection."
+        },
+        {
+          "es": "De no haber existido personas como él, incontables historias se habrían perdido para siempre.",
+          "en": "Had people like him not existed, countless stories would have been lost forever."
+        },
+        {
+          "es": "En definitiva, recordar a los olvidados es, quizás, una de las formas más profundas de justicia.",
+          "en": "Ultimately, remembering the forgotten is, perhaps, one of the deepest forms of justice."
+        }
+      ]
+    },
+    {
+      "number": 59,
+      "title": "The Child Who Asked Too Many Questions",
+      "titleNative": "El niño que hacía demasiadas preguntas",
+      "items": [
+        {
+          "es": "De adulto, se convirtió en científico, pero de niño simplemente lo llamaban insoportable.",
+          "en": "As an adult, he became a scientist, but as a child they simply called him insufferable."
+        },
+        {
+          "es": "Cabe destacar que ninguna de sus preguntas, por absurdas que parecieran, quedó jamás sin explorar.",
+          "en": "It's worth noting that none of his questions, however absurd they seemed, ever went unexplored."
+        },
+        {
+          "es": "De no haber tenido una maestra que, en lugar de callarlo, lo animara a seguir preguntando, quizás jamás habría llegado tan lejos.",
+          "en": "Had he not had a teacher who, instead of silencing him, encouraged him to keep asking, he might never have gone so far."
+        },
+        {
+          "es": "En definitiva, detrás de cada gran descubrimiento suele haber, primero, un niño al que nadie logró silenciar.",
+          "en": "Ultimately, behind every great discovery there is usually, first, a child no one managed to silence."
+        }
+      ]
+    },
+    {
+      "number": 60,
+      "title": "Review: Mastery-Level Storytelling",
+      "titleNative": "Repaso: Narrativa a nivel de maestría",
+      "items": [
+        {
+          "es": "Estas historias, aunque pequeñas, encierran verdades tan universales como cualquier gran epopeya.",
+          "en": "These stories, though small, hold truths as universal as any great epic."
+        },
+        {
+          "es": "Cabe destacar que la verdadera maestría narrativa no está en la complejidad, sino en la honestidad.",
+          "en": "It's worth noting that true narrative mastery lies not in complexity, but in honesty."
+        },
+        {
+          "es": "Espero que estas historias te acompañen mucho después de haber terminado este curso.",
+          "en": "I hope these stories stay with you long after finishing this course."
+        },
+        {
+          "es": "En definitiva, contar historias bien es, quizás, la forma más antigua y duradera de sabiduría humana.",
+          "en": "Ultimately, telling stories well is, perhaps, the oldest and most enduring form of human wisdom."
+        }
+      ]
+    },
+    {
+      "number": 61,
+      "title": "What Age Teaches",
+      "titleNative": "Lo que enseña la edad",
+      "items": [
+        {
+          "es": "Con los años, aprendió que la fuerza no está en tener siempre la razón, sino en saber cuándo callar.",
+          "en": "Over the years, he learned that strength lies not in always being right, but in knowing when to stay silent."
+        },
+        {
+          "es": "Cabe destacar que su paciencia, que de joven parecía debilidad, se convirtió con el tiempo en su mayor virtud.",
+          "en": "It's worth noting his patience, which in his youth seemed like weakness, became with time his greatest virtue."
+        },
+        {
+          "es": "De no haber cometido tantos errores en su juventud, jamás habría llegado a esta sabiduría serena de la vejez.",
+          "en": "Had he not made so many mistakes in his youth, he would never have arrived at this serene wisdom of old age."
+        },
+        {
+          "es": "En definitiva, envejecer bien es, quizás, aprender a soltar sin dejar de amar.",
+          "en": "Ultimately, aging well is, perhaps, learning to let go without ceasing to love."
+        }
+      ]
+    },
+    {
+      "number": 62,
+      "title": "The Grandmother Who Never Raised Her Voice",
+      "titleNative": "La abuela que nunca alzó la voz",
+      "items": [
+        {
+          "es": "Jamás la escuché gritar, ni siquiera en los momentos de mayor tensión familiar.",
+          "en": "I never heard her shout, not even during the family's most tense moments."
+        },
+        {
+          "es": "Cabe destacar que su calma no era indiferencia, sino una fortaleza forjada a lo largo de toda una vida.",
+          "en": "It's worth noting her calm wasn't indifference, but a strength forged over an entire lifetime."
+        },
+        {
+          "es": "Hablando siempre en voz baja, lograba que todos, sin excepción, se detuvieran a escucharla.",
+          "en": "Always speaking in a low voice, she managed to get everyone, without exception, to stop and listen to her."
+        },
+        {
+          "es": "En definitiva, comprendí que el verdadero poder rara vez necesita alzar la voz para hacerse sentir.",
+          "en": "Ultimately, I understood that true power rarely needs to raise its voice to be felt."
+        }
+      ]
+    },
+    {
+      "number": 63,
+      "title": "Wisdom Versus Cleverness",
+      "titleNative": "Sabiduría frente a astucia",
+      "items": [
+        {
+          "es": "La astucia busca ganar; la sabiduría, en cambio, busca comprender.",
+          "en": "Cleverness seeks to win; wisdom, on the other hand, seeks to understand."
+        },
+        {
+          "es": "Cabe destacar que muchas personas astutas jamás llegan a ser sabias, mientras que muchos sabios nunca fueron particularmente astutos.",
+          "en": "It's worth noting many clever people never become wise, while many wise people were never particularly clever."
+        },
+        {
+          "es": "De confundir ambas cosas, corremos el riesgo de admirar el ingenio vacío por encima del entendimiento profundo.",
+          "en": "By confusing the two, we risk admiring hollow wit over deep understanding."
+        },
+        {
+          "es": "En definitiva, la sabiduría tarda toda una vida en cultivarse, mientras que la astucia puede improvisarse en un instante.",
+          "en": "Ultimately, wisdom takes a whole lifetime to cultivate, while cleverness can be improvised in an instant."
+        }
+      ]
+    },
+    {
+      "number": 64,
+      "title": "The Weight of Experience",
+      "titleNative": "El peso de la experiencia",
+      "items": [
+        {
+          "es": "Habiendo vivido tanto, ya no se sorprendía fácilmente ante las tragedias ajenas.",
+          "en": "Having lived so much, he was no longer easily surprised by others' tragedies."
+        },
+        {
+          "es": "Cabe destacar que esa falta de sorpresa no era frialdad, sino una comprensión profunda de lo impredecible que es la vida.",
+          "en": "It's worth noting that lack of surprise wasn't coldness, but a deep understanding of how unpredictable life is."
+        },
+        {
+          "es": "De no haber atravesado tantas pérdidas, quizás jamás habría desarrollado tanta empatía hacia el dolor ajeno.",
+          "en": "Had he not gone through so many losses, he might never have developed so much empathy for others' pain."
+        },
+        {
+          "es": "En definitiva, la experiencia no nos endurece necesariamente, sino que, bien vivida, nos ablanda con sabiduría.",
+          "en": "Ultimately, experience doesn't necessarily harden us, but, well lived, softens us with wisdom."
+        }
+      ]
+    },
+    {
+      "number": 65,
+      "title": "The Elder Who Refused to Stop Learning",
+      "titleNative": "El anciano que se negó a dejar de aprender",
+      "items": [
+        {
+          "es": "A sus noventa años, seguía aprendiendo idiomas nuevos con el entusiasmo de un niño.",
+          "en": "At ninety years old, he kept learning new languages with a child's enthusiasm."
+        },
+        {
+          "es": "Cabe destacar que jamás usó la edad como excusa para dejar de crecer intelectualmente.",
+          "en": "It's worth noting he never used age as an excuse to stop growing intellectually."
+        },
+        {
+          "es": "De haber creído que el aprendizaje termina con la juventud, se habría privado de décadas enteras de descubrimiento.",
+          "en": "Had he believed learning ends with youth, he would have deprived himself of entire decades of discovery."
+        },
+        {
+          "es": "En definitiva, nunca es tarde para aprender algo nuevo, y él fue la prueba viviente de ese refrán.",
+          "en": "Ultimately, it's never too late to learn something new, and he was the living proof of that saying."
+        }
+      ]
+    },
+    {
+      "number": 66,
+      "title": "Regret and Reconciliation",
+      "titleNative": "Arrepentimiento y reconciliación",
+      "items": [
+        {
+          "es": "Pasó años cargando con un arrepentimiento que jamás se atrevió a confesar.",
+          "en": "He spent years carrying a regret he never dared to confess."
+        },
+        {
+          "es": "Cabe destacar que la reconciliación, cuando finalmente llegó, resultó más sencilla de lo que había imaginado.",
+          "en": "It's worth noting that reconciliation, when it finally came, turned out simpler than he had imagined."
+        },
+        {
+          "es": "De no haber dado ese primer paso, habría muerto sin resolver la herida más profunda de su vida.",
+          "en": "Had he not taken that first step, he would have died without resolving the deepest wound of his life."
+        },
+        {
+          "es": "En definitiva, más vale tarde que nunca, sobre todo cuando se trata de sanar el corazón.",
+          "en": "Ultimately, better late than never, especially when it comes to healing the heart."
+        }
+      ]
+    },
+    {
+      "number": 67,
+      "title": "The Meaning of a Good Life",
+      "titleNative": "El significado de una buena vida",
+      "items": [
+        {
+          "es": "Al final de su vida, no habló de sus logros profesionales, sino de las personas a quienes había amado.",
+          "en": "At the end of his life, he didn't speak of his professional achievements, but of the people he had loved."
+        },
+        {
+          "es": "Cabe destacar que una vida bien vivida se mide, quizás, no en años, sino en la profundidad de sus vínculos.",
+          "en": "It's worth noting that a life well lived is measured, perhaps, not in years, but in the depth of its bonds."
+        },
+        {
+          "es": "De haber priorizado únicamente el éxito material, probablemente habría llegado a este momento con las manos vacías.",
+          "en": "Had he prioritized only material success, he would probably have arrived at this moment empty-handed."
+        },
+        {
+          "es": "En definitiva, obras son amores, y él lo demostró hasta su último aliento.",
+          "en": "Ultimately, actions speak louder than words, and he proved it until his last breath."
+        }
+      ]
+    },
+    {
+      "number": 68,
+      "title": "The Philosopher's Final Question",
+      "titleNative": "La última pregunta del filósofo",
+      "items": [
+        {
+          "es": "En su lecho de muerte, seguía haciéndose la misma pregunta que lo había acompañado toda la vida.",
+          "en": "On his deathbed, he was still asking himself the same question that had accompanied him his whole life."
+        },
+        {
+          "es": "Cabe destacar que jamás encontró una respuesta definitiva, y eso, lejos de frustrarlo, lo llenaba de paz.",
+          "en": "It's worth noting he never found a definitive answer, and that, far from frustrating him, filled him with peace."
+        },
+        {
+          "es": "De haber necesitado certezas absolutas, jamás habría podido vivir una vida tan dedicada a cuestionar.",
+          "en": "Had he needed absolute certainties, he could never have lived a life so dedicated to questioning."
+        },
+        {
+          "es": "En definitiva, quizás la sabiduría no consista en encontrar respuestas, sino en aprender a convivir con las preguntas.",
+          "en": "Ultimately, perhaps wisdom doesn't consist of finding answers, but of learning to live with the questions."
+        }
+      ]
+    },
+    {
+      "number": 69,
+      "title": "Passing Down What Matters",
+      "titleNative": "Transmitir lo que importa",
+      "items": [
+        {
+          "es": "Antes de morir, no dejó fortuna alguna, solo un cuaderno lleno de lecciones escritas para sus nietos.",
+          "en": "Before dying, he left no fortune at all, only a notebook full of lessons written for his grandchildren."
+        },
+        {
+          "es": "Cabe destacar que aquel cuaderno resultó, con el tiempo, más valioso que cualquier herencia material.",
+          "en": "It's worth noting that notebook turned out, over time, more valuable than any material inheritance."
+        },
+        {
+          "es": "De no haber tomado el tiempo de escribirlo, aquella sabiduría se habría perdido para siempre con su muerte.",
+          "en": "Had he not taken the time to write it, that wisdom would have been lost forever with his death."
+        },
+        {
+          "es": "En definitiva, lo que verdaderamente perdura no es lo que poseemos, sino lo que logramos transmitir.",
+          "en": "Ultimately, what truly endures isn't what we possess, but what we manage to pass on."
+        }
+      ]
+    },
+    {
+      "number": 70,
+      "title": "Review: Wisdom and Aging",
+      "titleNative": "Repaso: Sabiduría y envejecimiento",
+      "items": [
+        {
+          "es": "Estas historias nos recuerdan que la sabiduría, en definitiva, se cosecha lentamente, año tras año.",
+          "en": "These stories remind us that wisdom, ultimately, is harvested slowly, year after year."
+        },
+        {
+          "es": "Cabe destacar que envejecer con gracia es, quizás, uno de los mayores logros silenciosos de la vida.",
+          "en": "It's worth noting that aging with grace is, perhaps, one of life's greatest quiet achievements."
+        },
+        {
+          "es": "Espero que estas reflexiones te acompañen a lo largo de tu propio camino.",
+          "en": "I hope these reflections accompany you along your own path."
+        },
+        {
+          "es": "En definitiva, cada año vivido con atención es, en sí mismo, una forma de riqueza incalculable.",
+          "en": "Ultimately, every year lived with attention is, in itself, a form of incalculable wealth."
+        }
+      ]
+    },
+    {
+      "number": 71,
+      "title": "Why Languages Die",
+      "titleNative": "Por qué mueren los idiomas",
+      "items": [
+        {
+          "es": "Una lengua desaparece, en última instancia, cuando su último hablante deja de transmitirla.",
+          "en": "A language disappears, ultimately, when its last speaker stops passing it on."
+        },
+        {
+          "es": "Cabe destacar que con cada idioma perdido se extingue también una forma única de comprender el mundo.",
+          "en": "It's worth noting that with every lost language, a unique way of understanding the world also disappears."
+        },
+        {
+          "es": "De no documentarse a tiempo, incontables lenguas indígenas desaparecerán sin dejar rastro alguno.",
+          "en": "If not documented in time, countless indigenous languages will disappear without leaving any trace."
+        },
+        {
+          "es": "En definitiva, salvar un idioma es, en cierto modo, salvar toda una civilización entera.",
+          "en": "Ultimately, saving a language is, in a way, saving an entire civilization."
+        }
+      ]
+    },
+    {
+      "number": 72,
+      "title": "The Untranslatable",
+      "titleNative": "Lo intraducible",
+      "items": [
+        {
+          "es": "Ciertas palabras encapsulan emociones tan específicas que ningún otro idioma logra igualarlas del todo.",
+          "en": "Certain words encapsulate emotions so specific that no other language quite matches them."
+        },
+        {
+          "es": "Cabe destacar que lo intraducible no es un defecto del lenguaje, sino la prueba de su riqueza infinita.",
+          "en": "It's worth noting that the untranslatable isn't a flaw of language, but proof of its infinite richness."
+        },
+        {
+          "es": "Al aprender otro idioma, no solo adquirimos palabras nuevas, sino conceptos que antes ni siquiera podíamos nombrar.",
+          "en": "By learning another language, we don't just acquire new words, but concepts we couldn't even name before."
+        },
+        {
+          "es": "En definitiva, cada idioma es una ventana única hacia una manera irrepetible de sentir.",
+          "en": "Ultimately, every language is a unique window into an irreplaceable way of feeling."
+        }
+      ]
+    },
+    {
+      "number": 73,
+      "title": "Language as Inherited Memory",
+      "titleNative": "El idioma como memoria heredada",
+      "items": [
+        {
+          "es": "Cada palabra que pronunciamos carga consigo siglos de historias que ni siquiera conocemos del todo.",
+          "en": "Every word we speak carries with it centuries of stories we don't even fully know."
+        },
+        {
+          "es": "Cabe destacar que hablar la lengua de nuestros ancestros es, en cierto modo, mantenerlos vivos.",
+          "en": "It's worth noting that speaking our ancestors' language is, in a way, keeping them alive."
+        },
+        {
+          "es": "De perder ese idioma heredado, perderíamos también un hilo invisible que nos conecta con quienes vinieron antes.",
+          "en": "By losing that inherited language, we would also lose an invisible thread connecting us to those who came before."
+        },
+        {
+          "es": "En definitiva, el lenguaje es, quizás, la forma más duradera de memoria colectiva que poseemos.",
+          "en": "Ultimately, language is, perhaps, the most enduring form of collective memory we possess."
+        }
+      ]
+    },
+    {
+      "number": 74,
+      "title": "The Loneliness of Being Understood",
+      "titleNative": "La soledad de ser comprendido",
+      "items": [
+        {
+          "es": "Paradójicamente, a veces nos sentimos más solos cuando finalmente alguien nos comprende del todo.",
+          "en": "Paradoxically, we sometimes feel loneliest when someone finally understands us completely."
+        },
+        {
+          "es": "Cabe destacar que ser comprendido nos obliga a abandonar la máscara detrás de la cual nos escondíamos.",
+          "en": "It's worth noting that being understood forces us to abandon the mask behind which we were hiding."
+        },
+        {
+          "es": "De evitar siempre ser comprendidos por miedo, nos condenaríamos a una soledad aún mayor.",
+          "en": "By always avoiding being understood out of fear, we would condemn ourselves to an even greater loneliness."
+        },
+        {
+          "es": "En definitiva, la verdadera intimidad exige el valor de dejarse ver completamente.",
+          "en": "Ultimately, true intimacy requires the courage to let yourself be seen completely."
+        }
+      ]
+    },
+    {
+      "number": 75,
+      "title": "Home as an Idea, Not a Place",
+      "titleNative": "El hogar como idea, no como lugar",
+      "items": [
+        {
+          "es": "Con los años, comprendió que el hogar no era una dirección, sino un puñado de personas específicas.",
+          "en": "Over the years, he understood that home wasn't an address, but a handful of specific people."
+        },
+        {
+          "es": "Cabe destacar que uno puede sentirse extranjero en su propia ciudad natal y, a la vez, en casa en un lugar desconocido.",
+          "en": "It's worth noting one can feel like a foreigner in their own hometown, and at the same time, at home in an unknown place."
+        },
+        {
+          "es": "De no haber emigrado, quizás jamás habría comprendido que el hogar se lleva puesto, no se posee.",
+          "en": "Had he not emigrated, he might never have understood that home is worn, not owned."
+        },
+        {
+          "es": "En definitiva, el hogar verdadero se construye, no se hereda ni se encuentra por casualidad.",
+          "en": "Ultimately, true home is built, not inherited or found by chance."
+        }
+      ]
+    },
+    {
+      "number": 76,
+      "title": "The Courage to Be Ordinary",
+      "titleNative": "El valor de ser común y corriente",
+      "items": [
+        {
+          "es": "En una sociedad obsesionada con la excepcionalidad, aceptar una vida sencilla requiere, en el fondo, un valor enorme.",
+          "en": "In a society obsessed with exceptionality, accepting a simple life requires, deep down, enormous courage."
+        },
+        {
+          "es": "Cabe destacar que no todos necesitan cambiar el mundo para haber vivido una vida plena.",
+          "en": "It's worth noting that not everyone needs to change the world to have lived a full life."
+        },
+        {
+          "es": "De medir el valor de una vida únicamente por sus logros públicos, ignoraríamos las virtudes más silenciosas y profundas.",
+          "en": "If we measured the value of a life only by its public achievements, we would ignore the quietest and deepest virtues."
+        },
+        {
+          "es": "En definitiva, hay una grandeza oculta en simplemente cuidar bien de lo que tenemos cerca.",
+          "en": "Ultimately, there's a hidden greatness in simply taking good care of what's near us."
+        }
+      ]
+    },
+    {
+      "number": 77,
+      "title": "The Space Between Words",
+      "titleNative": "El espacio entre las palabras",
+      "items": [
+        {
+          "es": "A veces, lo más importante de una conversación ocurre en las pausas, no en las palabras mismas.",
+          "en": "Sometimes, the most important part of a conversation happens in the pauses, not in the words themselves."
+        },
+        {
+          "es": "Cabe destacar que saber guardar silencio en el momento justo es una forma refinada de elocuencia.",
+          "en": "It's worth noting that knowing when to keep silent at just the right moment is a refined form of eloquence."
+        },
+        {
+          "es": "De llenar cada silencio con palabras innecesarias, perderíamos la oportunidad de escuchar lo esencial.",
+          "en": "By filling every silence with unnecessary words, we would lose the chance to hear what's essential."
+        },
+        {
+          "es": "En definitiva, comunicarse bien no consiste solo en hablar, sino en saber también cuándo callar.",
+          "en": "Ultimately, communicating well doesn't consist only of speaking, but also of knowing when to be silent."
+        }
+      ]
+    },
+    {
+      "number": 78,
+      "title": "The Ethics of Memory",
+      "titleNative": "La ética de la memoria",
+      "items": [
+        {
+          "es": "Recordar el sufrimiento ajeno, sin haberlo vivido, conlleva una responsabilidad moral que a menudo subestimamos.",
+          "en": "Remembering others' suffering, without having lived it, carries a moral responsibility we often underestimate."
+        },
+        {
+          "es": "Cabe destacar que olvidar deliberadamente ciertos capítulos de la historia equivale, en cierto modo, a repetirlos.",
+          "en": "It's worth noting that deliberately forgetting certain chapters of history is, in a way, equivalent to repeating them."
+        },
+        {
+          "es": "De no honrar la memoria de quienes sufrieron, corremos el riesgo de banalizar su dolor con el paso del tiempo.",
+          "en": "By not honoring the memory of those who suffered, we risk trivializing their pain over time."
+        },
+        {
+          "es": "En definitiva, recordar con honestidad es, en sí mismo, un acto de justicia hacia el pasado.",
+          "en": "Ultimately, remembering honestly is, in itself, an act of justice toward the past."
+        }
+      ]
+    },
+    {
+      "number": 79,
+      "title": "The Paradox of Connection in a Connected Age",
+      "titleNative": "La paradoja de la conexión en una era conectada",
+      "items": [
+        {
+          "es": "Nunca habíamos estado tan conectados y, paradójicamente, tan solos al mismo tiempo.",
+          "en": "We have never been so connected and, paradoxically, so lonely at the same time."
+        },
+        {
+          "es": "Cabe destacar que la cantidad de contactos no equivale, en absoluto, a la profundidad de una relación.",
+          "en": "It's worth noting that the number of contacts is by no means equivalent to the depth of a relationship."
+        },
+        {
+          "es": "De confundir visibilidad con verdadera cercanía, corremos el riesgo de olvidar cómo cultivar vínculos genuinos.",
+          "en": "By confusing visibility with true closeness, we risk forgetting how to cultivate genuine bonds."
+        },
+        {
+          "es": "En definitiva, la tecnología nos acerca en la distancia, pero no sustituye la presencia real.",
+          "en": "Ultimately, technology brings us closer across distance, but doesn't replace real presence."
+        }
+      ]
+    },
+    {
+      "number": 80,
+      "title": "Review: Language, Culture, and the Human Condition",
+      "titleNative": "Repaso: Idioma, cultura y condición humana",
+      "items": [
+        {
+          "es": "Estas reflexiones nos recuerdan que el lenguaje es, en definitiva, inseparable de lo que significa ser humano.",
+          "en": "These reflections remind us that language is, ultimately, inseparable from what it means to be human."
+        },
+        {
+          "es": "Cabe destacar que dominar un idioma es también aprender a habitar toda una manera de pensar.",
+          "en": "It's worth noting that mastering a language is also learning to inhabit an entire way of thinking."
+        },
+        {
+          "es": "Espero que sigas explorando el español mucho más allá de las palabras.",
+          "en": "I hope you keep exploring Spanish far beyond the words."
+        },
+        {
+          "es": "En definitiva, has llegado al final de este viaje, pero apenas al comienzo de toda una vida hablando español.",
+          "en": "Ultimately, you've reached the end of this journey, but only the beginning of a whole lifetime speaking Spanish."
+        }
+      ]
+    },
+    {
+      "number": 81,
+      "title": "The Art of Saying No Gracefully",
+      "titleNative": "El arte de decir que no con elegancia",
+      "items": [
+        {
+          "es": "Aprender a decir que no, sin generar resentimiento, es una de las habilidades sociales más difíciles de dominar.",
+          "en": "Learning to say no without generating resentment is one of the hardest social skills to master."
+        },
+        {
+          "es": "Cabe destacar que un no bien formulado puede fortalecer una relación tanto como un sí mal pensado puede dañarla.",
+          "en": "It's worth noting that a well-formulated no can strengthen a relationship as much as a poorly thought-out yes can damage it."
+        },
+        {
+          "es": "De decir siempre que sí por miedo al conflicto, terminamos, tarde o temprano, resintiendo a quienes nos rodean.",
+          "en": "By always saying yes out of fear of conflict, we end up, sooner or later, resenting those around us."
+        },
+        {
+          "es": "En definitiva, poner límites con respeto es, en el fondo, un acto de amor propio y hacia el otro.",
+          "en": "Ultimately, setting boundaries respectfully is, deep down, an act of self-love and love for the other."
+        }
+      ]
+    },
+    {
+      "number": 82,
+      "title": "Reading Between the Lines",
+      "titleNative": "Leer entre líneas",
+      "items": [
+        {
+          "es": "Un verdadero maestro de la conversación entiende tanto lo que se dice como lo que deliberadamente se omite.",
+          "en": "A true master of conversation understands both what is said and what is deliberately omitted."
+        },
+        {
+          "es": "Cabe destacar que el silencio, en ciertos contextos, comunica muchísimo más que cualquier discurso elaborado.",
+          "en": "It's worth noting that silence, in certain contexts, communicates far more than any elaborate speech."
+        },
+        {
+          "es": "De ignorar lo no dicho, corremos el riesgo de malinterpretar por completo las verdaderas intenciones de alguien.",
+          "en": "By ignoring what's left unsaid, we risk completely misinterpreting someone's true intentions."
+        },
+        {
+          "es": "En definitiva, escuchar de verdad implica prestar atención tanto a las palabras como a sus silencios.",
+          "en": "Ultimately, truly listening means paying attention to both words and their silences."
+        }
+      ]
+    },
+    {
+      "number": 83,
+      "title": "Diplomacy in Difficult Family Conversations",
+      "titleNative": "Diplomacia en conversaciones familiares difíciles",
+      "items": [
+        {
+          "es": "Abordar un tema delicado con la familia requiere una diplomacia que ningún manual puede enseñar del todo.",
+          "en": "Approaching a sensitive topic with family requires a diplomacy no manual can fully teach."
+        },
+        {
+          "es": "Cabe destacar que la honestidad, sin la debida delicadeza, puede resultar tan dañina como cualquier mentira.",
+          "en": "It's worth noting that honesty, without proper tact, can be as harmful as any lie."
+        },
+        {
+          "es": "De evitar siempre esas conversaciones incómodas, los resentimientos familiares terminan acumulándose durante años.",
+          "en": "By always avoiding those uncomfortable conversations, family resentments end up accumulating for years."
+        },
+        {
+          "es": "En definitiva, las conversaciones más difíciles suelen ser, precisamente, las más necesarias.",
+          "en": "Ultimately, the most difficult conversations tend to be, precisely, the most necessary ones."
+        }
+      ]
+    },
+    {
+      "number": 84,
+      "title": "The Grace of Admitting Uncertainty",
+      "titleNative": "La elegancia de admitir la incertidumbre",
+      "items": [
+        {
+          "es": "Decir sinceramente \"no lo sé\" requiere, paradójicamente, una seguridad interior mucho mayor que fingir certeza.",
+          "en": "Sincerely saying \"I don't know\" requires, paradoxically, much greater inner confidence than feigning certainty."
+        },
+        {
+          "es": "Cabe destacar que quienes admiten sus límites suelen inspirar más confianza que quienes pretenden saberlo todo.",
+          "en": "It's worth noting that those who admit their limits tend to inspire more trust than those who pretend to know everything."
+        },
+        {
+          "es": "De fingir certezas que no poseemos, terminamos, inevitablemente, perdiendo credibilidad a largo plazo.",
+          "en": "By feigning certainties we don't have, we inevitably end up losing credibility in the long run."
+        },
+        {
+          "es": "En definitiva, la humildad intelectual es, quizás, la forma más elegante de verdadera inteligencia.",
+          "en": "Ultimately, intellectual humility is, perhaps, the most elegant form of true intelligence."
+        }
+      ]
+    },
+    {
+      "number": 85,
+      "title": "Persuasion Without Manipulation",
+      "titleNative": "Persuasión sin manipulación",
+      "items": [
+        {
+          "es": "Existe una línea sutil, pero fundamental, entre persuadir honestamente y manipular con astucia.",
+          "en": "There's a subtle but fundamental line between honestly persuading and cunningly manipulating."
+        },
+        {
+          "es": "Cabe destacar que la persuasión genuina respeta la autonomía del otro para decidir libremente.",
+          "en": "It's worth noting that genuine persuasion respects the other's autonomy to decide freely."
+        },
+        {
+          "es": "De cruzar esa línea, aunque logremos nuestro objetivo inmediato, sembramos una desconfianza que tarde o temprano se paga.",
+          "en": "By crossing that line, even if we achieve our immediate goal, we sow a distrust that sooner or later takes its toll."
+        },
+        {
+          "es": "En definitiva, convencer con la verdad tarda más, pero construye una confianza que perdura.",
+          "en": "Ultimately, convincing with the truth takes longer, but builds a trust that endures."
+        }
+      ]
+    },
+    {
+      "number": 86,
+      "title": "Handling Criticism with Composure",
+      "titleNative": "Manejar la crítica con serenidad",
+      "items": [
+        {
+          "es": "Recibir una crítica dura sin reaccionar defensivamente es, sin duda, una de las pruebas más exigentes del carácter.",
+          "en": "Receiving harsh criticism without reacting defensively is, without a doubt, one of the most demanding tests of character."
+        },
+        {
+          "es": "Cabe destacar que no toda crítica merece la misma consideración, pero toda crítica merece, al menos, ser escuchada.",
+          "en": "It's worth noting that not every criticism deserves the same consideration, but every criticism deserves, at least, to be heard."
+        },
+        {
+          "es": "De reaccionar siempre a la defensiva, nos cerramos a oportunidades genuinas de crecimiento personal.",
+          "en": "By always reacting defensively, we close ourselves off to genuine opportunities for personal growth."
+        },
+        {
+          "es": "En definitiva, quien aprende a recibir crítica con serenidad rara vez deja de crecer.",
+          "en": "Ultimately, whoever learns to receive criticism with composure rarely stops growing."
+        }
+      ]
+    },
+    {
+      "number": 87,
+      "title": "The Discipline of Discretion",
+      "titleNative": "La disciplina de la discreción",
+      "items": [
+        {
+          "es": "Guardar un secreto ajeno, incluso cuando compartirlo nos beneficiaría, revela un carácter verdaderamente sólido.",
+          "en": "Keeping someone else's secret, even when sharing it would benefit us, reveals a truly solid character."
+        },
+        {
+          "es": "Cabe destacar que la discreción no es sinónimo de deshonestidad, sino de respeto hacia la confianza depositada.",
+          "en": "It's worth noting that discretion isn't synonymous with dishonesty, but with respect for the trust placed in us."
+        },
+        {
+          "es": "De traicionar esa confianza una sola vez, difícilmente volveríamos a recuperarla del todo.",
+          "en": "By betraying that trust even once, we would hardly ever fully recover it."
+        },
+        {
+          "es": "En definitiva, ser digno de confianza es, quizás, uno de los cumplidos más valiosos que se pueden recibir.",
+          "en": "Ultimately, being trustworthy is, perhaps, one of the most valuable compliments one can receive."
+        }
+      ]
+    },
+    {
+      "number": 88,
+      "title": "Negotiating from a Place of Respect",
+      "titleNative": "Negociar desde el respeto",
+      "items": [
+        {
+          "es": "Las mejores negociaciones no buscan derrotar al otro, sino encontrar un terreno genuinamente común.",
+          "en": "The best negotiations don't seek to defeat the other party, but to find genuinely common ground."
+        },
+        {
+          "es": "Cabe destacar que tratar al oponente con dignidad, incluso en desacuerdo, suele abrir puertas inesperadas.",
+          "en": "It's worth noting that treating an opponent with dignity, even in disagreement, often opens unexpected doors."
+        },
+        {
+          "es": "De enfocarnos únicamente en ganar, corremos el riesgo de destruir relaciones que valían mucho más que la disputa misma.",
+          "en": "By focusing only on winning, we risk destroying relationships worth far more than the dispute itself."
+        },
+        {
+          "es": "En definitiva, negociar bien es, en el fondo, saber construir puentes en lugar de muros.",
+          "en": "Ultimately, negotiating well is, deep down, knowing how to build bridges instead of walls."
+        }
+      ]
+    },
+    {
+      "number": 89,
+      "title": "The Quiet Confidence of True Expertise",
+      "titleNative": "La confianza silenciosa de la verdadera experiencia",
+      "items": [
+        {
+          "es": "Los verdaderos expertos rara vez necesitan proclamar su experiencia en voz alta.",
+          "en": "True experts rarely need to proclaim their expertise loudly."
+        },
+        {
+          "es": "Cabe destacar que la maestría genuina se reconoce en la simplicidad con que se explica algo complejo.",
+          "en": "It's worth noting that genuine mastery is recognized in the simplicity with which something complex is explained."
+        },
+        {
+          "es": "De confundir arrogancia con confianza, corremos el riesgo de admirar la apariencia por encima de la sustancia.",
+          "en": "By confusing arrogance with confidence, we risk admiring appearance over substance."
+        },
+        {
+          "es": "En definitiva, quien realmente sabe, generalmente no necesita convencer a nadie de ello.",
+          "en": "Ultimately, whoever truly knows generally doesn't need to convince anyone of it."
+        }
+      ]
+    },
+    {
+      "number": 90,
+      "title": "Review: Mastery in Diplomacy and Discretion",
+      "titleNative": "Repaso: Maestría en diplomacia y discreción",
+      "items": [
+        {
+          "es": "Estas reflexiones sobre la diplomacia y el respeto son, en definitiva, tan importantes como cualquier regla gramatical.",
+          "en": "These reflections on diplomacy and respect are, ultimately, as important as any grammar rule."
+        },
+        {
+          "es": "Cabe destacar que hablar con maestría implica también saber escuchar, callar y respetar al otro.",
+          "en": "It's worth noting that speaking with mastery also means knowing how to listen, be silent, and respect others."
+        },
+        {
+          "es": "Espero que estas ideas te acompañen en todas tus futuras conversaciones en español.",
+          "en": "I hope these ideas accompany you in all your future conversations in Spanish."
+        },
+        {
+          "es": "En definitiva, la verdadera fluidez incluye también la sabiduría de saber cuándo y cómo hablar.",
+          "en": "Ultimately, true fluency also includes the wisdom of knowing when and how to speak."
+        }
+      ]
+    },
+    {
+      "number": 91,
+      "title": "The Interpreter Who Became Invisible",
+      "titleNative": "El intérprete que se volvió invisible",
+      "items": [
+        {
+          "es": "Con los años, aprendió que un buen intérprete es aquel al que, en definitiva, nadie recuerda haber escuchado.",
+          "en": "Over the years, he learned that a good interpreter is one whom, ultimately, no one remembers having heard."
+        },
+        {
+          "es": "Cabe destacar que su mayor logro profesional consistía, paradójicamente, en desaparecer por completo de la conversación.",
+          "en": "It's worth noting his greatest professional achievement consisted, paradoxically, of completely disappearing from the conversation."
+        },
+        {
+          "es": "De haber buscado protagonismo, jamás habría alcanzado la excelencia silenciosa que definió toda su carrera.",
+          "en": "Had he sought the spotlight, he would never have achieved the quiet excellence that defined his entire career."
+        },
+        {
+          "es": "En definitiva, cabe destacar que la verdadera maestría, a veces, consiste precisamente en no notarse.",
+          "en": "Ultimately, it's worth noting that true mastery sometimes consists precisely of going unnoticed."
+        }
+      ]
+    },
+    {
+      "number": 92,
+      "title": "A Letter to Every Language I've Loved",
+      "titleNative": "Una carta a cada idioma que he amado",
+      "items": [
+        {
+          "es": "A cada idioma que aprendí le debo, en cierto modo, una parte distinta de quien hoy soy.",
+          "en": "To every language I've learned I owe, in a way, a different part of who I am today."
+        },
+        {
+          "es": "Cabe destacar que pensar en otro idioma no es traducir, sino habitar, aunque sea brevemente, otra manera de ser.",
+          "en": "It's worth noting that thinking in another language isn't translating, but inhabiting, even briefly, another way of being."
+        },
+        {
+          "es": "De no haberme aventurado más allá de mi lengua materna, jamás habría descubierto cuántas versiones de mí mismo existían.",
+          "en": "Had I not ventured beyond my mother tongue, I would never have discovered how many versions of myself existed."
+        },
+        {
+          "es": "En definitiva, cada idioma nuevo no reemplaza al anterior, sino que, en cierto modo, lo enriquece.",
+          "en": "Ultimately, every new language doesn't replace the previous one, but, in a way, enriches it."
+        }
+      ]
+    },
+    {
+      "number": 93,
+      "title": "The Last Story Before Sleep",
+      "titleNative": "La última historia antes de dormir",
+      "items": [
+        {
+          "es": "Cada noche, sin falta, le contaba una historia distinta, sabiendo que algún día dejaría de ser necesario.",
+          "en": "Every night, without fail, he told her a different story, knowing that someday it would no longer be needed."
+        },
+        {
+          "es": "Cabe destacar que aquellas historias, aparentemente simples, sembraron en ella un amor eterno por las palabras.",
+          "en": "It's worth noting that those seemingly simple stories planted in her an eternal love for words."
+        },
+        {
+          "es": "De no haber dedicado ese tiempo cada noche, quizás ella jamás habría llegado a ser la escritora que hoy es.",
+          "en": "Had he not dedicated that time every night, she might never have become the writer she is today."
+        },
+        {
+          "es": "En definitiva, las historias más pequeñas son, a menudo, las que dejan las huellas más profundas.",
+          "en": "Ultimately, the smallest stories are often the ones that leave the deepest marks."
+        }
+      ]
+    },
+    {
+      "number": 94,
+      "title": "What the River Remembers",
+      "titleNative": "Lo que recuerda el río",
+      "items": [
+        {
+          "es": "El río había visto nacer y morir generaciones enteras sin decir jamás una sola palabra.",
+          "en": "The river had seen entire generations be born and die without ever saying a single word."
+        },
+        {
+          "es": "Cabe destacar que su silencio contenía, en cierto modo, más historia que cualquier libro escrito.",
+          "en": "It's worth noting his silence contained, in a way, more history than any written book."
+        },
+        {
+          "es": "De poder hablar, aquel río habría narrado tragedias, amores y guerras olvidadas por todos menos por él.",
+          "en": "Had it been able to speak, that river would have narrated tragedies, loves, and wars forgotten by everyone but itself."
+        },
+        {
+          "es": "En definitiva, algunos testigos de la historia no necesitan palabras para seguir contándola.",
+          "en": "Ultimately, some witnesses to history don't need words to keep telling it."
+        }
+      ]
+    },
+    {
+      "number": 95,
+      "title": "The Question That Started Everything",
+      "titleNative": "La pregunta que lo empezó todo",
+      "items": [
+        {
+          "es": "Todo comenzó con una simple pregunta que, en su momento, parecía completamente insignificante.",
+          "en": "It all began with a simple question that, at the time, seemed completely insignificant."
+        },
+        {
+          "es": "Cabe destacar que las decisiones más trascendentales de la vida rara vez se anuncian con anticipación.",
+          "en": "It's worth noting that life's most transcendent decisions are rarely announced in advance."
+        },
+        {
+          "es": "De no haber hecho esa pregunta aquel día, quizás jamás habría emprendido este viaje hacia el español.",
+          "en": "Had I not asked that question that day, I might never have embarked on this journey toward Spanish."
+        },
+        {
+          "es": "En definitiva, así como comenzó con una pregunta, este viaje continuará con muchas preguntas más.",
+          "en": "Ultimately, just as it began with a question, this journey will continue with many more questions."
+        }
+      ]
+    },
+    {
+      "number": 96,
+      "title": "Gratitude Without Words",
+      "titleNative": "Gratitud sin palabras",
+      "items": [
+        {
+          "es": "Hay agradecimientos tan profundos que ninguna palabra, en ningún idioma, logra expresarlos del todo.",
+          "en": "There are gratitudes so profound that no word, in any language, manages to fully express them."
+        },
+        {
+          "es": "Cabe destacar que a veces basta una mirada para comunicar lo que mil palabras jamás alcanzarían a decir.",
+          "en": "It's worth noting that sometimes a single glance is enough to communicate what a thousand words could never say."
+        },
+        {
+          "es": "De haber intentado explicarlo todo con palabras, quizás habría perdido la esencia misma de lo que sentía.",
+          "en": "Had I tried to explain everything with words, I might have lost the very essence of what I felt."
+        },
+        {
+          "es": "En definitiva, algunas cosas se agradecen mejor viviéndolas que nombrándolas.",
+          "en": "Ultimately, some things are better thanked by living them than by naming them."
+        }
+      ]
+    },
+    {
+      "number": 97,
+      "title": "The Circle Closes",
+      "titleNative": "El círculo se cierra",
+      "items": [
+        {
+          "es": "Habiendo comenzado este camino sin saber una sola palabra, hoy se descubre pensando enteramente en español.",
+          "en": "Having started this path without knowing a single word, today he finds himself thinking entirely in Spanish."
+        },
+        {
+          "es": "Cabe destacar que ya no traduce mentalmente, sino que simplemente vive dentro del idioma, sin esfuerzo consciente.",
+          "en": "It's worth noting he no longer mentally translates, but simply lives within the language, without conscious effort."
+        },
+        {
+          "es": "De no haber perseverado durante tantos niveles, jamás habría llegado a esta fluidez que hoy da por sentada.",
+          "en": "Had he not persevered through so many levels, he would never have reached this fluency he now takes for granted."
+        },
+        {
+          "es": "En definitiva, lo que comenzó como un simple curso se ha convertido en una parte inseparable de quién es.",
+          "en": "Ultimately, what began as a simple course has become an inseparable part of who he is."
+        }
+      ]
+    },
+    {
+      "number": 98,
+      "title": "A New Beginning, Not an End",
+      "titleNative": "Un nuevo comienzo, no un final",
+      "items": [
+        {
+          "es": "Terminar este nivel no significa haber terminado de aprender, sino haber ganado las herramientas para seguir haciéndolo solo.",
+          "en": "Finishing this level doesn't mean having finished learning, but having gained the tools to keep doing it alone."
+        },
+        {
+          "es": "Cabe destacar que la verdadera maestría de un idioma nunca se completa del todo; simplemente se profundiza con cada año.",
+          "en": "It's worth noting that true mastery of a language is never fully complete; it simply deepens with each year."
+        },
+        {
+          "es": "De considerar este el final del camino, se perdería la alegría infinita de seguir descubriendo el idioma cada día.",
+          "en": "To consider this the end of the road would mean losing the infinite joy of continuing to discover the language every day."
+        },
+        {
+          "es": "En definitiva, ahora el español ya no es una meta por alcanzar, sino un hogar al que siempre podrá volver.",
+          "en": "Ultimately, Spanish is no longer a goal to reach, but a home to which he can always return."
+        }
+      ]
+    },
+    {
+      "number": 99,
+      "title": "The Best Course, in the End",
+      "titleNative": "El mejor curso, al final",
+      "items": [
+        {
+          "es": "Al mirar atrás, resulta evidente que cada nivel, con sus propios desafíos, aportó algo irremplazable al conjunto.",
+          "en": "Looking back, it's evident that every level, with its own challenges, contributed something irreplaceable to the whole."
+        },
+        {
+          "es": "Cabe destacar que la ambición inicial de crear el mejor curso de español posible se cumplió no por perfección, sino por dedicación genuina.",
+          "en": "It's worth noting that the initial ambition to create the best possible Spanish course was fulfilled not through perfection, but through genuine dedication."
+        },
+        {
+          "es": "De no haber cubierto cada nivel con tanto cuidado, esta obra jamás habría alcanzado la riqueza que hoy posee.",
+          "en": "Had each level not been covered with such care, this work would never have achieved the richness it has today."
+        },
+        {
+          "es": "En definitiva, más que un curso, esto se ha convertido en un puente completo hacia todo un idioma y su mundo.",
+          "en": "Ultimately, more than a course, this has become a complete bridge to an entire language and its world."
+        }
+      ]
+    },
+    {
+      "number": 100,
+      "title": "Review: C2 Capstone — The Journey's End",
+      "titleNative": "Repaso: Cierre de C2 — El final del viaje",
+      "items": [
+        {
+          "es": "Has llegado, en definitiva, al nivel más alto que este idioma puede ofrecerte: el de pensar y sentir en español.",
+          "en": "You have reached, ultimately, the highest level this language can offer you: thinking and feeling in Spanish."
+        },
+        {
+          "es": "Cabe destacar que muy pocos estudiantes, en cualquier idioma, alcanzan jamás este nivel de dominio y matiz.",
+          "en": "It's worth noting that very few students, in any language, ever reach this level of mastery and nuance."
+        },
+        {
+          "es": "Sabiendo todo lo que ahora sabes, el español ha dejado de ser un idioma extranjero para convertirse en el tuyo propio.",
+          "en": "Knowing everything you now know, Spanish has stopped being a foreign language and has become your own."
+        },
+        {
+          "es": "En definitiva, esto no es el final de tu español, sino el comienzo de toda una vida viviéndolo con plenitud.",
+          "en": "Ultimately, this isn't the end of your Spanish, but the beginning of a whole lifetime living it fully."
+        }
+      ]
+    }
+  ]
+}
