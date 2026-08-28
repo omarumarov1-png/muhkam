@@ -1,0 +1,2364 @@
+{
+  "level": "c2",
+  "grammarTopics": {
+    "c2-proverbs": {
+      "title": "Proverbs: Compressed Cultural Wisdom",
+      "pattern": "fixed traditional sayings, often rhymed or rhythmic, carrying a moral or practical lesson",
+      "explanation": "Proverbs are centuries-old compressed wisdom, often built for memorability with rhyme or rhythm: \"Qui vivra verra\" (whoever lives will see = time will tell), \"Il ne faut pas vendre la peau de l'ours avant de l'avoir tué\" (don't sell the bear's skin before killing it = don't count your chickens), \"Dis-moi qui tu fréquentes, je te dirai qui tu es\" (tell me who you spend time with, I'll tell you who you are). Using one naturally, at the right moment, is one of the clearest markers of near-native fluency — they can't be improvised or translated, only known.",
+      "fact": "Many proverbs exist in pairs where the second half is often left unsaid because everyone already knows it — a native speaker might just say \"petit à petit...\" and trail off, trusting the listener to mentally complete \"l'oiseau fait son nid\" (little by little, the bird builds its nest), the same way English speakers might say \"when in Rome...\" without finishing the phrase.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Ça fait trois jours que je me lève à cinq heures pour finir le projet.",
+          "en": "I've been getting up at five for three days to finish the project."
+        },
+        {
+          "sp": "B",
+          "native": "Eh bien, comme on dit, qui va à la chasse perd sa place, alors ne lâche rien.",
+          "en": "Well, as they say, if you snooze you lose, so don't let up."
+        }
+      ]
+    },
+    "c2-literary-allusion": {
+      "title": "Literary Allusion: Referencing a Shared Canon",
+      "pattern": "brief references to well-known literary works/figures, used to compress meaning",
+      "explanation": "At mastery level, speakers and writers reference well-known literary or cultural touchstones to compress a whole idea into a phrase, trusting the listener to fill in the rest: calling something \"kafkaïen\" evokes absurd, oppressive bureaucracy in a single word; describing someone as ayant \"un côté Don Quichotte\" evokes noble but impractical idealism. French draws especially on Molière (comic hypocrisy, \"faire son Tartuffe\"), Voltaire (biting irony), and Camus (the absurd, \"absurde\" as a philosophical term).",
+      "fact": "\"C'est la cerise sur le gâteau\" (it's the cherry on the cake, meaning the final perfect touch) is itself a common French expression, while more literary references like \"un mouton de Panurge\" (a Panurge's sheep, from Rabelais — someone who blindly follows the crowd) carry a double resonance for readers who know the source.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Toute cette démarche administrative est complètement kafkaïenne.",
+          "en": "This whole bureaucratic process is completely Kafkaesque."
+        },
+        {
+          "sp": "B",
+          "native": "Oui, c'est une quête aussi quichottesque qu'inutile.",
+          "en": "Yes, it's as quixotic a quest as it is useless."
+        }
+      ]
+    },
+    "c2-register-shifting": {
+      "title": "Register-Shifting: Reading the Room in Real Time",
+      "pattern": "the same idea expressed at intimate/casual/professional/formal-ceremonial registers",
+      "explanation": "Mastery means fluidly moving between registers within a single conversation, the same way a native speaker toggles tone depending on who's listening. Telling a close friend something went badly might be \"j'ai merdé\" (very crude/intimate); the same fact to a coworker might be \"ça s'est un peu compliqué\"; to a client, \"il y a eu un contretemps que nous sommes en train de résoudre\"; at a formal ceremony, \"nous déplorons vivement le désagrément occasionné.\" A C2 speaker chooses instinctively, without translating in their head.",
+      "fact": "Register mismatches are one of the most common ways an otherwise-fluent non-native speaker gets flagged as foreign — using a stiff, textbook-formal phrase with close friends (or, worse, a crude/intimate phrase in a professional setting) reads as more of a tell than any grammar mistake, because native speakers rarely consciously notice register — they just feel when it's wrong.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Écoute, j'ai merdé avec le rapport, ça m'est complètement sorti de la tête.",
+          "en": "Hey, I messed up with the report, I completely forgot."
+        },
+        {
+          "sp": "B",
+          "native": "T'inquiète, on expliquera au client qu'il y a eu un petit contretemps.",
+          "en": "Relax, we'll explain to the client that there was a small hiccup."
+        }
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Proverbs About Effort",
+      "titleNative": "Proverbes sur l'effort",
+      "items": [
+        {
+          "fr": "Qui ne risque rien n'a rien, alors lançons-nous.",
+          "en": "Nothing ventured, nothing gained, so let's go for it."
+        },
+        {
+          "fr": "On n'a rien sans rien, et ce projet ne fera pas exception.",
+          "en": "You get nothing for nothing, and this project won't be the exception."
+        },
+        {
+          "fr": "Il n'y a pas de raccourci sans effort, même si nous cherchons une solution facile.",
+          "en": "There's no shortcut without work, no matter how much we look for an easy solution."
+        },
+        {
+          "fr": "Petit à petit, l'oiseau fait son nid, alors ne te décourage pas devant les résultats immédiats.",
+          "en": "Little by little, the bird builds its nest, so don't despair over immediate results."
+        }
+      ],
+      "topicId": "c2-proverbs"
+    },
+    {
+      "number": 2,
+      "title": "Proverbs About Caution",
+      "titleNative": "Proverbes sur la prudence",
+      "items": [
+        {
+          "fr": "Il vaut mieux tourner sept fois sa langue dans sa bouche, alors réfléchis avant de parler.",
+          "en": "It's better to turn your tongue seven times before speaking, so think before you speak."
+        },
+        {
+          "fr": "Mieux vaut prévenir que guérir, c'est pour ça que nous vérifions tout deux fois.",
+          "en": "Better safe than sorry, that's why we check everything twice."
+        },
+        {
+          "fr": "Il ne faut pas vendre la peau de l'ours avant de l'avoir tué, il reste à confirmer l'accord.",
+          "en": "Don't count your chickens before they hatch, we still need to confirm the deal."
+        },
+        {
+          "fr": "Qui trop embrasse mal étreint, alors concentrons-nous sur moins de projets.",
+          "en": "He who grasps too much holds little, so let's focus on fewer projects."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Proverbs About Character",
+      "titleNative": "Proverbes sur le caractère",
+      "items": [
+        {
+          "fr": "Dis-moi qui tu fréquentes, je te dirai qui tu es, c'est pourquoi je choisis bien mes amitiés.",
+          "en": "Tell me who you walk with and I'll tell you who you are, that's why I choose my friendships carefully."
+        },
+        {
+          "fr": "Chassez le naturel, il revient au galop, il n'a jamais vraiment changé sa façon d'être.",
+          "en": "A leopard never changes its spots, he has never changed who he is."
+        },
+        {
+          "fr": "Tel père, tel fils, on voit bien qu'il a hérité du caractère de son père.",
+          "en": "Like father, like son, you can tell he inherited his father's character."
+        },
+        {
+          "fr": "Les actes valent mieux que les paroles, alors prouve-le par des faits.",
+          "en": "Actions speak louder than words, so prove it with deeds."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Proverbs About Time and Patience",
+      "titleNative": "Proverbes sur le temps et la patience",
+      "items": [
+        {
+          "fr": "Ce n'est pas en se levant plus tôt que le soleil se lève plus vite, alors sois patient avec le processus.",
+          "en": "Rushing doesn't make the sun rise earlier, so be patient with the process."
+        },
+        {
+          "fr": "Le temps guérit tout, même les blessures les plus profondes.",
+          "en": "Time heals all wounds, even the deepest ones."
+        },
+        {
+          "fr": "Il ne faut pas remettre au lendemain ce qu'on peut faire le jour même.",
+          "en": "Don't leave for tomorrow what you can do today."
+        },
+        {
+          "fr": "Rome ne s'est pas faite en un jour, alors sois patient avec tes propres progrès.",
+          "en": "Rome wasn't built in a day, so be patient with your own progress."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Proverbs About Adversity",
+      "titleNative": "Proverbes sur l'adversité",
+      "items": [
+        {
+          "fr": "Après la pluie, le beau temps.",
+          "en": "After the rain, good weather comes."
+        },
+        {
+          "fr": "Il n'y a pas de mal qui dure toujours.",
+          "en": "No bad situation lasts forever."
+        },
+        {
+          "fr": "À mauvais temps, bonne figure, alors continuons avec optimisme.",
+          "en": "Keep a good face in bad weather, so let's move forward with optimism."
+        },
+        {
+          "fr": "Ce qui ne nous tue pas nous rend plus forts, même si sur le moment cela ne semble pas vrai.",
+          "en": "What doesn't kill you makes you stronger, even if it doesn't seem that way at the time."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Proverbs About Knowledge",
+      "titleNative": "Proverbes sur le savoir",
+      "items": [
+        {
+          "fr": "Ce n'est pas à un vieux singe qu'on apprend à faire la grimace, alors écoute les aînés.",
+          "en": "You can't teach an old dog new tricks (an old monkey knows the tricks), so listen to your elders."
+        },
+        {
+          "fr": "Il n'est jamais trop tard pour apprendre quelque chose de nouveau.",
+          "en": "It's never too late to learn something new."
+        },
+        {
+          "fr": "Les cordonniers sont les plus mal chaussés, et cela arrive plus souvent qu'on ne le croit.",
+          "en": "The shoemaker's children go barefoot, and that happens more than you think."
+        },
+        {
+          "fr": "Le savoir n'encombre jamais, alors n'arrête jamais d'étudier.",
+          "en": "Knowledge takes up no space, so never stop studying."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Proverbs About Opportunity",
+      "titleNative": "Proverbes sur l'opportunité",
+      "items": [
+        {
+          "fr": "À cheval donné, on ne regarde pas les dents, alors accepte l'aide avec gratitude.",
+          "en": "Don't look a gift horse in the mouth, so accept the help with gratitude."
+        },
+        {
+          "fr": "Quand une porte se ferme, une autre s'ouvre.",
+          "en": "When one door closes, another opens."
+        },
+        {
+          "fr": "Un tiens vaut mieux que deux tu l'auras, alors ne risque pas ce qui est sûr.",
+          "en": "A bird in hand is worth more than two you might get, so don't risk what's certain."
+        },
+        {
+          "fr": "Il faut battre le fer tant qu'il est chaud.",
+          "en": "You have to strike while the iron is hot."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Proverbs About Relationships",
+      "titleNative": "Proverbes sur les relations",
+      "items": [
+        {
+          "fr": "C'est dans le besoin qu'on reconnaît ses vrais amis.",
+          "en": "A friend in need is a friend indeed."
+        },
+        {
+          "fr": "Qui a un ami a un trésor, alors prends-en bien soin.",
+          "en": "He who has a friend has a treasure, so take good care of it."
+        },
+        {
+          "fr": "Il n'y a pas de fumée sans feu, il faut toujours vérifier avant de juger.",
+          "en": "There's no smoke without fire, you always have to check before judging."
+        },
+        {
+          "fr": "L'habit ne fait pas le moine, alors ne juge jamais quelqu'un sans le connaître vraiment.",
+          "en": "The habit doesn't make the monk, so never judge without truly knowing someone."
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Proverbs About Wisdom and Balance",
+      "titleNative": "Proverbes sur la sagesse et l'équilibre",
+      "items": [
+        {
+          "fr": "Qui ne risque rien n'a rien, même si parfois cela fait peur d'essayer.",
+          "en": "Nothing ventured, nothing gained, even though it's sometimes scary to try."
+        },
+        {
+          "fr": "Chacun son métier et les vaches seront bien gardées, chacun devrait se concentrer sur ce qu'il sait faire.",
+          "en": "Everyone should mind their own trade, everyone should focus on what they know how to do."
+        },
+        {
+          "fr": "Tout avec mesure et rien avec excès, ç'a toujours été ma philosophie.",
+          "en": "Everything in moderation, nothing to excess, that has always been my philosophy."
+        },
+        {
+          "fr": "Il faut savoir donner du temps au temps.",
+          "en": "One must know how to give time to time."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Review: Proverbs",
+      "titleNative": "Repaso: Proverbes",
+      "items": [
+        {
+          "fr": "Qui va à la chasse perd sa place, et aujourd'hui nous l'avons enfin vérifié.",
+          "en": "If you snooze you lose, and today we finally proved it."
+        },
+        {
+          "fr": "Après la pluie, le beau temps, et c'est exactement ce qui s'est passé pour nous.",
+          "en": "After the rain, good weather comes, and so it was in our case."
+        },
+        {
+          "fr": "Qui a un ami a un trésor, et aujourd'hui je l'apprécie plus que jamais.",
+          "en": "He who has a friend has a treasure, and today I value it more than ever."
+        },
+        {
+          "fr": "En définitive, chaque proverbe recèle une vérité que le temps a prouvée maintes fois.",
+          "en": "Ultimately, every proverb holds a truth that time has proven again and again."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "References to Molière",
+      "titleNative": "Références à Molière",
+      "items": [
+        {
+          "fr": "Son hypocrisie rappelle un vrai Tartuffe.",
+          "en": "His hypocrisy recalls a true Tartuffe."
+        },
+        {
+          "fr": "Comme un bon Alceste, il refuse tout compromis avec la société.",
+          "en": "Like a good Alceste, he refuses any compromise with society."
+        },
+        {
+          "fr": "Cette comédie de mœurs semble tout droit sortie du théâtre classique.",
+          "en": "This comedy of manners seems taken straight from classical theater."
+        },
+        {
+          "fr": "Il joue les avares comme le personnage d'Harpagon.",
+          "en": "He plays the miser like the character of Harpagon."
+        }
+      ],
+      "topicId": "c2-literary-allusion"
+    },
+    {
+      "number": 12,
+      "title": "References to Voltaire",
+      "titleNative": "Références à Voltaire",
+      "items": [
+        {
+          "fr": "Sa plume mordante rappelle l'ironie de Voltaire.",
+          "en": "His biting pen recalls Voltaire's irony."
+        },
+        {
+          "fr": "Il croit vivre dans le meilleur des mondes possibles, comme Candide.",
+          "en": "He believes he lives in the best of all possible worlds, like Candide."
+        },
+        {
+          "fr": "Son esprit critique envers les institutions rappelle celui des philosophes des Lumières.",
+          "en": "His critical spirit toward institutions recalls that of the Enlightenment philosophers."
+        },
+        {
+          "fr": "Cette satire sociale a un ton résolument voltairien.",
+          "en": "This social satire has a resolutely Voltairean tone."
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "title": "References to Camus and the Absurd",
+      "titleNative": "Références à Camus et l'absurde",
+      "items": [
+        {
+          "fr": "Sa vie semble marquée par un sentiment d'absurde presque camusien.",
+          "en": "His life seems marked by an almost Camusian sense of the absurd."
+        },
+        {
+          "fr": "Comme Sisyphe, il continue son travail sans en attendre de sens véritable.",
+          "en": "Like Sisyphus, he continues his work without expecting any real meaning from it."
+        },
+        {
+          "fr": "Sa froideur face à la tragédie rappelle le personnage de Meursault.",
+          "en": "His coldness in the face of tragedy recalls the character of Meursault."
+        },
+        {
+          "fr": "Cette absurdité du quotidien traverse toute son œuvre littéraire.",
+          "en": "This everyday absurdity runs throughout his entire literary work."
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "title": "References to Hugo and Romanticism",
+      "titleNative": "Références à Hugo et au romantisme",
+      "items": [
+        {
+          "fr": "Son discours avait la grandeur épique d'un roman de Victor Hugo.",
+          "en": "His speech had the epic grandeur of a Victor Hugo novel."
+        },
+        {
+          "fr": "Il défend les plus démunis avec la passion d'un Jean Valjean.",
+          "en": "He defends the most disadvantaged with the passion of a Jean Valjean."
+        },
+        {
+          "fr": "Cette description de la misère urbaine rappelle les romans du dix-neuvième siècle.",
+          "en": "This description of urban poverty recalls nineteenth-century novels."
+        },
+        {
+          "fr": "Son amour pour la liberté a quelque chose de profondément romantique.",
+          "en": "His love for freedom has something deeply romantic about it."
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "title": "References to Saint-Exupéry",
+      "titleNative": "Références à Saint-Exupéry",
+      "items": [
+        {
+          "fr": "Comme le Petit Prince, elle pose des questions simples mais profondes.",
+          "en": "Like the Little Prince, she asks simple but profound questions."
+        },
+        {
+          "fr": "L'essentiel est invisible pour les yeux, disait-il souvent en citant l'auteur.",
+          "en": "What is essential is invisible to the eye, he often said, quoting the author."
+        },
+        {
+          "fr": "Sa façon de voir le monde a quelque chose d'enfantin et de sage à la fois.",
+          "en": "His way of seeing the world has something both childlike and wise."
+        },
+        {
+          "fr": "Cette amitié rappelle celle entre le Petit Prince et le renard.",
+          "en": "This friendship recalls that between the Little Prince and the fox."
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "title": "Common Cultural Touchstones",
+      "titleNative": "Références culturelles communes",
+      "items": [
+        {
+          "fr": "Cette phrase est devenue aussi célèbre que la cerise sur le gâteau.",
+          "en": "That phrase has become as famous as the cherry on the cake."
+        },
+        {
+          "fr": "Son ambition démesurée rappelle les grands personnages tragiques de la littérature.",
+          "en": "His excessive ambition recalls the great tragic characters of literature."
+        },
+        {
+          "fr": "Cette trahison fut aussi dramatique que n'importe quelle tragédie classique.",
+          "en": "That betrayal was as dramatic as any classical tragedy."
+        },
+        {
+          "fr": "Leur histoire d'amour impossible semble sortie d'un roman romantique du dix-neuvième siècle.",
+          "en": "Their impossible love story seems taken from a nineteenth-century romance novel."
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "title": "Allusion in Everyday Speech",
+      "titleNative": "Allusion dans le langage courant",
+      "items": [
+        {
+          "fr": "Cette réunion devient aussi interminable qu'un roman de mille pages.",
+          "en": "This meeting is becoming as endless as a thousand-page novel."
+        },
+        {
+          "fr": "Son plan avait autant de rebondissements qu'un bon roman policier.",
+          "en": "His plan had as many unexpected twists as a good mystery novel."
+        },
+        {
+          "fr": "La fin de la série fut aussi tragique que celle d'une œuvre classique.",
+          "en": "The series finale was as tragic as that of a classic work."
+        },
+        {
+          "fr": "Sa vie ressemble à un roman, avec des rebondissements que personne n'aurait pu imaginer.",
+          "en": "His life seems like a novel, with twists no one could have imagined."
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "title": "Allusion in Political and Social Commentary",
+      "titleNative": "Allusion dans le commentaire politique et social",
+      "items": [
+        {
+          "fr": "Le discours du politicien avait un ton orwellien préoccupant.",
+          "en": "The politician's speech had a worrying Orwellian tone."
+        },
+        {
+          "fr": "Cette surveillance constante rappelle inévitablement les dystopies littéraires.",
+          "en": "The constant surveillance inevitably recalls literary dystopias."
+        },
+        {
+          "fr": "Cette société semblait tout droit sortie d'un roman dystopique.",
+          "en": "That society seemed taken directly from a dystopian novel."
+        },
+        {
+          "fr": "Sa façon de manipuler l'information a quelque chose de profondément kafkaïen.",
+          "en": "His way of manipulating information has something deeply Kafkaesque."
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "title": "Blending Allusion with Everyday Wit",
+      "titleNative": "Combiner allusion et esprit quotidien",
+      "items": [
+        {
+          "fr": "Attendre dans cette file fut une véritable odyssée.",
+          "en": "Waiting in that line was an odyssey."
+        },
+        {
+          "fr": "Sa recherche de l'emploi parfait est devenue presque épique.",
+          "en": "His search for the perfect job has become almost an epic."
+        },
+        {
+          "fr": "Chaque tentative échouée s'ajoutait à sa propre comédie d'erreurs personnelle.",
+          "en": "Each failed attempt added to his own personal comedy of errors."
+        },
+        {
+          "fr": "Survivre à ce déménagement fut un véritable exploit héroïque.",
+          "en": "Surviving that move was quite a heroic feat."
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "title": "Review: Literary Allusion",
+      "titleNative": "Repaso: Allusion littéraire",
+      "items": [
+        {
+          "fr": "Utiliser des références littéraires avec naturel est signe d'une maîtrise profonde de la langue.",
+          "en": "Using literary references naturally is a sign of deep mastery of the language."
+        },
+        {
+          "fr": "Chaque allusion, bien employée, ajoute des couches de sens à une simple phrase.",
+          "en": "Each allusion, well used, adds layers of meaning to a simple phrase."
+        },
+        {
+          "fr": "J'espère que tu reconnaîtras ces références la prochaine fois que tu les croiseras.",
+          "en": "I hope you recognize these references the next time you encounter them."
+        },
+        {
+          "fr": "En définitive, la littérature est devenue une partie du langage de tous les jours.",
+          "en": "Ultimately, literature has become part of everyday language."
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "title": "The Limits of Language",
+      "titleNative": "Les limites du langage",
+      "items": [
+        {
+          "fr": "Il existe des émotions si complexes qu'aucune langue ne parvient à les saisir complètement.",
+          "en": "There are emotions so complex that no language manages to capture them completely."
+        },
+        {
+          "fr": "Le langage façonne, dans une certaine mesure, notre façon même de percevoir la réalité.",
+          "en": "Language shapes, to some extent, the way we perceive reality itself."
+        },
+        {
+          "fr": "Plus nous approfondissons une langue, plus nous prenons conscience de ses limites inhérentes.",
+          "en": "The deeper we delve into a language, the more aware we become of its inherent limits."
+        },
+        {
+          "fr": "Certains mots intraduisibles révèlent des nuances culturelles que d'autres langues n'envisagent même pas.",
+          "en": "Certain untranslatable words reveal cultural nuances that other languages don't even consider."
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "title": "The Paradox of Choice",
+      "titleNative": "Le paradoxe du choix",
+      "items": [
+        {
+          "fr": "Plus nous avons d'options, paradoxalement, plus il devient difficile de décider.",
+          "en": "The more options we have, paradoxically, the harder it becomes to decide."
+        },
+        {
+          "fr": "La liberté absolue, sans aucune limite, peut devenir aussi paralysante que l'absence de choix.",
+          "en": "Absolute freedom, without any kind of limit, can become as paralyzing as a lack of options."
+        },
+        {
+          "fr": "Parfois nous aspirons à la liberté, sans nous rendre compte que nous en craignons aussi les conséquences.",
+          "en": "Sometimes we long for freedom, without realizing we also fear its consequences."
+        },
+        {
+          "fr": "Choisir implique toujours, inévitablement, de renoncer à toutes les autres possibilités.",
+          "en": "Choosing always inevitably implies giving up all other possibilities."
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "title": "The Nature of Consciousness",
+      "titleNative": "La nature de la conscience",
+      "items": [
+        {
+          "fr": "Personne n'est parvenu à expliquer complètement pourquoi la matière donne lieu à l'expérience subjective.",
+          "en": "No one has fully managed to explain why matter gives rise to subjective experience."
+        },
+        {
+          "fr": "Comment pouvons-nous être certains qu'une autre personne vit le monde comme nous le vivons ?",
+          "en": "How can we be sure that another person experiences the world exactly as we do?"
+        },
+        {
+          "fr": "La conscience demeure, peut-être, le plus grand mystère non résolu de la science.",
+          "en": "Consciousness remains, perhaps, science's greatest unresolved mystery."
+        },
+        {
+          "fr": "Certains soutiennent que la conscience n'est qu'une illusion générée par le cerveau.",
+          "en": "Some argue that consciousness is simply an illusion generated by the brain."
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "title": "Reality and Simulation",
+      "titleNative": "Réalité et simulation",
+      "items": [
+        {
+          "fr": "Philosophes et physiciens se demandent tous deux si notre réalité pourrait être une simulation.",
+          "en": "Philosophers and physicists alike wonder whether our reality could be a simulation."
+        },
+        {
+          "fr": "Même si nous ne pouvons pas le prouver, la simple possibilité est troublante.",
+          "en": "Although we can't prove it, the possibility itself is unsettling."
+        },
+        {
+          "fr": "Cela aurait-il vraiment de l'importance si nous vivions dans une simulation, si l'expérience semble si réelle ?",
+          "en": "Would it really matter if we lived inside a simulation, if the experience feels so real?"
+        },
+        {
+          "fr": "Notre perception du réel est toujours médiatisée par les limites de nos sens.",
+          "en": "Our perception of what's real is always mediated by the limits of our senses."
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "title": "The Ethics of Artificial Minds",
+      "titleNative": "L'éthique des esprits artificiels",
+      "items": [
+        {
+          "fr": "Si une intelligence artificielle pouvait souffrir, aurions-nous alors des obligations morales envers elle ?",
+          "en": "If an artificial intelligence could suffer, would we then have moral obligations toward it?"
+        },
+        {
+          "fr": "La frontière entre simulation de conscience et conscience réelle devient de plus en plus floue.",
+          "en": "The line between simulated consciousness and real consciousness becomes increasingly blurry."
+        },
+        {
+          "fr": "Créer quelque chose capable de ressentir, sans garantir son bien-être, pose un profond dilemme éthique.",
+          "en": "Creating something capable of feeling, without guaranteeing its well-being, poses a deep ethical dilemma."
+        },
+        {
+          "fr": "Peut-être que la question n'est pas de savoir si la machine pense, mais si elle mérite qu'on s'en soucie.",
+          "en": "Perhaps the question isn't whether the machine thinks, but whether it deserves to be cared about."
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "title": "Beauty and Subjectivity",
+      "titleNative": "La beauté et la subjectivité",
+      "items": [
+        {
+          "fr": "La beauté existe-t-elle objectivement, ou est-elle entièrement une construction de celui qui observe ?",
+          "en": "Does beauty exist objectively, or is it entirely a construction of the observer?"
+        },
+        {
+          "fr": "Ce qu'une culture considère comme beau, une autre pourrait le considérer comme tout à fait ordinaire.",
+          "en": "What one culture considers beautiful, another might consider entirely unremarkable."
+        },
+        {
+          "fr": "Peut-être que la beauté réside justement dans cette tension entre l'universel et le personnel.",
+          "en": "Perhaps beauty resides precisely in that tension between the universal and the personal."
+        },
+        {
+          "fr": "Trouver de la beauté dans l'imperfection est, en soi, une forme de sagesse.",
+          "en": "Finding beauty in imperfection is, in itself, a form of wisdom."
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "title": "The Illusion of Permanence",
+      "titleNative": "L'illusion de la permanence",
+      "items": [
+        {
+          "fr": "Nous nous accrochons à l'idée de permanence, alors que tout autour de nous change constamment.",
+          "en": "We cling to the idea of permanence, even though everything around us is constantly changing."
+        },
+        {
+          "fr": "Peut-être que la souffrance naît justement de notre résistance à accepter le caractère éphémère de toute chose.",
+          "en": "Perhaps suffering arises precisely from resisting the acceptance of how fleeting all things are."
+        },
+        {
+          "fr": "Aucune identité, aussi solide semble-t-elle, ne reste exactement la même avec le temps.",
+          "en": "No identity, however solid it may seem, remains exactly the same over time."
+        },
+        {
+          "fr": "Accepter l'impermanence ne signifie pas cesser d'apprécier ce que nous avons maintenant.",
+          "en": "Accepting impermanence doesn't mean ceasing to value what we have now."
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "title": "The Weight of Choice and Responsibility",
+      "titleNative": "Le poids du choix et de la responsabilité",
+      "items": [
+        {
+          "fr": "Nous sommes, dans une large mesure, la somme des décisions que nous avons prises tout au long de notre vie.",
+          "en": "We are, to a great extent, the sum of the decisions we've made throughout life."
+        },
+        {
+          "fr": "Chaque choix implique aussi la responsabilité de ses conséquences.",
+          "en": "With every choice, we also carry the responsibility for its consequences."
+        },
+        {
+          "fr": "Refuser de choisir est, en soi, une forme de choix avec ses propres conséquences.",
+          "en": "Refusing to choose is, in itself, a form of choice with its own consequences."
+        },
+        {
+          "fr": "La vraie liberté implique d'accepter le poids de nos propres décisions.",
+          "en": "True freedom implies accepting the weight of our own decisions."
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "title": "The Question of Objective Truth",
+      "titleNative": "La question de la vérité objective",
+      "items": [
+        {
+          "fr": "Dans un monde saturé d'informations, distinguer la vérité est devenu un défi collectif.",
+          "en": "In a world saturated with information, distinguishing truth has become a collective challenge."
+        },
+        {
+          "fr": "Une vérité peut-elle exister complètement indépendamment de celui qui l'interprète ?",
+          "en": "Can a truth exist completely independent of whoever interprets it?"
+        },
+        {
+          "fr": "La science s'approche de la vérité par les preuves, même si elle n'atteint jamais une certitude absolue.",
+          "en": "Science approaches truth through evidence, although it never reaches absolute certainty."
+        },
+        {
+          "fr": "Accepter l'incertitude, plutôt que de la craindre, pourrait être le premier pas vers une compréhension plus honnête.",
+          "en": "Accepting uncertainty, instead of fearing it, might be the first step toward a more honest understanding."
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "title": "Review: Philosophical Argumentation",
+      "titleNative": "Repaso: Argumentation philosophique",
+      "items": [
+        {
+          "fr": "Ces questions n'ont pas de réponses définitives, et c'est peut-être justement là toute leur valeur.",
+          "en": "These questions have no definitive answers, and perhaps that is precisely their value."
+        },
+        {
+          "fr": "Remettre en question nos propres certitudes est, en définitive, le commencement de toute sagesse authentique.",
+          "en": "Questioning our own certainties is, ultimately, the beginning of all genuine wisdom."
+        },
+        {
+          "fr": "J'espère que ces réflexions t'accompagneront bien au-delà de ce cours.",
+          "en": "I hope these reflections stay with you well beyond this course."
+        },
+        {
+          "fr": "En dernière instance, réfléchir profondément au monde est, en soi, un acte de liberté.",
+          "en": "Ultimately, thinking deeply about the world is, in itself, an act of freedom."
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "title": "The Same Idea, Four Registers",
+      "titleNative": "La même idée, quatre registres",
+      "items": [
+        {
+          "fr": "Oh non, j'ai raté mon vol, quelle galère.",
+          "en": "Oh no, I missed my flight, what a bummer."
+        },
+        {
+          "fr": "Désolé, j'ai raté mon vol à cause d'un problème de circulation.",
+          "en": "Sorry, I missed my flight due to a traffic problem."
+        },
+        {
+          "fr": "Je regrette de vous informer que je n'ai pas pu embarquer sur le vol prévu.",
+          "en": "I regret to inform you that I was unable to board the scheduled flight."
+        },
+        {
+          "fr": "Il est porté à votre connaissance qu'en raison de circonstances imprévues, le passager n'a pas embarqué à bord de l'appareil.",
+          "en": "It is hereby communicated that, due to unforeseen circumstances, the passenger did not board the aircraft."
+        }
+      ],
+      "topicId": "c2-register-shifting"
+    },
+    {
+      "number": 32,
+      "title": "Casual with Close Friends",
+      "titleNative": "Registre familier entre amis proches",
+      "items": [
+        {
+          "fr": "Dis donc, on va boire un verre ce soir ou quoi ?",
+          "en": "Hey, are we grabbing a drink tonight or what?"
+        },
+        {
+          "fr": "Non mais sérieux, je n'arrive pas à croire que tu aies fait ça.",
+          "en": "No way, I can't believe you did that."
+        },
+        {
+          "fr": "Cet endroit est trop bien, allons-y tout de suite.",
+          "en": "This place is really great, let's go already."
+        },
+        {
+          "fr": "Aucune idée de quoi faire, aide-moi à réfléchir.",
+          "en": "No idea what to do, help me think of something."
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "title": "Professional but Relaxed",
+      "titleNative": "Professionnel mais détendu",
+      "items": [
+        {
+          "fr": "Le délai s'est un peu compliqué, mais on gère la situation.",
+          "en": "The deadline got a bit complicated for us, but we've got it under control."
+        },
+        {
+          "fr": "On va avoir besoin de deux jours de plus pour boucler ça.",
+          "en": "We're going to need a couple more days to close this out."
+        },
+        {
+          "fr": "L'équipe s'en occupe, je te tiens au courant dès que j'ai du nouveau.",
+          "en": "The team is working on that, I'll let you know as soon as I have updates."
+        },
+        {
+          "fr": "Tout va bien, on a réglé le problème avec le fournisseur.",
+          "en": "All good, we already resolved the issue with the supplier."
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "title": "Formal Client-Facing Language",
+      "titleNative": "Langage formel face au client",
+      "items": [
+        {
+          "fr": "Nous déplorons ce désagrément et travaillons à le résoudre dans les plus brefs délais.",
+          "en": "We regret the inconvenience and are working to resolve it as soon as possible."
+        },
+        {
+          "fr": "Nous vous remercions de votre patience pendant que nous traitons cette affaire.",
+          "en": "We appreciate your patience while we resolve this matter."
+        },
+        {
+          "fr": "Nous avons le plaisir de vous informer que votre demande a été approuvée.",
+          "en": "We are pleased to inform you that your request has been approved."
+        },
+        {
+          "fr": "Nous restons à votre entière disposition pour toute question complémentaire.",
+          "en": "We remain entirely at your disposal for any additional inquiries."
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "title": "Ceremonial and Highly Formal Register",
+      "titleNative": "Registre cérémoniel et très formel",
+      "items": [
+        {
+          "fr": "C'est un honneur de m'adresser à une audience aussi distinguée en cette occasion si particulière.",
+          "en": "It is an honor to address such a distinguished audience on this very special occasion."
+        },
+        {
+          "fr": "Vous êtes cordialement invités à la cérémonie de remise des diplômes de la promotion actuelle.",
+          "en": "You are cordially invited to the graduation ceremony of the current class."
+        },
+        {
+          "fr": "Au nom de l'institution, j'exprime ma plus profonde gratitude aux personnes présentes.",
+          "en": "On behalf of the institution, I express my deepest gratitude to those present."
+        },
+        {
+          "fr": "Je déclare formellement ouverte cette importante rencontre internationale.",
+          "en": "I formally declare this important international gathering open."
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "title": "Recognizing Register in Written Text",
+      "titleNative": "Reconnaître le registre dans un texte écrit",
+      "items": [
+        {
+          "fr": "Un message texte entre amis suit rarement les règles grammaticales strictes.",
+          "en": "A text message between friends rarely follows strict grammar rules."
+        },
+        {
+          "fr": "Un courriel d'entreprise, en revanche, exige précision et un ton mesuré.",
+          "en": "A corporate email, on the other hand, demands precision and a measured tone."
+        },
+        {
+          "fr": "Un contrat juridique utilise un vocabulaire technique pratiquement immuable.",
+          "en": "A legal contract uses a practically unchanging technical vocabulary."
+        },
+        {
+          "fr": "Un poème peut délibérément enfreindre toutes les règles pour créer un effet artistique.",
+          "en": "A poem can deliberately break all the rules to achieve an artistic effect."
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "title": "Adjusting Tone Mid-Conversation",
+      "titleNative": "Ajuster le ton en pleine conversation",
+      "items": [
+        {
+          "fr": "Pardon, je change de ton, mais c'est une affaire sérieuse dont il faut discuter avec soin.",
+          "en": "Sorry, let me shift the tone, but this is a serious matter we need to discuss carefully."
+        },
+        {
+          "fr": "Bon, entre nous, je vais te dire ce qui s'est vraiment passé.",
+          "en": "Well, now that we're being open with each other, let me tell you what really happened."
+        },
+        {
+          "fr": "Pour revenir au sujet professionnel, il nous faut définir les prochaines étapes.",
+          "en": "Getting back to the professional matter, we need to define the next steps."
+        },
+        {
+          "fr": "En laissant de côté les formalités, je veux te remercier du fond du cœur.",
+          "en": "Setting formalities aside, I want to thank you from the heart."
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "title": "Regional Register Variation",
+      "titleNative": "Variation régionale de registre",
+      "items": [
+        {
+          "fr": "Dans certains pays, tutoyer un inconnu est mal vu ; dans d'autres, c'est tout à fait normal.",
+          "en": "In some countries, using \"tu\" with a stranger is rude; in others, it's completely normal."
+        },
+        {
+          "fr": "L'usage du vouvoiement varie énormément selon le pays et le contexte social.",
+          "en": "The use of formal address varies enormously depending on the country and social context."
+        },
+        {
+          "fr": "Ce qui semble naturel dans un pays peut sembler excessivement formel dans un autre.",
+          "en": "What sounds natural in one country can sound exaggeratedly formal in another."
+        },
+        {
+          "fr": "Adapter son registre selon la région témoigne d'une maîtrise véritablement avancée de la langue.",
+          "en": "Adapting register according to the region demonstrates truly advanced mastery of the language."
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "title": "Register in Humor and Sarcasm",
+      "titleNative": "Registre dans l'humour et le sarcasme",
+      "items": [
+        {
+          "fr": "Entre amis, le sarcasme se comprend presque toujours sans qu'il soit nécessaire de l'expliquer.",
+          "en": "With friends, sarcasm is almost always understood without needing to explain it."
+        },
+        {
+          "fr": "Dans un contexte formel, cette même remarque pourrait facilement être mal interprétée.",
+          "en": "In a formal setting, that same comment could easily be misunderstood."
+        },
+        {
+          "fr": "Savoir quand plaisanter et quand ne pas le faire est aussi important que de savoir quoi dire.",
+          "en": "Knowing when to joke and when not to is as important as knowing what to say."
+        },
+        {
+          "fr": "Un humour mal calibré selon le contexte peut créer plus de problèmes que de rires.",
+          "en": "Humor poorly calibrated to the context can create more problems than laughs."
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "title": "Review: Register-Shifting",
+      "titleNative": "Repaso: Changement de registre",
+      "items": [
+        {
+          "fr": "Maîtriser les registres de la langue est peut-être le dernier grand pas vers la fluidité réelle.",
+          "en": "Mastering the language's registers is, perhaps, the final great step toward real fluency."
+        },
+        {
+          "fr": "Chaque situation sociale a son propre code, et l'apprendre demande du temps et de l'observation.",
+          "en": "Every social situation has its own code, and learning it takes time and observation."
+        },
+        {
+          "fr": "J'espère que tu te sens désormais à l'aise pour passer du formel à l'intime.",
+          "en": "I hope you now feel comfortable moving between the formal and the intimate."
+        },
+        {
+          "fr": "En définitive, bien parler une langue, c'est surtout savoir lire celui qui nous écoute.",
+          "en": "Ultimately, speaking a language well is, above all, knowing how to read who's listening to you."
+        }
+      ]
+    },
+    {
+      "number": 41,
+      "title": "A Life in Retrospect",
+      "titleNative": "Une vie en rétrospective",
+      "items": [
+        {
+          "fr": "Si je n'avais pas pris ce risque, jamais je n'aurais vécu la vie que, en définitive, je chéris tant aujourd'hui.",
+          "en": "Had I not taken that risk, I would never have lived the life that, ultimately, I treasure so much today."
+        },
+        {
+          "fr": "Il convient de souligner que, bien que le chemin ait été kafkaïen dans sa complexité, chaque obstacle a fini par devenir une leçon.",
+          "en": "It's worth noting that, although the path was Kafkaesque in its complexity, every obstacle ended up being a lesson."
+        },
+        {
+          "fr": "Sachant ce que je sais maintenant, je doute que j'aurais agi très différemment.",
+          "en": "Knowing what I know now, I doubt I would have acted very differently."
+        },
+        {
+          "fr": "En résumé, qui ne risque rien n'a rien, et moi, sans aucun doute, j'ai gagné bien plus que ce que j'ai risqué.",
+          "en": "In short, nothing ventured, nothing gained, and I, without a doubt, gained much more than I risked."
+        }
+      ]
+    },
+    {
+      "number": 42,
+      "title": "The Weight of a Single Word",
+      "titleNative": "Le poids d'un seul mot",
+      "items": [
+        {
+          "fr": "Un seul mot, prononcé au bon moment, a suffi pour que tout le malentendu se dissipe.",
+          "en": "A single word, spoken at just the right moment, was enough for the entire misunderstanding to dissolve."
+        },
+        {
+          "fr": "On peut se demander combien de relations auraient été sauvées si l'on avait dit à temps ce que l'on ressentait vraiment.",
+          "en": "One might wonder how many relationships would have been saved had what was truly felt been said in time."
+        },
+        {
+          "fr": "Le langage, en définitive, n'est pas seulement un moyen de communication, mais le tissu même de nos relations.",
+          "en": "Language, ultimately, is not just a means of communication, but the very fabric of our relationships."
+        },
+        {
+          "fr": "Bien choisir ses mots, c'est, comme on dit, les actes valent mieux que les paroles.",
+          "en": "Choosing words well is, as they say, actions speak louder than words."
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "title": "A Diplomat's Reflection on Truth",
+      "titleNative": "La réflexion d'un diplomate sur la vérité",
+      "items": [
+        {
+          "fr": "Afin de préserver la paix, il avait appris à dire des demi-vérités sans jamais mentir tout à fait.",
+          "en": "For the sake of peace, he had learned to tell half-truths without ever fully lying."
+        },
+        {
+          "fr": "Il convient de souligner que, sous peine de rompre des décennies de confiance, il ne trahit jamais un secret d'État.",
+          "en": "It's worth noting that, under penalty of breaking decades of trust, he never betrayed a state secret."
+        },
+        {
+          "fr": "S'il avait parlé avec une totale franchise, la guerre aurait peut-être éclaté bien plus tôt.",
+          "en": "Had he spoken with complete frankness, the war might have broken out much earlier."
+        },
+        {
+          "fr": "En définitive, il comprit que la diplomatie était, en quelque sorte, l'art de dire sans tout dire.",
+          "en": "Ultimately, he understood diplomacy was, in a way, the art of saying without fully saying."
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "title": "An Immigrant's Layered Identity",
+      "titleNative": "L'identité en couches d'un immigré",
+      "items": [
+        {
+          "fr": "Ayant vécu entre deux cultures toute sa vie, il ne savait plus tout à fait à laquelle il appartenait.",
+          "en": "Having lived between two cultures his whole life, he no longer knew which one he fully belonged to."
+        },
+        {
+          "fr": "Il convient de souligner que, loin de se sentir divisé, il a appris à habiter les deux mondes simultanément.",
+          "en": "It's worth noting that, far from feeling divided, he learned to inhabit both worlds simultaneously."
+        },
+        {
+          "fr": "S'il n'avait pas émigré, jamais il n'aurait découvert la richesse de voir le monde avec deux paires d'yeux.",
+          "en": "Had he not emigrated, he would never have discovered the richness of seeing the world with two pairs of eyes."
+        },
+        {
+          "fr": "En définitive, dis-moi qui tu fréquentes, je te dirai qui tu es, mais lui, fièrement, fréquentait deux mondes à la fois.",
+          "en": "Ultimately, tell me who you walk with and I'll tell you who you are, but he walked, proudly, between two worlds."
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "title": "A Meditation on Forgiveness",
+      "titleNative": "Une méditation sur le pardon",
+      "items": [
+        {
+          "fr": "Pardonner, sachant que la blessure ne disparaîtra jamais complètement, est peut-être l'acte le plus courageux qui soit.",
+          "en": "Forgiving, knowing the wound will never fully disappear, is perhaps the bravest act there is."
+        },
+        {
+          "fr": "Si elle ne lui avait pas pardonné, elle aurait porté cette rancœur kafkaïenne pour le reste de sa vie.",
+          "en": "Had she not forgiven him, she would have carried that Kafkaesque resentment for the rest of her life."
+        },
+        {
+          "fr": "Il convient de souligner que le pardon n'efface pas le passé, mais libère celui qui pardonne.",
+          "en": "It's worth noting that forgiveness doesn't erase the past, but it does free the one who forgives."
+        },
+        {
+          "fr": "En définitive, le temps guérit tout, mais seulement si l'on décide activement de le laisser guérir.",
+          "en": "Ultimately, time heals all wounds, but only if one actively decides to let it heal."
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "title": "The Artist's Relationship with Failure",
+      "titleNative": "La relation de l'artiste avec l'échec",
+      "items": [
+        {
+          "fr": "Ayant échoué tant de fois, il avait presque complètement cessé de craindre le rejet.",
+          "en": "Having failed so many times, he had almost completely stopped fearing rejection."
+        },
+        {
+          "fr": "Il convient de souligner que chaque œuvre rejetée, loin de l'arrêter, a considérablement affiné sa technique.",
+          "en": "It's worth noting that every rejected work, far from stopping him, considerably refined his technique."
+        },
+        {
+          "fr": "S'il n'avait pas autant échoué au début, jamais il n'aurait développé la résilience qui le définit aujourd'hui.",
+          "en": "Had he not failed so much at the beginning, he would never have developed the resilience that defines him today."
+        },
+        {
+          "fr": "En définitive, on n'a rien sans rien, et il a payé ce prix au centuple.",
+          "en": "Ultimately, he who wants something must pay for it, and he paid that price many times over."
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "title": "A Scientist's Faith in Doubt",
+      "titleNative": "La foi d'un scientifique dans le doute",
+      "items": [
+        {
+          "fr": "Sachant que toute théorie est, au fond, provisoire, il a appris à aimer l'incertitude elle-même.",
+          "en": "Knowing that every theory is, at its core, provisional, he learned to love uncertainty itself."
+        },
+        {
+          "fr": "Il convient de souligner que douter de tout, même de ses propres conclusions, était sa plus grande vertu scientifique.",
+          "en": "It's worth noting that doubting everything, even his own conclusions, was his greatest scientific virtue."
+        },
+        {
+          "fr": "S'il n'avait pas remis en question le consensus établi, jamais il ne serait parvenu à sa découverte la plus importante.",
+          "en": "Had he not questioned the established consensus, he would never have arrived at his most important discovery."
+        },
+        {
+          "fr": "En définitive, le savoir n'encombre jamais, mais douter du savoir renferme peut-être encore plus de sagesse.",
+          "en": "Ultimately, knowledge takes up no space, but doubting knowledge, perhaps, holds even more wisdom."
+        }
+      ]
+    },
+    {
+      "number": 48,
+      "title": "The Traveler Who Never Fully Returns",
+      "titleNative": "Le voyageur qui ne revient jamais tout à fait",
+      "items": [
+        {
+          "fr": "Ayant parcouru tant de pays, il ne savait plus vraiment quel endroit il pouvait appeler chez lui.",
+          "en": "Having traveled through so many countries, he no longer knew which place truly felt like home."
+        },
+        {
+          "fr": "Il convient de souligner que chaque départ, bien que douloureux, l'enrichissait d'une manière presque impossible à expliquer.",
+          "en": "It's worth noting that every departure, though painful, enriched him in a way almost impossible to explain."
+        },
+        {
+          "fr": "S'il n'avait pas tant voyagé, jamais il n'aurait compris à quel point nos différences sont, en réalité, minimes.",
+          "en": "Had he not traveled so much, he would never have understood how small our differences really are."
+        },
+        {
+          "fr": "En définitive, celui qui part ne revient jamais exactement le même qu'au départ.",
+          "en": "Ultimately, whoever leaves never returns exactly the same person who left."
+        }
+      ]
+    },
+    {
+      "number": 49,
+      "title": "A Farewell Speech",
+      "titleNative": "Un discours d'adieu",
+      "items": [
+        {
+          "fr": "Ayant partagé tant d'années ensemble, les mots, aujourd'hui, semblent insuffisants.",
+          "en": "Having shared so many years together, words, today, feel insufficient."
+        },
+        {
+          "fr": "Il convient de souligner que chacun d'entre vous a laissé une empreinte indélébile dans cette institution.",
+          "en": "It's worth noting that each of you left an indelible mark on this institution."
+        },
+        {
+          "fr": "Sans votre soutien inconditionnel, jamais nous ne serions arrivés aussi loin.",
+          "en": "Had we not had your unconditional support, we would never have come this far."
+        },
+        {
+          "fr": "En définitive, ce n'est pas un adieu, mais, comme on dit si bien, à bientôt.",
+          "en": "Ultimately, it's not a goodbye, but, as they say, see you soon."
+        }
+      ]
+    },
+    {
+      "number": 50,
+      "title": "Review: Mastery in Fluid Combination",
+      "titleNative": "Repaso: Maîtrise combinée avec fluidité",
+      "items": [
+        {
+          "fr": "Combiner proverbes, allusions littéraires et nuances de registre avec naturel est la marque d'une véritable fluidité.",
+          "en": "Combining proverbs, literary allusions, and register nuances naturally is the mark of true fluency."
+        },
+        {
+          "fr": "Il convient de souligner que tu ne traduis plus depuis l'anglais, mais que tu penses directement en français.",
+          "en": "It's worth noting that you no longer translate from English, but think directly in French."
+        },
+        {
+          "fr": "En définitive, la langue a cessé d'être un outil pour devenir une façon de voir le monde.",
+          "en": "Ultimately, the language has stopped being a tool and has become a way of seeing the world."
+        },
+        {
+          "fr": "J'espère que tu continueras à cultiver cette maîtrise pour le reste de ta vie.",
+          "en": "I hope you keep cultivating this mastery for the rest of your life."
+        }
+      ]
+    },
+    {
+      "number": 51,
+      "title": "The Watchmaker's Silence",
+      "titleNative": "Le silence de l'horloger",
+      "items": [
+        {
+          "fr": "Le vieil horloger, ayant perdu la vue des années auparavant, continuait à réparer les montres guidé uniquement par le toucher.",
+          "en": "The old watchmaker, having lost his sight years earlier, kept repairing watches guided only by touch."
+        },
+        {
+          "fr": "Il convient de souligner qu'il ne se plaignit jamais de sa cécité, sachant que ses mains avaient appris à voir par elles-mêmes.",
+          "en": "It's worth noting he never complained about his blindness, knowing his hands had learned to see for themselves."
+        },
+        {
+          "fr": "S'il n'avait pas perdu la vue, peut-être n'aurait-il jamais découvert la précision presque mystique de ses propres doigts.",
+          "en": "Had he not lost his sight, he might never have discovered the almost mystical precision of his own fingers."
+        },
+        {
+          "fr": "En définitive, cet homme nous a appris qu'il existe des façons de voir qui vont bien au-delà des yeux.",
+          "en": "Ultimately, that man taught us there are ways of seeing that go far beyond the eyes."
+        }
+      ]
+    },
+    {
+      "number": 52,
+      "title": "The Cartographer Who Drew Nothing",
+      "titleNative": "Le cartographe qui ne dessinait rien",
+      "items": [
+        {
+          "fr": "Le cartographe, au lieu de tracer des cartes de terres connues, consacrait sa vie à dessiner des lieux qui n'existaient que dans les rêves.",
+          "en": "The cartographer, instead of drawing maps of known lands, dedicated his life to drawing places that only existed in dreams."
+        },
+        {
+          "fr": "On peut se demander si l'imaginaire mérite moins de rigueur cartographique que le réel.",
+          "en": "One might ask whether the imaginary deserves any less cartographic rigor than the real."
+        },
+        {
+          "fr": "Sachant que personne ne naviguerait jamais selon ses cartes, il trouvait pourtant un véritable but dans son travail.",
+          "en": "Knowing no one would ever navigate by his maps, he nonetheless found genuine purpose in his work."
+        },
+        {
+          "fr": "En définitive, peut-être que nous cartographions tous, d'une certaine façon, des mondes que nous seuls pouvons habiter.",
+          "en": "Ultimately, perhaps we all, in some way, map worlds that only we can inhabit."
+        }
+      ]
+    },
+    {
+      "number": 53,
+      "title": "The Gardener's Century",
+      "titleNative": "Le siècle du jardinier",
+      "items": [
+        {
+          "fr": "Il planta cet arbre en sachant parfaitement qu'il ne verrait jamais son ombre complète.",
+          "en": "He planted that tree knowing perfectly well he would never see its full shade."
+        },
+        {
+          "fr": "Il convient de souligner que sa générosité ne cherchait aucune reconnaissance, mais simplement à laisser quelque chose de beau pour ceux qui viendraient après.",
+          "en": "It's worth noting his generosity sought no recognition at all, just to leave something beautiful for those who would come after."
+        },
+        {
+          "fr": "S'il n'avait pas pensé au-delà de sa propre vie, ce jardin n'aurait jamais vu le jour.",
+          "en": "Had he not thought beyond his own life, that garden would never have come to exist."
+        },
+        {
+          "fr": "En définitive, semer sans attendre de récolter est peut-être l'acte d'amour le plus pur envers l'avenir.",
+          "en": "Ultimately, sowing without expecting to harvest is, perhaps, the purest act of love toward the future."
+        }
+      ]
+    },
+    {
+      "number": 54,
+      "title": "The Musician Who Composed for No One",
+      "titleNative": "Le musicien qui composait pour personne",
+      "items": [
+        {
+          "fr": "Il composa des symphonies entières en sachant qu'elles ne seraient jamais interprétées devant aucun public.",
+          "en": "He composed entire symphonies knowing they would never be performed before any audience."
+        },
+        {
+          "fr": "On peut se demander si l'art perd de sa valeur quand personne d'autre n'en est témoin.",
+          "en": "One might ask whether art loses its value when no one else witnesses it."
+        },
+        {
+          "fr": "S'il n'avait recherché que la célébrité, il aurait probablement abandonné la musique bien plus tôt.",
+          "en": "Had he sought only fame, he would probably have abandoned music much earlier."
+        },
+        {
+          "fr": "En définitive, peut-être que la musique la plus honnête est celle qui se compose sans attendre d'applaudissements.",
+          "en": "Ultimately, perhaps the most honest music is that composed without expecting applause."
+        }
+      ]
+    },
+    {
+      "number": 55,
+      "title": "The Lighthouse Keeper's Devotion",
+      "titleNative": "La dévotion du gardien de phare",
+      "items": [
+        {
+          "fr": "Pendant quarante ans, il alluma cette lumière chaque soir, sachant que peut-être aucun bateau n'en aurait jamais besoin.",
+          "en": "For forty years, he lit that light every night, knowing that perhaps no ship would ever need it."
+        },
+        {
+          "fr": "Il convient de souligner que sa fidélité à son devoir ne dépendait ni de résultats visibles ni de remerciements.",
+          "en": "It's worth noting that his devotion to duty didn't depend on visible results or gratitude."
+        },
+        {
+          "fr": "S'il n'avait pas allumé cette lumière chaque soir, sans exception, une tempête lointaine aurait pu coûter une vie.",
+          "en": "Had he not lit that light every night, without fail, some distant storm might have claimed a life."
+        },
+        {
+          "fr": "En définitive, il existe une noblesse silencieuse dans l'accomplissement de ce qui reste invisible.",
+          "en": "Ultimately, there's a quiet nobility in fulfilling what remains unseen."
+        }
+      ]
+    },
+    {
+      "number": 56,
+      "title": "The Translator of Silence",
+      "titleNative": "Le traducteur du silence",
+      "items": [
+        {
+          "fr": "Il avait passé toute sa vie à traduire des livres, jusqu'au jour où il décida de se consacrer à traduire des silences.",
+          "en": "He had spent his whole life translating books, until one day he decided to dedicate himself to translating silences."
+        },
+        {
+          "fr": "Il convient de souligner qu'il apprit à distinguer le silence de la tristesse de celui de la paix.",
+          "en": "It's worth noting he learned to distinguish the silence of sadness from the silence of peace."
+        },
+        {
+          "fr": "S'il n'avait pas prêté autant attention à ce qui n'était pas dit, jamais il n'aurait compris les gens aussi profondément.",
+          "en": "Had he not paid so much attention to what was left unsaid, he would never have understood people so deeply."
+        },
+        {
+          "fr": "En définitive, certaines des conversations les plus importantes de la vie ont lieu sans qu'un seul mot ne soit prononcé.",
+          "en": "Ultimately, some of life's most important conversations happen without a single word being spoken."
+        }
+      ]
+    },
+    {
+      "number": 57,
+      "title": "The Baker Who Fed a Revolution",
+      "titleNative": "Le boulanger qui a nourri une révolution",
+      "items": [
+        {
+          "fr": "Pendant que tout le pays se disputait à propos de politique, lui se contentait de faire du pain pour ceux qui avaient faim, sans demander de quel camp ils étaient.",
+          "en": "While the whole country argued about politics, he simply baked bread for the hungry, without asking which side they were on."
+        },
+        {
+          "fr": "Il convient de souligner que sa boulangerie devint, sans qu'il le veuille, le seul lieu où les deux camps s'asseyaient ensemble.",
+          "en": "It's worth noting his bakery became, without him intending it, the only place where both sides sat together."
+        },
+        {
+          "fr": "S'il n'avait pas insisté pour nourrir tout le monde de manière égale, ce village se serait divisé encore davantage.",
+          "en": "Had he not insisted on feeding everyone equally, that town would have divided even further than it already was."
+        },
+        {
+          "fr": "En définitive, parfois la paix se construit non pas avec de grands discours, mais avec du pain partagé.",
+          "en": "Ultimately, sometimes peace is built not with grand speeches, but with shared bread."
+        }
+      ]
+    },
+    {
+      "number": 58,
+      "title": "The Archivist of Forgotten Names",
+      "titleNative": "L'archiviste des noms oubliés",
+      "items": [
+        {
+          "fr": "Il consacra toute sa carrière à sauver de l'oubli les noms que l'histoire officielle n'avait jamais mentionnés.",
+          "en": "He dedicated his entire career to rescuing from oblivion the names of those official history never mentioned."
+        },
+        {
+          "fr": "Il convient de souligner que, pour lui, chaque nom retrouvé était, en quelque sorte, une petite résurrection.",
+          "en": "It's worth noting that, for him, every name recovered was, in a way, a small resurrection."
+        },
+        {
+          "fr": "S'il n'y avait pas eu des gens comme lui, d'innombrables histoires auraient été perdues à jamais.",
+          "en": "Had people like him not existed, countless stories would have been lost forever."
+        },
+        {
+          "fr": "En définitive, se souvenir des oubliés est peut-être l'une des formes de justice les plus profondes.",
+          "en": "Ultimately, remembering the forgotten is, perhaps, one of the deepest forms of justice."
+        }
+      ]
+    },
+    {
+      "number": 59,
+      "title": "The Child Who Asked Too Many Questions",
+      "titleNative": "L'enfant qui posait trop de questions",
+      "items": [
+        {
+          "fr": "Devenu adulte, il devint scientifique, mais enfant, on le trouvait simplement insupportable.",
+          "en": "As an adult, he became a scientist, but as a child they simply called him insufferable."
+        },
+        {
+          "fr": "Il convient de souligner qu'aucune de ses questions, aussi absurde qu'elle paraisse, ne resta jamais sans exploration.",
+          "en": "It's worth noting that none of his questions, however absurd they seemed, ever went unexplored."
+        },
+        {
+          "fr": "S'il n'avait pas eu une institutrice qui, au lieu de le faire taire, l'encouragea à continuer à poser des questions, jamais il ne serait allé aussi loin.",
+          "en": "Had he not had a teacher who, instead of silencing him, encouraged him to keep asking, he might never have gone so far."
+        },
+        {
+          "fr": "En définitive, derrière chaque grande découverte se trouve souvent, d'abord, un enfant que personne n'a réussi à faire taire.",
+          "en": "Ultimately, behind every great discovery there is usually, first, a child no one managed to silence."
+        }
+      ]
+    },
+    {
+      "number": 60,
+      "title": "Review: Mastery-Level Storytelling",
+      "titleNative": "Repaso: Narration au niveau maîtrise",
+      "items": [
+        {
+          "fr": "Ces histoires, bien que petites, renferment des vérités aussi universelles que n'importe quelle grande épopée.",
+          "en": "These stories, though small, hold truths as universal as any great epic."
+        },
+        {
+          "fr": "Il convient de souligner que la véritable maîtrise narrative ne réside pas dans la complexité, mais dans l'honnêteté.",
+          "en": "It's worth noting that true narrative mastery lies not in complexity, but in honesty."
+        },
+        {
+          "fr": "J'espère que ces histoires t'accompagneront bien après avoir terminé ce cours.",
+          "en": "I hope these stories stay with you long after finishing this course."
+        },
+        {
+          "fr": "En définitive, bien raconter des histoires est peut-être la forme de sagesse humaine la plus ancienne et la plus durable.",
+          "en": "Ultimately, telling stories well is, perhaps, the oldest and most enduring form of human wisdom."
+        }
+      ]
+    },
+    {
+      "number": 61,
+      "title": "What Age Teaches",
+      "titleNative": "Ce que l'âge enseigne",
+      "items": [
+        {
+          "fr": "Au fil des années, il a appris que la force ne réside pas dans le fait d'avoir toujours raison, mais dans le fait de savoir quand se taire.",
+          "en": "Over the years, he learned that strength lies not in always being right, but in knowing when to stay silent."
+        },
+        {
+          "fr": "Il convient de souligner que sa patience, qui semblait une faiblesse dans sa jeunesse, est devenue avec le temps sa plus grande vertu.",
+          "en": "It's worth noting his patience, which in his youth seemed like weakness, became with time his greatest virtue."
+        },
+        {
+          "fr": "S'il n'avait pas commis tant d'erreurs dans sa jeunesse, jamais il ne serait parvenu à cette sagesse sereine de la vieillesse.",
+          "en": "Had he not made so many mistakes in his youth, he would never have arrived at this serene wisdom of old age."
+        },
+        {
+          "fr": "En définitive, bien vieillir, c'est peut-être apprendre à lâcher prise sans cesser d'aimer.",
+          "en": "Ultimately, aging well is, perhaps, learning to let go without ceasing to love."
+        }
+      ]
+    },
+    {
+      "number": 62,
+      "title": "The Grandmother Who Never Raised Her Voice",
+      "titleNative": "La grand-mère qui n'a jamais élevé la voix",
+      "items": [
+        {
+          "fr": "Je ne l'ai jamais entendue crier, même dans les moments de plus grande tension familiale.",
+          "en": "I never heard her shout, not even during the family's most tense moments."
+        },
+        {
+          "fr": "Il convient de souligner que son calme n'était pas de l'indifférence, mais une force forgée tout au long d'une vie entière.",
+          "en": "It's worth noting her calm wasn't indifference, but a strength forged over an entire lifetime."
+        },
+        {
+          "fr": "Parlant toujours à voix basse, elle parvenait à ce que tout le monde, sans exception, s'arrête pour l'écouter.",
+          "en": "Always speaking in a low voice, she managed to get everyone, without exception, to stop and listen to her."
+        },
+        {
+          "fr": "En définitive, j'ai compris que le vrai pouvoir a rarement besoin d'élever la voix pour se faire sentir.",
+          "en": "Ultimately, I understood that true power rarely needs to raise its voice to be felt."
+        }
+      ]
+    },
+    {
+      "number": 63,
+      "title": "Wisdom Versus Cleverness",
+      "titleNative": "Sagesse et habileté",
+      "items": [
+        {
+          "fr": "L'habileté cherche à gagner ; la sagesse, elle, cherche à comprendre.",
+          "en": "Cleverness seeks to win; wisdom, on the other hand, seeks to understand."
+        },
+        {
+          "fr": "Il convient de souligner que beaucoup de gens habiles ne deviennent jamais sages, tandis que beaucoup de sages n'ont jamais été particulièrement habiles.",
+          "en": "It's worth noting many clever people never become wise, while many wise people were never particularly clever."
+        },
+        {
+          "fr": "En confondant les deux, nous risquons d'admirer un esprit vide plutôt qu'une compréhension profonde.",
+          "en": "By confusing the two, we risk admiring hollow wit over deep understanding."
+        },
+        {
+          "fr": "En définitive, la sagesse met toute une vie à se cultiver, tandis que l'habileté peut s'improviser en un instant.",
+          "en": "Ultimately, wisdom takes a whole lifetime to cultivate, while cleverness can be improvised in an instant."
+        }
+      ]
+    },
+    {
+      "number": 64,
+      "title": "The Weight of Experience",
+      "titleNative": "Le poids de l'expérience",
+      "items": [
+        {
+          "fr": "Ayant tant vécu, il ne se surprenait plus facilement face aux tragédies d'autrui.",
+          "en": "Having lived so much, he was no longer easily surprised by others' tragedies."
+        },
+        {
+          "fr": "Il convient de souligner que cette absence de surprise n'était pas de la froideur, mais une compréhension profonde de l'imprévisibilité de la vie.",
+          "en": "It's worth noting that lack of surprise wasn't coldness, but a deep understanding of how unpredictable life is."
+        },
+        {
+          "fr": "S'il n'avait pas traversé tant de pertes, peut-être n'aurait-il jamais développé une telle empathie envers la douleur d'autrui.",
+          "en": "Had he not gone through so many losses, he might never have developed so much empathy for others' pain."
+        },
+        {
+          "fr": "En définitive, l'expérience ne nous endurcit pas nécessairement, mais, bien vécue, elle nous adoucit avec sagesse.",
+          "en": "Ultimately, experience doesn't necessarily harden us, but, well lived, softens us with wisdom."
+        }
+      ]
+    },
+    {
+      "number": 65,
+      "title": "The Elder Who Refused to Stop Learning",
+      "titleNative": "Le vieil homme qui a refusé d'arrêter d'apprendre",
+      "items": [
+        {
+          "fr": "À quatre-vingt-dix ans, il continuait à apprendre de nouvelles langues avec l'enthousiasme d'un enfant.",
+          "en": "At ninety years old, he kept learning new languages with a child's enthusiasm."
+        },
+        {
+          "fr": "Il convient de souligner qu'il n'a jamais utilisé l'âge comme excuse pour cesser de grandir intellectuellement.",
+          "en": "It's worth noting he never used age as an excuse to stop growing intellectually."
+        },
+        {
+          "fr": "S'il avait cru que l'apprentissage s'arrête avec la jeunesse, il se serait privé de décennies entières de découverte.",
+          "en": "Had he believed learning ends with youth, he would have deprived himself of entire decades of discovery."
+        },
+        {
+          "fr": "En définitive, il n'est jamais trop tard pour apprendre quelque chose de nouveau, et il en fut la preuve vivante.",
+          "en": "Ultimately, it's never too late to learn something new, and he was the living proof of that saying."
+        }
+      ]
+    },
+    {
+      "number": 66,
+      "title": "Regret and Reconciliation",
+      "titleNative": "Regret et réconciliation",
+      "items": [
+        {
+          "fr": "Il passa des années à porter un regret qu'il n'osa jamais avouer.",
+          "en": "He spent years carrying a regret he never dared to confess."
+        },
+        {
+          "fr": "Il convient de souligner que la réconciliation, lorsqu'elle arriva enfin, se révéla plus simple qu'il ne l'avait imaginé.",
+          "en": "It's worth noting that reconciliation, when it finally came, turned out simpler than he had imagined."
+        },
+        {
+          "fr": "S'il n'avait pas fait ce premier pas, il serait mort sans avoir résolu la blessure la plus profonde de sa vie.",
+          "en": "Had he not taken that first step, he would have died without resolving the deepest wound of his life."
+        },
+        {
+          "fr": "En définitive, mieux vaut tard que jamais, surtout quand il s'agit de guérir le cœur.",
+          "en": "Ultimately, better late than never, especially when it comes to healing the heart."
+        }
+      ]
+    },
+    {
+      "number": 67,
+      "title": "The Meaning of a Good Life",
+      "titleNative": "Le sens d'une bonne vie",
+      "items": [
+        {
+          "fr": "À la fin de sa vie, il ne parla pas de ses réussites professionnelles, mais des personnes qu'il avait aimées.",
+          "en": "At the end of his life, he didn't speak of his professional achievements, but of the people he had loved."
+        },
+        {
+          "fr": "Il convient de souligner qu'une vie bien vécue se mesure peut-être non pas en années, mais en la profondeur de ses liens.",
+          "en": "It's worth noting that a life well lived is measured, perhaps, not in years, but in the depth of its bonds."
+        },
+        {
+          "fr": "S'il n'avait privilégié que la réussite matérielle, il serait probablement arrivé à ce moment les mains vides.",
+          "en": "Had he prioritized only material success, he would probably have arrived at this moment empty-handed."
+        },
+        {
+          "fr": "En définitive, les actes valent mieux que les paroles, et il l'a prouvé jusqu'à son dernier souffle.",
+          "en": "Ultimately, actions speak louder than words, and he proved it until his last breath."
+        }
+      ]
+    },
+    {
+      "number": 68,
+      "title": "The Philosopher's Final Question",
+      "titleNative": "La dernière question du philosophe",
+      "items": [
+        {
+          "fr": "Sur son lit de mort, il continuait à se poser la même question qui l'avait accompagné toute sa vie.",
+          "en": "On his deathbed, he was still asking himself the same question that had accompanied him his whole life."
+        },
+        {
+          "fr": "Il convient de souligner qu'il ne trouva jamais de réponse définitive, et cela, loin de le frustrer, le remplissait de paix.",
+          "en": "It's worth noting he never found a definitive answer, and that, far from frustrating him, filled him with peace."
+        },
+        {
+          "fr": "S'il avait eu besoin de certitudes absolues, jamais il n'aurait pu vivre une vie aussi dévouée au questionnement.",
+          "en": "Had he needed absolute certainties, he could never have lived a life so dedicated to questioning."
+        },
+        {
+          "fr": "En définitive, peut-être que la sagesse ne consiste pas à trouver des réponses, mais à apprendre à vivre avec les questions.",
+          "en": "Ultimately, perhaps wisdom doesn't consist of finding answers, but of learning to live with the questions."
+        }
+      ]
+    },
+    {
+      "number": 69,
+      "title": "Passing Down What Matters",
+      "titleNative": "Transmettre ce qui compte",
+      "items": [
+        {
+          "fr": "Avant de mourir, il ne laissa aucune fortune, seulement un carnet rempli de leçons écrites pour ses petits-enfants.",
+          "en": "Before dying, he left no fortune at all, only a notebook full of lessons written for his grandchildren."
+        },
+        {
+          "fr": "Il convient de souligner que ce carnet s'est révélé, avec le temps, plus précieux que n'importe quel héritage matériel.",
+          "en": "It's worth noting that notebook turned out, over time, more valuable than any material inheritance."
+        },
+        {
+          "fr": "S'il n'avait pas pris le temps de l'écrire, cette sagesse aurait été perdue à jamais avec sa mort.",
+          "en": "Had he not taken the time to write it, that wisdom would have been lost forever with his death."
+        },
+        {
+          "fr": "En définitive, ce qui perdure vraiment n'est pas ce que nous possédons, mais ce que nous parvenons à transmettre.",
+          "en": "Ultimately, what truly endures isn't what we possess, but what we manage to pass on."
+        }
+      ]
+    },
+    {
+      "number": 70,
+      "title": "Review: Wisdom and Aging",
+      "titleNative": "Repaso: Sagesse et vieillissement",
+      "items": [
+        {
+          "fr": "Ces histoires nous rappellent que la sagesse, en définitive, se récolte lentement, année après année.",
+          "en": "These stories remind us that wisdom, ultimately, is harvested slowly, year after year."
+        },
+        {
+          "fr": "Il convient de souligner que vieillir avec grâce est peut-être l'une des plus grandes réussites silencieuses de la vie.",
+          "en": "It's worth noting that aging with grace is, perhaps, one of life's greatest quiet achievements."
+        },
+        {
+          "fr": "J'espère que ces réflexions t'accompagneront tout au long de ton propre chemin.",
+          "en": "I hope these reflections accompany you along your own path."
+        },
+        {
+          "fr": "En définitive, chaque année vécue avec attention est, en soi, une forme de richesse incalculable.",
+          "en": "Ultimately, every year lived with attention is, in itself, a form of incalculable wealth."
+        }
+      ]
+    },
+    {
+      "number": 71,
+      "title": "Why Languages Die",
+      "titleNative": "Pourquoi les langues meurent",
+      "items": [
+        {
+          "fr": "Une langue disparaît, en dernière instance, quand son dernier locuteur cesse de la transmettre.",
+          "en": "A language disappears, ultimately, when its last speaker stops passing it on."
+        },
+        {
+          "fr": "Il convient de souligner qu'avec chaque langue perdue s'éteint aussi une façon unique de comprendre le monde.",
+          "en": "It's worth noting that with every lost language, a unique way of understanding the world also disappears."
+        },
+        {
+          "fr": "Sans documentation à temps, d'innombrables langues autochtones disparaîtront sans laisser de trace.",
+          "en": "If not documented in time, countless indigenous languages will disappear without leaving any trace."
+        },
+        {
+          "fr": "En définitive, sauver une langue, c'est en quelque sorte sauver toute une civilisation entière.",
+          "en": "Ultimately, saving a language is, in a way, saving an entire civilization."
+        }
+      ]
+    },
+    {
+      "number": 72,
+      "title": "The Untranslatable",
+      "titleNative": "L'intraduisible",
+      "items": [
+        {
+          "fr": "Certains mots encapsulent des émotions si précises qu'aucune autre langue ne parvient tout à fait à les égaler.",
+          "en": "Certain words encapsulate emotions so specific that no other language quite matches them."
+        },
+        {
+          "fr": "Il convient de souligner que l'intraduisible n'est pas un défaut de la langue, mais la preuve de sa richesse infinie.",
+          "en": "It's worth noting that the untranslatable isn't a flaw of language, but proof of its infinite richness."
+        },
+        {
+          "fr": "En apprenant une autre langue, nous n'acquérons pas seulement des mots nouveaux, mais des concepts que nous ne pouvions même pas nommer avant.",
+          "en": "By learning another language, we don't just acquire new words, but concepts we couldn't even name before."
+        },
+        {
+          "fr": "En définitive, chaque langue est une fenêtre unique sur une façon irremplaçable de ressentir.",
+          "en": "Ultimately, every language is a unique window into an irreplaceable way of feeling."
+        }
+      ]
+    },
+    {
+      "number": 73,
+      "title": "Language as Inherited Memory",
+      "titleNative": "La langue comme mémoire héritée",
+      "items": [
+        {
+          "fr": "Chaque mot que nous prononçons porte en lui des siècles d'histoires que nous ne connaissons même pas complètement.",
+          "en": "Every word we speak carries with it centuries of stories we don't even fully know."
+        },
+        {
+          "fr": "Il convient de souligner que parler la langue de nos ancêtres, c'est, en quelque sorte, les garder en vie.",
+          "en": "It's worth noting that speaking our ancestors' language is, in a way, keeping them alive."
+        },
+        {
+          "fr": "En perdant cette langue héritée, nous perdrions aussi un fil invisible qui nous relie à ceux qui sont venus avant nous.",
+          "en": "By losing that inherited language, we would also lose an invisible thread connecting us to those who came before."
+        },
+        {
+          "fr": "En définitive, la langue est peut-être la forme de mémoire collective la plus durable que nous possédions.",
+          "en": "Ultimately, language is, perhaps, the most enduring form of collective memory we possess."
+        }
+      ]
+    },
+    {
+      "number": 74,
+      "title": "The Loneliness of Being Understood",
+      "titleNative": "La solitude d'être compris",
+      "items": [
+        {
+          "fr": "Paradoxalement, nous nous sentons parfois plus seuls quand quelqu'un finit enfin par nous comprendre complètement.",
+          "en": "Paradoxically, we sometimes feel loneliest when someone finally understands us completely."
+        },
+        {
+          "fr": "Il convient de souligner qu'être compris nous oblige à abandonner le masque derrière lequel nous nous cachions.",
+          "en": "It's worth noting that being understood forces us to abandon the mask behind which we were hiding."
+        },
+        {
+          "fr": "En évitant toujours d'être compris par peur, nous nous condamnerions à une solitude encore plus grande.",
+          "en": "By always avoiding being understood out of fear, we would condemn ourselves to an even greater loneliness."
+        },
+        {
+          "fr": "En définitive, la véritable intimité exige le courage de se laisser voir entièrement.",
+          "en": "Ultimately, true intimacy requires the courage to let yourself be seen completely."
+        }
+      ]
+    },
+    {
+      "number": 75,
+      "title": "Home as an Idea, Not a Place",
+      "titleNative": "Le chez-soi comme idée, non comme lieu",
+      "items": [
+        {
+          "fr": "Au fil des années, il comprit que le chez-soi n'était pas une adresse, mais une poignée de personnes précises.",
+          "en": "Over the years, he understood that home wasn't an address, but a handful of specific people."
+        },
+        {
+          "fr": "Il convient de souligner qu'on peut se sentir étranger dans sa propre ville natale et, en même temps, chez soi dans un lieu inconnu.",
+          "en": "It's worth noting one can feel like a foreigner in their own hometown, and at the same time, at home in an unknown place."
+        },
+        {
+          "fr": "S'il n'avait pas émigré, peut-être n'aurait-il jamais compris que le chez-soi se porte, il ne se possède pas.",
+          "en": "Had he not emigrated, he might never have understood that home is worn, not owned."
+        },
+        {
+          "fr": "En définitive, le véritable chez-soi se construit, il ne s'hérite ni ne se trouve par hasard.",
+          "en": "Ultimately, true home is built, not inherited or found by chance."
+        }
+      ]
+    },
+    {
+      "number": 76,
+      "title": "The Courage to Be Ordinary",
+      "titleNative": "Le courage d'être ordinaire",
+      "items": [
+        {
+          "fr": "Dans une société obsédée par l'exceptionnel, accepter une vie simple demande, au fond, un courage immense.",
+          "en": "In a society obsessed with exceptionality, accepting a simple life requires, deep down, enormous courage."
+        },
+        {
+          "fr": "Il convient de souligner que tout le monde n'a pas besoin de changer le monde pour avoir vécu une vie pleine.",
+          "en": "It's worth noting that not everyone needs to change the world to have lived a full life."
+        },
+        {
+          "fr": "En mesurant la valeur d'une vie uniquement à ses réussites publiques, nous ignorerions les vertus les plus silencieuses et profondes.",
+          "en": "If we measured the value of a life only by its public achievements, we would ignore the quietest and deepest virtues."
+        },
+        {
+          "fr": "En définitive, il existe une grandeur cachée dans le simple fait de bien prendre soin de ce qui nous entoure.",
+          "en": "Ultimately, there's a hidden greatness in simply taking good care of what's near us."
+        }
+      ]
+    },
+    {
+      "number": 77,
+      "title": "The Space Between Words",
+      "titleNative": "L'espace entre les mots",
+      "items": [
+        {
+          "fr": "Parfois, l'essentiel d'une conversation se passe dans les silences, non dans les mots eux-mêmes.",
+          "en": "Sometimes, the most important part of a conversation happens in the pauses, not in the words themselves."
+        },
+        {
+          "fr": "Il convient de souligner que savoir se taire au bon moment est une forme raffinée d'éloquence.",
+          "en": "It's worth noting that knowing when to keep silent at just the right moment is a refined form of eloquence."
+        },
+        {
+          "fr": "En remplissant chaque silence de mots inutiles, nous perdrions l'occasion d'entendre l'essentiel.",
+          "en": "By filling every silence with unnecessary words, we would lose the chance to hear what's essential."
+        },
+        {
+          "fr": "En définitive, bien communiquer ne consiste pas seulement à parler, mais aussi à savoir quand se taire.",
+          "en": "Ultimately, communicating well doesn't consist only of speaking, but also of knowing when to be silent."
+        }
+      ]
+    },
+    {
+      "number": 78,
+      "title": "The Ethics of Memory",
+      "titleNative": "L'éthique de la mémoire",
+      "items": [
+        {
+          "fr": "Se souvenir de la souffrance d'autrui, sans l'avoir vécue soi-même, comporte une responsabilité morale que nous sous-estimons souvent.",
+          "en": "Remembering others' suffering, without having lived it, carries a moral responsibility we often underestimate."
+        },
+        {
+          "fr": "Il convient de souligner qu'oublier délibérément certains chapitres de l'histoire revient, en quelque sorte, à les répéter.",
+          "en": "It's worth noting that deliberately forgetting certain chapters of history is, in a way, equivalent to repeating them."
+        },
+        {
+          "fr": "En ne rendant pas hommage à la mémoire de ceux qui ont souffert, nous risquons de banaliser leur douleur avec le temps.",
+          "en": "By not honoring the memory of those who suffered, we risk trivializing their pain over time."
+        },
+        {
+          "fr": "En définitive, se souvenir avec honnêteté est, en soi, un acte de justice envers le passé.",
+          "en": "Ultimately, remembering honestly is, in itself, an act of justice toward the past."
+        }
+      ]
+    },
+    {
+      "number": 79,
+      "title": "The Paradox of Connection in a Connected Age",
+      "titleNative": "Le paradoxe de la connexion à l'ère connectée",
+      "items": [
+        {
+          "fr": "Nous n'avions jamais été aussi connectés et, paradoxalement, aussi seuls en même temps.",
+          "en": "We have never been so connected and, paradoxically, so lonely at the same time."
+        },
+        {
+          "fr": "Il convient de souligner que le nombre de contacts n'équivaut absolument pas à la profondeur d'une relation.",
+          "en": "It's worth noting that the number of contacts is by no means equivalent to the depth of a relationship."
+        },
+        {
+          "fr": "En confondant visibilité et véritable proximité, nous risquons d'oublier comment cultiver des liens authentiques.",
+          "en": "By confusing visibility with true closeness, we risk forgetting how to cultivate genuine bonds."
+        },
+        {
+          "fr": "En définitive, la technologie nous rapproche à distance, mais ne remplace pas la présence réelle.",
+          "en": "Ultimately, technology brings us closer across distance, but doesn't replace real presence."
+        }
+      ]
+    },
+    {
+      "number": 80,
+      "title": "Review: Language, Culture, and the Human Condition",
+      "titleNative": "Repaso: Langue, culture et condition humaine",
+      "items": [
+        {
+          "fr": "Ces réflexions nous rappellent que le langage est, en définitive, inséparable de ce que signifie être humain.",
+          "en": "These reflections remind us that language is, ultimately, inseparable from what it means to be human."
+        },
+        {
+          "fr": "Il convient de souligner que maîtriser une langue, c'est aussi apprendre à habiter toute une façon de penser.",
+          "en": "It's worth noting that mastering a language is also learning to inhabit an entire way of thinking."
+        },
+        {
+          "fr": "J'espère que tu continueras à explorer le français bien au-delà des mots.",
+          "en": "I hope you keep exploring French far beyond the words."
+        },
+        {
+          "fr": "En définitive, tu as atteint la fin de ce voyage, mais seulement le début de toute une vie à le parler.",
+          "en": "Ultimately, you've reached the end of this journey, but only the beginning of a whole lifetime speaking it."
+        }
+      ]
+    },
+    {
+      "number": 81,
+      "title": "The Art of Saying No Gracefully",
+      "titleNative": "L'art de dire non avec élégance",
+      "items": [
+        {
+          "fr": "Apprendre à dire non, sans provoquer de ressentiment, est l'une des compétences sociales les plus difficiles à maîtriser.",
+          "en": "Learning to say no without generating resentment is one of the hardest social skills to master."
+        },
+        {
+          "fr": "Il convient de souligner qu'un non bien formulé peut renforcer une relation autant qu'un oui mal réfléchi peut la nuire.",
+          "en": "It's worth noting that a well-formulated no can strengthen a relationship as much as a poorly thought-out yes can damage it."
+        },
+        {
+          "fr": "En disant toujours oui par peur du conflit, nous finissons, tôt ou tard, par en vouloir à ceux qui nous entourent.",
+          "en": "By always saying yes out of fear of conflict, we end up, sooner or later, resenting those around us."
+        },
+        {
+          "fr": "En définitive, poser des limites avec respect est, au fond, un acte d'amour envers soi-même et envers l'autre.",
+          "en": "Ultimately, setting boundaries respectfully is, deep down, an act of self-love and love for the other."
+        }
+      ]
+    },
+    {
+      "number": 82,
+      "title": "Reading Between the Lines",
+      "titleNative": "Lire entre les lignes",
+      "items": [
+        {
+          "fr": "Un véritable maître de la conversation comprend aussi bien ce qui est dit que ce qui est délibérément omis.",
+          "en": "A true master of conversation understands both what is said and what is deliberately omitted."
+        },
+        {
+          "fr": "Il convient de souligner que le silence, dans certains contextes, communique bien davantage que n'importe quel discours élaboré.",
+          "en": "It's worth noting that silence, in certain contexts, communicates far more than any elaborate speech."
+        },
+        {
+          "fr": "En ignorant le non-dit, nous risquons de mal interpréter complètement les véritables intentions de quelqu'un.",
+          "en": "By ignoring what's left unsaid, we risk completely misinterpreting someone's true intentions."
+        },
+        {
+          "fr": "En définitive, vraiment écouter implique de prêter attention aussi bien aux mots qu'à leurs silences.",
+          "en": "Ultimately, truly listening means paying attention to both words and their silences."
+        }
+      ]
+    },
+    {
+      "number": 83,
+      "title": "Diplomacy in Difficult Family Conversations",
+      "titleNative": "Diplomatie dans les conversations familiales difficiles",
+      "items": [
+        {
+          "fr": "Aborder un sujet délicat en famille exige une diplomatie qu'aucun manuel ne peut vraiment enseigner.",
+          "en": "Approaching a sensitive topic with family requires a diplomacy no manual can fully teach."
+        },
+        {
+          "fr": "Il convient de souligner que l'honnêteté, sans la délicatesse nécessaire, peut se révéler aussi blessante que n'importe quel mensonge.",
+          "en": "It's worth noting that honesty, without proper tact, can be as harmful as any lie."
+        },
+        {
+          "fr": "En évitant toujours ces conversations inconfortables, les rancunes familiales finissent par s'accumuler pendant des années.",
+          "en": "By always avoiding those uncomfortable conversations, family resentments end up accumulating for years."
+        },
+        {
+          "fr": "En définitive, les conversations les plus difficiles sont souvent, justement, les plus nécessaires.",
+          "en": "Ultimately, the most difficult conversations tend to be, precisely, the most necessary ones."
+        }
+      ]
+    },
+    {
+      "number": 84,
+      "title": "The Grace of Admitting Uncertainty",
+      "titleNative": "L'élégance d'admettre l'incertitude",
+      "items": [
+        {
+          "fr": "Dire sincèrement \"je ne sais pas\" demande, paradoxalement, une confiance intérieure bien plus grande que de feindre la certitude.",
+          "en": "Sincerely saying \"I don't know\" requires, paradoxically, much greater inner confidence than feigning certainty."
+        },
+        {
+          "fr": "Il convient de souligner que ceux qui admettent leurs limites inspirent souvent plus de confiance que ceux qui prétendent tout savoir.",
+          "en": "It's worth noting that those who admit their limits tend to inspire more trust than those who pretend to know everything."
+        },
+        {
+          "fr": "En feignant des certitudes que nous n'avons pas, nous finissons, inévitablement, par perdre notre crédibilité à long terme.",
+          "en": "By feigning certainties we don't have, we inevitably end up losing credibility in the long run."
+        },
+        {
+          "fr": "En définitive, l'humilité intellectuelle est peut-être la forme la plus élégante de véritable intelligence.",
+          "en": "Ultimately, intellectual humility is, perhaps, the most elegant form of true intelligence."
+        }
+      ]
+    },
+    {
+      "number": 85,
+      "title": "Persuasion Without Manipulation",
+      "titleNative": "Persuasion sans manipulation",
+      "items": [
+        {
+          "fr": "Il existe une ligne subtile, mais fondamentale, entre persuader honnêtement et manipuler avec habileté.",
+          "en": "There's a subtle but fundamental line between honestly persuading and cunningly manipulating."
+        },
+        {
+          "fr": "Il convient de souligner que la persuasion authentique respecte l'autonomie de l'autre à décider librement.",
+          "en": "It's worth noting that genuine persuasion respects the other's autonomy to decide freely."
+        },
+        {
+          "fr": "En franchissant cette ligne, même si nous atteignons notre objectif immédiat, nous semons une méfiance qui finit tôt ou tard par se payer.",
+          "en": "By crossing that line, even if we achieve our immediate goal, we sow a distrust that sooner or later takes its toll."
+        },
+        {
+          "fr": "En définitive, convaincre par la vérité prend plus de temps, mais construit une confiance qui dure.",
+          "en": "Ultimately, convincing with the truth takes longer, but builds a trust that endures."
+        }
+      ]
+    },
+    {
+      "number": 86,
+      "title": "Handling Criticism with Composure",
+      "titleNative": "Gérer la critique avec sérénité",
+      "items": [
+        {
+          "fr": "Recevoir une critique dure sans réagir sur la défensive est, sans doute, l'une des épreuves de caractère les plus exigeantes.",
+          "en": "Receiving harsh criticism without reacting defensively is, without a doubt, one of the most demanding tests of character."
+        },
+        {
+          "fr": "Il convient de souligner que toute critique ne mérite pas la même considération, mais toute critique mérite, au moins, d'être écoutée.",
+          "en": "It's worth noting that not every criticism deserves the same consideration, but every criticism deserves, at least, to be heard."
+        },
+        {
+          "fr": "En réagissant toujours sur la défensive, nous nous fermons à de véritables occasions de croissance personnelle.",
+          "en": "By always reacting defensively, we close ourselves off to genuine opportunities for personal growth."
+        },
+        {
+          "fr": "En définitive, celui qui apprend à recevoir la critique avec sérénité cesse rarement de progresser.",
+          "en": "Ultimately, whoever learns to receive criticism with composure rarely stops growing."
+        }
+      ]
+    },
+    {
+      "number": 87,
+      "title": "The Discipline of Discretion",
+      "titleNative": "La discipline de la discrétion",
+      "items": [
+        {
+          "fr": "Garder un secret d'autrui, même quand le révéler nous serait bénéfique, révèle un caractère véritablement solide.",
+          "en": "Keeping someone else's secret, even when sharing it would benefit us, reveals a truly solid character."
+        },
+        {
+          "fr": "Il convient de souligner que la discrétion n'est pas synonyme de malhonnêteté, mais de respect envers la confiance accordée.",
+          "en": "It's worth noting that discretion isn't synonymous with dishonesty, but with respect for the trust placed in us."
+        },
+        {
+          "fr": "En trahissant cette confiance une seule fois, nous aurions du mal à la retrouver complètement.",
+          "en": "By betraying that trust even once, we would hardly ever fully recover it."
+        },
+        {
+          "fr": "En définitive, être digne de confiance est peut-être l'un des compliments les plus précieux qu'on puisse recevoir.",
+          "en": "Ultimately, being trustworthy is, perhaps, one of the most valuable compliments one can receive."
+        }
+      ]
+    },
+    {
+      "number": 88,
+      "title": "Negotiating from a Place of Respect",
+      "titleNative": "Négocier depuis le respect",
+      "items": [
+        {
+          "fr": "Les meilleures négociations ne cherchent pas à vaincre l'autre, mais à trouver un terrain véritablement commun.",
+          "en": "The best negotiations don't seek to defeat the other party, but to find genuinely common ground."
+        },
+        {
+          "fr": "Il convient de souligner que traiter l'adversaire avec dignité, même en désaccord, ouvre souvent des portes inattendues.",
+          "en": "It's worth noting that treating an opponent with dignity, even in disagreement, often opens unexpected doors."
+        },
+        {
+          "fr": "En nous concentrant uniquement sur la victoire, nous risquons de détruire des relations qui valaient bien plus que le litige lui-même.",
+          "en": "By focusing only on winning, we risk destroying relationships worth far more than the dispute itself."
+        },
+        {
+          "fr": "En définitive, bien négocier, c'est, au fond, savoir construire des ponts plutôt que des murs.",
+          "en": "Ultimately, negotiating well is, deep down, knowing how to build bridges instead of walls."
+        }
+      ]
+    },
+    {
+      "number": 89,
+      "title": "The Quiet Confidence of True Expertise",
+      "titleNative": "La confiance silencieuse de la véritable expertise",
+      "items": [
+        {
+          "fr": "Les véritables experts ont rarement besoin de proclamer leur expertise haut et fort.",
+          "en": "True experts rarely need to proclaim their expertise loudly."
+        },
+        {
+          "fr": "Il convient de souligner que la maîtrise authentique se reconnaît dans la simplicité avec laquelle on explique quelque chose de complexe.",
+          "en": "It's worth noting that genuine mastery is recognized in the simplicity with which something complex is explained."
+        },
+        {
+          "fr": "En confondant arrogance et confiance, nous risquons d'admirer l'apparence plutôt que la substance.",
+          "en": "By confusing arrogance with confidence, we risk admiring appearance over substance."
+        },
+        {
+          "fr": "En définitive, celui qui sait vraiment n'a généralement besoin de convaincre personne de rien.",
+          "en": "Ultimately, whoever truly knows generally doesn't need to convince anyone of it."
+        }
+      ]
+    },
+    {
+      "number": 90,
+      "title": "Review: Mastery in Diplomacy and Discretion",
+      "titleNative": "Repaso: Maîtrise en diplomatie et discrétion",
+      "items": [
+        {
+          "fr": "Ces réflexions sur la diplomatie et le respect sont, en définitive, aussi importantes que n'importe quelle règle de grammaire.",
+          "en": "These reflections on diplomacy and respect are, ultimately, as important as any grammar rule."
+        },
+        {
+          "fr": "Il convient de souligner que bien parler implique aussi de savoir écouter, se taire et respecter l'autre.",
+          "en": "It's worth noting that speaking with mastery also means knowing how to listen, be silent, and respect others."
+        },
+        {
+          "fr": "J'espère que ces idées t'accompagneront dans toutes tes futures conversations en français.",
+          "en": "I hope these ideas accompany you in all your future conversations in French."
+        },
+        {
+          "fr": "En définitive, la véritable fluidité inclut aussi la sagesse de savoir quand et comment parler.",
+          "en": "Ultimately, true fluency also includes the wisdom of knowing when and how to speak."
+        }
+      ]
+    },
+    {
+      "number": 91,
+      "title": "The Interpreter Who Became Invisible",
+      "titleNative": "L'interprète devenu invisible",
+      "items": [
+        {
+          "fr": "Au fil des années, il apprit qu'un bon interprète est, en définitive, celui dont personne ne se souvient d'avoir entendu la voix.",
+          "en": "Over the years, he learned that a good interpreter is one whom, ultimately, no one remembers having heard."
+        },
+        {
+          "fr": "Il convient de souligner que sa plus grande réussite professionnelle consistait, paradoxalement, à disparaître complètement de la conversation.",
+          "en": "It's worth noting his greatest professional achievement consisted, paradoxically, of completely disappearing from the conversation."
+        },
+        {
+          "fr": "S'il avait recherché les projecteurs, jamais il n'aurait atteint l'excellence silencieuse qui définit toute sa carrière.",
+          "en": "Had he sought the spotlight, he would never have achieved the quiet excellence that defined his entire career."
+        },
+        {
+          "fr": "En définitive, il convient de souligner que la véritable maîtrise consiste parfois, précisément, à ne pas se faire remarquer.",
+          "en": "Ultimately, it's worth noting that true mastery sometimes consists precisely of going unnoticed."
+        }
+      ]
+    },
+    {
+      "number": 92,
+      "title": "A Letter to Every Language I've Loved",
+      "titleNative": "Une lettre à chaque langue que j'ai aimée",
+      "items": [
+        {
+          "fr": "À chaque langue que j'ai apprise, je dois, en quelque sorte, une partie différente de qui je suis aujourd'hui.",
+          "en": "To every language I've learned I owe, in a way, a different part of who I am today."
+        },
+        {
+          "fr": "Il convient de souligner que penser dans une autre langue, ce n'est pas traduire, mais habiter, ne serait-ce que brièvement, une autre manière d'être.",
+          "en": "It's worth noting that thinking in another language isn't translating, but inhabiting, even briefly, another way of being."
+        },
+        {
+          "fr": "Si je ne m'étais pas aventuré au-delà de ma langue maternelle, jamais je n'aurais découvert combien de versions de moi-même existaient.",
+          "en": "Had I not ventured beyond my mother tongue, I would never have discovered how many versions of myself existed."
+        },
+        {
+          "fr": "En définitive, chaque nouvelle langue ne remplace pas la précédente, mais, en quelque sorte, l'enrichit.",
+          "en": "Ultimately, every new language doesn't replace the previous one, but, in a way, enriches it."
+        }
+      ]
+    },
+    {
+      "number": 93,
+      "title": "The Last Story Before Sleep",
+      "titleNative": "La dernière histoire avant de dormir",
+      "items": [
+        {
+          "fr": "Chaque soir, sans exception, il lui racontait une histoire différente, sachant qu'un jour cela ne serait plus nécessaire.",
+          "en": "Every night, without fail, he told her a different story, knowing that someday it would no longer be needed."
+        },
+        {
+          "fr": "Il convient de souligner que ces histoires, en apparence simples, ont semé en elle un amour éternel des mots.",
+          "en": "It's worth noting that those seemingly simple stories planted in her an eternal love for words."
+        },
+        {
+          "fr": "S'il n'avait pas consacré ce temps chaque soir, peut-être ne serait-elle jamais devenue l'écrivaine qu'elle est aujourd'hui.",
+          "en": "Had he not dedicated that time every night, she might never have become the writer she is today."
+        },
+        {
+          "fr": "En définitive, les plus petites histoires sont souvent celles qui laissent les traces les plus profondes.",
+          "en": "Ultimately, the smallest stories are often the ones that leave the deepest marks."
+        }
+      ]
+    },
+    {
+      "number": 94,
+      "title": "What the River Remembers",
+      "titleNative": "Ce dont le fleuve se souvient",
+      "items": [
+        {
+          "fr": "Le fleuve avait vu naître et mourir des générations entières sans jamais prononcer un seul mot.",
+          "en": "The river had seen entire generations be born and die without ever saying a single word."
+        },
+        {
+          "fr": "Il convient de souligner que son silence contenait, en quelque sorte, plus d'histoire qu'aucun livre écrit.",
+          "en": "It's worth noting his silence contained, in a way, more history than any written book."
+        },
+        {
+          "fr": "S'il avait pu parler, ce fleuve aurait raconté des tragédies, des amours et des guerres oubliées de tous sauf de lui.",
+          "en": "Had it been able to speak, that river would have narrated tragedies, loves, and wars forgotten by everyone but itself."
+        },
+        {
+          "fr": "En définitive, certains témoins de l'histoire n'ont pas besoin de mots pour continuer à la raconter.",
+          "en": "Ultimately, some witnesses to history don't need words to keep telling it."
+        }
+      ]
+    },
+    {
+      "number": 95,
+      "title": "The Question That Started Everything",
+      "titleNative": "La question qui a tout commencé",
+      "items": [
+        {
+          "fr": "Tout commença par une simple question qui, sur le moment, semblait tout à fait insignifiante.",
+          "en": "It all began with a simple question that, at the time, seemed completely insignificant."
+        },
+        {
+          "fr": "Il convient de souligner que les décisions les plus déterminantes de la vie s'annoncent rarement à l'avance.",
+          "en": "It's worth noting that life's most transcendent decisions are rarely announced in advance."
+        },
+        {
+          "fr": "Si je n'avais pas posé cette question ce jour-là, peut-être n'aurais-je jamais entrepris ce voyage vers le français.",
+          "en": "Had I not asked that question that day, I might never have embarked on this journey toward French."
+        },
+        {
+          "fr": "En définitive, tout comme cela a commencé par une question, ce voyage continuera avec bien d'autres questions encore.",
+          "en": "Ultimately, just as it began with a question, this journey will continue with many more questions."
+        }
+      ]
+    },
+    {
+      "number": 96,
+      "title": "Gratitude Without Words",
+      "titleNative": "Gratitude sans paroles",
+      "items": [
+        {
+          "fr": "Il existe des gratitudes si profondes qu'aucun mot, dans aucune langue, ne parvient tout à fait à les exprimer.",
+          "en": "There are gratitudes so profound that no word, in any language, manages to fully express them."
+        },
+        {
+          "fr": "Il convient de souligner que parfois un simple regard suffit pour communiquer ce que mille mots ne parviendraient jamais à dire.",
+          "en": "It's worth noting that sometimes a single glance is enough to communicate what a thousand words could never say."
+        },
+        {
+          "fr": "Si j'avais essayé de tout expliquer avec des mots, j'aurais peut-être perdu l'essence même de ce que je ressentais.",
+          "en": "Had I tried to explain everything with words, I might have lost the very essence of what I felt."
+        },
+        {
+          "fr": "En définitive, certaines choses se remercient mieux en les vivant qu'en les nommant.",
+          "en": "Ultimately, some things are better thanked by living them than by naming them."
+        }
+      ]
+    },
+    {
+      "number": 97,
+      "title": "The Circle Closes",
+      "titleNative": "La boucle se referme",
+      "items": [
+        {
+          "fr": "Ayant commencé ce chemin sans connaître un seul mot, il se surprend aujourd'hui à penser entièrement en français.",
+          "en": "Having started this path without knowing a single word, today he finds himself thinking entirely in French."
+        },
+        {
+          "fr": "Il convient de souligner qu'il ne traduit plus mentalement, mais vit simplement dans la langue, sans effort conscient.",
+          "en": "It's worth noting he no longer mentally translates, but simply lives within the language, without conscious effort."
+        },
+        {
+          "fr": "S'il n'avait pas persévéré à travers tant de niveaux, jamais il ne serait parvenu à cette fluidité qu'il tient aujourd'hui pour acquise.",
+          "en": "Had he not persevered through so many levels, he would never have reached this fluency he now takes for granted."
+        },
+        {
+          "fr": "En définitive, ce qui a commencé comme un simple cours est devenu une part inséparable de qui il est.",
+          "en": "Ultimately, what began as a simple course has become an inseparable part of who he is."
+        }
+      ]
+    },
+    {
+      "number": 98,
+      "title": "A New Beginning, Not an End",
+      "titleNative": "Un nouveau départ, non une fin",
+      "items": [
+        {
+          "fr": "Terminer ce niveau ne signifie pas avoir fini d'apprendre, mais avoir gagné les outils pour continuer à le faire seul.",
+          "en": "Finishing this level doesn't mean having finished learning, but having gained the tools to keep doing it alone."
+        },
+        {
+          "fr": "Il convient de souligner que la véritable maîtrise d'une langue ne se termine jamais tout à fait ; elle s'approfondit simplement chaque année.",
+          "en": "It's worth noting that true mastery of a language is never fully complete; it simply deepens with each year."
+        },
+        {
+          "fr": "Considérer ceci comme la fin du chemin ferait perdre la joie infinie de continuer à découvrir la langue chaque jour.",
+          "en": "To consider this the end of the road would mean losing the infinite joy of continuing to discover the language every day."
+        },
+        {
+          "fr": "En définitive, le français n'est plus désormais un objectif à atteindre, mais un foyer où il pourra toujours revenir.",
+          "en": "Ultimately, French is no longer a goal to reach, but a home to which he can always return."
+        }
+      ]
+    },
+    {
+      "number": 99,
+      "title": "The Best Course, in the End",
+      "titleNative": "Le meilleur cours, en fin de compte",
+      "items": [
+        {
+          "fr": "En regardant en arrière, il est évident que chaque niveau, avec ses propres défis, a apporté quelque chose d'irremplaçable à l'ensemble.",
+          "en": "Looking back, it's evident that every level, with its own challenges, contributed something irreplaceable to the whole."
+        },
+        {
+          "fr": "Il convient de souligner que l'ambition initiale de créer le meilleur cours de français possible s'est accomplie non par perfection, mais par un dévouement authentique.",
+          "en": "It's worth noting that the initial ambition to create the best possible French course was fulfilled not through perfection, but through genuine dedication."
+        },
+        {
+          "fr": "Si chaque niveau n'avait pas été traité avec autant de soin, cette œuvre n'aurait jamais atteint la richesse qu'elle possède aujourd'hui.",
+          "en": "Had each level not been covered with such care, this work would never have achieved the richness it has today."
+        },
+        {
+          "fr": "En définitive, plus qu'un simple cours, ceci est devenu un pont complet vers toute une langue et son monde.",
+          "en": "Ultimately, more than a course, this has become a complete bridge to an entire language and its world."
+        }
+      ]
+    },
+    {
+      "number": 100,
+      "title": "Review: C2 Capstone — The Journey's End",
+      "titleNative": "Repaso: Cierre de C2 — La fin du voyage",
+      "items": [
+        {
+          "fr": "Tu as atteint, en définitive, le plus haut niveau que cette langue puisse t'offrir : celui de penser et de ressentir en français.",
+          "en": "You have reached, ultimately, the highest level this language can offer you: thinking and feeling in French."
+        },
+        {
+          "fr": "Il convient de souligner que très peu d'étudiants, dans quelque langue que ce soit, atteignent jamais un tel niveau de maîtrise et de nuance.",
+          "en": "It's worth noting that very few students, in any language, ever reach this level of mastery and nuance."
+        },
+        {
+          "fr": "Sachant tout ce que tu sais désormais, le français a cessé d'être une langue étrangère pour devenir la tienne.",
+          "en": "Knowing everything you now know, French has stopped being a foreign language and has become your own."
+        },
+        {
+          "fr": "En définitive, ceci n'est pas la fin de ton français, mais le début de toute une vie à le vivre pleinement.",
+          "en": "Ultimately, this isn't the end of your French, but the beginning of a whole lifetime living it fully."
+        }
+      ]
+    }
+  ]
+}

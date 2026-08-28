@@ -1,0 +1,2402 @@
+{
+  "level": "b2",
+  "grammarTopics": {
+    "b2-si-clauses-present": {
+      "title": "Si-Clauses: Hypothetical Present",
+      "pattern": "si + imparfait, + conditionnel présent",
+      "explanation": "For a hypothetical or contrary-to-fact PRESENT situation, use \"si\" + imperfect in the \"si\" clause, and the conditional in the result: \"Si j'avais le temps, j'irais\" (If I had time, I would go — but I don't). This contrasts with a real, open possibility, which uses \"si\" + present indicative + future or present: \"Si j'ai le temps, j'irai\" (If I have time, I'll go — genuinely possible).",
+      "fact": "Never use the conditional in the \"si\" clause itself — that's a common learner error copied from English \"if I would have.\" French strictly separates the two halves: \"si\" always takes an indicative tense (present or imperfect), the conditional only ever appears in the result clause.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Si tu avais plus de temps libre, que ferais-tu ?",
+          "en": "If you had more free time, what would you do?"
+        },
+        {
+          "sp": "B",
+          "native": "Je voyagerais sans doute beaucoup plus.",
+          "en": "I would probably travel a lot more."
+        }
+      ]
+    },
+    "b2-si-clauses-past": {
+      "title": "Si-Clauses: The Unreal Past",
+      "pattern": "si + plus-que-parfait, + conditionnel passé (aurait/serait + participle)",
+      "explanation": "For a hypothetical situation that DIDN'T actually happen in the past, go one step further back: \"si\" + plus-que-parfait in the \"si\" clause, with the conditionnel passé (\"aurais\"/\"serais\" + past participle) in the result: \"Si j'avais su, je serais venu\" (If I had known, I would have come — but I didn't know, and I didn't come). This is the classic structure for expressing regret or an alternate past.",
+      "fact": "Mixed-time sentences are common and natural: a past cause can produce a PRESENT hypothetical result — \"Si j'avais accepté ce poste, je vivrais maintenant à Londres\" (If I had accepted that job, I would now be living in London) — pairing plus-que-parfait with the plain conditionnel présent, not conditionnel passé, because the result describes now, not then.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Si j'avais étudié davantage, j'aurais réussi l'examen.",
+          "en": "If I had studied more, I would have passed the exam."
+        },
+        {
+          "sp": "B",
+          "native": "Eh bien, si tu t'entraînais un peu chaque jour maintenant, tu n'aurais pas ce problème la prochaine fois.",
+          "en": "Well, if you practiced a little each day now, you wouldn't have this problem next time."
+        }
+      ]
+    },
+    "b2-subjonctif-adverbial": {
+      "title": "Subjunctive After Adverbial Connectors",
+      "pattern": "bien que/pour que/avant que/à moins que/jusqu'à ce que + subjunctive",
+      "explanation": "Certain connectors always trigger the subjunctive because they introduce something not yet realized or hypothetical: \"bien que\" (although) — \"Bien que ce soit difficile, j'essaie\"; \"pour que\" (so that) — \"Je te l'explique pour que tu comprennes\"; \"avant que\" (before) — \"Appelle avant qu'il ne soit trop tard\"; \"à moins que\" (unless) — \"Je n'irai pas à moins que tu ne viennes\"; \"jusqu'à ce que\" (until) — \"Attends jusqu'à ce qu'il arrive.\"",
+      "fact": "\"Avant que\" and \"à moins que\" often carry an optional, purely stylistic \"ne\" (the \"ne explétif\") that adds no negative meaning at all: \"avant qu'il ne parte\" means exactly the same thing as \"avant qu'il parte\" — it's a formal-register habit, not a real negation.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Bien qu'il pleuve, nous allons à la plage.",
+          "en": "Even though it's raining, we're going to the beach."
+        },
+        {
+          "sp": "B",
+          "native": "Pourvu qu'il fasse beau plus tard, ce serait parfait.",
+          "en": "I hope the sun comes out later, it would be perfect."
+        }
+      ]
+    },
+    "b2-advanced-connectors": {
+      "title": "Advanced Connectors: Linking Ideas Like a Native Speaker",
+      "pattern": "cependant/néanmoins (however) · par conséquent/donc (therefore) · malgré (despite) · étant donné que/puisque (since/given that)",
+      "explanation": "These connectors let you build more sophisticated arguments. Contrast: \"cependant\" and \"néanmoins\" both mean \"however,\" typically starting a new sentence. Consequence: \"par conséquent\" and the everyday \"donc\" mean \"therefore/so.\" Concession: \"malgré\" (despite) is followed directly by a NOUN, not a clause: \"malgré la pluie\" (despite the rain). Cause: \"étant donné que\" and \"puisque\" (since/given that) introduce a reason the listener likely already knows, softer than a blunt \"parce que\".",
+      "fact": "\"Néanmoins\" and \"cependant\" are largely interchangeable, but \"néanmoins\" skews slightly more formal/written — common in academic or legal French, while \"cependant\" is the everyday default in both speech and writing.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Le vol a eu trois heures de retard ; cependant, nous sommes arrivés à temps pour le mariage.",
+          "en": "The flight was delayed three hours; however, we arrived in time for the wedding."
+        },
+        {
+          "sp": "B",
+          "native": "Quelle chance, puisque le mariage commençait à dix-huit heures pile.",
+          "en": "What luck, since the wedding started at six sharp."
+        }
+      ]
+    },
+    "b2-subjonctif-passe": {
+      "title": "Past Subjunctive and the Literary Imperfect Subjunctive",
+      "pattern": "subjonctif passé: avoir/être (subjunctive) + participle · imparfait du subjonctif: literary only, recognize don't produce",
+      "explanation": "The subjonctif passé expresses a completed action still governed by a subjunctive trigger: \"Je suis content qu'il ait réussi\" (I'm glad he succeeded — succeeding happened before the feeling). It's built with the PRESENT subjunctive of \"avoir\"/\"être\" plus the past participle. Separately, literary French has an \"imparfait du subjonctif\" (e.g. \"qu'il fût\", \"qu'il eût\") that survives only in very formal writing and classic literature — modern spoken French always replaces it with the present subjunctive, but recognizing it when reading is valuable.",
+      "fact": "In 19th-century novels you'll see forms like \"Il fallait qu'il partît\" (he had to leave) where modern French would simply say \"Il fallait qu'il parte\" — the imparfait du subjonctif has essentially vanished from speech but its distinctive circumflex-accented forms are a hallmark of classic literary style.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Je suis content que tu aies enfin trouvé un travail qui te plaît.",
+          "en": "I'm glad you've finally found a job you like."
+        },
+        {
+          "sp": "B",
+          "native": "Merci, j'ai douté que ça arrive un jour, honnêtement.",
+          "en": "Thanks, honestly I doubted it would ever happen."
+        }
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Present Hypotheticals",
+      "titleNative": "Hypothèses au présent",
+      "items": [
+        {
+          "fr": "Si je gagnais à la loterie, je voyagerais dans le monde entier.",
+          "en": "If I won the lottery, I would travel around the world."
+        },
+        {
+          "fr": "Si nous étions plus organisés, nous aurions moins de stress.",
+          "en": "If we were more organized, we would have less stress."
+        },
+        {
+          "fr": "Si je ne travaillais pas autant, je passerais plus de temps en famille.",
+          "en": "If I didn't work so much, I would spend more time with my family."
+        },
+        {
+          "fr": "Si tu lui parlais, tu comprendrais mieux la situation.",
+          "en": "If you talked to her, you would understand the situation better."
+        }
+      ],
+      "topicId": "b2-si-clauses-present"
+    },
+    {
+      "number": 2,
+      "title": "Advice Using Si-Clauses",
+      "titleNative": "Conseils avec des phrases avec si",
+      "items": [
+        {
+          "fr": "À ta place, je parlerais directement au patron.",
+          "en": "If I were you, I would talk to the boss directly."
+        },
+        {
+          "fr": "Si tu devais choisir, quelle carrière étudierais-tu ?",
+          "en": "If you had to choose, what career would you study?"
+        },
+        {
+          "fr": "Si tu étais à ma place, que ferais-tu ?",
+          "en": "If you were in my place, what would you do?"
+        },
+        {
+          "fr": "Si tu pouvais donner un conseil à ton toi du passé, quel serait-il ?",
+          "en": "If you could give one piece of advice to your past self, what would it be?"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Impossible Scenarios",
+      "titleNative": "Scénarios impossibles",
+      "items": [
+        {
+          "fr": "Si les animaux pouvaient parler, que diraient-ils selon toi ?",
+          "en": "If animals could talk, what do you think they would say?"
+        },
+        {
+          "fr": "Si nous vivions dans l'espace, tout serait complètement différent.",
+          "en": "If we lived in space, everything would be completely different."
+        },
+        {
+          "fr": "Si le temps s'arrêtait, nous aurions tout le temps du monde.",
+          "en": "If time stopped, we would have all the time in the world."
+        },
+        {
+          "fr": "Si nous pouvions voler, nous n'aurions plus jamais besoin d'avion.",
+          "en": "If we could fly, we would never need a plane again."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Dreams and Aspirations",
+      "titleNative": "Rêves et aspirations",
+      "items": [
+        {
+          "fr": "Si j'avais l'occasion, j'étudierais à l'étranger.",
+          "en": "If I had the chance, I would study abroad."
+        },
+        {
+          "fr": "Si j'étais plus jeune, je monterais ma propre entreprise.",
+          "en": "If I were younger, I would start my own business."
+        },
+        {
+          "fr": "Si je savais jouer d'un instrument, j'apprendrais le piano.",
+          "en": "If I knew how to play an instrument, I would learn piano."
+        },
+        {
+          "fr": "Si nous avions plus de ressources, nous aiderions plus de familles.",
+          "en": "If we had more resources, we would help more families."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Combining Present Hypotheticals",
+      "titleNative": "Combiner des hypothèses au présent",
+      "items": [
+        {
+          "fr": "Si nous vivions plus près de la mer, nous irions nager chaque jour.",
+          "en": "If we lived closer to the sea, we would go swimming every day."
+        },
+        {
+          "fr": "Si elle parlait plusieurs langues, elle voyagerait plus facilement.",
+          "en": "If she spoke several languages, she would travel more easily."
+        },
+        {
+          "fr": "Si tu avais moins peur, tu essaierais de nouvelles choses.",
+          "en": "If you were less afraid, you would try new things."
+        },
+        {
+          "fr": "Si nous économisions davantage, nous serions plus tranquilles.",
+          "en": "If we saved more, we would be calmer."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Comparisons with Reality",
+      "titleNative": "Comparaisons avec la réalité",
+      "items": [
+        {
+          "fr": "Si nous étions riches, nous voyagerions plus souvent, mais ce n'est pas le cas.",
+          "en": "If we were rich, we would travel more often, but that's not the case."
+        },
+        {
+          "fr": "Si elle habitait ici, nous nous verrions plus, mais elle vit loin.",
+          "en": "If she lived here, we would see each other more, but she lives far away."
+        },
+        {
+          "fr": "Si j'avais du temps, je lirais davantage, mais je suis toujours occupé.",
+          "en": "If I had time, I would read more, but I'm always busy."
+        },
+        {
+          "fr": "Si le climat était meilleur, nous ferions du sport dehors, mais il pleut souvent.",
+          "en": "If the climate were better, we would exercise outside, but it rains often."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Present Hypotheticals About Others",
+      "titleNative": "Hypothèses présentes sur les autres",
+      "items": [
+        {
+          "fr": "Si mon frère était plus patient, il réussirait mieux au travail.",
+          "en": "If my brother were more patient, he would do better at work."
+        },
+        {
+          "fr": "Si nos voisins étaient plus calmes, ce serait plus agréable ici.",
+          "en": "If our neighbors were quieter, it would be more pleasant here."
+        },
+        {
+          "fr": "Si mes parents habitaient plus près, je les verrais plus souvent.",
+          "en": "If my parents lived closer, I would see them more often."
+        },
+        {
+          "fr": "Si mon collègue écoutait davantage, il ferait moins d'erreurs.",
+          "en": "If my colleague listened more, he would make fewer mistakes."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Present Hypotheticals in Business",
+      "titleNative": "Hypothèses présentes en affaires",
+      "items": [
+        {
+          "fr": "Si nous investissions plus, nous grandirions plus vite.",
+          "en": "If we invested more, we would grow faster."
+        },
+        {
+          "fr": "Si l'équipe communiquait mieux, nous éviterions bien des erreurs.",
+          "en": "If the team communicated better, we would avoid many mistakes."
+        },
+        {
+          "fr": "Si les prix baissaient, nous vendrions davantage.",
+          "en": "If prices went down, we would sell more."
+        },
+        {
+          "fr": "Si nous avions un meilleur marketing, plus de gens nous connaîtraient.",
+          "en": "If we had better marketing, more people would know us."
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Questioning Hypotheticals",
+      "titleNative": "Questionner des hypothèses",
+      "items": [
+        {
+          "fr": "Que se passerait-il si tout le monde travaillait quatre jours par semaine ?",
+          "en": "What would happen if everyone worked four days a week?"
+        },
+        {
+          "fr": "Comment vivrions-nous si internet n'existait pas ?",
+          "en": "How would we live if the internet didn't exist?"
+        },
+        {
+          "fr": "Que ferait-on si cette technologie n'était jamais inventée ?",
+          "en": "What would we do if this technology had never been invented?"
+        },
+        {
+          "fr": "Comment serait le monde si tout le monde parlait la même langue ?",
+          "en": "What would the world be like if everyone spoke the same language?"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Review: Present Hypotheticals",
+      "titleNative": "Repaso: Hypothèses au présent",
+      "items": [
+        {
+          "fr": "Si je pouvais changer une chose de ma vie, ce serait cette décision.",
+          "en": "If I could change one thing about my life, it would be that decision."
+        },
+        {
+          "fr": "Si tu n'étais pas là, je ne saurais pas ce qui se passerait.",
+          "en": "If you weren't there, I don't know what would happen."
+        },
+        {
+          "fr": "Si nous habitions plus près de la mer, nous irions nager chaque jour.",
+          "en": "If we lived closer to the sea, we would go swimming every day."
+        },
+        {
+          "fr": "Si nous savions cela avant, nous ferions les choses différemment.",
+          "en": "If we knew this before, we would do things differently."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Unreal Past Regrets",
+      "titleNative": "Regrets irréels du passé",
+      "items": [
+        {
+          "fr": "Si j'avais su cela, j'aurais agi différemment.",
+          "en": "If I had known that, I would have acted differently."
+        },
+        {
+          "fr": "Si nous étions partis plus tôt, nous n'aurions pas raté le vol.",
+          "en": "If we had left earlier, we wouldn't have missed the flight."
+        },
+        {
+          "fr": "Si tu m'avais prévenu, je serais arrivé à l'heure.",
+          "en": "If you had told me, I would have arrived on time."
+        },
+        {
+          "fr": "S'ils avaient étudié ensemble, ils auraient tous les deux réussi.",
+          "en": "If they had studied together, they both would have passed."
+        }
+      ],
+      "topicId": "b2-si-clauses-past"
+    },
+    {
+      "number": 12,
+      "title": "Mixed Time References",
+      "titleNative": "Références temporelles mixtes",
+      "items": [
+        {
+          "fr": "Si j'avais accepté ce travail, je vivrais maintenant dans un autre pays.",
+          "en": "If I had accepted that job, I would now be living in another country."
+        },
+        {
+          "fr": "Si je ne t'avais pas rencontré, ma vie serait très différente aujourd'hui.",
+          "en": "If I hadn't met you, my life would be very different today."
+        },
+        {
+          "fr": "Si nous avions économisé davantage, nous serions plus tranquilles maintenant.",
+          "en": "If we had saved more, we would now have more peace of mind."
+        },
+        {
+          "fr": "Si j'avais mieux pris soin de ma santé, je n'aurais pas ces problèmes aujourd'hui.",
+          "en": "If I had taken better care of my health, I wouldn't have these problems now."
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "title": "Consequences That Almost Happened",
+      "titleNative": "Conséquences qui ont failli arriver",
+      "items": [
+        {
+          "fr": "Si je n'avais pas freiné à temps, nous aurions eu un accident.",
+          "en": "If I hadn't braked in time, we would have had an accident."
+        },
+        {
+          "fr": "Si tu n'avais pas appelé, nous n'aurions pas su ce qui s'était passé.",
+          "en": "If you hadn't called, we wouldn't have known what happened."
+        },
+        {
+          "fr": "Si le médecin n'était pas arrivé à temps, la situation aurait été pire.",
+          "en": "If the doctor hadn't arrived in time, the situation would have been worse."
+        },
+        {
+          "fr": "Si nous n'avions pas vérifié le contrat, nous aurions perdu beaucoup d'argent.",
+          "en": "If we hadn't reviewed the contract, we would have lost a lot of money."
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "title": "Reflecting on Missed Chances",
+      "titleNative": "Réfléchir aux occasions manquées",
+      "items": [
+        {
+          "fr": "Si j'avais demandé cette promotion, je l'aurais probablement obtenue.",
+          "en": "If I had asked for that promotion, I would probably have gotten it."
+        },
+        {
+          "fr": "Si nous avions acheté cette maison à l'époque, elle vaudrait beaucoup plus maintenant.",
+          "en": "If we had bought that house then, it would be worth much more now."
+        },
+        {
+          "fr": "Si je lui avais dit la vérité, tout aurait été plus simple.",
+          "en": "If I had told her the truth, everything would have been simpler."
+        },
+        {
+          "fr": "Si j'avais appris à nager enfant, je n'aurais pas cette peur maintenant.",
+          "en": "If I had learned to swim as a child, I wouldn't have this fear now."
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "title": "Combining Both Types",
+      "titleNative": "Combiner les deux types",
+      "items": [
+        {
+          "fr": "Si j'avais étudié les langues, j'aurais aujourd'hui plus d'opportunités de travail.",
+          "en": "If I had studied languages, I would now have more job opportunities."
+        },
+        {
+          "fr": "Si j'étais plus patient, je n'aurais pas réagi ainsi hier.",
+          "en": "If I were more patient, I wouldn't have reacted that way yesterday."
+        },
+        {
+          "fr": "Si tu n'avais pas insisté, je n'aurais jamais essayé quelque chose de nouveau.",
+          "en": "If you hadn't insisted, I would never have tried something new."
+        },
+        {
+          "fr": "Si nous avions eu plus de temps, nous aurions visité plus d'endroits pendant le voyage.",
+          "en": "If we had more time, we would have visited more places on the trip."
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "title": "Storytelling with Unreal Past",
+      "titleNative": "Raconter des histoires avec le passé irréel",
+      "items": [
+        {
+          "fr": "Si elle n'avait pas raté ce train, elle n'aurait jamais rencontré son mari.",
+          "en": "If she hadn't missed that train, she would never have met her husband."
+        },
+        {
+          "fr": "Si le magasin n'avait pas fermé tôt ce jour-là, tout aurait été différent.",
+          "en": "If the store hadn't closed early that day, everything would have been different."
+        },
+        {
+          "fr": "Si nous n'avions pas déménagé, nous serions restés amis toute notre vie.",
+          "en": "If we hadn't moved, we would have stayed friends our whole lives."
+        },
+        {
+          "fr": "Si personne n'avait remarqué l'erreur, les conséquences auraient été graves.",
+          "en": "If no one had noticed the mistake, the consequences would have been serious."
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "title": "Historical What-Ifs",
+      "titleNative": "Et si de l'histoire",
+      "items": [
+        {
+          "fr": "Si cette découverte n'avait pas eu lieu, la science aurait évolué différemment.",
+          "en": "If this discovery hadn't happened, science would have evolved differently."
+        },
+        {
+          "fr": "Si ce traité n'avait pas été signé, la guerre aurait pu continuer.",
+          "en": "If this treaty hadn't been signed, the war might have continued."
+        },
+        {
+          "fr": "Si cet inventeur n'était pas né, notre monde serait très différent.",
+          "en": "If that inventor hadn't been born, our world would be very different."
+        },
+        {
+          "fr": "Si cette décision n'avait pas été prise, l'histoire du pays aurait changé.",
+          "en": "If this decision hadn't been made, the country's history would have changed."
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "title": "Personal Regrets",
+      "titleNative": "Regrets personnels",
+      "items": [
+        {
+          "fr": "Si j'avais suivi mon instinct, j'aurais évité bien des problèmes.",
+          "en": "If I had followed my instinct, I would have avoided a lot of problems."
+        },
+        {
+          "fr": "Si j'avais parlé plus tôt, la situation ne serait pas devenue si compliquée.",
+          "en": "If I had spoken up earlier, the situation wouldn't have become so complicated."
+        },
+        {
+          "fr": "Si nous nous étions excusés à temps, cette amitié aurait pu être sauvée.",
+          "en": "If we had apologized in time, that friendship could have been saved."
+        },
+        {
+          "fr": "Si j'avais pris ce risque, ma carrière aurait pu être différente.",
+          "en": "If I had taken that risk, my career could have been different."
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "title": "Alternate Life Paths",
+      "titleNative": "Chemins de vie alternatifs",
+      "items": [
+        {
+          "fr": "Si j'étais né dans un autre pays, ma vie aurait été complètement différente.",
+          "en": "If I had been born in another country, my life would have been completely different."
+        },
+        {
+          "fr": "Si mes parents n'avaient pas émigré, je ne te connaîtrais pas aujourd'hui.",
+          "en": "If my parents hadn't emigrated, I wouldn't know you today."
+        },
+        {
+          "fr": "Si je n'avais pas choisi cette université, je n'aurais jamais découvert ma passion.",
+          "en": "If I hadn't chosen this university, I would never have discovered my passion."
+        },
+        {
+          "fr": "Si elle n'avait pas déménagé en ville, elle n'aurait jamais commencé cette carrière.",
+          "en": "If she hadn't moved to the city, she would never have started this career."
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "title": "Review: Si-Clauses",
+      "titleNative": "Repaso: Phrases avec si",
+      "items": [
+        {
+          "fr": "Si j'avais pu changer une chose du passé, ce serait cette décision.",
+          "en": "If I could change one thing about the past, it would be that decision."
+        },
+        {
+          "fr": "Si tu n'avais pas été là, je ne sais pas ce qui se serait passé.",
+          "en": "If you hadn't been there, I don't know what would have happened."
+        },
+        {
+          "fr": "Si nous habitions plus près de la mer, nous irions nager chaque jour.",
+          "en": "If we lived closer to the sea, we would go swimming every day."
+        },
+        {
+          "fr": "Si nous avions su avant, nous aurions fait les choses différemment.",
+          "en": "If we had known earlier, we would have done things differently."
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "title": "Purpose Clauses (pour que)",
+      "titleNative": "Propositions de but (pour que)",
+      "items": [
+        {
+          "fr": "Je te donne mon numéro pour que tu puisses m'appeler si besoin.",
+          "en": "I'm giving you my number so you can call me if you need anything."
+        },
+        {
+          "fr": "Nous parlons lentement pour que tout le monde comprenne bien.",
+          "en": "We speak slowly so that everyone understands well."
+        },
+        {
+          "fr": "J'ai laissé la porte ouverte pour que le chat puisse entrer.",
+          "en": "I left the door open so the cat could come in."
+        },
+        {
+          "fr": "Nous économisons pour que nos enfants puissent étudier à l'université.",
+          "en": "We save money so our children can study at university."
+        }
+      ],
+      "topicId": "b2-subjonctif-adverbial"
+    },
+    {
+      "number": 22,
+      "title": "Before and Until (avant que, jusqu'à ce que)",
+      "titleNative": "Avant que et jusqu'à ce que",
+      "items": [
+        {
+          "fr": "Nous sommes arrivés avant que le film ne commence.",
+          "en": "We arrived before the movie started."
+        },
+        {
+          "fr": "Je veux te parler avant que tu ne prennes une décision.",
+          "en": "I want to talk to you before you make a decision."
+        },
+        {
+          "fr": "Attendons ici jusqu'à ce qu'il arrive.",
+          "en": "Let's wait here until he arrives."
+        },
+        {
+          "fr": "Je ne partirai pas jusqu'à ce que nous ayons fini cette conversation.",
+          "en": "I won't leave until we finish this conversation."
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "title": "Unless and Concession (à moins que, bien que)",
+      "titleNative": "À moins que et bien que",
+      "items": [
+        {
+          "fr": "Nous ne sortirons pas à moins qu'il ne cesse de pleuvoir.",
+          "en": "We won't go out unless it stops raining."
+        },
+        {
+          "fr": "Je ne signerai pas le contrat à moins qu'ils ne changent cette clause.",
+          "en": "I won't sign the contract unless they change this clause."
+        },
+        {
+          "fr": "Bien que ce soit difficile, nous allons essayer.",
+          "en": "Even if it's difficult, we're going to try it."
+        },
+        {
+          "fr": "J'irai à la fête bien que je ne connaisse personne.",
+          "en": "I'll go to the party even if I don't know anyone."
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "title": "More Concession with Bien Que",
+      "titleNative": "Plus de concession avec bien que",
+      "items": [
+        {
+          "fr": "Bien que nous n'ayons pas beaucoup de temps, nous finirons le projet.",
+          "en": "Even if we don't have much time, we'll finish the project."
+        },
+        {
+          "fr": "Je continuerai à étudier le français bien que ce soit compliqué parfois.",
+          "en": "I'll keep studying French even if it's complicated sometimes."
+        },
+        {
+          "fr": "Bien qu'il ait peu d'argent, il aide toujours les autres.",
+          "en": "Although he has little money, he always helps others."
+        },
+        {
+          "fr": "Nous avons acheté la maison bien qu'elle soit plus chère que prévu.",
+          "en": "We bought the house even though it was more expensive than expected."
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "title": "In Case Of (au cas où)",
+      "titleNative": "Au cas où",
+      "items": [
+        {
+          "fr": "Prends un parapluie au cas où il pleuvrait.",
+          "en": "Bring an umbrella in case it rains."
+        },
+        {
+          "fr": "Je te laisse mon numéro au cas où tu aurais besoin d'aide.",
+          "en": "I'll leave you my number in case you need help."
+        },
+        {
+          "fr": "Nous avons gardé de la nourriture en plus au cas où d'autres invités viendraient.",
+          "en": "We kept extra food in case more guests came."
+        },
+        {
+          "fr": "Réserve une autre chambre au cas où il n'y aurait pas assez de place.",
+          "en": "Reserve another room in case there isn't enough space."
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "title": "Combining Connectors",
+      "titleNative": "Combiner les connecteurs",
+      "items": [
+        {
+          "fr": "Je t'aide avec ça pour que tu finisses avant qu'il ne fasse nuit.",
+          "en": "I'll help you with this so you finish before it gets dark."
+        },
+        {
+          "fr": "Tu ne pourras pas entrer à moins que tu n'apportes ta pièce d'identité.",
+          "en": "You won't be able to enter unless you bring your ID."
+        },
+        {
+          "fr": "Bien que nous soyons fatigués, nous finirons avant qu'il ne soit trop tard.",
+          "en": "Even if we're tired, we'll finish before it's too late."
+        },
+        {
+          "fr": "Prépare tout au cas où la réunion commencerait plus tôt que prévu.",
+          "en": "Prepare everything in case the meeting starts earlier than planned."
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "title": "Everyday Uses of These Connectors",
+      "titleNative": "Usages courants de ces connecteurs",
+      "items": [
+        {
+          "fr": "Je baisse la voix pour que le bébé ne se réveille pas.",
+          "en": "I lower my voice so the baby doesn't wake up."
+        },
+        {
+          "fr": "Je ne signerai rien à moins qu'on ne me l'explique bien.",
+          "en": "I'm not going to sign anything unless they explain it well to me."
+        },
+        {
+          "fr": "Bien que ce soit dur, je vais finir le marathon.",
+          "en": "Even if it's hard for me, I'm going to finish the marathon."
+        },
+        {
+          "fr": "Pourvu que tu trouves bientôt ce que tu cherches.",
+          "en": "I hope you find soon what you're looking for."
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "title": "Subjunctive with Emotion Continued",
+      "titleNative": "Subjonctif avec émotion (suite)",
+      "items": [
+        {
+          "fr": "Je suis désolé qu'il ne puisse pas venir à la fête.",
+          "en": "I'm sorry that he can't come to the party."
+        },
+        {
+          "fr": "Ça me fait plaisir qu'elle ait trouvé un travail qu'elle aime.",
+          "en": "I'm pleased that she found a job she likes."
+        },
+        {
+          "fr": "Nous sommes inquiets qu'il n'ait pas encore répondu.",
+          "en": "We're worried that he hasn't answered yet."
+        },
+        {
+          "fr": "Je suis soulagé que tout se soit bien terminé.",
+          "en": "I'm relieved that everything ended well."
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "title": "Formal Requests with Subjunctive",
+      "titleNative": "Demandes formelles avec le subjonctif",
+      "items": [
+        {
+          "fr": "Nous vous prions de bien vouloir examiner ce document attentivement.",
+          "en": "We kindly ask that you review this document carefully."
+        },
+        {
+          "fr": "Il est recommandé que les passagers arrivent deux heures à l'avance.",
+          "en": "Passengers are recommended to arrive two hours in advance."
+        },
+        {
+          "fr": "Nous exigeons que les termes du contrat soient respectés.",
+          "en": "We demand that the terms of the contract be respected."
+        },
+        {
+          "fr": "Il est essentiel que tous les membres soient présents pour le vote.",
+          "en": "It's essential that all members be present at the vote."
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "title": "Review: Subjunctive in Adverbial Clauses",
+      "titleNative": "Repaso: Subjonctif dans les propositions adverbiales",
+      "items": [
+        {
+          "fr": "Je t'écris pour que tu saches que tout va bien.",
+          "en": "I'm writing to you so you know everything is fine."
+        },
+        {
+          "fr": "Bien que ce soit compliqué, nous allons résoudre cela ensemble.",
+          "en": "Even if it's complicated, we're going to solve it together."
+        },
+        {
+          "fr": "Pourvu que nous nous revoyions bientôt.",
+          "en": "I hope we see each other again soon."
+        },
+        {
+          "fr": "Nous ne sortirons pas à moins que le temps ne s'améliore.",
+          "en": "We won't go out unless the weather improves."
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "title": "Contrast (cependant, néanmoins)",
+      "titleNative": "Contraste (cependant, néanmoins)",
+      "items": [
+        {
+          "fr": "Le projet était très ambitieux ; cependant, nous l'avons terminé à temps.",
+          "en": "The project was very ambitious; however, we finished it on time."
+        },
+        {
+          "fr": "Nous n'avions pas beaucoup d'expérience ; néanmoins, le résultat a été excellent.",
+          "en": "We didn't have much experience; nevertheless, the result was excellent."
+        },
+        {
+          "fr": "Il pleuvait beaucoup ; cependant, nous avons décidé de sortir quand même.",
+          "en": "It was raining a lot; however, we decided to go out anyway."
+        },
+        {
+          "fr": "Le plan semblait parfait ; néanmoins, plusieurs problèmes sont apparus.",
+          "en": "The plan seemed perfect; however, several problems arose."
+        }
+      ],
+      "topicId": "b2-advanced-connectors"
+    },
+    {
+      "number": 32,
+      "title": "Consequence (par conséquent, donc)",
+      "titleNative": "Conséquence (par conséquent, donc)",
+      "items": [
+        {
+          "fr": "Il n'a pas assez étudié ; par conséquent, il n'a pas réussi l'examen.",
+          "en": "He didn't study enough; therefore, he didn't pass the exam."
+        },
+        {
+          "fr": "Nous sommes arrivés en retard, donc nous avons raté le début du film.",
+          "en": "We arrived late, so we missed the beginning of the movie."
+        },
+        {
+          "fr": "Les prix ont beaucoup augmenté ; par conséquent, nous avons décidé d'épargner davantage.",
+          "en": "Prices went up a lot; therefore, we decided to save more."
+        },
+        {
+          "fr": "Le temps s'est dégradé, donc ils ont annulé l'événement en plein air.",
+          "en": "The weather got worse, so they canceled the outdoor event."
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "title": "Concession (malgré, bien que)",
+      "titleNative": "Concession (malgré, bien que)",
+      "items": [
+        {
+          "fr": "Malgré la pluie, nous avons décidé de faire une randonnée.",
+          "en": "Despite the rain, we decided to go hiking."
+        },
+        {
+          "fr": "Malgré son jeune âge, il a beaucoup d'expérience dans son domaine.",
+          "en": "Despite his young age, he has a lot of experience in his field."
+        },
+        {
+          "fr": "Bien qu'il ait peu de temps, il m'aide toujours quand j'en ai besoin.",
+          "en": "Even though he may have little time, he always helps me when I need it."
+        },
+        {
+          "fr": "Malgré les difficultés, ils ont terminé le projet avec succès.",
+          "en": "Despite the difficulties, they finished the project successfully."
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "title": "Cause (étant donné que, puisque)",
+      "titleNative": "Cause (étant donné que, puisque)",
+      "items": [
+        {
+          "fr": "Puisque tu es là, profitons-en pour parler du sujet.",
+          "en": "Since you're here, let's take the opportunity to talk about the topic."
+        },
+        {
+          "fr": "Étant donné que le budget n'était pas suffisant, nous avons reporté le projet.",
+          "en": "Given that there wasn't enough budget, we postponed the project."
+        },
+        {
+          "fr": "Puisque tu insistes tant, je viendrai avec toi à la fête.",
+          "en": "Since you insist so much, I'll go with you to the party."
+        },
+        {
+          "fr": "Étant donné que le vol a été annulé, nous avons dû chercher une autre option.",
+          "en": "Given that the flight was canceled, we had to look for another option."
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "title": "Combining Connectors in Argument",
+      "titleNative": "Combiner les connecteurs dans un argument",
+      "items": [
+        {
+          "fr": "Le projet est coûteux ; cependant, étant donné qu'il apportera de grands bénéfices, cela en vaut la peine.",
+          "en": "The project is expensive; however, since it will bring great benefits, it's worth it."
+        },
+        {
+          "fr": "Malgré les critiques, l'équipe a continué et, par conséquent, a atteint son objectif.",
+          "en": "Despite the criticism, the team kept going and, therefore, achieved its goal."
+        },
+        {
+          "fr": "Nous n'avions pas beaucoup de temps ; néanmoins, puisque tout le monde a collaboré, nous avons terminé à temps.",
+          "en": "We didn't have much time; nevertheless, since everyone collaborated, we finished on time."
+        },
+        {
+          "fr": "Le temps était mauvais, donc, malgré notre envie, nous avons annulé le voyage.",
+          "en": "The weather was bad, so, despite our eagerness, we canceled the trip."
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "title": "Formal Writing Connectors",
+      "titleNative": "Connecteurs d'écriture formelle",
+      "items": [
+        {
+          "fr": "Les résultats de l'étude confirment donc l'hypothèse initiale.",
+          "en": "The study's results, therefore, confirm the initial hypothesis."
+        },
+        {
+          "fr": "Néanmoins, il est nécessaire de considérer d'autres facteurs avant de conclure.",
+          "en": "However, it's necessary to consider other factors before concluding."
+        },
+        {
+          "fr": "Étant donné que les données sont limitées, davantage de recherche est recommandée.",
+          "en": "Given that the data is limited, more research is recommended."
+        },
+        {
+          "fr": "Malgré ses limites, l'étude apporte des informations précieuses.",
+          "en": "Despite its limitations, the study provides valuable information."
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "title": "Everyday Conversational Use",
+      "titleNative": "Usage conversationnel courant",
+      "items": [
+        {
+          "fr": "Je suis fatigué ; cependant, je veux finir ça aujourd'hui.",
+          "en": "I'm tired; however, I want to finish this today."
+        },
+        {
+          "fr": "Puisque tu vas au supermarché, tu peux m'apporter du lait ?",
+          "en": "Since you're going to the supermarket, can you bring me milk?"
+        },
+        {
+          "fr": "Je n'ai pas envie de cuisiner, donc nous allons commander à manger.",
+          "en": "I don't feel like cooking, so we'll order food delivery."
+        },
+        {
+          "fr": "Malgré notre dispute, nous restons de bons amis.",
+          "en": "Despite the fact that we argued, we're still good friends."
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "title": "Comparing Two Situations",
+      "titleNative": "Comparer deux situations",
+      "items": [
+        {
+          "fr": "Dans mon pays, le climat est chaud ; cependant, ici il fait très froid.",
+          "en": "In my country the weather is warm; however, here it's very cold."
+        },
+        {
+          "fr": "Étant donné que les deux options ont des avantages, c'est difficile de choisir.",
+          "en": "Given that both options have advantages, it's hard to choose."
+        },
+        {
+          "fr": "Bien que les deux projets soient bons, nous choisirons le plus économique.",
+          "en": "Although both projects are good, we'll choose the more economical one."
+        },
+        {
+          "fr": "Le premier plan est plus rapide ; néanmoins, le second est plus sûr.",
+          "en": "The first plan is faster; however, the second is safer."
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "title": "Explaining Decisions",
+      "titleNative": "Expliquer des décisions",
+      "items": [
+        {
+          "fr": "Nous avons décidé de déménager puisque le nouveau travail l'exigeait.",
+          "en": "We decided to move since the new job required it."
+        },
+        {
+          "fr": "Étant donné que le loyer a tant augmenté, nous cherchons un appartement plus petit.",
+          "en": "Given that rent went up so much, we looked for a smaller apartment."
+        },
+        {
+          "fr": "Malgré les doutes initiaux, nous avons confiance en notre décision.",
+          "en": "Despite the initial doubts, we trust our decision."
+        },
+        {
+          "fr": "Par conséquent, nous avons décidé de reporter le voyage à l'année prochaine.",
+          "en": "Therefore, we decided to postpone the trip until next year."
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "title": "Review: Advanced Connectors",
+      "titleNative": "Repaso: Connecteurs avancés",
+      "items": [
+        {
+          "fr": "Malgré tous les obstacles, nous avons réussi à terminer le projet.",
+          "en": "Despite all the obstacles, we managed to complete the project."
+        },
+        {
+          "fr": "Puisque tu es venu jusqu'ici, n'abandonne pas maintenant.",
+          "en": "Since you've come this far, don't give up now."
+        },
+        {
+          "fr": "Le plan a échoué ; cependant, nous avons appris des leçons très précieuses.",
+          "en": "The plan failed; however, we learned very valuable lessons."
+        },
+        {
+          "fr": "Il n'y avait pas assez de temps, donc nous avons décidé de simplifier le processus.",
+          "en": "There wasn't enough time, so we decided to simplify the process."
+        }
+      ]
+    },
+    {
+      "number": 41,
+      "title": "Present or Past Subjunctive?",
+      "titleNative": "Subjonctif présent ou passé ?",
+      "items": [
+        {
+          "fr": "J'espère que tu arrives à l'heure demain.",
+          "en": "I hope you arrive on time tomorrow."
+        },
+        {
+          "fr": "J'espérais que tu arriverais à l'heure hier.",
+          "en": "I was hoping you would arrive on time yesterday."
+        },
+        {
+          "fr": "Il est possible qu'ils le sachent déjà.",
+          "en": "It's possible they already know."
+        },
+        {
+          "fr": "Il était possible qu'ils l'aient déjà su, mais personne n'était sûr.",
+          "en": "It was possible they already knew, but no one was sure."
+        }
+      ],
+      "topicId": "b2-subjonctif-passe"
+    },
+    {
+      "number": 42,
+      "title": "Subjonctif Passé in Practice",
+      "titleNative": "Le subjonctif passé en pratique",
+      "items": [
+        {
+          "fr": "J'espère que tu as bien dormi la nuit dernière.",
+          "en": "I hope you slept well last night."
+        },
+        {
+          "fr": "Je suis content que vous soyez arrivés sains et saufs.",
+          "en": "I'm glad you all arrived safe and sound."
+        },
+        {
+          "fr": "Je ne crois pas que cela ait été facile pour elle de prendre cette décision.",
+          "en": "I don't think it was easy for her to make that decision."
+        },
+        {
+          "fr": "Il est possible qu'ils aient déjà terminé le projet.",
+          "en": "It's possible they've already finished the project."
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "title": "Emotional Reactions to Past Events",
+      "titleNative": "Réactions émotionnelles à des événements passés",
+      "items": [
+        {
+          "fr": "Je suis désolé qu'il ait perdu son travail le mois dernier.",
+          "en": "I'm sorry that he lost his job last month."
+        },
+        {
+          "fr": "Nous sommes surpris que le vol ait été annulé sans prévenir.",
+          "en": "We're surprised that the flight was canceled without notice."
+        },
+        {
+          "fr": "Elle est ravie que ses enfants aient réussi leurs examens.",
+          "en": "She's delighted that her children passed their exams."
+        },
+        {
+          "fr": "Je regrette que nous n'ayons pas pu nous voir plus souvent.",
+          "en": "I regret that we couldn't see each other more often."
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "title": "Doubt About Past Events",
+      "titleNative": "Doute sur des événements passés",
+      "items": [
+        {
+          "fr": "Je doute qu'il ait dit la vérité à ce moment-là.",
+          "en": "I doubt he told the truth at that moment."
+        },
+        {
+          "fr": "Je ne pense pas qu'elle ait fait cela exprès.",
+          "en": "I don't think she did that on purpose."
+        },
+        {
+          "fr": "Il n'est pas certain que la lettre soit arrivée à temps.",
+          "en": "It's not certain that the letter arrived in time."
+        },
+        {
+          "fr": "Nous doutons qu'ils aient vraiment compris la situation.",
+          "en": "We doubt they really understood the situation."
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "title": "Recognizing Literary Subjunctive",
+      "titleNative": "Reconnaître le subjonctif littéraire",
+      "items": [
+        {
+          "fr": "Il fallait qu'elle partît avant la tombée de la nuit.",
+          "en": "She had to leave before nightfall."
+        },
+        {
+          "fr": "Bien qu'il fût tard, personne ne voulait rentrer.",
+          "en": "Although it was late, no one wanted to go home."
+        },
+        {
+          "fr": "On aurait souhaité qu'il vînt plus tôt.",
+          "en": "One would have wished he had come earlier."
+        },
+        {
+          "fr": "Il était rare qu'elle eût tort dans ses jugements.",
+          "en": "It was rare that she was wrong in her judgments."
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "title": "Combining Tenses in a Story",
+      "titleNative": "Combiner les temps dans une histoire",
+      "items": [
+        {
+          "fr": "Je voulais que tout se passe parfaitement pour que personne ne se doute de rien.",
+          "en": "I wanted everything to turn out perfect so no one would suspect anything."
+        },
+        {
+          "fr": "Bien que je doutais que cela fonctionne, j'ai décidé d'essayer quand même.",
+          "en": "Although I doubted it would work, I decided to try it anyway."
+        },
+        {
+          "fr": "Je lui ai demandé de me prévenir dès qu'il aurait des nouvelles.",
+          "en": "I asked him to let me know as soon as he had news."
+        },
+        {
+          "fr": "J'aurais aimé avoir davantage confiance en moi à ce moment-là.",
+          "en": "I wish I had trusted myself more at that moment."
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "title": "Formal Recommendations",
+      "titleNative": "Recommandations formelles",
+      "items": [
+        {
+          "fr": "Il est essentiel que tous les documents aient été vérifiés avant l'envoi.",
+          "en": "It's essential that all documents have been checked before sending."
+        },
+        {
+          "fr": "Nous exigeons que les employés aient terminé la formation avant lundi.",
+          "en": "We demand that employees have completed the training before Monday."
+        },
+        {
+          "fr": "Il est souhaitable que la décision ait été prise avant la fin du mois.",
+          "en": "It's desirable that the decision have been made before the end of the month."
+        },
+        {
+          "fr": "Il faudrait que ce dossier ait été traité avant notre départ.",
+          "en": "This file should have been processed before our departure."
+        }
+      ]
+    },
+    {
+      "number": 48,
+      "title": "Distinguishing Real vs Hypothetical",
+      "titleNative": "Distinguer le réel de l'hypothétique",
+      "items": [
+        {
+          "fr": "S'il pleut demain, nous resterons à la maison.",
+          "en": "If it rains tomorrow, we'll stay home."
+        },
+        {
+          "fr": "S'il pleuvait demain, nous changerions nos plans.",
+          "en": "If it were to rain tomorrow, we would change plans."
+        },
+        {
+          "fr": "Quand l'été arrivera, nous irons à la plage.",
+          "en": "When summer arrives, we'll go to the beach."
+        },
+        {
+          "fr": "Si nous avions plus de temps libre en été, nous voyagerions davantage.",
+          "en": "If we had more free time in summer, we would travel more."
+        }
+      ]
+    },
+    {
+      "number": 49,
+      "title": "Talking About Regret and Hindsight",
+      "titleNative": "Parler de regret et de recul",
+      "items": [
+        {
+          "fr": "Si j'avais écouté les conseils de mes parents, les choses seraient peut-être différentes.",
+          "en": "If I had listened to my parents' advice, maybe things would be different."
+        },
+        {
+          "fr": "J'aurais aimé que nous sachions à quel point ce serait difficile avant de commencer.",
+          "en": "I wish we had known how difficult it would be before starting."
+        },
+        {
+          "fr": "Je regrette de ne pas avoir voyagé davantage quand j'étais jeune.",
+          "en": "I regret not having traveled more when I was young."
+        },
+        {
+          "fr": "Avec ce que je sais maintenant, j'aurais pris des décisions très différentes.",
+          "en": "With what I know now, I would have made very different decisions."
+        }
+      ]
+    },
+    {
+      "number": 50,
+      "title": "Review: The Subjunctive System",
+      "titleNative": "Repaso: Le système du subjonctif",
+      "items": [
+        {
+          "fr": "J'espère que tu as apprécié apprendre tout cela autant que j'ai apprécié l'écrire.",
+          "en": "I hope you've enjoyed learning all of this as much as I enjoyed writing it."
+        },
+        {
+          "fr": "Si tu continues à t'entraîner, tu maîtriseras le subjonctif plus vite que tu ne le penses.",
+          "en": "If you keep practicing, you'll master the subjunctive sooner than you think."
+        },
+        {
+          "fr": "Bien que cela paraisse compliqué au début, cela devient naturel avec le temps.",
+          "en": "Even though it may seem complicated at first, with time it becomes natural."
+        },
+        {
+          "fr": "J'espère que ce niveau t'a donné les outils pour t'exprimer avec beaucoup plus de précision.",
+          "en": "I hope this level has given you the tools to express yourself with much more precision."
+        }
+      ]
+    },
+    {
+      "number": 51,
+      "title": "Scientific Discoveries",
+      "titleNative": "Découvertes scientifiques",
+      "items": [
+        {
+          "fr": "Les scientifiques ont découvert une nouvelle espèce au fond de l'océan.",
+          "en": "Scientists discovered a new species at the bottom of the ocean."
+        },
+        {
+          "fr": "Le vaccin a été développé en un temps record.",
+          "en": "The vaccine was developed in record time."
+        },
+        {
+          "fr": "Cette expérience pourrait changer notre compréhension de l'univers.",
+          "en": "This experiment could change the way we understand the universe."
+        },
+        {
+          "fr": "Les chercheurs ont publié leurs résultats dans une revue prestigieuse.",
+          "en": "The researchers published their findings in a prestigious journal."
+        }
+      ]
+    },
+    {
+      "number": 52,
+      "title": "Space Exploration",
+      "titleNative": "Exploration spatiale",
+      "items": [
+        {
+          "fr": "La mission spatiale vise à explorer la surface de Mars.",
+          "en": "The space mission aims to explore the surface of Mars."
+        },
+        {
+          "fr": "Les astronautes passeront plusieurs mois sur la station spatiale.",
+          "en": "The astronauts will spend several months on the space station."
+        },
+        {
+          "fr": "Il est fascinant de penser que nous pourrions trouver de la vie sur d'autres planètes.",
+          "en": "It's fascinating to think we could find life on other planets."
+        },
+        {
+          "fr": "Le télescope a capturé des images de galaxies à des millions d'années-lumière.",
+          "en": "The telescope captured images of galaxies millions of light-years away."
+        }
+      ]
+    },
+    {
+      "number": 53,
+      "title": "Medicine and Health Research",
+      "titleNative": "Médecine et recherche en santé",
+      "items": [
+        {
+          "fr": "Les avancées médicales ont considérablement augmenté l'espérance de vie.",
+          "en": "Medical advances have significantly increased life expectancy."
+        },
+        {
+          "fr": "Ce traitement s'est révélé efficace contre la maladie.",
+          "en": "This treatment has proven effective against the disease."
+        },
+        {
+          "fr": "La recherche génétique ouvre de nouvelles possibilités pour soigner des maladies rares.",
+          "en": "Genetic research opens new possibilities for curing rare diseases."
+        },
+        {
+          "fr": "Les médecins recommandent des examens réguliers pour détecter les problèmes à temps.",
+          "en": "Doctors recommend periodic checkups to detect problems early."
+        }
+      ]
+    },
+    {
+      "number": 54,
+      "title": "Innovation and Technology",
+      "titleNative": "Innovation et technologie",
+      "items": [
+        {
+          "fr": "L'intelligence artificielle accélère le rythme des découvertes scientifiques.",
+          "en": "Artificial intelligence is accelerating the pace of scientific discoveries."
+        },
+        {
+          "fr": "Les laboratoires utilisent une technologie de pointe pour analyser les données.",
+          "en": "Laboratories use cutting-edge technology to analyze data."
+        },
+        {
+          "fr": "Cette innovation pourrait révolutionner l'industrie dans les années à venir.",
+          "en": "This innovation could revolutionize the industry in the coming years."
+        },
+        {
+          "fr": "La collaboration internationale accélère le développement de nouvelles technologies.",
+          "en": "International collaboration accelerates the development of new technologies."
+        }
+      ]
+    },
+    {
+      "number": 55,
+      "title": "The Scientific Method",
+      "titleNative": "La méthode scientifique",
+      "items": [
+        {
+          "fr": "Toute théorie scientifique doit pouvoir être testée et réfutée.",
+          "en": "Every scientific theory must be testable and refutable."
+        },
+        {
+          "fr": "Les chercheurs ont répété l'expérience plusieurs fois pour confirmer les résultats.",
+          "en": "The researchers repeated the experiment several times to confirm the results."
+        },
+        {
+          "fr": "Il est essentiel de distinguer une corrélation d'une véritable cause.",
+          "en": "It's essential to distinguish correlation from actual causation."
+        },
+        {
+          "fr": "La revue par les pairs garantit la rigueur des publications scientifiques.",
+          "en": "Peer review ensures the rigor of scientific publications."
+        }
+      ]
+    },
+    {
+      "number": 56,
+      "title": "Ethics in Science",
+      "titleNative": "Éthique dans la science",
+      "items": [
+        {
+          "fr": "L'usage de l'intelligence artificielle soulève d'importantes questions éthiques.",
+          "en": "The use of artificial intelligence raises important ethical questions."
+        },
+        {
+          "fr": "Il est nécessaire d'établir des limites claires dans la recherche génétique.",
+          "en": "It's necessary to establish clear limits in genetic research."
+        },
+        {
+          "fr": "La transparence est essentielle pour maintenir la confiance du public dans la science.",
+          "en": "Transparency is essential to maintaining public trust in science."
+        },
+        {
+          "fr": "Les scientifiques doivent considérer l'impact social de leurs découvertes.",
+          "en": "Scientists must consider the social impact of their discoveries."
+        }
+      ]
+    },
+    {
+      "number": 57,
+      "title": "Climate Science",
+      "titleNative": "Science du climat",
+      "items": [
+        {
+          "fr": "Les émissions de dioxyde de carbone ont augmenté de façon spectaculaire depuis la révolution industrielle.",
+          "en": "Carbon dioxide emissions have increased dramatically since the industrial revolution."
+        },
+        {
+          "fr": "Les scientifiques mettent en garde contre la montée du niveau des mers dans les prochaines décennies.",
+          "en": "Scientists warn about rising sea levels in the coming decades."
+        },
+        {
+          "fr": "Les modèles climatiques deviennent de plus en plus précis avec le temps.",
+          "en": "Climate models are becoming more and more accurate over time."
+        },
+        {
+          "fr": "La couche d'ozone se rétablit peu à peu grâce aux accords internationaux.",
+          "en": "The ozone layer is gradually recovering thanks to international agreements."
+        }
+      ]
+    },
+    {
+      "number": 58,
+      "title": "Neuroscience and the Brain",
+      "titleNative": "Neurosciences et le cerveau",
+      "items": [
+        {
+          "fr": "Le cerveau humain contient des milliards de neurones interconnectés.",
+          "en": "The human brain contains billions of interconnected neurons."
+        },
+        {
+          "fr": "Les scientifiques étudient comment la mémoire se forme et se conserve.",
+          "en": "Scientists study how memory forms and is retained."
+        },
+        {
+          "fr": "Le sommeil joue un rôle essentiel dans la consolidation des souvenirs.",
+          "en": "Sleep plays an essential role in consolidating memories."
+        },
+        {
+          "fr": "Cette découverte pourrait changer notre approche des maladies neurodégénératives.",
+          "en": "This discovery could change our approach to neurodegenerative diseases."
+        }
+      ]
+    },
+    {
+      "number": 59,
+      "title": "Renewable Energy",
+      "titleNative": "Énergies renouvelables",
+      "items": [
+        {
+          "fr": "Les panneaux solaires sont devenus plus efficaces et abordables.",
+          "en": "Solar panels have become more efficient and affordable."
+        },
+        {
+          "fr": "L'énergie éolienne représente une part croissante de la production énergétique.",
+          "en": "Wind energy represents a growing share of energy production."
+        },
+        {
+          "fr": "Investir dans les énergies propres réduit la dépendance aux combustibles fossiles.",
+          "en": "Investing in clean energy reduces dependence on fossil fuels."
+        },
+        {
+          "fr": "Plusieurs pays se sont engagés à atteindre zéro émission nette d'ici deux mille cinquante.",
+          "en": "Several countries have committed to reaching net zero emissions by 2050."
+        }
+      ]
+    },
+    {
+      "number": 60,
+      "title": "Review: Science and Discovery",
+      "titleNative": "Repaso: Science et découverte",
+      "items": [
+        {
+          "fr": "Le savoir scientifique progresse plus vite que jamais dans l'histoire.",
+          "en": "Scientific knowledge is advancing faster than ever in history."
+        },
+        {
+          "fr": "J'espère que la prochaine génération aura accès à une meilleure éducation scientifique.",
+          "en": "I hope the next generation has access to a better scientific education."
+        },
+        {
+          "fr": "La curiosité est le moteur derrière chaque grande découverte.",
+          "en": "Curiosity is the engine behind every great discovery."
+        },
+        {
+          "fr": "Apprendre ne s'arrête jamais, peu importe l'âge que l'on a.",
+          "en": "Learning never ends, no matter our age."
+        }
+      ]
+    },
+    {
+      "number": 61,
+      "title": "Elections and Democracy",
+      "titleNative": "Élections et démocratie",
+      "items": [
+        {
+          "fr": "Les élections auront lieu le mois prochain dans tout le pays.",
+          "en": "The elections will be held next month across the whole country."
+        },
+        {
+          "fr": "Voter est à la fois un droit et une responsabilité.",
+          "en": "Voting is both a right and a responsibility."
+        },
+        {
+          "fr": "Les candidats ont débattu de l'économie et de l'éducation.",
+          "en": "The candidates debated about economy and education."
+        },
+        {
+          "fr": "La participation citoyenne est essentielle à une démocratie saine.",
+          "en": "Citizen participation is essential for a healthy democracy."
+        }
+      ]
+    },
+    {
+      "number": 62,
+      "title": "Government Policies",
+      "titleNative": "Politiques gouvernementales",
+      "items": [
+        {
+          "fr": "Le nouveau gouvernement a proposé une importante réforme fiscale.",
+          "en": "The new government proposed a major tax reform."
+        },
+        {
+          "fr": "La politique de santé publique profitera à des millions de personnes.",
+          "en": "The public health policy will benefit millions of people."
+        },
+        {
+          "fr": "De nombreux citoyens exigent plus de transparence dans l'usage des fonds publics.",
+          "en": "Many citizens demand greater transparency in the use of public funds."
+        },
+        {
+          "fr": "Le parlement a approuvé la loi après un long débat.",
+          "en": "Congress approved the law after a long debate."
+        }
+      ]
+    },
+    {
+      "number": 63,
+      "title": "Human Rights",
+      "titleNative": "Droits humains",
+      "items": [
+        {
+          "fr": "L'organisation défend les droits humains dans plusieurs pays.",
+          "en": "The organization defends human rights in several countries."
+        },
+        {
+          "fr": "Nous avons tous droit à la liberté d'expression.",
+          "en": "We all have the right to freedom of expression."
+        },
+        {
+          "fr": "La lutte pour l'égalité des droits reste d'actualité aujourd'hui.",
+          "en": "The fight for equal rights remains relevant today."
+        },
+        {
+          "fr": "Il est de la responsabilité de tous de protéger les droits des plus vulnérables.",
+          "en": "It's everyone's responsibility to protect the rights of the most vulnerable."
+        }
+      ]
+    },
+    {
+      "number": 64,
+      "title": "International Relations",
+      "titleNative": "Relations internationales",
+      "items": [
+        {
+          "fr": "Les deux pays ont signé un accord de coopération économique.",
+          "en": "The two countries signed an economic cooperation agreement."
+        },
+        {
+          "fr": "La diplomatie a joué un rôle essentiel dans la résolution du conflit.",
+          "en": "Diplomacy played a fundamental role in resolving the conflict."
+        },
+        {
+          "fr": "Les Nations Unies promeuvent la paix et la coopération entre les nations.",
+          "en": "The United Nations promotes peace and cooperation among nations."
+        },
+        {
+          "fr": "La communauté internationale a condamné les actions du gouvernement.",
+          "en": "The international community condemned the government's actions."
+        }
+      ]
+    },
+    {
+      "number": 65,
+      "title": "Civic Engagement",
+      "titleNative": "Engagement civique",
+      "items": [
+        {
+          "fr": "Les jeunes s'impliquent de plus en plus dans la politique locale.",
+          "en": "Young people are getting more and more involved in local politics."
+        },
+        {
+          "fr": "Participer à des manifestations pacifiques est une forme légitime de protestation.",
+          "en": "Participating in peaceful demonstrations is a legitimate form of protest."
+        },
+        {
+          "fr": "Nous avons signé une pétition pour demander de meilleurs services dans le quartier.",
+          "en": "We signed a petition to demand better services in the neighborhood."
+        },
+        {
+          "fr": "Il est important de bien s'informer avant de se faire une opinion politique.",
+          "en": "It's important to be well informed before forming a political opinion."
+        }
+      ]
+    },
+    {
+      "number": 66,
+      "title": "Public Debate",
+      "titleNative": "Débat public",
+      "items": [
+        {
+          "fr": "Le débat s'est concentré sur les questions de sécurité et d'emploi.",
+          "en": "The debate focused on issues of security and employment."
+        },
+        {
+          "fr": "Il est possible d'avoir des opinions différentes sans manquer de respect.",
+          "en": "It's possible to have different opinions without disrespecting each other."
+        },
+        {
+          "fr": "Les médias ont une grande influence sur l'opinion publique.",
+          "en": "The media have great influence on public opinion."
+        },
+        {
+          "fr": "Un bon argument repose sur des faits, pas seulement sur des émotions.",
+          "en": "A good argument is based on facts, not just emotions."
+        }
+      ]
+    },
+    {
+      "number": 67,
+      "title": "Local Government",
+      "titleNative": "Gouvernement local",
+      "items": [
+        {
+          "fr": "Le maire a présenté son plan pour améliorer les transports en commun.",
+          "en": "The mayor presented his plan to improve public transportation."
+        },
+        {
+          "fr": "Les habitants ont voté en faveur de la construction d'un nouveau centre communautaire.",
+          "en": "Residents voted in favor of building a new community center."
+        },
+        {
+          "fr": "Le conseil municipal se réunit toutes les deux semaines pour discuter du budget.",
+          "en": "The city council meets every two weeks to discuss the budget."
+        },
+        {
+          "fr": "La participation aux affaires locales renforce toute la communauté.",
+          "en": "Participation in local affairs strengthens the whole community."
+        }
+      ]
+    },
+    {
+      "number": 68,
+      "title": "Freedom of the Press",
+      "titleNative": "Liberté de la presse",
+      "items": [
+        {
+          "fr": "Une presse libre est essentielle pour une société démocratique.",
+          "en": "A free press is fundamental for a democratic society."
+        },
+        {
+          "fr": "Les journalistes prennent des risques en enquêtant sur des affaires de corruption.",
+          "en": "Journalists face risks when investigating corruption issues."
+        },
+        {
+          "fr": "L'accès à une information fiable aide les citoyens à prendre de meilleures décisions.",
+          "en": "Access to reliable information helps citizens make better decisions."
+        },
+        {
+          "fr": "La censure limite le droit des gens à être informés.",
+          "en": "Censorship limits people's right to be informed."
+        }
+      ]
+    },
+    {
+      "number": 69,
+      "title": "Economic Policy Debates",
+      "titleNative": "Débats de politique économique",
+      "items": [
+        {
+          "fr": "Les experts ne s'accordent pas sur la meilleure façon de réduire le chômage.",
+          "en": "Experts don't agree on the best way to reduce unemployment."
+        },
+        {
+          "fr": "Augmenter les impôts pourrait affecter les petites entreprises.",
+          "en": "Raising taxes could affect small businesses."
+        },
+        {
+          "fr": "Le gouvernement a annoncé des mesures pour contrôler l'inflation.",
+          "en": "The government announced measures to control inflation."
+        },
+        {
+          "fr": "Investir dans les infrastructures crée de l'emploi sur le long terme.",
+          "en": "Investing in infrastructure creates jobs in the long run."
+        }
+      ]
+    },
+    {
+      "number": 70,
+      "title": "Review: Politics and Government",
+      "titleNative": "Repaso: Politique et gouvernement",
+      "items": [
+        {
+          "fr": "Un bon gouvernement écoute ses citoyens et agit avec transparence.",
+          "en": "A good government listens to its citizens and acts with transparency."
+        },
+        {
+          "fr": "J'espère que les nouvelles politiques amélioreront la vie des gens ordinaires.",
+          "en": "I hope the new policies improve the lives of ordinary people."
+        },
+        {
+          "fr": "La démocratie fonctionne mieux quand tout le monde participe activement.",
+          "en": "Democracy works best when everyone participates actively."
+        },
+        {
+          "fr": "Chaque vote compte et peut vraiment faire la différence.",
+          "en": "Every vote counts and can make a real difference."
+        }
+      ]
+    },
+    {
+      "number": 71,
+      "title": "The Meaning of Happiness",
+      "titleNative": "Le sens du bonheur",
+      "items": [
+        {
+          "fr": "Le bonheur signifie des choses différentes pour chaque personne.",
+          "en": "Happiness means different things to each person."
+        },
+        {
+          "fr": "Certains philosophes pensent que le bonheur vient d'accepter ce que nous ne pouvons pas changer.",
+          "en": "Some philosophers believe happiness comes from accepting what we can't change."
+        },
+        {
+          "fr": "Chercher le bonheur constamment peut, paradoxalement, nous en éloigner.",
+          "en": "Constantly seeking happiness can, paradoxically, push it further away."
+        },
+        {
+          "fr": "Peut-être que le bonheur n'est pas une destination, mais une façon de marcher.",
+          "en": "Perhaps happiness isn't a destination, but a way of walking."
+        }
+      ]
+    },
+    {
+      "number": 72,
+      "title": "Free Will and Determinism",
+      "titleNative": "Libre arbitre et déterminisme",
+      "items": [
+        {
+          "fr": "Choisissons-nous vraiment notre destin, ou tout est-il prédéterminé ?",
+          "en": "Do we really choose our destiny, or is everything predetermined?"
+        },
+        {
+          "fr": "Nos décisions sont influencées par la génétique et l'environnement.",
+          "en": "Our decisions are influenced by genetics and environment."
+        },
+        {
+          "fr": "Malgré tout, nous sentons que nous avons le contrôle sur nos actions.",
+          "en": "Even so, we feel we have control over our actions."
+        },
+        {
+          "fr": "Ce débat occupe les philosophes depuis des siècles.",
+          "en": "This debate has occupied philosophers for centuries."
+        }
+      ]
+    },
+    {
+      "number": 73,
+      "title": "The Nature of Time",
+      "titleNative": "La nature du temps",
+      "items": [
+        {
+          "fr": "Le temps semble passer plus vite à mesure que nous vieillissons.",
+          "en": "Time seems to pass faster as we get older."
+        },
+        {
+          "fr": "Certains physiciens soutiennent que le temps n'est qu'une illusion.",
+          "en": "Some physicists argue that time is just an illusion."
+        },
+        {
+          "fr": "Vivre dans le présent est plus facile à dire qu'à faire.",
+          "en": "Living in the present is easier said than done."
+        },
+        {
+          "fr": "Le passé n'existe plus et le futur n'est pas encore arrivé.",
+          "en": "The past no longer exists and the future hasn't arrived yet."
+        }
+      ]
+    },
+    {
+      "number": 74,
+      "title": "Truth and Perception",
+      "titleNative": "La vérité et la perception",
+      "items": [
+        {
+          "fr": "Ce que nous considérons comme vrai dépend beaucoup de notre perspective.",
+          "en": "What we consider truth depends a lot on our perspective."
+        },
+        {
+          "fr": "Deux personnes peuvent vivre le même événement de façons complètement différentes.",
+          "en": "Two people can experience the same event in completely different ways."
+        },
+        {
+          "fr": "Il est difficile de séparer les faits de nos propres interprétations.",
+          "en": "It's difficult to separate facts from our own interpretations."
+        },
+        {
+          "fr": "Remettre en question nos propres croyances est un exercice sain.",
+          "en": "Questioning our own beliefs is a healthy exercise."
+        }
+      ]
+    },
+    {
+      "number": 75,
+      "title": "The Value of Suffering",
+      "titleNative": "La valeur de la souffrance",
+      "items": [
+        {
+          "fr": "Certaines des leçons les plus importantes viennent de la douleur.",
+          "en": "Some of the most important lessons come from pain."
+        },
+        {
+          "fr": "Personne ne cherche à souffrir, mais la souffrance nous transforme parfois.",
+          "en": "No one seeks to suffer, but suffering sometimes transforms us."
+        },
+        {
+          "fr": "Surmonter une perte nous apprend sur notre propre force.",
+          "en": "Overcoming a loss teaches us about our own strength."
+        },
+        {
+          "fr": "La souffrance partagée peut profondément unir les gens.",
+          "en": "Shared suffering can bring people deeply together."
+        }
+      ]
+    },
+    {
+      "number": 76,
+      "title": "Identity and the Self",
+      "titleNative": "Identité et le moi",
+      "items": [
+        {
+          "fr": "Sommes-nous la même personne que nous étions il y a dix ans ?",
+          "en": "Are we the same person we were ten years ago?"
+        },
+        {
+          "fr": "Notre identité se forme à partir des expériences que nous vivons.",
+          "en": "Our identity is shaped by the experiences we live through."
+        },
+        {
+          "fr": "Parfois nous sentons que nous portons plusieurs versions de nous-mêmes.",
+          "en": "Sometimes we feel we carry several versions of ourselves."
+        },
+        {
+          "fr": "Se connaître soi-même est un processus qui dure toute la vie.",
+          "en": "Knowing oneself is a process that lasts a lifetime."
+        }
+      ]
+    },
+    {
+      "number": 77,
+      "title": "Morality and Ethics",
+      "titleNative": "Morale et éthique",
+      "items": [
+        {
+          "fr": "Ce qui est juste n'est pas toujours le plus facile à faire.",
+          "en": "What is right isn't always the easiest thing to do."
+        },
+        {
+          "fr": "Nos valeurs viennent souvent de la façon dont nous avons été élevés.",
+          "en": "Our values often come from how we were raised."
+        },
+        {
+          "fr": "Agir avec intégrité signifie faire ce qui est juste même quand personne ne regarde.",
+          "en": "Acting with integrity means doing the right thing even when no one is watching."
+        },
+        {
+          "fr": "L'éthique nous aide à décider comment traiter les autres.",
+          "en": "Ethics helps us decide how to treat others."
+        }
+      ]
+    },
+    {
+      "number": 78,
+      "title": "The Search for Meaning",
+      "titleNative": "La quête de sens",
+      "items": [
+        {
+          "fr": "Beaucoup de gens cherchent un but au-delà du travail quotidien.",
+          "en": "Many people search for a purpose beyond daily work."
+        },
+        {
+          "fr": "Trouver du sens dans les petites choses peut changer toute une vie.",
+          "en": "Finding meaning in small things can change an entire life."
+        },
+        {
+          "fr": "Certains trouvent leur but en aidant les autres.",
+          "en": "Some find their purpose by helping others."
+        },
+        {
+          "fr": "La question du sens de la vie n'a pas de réponse unique.",
+          "en": "The question about the meaning of life doesn't have a single answer."
+        }
+      ]
+    },
+    {
+      "number": 79,
+      "title": "Change and Impermanence",
+      "titleNative": "Le changement et l'impermanence",
+      "items": [
+        {
+          "fr": "Rien ne reste pareil pour toujours, pas même nous-mêmes.",
+          "en": "Nothing stays the same forever, not even ourselves."
+        },
+        {
+          "fr": "Accepter le changement est plus facile que de lui résister.",
+          "en": "Accepting change is easier than resisting it."
+        },
+        {
+          "fr": "Le caractère éphémère de la vie nous rappelle d'apprécier chaque instant.",
+          "en": "The fleeting nature of life reminds us to appreciate every moment."
+        },
+        {
+          "fr": "Même si tout change, certains souvenirs restent pour toujours.",
+          "en": "Even though everything changes, some memories remain forever."
+        }
+      ]
+    },
+    {
+      "number": 80,
+      "title": "Review: Philosophy and Abstract Ideas",
+      "titleNative": "Repaso: Philosophie et idées abstraites",
+      "items": [
+        {
+          "fr": "Réfléchir à ces questions nous aide à mieux comprendre la vie.",
+          "en": "Reflecting on these questions helps us understand life better."
+        },
+        {
+          "fr": "Il n'existe pas de réponses faciles aux questions les plus profondes.",
+          "en": "There are no easy answers to the deepest questions."
+        },
+        {
+          "fr": "Chaque personne construit sa propre vision du monde avec le temps.",
+          "en": "Each person builds their own worldview over time."
+        },
+        {
+          "fr": "J'espère que nous continuerons à nous poser ces questions toute notre vie.",
+          "en": "I hope we keep asking ourselves these questions throughout our lives."
+        }
+      ]
+    },
+    {
+      "number": 81,
+      "title": "Advertising and Persuasion",
+      "titleNative": "Publicité et persuasion",
+      "items": [
+        {
+          "fr": "Les publicités sont conçues pour influencer nos décisions d'achat.",
+          "en": "Ads are designed to influence our purchasing decisions."
+        },
+        {
+          "fr": "Cette campagne publicitaire a été extrêmement réussie.",
+          "en": "That advertising campaign was extremely successful."
+        },
+        {
+          "fr": "Les marques investissent des millions pour comprendre le comportement des consommateurs.",
+          "en": "Brands invest millions in understanding consumer behavior."
+        },
+        {
+          "fr": "Il est important d'avoir un regard critique sur les messages publicitaires.",
+          "en": "It's important to be critical of advertising messages."
+        }
+      ]
+    },
+    {
+      "number": 82,
+      "title": "Consumer Culture",
+      "titleNative": "Culture de consommation",
+      "items": [
+        {
+          "fr": "Nous achetons beaucoup de choses dont nous n'avons pas vraiment besoin.",
+          "en": "We buy many things we don't actually need."
+        },
+        {
+          "fr": "Le consumérisme a un impact important sur l'environnement.",
+          "en": "Consumerism has a significant impact on the environment."
+        },
+        {
+          "fr": "De plus en plus de gens choisissent un mode de vie plus minimaliste.",
+          "en": "More and more people are choosing a more minimalist lifestyle."
+        },
+        {
+          "fr": "Les réseaux sociaux ont changé notre façon de faire nos achats.",
+          "en": "Social media has changed the way we shop."
+        }
+      ]
+    },
+    {
+      "number": 83,
+      "title": "Streaming and the Attention Economy",
+      "titleNative": "Streaming et l'économie de l'attention",
+      "items": [
+        {
+          "fr": "Les plateformes se disputent constamment notre attention.",
+          "en": "Platforms constantly compete for our attention."
+        },
+        {
+          "fr": "L'algorithme recommande du contenu selon ce que nous avons déjà regardé.",
+          "en": "The algorithm recommends content based on what we've already watched."
+        },
+        {
+          "fr": "Passer des heures à regarder des vidéos peut affecter notre productivité.",
+          "en": "Spending hours watching videos can affect our productivity."
+        },
+        {
+          "fr": "Il est utile de fixer des limites de temps pour l'utilisation des écrans.",
+          "en": "It's useful to set time limits for screen use."
+        }
+      ]
+    },
+    {
+      "number": 84,
+      "title": "Influencer Culture",
+      "titleNative": "Culture des influenceurs",
+      "items": [
+        {
+          "fr": "Beaucoup de jeunes admirent les influenceurs plus que des figures traditionnelles.",
+          "en": "Many young people admire influencers more than traditional figures."
+        },
+        {
+          "fr": "L'image montrée sur les réseaux sociaux ne reflète pas toujours la réalité.",
+          "en": "The image shown on social media doesn't always reflect reality."
+        },
+        {
+          "fr": "Certains influenceurs utilisent leur plateforme pour des causes sociales importantes.",
+          "en": "Some influencers use their platform for important social causes."
+        },
+        {
+          "fr": "Il est facile de se comparer à des vies qui semblent parfaites sur internet.",
+          "en": "It's easy to compare yourself to lives that seem perfect online."
+        }
+      ]
+    },
+    {
+      "number": 85,
+      "title": "Fake News and Misinformation",
+      "titleNative": "Fausses nouvelles et désinformation",
+      "items": [
+        {
+          "fr": "La désinformation se propage plus vite que la vérité sur internet.",
+          "en": "Misinformation spreads faster than the truth online."
+        },
+        {
+          "fr": "Il est essentiel de vérifier les sources avant de partager une nouvelle.",
+          "en": "It's essential to verify sources before sharing a news story."
+        },
+        {
+          "fr": "Les fausses nouvelles peuvent avoir des conséquences réelles et graves.",
+          "en": "Fake news can have real and serious consequences."
+        },
+        {
+          "fr": "De nombreuses plateformes luttent pour contrôler la désinformation.",
+          "en": "Many platforms struggle to control misinformation."
+        }
+      ]
+    },
+    {
+      "number": 86,
+      "title": "The Power of Branding",
+      "titleNative": "Le pouvoir des marques",
+      "items": [
+        {
+          "fr": "Une bonne marque génère la confiance et la fidélité des clients.",
+          "en": "A good brand builds trust and loyalty with customers."
+        },
+        {
+          "fr": "Le logo est devenu reconnaissable dans le monde entier.",
+          "en": "The logo has become recognizable all over the world."
+        },
+        {
+          "fr": "Les entreprises soignent attentivement l'image qu'elles projettent.",
+          "en": "Companies carefully manage the image they project."
+        },
+        {
+          "fr": "Une crise de réputation peut détruire des années de travail en peu de temps.",
+          "en": "A reputation crisis can damage years of work in a short time."
+        }
+      ]
+    },
+    {
+      "number": 87,
+      "title": "Sustainable Consumption",
+      "titleNative": "Consommation durable",
+      "items": [
+        {
+          "fr": "De plus en plus de consommateurs préfèrent les produits écologiques.",
+          "en": "More and more consumers prefer eco-friendly products."
+        },
+        {
+          "fr": "Acheter d'occasion réduit l'impact environnemental.",
+          "en": "Buying secondhand reduces environmental impact."
+        },
+        {
+          "fr": "Les entreprises répondent à la demande de pratiques plus durables.",
+          "en": "Companies are responding to the demand for more sustainable practices."
+        },
+        {
+          "fr": "Réduire la consommation excessive profite à la fois à la planète et au portefeuille.",
+          "en": "Reducing excessive consumption benefits both the planet and the wallet."
+        }
+      ]
+    },
+    {
+      "number": 88,
+      "title": "Media Literacy",
+      "titleNative": "Éducation aux médias",
+      "items": [
+        {
+          "fr": "Il est essentiel d'apprendre aux enfants à analyser de façon critique ce qu'ils voient en ligne.",
+          "en": "It's essential to teach children to critically analyze what they see online."
+        },
+        {
+          "fr": "Toute l'information disponible sur internet n'est pas fiable.",
+          "en": "Not all the information that appears online is reliable."
+        },
+        {
+          "fr": "Apprendre à distinguer opinion et fait est une compétence essentielle.",
+          "en": "Learning to distinguish between opinion and fact is a key skill."
+        },
+        {
+          "fr": "Les écoles intègrent de plus en plus de cours sur l'éducation numérique.",
+          "en": "Schools are incorporating courses on digital literacy."
+        }
+      ]
+    },
+    {
+      "number": 89,
+      "title": "The Future of Media",
+      "titleNative": "L'avenir des médias",
+      "items": [
+        {
+          "fr": "Les médias traditionnels ont dû s'adapter au monde numérique.",
+          "en": "Traditional media have had to adapt to the digital world."
+        },
+        {
+          "fr": "Le contenu personnalisé continuera probablement à gagner en popularité.",
+          "en": "Personalized content is likely to keep growing in popularity."
+        },
+        {
+          "fr": "Notre façon de consommer l'information continue d'évoluer rapidement.",
+          "en": "The way we consume information keeps evolving rapidly."
+        },
+        {
+          "fr": "Personne ne sait avec certitude à quoi ressembleront les médias dans vingt ans.",
+          "en": "No one knows for certain what the media will be like in twenty years."
+        }
+      ]
+    },
+    {
+      "number": 90,
+      "title": "Review: Media and Consumer Culture",
+      "titleNative": "Repaso: Médias et culture de consommation",
+      "items": [
+        {
+          "fr": "Être un consommateur conscient demande de réfléchir avant d'acheter.",
+          "en": "Being a conscious consumer requires thinking before buying."
+        },
+        {
+          "fr": "J'espère que nous apprendrons à utiliser la technologie de façon plus équilibrée.",
+          "en": "I hope we learn to use technology in a more balanced way."
+        },
+        {
+          "fr": "L'information, c'est le pouvoir, mais seulement si nous savons l'utiliser avec discernement.",
+          "en": "Information is power, but only if we know how to use it wisely."
+        },
+        {
+          "fr": "Remettre en question ce que nous consommons, contenu ou produits, nous rend plus libres.",
+          "en": "Questioning what we consume, whether content or products, makes us freer."
+        }
+      ]
+    },
+    {
+      "number": 91,
+      "title": "A Difficult Choice, Revisited",
+      "titleNative": "Un choix difficile, revisité",
+      "items": [
+        {
+          "fr": "Si j'avais su ce que je sais maintenant, j'aurais quand même pris le même chemin.",
+          "en": "If I had known what I know now, I would have taken the same path anyway."
+        },
+        {
+          "fr": "Bien que le processus ait été douloureux, étant donné qu'il m'a tant appris, je ne changerais rien.",
+          "en": "Although the process was painful, since it taught me so much, I wouldn't change anything."
+        },
+        {
+          "fr": "Quand j'ai enfin compris la leçon, tout le reste s'est mis en place.",
+          "en": "When I finally understood the lesson, everything else fell into place."
+        },
+        {
+          "fr": "J'espère que tu peux avoir confiance que, quoi qu'il arrive, tu t'en sortiras.",
+          "en": "I hope you can trust that, no matter what happens, you'll come out ahead."
+        }
+      ]
+    },
+    {
+      "number": 92,
+      "title": "The Debate That Divided a Family",
+      "titleNative": "Le débat qui a divisé une famille",
+      "items": [
+        {
+          "fr": "Étant donné qu'ils avaient des opinions si différentes, ils évitaient d'aborder le sujet au dîner.",
+          "en": "Since they had such different opinions, they avoided discussing the topic at dinner."
+        },
+        {
+          "fr": "Cependant, avec le temps, ils ont appris à s'écouter sans que cela finisse en dispute.",
+          "en": "However, over time they learned to listen to each other without it ending in a fight."
+        },
+        {
+          "fr": "Malgré leurs désaccords, le respect n'a jamais disparu.",
+          "en": "Even though they didn't always agree, respect never disappeared."
+        },
+        {
+          "fr": "Par conséquent, les dîners de famille sont devenus un vrai espace de dialogue.",
+          "en": "Therefore, family dinners became a space for real dialogue."
+        }
+      ]
+    },
+    {
+      "number": 93,
+      "title": "A Scientist's Reflection",
+      "titleNative": "La réflexion d'une scientifique",
+      "items": [
+        {
+          "fr": "Elle a consacré sa vie à une recherche que, jusqu'à ce qu'elle la termine, personne ne croyait possible.",
+          "en": "She dedicated her life to research that, until she finished it, no one believed was possible."
+        },
+        {
+          "fr": "Bien que beaucoup doutaient de sa réussite, elle n'a jamais perdu foi en son travail.",
+          "en": "Although many doubted she would succeed, she never lost faith in her work."
+        },
+        {
+          "fr": "Si elle n'avait pas persévéré, cette avancée médicale n'aurait jamais existé.",
+          "en": "If she hadn't persevered, that medical breakthrough would never have existed."
+        },
+        {
+          "fr": "J'espère que son histoire inspirera d'autres à poursuivre ce qui semble impossible.",
+          "en": "I hope her story inspires others to pursue what seems impossible."
+        }
+      ]
+    },
+    {
+      "number": 94,
+      "title": "Reflecting on a Generation's Values",
+      "titleNative": "Réfléchir aux valeurs d'une génération",
+      "items": [
+        {
+          "fr": "Bien qu'ils aient grandi avec beaucoup moins de technologie, mes grands-parents comprenaient quelque chose d'essentiel sur la patience.",
+          "en": "Even though they grew up with much less technology, my grandparents understood something essential about patience."
+        },
+        {
+          "fr": "Alors que le monde changeait autour d'eux, ils continuaient à valoriser les choses simples.",
+          "en": "While the world changed around them, they kept valuing simple things."
+        },
+        {
+          "fr": "Puisque j'ai appris cela d'eux, j'essaie de l'appliquer dans ma propre vie.",
+          "en": "Since I learned that from them, I try to apply it in my own life."
+        },
+        {
+          "fr": "J'aimerais que nous puissions combiner le meilleur des deux mondes.",
+          "en": "I wish we could combine the best of both worlds."
+        }
+      ]
+    },
+    {
+      "number": 95,
+      "title": "An Argument for Change",
+      "titleNative": "Un argument en faveur du changement",
+      "items": [
+        {
+          "fr": "Bien que le changement fasse toujours peur, rester pareil comporte aussi des risques.",
+          "en": "Although change is always scary, staying the same also has its risks."
+        },
+        {
+          "fr": "Si nous ne nous adaptions pas, étant donné que le monde continue d'évoluer, nous serions laissés pour compte.",
+          "en": "If we didn't adapt, given that the world keeps evolving, we would be left behind."
+        },
+        {
+          "fr": "Par conséquent, il vaut mieux affronter le changement avec curiosité plutôt qu'avec peur.",
+          "en": "Therefore, it's better to face change with curiosity instead of fear."
+        },
+        {
+          "fr": "J'espère que, le moment venu, nous aurons le courage de l'accepter.",
+          "en": "I hope that, when the moment comes, we have the courage to accept it."
+        }
+      ]
+    },
+    {
+      "number": 96,
+      "title": "A Letter of Gratitude",
+      "titleNative": "Une lettre de gratitude",
+      "items": [
+        {
+          "fr": "J'écris ceci pour que tu saches combien ton soutien a compté au fil des années.",
+          "en": "I'm writing this so you know how much your support has meant over the years."
+        },
+        {
+          "fr": "Même si je ne te l'ai jamais assez dit, j'ai toujours su que tu serais là.",
+          "en": "Although I never told you enough, I always trusted you would be there."
+        },
+        {
+          "fr": "Si ce n'avait pas été pour toi, je doute que je serais arrivé aussi loin.",
+          "en": "If it hadn't been for you, I doubt I would have come this far."
+        },
+        {
+          "fr": "J'espère qu'un jour je pourrai te rendre, ne serait-ce qu'une partie, de tout ce que tu m'as donné.",
+          "en": "I hope someday I can give back, even a part, of everything you've given me."
+        }
+      ]
+    },
+    {
+      "number": 97,
+      "title": "The Value of Uncertainty",
+      "titleNative": "La valeur de l'incertitude",
+      "items": [
+        {
+          "fr": "Nous vivons comme si nous savions exactement ce que demain nous réserve, mais ce n'est pas le cas.",
+          "en": "We live as if we knew exactly what tomorrow will bring, but that's not the case."
+        },
+        {
+          "fr": "Bien que l'incertitude soit inconfortable, elle laisse aussi de la place à l'inattendu et au bon.",
+          "en": "Although uncertainty is uncomfortable, it also leaves room for the unexpected and the good."
+        },
+        {
+          "fr": "Si nous avions toutes les réponses, peut-être que la vie perdrait une partie de son sens.",
+          "en": "If we had all the answers, maybe life would lose some of its meaning."
+        },
+        {
+          "fr": "Apprendre à cohabiter avec le doute est, en soi, une forme de sagesse.",
+          "en": "Learning to live with doubt is, in itself, a form of wisdom."
+        }
+      ]
+    },
+    {
+      "number": 98,
+      "title": "A Vision for the Future",
+      "titleNative": "Une vision pour l'avenir",
+      "items": [
+        {
+          "fr": "J'espère que, quand mes enfants seront adultes, le monde sera un endroit plus juste.",
+          "en": "I hope that, by the time my children are adults, the world will be a fairer place."
+        },
+        {
+          "fr": "Bien que les problèmes semblent immenses, chaque génération a réalisé des progrès qui semblaient auparavant impossibles.",
+          "en": "Although the problems may seem enormous, every generation has achieved progress that once seemed impossible."
+        },
+        {
+          "fr": "Étant donné que l'avenir n'est pas encore écrit, nous avons encore le pouvoir de le façonner.",
+          "en": "Given that the future is not written, we still have the power to shape it."
+        },
+        {
+          "fr": "J'espère que nous travaillerons ensemble, malgré nos différences, pour le construire.",
+          "en": "I hope we work together, regardless of our differences, to build it."
+        }
+      ]
+    },
+    {
+      "number": 99,
+      "title": "What This Level Taught Me",
+      "titleNative": "Ce que ce niveau m'a appris",
+      "items": [
+        {
+          "fr": "J'ai appris que le subjonctif n'est pas seulement de la grammaire, mais une façon d'exprimer le doute, le souhait et la possibilité.",
+          "en": "I learned that the subjunctive isn't just grammar, but a way to express doubt, wish, and possibility."
+        },
+        {
+          "fr": "Si tu m'avais dit au début à quel point ce serait complexe, j'aurais peut-être eu peur.",
+          "en": "If you had told me at the beginning how complex it would be, maybe I would have been scared."
+        },
+        {
+          "fr": "Cependant, petit à petit, tout a commencé à avoir du sens.",
+          "en": "However, step by step, everything started to make sense."
+        },
+        {
+          "fr": "J'espère que tu continueras à t'entraîner, car plus tu l'utilises, plus cela devient naturel.",
+          "en": "I hope you keep practicing, because the more you use it, the more natural it will become."
+        }
+      ]
+    },
+    {
+      "number": 100,
+      "title": "Review: B2 Capstone",
+      "titleNative": "Repaso: Cierre de B2",
+      "items": [
+        {
+          "fr": "Tu es allé très loin, et bien que le chemin n'ait pas été facile, tu y es arrivé.",
+          "en": "You've come a long way, and although the road hasn't been easy, you did it."
+        },
+        {
+          "fr": "J'espère que tu es fier de tout ce que tu as appris jusqu'à présent.",
+          "en": "I hope you feel proud of everything you've learned so far."
+        },
+        {
+          "fr": "Si tu continues avec la même détermination, il n'y a rien que tu ne puisses accomplir.",
+          "en": "If you keep the same dedication, there's nothing you can't achieve."
+        },
+        {
+          "fr": "Je suis certain que tu es plus que prêt pour le défi suivant.",
+          "en": "I'm sure you're more than prepared for the next challenge."
+        }
+      ]
+    }
+  ]
+}

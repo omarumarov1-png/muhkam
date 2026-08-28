@@ -1,0 +1,2364 @@
+{
+  "level": "b2plus",
+  "grammarTopics": {
+    "b2plus-participle-agreement": {
+      "title": "Past Participle Agreement: The Full Picture",
+      "pattern": "avoir + preceding direct object → agrees · être (non-reflexive) → agrees with subject · reflexive → agrees with reflexive pronoun if it's the direct object",
+      "explanation": "With \"avoir\", the participle normally stays unchanged — UNLESS a direct object comes BEFORE the verb, in which case it agrees with that object: \"J'ai vu la maison\" (no preceding object, no agreement) vs \"La maison que j'ai vue\" (\"que\" refers to \"la maison\", which comes first, so \"vue\" gets the -e). With reflexive verbs, the participle agrees with the reflexive pronoun ONLY when that pronoun is the direct object: \"Elle s'est lavée\" (she washed herself — \"se\" is the direct object, agrees) but \"Elle s'est lavé les mains\" (she washed her hands — \"les mains\" is the direct object, \"se\" is indirect, so NO agreement).",
+      "fact": "This is widely considered one of the most difficult rules in French grammar, and even educated native speakers sometimes get it wrong in casual writing — the Académie française itself has occasionally proposed simplifying it, so don't be discouraged if it takes real practice to feel automatic.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Où sont les clés que j'ai laissées sur la table ?",
+          "en": "Where are the keys I left on the table?"
+        },
+        {
+          "sp": "B",
+          "native": "Je les ai vues, je les ai mises dans ton sac.",
+          "en": "I saw them, I put them in your bag."
+        }
+      ]
+    },
+    "b2plus-compound-tenses": {
+      "title": "Compound Tenses Together: The Full Perfect System",
+      "pattern": "j'ai/j'avais/j'aurai/j'aurais parlé — present/past/future/conditional perfect, all built the same way",
+      "explanation": "French has a full family of compound tenses, all built the same way (avoir/être + past participle), just with the auxiliary itself in a different tense: passé composé \"j'ai parlé\" (I spoke), plus-que-parfait \"j'avais parlé\" (I had spoken), futur antérieur \"j'aurai parlé\" (I will have spoken, by some future point), conditionnel passé \"j'aurais parlé\" (I would have spoken). Once you know the participle and the auxiliary choice, all four tenses are just a matter of conjugating \"avoir\"/\"être\" correctly.",
+      "fact": "The futur antérieur also has a probability use just like the simple future: \"Ils seront déjà arrivés\" doesn't just mean \"they will have already arrived\" — in casual speech it often means \"they've probably already arrived,\" a guess about a completed action, not a genuine future prediction.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Le temps qu'on arrive, ils auront déjà commencé sans nous.",
+          "en": "By the time we arrive, they will have already started without us."
+        },
+        {
+          "sp": "B",
+          "native": "Si nous étions partis plus tôt, nous serions arrivés à l'heure.",
+          "en": "If we had left earlier, we would have arrived on time."
+        }
+      ]
+    },
+    "b2plus-nominalization": {
+      "title": "Nominalization: Turning Verbs and Adjectives into Nouns",
+      "pattern": "-tion/-ment/-té/-esse (verb/adjective → noun), common in formal and written French",
+      "explanation": "Formal and written French favors nouns where everyday speech uses verbs: instead of \"nous avons décidé vite\" (we decided quickly), a report might say \"la rapidité de la décision\" (the speed of the decision). Common noun-forming suffixes: \"-tion\" (construire → construction), \"-ment\" (changer → changement), \"-té\" (possible → possibilité), \"-esse\" (triste → tristesse). Recognizing these patterns unlocks a huge amount of formal vocabulary at once, since most of these nouns are entirely predictable from a verb or adjective you already know.",
+      "fact": "This nominal style is sometimes criticized in French style guides as \"style nominal\" when overused — writers are taught that a strong verb (\"ils ont décidé vite\") often reads better than its noun version (\"il y a eu rapidité dans la décision\"), even though both are grammatically correct.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "La mise en œuvre du nouveau système prendra plusieurs mois.",
+          "en": "The implementation of the new system will take several months."
+        },
+        {
+          "sp": "B",
+          "native": "Je comprends, même si je préférerais qu'on nous dise simplement quand ils vont le mettre en œuvre.",
+          "en": "I understand, although I'd prefer they just tell us when they're going to implement it."
+        }
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Agreement with Preceding Direct Objects",
+      "titleNative": "Accord avec le complément d'objet direct antéposé",
+      "items": [
+        {
+          "fr": "La lettre que j'ai écrite est sur le bureau.",
+          "en": "The letter I wrote is on the desk."
+        },
+        {
+          "fr": "Voici les photos que nous avons prises pendant le voyage.",
+          "en": "Here are the photos we took during the trip."
+        },
+        {
+          "fr": "La décision qu'ils ont prise a surpris tout le monde.",
+          "en": "The decision they made surprised everyone."
+        },
+        {
+          "fr": "Les livres que j'ai achetés sont vraiment intéressants.",
+          "en": "The books I bought are really interesting."
+        }
+      ],
+      "topicId": "b2plus-participle-agreement"
+    },
+    {
+      "number": 2,
+      "title": "No Agreement Without a Preceding Object",
+      "titleNative": "Pas d'accord sans complément antéposé",
+      "items": [
+        {
+          "fr": "J'ai écrit une lettre à mes parents.",
+          "en": "I wrote a letter to my parents."
+        },
+        {
+          "fr": "Nous avons pris beaucoup de photos hier.",
+          "en": "We took a lot of photos yesterday."
+        },
+        {
+          "fr": "Ils ont pris une décision importante hier soir.",
+          "en": "They made an important decision last night."
+        },
+        {
+          "fr": "J'ai acheté trois livres ce week-end.",
+          "en": "I bought three books this weekend."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Reflexive Verbs: Direct Object Agreement",
+      "titleNative": "Verbes réflexifs : accord du complément d'objet direct",
+      "items": [
+        {
+          "fr": "Elle s'est levée tôt ce matin.",
+          "en": "She got up early this morning."
+        },
+        {
+          "fr": "Ils se sont rencontrés à l'université.",
+          "en": "They met at university."
+        },
+        {
+          "fr": "Nous nous sommes bien amusés à la fête.",
+          "en": "We had a lot of fun at the party."
+        },
+        {
+          "fr": "Elle s'est réveillée en sursaut.",
+          "en": "She woke up with a start."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Reflexive Verbs: No Agreement with Indirect Object",
+      "titleNative": "Verbes réflexifs : pas d'accord avec le complément indirect",
+      "items": [
+        {
+          "fr": "Elle s'est lavé les mains avant de manger.",
+          "en": "She washed her hands before eating."
+        },
+        {
+          "fr": "Ils se sont parlé pendant des heures.",
+          "en": "They talked to each other for hours."
+        },
+        {
+          "fr": "Elle s'est brossé les dents avant de dormir.",
+          "en": "She brushed her teeth before sleeping."
+        },
+        {
+          "fr": "Nous nous sommes écrit tout l'été.",
+          "en": "We wrote to each other all summer."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Combining Both Rules",
+      "titleNative": "Combiner les deux règles",
+      "items": [
+        {
+          "fr": "Les mains qu'elle s'est lavées étaient froides.",
+          "en": "The hands she washed were cold."
+        },
+        {
+          "fr": "La chanson qu'ils se sont chantée était très belle.",
+          "en": "The song they sang to each other was very beautiful."
+        },
+        {
+          "fr": "Elle s'est coupée en cuisinant.",
+          "en": "She cut herself while cooking."
+        },
+        {
+          "fr": "Elle s'est coupé le doigt en cuisinant.",
+          "en": "She cut her finger while cooking."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Agreement with Être (Non-Reflexive)",
+      "titleNative": "Accord avec être (non réflexif)",
+      "items": [
+        {
+          "fr": "Elle est partie tôt ce matin.",
+          "en": "She left early this morning."
+        },
+        {
+          "fr": "Mes sœurs sont arrivées hier soir.",
+          "en": "My sisters arrived last night."
+        },
+        {
+          "fr": "Ils sont nés dans la même ville.",
+          "en": "They were born in the same city."
+        },
+        {
+          "fr": "Elle est devenue une grande avocate.",
+          "en": "She became a great lawyer."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Questions Testing Agreement",
+      "titleNative": "Questions testant l'accord",
+      "items": [
+        {
+          "fr": "Quelles chaussures as-tu achetées hier ?",
+          "en": "What shoes did you buy yesterday?"
+        },
+        {
+          "fr": "Combien de lettres lui as-tu écrites ?",
+          "en": "How many letters did you write him?"
+        },
+        {
+          "fr": "Quelle décision ont-ils finalement prise ?",
+          "en": "What decision did they finally make?"
+        },
+        {
+          "fr": "Où sont les clés que tu as trouvées ?",
+          "en": "Where are the keys you found?"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Agreement in Formal Writing",
+      "titleNative": "Accord dans l'écriture formelle",
+      "items": [
+        {
+          "fr": "Les mesures qui ont été prises se sont révélées efficaces.",
+          "en": "The measures that were taken proved effective."
+        },
+        {
+          "fr": "La proposition que nous avons soumise a été approuvée.",
+          "en": "The proposal we submitted was approved."
+        },
+        {
+          "fr": "Les erreurs qu'ils ont commises leur ont coûté cher.",
+          "en": "The mistakes they made cost them dearly."
+        },
+        {
+          "fr": "Les données que nous avons analysées confirment notre hypothèse.",
+          "en": "The data we analyzed confirm our hypothesis."
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Common Everyday Examples",
+      "titleNative": "Exemples courants du quotidien",
+      "items": [
+        {
+          "fr": "La voiture qu'il a vendue était en excellent état.",
+          "en": "The car he sold was in excellent condition."
+        },
+        {
+          "fr": "Les amis que nous avons invités sont finalement venus.",
+          "en": "The friends we invited finally came."
+        },
+        {
+          "fr": "La maison qu'ils ont construite est magnifique.",
+          "en": "The house they built is magnificent."
+        },
+        {
+          "fr": "Les problèmes que nous avons résolus étaient compliqués.",
+          "en": "The problems we solved were complicated."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Review: Past Participle Agreement",
+      "titleNative": "Repaso: Accord du participe passé",
+      "items": [
+        {
+          "fr": "Les histoires qu'elle m'a racontées m'ont beaucoup marqué.",
+          "en": "The stories she told me left a strong impression on me."
+        },
+        {
+          "fr": "Elle s'est habillée rapidement avant de sortir.",
+          "en": "She got dressed quickly before going out."
+        },
+        {
+          "fr": "Elle s'est brossé les cheveux devant le miroir.",
+          "en": "She brushed her hair in front of the mirror."
+        },
+        {
+          "fr": "Les décisions que nous avons prises ensemble ont porté leurs fruits.",
+          "en": "The decisions we made together paid off."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Futur Antérieur: Predictions About Completion",
+      "titleNative": "Futur antérieur : prédictions sur l'achèvement",
+      "items": [
+        {
+          "fr": "L'année prochaine, j'aurai fini mes études.",
+          "en": "By next year, I will have finished my studies."
+        },
+        {
+          "fr": "Quand tu arriveras, nous aurons déjà tout préparé pour la fête.",
+          "en": "By the time you arrive, we will have already prepared everything for the party."
+        },
+        {
+          "fr": "D'ici là, l'entreprise aura changé de propriétaire plusieurs fois.",
+          "en": "By then, the company will have changed owners several times."
+        },
+        {
+          "fr": "Ils seront déjà partis, la maison est complètement vide.",
+          "en": "They must have already left, the house is completely empty."
+        }
+      ],
+      "topicId": "b2plus-compound-tenses"
+    },
+    {
+      "number": 12,
+      "title": "Conditionnel Passé: What Would Have Happened",
+      "titleNative": "Conditionnel passé : ce qui se serait passé",
+      "items": [
+        {
+          "fr": "J'aurais appelé plus tôt, mais je l'ai complètement oublié.",
+          "en": "I would have called earlier, but I completely forgot."
+        },
+        {
+          "fr": "Sans ton aide, nous n'aurions pas pu terminer le projet à temps.",
+          "en": "Without your help, we wouldn't have been able to finish the project on time."
+        },
+        {
+          "fr": "Ils seraient arrivés plus tôt s'il n'y avait pas eu autant de circulation.",
+          "en": "They would have arrived earlier if there hadn't been so much traffic."
+        },
+        {
+          "fr": "À ta place, j'aurais choisi une option différente.",
+          "en": "I would have chosen a different option in your place."
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "title": "All Four Perfects in Sequence",
+      "titleNative": "Les quatre temps composés en séquence",
+      "items": [
+        {
+          "fr": "J'ai beaucoup étudié cette année, j'avais peu étudié l'année dernière, mais j'aurai étudié encore plus pour le prochain examen.",
+          "en": "I've studied a lot this year, I had studied little last year, but I will have studied even more for the next exam."
+        },
+        {
+          "fr": "Nous serions arrivés plus tôt si nous étions partis quand nous l'avions prévu.",
+          "en": "We would have arrived earlier if we had left when we had planned."
+        },
+        {
+          "fr": "Quand tu obtiendras ton diplôme, tu auras appris plus que tu ne l'imagines maintenant.",
+          "en": "By the time you graduate, you will have learned more than you imagine now."
+        },
+        {
+          "fr": "Cela aurait été plus facile si nous avions commencé plus tôt.",
+          "en": "It would have been easier if we had started earlier."
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "title": "Perfect Tenses in Storytelling",
+      "titleNative": "Temps composés dans la narration",
+      "items": [
+        {
+          "fr": "Quand nous avons enfin trouvé la maison, nous avions déjà marché plus de deux heures.",
+          "en": "When we finally found the house, we had already walked more than two hours."
+        },
+        {
+          "fr": "Cela aura été difficile pour elle de prendre cette décision seule.",
+          "en": "It must have been difficult for her to make that decision alone."
+        },
+        {
+          "fr": "Si nous avions su plus tôt, nous aurions agi différemment.",
+          "en": "If we had known earlier, we would have acted differently."
+        },
+        {
+          "fr": "À la fin du roman, le personnage avait déjà complètement changé.",
+          "en": "By the end of the novel, the character had already changed completely."
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "title": "Business Deadlines with Futur Antérieur",
+      "titleNative": "Délais professionnels avec le futur antérieur",
+      "items": [
+        {
+          "fr": "D'ici vendredi, nous aurons envoyé tous les contrats signés.",
+          "en": "By Friday, we will have sent all the signed contracts."
+        },
+        {
+          "fr": "L'équipe aura terminé la phase initiale d'ici la fin du mois.",
+          "en": "The team will have completed the initial phase by the end of the month."
+        },
+        {
+          "fr": "J'aurai fini la présentation avant la réunion de demain.",
+          "en": "I will have finished the presentation before tomorrow's meeting."
+        },
+        {
+          "fr": "D'ici là, ils auront déjà engagé un nouveau directeur.",
+          "en": "By then, they will have already hired a new manager."
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "title": "Regrets Using Conditionnel Passé",
+      "titleNative": "Regrets avec le conditionnel passé",
+      "items": [
+        {
+          "fr": "J'aurais préféré rester à la maison ce soir-là.",
+          "en": "I would have preferred to stay home that night."
+        },
+        {
+          "fr": "Nous n'aurions pas commis cette erreur si nous avions tout vérifié deux fois.",
+          "en": "We wouldn't have made that mistake if we had checked everything twice."
+        },
+        {
+          "fr": "Il aurait été préférable d'attendre un peu plus avant de décider.",
+          "en": "It would have been better to wait a bit longer before deciding."
+        },
+        {
+          "fr": "Qu'aurais-tu fait dans cette situation ?",
+          "en": "What would you have done in that situation?"
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "title": "Combining Perfects with Subjunctive",
+      "titleNative": "Combiner temps composés et subjonctif",
+      "items": [
+        {
+          "fr": "J'espère que d'ici là, nous aurons résolu le problème.",
+          "en": "I hope that by then we'll have already solved the problem."
+        },
+        {
+          "fr": "Je doutais qu'il ait terminé le travail aussi vite.",
+          "en": "I doubted he had finished the work so quickly."
+        },
+        {
+          "fr": "J'aurais aimé que nous ayons su cela avant de signer le contrat.",
+          "en": "I wish we had known that before signing the contract."
+        },
+        {
+          "fr": "Il est probable que d'ici l'année prochaine, ils auront changé de bureau.",
+          "en": "It's likely that by next year they'll have already moved offices."
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "title": "Probability About the Past",
+      "titleNative": "Probabilité sur le passé",
+      "items": [
+        {
+          "fr": "Cela aura été un malentendu, je ne pense pas qu'il l'ait fait exprès.",
+          "en": "It was probably a misunderstanding, I don't think he did it on purpose."
+        },
+        {
+          "fr": "Il ne répond pas, sa batterie aura dû se décharger.",
+          "en": "He's not answering, his phone battery probably died."
+        },
+        {
+          "fr": "Ils auront eu leurs raisons de prendre cette décision.",
+          "en": "They must have had their reasons for making that decision."
+        },
+        {
+          "fr": "Elle se sera endormie, c'est pour ça qu'elle n'est pas arrivée à l'heure.",
+          "en": "She probably fell asleep, that's why she didn't arrive on time."
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "title": "Perfect Tenses in Formal Writing",
+      "titleNative": "Temps composés en écriture formelle",
+      "items": [
+        {
+          "fr": "D'ici la date de remise, le comité aura examiné toutes les propositions.",
+          "en": "By the delivery date, the committee will have reviewed all the proposals."
+        },
+        {
+          "fr": "La crise aurait été évitée si des mesures avaient été prises plus tôt.",
+          "en": "The crisis would have been avoided if measures had been taken earlier."
+        },
+        {
+          "fr": "Les résultats finaux auront été publiés avant la fin de l'année.",
+          "en": "The final results will have been published before the end of the year."
+        },
+        {
+          "fr": "Le rapport aurait été plus complet avec plus de temps de recherche.",
+          "en": "The report would have been more complete with more research time."
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "title": "Review: Compound Tenses",
+      "titleNative": "Repaso: Temps composés",
+      "items": [
+        {
+          "fr": "D'ici que tu finisses de lire ceci, tu auras déjà appris les quatre temps composés.",
+          "en": "By the time you finish reading this, you will have already learned the four perfect tenses."
+        },
+        {
+          "fr": "Si j'avais plus pratiqué, je les aurais maîtrisés bien plus tôt.",
+          "en": "If I had practiced more, I would have mastered them much earlier."
+        },
+        {
+          "fr": "Tout cet effort aura valu la peine quand tu parleras enfin couramment.",
+          "en": "All this effort will have been worth it when you finally speak fluently."
+        },
+        {
+          "fr": "J'espère que tu as apprécié apprendre quelque chose d'aussi complexe que cela.",
+          "en": "I hope you've enjoyed learning something as complex as this."
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "title": "Nouns from Verbs (-tion)",
+      "titleNative": "Noms de verbes (-tion)",
+      "items": [
+        {
+          "fr": "La construction du nouvel hôpital commencera le mois prochain.",
+          "en": "The construction of the new hospital will begin next month."
+        },
+        {
+          "fr": "Son explication était claire et convaincante.",
+          "en": "His explanation was clear and convincing."
+        },
+        {
+          "fr": "L'organisation de l'événement a pris plusieurs mois de préparation.",
+          "en": "The organization of the event took several months of planning."
+        },
+        {
+          "fr": "La réduction des coûts était l'objectif principal de la réunion.",
+          "en": "The reduction of costs was the main objective of the meeting."
+        }
+      ],
+      "topicId": "b2plus-nominalization"
+    },
+    {
+      "number": 22,
+      "title": "Nouns from Verbs (-ment)",
+      "titleNative": "Noms de verbes (-ment)",
+      "items": [
+        {
+          "fr": "La croissance de l'entreprise a été remarquable cette année.",
+          "en": "The company's growth has been remarkable this year."
+        },
+        {
+          "fr": "Cette découverte a complètement changé notre compréhension du sujet.",
+          "en": "This discovery completely changed our understanding of the topic."
+        },
+        {
+          "fr": "Le mouvement social a obtenu d'importants changements législatifs.",
+          "en": "The social movement achieved important legislative changes."
+        },
+        {
+          "fr": "Sa nomination comme directrice a été annoncée ce matin.",
+          "en": "Her appointment as director was announced this morning."
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "title": "Nouns from Adjectives (-té, -esse)",
+      "titleNative": "Noms d'adjectifs (-té, -esse)",
+      "items": [
+        {
+          "fr": "La possibilité d'un accord a augmenté après la réunion.",
+          "en": "The possibility of an agreement increased after the meeting."
+        },
+        {
+          "fr": "Nous avons admiré son honnêteté à tout moment.",
+          "en": "We admired his honesty at all times."
+        },
+        {
+          "fr": "La tristesse qu'elle a ressentie en partant était évidente.",
+          "en": "The sadness she felt when saying goodbye was evident."
+        },
+        {
+          "fr": "La certitude de sa réponse nous a tous rassurés.",
+          "en": "The certainty of his answer reassured us all."
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "title": "Formal vs Informal Phrasing",
+      "titleNative": "Formulation formelle et informelle",
+      "items": [
+        {
+          "fr": "La présence de tous les associés est requise à l'assemblée.",
+          "en": "The presence of all partners at the assembly is requested."
+        },
+        {
+          "fr": "Nous avons besoin que tout le monde vienne à la réunion, s'il vous plaît.",
+          "en": "We need everyone to come to the meeting, please."
+        },
+        {
+          "fr": "L'approbation du projet reste en attente jusqu'à la prochaine séance.",
+          "en": "The approval of the project remained pending until the next session."
+        },
+        {
+          "fr": "Ils n'ont pas encore approuvé le projet, ils vont le décider plus tard.",
+          "en": "They still haven't approved the project, they'll decide later."
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "title": "Reading Formal Documents",
+      "titleNative": "Lire des documents formels",
+      "items": [
+        {
+          "fr": "La demande doit être soumise avant la date limite indiquée.",
+          "en": "The application must be submitted before the indicated deadline."
+        },
+        {
+          "fr": "Le non-respect de cette clause pourrait entraîner des sanctions.",
+          "en": "Failure to comply with this clause could result in penalties."
+        },
+        {
+          "fr": "Il est recommandé de lire attentivement le contrat avant de le signer.",
+          "en": "A detailed reading of the contract is recommended before signing it."
+        },
+        {
+          "fr": "La modification des termes requiert le consentement des deux parties.",
+          "en": "Modification of the terms requires the consent of both parties."
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "title": "Academic and Professional Writing",
+      "titleNative": "Écriture académique et professionnelle",
+      "items": [
+        {
+          "fr": "La recherche a révélé des résultats surprenants sur le sujet.",
+          "en": "The research revealed surprising results about the topic."
+        },
+        {
+          "fr": "L'analyse des données a pris plusieurs semaines.",
+          "en": "The analysis of the data took several weeks."
+        },
+        {
+          "fr": "Sa contribution au projet a été essentielle à son succès.",
+          "en": "His contribution to the project was fundamental to its success."
+        },
+        {
+          "fr": "La conclusion de l'étude confirme l'hypothèse initiale.",
+          "en": "The study's conclusion confirms the initial hypothesis."
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "title": "Speeches and Formal Address",
+      "titleNative": "Discours et registre formel",
+      "items": [
+        {
+          "fr": "Distingués invités, c'est un honneur de vous accueillir ce soir.",
+          "en": "Distinguished guests, it's an honor to welcome you tonight."
+        },
+        {
+          "fr": "Je voudrais exprimer ma plus sincère gratitude à toute l'équipe.",
+          "en": "I would like to express my most sincere gratitude to the whole team."
+        },
+        {
+          "fr": "C'est un privilège de m'adresser à vous en cette occasion si spéciale.",
+          "en": "It's a privilege to address you on this very special occasion."
+        },
+        {
+          "fr": "Permettez-moi de présenter les résultats obtenus cette année.",
+          "en": "Allow me to present the results obtained during this year."
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "title": "Legal and Institutional Language",
+      "titleNative": "Langage juridique et institutionnel",
+      "items": [
+        {
+          "fr": "Le plaignant a présenté suffisamment de preuves devant le tribunal.",
+          "en": "The plaintiff presented sufficient evidence before the court."
+        },
+        {
+          "fr": "L'institution garantit la confidentialité des données personnelles.",
+          "en": "The institution guarantees the confidentiality of personal data."
+        },
+        {
+          "fr": "L'accord entrera en vigueur à compter de la date de signature.",
+          "en": "The agreement will take effect from the date of signing."
+        },
+        {
+          "fr": "Les deux parties s'engagent à respecter les termes du contrat.",
+          "en": "Both parties commit to complying with what is stipulated in the contract."
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "title": "Switching Between Registers",
+      "titleNative": "Passer d'un registre à l'autre",
+      "items": [
+        {
+          "fr": "Lors de la réunion formelle, il a dit : \"Nous allons procéder à la mise en œuvre du plan.\"",
+          "en": "In the formal meeting he said: \"We will proceed with the implementation of the plan.\""
+        },
+        {
+          "fr": "Plus tard, avec ses amis, il a simplement dit : \"On va le faire tout de suite.\"",
+          "en": "Later, with his friends, he simply said: \"Let's just do it now.\""
+        },
+        {
+          "fr": "Le professeur explique avec précision technique, mais son fils le raconte simplement.",
+          "en": "The professor explains with technical precision, but his son tells it simply."
+        },
+        {
+          "fr": "Savoir adapter son langage selon la situation est une compétence précieuse.",
+          "en": "Knowing how to adapt language according to the situation is a valuable skill."
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "title": "Review: Formal Register",
+      "titleNative": "Repaso: Registre formel",
+      "items": [
+        {
+          "fr": "La réussite du projet est due au dévouement de toute l'équipe.",
+          "en": "The successful completion of the project was due to the dedication of the whole team."
+        },
+        {
+          "fr": "Nous vous remercions profondément de votre collaboration et de votre confiance tout au long de ce processus.",
+          "en": "We deeply appreciate your collaboration and trust during this process."
+        },
+        {
+          "fr": "La clarté et la précision sont essentielles dans toute communication formelle.",
+          "en": "Clarity and precision are essential in any formal communication."
+        },
+        {
+          "fr": "Nous espérons que cette expérience vous aura été très utile à tous.",
+          "en": "We hope this experience has been very useful for all of you."
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "title": "Personal Finance",
+      "titleNative": "Finances personnelles",
+      "items": [
+        {
+          "fr": "Il est important de suivre attentivement ses dépenses mensuelles.",
+          "en": "It's important to keep detailed track of monthly expenses."
+        },
+        {
+          "fr": "Elle a ouvert un compte d'épargne pour sa retraite.",
+          "en": "She opened a savings account for her retirement."
+        },
+        {
+          "fr": "Les intérêts composés peuvent faire grandir un investissement considérablement.",
+          "en": "Compound interest can grow an investment considerably."
+        },
+        {
+          "fr": "Il est recommandé d'avoir un fonds d'urgence équivalent à plusieurs mois de dépenses.",
+          "en": "It's advisable to have an emergency fund equivalent to several months of expenses."
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "title": "Stock Markets and Investment",
+      "titleNative": "Marchés boursiers et investissement",
+      "items": [
+        {
+          "fr": "Le marché boursier a connu une forte baisse cette semaine.",
+          "en": "The stock market experienced a sharp drop this week."
+        },
+        {
+          "fr": "Diversifier ses investissements réduit le risque financier.",
+          "en": "Diversifying investments reduces financial risk."
+        },
+        {
+          "fr": "Les actions de cette entreprise ont grimpé après l'annonce.",
+          "en": "That company's shares skyrocketed after the announcement."
+        },
+        {
+          "fr": "Beaucoup d'investisseurs préfèrent les stratégies à long terme.",
+          "en": "Many investors prefer long-term strategies."
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "title": "Banking and Credit",
+      "titleNative": "Banque et crédit",
+      "items": [
+        {
+          "fr": "Il a demandé un prêt pour financer l'achat de sa maison.",
+          "en": "He applied for a loan to finance the purchase of his house."
+        },
+        {
+          "fr": "Le taux d'intérêt du prêt dépend de l'historique de crédit.",
+          "en": "The loan's interest rate depends on credit history."
+        },
+        {
+          "fr": "Il est important de payer les cartes de crédit à temps pour éviter les intérêts.",
+          "en": "It's important to pay credit cards on time to avoid interest."
+        },
+        {
+          "fr": "La banque a approuvé sa demande de prêt hypothécaire après avoir vérifié ses documents.",
+          "en": "The bank approved her mortgage application after reviewing her documents."
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "title": "Inflation and the Economy",
+      "titleNative": "Inflation et économie",
+      "items": [
+        {
+          "fr": "L'inflation a affecté le pouvoir d'achat de nombreuses familles.",
+          "en": "Inflation has affected the purchasing power of many families."
+        },
+        {
+          "fr": "La banque centrale a ajusté les taux d'intérêt pour contrôler l'inflation.",
+          "en": "The central bank adjusted interest rates to control inflation."
+        },
+        {
+          "fr": "Le chômage a considérablement baissé au cours du dernier trimestre.",
+          "en": "Unemployment dropped considerably during the last quarter."
+        },
+        {
+          "fr": "Les économistes débattent des meilleures politiques pour stimuler la croissance.",
+          "en": "Economists debate the best policies to stimulate growth."
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "title": "International Trade",
+      "titleNative": "Commerce international",
+      "items": [
+        {
+          "fr": "Le pays exporte principalement des produits agricoles et des minéraux.",
+          "en": "The country mainly exports agricultural products and minerals."
+        },
+        {
+          "fr": "Les tarifs douaniers affectent le prix des produits importés.",
+          "en": "Tariffs affect the price of imported products."
+        },
+        {
+          "fr": "Ils ont signé un traité de libre-échange avec plusieurs pays voisins.",
+          "en": "They signed a free trade agreement with several neighboring countries."
+        },
+        {
+          "fr": "La chaîne d'approvisionnement mondiale a été affectée par la crise.",
+          "en": "The global supply chain was affected by the crisis."
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "title": "Corporate Finance",
+      "titleNative": "Finances d'entreprise",
+      "items": [
+        {
+          "fr": "L'entreprise a annoncé des bénéfices record au dernier trimestre.",
+          "en": "The company reported record profits in the last quarter."
+        },
+        {
+          "fr": "Les actionnaires ont approuvé la fusion avec l'autre société.",
+          "en": "The shareholders approved the merger with the other company."
+        },
+        {
+          "fr": "Le budget annuel est réparti entre plusieurs départements.",
+          "en": "The annual budget is distributed among several departments."
+        },
+        {
+          "fr": "Le conseil d'administration décidera de la nouvelle stratégie d'investissement.",
+          "en": "The board of directors will decide on the new investment strategy."
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "title": "Startups and Venture Capital",
+      "titleNative": "Jeunes entreprises et capital-risque",
+      "items": [
+        {
+          "fr": "La jeune entreprise a reçu un investissement de plusieurs millions d'un groupe d'investisseurs.",
+          "en": "The startup received a multi-million-dollar investment from a group of investors."
+        },
+        {
+          "fr": "Les fondateurs ont cédé une partie des actions en échange de financement.",
+          "en": "The founders gave up part of the shares in exchange for financing."
+        },
+        {
+          "fr": "Beaucoup de nouvelles entreprises échouent pendant leurs premières années.",
+          "en": "Many new companies fail during their first years."
+        },
+        {
+          "fr": "Le capital-risque stimule l'innovation dans de nombreux secteurs.",
+          "en": "Venture capital drives innovation in many sectors."
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "title": "Economic Inequality",
+      "titleNative": "Inégalité économique",
+      "items": [
+        {
+          "fr": "L'écart entre riches et pauvres continue de se creuser dans de nombreux pays.",
+          "en": "The gap between rich and poor keeps growing in many countries."
+        },
+        {
+          "fr": "L'accès inégal à l'éducation perpétue la pauvreté.",
+          "en": "Unequal access to education perpetuates poverty."
+        },
+        {
+          "fr": "Certains économistes proposent des politiques de redistribution pour réduire les inégalités.",
+          "en": "Some economists propose redistributive policies to reduce inequality."
+        },
+        {
+          "fr": "La mobilité sociale est devenue plus difficile ces dernières décennies.",
+          "en": "Social mobility has become more difficult in recent decades."
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "title": "Cryptocurrency and Digital Finance",
+      "titleNative": "Cryptomonnaies et finance numérique",
+      "items": [
+        {
+          "fr": "La valeur de cette cryptomonnaie a considérablement augmenté cette année.",
+          "en": "The value of that cryptocurrency rose considerably this year."
+        },
+        {
+          "fr": "De nombreuses banques explorent l'utilisation de la technologie blockchain.",
+          "en": "Many banks are exploring the use of blockchain technology."
+        },
+        {
+          "fr": "Investir dans les cryptomonnaies comporte un risque élevé en raison de leur volatilité.",
+          "en": "Investing in cryptocurrencies involves high risk due to their volatility."
+        },
+        {
+          "fr": "Les portefeuilles numériques ont changé notre façon de gérer l'argent.",
+          "en": "Digital wallets have changed the way we manage money."
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "title": "Review: Economics and Finance",
+      "titleNative": "Repaso: Économie et finances",
+      "items": [
+        {
+          "fr": "Comprendre les finances nous aide à prendre de meilleures décisions économiques.",
+          "en": "Understanding finance helps us make better economic decisions."
+        },
+        {
+          "fr": "J'espère que l'économie s'améliorera pour que tout le monde ait plus d'opportunités.",
+          "en": "I hope the economy improves so everyone has more opportunities."
+        },
+        {
+          "fr": "L'épargne et la planification sont essentielles pour un avenir financier solide.",
+          "en": "Saving and planning are key to a solid financial future."
+        },
+        {
+          "fr": "Avec le temps, apprendre les finances devient aussi important que n'importe quelle autre compétence.",
+          "en": "Over time, learning about finance becomes as important as any other skill."
+        }
+      ]
+    },
+    {
+      "number": 41,
+      "title": "Climate Science",
+      "titleNative": "Science du climat",
+      "items": [
+        {
+          "fr": "Les émissions de dioxyde de carbone ont considérablement augmenté depuis la révolution industrielle.",
+          "en": "Carbon dioxide emissions have increased dramatically since the industrial revolution."
+        },
+        {
+          "fr": "Les scientifiques mettent en garde contre la montée du niveau des mers dans les prochaines décennies.",
+          "en": "Scientists warn about rising sea levels in the coming decades."
+        },
+        {
+          "fr": "Les modèles climatiques deviennent plus précis avec le temps.",
+          "en": "Weather patterns have become more unpredictable in recent years."
+        },
+        {
+          "fr": "La couche d'ozone s'est peu à peu rétablie grâce aux accords internationaux.",
+          "en": "The ozone layer has been recovering thanks to international policies."
+        }
+      ]
+    },
+    {
+      "number": 42,
+      "title": "Renewable Energy",
+      "titleNative": "Énergie renouvelable",
+      "items": [
+        {
+          "fr": "Les panneaux solaires sont devenus plus efficaces et abordables.",
+          "en": "Solar panels have become more efficient and affordable."
+        },
+        {
+          "fr": "L'énergie éolienne représente une part croissante du bouquet énergétique.",
+          "en": "Wind energy represents a growing share of the energy matrix."
+        },
+        {
+          "fr": "Investir dans les énergies propres réduit la dépendance aux combustibles fossiles.",
+          "en": "Investing in clean energy reduces dependence on fossil fuels."
+        },
+        {
+          "fr": "Plusieurs pays se sont engagés à atteindre zéro émission nette d'ici deux mille cinquante.",
+          "en": "Several countries have committed to reaching net zero emissions by the year 2050."
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "title": "Biodiversity and Conservation",
+      "titleNative": "Biodiversité et conservation",
+      "items": [
+        {
+          "fr": "La perte de biodiversité menace l'équilibre des écosystèmes.",
+          "en": "The loss of biodiversity threatens the balance of ecosystems."
+        },
+        {
+          "fr": "Une réserve naturelle a été créée pour protéger les espèces menacées.",
+          "en": "A nature reserve was established to protect endangered species."
+        },
+        {
+          "fr": "La restauration des zones humides aide à contrôler les inondations.",
+          "en": "Wetland restoration helps control flooding."
+        },
+        {
+          "fr": "Les coraux disparaissent en raison de la hausse de la température de l'océan.",
+          "en": "Coral reefs are disappearing due to rising ocean temperatures."
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "title": "Waste and Circular Economy",
+      "titleNative": "Déchets et économie circulaire",
+      "items": [
+        {
+          "fr": "L'économie circulaire cherche à réduire, réutiliser et recycler les ressources.",
+          "en": "The circular economy seeks to reduce, reuse, and recycle resources."
+        },
+        {
+          "fr": "Les décharges génèrent des gaz à effet de serre lorsque les déchets se décomposent.",
+          "en": "Landfills generate greenhouse gases as trash decomposes."
+        },
+        {
+          "fr": "De plus en plus d'entreprises conçoivent des produits en pensant à tout leur cycle de vie.",
+          "en": "More and more companies design products with their full life cycle in mind."
+        },
+        {
+          "fr": "Réduire le gaspillage alimentaire est l'un des moyens les plus efficaces d'aider la planète.",
+          "en": "Reducing food waste is one of the most effective ways to help the planet."
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "title": "Environmental Policy",
+      "titleNative": "Politique environnementale",
+      "items": [
+        {
+          "fr": "L'accord international fixe des objectifs précis pour réduire les émissions.",
+          "en": "The international agreement sets specific targets to reduce emissions."
+        },
+        {
+          "fr": "Les taxes carbone visent à encourager des pratiques plus durables.",
+          "en": "Carbon taxes seek to incentivize more sustainable practices."
+        },
+        {
+          "fr": "La réglementation environnementale varie énormément d'un pays à l'autre.",
+          "en": "Environmental regulation varies enormously from one country to another."
+        },
+        {
+          "fr": "Les groupes environnementaux font pression sur les gouvernements pour qu'ils agissent avec plus d'urgence.",
+          "en": "Environmental groups pressure governments to act with more urgency."
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "title": "Water Resources",
+      "titleNative": "Ressources en eau",
+      "items": [
+        {
+          "fr": "La pénurie d'eau touche des millions de personnes dans le monde.",
+          "en": "Water scarcity affects millions of people around the world."
+        },
+        {
+          "fr": "Les nappes phréatiques s'épuisent plus vite qu'elles ne se rechargent.",
+          "en": "Underground aquifers are being depleted faster than they recharge."
+        },
+        {
+          "fr": "La pollution des rivières met en danger la faune et la santé humaine.",
+          "en": "River pollution puts both wildlife and human health at risk."
+        },
+        {
+          "fr": "Les usines de dessalement offrent une solution, bien que coûteuse, à la pénurie d'eau.",
+          "en": "Desalination plants offer a solution, albeit costly, to water scarcity."
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "title": "Sustainable Agriculture",
+      "titleNative": "Agriculture durable",
+      "items": [
+        {
+          "fr": "L'agriculture durable vise à produire de la nourriture sans épuiser le sol.",
+          "en": "Sustainable agriculture seeks to produce food without depleting the soil."
+        },
+        {
+          "fr": "La rotation des cultures aide à maintenir la fertilité de la terre.",
+          "en": "Crop rotation helps maintain soil fertility."
+        },
+        {
+          "fr": "De plus en plus d'agriculteurs adoptent des techniques biologiques de culture.",
+          "en": "More and more farmers are adopting organic farming techniques."
+        },
+        {
+          "fr": "Réduire l'usage des pesticides profite autant aux insectes pollinisateurs qu'aux consommateurs.",
+          "en": "Reducing pesticide use benefits both pollinating insects and consumers."
+        }
+      ]
+    },
+    {
+      "number": 48,
+      "title": "Green Cities and Urban Sustainability",
+      "titleNative": "Villes vertes et durabilité urbaine",
+      "items": [
+        {
+          "fr": "Les villes intelligentes utilisent la technologie pour réduire la consommation d'énergie.",
+          "en": "Smart cities use technology to reduce energy consumption."
+        },
+        {
+          "fr": "Les toits végétalisés aident à réguler la température des bâtiments.",
+          "en": "Green roofs help regulate building temperature."
+        },
+        {
+          "fr": "Encourager les transports en commun réduit considérablement la pollution urbaine.",
+          "en": "Promoting public transportation significantly reduces urban pollution."
+        },
+        {
+          "fr": "La planification urbaine durable prend en compte l'impact environnemental à long terme.",
+          "en": "Sustainable urban planning considers long-term environmental impact."
+        }
+      ]
+    },
+    {
+      "number": 49,
+      "title": "Environmental Activism",
+      "titleNative": "Activisme environnemental",
+      "items": [
+        {
+          "fr": "Les jeunes militants exigent des mesures plus fortes contre le changement climatique.",
+          "en": "Young activists demand stronger measures against climate change."
+        },
+        {
+          "fr": "Les manifestations ont réussi à attirer l'attention des médias internationaux.",
+          "en": "The protests managed to draw the attention of international media."
+        },
+        {
+          "fr": "De nombreuses organisations non gouvernementales œuvrent pour protéger les forêts restantes.",
+          "en": "Many non-governmental organizations work to protect the remaining forests."
+        },
+        {
+          "fr": "L'activisme environnemental a permis d'importants changements législatifs dans plusieurs pays.",
+          "en": "Environmental activism has achieved important legislative changes in several countries."
+        }
+      ]
+    },
+    {
+      "number": 50,
+      "title": "Review: Environment and Sustainability",
+      "titleNative": "Repaso: Environnement et durabilité",
+      "items": [
+        {
+          "fr": "Protéger la planète demande l'effort conjoint des gouvernements, des entreprises et des individus.",
+          "en": "Protecting the planet requires the joint effort of governments, businesses, and individuals."
+        },
+        {
+          "fr": "J'espère que les prochaines générations hériteront d'un monde plus sain que l'actuel.",
+          "en": "I hope future generations inherit a healthier world than the current one."
+        },
+        {
+          "fr": "Chaque décision durable, aussi petite soit-elle, contribue à un meilleur avenir.",
+          "en": "Every sustainable decision, however small, contributes to a better future."
+        },
+        {
+          "fr": "Il reste encore du temps pour changer de cap si nous agissons avec détermination.",
+          "en": "There's still time to change course if we act decisively."
+        }
+      ]
+    },
+    {
+      "number": 51,
+      "title": "Cognitive Biases",
+      "titleNative": "Biais cognitifs",
+      "items": [
+        {
+          "fr": "Nous avons tendance à chercher des informations qui confirment ce que nous croyons déjà.",
+          "en": "We tend to seek information that confirms what we already believe."
+        },
+        {
+          "fr": "La peur de perdre quelque chose pèse souvent plus lourd que la possibilité d'en gagner autant.",
+          "en": "The fear of losing something usually weighs more than the possibility of gaining something similar."
+        },
+        {
+          "fr": "Notre mémoire n'est pas aussi précise que nous avons tendance à le penser.",
+          "en": "Our memory isn't as accurate as we tend to think."
+        },
+        {
+          "fr": "Reconnaître nos propres biais est la première étape pour penser plus clairement.",
+          "en": "Recognizing our own biases is the first step to thinking more clearly."
+        }
+      ]
+    },
+    {
+      "number": 52,
+      "title": "Motivation and Habits",
+      "titleNative": "Motivation et habitudes",
+      "items": [
+        {
+          "fr": "Les habitudes se forment grâce à une répétition constante.",
+          "en": "Habits are formed through constant repetition."
+        },
+        {
+          "fr": "La motivation externe dure rarement aussi longtemps que la motivation interne.",
+          "en": "External motivation rarely lasts as long as internal motivation."
+        },
+        {
+          "fr": "Se fixer des objectifs petits et atteignables aide à maintenir la discipline.",
+          "en": "Setting small, achievable goals helps maintain discipline."
+        },
+        {
+          "fr": "Rompre une mauvaise habitude demande de comprendre ce qui la déclenche.",
+          "en": "Breaking a bad habit requires understanding what triggers it."
+        }
+      ]
+    },
+    {
+      "number": 53,
+      "title": "Persuasion and Social Influence",
+      "titleNative": "Persuasion et influence sociale",
+      "items": [
+        {
+          "fr": "Nous avons tendance à suivre le comportement de la majorité, même sans nous en rendre compte.",
+          "en": "We tend to follow the majority's behavior, even without realizing it."
+        },
+        {
+          "fr": "Les experts utilisent des stratégies précises pour rendre leurs arguments plus convaincants.",
+          "en": "Experts use specific strategies to make their arguments more convincing."
+        },
+        {
+          "fr": "L'autorité perçue de quelqu'un influence énormément la façon dont nous recevons son message.",
+          "en": "Someone's perceived authority greatly influences how we receive their message."
+        },
+        {
+          "fr": "Être conscient de ces techniques nous aide à prendre des décisions plus éclairées.",
+          "en": "Being aware of these techniques helps us make more informed decisions."
+        }
+      ]
+    },
+    {
+      "number": 54,
+      "title": "Personality and Temperament",
+      "titleNative": "Personnalité et tempérament",
+      "items": [
+        {
+          "fr": "Chaque personne réagit différemment face aux situations de stress.",
+          "en": "Each person reacts differently to stressful situations."
+        },
+        {
+          "fr": "Certains traits de personnalité semblent rester stables tout au long de la vie.",
+          "en": "Some personality traits seem to remain stable throughout life."
+        },
+        {
+          "fr": "L'introversion ne signifie pas timidité, mais une préférence pour les environnements calmes.",
+          "en": "Introversion doesn't mean shyness, but a preference for calm environments."
+        },
+        {
+          "fr": "Comprendre notre propre tempérament nous aide à mieux gérer nos émotions.",
+          "en": "Understanding our own temperament helps us manage our emotions better."
+        }
+      ]
+    },
+    {
+      "number": 55,
+      "title": "Decision-Making",
+      "titleNative": "Prise de décision",
+      "items": [
+        {
+          "fr": "Nous prenons des milliers de décisions chaque jour, la plupart presque automatiquement.",
+          "en": "We make thousands of decisions every day, most almost automatically."
+        },
+        {
+          "fr": "Trop d'options peut nous paralyser plutôt que nous aider à décider.",
+          "en": "Too many options can paralyze us instead of helping us decide."
+        },
+        {
+          "fr": "Les émotions jouent un rôle plus important dans nos décisions que nous ne l'admettons généralement.",
+          "en": "Emotions play a bigger role in our decisions than we usually admit."
+        },
+        {
+          "fr": "Parfois, la meilleure décision consiste simplement à faire confiance à son intuition.",
+          "en": "Sometimes the best decision is simply to trust intuition."
+        }
+      ]
+    },
+    {
+      "number": 56,
+      "title": "Memory and Learning",
+      "titleNative": "Mémoire et apprentissage",
+      "items": [
+        {
+          "fr": "Répéter des informations réparties dans le temps améliore la rétention à long terme.",
+          "en": "Repeating information spaced out over time improves long-term retention."
+        },
+        {
+          "fr": "Bien dormir est essentiel pour consolider ce qu'on a appris pendant la journée.",
+          "en": "Sleeping well is essential for consolidating what we learned during the day."
+        },
+        {
+          "fr": "Associer une nouvelle information à quelque chose que nous connaissons déjà facilite l'apprentissage.",
+          "en": "Associating new information with something we already know facilitates learning."
+        },
+        {
+          "fr": "Un stress excessif peut nuire à la fois à la mémoire et à la concentration.",
+          "en": "Excessive stress can hinder both memory and concentration."
+        }
+      ]
+    },
+    {
+      "number": 57,
+      "title": "Social Dynamics",
+      "titleNative": "Dynamiques sociales",
+      "items": [
+        {
+          "fr": "Nous nous comportons différemment en groupe que lorsque nous sommes seuls.",
+          "en": "We behave differently when we're in a group than when we're alone."
+        },
+        {
+          "fr": "Le besoin d'appartenir à un groupe est l'une des motivations humaines les plus fortes.",
+          "en": "The need to belong to a group is one of the strongest human motivations."
+        },
+        {
+          "fr": "Les petits gestes de gentillesse peuvent considérablement renforcer une relation.",
+          "en": "Small gestures of kindness can significantly strengthen a relationship."
+        },
+        {
+          "fr": "Les conflits de groupe naissent souvent d'une communication déficiente.",
+          "en": "Group conflict often arises from poor communication."
+        }
+      ]
+    },
+    {
+      "number": 58,
+      "title": "Resilience and Coping",
+      "titleNative": "Résilience et adaptation",
+      "items": [
+        {
+          "fr": "La résilience ne signifie pas ne pas ressentir la douleur, mais savoir s'en remettre.",
+          "en": "Resilience doesn't mean not feeling pain, but knowing how to recover from it."
+        },
+        {
+          "fr": "Avoir un réseau de soutien solide fait une grande différence face à l'adversité.",
+          "en": "Having a solid support network makes a big difference in the face of adversity."
+        },
+        {
+          "fr": "Réinterpréter une situation difficile peut complètement changer la façon dont on la vit.",
+          "en": "Reinterpreting a difficult situation can completely change how we experience it."
+        },
+        {
+          "fr": "La capacité à s'adapter se renforce à chaque défi que nous affrontons.",
+          "en": "The ability to adapt strengthens every time we face a challenge."
+        }
+      ]
+    },
+    {
+      "number": 59,
+      "title": "Emotional Intelligence",
+      "titleNative": "Intelligence émotionnelle",
+      "items": [
+        {
+          "fr": "Reconnaître nos propres émotions est la première étape vers l'intelligence émotionnelle.",
+          "en": "Recognizing our own emotions is the first step toward emotional intelligence."
+        },
+        {
+          "fr": "L'empathie nous permet de mieux comprendre les émotions des autres.",
+          "en": "Empathy allows us to better understand others' emotions."
+        },
+        {
+          "fr": "Bien gérer ses émotions ne signifie pas les réprimer, mais les comprendre et les exprimer avec équilibre.",
+          "en": "Managing emotions well doesn't mean suppressing them, but understanding and expressing them in balance."
+        },
+        {
+          "fr": "Les relations les plus saines reposent souvent sur une communication émotionnelle honnête.",
+          "en": "The healthiest relationships tend to be based on honest emotional communication."
+        }
+      ]
+    },
+    {
+      "number": 60,
+      "title": "Review: Psychology and Behavior",
+      "titleNative": "Repaso: Psychologie et comportement",
+      "items": [
+        {
+          "fr": "Comprendre le fonctionnement de l'esprit humain nous aide à mieux nous comprendre nous-mêmes.",
+          "en": "Understanding how the human mind works helps us understand ourselves better."
+        },
+        {
+          "fr": "J'espère que ces idées t'aideront à réfléchir à ton propre comportement.",
+          "en": "I hope these ideas help you reflect on your own behavior."
+        },
+        {
+          "fr": "Personne n'est complètement rationnel, et le reconnaître nous rend plus humbles.",
+          "en": "No one is completely rational, and recognizing that makes us more humble."
+        },
+        {
+          "fr": "La connaissance de soi est un long processus, mais profondément précieux.",
+          "en": "Self-knowledge is a long process, but a deeply valuable one."
+        }
+      ]
+    },
+    {
+      "number": 61,
+      "title": "The Creative Process",
+      "titleNative": "Le processus créatif",
+      "items": [
+        {
+          "fr": "L'inspiration vient rarement de nulle part, elle naît souvent de la pratique constante.",
+          "en": "Inspiration rarely comes out of nowhere, it usually arises from constant practice."
+        },
+        {
+          "fr": "Beaucoup d'artistes décrivent leur processus créatif comme une lutte entre discipline et spontanéité.",
+          "en": "Many artists describe their creative process as a struggle between discipline and spontaneity."
+        },
+        {
+          "fr": "Le blocage créatif est une expérience courante chez les écrivains et les peintres.",
+          "en": "Creative block is a common experience among writers and painters."
+        },
+        {
+          "fr": "Expérimenter sans peur de l'échec est essentiel pour créer quelque chose de vraiment original.",
+          "en": "Experimenting without fear of failure is essential to creating something truly original."
+        }
+      ]
+    },
+    {
+      "number": 62,
+      "title": "Film and Cinema",
+      "titleNative": "Cinéma",
+      "items": [
+        {
+          "fr": "Ce film a exploré des thèmes profonds avec une narration peu conventionnelle.",
+          "en": "That film explored deep themes with an unconventional narrative."
+        },
+        {
+          "fr": "Le réalisateur a utilisé la lumière pour renforcer la tension émotionnelle de la scène.",
+          "en": "The director used lighting to reinforce the scene's emotional tension."
+        },
+        {
+          "fr": "La bande sonore a énormément contribué à l'impact du film.",
+          "en": "The soundtrack contributed enormously to the film's impact."
+        },
+        {
+          "fr": "Ce scénario a été salué pour sa capacité à mêler humour et tragédie.",
+          "en": "That screenplay was recognized for its ability to blend humor and tragedy."
+        }
+      ]
+    },
+    {
+      "number": 63,
+      "title": "Literature and Storytelling",
+      "titleNative": "Littérature et narration",
+      "items": [
+        {
+          "fr": "Le roman utilise plusieurs narrateurs pour raconter la même histoire sous différentes perspectives.",
+          "en": "The novel uses multiple narrators to tell the same story from different perspectives."
+        },
+        {
+          "fr": "L'auteur a construit des personnages d'une profondeur psychologique rare.",
+          "en": "The author built characters with unusually deep psychology."
+        },
+        {
+          "fr": "La métaphore centrale du livre se révèle peu à peu au fil de l'intrigue.",
+          "en": "The book's central metaphor is revealed gradually throughout the plot."
+        },
+        {
+          "fr": "Ce poème capture la fugacité de la vie avec une simplicité touchante.",
+          "en": "That poem captures the fleeting nature of life with moving simplicity."
+        }
+      ]
+    },
+    {
+      "number": 64,
+      "title": "Visual Arts",
+      "titleNative": "Arts visuels",
+      "items": [
+        {
+          "fr": "L'exposition réunissait des œuvres d'artistes émergents de toute la région.",
+          "en": "The exhibition brought together works by emerging artists from across the region."
+        },
+        {
+          "fr": "Cette sculpture combine des matériaux industriels avec des formes organiques.",
+          "en": "That sculpture combines industrial materials with organic shapes."
+        },
+        {
+          "fr": "L'usage de la couleur dans ce tableau transmet un sentiment d'inquiétude.",
+          "en": "The use of color in that painting conveys a sense of unease."
+        },
+        {
+          "fr": "L'art de rue est devenu une forme légitime d'expression urbaine.",
+          "en": "Street art has become a legitimate form of urban expression."
+        }
+      ]
+    },
+    {
+      "number": 65,
+      "title": "Music and Composition",
+      "titleNative": "Musique et composition",
+      "items": [
+        {
+          "fr": "Ce compositeur mélange des éléments classiques avec des rythmes contemporains.",
+          "en": "That composer mixes classical elements with contemporary rhythms."
+        },
+        {
+          "fr": "La mélodie se répète avec de légères variations tout au long du morceau.",
+          "en": "The melody repeats with small variations throughout the whole piece."
+        },
+        {
+          "fr": "Les paroles de cette chanson abordent des thèmes d'identité et d'appartenance.",
+          "en": "That song's lyrics address themes of identity and belonging."
+        },
+        {
+          "fr": "Interpréter un morceau de musique demande à la fois de la technique et de la sensibilité.",
+          "en": "Performing a piece of music requires both technique and sensitivity."
+        }
+      ]
+    },
+    {
+      "number": 66,
+      "title": "Theater and Performance",
+      "titleNative": "Théâtre et interprétation",
+      "items": [
+        {
+          "fr": "La pièce brise le quatrième mur pour impliquer directement le public.",
+          "en": "The play breaks the fourth wall to directly involve the audience."
+        },
+        {
+          "fr": "L'acteur a transmis une vulnérabilité authentique dans chaque scène.",
+          "en": "The actor conveyed genuine vulnerability in every scene."
+        },
+        {
+          "fr": "La mise en scène minimaliste a permis au texte de briller par lui-même.",
+          "en": "The minimalist staging allowed the text to shine on its own."
+        },
+        {
+          "fr": "Le théâtre en direct offre une connexion immédiate que d'autres médias n'arrivent pas à égaler.",
+          "en": "Live theater offers an immediate connection that other media can't quite match."
+        }
+      ]
+    },
+    {
+      "number": 67,
+      "title": "Design and Architecture",
+      "titleNative": "Design et architecture",
+      "items": [
+        {
+          "fr": "Le bâtiment combine des lignes modernes avec des matériaux traditionnels de la région.",
+          "en": "The building combines modern lines with traditional materials from the region."
+        },
+        {
+          "fr": "Un bon design équilibre fonctionnalité et esthétique.",
+          "en": "Good design balances functionality with aesthetics."
+        },
+        {
+          "fr": "L'architecte a privilégié la lumière naturelle dans chaque espace du projet.",
+          "en": "The architect prioritized natural light in every space of the project."
+        },
+        {
+          "fr": "Ce design de produit a révolutionné notre façon d'interagir avec la technologie.",
+          "en": "That product design revolutionized the way we interact with technology."
+        }
+      ]
+    },
+    {
+      "number": 68,
+      "title": "Photography",
+      "titleNative": "Photographie",
+      "items": [
+        {
+          "fr": "Le photographe a capturé un instant qui résume toute une époque.",
+          "en": "The photographer captured a moment that sums up an entire era."
+        },
+        {
+          "fr": "La composition de cette image guide le regard vers le centre de la scène.",
+          "en": "That image's composition guides the eye toward the center of the scene."
+        },
+        {
+          "fr": "Le contraste entre lumière et ombre donne à la photo une force dramatique.",
+          "en": "The contrast between light and shadow gives the photo dramatic power."
+        },
+        {
+          "fr": "La photographie documentaire a le pouvoir de changer la perception publique d'un événement.",
+          "en": "Documentary photography has the power to change public perception of an event."
+        }
+      ]
+    },
+    {
+      "number": 69,
+      "title": "Art and Society",
+      "titleNative": "Art et société",
+      "items": [
+        {
+          "fr": "L'art a historiquement été un outil de résistance et de dénonciation sociale.",
+          "en": "Art has historically been a tool for resistance and social protest."
+        },
+        {
+          "fr": "De nombreux mouvements artistiques sont nés en réaction aux changements politiques de leur époque.",
+          "en": "Many artistic movements arose as a reaction to the political changes of their time."
+        },
+        {
+          "fr": "Le financement public des arts reste un sujet de débat.",
+          "en": "Public funding for the arts remains a topic of debate."
+        },
+        {
+          "fr": "L'art a la capacité de susciter de l'empathie envers des expériences que nous n'avons pas vécues.",
+          "en": "Art has the ability to generate empathy toward experiences we haven't lived."
+        }
+      ]
+    },
+    {
+      "number": 70,
+      "title": "Review: Arts and Creativity",
+      "titleNative": "Repaso: Art et créativité",
+      "items": [
+        {
+          "fr": "La créativité n'est pas un talent réservé à quelques-uns, mais une compétence qui se cultive.",
+          "en": "Creativity isn't a talent reserved for a few, but a skill that is cultivated."
+        },
+        {
+          "fr": "J'espère que tu continueras à explorer différentes formes d'expression artistique.",
+          "en": "I hope you keep exploring different forms of artistic expression."
+        },
+        {
+          "fr": "L'art nous connecte à des émotions que les mots n'arrivent parfois pas à exprimer.",
+          "en": "Art connects us with emotions that words sometimes fail to express."
+        },
+        {
+          "fr": "Chaque œuvre d'art raconte une histoire, même si ce n'est pas toujours évident au premier regard.",
+          "en": "Every work of art tells a story, even if it's not always obvious at first glance."
+        }
+      ]
+    },
+    {
+      "number": 71,
+      "title": "Empires and Colonization",
+      "titleNative": "Empires et colonisation",
+      "items": [
+        {
+          "fr": "L'empire s'est étendu sur trois continents à son apogée.",
+          "en": "The empire spread across three continents at its peak of power."
+        },
+        {
+          "fr": "La colonisation a eu des conséquences profondes et durables pour les populations autochtones.",
+          "en": "Colonization had deep and lasting consequences for indigenous populations."
+        },
+        {
+          "fr": "De nombreuses nations ont obtenu leur indépendance après de longues luttes armées.",
+          "en": "Many nations achieved their independence after long armed struggles."
+        },
+        {
+          "fr": "Les historiens continuent de débattre de l'impact réel de cette période historique.",
+          "en": "Historians continue to debate the true impact of that historical period."
+        }
+      ]
+    },
+    {
+      "number": 72,
+      "title": "Wars and Conflicts",
+      "titleNative": "Guerres et conflits",
+      "items": [
+        {
+          "fr": "Le conflit a duré plus d'une décennie et a complètement transformé la région.",
+          "en": "The conflict lasted more than a decade and completely transformed the region."
+        },
+        {
+          "fr": "Le traité de paix a mis fin à des années d'affrontements entre les deux pays.",
+          "en": "The peace treaty ended years of confrontation between both countries."
+        },
+        {
+          "fr": "Les conséquences de cette guerre se font encore sentir des générations plus tard.",
+          "en": "The consequences of that war are still felt generations later."
+        },
+        {
+          "fr": "Les historiens analysent les causes économiques et politiques qui ont mené au conflit.",
+          "en": "Historians analyze the economic and political causes that led to the conflict."
+        }
+      ]
+    },
+    {
+      "number": 73,
+      "title": "Revolutions and Social Change",
+      "titleNative": "Révolutions et changement social",
+      "items": [
+        {
+          "fr": "La révolution a radicalement transformé la structure sociale du pays.",
+          "en": "The revolution radically transformed the country's social structure."
+        },
+        {
+          "fr": "Des milliers de personnes ont rejoint le mouvement en exigeant des réformes profondes.",
+          "en": "Thousands of people joined the movement demanding deep reforms."
+        },
+        {
+          "fr": "Le changement n'est pas arrivé du jour au lendemain, mais après des décennies de lutte.",
+          "en": "Change didn't come overnight, but after decades of struggle."
+        },
+        {
+          "fr": "Cette révolution a inspiré des mouvements similaires dans les pays voisins.",
+          "en": "That revolution inspired similar movements in neighboring countries."
+        }
+      ]
+    },
+    {
+      "number": 74,
+      "title": "Historical Memory",
+      "titleNative": "Mémoire historique",
+      "items": [
+        {
+          "fr": "Le pays continue de panser les blessures laissées par cette période sombre de son histoire.",
+          "en": "The country is still processing the wounds left by that dark period of its history."
+        },
+        {
+          "fr": "Un monument a été construit pour que les nouvelles générations n'oublient pas ce qui s'est passé.",
+          "en": "A monument was built so new generations wouldn't forget what happened."
+        },
+        {
+          "fr": "Les témoignages des survivants sont essentiels pour préserver la mémoire historique.",
+          "en": "Survivors' testimonies are essential for preserving historical memory."
+        },
+        {
+          "fr": "Reconnaître les erreurs du passé est une étape nécessaire vers la réconciliation.",
+          "en": "Acknowledging the mistakes of the past is a necessary step toward reconciliation."
+        }
+      ]
+    },
+    {
+      "number": 75,
+      "title": "Geopolitical Power",
+      "titleNative": "Pouvoir géopolitique",
+      "items": [
+        {
+          "fr": "Les grandes puissances rivalisent d'influence dans différentes régions du monde.",
+          "en": "The great powers compete for influence in different regions of the world."
+        },
+        {
+          "fr": "Les ressources naturelles ont, historiquement, été une source constante de conflit.",
+          "en": "Natural resources have historically been a constant source of conflict."
+        },
+        {
+          "fr": "Les alliances internationales évoluent selon les intérêts économiques et stratégiques.",
+          "en": "International alliances change according to economic and strategic interests."
+        },
+        {
+          "fr": "La position géographique d'un pays influence énormément son rôle géopolitique.",
+          "en": "A country's geographic position greatly influences its geopolitical role."
+        }
+      ]
+    },
+    {
+      "number": 76,
+      "title": "Borders and Territory",
+      "titleNative": "Frontières et territoire",
+      "items": [
+        {
+          "fr": "Le différend territorial entre les deux pays remonte à plus d'un siècle.",
+          "en": "The territorial dispute between both countries goes back more than a century."
+        },
+        {
+          "fr": "Les frontières actuelles ont été tracées, dans bien des cas, sans tenir compte des populations locales.",
+          "en": "Current borders were drawn, in many cases, without considering local populations."
+        },
+        {
+          "fr": "L'accès à la mer reste un sujet central dans les négociations entre ces pays.",
+          "en": "Access to the sea remains a central issue in negotiations between those countries."
+        },
+        {
+          "fr": "Les zones frontalières ont souvent une identité culturelle bien particulière.",
+          "en": "Border areas often have a very particular cultural identity."
+        }
+      ]
+    },
+    {
+      "number": 77,
+      "title": "Diplomacy and Negotiation",
+      "titleNative": "Diplomatie et négociation",
+      "items": [
+        {
+          "fr": "Les ambassadeurs ont travaillé pendant des mois pour parvenir à un accord acceptable pour les deux parties.",
+          "en": "The ambassadors worked for months to reach an agreement acceptable to both parties."
+        },
+        {
+          "fr": "La diplomatie discrète réussit souvent mieux que les déclarations publiques.",
+          "en": "Quiet diplomacy often achieves more than public statements."
+        },
+        {
+          "fr": "Les sanctions économiques sont utilisées comme un outil de pression politique.",
+          "en": "Economic sanctions are used as a tool of political pressure."
+        },
+        {
+          "fr": "Un bon négociateur sait quand céder et quand rester ferme.",
+          "en": "A good negotiator knows when to give in and when to stand firm."
+        }
+      ]
+    },
+    {
+      "number": 78,
+      "title": "National Identity",
+      "titleNative": "Identité nationale",
+      "items": [
+        {
+          "fr": "L'identité nationale se construit à partir d'une histoire, d'une langue et de symboles partagés.",
+          "en": "National identity is built from a shared history, language, and symbols."
+        },
+        {
+          "fr": "Dans les pays à grande diversité ethnique, l'identité nationale peut être un sujet complexe.",
+          "en": "In countries with great ethnic diversity, national identity can be a complex issue."
+        },
+        {
+          "fr": "L'hymne et le drapeau sont des symboles qui unissent les citoyens dans les moments importants.",
+          "en": "The anthem and flag are symbols that unite citizens at important moments."
+        },
+        {
+          "fr": "L'identité d'un pays évolue constamment avec chaque nouvelle génération.",
+          "en": "A country's identity constantly evolves with each new generation."
+        }
+      ]
+    },
+    {
+      "number": 79,
+      "title": "Learning from History",
+      "titleNative": "Apprendre de l'histoire",
+      "items": [
+        {
+          "fr": "Ceux qui oublient l'histoire risquent de répéter les mêmes erreurs.",
+          "en": "Those who forget history risk repeating the same mistakes."
+        },
+        {
+          "fr": "Étudier le passé nous aide à mieux comprendre les défis du présent.",
+          "en": "Studying the past helps us better understand the challenges of the present."
+        },
+        {
+          "fr": "L'histoire n'est pas seulement une liste de dates, mais un réseau complexe de causes et d'effets.",
+          "en": "History isn't just a list of dates, but a complex web of causes and effects."
+        },
+        {
+          "fr": "Chaque génération réinterprète l'histoire depuis sa propre perspective.",
+          "en": "Each generation reinterprets history from its own perspective."
+        }
+      ]
+    },
+    {
+      "number": 80,
+      "title": "Review: History and Geopolitics",
+      "titleNative": "Repaso: Histoire et géopolitique",
+      "items": [
+        {
+          "fr": "Comprendre l'histoire nous permet de mieux comprendre le monde dans lequel nous vivons aujourd'hui.",
+          "en": "Understanding history allows us to better understand the world we live in today."
+        },
+        {
+          "fr": "J'espère que nous apprendrons des erreurs du passé pour construire un meilleur avenir.",
+          "en": "I hope we learn from the mistakes of the past to build a better future."
+        },
+        {
+          "fr": "Une paix durable demande à la fois de la mémoire et une volonté de pardonner.",
+          "en": "Lasting peace requires both memory and a willingness to forgive."
+        },
+        {
+          "fr": "Le cours de l'histoire n'est jamais complètement écrit d'avance.",
+          "en": "The course of history is never completely written in advance."
+        }
+      ]
+    },
+    {
+      "number": 81,
+      "title": "Giving Formal Feedback",
+      "titleNative": "Donner un retour formel",
+      "items": [
+        {
+          "fr": "Je vous remercie pour votre effort, bien que je pense que le rapport pourrait être amélioré sur certains points.",
+          "en": "I appreciate your effort, although I think the report could be improved in some aspects."
+        },
+        {
+          "fr": "Je vous suggère de reconsidérer la structure du document avant la prochaine remise.",
+          "en": "I suggest you reconsider the document's structure before the next submission."
+        },
+        {
+          "fr": "Vos idées sont précieuses, mais elles doivent être appuyées par des données plus concrètes.",
+          "en": "Your ideas are valuable, but they need to be backed up with more concrete data."
+        },
+        {
+          "fr": "Dans l'ensemble, le travail répond aux attentes, bien qu'il y ait une marge d'amélioration.",
+          "en": "Overall, the work meets expectations, although there is room for improvement."
+        }
+      ]
+    },
+    {
+      "number": 82,
+      "title": "Chairing a Meeting",
+      "titleNative": "Présider une réunion",
+      "items": [
+        {
+          "fr": "Commençons la réunion en révisant les points en attente de la séance précédente.",
+          "en": "Let's begin the meeting by reviewing the pending items from the previous session."
+        },
+        {
+          "fr": "Je propose que nous passions au point suivant de l'ordre du jour.",
+          "en": "I propose we move on to the next item on the agenda."
+        },
+        {
+          "fr": "Avant de clore, quelqu'un a-t-il une remarque supplémentaire ?",
+          "en": "Before closing, does anyone have any additional comments?"
+        },
+        {
+          "fr": "Nous convenons donc que l'équipe enverra le rapport avant jeudi.",
+          "en": "We agree, then, that the team will send the report before Thursday."
+        }
+      ]
+    },
+    {
+      "number": 83,
+      "title": "Writing Persuasive Emails",
+      "titleNative": "Écrire des courriels persuasifs",
+      "items": [
+        {
+          "fr": "Je vous écris pour vous proposer une collaboration possible entre nos entreprises.",
+          "en": "I'm writing to propose a possible collaboration between our companies."
+        },
+        {
+          "fr": "Je suis convaincu que ce partenariat profiterait considérablement aux deux parties.",
+          "en": "I'm convinced this partnership would benefit both parties considerably."
+        },
+        {
+          "fr": "Je reste dans l'attente de vos remarques et nous pouvons volontiers organiser un appel.",
+          "en": "I look forward to your feedback and would be glad to coordinate a call."
+        },
+        {
+          "fr": "Je vous remercie par avance pour votre temps et votre considération.",
+          "en": "I appreciate in advance your time and consideration."
+        }
+      ]
+    },
+    {
+      "number": 84,
+      "title": "Handling Disagreement Professionally",
+      "titleNative": "Gérer le désaccord de façon professionnelle",
+      "items": [
+        {
+          "fr": "Je comprends votre point de vue, bien que je ne sois pas tout à fait d'accord, avec tout le respect que je vous dois.",
+          "en": "I understand your point of view, although I respectfully don't fully agree."
+        },
+        {
+          "fr": "Je propose que nous cherchions un compromis qui satisfasse les deux parties.",
+          "en": "I propose we look for a middle ground that satisfies both parties."
+        },
+        {
+          "fr": "J'apprécie votre franchise, bien que j'aimerais présenter une perspective différente.",
+          "en": "I appreciate your frankness, although I would like to present a different perspective."
+        },
+        {
+          "fr": "Peut-être devrions-nous revoir les données ensemble avant d'arriver à une conclusion finale.",
+          "en": "Perhaps we should review the data together before reaching a final conclusion."
+        }
+      ]
+    },
+    {
+      "number": 85,
+      "title": "Presenting Data and Results",
+      "titleNative": "Présenter des données et des résultats",
+      "items": [
+        {
+          "fr": "Comme vous pouvez le voir sur ce graphique, les ventes ont considérablement augmenté.",
+          "en": "As you can see in this chart, sales increased considerably."
+        },
+        {
+          "fr": "Ces résultats confirment la tendance que nous observions depuis des mois.",
+          "en": "These results confirm the trend we had been observing for months."
+        },
+        {
+          "fr": "Il convient de noter que ces données correspondent uniquement au dernier trimestre.",
+          "en": "It should be noted that this data corresponds only to the last quarter."
+        },
+        {
+          "fr": "En résumé, les chiffres soutiennent clairement notre proposition.",
+          "en": "In summary, the numbers clearly support our proposal."
+        }
+      ]
+    },
+    {
+      "number": 86,
+      "title": "Formal Apologies and Corrections",
+      "titleNative": "Excuses et corrections formelles",
+      "items": [
+        {
+          "fr": "Nous regrettons sincèrement tout inconvénient causé par cette situation.",
+          "en": "We sincerely regret any inconvenience this situation may have caused."
+        },
+        {
+          "fr": "Nous reconnaissons l'erreur et nous travaillons déjà à une solution.",
+          "en": "We acknowledge the mistake and are already working on a solution."
+        },
+        {
+          "fr": "Nous vous assurons que nous prendrons les mesures nécessaires pour que cela ne se reproduise pas.",
+          "en": "We assure you we will take the necessary measures so this doesn't happen again."
+        },
+        {
+          "fr": "Nous vous remercions de votre patience pendant que nous résolvons entièrement cette affaire.",
+          "en": "We appreciate your patience while we fully resolve this matter."
+        }
+      ]
+    },
+    {
+      "number": 87,
+      "title": "Negotiating Terms",
+      "titleNative": "Négocier des conditions",
+      "items": [
+        {
+          "fr": "Nous sommes prêts à ajuster le délai si cela facilite l'accord.",
+          "en": "We're willing to adjust the timeline if that facilitates the agreement."
+        },
+        {
+          "fr": "Serait-il possible de revoir les conditions de paiement avant de signer ?",
+          "en": "Would it be possible to review the payment terms before signing?"
+        },
+        {
+          "fr": "Nous avons besoin que les deux parties s'engagent par écrit avant de continuer.",
+          "en": "We need both parties to commit in writing before proceeding."
+        },
+        {
+          "fr": "Nous pensons que ces conditions sont justes pour toutes les personnes concernées.",
+          "en": "We believe these terms are fair for everyone involved."
+        }
+      ]
+    },
+    {
+      "number": 88,
+      "title": "Cross-Cultural Communication",
+      "titleNative": "Communication interculturelle",
+      "items": [
+        {
+          "fr": "Il est important d'adapter le ton selon la culture d'entreprise de chaque pays.",
+          "en": "It's important to adapt the tone according to each country's business culture."
+        },
+        {
+          "fr": "Ce qui est considéré comme direct dans une culture peut sembler impoli dans une autre.",
+          "en": "What is considered direct in one culture may seem rude in another."
+        },
+        {
+          "fr": "Prendre le temps de comprendre les coutumes locales crée une confiance immédiate.",
+          "en": "Taking the time to understand local customs generates immediate trust."
+        },
+        {
+          "fr": "La patience et la curiosité sont essentielles quand on travaille avec des équipes internationales.",
+          "en": "Patience and curiosity are key when working with international teams."
+        }
+      ]
+    },
+    {
+      "number": 89,
+      "title": "Public Speaking",
+      "titleNative": "Prise de parole en public",
+      "items": [
+        {
+          "fr": "Respirer profondément avant de parler aide à calmer les nerfs.",
+          "en": "Breathing deeply before speaking helps calm the nerves."
+        },
+        {
+          "fr": "Une bonne présentation capte l'attention du public dès les premières secondes.",
+          "en": "A good presentation connects with the audience from the first few seconds."
+        },
+        {
+          "fr": "Le contact visuel crée une connexion authentique avec ceux qui écoutent.",
+          "en": "Eye contact generates a genuine connection with listeners."
+        },
+        {
+          "fr": "Raconter une histoire personnelle est souvent plus mémorable qu'énumérer des faits.",
+          "en": "Telling a personal story is usually more memorable than listing facts."
+        }
+      ]
+    },
+    {
+      "number": 90,
+      "title": "Review: Professional Communication",
+      "titleNative": "Repaso: Communication professionnelle",
+      "items": [
+        {
+          "fr": "Communiquer avec clarté et respect ouvre bien plus de portes que nous ne l'imaginons.",
+          "en": "Communicating clearly and respectfully opens many more doors than we imagine."
+        },
+        {
+          "fr": "J'espère que ces outils te seront utiles dans ta vie professionnelle.",
+          "en": "I hope these tools are useful to you in your professional life."
+        },
+        {
+          "fr": "C'est la pratique constante qui perfectionne vraiment ces compétences.",
+          "en": "Constant practice is what really perfects these skills."
+        },
+        {
+          "fr": "Avec confiance et préparation, toute conversation difficile devient gérable.",
+          "en": "With confidence and preparation, any difficult conversation becomes manageable."
+        }
+      ]
+    },
+    {
+      "number": 91,
+      "title": "A Company's Turning Point",
+      "titleNative": "Le tournant d'une entreprise",
+      "items": [
+        {
+          "fr": "L'entreprise était sur le point de fermer quand, au moment où le nouveau directeur est arrivé, tout a complètement changé.",
+          "en": "The company was about to close when, by the time the new director arrived, everything changed completely."
+        },
+        {
+          "fr": "Le changement qu'il a réussi est impressionnant, bien qu'il ait en réalité été axé, non pas sur l'apparence, mais sur la restructuration financière.",
+          "en": "The change he achieved is impressive, although it was actually focused, not on appearance, but on financial restructuring."
+        },
+        {
+          "fr": "La mise en œuvre des nouvelles politiques aurait échoué sans le soutien total de l'équipe.",
+          "en": "The implementation of new policies would have failed without the team's full support."
+        },
+        {
+          "fr": "D'ici l'année prochaine, l'entreprise aura récupéré plus du double de sa valeur initiale.",
+          "en": "By next year, the company will have recovered more than double its original value."
+        }
+      ]
+    },
+    {
+      "number": 92,
+      "title": "An Artist's Legacy",
+      "titleNative": "L'héritage d'un artiste",
+      "items": [
+        {
+          "fr": "On disait qu'il était fou, mais en réalité il était absolument dévoué à sa vision créative.",
+          "en": "They say he was crazy, but he was actually absolutely committed to his creative vision."
+        },
+        {
+          "fr": "Son œuvre aurait été ignorée si ce n'avait pas été pour l'insistance de quelques collectionneurs.",
+          "en": "His work would have been ignored if it hadn't been for the insistence of a few collectors."
+        },
+        {
+          "fr": "L'exposition de ses tableaux a marqué un tournant dans l'art de la région.",
+          "en": "The exhibition of his paintings marked a turning point in the region's art."
+        },
+        {
+          "fr": "J'aurais aimé qu'il vive assez longtemps pour voir la reconnaissance que son travail a finalement reçue.",
+          "en": "I wish he had lived to see the recognition his work finally received."
+        }
+      ]
+    },
+    {
+      "number": 93,
+      "title": "A Nation Rebuilding",
+      "titleNative": "Une nation qui se reconstruit",
+      "items": [
+        {
+          "fr": "Après des années de conflit, le pays a entamé un lent processus de reconstruction.",
+          "en": "After years of conflict, the country began a slow process of reconstruction."
+        },
+        {
+          "fr": "La réconciliation n'aurait pas été possible sans une reconnaissance honnête des erreurs du passé.",
+          "en": "Reconciliation wouldn't have been possible without honest acknowledgment of past mistakes."
+        },
+        {
+          "fr": "D'ici la prochaine décennie, on s'attend à ce que l'économie se soit complètement stabilisée.",
+          "en": "By the next decade, the economy is expected to have completely stabilized."
+        },
+        {
+          "fr": "Malgré tout ce qui a été vécu, l'espoir de ses citoyens n'a jamais totalement disparu.",
+          "en": "Despite everything experienced, its citizens' hope never completely disappeared."
+        }
+      ]
+    },
+    {
+      "number": 94,
+      "title": "A Scientist's Ethical Dilemma",
+      "titleNative": "Le dilemme éthique d'une scientifique",
+      "items": [
+        {
+          "fr": "Si elle publiait ses résultats maintenant, elle pourrait sauver des vies, mais étant donné que les données ne sont pas encore complètes, elle craint de se tromper.",
+          "en": "If she published her findings now, she could save lives, but since the data isn't complete yet, she fears being wrong."
+        },
+        {
+          "fr": "La façon dont elle a géré la pression est admirable, restant fidèle à ses principes scientifiques.",
+          "en": "The way she has handled the pressure has been admirable, staying true to her scientific principles."
+        },
+        {
+          "fr": "Sans la patience de plusieurs années de recherche, elle ne serait jamais arrivée à cette conclusion.",
+          "en": "Without the patience of years of research, she would never have reached this conclusion."
+        },
+        {
+          "fr": "J'espère que, d'ici sa publication, elle aura résolu tous ses doutes.",
+          "en": "I hope that, by the time she publishes, she'll have resolved all her doubts."
+        }
+      ]
+    },
+    {
+      "number": 95,
+      "title": "Reflecting on Language Learning",
+      "titleNative": "Réfléchir à l'apprentissage des langues",
+      "items": [
+        {
+          "fr": "Quand j'ai commencé ce cours, je doutais de pouvoir un jour parler avec une telle aisance.",
+          "en": "When I started this course, I doubted I could ever speak with this fluency."
+        },
+        {
+          "fr": "Malgré les difficultés, étant donné que j'ai continué à pratiquer, tout a commencé à couler naturellement.",
+          "en": "Despite the difficulties, since I kept practicing, everything started to flow naturally."
+        },
+        {
+          "fr": "Sans la constance quotidienne, je ne serais pas arrivé aussi loin.",
+          "en": "Without daily consistency, I wouldn't have come this far."
+        },
+        {
+          "fr": "J'espère que tu continueras à apprécier cette langue autant que j'ai apprécié l'apprendre.",
+          "en": "I hope you keep enjoying this language as much as I've enjoyed learning it."
+        }
+      ]
+    },
+    {
+      "number": 96,
+      "title": "A Difficult Conversation, Handled Well",
+      "titleNative": "Une conversation difficile, bien gérée",
+      "items": [
+        {
+          "fr": "Je comprends ta perspective, bien que, vu ce qui s'est passé, j'aimerais te présenter la mienne.",
+          "en": "I understand your perspective, although, given what has happened, I would like to share mine."
+        },
+        {
+          "fr": "Si nous n'avions pas parlé honnêtement, cette relation se serait complètement détériorée.",
+          "en": "If we hadn't talked honestly, this relationship would have deteriorated completely."
+        },
+        {
+          "fr": "Le temps que nous finissions de parler, nous avions déjà trouvé une solution qui profitait aux deux.",
+          "en": "By the time we finished talking, we had already found a solution that benefited both of us."
+        },
+        {
+          "fr": "Malgré l'inconfort du moment, cela en valait sans aucun doute la peine.",
+          "en": "Despite how uncomfortable the moment was, it was definitely worth it."
+        }
+      ]
+    },
+    {
+      "number": 97,
+      "title": "A Community Facing Climate Change",
+      "titleNative": "Une communauté face au changement climatique",
+      "items": [
+        {
+          "fr": "S'ils n'avaient pas agi à temps, tout le village se serait retrouvé sous l'eau.",
+          "en": "If they hadn't acted in time, the whole town would have been underwater."
+        },
+        {
+          "fr": "Étant donné qu'ils dépendaient tant de la pêche, le changement climatique menaçait complètement leur mode de vie.",
+          "en": "Since they depended so much on fishing, climate change completely threatened their way of life."
+        },
+        {
+          "fr": "Grâce à l'énergie renouvelable qu'ils ont mise en place, d'ici l'année prochaine ils auront réduit leurs émissions de moitié.",
+          "en": "Thanks to the renewable energy they implemented, by next year they will have cut their emissions in half."
+        },
+        {
+          "fr": "J'espère que d'autres communautés suivront leur exemple avant qu'il ne soit trop tard.",
+          "en": "I hope more communities follow their example before it's too late."
+        }
+      ]
+    },
+    {
+      "number": 98,
+      "title": "A Life Devoted to Others",
+      "titleNative": "Une vie dévouée aux autres",
+      "items": [
+        {
+          "fr": "Elle est généreuse de nature, et elle l'est encore plus depuis qu'elle a commencé à travailler avec les réfugiés.",
+          "en": "She's generous by nature, and she's even more committed since she started working with refugees."
+        },
+        {
+          "fr": "Si elle n'avait pas dédié sa vie à cette cause, des centaines de familles n'auraient pas reçu d'aide.",
+          "en": "If she hadn't dedicated her life to this cause, hundreds of families wouldn't have received help."
+        },
+        {
+          "fr": "Malgré l'épuisement, étant donné qu'elle voit l'impact de son travail chaque jour, elle ne perd jamais sa motivation.",
+          "en": "Despite the exhaustion, since she sees the impact of her work every day, she never loses motivation."
+        },
+        {
+          "fr": "D'ici sa retraite, elle aura changé la vie de milliers de personnes.",
+          "en": "By the time she retires, she will have changed the lives of thousands of people."
+        }
+      ]
+    },
+    {
+      "number": 99,
+      "title": "The Wisdom of Simplicity",
+      "titleNative": "La sagesse de la simplicité",
+      "items": [
+        {
+          "fr": "Malgré tout ce qui est complexe que nous avons appris, parfois la réponse la plus sage est la plus simple.",
+          "en": "Despite all the complex things we've learned, sometimes the wisest answer is the simplest one."
+        },
+        {
+          "fr": "Si nous avions compris cela avant, nous nous serions épargné bien du stress inutile.",
+          "en": "If we had understood this before, we would have saved ourselves a lot of unnecessary stress."
+        },
+        {
+          "fr": "Étant donné que la vie est déjà compliquée, inutile de compliquer davantage ce qui est simple.",
+          "en": "Given that life is already complicated, we don't need to complicate what is simple even further."
+        },
+        {
+          "fr": "J'espère que nous nous souviendrons toujours que le bonheur se trouve souvent dans les petites choses.",
+          "en": "I hope we always remember that happiness is often found in small things."
+        }
+      ]
+    },
+    {
+      "number": 100,
+      "title": "Review: B2+ Capstone",
+      "titleNative": "Repaso: Cierre de B2+",
+      "items": [
+        {
+          "fr": "Tu as atteint un niveau où tu peux exprimer des idées vraiment complexes et nuancées.",
+          "en": "You've reached a level where you can express truly complex and nuanced ideas."
+        },
+        {
+          "fr": "D'ici la fin du prochain niveau, tu auras maîtrisé des nuances que beaucoup de locuteurs natifs ne remarquent même pas.",
+          "en": "By the time you finish the next level, you'll have mastered nuances that many native speakers don't even notice."
+        },
+        {
+          "fr": "J'espère que tu continueras avec la même passion qui t'a amené jusqu'ici.",
+          "en": "I hope you continue with the same passion that brought you this far."
+        },
+        {
+          "fr": "Je suis convaincu que tu es plus que prêt pour le niveau avancé qui suit.",
+          "en": "I'm convinced you're more than ready for the advanced level that follows."
+        }
+      ]
+    }
+  ]
+}

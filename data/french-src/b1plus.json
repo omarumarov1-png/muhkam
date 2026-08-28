@@ -1,0 +1,2383 @@
+{
+  "level": "b1plus",
+  "grammarTopics": {
+    "b1plus-futur-simple": {
+      "title": "Simple Future: What Will Happen",
+      "pattern": "infinitive (or irregular stem) + -ai/-as/-a/-ons/-ez/-ont",
+      "explanation": "The simple future attaches endings directly onto the infinitive (dropping the final -e for -re verbs): \"je parlerai\" (I will speak), \"tu finiras\" (you will finish), \"elle vendra\" (she will sell). It's used for predictions, formal plans, and polite commands, and sounds slightly more formal/definitive than the futur proche (\"aller\" + infinitive) used constantly in casual speech.",
+      "fact": "About twenty common verbs have an irregular future stem while keeping the regular endings: \"être\" → \"ser-\", \"avoir\" → \"aur-\", \"aller\" → \"ir-\", \"faire\" → \"fer-\", \"pouvoir\" → \"pourr-\", \"vouloir\" → \"voudr-\", \"venir\" → \"viendr-\", \"voir\" → \"verr-\" — so \"je serai\", \"j'aurai\", \"j'irai\", etc.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Tu crois qu'il pleuvra demain ?",
+          "en": "Do you think it will rain tomorrow?"
+        },
+        {
+          "sp": "B",
+          "native": "Je ne sais pas, mais je prendrai un parapluie au cas où.",
+          "en": "I don't know, but I'll bring an umbrella just in case."
+        }
+      ]
+    },
+    "b1plus-conditionnel": {
+      "title": "Conditional Tense: What Would Happen",
+      "pattern": "future stem (same as futur simple) + -ais/-ais/-ait/-ions/-iez/-aient",
+      "explanation": "The conditional uses the exact same stems as the future (including the same irregulars) but swaps in the imperfect-style -ais endings: \"je parlerais\" (I would speak), \"j'aurais\" (I would have), \"je ferais\" (I would do). It expresses hypothetical actions, polite requests, and past-projected future (\"il a dit qu'il viendrait\" — he said he would come).",
+      "fact": "\"Je voudrais\" (I would like) is the single most common conditional phrase in everyday French — softer and more polite than \"je veux\" (I want), exactly like English \"I would like\" versus \"I want\": always the first phrase taught for ordering in a restaurant.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Que ferais-tu à ma place ?",
+          "en": "What would you do in my place?"
+        },
+        {
+          "sp": "B",
+          "native": "Je lui parlerais directement, ce serait le plus honnête.",
+          "en": "I would talk to them directly, it would be the most honest thing."
+        }
+      ]
+    },
+    "b1plus-passive": {
+      "title": "Passive Voice: When the Subject Receives the Action",
+      "pattern": "être + past participle (agrees in gender/number), often + par + agent",
+      "explanation": "The passive voice uses \"être\" plus a past participle that AGREES with the subject: \"La lettre a été écrite par Anne\" (The letter was written by Anne), \"Les prix seront annoncés demain\" (The prizes will be announced tomorrow). The agent, when mentioned, follows \"par\" (by). French uses the passive somewhat less than English — when there's no need to name who did the action, French often prefers the impersonal \"on\" instead: \"On parle français ici\" (French is spoken here) rather than a true passive construction.",
+      "fact": "\"On\" is everywhere in spoken French as an all-purpose way to avoid the passive or a specific subject: \"On m'a dit que...\" (I was told that...), \"Ici, on ne fume pas\" (Smoking isn't allowed here) — native speakers reach for \"on\" far more often than a formal passive construction in casual conversation.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Est-ce que les cartes de crédit sont acceptées ici ?",
+          "en": "Are credit cards accepted here?"
+        },
+        {
+          "sp": "B",
+          "native": "Je crois que oui, mais le menu a été mis à jour la semaine dernière, mieux vaut demander.",
+          "en": "I think so, but the menu was updated last week, better ask."
+        }
+      ]
+    },
+    "b1plus-discours-indirect": {
+      "title": "Indirect Speech: Reporting What Someone Said",
+      "pattern": "dire/demander que + [reported clause, tense shifted back one step]",
+      "explanation": "When you report what someone said from a past-tense perspective, the verb tense usually shifts back one step: present becomes imperfect (\"J'ai faim\" → il a dit qu'il avait faim), passé composé becomes plus-que-parfait (\"J'ai fini\" → il a dit qu'il avait fini), future becomes conditional (\"Je viendrai\" → il a dit qu'il viendrait). Yes/no questions use \"si\": \"il m'a demandé si je viendrais\" (he asked me if I would come); other questions keep their question word: \"il m'a demandé où j'habitais\" (he asked me where I lived).",
+      "fact": "If the reporting verb is in the present tense (\"il dit que...\"), no tense shift happens at all — the shift only occurs when reporting from a past-tense perspective (\"il a dit que...\"), because that's when the original statement's \"now\" has already moved into the past.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Qu'est-ce que le médecin t'a dit ?",
+          "en": "What did the doctor tell you?"
+        },
+        {
+          "sp": "B",
+          "native": "Il m'a dit de me reposer et de revenir si je n'allais pas mieux.",
+          "en": "He told me to rest and to come back if I didn't get better."
+        }
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Predictions About Tomorrow",
+      "titleNative": "Prédictions sur demain",
+      "items": [
+        {
+          "fr": "Il fera très chaud demain selon la météo.",
+          "en": "Tomorrow it will be very hot according to the forecast."
+        },
+        {
+          "fr": "L'année prochaine, nous vivrons dans une plus grande maison.",
+          "en": "Next year we will live in a bigger house."
+        },
+        {
+          "fr": "Je crois qu'elle gagnera le prix, elle est la meilleure.",
+          "en": "I think she will win the prize, she's the best."
+        },
+        {
+          "fr": "Les prix augmenteront encore le mois prochain.",
+          "en": "Prices will go up again next month."
+        }
+      ],
+      "topicId": "b1plus-futur-simple"
+    },
+    {
+      "number": 2,
+      "title": "Personal Plans and Promises",
+      "titleNative": "Projets et promesses personnels",
+      "items": [
+        {
+          "fr": "Je t'appellerai dès que j'arriverai à l'aéroport.",
+          "en": "I'll call you as soon as I arrive at the airport."
+        },
+        {
+          "fr": "Je promets que je ferai plus attention la prochaine fois.",
+          "en": "I promise I'll be more careful next time."
+        },
+        {
+          "fr": "Nous finirons le projet avant vendredi.",
+          "en": "We will finish the project before Friday."
+        },
+        {
+          "fr": "Elle dit qu'elle viendra nous rendre visite en été.",
+          "en": "She says she will come visit us in summer."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Irregular Future Stems",
+      "titleNative": "Radicaux irréguliers du futur",
+      "items": [
+        {
+          "fr": "Je ne saurai pas la réponse avant demain.",
+          "en": "I won't know the answer until tomorrow."
+        },
+        {
+          "fr": "Pourras-tu m'aider avec le déménagement samedi ?",
+          "en": "Will you be able to help me with the move on Saturday?"
+        },
+        {
+          "fr": "Nous ferons tout notre possible pour arriver à l'heure.",
+          "en": "We will do everything possible to arrive on time."
+        },
+        {
+          "fr": "Ils diront la vérité quand ils seront prêts.",
+          "en": "They will tell the truth when they are ready."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Future Consequences",
+      "titleNative": "Conséquences futures",
+      "items": [
+        {
+          "fr": "Si tu n'étudies pas, tu ne réussiras pas l'examen.",
+          "en": "If you don't study, you won't pass the exam."
+        },
+        {
+          "fr": "Si tu continues comme ça, tu auras des problèmes de santé.",
+          "en": "If you keep this up, you'll have health problems."
+        },
+        {
+          "fr": "Quand tu finiras l'université, tu trouveras un bon travail.",
+          "en": "When you finish college, you'll find a good job."
+        },
+        {
+          "fr": "Dès que nous arriverons, je te préviendrai par message.",
+          "en": "As soon as we arrive, I'll let you know by message."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Career and Future Goals",
+      "titleNative": "Carrière et objectifs futurs",
+      "items": [
+        {
+          "fr": "Un jour, j'ouvrirai ma propre entreprise.",
+          "en": "Someday I will open my own business."
+        },
+        {
+          "fr": "J'étudierai la médecine parce que je veux aider les gens.",
+          "en": "I will study medicine because I want to help people."
+        },
+        {
+          "fr": "Avec le temps, elle deviendra une grande dirigeante.",
+          "en": "With time, she will become a great leader."
+        },
+        {
+          "fr": "Nous travaillerons dur jusqu'à réaliser nos rêves.",
+          "en": "We will work hard until we achieve our dreams."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Weather and Seasons",
+      "titleNative": "Météo et saisons",
+      "items": [
+        {
+          "fr": "L'hiver sera plus froid cette année, selon les experts.",
+          "en": "Winter will be colder this year, according to experts."
+        },
+        {
+          "fr": "Au printemps, tous les arbres du parc fleuriront.",
+          "en": "In spring all the trees in the park will bloom."
+        },
+        {
+          "fr": "L'orage arrivera ce soir, disent les informations.",
+          "en": "The storm will arrive tonight, the news says."
+        },
+        {
+          "fr": "Je ne sais pas s'il neigera ce week-end.",
+          "en": "I don't know if it will snow this weekend."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Future in Relationships",
+      "titleNative": "L'avenir dans les relations",
+      "items": [
+        {
+          "fr": "Nous nous marierons l'été prochain à la plage.",
+          "en": "We will get married next summer at the beach."
+        },
+        {
+          "fr": "Un jour, nous aurons des enfants et une maison avec un jardin.",
+          "en": "Someday we will have children and a house with a garden."
+        },
+        {
+          "fr": "Nous resterons amis quoi qu'il arrive.",
+          "en": "We will keep being friends no matter what happens."
+        },
+        {
+          "fr": "Elle sera toujours dans mon cœur.",
+          "en": "She will always be in my heart."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Technology's Future",
+      "titleNative": "L'avenir de la technologie",
+      "items": [
+        {
+          "fr": "Dans le futur, les voitures se conduiront toutes seules.",
+          "en": "In the future, cars will drive themselves."
+        },
+        {
+          "fr": "L'intelligence artificielle changera de nombreux aspects de la vie.",
+          "en": "Artificial intelligence will change many aspects of life."
+        },
+        {
+          "fr": "Les robots feront beaucoup de tâches répétitives.",
+          "en": "Robots will do many of the repetitive tasks."
+        },
+        {
+          "fr": "À quoi ressemblera le monde dans cinquante ans ?",
+          "en": "What will the world be like in fifty years?"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Making Promises",
+      "titleNative": "Faire des promesses",
+      "items": [
+        {
+          "fr": "Je serai toujours là pour toi, quoi qu'il arrive.",
+          "en": "I will always be there for you, whatever happens."
+        },
+        {
+          "fr": "Nous n'oublierons jamais ce que tu as fait pour nous.",
+          "en": "We will never forget what you did for us."
+        },
+        {
+          "fr": "Elle réussira, j'en suis certain.",
+          "en": "She will succeed, I'm certain of it."
+        },
+        {
+          "fr": "Vous serez toujours les bienvenus chez nous.",
+          "en": "You will always be welcome at our place."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Review: Simple Future",
+      "titleNative": "Repaso: Futur simple",
+      "items": [
+        {
+          "fr": "Demain sera une journée importante pour nous tous.",
+          "en": "Tomorrow will be an important day for all of us."
+        },
+        {
+          "fr": "Nous ne saurons le résultat que la semaine prochaine.",
+          "en": "We won't know the result until next week."
+        },
+        {
+          "fr": "Tout ira bien si nous travaillons ensemble.",
+          "en": "Everything will turn out fine if we work together."
+        },
+        {
+          "fr": "Avec de la patience, nous réaliserons tout ce que nous entreprendrons.",
+          "en": "With patience, we will achieve everything we set out to do."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Polite Requests",
+      "titleNative": "Demandes polies",
+      "items": [
+        {
+          "fr": "Je voudrais réserver une table pour deux personnes.",
+          "en": "I would like to reserve a table for two people."
+        },
+        {
+          "fr": "Pourrais-tu m'aider à porter ces cartons ?",
+          "en": "Could you help me carry these boxes?"
+        },
+        {
+          "fr": "Cela vous dérangerait-il de fermer la fenêtre, s'il vous plaît ?",
+          "en": "Would you mind closing the window, please?"
+        },
+        {
+          "fr": "J'aimerais te poser une question, si tu as un moment.",
+          "en": "I would like to ask you a question, if you have a moment."
+        }
+      ],
+      "topicId": "b1plus-conditionnel"
+    },
+    {
+      "number": 12,
+      "title": "Hypothetical Situations",
+      "titleNative": "Situations hypothétiques",
+      "items": [
+        {
+          "fr": "Si j'avais plus d'argent, je voyagerais partout dans le monde.",
+          "en": "If I had more money, I would travel all over the world."
+        },
+        {
+          "fr": "À ta place, je parlerais directement au patron.",
+          "en": "In your place, I would talk to the boss directly."
+        },
+        {
+          "fr": "Je ne ferais jamais quelque chose comme ça sans y réfléchir d'abord.",
+          "en": "I would never do something like that without thinking it through first."
+        },
+        {
+          "fr": "Qu'achèterais-tu si tu gagnais à la loterie ?",
+          "en": "What would you buy if you won the lottery?"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "title": "Giving Advice with the Conditional",
+      "titleNative": "Donner des conseils avec le conditionnel",
+      "items": [
+        {
+          "fr": "À ta place, je me reposerais un peu plus.",
+          "en": "If I were you, I would rest a bit more."
+        },
+        {
+          "fr": "Tu devrais parler à un médecin de ça.",
+          "en": "You should talk to a doctor about that."
+        },
+        {
+          "fr": "Il vaudrait mieux attendre demain pour décider.",
+          "en": "It would be better to wait until tomorrow to decide."
+        },
+        {
+          "fr": "Il conviendrait de vérifier le contrat avant de le signer.",
+          "en": "It would be advisable to review the contract before signing it."
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "title": "Reported Speech in the Past",
+      "titleNative": "Discours rapporté au passé",
+      "items": [
+        {
+          "fr": "Il m'a dit qu'il arriverait à huit heures, mais il est arrivé en retard.",
+          "en": "He told me he would arrive at eight, but he arrived late."
+        },
+        {
+          "fr": "Elle a promis qu'elle m'appellerait après le travail.",
+          "en": "She promised she would call me after work."
+        },
+        {
+          "fr": "Je pensais que ce serait plus facile de finir le projet.",
+          "en": "I thought it would be easier to finish the project."
+        },
+        {
+          "fr": "Nous savions que la réunion durerait plusieurs heures.",
+          "en": "We knew the meeting would last several hours."
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "title": "Imagining a Different Life",
+      "titleNative": "Imaginer une vie différente",
+      "items": [
+        {
+          "fr": "Si je pouvais recommencer, j'étudierais une autre matière.",
+          "en": "If I could start over, I would study a different subject."
+        },
+        {
+          "fr": "J'aimerais vivre près de la mer un jour.",
+          "en": "I would love to live near the sea someday."
+        },
+        {
+          "fr": "Sans ton aide, je n'aurais pas fini ce projet.",
+          "en": "Without your help, I wouldn't have finished this project."
+        },
+        {
+          "fr": "Où vivrais-tu si tu pouvais choisir n'importe quel endroit ?",
+          "en": "Where would you live if you could choose any place?"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "title": "Expressing Preferences Politely",
+      "titleNative": "Exprimer des préférences avec politesse",
+      "items": [
+        {
+          "fr": "Je préférerais rester à la maison ce soir.",
+          "en": "I would prefer to stay home tonight."
+        },
+        {
+          "fr": "Nous serions ravis que tu viennes au dîner de dimanche.",
+          "en": "We would love for you to come to Sunday's dinner."
+        },
+        {
+          "fr": "Cela te dérangerait-il de changer de place avec moi ?",
+          "en": "Would you mind switching seats with me?"
+        },
+        {
+          "fr": "Ce serait un honneur de travailler avec une équipe aussi talentueuse.",
+          "en": "It would be an honor to work with such a talented team."
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "title": "Speculating About the Past",
+      "titleNative": "Spéculer sur le passé",
+      "items": [
+        {
+          "fr": "Quelle heure serait-il quand tu es arrivé hier soir ?",
+          "en": "What time was it, do you think, when you arrived last night?"
+        },
+        {
+          "fr": "Il aurait environ vingt ans quand cette photo a été prise.",
+          "en": "He was probably about twenty when that photo was taken."
+        },
+        {
+          "fr": "Je ne sais pas pourquoi elle n'a pas répondu, elle dormirait peut-être.",
+          "en": "I don't know why she didn't answer, she was probably asleep."
+        },
+        {
+          "fr": "Il serait environ trois heures quand nous sommes enfin rentrés.",
+          "en": "It was probably three when we finally got home."
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "title": "Making Suggestions",
+      "titleNative": "Faire des suggestions",
+      "items": [
+        {
+          "fr": "Nous pourrions aller au cinéma ce week-end.",
+          "en": "We could go to the movies this weekend."
+        },
+        {
+          "fr": "Et si nous essayions quelque chose de différent cette fois ?",
+          "en": "What if we tried something different this time?"
+        },
+        {
+          "fr": "Ce serait amusant d'organiser une fête surprise.",
+          "en": "It would be fun to organize a surprise party."
+        },
+        {
+          "fr": "Peut-être devrions-nous reporter la réunion.",
+          "en": "Maybe we should postpone the meeting."
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "title": "Wishes and Regrets",
+      "titleNative": "Souhaits et regrets",
+      "items": [
+        {
+          "fr": "J'aurais aimé le rencontrer avant qu'il ne parte.",
+          "en": "I would have liked to meet him before he left."
+        },
+        {
+          "fr": "Il aurait été plus facile de demander de l'aide dès le début.",
+          "en": "It would have been easier to ask for help from the start."
+        },
+        {
+          "fr": "Si seulement je pouvais changer ce qui s'est passé ce jour-là.",
+          "en": "I wish I could change what happened that day."
+        },
+        {
+          "fr": "Avec plus de temps, nous aurions fait un meilleur travail.",
+          "en": "With more time, we would have done a better job."
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "title": "Review: Conditional Tense",
+      "titleNative": "Repaso: Conditionnel",
+      "items": [
+        {
+          "fr": "J'aimerais te remercier pour toute ton aide.",
+          "en": "I would like to thank you for all your help."
+        },
+        {
+          "fr": "Dans cette situation, n'importe qui aurait réagi de la même façon.",
+          "en": "In that situation, anyone would have reacted the same way."
+        },
+        {
+          "fr": "Que ferais-tu si tu avais l'occasion de voyager gratuitement ?",
+          "en": "What would you do if you had the chance to travel for free?"
+        },
+        {
+          "fr": "Ce serait génial si nous pouvions nous voir la semaine prochaine.",
+          "en": "It would be great if we could see each other next week."
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "title": "Formal Passive with Être",
+      "titleNative": "Voix passive formelle avec être",
+      "items": [
+        {
+          "fr": "Le pont a été construit il y a plus de cent ans.",
+          "en": "The bridge was built more than a hundred years ago."
+        },
+        {
+          "fr": "Le roman a été traduit dans plusieurs langues.",
+          "en": "The novel was translated into several languages."
+        },
+        {
+          "fr": "Les résultats seront annoncés la semaine prochaine.",
+          "en": "The results will be announced next week."
+        },
+        {
+          "fr": "Le bâtiment a été conçu par un architecte célèbre.",
+          "en": "The building was designed by a famous architect."
+        }
+      ],
+      "topicId": "b1plus-passive"
+    },
+    {
+      "number": 22,
+      "title": "On for Everyday Statements",
+      "titleNative": "On pour les affirmations courantes",
+      "items": [
+        {
+          "fr": "Ici, on vend des maisons et des appartements.",
+          "en": "Houses and apartments are sold here."
+        },
+        {
+          "fr": "On interdit de fumer à l'intérieur du bâtiment.",
+          "en": "Smoking is prohibited inside the building."
+        },
+        {
+          "fr": "Ici, on parle anglais et français.",
+          "en": "English and French are spoken here."
+        },
+        {
+          "fr": "On demande de l'expérience pour ce poste.",
+          "en": "Experience is needed for this position."
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "title": "News and Reports",
+      "titleNative": "Actualités et rapports",
+      "items": [
+        {
+          "fr": "L'accord a été signé par les deux pays hier.",
+          "en": "The agreement was signed by both countries yesterday."
+        },
+        {
+          "fr": "Des milliers d'arbres ont été plantés dans la réserve.",
+          "en": "Thousands of trees were planted in the reserve."
+        },
+        {
+          "fr": "Le suspect a été arrêté tôt ce matin.",
+          "en": "The suspect was arrested early this morning."
+        },
+        {
+          "fr": "La loi sera révisée par le parlement ce mois-ci.",
+          "en": "The law will be reviewed by parliament this month."
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "title": "Historical Events",
+      "titleNative": "Événements historiques",
+      "items": [
+        {
+          "fr": "La ville a été fondée au seizième siècle.",
+          "en": "The city was founded in the sixteenth century."
+        },
+        {
+          "fr": "Le monument a été construit en l'honneur des héros.",
+          "en": "The monument was built to honor the heroes."
+        },
+        {
+          "fr": "Cette tradition a été transmise de génération en génération.",
+          "en": "That tradition was passed down from generation to generation."
+        },
+        {
+          "fr": "Le traité a été négocié pendant plusieurs années.",
+          "en": "The treaty was negotiated over several years."
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "title": "Processes and Production",
+      "titleNative": "Procédés et production",
+      "items": [
+        {
+          "fr": "Le vin est produit dans cette région depuis des siècles.",
+          "en": "Wine has been produced in this region for centuries."
+        },
+        {
+          "fr": "On fabrique les produits avec des matériaux recyclés.",
+          "en": "The products are made with recycled materials."
+        },
+        {
+          "fr": "Le café est cultivé dans les montagnes du pays.",
+          "en": "Coffee is grown in the country's mountains."
+        },
+        {
+          "fr": "Cette recette se prépare avec des ingrédients frais.",
+          "en": "This recipe is made with fresh ingredients."
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "title": "Anonymous Actions with On",
+      "titleNative": "Actions anonymes avec on",
+      "items": [
+        {
+          "fr": "On a cassé une fenêtre pendant la tempête.",
+          "en": "A window was broken during the storm."
+        },
+        {
+          "fr": "On a perdu ma valise à l'aéroport.",
+          "en": "My suitcase was lost at the airport."
+        },
+        {
+          "fr": "On a trouvé plusieurs objets anciens pendant les fouilles.",
+          "en": "Several ancient objects were found in the excavation."
+        },
+        {
+          "fr": "On a résolu le problème sans trop de difficulté.",
+          "en": "The problem was solved without much difficulty."
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "title": "Passive with Future and Conditional",
+      "titleNative": "Passif avec futur et conditionnel",
+      "items": [
+        {
+          "fr": "La décision sera prise par le conseil d'administration.",
+          "en": "The decision will be made by the board of directors."
+        },
+        {
+          "fr": "Ce projet serait financé par des fonds publics.",
+          "en": "This project would be funded with public funds."
+        },
+        {
+          "fr": "Les nouveaux employés seront formés la semaine prochaine.",
+          "en": "The new employees will be trained next week."
+        },
+        {
+          "fr": "Le pont serait réparé s'il y avait assez de budget.",
+          "en": "The bridge would be repaired if there were enough budget."
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "title": "Passive Voice in Instructions",
+      "titleNative": "Voix passive dans les instructions",
+      "items": [
+        {
+          "fr": "Le document doit être signé avant d'être remis.",
+          "en": "The document must be signed before being submitted."
+        },
+        {
+          "fr": "L'entrée n'est pas permise après vingt et une heures.",
+          "en": "Entry is not allowed after nine."
+        },
+        {
+          "fr": "Il est recommandé d'arriver à l'avance.",
+          "en": "It is recommended to arrive early."
+        },
+        {
+          "fr": "Une pièce d'identité valide est exigée pour entrer.",
+          "en": "A valid ID is required to enter."
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "title": "Comparing Active and Passive",
+      "titleNative": "Comparer voix active et passive",
+      "items": [
+        {
+          "fr": "Un chef célèbre a préparé ce dîner, et le dîner a été préparé avec grand soin.",
+          "en": "A famous chef prepared this dinner, and the dinner was prepared with great care."
+        },
+        {
+          "fr": "L'entreprise a annoncé le changement, alors le changement a été annoncé à tous.",
+          "en": "The company announced the change, so the change was announced to everyone."
+        },
+        {
+          "fr": "Le gouvernement a approuvé la loi, et la loi a été approuvée à l'unanimité.",
+          "en": "The government approved the law, and the law was approved unanimously."
+        },
+        {
+          "fr": "Ma grand-mère a écrit ces lettres, qui ont été gardées pendant des années.",
+          "en": "My grandmother wrote these letters, which were kept for years."
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "title": "Review: Passive Voice",
+      "titleNative": "Repaso: Voix passive",
+      "items": [
+        {
+          "fr": "Ce musée a été inauguré il y a vingt ans.",
+          "en": "This museum was inaugurated twenty years ago."
+        },
+        {
+          "fr": "On parle plus de quatre cents langues dans le monde.",
+          "en": "More than four hundred languages are spoken in the world."
+        },
+        {
+          "fr": "Les données seront analysées par une équipe d'experts.",
+          "en": "The data will be analyzed by a team of experts."
+        },
+        {
+          "fr": "On a besoin de plus de bénévoles pour ce projet.",
+          "en": "More volunteers are needed for this project."
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "title": "Reporting Statements",
+      "titleNative": "Rapporter des déclarations",
+      "items": [
+        {
+          "fr": "Elle a dit qu'elle était très fatiguée après le voyage.",
+          "en": "She said she was very tired after the trip."
+        },
+        {
+          "fr": "Mon patron m'a dit que le projet avait été un succès.",
+          "en": "My boss told me the project had been a success."
+        },
+        {
+          "fr": "Il m'a raconté qu'il déménagerait dans une autre ville en été.",
+          "en": "He told me he would move to another city in summer."
+        },
+        {
+          "fr": "On nous a prévenus que la réunion changerait d'horaire.",
+          "en": "They let us know the meeting time would change."
+        }
+      ],
+      "topicId": "b1plus-discours-indirect"
+    },
+    {
+      "number": 32,
+      "title": "Reporting Questions",
+      "titleNative": "Rapporter des questions",
+      "items": [
+        {
+          "fr": "Elle m'a demandé si je voulais aller au cinéma avec elle.",
+          "en": "She asked me if I wanted to go to the movies with her."
+        },
+        {
+          "fr": "Je lui ai demandé où elle avait acheté ces chaussures.",
+          "en": "I asked her where she had bought those shoes."
+        },
+        {
+          "fr": "Il voulait savoir pourquoi nous n'étions pas arrivés à l'heure.",
+          "en": "He wanted to know why we hadn't arrived on time."
+        },
+        {
+          "fr": "On m'a demandé depuis combien de temps j'habitais ici.",
+          "en": "They asked me how long I had been living here."
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "title": "Reporting Commands and Requests",
+      "titleNative": "Rapporter des ordres et demandes",
+      "items": [
+        {
+          "fr": "Le professeur nous a dit d'étudier pour l'examen.",
+          "en": "The teacher told us to study for the exam."
+        },
+        {
+          "fr": "Il m'a demandé de lui envoyer le document au plus vite.",
+          "en": "He asked me to send him the document as soon as possible."
+        },
+        {
+          "fr": "On nous a ordonné de sortir du bâtiment immédiatement.",
+          "en": "They ordered us to leave the building immediately."
+        },
+        {
+          "fr": "Je l'ai supplié de me pardonner pour le malentendu.",
+          "en": "I begged him to forgive me for the misunderstanding."
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "title": "Tense Shifts in Practice",
+      "titleNative": "Changements de temps en pratique",
+      "items": [
+        {
+          "fr": "Il a dit qu'il avait faim, alors je lui ai préparé quelque chose à manger.",
+          "en": "He said he was hungry, so I made him something to eat."
+        },
+        {
+          "fr": "Elle a expliqué qu'elle avait perdu son passeport à l'hôtel.",
+          "en": "She explained she had lost her passport at the hotel."
+        },
+        {
+          "fr": "Il a promis qu'il arriverait avant neuf heures.",
+          "en": "He promised he would arrive before nine."
+        },
+        {
+          "fr": "Elle a assuré que tout serait prêt pour lundi.",
+          "en": "She assured us that everything would be ready by Monday."
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "title": "Reporting Opinions",
+      "titleNative": "Rapporter des opinions",
+      "items": [
+        {
+          "fr": "Ma sœur pense que nous devrions vendre la maison.",
+          "en": "My sister thinks we should sell the house."
+        },
+        {
+          "fr": "L'expert a affirmé que l'économie s'améliorerait bientôt.",
+          "en": "The expert stated that the economy would improve soon."
+        },
+        {
+          "fr": "Tout le monde a été d'accord pour dire que la proposition était raisonnable.",
+          "en": "Everyone agreed that the proposal was reasonable."
+        },
+        {
+          "fr": "Elle a insisté sur le fait qu'elle n'avait rien fait de mal.",
+          "en": "She insisted she hadn't done anything wrong."
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "title": "Conversations Retold",
+      "titleNative": "Conversations racontées",
+      "items": [
+        {
+          "fr": "Elle m'a raconté qu'elle s'était disputée avec son frère à cause de l'argent.",
+          "en": "She told me she had argued with her brother about money."
+        },
+        {
+          "fr": "Je lui ai expliqué que je ne pouvais pas assister au mariage ce jour-là.",
+          "en": "I explained to him that I couldn't attend the wedding that day."
+        },
+        {
+          "fr": "Il nous a signalé que le vol avait été retardé de plusieurs heures.",
+          "en": "He mentioned to us that the flight had been delayed several hours."
+        },
+        {
+          "fr": "Elle m'a avoué qu'elle avait toujours voulu être chanteuse.",
+          "en": "She confessed to me that she had always wanted to be a singer."
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "title": "Work Communication",
+      "titleNative": "Communication au travail",
+      "items": [
+        {
+          "fr": "Le directeur a annoncé qu'il y aurait des changements dans l'équipe.",
+          "en": "The manager announced there would be changes in the team."
+        },
+        {
+          "fr": "On nous a informés que le projet serait retardé d'un mois.",
+          "en": "We were informed the project would be delayed a month."
+        },
+        {
+          "fr": "Le client a dit qu'il était satisfait du service.",
+          "en": "The client commented that he was satisfied with the service."
+        },
+        {
+          "fr": "Mon collègue m'a prévenu que la réunion serait longue.",
+          "en": "My colleague warned me the meeting would be long."
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "title": "Family Conversations",
+      "titleNative": "Conversations en famille",
+      "items": [
+        {
+          "fr": "Ma mère m'a dit de venir la voir plus souvent.",
+          "en": "My mother told me to visit her more often."
+        },
+        {
+          "fr": "Mon fils m'a raconté qu'il s'était fait un nouvel ami à l'école.",
+          "en": "My son told me he had made a new friend at school."
+        },
+        {
+          "fr": "Mes parents ont décidé qu'il était temps de vendre la maison.",
+          "en": "My parents decided it was time to sell the house."
+        },
+        {
+          "fr": "Ma grand-mère disait toujours que la famille était ce qu'il y avait de plus important.",
+          "en": "My grandmother always said that family was the most important thing."
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "title": "Reporting News",
+      "titleNative": "Rapporter des nouvelles",
+      "items": [
+        {
+          "fr": "Les informations ont annoncé qu'il y aurait une nouvelle loi.",
+          "en": "The news announced there would be a new law."
+        },
+        {
+          "fr": "Le journal a rapporté que le prix du carburant allait augmenter.",
+          "en": "The newspaper reported that fuel prices would rise."
+        },
+        {
+          "fr": "On a annoncé que l'événement serait annulé à cause du mauvais temps.",
+          "en": "They announced the event would be canceled due to bad weather."
+        },
+        {
+          "fr": "Ils ont confirmé que l'équipe locale gagnerait le championnat.",
+          "en": "They confirmed the local team would win the championship."
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "title": "Review: Indirect Speech",
+      "titleNative": "Repaso: Discours indirect",
+      "items": [
+        {
+          "fr": "Il m'a dit qu'il viendrait, mais finalement il n'a pas pu.",
+          "en": "He told me he would come, but in the end he couldn't."
+        },
+        {
+          "fr": "Je lui ai demandé ce qui s'était passé et elle ne savait pas quoi dire.",
+          "en": "I asked her what had happened and she didn't know what to say."
+        },
+        {
+          "fr": "On nous a demandé d'attendre encore quelques minutes.",
+          "en": "They asked us to wait a few more minutes."
+        },
+        {
+          "fr": "Ils ont expliqué que le retard était dû au mauvais temps.",
+          "en": "They explained that the delay was due to bad weather."
+        }
+      ]
+    },
+    {
+      "number": 41,
+      "title": "Negotiating a Deal",
+      "titleNative": "Négocier un accord",
+      "items": [
+        {
+          "fr": "Les deux entreprises ont négocié pendant des mois avant de conclure un accord.",
+          "en": "The two companies negotiated for months before reaching an agreement."
+        },
+        {
+          "fr": "Nous avons proposé des conditions plus flexibles pour conclure le contrat.",
+          "en": "We proposed more flexible terms to close the deal."
+        },
+        {
+          "fr": "Le contrat inclut une clause sur les délais de livraison.",
+          "en": "The contract includes a clause about delivery deadlines."
+        },
+        {
+          "fr": "Les deux parties étaient satisfaites des termes finaux.",
+          "en": "Both parties were satisfied with the final terms."
+        }
+      ]
+    },
+    {
+      "number": 42,
+      "title": "Meetings and Presentations",
+      "titleNative": "Réunions et présentations",
+      "items": [
+        {
+          "fr": "J'ai préparé une présentation avec les données les plus récentes.",
+          "en": "I prepared a presentation with the most recent data."
+        },
+        {
+          "fr": "Le directeur a résumé les objectifs du prochain trimestre.",
+          "en": "The director summarized next quarter's goals."
+        },
+        {
+          "fr": "Plusieurs employés ont posé des questions sur le nouveau plan.",
+          "en": "Several employees asked questions about the new plan."
+        },
+        {
+          "fr": "La réunion a duré plus longtemps que prévu.",
+          "en": "The meeting ran longer than expected."
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "title": "Finance and Budgets",
+      "titleNative": "Finances et budgets",
+      "items": [
+        {
+          "fr": "Nous devons ajuster le budget pour l'année prochaine.",
+          "en": "We need to adjust the budget for next year."
+        },
+        {
+          "fr": "Les dépenses ont dépassé ce que nous avions calculé.",
+          "en": "Expenses exceeded what we had calculated."
+        },
+        {
+          "fr": "L'entreprise a investi une grande somme dans la recherche.",
+          "en": "The company invested a large amount in research."
+        },
+        {
+          "fr": "Les bénéfices ont augmenté grâce à la nouvelle stratégie.",
+          "en": "Profits increased thanks to the new strategy."
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "title": "Leadership and Management",
+      "titleNative": "Leadership et gestion",
+      "items": [
+        {
+          "fr": "Un bon dirigeant écoute les idées de toute l'équipe.",
+          "en": "A good leader listens to the whole team's ideas."
+        },
+        {
+          "fr": "La directrice a délégué plusieurs tâches pour respecter le délai.",
+          "en": "The manager delegated several tasks to meet the deadline."
+        },
+        {
+          "fr": "Il est important de reconnaître les efforts des employés.",
+          "en": "It's important to recognize employees' effort."
+        },
+        {
+          "fr": "Sa capacité de leadership a aidé l'entreprise à grandir.",
+          "en": "Her leadership ability helped the company grow."
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "title": "Job Applications and Careers",
+      "titleNative": "Candidatures et carrières",
+      "items": [
+        {
+          "fr": "J'ai envoyé mon CV à plusieurs entreprises du secteur.",
+          "en": "I sent my résumé to several companies in the sector."
+        },
+        {
+          "fr": "L'entretien s'est mieux passé que je ne l'espérais.",
+          "en": "The interview went better than I expected."
+        },
+        {
+          "fr": "Après des années d'efforts, elle a obtenu la promotion qu'elle voulait.",
+          "en": "After years of effort, she achieved the promotion she wanted."
+        },
+        {
+          "fr": "Changer de carrière à quarante ans demande beaucoup de courage.",
+          "en": "Changing careers at forty requires a lot of courage."
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "title": "Conflicts at Work",
+      "titleNative": "Conflits au travail",
+      "items": [
+        {
+          "fr": "Il y a eu un malentendu entre deux membres de l'équipe.",
+          "en": "There was a misunderstanding between two team members."
+        },
+        {
+          "fr": "Nous avons résolu le conflit en parlant calmement.",
+          "en": "We resolved the conflict by talking calmly."
+        },
+        {
+          "fr": "Le patron a fait office de médiateur entre les employés.",
+          "en": "The boss mediated between the employees to reach a solution."
+        },
+        {
+          "fr": "Il est normal d'avoir des désaccords, l'important c'est comment on les gère.",
+          "en": "It's normal to have disagreements, what matters is how they're handled."
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "title": "Entrepreneurship",
+      "titleNative": "Entrepreneuriat",
+      "items": [
+        {
+          "fr": "Elle a décidé de quitter son travail pour fonder sa propre entreprise.",
+          "en": "She decided to quit her job to found her own company."
+        },
+        {
+          "fr": "Les premiers mois d'une entreprise sont souvent les plus difficiles.",
+          "en": "The first months of a business tend to be the hardest."
+        },
+        {
+          "fr": "Il a trouvé des investisseurs grâce à une idée innovante.",
+          "en": "He got investors thanks to an innovative idea."
+        },
+        {
+          "fr": "L'entrepreneuriat demande de la patience et beaucoup de discipline.",
+          "en": "Entrepreneurship requires patience and a lot of discipline."
+        }
+      ]
+    },
+    {
+      "number": 48,
+      "title": "Remote and Global Teams",
+      "titleNative": "Équipes à distance et internationales",
+      "items": [
+        {
+          "fr": "Notre équipe travaille avec des collègues de cinq pays différents.",
+          "en": "Our team works with colleagues from five different countries."
+        },
+        {
+          "fr": "Le décalage horaire complique parfois la communication.",
+          "en": "The time difference sometimes makes communication difficult."
+        },
+        {
+          "fr": "Nous organisons des réunions virtuelles pour coordonner le travail.",
+          "en": "We organize virtual meetings to coordinate the work."
+        },
+        {
+          "fr": "Travailler avec des gens d'autres cultures enrichit l'entreprise.",
+          "en": "Working with people from other cultures enriches the company."
+        }
+      ]
+    },
+    {
+      "number": 49,
+      "title": "Career Change and Growth",
+      "titleNative": "Changement et évolution de carrière",
+      "items": [
+        {
+          "fr": "Il a décidé de reprendre ses études pour changer complètement de métier.",
+          "en": "He decided to study again to completely change professions."
+        },
+        {
+          "fr": "L'évolution professionnelle demande d'apprendre constamment.",
+          "en": "Professional growth requires constant learning."
+        },
+        {
+          "fr": "Elle a accepté un poste moins bien payé mais avec plus d'opportunités.",
+          "en": "She accepted a position with less salary but more opportunities."
+        },
+        {
+          "fr": "Il n'est jamais trop tard pour poursuivre une nouvelle passion.",
+          "en": "It's never too late to pursue a new passion."
+        }
+      ]
+    },
+    {
+      "number": 50,
+      "title": "Review: Business and Work",
+      "titleNative": "Repaso: Affaires et travail",
+      "items": [
+        {
+          "fr": "Le succès de l'entreprise dépend du travail de toute l'équipe.",
+          "en": "The company's success depends on the whole team's work."
+        },
+        {
+          "fr": "Nous avons beaucoup appris des erreurs commises au début.",
+          "en": "We learned a lot from the mistakes we made at the beginning."
+        },
+        {
+          "fr": "J'espère que ce projet ouvrira de nouvelles opportunités pour tous.",
+          "en": "I hope this project opens new opportunities for everyone."
+        },
+        {
+          "fr": "Avec de l'effort et de la patience, tout objectif professionnel est possible.",
+          "en": "With effort and patience, any professional goal is possible."
+        }
+      ]
+    },
+    {
+      "number": 51,
+      "title": "Mental Health",
+      "titleNative": "Santé mentale",
+      "items": [
+        {
+          "fr": "De plus en plus de gens parlent ouvertement de leur santé mentale.",
+          "en": "More and more people talk openly about mental health."
+        },
+        {
+          "fr": "Il est important de demander de l'aide quand on se sent dépassé.",
+          "en": "It's important to ask for help when you feel overwhelmed."
+        },
+        {
+          "fr": "La thérapie l'a aidé à mieux gérer son anxiété.",
+          "en": "Therapy helped him manage his anxiety better."
+        },
+        {
+          "fr": "Bien dormir et faire du sport améliore beaucoup l'humeur.",
+          "en": "Sleeping well and exercising greatly improves your mood."
+        }
+      ]
+    },
+    {
+      "number": 52,
+      "title": "Stress and Relaxation",
+      "titleNative": "Stress et détente",
+      "items": [
+        {
+          "fr": "Le travail m'a causé beaucoup de stress ces derniers temps.",
+          "en": "Work has caused me a lot of stress lately."
+        },
+        {
+          "fr": "Je pratique le yoga pour me détendre après une journée difficile.",
+          "en": "I practice yoga to relax after a difficult day."
+        },
+        {
+          "fr": "Il faut que nous apprenions à décrocher du travail.",
+          "en": "It's necessary that we learn to disconnect from work."
+        },
+        {
+          "fr": "Aller marcher m'aide à me vider la tête.",
+          "en": "Going for a walk helps me clear my mind."
+        }
+      ]
+    },
+    {
+      "number": 53,
+      "title": "Describing Emotions in Depth",
+      "titleNative": "Décrire les émotions en profondeur",
+      "items": [
+        {
+          "fr": "J'ai ressenti un mélange de joie et de nostalgie en rentrant chez moi.",
+          "en": "I felt a mix of joy and nostalgia coming back home."
+        },
+        {
+          "fr": "La nouvelle l'a laissée complètement surprise.",
+          "en": "The news left her completely surprised."
+        },
+        {
+          "fr": "Il était tellement excité qu'il n'a pas pu dormir la nuit précédente.",
+          "en": "He was so excited he couldn't sleep the night before."
+        },
+        {
+          "fr": "J'ai ressenti un grand soulagement en apprenant que tout allait bien.",
+          "en": "I felt great relief when I learned everything was fine."
+        }
+      ]
+    },
+    {
+      "number": 54,
+      "title": "Illness and Recovery",
+      "titleNative": "Maladie et rétablissement",
+      "items": [
+        {
+          "fr": "Il a été hospitalisé plusieurs jours après l'opération.",
+          "en": "He was hospitalized for several days after the surgery."
+        },
+        {
+          "fr": "Le rétablissement a été lent mais il a fini par aller complètement mieux.",
+          "en": "The recovery was slow but he eventually fully improved."
+        },
+        {
+          "fr": "Le médecin lui a prescrit un traitement de plusieurs semaines.",
+          "en": "The doctor prescribed him a treatment lasting several weeks."
+        },
+        {
+          "fr": "Il est important de suivre les indications médicales à la lettre.",
+          "en": "It's important to follow medical instructions exactly."
+        }
+      ]
+    },
+    {
+      "number": 55,
+      "title": "Healthy Habits",
+      "titleNative": "Habitudes saines",
+      "items": [
+        {
+          "fr": "J'essaie de manger plus de légumes et moins de plats préparés.",
+          "en": "I try to eat more vegetables and less processed food."
+        },
+        {
+          "fr": "Je marche jusqu'au travail au lieu de prendre le bus.",
+          "en": "I walk to work instead of taking the bus."
+        },
+        {
+          "fr": "Arrêter de fumer a été l'une des meilleures décisions de ma vie.",
+          "en": "Quitting smoking was one of the best decisions of my life."
+        },
+        {
+          "fr": "J'essaie de dormir au moins sept heures chaque nuit.",
+          "en": "I try to sleep at least seven hours every night."
+        }
+      ]
+    },
+    {
+      "number": 56,
+      "title": "Grief and Loss",
+      "titleNative": "Deuil et perte",
+      "items": [
+        {
+          "fr": "Perdre un être cher est l'une des expériences les plus difficiles.",
+          "en": "Losing a loved one is one of the most difficult experiences."
+        },
+        {
+          "fr": "Chaque personne vit le deuil d'une manière différente.",
+          "en": "Every person experiences grief in a different way."
+        },
+        {
+          "fr": "Avec le temps, la douleur devient plus facile à supporter.",
+          "en": "With time, the pain becomes easier to bear."
+        },
+        {
+          "fr": "Parler avec d'autres personnes qui ont vécu la même chose peut beaucoup aider.",
+          "en": "Talking with others who have gone through the same thing can help a lot."
+        }
+      ]
+    },
+    {
+      "number": 57,
+      "title": "Building Confidence",
+      "titleNative": "Renforcer la confiance en soi",
+      "items": [
+        {
+          "fr": "Surmonter cette peur lui a donné beaucoup plus confiance en elle.",
+          "en": "Overcoming that fear gave her much more confidence in herself."
+        },
+        {
+          "fr": "Apprendre quelque chose de nouveau améliore toujours l'estime de soi.",
+          "en": "Learning something new always improves self-esteem."
+        },
+        {
+          "fr": "Il a arrêté de se comparer aux autres et s'est senti plus calme.",
+          "en": "He stopped comparing himself to others and felt calmer."
+        },
+        {
+          "fr": "Célébrer les petites réussites aide à garder la motivation.",
+          "en": "Celebrating small achievements helps maintain motivation."
+        }
+      ]
+    },
+    {
+      "number": 58,
+      "title": "Empathy and Support",
+      "titleNative": "Empathie et soutien",
+      "items": [
+        {
+          "fr": "Écouter sans juger est l'une des plus grandes formes de soutien.",
+          "en": "Listening without judging is one of the greatest forms of support."
+        },
+        {
+          "fr": "J'essaie de me mettre à la place de l'autre personne.",
+          "en": "I try to put myself in the other person's shoes."
+        },
+        {
+          "fr": "Ses amis l'ont soutenue tout au long du processus.",
+          "en": "Her friends supported her throughout the whole process."
+        },
+        {
+          "fr": "Parfois, nous avons juste besoin que quelqu'un nous écoute.",
+          "en": "Sometimes we just need someone to listen to us."
+        }
+      ]
+    },
+    {
+      "number": 59,
+      "title": "Balance and Well-being",
+      "titleNative": "Équilibre et bien-être",
+      "items": [
+        {
+          "fr": "Trouver un équilibre entre le travail et la vie personnelle n'est pas facile.",
+          "en": "Finding a balance between work and personal life isn't easy."
+        },
+        {
+          "fr": "Je consacre chaque jour du temps à quelque chose que j'aime vraiment.",
+          "en": "I dedicate time each day to something I truly enjoy."
+        },
+        {
+          "fr": "Le bien-être ne signifie pas l'absence de problèmes, mais savoir les gérer.",
+          "en": "Well-being doesn't mean the absence of problems, but knowing how to handle them."
+        },
+        {
+          "fr": "J'ai appris à dire non quand quelque chose ne me fait pas de bien.",
+          "en": "I learned to say no when something isn't good for me."
+        }
+      ]
+    },
+    {
+      "number": 60,
+      "title": "Review: Health and Emotions",
+      "titleNative": "Repaso: Santé et émotions",
+      "items": [
+        {
+          "fr": "Prendre soin de sa santé mentale est aussi important que de prendre soin de son corps.",
+          "en": "Taking care of mental health is as important as taking care of the body."
+        },
+        {
+          "fr": "J'espère que tu apprendras à t'écouter davantage.",
+          "en": "I hope you learn to listen to yourself more often."
+        },
+        {
+          "fr": "Avec de la patience et du soutien, chacun peut surmonter les moments difficiles.",
+          "en": "With patience and support, anyone can overcome difficult moments."
+        },
+        {
+          "fr": "La vraie force réside dans le fait de demander de l'aide quand on en a besoin.",
+          "en": "True strength lies in asking for help when it's needed."
+        }
+      ]
+    },
+    {
+      "number": 61,
+      "title": "Friendship Through the Years",
+      "titleNative": "L'amitié à travers les années",
+      "items": [
+        {
+          "fr": "Nous sommes amis depuis l'école primaire.",
+          "en": "We've been friends since elementary school."
+        },
+        {
+          "fr": "Malgré la distance, nous restons aussi proches qu'avant.",
+          "en": "Despite the distance, we're still as close as ever."
+        },
+        {
+          "fr": "Une véritable amitié se voit dans les moments difficiles.",
+          "en": "True friendship shows in difficult moments."
+        },
+        {
+          "fr": "Nous nous sommes retrouvés après dix ans comme si rien n'avait changé.",
+          "en": "We reunited after ten years as if nothing had changed."
+        }
+      ]
+    },
+    {
+      "number": 62,
+      "title": "Romantic Relationships",
+      "titleNative": "Relations amoureuses",
+      "items": [
+        {
+          "fr": "Ils sont ensemble depuis plus de quinze ans et sont toujours amoureux.",
+          "en": "They've been together for more than fifteen years and are still in love."
+        },
+        {
+          "fr": "La communication est essentielle pour qu'une relation fonctionne.",
+          "en": "Communication is key for a relationship to work."
+        },
+        {
+          "fr": "Après la rupture, il lui a fallu du temps pour se sentir bien à nouveau.",
+          "en": "After the breakup, it took time for her to feel good again."
+        },
+        {
+          "fr": "Ils se sont rencontrés par hasard à une fête d'amis communs.",
+          "en": "They met by chance at a party of mutual friends."
+        }
+      ]
+    },
+    {
+      "number": 63,
+      "title": "Parenting",
+      "titleNative": "L'éducation des enfants",
+      "items": [
+        {
+          "fr": "Devenir père a complètement changé sa vision de la vie.",
+          "en": "Becoming a father completely changed the way he sees life."
+        },
+        {
+          "fr": "Il est important d'écouter ses enfants sans les interrompre.",
+          "en": "It's important to listen to your children without interrupting them."
+        },
+        {
+          "fr": "Chaque enfant se développe à son propre rythme.",
+          "en": "Every child develops at their own pace."
+        },
+        {
+          "fr": "Fixer des limites claires aide les enfants à se sentir en sécurité.",
+          "en": "Setting clear limits helps children feel secure."
+        }
+      ]
+    },
+    {
+      "number": 64,
+      "title": "Generational Differences",
+      "titleNative": "Différences générationnelles",
+      "items": [
+        {
+          "fr": "Mes grands-parents avaient des valeurs très différentes des miennes.",
+          "en": "My grandparents had very different values from mine."
+        },
+        {
+          "fr": "Chaque génération fait face à ses propres défis particuliers.",
+          "en": "Each generation faces its own particular challenges."
+        },
+        {
+          "fr": "Il est intéressant de voir comment la technologie a changé la communication familiale.",
+          "en": "It's interesting to see how technology has changed family communication."
+        },
+        {
+          "fr": "Malgré les différences, nous apprenons beaucoup des générations précédentes.",
+          "en": "Despite the differences, we learn a lot from previous generations."
+        }
+      ]
+    },
+    {
+      "number": 65,
+      "title": "Equality and Fairness",
+      "titleNative": "Égalité et justice",
+      "items": [
+        {
+          "fr": "Nous méritons tous les mêmes chances, peu importe d'où nous venons.",
+          "en": "We all deserve the same opportunities no matter where we come from."
+        },
+        {
+          "fr": "L'entreprise promeut l'égalité salariale entre hommes et femmes.",
+          "en": "The company promotes equal pay between men and women."
+        },
+        {
+          "fr": "Il est essentiel que tout le monde ait accès à une bonne éducation.",
+          "en": "It's essential that everyone have access to a good education."
+        },
+        {
+          "fr": "De nombreuses organisations luttent contre la discrimination au travail.",
+          "en": "Many organizations fight against discrimination at work."
+        }
+      ]
+    },
+    {
+      "number": 66,
+      "title": "Immigration and Belonging",
+      "titleNative": "Immigration et appartenance",
+      "items": [
+        {
+          "fr": "Il est arrivé dans ce pays il y a vingt ans sans connaître la langue.",
+          "en": "He arrived in this country twenty years ago without knowing the language."
+        },
+        {
+          "fr": "Au début c'était difficile, mais peu à peu elle a trouvé sa place.",
+          "en": "At first it was difficult, but little by little she found her place."
+        },
+        {
+          "fr": "De nombreux immigrés contribuent énormément à l'économie locale.",
+          "en": "Many immigrants contribute enormously to the local economy."
+        },
+        {
+          "fr": "Son pays d'origine lui manque, mais il aime aussi sa nouvelle vie ici.",
+          "en": "He misses his home country, but he also loves his new life here."
+        }
+      ]
+    },
+    {
+      "number": 67,
+      "title": "Community and Neighbors",
+      "titleNative": "Communauté et voisins",
+      "items": [
+        {
+          "fr": "Nos voisins sont toujours prêts à aider.",
+          "en": "Our neighbors are always willing to help."
+        },
+        {
+          "fr": "La communauté s'est organisée pour soutenir les familles touchées.",
+          "en": "The community organized to support the affected families."
+        },
+        {
+          "fr": "Un sentiment de communauté fait qu'un quartier ressemble à un foyer.",
+          "en": "A sense of community makes a neighborhood feel like home."
+        },
+        {
+          "fr": "Nous partageons souvent des outils et des recettes avec les voisins.",
+          "en": "We frequently share tools and recipes with the neighbors."
+        }
+      ]
+    },
+    {
+      "number": 68,
+      "title": "Conflict Resolution",
+      "titleNative": "Résolution de conflits",
+      "items": [
+        {
+          "fr": "Il vaut mieux parler des choses plutôt que de garder rancune.",
+          "en": "It's better to talk things out instead of holding a grudge."
+        },
+        {
+          "fr": "Écouter le point de vue de l'autre aide à résoudre les problèmes.",
+          "en": "Listening to the other person's point of view helps solve problems."
+        },
+        {
+          "fr": "Après la dispute, ils ont décidé de se pardonner et d'avancer.",
+          "en": "After the argument, they decided to forgive each other and move forward."
+        },
+        {
+          "fr": "Parfois il faut savoir s'excuser même si ce n'est pas facile.",
+          "en": "Sometimes it's necessary to apologize even if it's not easy."
+        }
+      ]
+    },
+    {
+      "number": 69,
+      "title": "Volunteering and Giving Back",
+      "titleNative": "Bénévolat et rendre à la communauté",
+      "items": [
+        {
+          "fr": "Il consacre ses week-ends à aider dans un restaurant communautaire.",
+          "en": "He dedicates his weekends to helping at a community kitchen."
+        },
+        {
+          "fr": "Donner de son temps peut être aussi précieux que donner de l'argent.",
+          "en": "Donating time can be as valuable as donating money."
+        },
+        {
+          "fr": "L'organisation cherche des bénévoles pour apprendre à lire aux enfants.",
+          "en": "The organization is looking for volunteers to teach children to read."
+        },
+        {
+          "fr": "Aider les autres donne un sens très clair à sa vie.",
+          "en": "Helping others gives her life a very clear purpose."
+        }
+      ]
+    },
+    {
+      "number": 70,
+      "title": "Review: Relationships and Society",
+      "titleNative": "Repaso: Relations et société",
+      "items": [
+        {
+          "fr": "Les relations que nous construisons définissent une grande partie de notre vie.",
+          "en": "The relationships we build define a large part of our lives."
+        },
+        {
+          "fr": "J'espère que nous continuerons à construire des communautés plus solidaires.",
+          "en": "I hope we keep building more supportive communities."
+        },
+        {
+          "fr": "L'empathie et le respect sont la base de toute société saine.",
+          "en": "Empathy and respect are the foundation of any healthy society."
+        },
+        {
+          "fr": "Chaque petit acte de gentillesse peut changer la vie de quelqu'un.",
+          "en": "Every small act of kindness can change someone's life."
+        }
+      ]
+    },
+    {
+      "number": 71,
+      "title": "Planning an International Trip",
+      "titleNative": "Planifier un voyage international",
+      "items": [
+        {
+          "fr": "Nous devons renouveler nos passeports avant de réserver les vols.",
+          "en": "We need to renew our passports before booking the flights."
+        },
+        {
+          "fr": "Nous avons vérifié quels documents étaient nécessaires pour entrer dans le pays.",
+          "en": "We researched what documents are required to enter the country."
+        },
+        {
+          "fr": "Nous avons pris une assurance voyage en cas d'urgence.",
+          "en": "We bought travel insurance in case an emergency comes up."
+        },
+        {
+          "fr": "Nous avons planifié l'itinéraire des mois à l'avance.",
+          "en": "We planned the route months in advance."
+        }
+      ]
+    },
+    {
+      "number": 72,
+      "title": "Cultural Differences While Traveling",
+      "titleNative": "Différences culturelles en voyage",
+      "items": [
+        {
+          "fr": "Dans certains pays, il est mal poli d'arriver en retard.",
+          "en": "In some countries it's rude to arrive late."
+        },
+        {
+          "fr": "Nous avons appris quelques phrases de base avant d'arriver.",
+          "en": "We learned a few basic phrases before arriving."
+        },
+        {
+          "fr": "Les coutumes à table varient beaucoup d'un pays à l'autre.",
+          "en": "Table customs vary a lot from one country to another."
+        },
+        {
+          "fr": "Respecter les traditions locales enrichit tout voyage.",
+          "en": "Respecting local traditions enriches any trip."
+        }
+      ]
+    },
+    {
+      "number": 73,
+      "title": "Adventure Travel",
+      "titleNative": "Voyages d'aventure",
+      "items": [
+        {
+          "fr": "Nous avons escaladé une montagne que nous n'avions jamais vue.",
+          "en": "We climbed a mountain we had never seen before."
+        },
+        {
+          "fr": "Le guide nous a prévenus que le sentier serait difficile.",
+          "en": "The guide warned us that the trail would be difficult."
+        },
+        {
+          "fr": "Nous avons campé près d'un lac entouré de forêts.",
+          "en": "We camped by a lake surrounded by forests."
+        },
+        {
+          "fr": "C'était une expérience qui a testé nos limites.",
+          "en": "It was an experience that tested our limits."
+        }
+      ]
+    },
+    {
+      "number": 74,
+      "title": "Global Issues",
+      "titleNative": "Enjeux mondiaux",
+      "items": [
+        {
+          "fr": "Le changement climatique affecte tous les pays du monde.",
+          "en": "Climate change affects every country in the world."
+        },
+        {
+          "fr": "De nombreuses organisations travaillent à réduire la pauvreté mondiale.",
+          "en": "Many organizations work to reduce global poverty."
+        },
+        {
+          "fr": "La coopération internationale est essentielle pour résoudre ces problèmes.",
+          "en": "International cooperation is key to solving these problems."
+        },
+        {
+          "fr": "Il faut que les pays travaillent ensemble pour un vrai changement.",
+          "en": "Countries need to work together to achieve real change."
+        }
+      ]
+    },
+    {
+      "number": 75,
+      "title": "World Economies",
+      "titleNative": "Économies mondiales",
+      "items": [
+        {
+          "fr": "L'économie mondiale dépend de plus en plus de la technologie.",
+          "en": "The global economy increasingly depends on technology."
+        },
+        {
+          "fr": "Le commerce entre pays a énormément augmenté ces dernières décennies.",
+          "en": "Trade between countries has grown enormously in recent decades."
+        },
+        {
+          "fr": "Certaines nations dépendent principalement de l'exportation de ressources naturelles.",
+          "en": "Some nations depend mainly on exporting natural resources."
+        },
+        {
+          "fr": "La crise a touché des économies du monde entier.",
+          "en": "The crisis affected economies all over the world."
+        }
+      ]
+    },
+    {
+      "number": 76,
+      "title": "Global Communication",
+      "titleNative": "Communication mondiale",
+      "items": [
+        {
+          "fr": "Grâce à internet, nous pouvons parler avec n'importe qui dans le monde.",
+          "en": "Thanks to the internet, we can talk to anyone in the world."
+        },
+        {
+          "fr": "L'anglais est utilisé comme langue commune dans de nombreuses conférences internationales.",
+          "en": "English is used as a common language at many international conferences."
+        },
+        {
+          "fr": "Les appels vidéo ont réduit les distances entre les pays.",
+          "en": "Video calls have shortened the distances between countries."
+        },
+        {
+          "fr": "Apprendre plusieurs langues ouvre de nombreuses portes professionnelles.",
+          "en": "Learning several languages opens many professional doors."
+        }
+      ]
+    },
+    {
+      "number": 77,
+      "title": "Expat Life",
+      "titleNative": "La vie d'expatrié",
+      "items": [
+        {
+          "fr": "Il a déménagé dans un autre pays pour le travail il y a cinq ans.",
+          "en": "He moved to another country for work five years ago."
+        },
+        {
+          "fr": "S'adapter à une nouvelle culture demande du temps et de la patience.",
+          "en": "Adapting to a new culture takes time and patience."
+        },
+        {
+          "fr": "La cuisine de son pays lui manque, mais elle aime sa nouvelle vie.",
+          "en": "She misses her country's food, but enjoys her new life."
+        },
+        {
+          "fr": "Il s'est fait des amis du monde entier grâce à son travail international.",
+          "en": "He made friends from all over the world thanks to his international job."
+        }
+      ]
+    },
+    {
+      "number": 78,
+      "title": "Natural Wonders",
+      "titleNative": "Merveilles naturelles",
+      "items": [
+        {
+          "fr": "Nous avons visité l'une des plus hautes cascades du monde.",
+          "en": "We visited one of the tallest waterfalls in the world."
+        },
+        {
+          "fr": "Le désert a un silence qui impressionne tout le monde.",
+          "en": "The desert has a silence that impresses anyone."
+        },
+        {
+          "fr": "La forêt abrite une biodiversité incroyable.",
+          "en": "The jungle is home to incredible biodiversity."
+        },
+        {
+          "fr": "Voir ce paysage nous a laissés sans voix.",
+          "en": "Seeing that landscape left us speechless."
+        }
+      ]
+    },
+    {
+      "number": 79,
+      "title": "Traveling Responsibly",
+      "titleNative": "Voyager de manière responsable",
+      "items": [
+        {
+          "fr": "Nous essayons de réduire notre impact environnemental en voyageant.",
+          "en": "We try to reduce our environmental impact when we travel."
+        },
+        {
+          "fr": "Nous soutenons les commerces locaux plutôt que les grandes chaînes.",
+          "en": "We support local businesses instead of big chains."
+        },
+        {
+          "fr": "Il est important de respecter la faune et de ne pas laisser de déchets dans la nature.",
+          "en": "It's important to respect wildlife and not leave trash in nature."
+        },
+        {
+          "fr": "Le tourisme responsable profite autant aux voyageurs qu'aux communautés.",
+          "en": "Responsible tourism benefits both travelers and communities."
+        }
+      ]
+    },
+    {
+      "number": 80,
+      "title": "Review: Travel and Global Topics",
+      "titleNative": "Repaso: Voyages et sujets mondiaux",
+      "items": [
+        {
+          "fr": "Voyager élargit notre façon de voir le monde.",
+          "en": "Traveling broadens the way we see the world."
+        },
+        {
+          "fr": "J'espère que nous pourrons visiter beaucoup d'autres pays ensemble.",
+          "en": "I hope we can visit many more countries together."
+        },
+        {
+          "fr": "Chaque culture a quelque chose de précieux à nous apprendre.",
+          "en": "Every culture has something valuable to teach us."
+        },
+        {
+          "fr": "Le monde est bien plus grand et intéressant que nous ne l'imaginons.",
+          "en": "The world is much bigger and more interesting than we imagine."
+        }
+      ]
+    },
+    {
+      "number": 81,
+      "title": "The Education System",
+      "titleNative": "Le système éducatif",
+      "items": [
+        {
+          "fr": "Le système éducatif devrait s'adapter davantage aux besoins actuels.",
+          "en": "The education system should adapt more to current needs."
+        },
+        {
+          "fr": "Beaucoup d'élèves préfèrent apprendre de façon pratique plutôt que par cœur.",
+          "en": "Many students prefer to learn hands-on rather than memorize."
+        },
+        {
+          "fr": "L'école publique fait face à d'importants défis de financement.",
+          "en": "Public education faces major funding challenges."
+        },
+        {
+          "fr": "Il est essentiel que les enseignants reçoivent une formation continue.",
+          "en": "It's essential that teachers receive ongoing training."
+        }
+      ]
+    },
+    {
+      "number": 82,
+      "title": "Higher Education and Research",
+      "titleNative": "Enseignement supérieur et recherche",
+      "items": [
+        {
+          "fr": "L'université investit beaucoup dans les programmes de recherche.",
+          "en": "The university invests a lot in research programs."
+        },
+        {
+          "fr": "Obtenir un doctorat demande des années de dévouement et d'effort.",
+          "en": "Earning a doctorate requires years of dedication and effort."
+        },
+        {
+          "fr": "Les étudiants en doctorat ont présenté leurs thèses devant un jury.",
+          "en": "The graduate students presented their theses before a committee."
+        },
+        {
+          "fr": "Cette université est connue dans le monde entier pour ses avancées scientifiques.",
+          "en": "That university is known worldwide for its scientific advances."
+        }
+      ]
+    },
+    {
+      "number": 83,
+      "title": "Learning Languages",
+      "titleNative": "Apprendre des langues",
+      "items": [
+        {
+          "fr": "Apprendre une nouvelle langue stimule le cerveau de manière surprenante.",
+          "en": "Learning a new language stimulates the brain in surprising ways."
+        },
+        {
+          "fr": "L'immersion totale est l'une des méthodes les plus efficaces pour apprendre.",
+          "en": "Full immersion is one of the most effective ways to learn."
+        },
+        {
+          "fr": "Faire des erreurs fait partie intégrante de l'apprentissage.",
+          "en": "Making mistakes is a natural and necessary part of learning."
+        },
+        {
+          "fr": "Avec de la pratique constante, tout le monde peut maîtriser une langue.",
+          "en": "With constant practice, anyone can master a language."
+        }
+      ]
+    },
+    {
+      "number": 84,
+      "title": "Debating Educational Methods",
+      "titleNative": "Débattre des méthodes éducatives",
+      "items": [
+        {
+          "fr": "Certains experts affirment que les examens traditionnels ne mesurent pas le vrai apprentissage.",
+          "en": "Some experts argue that traditional exams don't measure real learning."
+        },
+        {
+          "fr": "D'autres pensent que l'évaluation constante améliore les résultats des élèves.",
+          "en": "Others believe constant evaluation improves student performance."
+        },
+        {
+          "fr": "De plus en plus d'écoles intègrent la technologie en classe.",
+          "en": "More and more schools are incorporating technology into the classroom."
+        },
+        {
+          "fr": "Il est important d'équilibrer la théorie et la pratique dans toute méthode éducative.",
+          "en": "It's important to balance theory with practice in any educational method."
+        }
+      ]
+    },
+    {
+      "number": 85,
+      "title": "Innovation and Technology in Education",
+      "titleNative": "Innovation et technologie dans l'éducation",
+      "items": [
+        {
+          "fr": "L'intelligence artificielle accélère le rythme des découvertes scientifiques.",
+          "en": "Artificial intelligence is accelerating the pace of scientific discoveries."
+        },
+        {
+          "fr": "Les laboratoires utilisent une technologie de pointe pour analyser les données.",
+          "en": "Laboratories use cutting-edge technology to analyze data."
+        },
+        {
+          "fr": "Cette innovation pourrait révolutionner l'industrie dans les années à venir.",
+          "en": "This innovation could revolutionize the industry in the coming years."
+        },
+        {
+          "fr": "La collaboration internationale accélère le développement de nouvelles technologies.",
+          "en": "International collaboration accelerates the development of new technologies."
+        }
+      ]
+    },
+    {
+      "number": 86,
+      "title": "Ethics in Education and Science",
+      "titleNative": "Éthique dans l'éducation et la science",
+      "items": [
+        {
+          "fr": "L'usage de l'intelligence artificielle soulève d'importantes questions éthiques.",
+          "en": "The use of artificial intelligence raises important ethical questions."
+        },
+        {
+          "fr": "Il est nécessaire d'établir des limites claires dans la recherche génétique.",
+          "en": "It's necessary to establish clear limits in genetic research."
+        },
+        {
+          "fr": "La transparence est essentielle pour maintenir la confiance du public dans la science.",
+          "en": "Transparency is essential to maintaining public trust in science."
+        },
+        {
+          "fr": "Les scientifiques doivent considérer l'impact social de leurs découvertes.",
+          "en": "Scientists must consider the social impact of their discoveries."
+        }
+      ]
+    },
+    {
+      "number": 87,
+      "title": "Lifelong Learning",
+      "titleNative": "L'apprentissage tout au long de la vie",
+      "items": [
+        {
+          "fr": "Apprendre ne s'arrête jamais, peu importe l'âge que l'on a.",
+          "en": "Learning never stops, no matter how old you are."
+        },
+        {
+          "fr": "Beaucoup de gens reprennent leurs études après quarante ans.",
+          "en": "Many people go back to school after forty."
+        },
+        {
+          "fr": "La curiosité est le moteur de toute grande découverte.",
+          "en": "Curiosity is the engine behind every great discovery."
+        },
+        {
+          "fr": "Il n'est jamais trop tard pour développer une nouvelle compétence.",
+          "en": "It's never too late to develop a new skill."
+        }
+      ]
+    },
+    {
+      "number": 88,
+      "title": "Books and Reading Culture",
+      "titleNative": "Livres et culture de la lecture",
+      "items": [
+        {
+          "fr": "Lire régulièrement améliore le vocabulaire et la concentration.",
+          "en": "Reading regularly improves vocabulary and concentration."
+        },
+        {
+          "fr": "Cette bibliothèque organise des clubs de lecture chaque mois.",
+          "en": "This library organizes book clubs every month."
+        },
+        {
+          "fr": "De plus en plus de gens préfèrent les livres audio aux livres papier.",
+          "en": "More and more people prefer audiobooks to paper books."
+        },
+        {
+          "fr": "Un bon livre peut changer complètement notre façon de voir le monde.",
+          "en": "A good book can completely change how we see the world."
+        }
+      ]
+    },
+    {
+      "number": 89,
+      "title": "Teaching and Mentorship",
+      "titleNative": "Enseignement et mentorat",
+      "items": [
+        {
+          "fr": "Un bon professeur inspire ses élèves à croire en eux-mêmes.",
+          "en": "A good teacher inspires their students to believe in themselves."
+        },
+        {
+          "fr": "Elle a trouvé un mentor qui l'a beaucoup aidée dans sa carrière.",
+          "en": "She found a mentor who helped her a lot in her career."
+        },
+        {
+          "fr": "Enseigner aux autres est aussi une façon d'apprendre soi-même.",
+          "en": "Teaching others is also a way of learning yourself."
+        },
+        {
+          "fr": "Un bon mentor sait écouter autant que conseiller.",
+          "en": "A good mentor knows how to listen as much as advise."
+        }
+      ]
+    },
+    {
+      "number": 90,
+      "title": "Review: Education and Learning",
+      "titleNative": "Repaso: Éducation et apprentissage",
+      "items": [
+        {
+          "fr": "L'éducation reste la clé pour construire un avenir meilleur.",
+          "en": "Education remains the key to building a better future."
+        },
+        {
+          "fr": "J'espère que chacun aura la chance d'apprendre ce qui le passionne.",
+          "en": "I hope everyone gets the chance to learn what they're passionate about."
+        },
+        {
+          "fr": "Apprendre demande de la patience, mais les résultats en valent la peine.",
+          "en": "Learning requires patience, but the results are worth it."
+        },
+        {
+          "fr": "Chaque connaissance acquise nous rapproche un peu plus de nos objectifs.",
+          "en": "Every piece of knowledge gained brings us a little closer to our goals."
+        }
+      ]
+    },
+    {
+      "number": 91,
+      "title": "A Life-Changing Decision",
+      "titleNative": "Une décision qui a changé une vie",
+      "items": [
+        {
+          "fr": "Il a démissionné d'un travail stable pour suivre sa véritable passion.",
+          "en": "He quit a stable job to follow his true passion."
+        },
+        {
+          "fr": "Bien que ce soit risqué, il n'a jamais regretté cette décision.",
+          "en": "Although it was risky, he never regretted that decision."
+        },
+        {
+          "fr": "Ses amis lui avaient dit que ce serait difficile, mais il a réussi quand même.",
+          "en": "His friends told him it would be difficult, but he achieved it anyway."
+        },
+        {
+          "fr": "Maintenant il vit de quelque chose qu'il adore vraiment faire.",
+          "en": "Now he makes a living from something he truly loves doing."
+        }
+      ]
+    },
+    {
+      "number": 92,
+      "title": "A Difficult Negotiation",
+      "titleNative": "Une négociation difficile",
+      "items": [
+        {
+          "fr": "Il s'est assuré que les deux parties bénéficieraient de l'accord.",
+          "en": "He made sure both parties benefited from the agreement."
+        },
+        {
+          "fr": "Il a fallu beaucoup de patience pour qu'ils arrivent à un consensus.",
+          "en": "It took a lot of patience for them to reach a consensus."
+        },
+        {
+          "fr": "Le contrat a été signé après des semaines de discussion.",
+          "en": "The contract was signed after weeks of discussion."
+        },
+        {
+          "fr": "J'espère que ce partenariat apportera des bénéfices aux deux entreprises.",
+          "en": "I hope this partnership brings benefits for both companies."
+        }
+      ]
+    },
+    {
+      "number": 93,
+      "title": "Reflecting on Personal Change",
+      "titleNative": "Réfléchir au changement personnel",
+      "items": [
+        {
+          "fr": "Il y a quelques années, je n'aurais pas eu le courage de faire ça.",
+          "en": "A few years ago, I wouldn't have had the courage to do this."
+        },
+        {
+          "fr": "Je suis devenu une personne plus patiente sans même m'en rendre compte.",
+          "en": "I became a more patient person without realizing it."
+        },
+        {
+          "fr": "Même si le chemin a été difficile, chaque étape en valait la peine.",
+          "en": "Even though the path was difficult, every step was worth it."
+        },
+        {
+          "fr": "J'espère continuer à grandir autant que je l'ai fait cette année.",
+          "en": "I hope to keep growing as much as I have this year."
+        }
+      ]
+    },
+    {
+      "number": 94,
+      "title": "Discussing the Future of Work",
+      "titleNative": "Discuter de l'avenir du travail",
+      "items": [
+        {
+          "fr": "On dit que beaucoup d'emplois seront remplacés par des machines.",
+          "en": "It's said that many jobs will be replaced by machines."
+        },
+        {
+          "fr": "Même si la technologie avance vite, il y aura toujours de la place pour la créativité humaine.",
+          "en": "Although technology advances quickly, there will always be room for human creativity."
+        },
+        {
+          "fr": "Il serait intelligent d'apprendre de nouvelles compétences pour l'avenir.",
+          "en": "It would be smart to learn new skills for the future."
+        },
+        {
+          "fr": "Personne ne sait avec certitude à quoi ressemblera le marché du travail dans vingt ans.",
+          "en": "No one knows for certain what the job market will be like in twenty years."
+        }
+      ]
+    },
+    {
+      "number": 95,
+      "title": "A Community Coming Together",
+      "titleNative": "Une communauté qui se rassemble",
+      "items": [
+        {
+          "fr": "Quand la tempête est arrivée, les voisins se sont entraidés sans que personne ne le demande.",
+          "en": "When the storm arrived, the neighbors helped each other without anyone asking."
+        },
+        {
+          "fr": "Ils se sont organisés pour que tout le monde ait à manger et un endroit sûr.",
+          "en": "They organized so that everyone had food and a safe place."
+        },
+        {
+          "fr": "Il a été reconstruit grâce à l'effort de toute la communauté.",
+          "en": "It was rebuilt thanks to the effort of the whole community."
+        },
+        {
+          "fr": "J'espère que cet esprit de solidarité ne disparaîtra jamais.",
+          "en": "I hope this spirit of solidarity is never lost."
+        }
+      ]
+    },
+    {
+      "number": 96,
+      "title": "Long-Distance Relationships",
+      "titleNative": "Relations à distance",
+      "items": [
+        {
+          "fr": "Ils ont maintenu leur relation même s'ils vivaient dans des pays différents.",
+          "en": "They kept their relationship going even though they lived in different countries."
+        },
+        {
+          "fr": "Ils se parlaient tous les jours pour que la distance ne les sépare pas.",
+          "en": "They talked every day so the distance wouldn't separate them."
+        },
+        {
+          "fr": "Ils avaient promis qu'ils se retrouveraient dès que possible.",
+          "en": "They promised they would reunite as soon as it was possible."
+        },
+        {
+          "fr": "Finalement, elle a déménagé pour qu'ils puissent être ensemble.",
+          "en": "In the end, she moved so they could be together."
+        }
+      ]
+    },
+    {
+      "number": 97,
+      "title": "An Unexpected Opportunity",
+      "titleNative": "Une opportunité inattendue",
+      "items": [
+        {
+          "fr": "Il n'avait jamais pensé qu'on lui offrirait ce poste si vite.",
+          "en": "He never thought they would offer him that position so soon."
+        },
+        {
+          "fr": "On lui a dit qu'elle devrait déménager si elle acceptait.",
+          "en": "They told her she would have to move in case she accepted."
+        },
+        {
+          "fr": "Elle aurait hésité avant, mais maintenant elle se sentait prête pour le défi.",
+          "en": "She would have hesitated before, but now she felt ready for the challenge."
+        },
+        {
+          "fr": "Elle a accepté l'offre sans que personne n'ait besoin de la convaincre.",
+          "en": "She accepted the offer without anyone having to convince her."
+        }
+      ]
+    },
+    {
+      "number": 98,
+      "title": "A Letter to the Future",
+      "titleNative": "Une lettre pour l'avenir",
+      "items": [
+        {
+          "fr": "J'écris ceci pour que tu le lises dans dix ans.",
+          "en": "I'm writing this so you'll read it in ten years."
+        },
+        {
+          "fr": "J'espère que tu auras accompli tout ce que tu t'étais fixé.",
+          "en": "I hope you've achieved everything you set out to do."
+        },
+        {
+          "fr": "J'espère que tu seras plus heureux que tu ne l'es aujourd'hui.",
+          "en": "I hope you're happier than you are today."
+        },
+        {
+          "fr": "Même si je ne sais pas ce que l'avenir réserve, je te fais confiance pour aller bien.",
+          "en": "Although I don't know what the future will bring, I trust you'll be fine."
+        }
+      ]
+    },
+    {
+      "number": 99,
+      "title": "Wisdom Gained Over Time",
+      "titleNative": "La sagesse acquise avec le temps",
+      "items": [
+        {
+          "fr": "Au fil des années, j'ai appris qu'on ne peut pas tout contrôler.",
+          "en": "Over the years, I learned that not everything can be controlled."
+        },
+        {
+          "fr": "Ce serait une erreur de penser que le succès arrive sans effort.",
+          "en": "It would be a mistake to think success comes without effort."
+        },
+        {
+          "fr": "Même si j'ai fait beaucoup d'erreurs, chacune m'a appris quelque chose de précieux.",
+          "en": "Although I made many mistakes, each one taught me something valuable."
+        },
+        {
+          "fr": "Maintenant je sais que le bonheur se construit jour après jour.",
+          "en": "Now I know that happiness is built day by day."
+        }
+      ]
+    },
+    {
+      "number": 100,
+      "title": "Review: B1+ Capstone",
+      "titleNative": "Repaso: Cierre de B1+",
+      "items": [
+        {
+          "fr": "Tu as appris à exprimer des idées bien plus complexes qu'avant.",
+          "en": "You've learned to express much more complex ideas than before."
+        },
+        {
+          "fr": "J'espère que tu continueras à t'entraîner et que tu ne perdras pas le rythme.",
+          "en": "I hope you keep practicing and don't lose momentum."
+        },
+        {
+          "fr": "Même si le chemin est long, chaque leçon te rapproche de l'aisance.",
+          "en": "Even though the road is long, each lesson brings you closer to fluency."
+        },
+        {
+          "fr": "Je suis sûr que tu es plus que prêt pour le niveau suivant.",
+          "en": "I'm sure you're more than ready for the next level."
+        }
+      ]
+    }
+  ]
+}

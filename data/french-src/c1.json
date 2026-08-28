@@ -1,0 +1,2384 @@
+{
+  "level": "c1",
+  "grammarTopics": {
+    "c1-discourse-markers": {
+      "title": "Discourse Markers: Structuring a Sophisticated Argument",
+      "pattern": "en premier lieu/par conséquent/en définitive/il convient de souligner/afin de",
+      "explanation": "Native-level French uses discourse markers to signal exactly how one idea relates to the next: \"en premier lieu\" (in the first place, to open a sequence), \"par conséquent\" (consequently), \"en définitive\" (ultimately, to summarize), \"il convient de souligner que\" (it's worth highlighting that, to flag importance), \"afin de\" (in order to, formal), \"sous peine de\" (under penalty of, very formal/legal). These aren't just fancier synonyms for basic connectors — each signals a distinct logical function in an argument.",
+      "fact": "\"Il convient de\" and its cousins \"il y a lieu de\"/\"il importe de\" (it's fitting to/there is reason to/it matters to) are fixed impersonal expressions typical of administrative and academic French — you'll see them constantly in official reports but rarely in casual conversation.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Il convient de souligner que, afin de garantir la transparence, nous publierons tous les résultats.",
+          "en": "It's worth noting that, for the sake of transparency, we will publish all the results."
+        },
+        {
+          "sp": "B",
+          "native": "En définitive, c'est une décision qui, par conséquent, profitera à tous.",
+          "en": "Ultimately, it's a decision that will consequently benefit everyone."
+        }
+      ]
+    },
+    "c1-idioms": {
+      "title": "Idiomatic Expressions: Sounding Like a Native",
+      "pattern": "fixed figurative phrases whose meaning can't be guessed from the individual words",
+      "explanation": "Idioms are where a language's personality really shows — phrases whose meaning has drifted completely from their literal words. \"Coûter les yeux de la tête\" (to cost the eyes of the head = to be very expensive), \"avoir la tête dans les nuages\" (to have your head in the clouds = to be daydreaming), \"se payer la tête de quelqu'un\" (to buy someone's head = to make fun of them), \"mettre les pieds dans le plat\" (to put your feet in the dish = to say something tactless). These can't be decoded word-by-word — they simply have to be learned as fixed units.",
+      "fact": "Idioms are often surprisingly regional even within the French-speaking world — \"c'est plate\" (that's boring/disappointing) is everyday Quebec French, while \"ça caille\" (it's freezing) is distinctly Metropolitan slang; a phrase can be instantly recognizable in one region and completely unfamiliar in another.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "J'ai acheté ce manteau et il m'a coûté les yeux de la tête.",
+          "en": "I bought this coat and it cost me an arm and a leg."
+        },
+        {
+          "sp": "B",
+          "native": "Bon, ne mets pas les pieds dans le plat la prochaine fois et compare les prix d'abord.",
+          "en": "Well, don't put your foot in your mouth next time and compare prices first."
+        }
+      ]
+    },
+    "c1-literary-register": {
+      "title": "Literary and Journalistic Register: Elevated Written French",
+      "pattern": "passé simple: recognize (literary narration, third-person only in practice) · inverted word order · elevated vocabulary",
+      "explanation": "Literary and journalistic French reaches for the passé simple in narration — a past tense that has essentially vanished from speech but remains the default tense for written stories and history: \"il alla\", \"elle dit\", \"ils partirent\" (he went, she said, they left). You'll only ever need to RECOGNIZE it, never produce it in conversation. Journalistic writing also frequently inverts word order for style: \"Affirme le ministre que...\" (States the minister that...) instead of the conversational \"Le ministre affirme que...\". Vocabulary shifts upward too: \"advenir\" instead of \"arriver\" (to happen), \"procéder à\" instead of \"commencer\" (to proceed to), \"cependant que\" instead of \"pendant que\" (while, literary).",
+      "fact": "The passé simple's third-person forms are the only ones worth memorizing for reading purposes — \"il/elle\" and \"ils/elles\" endings (-a/-it/-ut, -èrent/-irent/-urent depending on conjugation group) — since first- and second-person forms almost never appear even in literature, which is nearly always narrated in the third person.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Le porte-parole affirma que la décision serait prise sous peu.",
+          "en": "The spokesperson stated that the decision would be made shortly."
+        },
+        {
+          "sp": "B",
+          "native": "Cependant que la population attendait avec impatience le dénouement.",
+          "en": "Meanwhile, the public awaits the outcome with anticipation."
+        }
+      ]
+    },
+    "c1-participe-present": {
+      "title": "The Participe Présent and Advanced Nominalization",
+      "pattern": "verb stem + -ant (invariable, unlike adjectives) · en + participe présent = gerund (simultaneity/method/cause)",
+      "explanation": "The participe présent (-ant, from the \"nous\" stem: parlons → parlant) functions as a verbal adjective or, with \"en\", as a gerund expressing simultaneity, method, or cause — much like Spanish/English -ing forms: \"en travaillant dur, il a atteint son but\" (by working hard, he achieved his goal). Unlike an ordinary adjective, the participe présent used verbally is INVARIABLE — it never agrees in gender or number: \"les enfants jouant dehors\" (the children playing outside) stays \"jouant\", not \"jouants\".",
+      "fact": "A small number of participes présents have a DIFFERENT adjectival form when used as a true adjective rather than verbally: \"fatiguant\" (verbal: tiring [action]) vs \"fatigant\" (adjective: tiring [quality], no -u-); \"négligeant\" (verbal) vs \"négligent\" (adjective, neglectful) — a subtle spelling distinction that even trips up native speakers.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "En apprenant une langue, on découvre aussi toute une culture.",
+          "en": "By learning a language, one also discovers an entire culture."
+        },
+        {
+          "sp": "B",
+          "native": "C'est vrai, et sachant cela, nous devrions pratiquer l'écoute active davantage.",
+          "en": "That's true, and knowing that, we should practice active listening more."
+        }
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Opening and Sequencing an Argument",
+      "titleNative": "Ouvrir et ordonner un argument",
+      "items": [
+        {
+          "fr": "En premier lieu, je voudrais remercier toutes les personnes présentes pour leur temps.",
+          "en": "In the first place, I would like to thank everyone present for their time."
+        },
+        {
+          "fr": "En second lieu, il est nécessaire d'aborder les problèmes financiers auxquels nous faisons face.",
+          "en": "Secondly, it's necessary to address the financial problems we face."
+        },
+        {
+          "fr": "Pour finir, je propose que nous révisions le plan dans trois mois.",
+          "en": "Lastly, I propose we review the plan in three months."
+        },
+        {
+          "fr": "Avant toute chose, permettez-moi de résumer la situation actuelle.",
+          "en": "Before anything else, allow me to summarize the current situation."
+        }
+      ],
+      "topicId": "c1-discourse-markers"
+    },
+    {
+      "number": 2,
+      "title": "Consequence and Summary",
+      "titleNative": "Conséquence et résumé",
+      "items": [
+        {
+          "fr": "Les coûts ont considérablement augmenté ; par conséquent, nous avons dû ajuster le budget.",
+          "en": "Costs increased considerably; consequently, we had to adjust the budget."
+        },
+        {
+          "fr": "En définitive, le projet a été une réussite malgré les obstacles initiaux.",
+          "en": "Ultimately, the project was a success despite the initial obstacles."
+        },
+        {
+          "fr": "En résumé, la proposition offre des bénéfices clairs pour les deux parties.",
+          "en": "In summary, the proposal offers clear benefits for both parties."
+        },
+        {
+          "fr": "En conséquence, l'entreprise a décidé de se développer sur de nouveaux marchés.",
+          "en": "As a result, the company decided to expand into new markets."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Highlighting Important Points",
+      "titleNative": "Souligner des points importants",
+      "items": [
+        {
+          "fr": "Il convient de souligner que c'est le premier accord de ce type dans la région.",
+          "en": "It's worth noting that this is the first agreement of its kind in the region."
+        },
+        {
+          "fr": "Il vaut la peine de mentionner que le projet a été achevé avant la date prévue.",
+          "en": "It's worth mentioning that the project was completed ahead of schedule."
+        },
+        {
+          "fr": "Il est important de souligner que ces résultats sont préliminaires.",
+          "en": "It's important to underline that these results are preliminary."
+        },
+        {
+          "fr": "Il convient de préciser que les opinions exprimées ne représentent pas toute l'organisation.",
+          "en": "It should be noted that the opinions expressed don't represent the whole organization."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Formal Purpose Expressions",
+      "titleNative": "Expressions formelles de but",
+      "items": [
+        {
+          "fr": "Afin de garantir la transparence, nous publierons toutes les données de l'étude.",
+          "en": "For the sake of transparency, we will publish all the study's data."
+        },
+        {
+          "fr": "Ces mesures ont été mises en place afin d'améliorer la sécurité des employés.",
+          "en": "These measures were implemented for the sake of improving employee safety."
+        },
+        {
+          "fr": "Afin d'éviter toute confusion, nous avons clarifié les termes du contrat.",
+          "en": "In order to avoid confusion, we clarified the contract terms."
+        },
+        {
+          "fr": "Dans le but de respecter la réglementation, nous avons mis à jour tous nos processus.",
+          "en": "In order to comply with the regulations, we updated all our processes."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Contrast at an Advanced Level",
+      "titleNative": "Contraste à un niveau avancé",
+      "items": [
+        {
+          "fr": "D'une part, la proposition réduit les coûts ; d'autre part, elle pourrait affecter la qualité.",
+          "en": "On the one hand, the proposal reduces costs; on the other hand, it could affect quality."
+        },
+        {
+          "fr": "S'il est vrai qu'il y a eu des progrès, il reste encore beaucoup à faire.",
+          "en": "While it's true that there were advances, much remains to be done."
+        },
+        {
+          "fr": "Malgré les critiques initiales, le projet a fini par gagner un large soutien public.",
+          "en": "Despite the initial criticism, the project ended up gaining great public support."
+        },
+        {
+          "fr": "Cela étant dit, le comité a décidé d'approuver la proposition.",
+          "en": "Notwithstanding the above, the committee decided to approve the proposal."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Adding and Reinforcing Ideas",
+      "titleNative": "Ajouter et renforcer des idées",
+      "items": [
+        {
+          "fr": "De même, il est essentiel de considérer l'impact à long terme de cette décision.",
+          "en": "Likewise, it's essential to consider the long-term impact of this decision."
+        },
+        {
+          "fr": "En plus de cela, il existe d'autres facteurs qui méritent notre attention.",
+          "en": "In addition to what was mentioned, there are other factors that deserve attention."
+        },
+        {
+          "fr": "Pareillement, l'équipe marketing a présenté sa propre proposition.",
+          "en": "Similarly, the marketing team presented its own proposal."
+        },
+        {
+          "fr": "Qui plus est, ces résultats confirment ce que nous soupçonnions déjà.",
+          "en": "Moreover, these results confirm what we already suspected."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Conditional and Hypothetical Framing",
+      "titleNative": "Cadre conditionnel et hypothétique",
+      "items": [
+        {
+          "fr": "N'eût été son intervention, la situation aurait considérablement empiré.",
+          "en": "Had it not been for his intervention, the situation would have worsened considerably."
+        },
+        {
+          "fr": "Si nous l'avions su plus tôt, nous aurions agi différemment.",
+          "en": "Had we known beforehand, we would have acted differently."
+        },
+        {
+          "fr": "Si les projections se confirment, l'entreprise doublera son chiffre d'affaires.",
+          "en": "Should the projections be met, the company will double its revenue."
+        },
+        {
+          "fr": "Sauf complications, le projet sera livré à temps.",
+          "en": "Unless complications arise, the project will be delivered on time."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Concluding an Argument",
+      "titleNative": "Conclure un argument",
+      "items": [
+        {
+          "fr": "En conclusion, les bénéfices dépassent largement les risques encourus.",
+          "en": "In conclusion, the benefits far outweigh the risks involved."
+        },
+        {
+          "fr": "Pour conclure, je voudrais réitérer notre engagement envers la qualité.",
+          "en": "By way of closing, I would like to reiterate our commitment to quality."
+        },
+        {
+          "fr": "En dernier ressort, la décision revient au conseil d'administration.",
+          "en": "Ultimately, the decision rests with the board of directors."
+        },
+        {
+          "fr": "Cela dit, nous allons procéder à la phase suivante du projet.",
+          "en": "That said, we will proceed to the next phase of the project."
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Softening and Hedging Claims",
+      "titleNative": "Nuancer et atténuer des affirmations",
+      "items": [
+        {
+          "fr": "Jusqu'à un certain point, il est compréhensible qu'il y ait des doutes sur le processus.",
+          "en": "To a certain extent, it's understandable that there are doubts about the process."
+        },
+        {
+          "fr": "En quelque sorte, les deux positions ont des arguments valables.",
+          "en": "In a way, both positions have valid arguments."
+        },
+        {
+          "fr": "On pourrait s'attendre à ce que, avec le temps, la situation se stabilise.",
+          "en": "One might expect that, over time, the situation will stabilize."
+        },
+        {
+          "fr": "Dans la mesure du possible, nous essaierons de respecter tous les délais.",
+          "en": "As far as possible, we will try to meet all the deadlines."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Review: Discourse Markers",
+      "titleNative": "Repaso: Marqueurs de discours",
+      "items": [
+        {
+          "fr": "En définitive, il convient de souligner que ce projet a marqué un tournant.",
+          "en": "Ultimately, it's worth noting that this project marked a turning point."
+        },
+        {
+          "fr": "Par conséquent, afin de garantir l'efficacité, nous avons simplifié le processus.",
+          "en": "Consequently, for the sake of efficiency, we simplified the process."
+        },
+        {
+          "fr": "S'il y a eu des défis, en résumé, les résultats ont été extrêmement positifs.",
+          "en": "While there were challenges, in summary, the results were extremely positive."
+        },
+        {
+          "fr": "Cela dit, nous espérons que cette approche continuera de porter ses fruits à l'avenir.",
+          "en": "That said, we hope this approach continues to bear fruit in the future."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Money and Value Idioms",
+      "titleNative": "Expressions sur l'argent et la valeur",
+      "items": [
+        {
+          "fr": "Cette bague a dû lui coûter les yeux de la tête.",
+          "en": "That ring must have cost an arm and a leg."
+        },
+        {
+          "fr": "Ne jette pas ton argent par les fenêtres pour des choses inutiles.",
+          "en": "Don't throw money out the window on things you don't need."
+        },
+        {
+          "fr": "Finalement, il s'est avéré que l'affaire ne valait pas un clou.",
+          "en": "In the end it turned out the business wasn't worth a cent."
+        },
+        {
+          "fr": "Il faut économiser pour les jours sans, pas seulement pour les temps difficiles.",
+          "en": "Save for when times are good, not just for difficult times."
+        }
+      ],
+      "topicId": "c1-idioms"
+    },
+    {
+      "number": 12,
+      "title": "Mind and Attention Idioms",
+      "titleNative": "Expressions sur l'esprit et l'attention",
+      "items": [
+        {
+          "fr": "Arrête d'avoir la tête dans les nuages et fais attention à la réunion.",
+          "en": "Stop daydreaming and pay attention to the meeting."
+        },
+        {
+          "fr": "J'ai complètement oublié le rendez-vous, ça m'est totalement sorti de la tête.",
+          "en": "It completely slipped my mind, it totally left my head."
+        },
+        {
+          "fr": "Il a la tête dans les nuages depuis qu'il est tombé amoureux.",
+          "en": "He has his head in the clouds since he fell in love."
+        },
+        {
+          "fr": "Ne perds pas la tête, il reste encore du temps pour résoudre ça.",
+          "en": "Don't lose your mind, there's still time to solve this."
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "title": "Deception and Teasing Idioms",
+      "titleNative": "Expressions sur la tromperie et la moquerie",
+      "items": [
+        {
+          "fr": "Tu te paies ma tête ? Je n'arrive pas à croire ce que tu dis.",
+          "en": "Are you making fun of me? I can't believe what you're saying."
+        },
+        {
+          "fr": "Ne tourne pas autour du pot, dis-moi la vérité une bonne fois pour toutes.",
+          "en": "Don't beat around the bush, just tell me the truth."
+        },
+        {
+          "fr": "Il tourne toujours autour du pot au lieu d'aller droit au but.",
+          "en": "He always beats around the bush instead of getting straight to the point."
+        },
+        {
+          "fr": "Il nous a bien eus et il est parti avec notre argent.",
+          "en": "He took us for fools and left with our money."
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "title": "Mistakes and Trouble Idioms",
+      "titleNative": "Expressions sur les erreurs et les problèmes",
+      "items": [
+        {
+          "fr": "J'ai mis les pieds dans le plat en mentionnant son ex dans la conversation.",
+          "en": "I put my foot in it by mentioning his ex in the conversation."
+        },
+        {
+          "fr": "Cela a créé un vrai bazar quand ils ont appris la nouvelle.",
+          "en": "All hell broke loose when they found out the news."
+        },
+        {
+          "fr": "Nous sommes pris entre le marteau et l'enclume avec cette décision.",
+          "en": "We're between a rock and a hard place with this decision."
+        },
+        {
+          "fr": "Il est tombé dans le piège sans se rendre compte de ce qui se passait.",
+          "en": "He fell into the trap without realizing what was happening."
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "title": "Effort and Difficulty Idioms",
+      "titleNative": "Expressions sur l'effort et la difficulté",
+      "items": [
+        {
+          "fr": "Cela nous a coûté beaucoup de sueur et de larmes pour finir ce projet.",
+          "en": "It took us blood, sweat, and tears to finish this project."
+        },
+        {
+          "fr": "Il a tout donné pour réaliser son rêve.",
+          "en": "He gave everything he had to achieve his dream."
+        },
+        {
+          "fr": "Nous avons ramé à contre-courant pendant tout le processus.",
+          "en": "We rowed against the current throughout the whole process."
+        },
+        {
+          "fr": "Il a mis tout son cœur à faire prospérer l'entreprise familiale.",
+          "en": "He put all his effort into keeping the family business going."
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "title": "Time and Opportunity Idioms",
+      "titleNative": "Expressions sur le temps et l'opportunité",
+      "items": [
+        {
+          "fr": "Il faut saisir l'occasion avant qu'il ne soit trop tard.",
+          "en": "You have to seize the moment before it's too late."
+        },
+        {
+          "fr": "Il a raté le coche et maintenant il regrette de ne pas avoir agi avant.",
+          "en": "He missed the boat and now regrets not having acted sooner."
+        },
+        {
+          "fr": "De temps en temps, il faut souffler un peu et se reposer.",
+          "en": "Every once in a while, you have to give yourself a break and rest."
+        },
+        {
+          "fr": "Il est arrivé pile au bon moment, ni une minute avant ni après.",
+          "en": "He arrived at just the right moment, not a minute sooner or later."
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "title": "Body-Based Idioms",
+      "titleNative": "Expressions avec des parties du corps",
+      "items": [
+        {
+          "fr": "Il a donné un coup de main à son voisin pour le déménagement.",
+          "en": "He gave his neighbor a hand with the move."
+        },
+        {
+          "fr": "Il n'a pas fermé l'œil de la nuit en pensant à l'entretien de demain.",
+          "en": "He couldn't sleep a wink thinking about tomorrow's interview."
+        },
+        {
+          "fr": "Elle parle sans arrêt quand elle est nerveuse.",
+          "en": "She talks nonstop when she's nervous."
+        },
+        {
+          "fr": "L'eau lui est venue à la bouche en voyant ce plat si délicieux.",
+          "en": "His mouth watered when he saw that delicious dish."
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "title": "Animal-Based Idioms",
+      "titleNative": "Expressions avec des animaux",
+      "items": [
+        {
+          "fr": "Il y a anguille sous roche, quelque chose ne va pas dans cette affaire.",
+          "en": "There's something fishy here, something isn't right about this deal."
+        },
+        {
+          "fr": "Quand le chat n'est pas là, les souris dansent.",
+          "en": "When the cat's away, the mice will play."
+        },
+        {
+          "fr": "C'est le mouton noir de la famille, il fait toujours les choses différemment.",
+          "en": "He's the black sheep of the family, he always does things differently."
+        },
+        {
+          "fr": "Ils ont fait d'une pierre deux coups avec cette décision.",
+          "en": "They killed two birds with one stone with that decision."
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "title": "Emotion and Reaction Idioms",
+      "titleNative": "Expressions sur l'émotion et la réaction",
+      "items": [
+        {
+          "fr": "Il est devenu fou en apprenant la nouvelle.",
+          "en": "He went crazy when he heard the news."
+        },
+        {
+          "fr": "Elle ne se sentait plus de joie en gagnant le prix.",
+          "en": "She was beside herself with joy at winning the prize."
+        },
+        {
+          "fr": "Il a eu le cœur brisé en voyant la maison détruite.",
+          "en": "His heart broke seeing the house destroyed."
+        },
+        {
+          "fr": "Elle a montré les crocs quand quelqu'un a critiqué sa famille.",
+          "en": "She showed her claws when someone criticized her family."
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "title": "Review: Idiomatic Expressions",
+      "titleNative": "Repaso: Expressions idiomatiques",
+      "items": [
+        {
+          "fr": "Cela nous a coûté sueur et larmes, mais finalement, ça valait chaque centime.",
+          "en": "It took blood, sweat, and tears, but in the end it was worth every penny."
+        },
+        {
+          "fr": "Ne le prends pas trop à cœur, il n'était pas sérieux.",
+          "en": "Don't take what he said so personally, he didn't mean it seriously."
+        },
+        {
+          "fr": "Il a mis les pieds dans le plat, mais il a su reconnaître son erreur à temps.",
+          "en": "He messed up, but he knew how to acknowledge his mistake in time."
+        },
+        {
+          "fr": "Finalement, il a fait d'une pierre deux coups et tout le monde était content.",
+          "en": "In the end, he killed two birds with one stone and everyone was happy."
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "title": "Idioms of Effort and Persistence",
+      "titleNative": "Expressions sur l'effort et la persévérance",
+      "items": [
+        {
+          "fr": "Il ne faut pas tourner autour du pot, il faut agir maintenant.",
+          "en": "There's no need to overthink it anymore, we have to act now."
+        },
+        {
+          "fr": "Il s'est mis la corde au cou en signant ce contrat si défavorable.",
+          "en": "He put a noose around his own neck by signing that unfavorable contract."
+        },
+        {
+          "fr": "Il faut aller de l'avant, quelle que soit la difficulté.",
+          "en": "You have to push forward, no matter how difficult it is."
+        },
+        {
+          "fr": "Il s'est bougé quand il a compris à quel point l'examen était important.",
+          "en": "He got his act together when he understood how important the exam was."
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "title": "Idioms of Honesty and Directness",
+      "titleNative": "Expressions sur l'honnêteté et la franchise",
+      "items": [
+        {
+          "fr": "Je préfère lui dire les choses en face plutôt que de parler dans son dos.",
+          "en": "I prefer to tell him the truth to his face rather than talk behind his back."
+        },
+        {
+          "fr": "Il faut appeler un chat un chat.",
+          "en": "You have to call a spade a spade."
+        },
+        {
+          "fr": "Il ne faut pas tourner autour du pot quand il s'agit d'une chose aussi sérieuse.",
+          "en": "You shouldn't beat around the bush when it comes to something so serious."
+        },
+        {
+          "fr": "Il est allé droit au but et a expliqué la situation sans détour.",
+          "en": "He got straight to the point and explained the situation without embellishment."
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "title": "Idioms of Luck and Fate",
+      "titleNative": "Expressions sur la chance et le destin",
+      "items": [
+        {
+          "fr": "Il est né sous une bonne étoile, tout lui réussit.",
+          "en": "He was born lucky, everything goes well for him."
+        },
+        {
+          "fr": "Il a failli perdre son travail, mais il a été sauvé de justesse.",
+          "en": "He almost lost his job, but he was saved by the skin of his teeth."
+        },
+        {
+          "fr": "Croise les doigts pour que tout se passe comme nous l'espérons.",
+          "en": "Cross your fingers so everything turns out as we hope."
+        },
+        {
+          "fr": "Il a décroché le gros lot avec ce nouveau travail si intéressant.",
+          "en": "He hit the jackpot with that great new job."
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "title": "Idioms of Social Situations",
+      "titleNative": "Expressions sur les situations sociales",
+      "items": [
+        {
+          "fr": "Il était l'âme de la fête avec ses histoires si drôles.",
+          "en": "He was the life of the party with his funny stories."
+        },
+        {
+          "fr": "Il fait toujours son difficile quand on l'invite à sortir.",
+          "en": "He always plays hard to get when they invite him out."
+        },
+        {
+          "fr": "Ils sont restés amis après avoir éclairci le malentendu.",
+          "en": "They remained friends after clearing up the misunderstanding."
+        },
+        {
+          "fr": "Ne fais pas semblant de ne pas entendre, je sais que tu m'as parfaitement entendu.",
+          "en": "Don't play dumb, I know you heard me perfectly."
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "title": "Idioms of Difficulty and Struggle",
+      "titleNative": "Expressions sur la difficulté et la lutte",
+      "items": [
+        {
+          "fr": "Il est entre le marteau et l'enclume, il ne sait pas quelle décision prendre.",
+          "en": "He's between a rock and a hard place, he doesn't know what decision to make."
+        },
+        {
+          "fr": "Nous nous sommes trouvés en difficulté quand la voiture est tombée en panne en plein voyage.",
+          "en": "We found ourselves in a tight spot when the car broke down mid-trip."
+        },
+        {
+          "fr": "Retrouver ce document, c'était comme chercher une aiguille dans une botte de foin.",
+          "en": "It was like looking for a needle in a haystack to find that document."
+        },
+        {
+          "fr": "Malgré les difficultés, il s'en sort toujours du mieux qu'il peut.",
+          "en": "Despite the difficulties, he always gets by as best he can."
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "title": "Regional Expressions (Quebec)",
+      "titleNative": "Expressions régionales (Québec)",
+      "items": [
+        {
+          "fr": "C'est plate d'attendre si longtemps dans la file.",
+          "en": "It's boring/disappointing to have to wait so long in line."
+        },
+        {
+          "fr": "Il fait frette dehors ce matin, prends un manteau chaud.",
+          "en": "It's freezing outside this morning, take a warm coat."
+        },
+        {
+          "fr": "On va magasiner cette fin de semaine pour trouver un nouveau sofa.",
+          "en": "We're going shopping this weekend to find a new sofa."
+        },
+        {
+          "fr": "Je suis tanné de faire toujours la même chose chaque jour.",
+          "en": "I'm tired of always doing the same thing every day."
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "title": "Regional Expressions (Belgium)",
+      "titleNative": "Expressions régionales (Belgique)",
+      "items": [
+        {
+          "fr": "Ça va, une fois ? Comment vas-tu aujourd'hui ?",
+          "en": "Everything okay? How are you doing today?"
+        },
+        {
+          "fr": "Il fait un temps de chien depuis ce matin.",
+          "en": "The weather has been awful since this morning."
+        },
+        {
+          "fr": "Cette histoire n'a ni queue ni tête, je ne comprends rien.",
+          "en": "This story makes no sense at all, I don't understand anything."
+        },
+        {
+          "fr": "Nous allons dîner ensemble à midi, tu es le bienvenu.",
+          "en": "We're going to have lunch together at noon, you're welcome to join."
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "title": "Regional Expressions (Switzerland)",
+      "titleNative": "Expressions régionales (Suisse)",
+      "items": [
+        {
+          "fr": "Le repas coûte septante francs par personne.",
+          "en": "The meal costs seventy francs per person."
+        },
+        {
+          "fr": "Il est né en dix-neuf cent nonante, comme moi.",
+          "en": "He was born in nineteen ninety, like me."
+        },
+        {
+          "fr": "Peux-tu me passer la panosse pour nettoyer le sol ?",
+          "en": "Can you hand me the mop to clean the floor?"
+        },
+        {
+          "fr": "On mangera à la crèche demain avec toute la famille.",
+          "en": "We'll eat at grandma's tomorrow with the whole family."
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "title": "Everyday Sayings and Proverbs",
+      "titleNative": "Dictons et proverbes du quotidien",
+      "items": [
+        {
+          "fr": "Mieux vaut tard que jamais, alors commençons dès maintenant.",
+          "en": "Better late than never, so let's start right now."
+        },
+        {
+          "fr": "Après la pluie, le beau temps, ne laisse pas ça te décourager.",
+          "en": "Every cloud has a silver lining, don't let this discourage you."
+        },
+        {
+          "fr": "À quelque chose malheur est bon, peut-être que cela ouvrira de nouvelles portes.",
+          "en": "Every cloud has a silver lining, maybe this will open new doors."
+        },
+        {
+          "fr": "Qui dort grasse matinée risque de tout rater.",
+          "en": "The early bird catches the worm."
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "title": "Review: Idioms and Sayings",
+      "titleNative": "Repaso: Expressions et proverbes",
+      "items": [
+        {
+          "fr": "Tant pis, il faut aller de l'avant et apprendre de ses erreurs.",
+          "en": "Oh well, we have to push forward and learn from mistakes."
+        },
+        {
+          "fr": "Il est allé droit au but et nous a fait gagner beaucoup de temps grâce à son honnêteté.",
+          "en": "He got straight to the point and saved us a lot of time with his honesty."
+        },
+        {
+          "fr": "Au bout du compte, mieux vaut tard que jamais.",
+          "en": "At the end of the day, better late than never."
+        },
+        {
+          "fr": "Avec effort et sans tourner autour du pot, nous avons réussi à faire avancer les choses.",
+          "en": "With effort and without overthinking it, we managed to get it done."
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "title": "News Headlines and Reporting",
+      "titleNative": "Titres et reportages",
+      "items": [
+        {
+          "fr": "Le gouvernement annonça de nouvelles mesures pour affronter la crise économique.",
+          "en": "The government announced new measures to face the economic crisis."
+        },
+        {
+          "fr": "L'entreprise confirma que les licenciements toucheraient des centaines de travailleurs.",
+          "en": "The company confirmed that the layoffs will affect hundreds of workers."
+        },
+        {
+          "fr": "Selon des sources officielles, l'accord sera signé la semaine prochaine.",
+          "en": "According to official sources, the agreement will be signed next week."
+        },
+        {
+          "fr": "On s'attend à ce que le tribunal rende son verdict dans les prochains jours.",
+          "en": "The court is expected to issue its verdict in the coming days."
+        }
+      ],
+      "topicId": "c1-literary-register"
+    },
+    {
+      "number": 32,
+      "title": "Formal Journalistic Vocabulary",
+      "titleNative": "Vocabulaire journalistique formel",
+      "items": [
+        {
+          "fr": "Cet événement marqua un tournant dans l'histoire récente du pays.",
+          "en": "The event marked a milestone in the country's recent history."
+        },
+        {
+          "fr": "Les autorités procédèrent à l'évacuation de la zone touchée par l'incendie.",
+          "en": "Authorities proceeded to evacuate the area affected by the fire."
+        },
+        {
+          "fr": "Cependant que les équipes de secours poursuivaient leur travail sans relâche.",
+          "en": "Meanwhile, the rescue teams continued their work tirelessly."
+        },
+        {
+          "fr": "L'incident déclencha une vague de réactions sur tout le continent.",
+          "en": "The event triggered a wave of reactions across the continent."
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "title": "Literary Narration",
+      "titleNative": "Narration littéraire",
+      "items": [
+        {
+          "fr": "La nuit tomba sur la ville, silencieuse et froide.",
+          "en": "Night fell over the city, silent and cold."
+        },
+        {
+          "fr": "Il était une fois un royaume perdu entre les montagnes et la brume.",
+          "en": "Once upon a time there was a kingdom lost among mountains and mist."
+        },
+        {
+          "fr": "Jamais elle n'avait contemplé tant de beauté en un seul instant.",
+          "en": "She had never contemplated so much beauty in a single moment."
+        },
+        {
+          "fr": "Il leva les yeux vers le ciel, cherchant des réponses qui ne venaient pas.",
+          "en": "He raised his gaze to the sky, searching for answers that didn't come."
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "title": "The Passé Simple in Practice",
+      "titleNative": "Le passé simple en pratique",
+      "items": [
+        {
+          "fr": "Le vieux professeur entra dans la salle et posa ses livres sur le bureau.",
+          "en": "The old professor entered the room and put his books on the desk."
+        },
+        {
+          "fr": "Elle regarda par la fenêtre et vit que la pluie avait cessé.",
+          "en": "She looked out the window and saw that the rain had stopped."
+        },
+        {
+          "fr": "Ils partirent tôt le matin sans dire un mot à personne.",
+          "en": "They left early in the morning without saying a word to anyone."
+        },
+        {
+          "fr": "Le roi mourut sans laisser d'héritier, ce qui plongea le royaume dans le chaos.",
+          "en": "The king died without leaving an heir, which plunged the kingdom into chaos."
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "title": "Elevated Descriptions",
+      "titleNative": "Descriptions élevées",
+      "items": [
+        {
+          "fr": "Son visage reflétait une tristesse profonde et indéniable.",
+          "en": "His face reflected a deep and unmistakable sadness."
+        },
+        {
+          "fr": "Le paysage s'étendait, majestueux, à perte de vue.",
+          "en": "The landscape stretched majestically as far as the eye could see."
+        },
+        {
+          "fr": "Un calme troublant s'empara du village après la tempête.",
+          "en": "An unsettling calm took hold of the town after the storm."
+        },
+        {
+          "fr": "Ses paroles, chargées d'émotion, émurent tous les présents.",
+          "en": "His words, laden with emotion, moved everyone present."
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "title": "Formal Historical Narration",
+      "titleNative": "Narration historique formelle",
+      "items": [
+        {
+          "fr": "Pendant des décennies, le pays était resté plongé dans le conflit.",
+          "en": "For decades, the country had remained mired in conflict."
+        },
+        {
+          "fr": "Ce fut alors qu'un mouvement surgit qui changerait le cours de la nation.",
+          "en": "It was then that a movement arose that would change the nation's course."
+        },
+        {
+          "fr": "Les chroniques de l'époque relatent en détail les événements de ces années-là.",
+          "en": "The chronicles of the time narrate in detail the events of those years."
+        },
+        {
+          "fr": "Cet événement resterait à jamais gravé dans la mémoire collective.",
+          "en": "That event would remain forever etched in the collective memory."
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "title": "Editorial and Opinion Writing",
+      "titleNative": "Écriture éditoriale et d'opinion",
+      "items": [
+        {
+          "fr": "Il est indéniable que la société a connu des changements profonds.",
+          "en": "It is undeniable that society has undergone profound changes."
+        },
+        {
+          "fr": "Il convient de rappeler que ces décisions ont des conséquences durables.",
+          "en": "It's worth remembering that these decisions have lasting consequences."
+        },
+        {
+          "fr": "Nul doute que ce débat continuera de diviser les opinions.",
+          "en": "There is no doubt that this debate will continue to divide opinions."
+        },
+        {
+          "fr": "Il est urgent que des mesures concrètes soient prises avant qu'il ne soit trop tard.",
+          "en": "It's urgent that concrete measures be taken before it's too late."
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "title": "Inverted Word Order for Emphasis",
+      "titleNative": "Ordre inversé pour l'emphase",
+      "items": [
+        {
+          "fr": "Grande fut la surprise en apprenant les résultats de l'enquête.",
+          "en": "Great was the surprise upon learning the results of the investigation."
+        },
+        {
+          "fr": "Difficile est-il d'imaginer un dénouement différent de celui-ci.",
+          "en": "It's difficult to imagine an outcome different from this one."
+        },
+        {
+          "fr": "Tant a-t-on parlé de ce sujet que plus personne ne s'en étonne.",
+          "en": "So much has been said about this topic that no one is surprised anymore."
+        },
+        {
+          "fr": "Ainsi seulement s'explique l'ampleur de ce qui s'est produit.",
+          "en": "Only in this way can the magnitude of what happened be explained."
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "title": "Formal Transitions in Narrative",
+      "titleNative": "Transitions formelles dans le récit",
+      "items": [
+        {
+          "fr": "À la suite de cet incident, tout changea dans la petite communauté.",
+          "en": "As a result of that incident, everything changed in the small community."
+        },
+        {
+          "fr": "Au fil du temps, les blessures commencèrent lentement à se refermer.",
+          "en": "With the passage of time, the wounds began to heal slowly."
+        },
+        {
+          "fr": "Ce ne fut que des années plus tard que la vérité entière fut révélée.",
+          "en": "It wasn't until years later that the full truth was revealed."
+        },
+        {
+          "fr": "Après d'âpres négociations, un accord fut finalement trouvé.",
+          "en": "After arduous negotiations, an agreement was finally reached."
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "title": "Review: Literary and Journalistic Register",
+      "titleNative": "Repaso: Registre littéraire et journalistique",
+      "items": [
+        {
+          "fr": "L'auteur affirma que cette œuvre reflétait les préoccupations de toute une génération.",
+          "en": "The author stated that this work reflected the concerns of an entire generation."
+        },
+        {
+          "fr": "Cependant que l'on attendait le verdict, la tension dans la salle était palpable.",
+          "en": "While awaiting the verdict, the tension was palpable in the room."
+        },
+        {
+          "fr": "Nul doute que ce récit demeurera dans la mémoire de ses lecteurs.",
+          "en": "There is no doubt that this story will endure in its readers' memory."
+        },
+        {
+          "fr": "Ainsi s'achève cette chronique d'une époque qui ne reviendra pas.",
+          "en": "Thus concludes this chronicle of a time that will not return."
+        }
+      ]
+    },
+    {
+      "number": 41,
+      "title": "The Infinitive as a Noun",
+      "titleNative": "L'infinitif comme nom",
+      "items": [
+        {
+          "fr": "Le savoir n'encombre jamais, disait toujours mon grand-père.",
+          "en": "Knowledge takes up no space, my grandfather always used to say."
+        },
+        {
+          "fr": "Le fait de vivre avec tant d'incertitude est épuisant pour n'importe qui.",
+          "en": "Living with so much uncertainty is exhausting for anyone."
+        },
+        {
+          "fr": "Le respect des opinions d'autrui est un signe de maturité.",
+          "en": "Respecting others' opinions is a sign of maturity."
+        },
+        {
+          "fr": "Se lever tôt tous les jours demande une discipline considérable.",
+          "en": "Getting up early every day requires considerable discipline."
+        }
+      ],
+      "topicId": "c1-participe-present"
+    },
+    {
+      "number": 42,
+      "title": "Gerund for Method",
+      "titleNative": "Gérondif pour exprimer la méthode",
+      "items": [
+        {
+          "fr": "En apprenant un peu chaque jour, il a réussi à maîtriser la langue en un an.",
+          "en": "By learning a little each day, he managed to master the language in a year."
+        },
+        {
+          "fr": "En épargnant avec constance, ils ont pu acheter leur première maison.",
+          "en": "By saving consistently, they were able to buy their first house."
+        },
+        {
+          "fr": "En écoutant attentivement, elle s'est rendu compte du vrai problème.",
+          "en": "By listening carefully, she realized what the real problem was."
+        },
+        {
+          "fr": "En s'entraînant tous les jours, il a nettement amélioré sa technique.",
+          "en": "By practicing every day, he noticeably improved his technique."
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "title": "Gerund for Condition",
+      "titleNative": "Gérondif pour exprimer la condition",
+      "items": [
+        {
+          "fr": "Sachant à quel point ce serait difficile, il a quand même décidé d'essayer.",
+          "en": "Knowing how difficult it would be, he decided to try anyway."
+        },
+        {
+          "fr": "En tenant compte du budget, nous ne pouvons pas nous permettre cette dépense.",
+          "en": "Taking the budget into account, we can't afford that expense."
+        },
+        {
+          "fr": "Vivant si loin, ce serait compliqué de venir souvent.",
+          "en": "Living so far away, it would be complicated to visit often."
+        },
+        {
+          "fr": "En comptant sur son soutien, nous nous sentons beaucoup plus rassurés.",
+          "en": "Counting on his support, we feel much more secure."
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "title": "Gerund for Cause",
+      "titleNative": "Gérondif pour exprimer la cause",
+      "items": [
+        {
+          "fr": "En ignorant les signaux d'alerte, ils ont continué le plan.",
+          "en": "Ignoring the warning signs, they went ahead with the plan."
+        },
+        {
+          "fr": "Ne connaissant pas les règles, il a commis plusieurs erreurs au début.",
+          "en": "Not knowing the rules, he made several mistakes at first."
+        },
+        {
+          "fr": "En reconnaissant son erreur, il a décidé de s'excuser immédiatement.",
+          "en": "Recognizing his mistake, he decided to apologize immediately."
+        },
+        {
+          "fr": "Comprenant la gravité de la situation, ils ont agi rapidement.",
+          "en": "Understanding the seriousness of the matter, they acted quickly."
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "title": "Simultaneous Actions with Participe Présent",
+      "titleNative": "Actions simultanées avec le participe présent",
+      "items": [
+        {
+          "fr": "Il marchait dans le parc, profitant de l'air frais du matin.",
+          "en": "He walked through the park, enjoying the fresh morning air."
+        },
+        {
+          "fr": "Elle écoutait de la musique en cuisinant, fredonnant chaque chanson.",
+          "en": "She listened to music while cooking, humming each song."
+        },
+        {
+          "fr": "Il travaillait concentré, sans se rendre compte qu'il faisait déjà nuit.",
+          "en": "He worked focused, without noticing it had already gotten dark."
+        },
+        {
+          "fr": "Les enfants jouaient dans le jardin, riant sans arrêt.",
+          "en": "The children played in the garden, laughing nonstop."
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "title": "Formal Nominalized Phrases",
+      "titleNative": "Expressions nominalisées formelles",
+      "items": [
+        {
+          "fr": "La méconnaissance de la loi n'exempte pas de son application.",
+          "en": "Ignorance of the law does not exempt one from complying with it."
+        },
+        {
+          "fr": "Le non-respect de ces règles entraînera de lourdes sanctions.",
+          "en": "Failure to comply with these rules will result in severe penalties."
+        },
+        {
+          "fr": "La reconnaissance des erreurs est le premier pas vers l'amélioration.",
+          "en": "The acknowledgment of mistakes is the first step toward improvement."
+        },
+        {
+          "fr": "Le suivi continu du projet garantit son bon déroulement.",
+          "en": "Continuous follow-up on the project ensures its proper development."
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "title": "Combining Nominalization and Gerund",
+      "titleNative": "Combiner nominalisation et gérondif",
+      "items": [
+        {
+          "fr": "Apprendre une langue, en pratiquant sans cesse, transforme notre façon de penser.",
+          "en": "Learning a language, by practicing constantly, transforms the way you think."
+        },
+        {
+          "fr": "Grandir en affrontant des défis nous rend plus forts avec le temps.",
+          "en": "Growing by facing challenges makes us stronger over time."
+        },
+        {
+          "fr": "Réussir sans perdre son humilité est peut-être la véritable réussite.",
+          "en": "Succeeding without losing humility is, perhaps, the true achievement."
+        },
+        {
+          "fr": "Écouter vraiment, sans interrompre, change complètement une conversation.",
+          "en": "Truly listening, without interrupting, completely changes a conversation."
+        }
+      ]
+    },
+    {
+      "number": 48,
+      "title": "The Adjectival Form of Participles",
+      "titleNative": "La forme adjectivale des participes",
+      "items": [
+        {
+          "fr": "Cette réunion interminable était vraiment fatigante.",
+          "en": "That endless meeting was really tiring."
+        },
+        {
+          "fr": "Il a été négligent en oubliant ce détail si important.",
+          "en": "He was negligent in forgetting such an important detail."
+        },
+        {
+          "fr": "Elle a un sourire vraiment convaincant quand elle négocie.",
+          "en": "She has a truly convincing smile when she negotiates."
+        },
+        {
+          "fr": "Cette lumière éblouissante m'empêchait de voir la route.",
+          "en": "That blinding light kept me from seeing the road."
+        }
+      ]
+    },
+    {
+      "number": 49,
+      "title": "Gerund in Descriptive Writing",
+      "titleNative": "Gérondif dans l'écriture descriptive",
+      "items": [
+        {
+          "fr": "La rivière coulait en serpentant entre les montagnes.",
+          "en": "The river ran winding between the mountains."
+        },
+        {
+          "fr": "Les feuilles tombaient lentement, recouvrant le sol de couleurs automnales.",
+          "en": "The leaves fell slowly, covering the ground in autumn colors."
+        },
+        {
+          "fr": "Le vent soufflait en sifflant entre les arbres de la forêt.",
+          "en": "The wind blew whistling through the forest trees."
+        },
+        {
+          "fr": "Le brouillard avançait en enveloppant peu à peu toute la vallée.",
+          "en": "The fog advanced, gradually enveloping the whole valley."
+        }
+      ]
+    },
+    {
+      "number": 50,
+      "title": "Review: Nominalization and Participe Présent",
+      "titleNative": "Repaso: Nominalisation et participe présent",
+      "items": [
+        {
+          "fr": "Apprendre à s'exprimer avec précision est l'un des objectifs de ce niveau.",
+          "en": "Learning to express oneself with precision is one of this level's goals."
+        },
+        {
+          "fr": "En pratiquant avec constance, tu finiras par maîtriser ces nuances.",
+          "en": "By practicing consistently, you'll end up mastering these nuances."
+        },
+        {
+          "fr": "En reconnaissant tes propres progrès, tu devrais te sentir fier.",
+          "en": "Recognizing your own progress, you should feel proud."
+        },
+        {
+          "fr": "Continuer à apprendre, peu importe le niveau atteint, est ce qui définit un vrai polyglotte.",
+          "en": "Continuing to learn, no matter the level reached, is what defines a true polyglot."
+        }
+      ]
+    },
+    {
+      "number": 51,
+      "title": "Analyzing a Novel",
+      "titleNative": "Analyser un roman",
+      "items": [
+        {
+          "fr": "Le narrateur à la première personne limite la perspective du lecteur à ce que sait le protagoniste.",
+          "en": "The first-person narrator limits the reader's perspective to what the protagonist knows."
+        },
+        {
+          "fr": "La structure fragmentée du roman reflète l'état mental confus du personnage principal.",
+          "en": "The novel's fragmented structure reflects the main character's confused mental state."
+        },
+        {
+          "fr": "Le symbolisme du fleuve apparaît de manière récurrente tout au long de l'œuvre.",
+          "en": "The symbolism of the river appears repeatedly throughout the entire work."
+        },
+        {
+          "fr": "Le dénouement laisse délibérément plusieurs questions sans réponse.",
+          "en": "The ending deliberately leaves several questions unresolved."
+        }
+      ]
+    },
+    {
+      "number": 52,
+      "title": "Poetic Devices",
+      "titleNative": "Procédés poétiques",
+      "items": [
+        {
+          "fr": "La métaphore centrale compare la vie à un voyage sans destination fixe.",
+          "en": "The central metaphor compares life to a journey without a fixed destination."
+        },
+        {
+          "fr": "L'usage de l'allitération donne un rythme musical à tout le poème.",
+          "en": "The use of alliteration gives the whole poem a musical rhythm."
+        },
+        {
+          "fr": "La répétition du dernier vers renforce le sentiment de perte.",
+          "en": "The repetition of the final verse reinforces the feeling of loss."
+        },
+        {
+          "fr": "Le poète utilise le silence comme une figure de style aussi puissante que les mots eux-mêmes.",
+          "en": "The poet uses silence as a rhetorical figure as powerful as the words themselves."
+        }
+      ]
+    },
+    {
+      "number": 53,
+      "title": "Character Development",
+      "titleNative": "Évolution des personnages",
+      "items": [
+        {
+          "fr": "Le personnage évolue de la naïveté vers une compréhension plus mature du monde.",
+          "en": "The character evolves from naivety toward a more mature understanding of the world."
+        },
+        {
+          "fr": "Son conflit intérieur se manifeste à travers des décisions de plus en plus contradictoires.",
+          "en": "His inner conflict manifests through increasingly contradictory decisions."
+        },
+        {
+          "fr": "La relation entre les deux frères représente la tension centrale de l'œuvre.",
+          "en": "The relationship between the two brothers represents the central tension of the work."
+        },
+        {
+          "fr": "L'antagoniste n'est pas simplement méchant, mais profondément humain dans ses motivations.",
+          "en": "The antagonist isn't simply evil, but deeply human in his motivations."
+        }
+      ]
+    },
+    {
+      "number": 54,
+      "title": "Themes and Motifs",
+      "titleNative": "Thèmes et motifs",
+      "items": [
+        {
+          "fr": "Le thème de l'identité traverse toute l'œuvre de l'auteur.",
+          "en": "The theme of identity runs throughout the author's entire body of work."
+        },
+        {
+          "fr": "La mémoire et l'oubli fonctionnent comme des motifs récurrents dans le roman.",
+          "en": "Memory and forgetting function as recurring motifs in the novel."
+        },
+        {
+          "fr": "L'œuvre explore avec brio la tension entre tradition et modernité.",
+          "en": "The work masterfully explores the tension between tradition and modernity."
+        },
+        {
+          "fr": "L'exil apparaît comme une métaphore constante de la déconnexion émotionnelle.",
+          "en": "Exile appears as a constant metaphor for emotional disconnection."
+        }
+      ]
+    },
+    {
+      "number": 55,
+      "title": "Literary Context and Movements",
+      "titleNative": "Contexte et mouvements littéraires",
+      "items": [
+        {
+          "fr": "Cette œuvre appartient au réalisme magique, un mouvement caractéristique de la littérature latino-américaine.",
+          "en": "This work belongs to magical realism, a movement characteristic of Latin American literature."
+        },
+        {
+          "fr": "L'auteur a écrit ce roman pendant une période de grande agitation politique.",
+          "en": "The author wrote this novel during a period of great political unrest."
+        },
+        {
+          "fr": "Son style a été profondément influencé par les écrivains de la génération précédente.",
+          "en": "His style was deeply influenced by the writers of the previous generation."
+        },
+        {
+          "fr": "Cette œuvre a marqué un tournant dans la littérature de son époque.",
+          "en": "This work marked a turning point in the literature of its time."
+        }
+      ]
+    },
+    {
+      "number": 56,
+      "title": "Discussing an Author's Style",
+      "titleNative": "Commenter le style d'un auteur",
+      "items": [
+        {
+          "fr": "Sa prose se caractérise par de longues phrases et une syntaxe complexe.",
+          "en": "His prose is characterized by long sentences and complex syntax."
+        },
+        {
+          "fr": "L'humour noir est une constante dans toute son œuvre littéraire.",
+          "en": "Dark humor is a constant throughout his entire literary work."
+        },
+        {
+          "fr": "Il préfère les dialogues sobres, laissant les actions parler d'elles-mêmes.",
+          "en": "He prefers sparse dialogue, letting the actions speak for themselves."
+        },
+        {
+          "fr": "Son style minimaliste contraste fortement avec l'exubérance d'autres auteurs de sa génération.",
+          "en": "His minimalist style contrasts sharply with the exuberance of other authors of his generation."
+        }
+      ]
+    },
+    {
+      "number": 57,
+      "title": "Interpreting Ambiguity",
+      "titleNative": "Interpréter l'ambiguïté",
+      "items": [
+        {
+          "fr": "La fin ambiguë permet plusieurs interprétations valables.",
+          "en": "The ambiguous ending allows for multiple valid interpretations."
+        },
+        {
+          "fr": "On ne sait pas clairement si le narrateur est entièrement fiable.",
+          "en": "It's not clear whether the narrator is entirely reliable."
+        },
+        {
+          "fr": "L'œuvre laisse ouverte la question de savoir si le protagoniste a vraiment changé.",
+          "en": "The work leaves open the question of whether the protagonist really changed."
+        },
+        {
+          "fr": "Cette ambiguïté intentionnelle invite le lecteur à construire son propre sens.",
+          "en": "This intentional ambiguity invites the reader to construct their own meaning."
+        }
+      ]
+    },
+    {
+      "number": 58,
+      "title": "Comparing Works",
+      "titleNative": "Comparer des œuvres",
+      "items": [
+        {
+          "fr": "Les deux romans explorent la solitude, bien que sous des perspectives totalement différentes.",
+          "en": "Both novels explore solitude, although from completely different perspectives."
+        },
+        {
+          "fr": "Contrairement à sa première œuvre, ce deuxième roman adopte un ton bien plus optimiste.",
+          "en": "Unlike his first work, this second novel adopts a much more optimistic tone."
+        },
+        {
+          "fr": "Les deux auteurs partagent une fascination similaire pour les personnages marginaux.",
+          "en": "Both authors share a similar fascination with marginal characters."
+        },
+        {
+          "fr": "Tandis que l'un se concentre sur l'intime, l'autre préfère une échelle plus collective et sociale.",
+          "en": "While one focuses on the intimate, the other prefers a more collective and social scale."
+        }
+      ]
+    },
+    {
+      "number": 59,
+      "title": "Writing a Literary Critique",
+      "titleNative": "Écrire une critique littéraire",
+      "items": [
+        {
+          "fr": "Ce roman, bien qu'ambitieux, ne parvient pas à maintenir la tension narrative jusqu'à la fin.",
+          "en": "This novel, although ambitious, fails to sustain the narrative tension until the end."
+        },
+        {
+          "fr": "Les personnages secondaires sont construits avec une profondeur admirable.",
+          "en": "The secondary characters are built with admirable depth."
+        },
+        {
+          "fr": "Le rythme de l'œuvre ralentit considérablement dans sa seconde moitié.",
+          "en": "The work's pace slows down considerably in its second half."
+        },
+        {
+          "fr": "Sans aucun doute, c'est l'une des œuvres les plus importantes de la littérature contemporaine.",
+          "en": "Without a doubt, this is one of the most important works of contemporary literature."
+        }
+      ]
+    },
+    {
+      "number": 60,
+      "title": "Review: Literary Analysis",
+      "titleNative": "Repaso: Analyse littéraire",
+      "items": [
+        {
+          "fr": "Analyser la littérature nous apprend à lire le monde avec un regard plus critique.",
+          "en": "Analyzing literature teaches us to read the world with a more critical eye."
+        },
+        {
+          "fr": "Chaque relecture d'une grande œuvre révèle des nuances passées inaperçues auparavant.",
+          "en": "Each rereading of a great work reveals nuances that had previously gone unnoticed."
+        },
+        {
+          "fr": "La bonne littérature, en définitive, nous oblige à remettre en question nos propres certitudes.",
+          "en": "Good literature, ultimately, forces us to question our own certainties."
+        },
+        {
+          "fr": "J'espère que cette introduction à l'analyse littéraire éveillera ta curiosité pour lire davantage.",
+          "en": "I hope this introduction to literary analysis sparks your curiosity to read more."
+        }
+      ]
+    },
+    {
+      "number": 61,
+      "title": "Analyzing Economic News",
+      "titleNative": "Analyser l'actualité économique",
+      "items": [
+        {
+          "fr": "Les analystes s'accordent à dire que le ralentissement économique sera temporaire.",
+          "en": "Analysts agree that the economic slowdown will be temporary."
+        },
+        {
+          "fr": "La hausse du chômage reflète les difficultés du secteur industriel.",
+          "en": "The rise in unemployment reflects the difficulties of the industrial sector."
+        },
+        {
+          "fr": "Le niveau d'endettement atteint par plusieurs pays est préoccupant.",
+          "en": "The level of debt reached by several countries is concerning."
+        },
+        {
+          "fr": "On peut se demander si ces mesures suffiront à inverser la tendance.",
+          "en": "One might ask whether these measures will be enough to reverse the trend."
+        }
+      ]
+    },
+    {
+      "number": 62,
+      "title": "Commenting on Social Trends",
+      "titleNative": "Commenter les tendances sociales",
+      "items": [
+        {
+          "fr": "On observe une tendance croissante au télétravail dans de nombreux secteurs.",
+          "en": "A growing trend toward remote work is observed across multiple sectors."
+        },
+        {
+          "fr": "Ce phénomène social soulève des questions sur l'avenir des villes.",
+          "en": "This social phenomenon raises questions about the future of cities."
+        },
+        {
+          "fr": "Le fossé générationnel devient de plus en plus visible dans le monde du travail.",
+          "en": "The generational gap is becoming increasingly evident in the workplace."
+        },
+        {
+          "fr": "Il conviendrait d'analyser les causes profondes de ce changement culturel.",
+          "en": "It would be worth analyzing the deep causes behind this cultural shift."
+        }
+      ]
+    },
+    {
+      "number": 63,
+      "title": "Public Health Debates",
+      "titleNative": "Débats de santé publique",
+      "items": [
+        {
+          "fr": "Des doutes subsistent quant à l'efficacité à long terme de ces politiques sanitaires.",
+          "en": "Doubts persist about the long-term efficacy of these health policies."
+        },
+        {
+          "fr": "Les experts alertent sur les conséquences de négliger la santé mentale collective.",
+          "en": "Experts warn about the consequences of neglecting collective mental health."
+        },
+        {
+          "fr": "Il est urgent d'investir davantage dans la prévention plutôt que dans le traitement.",
+          "en": "It's urgent to invest more resources in prevention rather than treatment."
+        },
+        {
+          "fr": "L'accès inégal aux soins reste un problème structurel.",
+          "en": "Unequal access to medical care remains a structural problem."
+        }
+      ]
+    },
+    {
+      "number": 64,
+      "title": "Technology's Societal Impact",
+      "titleNative": "Impact social de la technologie",
+      "items": [
+        {
+          "fr": "L'essor rapide de l'intelligence artificielle pose des défis éthiques sans précédent.",
+          "en": "The accelerated advance of artificial intelligence poses unprecedented ethical challenges."
+        },
+        {
+          "fr": "On peut se demander qui est responsable quand un algorithme commet une erreur.",
+          "en": "One must question who bears responsibility when an algorithm makes a mistake."
+        },
+        {
+          "fr": "La dépendance technologique a radicalement transformé notre façon de nous lier aux autres.",
+          "en": "Technological dependence has radically transformed the way we relate to each other."
+        },
+        {
+          "fr": "Il est indéniable que ces outils ont démocratisé l'accès à l'information.",
+          "en": "It's undeniable that these tools have democratized access to information."
+        }
+      ]
+    },
+    {
+      "number": 65,
+      "title": "Immigration and Demographics",
+      "titleNative": "Immigration et démographie",
+      "items": [
+        {
+          "fr": "Le vieillissement de la population pose de sérieux défis pour les systèmes de retraite.",
+          "en": "Population aging poses serious challenges for pension systems."
+        },
+        {
+          "fr": "La migration, loin d'être un problème, a stimulé la croissance économique dans de nombreuses régions.",
+          "en": "Migration, far from being a problem, has driven economic growth in many regions."
+        },
+        {
+          "fr": "Il convient d'analyser ce phénomène au-delà des gros titres sensationnalistes.",
+          "en": "It's worth analyzing this phenomenon beyond sensationalist headlines."
+        },
+        {
+          "fr": "Les politiques migratoires varient énormément selon le contexte politique de chaque pays.",
+          "en": "Immigration policies vary enormously depending on each country's political context."
+        }
+      ]
+    },
+    {
+      "number": 66,
+      "title": "Debating Education Reform",
+      "titleNative": "Débattre de la réforme éducative",
+      "items": [
+        {
+          "fr": "La réforme proposée vise à moderniser un système qui n'a pas été actualisé depuis des décennies.",
+          "en": "The proposed reform seeks to modernize a system that hasn't been updated in decades."
+        },
+        {
+          "fr": "Ses détracteurs estiment que la réforme manque d'un plan de financement clair.",
+          "en": "Its detractors argue that the reform lacks a clear funding plan."
+        },
+        {
+          "fr": "Il est essentiel d'écouter aussi bien les enseignants que les élèves dans ce processus.",
+          "en": "It's essential to listen to both teachers and students in this process."
+        },
+        {
+          "fr": "Il convient de souligner que des expériences similaires dans d'autres pays ont eu des résultats mitigés.",
+          "en": "It's worth noting that similar experiences in other countries have had mixed results."
+        }
+      ]
+    },
+    {
+      "number": 67,
+      "title": "Analyzing Political Discourse",
+      "titleNative": "Analyser le discours politique",
+      "items": [
+        {
+          "fr": "Le discours a fait constamment appel aux émotions plutôt qu'aux données concrètes.",
+          "en": "The speech constantly appealed to emotions rather than concrete data."
+        },
+        {
+          "fr": "On peut se demander dans quelle mesure ces promesses sont réellement réalisables.",
+          "en": "One might ask to what extent these promises are actually feasible."
+        },
+        {
+          "fr": "L'usage répété de certains mots-clés révèle la stratégie de communication du candidat.",
+          "en": "The repeated use of certain key words reveals the candidate's communication strategy."
+        },
+        {
+          "fr": "Il convient d'analyser le discours avec un regard critique, au-delà des sympathies personnelles.",
+          "en": "It's worth analyzing the speech with a critical eye, beyond personal sympathies."
+        }
+      ]
+    },
+    {
+      "number": 68,
+      "title": "Global Health Crises",
+      "titleNative": "Crises sanitaires mondiales",
+      "items": [
+        {
+          "fr": "La crise a mis à l'épreuve la capacité de réponse des systèmes de santé à l'échelle mondiale.",
+          "en": "The crisis tested the response capacity of health systems worldwide."
+        },
+        {
+          "fr": "La nécessité d'une plus grande coopération internationale face aux urgences sanitaires est devenue évidente.",
+          "en": "The need for greater international cooperation in health emergencies became evident."
+        },
+        {
+          "fr": "De nombreux pays ont tiré des leçons précieuses qu'ils appliqueront aux crises futures.",
+          "en": "Many countries learned valuable lessons they will apply in future crises."
+        },
+        {
+          "fr": "Il convient de souligner le rôle fondamental joué par la science pour surmonter cette période si difficile.",
+          "en": "It's worth highlighting the fundamental role science played in overcoming that difficult period."
+        }
+      ]
+    },
+    {
+      "number": 69,
+      "title": "The Ethics of Progress",
+      "titleNative": "L'éthique du progrès",
+      "items": [
+        {
+          "fr": "Toute avancée technologique ne représente pas nécessairement un progrès pour l'humanité.",
+          "en": "Not every technological advance necessarily represents progress for humanity."
+        },
+        {
+          "fr": "Il convient de se demander à quel coût social et environnemental arrive ce prétendu développement.",
+          "en": "It's worth asking at what social and environmental cost this supposed development comes."
+        },
+        {
+          "fr": "Le véritable progrès devrait aussi se mesurer au bien-être des plus vulnérables.",
+          "en": "Genuine progress should also be measured by the well-being of the most vulnerable."
+        },
+        {
+          "fr": "Il est urgent de repenser notre conception de la réussite au-delà de la seule croissance économique.",
+          "en": "It's urgent to rethink our concept of success beyond pure economic growth."
+        }
+      ]
+    },
+    {
+      "number": 70,
+      "title": "Review: Current Affairs Commentary",
+      "titleNative": "Repaso: Commentaire d'actualité",
+      "items": [
+        {
+          "fr": "Analyser l'actualité avec rigueur nous permet de former des opinions plus solides et fondées.",
+          "en": "Analyzing current events rigorously allows us to form more solid and well-founded opinions."
+        },
+        {
+          "fr": "Il convient de souligner qu'aucun phénomène social ne s'explique par une seule perspective.",
+          "en": "It's worth noting that no social phenomenon is explained from a single perspective."
+        },
+        {
+          "fr": "J'espère que tu continueras à questionner ce que tu lis, plutôt que de l'accepter sans réflexion.",
+          "en": "I hope you keep questioning what you read, instead of accepting it without reflection."
+        },
+        {
+          "fr": "En définitive, comprendre le monde actuel demande patience, curiosité et esprit critique.",
+          "en": "Ultimately, understanding today's world requires patience, curiosity, and critical thinking."
+        }
+      ]
+    },
+    {
+      "number": 71,
+      "title": "Irony and Sarcasm",
+      "titleNative": "Ironie et sarcasme",
+      "items": [
+        {
+          "fr": "Quelle chance, exactement ce qu'il me fallait, un autre problème avant mes vacances.",
+          "en": "Great, just what I needed, another problem right before my vacation."
+        },
+        {
+          "fr": "Avec ce ton si ironique, il a bien fait comprendre qu'il n'avait pas du tout aimé l'idée.",
+          "en": "With that ironic tone, he made it clear he hadn't liked the idea at all."
+        },
+        {
+          "fr": "Eh bien, quelle surprise, tu es encore en retard.",
+          "en": "Wow, what a surprise, you're late again."
+        },
+        {
+          "fr": "Il a dit, avec un sarcasme évident, que cela avait été la meilleure réunion de sa vie.",
+          "en": "He said, with obvious sarcasm, that it had been the best meeting of his life."
+        }
+      ],
+      "topicId": "c1-idioms"
+    },
+    {
+      "number": 72,
+      "title": "Wordplay and Puns",
+      "titleNative": "Jeux de mots",
+      "items": [
+        {
+          "fr": "Ce comédien est connu pour ses jeux de mots ingénieux.",
+          "en": "That comedian is known for his clever wordplay."
+        },
+        {
+          "fr": "Le titre de l'article fait un jeu de mots très amusant.",
+          "en": "The article's title makes a very funny pun."
+        },
+        {
+          "fr": "Les doubles sens de cette chanson font rire tous ceux qui les comprennent.",
+          "en": "The double meanings in that song make anyone who catches them laugh."
+        },
+        {
+          "fr": "Son humour se base sur l'ambiguïté du langage et les doubles sens.",
+          "en": "His humor is based on the ambiguity of language and double meanings."
+        }
+      ]
+    },
+    {
+      "number": 73,
+      "title": "Self-Deprecating Humor",
+      "titleNative": "Autodérision",
+      "items": [
+        {
+          "fr": "Il plaisante constamment sur le fait qu'il est désorganisé dans sa vie quotidienne.",
+          "en": "He constantly jokes about how disorganized he is in his daily life."
+        },
+        {
+          "fr": "Il s'est moqué de lui-même en reconnaissant à quel point sa réaction avait été ridicule.",
+          "en": "He laughed at himself upon recognizing how ridiculous his reaction had been."
+        },
+        {
+          "fr": "Cela ne le dérange pas de se ridiculiser si cela fait rire les autres.",
+          "en": "He doesn't mind making a fool of himself if it makes others laugh."
+        },
+        {
+          "fr": "Sa capacité à rire de ses propres erreurs le rend très apprécié de tous.",
+          "en": "His ability to laugh at his own mistakes makes him well-loved by everyone."
+        }
+      ]
+    },
+    {
+      "number": 74,
+      "title": "Situational Comedy",
+      "titleNative": "Comédie de situation",
+      "items": [
+        {
+          "fr": "Toute la scène est devenue comique quand ils se sont rendu compte qu'ils étaient au mauvais endroit.",
+          "en": "The whole scene became comical when they realized they were in the wrong place."
+        },
+        {
+          "fr": "Le malentendu s'est révélé si absurde que tout le monde a fini par rire.",
+          "en": "The misunderstanding turned out to be so absurd that everyone ended up laughing."
+        },
+        {
+          "fr": "La maladresse du personnage principal crée des situations comiques tout au long du film.",
+          "en": "The main character's clumsiness generates comedic situations throughout the whole movie."
+        },
+        {
+          "fr": "Ce fut une comédie d'erreurs du début à la fin.",
+          "en": "It was a comedy of errors from beginning to end."
+        }
+      ]
+    },
+    {
+      "number": 75,
+      "title": "Dark Humor",
+      "titleNative": "Humour noir",
+      "items": [
+        {
+          "fr": "Son humour noir n'est pas fait pour tout le monde, mais je le trouve brillant.",
+          "en": "His dark humor isn't for everyone, but I find it brilliant."
+        },
+        {
+          "fr": "Il a plaisanté sur la situation d'une manière qui a mis certains mal à l'aise, mais a fait rire les autres.",
+          "en": "He joked about the situation in a way that made some uncomfortable, but made others laugh."
+        },
+        {
+          "fr": "L'humour noir sert parfois de façon de surmonter des moments difficiles.",
+          "en": "Dark humor sometimes serves as a way to cope with difficult moments."
+        },
+        {
+          "fr": "Tout le monde ne comprend pas ce genre d'humour si acide et direct.",
+          "en": "Not everyone understands that kind of sharp, direct humor."
+        }
+      ]
+    },
+    {
+      "number": 76,
+      "title": "Downplaying and Exaggeration",
+      "titleNative": "Minimiser et exagérer",
+      "items": [
+        {
+          "fr": "Il a dit que ça \"s'était un peu mal passé\", alors qu'en réalité il avait perdu tout son argent.",
+          "en": "He said things had gone \"a little badly,\" when in reality he had lost all his money."
+        },
+        {
+          "fr": "Il a tellement exagéré l'histoire que plus personne ne savait quelle partie était vraie.",
+          "en": "He exaggerated the story so much that no one knew which part was true."
+        },
+        {
+          "fr": "Avec son habitude de tout minimiser, il a décrit le désastre comme \"un petit contretemps\".",
+          "en": "With his habit of downplaying everything, he described the disaster as \"a minor setback\"."
+        },
+        {
+          "fr": "Il a raconté l'anecdote en exagérant chaque détail pour la rendre plus amusante.",
+          "en": "He told the anecdote exaggerating every detail to make it funnier."
+        }
+      ]
+    },
+    {
+      "number": 77,
+      "title": "Comic Timing in Conversation",
+      "titleNative": "Le rythme comique dans la conversation",
+      "items": [
+        {
+          "fr": "Il sait exactement quand marquer une pause pour que la blague ait plus d'impact.",
+          "en": "He knows exactly when to pause so the joke lands with more impact."
+        },
+        {
+          "fr": "Sa réponse est venue si vite et si absurde que tout le monde a éclaté de rire.",
+          "en": "His response came so quickly and so absurdly that everyone burst out laughing."
+        },
+        {
+          "fr": "La blague n'a pas fonctionné parce qu'il a révélé la fin trop tôt.",
+          "en": "The joke didn't work because he gave away the ending too soon."
+        },
+        {
+          "fr": "Il a un don naturel pour l'humour improvisé.",
+          "en": "He has a natural gift for improvised humor."
+        }
+      ]
+    },
+    {
+      "number": 78,
+      "title": "Cultural Humor and References",
+      "titleNative": "Humour culturel et références",
+      "items": [
+        {
+          "fr": "Cette blague n'a de sens que si tu connais la référence culturelle derrière.",
+          "en": "That joke only makes sense if you know the cultural reference behind it."
+        },
+        {
+          "fr": "L'humour ne se traduit pas toujours bien d'une langue à l'autre.",
+          "en": "Humor sometimes doesn't translate well from one language to another."
+        },
+        {
+          "fr": "Sa comédie regorge de références à la culture populaire de son pays.",
+          "en": "His comedy is full of references to his country's popular culture."
+        },
+        {
+          "fr": "Comprendre l'humour d'une autre culture, c'est en quelque sorte comprendre sa façon de penser.",
+          "en": "Understanding another culture's humor is, in a way, understanding its way of thinking."
+        }
+      ]
+    },
+    {
+      "number": 79,
+      "title": "Laughing at Life's Absurdities",
+      "titleNative": "Rire de l'absurdité de la vie",
+      "items": [
+        {
+          "fr": "Parfois la vie est si absurde qu'il ne reste qu'à en rire.",
+          "en": "Sometimes life is so absurd that laughing is the only thing left to do."
+        },
+        {
+          "fr": "Trouver de l'humour même dans les moments difficiles nous aide à les surmonter.",
+          "en": "Finding humor even in difficult moments helps us cope with them."
+        },
+        {
+          "fr": "En y repensant, cette situation si stressante nous semble maintenant comique.",
+          "en": "Looking back, that very stressful situation now seems comical to us."
+        },
+        {
+          "fr": "L'humour, bien utilisé, peut apaiser même les plus grandes tensions.",
+          "en": "Humor, used well, can ease even the greatest tensions."
+        }
+      ]
+    },
+    {
+      "number": 80,
+      "title": "Review: Humor, Irony, and Wit",
+      "titleNative": "Repaso: Humour, ironie et esprit",
+      "items": [
+        {
+          "fr": "Le bon humour demande à la fois de l'esprit et de la sensibilité au contexte.",
+          "en": "Good humor requires both wit and sensitivity to context."
+        },
+        {
+          "fr": "J'espère que tu as apprécié explorer les différentes nuances de l'humour en français.",
+          "en": "I hope you've enjoyed exploring the different nuances of humor in French."
+        },
+        {
+          "fr": "Rire ensemble est, en définitive, l'une des formes de connexion humaine les plus profondes.",
+          "en": "Laughing together, ultimately, is one of the deepest forms of human connection."
+        },
+        {
+          "fr": "J'espère que tu continueras à découvrir l'esprit et l'ironie cachés dans chaque conversation.",
+          "en": "I hope you keep discovering the wit and irony hidden in every conversation."
+        }
+      ]
+    },
+    {
+      "number": 81,
+      "title": "Building a Strong Argument",
+      "titleNative": "Construire un argument solide",
+      "items": [
+        {
+          "fr": "Un argument solide s'appuie sur des preuves vérifiables, pas seulement sur des opinions.",
+          "en": "A solid argument relies on verifiable evidence, not just opinions."
+        },
+        {
+          "fr": "Il est essentiel d'anticiper les objections avant que l'interlocuteur ne les soulève.",
+          "en": "It's essential to anticipate objections before the other party raises them."
+        },
+        {
+          "fr": "La structure logique d'un argument détermine en grande partie sa capacité à convaincre.",
+          "en": "The logical structure of an argument largely determines its ability to persuade."
+        },
+        {
+          "fr": "Présenter des contre-exemples concrets renforce considérablement toute position.",
+          "en": "Presenting concrete counterexamples considerably strengthens any position."
+        }
+      ]
+    },
+    {
+      "number": 82,
+      "title": "Identifying Logical Fallacies",
+      "titleNative": "Identifier des sophismes logiques",
+      "items": [
+        {
+          "fr": "Attaquer la personne plutôt que de réfuter son argument est un sophisme courant.",
+          "en": "Attacking the person instead of refuting their argument is a common fallacy."
+        },
+        {
+          "fr": "Généraliser à partir d'un seul cas ne constitue pas une preuve valable.",
+          "en": "Generalizing from a single case doesn't constitute valid proof."
+        },
+        {
+          "fr": "Présenter seulement deux options alors qu'il en existe plus est un sophisme fréquent.",
+          "en": "Presenting only two options when more actually exist is a frequent fallacy."
+        },
+        {
+          "fr": "Faire appel uniquement à l'émotion, sans données pour l'étayer, affaiblit l'argument.",
+          "en": "Appealing only to emotion, without data to back it up, weakens the argument."
+        }
+      ]
+    },
+    {
+      "number": 83,
+      "title": "Conceding Points Gracefully",
+      "titleNative": "Concéder des points avec élégance",
+      "items": [
+        {
+          "fr": "Je reconnais que votre argument a du mérite, bien que je sois en désaccord avec la conclusion finale.",
+          "en": "I acknowledge that your argument has merit, although I disagree with the final conclusion."
+        },
+        {
+          "fr": "Ce que vous soulignez est vrai, bien que je pense qu'il y ait d'autres facteurs à considérer.",
+          "en": "What you point out is true, although I believe there are additional factors to consider."
+        },
+        {
+          "fr": "Je concède ce point, mais j'aimerais nuancer l'argument avec une autre perspective.",
+          "en": "I concede that point, but I would like to nuance the argument with another perspective."
+        },
+        {
+          "fr": "J'admets que ma position initiale ne prenait pas en compte toutes les variables du problème.",
+          "en": "I admit my initial position didn't consider all the variables of the problem."
+        }
+      ]
+    },
+    {
+      "number": 84,
+      "title": "Rhetorical Questions",
+      "titleNative": "Questions rhétoriques",
+      "items": [
+        {
+          "fr": "Chaque personne ne mérite-t-elle pas la chance d'être écoutée ?",
+          "en": "Doesn't every person deserve the chance to be heard?"
+        },
+        {
+          "fr": "À quoi bon avancer si nous répétons les mêmes erreurs du passé ?",
+          "en": "What's the point of moving forward if we repeat the same mistakes of the past?"
+        },
+        {
+          "fr": "Pouvons-nous vraiment parler de progrès si nous laissons tant de gens de côté ?",
+          "en": "Can we really talk about progress if we leave so many behind?"
+        },
+        {
+          "fr": "N'est-il pas temps de repenser complètement nos priorités ?",
+          "en": "Isn't it time already to completely rethink our priorities?"
+        }
+      ]
+    },
+    {
+      "number": 85,
+      "title": "Persuasive Techniques",
+      "titleNative": "Techniques de persuasion",
+      "items": [
+        {
+          "fr": "Commencer par une anecdote personnelle capte l'attention du public dès le début.",
+          "en": "Starting with a personal anecdote captures the audience's attention from the start."
+        },
+        {
+          "fr": "Répéter l'idée principale de différentes façons renforce le message central.",
+          "en": "Repeating the main idea in different ways reinforces the central message."
+        },
+        {
+          "fr": "Faire appel à des valeurs partagées crée une connexion plus profonde avec le public.",
+          "en": "Appealing to shared values generates a deeper connection with the audience."
+        },
+        {
+          "fr": "Un bon orateur sait combiner logique, émotion et crédibilité dans son discours.",
+          "en": "A good speaker knows how to combine logic, emotion, and credibility in their speech."
+        }
+      ]
+    },
+    {
+      "number": 86,
+      "title": "Debating with Respect",
+      "titleNative": "Débattre avec respect",
+      "items": [
+        {
+          "fr": "On peut être profondément en désaccord sans jamais recourir aux attaques personnelles.",
+          "en": "One can profoundly disagree without ever resorting to personal attacks."
+        },
+        {
+          "fr": "Écouter activement son adversaire, plutôt que d'attendre simplement son tour de parole, améliore tout débat.",
+          "en": "Actively listening to the opponent, instead of just waiting to speak, improves any debate."
+        },
+        {
+          "fr": "Un débat sain cherche la vérité, pas simplement à gagner à tout prix.",
+          "en": "A healthy debate seeks the truth, not simply winning at all costs."
+        },
+        {
+          "fr": "Reconnaître la complexité d'un sujet est un signe de maturité intellectuelle, pas de faiblesse.",
+          "en": "Acknowledging a topic's complexity is a sign of intellectual maturity, not weakness."
+        }
+      ]
+    },
+    {
+      "number": 87,
+      "title": "Analyzing Both Sides",
+      "titleNative": "Analyser les deux côtés",
+      "items": [
+        {
+          "fr": "Avant de prendre parti, il convient de bien comprendre les arguments des deux côtés.",
+          "en": "Before taking sides, it's worth thoroughly understanding both sides' arguments."
+        },
+        {
+          "fr": "Chaque position a des points valables qui méritent d'être pris au sérieux.",
+          "en": "Each position has valid points that deserve to be considered seriously."
+        },
+        {
+          "fr": "Simplifier un débat complexe en deux camps opposés reflète rarement la réalité.",
+          "en": "Simplifying a complex debate into two opposing camps rarely reflects reality."
+        },
+        {
+          "fr": "Une analyse équilibrée reconnaît aussi bien les forces que les faiblesses de chaque argument.",
+          "en": "A balanced analysis acknowledges both the strengths and weaknesses of each argument."
+        }
+      ]
+    },
+    {
+      "number": 88,
+      "title": "Formal Debate Structure",
+      "titleNative": "Structure formelle d'un débat",
+      "items": [
+        {
+          "fr": "Chaque participant disposera de cinq minutes pour exposer sa position initiale.",
+          "en": "Each participant will have five minutes to present their initial position."
+        },
+        {
+          "fr": "Après les interventions, un temps de réplique sera ouvert entre les deux parties.",
+          "en": "After the presentations, a round of rebuttals between both parties will open."
+        },
+        {
+          "fr": "Le modérateur veillera à ce que les temps établis soient respectés.",
+          "en": "The moderator will ensure that the established times are respected."
+        },
+        {
+          "fr": "À la fin, chaque équipe aura l'occasion de présenter une conclusion finale.",
+          "en": "At the end, each team will have the opportunity to present a final conclusion."
+        }
+      ]
+    },
+    {
+      "number": 89,
+      "title": "Changing Your Mind Gracefully",
+      "titleNative": "Changer d'avis avec élégance",
+      "items": [
+        {
+          "fr": "Après avoir entendu vos arguments, j'ai complètement reconsidéré ma position.",
+          "en": "After hearing your arguments, I've completely reconsidered my position."
+        },
+        {
+          "fr": "Il n'y a rien de mal à changer d'avis quand les preuves le montrent.",
+          "en": "There's nothing wrong with changing your mind when the evidence indicates so."
+        },
+        {
+          "fr": "Admettre qu'on s'est trompé demande une honnêteté intellectuelle admirable.",
+          "en": "Admitting you were wrong requires admirable intellectual honesty."
+        },
+        {
+          "fr": "Mes idées ont considérablement évolué depuis que nous avons commencé cette conversation.",
+          "en": "My ideas have evolved considerably since we started this conversation."
+        }
+      ]
+    },
+    {
+      "number": 90,
+      "title": "Review: Debate and Rhetoric",
+      "titleNative": "Repaso: Débat et rhétorique",
+      "items": [
+        {
+          "fr": "Un bon débat nous oblige à examiner nos propres idées avec plus de profondeur.",
+          "en": "A good debate forces us to examine our own ideas more deeply."
+        },
+        {
+          "fr": "J'espère que tu continueras à pratiquer l'art d'argumenter avec clarté et respect.",
+          "en": "I hope you keep practicing the art of arguing with clarity and respect."
+        },
+        {
+          "fr": "En définitive, l'objectif de tout débat authentique devrait être de nous rapprocher de la vérité.",
+          "en": "Ultimately, the goal of any genuine debate should be to bring us closer to the truth."
+        },
+        {
+          "fr": "J'espère que ces outils te serviront autant dans ta vie professionnelle que personnelle.",
+          "en": "I hope these tools serve you both professionally and personally."
+        }
+      ]
+    },
+    {
+      "number": 91,
+      "title": "A Masterclass in Persuasion",
+      "titleNative": "Une leçon magistrale de persuasion",
+      "items": [
+        {
+          "fr": "L'orateur, sachant exactement quoi dire, a captivé tout le public dès la première minute.",
+          "en": "The speaker, knowing exactly what to say, captivated the entire audience from the first minute."
+        },
+        {
+          "fr": "Il convient de souligner qu'il n'a jamais eu recours à des attaques personnelles, gagnant ainsi le respect de ses rivaux.",
+          "en": "It's worth noting that he never resorted to personal attacks, thereby earning his rivals' respect."
+        },
+        {
+          "fr": "Afin de rester clair, il a évité un langage trop technique qui a tendance à éloigner le public.",
+          "en": "For the sake of clarity, he avoided the overly technical language that tends to alienate the audience."
+        },
+        {
+          "fr": "À la fin, même ses opposants les plus acharnés n'ont pu nier la force de son argument.",
+          "en": "By the end, not even his staunchest opponents could deny the strength of his argument."
+        }
+      ]
+    },
+    {
+      "number": 92,
+      "title": "The Journalist's Dilemma",
+      "titleNative": "Le dilemme du journaliste",
+      "items": [
+        {
+          "fr": "Le journaliste affirma que, sous peine de perdre sa crédibilité, il ne publierait jamais rien sans le vérifier.",
+          "en": "The journalist stated that, on pain of losing his credibility, he would never publish something without verifying it."
+        },
+        {
+          "fr": "Cependant qu'il enquêtait sur l'affaire, il a reçu des menaces qui auraient intimidé n'importe qui.",
+          "en": "While investigating the case, he received threats that would have intimidated anyone."
+        },
+        {
+          "fr": "Néanmoins, savoir que la vérité méritait d'être révélée lui a donné la force de continuer.",
+          "en": "However, knowing the truth deserved to come out gave him the strength to continue."
+        },
+        {
+          "fr": "En publiant finalement son enquête, il a complètement changé le cours de ce scandale.",
+          "en": "By finally publishing his investigation, he completely changed the course of that scandal."
+        }
+      ]
+    },
+    {
+      "number": 93,
+      "title": "A Novel Within a Novel",
+      "titleNative": "Un roman dans un roman",
+      "items": [
+        {
+          "fr": "Le personnage principal, en écrivant sur sa propre vie, ne savait pas s'il racontait la réalité ou la fiction.",
+          "en": "The main character, writing about his own life, didn't know whether he was narrating reality or fiction."
+        },
+        {
+          "fr": "Il était une fois un écrivain dont le chef-d'œuvre se révéla, en définitive, un miroir de sa propre existence.",
+          "en": "There once was a writer whose masterpiece turned out to be, ultimately, a mirror of his own existence."
+        },
+        {
+          "fr": "Il convient de souligner que le dénouement ambigu a laissé les lecteurs débattre pendant des décennies.",
+          "en": "It's worth noting that the ambiguous ending left readers debating for decades."
+        },
+        {
+          "fr": "Cette œuvre allait, sans aucun doute, redéfinir à jamais ce que signifie raconter une histoire.",
+          "en": "That work would, without a doubt, forever redefine what it means to tell a story."
+        }
+      ]
+    },
+    {
+      "number": 94,
+      "title": "The Comedian's Secret",
+      "titleNative": "Le secret du comédien",
+      "items": [
+        {
+          "fr": "Son humour, bien qu'il semblât spontané, cachait des années de pratique méticuleuse en coulisses.",
+          "en": "His humor, though it seemed spontaneous, hid years of meticulous practice behind the scenes."
+        },
+        {
+          "fr": "Sachant exactement quand marquer une pause, il parvenait à rendre hilarante la blague la plus simple.",
+          "en": "Knowing exactly when to pause, he managed to make even the simplest joke hilarious."
+        },
+        {
+          "fr": "Nul doute que le bon humour demande autant de discipline que n'importe quel autre art.",
+          "en": "There's no doubt that good humor requires as much discipline as any other art."
+        },
+        {
+          "fr": "En riant de ses propres échecs, il a appris à toute une génération à ne pas se prendre trop au sérieux.",
+          "en": "By laughing at his own failures, he taught an entire generation not to take itself so seriously."
+        }
+      ]
+    },
+    {
+      "number": 95,
+      "title": "A Historian's Final Lecture",
+      "titleNative": "La dernière leçon d'un historien",
+      "items": [
+        {
+          "fr": "Lors de son dernier cours, il affirma que le savoir sans sagesse est, en définitive, incomplet.",
+          "en": "In his last class, he stated that knowledge without wisdom is, ultimately, incomplete."
+        },
+        {
+          "fr": "S'il n'avait pas consacré sa vie à étudier le passé, jamais il n'aurait aussi bien compris le présent.",
+          "en": "Had he not dedicated his life to studying the past, he would never have understood the present so well."
+        },
+        {
+          "fr": "Il convient de souligner que ses étudiants, l'écoutant attentivement, ont compris qu'il s'agissait d'un adieu.",
+          "en": "It's worth noting that his students, listening attentively, understood that this was a farewell."
+        },
+        {
+          "fr": "Il conclut en disant que l'héritage le plus précieux n'est pas ce que nous savons, mais à qui nous le transmettons.",
+          "en": "He concluded by saying that the most valuable legacy isn't what we know, but who we teach it to."
+        }
+      ]
+    },
+    {
+      "number": 96,
+      "title": "A Letter Never Meant to Be Read",
+      "titleNative": "Une lettre qui ne devait jamais être lue",
+      "items": [
+        {
+          "fr": "En écrivant le cœur ouvert, il avoua des vérités qu'il n'avait jamais dites à voix haute.",
+          "en": "Writing with his heart in his hand, he confessed truths he had never said out loud."
+        },
+        {
+          "fr": "S'il avait su que quelqu'un la lirait un jour, peut-être ne l'aurait-il jamais écrite.",
+          "en": "Had he known someone would read it someday, he might never have written it."
+        },
+        {
+          "fr": "Cependant qu'elle la lisait, elle comprit que ces mots décrivaient exactement ce qu'elle ressentait elle aussi.",
+          "en": "As he read it, he understood those words described exactly what he too felt."
+        },
+        {
+          "fr": "Cette lettre, conservée pendant des années, finit par réunir deux personnes que le destin avait séparées.",
+          "en": "That letter, kept for years, ended up uniting two people whom fate had separated."
+        }
+      ]
+    },
+    {
+      "number": 97,
+      "title": "The Activist's Legacy",
+      "titleNative": "L'héritage de l'activiste",
+      "items": [
+        {
+          "fr": "Elle a consacré toute sa vie à une cause que, sous peine de sembler naïve, beaucoup jugeaient impossible.",
+          "en": "She dedicated her whole life to a cause that, at the risk of seeming naive, many considered impossible."
+        },
+        {
+          "fr": "Si elle n'avait pas persévéré contre vents et marées, cette loi n'aurait jamais été adoptée.",
+          "en": "Had she not persisted against all odds, that law would never have been approved."
+        },
+        {
+          "fr": "Il convient de souligner que ni les menaces ni le mépris n'ont réussi à éteindre sa conviction.",
+          "en": "It's worth noting that neither threats nor scorn managed to extinguish her conviction."
+        },
+        {
+          "fr": "Aujourd'hui, des générations entières vivent mieux grâce au fait qu'elle n'a jamais cessé de se battre.",
+          "en": "Today, entire generations live better thanks to the knowledge that she never stopped fighting."
+        }
+      ]
+    },
+    {
+      "number": 98,
+      "title": "A Debate That United a Divided Town",
+      "titleNative": "Un débat qui a uni une ville divisée",
+      "items": [
+        {
+          "fr": "Loin d'approfondir la division, ce débat a, étonnamment, réussi à rapprocher les deux camps.",
+          "en": "Far from deepening the division, that debate, surprisingly, managed to bring both sides closer."
+        },
+        {
+          "fr": "S'écoutant mutuellement pour la première fois depuis des années, ils ont compris qu'ils partageaient plus qu'ils ne le croyaient.",
+          "en": "Listening to each other for the first time in years, they understood they shared more than they thought."
+        },
+        {
+          "fr": "Il convient de souligner qu'aucun des deux camps n'a totalement cédé, mais tous deux ont appris à respecter l'autre.",
+          "en": "It's worth noting that neither side gave in entirely, but both learned to respect the other."
+        },
+        {
+          "fr": "En définitive, ce jour-là a prouvé que le dialogue authentique peut guérir même les blessures les plus profondes.",
+          "en": "Ultimately, that day proved that genuine dialogue can heal even the deepest wounds."
+        }
+      ]
+    },
+    {
+      "number": 99,
+      "title": "What Fluency Really Means",
+      "titleNative": "Ce que la fluidité signifie vraiment",
+      "items": [
+        {
+          "fr": "Maîtriser une langue ne consiste pas seulement à connaître ses règles, mais à comprendre son âme.",
+          "en": "Mastering a language doesn't consist only of knowing its rules, but of understanding its soul."
+        },
+        {
+          "fr": "Si tu ne t'étais pas aventuré dans ses expressions idiomatiques et son ironie, jamais tu n'aurais compris son véritable esprit.",
+          "en": "Had you not delved into its idioms and irony, you would never have understood its true wit."
+        },
+        {
+          "fr": "Il convient de souligner que chaque niveau que tu as franchi t'a rapproché, peu à peu, de penser en français.",
+          "en": "It's worth noting that every level you overcame brought you, little by little, closer to thinking in French."
+        },
+        {
+          "fr": "En définitive, tu n'apprends plus le français : tu le vis.",
+          "en": "Ultimately, you're no longer learning French: you're living it."
+        }
+      ]
+    },
+    {
+      "number": 100,
+      "title": "Review: C1 Capstone",
+      "titleNative": "Repaso: Cierre de C1",
+      "items": [
+        {
+          "fr": "Tu as atteint un niveau où tu peux débattre, plaisanter et émouvoir en français avec aisance.",
+          "en": "You've reached a level where you can debate, joke, and move people in French with ease."
+        },
+        {
+          "fr": "Il convient de souligner que très peu d'étudiants vont aussi loin avec autant de dévouement.",
+          "en": "It's worth noting that very few students come this far with such dedication."
+        },
+        {
+          "fr": "En définitive, tu possèdes désormais les outils d'un locuteur véritablement avancé.",
+          "en": "Ultimately, you now possess the tools of a truly advanced speaker."
+        },
+        {
+          "fr": "Je suis convaincu que le niveau de maîtrise qui suit est tout à fait à ta portée.",
+          "en": "I'm convinced that the level of mastery that follows is completely within your reach."
+        }
+      ]
+    }
+  ]
+}
