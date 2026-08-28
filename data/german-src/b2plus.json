@@ -1,0 +1,2478 @@
+{
+  "level": "b2plus",
+  "grammarTopics": {
+    "b2plus-erweiterte-partizipialattribute": {
+      "title": "Extended Participial Attributes",
+      "pattern": "der [modifier(s)] + participle + noun: der schnell laufende Mann; die von allen bewunderte Künstlerin",
+      "explanation": "An \"extended\" participial attribute packs an entire clause's worth of information between the article and the noun, with the participle itself sitting right before the noun: \"der schnell laufende Mann\" (the man running quickly, from \"der Mann, der schnell läuft\"), \"die von allen bewunderte Künstlerin\" (the artist admired by everyone, from \"die Künstlerin, die von allen bewundert wird\"). This is extremely common in written/journalistic German because it compresses a relative clause into a single noun phrase.",
+      "fact": "The reading strategy is to find the participle first (it's always right before the noun, carrying the adjective ending), then read everything between the article and the participle as if it were the missing relative clause's content, mentally reordering it into normal subject-verb order — this trick makes even long, dense extended attributes tractable.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Wer ist die von allen bewunderte Künstlerin?",
+          "en": "Who is the artist admired by everyone?"
+        },
+        {
+          "sp": "B",
+          "native": "Das ist die vor kurzem ausgezeichnete Malerin aus Dresden.",
+          "en": "That's the recently awarded painter from Dresden."
+        }
+      ]
+    },
+    "b2plus-nominalstil": {
+      "title": "Nominal Style vs. Verbal Style",
+      "pattern": "Nominalstil: compact, noun-heavy, formal; Verbalstil: clause-heavy, natural, conversational",
+      "explanation": "German writing sits on a spectrum between \"Nominalstil\" (nominal style: dense, noun-heavy, favored in bureaucratic, legal, and academic writing) and \"Verbalstil\" (verbal style: built from clauses and verbs, favored in conversation and narrative). The same content can be expressed either way: \"Nach Abschluss der Untersuchung erfolgte die Veröffentlichung der Ergebnisse\" (Nominalstil) vs. \"Nachdem die Untersuchung abgeschlossen war, wurden die Ergebnisse veröffentlicht\" (Verbalstil) — both correct, different register.",
+      "fact": "Being able to convert fluidly between the two is a genuine B2+ skill: reading official documents, contracts, and news requires decoding dense Nominalstil, while sounding natural in conversation requires defaulting back to Verbalstil — native speakers constantly switch between them based on context.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Nach Beendigung der Sitzung erfolgt die Bekanntgabe der Ergebnisse.",
+          "en": "Following the conclusion of the meeting, the results will be announced."
+        },
+        {
+          "sp": "B",
+          "native": "Das heißt einfach: Wenn die Sitzung endet, werden die Ergebnisse bekannt gegeben.",
+          "en": "That simply means: When the meeting ends, the results will be announced."
+        }
+      ]
+    },
+    "b2plus-genitivpraepositionen": {
+      "title": "Advanced Genitive Prepositions",
+      "pattern": "aufgrund, angesichts, infolge, innerhalb, außerhalb, anhand, mithilfe + Genitiv",
+      "explanation": "Beyond wegen/trotz/während/statt, formal and written German uses a wider set of Genitiv prepositions: \"aufgrund\" (due to, based on: \"aufgrund der Umstände\"), \"angesichts\" (in view of: \"angesichts der Lage\"), \"infolge\" (as a result of: \"infolge des Unfalls\"), \"innerhalb\"/\"außerhalb\" (within/outside: \"innerhalb einer Woche\"), \"anhand\" (on the basis of, using: \"anhand der Daten\"), \"mithilfe\" (with the help of: \"mithilfe eines Experten\").",
+      "fact": "These prepositions cluster heavily in news, academic, and business writing — recognizing them fluently is often more valuable at this level than producing them from scratch, since they signal exactly the kind of formal, evidence-based reasoning (\"based on the data\", \"in view of the situation\") that characterizes higher-register texts.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Wie habt ihr die Entscheidung getroffen?",
+          "en": "How did you make the decision?"
+        },
+        {
+          "sp": "B",
+          "native": "Anhand der Daten und angesichts der Fristen war es die einzig sinnvolle Wahl.",
+          "en": "Based on the data and in view of the deadlines, it was the only sensible choice."
+        }
+      ]
+    },
+    "b2plus-wortfeld-wirtschaft": {
+      "title": "Vocabulary Domain: Economy and Business",
+      "pattern": "die Wirtschaft, das Wachstum, die Inflation, der Wettbewerb, die Investition, der Umsatz",
+      "explanation": "Economic and business vocabulary appears constantly in news, reports, and professional contexts: \"die Wirtschaft\" (the economy), \"das Wachstum\" (growth), \"die Inflation\" (inflation), \"der Wettbewerb\" (competition), \"die Investition\" (investment), \"der Umsatz\" (revenue/turnover), \"die Arbeitslosigkeit\" (unemployment). Mastering this domain unlocks a huge share of authentic written German.",
+      "fact": "Many of these nouns pair with a small set of recurring verbs worth learning together: Wirtschaft wächst/schrumpft (grows/shrinks), Preise steigen/sinken (rise/fall), Investitionen tätigen (make investments) — learning noun+verb collocations, not just isolated words, is what makes vocabulary usable in real sentences.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Wie entwickelt sich die Wirtschaft dieses Jahr?",
+          "en": "How is the economy developing this year?"
+        },
+        {
+          "sp": "B",
+          "native": "Das Wachstum ist stabil, aber die Inflation bereitet vielen Sorgen.",
+          "en": "Growth is stable, but inflation worries many."
+        }
+      ]
+    },
+    "b2plus-wortfeld-politik": {
+      "title": "Vocabulary Domain: Politics and Society",
+      "pattern": "die Regierung, die Wahl, die Gesellschaft, die Demokratie, das Gesetz, die Bevölkerung",
+      "explanation": "Political and social vocabulary is essential for following news and discussing current events: \"die Regierung\" (the government), \"die Wahl\" (the election), \"die Gesellschaft\" (society), \"die Demokratie\" (democracy), \"das Gesetz\" (the law), \"die Bevölkerung\" (the population), \"die Menschenrechte\" (human rights), \"die Gerechtigkeit\" (justice).",
+      "fact": "These words appear constantly alongside the Konjunktiv I reported speech and passive constructions already learned — political and news texts are, in fact, the natural home of both those grammar points, so practicing this vocabulary alongside them reinforces everything together.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Was denkst du über die kommende Wahl?",
+          "en": "What do you think about the upcoming election?"
+        },
+        {
+          "sp": "B",
+          "native": "Ich hoffe, dass sich die Regierung mehr um soziale Gerechtigkeit kümmert.",
+          "en": "I hope the government cares more about social justice."
+        }
+      ]
+    },
+    "b2plus-wortfeld-wissenschaft": {
+      "title": "Vocabulary Domain: Science and Technology",
+      "pattern": "die Forschung, die Entdeckung, das Experiment, die Technologie, die Entwicklung, künstliche Intelligenz",
+      "explanation": "Scientific and technological vocabulary opens up an enormous share of modern written German: \"die Forschung\" (research), \"die Entdeckung\" (discovery), \"das Experiment\" (experiment), \"die Technologie\" (technology), \"die Entwicklung\" (development), \"künstliche Intelligenz\" (artificial intelligence), \"die Erkenntnis\" (finding/insight). These words often pair with nominalization and passive constructions already learned, since scientific writing favors both registers heavily.",
+      "fact": "Notice how many of these nouns are themselves nominalizations of familiar verbs (forschen → Forschung, entdecken → Entdeckung, entwickeln → Entwicklung) — recognizing the verb underneath an unfamiliar scientific noun is often the fastest way to guess its meaning without a dictionary.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Woran forscht dein Team gerade?",
+          "en": "What is your team researching right now?"
+        },
+        {
+          "sp": "B",
+          "native": "Wir untersuchen, wie künstliche Intelligenz die Medizin verändern könnte.",
+          "en": "We're investigating how artificial intelligence could change medicine."
+        }
+      ]
+    },
+    "b2plus-funktionsverbgefuege": {
+      "title": "Funktionsverbgefüge: Support-Verb Constructions",
+      "pattern": "in Kraft treten, zur Verfügung stellen, Rücksicht nehmen, Anwendung finden, zum Ausdruck bringen",
+      "explanation": "\"Funktionsverbgefüge\" pair a semantically \"empty\" verb (treten, stellen, nehmen, bringen, finden...) with a noun that carries the real meaning, forming a fixed formal expression: \"in Kraft treten\" (to take effect, literally \"to step into force\"), \"zur Verfügung stellen\" (to make available), \"Rücksicht nehmen\" (to show consideration). These constructions are everywhere in formal, bureaucratic, and journalistic German, often replacing a plain verb (\"gelten\" → \"in Kraft treten\" / \"berücksichtigen\" → \"Rücksicht nehmen\").",
+      "fact": "These phrases must be learned as fixed units, not built from their parts — the noun inside almost always resists a normal article and takes a specific, memorized case (\"Rücksicht nehmen AUF + Akkusativ\", \"zur Verfügung STELLEN\" always with \"zur\", never \"zu der\" spelled out). Treat each one as its own vocabulary item.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Wann tritt das neue Gesetz in Kraft?",
+          "en": "When does the new law take effect?"
+        },
+        {
+          "sp": "B",
+          "native": "Nächsten Monat, und die Firma muss den Mitarbeitern mehr Informationen zur Verfügung stellen.",
+          "en": "Next month, and the company has to make more information available to employees."
+        }
+      ]
+    },
+    "b2plus-abstrakte-substantive": {
+      "title": "Complex Sentences with Abstract Nouns",
+      "pattern": "combining nominalization, genitive prepositions, and passive/modal structures in dense sentences",
+      "explanation": "At this level, sentences increasingly combine everything learned so far — nominalization, advanced genitive prepositions, passive constructions, and extended attributes — into single, dense, information-rich sentences typical of high-register writing: \"Die aufgrund mangelnder Ressourcen verzögerte Umsetzung der Reform sorgte für erhebliche Kritik\" (The implementation of the reform, delayed due to lack of resources, caused considerable criticism). Learning to parse and produce such sentences is the core B2+ skill.",
+      "fact": "The reading strategy for these dense sentences: find the main verb first (it anchors the sentence), then work outward — identify the subject noun phrase (often itself containing a nominalization and an extended attribute), and treat each genitive/prepositional phrase as a separable chunk of information rather than trying to process the whole sentence linearly.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Was war der Grund für die Verzögerung?",
+          "en": "What was the reason for the delay?"
+        },
+        {
+          "sp": "B",
+          "native": "Die aufgrund technischer Probleme verzögerte Fertigstellung des Projekts sorgte für Unmut.",
+          "en": "The completion of the project, delayed due to technical problems, caused displeasure."
+        }
+      ]
+    },
+    "b2plus-stilregister": {
+      "title": "Register-Shifting: Formal vs. Informal",
+      "pattern": "same content, different register: formal/written vs. informal/spoken paraphrase",
+      "explanation": "Truly advanced German means being able to say the same thing in different registers depending on context — a formal letter to an authority, a casual chat with a friend, a professional email to a colleague. This isn't new grammar so much as a new skill: choosing vocabulary, sentence structure (Nominalstil vs. Verbalstil), and directness level to match the situation.",
+      "fact": "A reliable rule of thumb: formal register favors nominalization, passive voice, Konjunktiv II for politeness, and longer sentences with subordinate clauses; informal register favors short main clauses, modal particles (doch, mal, ja), and the active voice with \"man\" or a direct \"du\". Recognizing which signals belong to which register lets you shift deliberately instead of by accident.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Könnten Sie mir freundlicherweise mitteilen, wann der Termin stattfindet?",
+          "en": "Could you kindly let me know when the appointment takes place?"
+        },
+        {
+          "sp": "B",
+          "native": "Klar, sag mir doch einfach, wann's dir passt!",
+          "en": "Sure, just tell me when it works for you!"
+        }
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Basic Extended Attributes",
+      "titleNative": "Grundlegende erweiterte Attribute",
+      "items": [
+        {
+          "de": "Der schnell laufende Mann überholte alle anderen.",
+          "en": "The fast-running man overtook everyone else."
+        },
+        {
+          "de": "Die laut lachenden Kinder störten die Nachbarn.",
+          "en": "The loudly laughing children disturbed the neighbors."
+        },
+        {
+          "de": "Das leise spielende Radio war kaum zu hören.",
+          "en": "The quietly playing radio was barely audible."
+        },
+        {
+          "de": "Der ruhig schlafende Hund bemerkte nichts.",
+          "en": "The peacefully sleeping dog noticed nothing."
+        }
+      ],
+      "topicId": "b2plus-erweiterte-partizipialattribute"
+    },
+    {
+      "number": 2,
+      "title": "Passive Extended Attributes",
+      "titleNative": "Passive erweiterte Attribute",
+      "items": [
+        {
+          "de": "Die von allen bewunderte Künstlerin gab ein seltenes Interview.",
+          "en": "The artist admired by everyone gave a rare interview."
+        },
+        {
+          "de": "Der vor Jahren gebaute Turm zieht heute viele Touristen an.",
+          "en": "The tower built years ago attracts many tourists today."
+        },
+        {
+          "de": "Das gestern veröffentlichte Buch wurde sofort ein Bestseller.",
+          "en": "The book published yesterday immediately became a bestseller."
+        },
+        {
+          "de": "Die von der Regierung geplante Reform sorgt für Diskussionen.",
+          "en": "The reform planned by the government is causing discussions."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "In Formal Descriptions",
+      "titleNative": "In formellen Beschreibungen",
+      "items": [
+        {
+          "de": "Die im letzten Jahr eröffnete Fabrik beschäftigt hundert Menschen.",
+          "en": "The factory opened last year employs a hundred people."
+        },
+        {
+          "de": "Der vom Gericht verurteilte Mann legte Berufung ein.",
+          "en": "The man convicted by the court filed an appeal."
+        },
+        {
+          "de": "Die weltweit anerkannte Universität zieht viele internationale Studenten an.",
+          "en": "The internationally recognized university attracts many international students."
+        },
+        {
+          "de": "Das lange erwartete Ergebnis wurde endlich bekannt gegeben.",
+          "en": "The long-awaited result was finally announced."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "In News Reporting",
+      "titleNative": "In der Nachrichtenberichterstattung",
+      "items": [
+        {
+          "de": "Die stark gestiegenen Preise beunruhigen die Verbraucher.",
+          "en": "The sharply risen prices worry consumers."
+        },
+        {
+          "de": "Das kürzlich verabschiedete Gesetz tritt nächsten Monat in Kraft.",
+          "en": "The recently passed law takes effect next month."
+        },
+        {
+          "de": "Der schwer verletzte Fahrer wurde ins Krankenhaus gebracht.",
+          "en": "The severely injured driver was taken to the hospital."
+        },
+        {
+          "de": "Die dringend benötigte Hilfe erreichte die Region rechtzeitig.",
+          "en": "The urgently needed help reached the region in time."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Combining with Relative Clauses",
+      "titleNative": "Mit Relativsätzen kombinieren",
+      "items": [
+        {
+          "de": "Der gut vorbereitete Student, der die Prüfung bestand, war sehr erleichtert.",
+          "en": "The well-prepared student, who passed the exam, was very relieved."
+        },
+        {
+          "de": "Die neu eröffnete Bäckerei, die schon sehr beliebt ist, liegt um die Ecke.",
+          "en": "The newly opened bakery, which is already very popular, is around the corner."
+        },
+        {
+          "de": "Das oft diskutierte Problem, das niemand lösen konnte, blieb ungelöst.",
+          "en": "The often discussed problem, which no one could solve, remained unsolved."
+        },
+        {
+          "de": "Die schnell wachsende Firma, die viele neue Mitarbeiter sucht, expandiert weiter.",
+          "en": "The rapidly growing company, which is looking for many new employees, keeps expanding."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Everyday Extended Attributes",
+      "titleNative": "Alltägliche erweiterte Attribute",
+      "items": [
+        {
+          "de": "Der frisch gebackene Kuchen duftete durch das ganze Haus.",
+          "en": "The freshly baked cake smelled through the whole house."
+        },
+        {
+          "de": "Die sorgfältig ausgewählten Geschenke gefielen allen Gästen.",
+          "en": "The carefully chosen gifts pleased all the guests."
+        },
+        {
+          "de": "Das liebevoll renovierte Haus wurde zum Familientreffpunkt.",
+          "en": "The lovingly renovated house became the family's meeting point."
+        },
+        {
+          "de": "Der geduldig wartende Kunde bekam schließlich Hilfe.",
+          "en": "The patiently waiting customer finally got help."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Business Contexts",
+      "titleNative": "Geschäftliche Kontexte",
+      "items": [
+        {
+          "de": "Die kürzlich gegründete Firma sucht bereits neue Investoren.",
+          "en": "The recently founded company is already looking for new investors."
+        },
+        {
+          "de": "Das stark nachgefragte Produkt war innerhalb weniger Tage ausverkauft.",
+          "en": "The highly demanded product was sold out within a few days."
+        },
+        {
+          "de": "Der intensiv geprüfte Vertrag wurde schließlich unterschrieben.",
+          "en": "The intensively reviewed contract was finally signed."
+        },
+        {
+          "de": "Die kontinuierlich verbesserte Software wird von vielen Firmen genutzt.",
+          "en": "The continuously improved software is used by many companies."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Multiple Modifiers",
+      "titleNative": "Mehrere Modifikatoren",
+      "items": [
+        {
+          "de": "Der über Nacht heftig gefallene Schnee bedeckte die ganze Stadt.",
+          "en": "The snow that had fallen heavily overnight covered the whole city."
+        },
+        {
+          "de": "Die schon lange erwartete und endlich veröffentlichte Studie überraschte viele.",
+          "en": "The long-awaited and finally published study surprised many."
+        },
+        {
+          "de": "Das mit großem Aufwand renovierte Theater öffnete wieder seine Türen.",
+          "en": "The theater renovated with great effort reopened its doors."
+        },
+        {
+          "de": "Der von Experten sorgfältig geprüfte Plan wurde schließlich genehmigt.",
+          "en": "The plan, carefully reviewed by experts, was finally approved."
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Reading Dense Sentences",
+      "titleNative": "Dichte Sätze lesen",
+      "items": [
+        {
+          "de": "Die vor kurzem von der Stadt eröffnete Bibliothek bietet vielen Studenten einen ruhigen Ort zum Lernen.",
+          "en": "The library recently opened by the city offers many students a quiet place to study."
+        },
+        {
+          "de": "Der wegen seiner Fehler stark kritisierte Politiker trat schließlich zurück.",
+          "en": "The politician heavily criticized for his mistakes finally resigned."
+        },
+        {
+          "de": "Das seit Jahren geplante und mehrmals verschobene Projekt begann endlich diese Woche.",
+          "en": "The project planned for years and postponed several times finally began this week."
+        },
+        {
+          "de": "Die von vielen erwartete, aber lange verzögerte Entscheidung wurde gestern getroffen.",
+          "en": "The decision awaited by many, but long delayed, was made yesterday."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Review: Extended Participial Attributes",
+      "titleNative": "Repaso: Erweiterte Partizipialattribute",
+      "items": [
+        {
+          "de": "Der schnell wachsende, international bekannte Konzern eröffnete eine neue Filiale.",
+          "en": "The rapidly growing, internationally known company opened a new branch."
+        },
+        {
+          "de": "Die sorgfältig geplante und pünktlich durchgeführte Veranstaltung war ein voller Erfolg.",
+          "en": "The carefully planned and punctually executed event was a complete success."
+        },
+        {
+          "de": "Das von allen respektierte, seit Jahrzehnten bestehende Unternehmen feierte sein Jubiläum.",
+          "en": "The company respected by everyone, existing for decades, celebrated its anniversary."
+        },
+        {
+          "de": "Der lange gesuchte, endlich gefundene Ausweg brachte allen große Erleichterung.",
+          "en": "The long-sought, finally found way out brought everyone great relief."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Converting Nominal to Verbal",
+      "titleNative": "Nominalstil in Verbalstil umwandeln",
+      "items": [
+        {
+          "de": "Nach Ankunft des Zuges verließen die Passagiere den Bahnhof. – Nachdem der Zug angekommen war, verließen die Passagiere den Bahnhof.",
+          "en": "After the train's arrival, the passengers left the station. – After the train had arrived, the passengers left the station."
+        },
+        {
+          "de": "Bei Nichtbeachtung der Regeln drohen Konsequenzen. – Wenn man die Regeln nicht beachtet, drohen Konsequenzen.",
+          "en": "In case of non-compliance with the rules, consequences threaten. – If one doesn't comply with the rules, consequences threaten."
+        },
+        {
+          "de": "Trotz mehrfacher Warnung ignorierte er die Anweisungen. – Obwohl man ihn mehrmals gewarnt hatte, ignorierte er die Anweisungen.",
+          "en": "Despite repeated warning, he ignored the instructions. – Although he had been warned repeatedly, he ignored the instructions."
+        },
+        {
+          "de": "Wegen der Verspätung des Fluges verpassten sie den Anschluss. – Weil der Flug sich verspätete, verpassten sie den Anschluss.",
+          "en": "Because of the flight's delay, they missed the connection. – Because the flight was delayed, they missed the connection."
+        }
+      ],
+      "topicId": "b2plus-nominalstil"
+    },
+    {
+      "number": 12,
+      "title": "Bureaucratic Nominalstil",
+      "titleNative": "Bürokratischer Nominalstil",
+      "items": [
+        {
+          "de": "Zur Beantragung des Visums ist die Vorlage folgender Dokumente erforderlich.",
+          "en": "For the application of the visa, submission of the following documents is required."
+        },
+        {
+          "de": "Nach Prüfung des Antrags erfolgt eine schriftliche Benachrichtigung.",
+          "en": "After review of the application, a written notification follows."
+        },
+        {
+          "de": "Bei Fragen zur Bearbeitung wenden Sie sich bitte an die zuständige Abteilung.",
+          "en": "For questions regarding processing, please contact the responsible department."
+        },
+        {
+          "de": "Die Einreichung der Unterlagen hat bis zum genannten Termin zu erfolgen.",
+          "en": "The submission of the documents must take place by the stated deadline."
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "title": "Legal and Formal Contexts",
+      "titleNative": "Rechtliche und formelle Kontexte",
+      "items": [
+        {
+          "de": "Bei Vertragsverletzung behält sich das Unternehmen rechtliche Schritte vor.",
+          "en": "In the event of a breach of contract, the company reserves the right to take legal action."
+        },
+        {
+          "de": "Nach Zustellung des Schreibens beginnt die Frist zu laufen.",
+          "en": "After delivery of the letter, the deadline begins to run."
+        },
+        {
+          "de": "Zur Klärung offener Fragen wird ein Termin vereinbart.",
+          "en": "For the clarification of open questions, an appointment is arranged."
+        },
+        {
+          "de": "Die Genehmigung des Antrags erfolgt unter bestimmten Bedingungen.",
+          "en": "The approval of the application takes place under certain conditions."
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "title": "News Headlines and Nominalstil",
+      "titleNative": "Schlagzeilen und Nominalstil",
+      "items": [
+        {
+          "de": "Regierung kündigt Erhöhung der Steuern an.",
+          "en": "Government announces increase in taxes."
+        },
+        {
+          "de": "Nach Rücktritt des Ministers folgt Suche nach Nachfolger.",
+          "en": "After the minister's resignation, the search for a successor follows."
+        },
+        {
+          "de": "Verbesserung der Wirtschaftslage sorgt für Optimismus.",
+          "en": "Improvement of the economic situation causes optimism."
+        },
+        {
+          "de": "Einführung neuer Gesetze löst Diskussion aus.",
+          "en": "Introduction of new laws triggers discussion."
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "title": "Same Idea, Two Registers",
+      "titleNative": "Dieselbe Idee, zwei Register",
+      "items": [
+        {
+          "de": "Aufgrund schlechten Wetters wurde das Spiel verschoben. – Weil das Wetter schlecht war, wurde das Spiel verschoben.",
+          "en": "Due to bad weather, the game was postponed. – Because the weather was bad, the game was postponed."
+        },
+        {
+          "de": "Zur Vermeidung von Missverständnissen bitten wir um klare Kommunikation. – Damit es keine Missverständnisse gibt, bitten wir, klar zu kommunizieren.",
+          "en": "To avoid misunderstandings, we ask for clear communication. – So that there are no misunderstandings, we ask you to communicate clearly."
+        },
+        {
+          "de": "Trotz intensiver Bemühungen blieb der Erfolg aus. – Obwohl man sich sehr bemühte, blieb der Erfolg aus.",
+          "en": "Despite intensive efforts, success failed to materialize. – Although they tried hard, success failed to materialize."
+        },
+        {
+          "de": "Nach erfolgreichem Abschluss des Projekts feierte das Team. – Nachdem das Projekt erfolgreich abgeschlossen war, feierte das Team.",
+          "en": "After successful completion of the project, the team celebrated. – After the project had been successfully completed, the team celebrated."
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "title": "Verbalstil in Storytelling",
+      "titleNative": "Verbalstil im Erzählen",
+      "items": [
+        {
+          "de": "Als sie das Haus betrat, roch es nach frischem Brot.",
+          "en": "When she entered the house, it smelled of fresh bread."
+        },
+        {
+          "de": "Nachdem er die Nachricht gelesen hatte, rief er sofort zurück.",
+          "en": "After he had read the message, he called back immediately."
+        },
+        {
+          "de": "Weil sie sich beeilten, kamen sie noch rechtzeitig an.",
+          "en": "Because they hurried, they still arrived on time."
+        },
+        {
+          "de": "Während sie sprach, hörten alle gespannt zu.",
+          "en": "While she spoke, everyone listened eagerly."
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "title": "Recognizing Register in Texts",
+      "titleNative": "Register in Texten erkennen",
+      "items": [
+        {
+          "de": "Dieser Satz klingt sehr formell und nominal.",
+          "en": "This sentence sounds very formal and nominal."
+        },
+        {
+          "de": "Dieser andere Satz ist eher locker und verbal formuliert.",
+          "en": "This other sentence is formulated more casually and verbally."
+        },
+        {
+          "de": "Zeitungsartikel und Verträge bevorzugen oft den Nominalstil.",
+          "en": "Newspaper articles and contracts often prefer the nominal style."
+        },
+        {
+          "de": "Alltagsgespräche verwenden meistens den Verbalstil.",
+          "en": "Everyday conversations mostly use the verbal style."
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "title": "Practicing Conversions",
+      "titleNative": "Umwandlungen üben",
+      "items": [
+        {
+          "de": "Durch die Einführung neuer Maßnahmen sank die Zahl der Unfälle. – Weil neue Maßnahmen eingeführt wurden, sank die Zahl der Unfälle.",
+          "en": "Through the introduction of new measures, the number of accidents decreased. – Because new measures were introduced, the number of accidents decreased."
+        },
+        {
+          "de": "Bei Nichterscheinen wird die Reservierung storniert. – Wenn man nicht erscheint, wird die Reservierung storniert.",
+          "en": "In case of non-appearance, the reservation is cancelled. – If one doesn't show up, the reservation is cancelled."
+        },
+        {
+          "de": "Nach Abschluss der Renovierung öffnet das Museum wieder. – Nachdem die Renovierung abgeschlossen ist, öffnet das Museum wieder.",
+          "en": "After completion of the renovation, the museum opens again. – After the renovation is completed, the museum opens again."
+        },
+        {
+          "de": "Wegen mangelnder Erfahrung wurde er nicht eingestellt. – Weil ihm die Erfahrung fehlte, wurde er nicht eingestellt.",
+          "en": "Due to lack of experience, he was not hired. – Because he lacked experience, he was not hired."
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "title": "When to Use Which Style",
+      "titleNative": "Wann welchen Stil verwenden",
+      "items": [
+        {
+          "de": "In einer E-Mail an Freunde verwendet man meistens Verbalstil.",
+          "en": "In an email to friends, one mostly uses verbal style."
+        },
+        {
+          "de": "In einem offiziellen Bericht ist Nominalstil oft angemessener.",
+          "en": "In an official report, nominal style is often more appropriate."
+        },
+        {
+          "de": "Beim Sprechen klingt zu viel Nominalstil unnatürlich.",
+          "en": "When speaking, too much nominal style sounds unnatural."
+        },
+        {
+          "de": "Beim Schreiben eines Aufsatzes lohnt sich eine Mischung aus beiden Stilen.",
+          "en": "When writing an essay, a mix of both styles is worthwhile."
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "title": "Review: Nominal vs. Verbal Style",
+      "titleNative": "Repaso: Nominalstil vs. Verbalstil",
+      "items": [
+        {
+          "de": "Nach genauer Prüfung der Fakten traf die Kommission ihre Entscheidung. – Nachdem die Fakten genau geprüft worden waren, traf die Kommission ihre Entscheidung.",
+          "en": "After careful examination of the facts, the commission made its decision. – After the facts had been carefully examined, the commission made its decision."
+        },
+        {
+          "de": "Trotz aller Bemühungen blieb das Problem ungelöst, weshalb man weiter daran arbeitete.",
+          "en": "Despite all efforts, the problem remained unsolved, which is why they kept working on it."
+        },
+        {
+          "de": "Zur Vorbereitung auf die Prüfung las sie viel, anstatt nur die Notizen durchzusehen.",
+          "en": "For preparation for the exam, she read a lot, instead of just reviewing the notes."
+        },
+        {
+          "de": "Bei richtiger Anwendung dieser Methode lassen sich viele Fehler vermeiden.",
+          "en": "With correct application of this method, many mistakes can be avoided."
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "title": "Aufgrund: Due To",
+      "titleNative": "Aufgrund: Aufgrund",
+      "items": [
+        {
+          "de": "Aufgrund des schlechten Wetters wurde der Flug gestrichen.",
+          "en": "Due to the bad weather, the flight was cancelled."
+        },
+        {
+          "de": "Aufgrund seiner Erfahrung wurde er für die Stelle ausgewählt.",
+          "en": "Due to his experience, he was chosen for the position."
+        },
+        {
+          "de": "Aufgrund neuer Erkenntnisse wurde die Studie überarbeitet.",
+          "en": "Due to new findings, the study was revised."
+        },
+        {
+          "de": "Aufgrund der hohen Nachfrage war das Produkt schnell ausverkauft.",
+          "en": "Due to the high demand, the product was quickly sold out."
+        }
+      ],
+      "topicId": "b2plus-genitivpraepositionen"
+    },
+    {
+      "number": 22,
+      "title": "Angesichts: In View Of",
+      "titleNative": "Angesichts: Angesichts",
+      "items": [
+        {
+          "de": "Angesichts der Umstände war die Entscheidung nachvollziehbar.",
+          "en": "In view of the circumstances, the decision was understandable."
+        },
+        {
+          "de": "Angesichts der Herausforderungen bleibt das Team optimistisch.",
+          "en": "In view of the challenges, the team remains optimistic."
+        },
+        {
+          "de": "Angesichts dieser Ergebnisse muss die Strategie überdacht werden.",
+          "en": "In view of these results, the strategy must be reconsidered."
+        },
+        {
+          "de": "Angesichts der Kosten entschied man sich für die günstigere Option.",
+          "en": "In view of the costs, they decided on the cheaper option."
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "title": "Infolge: As a Result Of",
+      "titleNative": "Infolge: Infolge",
+      "items": [
+        {
+          "de": "Infolge des Streiks fielen viele Züge aus.",
+          "en": "As a result of the strike, many trains were cancelled."
+        },
+        {
+          "de": "Infolge der Reform verbesserte sich die Situation deutlich.",
+          "en": "As a result of the reform, the situation improved significantly."
+        },
+        {
+          "de": "Infolge des Unfalls musste die Straße gesperrt werden.",
+          "en": "As a result of the accident, the street had to be closed."
+        },
+        {
+          "de": "Infolge dieser Entscheidung verließen mehrere Mitarbeiter die Firma.",
+          "en": "As a result of this decision, several employees left the company."
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "title": "Innerhalb and Außerhalb",
+      "titleNative": "Innerhalb und Außerhalb",
+      "items": [
+        {
+          "de": "Innerhalb einer Woche muss die Antwort eingereicht werden.",
+          "en": "Within a week, the answer must be submitted."
+        },
+        {
+          "de": "Außerhalb der Öffnungszeiten ist das Gebäude geschlossen.",
+          "en": "Outside of opening hours, the building is closed."
+        },
+        {
+          "de": "Innerhalb des Teams gab es unterschiedliche Meinungen.",
+          "en": "Within the team, there were different opinions."
+        },
+        {
+          "de": "Außerhalb der Stadt findet man ruhigere Wohnorte.",
+          "en": "Outside the city, one finds quieter places to live."
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "title": "Anhand: Based On",
+      "titleNative": "Anhand: Anhand",
+      "items": [
+        {
+          "de": "Anhand der Daten konnten sie ein klares Muster erkennen.",
+          "en": "Based on the data, they could recognize a clear pattern."
+        },
+        {
+          "de": "Anhand dieses Beispiels lässt sich das Prinzip gut erklären.",
+          "en": "Based on this example, the principle can be well explained."
+        },
+        {
+          "de": "Anhand ihrer Erfahrung traf sie eine fundierte Entscheidung.",
+          "en": "Based on her experience, she made a well-founded decision."
+        },
+        {
+          "de": "Anhand der Ergebnisse wurde die Methode weiterentwickelt.",
+          "en": "Based on the results, the method was further developed."
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "title": "Mithilfe: With the Help Of",
+      "titleNative": "Mithilfe: Mithilfe",
+      "items": [
+        {
+          "de": "Mithilfe eines Experten lösten sie das technische Problem.",
+          "en": "With the help of an expert, they solved the technical problem."
+        },
+        {
+          "de": "Mithilfe moderner Technologie wird die Arbeit viel schneller.",
+          "en": "With the help of modern technology, the work becomes much faster."
+        },
+        {
+          "de": "Mithilfe ihrer Kollegen schaffte sie das Projekt rechtzeitig.",
+          "en": "With the help of her colleagues, she finished the project on time."
+        },
+        {
+          "de": "Mithilfe dieser Methode konnten viele Fehler vermieden werden.",
+          "en": "With the help of this method, many mistakes could be avoided."
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "title": "Combining Multiple Prepositions",
+      "titleNative": "Mehrere Präpositionen kombinieren",
+      "items": [
+        {
+          "de": "Aufgrund der Ergebnisse und angesichts der Frist entschieden sie sich schnell.",
+          "en": "Due to the results and in view of the deadline, they decided quickly."
+        },
+        {
+          "de": "Infolge des Erfolgs und mithilfe neuer Investoren wuchs die Firma stark.",
+          "en": "As a result of the success and with the help of new investors, the company grew strongly."
+        },
+        {
+          "de": "Innerhalb weniger Monate und anhand präziser Daten wurde die Strategie angepasst.",
+          "en": "Within a few months and based on precise data, the strategy was adjusted."
+        },
+        {
+          "de": "Außerhalb der üblichen Zeiten und aufgrund dringender Umstände traf man sich trotzdem.",
+          "en": "Outside the usual times and due to urgent circumstances, they met anyway."
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "title": "In Reports and Analyses",
+      "titleNative": "In Berichten und Analysen",
+      "items": [
+        {
+          "de": "Aufgrund der aktuellen Lage empfiehlt der Bericht vorsichtiges Handeln.",
+          "en": "Due to the current situation, the report recommends cautious action."
+        },
+        {
+          "de": "Anhand mehrerer Studien lässt sich der Trend klar belegen.",
+          "en": "Based on several studies, the trend can be clearly proven."
+        },
+        {
+          "de": "Infolge der Krise mussten viele Unternehmen ihre Pläne ändern.",
+          "en": "As a result of the crisis, many companies had to change their plans."
+        },
+        {
+          "de": "Angesichts der Komplexität des Themas ist weitere Forschung nötig.",
+          "en": "In view of the complexity of the topic, further research is necessary."
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "title": "Everyday Formal Usage",
+      "titleNative": "Alltägliche formelle Verwendung",
+      "items": [
+        {
+          "de": "Aufgrund eines Missverständnisses kam es zu Verzögerungen.",
+          "en": "Due to a misunderstanding, there were delays."
+        },
+        {
+          "de": "Innerhalb kurzer Zeit hatte sich die Situation völlig verändert.",
+          "en": "Within a short time, the situation had completely changed."
+        },
+        {
+          "de": "Mithilfe guter Planung ließ sich das Chaos vermeiden.",
+          "en": "With the help of good planning, the chaos could be avoided."
+        },
+        {
+          "de": "Angesichts der positiven Rückmeldungen war das Team sehr zufrieden.",
+          "en": "In view of the positive feedback, the team was very satisfied."
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "title": "Review: Advanced Genitiv Prepositions",
+      "titleNative": "Repaso: Erweiterte Genitivpräpositionen",
+      "items": [
+        {
+          "de": "Aufgrund der Umstände und angesichts der begrenzten Zeit handelten sie schnell.",
+          "en": "Due to the circumstances and in view of the limited time, they acted quickly."
+        },
+        {
+          "de": "Infolge der Veränderungen musste man innerhalb weniger Wochen umdenken.",
+          "en": "As a result of the changes, one had to rethink within a few weeks."
+        },
+        {
+          "de": "Anhand der Beweise und mithilfe erfahrener Ermittler wurde der Fall gelöst.",
+          "en": "Based on the evidence and with the help of experienced investigators, the case was solved."
+        },
+        {
+          "de": "Außerhalb der normalen Abläufe, aber aufgrund dringender Notwendigkeit, traf man eine Ausnahme.",
+          "en": "Outside of normal procedures, but due to urgent necessity, an exception was made."
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "title": "The Economy in General",
+      "titleNative": "Die Wirtschaft im Allgemeinen",
+      "items": [
+        {
+          "de": "Die Wirtschaft des Landes wächst seit drei Jahren stetig.",
+          "en": "The country's economy has been growing steadily for three years."
+        },
+        {
+          "de": "Die Inflation beeinflusst die Kaufkraft der Verbraucher.",
+          "en": "Inflation affects consumers' purchasing power."
+        },
+        {
+          "de": "Die Arbeitslosigkeit ist im letzten Jahr leicht gesunken.",
+          "en": "Unemployment has slightly decreased over the last year."
+        },
+        {
+          "de": "Experten diskutieren über die Zukunft der globalen Wirtschaft.",
+          "en": "Experts are discussing the future of the global economy."
+        }
+      ],
+      "topicId": "b2plus-wortfeld-wirtschaft"
+    },
+    {
+      "number": 32,
+      "title": "Companies and Business",
+      "titleNative": "Unternehmen und Geschäft",
+      "items": [
+        {
+          "de": "Der Umsatz des Unternehmens stieg im letzten Quartal deutlich.",
+          "en": "The company's revenue rose significantly in the last quarter."
+        },
+        {
+          "de": "Dieses Startup sucht dringend neue Investitionen.",
+          "en": "This startup urgently needs new investments."
+        },
+        {
+          "de": "Der Wettbewerb in dieser Branche wird immer intensiver.",
+          "en": "Competition in this industry is becoming increasingly intense."
+        },
+        {
+          "de": "Die Fusion der beiden Firmen überraschte die ganze Branche.",
+          "en": "The merger of the two companies surprised the entire industry."
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "title": "Markets and Trade",
+      "titleNative": "Märkte und Handel",
+      "items": [
+        {
+          "de": "Der internationale Handel spielt eine wichtige Rolle für die Wirtschaft.",
+          "en": "International trade plays an important role for the economy."
+        },
+        {
+          "de": "Der Aktienmarkt reagierte stark auf die neuen Nachrichten.",
+          "en": "The stock market reacted strongly to the new news."
+        },
+        {
+          "de": "Die Nachfrage nach diesem Produkt übersteigt das Angebot.",
+          "en": "Demand for this product exceeds the supply."
+        },
+        {
+          "de": "Neue Handelsabkommen könnten den Export erheblich fördern.",
+          "en": "New trade agreements could significantly boost exports."
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "title": "Finance and Investment",
+      "titleNative": "Finanzen und Investitionen",
+      "items": [
+        {
+          "de": "Diese Bank bietet attraktive Zinsen für Investitionen.",
+          "en": "This bank offers attractive interest rates for investments."
+        },
+        {
+          "de": "Die Aktien dieses Unternehmens sind stark gestiegen.",
+          "en": "This company's stocks have risen sharply."
+        },
+        {
+          "de": "Investoren zeigen großes Interesse an nachhaltigen Projekten.",
+          "en": "Investors show great interest in sustainable projects."
+        },
+        {
+          "de": "Die Zentralbank hat die Zinsen erneut erhöht.",
+          "en": "The central bank has raised interest rates again."
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "title": "Employment and the Labor Market",
+      "titleNative": "Beschäftigung und Arbeitsmarkt",
+      "items": [
+        {
+          "de": "Der Arbeitsmarkt hat sich in den letzten Jahren stark verändert.",
+          "en": "The labor market has changed a lot in recent years."
+        },
+        {
+          "de": "Viele Unternehmen suchen dringend qualifizierte Fachkräfte.",
+          "en": "Many companies urgently need qualified specialists."
+        },
+        {
+          "de": "Die Löhne sind in dieser Branche deutlich gestiegen.",
+          "en": "Wages have risen significantly in this industry."
+        },
+        {
+          "de": "Digitalisierung verändert die Anforderungen an Arbeitnehmer.",
+          "en": "Digitalization is changing the demands on employees."
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "title": "Growth and Decline",
+      "titleNative": "Wachstum und Rückgang",
+      "items": [
+        {
+          "de": "Die Wirtschaft wächst schneller als erwartet.",
+          "en": "The economy is growing faster than expected."
+        },
+        {
+          "de": "Der Umsatz einiger Branchen schrumpft seit Monaten.",
+          "en": "The revenue of some industries has been shrinking for months."
+        },
+        {
+          "de": "Diese Region verzeichnet ein bemerkenswertes wirtschaftliches Wachstum.",
+          "en": "This region is registering remarkable economic growth."
+        },
+        {
+          "de": "Nach der Krise erholte sich die Wirtschaft langsam.",
+          "en": "After the crisis, the economy slowly recovered."
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "title": "Consumer Behavior",
+      "titleNative": "Verbraucherverhalten",
+      "items": [
+        {
+          "de": "Verbraucher achten heute mehr auf Nachhaltigkeit.",
+          "en": "Consumers today pay more attention to sustainability."
+        },
+        {
+          "de": "Die Kaufkraft der Bevölkerung beeinflusst den gesamten Markt.",
+          "en": "The purchasing power of the population influences the entire market."
+        },
+        {
+          "de": "Online-Handel gewinnt gegenüber traditionellen Geschäften an Bedeutung.",
+          "en": "Online trade is gaining importance over traditional stores."
+        },
+        {
+          "de": "Verbrauchervertrauen ist entscheidend für die wirtschaftliche Stabilität.",
+          "en": "Consumer confidence is decisive for economic stability."
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "title": "Economic Policy",
+      "titleNative": "Wirtschaftspolitik",
+      "items": [
+        {
+          "de": "Die Regierung plant neue Maßnahmen zur Ankurbelung der Wirtschaft.",
+          "en": "The government plans new measures to stimulate the economy."
+        },
+        {
+          "de": "Steuerreformen sollen Unternehmen entlasten.",
+          "en": "Tax reforms are meant to relieve companies."
+        },
+        {
+          "de": "Subventionen unterstützen bestimmte Wirtschaftszweige.",
+          "en": "Subsidies support certain economic sectors."
+        },
+        {
+          "de": "Wirtschaftliche Entscheidungen betreffen oft die gesamte Bevölkerung.",
+          "en": "Economic decisions often affect the entire population."
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "title": "Global Economy",
+      "titleNative": "Globale Wirtschaft",
+      "items": [
+        {
+          "de": "Die globale Wirtschaft ist heute stärker vernetzt als je zuvor.",
+          "en": "The global economy is more interconnected today than ever before."
+        },
+        {
+          "de": "Handelskonflikte können erhebliche wirtschaftliche Folgen haben.",
+          "en": "Trade conflicts can have significant economic consequences."
+        },
+        {
+          "de": "Schwellenländer spielen eine immer größere Rolle in der Weltwirtschaft.",
+          "en": "Emerging countries play an increasingly larger role in the world economy."
+        },
+        {
+          "de": "Internationale Zusammenarbeit ist für wirtschaftliche Stabilität entscheidend.",
+          "en": "International cooperation is decisive for economic stability."
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "title": "Review: Economy and Business Vocabulary",
+      "titleNative": "Repaso: Wirtschafts- und Geschäftsvokabular",
+      "items": [
+        {
+          "de": "Trotz der schwierigen Lage konnte das Unternehmen seinen Umsatz steigern.",
+          "en": "Despite the difficult situation, the company managed to increase its revenue."
+        },
+        {
+          "de": "Aufgrund steigender Inflation mussten viele Firmen ihre Preise anpassen.",
+          "en": "Due to rising inflation, many companies had to adjust their prices."
+        },
+        {
+          "de": "Die Investitionen in neue Technologien zahlten sich langfristig aus.",
+          "en": "The investments in new technologies paid off in the long term."
+        },
+        {
+          "de": "Angesichts des harten Wettbewerbs setzte das Unternehmen auf Innovation.",
+          "en": "In view of the tough competition, the company relied on innovation."
+        }
+      ]
+    },
+    {
+      "number": 41,
+      "title": "Government and Elections",
+      "titleNative": "Regierung und Wahlen",
+      "items": [
+        {
+          "de": "Die Regierung kündigte neue Reformen an.",
+          "en": "The government announced new reforms."
+        },
+        {
+          "de": "Die nächste Wahl findet im Herbst statt.",
+          "en": "The next election takes place in the fall."
+        },
+        {
+          "de": "Viele Bürger nehmen aktiv am politischen Leben teil.",
+          "en": "Many citizens actively participate in political life."
+        },
+        {
+          "de": "Die Opposition kritisierte die Entscheidung der Regierung scharf.",
+          "en": "The opposition sharply criticized the government's decision."
+        }
+      ],
+      "topicId": "b2plus-wortfeld-politik"
+    },
+    {
+      "number": 42,
+      "title": "Democracy and Rights",
+      "titleNative": "Demokratie und Rechte",
+      "items": [
+        {
+          "de": "Demokratie basiert auf der Beteiligung der Bevölkerung.",
+          "en": "Democracy is based on the participation of the population."
+        },
+        {
+          "de": "Menschenrechte müssen weltweit geschützt werden.",
+          "en": "Human rights must be protected worldwide."
+        },
+        {
+          "de": "Die Meinungsfreiheit ist ein Grundpfeiler der Demokratie.",
+          "en": "Freedom of speech is a cornerstone of democracy."
+        },
+        {
+          "de": "Jeder Bürger hat das Recht, seine Meinung frei zu äußern.",
+          "en": "Every citizen has the right to freely express their opinion."
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "title": "Laws and Justice",
+      "titleNative": "Gesetze und Gerechtigkeit",
+      "items": [
+        {
+          "de": "Das neue Gesetz soll mehr Gerechtigkeit schaffen.",
+          "en": "The new law is meant to create more justice."
+        },
+        {
+          "de": "Gerichte spielen eine zentrale Rolle im Rechtsstaat.",
+          "en": "Courts play a central role in the rule of law."
+        },
+        {
+          "de": "Diese Reform zielt darauf ab, Ungleichheit zu verringern.",
+          "en": "This reform aims to reduce inequality."
+        },
+        {
+          "de": "Der Schutz der Umwelt wird zunehmend gesetzlich geregelt.",
+          "en": "The protection of the environment is increasingly regulated by law."
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "title": "Society and Community",
+      "titleNative": "Gesellschaft und Gemeinschaft",
+      "items": [
+        {
+          "de": "Unsere Gesellschaft wird immer vielfältiger.",
+          "en": "Our society is becoming increasingly diverse."
+        },
+        {
+          "de": "Soziale Ungleichheit bleibt ein zentrales gesellschaftliches Thema.",
+          "en": "Social inequality remains a central societal issue."
+        },
+        {
+          "de": "Integration ist ein wichtiger Teil des gesellschaftlichen Zusammenlebens.",
+          "en": "Integration is an important part of societal coexistence."
+        },
+        {
+          "de": "Der gesellschaftliche Wandel geschieht oft langsamer, als man denkt.",
+          "en": "Societal change often happens more slowly than one thinks."
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "title": "Public Opinion and Debate",
+      "titleNative": "Öffentliche Meinung und Debatte",
+      "items": [
+        {
+          "de": "Die öffentliche Meinung zu diesem Thema ist stark geteilt.",
+          "en": "Public opinion on this topic is strongly divided."
+        },
+        {
+          "de": "Politische Debatten prägen oft die öffentliche Diskussion.",
+          "en": "Political debates often shape public discussion."
+        },
+        {
+          "de": "Umfragen zeigen, dass viele Bürger unzufrieden sind.",
+          "en": "Surveys show that many citizens are dissatisfied."
+        },
+        {
+          "de": "Die Medien spielen eine wichtige Rolle bei der Meinungsbildung.",
+          "en": "The media play an important role in shaping opinion."
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "title": "International Relations",
+      "titleNative": "Internationale Beziehungen",
+      "items": [
+        {
+          "de": "Die Beziehungen zwischen den beiden Ländern haben sich verbessert.",
+          "en": "Relations between the two countries have improved."
+        },
+        {
+          "de": "Internationale Zusammenarbeit ist entscheidend für den Frieden.",
+          "en": "International cooperation is decisive for peace."
+        },
+        {
+          "de": "Diplomatische Verhandlungen dauern oft mehrere Jahre.",
+          "en": "Diplomatic negotiations often take several years."
+        },
+        {
+          "de": "Die Vereinten Nationen setzen sich für globale Sicherheit ein.",
+          "en": "The United Nations advocates for global security."
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "title": "Social Issues",
+      "titleNative": "Soziale Themen",
+      "items": [
+        {
+          "de": "Armut bleibt ein ernstes Problem in vielen Ländern.",
+          "en": "Poverty remains a serious problem in many countries."
+        },
+        {
+          "de": "Bildung gilt als Schlüssel zu mehr sozialer Gerechtigkeit.",
+          "en": "Education is considered key to more social justice."
+        },
+        {
+          "de": "Der Zugang zu Gesundheitsversorgung ist nicht überall gleich.",
+          "en": "Access to healthcare is not equal everywhere."
+        },
+        {
+          "de": "Viele fordern eine gerechtere Verteilung des Wohlstands.",
+          "en": "Many demand a fairer distribution of wealth."
+        }
+      ]
+    },
+    {
+      "number": 48,
+      "title": "Civic Participation",
+      "titleNative": "Bürgerschaftliches Engagement",
+      "items": [
+        {
+          "de": "Viele junge Menschen engagieren sich für den Klimaschutz.",
+          "en": "Many young people are committed to climate protection."
+        },
+        {
+          "de": "Bürgerinitiativen setzen sich für lokale Anliegen ein.",
+          "en": "Citizens' initiatives advocate for local concerns."
+        },
+        {
+          "de": "Die Beteiligung an Wahlen ist ein wichtiger Teil der Demokratie.",
+          "en": "Participation in elections is an important part of democracy."
+        },
+        {
+          "de": "Freiwilligenarbeit stärkt den Zusammenhalt in der Gesellschaft.",
+          "en": "Volunteer work strengthens cohesion in society."
+        }
+      ]
+    },
+    {
+      "number": 49,
+      "title": "Change and Reform",
+      "titleNative": "Wandel und Reform",
+      "items": [
+        {
+          "de": "Reformen im Bildungssystem werden seit Jahren diskutiert.",
+          "en": "Reforms in the education system have been discussed for years."
+        },
+        {
+          "de": "Gesellschaftlicher Wandel erfordert oft Geduld und Dialog.",
+          "en": "Societal change often requires patience and dialogue."
+        },
+        {
+          "de": "Diese Bewegung fordert grundlegende politische Veränderungen.",
+          "en": "This movement demands fundamental political changes."
+        },
+        {
+          "de": "Fortschritt entsteht meistens durch kontinuierliche kleine Schritte.",
+          "en": "Progress usually comes through continuous small steps."
+        }
+      ]
+    },
+    {
+      "number": 50,
+      "title": "Review: Politics and Society Vocabulary",
+      "titleNative": "Repaso: Politik- und Gesellschaftsvokabular",
+      "items": [
+        {
+          "de": "Angesichts der sozialen Ungleichheit fordern viele Bürger politische Reformen.",
+          "en": "In view of social inequality, many citizens demand political reforms."
+        },
+        {
+          "de": "Die Regierung erklärte, sie werde sich für mehr Gerechtigkeit einsetzen.",
+          "en": "The government explained that it would work for more justice."
+        },
+        {
+          "de": "Demokratie funktioniert nur, wenn sich die Bevölkerung aktiv beteiligt.",
+          "en": "Democracy only works if the population actively participates."
+        },
+        {
+          "de": "Trotz unterschiedlicher Meinungen einigten sich beide Parteien auf einen Kompromiss.",
+          "en": "Despite different opinions, both parties agreed on a compromise."
+        }
+      ]
+    },
+    {
+      "number": 51,
+      "title": "Research and Discovery",
+      "titleNative": "Forschung und Entdeckung",
+      "items": [
+        {
+          "de": "Diese Forschung könnte die Medizin revolutionieren.",
+          "en": "This research could revolutionize medicine."
+        },
+        {
+          "de": "Die Entdeckung dieses Materials überraschte die Wissenschaftler.",
+          "en": "The discovery of this material surprised the scientists."
+        },
+        {
+          "de": "Wissenschaftler weltweit arbeiten an einer Lösung des Problems.",
+          "en": "Scientists worldwide are working on a solution to the problem."
+        },
+        {
+          "de": "Neue Erkenntnisse verändern oft unser Verständnis der Welt.",
+          "en": "New findings often change our understanding of the world."
+        }
+      ],
+      "topicId": "b2plus-wortfeld-wissenschaft"
+    },
+    {
+      "number": 52,
+      "title": "Technology and Innovation",
+      "titleNative": "Technologie und Innovation",
+      "items": [
+        {
+          "de": "Neue Technologien verändern unseren Alltag grundlegend.",
+          "en": "New technologies fundamentally change our everyday lives."
+        },
+        {
+          "de": "Innovation ist der Schlüssel zum langfristigen Erfolg vieler Firmen.",
+          "en": "Innovation is the key to the long-term success of many companies."
+        },
+        {
+          "de": "Diese Erfindung hat die gesamte Branche verändert.",
+          "en": "This invention has changed the entire industry."
+        },
+        {
+          "de": "Technologischer Fortschritt bringt sowohl Chancen als auch Risiken.",
+          "en": "Technological progress brings both opportunities and risks."
+        }
+      ]
+    },
+    {
+      "number": 53,
+      "title": "Artificial Intelligence",
+      "titleNative": "Künstliche Intelligenz",
+      "items": [
+        {
+          "de": "Künstliche Intelligenz wird in immer mehr Bereichen eingesetzt.",
+          "en": "Artificial intelligence is being used in more and more areas."
+        },
+        {
+          "de": "Diese Software nutzt künstliche Intelligenz, um Muster zu erkennen.",
+          "en": "This software uses artificial intelligence to recognize patterns."
+        },
+        {
+          "de": "Experten diskutieren über die ethischen Grenzen der künstlichen Intelligenz.",
+          "en": "Experts discuss the ethical limits of artificial intelligence."
+        },
+        {
+          "de": "Manche befürchten, dass künstliche Intelligenz viele Arbeitsplätze ersetzen wird.",
+          "en": "Some fear that artificial intelligence will replace many jobs."
+        }
+      ]
+    },
+    {
+      "number": 54,
+      "title": "Experiments and Studies",
+      "titleNative": "Experimente und Studien",
+      "items": [
+        {
+          "de": "Das Experiment lieferte überraschende Ergebnisse.",
+          "en": "The experiment yielded surprising results."
+        },
+        {
+          "de": "Diese Studie untersucht die Auswirkungen des Klimawandels.",
+          "en": "This study investigates the effects of climate change."
+        },
+        {
+          "de": "Bevor man Schlüsse zieht, müssen die Daten sorgfältig analysiert werden.",
+          "en": "Before drawing conclusions, the data must be carefully analyzed."
+        },
+        {
+          "de": "Die Ergebnisse mehrerer Studien bestätigten dieselbe Theorie.",
+          "en": "The results of several studies confirmed the same theory."
+        }
+      ]
+    },
+    {
+      "number": 55,
+      "title": "Medicine and Health Science",
+      "titleNative": "Medizin und Gesundheitswissenschaft",
+      "items": [
+        {
+          "de": "Die medizinische Forschung macht kontinuierlich Fortschritte.",
+          "en": "Medical research is continuously making progress."
+        },
+        {
+          "de": "Diese Behandlung basiert auf jahrelanger wissenschaftlicher Arbeit.",
+          "en": "This treatment is based on years of scientific work."
+        },
+        {
+          "de": "Neue Impfstoffe werden vor der Zulassung intensiv getestet.",
+          "en": "New vaccines are intensively tested before approval."
+        },
+        {
+          "de": "Wissenschaftler entwickeln ständig neue Methoden zur Krankheitsbekämpfung.",
+          "en": "Scientists are constantly developing new methods to combat disease."
+        }
+      ]
+    },
+    {
+      "number": 56,
+      "title": "Environment and Climate Science",
+      "titleNative": "Umwelt- und Klimawissenschaft",
+      "items": [
+        {
+          "de": "Der Klimawandel gehört zu den größten wissenschaftlichen Herausforderungen unserer Zeit.",
+          "en": "Climate change is one of the greatest scientific challenges of our time."
+        },
+        {
+          "de": "Forscher untersuchen die Folgen der globalen Erwärmung.",
+          "en": "Researchers are investigating the consequences of global warming."
+        },
+        {
+          "de": "Erneuerbare Energien spielen eine zentrale Rolle in der Klimaforschung.",
+          "en": "Renewable energy plays a central role in climate research."
+        },
+        {
+          "de": "Diese Daten zeigen einen klaren Zusammenhang zwischen Emissionen und Temperatur.",
+          "en": "This data shows a clear connection between emissions and temperature."
+        }
+      ]
+    },
+    {
+      "number": 57,
+      "title": "Space and Physics",
+      "titleNative": "Raumfahrt und Physik",
+      "items": [
+        {
+          "de": "Diese Mission soll neue Erkenntnisse über das Universum liefern.",
+          "en": "This mission is meant to provide new insights about the universe."
+        },
+        {
+          "de": "Physiker versuchen seit Jahrzehnten, dieses Phänomen zu erklären.",
+          "en": "Physicists have been trying for decades to explain this phenomenon."
+        },
+        {
+          "de": "Die Entdeckung dieses Planeten war eine wissenschaftliche Sensation.",
+          "en": "The discovery of this planet was a scientific sensation."
+        },
+        {
+          "de": "Moderne Teleskope ermöglichen tiefere Einblicke ins Weltall.",
+          "en": "Modern telescopes enable deeper insights into space."
+        }
+      ]
+    },
+    {
+      "number": 58,
+      "title": "Digital Technology",
+      "titleNative": "Digitale Technologie",
+      "items": [
+        {
+          "de": "Die Digitalisierung verändert nahezu jede Branche.",
+          "en": "Digitalization is changing almost every industry."
+        },
+        {
+          "de": "Diese App nutzt moderne Technologie, um den Alltag zu erleichtern.",
+          "en": "This app uses modern technology to make everyday life easier."
+        },
+        {
+          "de": "Cybersicherheit wird angesichts wachsender Bedrohungen immer wichtiger.",
+          "en": "Cybersecurity is becoming increasingly important in view of growing threats."
+        },
+        {
+          "de": "Digitale Innovationen eröffnen völlig neue Geschäftsmöglichkeiten.",
+          "en": "Digital innovations open up completely new business opportunities."
+        }
+      ]
+    },
+    {
+      "number": 59,
+      "title": "Science Communication",
+      "titleNative": "Wissenschaftskommunikation",
+      "items": [
+        {
+          "de": "Es ist wichtig, wissenschaftliche Erkenntnisse verständlich zu kommunizieren.",
+          "en": "It's important to communicate scientific findings understandably."
+        },
+        {
+          "de": "Viele Menschen vertrauen wissenschaftlichen Studien nicht immer.",
+          "en": "Many people don't always trust scientific studies."
+        },
+        {
+          "de": "Populärwissenschaftliche Bücher machen komplexe Themen zugänglich.",
+          "en": "Popular science books make complex topics accessible."
+        },
+        {
+          "de": "Wissenschaftler sollten ihre Forschung auch außerhalb der Fachwelt erklären können.",
+          "en": "Scientists should be able to explain their research outside the field as well."
+        }
+      ]
+    },
+    {
+      "number": 60,
+      "title": "Review: Science and Technology Vocabulary",
+      "titleNative": "Repaso: Wissenschafts- und Technologievokabular",
+      "items": [
+        {
+          "de": "Anhand jahrelanger Forschung konnten Wissenschaftler diese wichtige Entdeckung machen.",
+          "en": "Based on years of research, scientists were able to make this important discovery."
+        },
+        {
+          "de": "Mithilfe künstlicher Intelligenz lassen sich komplexe Probleme heute schneller lösen.",
+          "en": "With the help of artificial intelligence, complex problems can be solved faster today."
+        },
+        {
+          "de": "Infolge dieser Studie wurde die Behandlungsmethode grundlegend verändert.",
+          "en": "As a result of this study, the treatment method was fundamentally changed."
+        },
+        {
+          "de": "Angesichts des Klimawandels investieren immer mehr Länder in erneuerbare Energien.",
+          "en": "In view of climate change, more and more countries are investing in renewable energy."
+        }
+      ]
+    },
+    {
+      "number": 61,
+      "title": "In Kraft Treten: Taking Effect",
+      "titleNative": "In Kraft Treten: In Kraft treten",
+      "items": [
+        {
+          "de": "Das neue Gesetz tritt im Januar in Kraft.",
+          "en": "The new law takes effect in January."
+        },
+        {
+          "de": "Diese Regel ist bereits seit letztem Jahr in Kraft.",
+          "en": "This rule has already been in effect since last year."
+        },
+        {
+          "de": "Die Reform trat schneller in Kraft, als viele erwartet hatten.",
+          "en": "The reform took effect faster than many had expected."
+        },
+        {
+          "de": "Sobald der Vertrag unterschrieben ist, tritt er in Kraft.",
+          "en": "As soon as the contract is signed, it takes effect."
+        }
+      ],
+      "topicId": "b2plus-funktionsverbgefuege"
+    },
+    {
+      "number": 62,
+      "title": "Zur Verfügung Stellen: Making Available",
+      "titleNative": "Zur Verfügung Stellen: Zur Verfügung stellen",
+      "items": [
+        {
+          "de": "Die Universität stellt den Studenten kostenlose Bücher zur Verfügung.",
+          "en": "The university provides students with free books."
+        },
+        {
+          "de": "Wir stellen Ihnen gerne weitere Informationen zur Verfügung.",
+          "en": "We'll gladly provide you with further information."
+        },
+        {
+          "de": "Die Firma stellte den neuen Mitarbeitern moderne Ausrüstung zur Verfügung.",
+          "en": "The company provided the new employees with modern equipment."
+        },
+        {
+          "de": "Diese Daten stehen der Öffentlichkeit zur Verfügung.",
+          "en": "This data is available to the public."
+        }
+      ]
+    },
+    {
+      "number": 63,
+      "title": "Rücksicht Nehmen: Showing Consideration",
+      "titleNative": "Rücksicht Nehmen: Rücksicht nehmen",
+      "items": [
+        {
+          "de": "Man sollte immer Rücksicht auf ältere Menschen nehmen.",
+          "en": "One should always show consideration for elderly people."
+        },
+        {
+          "de": "Sie nahm keine Rücksicht auf die Meinung der anderen.",
+          "en": "She showed no consideration for the others' opinion."
+        },
+        {
+          "de": "Bitte nehmt Rücksicht auf die schlafenden Kinder.",
+          "en": "Please be considerate of the sleeping children."
+        },
+        {
+          "de": "Der Chef nahm Rücksicht auf die persönliche Situation seiner Mitarbeiterin.",
+          "en": "The boss showed consideration for his employee's personal situation."
+        }
+      ]
+    },
+    {
+      "number": 64,
+      "title": "Zum Ausdruck Bringen: Expressing",
+      "titleNative": "Zum Ausdruck Bringen: Zum Ausdruck bringen",
+      "items": [
+        {
+          "de": "Sie brachte ihre Dankbarkeit deutlich zum Ausdruck.",
+          "en": "She clearly expressed her gratitude."
+        },
+        {
+          "de": "Der Künstler bringt seine Gefühle durch die Farben zum Ausdruck.",
+          "en": "The artist expresses his feelings through the colors."
+        },
+        {
+          "de": "Mit dieser Geste wollte er sein Mitgefühl zum Ausdruck bringen.",
+          "en": "With this gesture, he wanted to express his sympathy."
+        },
+        {
+          "de": "Die Rede brachte die Sorgen vieler Bürger zum Ausdruck.",
+          "en": "The speech expressed the concerns of many citizens."
+        }
+      ]
+    },
+    {
+      "number": 65,
+      "title": "Anwendung Finden: Being Applied",
+      "titleNative": "Anwendung Finden: Anwendung finden",
+      "items": [
+        {
+          "de": "Diese Methode findet in vielen Branchen Anwendung.",
+          "en": "This method is applied in many industries."
+        },
+        {
+          "de": "Die neue Technologie findet zunehmend Anwendung in der Medizin.",
+          "en": "The new technology is increasingly being applied in medicine."
+        },
+        {
+          "de": "Dieses Prinzip findet auch in anderen Bereichen Anwendung.",
+          "en": "This principle is also applied in other areas."
+        },
+        {
+          "de": "Alte Techniken finden manchmal überraschend moderne Anwendung.",
+          "en": "Old techniques sometimes find surprisingly modern application."
+        }
+      ]
+    },
+    {
+      "number": 66,
+      "title": "More Support-Verb Constructions",
+      "titleNative": "Weitere Funktionsverbgefüge",
+      "items": [
+        {
+          "de": "Diese Entscheidung stand unter großem Druck.",
+          "en": "This decision was under great pressure."
+        },
+        {
+          "de": "Das Projekt kam schließlich zum Abschluss.",
+          "en": "The project finally came to a conclusion."
+        },
+        {
+          "de": "Ihre Bemühungen fanden endlich Anerkennung.",
+          "en": "Her efforts finally found recognition."
+        },
+        {
+          "de": "Die Verhandlungen kamen zu keinem Ergebnis.",
+          "en": "The negotiations came to no result."
+        }
+      ]
+    },
+    {
+      "number": 67,
+      "title": "In Business Communication",
+      "titleNative": "In der Geschäftskommunikation",
+      "items": [
+        {
+          "de": "Wir setzen uns dafür ein, hohe Qualität zur Verfügung zu stellen.",
+          "en": "We are committed to providing high quality."
+        },
+        {
+          "de": "Der Vertrag tritt erst nach Unterschrift beider Parteien in Kraft.",
+          "en": "The contract only takes effect after both parties sign."
+        },
+        {
+          "de": "Die Firma bringt ihre Werte klar zum Ausdruck.",
+          "en": "The company clearly expresses its values."
+        },
+        {
+          "de": "Diese Regelung findet nur unter bestimmten Bedingungen Anwendung.",
+          "en": "This regulation is only applied under certain conditions."
+        }
+      ]
+    },
+    {
+      "number": 68,
+      "title": "In Everyday Formal Speech",
+      "titleNative": "In alltäglicher formeller Rede",
+      "items": [
+        {
+          "de": "Ich möchte meinen Dank zum Ausdruck bringen.",
+          "en": "I would like to express my thanks."
+        },
+        {
+          "de": "Könnten Sie mir bitte weitere Unterlagen zur Verfügung stellen?",
+          "en": "Could you please make further documents available to me?"
+        },
+        {
+          "de": "Wir bitten Sie, Rücksicht auf unsere Situation zu nehmen.",
+          "en": "We ask you to show consideration for our situation."
+        },
+        {
+          "de": "Diese Regel tritt ab sofort in Kraft.",
+          "en": "This rule takes effect immediately."
+        }
+      ]
+    },
+    {
+      "number": 69,
+      "title": "Combining Constructions",
+      "titleNative": "Konstruktionen kombinieren",
+      "items": [
+        {
+          "de": "Sobald das Gesetz in Kraft tritt, muss die Firma neue Ressourcen zur Verfügung stellen.",
+          "en": "As soon as the law takes effect, the company must make new resources available."
+        },
+        {
+          "de": "Um Rücksicht auf alle zu nehmen, brachte er seine Bedenken offen zum Ausdruck.",
+          "en": "In order to show consideration for everyone, he expressed his concerns openly."
+        },
+        {
+          "de": "Diese Methode findet Anwendung, sobald die neuen Regeln in Kraft treten.",
+          "en": "This method is applied as soon as the new rules take effect."
+        },
+        {
+          "de": "Die Universität stellte Mittel zur Verfügung, um Anerkennung für die Forschung zum Ausdruck zu bringen.",
+          "en": "The university provided funds to express recognition for the research."
+        }
+      ]
+    },
+    {
+      "number": 70,
+      "title": "Review: Funktionsverbgefüge",
+      "titleNative": "Repaso: Funktionsverbgefüge",
+      "items": [
+        {
+          "de": "Das neue Gesetz tritt in Kraft, sobald genügend Mittel zur Verfügung stehen.",
+          "en": "The new law takes effect as soon as sufficient funds are available."
+        },
+        {
+          "de": "Sie nahm Rücksicht auf alle Beteiligten und brachte ihre Meinung trotzdem klar zum Ausdruck.",
+          "en": "She showed consideration for everyone involved and still clearly expressed her opinion."
+        },
+        {
+          "de": "Diese Technik findet Anwendung, wann immer schnelle Lösungen zur Verfügung stehen müssen.",
+          "en": "This technique is applied whenever quick solutions must be available."
+        },
+        {
+          "de": "Der Bericht bringt die Herausforderungen deutlich zum Ausdruck, sobald man ihn genau liest.",
+          "en": "The report clearly expresses the challenges as soon as one reads it carefully."
+        }
+      ]
+    },
+    {
+      "number": 71,
+      "title": "Combining Nominalization and Genitiv Prepositions",
+      "titleNative": "Nominalisierung und Genitivpräpositionen kombinieren",
+      "items": [
+        {
+          "de": "Aufgrund der Verzögerung der Lieferung entstanden erhebliche Kosten.",
+          "en": "Due to the delay of the delivery, considerable costs arose."
+        },
+        {
+          "de": "Angesichts der Komplexität der Aufgabe war zusätzliche Zeit nötig.",
+          "en": "In view of the complexity of the task, additional time was needed."
+        },
+        {
+          "de": "Infolge der Verschlechterung der Lage wurden neue Maßnahmen ergriffen.",
+          "en": "As a result of the worsening of the situation, new measures were taken."
+        },
+        {
+          "de": "Anhand der Auswertung der Daten wurde die Entscheidung getroffen.",
+          "en": "Based on the evaluation of the data, the decision was made."
+        }
+      ],
+      "topicId": "b2plus-abstrakte-substantive"
+    },
+    {
+      "number": 72,
+      "title": "Dense Sentences with Extended Attributes",
+      "titleNative": "Dichte Sätze mit erweiterten Attributen",
+      "items": [
+        {
+          "de": "Die aufgrund fehlender Ressourcen verzögerte Fertigstellung führte zu Kritik.",
+          "en": "The completion, delayed due to lack of resources, led to criticism."
+        },
+        {
+          "de": "Die von Experten sorgfältig geprüfte Analyse zeigte klare Ergebnisse.",
+          "en": "The analysis, carefully reviewed by experts, showed clear results."
+        },
+        {
+          "de": "Die trotz aller Bemühungen gescheiterte Verhandlung enttäuschte beide Seiten.",
+          "en": "The negotiation, which failed despite all efforts, disappointed both sides."
+        },
+        {
+          "de": "Die infolge der Krise gesunkene Nachfrage betraf viele Branchen.",
+          "en": "The demand, decreased as a result of the crisis, affected many industries."
+        }
+      ]
+    },
+    {
+      "number": 73,
+      "title": "Reports and Analyses",
+      "titleNative": "Berichte und Analysen",
+      "items": [
+        {
+          "de": "Die Untersuchung der Ursachen dieses Problems dauert mehrere Monate.",
+          "en": "The investigation of the causes of this problem takes several months."
+        },
+        {
+          "de": "Die Analyse der Ergebnisse ermöglichte eine fundierte Entscheidung.",
+          "en": "The analysis of the results enabled a well-founded decision."
+        },
+        {
+          "de": "Die Bewertung der Situation erfolgt anhand mehrerer Kriterien.",
+          "en": "The assessment of the situation is done based on several criteria."
+        },
+        {
+          "de": "Die Zusammenfassung der Studie wurde von vielen Medien zitiert.",
+          "en": "The summary of the study was quoted by many media outlets."
+        }
+      ]
+    },
+    {
+      "number": 74,
+      "title": "Academic and Scientific Sentences",
+      "titleNative": "Akademische und wissenschaftliche Sätze",
+      "items": [
+        {
+          "de": "Die Entwicklung dieser Theorie basiert auf jahrzehntelanger Forschung.",
+          "en": "The development of this theory is based on decades of research."
+        },
+        {
+          "de": "Die Bestätigung dieser Hypothese erfordert weitere Experimente.",
+          "en": "The confirmation of this hypothesis requires further experiments."
+        },
+        {
+          "de": "Die Interpretation der Daten variiert je nach Forschungsansatz.",
+          "en": "The interpretation of the data varies depending on the research approach."
+        },
+        {
+          "de": "Die Anwendung dieser Erkenntnisse könnte viele Bereiche verändern.",
+          "en": "The application of these findings could change many areas."
+        }
+      ]
+    },
+    {
+      "number": 75,
+      "title": "Business and Legal Sentences",
+      "titleNative": "Geschäftliche und rechtliche Sätze",
+      "items": [
+        {
+          "de": "Die Unterzeichnung des Vertrags erfolgt nach Prüfung aller Details.",
+          "en": "The signing of the contract takes place after review of all details."
+        },
+        {
+          "de": "Die Umsetzung der neuen Strategie erfordert die Zustimmung des gesamten Teams.",
+          "en": "The implementation of the new strategy requires the agreement of the entire team."
+        },
+        {
+          "de": "Die Genehmigung des Antrags hängt von mehreren Faktoren ab.",
+          "en": "The approval of the application depends on several factors."
+        },
+        {
+          "de": "Die Einhaltung dieser Vorschriften wird regelmäßig überprüft.",
+          "en": "Compliance with these regulations is checked regularly."
+        }
+      ]
+    },
+    {
+      "number": 76,
+      "title": "News and Journalism",
+      "titleNative": "Nachrichten und Journalismus",
+      "items": [
+        {
+          "de": "Die Veröffentlichung dieses Berichts löste eine heftige Debatte aus.",
+          "en": "The publication of this report triggered a fierce debate."
+        },
+        {
+          "de": "Die Reaktion der Öffentlichkeit auf diese Entscheidung war überwiegend negativ.",
+          "en": "The public's reaction to this decision was mostly negative."
+        },
+        {
+          "de": "Die Aufklärung dieses Falls wird noch einige Zeit in Anspruch nehmen.",
+          "en": "The clarification of this case will still take some time."
+        },
+        {
+          "de": "Die Berichterstattung über dieses Thema war in den letzten Wochen intensiv.",
+          "en": "The reporting on this topic has been intense in recent weeks."
+        }
+      ]
+    },
+    {
+      "number": 77,
+      "title": "Complex Cause and Effect",
+      "titleNative": "Komplexe Ursache und Wirkung",
+      "items": [
+        {
+          "de": "Die durch den Klimawandel verursachten Schäden nehmen weltweit zu.",
+          "en": "The damage caused by climate change is increasing worldwide."
+        },
+        {
+          "de": "Die aufgrund der Pandemie veränderten Arbeitsbedingungen bleiben bestehen.",
+          "en": "The working conditions changed due to the pandemic remain in place."
+        },
+        {
+          "de": "Die durch neue Technologien ermöglichten Fortschritte sind beeindruckend.",
+          "en": "The progress made possible by new technologies is impressive."
+        },
+        {
+          "de": "Die infolge der Reformen entstandenen Chancen wurden von vielen genutzt.",
+          "en": "The opportunities that arose as a result of the reforms were used by many."
+        }
+      ]
+    },
+    {
+      "number": 78,
+      "title": "Explaining Complex Situations",
+      "titleNative": "Komplexe Situationen erklären",
+      "items": [
+        {
+          "de": "Die Komplexität dieser Situation erfordert eine sorgfältige Analyse.",
+          "en": "The complexity of this situation requires careful analysis."
+        },
+        {
+          "de": "Die Widersprüchlichkeit der Aussagen machte die Entscheidung schwierig.",
+          "en": "The contradictory nature of the statements made the decision difficult."
+        },
+        {
+          "de": "Die Unsicherheit über die Zukunft beeinflusst viele Entscheidungen.",
+          "en": "The uncertainty about the future influences many decisions."
+        },
+        {
+          "de": "Die Dringlichkeit des Problems verlangte schnelles Handeln.",
+          "en": "The urgency of the problem demanded quick action."
+        }
+      ]
+    },
+    {
+      "number": 79,
+      "title": "Formal Argumentation",
+      "titleNative": "Formelle Argumentation",
+      "items": [
+        {
+          "de": "Die Notwendigkeit dieser Maßnahme lässt sich klar begründen.",
+          "en": "The necessity of this measure can be clearly justified."
+        },
+        {
+          "de": "Die Wirksamkeit dieser Methode wurde durch mehrere Studien bestätigt.",
+          "en": "The effectiveness of this method has been confirmed by several studies."
+        },
+        {
+          "de": "Die Glaubwürdigkeit dieser Quelle wurde in Frage gestellt.",
+          "en": "The credibility of this source was called into question."
+        },
+        {
+          "de": "Die Bedeutung dieses Themas wird oft unterschätzt.",
+          "en": "The importance of this topic is often underestimated."
+        }
+      ]
+    },
+    {
+      "number": 80,
+      "title": "Review: Abstract Nominal Sentences",
+      "titleNative": "Repaso: Abstrakte Substantivsätze",
+      "items": [
+        {
+          "de": "Die aufgrund mangelnder Kommunikation entstandenen Missverständnisse führten zu erheblichen Verzögerungen.",
+          "en": "The misunderstandings that arose due to lack of communication led to considerable delays."
+        },
+        {
+          "de": "Die von der Regierung angekündigte, aber mehrfach verschobene Reform bleibt umstritten.",
+          "en": "The reform announced by the government, but postponed several times, remains controversial."
+        },
+        {
+          "de": "Die Auswertung der Ergebnisse ermöglichte eine fundierte Bewertung der Situation.",
+          "en": "The evaluation of the results enabled a well-founded assessment of the situation."
+        },
+        {
+          "de": "Angesichts der Komplexität dieser Aufgabe war die Zusammenarbeit mehrerer Abteilungen notwendig.",
+          "en": "In view of the complexity of this task, the cooperation of several departments was necessary."
+        }
+      ]
+    },
+    {
+      "number": 81,
+      "title": "Formal vs. Informal Requests",
+      "titleNative": "Formelle vs. informelle Bitten",
+      "items": [
+        {
+          "de": "Könnten Sie mir bitte diese Unterlagen zusenden? – Schick mir doch mal die Unterlagen.",
+          "en": "Could you please send me these documents? – Just send me the documents."
+        },
+        {
+          "de": "Wir bitten Sie höflich um eine schnelle Antwort. – Antworte doch bitte bald!",
+          "en": "We kindly ask you for a quick response. – Please answer soon!"
+        },
+        {
+          "de": "Es wäre freundlich, wenn Sie uns informieren könnten. – Sag uns doch einfach Bescheid.",
+          "en": "It would be kind if you could inform us. – Just let us know."
+        },
+        {
+          "de": "Wir würden uns über eine Rückmeldung freuen. – Meld dich mal, ja?",
+          "en": "We would appreciate a response. – Get in touch, okay?"
+        }
+      ],
+      "topicId": "b2plus-stilregister"
+    },
+    {
+      "number": 82,
+      "title": "Formal vs. Informal Statements",
+      "titleNative": "Formelle vs. informelle Aussagen",
+      "items": [
+        {
+          "de": "Die Situation gestaltet sich als schwierig. – Das ist echt schwierig gerade.",
+          "en": "The situation is proving difficult. – This is really difficult right now."
+        },
+        {
+          "de": "Es besteht die Möglichkeit einer Verzögerung. – Kann sein, dass es sich verzögert.",
+          "en": "There is the possibility of a delay. – It might get delayed."
+        },
+        {
+          "de": "Wir sind der Auffassung, dass eine Änderung notwendig ist. – Wir finden, das muss sich ändern.",
+          "en": "We are of the opinion that a change is necessary. – We think this needs to change."
+        },
+        {
+          "de": "Es wird empfohlen, frühzeitig zu buchen. – Buch am besten früh, sonst ist alles weg.",
+          "en": "It is recommended to book early. – Better book early, or everything will be gone."
+        }
+      ]
+    },
+    {
+      "number": 83,
+      "title": "Emails: Formal vs. Casual",
+      "titleNative": "E-Mails: Formell vs. locker",
+      "items": [
+        {
+          "de": "Sehr geehrte Damen und Herren, ich schreibe Ihnen bezüglich meiner Bewerbung. – Na, ich wollte nur wegen meiner Bewerbung schreiben.",
+          "en": "Dear Sir or Madam, I am writing to you regarding my application. – Hey, I just wanted to write about my application."
+        },
+        {
+          "de": "Mit freundlichen Grüßen verbleibe ich, Ihre Anna Schmidt. – Bis bald, Anna.",
+          "en": "With kind regards, Anna Schmidt. – See you soon, Anna."
+        },
+        {
+          "de": "Vielen Dank im Voraus für Ihre Bemühungen. – Danke schon mal für deine Mühe!",
+          "en": "Thank you in advance for your efforts. – Thanks in advance for your effort!"
+        },
+        {
+          "de": "Ich erlaube mir, Sie an unseren Termin zu erinnern. – Nicht vergessen: Wir haben morgen einen Termin!",
+          "en": "I take the liberty of reminding you of our appointment. – Don't forget: we have an appointment tomorrow!"
+        }
+      ]
+    },
+    {
+      "number": 84,
+      "title": "Explaining Reasons: Formal vs. Casual",
+      "titleNative": "Gründe erklären: Formell vs. locker",
+      "items": [
+        {
+          "de": "Aufgrund unvorhergesehener Umstände müssen wir den Termin verschieben. – Wir müssen den Termin verschieben, weil was dazwischengekommen ist.",
+          "en": "Due to unforeseen circumstances, we must postpone the appointment. – We have to postpone the appointment because something came up."
+        },
+        {
+          "de": "Angesichts der aktuellen Lage bitten wir um Verständnis. – Sorry, aber die Lage ist gerade echt kompliziert.",
+          "en": "In view of the current situation, we ask for your understanding. – Sorry, but the situation is really complicated right now."
+        },
+        {
+          "de": "Wir bedauern, Ihnen mitteilen zu müssen, dass die Veranstaltung abgesagt wurde. – Schlechte Nachrichten: Die Veranstaltung fällt aus.",
+          "en": "We regret to inform you that the event has been cancelled. – Bad news: the event is cancelled."
+        },
+        {
+          "de": "Infolge technischer Probleme kam es zu Verzögerungen. – Es gab technische Probleme, deshalb hat's länger gedauert.",
+          "en": "As a result of technical problems, there were delays. – There were technical problems, so it took longer."
+        }
+      ]
+    },
+    {
+      "number": 85,
+      "title": "Giving Feedback: Formal vs. Casual",
+      "titleNative": "Feedback geben: Formell vs. locker",
+      "items": [
+        {
+          "de": "Die Präsentation war insgesamt sehr überzeugend. – Die Präsentation war echt gut!",
+          "en": "The presentation was overall very convincing. – The presentation was really good!"
+        },
+        {
+          "de": "Einige Punkte könnten noch verbessert werden. – Manches könntest du noch besser machen.",
+          "en": "Some points could still be improved. – You could still do some things better."
+        },
+        {
+          "de": "Wir sind mit dem Ergebnis sehr zufrieden. – Wir sind echt happy mit dem Ergebnis.",
+          "en": "We are very satisfied with the result. – We're really happy with the result."
+        },
+        {
+          "de": "Die Zusammenarbeit gestaltete sich äußerst produktiv. – Die Zusammenarbeit hat super geklappt.",
+          "en": "The collaboration proved extremely productive. – The collaboration worked out great."
+        }
+      ]
+    },
+    {
+      "number": 86,
+      "title": "Apologizing: Formal vs. Casual",
+      "titleNative": "Sich entschuldigen: Formell vs. locker",
+      "items": [
+        {
+          "de": "Ich möchte mich aufrichtig für das Missverständnis entschuldigen. – Sorry für das Durcheinander!",
+          "en": "I would like to sincerely apologize for the misunderstanding. – Sorry for the mess-up!"
+        },
+        {
+          "de": "Wir bedauern die entstandenen Unannehmlichkeiten zutiefst. – Tut uns echt leid, dass das passiert ist.",
+          "en": "We deeply regret the inconvenience caused. – We're really sorry that happened."
+        },
+        {
+          "de": "Bitte entschuldigen Sie die Verzögerung. – Sorry, dass es länger gedauert hat.",
+          "en": "Please excuse the delay. – Sorry it took longer."
+        },
+        {
+          "de": "Ich bitte um Nachsicht für diesen Fehler. – Mein Fehler, tut mir leid!",
+          "en": "I ask for your understanding regarding this mistake. – My mistake, sorry!"
+        }
+      ]
+    },
+    {
+      "number": 87,
+      "title": "Suggesting Ideas: Formal vs. Casual",
+      "titleNative": "Ideen vorschlagen: Formell vs. locker",
+      "items": [
+        {
+          "de": "Ich möchte den Vorschlag machen, das Treffen zu verschieben. – Sollen wir das Treffen vielleicht verschieben?",
+          "en": "I would like to propose postponing the meeting. – Should we maybe postpone the meeting?"
+        },
+        {
+          "de": "Es wäre denkbar, eine alternative Lösung in Betracht zu ziehen. – Wir könnten auch was anderes probieren.",
+          "en": "It would be conceivable to consider an alternative solution. – We could also try something else."
+        },
+        {
+          "de": "Wir regen an, die Angelegenheit erneut zu prüfen. – Lasst uns das nochmal checken.",
+          "en": "We suggest reviewing the matter again. – Let's check that again."
+        },
+        {
+          "de": "Es empfiehlt sich, frühzeitig zu planen. – Am besten planen wir das früh.",
+          "en": "It is advisable to plan early. – We'd better plan that early."
+        }
+      ]
+    },
+    {
+      "number": 88,
+      "title": "Talking About Problems: Formal vs. Casual",
+      "titleNative": "Über Probleme sprechen: Formell vs. locker",
+      "items": [
+        {
+          "de": "Es ist ein Problem aufgetreten, das umgehend gelöst werden muss. – Da gibt's ein Problem, das müssen wir schnell lösen.",
+          "en": "A problem has arisen that must be resolved immediately. – There's a problem, we need to solve it quickly."
+        },
+        {
+          "de": "Die Angelegenheit erfordert unsere volle Aufmerksamkeit. – Da müssen wir echt aufpassen.",
+          "en": "The matter requires our full attention. – We really need to be careful there."
+        },
+        {
+          "de": "Wir stehen derzeit vor einer erheblichen Herausforderung. – Wir haben's gerade echt schwer.",
+          "en": "We are currently facing a considerable challenge. – We're really having a hard time right now."
+        },
+        {
+          "de": "Es bedarf einer sorgfältigen Prüfung, bevor wir handeln. – Wir sollten das erstmal genau checken.",
+          "en": "A careful review is required before we act. – We should first check that carefully."
+        }
+      ]
+    },
+    {
+      "number": 89,
+      "title": "Closing Conversations: Formal vs. Casual",
+      "titleNative": "Gespräche beenden: Formell vs. locker",
+      "items": [
+        {
+          "de": "Ich danke Ihnen für Ihre Zeit und wünsche Ihnen einen angenehmen Tag. – Danke dir, bis dann!",
+          "en": "Thank you for your time and I wish you a pleasant day. – Thanks, see you later!"
+        },
+        {
+          "de": "Es war mir eine Freude, mit Ihnen zusammenzuarbeiten. – Hat echt Spaß gemacht mit dir zu arbeiten!",
+          "en": "It was a pleasure working with you. – It was really fun working with you!"
+        },
+        {
+          "de": "Wir freuen uns auf die weitere Zusammenarbeit. – Freu mich schon auf's nächste Mal!",
+          "en": "We look forward to further cooperation. – Looking forward to next time!"
+        },
+        {
+          "de": "Bei weiteren Fragen stehe ich Ihnen gerne zur Verfügung. – Meld dich einfach, wenn was ist.",
+          "en": "For further questions, I am happy to be available to you. – Just get in touch if anything comes up."
+        }
+      ]
+    },
+    {
+      "number": 90,
+      "title": "Review: Register-Shifting",
+      "titleNative": "Repaso: Registerwechsel",
+      "items": [
+        {
+          "de": "Sehr geehrte Frau Weber, ich möchte Sie höflich bitten, den Termin zu bestätigen. – Na, Frau Weber, können Sie kurz bestätigen, dass der Termin klappt?",
+          "en": "Dear Mrs. Weber, I would like to kindly ask you to confirm the appointment. – Hey Mrs. Weber, can you quickly confirm the appointment works?"
+        },
+        {
+          "de": "Aufgrund der aktuellen Situation bitten wir um Ihr Verständnis. – Sorry, ist gerade echt kompliziert bei uns.",
+          "en": "Due to the current situation, we ask for your understanding. – Sorry, it's really complicated for us right now."
+        },
+        {
+          "de": "Es wäre sehr hilfreich, wenn Sie uns die Unterlagen zukommen lassen könnten. – Schick uns doch mal die Unterlagen, wenn du Zeit hast.",
+          "en": "It would be very helpful if you could send us the documents. – Just send us the documents when you have time."
+        },
+        {
+          "de": "Wir bedanken uns herzlich für Ihre Geduld und Ihr Verständnis. – Danke für deine Geduld, echt nett von dir!",
+          "en": "We sincerely thank you for your patience and understanding. – Thanks for your patience, really nice of you!"
+        }
+      ]
+    },
+    {
+      "number": 91,
+      "title": "A Company in Transition",
+      "titleNative": "Ein Unternehmen im Wandel",
+      "items": [
+        {
+          "de": "Die aufgrund sinkender Nachfrage notwendig gewordene Umstrukturierung betraf viele Abteilungen.",
+          "en": "The restructuring, which became necessary due to declining demand, affected many departments."
+        },
+        {
+          "de": "Die Geschäftsführung erklärte, man werde alles daransetzen, Arbeitsplätze zu erhalten.",
+          "en": "The management explained that they would do everything possible to preserve jobs."
+        },
+        {
+          "de": "Innerhalb weniger Monate stellte das Unternehmen neue Ressourcen zur Verfügung.",
+          "en": "Within a few months, the company made new resources available."
+        },
+        {
+          "de": "Angesichts der Herausforderungen fand die neue Strategie schließlich breite Anwendung.",
+          "en": "In view of the challenges, the new strategy finally found broad application."
+        }
+      ]
+    },
+    {
+      "number": 92,
+      "title": "A Scientific Breakthrough",
+      "titleNative": "Ein wissenschaftlicher Durchbruch",
+      "items": [
+        {
+          "de": "Die anhand jahrelanger Forschung gewonnenen Erkenntnisse überraschten die gesamte Fachwelt.",
+          "en": "The insights gained through years of research surprised the entire scientific community."
+        },
+        {
+          "de": "Mithilfe künstlicher Intelligenz konnte das Team die Analyse erheblich beschleunigen.",
+          "en": "With the help of artificial intelligence, the team was able to significantly speed up the analysis."
+        },
+        {
+          "de": "Die Wissenschaftlerin erklärte, diese Entdeckung könne die Medizin grundlegend verändern.",
+          "en": "The scientist explained that this discovery could fundamentally change medicine."
+        },
+        {
+          "de": "Infolge dieser Studie wurde bereits ein neues Behandlungsverfahren entwickelt.",
+          "en": "As a result of this study, a new treatment method has already been developed."
+        }
+      ]
+    },
+    {
+      "number": 93,
+      "title": "Political Debate",
+      "titleNative": "Politische Debatte",
+      "items": [
+        {
+          "de": "Die von der Regierung geplante Reform sorgte angesichts der Kosten für heftige Kritik.",
+          "en": "The reform planned by the government caused fierce criticism in view of the costs."
+        },
+        {
+          "de": "Ein Sprecher erklärte, man wolle Rücksicht auf die Bedürfnisse aller Bürger nehmen.",
+          "en": "A spokesperson explained that they wanted to show consideration for the needs of all citizens."
+        },
+        {
+          "de": "Trotz zahlreicher Bedenken trat das Gesetz schließlich in Kraft.",
+          "en": "Despite numerous concerns, the law finally took effect."
+        },
+        {
+          "de": "Je länger die Debatte dauerte, desto klarer wurden die unterschiedlichen Positionen.",
+          "en": "The longer the debate lasted, the clearer the different positions became."
+        }
+      ]
+    },
+    {
+      "number": 94,
+      "title": "A Difficult Choice, Formally Told",
+      "titleNative": "Eine schwierige Wahl, formell erzählt",
+      "items": [
+        {
+          "de": "Angesichts der begrenzten Ressourcen musste eine Entscheidung getroffen werden.",
+          "en": "In view of the limited resources, a decision had to be made."
+        },
+        {
+          "de": "Die sorgfältig geprüfte Option erschien schließlich als die vernünftigste.",
+          "en": "The carefully examined option ultimately seemed the most sensible."
+        },
+        {
+          "de": "Man hätte sich, wie sich später zeigte, auch anders entscheiden können.",
+          "en": "One could, as it later turned out, have decided differently."
+        },
+        {
+          "de": "Dennoch bereute niemand die letztlich getroffene Wahl.",
+          "en": "Nevertheless, no one regretted the choice ultimately made."
+        }
+      ]
+    },
+    {
+      "number": 95,
+      "title": "The Same Story, Told Casually",
+      "titleNative": "Dieselbe Geschichte, locker erzählt",
+      "items": [
+        {
+          "de": "Wir hatten nicht so viel Geld, also mussten wir uns entscheiden.",
+          "en": "We didn't have much money, so we had to decide."
+        },
+        {
+          "de": "Am Ende haben wir uns für die Option entschieden, die am sinnvollsten war.",
+          "en": "In the end, we decided on the option that made the most sense."
+        },
+        {
+          "de": "Klar, wir hätten auch anders wählen können.",
+          "en": "Sure, we could have chosen differently."
+        },
+        {
+          "de": "Aber keiner hat's am Ende bereut.",
+          "en": "But no one regretted it in the end."
+        }
+      ]
+    },
+    {
+      "number": 96,
+      "title": "An Environmental Report",
+      "titleNative": "Ein Umweltbericht",
+      "items": [
+        {
+          "de": "Die durch den Klimawandel verursachten Schäden nehmen laut Bericht weiter zu.",
+          "en": "According to the report, the damage caused by climate change continues to increase."
+        },
+        {
+          "de": "Anhand mehrerer Studien lässt sich diese Entwicklung eindeutig belegen.",
+          "en": "Based on several studies, this development can be clearly proven."
+        },
+        {
+          "de": "Um weitere Schäden zu vermeiden, sind dringende Maßnahmen erforderlich.",
+          "en": "In order to avoid further damage, urgent measures are required."
+        },
+        {
+          "de": "Trotzdem bleibt die internationale Zusammenarbeit angesichts unterschiedlicher Interessen schwierig.",
+          "en": "Nevertheless, international cooperation remains difficult in view of differing interests."
+        }
+      ]
+    },
+    {
+      "number": 97,
+      "title": "A Job Interview, Two Registers",
+      "titleNative": "Ein Vorstellungsgespräch, zwei Register",
+      "items": [
+        {
+          "de": "Ich würde mich sehr freuen, Teil Ihres Teams zu werden. – Ich hätte echt Bock, hier zu arbeiten.",
+          "en": "I would be very pleased to become part of your team. – I would really love to work here."
+        },
+        {
+          "de": "Meine bisherige Erfahrung befähigt mich, diese Aufgabe erfolgreich zu übernehmen. – Ich kann das echt gut, hab schon viel Erfahrung.",
+          "en": "My previous experience qualifies me to successfully take on this task. – I'm really good at this, I have a lot of experience already."
+        },
+        {
+          "de": "Ich bin überzeugt, einen wertvollen Beitrag leisten zu können. – Ich glaub, ich könnte hier echt was bewirken.",
+          "en": "I am convinced I can make a valuable contribution. – I think I could really make a difference here."
+        },
+        {
+          "de": "Vielen Dank für die Gelegenheit zu diesem Gespräch. – Danke, dass ich heute vorbeikommen durfte!",
+          "en": "Thank you for the opportunity for this conversation. – Thanks for letting me come by today!"
+        }
+      ]
+    },
+    {
+      "number": 98,
+      "title": "Reflections on Language Itself",
+      "titleNative": "Gedanken über die Sprache selbst",
+      "items": [
+        {
+          "de": "Je mehr man eine Sprache lernt, desto mehr entdeckt man über die eigene Kultur.",
+          "en": "The more one learns a language, the more one discovers about one's own culture."
+        },
+        {
+          "de": "Die Fähigkeit, zwischen Registern zu wechseln, gilt als Zeichen wahrer Sprachbeherrschung.",
+          "en": "The ability to switch between registers is considered a sign of true language mastery."
+        },
+        {
+          "de": "Mithilfe kontinuierlicher Übung lässt sich jede Sprache meistern.",
+          "en": "With the help of continuous practice, any language can be mastered."
+        },
+        {
+          "de": "Trotz aller Herausforderungen bringt das Sprachenlernen eine tiefe Zufriedenheit zum Ausdruck.",
+          "en": "Despite all the challenges, language learning expresses a deep satisfaction."
+        }
+      ]
+    },
+    {
+      "number": 99,
+      "title": "A Farewell, Formally and Casually",
+      "titleNative": "Ein Abschied, formell und locker",
+      "items": [
+        {
+          "de": "Es war mir eine große Ehre, mit Ihnen zusammenzuarbeiten. – War echt schön, mit dir zu arbeiten!",
+          "en": "It was a great honor to work with you. – It was really nice working with you!"
+        },
+        {
+          "de": "Ich wünsche Ihnen für die Zukunft alles erdenklich Gute. – Ich wünsch dir alles Gute!",
+          "en": "I wish you all the best imaginable for the future. – I wish you all the best!"
+        },
+        {
+          "de": "Bitte bleiben Sie in Kontakt, sollte sich die Gelegenheit ergeben. – Lass uns in Kontakt bleiben, ja?",
+          "en": "Please stay in touch, should the opportunity arise. – Let's stay in touch, okay?"
+        },
+        {
+          "de": "Auf Wiedersehen, und vielen Dank für alles. – Tschüss, und danke für alles!",
+          "en": "Goodbye, and thank you for everything. – Bye, and thanks for everything!"
+        }
+      ]
+    },
+    {
+      "number": 100,
+      "title": "Closing Reflections",
+      "titleNative": "Abschließende Gedanken",
+      "items": [
+        {
+          "de": "Die Fähigkeit, komplexe Gedanken auszudrücken, entsteht nicht über Nacht, sondern aufgrund jahrelanger Übung.",
+          "en": "The ability to express complex thoughts doesn't arise overnight, but as a result of years of practice."
+        },
+        {
+          "de": "Angesichts allem, was wir gelernt haben, fühlen wir uns bereit für die nächste Stufe.",
+          "en": "In view of everything we have learned, we feel ready for the next level."
+        },
+        {
+          "de": "Je tiefer man in eine Sprache eintaucht, desto reicher wird die eigene Weltsicht.",
+          "en": "The deeper one dives into a language, the richer one's own worldview becomes."
+        },
+        {
+          "de": "Trotz aller Mühen bringt dieser Weg vor allem eines zum Ausdruck: die Freude am Verstehen.",
+          "en": "Despite all the effort, this path expresses above all one thing: the joy of understanding."
+        }
+      ]
+    }
+  ]
+}

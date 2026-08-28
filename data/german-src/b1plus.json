@@ -1,0 +1,2478 @@
+{
+  "level": "b1plus",
+  "grammarTopics": {
+    "b1plus-passiv-praesens": {
+      "title": "Passive Voice: Present Tense (Werden + Partizip II)",
+      "pattern": "werden (conjugated) + Partizip II",
+      "explanation": "The passive voice shifts focus from who does an action to what happens to something: \"Der Brief wird geschrieben\" (The letter is being written) instead of \"Sie schreibt den Brief\" (She writes the letter). It's formed with a conjugated form of \"werden\" plus the past participle, sent to the end of the clause. The original subject (who performs the action) can still be mentioned with \"von + Dativ\": \"Der Brief wird von ihr geschrieben.\"",
+      "fact": "German uses the passive far more than casual English does — especially in instructions, news reports, and formal writing, where the focus naturally falls on the process rather than the actor. Getting comfortable reading and producing it is essential for anything beyond conversational German.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Wann wird das neue Gebäude fertig gebaut?",
+          "en": "When will the new building be finished?"
+        },
+        {
+          "sp": "B",
+          "native": "Es wird nächstes Jahr eröffnet.",
+          "en": "It will be opened next year."
+        }
+      ]
+    },
+    "b1plus-passiv-vergangenheit": {
+      "title": "Passive Voice: Präteritum and Perfekt",
+      "pattern": "wurde + Partizip II (Präteritum); ist ... worden (Perfekt)",
+      "explanation": "The past passive uses \"wurde\" (Präteritum of werden) plus the participle: \"Das Haus wurde 1920 gebaut\" (The house was built in 1920). The Perfekt passive uses \"ist\" + participle + the special short form \"worden\" (not \"geworden\"): \"Das Haus ist letztes Jahr renoviert worden\" (The house has been renovated last year). The Präteritum passive is far more common in writing and narration; the Perfekt passive appears more in spoken accounts of recent events.",
+      "fact": "\"Worden\" only ever appears in the Perfekt passive — it's the one context where \"werden\"'s participle drops its usual \"ge-\" prefix. Seeing \"worden\" is actually a reliable signal that you're looking at a passive Perfekt construction, not a normal Perfekt with \"sein\".",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Wann wurde diese Brücke gebaut?",
+          "en": "When was this bridge built?"
+        },
+        {
+          "sp": "B",
+          "native": "Sie ist vor über hundert Jahren gebaut worden.",
+          "en": "It was built over a hundred years ago."
+        }
+      ]
+    },
+    "b1plus-futur": {
+      "title": "Futur I: Talking About the Future",
+      "pattern": "werden (conjugated) + infinitive",
+      "explanation": "German usually talks about the future using the present tense with a time word (\"Ich fahre morgen nach Berlin\" — I'm going to Berlin tomorrow). Futur I, formed with \"werden\" + infinitive, is used instead to make a prediction, promise, or assumption stand out: \"Es wird bald regnen\" (It will rain soon), \"Ich werde dir helfen\" (I will help you) as a firm promise.",
+      "fact": "Futur I is especially common for expressing probability about the PRESENT, not just the future — often paired with \"wohl\" or \"wahrscheinlich\": \"Er wird wohl noch schlafen\" doesn't mean \"he will sleep\" but \"he's probably still asleep right now.\" This present-probability use surprises many learners coming from English.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Wirst du morgen zur Party kommen?",
+          "en": "Will you come to the party tomorrow?"
+        },
+        {
+          "sp": "B",
+          "native": "Ja, ich werde bestimmt kommen.",
+          "en": "Yes, I will definitely come."
+        }
+      ]
+    },
+    "b1plus-indirekte-rede": {
+      "title": "Indirect Speech: Reporting What Someone Said",
+      "pattern": "Er sagte, dass ... / Sie fragte, ob ... / Er fragte, wann ...",
+      "explanation": "To report what someone said, German uses \"dass\" for statements (\"Er sagte, dass er müde sei/ist\" — He said that he was tired) and \"ob\" for yes/no questions (\"Sie fragte, ob ich Zeit hätte/habe\" — She asked whether I had time). Question-word questions keep the same question word, now with verb-final order: \"Er fragte, wann der Zug ankommt\" (He asked when the train arrives). At the B1+ level, using the plain indicative (like \"ist\", \"habe\") inside these clauses is completely acceptable in speech — true Konjunktiv I comes later.",
+      "fact": "Both \"dass\" and \"ob\" clauses push the verb to the end, just like every other subordinate clause — the only real challenge is picking the right connector: \"dass\" reports a statement, \"ob\" reports a yes/no question, and the original question word (wann, wo, warum...) carries over unchanged for open questions.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Was hat der Chef gesagt?",
+          "en": "What did the boss say?"
+        },
+        {
+          "sp": "B",
+          "native": "Er sagte, dass das Meeting verschoben wird.",
+          "en": "He said that the meeting is being postponed."
+        }
+      ]
+    },
+    "b1plus-als-waehrend": {
+      "title": "Temporal Clauses: Als, Wenn, Während",
+      "pattern": "als (single past event) / wenn (repeated or non-past) / während (simultaneous)",
+      "explanation": "\"Als\" introduces a single, completed event in the past: \"Als ich sie sah, lächelte sie\" (When I saw her, she smiled — one specific moment). \"Wenn\" covers repeated past events, present, or future: \"Wenn ich sie sehe, lächle ich immer\" (Whenever I see her, I always smile). \"Während\" marks two things happening at the same time: \"Während ich kochte, rief er an\" (While I was cooking, he called).",
+      "fact": "The als/wenn distinction trips up even advanced learners because English \"when\" covers both — the test is simple: is it one specific past moment (als) or something repeated/habitual/non-past (wenn)? \"Als ich klein war\" (When I was a child — one continuous past state, treated as a single \"event\") is the classic example that looks like it should take \"wenn\" but doesn't.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Was hast du gemacht, als der Strom ausfiel?",
+          "en": "What did you do when the power went out?"
+        },
+        {
+          "sp": "B",
+          "native": "Ich habe Kerzen angezündet, während ich auf die Reparatur wartete.",
+          "en": "I lit candles while I waited for the repair."
+        }
+      ]
+    },
+    "b1plus-bevor-nachdem": {
+      "title": "Subordinate Clauses: Bevor and Nachdem",
+      "pattern": "..., bevor ... [verb-final]. / Nachdem ... [Perfekt/Plusquamperfekt], ... [main clause].",
+      "explanation": "\"Bevor\" (before) and \"nachdem\" (after) sequence two events, both triggering verb-final order in their clause: \"Ich esse, bevor ich gehe\" (I eat before I go). \"Nachdem\" has a special rule: the nachdem-clause must use an earlier tense than the main clause to show the sequence clearly — usually Perfekt in the nachdem-clause with Präsens in the main clause: \"Nachdem ich gegessen habe, gehe ich.\" (After I've eaten, I go.)",
+      "fact": "In the past, this tense-shifting becomes Plusquamperfekt (had + participle) in the nachdem-clause paired with Präteritum/Perfekt in the main clause: \"Nachdem ich gegessen hatte, ging ich.\" (After I had eaten, I went.) — mirroring English's own past-perfect logic for the same reason: to make the earlier event unmistakably earlier.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Was machst du, bevor du schläfst?",
+          "en": "What do you do before you sleep?"
+        },
+        {
+          "sp": "B",
+          "native": "Nachdem ich die Zähne geputzt habe, lese ich noch ein bisschen.",
+          "en": "After I've brushed my teeth, I read a little."
+        }
+      ]
+    },
+    "b1plus-da-kompositum": {
+      "title": "Da-Compounds: Referring Back to Things",
+      "pattern": "da(r) + preposition: damit, dafür, davon, darüber, daran ...",
+      "explanation": "When a preposition refers back to something already mentioned (not a person), German combines \"da-\" with the preposition instead of using a pronoun: \"Ich interessiere mich für Musik. Ich interessiere mich dafür.\" (I'm interested in it.) An \"-r-\" is inserted before prepositions starting with a vowel: \"da\" + \"an\" → \"daran\", \"da\" + \"auf\" → \"darauf\".",
+      "fact": "Da-compounds are also used to introduce a whole following clause: \"Ich freue mich darauf, dich zu sehen\" (I'm looking forward to seeing you) — the \"darauf\" announces that a \"dass\"-clause or infinitive clause is coming, a pattern with no direct English equivalent that simply has to be learned verb by verb (sich freuen auf, denken an, warten auf...).",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Denkst du oft an deine Reise?",
+          "en": "Do you often think about your trip?"
+        },
+        {
+          "sp": "B",
+          "native": "Ja, ich denke oft daran.",
+          "en": "Yes, I often think about it."
+        }
+      ]
+    },
+    "b1plus-wo-kompositum": {
+      "title": "Wo-Compounds: Asking About Things",
+      "pattern": "wo(r) + preposition: womit, wofür, wovon, worüber, woran ...",
+      "explanation": "To ask a question about a thing (not a person) using a preposition, German combines \"wo-\" with the preposition, mirroring the da-compound pattern: \"Wofür interessierst du dich?\" (What are you interested in?) — never \"Für was...\", which sounds distinctly non-native even though it's technically understandable. Like da-compounds, an \"-r-\" is inserted before a vowel: \"wo\" + \"an\" → \"woran\".",
+      "fact": "The da-/wo- system is symmetrical: every preposition that takes a da-compound also takes the matching wo-compound, and they answer each other naturally in conversation — \"Woran denkst du?\" \"Ich denke daran, dass...\" This pairing is worth drilling together rather than separately.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Woran denkst du gerade?",
+          "en": "What are you thinking about right now?"
+        },
+        {
+          "sp": "B",
+          "native": "Ich denke daran, was wir am Wochenende machen könnten.",
+          "en": "I'm thinking about what we could do this weekend."
+        }
+      ]
+    },
+    "b1plus-passiv-modal": {
+      "title": "Passive with Modal Verbs",
+      "pattern": "modal (conjugated) + Partizip II + werden",
+      "explanation": "Combining a modal verb with the passive stacks two structures: the modal is conjugated normally, and \"werden\" moves to the infinitive at the very end, right after the participle: \"Das muss gemacht werden\" (That must be done), \"Es kann repariert werden\" (It can be repaired). This is one of the most common patterns in instructions, rules, and formal writing.",
+      "fact": "Order always matters: participle first, then \"werden\" — never the reverse. Think of it as the normal Partizip-II-at-the-end rule, just with \"werden\" tucked in immediately after it as the modal's own infinitive complement.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Muss das heute noch erledigt werden?",
+          "en": "Does this still need to be done today?"
+        },
+        {
+          "sp": "B",
+          "native": "Nein, das kann auch morgen gemacht werden.",
+          "en": "No, that can also be done tomorrow."
+        }
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "number": 1,
+      "title": "What Is Being Done",
+      "titleNative": "Was gerade gemacht wird",
+      "items": [
+        {
+          "de": "Das Auto wird gerade repariert.",
+          "en": "The car is being repaired right now."
+        },
+        {
+          "de": "Die Wohnung wird jede Woche geputzt.",
+          "en": "The apartment is cleaned every week."
+        },
+        {
+          "de": "Das neue Museum wird von vielen Touristen besucht.",
+          "en": "The new museum is visited by many tourists."
+        },
+        {
+          "de": "Diese Aufgabe wird von unserem Team übernommen.",
+          "en": "This task is being taken on by our team."
+        }
+      ],
+      "topicId": "b1plus-passiv-praesens"
+    },
+    {
+      "number": 2,
+      "title": "Rules and Processes",
+      "titleNative": "Regeln und Prozesse",
+      "items": [
+        {
+          "de": "Diese Regeln werden von allen Mitarbeitern befolgt.",
+          "en": "These rules are followed by all employees."
+        },
+        {
+          "de": "Das Produkt wird sorgfältig getestet, bevor es verkauft wird.",
+          "en": "The product is carefully tested before it is sold."
+        },
+        {
+          "de": "Der Antrag wird innerhalb von zwei Wochen bearbeitet.",
+          "en": "The application is processed within two weeks."
+        },
+        {
+          "de": "Neue Mitarbeiter werden gründlich geschult.",
+          "en": "New employees are thoroughly trained."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "News and Announcements",
+      "titleNative": "Nachrichten und Ankündigungen",
+      "items": [
+        {
+          "de": "Die Ergebnisse werden morgen veröffentlicht.",
+          "en": "The results will be published tomorrow."
+        },
+        {
+          "de": "Ein neues Gesetz wird nächsten Monat eingeführt.",
+          "en": "A new law will be introduced next month."
+        },
+        {
+          "de": "Die Entscheidung wird von der Regierung getroffen.",
+          "en": "The decision is made by the government."
+        },
+        {
+          "de": "Diese Information wird nicht öffentlich geteilt.",
+          "en": "This information is not shared publicly."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "In the Kitchen",
+      "titleNative": "In der Küche",
+      "items": [
+        {
+          "de": "Das Gemüse wird zuerst geschnitten.",
+          "en": "The vegetables are cut first."
+        },
+        {
+          "de": "Die Suppe wird langsam gekocht.",
+          "en": "The soup is cooked slowly."
+        },
+        {
+          "de": "Der Tisch wird für die Gäste gedeckt.",
+          "en": "The table is being set for the guests."
+        },
+        {
+          "de": "Das Brot wird jeden Morgen frisch gebacken.",
+          "en": "The bread is baked fresh every morning."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "At School and Work",
+      "titleNative": "In der Schule und bei der Arbeit",
+      "items": [
+        {
+          "de": "Die Prüfungen werden von zwei Lehrern korrigiert.",
+          "en": "The exams are corrected by two teachers."
+        },
+        {
+          "de": "Der Bericht wird bis Freitag geschrieben.",
+          "en": "The report is being written by Friday."
+        },
+        {
+          "de": "Alle Fragen werden am Ende der Stunde beantwortet.",
+          "en": "All questions are answered at the end of the lesson."
+        },
+        {
+          "de": "Die Projekte werden in kleinen Gruppen bearbeitet.",
+          "en": "The projects are worked on in small groups."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "By Whom: Von + Dativ",
+      "titleNative": "Von wem: Von + Dativ",
+      "items": [
+        {
+          "de": "Das Bild wird von einem berühmten Künstler gemalt.",
+          "en": "The painting is being painted by a famous artist."
+        },
+        {
+          "de": "Der Kuchen wird von meiner Großmutter gebacken.",
+          "en": "The cake is being baked by my grandmother."
+        },
+        {
+          "de": "Diese Firma wird von zwei Brüdern geleitet.",
+          "en": "This company is run by two brothers."
+        },
+        {
+          "de": "Der Film wird von einem jungen Regisseur gedreht.",
+          "en": "The film is being made by a young director."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Questions in the Passive",
+      "titleNative": "Fragen im Passiv",
+      "items": [
+        {
+          "de": "Wird das Problem heute gelöst?",
+          "en": "Is the problem being solved today?"
+        },
+        {
+          "de": "Wann wird die neue Straße gebaut?",
+          "en": "When will the new street be built?"
+        },
+        {
+          "de": "Wie wird dieses Wort ausgesprochen?",
+          "en": "How is this word pronounced?"
+        },
+        {
+          "de": "Wo wird das Treffen organisiert?",
+          "en": "Where is the meeting being organized?"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Negative Passive",
+      "titleNative": "Passiv in der Verneinung",
+      "items": [
+        {
+          "de": "Diese Regel wird leider nicht immer befolgt.",
+          "en": "This rule is unfortunately not always followed."
+        },
+        {
+          "de": "Das Problem wird noch nicht verstanden.",
+          "en": "The problem is not yet understood."
+        },
+        {
+          "de": "Diese Frage wird selten gestellt.",
+          "en": "This question is rarely asked."
+        },
+        {
+          "de": "Der Fehler wird nicht sofort bemerkt.",
+          "en": "The mistake is not immediately noticed."
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Environment and Society",
+      "titleNative": "Umwelt und Gesellschaft",
+      "items": [
+        {
+          "de": "Viele Wälder werden jedes Jahr zerstört.",
+          "en": "Many forests are destroyed every year."
+        },
+        {
+          "de": "Neue Lösungen werden dringend gesucht.",
+          "en": "New solutions are urgently being sought."
+        },
+        {
+          "de": "Diese Probleme werden weltweit diskutiert.",
+          "en": "These problems are being discussed worldwide."
+        },
+        {
+          "de": "Erneuerbare Energien werden immer wichtiger.",
+          "en": "Renewable energy is becoming increasingly important."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Review: Present Passive",
+      "titleNative": "Repaso: Passiv im Präsens",
+      "items": [
+        {
+          "de": "Das Essen wird gerade vorbereitet, während der Tisch gedeckt wird.",
+          "en": "The food is being prepared while the table is being set."
+        },
+        {
+          "de": "Diese Entscheidung wird von allen respektiert, auch wenn sie schwierig ist.",
+          "en": "This decision is respected by everyone, even though it's difficult."
+        },
+        {
+          "de": "Der Brief wird morgen gesendet und die Antwort wird bald erwartet.",
+          "en": "The letter will be sent tomorrow and the answer is expected soon."
+        },
+        {
+          "de": "Wird dieses Produkt in vielen Ländern verkauft?",
+          "en": "Is this product sold in many countries?"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Historical Facts",
+      "titleNative": "Historische Fakten",
+      "items": [
+        {
+          "de": "Diese Kirche wurde im 14. Jahrhundert gebaut.",
+          "en": "This church was built in the 14th century."
+        },
+        {
+          "de": "Das Gesetz wurde vor zwanzig Jahren geändert.",
+          "en": "The law was changed twenty years ago."
+        },
+        {
+          "de": "Die Stadt wurde nach dem Krieg wieder aufgebaut.",
+          "en": "The city was rebuilt after the war."
+        },
+        {
+          "de": "Dieses Buch wurde in viele Sprachen übersetzt.",
+          "en": "This book was translated into many languages."
+        }
+      ],
+      "topicId": "b1plus-passiv-vergangenheit"
+    },
+    {
+      "number": 12,
+      "title": "What Was Done Yesterday",
+      "titleNative": "Was gestern gemacht wurde",
+      "items": [
+        {
+          "de": "Das Problem wurde gestern endlich gelöst.",
+          "en": "The problem was finally solved yesterday."
+        },
+        {
+          "de": "Der Vertrag wurde am Montag unterschrieben.",
+          "en": "The contract was signed on Monday."
+        },
+        {
+          "de": "Die Entscheidung wurde nach langer Diskussion getroffen.",
+          "en": "The decision was made after a long discussion."
+        },
+        {
+          "de": "Das Fest wurde wegen des Regens verschoben.",
+          "en": "The party was postponed because of the rain."
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "title": "Recent Events (Perfekt Passive)",
+      "titleNative": "Aktuelle Ereignisse (Perfekt Passiv)",
+      "items": [
+        {
+          "de": "Das neue Gesetz ist letzte Woche verabschiedet worden.",
+          "en": "The new law was passed last week."
+        },
+        {
+          "de": "Die Brücke ist vor kurzem repariert worden.",
+          "en": "The bridge was recently repaired."
+        },
+        {
+          "de": "Der Bericht ist bereits gesendet worden.",
+          "en": "The report has already been sent."
+        },
+        {
+          "de": "Die Preise sind dieses Jahr erhöht worden.",
+          "en": "Prices have been raised this year."
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "title": "Discoveries and Inventions",
+      "titleNative": "Entdeckungen und Erfindungen",
+      "items": [
+        {
+          "de": "Das Telefon wurde im 19. Jahrhundert erfunden.",
+          "en": "The telephone was invented in the 19th century."
+        },
+        {
+          "de": "Diese Insel wurde vor Jahrhunderten entdeckt.",
+          "en": "This island was discovered centuries ago."
+        },
+        {
+          "de": "Der Impfstoff wurde nach jahrelanger Forschung entwickelt.",
+          "en": "The vaccine was developed after years of research."
+        },
+        {
+          "de": "Diese Technologie ist erst kürzlich verbessert worden.",
+          "en": "This technology has only recently been improved."
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "title": "Buildings and Cities",
+      "titleNative": "Gebäude und Städte",
+      "items": [
+        {
+          "de": "Dieses Schloss wurde für einen König gebaut.",
+          "en": "This castle was built for a king."
+        },
+        {
+          "de": "Der Bahnhof wurde vollständig modernisiert.",
+          "en": "The train station was completely modernized."
+        },
+        {
+          "de": "Diese Straße ist letztes Jahr umbenannt worden.",
+          "en": "This street was renamed last year."
+        },
+        {
+          "de": "Das alte Fabrikgebäude wurde in Wohnungen umgewandelt.",
+          "en": "The old factory building was converted into apartments."
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "title": "Questions About the Past",
+      "titleNative": "Fragen über die Vergangenheit",
+      "items": [
+        {
+          "de": "Wann wurde dieses Denkmal errichtet?",
+          "en": "When was this monument erected?"
+        },
+        {
+          "de": "Von wem wurde diese Entscheidung getroffen?",
+          "en": "By whom was this decision made?"
+        },
+        {
+          "de": "Ist das Problem schon gelöst worden?",
+          "en": "Has the problem already been solved?"
+        },
+        {
+          "de": "Warum wurde die Reise abgesagt?",
+          "en": "Why was the trip cancelled?"
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "title": "Personal Experiences",
+      "titleNative": "Persönliche Erfahrungen",
+      "items": [
+        {
+          "de": "Ich wurde zu einer wichtigen Konferenz eingeladen.",
+          "en": "I was invited to an important conference."
+        },
+        {
+          "de": "Sie wurde für ihre Arbeit ausgezeichnet.",
+          "en": "She was recognized for her work."
+        },
+        {
+          "de": "Wir wurden herzlich in der neuen Stadt willkommen geheißen.",
+          "en": "We were warmly welcomed in the new city."
+        },
+        {
+          "de": "Er ist letztes Jahr befördert worden.",
+          "en": "He was promoted last year."
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "title": "Accidents and Incidents",
+      "titleNative": "Unfälle und Vorfälle",
+      "items": [
+        {
+          "de": "Die Straße wurde nach dem Unfall gesperrt.",
+          "en": "The street was closed after the accident."
+        },
+        {
+          "de": "Der Verletzte wurde sofort ins Krankenhaus gebracht.",
+          "en": "The injured person was immediately taken to the hospital."
+        },
+        {
+          "de": "Die Ursache des Problems wurde schnell gefunden.",
+          "en": "The cause of the problem was quickly found."
+        },
+        {
+          "de": "Der Schaden ist noch nicht vollständig repariert worden.",
+          "en": "The damage has not yet been completely repaired."
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "title": "Culture and Tradition",
+      "titleNative": "Kultur und Tradition",
+      "items": [
+        {
+          "de": "Dieses Fest wird seit Jahrhunderten gefeiert.",
+          "en": "This festival has been celebrated for centuries."
+        },
+        {
+          "de": "Das Rezept wurde von Generation zu Generation weitergegeben.",
+          "en": "The recipe was passed down from generation to generation."
+        },
+        {
+          "de": "Diese Tradition ist nie vergessen worden.",
+          "en": "This tradition has never been forgotten."
+        },
+        {
+          "de": "Das Lied wurde vor vielen Jahren geschrieben.",
+          "en": "The song was written many years ago."
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "title": "Review: Past Passive",
+      "titleNative": "Repaso: Passiv in der Vergangenheit",
+      "items": [
+        {
+          "de": "Das Haus wurde 1950 gebaut und ist letztes Jahr renoviert worden.",
+          "en": "The house was built in 1950 and was renovated last year."
+        },
+        {
+          "de": "Die Entscheidung wurde schnell getroffen, aber sie ist bis heute diskutiert worden.",
+          "en": "The decision was made quickly, but it has been discussed to this day."
+        },
+        {
+          "de": "Wurde das Problem gelöst, bevor es zu spät war?",
+          "en": "Was the problem solved before it was too late?"
+        },
+        {
+          "de": "Der Preis ist gestiegen, weil die Nachfrage erhöht worden ist.",
+          "en": "The price rose because demand was increased."
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "title": "Predictions",
+      "titleNative": "Vorhersagen",
+      "items": [
+        {
+          "de": "Es wird morgen wahrscheinlich regnen.",
+          "en": "It will probably rain tomorrow."
+        },
+        {
+          "de": "Die Preise werden in den nächsten Jahren steigen.",
+          "en": "Prices will rise in the coming years."
+        },
+        {
+          "de": "Diese Technologie wird unser Leben stark verändern.",
+          "en": "This technology will greatly change our lives."
+        },
+        {
+          "de": "Sie wird die Prüfung sicher bestehen.",
+          "en": "She will surely pass the exam."
+        }
+      ],
+      "topicId": "b1plus-futur"
+    },
+    {
+      "number": 22,
+      "title": "Promises",
+      "titleNative": "Versprechen",
+      "items": [
+        {
+          "de": "Ich werde dir bei diesem Problem helfen.",
+          "en": "I will help you with this problem."
+        },
+        {
+          "de": "Wir werden immer für dich da sein.",
+          "en": "We will always be there for you."
+        },
+        {
+          "de": "Sie wird ihr Versprechen bestimmt halten.",
+          "en": "She will surely keep her promise."
+        },
+        {
+          "de": "Ich werde nie wieder so einen Fehler machen.",
+          "en": "I will never make such a mistake again."
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "title": "Plans for the Future",
+      "titleNative": "Pläne für die Zukunft",
+      "items": [
+        {
+          "de": "Nächstes Jahr werden wir nach Italien reisen.",
+          "en": "Next year we will travel to Italy."
+        },
+        {
+          "de": "Er wird bald sein eigenes Geschäft eröffnen.",
+          "en": "He will soon open his own business."
+        },
+        {
+          "de": "Wir werden in ein größeres Haus ziehen.",
+          "en": "We will move to a bigger house."
+        },
+        {
+          "de": "Sie werden diesen Sommer heiraten.",
+          "en": "They will get married this summer."
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "title": "Assumptions About the Present",
+      "titleNative": "Vermutungen über die Gegenwart",
+      "items": [
+        {
+          "de": "Er wird wohl noch im Büro sein.",
+          "en": "He is probably still at the office."
+        },
+        {
+          "de": "Sie wird jetzt wahrscheinlich zu Hause sein.",
+          "en": "She is probably at home right now."
+        },
+        {
+          "de": "Das wird wohl das Problem sein.",
+          "en": "That's probably the problem."
+        },
+        {
+          "de": "Sie werden jetzt wohl im Flugzeug sitzen.",
+          "en": "They are probably on the plane right now."
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "title": "Questions About the Future",
+      "titleNative": "Fragen über die Zukunft",
+      "items": [
+        {
+          "de": "Wirst du dieses Jahr Urlaub nehmen?",
+          "en": "Will you take a vacation this year?"
+        },
+        {
+          "de": "Wann wird das neue Produkt auf den Markt kommen?",
+          "en": "When will the new product come to market?"
+        },
+        {
+          "de": "Werdet ihr uns morgen besuchen?",
+          "en": "Will you visit us tomorrow?"
+        },
+        {
+          "de": "Wie wird sich die Situation entwickeln?",
+          "en": "How will the situation develop?"
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "title": "Negative Futur",
+      "titleNative": "Futur in der Verneinung",
+      "items": [
+        {
+          "de": "Ich werde dieses Angebot nicht annehmen.",
+          "en": "I will not accept this offer."
+        },
+        {
+          "de": "Sie wird ihre Meinung wahrscheinlich nicht ändern.",
+          "en": "She probably won't change her mind."
+        },
+        {
+          "de": "Wir werden das Projekt nicht rechtzeitig fertig bekommen.",
+          "en": "We won't finish the project on time."
+        },
+        {
+          "de": "Das wird sich nicht so einfach lösen lassen.",
+          "en": "That won't be so easy to solve."
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "title": "Warnings and Consequences",
+      "titleNative": "Warnungen und Konsequenzen",
+      "items": [
+        {
+          "de": "Wenn du so weitermachst, wirst du Probleme bekommen.",
+          "en": "If you keep going like this, you will get into trouble."
+        },
+        {
+          "de": "Ohne mehr Übung wird sie die Prüfung nicht bestehen.",
+          "en": "Without more practice, she won't pass the exam."
+        },
+        {
+          "de": "Diese Entscheidung wird schwerwiegende Folgen haben.",
+          "en": "This decision will have serious consequences."
+        },
+        {
+          "de": "Wenn wir nicht handeln, wird es zu spät sein.",
+          "en": "If we don't act, it will be too late."
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "title": "Careers and Ambitions",
+      "titleNative": "Karrieren und Ambitionen",
+      "items": [
+        {
+          "de": "Ich werde eines Tages mein eigenes Unternehmen führen.",
+          "en": "One day I will run my own company."
+        },
+        {
+          "de": "Sie wird bestimmt eine großartige Ärztin werden.",
+          "en": "She will surely become a great doctor."
+        },
+        {
+          "de": "Wir werden hart arbeiten, um unsere Ziele zu erreichen.",
+          "en": "We will work hard to achieve our goals."
+        },
+        {
+          "de": "Er wird seine Fähigkeiten weiter verbessern.",
+          "en": "He will keep improving his skills."
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "title": "Climate and Environment",
+      "titleNative": "Klima und Umwelt",
+      "items": [
+        {
+          "de": "Die Temperaturen werden in den nächsten Jahrzehnten weiter steigen.",
+          "en": "Temperatures will continue to rise in the coming decades."
+        },
+        {
+          "de": "Viele Städte werden neue Umweltgesetze einführen.",
+          "en": "Many cities will introduce new environmental laws."
+        },
+        {
+          "de": "Diese Maßnahmen werden hoffentlich helfen.",
+          "en": "These measures will hopefully help."
+        },
+        {
+          "de": "Ohne Veränderung werden die Probleme größer werden.",
+          "en": "Without change, the problems will get bigger."
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "title": "Review: Futur I",
+      "titleNative": "Repaso: Futur I",
+      "items": [
+        {
+          "de": "Ich werde morgen früh aufstehen und werde pünktlich ankommen.",
+          "en": "I will get up early tomorrow and will arrive on time."
+        },
+        {
+          "de": "Sie wird die Prüfung bestehen, weil sie sehr fleißig gelernt hat.",
+          "en": "She will pass the exam because she studied very hard."
+        },
+        {
+          "de": "Wir werden nie vergessen, was ihr für uns getan habt.",
+          "en": "We will never forget what you did for us."
+        },
+        {
+          "de": "Wird sich die Situation bald verbessern?",
+          "en": "Will the situation improve soon?"
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "title": "Reporting Statements",
+      "titleNative": "Aussagen wiedergeben",
+      "items": [
+        {
+          "de": "Sie sagte, dass sie morgen nicht kommen kann.",
+          "en": "She said that she can't come tomorrow."
+        },
+        {
+          "de": "Er erklärte, dass das Projekt fast fertig ist.",
+          "en": "He explained that the project is almost finished."
+        },
+        {
+          "de": "Meine Mutter meinte, dass ich zu viel arbeite.",
+          "en": "My mother said that I work too much."
+        },
+        {
+          "de": "Der Lehrer sagte, dass die Prüfung sehr wichtig ist.",
+          "en": "The teacher said that the exam is very important."
+        }
+      ],
+      "topicId": "b1plus-indirekte-rede"
+    },
+    {
+      "number": 32,
+      "title": "Reporting Yes/No Questions",
+      "titleNative": "Ja/Nein-Fragen wiedergeben",
+      "items": [
+        {
+          "de": "Sie fragte, ob ich am Wochenende Zeit habe.",
+          "en": "She asked whether I have time on the weekend."
+        },
+        {
+          "de": "Er wollte wissen, ob wir das Projekt schon begonnen haben.",
+          "en": "He wanted to know whether we have already started the project."
+        },
+        {
+          "de": "Ich fragte sie, ob sie mit dem Ergebnis zufrieden ist.",
+          "en": "I asked her whether she is satisfied with the result."
+        },
+        {
+          "de": "Wir fragten, ob der Zug pünktlich ankommt.",
+          "en": "We asked whether the train arrives on time."
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "title": "Reporting Wh-Questions",
+      "titleNative": "W-Fragen wiedergeben",
+      "items": [
+        {
+          "de": "Sie fragte, wann das Meeting beginnt.",
+          "en": "She asked when the meeting begins."
+        },
+        {
+          "de": "Er wollte wissen, warum ich so spät gekommen bin.",
+          "en": "He wanted to know why I came so late."
+        },
+        {
+          "de": "Ich fragte, wo der nächste Bahnhof ist.",
+          "en": "I asked where the nearest train station is."
+        },
+        {
+          "de": "Sie fragten, wie viel das kostet.",
+          "en": "They asked how much that costs."
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "title": "Reporting Opinions",
+      "titleNative": "Meinungen wiedergeben",
+      "items": [
+        {
+          "de": "Er glaubt, dass diese Lösung die beste ist.",
+          "en": "He believes that this solution is the best."
+        },
+        {
+          "de": "Sie denkt, dass wir mehr Zeit brauchen.",
+          "en": "She thinks that we need more time."
+        },
+        {
+          "de": "Meine Kollegen finden, dass das Projekt gut läuft.",
+          "en": "My colleagues think that the project is going well."
+        },
+        {
+          "de": "Ich bin der Meinung, dass wir warten sollten.",
+          "en": "I am of the opinion that we should wait."
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "title": "Everyday Conversations",
+      "titleNative": "Alltägliche Gespräche",
+      "items": [
+        {
+          "de": "Sie erzählte mir, dass sie einen neuen Job gefunden hat.",
+          "en": "She told me that she found a new job."
+        },
+        {
+          "de": "Mein Freund sagte, dass er bald umziehen wird.",
+          "en": "My friend said that he will move soon."
+        },
+        {
+          "de": "Er fragte, ob ich ihm helfen könnte.",
+          "en": "He asked whether I could help him."
+        },
+        {
+          "de": "Sie wollte wissen, wer die Nachricht geschickt hat.",
+          "en": "She wanted to know who sent the message."
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "title": "Work Conversations",
+      "titleNative": "Gespräche bei der Arbeit",
+      "items": [
+        {
+          "de": "Der Chef erklärte, dass sich die Regeln geändert haben.",
+          "en": "The boss explained that the rules have changed."
+        },
+        {
+          "de": "Sie fragte, ob der Bericht schon fertig ist.",
+          "en": "She asked whether the report is already finished."
+        },
+        {
+          "de": "Der Kollege sagte, dass er das Problem lösen wird.",
+          "en": "The colleague said that he will solve the problem."
+        },
+        {
+          "de": "Wir fragten, wann das neue Projekt beginnt.",
+          "en": "We asked when the new project begins."
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "title": "Reporting Requests",
+      "titleNative": "Bitten wiedergeben",
+      "items": [
+        {
+          "de": "Sie bat mich, dass ich ihr helfe.",
+          "en": "She asked me to help her."
+        },
+        {
+          "de": "Er bat uns, dass wir pünktlich kommen.",
+          "en": "He asked us to be on time."
+        },
+        {
+          "de": "Der Lehrer bat die Schüler, dass sie leiser sind.",
+          "en": "The teacher asked the students to be quieter."
+        },
+        {
+          "de": "Ich bat sie, dass sie mir schnell antwortet.",
+          "en": "I asked her to answer me quickly."
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "title": "News and Reports",
+      "titleNative": "Nachrichten und Berichte",
+      "items": [
+        {
+          "de": "Die Zeitung berichtete, dass die Wirtschaft wächst.",
+          "en": "The newspaper reported that the economy is growing."
+        },
+        {
+          "de": "Der Reporter sagte, dass die Lage sich verbessert.",
+          "en": "The reporter said that the situation is improving."
+        },
+        {
+          "de": "Es wurde gemeldet, dass es einen Unfall gegeben hat.",
+          "en": "It was reported that there was an accident."
+        },
+        {
+          "de": "Die Nachrichten sagten, dass es morgen kälter wird.",
+          "en": "The news said that it will get colder tomorrow."
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "title": "Doubts and Uncertainty",
+      "titleNative": "Zweifel und Unsicherheit",
+      "items": [
+        {
+          "de": "Ich weiß nicht, ob das stimmt.",
+          "en": "I don't know whether that's true."
+        },
+        {
+          "de": "Sie ist nicht sicher, ob sie richtig entschieden hat.",
+          "en": "She is not sure whether she decided correctly."
+        },
+        {
+          "de": "Wir fragen uns, ob das die beste Lösung ist.",
+          "en": "We wonder whether this is the best solution."
+        },
+        {
+          "de": "Er zweifelt, ob der Plan funktionieren wird.",
+          "en": "He doubts whether the plan will work."
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "title": "Review: Indirect Speech",
+      "titleNative": "Repaso: Indirekte Rede",
+      "items": [
+        {
+          "de": "Sie sagte, dass sie kommt, aber sie fragte auch, ob wir früher anfangen könnten.",
+          "en": "She said that she's coming, but she also asked whether we could start earlier."
+        },
+        {
+          "de": "Er erklärte, warum das Problem passiert ist, und sagte, dass es gelöst wird.",
+          "en": "He explained why the problem happened and said that it will be solved."
+        },
+        {
+          "de": "Ich fragte, wann sie ankommt, aber niemand wusste, ob der Zug pünktlich ist.",
+          "en": "I asked when she arrives, but no one knew whether the train is on time."
+        },
+        {
+          "de": "Sie bat uns, dass wir geduldig sind, weil sich die Situation bald verbessern wird.",
+          "en": "She asked us to be patient because the situation will improve soon."
+        }
+      ]
+    },
+    {
+      "number": 41,
+      "title": "A Single Past Moment (Als)",
+      "titleNative": "Ein einzelner vergangener Moment (Als)",
+      "items": [
+        {
+          "de": "Als ich nach Hause kam, war niemand da.",
+          "en": "When I came home, no one was there."
+        },
+        {
+          "de": "Als sie die Nachricht hörte, konnte sie es nicht glauben.",
+          "en": "When she heard the news, she couldn't believe it."
+        },
+        {
+          "de": "Als wir in Berlin ankamen, regnete es stark.",
+          "en": "When we arrived in Berlin, it was raining heavily."
+        },
+        {
+          "de": "Als er die Tür öffnete, sah er seine Freunde.",
+          "en": "When he opened the door, he saw his friends."
+        }
+      ],
+      "topicId": "b1plus-als-waehrend"
+    },
+    {
+      "number": 42,
+      "title": "Childhood with Als",
+      "titleNative": "Kindheit mit Als",
+      "items": [
+        {
+          "de": "Als ich klein war, lebte ich auf dem Land.",
+          "en": "When I was little, I lived in the countryside."
+        },
+        {
+          "de": "Als er jung war, wollte er Pilot werden.",
+          "en": "When he was young, he wanted to become a pilot."
+        },
+        {
+          "de": "Als wir Kinder waren, spielten wir jeden Tag draußen.",
+          "en": "When we were children, we played outside every day."
+        },
+        {
+          "de": "Als sie zur Schule ging, war sie sehr schüchtern.",
+          "en": "When she went to school, she was very shy."
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "title": "Repeated Events with Wenn",
+      "titleNative": "Wiederholte Ereignisse mit Wenn",
+      "items": [
+        {
+          "de": "Wenn ich müde bin, trinke ich einen Kaffee.",
+          "en": "Whenever I'm tired, I drink a coffee."
+        },
+        {
+          "de": "Wenn es schneit, bleiben die Kinder zu Hause.",
+          "en": "Whenever it snows, the children stay home."
+        },
+        {
+          "de": "Wenn wir uns treffen, reden wir stundenlang.",
+          "en": "Whenever we meet, we talk for hours."
+        },
+        {
+          "de": "Wenn er nervös ist, spricht er sehr schnell.",
+          "en": "Whenever he's nervous, he speaks very fast."
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "title": "Simultaneous Actions with Während",
+      "titleNative": "Gleichzeitige Handlungen mit Während",
+      "items": [
+        {
+          "de": "Während ich arbeitete, hörte ich Musik.",
+          "en": "While I was working, I listened to music."
+        },
+        {
+          "de": "Während sie kochte, las er die Zeitung.",
+          "en": "While she was cooking, he read the newspaper."
+        },
+        {
+          "de": "Während wir warteten, sprachen wir über die Zukunft.",
+          "en": "While we waited, we talked about the future."
+        },
+        {
+          "de": "Während er schlief, klingelte das Telefon.",
+          "en": "While he was sleeping, the phone rang."
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "title": "Comparing Als and Wenn",
+      "titleNative": "Als und Wenn vergleichen",
+      "items": [
+        {
+          "de": "Als ich sie zum ersten Mal traf, war sie noch Studentin.",
+          "en": "When I first met her, she was still a student."
+        },
+        {
+          "de": "Wenn ich sie treffe, freue ich mich immer.",
+          "en": "Whenever I meet her, I'm always happy."
+        },
+        {
+          "de": "Als der Film begann, wurde es im Kino still.",
+          "en": "When the movie began, it became quiet in the cinema."
+        },
+        {
+          "de": "Wenn ein Film beginnt, schalte ich immer mein Handy aus.",
+          "en": "Whenever a movie begins, I always turn off my phone."
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "title": "Stories from the Past",
+      "titleNative": "Geschichten aus der Vergangenheit",
+      "items": [
+        {
+          "de": "Als ich das erste Mal geflogen bin, hatte ich große Angst.",
+          "en": "The first time I flew, I was very scared."
+        },
+        {
+          "de": "Als der Sturm kam, waren wir schon zu Hause.",
+          "en": "When the storm came, we were already home."
+        },
+        {
+          "de": "Als sie das Ergebnis sah, weinte sie vor Freude.",
+          "en": "When she saw the result, she cried with joy."
+        },
+        {
+          "de": "Als der Zug endlich ankam, waren alle erleichtert.",
+          "en": "When the train finally arrived, everyone was relieved."
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "title": "Habits with Während",
+      "titleNative": "Gewohnheiten mit Während",
+      "items": [
+        {
+          "de": "Während des Frühstücks lese ich immer die Nachrichten.",
+          "en": "During breakfast, I always read the news."
+        },
+        {
+          "de": "Während wir spazieren gehen, sprechen wir oft über Arbeit.",
+          "en": "While we go for a walk, we often talk about work."
+        },
+        {
+          "de": "Während sie fernsieht, strickt sie manchmal.",
+          "en": "While she watches TV, she sometimes knits."
+        },
+        {
+          "de": "Während des Unterrichts darf man nicht essen.",
+          "en": "During class, you're not allowed to eat."
+        }
+      ]
+    },
+    {
+      "number": 48,
+      "title": "Combining All Three",
+      "titleNative": "Alle drei kombinieren",
+      "items": [
+        {
+          "de": "Als ich klein war, spielte ich immer draußen, wenn die Sonne schien.",
+          "en": "When I was little, I always played outside whenever the sun was shining."
+        },
+        {
+          "de": "Während sie sprach, dachte ich an den Moment, als wir uns kennenlernten.",
+          "en": "While she was speaking, I thought of the moment when we met."
+        },
+        {
+          "de": "Wenn ich Zeit habe, erinnere ich mich gern an den Tag, als wir heirateten.",
+          "en": "Whenever I have time, I like remembering the day we got married."
+        },
+        {
+          "de": "Als der Regen aufhörte, gingen wir raus, während die Sonne noch schien.",
+          "en": "When the rain stopped, we went outside while the sun was still shining."
+        }
+      ]
+    },
+    {
+      "number": 49,
+      "title": "Everyday Situations",
+      "titleNative": "Alltägliche Situationen",
+      "items": [
+        {
+          "de": "Als das Meeting begann, war noch nicht jeder da.",
+          "en": "When the meeting started, not everyone was there yet."
+        },
+        {
+          "de": "Wenn das Meeting beginnt, schalten wir immer die Handys aus.",
+          "en": "Whenever the meeting begins, we always turn off our phones."
+        },
+        {
+          "de": "Während des Meetings machte sie sich viele Notizen.",
+          "en": "During the meeting, she took a lot of notes."
+        },
+        {
+          "de": "Als sie ihre Notizen las, fand sie eine wichtige Idee.",
+          "en": "When she read her notes, she found an important idea."
+        }
+      ]
+    },
+    {
+      "number": 50,
+      "title": "Review: Als, Wenn, Während",
+      "titleNative": "Repaso: Als, Wenn, Während",
+      "items": [
+        {
+          "de": "Als ich jung war, wollte ich immer reisen, wenn ich genug Geld hätte.",
+          "en": "When I was young, I always wanted to travel whenever I had enough money."
+        },
+        {
+          "de": "Während wir auf den Bus warteten, erzählte sie mir, als sie zum ersten Mal allein reiste.",
+          "en": "While we were waiting for the bus, she told me about when she traveled alone for the first time."
+        },
+        {
+          "de": "Wenn es regnet, denke ich oft an den Tag, als wir im Sturm gefangen waren.",
+          "en": "Whenever it rains, I often think of the day when we got caught in the storm."
+        },
+        {
+          "de": "Als der Film endete, klatschten alle, während das Licht anging.",
+          "en": "When the movie ended, everyone applauded while the lights came on."
+        }
+      ]
+    },
+    {
+      "number": 51,
+      "title": "Before Doing Something",
+      "titleNative": "Bevor man etwas tut",
+      "items": [
+        {
+          "de": "Ich wasche mir die Hände, bevor ich esse.",
+          "en": "I wash my hands before I eat."
+        },
+        {
+          "de": "Sie liest die Bewertungen, bevor sie etwas kauft.",
+          "en": "She reads the reviews before she buys anything."
+        },
+        {
+          "de": "Wir planen alles genau, bevor wir eine Reise beginnen.",
+          "en": "We plan everything carefully before we start a trip."
+        },
+        {
+          "de": "Er übt viel, bevor er auf die Bühne geht.",
+          "en": "He practices a lot before he goes on stage."
+        }
+      ],
+      "topicId": "b1plus-bevor-nachdem"
+    },
+    {
+      "number": 52,
+      "title": "Bevor-Clause First",
+      "titleNative": "Bevor-Satz zuerst",
+      "items": [
+        {
+          "de": "Bevor ich das Haus verlasse, schließe ich immer die Fenster.",
+          "en": "Before I leave the house, I always close the windows."
+        },
+        {
+          "de": "Bevor du eine Entscheidung triffst, solltest du gut nachdenken.",
+          "en": "Before you make a decision, you should think carefully."
+        },
+        {
+          "de": "Bevor wir anfangen, möchte ich noch eine Frage stellen.",
+          "en": "Before we start, I would like to ask one more question."
+        },
+        {
+          "de": "Bevor sie abreiste, verabschiedete sie sich von allen.",
+          "en": "Before she left, she said goodbye to everyone."
+        }
+      ]
+    },
+    {
+      "number": 53,
+      "title": "After Doing Something (Present)",
+      "titleNative": "Nachdem man etwas getan hat (Präsens)",
+      "items": [
+        {
+          "de": "Nachdem ich gefrühstückt habe, gehe ich joggen.",
+          "en": "After I've had breakfast, I go jogging."
+        },
+        {
+          "de": "Nachdem sie ihre Arbeit beendet hat, entspannt sie sich.",
+          "en": "After she has finished her work, she relaxes."
+        },
+        {
+          "de": "Nachdem wir eingekauft haben, kochen wir zusammen.",
+          "en": "After we've gone shopping, we cook together."
+        },
+        {
+          "de": "Nachdem er die E-Mail gelesen hat, ruft er sofort zurück.",
+          "en": "After he has read the email, he calls back immediately."
+        }
+      ]
+    },
+    {
+      "number": 54,
+      "title": "After Doing Something (Past)",
+      "titleNative": "Nachdem man etwas getan hatte (Vergangenheit)",
+      "items": [
+        {
+          "de": "Nachdem sie die Prüfung bestanden hatte, feierte sie mit Freunden.",
+          "en": "After she had passed the exam, she celebrated with friends."
+        },
+        {
+          "de": "Nachdem wir das Haus verkauft hatten, zogen wir in die Stadt.",
+          "en": "After we had sold the house, we moved into the city."
+        },
+        {
+          "de": "Nachdem er den Brief geschrieben hatte, schickte er ihn sofort ab.",
+          "en": "After he had written the letter, he sent it right away."
+        },
+        {
+          "de": "Nachdem die Kinder gegessen hatten, gingen sie ins Bett.",
+          "en": "After the children had eaten, they went to bed."
+        }
+      ]
+    },
+    {
+      "number": 55,
+      "title": "Sequencing Daily Activities",
+      "titleNative": "Tägliche Aktivitäten in Reihenfolge",
+      "items": [
+        {
+          "de": "Bevor ich zur Arbeit gehe, trinke ich einen Kaffee.",
+          "en": "Before I go to work, I drink a coffee."
+        },
+        {
+          "de": "Nachdem ich zur Arbeit gegangen bin, checke ich meine E-Mails.",
+          "en": "After I've gone to work, I check my emails."
+        },
+        {
+          "de": "Bevor wir essen, waschen wir uns die Hände.",
+          "en": "Before we eat, we wash our hands."
+        },
+        {
+          "de": "Nachdem wir gegessen haben, räumen wir die Küche auf.",
+          "en": "After we've eaten, we clean up the kitchen."
+        }
+      ]
+    },
+    {
+      "number": 56,
+      "title": "Travel Sequences",
+      "titleNative": "Reisefolgen",
+      "items": [
+        {
+          "de": "Bevor wir abfliegen, packen wir unsere Koffer.",
+          "en": "Before we fly out, we pack our suitcases."
+        },
+        {
+          "de": "Nachdem wir gelandet sind, holen wir unser Gepäck ab.",
+          "en": "After we've landed, we pick up our luggage."
+        },
+        {
+          "de": "Bevor sie das Hotel verließ, buchte sie ein Taxi.",
+          "en": "Before she left the hotel, she booked a taxi."
+        },
+        {
+          "de": "Nachdem er angekommen war, rief er seine Familie an.",
+          "en": "After he had arrived, he called his family."
+        }
+      ]
+    },
+    {
+      "number": 57,
+      "title": "Work Sequences",
+      "titleNative": "Arbeitsabläufe",
+      "items": [
+        {
+          "de": "Bevor wir das Projekt starten, brauchen wir die Zustimmung des Chefs.",
+          "en": "Before we start the project, we need the boss's approval."
+        },
+        {
+          "de": "Nachdem der Chef zugestimmt hat, können wir sofort beginnen.",
+          "en": "After the boss has agreed, we can start immediately."
+        },
+        {
+          "de": "Bevor sie den Vertrag unterschreibt, liest sie ihn genau durch.",
+          "en": "Before she signs the contract, she reads it carefully."
+        },
+        {
+          "de": "Nachdem sie unterschrieben hatte, sendete sie den Vertrag zurück.",
+          "en": "After she had signed, she sent the contract back."
+        }
+      ]
+    },
+    {
+      "number": 58,
+      "title": "Life Milestones",
+      "titleNative": "Meilensteine im Leben",
+      "items": [
+        {
+          "de": "Bevor er heiratete, lebte er zehn Jahre allein.",
+          "en": "Before he got married, he lived alone for ten years."
+        },
+        {
+          "de": "Nachdem sie ihr Studium beendet hatte, fand sie schnell einen Job.",
+          "en": "After she had finished her studies, she quickly found a job."
+        },
+        {
+          "de": "Bevor wir Kinder hatten, reisten wir sehr viel.",
+          "en": "Before we had children, we traveled a lot."
+        },
+        {
+          "de": "Nachdem das Kind geboren war, änderte sich ihr ganzes Leben.",
+          "en": "After the child was born, their whole life changed."
+        }
+      ]
+    },
+    {
+      "number": 59,
+      "title": "Combining Bevor and Nachdem",
+      "titleNative": "Bevor und Nachdem verbinden",
+      "items": [
+        {
+          "de": "Bevor ich das Buch zurückgebe, lese ich es noch einmal, nachdem ich es beendet habe.",
+          "en": "Before I return the book, I read it once more after I've finished it."
+        },
+        {
+          "de": "Nachdem wir gegessen hatten, gingen wir spazieren, bevor es dunkel wurde.",
+          "en": "After we had eaten, we went for a walk before it got dark."
+        },
+        {
+          "de": "Bevor sie antwortete, dachte sie nach, nachdem sie die Frage gehört hatte.",
+          "en": "Before she answered, she thought about it after she had heard the question."
+        },
+        {
+          "de": "Nachdem er sich entschuldigt hatte, fühlte er sich besser, bevor er nach Hause ging.",
+          "en": "After he had apologized, he felt better before he went home."
+        }
+      ]
+    },
+    {
+      "number": 60,
+      "title": "Review: Bevor and Nachdem",
+      "titleNative": "Repaso: Bevor und Nachdem",
+      "items": [
+        {
+          "de": "Bevor ich diesen Job annahm, hatte ich schon zwei andere Angebote abgelehnt.",
+          "en": "Before I accepted this job, I had already turned down two other offers."
+        },
+        {
+          "de": "Nachdem wir umgezogen waren, brauchten wir Monate, um uns einzuleben.",
+          "en": "After we had moved, we needed months to settle in."
+        },
+        {
+          "de": "Bevor du eine wichtige Entscheidung triffst, solltest du mit jemandem sprechen.",
+          "en": "Before you make an important decision, you should talk to someone."
+        },
+        {
+          "de": "Nachdem sie lange gezögert hatte, entschied sie sich endlich.",
+          "en": "After she had hesitated for a long time, she finally decided."
+        }
+      ]
+    },
+    {
+      "number": 61,
+      "title": "Talking About Interests",
+      "titleNative": "Über Interessen sprechen",
+      "items": [
+        {
+          "de": "Ich interessiere mich sehr für Kunst. Ich interessiere mich sehr dafür.",
+          "en": "I'm very interested in art. I'm very interested in it."
+        },
+        {
+          "de": "Sie begeistert sich für Musik und spricht oft darüber.",
+          "en": "She's enthusiastic about music and often talks about it."
+        },
+        {
+          "de": "Wir denken oft an unseren letzten Urlaub und erinnern uns gern daran.",
+          "en": "We often think about our last vacation and like remembering it."
+        },
+        {
+          "de": "Er kümmert sich um seine Pflanzen und achtet sehr darauf.",
+          "en": "He takes care of his plants and pays close attention to them."
+        }
+      ],
+      "topicId": "b1plus-da-kompositum"
+    },
+    {
+      "number": 62,
+      "title": "Waiting and Looking Forward",
+      "titleNative": "Warten und sich freuen",
+      "items": [
+        {
+          "de": "Ich warte auf eine Antwort. Ich warte gespannt darauf.",
+          "en": "I'm waiting for an answer. I'm waiting for it eagerly."
+        },
+        {
+          "de": "Sie freut sich auf den Urlaub und redet ständig davon.",
+          "en": "She's looking forward to the vacation and talks about it constantly."
+        },
+        {
+          "de": "Wir freuen uns darauf, euch bald zu sehen.",
+          "en": "We are looking forward to seeing you soon."
+        },
+        {
+          "de": "Er wartet schon lange darauf, befördert zu werden.",
+          "en": "He has been waiting a long time to be promoted."
+        }
+      ]
+    },
+    {
+      "number": 63,
+      "title": "Talking About Problems",
+      "titleNative": "Über Probleme sprechen",
+      "items": [
+        {
+          "de": "Das ist ein Problem, und wir müssen darüber sprechen.",
+          "en": "That's a problem, and we need to talk about it."
+        },
+        {
+          "de": "Sie denkt viel darüber nach, wie sie es lösen kann.",
+          "en": "She thinks a lot about how she can solve it."
+        },
+        {
+          "de": "Wir sind uns dessen bewusst und arbeiten daran.",
+          "en": "We are aware of it and are working on it."
+        },
+        {
+          "de": "Er ärgert sich darüber, dass niemand ihm geholfen hat.",
+          "en": "He's annoyed that no one helped him."
+        }
+      ]
+    },
+    {
+      "number": 64,
+      "title": "Expressing Needs",
+      "titleNative": "Bedürfnisse ausdrücken",
+      "items": [
+        {
+          "de": "Ich brauche mehr Zeit. Ich brauche wirklich mehr davon.",
+          "en": "I need more time. I really need more of it."
+        },
+        {
+          "de": "Sie braucht Ruhe, und sie sucht schon lange danach.",
+          "en": "She needs peace, and she's been looking for it for a long time."
+        },
+        {
+          "de": "Wir brauchen Hilfe, und wir bitten dich darum.",
+          "en": "We need help, and we're asking you for it."
+        },
+        {
+          "de": "Er braucht Geduld, und er übt jeden Tag daran.",
+          "en": "He needs patience, and he practices it every day."
+        }
+      ]
+    },
+    {
+      "number": 65,
+      "title": "Memories and Reflections",
+      "titleNative": "Erinnerungen und Reflexionen",
+      "items": [
+        {
+          "de": "Erinnerst du dich an unsere Kindheit? Ich erinnere mich oft daran.",
+          "en": "Do you remember our childhood? I often remember it."
+        },
+        {
+          "de": "Sie denkt gern an ihre Großeltern zurück und lächelt dabei daran.",
+          "en": "She likes thinking back to her grandparents and smiles about it."
+        },
+        {
+          "de": "Wir sprechen manchmal über die alten Zeiten, aber selten darüber traurig.",
+          "en": "We sometimes talk about the old times, but rarely sadly about it."
+        },
+        {
+          "de": "Er hat viel darüber nachgedacht, was er anders machen würde.",
+          "en": "He has thought a lot about what he would do differently."
+        }
+      ]
+    },
+    {
+      "number": 66,
+      "title": "Explaining Reasons with Damit",
+      "titleNative": "Gründe mit Damit erklären",
+      "items": [
+        {
+          "de": "Sie hat viel geübt, damit sie die Prüfung besteht.",
+          "en": "She practiced a lot so that she would pass the exam."
+        },
+        {
+          "de": "Wir schreiben alles auf, damit wir nichts vergessen.",
+          "en": "We write everything down so that we don't forget anything."
+        },
+        {
+          "de": "Er spricht langsam, damit alle ihn verstehen können.",
+          "en": "He speaks slowly so that everyone can understand him."
+        },
+        {
+          "de": "Ich rufe früh an, damit du genug Zeit hast.",
+          "en": "I call early so that you have enough time."
+        }
+      ]
+    },
+    {
+      "number": 67,
+      "title": "Consequences with Dadurch",
+      "titleNative": "Folgen mit Dadurch",
+      "items": [
+        {
+          "de": "Sie hat viel gearbeitet. Dadurch hat sie ihr Ziel erreicht.",
+          "en": "She worked a lot. Through that, she achieved her goal."
+        },
+        {
+          "de": "Es gab einen Streik. Dadurch wurden viele Züge verspätet.",
+          "en": "There was a strike. Because of that, many trains were delayed."
+        },
+        {
+          "de": "Wir haben früh geplant. Dadurch hatten wir keine Probleme.",
+          "en": "We planned early. Because of that, we had no problems."
+        },
+        {
+          "de": "Er hat viel gelesen. Dadurch hat er viel gelernt.",
+          "en": "He read a lot. Through that, he learned a lot."
+        }
+      ]
+    },
+    {
+      "number": 68,
+      "title": "Talking About Decisions",
+      "titleNative": "Über Entscheidungen sprechen",
+      "items": [
+        {
+          "de": "Wir haben lange über diese Entscheidung nachgedacht, aber wir sind uns immer noch nicht sicher darüber.",
+          "en": "We thought about this decision for a long time, but we're still not sure about it."
+        },
+        {
+          "de": "Sie hat sich dafür entschieden, im Ausland zu studieren.",
+          "en": "She decided to study abroad."
+        },
+        {
+          "de": "Ich bin froh darüber, dass alles gut geklappt hat.",
+          "en": "I'm glad that everything went well."
+        },
+        {
+          "de": "Er ist stolz darauf, was er erreicht hat.",
+          "en": "He is proud of what he has achieved."
+        }
+      ]
+    },
+    {
+      "number": 69,
+      "title": "Combining Multiple Da-Compounds",
+      "titleNative": "Mehrere Da-Komposita verbinden",
+      "items": [
+        {
+          "de": "Sie interessiert sich dafür und denkt oft darüber nach.",
+          "en": "She's interested in it and often thinks about it."
+        },
+        {
+          "de": "Wir warten darauf und freuen uns schon darüber.",
+          "en": "We're waiting for it and are already happy about it."
+        },
+        {
+          "de": "Er ärgert sich darüber, aber er hofft trotzdem darauf, dass es besser wird.",
+          "en": "He's annoyed about it, but he still hopes it gets better."
+        },
+        {
+          "de": "Ich erinnere mich daran und bin dankbar dafür.",
+          "en": "I remember it and am grateful for it."
+        }
+      ]
+    },
+    {
+      "number": 70,
+      "title": "Review: Da-Compounds",
+      "titleNative": "Repaso: Da-Komposita",
+      "items": [
+        {
+          "de": "Ich freue mich darauf, dich zu sehen, und ich denke oft daran.",
+          "en": "I'm looking forward to seeing you, and I think about it often."
+        },
+        {
+          "de": "Sie hat sich dafür entschieden, und dadurch hat sich alles verändert.",
+          "en": "She decided on it, and because of that, everything changed."
+        },
+        {
+          "de": "Wir sprechen darüber, damit alle die Situation verstehen.",
+          "en": "We talk about it so that everyone understands the situation."
+        },
+        {
+          "de": "Er wartet geduldig darauf und ist sich dessen sicher.",
+          "en": "He waits for it patiently and is sure of it."
+        }
+      ]
+    },
+    {
+      "number": 71,
+      "title": "Asking About Interests",
+      "titleNative": "Nach Interessen fragen",
+      "items": [
+        {
+          "de": "Wofür interessierst du dich?",
+          "en": "What are you interested in?"
+        },
+        {
+          "de": "Wovon redet ihr gerade?",
+          "en": "What are you talking about right now?"
+        },
+        {
+          "de": "Worüber freut sie sich so sehr?",
+          "en": "What is she so happy about?"
+        },
+        {
+          "de": "Womit beschäftigt er sich in seiner Freizeit?",
+          "en": "What does he occupy himself with in his free time?"
+        }
+      ],
+      "topicId": "b1plus-wo-kompositum"
+    },
+    {
+      "number": 72,
+      "title": "Asking About Thoughts",
+      "titleNative": "Nach Gedanken fragen",
+      "items": [
+        {
+          "de": "Woran denkst du gerade?",
+          "en": "What are you thinking about right now?"
+        },
+        {
+          "de": "Worüber machst du dir Sorgen?",
+          "en": "What are you worried about?"
+        },
+        {
+          "de": "Woran erinnerst du dich am liebsten?",
+          "en": "What do you like remembering the most?"
+        },
+        {
+          "de": "Worauf freust du dich am meisten?",
+          "en": "What are you looking forward to the most?"
+        }
+      ]
+    },
+    {
+      "number": 73,
+      "title": "Asking About Problems and Needs",
+      "titleNative": "Nach Problemen und Bedürfnissen fragen",
+      "items": [
+        {
+          "de": "Womit kann ich dir helfen?",
+          "en": "What can I help you with?"
+        },
+        {
+          "de": "Wovor hast du Angst?",
+          "en": "What are you afraid of?"
+        },
+        {
+          "de": "Wofür brauchst du dieses Werkzeug?",
+          "en": "What do you need this tool for?"
+        },
+        {
+          "de": "Worauf wartest du noch?",
+          "en": "What are you still waiting for?"
+        }
+      ]
+    },
+    {
+      "number": 74,
+      "title": "Asking and Answering",
+      "titleNative": "Fragen und Antworten",
+      "items": [
+        {
+          "de": "Woran arbeitest du? – Ich arbeite an einem neuen Projekt.",
+          "en": "What are you working on? – I'm working on a new project."
+        },
+        {
+          "de": "Worüber sprecht ihr? – Wir sprechen über die Zukunft.",
+          "en": "What are you talking about? – We're talking about the future."
+        },
+        {
+          "de": "Wofür sparst du? – Ich spare für eine Reise.",
+          "en": "What are you saving for? – I'm saving for a trip."
+        },
+        {
+          "de": "Womit fängst du an? – Ich fange mit den einfachen Aufgaben an.",
+          "en": "What are you starting with? – I'm starting with the simple tasks."
+        }
+      ]
+    },
+    {
+      "number": 75,
+      "title": "In Meetings and Discussions",
+      "titleNative": "In Besprechungen und Diskussionen",
+      "items": [
+        {
+          "de": "Worauf sollten wir uns zuerst konzentrieren?",
+          "en": "What should we focus on first?"
+        },
+        {
+          "de": "Woran liegt es, dass das Projekt so langsam vorankommt?",
+          "en": "What is the reason the project is progressing so slowly?"
+        },
+        {
+          "de": "Worüber müssen wir heute noch entscheiden?",
+          "en": "What do we still need to decide on today?"
+        },
+        {
+          "de": "Womit können wir das Problem am besten lösen?",
+          "en": "What can we best solve the problem with?"
+        }
+      ]
+    },
+    {
+      "number": 76,
+      "title": "Curiosity and Small Talk",
+      "titleNative": "Neugier und Small Talk",
+      "items": [
+        {
+          "de": "Worüber lachst du so?",
+          "en": "What are you laughing about?"
+        },
+        {
+          "de": "Wovon handelt dieser Film?",
+          "en": "What is this movie about?"
+        },
+        {
+          "de": "Woran erkennt man einen guten Wein?",
+          "en": "How do you recognize a good wine?"
+        },
+        {
+          "de": "Wofür ist diese Stadt bekannt?",
+          "en": "What is this city known for?"
+        }
+      ]
+    },
+    {
+      "number": 77,
+      "title": "Combining Wo- and Da-Compounds",
+      "titleNative": "Wo- und Da-Komposita verbinden",
+      "items": [
+        {
+          "de": "Woran denkst du? – Ich denke daran, dass wir bald Urlaub haben.",
+          "en": "What are you thinking about? – I'm thinking about the fact that we'll soon have vacation."
+        },
+        {
+          "de": "Worauf freust du dich? – Ich freue mich darauf, meine Familie zu sehen.",
+          "en": "What are you looking forward to? – I'm looking forward to seeing my family."
+        },
+        {
+          "de": "Wovor hast du Angst? – Ich habe Angst davor, einen Fehler zu machen.",
+          "en": "What are you afraid of? – I'm afraid of making a mistake."
+        },
+        {
+          "de": "Womit beschäftigst du dich? – Ich beschäftige mich damit, Deutsch zu lernen.",
+          "en": "What do you occupy yourself with? – I occupy myself with learning German."
+        }
+      ]
+    },
+    {
+      "number": 78,
+      "title": "Formal Questions",
+      "titleNative": "Formelle Fragen",
+      "items": [
+        {
+          "de": "Worauf basiert diese Entscheidung?",
+          "en": "What is this decision based on?"
+        },
+        {
+          "de": "Wodurch unterscheidet sich dieses Modell von dem alten?",
+          "en": "How does this model differ from the old one?"
+        },
+        {
+          "de": "Woraus besteht dieses Material?",
+          "en": "What is this material made of?"
+        },
+        {
+          "de": "Wofür steht diese Abkürzung?",
+          "en": "What does this abbreviation stand for?"
+        }
+      ]
+    },
+    {
+      "number": 79,
+      "title": "Everyday Curiosity",
+      "titleNative": "Alltägliche Neugier",
+      "items": [
+        {
+          "de": "Womit hast du diesen Kuchen gebacken?",
+          "en": "What did you bake this cake with?"
+        },
+        {
+          "de": "Worauf hast du beim Kauf besonders geachtet?",
+          "en": "What did you pay particular attention to when buying it?"
+        },
+        {
+          "de": "Woran hast du gemerkt, dass etwas nicht stimmt?",
+          "en": "How did you notice that something was wrong?"
+        },
+        {
+          "de": "Wovon hast du diese Reise finanziert?",
+          "en": "What did you finance this trip with?"
+        }
+      ]
+    },
+    {
+      "number": 80,
+      "title": "Review: Wo-Compounds",
+      "titleNative": "Repaso: Wo-Komposita",
+      "items": [
+        {
+          "de": "Worüber sprecht ihr, und woran arbeitet ihr gerade?",
+          "en": "What are you talking about, and what are you currently working on?"
+        },
+        {
+          "de": "Wofür interessierst du dich am meisten, und warum?",
+          "en": "What are you most interested in, and why?"
+        },
+        {
+          "de": "Woran denkst du, wenn du an deine Zukunft denkst?",
+          "en": "What do you think of when you think about your future?"
+        },
+        {
+          "de": "Worauf freust du dich, und wovor hast du vielleicht Angst?",
+          "en": "What are you looking forward to, and what might you be afraid of?"
+        }
+      ]
+    },
+    {
+      "number": 81,
+      "title": "Must Be Done",
+      "titleNative": "Muss gemacht werden",
+      "items": [
+        {
+          "de": "Diese Aufgabe muss bis Freitag erledigt werden.",
+          "en": "This task must be completed by Friday."
+        },
+        {
+          "de": "Der Fehler muss sofort korrigiert werden.",
+          "en": "The mistake must be corrected immediately."
+        },
+        {
+          "de": "Das Formular muss vollständig ausgefüllt werden.",
+          "en": "The form must be filled out completely."
+        },
+        {
+          "de": "Diese Regeln müssen von allen respektiert werden.",
+          "en": "These rules must be respected by everyone."
+        }
+      ],
+      "topicId": "b1plus-passiv-modal"
+    },
+    {
+      "number": 82,
+      "title": "Can Be Done",
+      "titleNative": "Kann gemacht werden",
+      "items": [
+        {
+          "de": "Dieses Problem kann leicht gelöst werden.",
+          "en": "This problem can be solved easily."
+        },
+        {
+          "de": "Der Termin kann verschoben werden.",
+          "en": "The appointment can be postponed."
+        },
+        {
+          "de": "Diese Frage kann später beantwortet werden.",
+          "en": "This question can be answered later."
+        },
+        {
+          "de": "Das Auto kann heute noch abgeholt werden.",
+          "en": "The car can still be picked up today."
+        }
+      ]
+    },
+    {
+      "number": 83,
+      "title": "Should Be Done",
+      "titleNative": "Sollte gemacht werden",
+      "items": [
+        {
+          "de": "Diese Entscheidung sollte gut überlegt werden.",
+          "en": "This decision should be well thought through."
+        },
+        {
+          "de": "Der Vertrag sollte vor der Unterschrift geprüft werden.",
+          "en": "The contract should be checked before signing."
+        },
+        {
+          "de": "Das Problem sollte so schnell wie möglich behandelt werden.",
+          "en": "The problem should be dealt with as quickly as possible."
+        },
+        {
+          "de": "Diese Information sollte nicht geteilt werden.",
+          "en": "This information should not be shared."
+        }
+      ]
+    },
+    {
+      "number": 84,
+      "title": "May/Must Not Be Done",
+      "titleNative": "Darf/Darf nicht gemacht werden",
+      "items": [
+        {
+          "de": "Hier darf nicht geraucht werden.",
+          "en": "Smoking is not allowed here."
+        },
+        {
+          "de": "Diese Tür darf nicht geöffnet werden.",
+          "en": "This door must not be opened."
+        },
+        {
+          "de": "Das Auto darf hier nicht geparkt werden.",
+          "en": "The car may not be parked here."
+        },
+        {
+          "de": "Diese Information darf nicht veröffentlicht werden.",
+          "en": "This information may not be published."
+        }
+      ]
+    },
+    {
+      "number": 85,
+      "title": "Instructions and Rules",
+      "titleNative": "Anweisungen und Regeln",
+      "items": [
+        {
+          "de": "Die Zutaten müssen zuerst gewaschen werden.",
+          "en": "The ingredients must be washed first."
+        },
+        {
+          "de": "Das Gerät darf nicht ohne Aufsicht benutzt werden.",
+          "en": "The device must not be used without supervision."
+        },
+        {
+          "de": "Diese Formulare können online eingereicht werden.",
+          "en": "These forms can be submitted online."
+        },
+        {
+          "de": "Die Anweisungen sollten sorgfältig gelesen werden.",
+          "en": "The instructions should be read carefully."
+        }
+      ]
+    },
+    {
+      "number": 86,
+      "title": "At Work",
+      "titleNative": "Bei der Arbeit",
+      "items": [
+        {
+          "de": "Dieser Bericht muss heute noch abgeschickt werden.",
+          "en": "This report must still be sent today."
+        },
+        {
+          "de": "Das Meeting kann auf nächste Woche verschoben werden.",
+          "en": "The meeting can be postponed to next week."
+        },
+        {
+          "de": "Die neuen Mitarbeiter müssen gründlich eingearbeitet werden.",
+          "en": "The new employees must be thoroughly trained."
+        },
+        {
+          "de": "Diese Entscheidung muss vom ganzen Team getroffen werden.",
+          "en": "This decision must be made by the whole team."
+        }
+      ]
+    },
+    {
+      "number": 87,
+      "title": "Health and Safety",
+      "titleNative": "Gesundheit und Sicherheit",
+      "items": [
+        {
+          "de": "Dieses Medikament darf nur mit Rezept gekauft werden.",
+          "en": "This medication may only be bought with a prescription."
+        },
+        {
+          "de": "Die Wunde muss sofort behandelt werden.",
+          "en": "The wound must be treated immediately."
+        },
+        {
+          "de": "Diese Regeln müssen aus Sicherheitsgründen befolgt werden.",
+          "en": "These rules must be followed for safety reasons."
+        },
+        {
+          "de": "Der Patient sollte engmaschig beobachtet werden.",
+          "en": "The patient should be closely monitored."
+        }
+      ]
+    },
+    {
+      "number": 88,
+      "title": "Questions with Modal Passive",
+      "titleNative": "Fragen mit Modalpassiv",
+      "items": [
+        {
+          "de": "Muss das Formular heute abgegeben werden?",
+          "en": "Does the form have to be handed in today?"
+        },
+        {
+          "de": "Kann dieses Problem schnell gelöst werden?",
+          "en": "Can this problem be solved quickly?"
+        },
+        {
+          "de": "Darf hier fotografiert werden?",
+          "en": "Is photography allowed here?"
+        },
+        {
+          "de": "Sollte diese Entscheidung noch einmal überdacht werden?",
+          "en": "Should this decision be reconsidered?"
+        }
+      ]
+    },
+    {
+      "number": 89,
+      "title": "Combining with Other Structures",
+      "titleNative": "Mit anderen Strukturen verbinden",
+      "items": [
+        {
+          "de": "Weil das Problem dringend ist, muss es sofort gelöst werden.",
+          "en": "Because the problem is urgent, it must be solved immediately."
+        },
+        {
+          "de": "Obwohl es schwierig ist, kann diese Aufgabe geschafft werden.",
+          "en": "Although it's difficult, this task can be accomplished."
+        },
+        {
+          "de": "Wenn genug Zeit bleibt, sollte der Text noch einmal gelesen werden.",
+          "en": "If enough time remains, the text should be read once more."
+        },
+        {
+          "de": "Nachdem der Antrag geprüft wurde, kann er genehmigt werden.",
+          "en": "After the application has been reviewed, it can be approved."
+        }
+      ]
+    },
+    {
+      "number": 90,
+      "title": "Review: Passive with Modals",
+      "titleNative": "Repaso: Passiv mit Modalverben",
+      "items": [
+        {
+          "de": "Diese Aufgabe muss gemacht werden, bevor das Meeting beginnt.",
+          "en": "This task must be done before the meeting begins."
+        },
+        {
+          "de": "Das Problem kann gelöst werden, wenn wir zusammenarbeiten.",
+          "en": "The problem can be solved if we work together."
+        },
+        {
+          "de": "Diese Regeln dürfen nicht ignoriert werden, auch wenn sie unbequem sind.",
+          "en": "These rules must not be ignored, even if they are inconvenient."
+        },
+        {
+          "de": "Sollte diese Entscheidung wirklich so schnell getroffen werden?",
+          "en": "Should this decision really be made so quickly?"
+        }
+      ]
+    },
+    {
+      "number": 91,
+      "title": "A Company's Growth",
+      "titleNative": "Das Wachstum einer Firma",
+      "items": [
+        {
+          "de": "Diese Firma wurde vor zwanzig Jahren von zwei Freunden gegründet.",
+          "en": "This company was founded twenty years ago by two friends."
+        },
+        {
+          "de": "Nachdem sie ihre ersten Produkte verkauft hatten, wurde die Firma schnell bekannt.",
+          "en": "After they had sold their first products, the company quickly became known."
+        },
+        {
+          "de": "Heute werden ihre Produkte in vielen Ländern verkauft.",
+          "en": "Today their products are sold in many countries."
+        },
+        {
+          "de": "Sie werden auch in Zukunft weiter wachsen, weil sie sich ständig verbessern.",
+          "en": "They will continue to grow in the future because they keep improving."
+        }
+      ]
+    },
+    {
+      "number": 92,
+      "title": "What She Told Me",
+      "titleNative": "Was sie mir erzählte",
+      "items": [
+        {
+          "de": "Sie sagte mir, dass sie bald ihren Job wechseln wird.",
+          "en": "She told me that she will change jobs soon."
+        },
+        {
+          "de": "Sie fragte, ob ich ihr bei der Bewerbung helfen könnte.",
+          "en": "She asked whether I could help her with the application."
+        },
+        {
+          "de": "Nachdem sie sich beworben hatte, wartete sie geduldig auf eine Antwort.",
+          "en": "After she had applied, she waited patiently for an answer."
+        },
+        {
+          "de": "Sie freut sich schon darauf, ihre neue Stelle anzufangen.",
+          "en": "She's already looking forward to starting her new position."
+        }
+      ]
+    },
+    {
+      "number": 93,
+      "title": "A Building's History",
+      "titleNative": "Die Geschichte eines Gebäudes",
+      "items": [
+        {
+          "de": "Dieses Gebäude wurde im 19. Jahrhundert gebaut und ist mehrmals renoviert worden.",
+          "en": "This building was built in the 19th century and has been renovated several times."
+        },
+        {
+          "de": "Als es zum ersten Mal restauriert wurde, war es fast zerstört.",
+          "en": "When it was restored for the first time, it was almost destroyed."
+        },
+        {
+          "de": "Während der letzten Renovierung wurden viele historische Details bewahrt.",
+          "en": "During the last renovation, many historical details were preserved."
+        },
+        {
+          "de": "Es wird heute für viele öffentliche Veranstaltungen genutzt.",
+          "en": "Today it is used for many public events."
+        }
+      ]
+    },
+    {
+      "number": 94,
+      "title": "Planning an Event",
+      "titleNative": "Ein Event planen",
+      "items": [
+        {
+          "de": "Bevor das Fest beginnt, muss alles vorbereitet werden.",
+          "en": "Before the festival begins, everything must be prepared."
+        },
+        {
+          "de": "Wir werden viele Gäste einladen, und wir hoffen, dass alle kommen werden.",
+          "en": "We will invite many guests, and we hope that everyone will come."
+        },
+        {
+          "de": "Nachdem die Einladungen verschickt worden sind, warten wir auf Antworten.",
+          "en": "After the invitations have been sent out, we wait for responses."
+        },
+        {
+          "de": "Woran müssen wir noch denken, bevor der große Tag kommt?",
+          "en": "What else do we need to think about before the big day comes?"
+        }
+      ]
+    },
+    {
+      "number": 95,
+      "title": "A Career Change",
+      "titleNative": "Ein Berufswechsel",
+      "items": [
+        {
+          "de": "Nachdem er lange darüber nachgedacht hatte, entschied er sich für einen neuen Beruf.",
+          "en": "After he had thought about it for a long time, he decided on a new profession."
+        },
+        {
+          "de": "Er wusste, dass es nicht einfach werden würde, aber er war bereit dafür.",
+          "en": "He knew it wouldn't be easy, but he was ready for it."
+        },
+        {
+          "de": "Während er sich weiterbildete, arbeitete er weiterhin in seinem alten Job.",
+          "en": "While he was continuing his education, he kept working at his old job."
+        },
+        {
+          "de": "Heute wird er für seine Entscheidung von allen bewundert.",
+          "en": "Today he is admired by everyone for his decision."
+        }
+      ]
+    },
+    {
+      "number": 96,
+      "title": "The Environment",
+      "titleNative": "Die Umwelt",
+      "items": [
+        {
+          "de": "Viele Maßnahmen werden ergriffen, damit die Umwelt geschützt wird.",
+          "en": "Many measures are being taken so that the environment is protected."
+        },
+        {
+          "de": "Wenn wir nicht handeln, werden die Probleme immer größer werden.",
+          "en": "If we don't act, the problems will keep getting bigger."
+        },
+        {
+          "de": "Diese Fragen müssen ernst genommen werden, bevor es zu spät ist.",
+          "en": "These questions must be taken seriously before it's too late."
+        },
+        {
+          "de": "Worauf sollten wir uns konzentrieren, um die Zukunft zu verbessern?",
+          "en": "What should we focus on to improve the future?"
+        }
+      ]
+    },
+    {
+      "number": 97,
+      "title": "A Difficult Conversation",
+      "titleNative": "Ein schwieriges Gespräch",
+      "items": [
+        {
+          "de": "Er sagte, dass er enttäuscht war, aber dass er verstehen konnte, warum es passiert war.",
+          "en": "He said that he was disappointed, but that he could understand why it had happened."
+        },
+        {
+          "de": "Nachdem sie miteinander gesprochen hatten, fühlten sich beide besser.",
+          "en": "After they had talked to each other, they both felt better."
+        },
+        {
+          "de": "Bevor man wichtige Dinge sagt, sollte man gut darüber nachdenken.",
+          "en": "Before you say important things, you should think about them carefully."
+        },
+        {
+          "de": "Sie versprach, dass so etwas nie wieder passieren wird.",
+          "en": "She promised that such a thing would never happen again."
+        }
+      ]
+    },
+    {
+      "number": 98,
+      "title": "Traditions That Continue",
+      "titleNative": "Traditionen, die weitergehen",
+      "items": [
+        {
+          "de": "Dieses Fest wird seit Generationen gefeiert, und es wird auch weiterhin gefeiert werden.",
+          "en": "This festival has been celebrated for generations, and it will continue to be celebrated."
+        },
+        {
+          "de": "Als meine Großmutter jung war, wurde dieses Rezept schon in der Familie gekocht.",
+          "en": "When my grandmother was young, this recipe was already being cooked in the family."
+        },
+        {
+          "de": "Während wir zusammen kochen, erzählt sie uns immer Geschichten von früher.",
+          "en": "While we cook together, she always tells us stories from the past."
+        },
+        {
+          "de": "Diese Tradition wird nie vergessen werden, solange wir zusammenhalten.",
+          "en": "This tradition will never be forgotten as long as we stick together."
+        }
+      ]
+    },
+    {
+      "number": 99,
+      "title": "Lessons Learned",
+      "titleNative": "Gelernte Lektionen",
+      "items": [
+        {
+          "de": "Nachdem ich diesen Fehler gemacht hatte, wurde mir klar, was wirklich wichtig ist.",
+          "en": "After I had made this mistake, it became clear to me what really matters."
+        },
+        {
+          "de": "Als ich jünger war, dachte ich, dass alles einfach sein würde.",
+          "en": "When I was younger, I thought that everything would be easy."
+        },
+        {
+          "de": "Diese Erfahrung hat mich verändert, und ich werde sie nie vergessen.",
+          "en": "This experience has changed me, and I will never forget it."
+        },
+        {
+          "de": "Woran erinnerst du dich am meisten, wenn du an deine Reise zurückdenkst?",
+          "en": "What do you remember most when you think back to your trip?"
+        }
+      ]
+    },
+    {
+      "number": 100,
+      "title": "Closing Reflections",
+      "titleNative": "Abschließende Gedanken",
+      "items": [
+        {
+          "de": "Vieles wird sich ändern, aber manches wird immer gleich bleiben.",
+          "en": "Many things will change, but some things will always stay the same."
+        },
+        {
+          "de": "Nachdem wir so viel gelernt haben, fühlen wir uns bereit für neue Herausforderungen.",
+          "en": "After we have learned so much, we feel ready for new challenges."
+        },
+        {
+          "de": "Ich hoffe, dass diese Erfahrungen, von denen wir gesprochen haben, dir helfen werden.",
+          "en": "I hope that these experiences we talked about will help you."
+        },
+        {
+          "de": "Worauf du dich auch freust, ich wünsche dir, dass es wahr wird.",
+          "en": "Whatever you're looking forward to, I wish it comes true for you."
+        }
+      ]
+    }
+  ]
+}

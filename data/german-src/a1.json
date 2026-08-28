@@ -1,0 +1,2478 @@
+{
+  "level": "a1",
+  "grammarTopics": {
+    "a1-sein-haben": {
+      "title": "Sein and Haben: To Be and To Have",
+      "pattern": "ich bin/habe, du bist/hast, er ist/hat, wir sind/haben, ihr seid/habt, sie sind/haben",
+      "explanation": "\"Sein\" (to be) and \"haben\" (to have) are the two most important verbs in German and both are irregular: ich bin/habe, du bist/hast, er/sie/es ist/hat, wir sind/haben, ihr seid/habt, sie/Sie sind/haben. You'll use them constantly — for descriptions, ages, and forming other tenses later on.",
+      "fact": "German has a formal \"you\" (Sie, always capitalized) used with strangers, elders, and in professional settings, separate from the informal \"du\". \"Sie sind\" (formal you are) looks identical to \"sie sind\" (they are) in writing except for the capital letter — context and capitalization both matter.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Guten Tag! Wie heißen Sie?",
+          "en": "Hello! What is your name?"
+        },
+        {
+          "sp": "B",
+          "native": "Ich heiße Anna. Und ich bin Studentin.",
+          "en": "My name is Anna. And I am a student."
+        }
+      ]
+    },
+    "a1-present-regular": {
+      "title": "Present Tense: Regular Verbs",
+      "pattern": "ich -e, du -st, er/sie/es -t, wir -en, ihr -t, sie/Sie -en",
+      "explanation": "Most German verbs are regular and follow one pattern in the present tense: take the infinitive (e.g. \"spielen\", to play), drop \"-en\", and add: -e/-st/-t/-en/-t/-en. \"Ich spiele\" (I play), \"du spielst\" (you play), \"er spielt\" (he plays), \"wir spielen\" (we play). This single pattern covers the vast majority of German verbs.",
+      "fact": "German has only ONE present tense form where English has two — \"ich spiele\" translates both \"I play\" and \"I am playing\". There's no separate progressive/continuous form in standard German, so context tells you which English translation fits.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Was machst du gerade?",
+          "en": "What are you doing right now?"
+        },
+        {
+          "sp": "B",
+          "native": "Ich lerne Deutsch und höre Musik.",
+          "en": "I'm learning German and listening to music."
+        }
+      ]
+    },
+    "a1-articles-gender": {
+      "title": "Der, Die, Das: Gender and Articles",
+      "pattern": "der (masc.), die (fem.), das (neut.) · ein/eine/ein (indefinite)",
+      "explanation": "Every German noun has one of three genders — masculine (der), feminine (die), or neuter (das) — and this determines the article: \"der Mann\" (the man), \"die Frau\" (the woman), \"das Kind\" (the child). The indefinite article follows the same pattern: \"ein Mann\", \"eine Frau\", \"ein Kind\". German nouns are ALWAYS capitalized, no matter where they appear in a sentence.",
+      "fact": "Gender is mostly unpredictable and must be memorized with each new noun — always learn a noun together with its article (\"die Tasche\", not just \"Tasche\"). A few endings are reliable hints: words ending in -chen or -lein are always neuter (das Mädchen), words ending in -heit, -keit, -ung, or -schaft are always feminine (die Freundschaft).",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Ist das ein Buch oder eine Zeitschrift?",
+          "en": "Is that a book or a magazine?"
+        },
+        {
+          "sp": "B",
+          "native": "Das ist ein Buch. Der Titel ist sehr interessant.",
+          "en": "That's a book. The title is very interesting."
+        }
+      ]
+    },
+    "a1-akkusativ": {
+      "title": "Akkusativ: The Direct Object Case",
+      "pattern": "der → den, ein → einen (masc. only) · die/eine, das/ein stay the same",
+      "explanation": "The Akkusativ case marks the direct object of a sentence — the thing directly receiving the action. Only the MASCULINE article changes: \"der\" → \"den\", \"ein\" → \"einen\". Feminine and neuter articles look identical to Nominativ: \"Ich sehe den Mann\" (I see the man) but \"Ich sehe die Frau\" / \"Ich sehe das Kind\" (unchanged). This is the first of German's four cases you'll learn — and the easiest, since only one gender changes.",
+      "fact": "A small set of common prepositions ALWAYS take the Akkusativ, no matter the context: \"für\" (for), \"durch\" (through), \"ohne\" (without), \"gegen\" (against), \"um\" (around) — memorize these together as \"für durch ohne gegen um\", a classic learner's mnemonic.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Ich brauche einen Stift.",
+          "en": "I need a pen."
+        },
+        {
+          "sp": "B",
+          "native": "Hier, ich habe einen für dich.",
+          "en": "Here, I have one for you."
+        }
+      ]
+    },
+    "a1-negation-wordorder": {
+      "title": "Negation with Nicht/Kein, and Verb-Second Word Order",
+      "pattern": "kein negates a noun (kein Buch) · nicht negates everything else · verb is always position 2",
+      "explanation": "German has two negation words: \"kein\" (no/not a) negates a noun that would otherwise take \"ein\" or no article: \"Ich habe kein Auto\" (I don't have a car). \"Nicht\" negates verbs, adjectives, and definite-article nouns: \"Ich verstehe das nicht\" (I don't understand that). German word order is famously strict about one rule: the CONJUGATED verb always sits in position 2 of a normal statement, even if something other than the subject starts the sentence: \"Heute arbeite ich nicht\" (Today I'm not working — verb still second, subject moves after it).",
+      "fact": "This verb-second (V2) rule is unlike English, where word order is more flexible — in German, whatever element you choose to emphasize by placing first (a time expression, a direct object, etc.) simply pushes the subject after the verb, but the verb itself never moves from position 2 in a main clause.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Arbeitest du heute?",
+          "en": "Are you working today?"
+        },
+        {
+          "sp": "B",
+          "native": "Nein, heute arbeite ich nicht. Ich habe keine Zeit für Meetings.",
+          "en": "No, I'm not working today. I have no time for meetings."
+        }
+      ]
+    },
+    "a1-w-questions": {
+      "title": "W-Questions: Wer, Was, Wo, Wann, Warum, Wie",
+      "pattern": "W-word + verb + subject + ...",
+      "explanation": "German question words all start with W (like English \"wh-\" words): \"wer\" (who), \"was\" (what), \"wo\" (where), \"wann\" (when), \"warum\" (why), \"wie\" (how), \"wie viel/wie viele\" (how much/many). Like statements, the conjugated verb comes right after the question word, in position 2: \"Wo wohnst du?\" (Where do you live?), \"Was machst du?\" (What are you doing?).",
+      "fact": "\"Wo\" (where, as in a fixed location) and \"wohin\" (where to, as in a direction) are genuinely different words in German — \"Wo bist du?\" (Where are you?) versus \"Wohin gehst du?\" (Where are you going [to]?) — mixing them up is a very common learner error.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Wo warst du gestern?",
+          "en": "Where were you yesterday?"
+        },
+        {
+          "sp": "B",
+          "native": "Ich war zu Hause. Warum fragst du?",
+          "en": "I was at home. Why do you ask?"
+        }
+      ]
+    },
+    "a1-modal-verbs": {
+      "title": "Modal Verbs: Können, Müssen, Wollen, Möchten, Dürfen",
+      "pattern": "modal (conjugated, position 2) + ... + infinitive (sent to the end)",
+      "explanation": "Modal verbs express ability, necessity, desire, or permission: \"können\" (can/to be able to), \"müssen\" (must/have to), \"wollen\" (to want to), \"möchten\" (would like to, more polite than wollen), \"dürfen\" (may/to be allowed to). The modal verb is conjugated and sits in position 2, while the main action verb goes to the very end of the sentence as a plain infinitive: \"Ich kann gut Deutsch sprechen\" (I can speak German well).",
+      "fact": "Modal verbs (except \"möchten\" and \"sollen\") have irregular, vowel-changing forms in the singular that don't follow the regular pattern: \"ich kann/muss/will\", \"du kannst/musst/willst\", \"er kann/muss/will\" — notice there's no -t ending on \"er/sie/es\" the way regular verbs have, a genuine irregularity to memorize.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Kannst du mir helfen? Ich muss diese Aufgabe fertig machen.",
+          "en": "Can you help me? I have to finish this task."
+        },
+        {
+          "sp": "B",
+          "native": "Klar, ich möchte dir gerne helfen.",
+          "en": "Sure, I would love to help you."
+        }
+      ]
+    },
+    "a1-numbers-time": {
+      "title": "Numbers, Time, and Dates",
+      "pattern": "eins, zwei, drei... · Es ist ... Uhr · am + [day/date]",
+      "explanation": "German numbers are mostly regular: eins, zwei, drei, vier, fünf, sechs, sieben, acht, neun, zehn — and compound numbers reverse the order compared to English: \"einundzwanzig\" is literally \"one-and-twenty\" (21). Telling time uses \"Es ist ... Uhr\": \"Es ist drei Uhr\" (It's three o'clock). Days and dates use \"am\": \"am Montag\" (on Monday), \"am ersten Mai\" (on the first of May).",
+      "fact": "In casual spoken German, half-hours are expressed relative to the UPCOMING hour, not the previous one — \"halb drei\" means \"half TO three\" (2:30), not \"half past two\" as an English speaker might assume at first glance — a common source of confusion for beginners.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Wie viel Uhr ist es?",
+          "en": "What time is it?"
+        },
+        {
+          "sp": "B",
+          "native": "Es ist halb drei. Wir treffen uns um vier.",
+          "en": "It's half past two. We're meeting at four."
+        }
+      ]
+    },
+    "a1-plurals": {
+      "title": "Plural Formation: No Single Rule",
+      "pattern": "-e, -er, -(e)n, -s, or no change — each noun's plural must be learned individually",
+      "explanation": "Unlike English's reliable \"-s\", German plurals form in several different ways depending on the noun, often with an added umlaut: \"der Tisch\" → \"die Tische\" (-e), \"das Kind\" → \"die Kinder\" (-er), \"die Frau\" → \"die Frauen\" (-en), \"das Auto\" → \"die Autos\" (-s, common for loanwords), or occasionally no change at all (\"der Lehrer\" → \"die Lehrer\"). There is no shortcut — each noun's plural is learned individually, alongside its gender.",
+      "fact": "Every plural noun, regardless of the original gender, takes \"die\" as its article: \"der Mann\" → \"die Männer\", \"das Kind\" → \"die Kinder\" — gender distinctions disappear entirely in the plural, which is one small mercy in an otherwise irregular system.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Wie viele Kinder hast du?",
+          "en": "How many children do you have?"
+        },
+        {
+          "sp": "B",
+          "native": "Ich habe zwei Kinder und drei Katzen.",
+          "en": "I have two children and three cats."
+        }
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Greetings",
+      "titleNative": "Begrüßungen",
+      "items": [
+        {
+          "de": "Guten Tag! Wie geht es Ihnen?",
+          "en": "Hello! How are you?"
+        },
+        {
+          "de": "Hallo! Wie geht es dir?",
+          "en": "Hi! How are you?"
+        },
+        {
+          "de": "Mir geht es gut, danke.",
+          "en": "I'm doing well, thanks."
+        },
+        {
+          "de": "Auf Wiedersehen! Bis bald.",
+          "en": "Goodbye! See you soon."
+        }
+      ],
+      "topicId": "a1-sein-haben"
+    },
+    {
+      "number": 2,
+      "title": "Introducing Yourself",
+      "titleNative": "Sich vorstellen",
+      "items": [
+        {
+          "de": "Ich heiße Thomas.",
+          "en": "My name is Thomas."
+        },
+        {
+          "de": "Ich bin aus Deutschland.",
+          "en": "I am from Germany."
+        },
+        {
+          "de": "Ich bin dreißig Jahre alt.",
+          "en": "I am thirty years old."
+        },
+        {
+          "de": "Ich wohne in Berlin.",
+          "en": "I live in Berlin."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Sein: To Be",
+      "titleNative": "Sein: sein",
+      "items": [
+        {
+          "de": "Ich bin müde.",
+          "en": "I am tired."
+        },
+        {
+          "de": "Du bist sehr nett.",
+          "en": "You are very nice."
+        },
+        {
+          "de": "Er ist Lehrer.",
+          "en": "He is a teacher."
+        },
+        {
+          "de": "Wir sind Freunde.",
+          "en": "We are friends."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Haben: To Have",
+      "titleNative": "Haben: haben",
+      "items": [
+        {
+          "de": "Ich habe einen Bruder.",
+          "en": "I have a brother."
+        },
+        {
+          "de": "Du hast eine Schwester.",
+          "en": "You have a sister."
+        },
+        {
+          "de": "Sie hat zwei Kinder.",
+          "en": "She has two children."
+        },
+        {
+          "de": "Wir haben Zeit.",
+          "en": "We have time."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Asking About Someone",
+      "titleNative": "Nach jemandem fragen",
+      "items": [
+        {
+          "de": "Wie heißt du?",
+          "en": "What is your name?"
+        },
+        {
+          "de": "Woher kommst du?",
+          "en": "Where are you from?"
+        },
+        {
+          "de": "Wie alt bist du?",
+          "en": "How old are you?"
+        },
+        {
+          "de": "Wo wohnst du?",
+          "en": "Where do you live?"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Family Members",
+      "titleNative": "Familienmitglieder",
+      "items": [
+        {
+          "de": "Das ist meine Mutter.",
+          "en": "This is my mother."
+        },
+        {
+          "de": "Das ist mein Vater.",
+          "en": "This is my father."
+        },
+        {
+          "de": "Ich habe eine große Familie.",
+          "en": "I have a big family."
+        },
+        {
+          "de": "Meine Eltern sind sehr nett.",
+          "en": "My parents are very nice."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Feelings",
+      "titleNative": "Gefühle",
+      "items": [
+        {
+          "de": "Ich bin glücklich heute.",
+          "en": "I am happy today."
+        },
+        {
+          "de": "Er ist traurig.",
+          "en": "He is sad."
+        },
+        {
+          "de": "Sie ist hungrig.",
+          "en": "She is hungry."
+        },
+        {
+          "de": "Wir sind durstig.",
+          "en": "We are thirsty."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Professions",
+      "titleNative": "Berufe",
+      "items": [
+        {
+          "de": "Ich bin Arzt.",
+          "en": "I am a doctor."
+        },
+        {
+          "de": "Sie ist Lehrerin.",
+          "en": "She is a teacher."
+        },
+        {
+          "de": "Er ist Ingenieur.",
+          "en": "He is an engineer."
+        },
+        {
+          "de": "Was bist du von Beruf?",
+          "en": "What is your profession?"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Formal and Informal You",
+      "titleNative": "Formell und informell",
+      "items": [
+        {
+          "de": "Wie heißen Sie, bitte?",
+          "en": "What is your name, please?"
+        },
+        {
+          "de": "Haben Sie einen Moment Zeit?",
+          "en": "Do you have a moment?"
+        },
+        {
+          "de": "Sind Sie Herr Müller?",
+          "en": "Are you Mr. Müller?"
+        },
+        {
+          "de": "Woher kommen Sie?",
+          "en": "Where are you from?"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Review: Sein and Haben",
+      "titleNative": "Repaso: Sein und haben",
+      "items": [
+        {
+          "de": "Ich bin müde, aber ich habe noch Arbeit.",
+          "en": "I am tired, but I still have work."
+        },
+        {
+          "de": "Wir sind Freunde und wir haben viel Spaß.",
+          "en": "We are friends and we have a lot of fun."
+        },
+        {
+          "de": "Sie ist glücklich, weil sie Zeit hat.",
+          "en": "She is happy because she has time."
+        },
+        {
+          "de": "Wie geht es dir? Ich habe eine gute Nachricht.",
+          "en": "How are you? I have good news."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Everyday Activities",
+      "titleNative": "Alltägliche Aktivitäten",
+      "items": [
+        {
+          "de": "Ich lerne Deutsch.",
+          "en": "I am learning German."
+        },
+        {
+          "de": "Du arbeitest viel.",
+          "en": "You work a lot."
+        },
+        {
+          "de": "Er spielt Fußball.",
+          "en": "He plays soccer."
+        },
+        {
+          "de": "Wir kochen zusammen.",
+          "en": "We cook together."
+        }
+      ],
+      "topicId": "a1-present-regular"
+    },
+    {
+      "number": 12,
+      "title": "Talking About Hobbies",
+      "titleNative": "Über Hobbys sprechen",
+      "items": [
+        {
+          "de": "Ich höre gern Musik.",
+          "en": "I like listening to music."
+        },
+        {
+          "de": "Sie liest viele Bücher.",
+          "en": "She reads a lot of books."
+        },
+        {
+          "de": "Wir tanzen jeden Samstag.",
+          "en": "We dance every Saturday."
+        },
+        {
+          "de": "Er malt sehr gut.",
+          "en": "He paints very well."
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "title": "Daily Routines",
+      "titleNative": "Tagesabläufe",
+      "items": [
+        {
+          "de": "Ich wache um sieben Uhr auf.",
+          "en": "I wake up at seven o'clock."
+        },
+        {
+          "de": "Du duschst am Morgen.",
+          "en": "You shower in the morning."
+        },
+        {
+          "de": "Sie frühstückt schnell.",
+          "en": "She has breakfast quickly."
+        },
+        {
+          "de": "Wir gehen um acht Uhr zur Arbeit.",
+          "en": "We go to work at eight o'clock."
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "title": "Work and Study",
+      "titleNative": "Arbeit und Studium",
+      "items": [
+        {
+          "de": "Ich studiere Medizin.",
+          "en": "I am studying medicine."
+        },
+        {
+          "de": "Du arbeitest in einem Büro.",
+          "en": "You work in an office."
+        },
+        {
+          "de": "Er lernt für die Prüfung.",
+          "en": "He is studying for the exam."
+        },
+        {
+          "de": "Wir schreiben eine E-Mail.",
+          "en": "We are writing an email."
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "title": "Talking About Food",
+      "titleNative": "Über Essen sprechen",
+      "items": [
+        {
+          "de": "Ich esse gern Pizza.",
+          "en": "I like eating pizza."
+        },
+        {
+          "de": "Du trinkst Kaffee am Morgen.",
+          "en": "You drink coffee in the morning."
+        },
+        {
+          "de": "Sie kocht Nudeln.",
+          "en": "She cooks pasta."
+        },
+        {
+          "de": "Wir bestellen ein Getränk.",
+          "en": "We order a drink."
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "title": "Movement Verbs",
+      "titleNative": "Bewegungsverben",
+      "items": [
+        {
+          "de": "Ich gehe zur Schule.",
+          "en": "I go to school."
+        },
+        {
+          "de": "Du fährst mit dem Bus.",
+          "en": "You go by bus."
+        },
+        {
+          "de": "Sie läuft im Park.",
+          "en": "She runs in the park."
+        },
+        {
+          "de": "Wir reisen nach Deutschland.",
+          "en": "We travel to Germany."
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "title": "Verbs with Vowel Change",
+      "titleNative": "Verben mit Vokalwechsel",
+      "items": [
+        {
+          "de": "Ich fahre nach Hause.",
+          "en": "I drive home."
+        },
+        {
+          "de": "Du sprichst gut Deutsch.",
+          "en": "You speak German well."
+        },
+        {
+          "de": "Er liest die Zeitung.",
+          "en": "He reads the newspaper."
+        },
+        {
+          "de": "Sie isst einen Apfel.",
+          "en": "She eats an apple."
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "title": "Talking About Others",
+      "titleNative": "Über andere sprechen",
+      "items": [
+        {
+          "de": "Meine Schwester wohnt in München.",
+          "en": "My sister lives in Munich."
+        },
+        {
+          "de": "Mein Bruder arbeitet als Koch.",
+          "en": "My brother works as a cook."
+        },
+        {
+          "de": "Meine Eltern reisen viel.",
+          "en": "My parents travel a lot."
+        },
+        {
+          "de": "Meine Freunde spielen Karten.",
+          "en": "My friends play cards."
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "title": "Negation Basics",
+      "titleNative": "Verneinung: Grundlagen",
+      "items": [
+        {
+          "de": "Ich verstehe das nicht.",
+          "en": "I don't understand that."
+        },
+        {
+          "de": "Er arbeitet heute nicht.",
+          "en": "He isn't working today."
+        },
+        {
+          "de": "Wir spielen nicht Fußball.",
+          "en": "We aren't playing soccer."
+        },
+        {
+          "de": "Sie kocht nicht gern.",
+          "en": "She doesn't like cooking."
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "title": "Review: Regular Present Tense",
+      "titleNative": "Repaso: Regelmäßiges Präsens",
+      "items": [
+        {
+          "de": "Ich lerne Deutsch und ich spreche schon ein bisschen.",
+          "en": "I am learning German and I already speak a little."
+        },
+        {
+          "de": "Wir arbeiten viel, aber wir spielen auch gern.",
+          "en": "We work a lot, but we also like to play."
+        },
+        {
+          "de": "Sie liest gern und sie schreibt auch gern.",
+          "en": "She likes to read and she also likes to write."
+        },
+        {
+          "de": "Er kocht jeden Tag und isst gesund.",
+          "en": "He cooks every day and eats healthily."
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "title": "Masculine Nouns",
+      "titleNative": "Maskuline Nomen",
+      "items": [
+        {
+          "de": "Der Mann liest ein Buch.",
+          "en": "The man reads a book."
+        },
+        {
+          "de": "Der Tisch ist neu.",
+          "en": "The table is new."
+        },
+        {
+          "de": "Ich habe einen Hund.",
+          "en": "I have a dog."
+        },
+        {
+          "de": "Der Lehrer ist sehr geduldig.",
+          "en": "The teacher is very patient."
+        }
+      ],
+      "topicId": "a1-articles-gender"
+    },
+    {
+      "number": 22,
+      "title": "Feminine Nouns",
+      "titleNative": "Feminine Nomen",
+      "items": [
+        {
+          "de": "Die Frau arbeitet im Krankenhaus.",
+          "en": "The woman works at the hospital."
+        },
+        {
+          "de": "Die Tasche ist schwarz.",
+          "en": "The bag is black."
+        },
+        {
+          "de": "Ich habe eine Katze.",
+          "en": "I have a cat."
+        },
+        {
+          "de": "Die Lehrerin ist sehr freundlich.",
+          "en": "The teacher is very friendly."
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "title": "Neuter Nouns",
+      "titleNative": "Neutrale Nomen",
+      "items": [
+        {
+          "de": "Das Kind spielt im Garten.",
+          "en": "The child plays in the garden."
+        },
+        {
+          "de": "Das Auto ist teuer.",
+          "en": "The car is expensive."
+        },
+        {
+          "de": "Ich habe ein Fahrrad.",
+          "en": "I have a bicycle."
+        },
+        {
+          "de": "Das Haus ist sehr groß.",
+          "en": "The house is very big."
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "title": "Everyday Objects",
+      "titleNative": "Alltägliche Gegenstände",
+      "items": [
+        {
+          "de": "Der Stuhl steht neben dem Tisch.",
+          "en": "The chair stands next to the table."
+        },
+        {
+          "de": "Die Lampe ist auf dem Tisch.",
+          "en": "The lamp is on the table."
+        },
+        {
+          "de": "Das Fenster ist offen.",
+          "en": "The window is open."
+        },
+        {
+          "de": "Der Schlüssel liegt hier.",
+          "en": "The key is lying here."
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "title": "Places in the City",
+      "titleNative": "Orte in der Stadt",
+      "items": [
+        {
+          "de": "Der Bahnhof ist weit von hier.",
+          "en": "The train station is far from here."
+        },
+        {
+          "de": "Die Bibliothek ist geöffnet.",
+          "en": "The library is open."
+        },
+        {
+          "de": "Das Museum ist heute geschlossen.",
+          "en": "The museum is closed today."
+        },
+        {
+          "de": "Der Park ist sehr schön.",
+          "en": "The park is very beautiful."
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "title": "Plural Forms",
+      "titleNative": "Pluralformen",
+      "items": [
+        {
+          "de": "Die Männer arbeiten viel.",
+          "en": "The men work a lot."
+        },
+        {
+          "de": "Die Frauen sind sehr klug.",
+          "en": "The women are very smart."
+        },
+        {
+          "de": "Die Kinder spielen zusammen.",
+          "en": "The children play together."
+        },
+        {
+          "de": "Die Bücher sind interessant.",
+          "en": "The books are interesting."
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "title": "Describing Things with Adjectives",
+      "titleNative": "Dinge mit Adjektiven beschreiben",
+      "items": [
+        {
+          "de": "Das Buch ist interessant.",
+          "en": "The book is interesting."
+        },
+        {
+          "de": "Die Blume ist rot.",
+          "en": "The flower is red."
+        },
+        {
+          "de": "Der Himmel ist blau.",
+          "en": "The sky is blue."
+        },
+        {
+          "de": "Das Wetter ist schön heute.",
+          "en": "The weather is nice today."
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "title": "This and That",
+      "titleNative": "Dieser und jener",
+      "items": [
+        {
+          "de": "Dieser Mann ist mein Vater.",
+          "en": "This man is my father."
+        },
+        {
+          "de": "Diese Frau ist meine Mutter.",
+          "en": "This woman is my mother."
+        },
+        {
+          "de": "Dieses Buch gehört mir.",
+          "en": "This book belongs to me."
+        },
+        {
+          "de": "Ist das dein Auto?",
+          "en": "Is that your car?"
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "title": "Colors and Descriptions",
+      "titleNative": "Farben und Beschreibungen",
+      "items": [
+        {
+          "de": "Die Tasche ist braun.",
+          "en": "The bag is brown."
+        },
+        {
+          "de": "Das Kleid ist grün.",
+          "en": "The dress is green."
+        },
+        {
+          "de": "Der Ball ist gelb.",
+          "en": "The ball is yellow."
+        },
+        {
+          "de": "Meine Jacke ist schwarz.",
+          "en": "My jacket is black."
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "title": "Review: Articles and Gender",
+      "titleNative": "Repaso: Artikel und Genus",
+      "items": [
+        {
+          "de": "Der Mann, die Frau und das Kind gehen in den Park.",
+          "en": "The man, the woman, and the child are going to the park."
+        },
+        {
+          "de": "Ich habe einen Hund, eine Katze und ein Kaninchen.",
+          "en": "I have a dog, a cat, and a rabbit."
+        },
+        {
+          "de": "Das Buch ist gut, aber die Zeitschrift ist auch interessant.",
+          "en": "The book is good, but the magazine is also interesting."
+        },
+        {
+          "de": "Dieser Tisch ist neu, aber dieser Stuhl ist alt.",
+          "en": "This table is new, but this chair is old."
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "title": "Seeing and Having Things",
+      "titleNative": "Dinge sehen und haben",
+      "items": [
+        {
+          "de": "Ich sehe den Mann dort.",
+          "en": "I see the man over there."
+        },
+        {
+          "de": "Er hat einen Bruder.",
+          "en": "He has a brother."
+        },
+        {
+          "de": "Wir kaufen einen Tisch.",
+          "en": "We are buying a table."
+        },
+        {
+          "de": "Sie sucht einen Job.",
+          "en": "She is looking for a job."
+        }
+      ],
+      "topicId": "a1-akkusativ"
+    },
+    {
+      "number": 32,
+      "title": "Feminine and Neuter in Akkusativ",
+      "titleNative": "Feminin und neutral im Akkusativ",
+      "items": [
+        {
+          "de": "Ich sehe die Frau dort.",
+          "en": "I see the woman over there."
+        },
+        {
+          "de": "Er kauft eine Tasche.",
+          "en": "He buys a bag."
+        },
+        {
+          "de": "Wir haben ein Auto.",
+          "en": "We have a car."
+        },
+        {
+          "de": "Sie liest das Buch.",
+          "en": "She is reading the book."
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "title": "Ordering Food",
+      "titleNative": "Essen bestellen",
+      "items": [
+        {
+          "de": "Ich möchte einen Kaffee, bitte.",
+          "en": "I would like a coffee, please."
+        },
+        {
+          "de": "Wir bestellen eine Pizza.",
+          "en": "We are ordering a pizza."
+        },
+        {
+          "de": "Er trinkt ein Glas Wasser.",
+          "en": "He drinks a glass of water."
+        },
+        {
+          "de": "Sie isst einen Salat.",
+          "en": "She eats a salad."
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "title": "Prepositions with Akkusativ",
+      "titleNative": "Präpositionen mit Akkusativ",
+      "items": [
+        {
+          "de": "Das Geschenk ist für dich.",
+          "en": "The gift is for you."
+        },
+        {
+          "de": "Wir gehen durch den Park.",
+          "en": "We are walking through the park."
+        },
+        {
+          "de": "Ich trinke Kaffee ohne Zucker.",
+          "en": "I drink coffee without sugar."
+        },
+        {
+          "de": "Sie kämpft gegen die Zeit.",
+          "en": "She is racing against time."
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "title": "Buying Things",
+      "titleNative": "Dinge kaufen",
+      "items": [
+        {
+          "de": "Ich kaufe einen neuen Laptop.",
+          "en": "I am buying a new laptop."
+        },
+        {
+          "de": "Er braucht eine neue Jacke.",
+          "en": "He needs a new jacket."
+        },
+        {
+          "de": "Wir suchen ein Geschenk für sie.",
+          "en": "We are looking for a gift for her."
+        },
+        {
+          "de": "Sie kauft einen Blumenstrauß.",
+          "en": "She buys a bouquet of flowers."
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "title": "Family and Possessions",
+      "titleNative": "Familie und Besitz",
+      "items": [
+        {
+          "de": "Ich habe einen kleinen Bruder.",
+          "en": "I have a little brother."
+        },
+        {
+          "de": "Sie hat eine ältere Schwester.",
+          "en": "She has an older sister."
+        },
+        {
+          "de": "Wir haben ein gemütliches Zuhause.",
+          "en": "We have a cozy home."
+        },
+        {
+          "de": "Er hat einen guten Freund.",
+          "en": "He has a good friend."
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "title": "Making Requests",
+      "titleNative": "Bitten äußern",
+      "items": [
+        {
+          "de": "Kannst du mir einen Stift geben?",
+          "en": "Can you give me a pen?"
+        },
+        {
+          "de": "Ich brauche eine Antwort.",
+          "en": "I need an answer."
+        },
+        {
+          "de": "Wir möchten einen Tisch für zwei.",
+          "en": "We would like a table for two."
+        },
+        {
+          "de": "Können Sie mir ein Glas Wasser bringen?",
+          "en": "Can you bring me a glass of water?"
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "title": "Verbs That Take Akkusativ Objects",
+      "titleNative": "Verben mit Akkusativobjekt",
+      "items": [
+        {
+          "de": "Ich finde den Film interessant.",
+          "en": "I find the movie interesting."
+        },
+        {
+          "de": "Wir besuchen die Großeltern.",
+          "en": "We are visiting the grandparents."
+        },
+        {
+          "de": "Er ruft einen Freund an.",
+          "en": "He is calling a friend."
+        },
+        {
+          "de": "Sie liebt die Musik.",
+          "en": "She loves music."
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "title": "Talking About Plans",
+      "titleNative": "Über Pläne sprechen",
+      "items": [
+        {
+          "de": "Ich plane einen Ausflug.",
+          "en": "I am planning a trip."
+        },
+        {
+          "de": "Wir organisieren eine Party.",
+          "en": "We are organizing a party."
+        },
+        {
+          "de": "Sie schreibt einen Brief.",
+          "en": "She is writing a letter."
+        },
+        {
+          "de": "Er malt ein Bild.",
+          "en": "He is painting a picture."
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "title": "Review: Akkusativ",
+      "titleNative": "Repaso: Akkusativ",
+      "items": [
+        {
+          "de": "Ich sehe den Mann und die Frau im Park.",
+          "en": "I see the man and the woman in the park."
+        },
+        {
+          "de": "Wir kaufen einen Tisch und einen Stuhl.",
+          "en": "We are buying a table and a chair."
+        },
+        {
+          "de": "Sie hat einen Bruder und eine Schwester.",
+          "en": "She has a brother and a sister."
+        },
+        {
+          "de": "Er trinkt einen Kaffee ohne Zucker.",
+          "en": "He drinks a coffee without sugar."
+        }
+      ]
+    },
+    {
+      "number": 41,
+      "title": "Negating with Kein",
+      "titleNative": "Verneinung mit kein",
+      "items": [
+        {
+          "de": "Ich habe kein Auto.",
+          "en": "I don't have a car."
+        },
+        {
+          "de": "Wir haben keine Zeit.",
+          "en": "We don't have time."
+        },
+        {
+          "de": "Er hat kein Geld dabei.",
+          "en": "He doesn't have any money on him."
+        },
+        {
+          "de": "Sie hat keinen Bruder.",
+          "en": "She doesn't have a brother."
+        }
+      ],
+      "topicId": "a1-negation-wordorder"
+    },
+    {
+      "number": 42,
+      "title": "Negating with Nicht",
+      "titleNative": "Verneinung mit nicht",
+      "items": [
+        {
+          "de": "Ich verstehe das nicht.",
+          "en": "I don't understand that."
+        },
+        {
+          "de": "Er kommt heute nicht.",
+          "en": "He isn't coming today."
+        },
+        {
+          "de": "Das ist nicht richtig.",
+          "en": "That isn't right."
+        },
+        {
+          "de": "Wir arbeiten nicht am Wochenende.",
+          "en": "We don't work on weekends."
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "title": "Time Expressions First",
+      "titleNative": "Zeitausdrücke am Satzanfang",
+      "items": [
+        {
+          "de": "Heute gehe ich einkaufen.",
+          "en": "Today I'm going shopping."
+        },
+        {
+          "de": "Morgen fahren wir nach Berlin.",
+          "en": "Tomorrow we're going to Berlin."
+        },
+        {
+          "de": "Jetzt esse ich zu Mittag.",
+          "en": "Now I'm having lunch."
+        },
+        {
+          "de": "Am Wochenende arbeite ich nicht.",
+          "en": "On the weekend I don't work."
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "title": "Objects First for Emphasis",
+      "titleNative": "Objekte am Satzanfang zur Betonung",
+      "items": [
+        {
+          "de": "Diesen Film kenne ich schon.",
+          "en": "This movie I already know."
+        },
+        {
+          "de": "Das Buch lese ich gerade.",
+          "en": "This book I'm reading right now."
+        },
+        {
+          "de": "Diese Frage verstehe ich nicht.",
+          "en": "This question I don't understand."
+        },
+        {
+          "de": "Deutsch lerne ich seit einem Jahr.",
+          "en": "German I've been learning for a year."
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "title": "Yes/No Questions",
+      "titleNative": "Ja/Nein-Fragen",
+      "items": [
+        {
+          "de": "Kommst du heute Abend?",
+          "en": "Are you coming tonight?"
+        },
+        {
+          "de": "Hast du Zeit für mich?",
+          "en": "Do you have time for me?"
+        },
+        {
+          "de": "Verstehst du die Aufgabe?",
+          "en": "Do you understand the task?"
+        },
+        {
+          "de": "Ist das dein Buch?",
+          "en": "Is that your book?"
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "title": "Answering Questions",
+      "titleNative": "Fragen beantworten",
+      "items": [
+        {
+          "de": "Ja, ich komme heute Abend.",
+          "en": "Yes, I'm coming tonight."
+        },
+        {
+          "de": "Nein, ich habe keine Zeit.",
+          "en": "No, I don't have time."
+        },
+        {
+          "de": "Doch, ich verstehe die Aufgabe.",
+          "en": "Yes I do, I understand the task."
+        },
+        {
+          "de": "Nein, das ist nicht mein Buch.",
+          "en": "No, that's not my book."
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "title": "Combining Nicht and Kein",
+      "titleNative": "Nicht und kein kombinieren",
+      "items": [
+        {
+          "de": "Ich trinke keinen Kaffee, aber ich trinke gern Tee.",
+          "en": "I don't drink coffee, but I like drinking tea."
+        },
+        {
+          "de": "Er hat kein Auto, weil er nicht fährt.",
+          "en": "He doesn't have a car because he doesn't drive."
+        },
+        {
+          "de": "Wir gehen heute nicht aus, weil wir kein Geld haben.",
+          "en": "We're not going out today because we have no money."
+        },
+        {
+          "de": "Sie liest nicht gern, aber sie hat viele Bücher.",
+          "en": "She doesn't like reading, but she has many books."
+        }
+      ]
+    },
+    {
+      "number": 48,
+      "title": "Common Negative Statements",
+      "titleNative": "Häufige negative Aussagen",
+      "items": [
+        {
+          "de": "Das gefällt mir nicht.",
+          "en": "I don't like that."
+        },
+        {
+          "de": "Ich habe keine Ahnung.",
+          "en": "I have no idea."
+        },
+        {
+          "de": "Das ist kein Problem.",
+          "en": "That's not a problem."
+        },
+        {
+          "de": "Ich habe keine Lust heute.",
+          "en": "I don't feel like it today."
+        }
+      ]
+    },
+    {
+      "number": 49,
+      "title": "Everyday Word Order",
+      "titleNative": "Alltägliche Wortstellung",
+      "items": [
+        {
+          "de": "Normalerweise stehe ich früh auf.",
+          "en": "I normally get up early."
+        },
+        {
+          "de": "Zum Glück habe ich heute frei.",
+          "en": "Luckily I'm off today."
+        },
+        {
+          "de": "Vielleicht komme ich später vorbei.",
+          "en": "Maybe I'll stop by later."
+        },
+        {
+          "de": "Leider habe ich keine Zeit heute.",
+          "en": "Unfortunately I don't have time today."
+        }
+      ]
+    },
+    {
+      "number": 50,
+      "title": "Review: Negation and Word Order",
+      "titleNative": "Repaso: Verneinung und Wortstellung",
+      "items": [
+        {
+          "de": "Heute arbeite ich nicht, weil ich keine Lust habe.",
+          "en": "Today I'm not working because I don't feel like it."
+        },
+        {
+          "de": "Dieses Buch kenne ich nicht, aber es sieht interessant aus.",
+          "en": "I don't know this book, but it looks interesting."
+        },
+        {
+          "de": "Kommst du morgen? Nein, ich habe leider keine Zeit.",
+          "en": "Are you coming tomorrow? No, unfortunately I don't have time."
+        },
+        {
+          "de": "Ich habe kein Auto, also fahre ich mit dem Bus.",
+          "en": "I don't have a car, so I go by bus."
+        }
+      ]
+    },
+    {
+      "number": 51,
+      "title": "Wer and Was",
+      "titleNative": "Wer und was",
+      "items": [
+        {
+          "de": "Wer ist das?",
+          "en": "Who is that?"
+        },
+        {
+          "de": "Wer kommt heute Abend?",
+          "en": "Who is coming tonight?"
+        },
+        {
+          "de": "Was machst du gerade?",
+          "en": "What are you doing right now?"
+        },
+        {
+          "de": "Was ist dein Lieblingsessen?",
+          "en": "What is your favorite food?"
+        }
+      ],
+      "topicId": "a1-w-questions"
+    },
+    {
+      "number": 52,
+      "title": "Wo and Wohin",
+      "titleNative": "Wo und wohin",
+      "items": [
+        {
+          "de": "Wo wohnst du?",
+          "en": "Where do you live?"
+        },
+        {
+          "de": "Wo ist der Bahnhof?",
+          "en": "Where is the train station?"
+        },
+        {
+          "de": "Wohin gehst du heute Abend?",
+          "en": "Where are you going tonight?"
+        },
+        {
+          "de": "Wohin fahrt ihr im Sommer?",
+          "en": "Where are you going in the summer?"
+        }
+      ]
+    },
+    {
+      "number": 53,
+      "title": "Wann",
+      "titleNative": "Wann",
+      "items": [
+        {
+          "de": "Wann beginnt der Film?",
+          "en": "When does the movie start?"
+        },
+        {
+          "de": "Wann hast du Geburtstag?",
+          "en": "When is your birthday?"
+        },
+        {
+          "de": "Wann kommst du nach Hause?",
+          "en": "When are you coming home?"
+        },
+        {
+          "de": "Wann ist die Prüfung?",
+          "en": "When is the exam?"
+        }
+      ]
+    },
+    {
+      "number": 54,
+      "title": "Warum",
+      "titleNative": "Warum",
+      "items": [
+        {
+          "de": "Warum lernst du Deutsch?",
+          "en": "Why are you learning German?"
+        },
+        {
+          "de": "Warum bist du traurig?",
+          "en": "Why are you sad?"
+        },
+        {
+          "de": "Warum kommst du nicht mit?",
+          "en": "Why aren't you coming along?"
+        },
+        {
+          "de": "Warum ist das so wichtig?",
+          "en": "Why is that so important?"
+        }
+      ]
+    },
+    {
+      "number": 55,
+      "title": "Wie",
+      "titleNative": "Wie",
+      "items": [
+        {
+          "de": "Wie geht es dir?",
+          "en": "How are you?"
+        },
+        {
+          "de": "Wie heißt du?",
+          "en": "What is your name?"
+        },
+        {
+          "de": "Wie kommst du zur Arbeit?",
+          "en": "How do you get to work?"
+        },
+        {
+          "de": "Wie ist das Wetter heute?",
+          "en": "How is the weather today?"
+        }
+      ]
+    },
+    {
+      "number": 56,
+      "title": "Wie Viel and Wie Viele",
+      "titleNative": "Wie viel und wie viele",
+      "items": [
+        {
+          "de": "Wie viel kostet das?",
+          "en": "How much does that cost?"
+        },
+        {
+          "de": "Wie viele Geschwister hast du?",
+          "en": "How many siblings do you have?"
+        },
+        {
+          "de": "Wie viel Uhr ist es?",
+          "en": "What time is it?"
+        },
+        {
+          "de": "Wie viele Sprachen sprichst du?",
+          "en": "How many languages do you speak?"
+        }
+      ]
+    },
+    {
+      "number": 57,
+      "title": "Welcher, Welche, Welches",
+      "titleNative": "Welcher, welche, welches",
+      "items": [
+        {
+          "de": "Welcher Tag ist heute?",
+          "en": "What day is today?"
+        },
+        {
+          "de": "Welche Farbe magst du?",
+          "en": "Which color do you like?"
+        },
+        {
+          "de": "Welches Buch liest du gerade?",
+          "en": "Which book are you currently reading?"
+        },
+        {
+          "de": "Welchen Film möchtest du sehen?",
+          "en": "Which movie would you like to see?"
+        }
+      ]
+    },
+    {
+      "number": 58,
+      "title": "Asking for Directions",
+      "titleNative": "Nach dem Weg fragen",
+      "items": [
+        {
+          "de": "Wo ist die nächste Apotheke?",
+          "en": "Where is the nearest pharmacy?"
+        },
+        {
+          "de": "Wie komme ich zum Bahnhof?",
+          "en": "How do I get to the train station?"
+        },
+        {
+          "de": "Ist das weit von hier?",
+          "en": "Is that far from here?"
+        },
+        {
+          "de": "Können Sie mir den Weg zeigen?",
+          "en": "Can you show me the way?"
+        }
+      ]
+    },
+    {
+      "number": 59,
+      "title": "Everyday Questions",
+      "titleNative": "Alltägliche Fragen",
+      "items": [
+        {
+          "de": "Was gibt es zum Abendessen?",
+          "en": "What's for dinner?"
+        },
+        {
+          "de": "Wo sind meine Schlüssel?",
+          "en": "Where are my keys?"
+        },
+        {
+          "de": "Wann fährt der nächste Bus?",
+          "en": "When does the next bus leave?"
+        },
+        {
+          "de": "Warum ist die Tür geschlossen?",
+          "en": "Why is the door closed?"
+        }
+      ]
+    },
+    {
+      "number": 60,
+      "title": "Review: W-Questions",
+      "titleNative": "Repaso: W-Fragen",
+      "items": [
+        {
+          "de": "Wer bist du und woher kommst du?",
+          "en": "Who are you and where are you from?"
+        },
+        {
+          "de": "Wann und wo treffen wir uns?",
+          "en": "When and where are we meeting?"
+        },
+        {
+          "de": "Wie viel kostet das und wie bezahle ich?",
+          "en": "How much does that cost and how do I pay?"
+        },
+        {
+          "de": "Warum ist das so und wie kann ich helfen?",
+          "en": "Why is that so and how can I help?"
+        }
+      ]
+    },
+    {
+      "number": 61,
+      "title": "Können: Ability",
+      "titleNative": "Können: Fähigkeit",
+      "items": [
+        {
+          "de": "Ich kann gut kochen.",
+          "en": "I can cook well."
+        },
+        {
+          "de": "Kannst du schwimmen?",
+          "en": "Can you swim?"
+        },
+        {
+          "de": "Er kann sehr gut singen.",
+          "en": "He can sing very well."
+        },
+        {
+          "de": "Wir können morgen kommen.",
+          "en": "We can come tomorrow."
+        }
+      ],
+      "topicId": "a1-modal-verbs"
+    },
+    {
+      "number": 62,
+      "title": "Müssen: Necessity",
+      "titleNative": "Müssen: Notwendigkeit",
+      "items": [
+        {
+          "de": "Ich muss jetzt gehen.",
+          "en": "I have to go now."
+        },
+        {
+          "de": "Du musst das nicht machen.",
+          "en": "You don't have to do that."
+        },
+        {
+          "de": "Er muss früh aufstehen.",
+          "en": "He has to get up early."
+        },
+        {
+          "de": "Wir müssen die Rechnung bezahlen.",
+          "en": "We have to pay the bill."
+        }
+      ]
+    },
+    {
+      "number": 63,
+      "title": "Wollen: Desire",
+      "titleNative": "Wollen: Wunsch",
+      "items": [
+        {
+          "de": "Ich will heute Abend ausgehen.",
+          "en": "I want to go out tonight."
+        },
+        {
+          "de": "Was willst du essen?",
+          "en": "What do you want to eat?"
+        },
+        {
+          "de": "Sie will Ärztin werden.",
+          "en": "She wants to become a doctor."
+        },
+        {
+          "de": "Wir wollen nach Italien reisen.",
+          "en": "We want to travel to Italy."
+        }
+      ]
+    },
+    {
+      "number": 64,
+      "title": "Möchten: Polite Requests",
+      "titleNative": "Möchten: Höfliche Bitten",
+      "items": [
+        {
+          "de": "Ich möchte einen Kaffee, bitte.",
+          "en": "I would like a coffee, please."
+        },
+        {
+          "de": "Möchtest du etwas trinken?",
+          "en": "Would you like something to drink?"
+        },
+        {
+          "de": "Er möchte das Buch kaufen.",
+          "en": "He would like to buy the book."
+        },
+        {
+          "de": "Wir möchten reservieren, bitte.",
+          "en": "We would like to make a reservation, please."
+        }
+      ]
+    },
+    {
+      "number": 65,
+      "title": "Dürfen: Permission",
+      "titleNative": "Dürfen: Erlaubnis",
+      "items": [
+        {
+          "de": "Darf ich das Fenster öffnen?",
+          "en": "May I open the window?"
+        },
+        {
+          "de": "Du darfst hier nicht rauchen.",
+          "en": "You may not smoke here."
+        },
+        {
+          "de": "Er darf spät nach Hause kommen.",
+          "en": "He is allowed to come home late."
+        },
+        {
+          "de": "Wir dürfen heute früher gehen.",
+          "en": "We are allowed to leave earlier today."
+        }
+      ]
+    },
+    {
+      "number": 66,
+      "title": "Combining Modal Verbs",
+      "titleNative": "Modalverben kombinieren",
+      "items": [
+        {
+          "de": "Ich möchte kommen, aber ich muss arbeiten.",
+          "en": "I would like to come, but I have to work."
+        },
+        {
+          "de": "Kannst du das machen, oder musst du gehen?",
+          "en": "Can you do that, or do you have to leave?"
+        },
+        {
+          "de": "Wir wollen bleiben, aber wir müssen fahren.",
+          "en": "We want to stay, but we have to go."
+        },
+        {
+          "de": "Darf ich fragen, was du willst?",
+          "en": "May I ask what you want?"
+        }
+      ]
+    },
+    {
+      "number": 67,
+      "title": "Negating Modal Verbs",
+      "titleNative": "Modalverben verneinen",
+      "items": [
+        {
+          "de": "Ich kann heute nicht kommen.",
+          "en": "I can't come today."
+        },
+        {
+          "de": "Du musst das nicht sagen.",
+          "en": "You don't have to say that."
+        },
+        {
+          "de": "Er will nicht mitkommen.",
+          "en": "He doesn't want to come along."
+        },
+        {
+          "de": "Wir dürfen hier nicht parken.",
+          "en": "We're not allowed to park here."
+        }
+      ]
+    },
+    {
+      "number": 68,
+      "title": "Asking About Abilities",
+      "titleNative": "Nach Fähigkeiten fragen",
+      "items": [
+        {
+          "de": "Kannst du Deutsch sprechen?",
+          "en": "Can you speak German?"
+        },
+        {
+          "de": "Können Sie mir helfen?",
+          "en": "Can you help me?"
+        },
+        {
+          "de": "Kann er gut kochen?",
+          "en": "Can he cook well?"
+        },
+        {
+          "de": "Können wir das schaffen?",
+          "en": "Can we manage that?"
+        }
+      ]
+    },
+    {
+      "number": 69,
+      "title": "Talking About Obligations",
+      "titleNative": "Über Pflichten sprechen",
+      "items": [
+        {
+          "de": "Ich muss meine Hausaufgaben machen.",
+          "en": "I have to do my homework."
+        },
+        {
+          "de": "Sie muss zum Arzt gehen.",
+          "en": "She has to go to the doctor."
+        },
+        {
+          "de": "Wir müssen die Wohnung putzen.",
+          "en": "We have to clean the apartment."
+        },
+        {
+          "de": "Musst du heute arbeiten?",
+          "en": "Do you have to work today?"
+        }
+      ]
+    },
+    {
+      "number": 70,
+      "title": "Review: Modal Verbs",
+      "titleNative": "Repaso: Modalverben",
+      "items": [
+        {
+          "de": "Ich möchte reisen, aber ich muss zuerst Geld sparen.",
+          "en": "I would like to travel, but I first have to save money."
+        },
+        {
+          "de": "Kannst du mir helfen? Ich muss diese Aufgabe fertig machen.",
+          "en": "Can you help me? I have to finish this task."
+        },
+        {
+          "de": "Wir wollen bleiben, aber wir dürfen nicht so lange bleiben.",
+          "en": "We want to stay, but we're not allowed to stay so long."
+        },
+        {
+          "de": "Was möchtest du machen, und was musst du machen?",
+          "en": "What would you like to do, and what do you have to do?"
+        }
+      ]
+    },
+    {
+      "number": 71,
+      "title": "Counting from One to Ten",
+      "titleNative": "Von eins bis zehn zählen",
+      "items": [
+        {
+          "de": "Ich habe drei Geschwister.",
+          "en": "I have three siblings."
+        },
+        {
+          "de": "Wir sind zu fünft.",
+          "en": "There are five of us."
+        },
+        {
+          "de": "Er hat zwei Kinder.",
+          "en": "He has two children."
+        },
+        {
+          "de": "Sie ist sieben Jahre alt.",
+          "en": "She is seven years old."
+        }
+      ],
+      "topicId": "a1-numbers-time"
+    },
+    {
+      "number": 72,
+      "title": "Bigger Numbers",
+      "titleNative": "Größere Zahlen",
+      "items": [
+        {
+          "de": "Ich bin einundzwanzig Jahre alt.",
+          "en": "I am twenty-one years old."
+        },
+        {
+          "de": "Das kostet fünfzig Euro.",
+          "en": "That costs fifty euros."
+        },
+        {
+          "de": "Wir haben hundert Gäste eingeladen.",
+          "en": "We invited a hundred guests."
+        },
+        {
+          "de": "Die Stadt hat eine Million Einwohner.",
+          "en": "The city has a million inhabitants."
+        }
+      ]
+    },
+    {
+      "number": 73,
+      "title": "Telling Time",
+      "titleNative": "Die Uhrzeit angeben",
+      "items": [
+        {
+          "de": "Es ist drei Uhr.",
+          "en": "It's three o'clock."
+        },
+        {
+          "de": "Es ist halb drei.",
+          "en": "It's half past two."
+        },
+        {
+          "de": "Es ist Viertel nach sechs.",
+          "en": "It's quarter past six."
+        },
+        {
+          "de": "Es ist Viertel vor acht.",
+          "en": "It's quarter to eight."
+        }
+      ]
+    },
+    {
+      "number": 74,
+      "title": "Talking About Schedules",
+      "titleNative": "Über Zeitpläne sprechen",
+      "items": [
+        {
+          "de": "Der Zug fährt um neun Uhr ab.",
+          "en": "The train departs at nine o'clock."
+        },
+        {
+          "de": "Das Meeting beginnt um zehn Uhr.",
+          "en": "The meeting starts at ten o'clock."
+        },
+        {
+          "de": "Wir treffen uns um sieben Uhr abends.",
+          "en": "We're meeting at seven in the evening."
+        },
+        {
+          "de": "Der Laden schließt um acht Uhr.",
+          "en": "The store closes at eight o'clock."
+        }
+      ]
+    },
+    {
+      "number": 75,
+      "title": "Days of the Week",
+      "titleNative": "Wochentage",
+      "items": [
+        {
+          "de": "Heute ist Montag.",
+          "en": "Today is Monday."
+        },
+        {
+          "de": "Am Freitag habe ich frei.",
+          "en": "On Friday I have off."
+        },
+        {
+          "de": "Wir treffen uns am Mittwoch.",
+          "en": "We're meeting on Wednesday."
+        },
+        {
+          "de": "Am Wochenende arbeite ich nicht.",
+          "en": "On the weekend I don't work."
+        }
+      ]
+    },
+    {
+      "number": 76,
+      "title": "Months and Seasons",
+      "titleNative": "Monate und Jahreszeiten",
+      "items": [
+        {
+          "de": "Mein Geburtstag ist im April.",
+          "en": "My birthday is in April."
+        },
+        {
+          "de": "Im Sommer fahren wir ans Meer.",
+          "en": "In summer we go to the sea."
+        },
+        {
+          "de": "Der Winter ist sehr kalt hier.",
+          "en": "Winter is very cold here."
+        },
+        {
+          "de": "Im Herbst fallen die Blätter.",
+          "en": "In autumn the leaves fall."
+        }
+      ]
+    },
+    {
+      "number": 77,
+      "title": "Dates",
+      "titleNative": "Daten",
+      "items": [
+        {
+          "de": "Heute ist der erste Mai.",
+          "en": "Today is the first of May."
+        },
+        {
+          "de": "Mein Geburtstag ist am zehnten Juni.",
+          "en": "My birthday is on the tenth of June."
+        },
+        {
+          "de": "Das Fest findet am dreißigsten Oktober statt.",
+          "en": "The party takes place on the thirtieth of October."
+        },
+        {
+          "de": "Wir heiraten am fünfzehnten August.",
+          "en": "We're getting married on the fifteenth of August."
+        }
+      ]
+    },
+    {
+      "number": 78,
+      "title": "Ordinal Numbers",
+      "titleNative": "Ordnungszahlen",
+      "items": [
+        {
+          "de": "Das ist mein erster Tag hier.",
+          "en": "This is my first day here."
+        },
+        {
+          "de": "Sie wohnt im zweiten Stock.",
+          "en": "She lives on the second floor."
+        },
+        {
+          "de": "Das ist der dritte Versuch.",
+          "en": "This is the third attempt."
+        },
+        {
+          "de": "Er ist der letzte in der Reihe.",
+          "en": "He is the last in the row."
+        }
+      ]
+    },
+    {
+      "number": 79,
+      "title": "Talking About Age",
+      "titleNative": "Über das Alter sprechen",
+      "items": [
+        {
+          "de": "Wie alt bist du?",
+          "en": "How old are you?"
+        },
+        {
+          "de": "Ich bin fünfundzwanzig Jahre alt.",
+          "en": "I am twenty-five years old."
+        },
+        {
+          "de": "Meine Oma ist achtzig Jahre alt.",
+          "en": "My grandmother is eighty years old."
+        },
+        {
+          "de": "Er wird nächsten Monat dreißig.",
+          "en": "He is turning thirty next month."
+        }
+      ]
+    },
+    {
+      "number": 80,
+      "title": "Review: Numbers, Time, and Dates",
+      "titleNative": "Repaso: Zahlen, Zeit und Daten",
+      "items": [
+        {
+          "de": "Heute ist Montag, der erste April, und es ist zehn Uhr.",
+          "en": "Today is Monday, the first of April, and it's ten o'clock."
+        },
+        {
+          "de": "Ich bin dreißig Jahre alt und mein Geburtstag ist im Juli.",
+          "en": "I am thirty years old and my birthday is in July."
+        },
+        {
+          "de": "Der Zug fährt um halb neun, also müssen wir uns beeilen.",
+          "en": "The train leaves at half past eight, so we have to hurry."
+        },
+        {
+          "de": "Am Wochenende treffen wir uns um Viertel nach zwölf.",
+          "en": "On the weekend we're meeting at a quarter past twelve."
+        }
+      ]
+    },
+    {
+      "number": 81,
+      "title": "Common Plurals (-e)",
+      "titleNative": "Häufige Pluralformen (-e)",
+      "items": [
+        {
+          "de": "Ich habe zwei Hunde.",
+          "en": "I have two dogs."
+        },
+        {
+          "de": "Die Tische sind neu.",
+          "en": "The tables are new."
+        },
+        {
+          "de": "Wir kaufen drei Stühle.",
+          "en": "We are buying three chairs."
+        },
+        {
+          "de": "Die Schuhe sind sehr bequem.",
+          "en": "The shoes are very comfortable."
+        }
+      ],
+      "topicId": "a1-plurals"
+    },
+    {
+      "number": 82,
+      "title": "Common Plurals (-er)",
+      "titleNative": "Häufige Pluralformen (-er)",
+      "items": [
+        {
+          "de": "Die Kinder spielen im Garten.",
+          "en": "The children are playing in the garden."
+        },
+        {
+          "de": "Die Bücher liegen auf dem Tisch.",
+          "en": "The books are lying on the table."
+        },
+        {
+          "de": "Die Häuser sind sehr alt.",
+          "en": "The houses are very old."
+        },
+        {
+          "de": "Die Bilder sind wunderschön.",
+          "en": "The pictures are beautiful."
+        }
+      ]
+    },
+    {
+      "number": 83,
+      "title": "Common Plurals (-en)",
+      "titleNative": "Häufige Pluralformen (-en)",
+      "items": [
+        {
+          "de": "Die Frauen arbeiten zusammen.",
+          "en": "The women work together."
+        },
+        {
+          "de": "Die Zeitungen liegen auf dem Tisch.",
+          "en": "The newspapers are lying on the table."
+        },
+        {
+          "de": "Wir haben viele Fragen.",
+          "en": "We have many questions."
+        },
+        {
+          "de": "Die Wohnungen sind sehr teuer.",
+          "en": "The apartments are very expensive."
+        }
+      ]
+    },
+    {
+      "number": 84,
+      "title": "Common Plurals (-s)",
+      "titleNative": "Häufige Pluralformen (-s)",
+      "items": [
+        {
+          "de": "Ich habe zwei Autos.",
+          "en": "I have two cars."
+        },
+        {
+          "de": "Wir sehen viele Fotos.",
+          "en": "We see many photos."
+        },
+        {
+          "de": "Die Hotels sind sehr gut hier.",
+          "en": "The hotels here are very good."
+        },
+        {
+          "de": "Er hat viele Handys zu Hause.",
+          "en": "He has many phones at home."
+        }
+      ]
+    },
+    {
+      "number": 85,
+      "title": "Basic Adjectives",
+      "titleNative": "Grundlegende Adjektive",
+      "items": [
+        {
+          "de": "Das Wetter ist gut heute.",
+          "en": "The weather is good today."
+        },
+        {
+          "de": "Die Suppe ist zu heiß.",
+          "en": "The soup is too hot."
+        },
+        {
+          "de": "Dieses Auto ist sehr schnell.",
+          "en": "This car is very fast."
+        },
+        {
+          "de": "Der Kaffee ist kalt geworden.",
+          "en": "The coffee has gotten cold."
+        }
+      ]
+    },
+    {
+      "number": 86,
+      "title": "Describing People",
+      "titleNative": "Personen beschreiben",
+      "items": [
+        {
+          "de": "Er ist groß und stark.",
+          "en": "He is tall and strong."
+        },
+        {
+          "de": "Sie ist klein und schlank.",
+          "en": "She is short and slim."
+        },
+        {
+          "de": "Meine Oma ist sehr weise.",
+          "en": "My grandmother is very wise."
+        },
+        {
+          "de": "Mein Freund ist immer lustig.",
+          "en": "My friend is always funny."
+        }
+      ]
+    },
+    {
+      "number": 87,
+      "title": "Comparing Simple Adjectives",
+      "titleNative": "Einfache Adjektive vergleichen",
+      "items": [
+        {
+          "de": "Dieses Buch ist gut.",
+          "en": "This book is good."
+        },
+        {
+          "de": "Der Kaffee ist heiß.",
+          "en": "The coffee is hot."
+        },
+        {
+          "de": "Das Zimmer ist klein.",
+          "en": "The room is small."
+        },
+        {
+          "de": "Die Straße ist lang.",
+          "en": "The street is long."
+        }
+      ]
+    },
+    {
+      "number": 88,
+      "title": "Sizes and Shapes",
+      "titleNative": "Größen und Formen",
+      "items": [
+        {
+          "de": "Das Haus ist sehr groß.",
+          "en": "The house is very big."
+        },
+        {
+          "de": "Die Wohnung ist klein, aber gemütlich.",
+          "en": "The apartment is small, but cozy."
+        },
+        {
+          "de": "Der Tisch ist rund.",
+          "en": "The table is round."
+        },
+        {
+          "de": "Das Zimmer ist quadratisch.",
+          "en": "The room is square."
+        }
+      ]
+    },
+    {
+      "number": 89,
+      "title": "Everyday Adjectives",
+      "titleNative": "Alltägliche Adjektive",
+      "items": [
+        {
+          "de": "Das Essen ist lecker.",
+          "en": "The food is delicious."
+        },
+        {
+          "de": "Die Aufgabe ist schwierig.",
+          "en": "The task is difficult."
+        },
+        {
+          "de": "Der Film war langweilig.",
+          "en": "The movie was boring."
+        },
+        {
+          "de": "Diese Übung ist einfach.",
+          "en": "This exercise is easy."
+        }
+      ]
+    },
+    {
+      "number": 90,
+      "title": "Review: Plurals and Adjectives",
+      "titleNative": "Repaso: Plural und Adjektive",
+      "items": [
+        {
+          "de": "Ich habe drei Hunde und zwei Katzen zu Hause.",
+          "en": "I have three dogs and two cats at home."
+        },
+        {
+          "de": "Die Kinder sind klein, aber sehr klug.",
+          "en": "The children are small, but very smart."
+        },
+        {
+          "de": "Das Essen ist lecker und das Wetter ist gut.",
+          "en": "The food is delicious and the weather is good."
+        },
+        {
+          "de": "Diese Bücher sind interessant und nicht zu schwierig.",
+          "en": "These books are interesting and not too difficult."
+        }
+      ]
+    },
+    {
+      "number": 91,
+      "title": "At the Restaurant",
+      "titleNative": "Im Restaurant",
+      "items": [
+        {
+          "de": "Ich hätte gern die Speisekarte, bitte.",
+          "en": "I would like the menu, please."
+        },
+        {
+          "de": "Was empfehlen Sie?",
+          "en": "What do you recommend?"
+        },
+        {
+          "de": "Die Rechnung, bitte.",
+          "en": "The bill, please."
+        },
+        {
+          "de": "Das schmeckt sehr gut.",
+          "en": "That tastes very good."
+        }
+      ]
+    },
+    {
+      "number": 92,
+      "title": "Shopping",
+      "titleNative": "Einkaufen",
+      "items": [
+        {
+          "de": "Wo finde ich die Milch?",
+          "en": "Where can I find the milk?"
+        },
+        {
+          "de": "Haben Sie das in einer anderen Größe?",
+          "en": "Do you have that in a different size?"
+        },
+        {
+          "de": "Ich zahle mit Karte.",
+          "en": "I'll pay by card."
+        },
+        {
+          "de": "Kann ich das umtauschen?",
+          "en": "Can I exchange this?"
+        }
+      ]
+    },
+    {
+      "number": 93,
+      "title": "At Home",
+      "titleNative": "Zu Hause",
+      "items": [
+        {
+          "de": "Die Küche ist sehr modern.",
+          "en": "The kitchen is very modern."
+        },
+        {
+          "de": "Das Schlafzimmer ist oben.",
+          "en": "The bedroom is upstairs."
+        },
+        {
+          "de": "Wir haben einen kleinen Garten.",
+          "en": "We have a small garden."
+        },
+        {
+          "de": "Das Wohnzimmer ist sehr gemütlich.",
+          "en": "The living room is very cozy."
+        }
+      ]
+    },
+    {
+      "number": 94,
+      "title": "Talking About Weather",
+      "titleNative": "Über das Wetter sprechen",
+      "items": [
+        {
+          "de": "Heute scheint die Sonne.",
+          "en": "Today the sun is shining."
+        },
+        {
+          "de": "Es regnet stark.",
+          "en": "It's raining hard."
+        },
+        {
+          "de": "Es ist sehr windig draußen.",
+          "en": "It's very windy outside."
+        },
+        {
+          "de": "Im Winter schneit es oft hier.",
+          "en": "In winter it often snows here."
+        }
+      ]
+    },
+    {
+      "number": 95,
+      "title": "Making Small Talk",
+      "titleNative": "Small Talk machen",
+      "items": [
+        {
+          "de": "Schönes Wetter heute, oder?",
+          "en": "Nice weather today, isn't it?"
+        },
+        {
+          "de": "Wie war dein Wochenende?",
+          "en": "How was your weekend?"
+        },
+        {
+          "de": "Was gibt es Neues?",
+          "en": "What's new?"
+        },
+        {
+          "de": "Es freut mich, dich zu sehen.",
+          "en": "It's great to see you."
+        }
+      ]
+    },
+    {
+      "number": 96,
+      "title": "Health Basics",
+      "titleNative": "Gesundheit: Grundlagen",
+      "items": [
+        {
+          "de": "Mir geht es nicht gut.",
+          "en": "I'm not feeling well."
+        },
+        {
+          "de": "Ich habe Kopfschmerzen.",
+          "en": "I have a headache."
+        },
+        {
+          "de": "Ich brauche einen Termin beim Arzt.",
+          "en": "I need an appointment with the doctor."
+        },
+        {
+          "de": "Gute Besserung!",
+          "en": "Get well soon!"
+        }
+      ]
+    },
+    {
+      "number": 97,
+      "title": "At the Airport",
+      "titleNative": "Am Flughafen",
+      "items": [
+        {
+          "de": "Wo ist der Check-in-Schalter?",
+          "en": "Where is the check-in counter?"
+        },
+        {
+          "de": "Mein Koffer ist noch nicht da.",
+          "en": "My suitcase isn't here yet."
+        },
+        {
+          "de": "Wann ist das Einsteigen?",
+          "en": "When is boarding?"
+        },
+        {
+          "de": "Ich habe meinen Pass verloren.",
+          "en": "I lost my passport."
+        }
+      ]
+    },
+    {
+      "number": 98,
+      "title": "Talking About Free Time",
+      "titleNative": "Über Freizeit sprechen",
+      "items": [
+        {
+          "de": "Am Wochenende gehe ich gern wandern.",
+          "en": "On weekends I like to go hiking."
+        },
+        {
+          "de": "Ich lese gern vor dem Schlafen.",
+          "en": "I like reading before bed."
+        },
+        {
+          "de": "Wir spielen gern Brettspiele.",
+          "en": "We like playing board games."
+        },
+        {
+          "de": "Sie geht jeden Abend ins Fitnessstudio.",
+          "en": "She goes to the gym every evening."
+        }
+      ]
+    },
+    {
+      "number": 99,
+      "title": "Expressing Likes and Dislikes",
+      "titleNative": "Vorlieben und Abneigungen ausdrücken",
+      "items": [
+        {
+          "de": "Ich mag klassische Musik.",
+          "en": "I like classical music."
+        },
+        {
+          "de": "Er mag keinen Fisch.",
+          "en": "He doesn't like fish."
+        },
+        {
+          "de": "Wir mögen diese Stadt sehr.",
+          "en": "We like this city a lot."
+        },
+        {
+          "de": "Magst du Schokolade?",
+          "en": "Do you like chocolate?"
+        }
+      ]
+    },
+    {
+      "number": 100,
+      "title": "Review: A1 Capstone",
+      "titleNative": "Repaso: Abschluss A1",
+      "items": [
+        {
+          "de": "Ich heiße Anna, ich bin fünfundzwanzig Jahre alt und ich lerne Deutsch.",
+          "en": "My name is Anna, I am twenty-five years old, and I am learning German."
+        },
+        {
+          "de": "Ich kann schon ein bisschen Deutsch sprechen, aber ich muss noch viel lernen.",
+          "en": "I can already speak a bit of German, but I still have a lot to learn."
+        },
+        {
+          "de": "Wie geht es dir? Ich hoffe, du hast eine gute Zeit.",
+          "en": "How are you? I hope you're having a good time."
+        },
+        {
+          "de": "Das war mein erstes Level, und ich bin bereit für das nächste.",
+          "en": "That was my first level, and I am ready for the next one."
+        }
+      ]
+    }
+  ]
+}

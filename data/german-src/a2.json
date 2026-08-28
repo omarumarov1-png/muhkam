@@ -1,0 +1,2459 @@
+{
+  "level": "a2",
+  "grammarTopics": {
+    "a2-perfekt-haben": {
+      "title": "Perfekt Tense: Talking About the Past with Haben",
+      "pattern": "haben (conjugated) + Partizip II (ge- + stem + -t/-en, sent to the end)",
+      "explanation": "The Perfekt is the everyday past tense in spoken German — far more common than any simple past form. Most verbs form it with a conjugated form of \"haben\" plus a past participle (Partizip II), which is pushed to the very end of the sentence: \"Ich habe gestern gearbeitet\" (I worked yesterday). Regular participles add \"ge-\" and \"-t\": machen → gemacht, spielen → gespielt.",
+      "fact": "Verbs ending in -ieren (often borrowed from French/Latin, like \"studieren\", \"telefonieren\") drop the \"ge-\" prefix entirely in their participle: \"studiert\", \"telefoniert\" — not \"gestudiert\". This is a small but very reliable exception worth memorizing as its own rule.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Was hast du gestern gemacht?",
+          "en": "What did you do yesterday?"
+        },
+        {
+          "sp": "B",
+          "native": "Ich habe einen Film gesehen und mit Freunden telefoniert.",
+          "en": "I watched a movie and talked on the phone with friends."
+        }
+      ]
+    },
+    "a2-perfekt-sein": {
+      "title": "Perfekt with Sein: Movement and Change Verbs",
+      "pattern": "sein (conjugated) + Partizip II, for verbs of movement/change of state",
+      "explanation": "About a dozen verbs — mostly involving movement from one place to another, or a change of state — use \"sein\" instead of \"haben\" in the Perfekt: \"gehen\" (to go) → \"ich bin gegangen\", \"fahren\" (to drive/go) → \"ich bin gefahren\", \"kommen\" (to come) → \"ich bin gekommen\", \"werden\" (to become) → \"ich bin geworden\", \"bleiben\" (to stay) → \"ich bin geblieben\", \"aufstehen\" (to get up) → \"ich bin aufgestanden\".",
+      "fact": "A helpful way to remember which verbs take \"sein\": they almost always describe moving FROM one place/state TO another (gehen, fahren, fliegen, kommen, aufstehen) or a fundamental change (werden, sterben, wachsen) — plus the two exceptions \"sein\" and \"bleiben\" themselves, which don't fit the movement pattern but still take \"sein\".",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Bist du gestern ins Kino gegangen?",
+          "en": "Did you go to the movies yesterday?"
+        },
+        {
+          "sp": "B",
+          "native": "Nein, ich bin zu Hause geblieben.",
+          "en": "No, I stayed home."
+        }
+      ]
+    },
+    "a2-dativ": {
+      "title": "Dativ: The Indirect Object Case",
+      "pattern": "der → dem, die → der, das → dem, die (pl.) → den + -n · ein → einem, eine → einer",
+      "explanation": "The Dativ case marks the indirect object — typically the person receiving or benefiting from something. All three genders change: \"der\" → \"dem\", \"die\" → \"der\", \"das\" → \"dem\", and the plural \"die\" → \"den\" (with an extra \"-n\" added to the noun itself if it doesn't already end in one): \"Ich gebe dem Mann das Buch\" (I give the man the book). Indefinite articles follow the same pattern: \"ein\" → \"einem\", \"eine\" → \"einer\".",
+      "fact": "A handful of common prepositions ALWAYS take the Dativ: \"mit\" (with), \"nach\" (after/to), \"aus\" (from/out of), \"bei\" (at/near), \"seit\" (since), \"von\" (from/of), \"zu\" (to) — often memorized together as \"mit nach aus bei seit von zu\", the Dativ counterpart to Akkusativ's \"für durch ohne gegen um\".",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Ich gehe mit meinem Bruder zum Arzt.",
+          "en": "I'm going to the doctor with my brother."
+        },
+        {
+          "sp": "B",
+          "native": "Sag ihm, ich helfe ihm gern, wenn er zurück ist.",
+          "en": "Tell him I'm happy to help him when he's back."
+        }
+      ]
+    },
+    "a2-wechselpraepositionen": {
+      "title": "Wechselpräpositionen: Two-Way Prepositions",
+      "pattern": "in/an/auf/über/unter/vor/hinter/neben/zwischen + Akkusativ (movement) or Dativ (location)",
+      "explanation": "Nine common prepositions can take EITHER Akkusativ or Dativ, depending on meaning: use Akkusativ for movement TOWARD a destination (answering \"wohin?\"), and Dativ for a static location (answering \"wo?\"). \"Ich gehe in die Küche\" (I'm going into the kitchen — Akkusativ, movement) versus \"Ich bin in der Küche\" (I am in the kitchen — Dativ, location). The nine: in, an, auf, über, unter, vor, hinter, neben, zwischen.",
+      "fact": "A simple test: if the sentence describes crossing a boundary or arriving somewhere (usually with a motion verb like gehen, legen, stellen, setzen), use Akkusativ. If it describes something already positioned or happening in place (usually with sein, liegen, stehen, sitzen), use Dativ.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Wo ist die Katze?",
+          "en": "Where is the cat?"
+        },
+        {
+          "sp": "B",
+          "native": "Sie liegt auf dem Sofa, aber sie springt gleich auf den Tisch.",
+          "en": "It's lying on the sofa, but it's about to jump onto the table."
+        }
+      ]
+    },
+    "a2-possessive-separable": {
+      "title": "Possessive Articles Across Cases, and Separable Verbs",
+      "pattern": "mein/dein/sein/ihr/unser/euer/ihr + case endings · separable prefix moves to the end",
+      "explanation": "Possessive articles (mein, dein, sein, ihr, unser, euer, ihr/Ihr) take the SAME case endings as \"ein\": \"mein Bruder\" (Nom.), \"meinen Bruder\" (Akk.), \"meinem Bruder\" (Dat.). Separately, many German verbs have a separable prefix that detaches and moves to the very end of the sentence in the present tense: \"aufstehen\" (to get up) → \"Ich stehe um sieben Uhr auf\" (I get up at seven o'clock) — the prefix \"auf-\" jumps to the end.",
+      "fact": "In the Perfekt tense, the separable prefix reattaches to the participle, with \"ge-\" inserted BETWEEN the prefix and the stem: \"aufstehen\" → \"aufgestanden\" (not \"geaufgestanden\"), \"einkaufen\" → \"eingekauft\" — the prefix always stays glued to the front once the sentence isn't in simple present tense.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Wann stehst du normalerweise auf?",
+          "en": "When do you normally get up?"
+        },
+        {
+          "sp": "B",
+          "native": "Ich stehe um sechs Uhr auf und rufe dann meine Schwester an.",
+          "en": "I get up at six and then call my sister."
+        }
+      ]
+    },
+    "a2-reflexive": {
+      "title": "Reflexive Verbs: Actions Done to Oneself",
+      "pattern": "mich/dich/sich/uns/euch/sich + verb",
+      "explanation": "Reflexive verbs need a reflexive pronoun that matches the subject: \"ich freue mich\" (I am happy, literally \"I please myself\"), \"du freust dich\", \"er/sie/es freut sich\", \"wir freuen uns\", \"ihr freut euch\", \"sie freuen sich\". Many everyday routine verbs are reflexive in German even when their English translation isn't: \"sich anziehen\" (to get dressed), \"sich waschen\" (to wash up).",
+      "fact": "Some reflexive verbs take a Dativ reflexive pronoun instead of Akkusativ when there's already a direct object in the sentence: \"Ich wasche mich\" (Akkusativ — I wash myself) but \"Ich wasche mir die Hände\" (Dativ — I wash my hands, literally \"I wash to-myself the hands\") — the Dativ \"mir\" appears because \"die Hände\" is already the direct object.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Freust du dich auf das Wochenende?",
+          "en": "Are you looking forward to the weekend?"
+        },
+        {
+          "sp": "B",
+          "native": "Ja, ich freue mich sehr! Ich entspanne mich gern zu Hause.",
+          "en": "Yes, I'm very much looking forward to it! I like relaxing at home."
+        }
+      ]
+    },
+    "a2-comparatives": {
+      "title": "Comparatives and Superlatives",
+      "pattern": "adjective + -er + als (comparative) · am + adjective + -sten (superlative)",
+      "explanation": "Comparatives add \"-er\" to the adjective, followed by \"als\" (than): \"Sie ist größer als ich\" (She is taller than me). Superlatives use \"am\" plus the adjective with an \"-sten\" ending: \"Er ist am größten\" (He is the tallest). Many short, common adjectives also add an umlaut in both forms: \"groß\" → \"größer\" → \"am größten\", \"alt\" → \"älter\" → \"am ältesten\".",
+      "fact": "\"Gut\" (good), \"viel\" (much), and \"gern\" (gladly) have completely irregular comparative/superlative forms, just like English \"good/better/best\": \"gut\" → \"besser\" → \"am besten\", \"viel\" → \"mehr\" → \"am meisten\", \"gern\" → \"lieber\" → \"am liebsten\" (a very common way to say what you like best: \"Ich trinke am liebsten Tee\" — I like drinking tea best).",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Dieses Restaurant ist besser als das andere, oder?",
+          "en": "This restaurant is better than the other one, right?"
+        },
+        {
+          "sp": "B",
+          "native": "Ja, und es ist das beste im ganzen Viertel, finde ich.",
+          "en": "Yes, and I think it's the best in the whole neighborhood."
+        }
+      ]
+    },
+    "a2-imperative": {
+      "title": "Imperative: Giving Commands",
+      "pattern": "du-form: stem (no -st) · ihr-form: present tense minus pronoun · Sie-form: infinitive + Sie",
+      "explanation": "The du-imperative drops \"-st\" from the regular present-tense stem: \"du gehst\" → \"Geh!\" (Go!). The ihr-imperative is identical to the ihr present-tense form, just without the pronoun: \"ihr geht\" → \"Geht!\". The formal Sie-imperative simply inverts the infinitive and \"Sie\": \"Gehen Sie!\" (Go!, formal). Verbs with a stem vowel change (e→i/ie) keep that change in the du-form: \"du sprichst\" → \"Sprich!\", \"du liest\" → \"Lies!\".",
+      "fact": "\"Sein\" has a genuinely irregular imperative that doesn't follow any of these patterns: \"Sei ruhig!\" (Be quiet!, du), \"Seid ruhig!\" (ihr), \"Seien Sie ruhig!\" (Sie) — these forms must simply be memorized.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "Sei bitte pünktlich morgen!",
+          "en": "Please be on time tomorrow!"
+        },
+        {
+          "sp": "B",
+          "native": "Keine Sorge, ich beeile mich schon.",
+          "en": "Don't worry, I'm already hurrying."
+        }
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "number": 1,
+      "title": "What I Did Yesterday",
+      "titleNative": "Was ich gestern gemacht habe",
+      "items": [
+        {
+          "de": "Ich habe gestern den ganzen Tag gearbeitet.",
+          "en": "I worked all day yesterday."
+        },
+        {
+          "de": "Sie hat ihr Projekt heute Morgen fertig gemacht.",
+          "en": "She finished her project this morning."
+        },
+        {
+          "de": "Wir haben in einem neuen Restaurant gegessen.",
+          "en": "We ate at a new restaurant."
+        },
+        {
+          "de": "Sie haben eine Stunde auf den Bus gewartet.",
+          "en": "They waited for the bus for an hour."
+        }
+      ],
+      "topicId": "a2-perfekt-haben"
+    },
+    {
+      "number": 2,
+      "title": "Regular Participles",
+      "titleNative": "Regelmäßige Partizipien",
+      "items": [
+        {
+          "de": "Ich habe die Wohnung geputzt.",
+          "en": "I cleaned the apartment."
+        },
+        {
+          "de": "Er hat seine Hausaufgaben gemacht.",
+          "en": "He did his homework."
+        },
+        {
+          "de": "Wir haben ein neues Lied gelernt.",
+          "en": "We learned a new song."
+        },
+        {
+          "de": "Sie hat den ganzen Nachmittag gearbeitet.",
+          "en": "She worked the whole afternoon."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Verbs Ending in -ieren",
+      "titleNative": "Verben auf -ieren",
+      "items": [
+        {
+          "de": "Ich habe letztes Jahr in Berlin studiert.",
+          "en": "I studied in Berlin last year."
+        },
+        {
+          "de": "Er hat mit seiner Mutter telefoniert.",
+          "en": "He talked on the phone with his mother."
+        },
+        {
+          "de": "Wir haben das Projekt organisiert.",
+          "en": "We organized the project."
+        },
+        {
+          "de": "Sie hat den Text übersetzt.",
+          "en": "She translated the text."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Irregular Participles I",
+      "titleNative": "Unregelmäßige Partizipien I",
+      "items": [
+        {
+          "de": "Ich habe ein interessantes Buch gelesen.",
+          "en": "I read an interesting book."
+        },
+        {
+          "de": "Er hat mir die Wahrheit gesagt.",
+          "en": "He told me the truth."
+        },
+        {
+          "de": "Wir haben einen Brief geschrieben.",
+          "en": "We wrote a letter."
+        },
+        {
+          "de": "Sie hat ein Glas Wasser getrunken.",
+          "en": "She drank a glass of water."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Irregular Participles II",
+      "titleNative": "Unregelmäßige Partizipien II",
+      "items": [
+        {
+          "de": "Ich habe den Film schon gesehen.",
+          "en": "I've already seen the movie."
+        },
+        {
+          "de": "Er hat viel Geld ausgegeben.",
+          "en": "He spent a lot of money."
+        },
+        {
+          "de": "Wir haben lange geschlafen.",
+          "en": "We slept a long time."
+        },
+        {
+          "de": "Sie hat ihre Meinung geändert.",
+          "en": "She changed her mind."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Past Events at Work",
+      "titleNative": "Vergangene Ereignisse bei der Arbeit",
+      "items": [
+        {
+          "de": "Ich habe den Bericht heute Morgen gesendet.",
+          "en": "I sent the report this morning."
+        },
+        {
+          "de": "Sie hat gestern ein wichtiges Meeting organisiert.",
+          "en": "She organized an important meeting yesterday."
+        },
+        {
+          "de": "Wir haben es geschafft, das Projekt pünktlich zu beenden.",
+          "en": "We managed to finish the project on time."
+        },
+        {
+          "de": "Sie haben letzten Monat einen wichtigen Kunden verloren.",
+          "en": "They lost an important client last month."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Talking About Meals",
+      "titleNative": "Über Mahlzeiten sprechen",
+      "items": [
+        {
+          "de": "Ich habe gestern Abend ein gutes Essen gekocht.",
+          "en": "I cooked a good dinner last night."
+        },
+        {
+          "de": "Sie hat eine leckere Suppe gemacht.",
+          "en": "She made a delicious soup."
+        },
+        {
+          "de": "Wir haben ein traditionelles deutsches Gericht probiert.",
+          "en": "We tried a traditional German dish."
+        },
+        {
+          "de": "Sie haben eine Pizza zum Mittagessen bestellt.",
+          "en": "They ordered a pizza for lunch."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Negative Perfekt",
+      "titleNative": "Perfekt in der Verneinung",
+      "items": [
+        {
+          "de": "Ich habe meine Arbeit gestern nicht fertig gemacht.",
+          "en": "I didn't finish my work yesterday."
+        },
+        {
+          "de": "Sie hat auf meine Nachricht nicht geantwortet.",
+          "en": "She didn't answer my message."
+        },
+        {
+          "de": "Wir haben keine Zeit gehabt, das Museum zu besuchen.",
+          "en": "We didn't have time to visit the museum."
+        },
+        {
+          "de": "Sie haben die Lösung für das Problem nicht gefunden.",
+          "en": "They didn't find the solution to the problem."
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Questions in the Past",
+      "titleNative": "Fragen in der Vergangenheit",
+      "items": [
+        {
+          "de": "Hast du diesen Film schon gesehen?",
+          "en": "Have you seen this movie already?"
+        },
+        {
+          "de": "Was hat sie auf dem Markt gekauft?",
+          "en": "What did she buy at the market?"
+        },
+        {
+          "de": "Habt ihr eure Hausaufgaben gemacht?",
+          "en": "Have you done your homework?"
+        },
+        {
+          "de": "Wo haben sie ihren Urlaub verbracht?",
+          "en": "Where did they spend their vacation?"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Review: Perfekt with Haben",
+      "titleNative": "Repaso: Perfekt mit haben",
+      "items": [
+        {
+          "de": "Ich habe eine sehr beschäftigte Woche gehabt.",
+          "en": "I've had a very busy week."
+        },
+        {
+          "de": "Wir haben gegessen, geredet und viel gelacht.",
+          "en": "We ate, talked, and laughed a lot."
+        },
+        {
+          "de": "Sie hat alles Mögliche getan, um uns zu helfen.",
+          "en": "She did everything she could to help us."
+        },
+        {
+          "de": "Sie haben endlich eine Wohnung gefunden, die ihnen gefällt.",
+          "en": "They finally found an apartment they like."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Coming and Going",
+      "titleNative": "Kommen und gehen",
+      "items": [
+        {
+          "de": "Ich bin heute Morgen früh aufgestanden.",
+          "en": "I got up early this morning."
+        },
+        {
+          "de": "Sie ist gestern Abend zu uns gekommen.",
+          "en": "She came to see us last night."
+        },
+        {
+          "de": "Wir sind sehr früh am Morgen losgefahren.",
+          "en": "We left very early in the morning."
+        },
+        {
+          "de": "Sie sind zu spät zum Meeting gekommen.",
+          "en": "They arrived late to the meeting."
+        }
+      ],
+      "topicId": "a2-perfekt-sein"
+    },
+    {
+      "number": 12,
+      "title": "Traveling",
+      "titleNative": "Reisen",
+      "items": [
+        {
+          "de": "Ich bin letztes Jahr nach Italien gereist.",
+          "en": "I traveled to Italy last year."
+        },
+        {
+          "de": "Er ist mit dem Zug nach Berlin gefahren.",
+          "en": "He went to Berlin by train."
+        },
+        {
+          "de": "Wir sind nach Spanien geflogen.",
+          "en": "We flew to Spain."
+        },
+        {
+          "de": "Sie ist zu Fuß zur Arbeit gegangen.",
+          "en": "She walked to work."
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "title": "Life Events",
+      "titleNative": "Lebensereignisse",
+      "items": [
+        {
+          "de": "Sie ist im Jahr 1990 geboren.",
+          "en": "She was born in the year 1990."
+        },
+        {
+          "de": "Mein Großvater ist vor zwei Jahren gestorben.",
+          "en": "My grandfather died two years ago."
+        },
+        {
+          "de": "Sie sind letztes Jahr Eltern geworden.",
+          "en": "They became parents last year."
+        },
+        {
+          "de": "Wir sind sehr jung verliebt geworden.",
+          "en": "We fell in love very young."
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "title": "Staying and Remaining",
+      "titleNative": "Bleiben",
+      "items": [
+        {
+          "de": "Ich bin das ganze Wochenende zu Hause geblieben.",
+          "en": "I stayed home all weekend."
+        },
+        {
+          "de": "Sie sind trotz allem Freunde geblieben.",
+          "en": "They stayed friends despite everything."
+        },
+        {
+          "de": "Wir sind länger als geplant geblieben.",
+          "en": "We stayed longer than planned."
+        },
+        {
+          "de": "Er ist ruhig geblieben, obwohl er nervös war.",
+          "en": "He stayed calm even though he was nervous."
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "title": "Everyday Movement",
+      "titleNative": "Alltägliche Bewegung",
+      "items": [
+        {
+          "de": "Ich bin heute mit dem Fahrrad gefahren.",
+          "en": "I biked today."
+        },
+        {
+          "de": "Sie ist ins Fitnessstudio gegangen.",
+          "en": "She went to the gym."
+        },
+        {
+          "de": "Wir sind im Park spazieren gegangen.",
+          "en": "We went for a walk in the park."
+        },
+        {
+          "de": "Er ist die Treppe hinaufgestiegen.",
+          "en": "He climbed the stairs."
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "title": "Reflexive Verbs in the Past",
+      "titleNative": "Reflexive Verben in der Vergangenheit",
+      "items": [
+        {
+          "de": "Ich habe mich heute früh geduscht.",
+          "en": "I showered early today."
+        },
+        {
+          "de": "Sie hat sich schnell angezogen.",
+          "en": "She got dressed quickly."
+        },
+        {
+          "de": "Wir haben uns auf der Party sehr amüsiert.",
+          "en": "We had a lot of fun at the party."
+        },
+        {
+          "de": "Sie haben sich an der Universität kennengelernt.",
+          "en": "They met at university."
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "title": "Feminine Agreement Practice",
+      "titleNative": "Übung mit weiblichen Formen",
+      "items": [
+        {
+          "de": "Meine Schwester ist letzte Woche in den Urlaub gefahren.",
+          "en": "My sister left on vacation last week."
+        },
+        {
+          "de": "Meine Freundinnen sind zu Besuch gekommen.",
+          "en": "My friends came to visit."
+        },
+        {
+          "de": "Sie ist in ihr Heimatland zurückgekehrt.",
+          "en": "She returned to her home country."
+        },
+        {
+          "de": "Meine Mutter ist den ganzen Sommer bei uns geblieben.",
+          "en": "My mother stayed with us all summer."
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "title": "Negative Perfekt with Sein",
+      "titleNative": "Verneintes Perfekt mit sein",
+      "items": [
+        {
+          "de": "Ich bin gestern nicht ins Büro gegangen.",
+          "en": "I didn't go to the office yesterday."
+        },
+        {
+          "de": "Sie ist dieses Wochenende nicht ausgegangen.",
+          "en": "She didn't go out this weekend."
+        },
+        {
+          "de": "Wir sind nicht lange auf der Party geblieben.",
+          "en": "We didn't stay long at the party."
+        },
+        {
+          "de": "Sie sind noch nicht angekommen.",
+          "en": "They haven't arrived yet."
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "title": "Questions with Sein-Verbs",
+      "titleNative": "Fragen mit sein-Verben",
+      "items": [
+        {
+          "de": "Bist du schon einmal nach Italien gereist?",
+          "en": "Have you ever been to Italy?"
+        },
+        {
+          "de": "Wann ist sie von der Reise zurückgekommen?",
+          "en": "When did she get back from her trip?"
+        },
+        {
+          "de": "Seid ihr in dieser Stadt geboren?",
+          "en": "Were you born in this city?"
+        },
+        {
+          "de": "Wie sind sie Freunde geworden?",
+          "en": "How did they become friends?"
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "title": "Review: Perfekt with Sein",
+      "titleNative": "Repaso: Perfekt mit sein",
+      "items": [
+        {
+          "de": "Ich bin in einer kleinen Stadt geboren, aber ich bin sehr jung weggezogen.",
+          "en": "I was born in a small town, but I left very young."
+        },
+        {
+          "de": "Sie ist früh aufgestanden, joggen gegangen und dann zurückgekommen.",
+          "en": "She got up early, went for a run, then came back home."
+        },
+        {
+          "de": "Wir haben uns verliebt und sind unzertrennlich geworden.",
+          "en": "We fell in love and became inseparable."
+        },
+        {
+          "de": "Sie sind gekommen, haben alles gesehen und sind glücklich gegangen.",
+          "en": "They came, they saw, and they left happy."
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "title": "Giving Things to People",
+      "titleNative": "Menschen Dinge geben",
+      "items": [
+        {
+          "de": "Ich gebe dem Mann das Buch.",
+          "en": "I give the man the book."
+        },
+        {
+          "de": "Sie schenkt der Frau Blumen.",
+          "en": "She gives the woman flowers."
+        },
+        {
+          "de": "Wir zeigen dem Kind den Weg.",
+          "en": "We show the child the way."
+        },
+        {
+          "de": "Er schreibt einem Freund einen Brief.",
+          "en": "He writes a letter to a friend."
+        }
+      ],
+      "topicId": "a2-dativ"
+    },
+    {
+      "number": 22,
+      "title": "Dativ Prepositions: Mit and Von",
+      "titleNative": "Dativpräpositionen: mit und von",
+      "items": [
+        {
+          "de": "Ich fahre mit dem Bus zur Arbeit.",
+          "en": "I go to work by bus."
+        },
+        {
+          "de": "Sie spricht mit ihrer Mutter.",
+          "en": "She is talking with her mother."
+        },
+        {
+          "de": "Das Geschenk ist von meiner Schwester.",
+          "en": "The gift is from my sister."
+        },
+        {
+          "de": "Wir kommen gerade von der Arbeit.",
+          "en": "We are just coming from work."
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "title": "Dativ Prepositions: Nach and Zu",
+      "titleNative": "Dativpräpositionen: nach und zu",
+      "items": [
+        {
+          "de": "Nach der Arbeit gehe ich nach Hause.",
+          "en": "After work I go home."
+        },
+        {
+          "de": "Wir fahren morgen nach Berlin.",
+          "en": "We're going to Berlin tomorrow."
+        },
+        {
+          "de": "Ich gehe zum Arzt.",
+          "en": "I'm going to the doctor."
+        },
+        {
+          "de": "Sie fährt zur Universität.",
+          "en": "She's driving to the university."
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "title": "Dativ Prepositions: Bei and Seit",
+      "titleNative": "Dativpräpositionen: bei und seit",
+      "items": [
+        {
+          "de": "Ich wohne bei meinen Eltern.",
+          "en": "I live with my parents."
+        },
+        {
+          "de": "Er arbeitet bei einer großen Firma.",
+          "en": "He works at a big company."
+        },
+        {
+          "de": "Seit einem Jahr lerne ich Deutsch.",
+          "en": "I've been learning German for a year."
+        },
+        {
+          "de": "Seit dem Sommer wohnt sie in Hamburg.",
+          "en": "She's lived in Hamburg since summer."
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "title": "Indirect and Direct Objects Together",
+      "titleNative": "Indirektes und direktes Objekt zusammen",
+      "items": [
+        {
+          "de": "Ich zeige meiner Schwester das Foto.",
+          "en": "I show my sister the photo."
+        },
+        {
+          "de": "Er kauft seiner Frau ein Geschenk.",
+          "en": "He buys his wife a gift."
+        },
+        {
+          "de": "Wir erklären den Kindern die Regeln.",
+          "en": "We explain the rules to the children."
+        },
+        {
+          "de": "Sie sendet ihrem Freund eine Nachricht.",
+          "en": "She sends her friend a message."
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "title": "Dativ Verbs",
+      "titleNative": "Verben mit Dativ",
+      "items": [
+        {
+          "de": "Das gefällt mir sehr.",
+          "en": "I like that a lot."
+        },
+        {
+          "de": "Ich helfe meinem Kollegen gern.",
+          "en": "I like helping my colleague."
+        },
+        {
+          "de": "Das Buch gehört meiner Schwester.",
+          "en": "The book belongs to my sister."
+        },
+        {
+          "de": "Ich danke dir für deine Hilfe.",
+          "en": "I thank you for your help."
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "title": "Dativ Pronouns",
+      "titleNative": "Dativpronomen",
+      "items": [
+        {
+          "de": "Kannst du mir helfen?",
+          "en": "Can you help me?"
+        },
+        {
+          "de": "Ich gebe dir mein Buch.",
+          "en": "I'll give you my book."
+        },
+        {
+          "de": "Wir zeigen ihm die Stadt.",
+          "en": "We'll show him the city."
+        },
+        {
+          "de": "Sie erzählt uns eine Geschichte.",
+          "en": "She's telling us a story."
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "title": "Talking About Health with Dativ",
+      "titleNative": "Über Gesundheit mit Dativ sprechen",
+      "items": [
+        {
+          "de": "Mir tut der Kopf weh.",
+          "en": "My head hurts."
+        },
+        {
+          "de": "Wie geht es dir heute?",
+          "en": "How are you today?"
+        },
+        {
+          "de": "Ihm ist schlecht.",
+          "en": "He feels sick."
+        },
+        {
+          "de": "Uns ist kalt hier drinnen.",
+          "en": "We are cold in here."
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "title": "Combining Cases in Sentences",
+      "titleNative": "Fälle in Sätzen kombinieren",
+      "items": [
+        {
+          "de": "Ich gebe meinem Bruder einen Rat.",
+          "en": "I give my brother advice."
+        },
+        {
+          "de": "Sie kauft ihrer Tochter ein neues Kleid.",
+          "en": "She buys her daughter a new dress."
+        },
+        {
+          "de": "Wir schicken unseren Eltern eine Karte.",
+          "en": "We're sending our parents a card."
+        },
+        {
+          "de": "Er zeigt seinem Chef den Bericht.",
+          "en": "He shows his boss the report."
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "title": "Review: Dativ Case",
+      "titleNative": "Repaso: Dativ",
+      "items": [
+        {
+          "de": "Ich fahre mit dem Zug zu meiner Freundin.",
+          "en": "I'm taking the train to my girlfriend's."
+        },
+        {
+          "de": "Seit einem Monat helfe ich meinem Nachbarn im Garten.",
+          "en": "For a month I've been helping my neighbor in the garden."
+        },
+        {
+          "de": "Nach der Arbeit gebe ich meinem Sohn Nachhilfe.",
+          "en": "After work I tutor my son."
+        },
+        {
+          "de": "Das Geschenk von meiner Mutter gefällt mir sehr.",
+          "en": "I really like the gift from my mother."
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "title": "In: Location vs Movement",
+      "titleNative": "In: Ort und Bewegung",
+      "items": [
+        {
+          "de": "Ich bin in der Küche.",
+          "en": "I am in the kitchen."
+        },
+        {
+          "de": "Ich gehe in die Küche.",
+          "en": "I'm going into the kitchen."
+        },
+        {
+          "de": "Die Kinder spielen im Garten.",
+          "en": "The children are playing in the garden."
+        },
+        {
+          "de": "Die Kinder gehen in den Garten.",
+          "en": "The children are going into the garden."
+        }
+      ],
+      "topicId": "a2-wechselpraepositionen"
+    },
+    {
+      "number": 32,
+      "title": "Auf: Location vs Movement",
+      "titleNative": "Auf: Ort und Bewegung",
+      "items": [
+        {
+          "de": "Das Buch liegt auf dem Tisch.",
+          "en": "The book is lying on the table."
+        },
+        {
+          "de": "Ich lege das Buch auf den Tisch.",
+          "en": "I'm putting the book on the table."
+        },
+        {
+          "de": "Die Katze sitzt auf dem Stuhl.",
+          "en": "The cat is sitting on the chair."
+        },
+        {
+          "de": "Die Katze springt auf den Stuhl.",
+          "en": "The cat is jumping onto the chair."
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "title": "An: Location vs Movement",
+      "titleNative": "An: Ort und Bewegung",
+      "items": [
+        {
+          "de": "Das Bild hängt an der Wand.",
+          "en": "The picture is hanging on the wall."
+        },
+        {
+          "de": "Ich hänge das Bild an die Wand.",
+          "en": "I'm hanging the picture on the wall."
+        },
+        {
+          "de": "Wir sitzen am Tisch.",
+          "en": "We are sitting at the table."
+        },
+        {
+          "de": "Wir setzen uns an den Tisch.",
+          "en": "We're sitting down at the table."
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "title": "Vor and Hinter",
+      "titleNative": "Vor und hinter",
+      "items": [
+        {
+          "de": "Das Auto steht vor dem Haus.",
+          "en": "The car is parked in front of the house."
+        },
+        {
+          "de": "Er stellt das Auto vor das Haus.",
+          "en": "He's parking the car in front of the house."
+        },
+        {
+          "de": "Der Garten liegt hinter dem Haus.",
+          "en": "The garden is behind the house."
+        },
+        {
+          "de": "Sie geht hinter das Haus.",
+          "en": "She's going behind the house."
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "title": "Über and Unter",
+      "titleNative": "Über und unter",
+      "items": [
+        {
+          "de": "Die Lampe hängt über dem Tisch.",
+          "en": "The lamp hangs above the table."
+        },
+        {
+          "de": "Er hängt die Lampe über den Tisch.",
+          "en": "He hangs the lamp above the table."
+        },
+        {
+          "de": "Die Katze schläft unter dem Bett.",
+          "en": "The cat sleeps under the bed."
+        },
+        {
+          "de": "Die Katze läuft unter das Bett.",
+          "en": "The cat runs under the bed."
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "title": "Neben and Zwischen",
+      "titleNative": "Neben und zwischen",
+      "items": [
+        {
+          "de": "Der Stuhl steht neben dem Tisch.",
+          "en": "The chair stands next to the table."
+        },
+        {
+          "de": "Sie stellt den Stuhl neben den Tisch.",
+          "en": "She puts the chair next to the table."
+        },
+        {
+          "de": "Das Haus steht zwischen zwei Bäumen.",
+          "en": "The house stands between two trees."
+        },
+        {
+          "de": "Er parkt das Auto zwischen die Bäume.",
+          "en": "He parks the car between the trees."
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "title": "Everyday Locations",
+      "titleNative": "Alltägliche Orte",
+      "items": [
+        {
+          "de": "Ich warte an der Bushaltestelle.",
+          "en": "I'm waiting at the bus stop."
+        },
+        {
+          "de": "Wir treffen uns vor dem Kino.",
+          "en": "We're meeting in front of the cinema."
+        },
+        {
+          "de": "Sie arbeitet in einem Büro.",
+          "en": "She works in an office."
+        },
+        {
+          "de": "Das Restaurant liegt am Fluss.",
+          "en": "The restaurant is by the river."
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "title": "Describing a Room",
+      "titleNative": "Ein Zimmer beschreiben",
+      "items": [
+        {
+          "de": "Das Bett steht am Fenster.",
+          "en": "The bed stands by the window."
+        },
+        {
+          "de": "Der Schrank steht neben der Tür.",
+          "en": "The wardrobe stands next to the door."
+        },
+        {
+          "de": "Die Bücher liegen auf dem Regal.",
+          "en": "The books are on the shelf."
+        },
+        {
+          "de": "Der Teppich liegt auf dem Boden.",
+          "en": "The carpet is on the floor."
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "title": "Movement Through Places",
+      "titleNative": "Bewegung durch Orte",
+      "items": [
+        {
+          "de": "Ich gehe über die Straße.",
+          "en": "I'm walking across the street."
+        },
+        {
+          "de": "Wir laufen unter der Brücke durch.",
+          "en": "We're walking under the bridge."
+        },
+        {
+          "de": "Sie steigt in den Bus ein.",
+          "en": "She's getting on the bus."
+        },
+        {
+          "de": "Er steigt aus dem Auto aus.",
+          "en": "He's getting out of the car."
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "title": "Review: Wechselpräpositionen",
+      "titleNative": "Repaso: Wechselpräpositionen",
+      "items": [
+        {
+          "de": "Ich stelle die Vase auf den Tisch, und jetzt steht sie auf dem Tisch.",
+          "en": "I'm putting the vase on the table, and now it's standing on the table."
+        },
+        {
+          "de": "Wir gehen in den Park, und dort spielen wir im Park.",
+          "en": "We're going into the park, and there we play in the park."
+        },
+        {
+          "de": "Er hängt das Bild an die Wand, und jetzt hängt es an der Wand.",
+          "en": "He's hanging the picture on the wall, and now it's hanging on the wall."
+        },
+        {
+          "de": "Die Katze springt auf das Bett und schläft dann auf dem Bett.",
+          "en": "The cat jumps onto the bed and then sleeps on the bed."
+        }
+      ]
+    },
+    {
+      "number": 41,
+      "title": "Possessive Articles: Nominativ",
+      "titleNative": "Possessivartikel: Nominativ",
+      "items": [
+        {
+          "de": "Mein Bruder wohnt in München.",
+          "en": "My brother lives in Munich."
+        },
+        {
+          "de": "Deine Schwester ist sehr nett.",
+          "en": "Your sister is very nice."
+        },
+        {
+          "de": "Sein Auto ist neu.",
+          "en": "His car is new."
+        },
+        {
+          "de": "Ihre Wohnung ist sehr groß.",
+          "en": "Her apartment is very big."
+        }
+      ],
+      "topicId": "a2-possessive-separable"
+    },
+    {
+      "number": 42,
+      "title": "Possessive Articles: Akkusativ",
+      "titleNative": "Possessivartikel: Akkusativ",
+      "items": [
+        {
+          "de": "Ich sehe meinen Bruder heute Abend.",
+          "en": "I'm seeing my brother tonight."
+        },
+        {
+          "de": "Er ruft seine Mutter jeden Tag an.",
+          "en": "He calls his mother every day."
+        },
+        {
+          "de": "Wir besuchen unsere Großeltern.",
+          "en": "We're visiting our grandparents."
+        },
+        {
+          "de": "Sie liebt ihren Job sehr.",
+          "en": "She loves her job a lot."
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "title": "Possessive Articles: Dativ",
+      "titleNative": "Possessivartikel: Dativ",
+      "items": [
+        {
+          "de": "Ich helfe meinem Bruder mit den Hausaufgaben.",
+          "en": "I help my brother with the homework."
+        },
+        {
+          "de": "Er schreibt seiner Freundin einen Brief.",
+          "en": "He writes his girlfriend a letter."
+        },
+        {
+          "de": "Wir danken unseren Eltern für alles.",
+          "en": "We thank our parents for everything."
+        },
+        {
+          "de": "Sie zeigt ihrer Kollegin das neue Büro.",
+          "en": "She shows her colleague the new office."
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "title": "Separable Verbs: Aufstehen and Einkaufen",
+      "titleNative": "Trennbare Verben: aufstehen und einkaufen",
+      "items": [
+        {
+          "de": "Ich stehe jeden Tag um sieben Uhr auf.",
+          "en": "I get up at seven o'clock every day."
+        },
+        {
+          "de": "Wir kaufen samstags immer ein.",
+          "en": "We always go shopping on Saturdays."
+        },
+        {
+          "de": "Sie steht früh auf, um zu joggen.",
+          "en": "She gets up early to go jogging."
+        },
+        {
+          "de": "Er kauft frisches Gemüse ein.",
+          "en": "He buys fresh vegetables."
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "title": "Separable Verbs: Anrufen and Fernsehen",
+      "titleNative": "Trennbare Verben: anrufen und fernsehen",
+      "items": [
+        {
+          "de": "Ich rufe meine Eltern jeden Sonntag an.",
+          "en": "I call my parents every Sunday."
+        },
+        {
+          "de": "Wir sehen abends gern fern.",
+          "en": "We like watching TV in the evenings."
+        },
+        {
+          "de": "Ruf mich an, wenn du ankommst.",
+          "en": "Call me when you arrive."
+        },
+        {
+          "de": "Sie sieht selten fern.",
+          "en": "She rarely watches TV."
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "title": "Separable Verbs: Mitkommen and Ankommen",
+      "titleNative": "Trennbare Verben: mitkommen und ankommen",
+      "items": [
+        {
+          "de": "Kommst du heute Abend mit?",
+          "en": "Are you coming along tonight?"
+        },
+        {
+          "de": "Der Zug kommt um zehn Uhr an.",
+          "en": "The train arrives at ten o'clock."
+        },
+        {
+          "de": "Wir kommen zur Party mit.",
+          "en": "We're coming along to the party."
+        },
+        {
+          "de": "Wann kommst du zu Hause an?",
+          "en": "When do you arrive home?"
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "title": "Separable Verbs in the Perfekt",
+      "titleNative": "Trennbare Verben im Perfekt",
+      "items": [
+        {
+          "de": "Ich bin heute früh aufgestanden.",
+          "en": "I got up early today."
+        },
+        {
+          "de": "Wir haben gestern eingekauft.",
+          "en": "We went shopping yesterday."
+        },
+        {
+          "de": "Sie hat ihre Schwester angerufen.",
+          "en": "She called her sister."
+        },
+        {
+          "de": "Der Zug ist pünktlich angekommen.",
+          "en": "The train arrived on time."
+        }
+      ]
+    },
+    {
+      "number": 48,
+      "title": "More Separable Verbs",
+      "titleNative": "Weitere trennbare Verben",
+      "items": [
+        {
+          "de": "Ich mache das Fenster auf.",
+          "en": "I'm opening the window."
+        },
+        {
+          "de": "Er macht die Tür zu.",
+          "en": "He's closing the door."
+        },
+        {
+          "de": "Wir räumen die Küche auf.",
+          "en": "We're tidying up the kitchen."
+        },
+        {
+          "de": "Sie zieht abends die Jacke aus.",
+          "en": "She takes off her jacket in the evening."
+        }
+      ]
+    },
+    {
+      "number": 49,
+      "title": "Combining Possessives and Separable Verbs",
+      "titleNative": "Possessivartikel und trennbare Verben kombinieren",
+      "items": [
+        {
+          "de": "Meine Schwester ruft ihren Freund jeden Abend an.",
+          "en": "My sister calls her boyfriend every evening."
+        },
+        {
+          "de": "Unser Vater steht immer als Erster auf.",
+          "en": "Our father always gets up first."
+        },
+        {
+          "de": "Ich räume mein Zimmer jeden Samstag auf.",
+          "en": "I tidy my room every Saturday."
+        },
+        {
+          "de": "Sein Sohn kommt oft mit zum Fußball.",
+          "en": "His son often comes along to soccer."
+        }
+      ]
+    },
+    {
+      "number": 50,
+      "title": "Review: Possessives and Separable Verbs",
+      "titleNative": "Repaso: Possessivartikel und trennbare Verben",
+      "items": [
+        {
+          "de": "Ich stehe früh auf und rufe dann meine Mutter an.",
+          "en": "I get up early and then call my mother."
+        },
+        {
+          "de": "Meine Schwester hat gestern für unsere Party eingekauft.",
+          "en": "My sister went shopping for our party yesterday."
+        },
+        {
+          "de": "Sein Zug ist spät angekommen, also hat er seine Freundin angerufen.",
+          "en": "His train arrived late, so he called his girlfriend."
+        },
+        {
+          "de": "Wir räumen unsere Wohnung auf, bevor unsere Gäste ankommen.",
+          "en": "We're tidying up our apartment before our guests arrive."
+        }
+      ]
+    },
+    {
+      "number": 51,
+      "title": "Morning Routine",
+      "titleNative": "Morgenroutine",
+      "items": [
+        {
+          "de": "Ich wasche mich jeden Morgen.",
+          "en": "I wash myself every morning."
+        },
+        {
+          "de": "Sie zieht sich schnell an.",
+          "en": "She gets dressed quickly."
+        },
+        {
+          "de": "Wir duschen uns vor dem Frühstück.",
+          "en": "We shower before breakfast."
+        },
+        {
+          "de": "Er kämmt sich die Haare.",
+          "en": "He combs his hair."
+        }
+      ],
+      "topicId": "a2-reflexive"
+    },
+    {
+      "number": 52,
+      "title": "Feelings with Reflexive Verbs",
+      "titleNative": "Gefühle mit reflexiven Verben",
+      "items": [
+        {
+          "de": "Ich freue mich auf den Urlaub.",
+          "en": "I'm looking forward to the vacation."
+        },
+        {
+          "de": "Sie ärgert sich über den Verkehr.",
+          "en": "She's annoyed about the traffic."
+        },
+        {
+          "de": "Wir fühlen uns heute sehr gut.",
+          "en": "We feel very good today."
+        },
+        {
+          "de": "Er interessiert sich für Musik.",
+          "en": "He is interested in music."
+        }
+      ]
+    },
+    {
+      "number": 53,
+      "title": "Rest and Relaxation",
+      "titleNative": "Ruhe und Entspannung",
+      "items": [
+        {
+          "de": "Ich entspanne mich am Wochenende.",
+          "en": "I relax on the weekend."
+        },
+        {
+          "de": "Sie erholt sich von der langen Reise.",
+          "en": "She's recovering from the long trip."
+        },
+        {
+          "de": "Wir setzen uns auf die Couch.",
+          "en": "We're sitting down on the couch."
+        },
+        {
+          "de": "Er legt sich früh ins Bett.",
+          "en": "He goes to bed early."
+        }
+      ]
+    },
+    {
+      "number": 54,
+      "title": "Meeting and Remembering",
+      "titleNative": "Sich treffen und sich erinnern",
+      "items": [
+        {
+          "de": "Wir treffen uns oft im Café.",
+          "en": "We often meet at the café."
+        },
+        {
+          "de": "Ich erinnere mich gut an diese Reise.",
+          "en": "I remember that trip well."
+        },
+        {
+          "de": "Sie sehen sich jede Woche.",
+          "en": "They see each other every week."
+        },
+        {
+          "de": "Erinnerst du dich an seinen Namen?",
+          "en": "Do you remember his name?"
+        }
+      ]
+    },
+    {
+      "number": 55,
+      "title": "Getting Ready",
+      "titleNative": "Sich vorbereiten",
+      "items": [
+        {
+          "de": "Ich bereite mich auf die Prüfung vor.",
+          "en": "I'm preparing for the exam."
+        },
+        {
+          "de": "Sie bereitet sich immer im Voraus vor.",
+          "en": "She always prepares in advance."
+        },
+        {
+          "de": "Wir organisieren uns gut in der Woche.",
+          "en": "We organize ourselves well during the week."
+        },
+        {
+          "de": "Sie beeilen sich, um den Zug nicht zu verpassen.",
+          "en": "They're hurrying so they don't miss the train."
+        }
+      ]
+    },
+    {
+      "number": 56,
+      "title": "Negative Reflexive Sentences",
+      "titleNative": "Verneinte reflexive Sätze",
+      "items": [
+        {
+          "de": "Ich stehe samstags nicht früh auf.",
+          "en": "I don't get up early on Saturdays."
+        },
+        {
+          "de": "Sie schminkt sich nie fürs Büro.",
+          "en": "She never wears makeup for the office."
+        },
+        {
+          "de": "Wir streiten uns fast nie.",
+          "en": "We almost never argue."
+        },
+        {
+          "de": "Er erinnert sich nicht an dieses Gespräch.",
+          "en": "He doesn't remember that conversation."
+        }
+      ]
+    },
+    {
+      "number": 57,
+      "title": "Reflexive Verbs with Modal Verbs",
+      "titleNative": "Reflexive Verben mit Modalverben",
+      "items": [
+        {
+          "de": "Ich möchte mich heute Abend ausruhen.",
+          "en": "I want to rest tonight."
+        },
+        {
+          "de": "Sie will sich nach der Arbeit entspannen.",
+          "en": "She wants to relax after work."
+        },
+        {
+          "de": "Wir müssen uns beeilen.",
+          "en": "We have to hurry."
+        },
+        {
+          "de": "Sie wollen sich nächstes Jahr verloben.",
+          "en": "They want to get engaged next year."
+        }
+      ]
+    },
+    {
+      "number": 58,
+      "title": "Reciprocal Actions",
+      "titleNative": "Wechselseitige Handlungen",
+      "items": [
+        {
+          "de": "Wir lieben uns schon lange.",
+          "en": "We've loved each other for a long time."
+        },
+        {
+          "de": "Sie verstehen sich sehr gut.",
+          "en": "They understand each other very well."
+        },
+        {
+          "de": "Sprecht ihr euch oft am Telefon?",
+          "en": "Do you talk to each other often on the phone?"
+        },
+        {
+          "de": "Sie kennen sich seit der Universität.",
+          "en": "They've known each other since university."
+        }
+      ]
+    },
+    {
+      "number": 59,
+      "title": "Dativ Reflexive Pronouns",
+      "titleNative": "Reflexivpronomen im Dativ",
+      "items": [
+        {
+          "de": "Ich wasche mir die Hände.",
+          "en": "I'm washing my hands."
+        },
+        {
+          "de": "Sie putzt sich die Zähne.",
+          "en": "She's brushing her teeth."
+        },
+        {
+          "de": "Wir kaufen uns ein neues Auto.",
+          "en": "We're buying ourselves a new car."
+        },
+        {
+          "de": "Er zieht sich die Schuhe an.",
+          "en": "He's putting on his shoes."
+        }
+      ]
+    },
+    {
+      "number": 60,
+      "title": "Review: Reflexive Verbs",
+      "titleNative": "Repaso: Reflexive Verben",
+      "items": [
+        {
+          "de": "Ich wache auf, ich wasche mich, dann bereite ich mir einen Kaffee.",
+          "en": "I wake up, I wash myself, then I make myself a coffee."
+        },
+        {
+          "de": "Wir entspannen uns am Wochenende nach einer anstrengenden Woche.",
+          "en": "We rest on weekends after a busy week."
+        },
+        {
+          "de": "Sie sehen sich sehr oft, weil sie Nachbarn sind.",
+          "en": "They see each other very often because they're neighbors."
+        },
+        {
+          "de": "Du erinnerst dich immer an alles, das ist beeindruckend.",
+          "en": "You always remember everything, it's impressive."
+        }
+      ]
+    },
+    {
+      "number": 61,
+      "title": "Comparing People",
+      "titleNative": "Personen vergleichen",
+      "items": [
+        {
+          "de": "Mein Bruder ist größer als ich.",
+          "en": "My brother is taller than me."
+        },
+        {
+          "de": "Sie ist genauso klug wie ihre Schwester.",
+          "en": "She is just as smart as her sister."
+        },
+        {
+          "de": "Ich bin geduldiger als mein Vater.",
+          "en": "I am more patient than my father."
+        },
+        {
+          "de": "Wir sind älter als unsere Cousins.",
+          "en": "We are older than our cousins."
+        }
+      ],
+      "topicId": "a2-comparatives"
+    },
+    {
+      "number": 62,
+      "title": "Comparing Things",
+      "titleNative": "Dinge vergleichen",
+      "items": [
+        {
+          "de": "Dieses Auto ist schneller als das alte.",
+          "en": "This car is faster than the old one."
+        },
+        {
+          "de": "Dieses Handy ist billiger als das andere Modell.",
+          "en": "This phone is cheaper than the other model."
+        },
+        {
+          "de": "Mein Haus ist genauso groß wie deins.",
+          "en": "My house is as big as yours."
+        },
+        {
+          "de": "Diese Gegend ist ruhiger als das Zentrum.",
+          "en": "This neighborhood is quieter than downtown."
+        }
+      ]
+    },
+    {
+      "number": 63,
+      "title": "Irregular Comparatives",
+      "titleNative": "Unregelmäßige Komparative",
+      "items": [
+        {
+          "de": "Dieses Restaurant ist besser als das vorherige.",
+          "en": "This restaurant is better than the previous one."
+        },
+        {
+          "de": "Die Lage ist schlechter, als ich dachte.",
+          "en": "The situation is worse than I thought."
+        },
+        {
+          "de": "Ihr zweites Buch ist besser als das erste.",
+          "en": "Her second book is better than the first."
+        },
+        {
+          "de": "Das Wetter ist heute schlechter als gestern.",
+          "en": "The weather is worse today than yesterday."
+        }
+      ]
+    },
+    {
+      "number": 64,
+      "title": "Superlatives",
+      "titleNative": "Superlative",
+      "items": [
+        {
+          "de": "Das ist das größte Gebäude der Stadt.",
+          "en": "It's the tallest building in the city."
+        },
+        {
+          "de": "Sie ist die beste Schülerin der Klasse.",
+          "en": "She is the best student in the class."
+        },
+        {
+          "de": "Das ist das billigste Restaurant im Viertel.",
+          "en": "It's the cheapest restaurant in the neighborhood."
+        },
+        {
+          "de": "Das ist der schönste Strand, den ich je gesehen habe.",
+          "en": "It's the most beautiful beach I've ever seen."
+        }
+      ]
+    },
+    {
+      "number": 65,
+      "title": "Comparing Habits and Activities",
+      "titleNative": "Gewohnheiten und Aktivitäten vergleichen",
+      "items": [
+        {
+          "de": "Ich laufe öfter als mein Freund.",
+          "en": "I run more often than my friend."
+        },
+        {
+          "de": "Sie arbeitet diese Woche weniger als ich.",
+          "en": "She works less than me this week."
+        },
+        {
+          "de": "Wir reisen so viel wie möglich.",
+          "en": "We travel as much as possible."
+        },
+        {
+          "de": "Er isst schneller als alle anderen.",
+          "en": "He eats faster than everyone else."
+        }
+      ]
+    },
+    {
+      "number": 66,
+      "title": "Comparing Cities and Places",
+      "titleNative": "Städte und Orte vergleichen",
+      "items": [
+        {
+          "de": "Berlin ist größer als München.",
+          "en": "Berlin is bigger than Munich."
+        },
+        {
+          "de": "Diese Stadt ist weniger touristisch als die andere.",
+          "en": "This city is less touristy than the other one."
+        },
+        {
+          "de": "Die Berge sind genauso schön wie das Meer.",
+          "en": "The mountains are as beautiful as the sea."
+        },
+        {
+          "de": "Dieses Dorf ist das ruhigste in der Region.",
+          "en": "This village is the quietest in the region."
+        }
+      ]
+    },
+    {
+      "number": 67,
+      "title": "Comparing Prices and Quality",
+      "titleNative": "Preise und Qualität vergleichen",
+      "items": [
+        {
+          "de": "Dieses Produkt ist teurer, aber von besserer Qualität.",
+          "en": "This product is more expensive, but of better quality."
+        },
+        {
+          "de": "Diese Option ist billiger und genauso gut.",
+          "en": "This option is cheaper and just as good."
+        },
+        {
+          "de": "Der Preis ist höher als erwartet.",
+          "en": "The price is higher than expected."
+        },
+        {
+          "de": "Das ist das Günstigste, was ich gefunden habe.",
+          "en": "It's the cheapest I've found."
+        }
+      ]
+    },
+    {
+      "number": 68,
+      "title": "Everyday Comparisons",
+      "titleNative": "Alltägliche Vergleiche",
+      "items": [
+        {
+          "de": "Heute ist es wärmer als gestern.",
+          "en": "Today, it's warmer than yesterday."
+        },
+        {
+          "de": "Dieser Kaffee ist besser als der von nebenan.",
+          "en": "This coffee is better than the one next door."
+        },
+        {
+          "de": "Dieses Rezept ist einfacher, als ich dachte.",
+          "en": "This recipe is easier than I thought."
+        },
+        {
+          "de": "Mein neuer Job ist genauso stressig wie der alte.",
+          "en": "My new job is just as stressful as the old one."
+        }
+      ]
+    },
+    {
+      "number": 69,
+      "title": "Comparing Opinions",
+      "titleNative": "Meinungen vergleichen",
+      "items": [
+        {
+          "de": "Meiner Meinung nach ist der Film besser als das Buch.",
+          "en": "In my opinion, this movie is better than the book."
+        },
+        {
+          "de": "Ich finde, diese Lösung ist einfacher.",
+          "en": "I think this solution is simpler."
+        },
+        {
+          "de": "Ihrer Meinung nach ist dieser Plan der sicherste.",
+          "en": "According to her, this plan is the least risky."
+        },
+        {
+          "de": "Wir finden diese Methode effektiver.",
+          "en": "We find this method more effective."
+        }
+      ]
+    },
+    {
+      "number": 70,
+      "title": "Review: Comparatives and Superlatives",
+      "titleNative": "Repaso: Komparativ und Superlativ",
+      "items": [
+        {
+          "de": "Du sprichst viel besser Deutsch als vorher.",
+          "en": "You speak German much better than before."
+        },
+        {
+          "de": "Ich bin sehr stolz auf alles, was du gelernt hast.",
+          "en": "I am very proud of everything you've learned."
+        },
+        {
+          "de": "Dieses Level war schwieriger, aber du hast es geschafft.",
+          "en": "This level was harder, but you succeeded."
+        },
+        {
+          "de": "Ich bin sicher, dass du bereit für das nächste Level bist.",
+          "en": "I am sure you are ready for the next level."
+        }
+      ]
+    },
+    {
+      "number": 71,
+      "title": "Kitchen Instructions",
+      "titleNative": "Anweisungen in der Küche",
+      "items": [
+        {
+          "de": "Schneide das Gemüse in kleine Stücke.",
+          "en": "Cut the vegetables into small pieces."
+        },
+        {
+          "de": "Gib Salz und Pfeffer nach Geschmack dazu.",
+          "en": "Add salt and pepper to taste."
+        },
+        {
+          "de": "Gieß nicht zu viel Wasser in den Topf.",
+          "en": "Don't pour too much water in the pot."
+        },
+        {
+          "de": "Misch alle Zutaten vorsichtig zusammen.",
+          "en": "Mix all the ingredients carefully."
+        }
+      ],
+      "topicId": "a2-imperative"
+    },
+    {
+      "number": 72,
+      "title": "Directions and Advice",
+      "titleNative": "Wegbeschreibung und Ratschläge",
+      "items": [
+        {
+          "de": "Geh zwei Straßen weiter und dann rechts.",
+          "en": "Walk two streets further and then right."
+        },
+        {
+          "de": "Mach dir nicht so viele Sorgen darüber.",
+          "en": "Don't worry so much about that."
+        },
+        {
+          "de": "Hab Geduld, alles wird gut werden.",
+          "en": "Have patience, everything will turn out fine."
+        },
+        {
+          "de": "Hör gut zu, was ich dir sagen werde.",
+          "en": "Listen carefully to what I'm going to tell you."
+        }
+      ]
+    },
+    {
+      "number": 73,
+      "title": "Classroom Instructions",
+      "titleNative": "Anweisungen im Klassenzimmer",
+      "items": [
+        {
+          "de": "Öffnet eure Bücher auf Seite zwanzig.",
+          "en": "Open your books to page twenty."
+        },
+        {
+          "de": "Schreibt eure Namen oben auf das Blatt.",
+          "en": "Write your names at the top of the page."
+        },
+        {
+          "de": "Sprecht bitte nicht alle gleichzeitig.",
+          "en": "Please don't all talk at the same time."
+        },
+        {
+          "de": "Hebt die Hand, wenn ihr eine Frage habt.",
+          "en": "Raise your hand if you have a question."
+        }
+      ]
+    },
+    {
+      "number": 74,
+      "title": "Formal Requests",
+      "titleNative": "Formelle Bitten",
+      "items": [
+        {
+          "de": "Senden Sie mir bitte das Dokument bis Freitag.",
+          "en": "Please send me the document before Friday."
+        },
+        {
+          "de": "Unterschreiben Sie hier und geben Sie das heutige Datum an.",
+          "en": "Sign here and put today's date."
+        },
+        {
+          "de": "Vergessen Sie nicht, Ihren Ausweis mitzubringen.",
+          "en": "Don't forget to bring your ID."
+        },
+        {
+          "de": "Warten Sie einen Moment, während ich Ihre Daten überprüfe.",
+          "en": "Wait a moment while I check your information."
+        }
+      ]
+    },
+    {
+      "number": 75,
+      "title": "Health Advice",
+      "titleNative": "Gesundheitstipps",
+      "items": [
+        {
+          "de": "Trink genug Wasser während des Tages.",
+          "en": "Drink enough water during the day."
+        },
+        {
+          "de": "Schlaf mindestens acht Stunden pro Nacht.",
+          "en": "Sleep at least eight hours every night."
+        },
+        {
+          "de": "Rauch nicht, das ist sehr schlecht für deine Gesundheit.",
+          "en": "Don't smoke, it's very bad for your health."
+        },
+        {
+          "de": "Treib regelmäßig Sport, um dich besser zu fühlen.",
+          "en": "Exercise regularly to feel better."
+        }
+      ]
+    },
+    {
+      "number": 76,
+      "title": "Household Chores",
+      "titleNative": "Hausarbeit",
+      "items": [
+        {
+          "de": "Wasch das Geschirr nach dem Abendessen.",
+          "en": "Wash the dishes after dinner."
+        },
+        {
+          "de": "Bring den Müll raus, bevor der Wagen kommt.",
+          "en": "Take out the trash before the truck arrives."
+        },
+        {
+          "de": "Lass deine Kleidung nicht auf dem Boden liegen.",
+          "en": "Don't leave your clothes on the floor."
+        },
+        {
+          "de": "Räum dein Zimmer auf, bevor du spielen gehst.",
+          "en": "Tidy your room before going out to play."
+        }
+      ]
+    },
+    {
+      "number": 77,
+      "title": "Safety Instructions",
+      "titleNative": "Sicherheitshinweise",
+      "items": [
+        {
+          "de": "Schließ die Tür ab, bevor du schläfst.",
+          "en": "Lock the door before sleeping."
+        },
+        {
+          "de": "Überquer die Straße nicht, ohne nach beiden Seiten zu schauen.",
+          "en": "Don't cross the street without looking both ways."
+        },
+        {
+          "de": "Leg immer deinen Sicherheitsgurt an.",
+          "en": "Always put on your seatbelt."
+        },
+        {
+          "de": "Halt einen sicheren Abstand zum Auto vor dir.",
+          "en": "Keep a safe distance from the car in front."
+        }
+      ]
+    },
+    {
+      "number": 78,
+      "title": "Encouraging Someone",
+      "titleNative": "Jemanden ermutigen",
+      "items": [
+        {
+          "de": "Gib nicht auf, du bist ganz nah dran.",
+          "en": "Don't give up, you're very close to achieving it."
+        },
+        {
+          "de": "Vertrau dir selbst, du schaffst das.",
+          "en": "Trust yourself, you can do it."
+        },
+        {
+          "de": "Versuch es weiter, jeder Fehler lehrt dich etwas.",
+          "en": "Keep trying, every mistake teaches you something."
+        },
+        {
+          "de": "Sei mutig und mach den ersten Schritt.",
+          "en": "Be brave and take the first step."
+        }
+      ]
+    },
+    {
+      "number": 79,
+      "title": "Giving Someone a Recipe",
+      "titleNative": "Jemandem ein Rezept geben",
+      "items": [
+        {
+          "de": "Erhitz zuerst das Öl in einer großen Pfanne.",
+          "en": "First, heat the oil in a large pan."
+        },
+        {
+          "de": "Füg die Zwiebel hinzu und koch sie, bis sie goldbraun ist.",
+          "en": "Add the onion and cook until it's golden."
+        },
+        {
+          "de": "Lass es nicht zu lange kochen.",
+          "en": "Don't let it cook too long."
+        },
+        {
+          "de": "Serviere das Gericht heiß mit etwas Zitrone.",
+          "en": "Serve the dish hot with a bit of lemon."
+        }
+      ]
+    },
+    {
+      "number": 80,
+      "title": "Review: Giving Instructions",
+      "titleNative": "Repaso: Anweisungen geben",
+      "items": [
+        {
+          "de": "Folg diesen Schritten und alles wird perfekt klappen.",
+          "en": "Follow these steps and everything will turn out perfect."
+        },
+        {
+          "de": "Vergiss nicht, alles zu überprüfen, bevor du die Arbeit abgibst.",
+          "en": "Don't forget to check everything before turning in the work."
+        },
+        {
+          "de": "Sei vorsichtig und sag mir Bescheid, wenn du Hilfe brauchst.",
+          "en": "Be careful and let me know if you need help."
+        },
+        {
+          "de": "Gib dein Bestes, das ist das Einzige, was zählt.",
+          "en": "Do your best, that's the only thing that matters."
+        }
+      ]
+    },
+    {
+      "number": 81,
+      "title": "Public Transportation",
+      "titleNative": "Öffentliche Verkehrsmittel",
+      "items": [
+        {
+          "de": "Ich fahre lieber mit der U-Bahn, weil es schneller ist.",
+          "en": "I prefer to take the subway because it's faster."
+        },
+        {
+          "de": "Die Haltestelle ist zehn Minuten von meinem Haus entfernt.",
+          "en": "The station is a ten-minute walk from my house."
+        },
+        {
+          "de": "Zur Hauptverkehrszeit sind die Züge komplett voll.",
+          "en": "During rush hour, the trains are completely full."
+        },
+        {
+          "de": "Ich habe ein Monatsticket gekauft, um Geld zu sparen.",
+          "en": "I bought a monthly pass to save money."
+        }
+      ]
+    },
+    {
+      "number": 82,
+      "title": "Traffic and Congestion",
+      "titleNative": "Verkehr und Staus",
+      "items": [
+        {
+          "de": "Der Verkehr in dieser Stadt wird jedes Jahr schlimmer.",
+          "en": "The traffic in this city gets worse every year."
+        },
+        {
+          "de": "Es gibt einen riesigen Stau auf der Hauptstraße.",
+          "en": "There's a huge traffic jam on the main street."
+        },
+        {
+          "de": "Viele Leute nehmen lieber das Fahrrad, um den Stau zu vermeiden.",
+          "en": "Many people prefer bicycles to avoid traffic."
+        },
+        {
+          "de": "Die Stadt plant mehr Busspuren zu bauen.",
+          "en": "The city plans to build more bus lanes."
+        }
+      ]
+    },
+    {
+      "number": 83,
+      "title": "Environmental Issues",
+      "titleNative": "Umweltprobleme",
+      "items": [
+        {
+          "de": "Die Luftverschmutzung beeinflusst die Gesundheit aller.",
+          "en": "Air pollution affects everyone's health."
+        },
+        {
+          "de": "Es ist wichtig, Plastik und Glas zu recyceln.",
+          "en": "It's important to recycle plastic and glass."
+        },
+        {
+          "de": "Der Klimawandel verändert das Klima des Planeten.",
+          "en": "Climate change is changing the planet's climate."
+        },
+        {
+          "de": "Wir sollten den Gebrauch von Plastiktüten reduzieren.",
+          "en": "We should reduce the use of plastic bags."
+        }
+      ]
+    },
+    {
+      "number": 84,
+      "title": "Water and Energy Conservation",
+      "titleNative": "Wasser- und Energiesparen",
+      "items": [
+        {
+          "de": "Wir drehen den Wasserhahn zu, während wir uns die Zähne putzen.",
+          "en": "We turn off the tap while we brush our teeth."
+        },
+        {
+          "de": "Mach das Licht aus, wenn du das Zimmer verlässt.",
+          "en": "Turn off the lights when you leave the room."
+        },
+        {
+          "de": "Die Regierung fördert die Nutzung erneuerbarer Energien.",
+          "en": "The government promotes the use of renewable energy."
+        },
+        {
+          "de": "Wir haben Solarzellen installiert, um Strom zu sparen.",
+          "en": "We installed solar panels to save electricity."
+        }
+      ]
+    },
+    {
+      "number": 85,
+      "title": "Wildlife and Nature",
+      "titleNative": "Tierwelt und Natur",
+      "items": [
+        {
+          "de": "Die Abholzung gefährdet viele Tierarten.",
+          "en": "Deforestation endangers many species."
+        },
+        {
+          "de": "Wir haben mehrere Wildtiere während der Wanderung gesehen.",
+          "en": "We saw several wild animals during the hike."
+        },
+        {
+          "de": "Der Wald ist die Heimat von tausenden Pflanzenarten.",
+          "en": "The forest is home to thousands of plant species."
+        },
+        {
+          "de": "Es ist wichtig, die Ozeane und ihre Bewohner zu schützen.",
+          "en": "It's essential to protect the oceans and their creatures."
+        }
+      ]
+    },
+    {
+      "number": 86,
+      "title": "Community Life",
+      "titleNative": "Gemeinschaftsleben",
+      "items": [
+        {
+          "de": "Die Nachbarn haben eine Reinigungsaktion im Park organisiert.",
+          "en": "The neighbors organized a park cleanup."
+        },
+        {
+          "de": "Wir haben an einer Spendenaktion für Bedürftige teilgenommen.",
+          "en": "We participated in a drive to help the needy."
+        },
+        {
+          "de": "Die Gemeinschaft hat sich zusammengetan, um die Schule wieder aufzubauen.",
+          "en": "The community came together to rebuild the school."
+        },
+        {
+          "de": "Es gibt jeden Samstag einen lokalen Markt auf dem Platz.",
+          "en": "There's a local market every Saturday in the square."
+        }
+      ]
+    },
+    {
+      "number": 87,
+      "title": "City Services",
+      "titleNative": "Städtische Dienstleistungen",
+      "items": [
+        {
+          "de": "Die öffentliche Bibliothek bietet kostenlose Sprachkurse an.",
+          "en": "The public library offers free language classes."
+        },
+        {
+          "de": "Das städtische Krankenhaus behandelt tausende Patienten im Monat.",
+          "en": "The municipal hospital treats thousands of patients a month."
+        },
+        {
+          "de": "Man muss den Führerschein alle fünf Jahre erneuern.",
+          "en": "You have to renew your driver's license every five years."
+        },
+        {
+          "de": "Die Stadt hat die Straßenbeleuchtung im Viertel verbessert.",
+          "en": "The city council improved the neighborhood's street lighting."
+        }
+      ]
+    },
+    {
+      "number": 88,
+      "title": "Living in a Big City vs. a Small Town",
+      "titleNative": "Leben in der Großstadt oder im kleinen Dorf",
+      "items": [
+        {
+          "de": "In der Stadt gibt es mehr Jobmöglichkeiten.",
+          "en": "In the city there are more job opportunities."
+        },
+        {
+          "de": "Im Dorf ist das Leben ruhiger und günstiger.",
+          "en": "In the town, life is quieter and less expensive."
+        },
+        {
+          "de": "Mir fehlt die Stille des Landes, wenn ich in der Stadt bin.",
+          "en": "I miss the silence of the countryside when I'm in the city."
+        },
+        {
+          "de": "Viele junge Leute ziehen zum Studieren in die Hauptstadt.",
+          "en": "Many young people move to the capital to study."
+        }
+      ]
+    },
+    {
+      "number": 89,
+      "title": "Shopping and Markets",
+      "titleNative": "Einkaufen und Märkte",
+      "items": [
+        {
+          "de": "Ich kaufe frisches Obst und Gemüse auf dem Markt.",
+          "en": "I buy fresh fruit and vegetables at the market."
+        },
+        {
+          "de": "Dieses Geschäft hat immer gute Angebote.",
+          "en": "This store always has good deals."
+        },
+        {
+          "de": "Ich bevorzuge kleine lokale Geschäfte gegenüber großen Supermärkten.",
+          "en": "I prefer small local shops over big supermarkets."
+        },
+        {
+          "de": "Am Wochenende gehen wir gern über den Flohmarkt.",
+          "en": "On weekends we like to walk through the flea market."
+        }
+      ]
+    },
+    {
+      "number": 90,
+      "title": "Review: City and Environment",
+      "titleNative": "Repaso: Stadt und Umwelt",
+      "items": [
+        {
+          "de": "Unsere Stadt hat sich in Umweltfragen sehr verbessert.",
+          "en": "Our city has improved a lot in environmental matters."
+        },
+        {
+          "de": "Wir sollten alle unseren Teil dazu beitragen, den Planeten zu schützen.",
+          "en": "We should all do our part to take care of the planet."
+        },
+        {
+          "de": "Öffentliche Verkehrsmittel helfen, die Umweltverschmutzung zu reduzieren.",
+          "en": "Public transportation helps reduce pollution."
+        },
+        {
+          "de": "Ich hoffe, die nächste Generation erbt eine bessere Welt.",
+          "en": "I hope the next generation inherits a better world."
+        }
+      ]
+    },
+    {
+      "number": 91,
+      "title": "Combining Tenses: A Busy Week",
+      "titleNative": "Zeiten kombinieren: Eine beschäftigte Woche",
+      "items": [
+        {
+          "de": "Ich hatte eine sehr beschäftigte Woche, aber ich habe alles geschafft.",
+          "en": "I've had a very busy week, but I've managed to finish everything."
+        },
+        {
+          "de": "Gestern hatte ich versprochen, meine Mutter anzurufen, und ich habe es endlich gemacht.",
+          "en": "Yesterday I had promised to call my mother, and I finally did it."
+        },
+        {
+          "de": "Ich hoffe, dass die nächste Woche etwas ruhiger wird.",
+          "en": "I hope next week is a bit calmer."
+        },
+        {
+          "de": "Ich brauche deine Hilfe, um meinen Terminkalender zu organisieren.",
+          "en": "I need you to help me organize my schedule."
+        }
+      ]
+    },
+    {
+      "number": 92,
+      "title": "Making Plans and Requests",
+      "titleNative": "Pläne machen und bitten",
+      "items": [
+        {
+          "de": "Ich möchte, dass ihr alle zum Abendessen am Samstag kommt.",
+          "en": "I want everyone to come to Saturday's dinner."
+        },
+        {
+          "de": "Das Restaurant, in dem wir feiern, ist ausgezeichnet.",
+          "en": "The restaurant where we're going to celebrate is excellent."
+        },
+        {
+          "de": "Ich habe das für dich zu deinem Geburtstag gekauft.",
+          "en": "I bought this for you for your birthday."
+        },
+        {
+          "de": "Es ist wichtig, dass du deine Teilnahme vor Freitag bestätigst.",
+          "en": "It's important that you confirm your attendance before Friday."
+        }
+      ]
+    },
+    {
+      "number": 93,
+      "title": "Talking About Change",
+      "titleNative": "Über Veränderung sprechen",
+      "items": [
+        {
+          "de": "Die Stadt hat sich sehr verändert, seit ich ein Kind war.",
+          "en": "The city has changed a lot since I was a child."
+        },
+        {
+          "de": "Als ich zurückkam, hatten sie schon die neue Brücke gebaut.",
+          "en": "When I returned, they had already built the new bridge."
+        },
+        {
+          "de": "Ich hoffe, dass diese Veränderungen der ganzen Gemeinschaft nützen.",
+          "en": "I hope these changes benefit the whole community."
+        },
+        {
+          "de": "Wir müssen uns weiterhin an die neue Realität anpassen.",
+          "en": "It's necessary that we keep adapting to the new reality."
+        }
+      ]
+    },
+    {
+      "number": 94,
+      "title": "Expressing Opinions Clearly",
+      "titleNative": "Meinungen klar äußern",
+      "items": [
+        {
+          "de": "Ich glaube nicht, dass das die beste Lösung für das Problem ist.",
+          "en": "I don't think it's the best solution to the problem."
+        },
+        {
+          "de": "Für mich ist Ehrlichkeit das Wichtigste.",
+          "en": "For me, the most important thing is honesty."
+        },
+        {
+          "de": "Die Person, mit der ich gesprochen habe, hatte in allem recht.",
+          "en": "The person I spoke with was right about everything."
+        },
+        {
+          "de": "Es ist wahrscheinlich, dass wir mit mehr Informationen unsere Meinung ändern.",
+          "en": "It's likely we'll change our minds with more information."
+        }
+      ]
+    },
+    {
+      "number": 95,
+      "title": "Describing a Memorable Trip",
+      "titleNative": "Eine unvergessliche Reise beschreiben",
+      "items": [
+        {
+          "de": "Wir hatten diese Reise fast ein ganzes Jahr lang geplant.",
+          "en": "We had planned that trip for almost a year."
+        },
+        {
+          "de": "Der Ort, an dem wir übernachtet haben, hatte eine unglaubliche Aussicht.",
+          "en": "The place where we stayed had an incredible view."
+        },
+        {
+          "de": "Ich bin in viele Länder gereist, aber diese Reise war besonders.",
+          "en": "I've traveled to many countries, but that one was special."
+        },
+        {
+          "de": "Ich hoffe, du kannst diesen Ort eines Tages besuchen.",
+          "en": "I hope you can visit that place someday."
+        }
+      ]
+    },
+    {
+      "number": 96,
+      "title": "Giving Formal Advice",
+      "titleNative": "Formelle Ratschläge geben",
+      "items": [
+        {
+          "de": "Ich empfehle Ihnen, direkt mit dem Direktor zu sprechen.",
+          "en": "I recommend that you speak directly with the director."
+        },
+        {
+          "de": "Es ist wichtig, dass Sie den Vertrag vor der Unterschrift prüfen.",
+          "en": "It's essential that you review the contract before signing."
+        },
+        {
+          "de": "Bitte senden Sie mir die Informationen per E-Mail.",
+          "en": "Please send me the information by email."
+        },
+        {
+          "de": "Wir brauchen, dass alle pünktlich zur Besprechung kommen.",
+          "en": "We need everyone to arrive on time for the meeting."
+        }
+      ]
+    },
+    {
+      "number": 97,
+      "title": "Reflecting on Personal Growth",
+      "titleNative": "Über persönliches Wachstum nachdenken",
+      "items": [
+        {
+          "de": "Ich habe viel aus meinen eigenen Fehlern gelernt.",
+          "en": "I've learned a lot from my own mistakes."
+        },
+        {
+          "de": "Bevor ich umgezogen bin, hatte ich noch nie allein gelebt.",
+          "en": "Before moving, I had never lived alone."
+        },
+        {
+          "de": "Ich freue mich, dass du etwas gefunden hast, das dich begeistert.",
+          "en": "I'm glad you've found something you're passionate about."
+        },
+        {
+          "de": "Es ist unglaublich, was wir dieses Jahr zusammen erreicht haben.",
+          "en": "It's incredible everything we've achieved together this year."
+        }
+      ]
+    },
+    {
+      "number": 98,
+      "title": "Talking About the Future with Confidence",
+      "titleNative": "Selbstbewusst über die Zukunft sprechen",
+      "items": [
+        {
+          "de": "Ich hoffe, dass das nächste Jahr viele neue Möglichkeiten bringt.",
+          "en": "I hope next year brings many new opportunities."
+        },
+        {
+          "de": "Für die Zukunft möchte ich, dass meine Kinder mehrere Sprachen lernen.",
+          "en": "For the future, I want my children to learn several languages."
+        },
+        {
+          "de": "Es ist wahrscheinlich, dass wir bald in eine andere Stadt ziehen.",
+          "en": "It's likely we'll move to another city soon."
+        },
+        {
+          "de": "Ich vertraue darauf, dass am Ende alles gut wird.",
+          "en": "I trust that everything will turn out well in the end."
+        }
+      ]
+    },
+    {
+      "number": 99,
+      "title": "A Conversation Between Friends",
+      "titleNative": "Ein Gespräch zwischen Freunden",
+      "items": [
+        {
+          "de": "Hast du in letzter Zeit mit Marie gesprochen? Sie fehlt mir sehr.",
+          "en": "Have you talked to Marie lately? I miss her a lot."
+        },
+        {
+          "de": "Ja, sie hat mir erzählt, dass sie wegen der Arbeit in eine andere Stadt gezogen ist.",
+          "en": "Yes, she told me she has moved to another city for work."
+        },
+        {
+          "de": "Ich hoffe, wir können sie bald besuchen, auch wenn es nur für ein paar Tage ist.",
+          "en": "I hope we can visit her soon, even if just for a few days."
+        },
+        {
+          "de": "Klar, sie ist die Freundin, mit der ich im Leben am meisten geteilt habe.",
+          "en": "Of course, she's the friend I've shared the most with in life."
+        }
+      ]
+    },
+    {
+      "number": 100,
+      "title": "Review: A2 Capstone",
+      "titleNative": "Repaso: Abschluss A2",
+      "items": [
+        {
+          "de": "Wir haben viel in diesem Level behandelt, und du hast enorme Fortschritte gemacht.",
+          "en": "We've covered a lot at this level, and you've progressed enormously."
+        },
+        {
+          "de": "Ich hoffe, du übst weiter alles, was du gelernt hast.",
+          "en": "I hope you keep practicing everything you've learned."
+        },
+        {
+          "de": "Die Person, die diesen Kurs begonnen hat, ist nicht dieselbe wie die, die ihn heute beendet.",
+          "en": "The person who started this course isn't the same one finishing it today."
+        },
+        {
+          "de": "Ich bin sicher, dass du bereit für das nächste Level bist.",
+          "en": "I'm sure you're ready for the next level."
+        }
+      ]
+    }
+  ]
+}

@@ -36,6 +36,7 @@
     { id: "urdu", file: "data/courses-urdu.json", audioManifest: "data/audio-urdu/manifest.json", label: "Urdu — اردو", native: "اردو", en: "Urdu", flag: "اردو", group: "underserved", accent: "gold" },
     { id: "spanish", file: "data/courses-spanish.json", audioManifest: "data/audio-spanish/manifest.json", label: "Spanish — Español", native: "Español", en: "Spanish", flag: "Español", group: "world", accent: "gold" },
     { id: "french", file: "data/courses-french.json", audioManifest: "data/audio-french/manifest.json", label: "French — Français", native: "Français", en: "French", flag: "Français", group: "world", accent: "indigo" },
+    { id: "german", file: "data/courses-german.json", audioManifest: "data/audio-german/manifest.json", label: "German — Deutsch", native: "Deutsch", en: "German", flag: "Deutsch", group: "world", accent: "rust" },
   ];
 
   // A small shared icon set (currentColor throughout, so each one just
