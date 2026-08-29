@@ -1,0 +1,876 @@
+{
+  "level": "a1",
+  "grammarTopics": {
+    "a1-greetings": {
+      "title": "Greetings: Hala and Marhaba",
+      "pattern": "هلا / مرحبا / السلام عليكم",
+      "explanation": "Emirati Arabic has several everyday greetings. \"هلا\" (hala) and \"مرحبا\" (marhaba) are casual hellos used constantly in daily life. \"السلام عليكم\" (as-salaamu alaykum, \"peace be upon you\") is the more formal/traditional Islamic greeting, answered with \"وعليكم السلام\" (wa alaykum as-salaam). \"شلونك؟\" (shlonak?) asks \"how are you?\" and is typically answered \"زين، الحمد لله\" (zayn, alhamdulillah — \"good, thank God\").",
+      "fact": "Emirati greetings often stack: a full exchange might go \"السلام عليكم\" → \"وعليكم السلام\" → \"شلونك؟\" → \"زين، الحمد لله. وانت؟\" — layering several greeting formulas together is completely normal and expected, not redundant.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "السلام عليكم! شلونك اليوم؟",
+          "en": "Peace be upon you! How are you today?"
+        },
+        {
+          "sp": "B",
+          "native": "وعليكم السلام. زين، الحمد لله. وانت؟",
+          "en": "And peace be upon you. Good, thank God. And you?"
+        }
+      ]
+    },
+    "a1-present-shirib": {
+      "title": "Present Tense: I Drink, You Drink...",
+      "pattern": "أ- / تِ- / تِ-...ين / يِ- / تِ- / نِ- / تِ-...ون / يِ-...ون",
+      "explanation": "Emirati present-tense verbs take a prefix (and sometimes a suffix) that shows who's doing the action: أشرب (ashrab, \"I drink\"), تشرب (tishrab, \"you-m drink\"), تشربي (tishrabi, \"you-f drink\"), يشرب (yishrab, \"he drinks\"), تشرب (tishrab, \"she drinks\", same as you-m), نشرب (nishrab, \"we drink\"), تشربون (tishrabuun, \"you-all drink\"), يشربون (yishrabuun, \"they drink\").",
+      "fact": "Notice \"you-m drink\" (تشرب tishrab) and \"she drinks\" (تشرب tishrab) look identical in writing and sound — context (who's being talked about) is what tells them apart, exactly the way English \"read\" sounds the same in present tense regardless of subject.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "شنو تشرب الحين؟",
+          "en": "What are you drinking now?"
+        },
+        {
+          "sp": "B",
+          "native": "أشرب قهوة الحين وبعدين شاي",
+          "en": "I'm drinking coffee now and tea later"
+        }
+      ]
+    },
+    "a1-negation": {
+      "title": "Negation: Ma and Mub",
+      "pattern": "ما + فعل (verb) / مب + اسم (noun/adjective)",
+      "explanation": "To say a verb didn't/doesn't happen, put ما (ma) right before it: ما أبغى (ma abgha, \"I don't want\"). To negate a nominal sentence (no verb, just \"X is Y\"), Emirati uses مب (mub) instead: أنا مب تعبان (ana mub ta3baan, \"I'm not tired\").",
+      "fact": "Getting ما and مب mixed up is one of the most common learner mistakes — remember the split by what follows: ما goes with an action (a verb), مب goes with a description (an adjective or noun after a pronoun).",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "أنت تعبان اليوم؟",
+          "en": "Are you tired today?"
+        },
+        {
+          "sp": "B",
+          "native": "لا، أنا مب تعبان، أنا مبسوط",
+          "en": "No, I'm not tired, I'm happy"
+        }
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Hello and Peace",
+      "titleNative": "السلام والتحية",
+      "items": [
+        {
+          "ar": "السلام عليكم وعليكم السلام، شلونك اليوم",
+          "en": "Peace be upon you, and peace be upon you, how are you today",
+          "translit": "as-salaamu alaykum, wa alaykum as-salaam, shlonak el-yoom"
+        },
+        {
+          "ar": "هلا والله ومرحبا، تشرفت فيك اليوم",
+          "en": "Welcome, and hi, nice to meet you today",
+          "translit": "hala wallah wa marhaba, tasharraft feek el-yoom"
+        },
+        {
+          "ar": "السلام عليكم، أنا زين والحمد لله",
+          "en": "Peace be upon you, I'm good and thank God",
+          "translit": "as-salaamu alaykum, ana zayn wal-hamdulillah"
+        },
+        {
+          "ar": "هلا والله، تشرفت فيك، شكراً كثير",
+          "en": "Welcome, nice to meet you, thank you very much",
+          "translit": "hala wallah, tasharraft feek, shukran katheer"
+        }
+      ],
+      "topicId": "a1-greetings"
+    },
+    {
+      "number": 2,
+      "title": "How Are You?",
+      "titleNative": "شلونك؟",
+      "items": [
+        {
+          "ar": "شلونك اليوم؟ زين الحمد لله وتمام",
+          "en": "How are you today? Good, thank God, and fine",
+          "translit": "shlonak el-yoom? zayn alhamdulillah wa tamaam"
+        },
+        {
+          "ar": "زين الحمد لله وانت؟ زين وتمام",
+          "en": "Good, thank God, and you? Good and fine",
+          "translit": "zayn alhamdulillah wa inta? zayn wa tamaam"
+        },
+        {
+          "ar": "زين الحمد لله، ما في مشكلة اليوم",
+          "en": "Good, thank God, there's no problem today",
+          "translit": "zayn alhamdulillah, maa fee mushkila el-yoom"
+        },
+        {
+          "ar": "تمام وزين، أنا مبسوط اليوم والحمد لله",
+          "en": "Fine and good, I'm happy today, thank God",
+          "translit": "tamaam wa zayn, ana mabsoot el-yoom wal-hamdulillah"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Thank You and Sorry",
+      "titleNative": "شكراً وآسف",
+      "items": [
+        {
+          "ar": "شكراً كثير، والعفو، ما في مشكلة",
+          "en": "Thank you very much, and you're welcome, no problem",
+          "translit": "shukran katheer, wal-3afw, maa fee mushkila"
+        },
+        {
+          "ar": "يعطيك العافية وشكراً كثير على هذا",
+          "en": "Thank you, and thank you very much for this",
+          "translit": "ya3teek el-3aafya wa shukran katheer 3ala hatha"
+        },
+        {
+          "ar": "آسف، تمام، ما في مشكلة اليوم",
+          "en": "Sorry, it's fine, no problem today",
+          "translit": "aasif, tamaam, maa fee mushkila el-yoom"
+        },
+        {
+          "ar": "شكراً كثير ويعطيك العافية، تشرفت فيك",
+          "en": "Thank you very much, and thank you, nice to meet you",
+          "translit": "shukran katheer wa ya3teek el-3aafya, tasharraft feek"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Yes, No, Okay",
+      "titleNative": "نعم، لا، تمام",
+      "items": [
+        {
+          "ar": "نعم تمام، أنا زين والحمد لله اليوم",
+          "en": "Yes, okay, I'm good, thank God, today",
+          "translit": "na3am tamaam, ana zayn wal-hamdulillah el-yoom"
+        },
+        {
+          "ar": "لا، آسف، أنا مب زين اليوم",
+          "en": "No, sorry, I'm not good today",
+          "translit": "laa, aasif, ana mub zayn el-yoom"
+        },
+        {
+          "ar": "أنا زين اليوم، وانت شلونك اليوم",
+          "en": "I am good today, and you, how are you today",
+          "translit": "ana zayn el-yoom, wa inta shlonak el-yoom"
+        },
+        {
+          "ar": "انت زين اليوم؟ نعم، الحمد لله زين",
+          "en": "Are you good today? Yes, thank God, good",
+          "translit": "inta zayn el-yoom? na3am, alhamdulillah zayn"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Meeting Someone",
+      "titleNative": "التعارف",
+      "items": [
+        {
+          "ar": "تشرفت فيك، ومرحبا وهلا والله اليوم",
+          "en": "Nice to meet you, and hi and welcome today",
+          "translit": "tasharraft feek, wa marhaba wa hala wallah el-yoom"
+        },
+        {
+          "ar": "مرحبا، شلونك اليوم؟ زين والحمد لله",
+          "en": "Hi, how are you today? Good, thank God",
+          "translit": "marhaba, shlonak el-yoom? zayn wal-hamdulillah"
+        },
+        {
+          "ar": "زين شكراً، وتشرفت فيك كثير اليوم",
+          "en": "Good, thank you, and nice to meet you very much today",
+          "translit": "zayn shukran, wa tasharraft feek katheer el-yoom"
+        },
+        {
+          "ar": "هلا والله، تشرفت فيك كثير اليوم",
+          "en": "Welcome, nice to meet you very much today",
+          "translit": "hala wallah, tasharraft feek katheer el-yoom"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Morning and Evening",
+      "titleNative": "الصباح والمساء",
+      "items": [
+        {
+          "ar": "صباح الخير، شلونك اليوم؟ زين والحمد لله",
+          "en": "Good morning, how are you today? Good, thank God",
+          "translit": "sabaah el-khayr, shlonak el-yoom? zayn wal-hamdulillah"
+        },
+        {
+          "ar": "مساء الخير، أنا زين وتمام اليوم",
+          "en": "Good evening, I'm good and fine today",
+          "translit": "masaa el-khayr, ana zayn wa tamaam el-yoom"
+        },
+        {
+          "ar": "زين الحين، وبعدين أشرب قهوة زين",
+          "en": "Good right now, and later I'll drink good coffee",
+          "translit": "zayn el-heen, wa ba3dayn ashrab gahwa zayn"
+        },
+        {
+          "ar": "بعدين زين، صباح الخير ومساء الخير",
+          "en": "Later is fine, good morning and good evening",
+          "translit": "ba3dayn zayn, sabaah el-khayr wa masaa el-khayr"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "No Problem and Possible",
+      "titleNative": "ما في مشكلة وممكن",
+      "items": [
+        {
+          "ar": "ما في مشكلة اليوم، تمام وزين والحمد لله",
+          "en": "No problem today, fine and good, thank God",
+          "translit": "maa fee mushkila el-yoom, tamaam wa zayn wal-hamdulillah"
+        },
+        {
+          "ar": "خلاص تمام، ما في مشكلة، شكراً كثير",
+          "en": "Done, okay, no problem, thank you very much",
+          "translit": "khalaas tamaam, maa fee mushkila, shukran katheer"
+        },
+        {
+          "ar": "ممكن أبغى قهوة، وممكن أبغى شاي اليوم",
+          "en": "Can I have coffee, and can I have tea today",
+          "translit": "mumkin abgha gahwa, wa mumkin abgha shaay el-yoom"
+        },
+        {
+          "ar": "لا مشكلة، خلاص تمام، شكراً كثير",
+          "en": "No problem, done, okay, thank you very much",
+          "translit": "laa mushkila, khalaas tamaam, shukran katheer"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Pronouns: I, You, He, She",
+      "titleNative": "الضمائر",
+      "items": [
+        {
+          "ar": "أنا مب صغير، أنا زين والحمد لله",
+          "en": "I'm not small, I'm good, thank God",
+          "translit": "ana mub sagheer, ana zayn wal-hamdulillah"
+        },
+        {
+          "ar": "انت زين اليوم، وأنا زين والحمد لله",
+          "en": "You are good today, and I am good, thank God",
+          "translit": "inta zayn el-yoom, wa ana zayn wal-hamdulillah"
+        },
+        {
+          "ar": "إنتي هنا اليوم، وهو هناك اليوم",
+          "en": "You (f) are here today, and he is there today",
+          "translit": "inti hina el-yoom, wa huwa hinaak el-yoom"
+        },
+        {
+          "ar": "هو هناك، وهي هنا اليوم والحمد لله",
+          "en": "He is there, and she is here today, thank God",
+          "translit": "huwa hinaak, wa hiya hina el-yoom wal-hamdulillah"
+        }
+      ],
+      "topicId": "a1-negation"
+    },
+    {
+      "number": 9,
+      "title": "Pronouns: We, You All, They",
+      "titleNative": "الضمائر: احنا، انتوا، هم",
+      "items": [
+        {
+          "ar": "هي هنا اليوم، واحنا هنا والحمد لله",
+          "en": "She is here today, and we are here, thank God",
+          "translit": "hiya hina el-yoom, wa i7na hina wal-hamdulillah"
+        },
+        {
+          "ar": "احنا هنا اليوم، وانتوا هناك اليوم",
+          "en": "We are here today, and you all are there today",
+          "translit": "i7na hina el-yoom, wa intu hinaak el-yoom"
+        },
+        {
+          "ar": "انتوا هناك اليوم، وهم هنا والحمد لله",
+          "en": "You all are there today, and they are here, thank God",
+          "translit": "intu hinaak el-yoom, wa humma hina wal-hamdulillah"
+        },
+        {
+          "ar": "هم هنا اليوم، وأنا هنا والحمد لله",
+          "en": "They are here today, and I am here, thank God",
+          "translit": "humma hina el-yoom, wa ana hina wal-hamdulillah"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Review: Greetings and Pronouns",
+      "titleNative": "مراجعة: التحية والضمائر",
+      "items": [
+        {
+          "ar": "السلام عليكم، أنا زين، الحمد لله اليوم",
+          "en": "Peace be upon you, I'm good, thank God, today",
+          "translit": "as-salaamu alaykum, ana zayn, alhamdulillah el-yoom"
+        },
+        {
+          "ar": "هلا والله! شلونك انت اليوم زين",
+          "en": "Welcome! How are you today, good",
+          "translit": "hala wallah! shlonak inta el-yoom zayn"
+        },
+        {
+          "ar": "تشرفت فيك اليوم، شكراً كثير على هذا",
+          "en": "Nice to meet you today, thank you very much for this",
+          "translit": "tasharraft feek el-yoom, shukran katheer 3ala hatha"
+        },
+        {
+          "ar": "ما في مشكلة اليوم، تمام وزين والحمد لله",
+          "en": "No problem today, fine and good, thank God",
+          "translit": "maa fee mushkila el-yoom, tamaam wa zayn wal-hamdulillah"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Numbers 1-5",
+      "titleNative": "الأرقام ١-٥",
+      "items": [
+        {
+          "ar": "أبغى واحد واثنين وثلاثة اليوم",
+          "en": "I want one and two and three today",
+          "translit": "abgha waahid wa ithnayn wa thalaatha el-yoom"
+        },
+        {
+          "ar": "هذا أربعة، وهذا خمسة اليوم",
+          "en": "This is four, and this is five today",
+          "translit": "hatha arba3a, wa hatha khamsa el-yoom"
+        },
+        {
+          "ar": "كم هذا؟ هذا واحد اليوم",
+          "en": "How much is this? This is one today",
+          "translit": "kam hatha? hatha waahid el-yoom"
+        },
+        {
+          "ar": "أبغى اثنين وثلاثة وأربعة اليوم",
+          "en": "I want two and three and four today",
+          "translit": "abgha ithnayn wa thalaatha wa arba3a el-yoom"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Numbers 6-10",
+      "titleNative": "الأرقام ٦-١٠",
+      "items": [
+        {
+          "ar": "أبغى ستة وسبعة وثمانية اليوم",
+          "en": "I want six and seven and eight today",
+          "translit": "abgha sitta wa sab3a wa thamaanya el-yoom"
+        },
+        {
+          "ar": "هذا تسعة، وهذا عشرة اليوم",
+          "en": "This is nine, and this is ten today",
+          "translit": "hatha tis3a, wa hatha 3ashara el-yoom"
+        },
+        {
+          "ar": "كم هذا؟ هذا ستة اليوم",
+          "en": "How much is this? This is six today",
+          "translit": "kam hatha? hatha sitta el-yoom"
+        },
+        {
+          "ar": "أبغى سبعة وثمانية وتسعة اليوم",
+          "en": "I want seven and eight and nine today",
+          "translit": "abgha sab3a wa thamaanya wa tis3a el-yoom"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "title": "Colors",
+      "titleNative": "الألوان",
+      "items": [
+        {
+          "ar": "هذا أحمر، وهذا أزرق اليوم",
+          "en": "This is red, and this is blue today",
+          "translit": "hatha ahmar, wa hatha azraq el-yoom"
+        },
+        {
+          "ar": "هذا أصفر، وهذا أخضر اليوم",
+          "en": "This is yellow, and this is green today",
+          "translit": "hatha asfar, wa hatha akhdar el-yoom"
+        },
+        {
+          "ar": "هذا أحمر وأصفر وأخضر اليوم",
+          "en": "This is red and yellow and green today",
+          "translit": "hatha ahmar wa asfar wa akhdar el-yoom"
+        },
+        {
+          "ar": "هذا أزرق، وهذا أحمر اليوم",
+          "en": "This is blue, and this is red today",
+          "translit": "hatha azraq, wa hatha ahmar el-yoom"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "title": "Family",
+      "titleNative": "العائلة",
+      "items": [
+        {
+          "ar": "هذا أبويه، وهذي يمة اليوم",
+          "en": "This is dad, and this is mom today",
+          "translit": "hatha abooyah, wa hathi yumma el-yoom"
+        },
+        {
+          "ar": "هذا أخو، وهذي يمة اليوم",
+          "en": "This is brother, and this is mom today",
+          "translit": "hatha akhu, wa hathi yumma el-yoom"
+        },
+        {
+          "ar": "الأهل زين اليوم، والحمد لله",
+          "en": "The family is good today, thank God",
+          "translit": "el-ahl zayn el-yoom, wal-hamdulillah"
+        },
+        {
+          "ar": "هذا أبويه، وهذا أخو اليوم",
+          "en": "This is dad, and this is brother today",
+          "translit": "hatha abooyah, wa hatha akhu el-yoom"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "title": "I Want",
+      "titleNative": "أبغى",
+      "items": [
+        {
+          "ar": "أبغى قهوة اليوم، والحمد لله",
+          "en": "I want coffee today, thank God",
+          "translit": "abgha gahwa el-yoom, wal-hamdulillah"
+        },
+        {
+          "ar": "أبغى شاي وقهوة ومويه اليوم",
+          "en": "I want tea and coffee and water today",
+          "translit": "abgha shaay wa gahwa wa moya el-yoom"
+        },
+        {
+          "ar": "أبغى مويه اليوم، ما أبغى شاي",
+          "en": "I want water today, I don't want tea",
+          "translit": "abgha moya el-yoom, ma abgha shaay"
+        },
+        {
+          "ar": "أبغى أكل اليوم، والحمد لله زين",
+          "en": "I want food today, thank God, good",
+          "translit": "abgha akal el-yoom, wal-hamdulillah zayn"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "title": "I Drink, You Drink",
+      "titleNative": "أشرب، تشرب",
+      "items": [
+        {
+          "ar": "أشرب قهوة اليوم، والحمد لله زين",
+          "en": "I drink coffee today, thank God, good",
+          "translit": "ashrab gahwa el-yoom, wal-hamdulillah zayn"
+        },
+        {
+          "ar": "تشرب شاي اليوم، وأنا أشرب قهوة",
+          "en": "You (m) drink tea today, and I drink coffee",
+          "translit": "tishrab shaay el-yoom, wa ana ashrab gahwa"
+        },
+        {
+          "ar": "تشربي مويه اليوم، وهو يشرب قهوة",
+          "en": "You (f) drink water today, and he drinks coffee",
+          "translit": "tishrabi moya el-yoom, wa huwa yishrab gahwa"
+        },
+        {
+          "ar": "يشرب قهوة اليوم، وهي تشرب شاي",
+          "en": "He drinks coffee today, and she drinks tea",
+          "translit": "yishrab gahwa el-yoom, wa hiya tishrab shaay"
+        }
+      ],
+      "topicId": "a1-present-shirib"
+    },
+    {
+      "number": 17,
+      "title": "We Drink, They Drink",
+      "titleNative": "نشرب، يشربون",
+      "items": [
+        {
+          "ar": "تشرب شاي اليوم، وهي زين والحمد لله",
+          "en": "She drinks tea today, and she's good, thank God",
+          "translit": "tishrab shaay el-yoom, wa hiya zayn wal-hamdulillah"
+        },
+        {
+          "ar": "نشرب قهوة اليوم، والحمد لله زين",
+          "en": "We drink coffee today, thank God, good",
+          "translit": "nishrab gahwa el-yoom, wal-hamdulillah zayn"
+        },
+        {
+          "ar": "تشربون مويه اليوم، وهم يشربون شاي",
+          "en": "You all drink water today, and they drink tea",
+          "translit": "tishrabuun moya el-yoom, wa humma yishrabuun shaay"
+        },
+        {
+          "ar": "يشربون شاي اليوم، واحنا نشرب قهوة",
+          "en": "They drink tea today, and we drink coffee",
+          "translit": "yishrabuun shaay el-yoom, wa i7na nishrab gahwa"
+        }
+      ],
+      "topicId": "a1-present-shirib"
+    },
+    {
+      "number": 18,
+      "title": "Question Words",
+      "titleNative": "أدوات الاستفهام",
+      "items": [
+        {
+          "ar": "شنو هذا؟ هذا بيت كبير اليوم",
+          "en": "What is this? This is a big house today",
+          "translit": "shinu hatha? hatha bayt kabeer el-yoom"
+        },
+        {
+          "ar": "وين البيت؟ البيت هنا اليوم",
+          "en": "Where is the house? The house is here today",
+          "translit": "wein el-bayt? el-bayt hina el-yoom"
+        },
+        {
+          "ar": "ليش انت تعبان اليوم؟ ما أدري",
+          "en": "Why are you tired today? I don't know",
+          "translit": "leish inta ta3baan el-yoom? ma adri"
+        },
+        {
+          "ar": "متى الأكل؟ الأكل بعدين اليوم",
+          "en": "When is the food? The food is later today",
+          "translit": "mita el-akal? el-akal ba3dayn el-yoom"
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "title": "Feelings",
+      "titleNative": "المشاعر",
+      "items": [
+        {
+          "ar": "أنا تعبان اليوم، وهو مبسوط والحمد لله",
+          "en": "I am tired today, and he is happy, thank God",
+          "translit": "ana ta3baan el-yoom, wa huwa mabsoot wal-hamdulillah"
+        },
+        {
+          "ar": "أنا مبسوط اليوم، والحمد لله زين",
+          "en": "I am happy today, thank God, good",
+          "translit": "ana mabsoot el-yoom, wal-hamdulillah zayn"
+        },
+        {
+          "ar": "أنا جوعان اليوم، أبغى أكل زين",
+          "en": "I am hungry today, I want good food",
+          "translit": "ana joo3aan el-yoom, abgha akal zayn"
+        },
+        {
+          "ar": "أنا عطشان اليوم، أبغى مويه زين",
+          "en": "I am thirsty today, I want good water",
+          "translit": "ana 3atshaan el-yoom, abgha moya zayn"
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "title": "Review: Numbers, Colors, Family, Feelings",
+      "titleNative": "مراجعة",
+      "items": [
+        {
+          "ar": "أبغى قهوة اليوم، أنا تعبان والحمد لله",
+          "en": "I want coffee today, I'm tired, thank God",
+          "translit": "abgha gahwa el-yoom, ana ta3baan wal-hamdulillah"
+        },
+        {
+          "ar": "الأهل زين اليوم، الحمد لله كثير",
+          "en": "The family is good today, thank God so much",
+          "translit": "el-ahl zayn el-yoom, alhamdulillah katheer"
+        },
+        {
+          "ar": "شنو تشرب اليوم؟ أشرب شاي زين",
+          "en": "What do you drink today? I drink good tea",
+          "translit": "shinu tishrab el-yoom? ashrab shaay zayn"
+        },
+        {
+          "ar": "وين الأهل اليوم؟ الأهل هنا زين",
+          "en": "Where is the family today? The family is here, good",
+          "translit": "wein el-ahl el-yoom? el-ahl hina zayn"
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "title": "Days of the Week",
+      "titleNative": "أيام الأسبوع",
+      "items": [
+        {
+          "ar": "يوم الأحد اليوم، وبعدين يوم الاثنين",
+          "en": "Today is Sunday, and after that Monday",
+          "translit": "yoom el-a7ad el-yoom, wa ba3dayn yoom el-ithnayn"
+        },
+        {
+          "ar": "يوم الاثنين زين، والحمد لله اليوم",
+          "en": "Monday is good, thank God, today",
+          "translit": "yoom el-ithnayn zayn, wal-hamdulillah el-yoom"
+        },
+        {
+          "ar": "يوم الجمعة زين، أبغى قهوة اليوم",
+          "en": "Friday is good, I want coffee today",
+          "translit": "yoom el-jum3a zayn, abgha gahwa el-yoom"
+        },
+        {
+          "ar": "يوم السبت اليوم، وأنا زين والحمد لله",
+          "en": "Today is Saturday, and I'm good, thank God",
+          "translit": "yoom es-sabt el-yoom, wa ana zayn wal-hamdulillah"
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "title": "Big and Small",
+      "titleNative": "كبير وصغير",
+      "items": [
+        {
+          "ar": "هذا بيت كبير اليوم، وهذا بيت صغير",
+          "en": "This is a big house today, and this is a small house",
+          "translit": "hatha bayt kabeer el-yoom, wa hatha bayt sagheer"
+        },
+        {
+          "ar": "هذا بيت جديد اليوم، وهذا بيت قديم",
+          "en": "This is a new house today, and this is an old house",
+          "translit": "hatha bayt jideed el-yoom, wa hatha bayt gadeem"
+        },
+        {
+          "ar": "هذا بيت كبير وجديد اليوم كثير",
+          "en": "This is a big and new house today, very much",
+          "translit": "hatha bayt kabeer wa jideed el-yoom katheer"
+        },
+        {
+          "ar": "هذا بيت صغير وقديم اليوم كثير",
+          "en": "This is a small and old house today, very much",
+          "translit": "hatha bayt sagheer wa gadeem el-yoom katheer"
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "title": "I Don't Want / I'm Not",
+      "titleNative": "ما أبغى / أنا مب",
+      "items": [
+        {
+          "ar": "ما أبغى قهوة اليوم، أبغى شاي",
+          "en": "I don't want coffee today, I want tea",
+          "translit": "ma abgha gahwa el-yoom, abgha shaay"
+        },
+        {
+          "ar": "أنا مب تعبان اليوم، أنا مبسوط",
+          "en": "I'm not tired today, I'm happy",
+          "translit": "ana mub ta3baan el-yoom, ana mabsoot"
+        },
+        {
+          "ar": "أنا مب جوعان اليوم، أنا عطشان",
+          "en": "I'm not hungry today, I'm thirsty",
+          "translit": "ana mub joo3aan el-yoom, ana 3atshaan"
+        },
+        {
+          "ar": "ما أشرب شاي اليوم، أشرب قهوة",
+          "en": "I don't drink tea today, I drink coffee",
+          "translit": "ma ashrab shaay el-yoom, ashrab gahwa"
+        }
+      ],
+      "topicId": "a1-negation"
+    },
+    {
+      "number": 24,
+      "title": "I Go, You Go",
+      "titleNative": "أروح، تروح",
+      "items": [
+        {
+          "ar": "أروح الحين، وبعدين أشرب قهوة زين",
+          "en": "I'm going now, and later I'll drink good coffee",
+          "translit": "aruu7 el-heen, wa ba3dayn ashrab gahwa zayn"
+        },
+        {
+          "ar": "تروح الحين، وهو يروح بعدين زين",
+          "en": "You (m) are going now, and he's going later, good",
+          "translit": "truu7 el-heen, wa huwa yruu7 ba3dayn zayn"
+        },
+        {
+          "ar": "تروحين الحين، وهي تروح بعدين زين",
+          "en": "You (f) are going now, and she's going later, good",
+          "translit": "truu7een el-heen, wa hiya truu7 ba3dayn zayn"
+        },
+        {
+          "ar": "يروح الحين، وأنا أروح بعدين زين",
+          "en": "He's going now, and I'm going later, good",
+          "translit": "yruu7 el-heen, wa ana aruu7 ba3dayn zayn"
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "title": "She Goes, We Go, They Go",
+      "titleNative": "تروح، نروح، يروحون",
+      "items": [
+        {
+          "ar": "تروح الحين، واحنا نروح بعدين زين",
+          "en": "She's going now, and we're going later, good",
+          "translit": "truu7 el-heen, wa i7na nruu7 ba3dayn zayn"
+        },
+        {
+          "ar": "نروح الحين، وانتوا تروحون بعدين زين",
+          "en": "We're going now, and you all are going later, good",
+          "translit": "nruu7 el-heen, wa intu truu7oon ba3dayn zayn"
+        },
+        {
+          "ar": "تروحون الحين، وهم يروحون بعدين زين",
+          "en": "You all are going now, and they're going later, good",
+          "translit": "truu7oon el-heen, wa humma yruu7oon ba3dayn zayn"
+        },
+        {
+          "ar": "يروحون الحين، وأنا أروح بعدين زين",
+          "en": "They're going now, and I'm going later, good",
+          "translit": "yruu7oon el-heen, wa ana aruu7 ba3dayn zayn"
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "title": "Places: Here, There, Near, Far",
+      "titleNative": "هنا، هناك، قريب، بعيد",
+      "items": [
+        {
+          "ar": "البيت هنا اليوم، والتاكسي هناك زين",
+          "en": "The house is here today, and the taxi is there, good",
+          "translit": "el-bayt hina el-yoom, wat-taaksi hinaak zayn"
+        },
+        {
+          "ar": "البيت هناك اليوم، والسيارة هنا زين",
+          "en": "The house is there today, and the car is here, good",
+          "translit": "el-bayt hinaak el-yoom, was-sayyaara hina zayn"
+        },
+        {
+          "ar": "البيت قريب اليوم، والتاكسي بعيد زين",
+          "en": "The house is near today, and the taxi is far, good",
+          "translit": "el-bayt gareeb el-yoom, wat-taaksi ba3eed zayn"
+        },
+        {
+          "ar": "البيت بعيد اليوم، والتاكسي قريب زين",
+          "en": "The house is far today, and the taxi is near, good",
+          "translit": "el-bayt ba3eed el-yoom, wat-taaksi gareeb zayn"
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "title": "Directions: Right, Left, In Front, Behind",
+      "titleNative": "يمين، يسار، قدام، ورا",
+      "items": [
+        {
+          "ar": "التاكسي يمين اليوم، والسيارة يسار زين",
+          "en": "The taxi is to the right today, and the car is to the left, good",
+          "translit": "et-taaksi yameen el-yoom, was-sayyaara yasaar zayn"
+        },
+        {
+          "ar": "التاكسي يسار اليوم، والبيت قدّام زين",
+          "en": "The taxi is to the left today, and the house is in front, good",
+          "translit": "et-taaksi yasaar el-yoom, wal-bayt guddaam zayn"
+        },
+        {
+          "ar": "البيت قدّام اليوم، والتاكسي ورا زين",
+          "en": "The house is in front today, and the taxi is behind, good",
+          "translit": "el-bayt guddaam el-yoom, wat-taaksi wara zayn"
+        },
+        {
+          "ar": "البيت ورا اليوم، والتاكسي قدّام زين",
+          "en": "The house is behind today, and the taxi is in front, good",
+          "translit": "el-bayt wara el-yoom, wat-taaksi guddaam zayn"
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "title": "Car and Taxi",
+      "titleNative": "سيارة وتاكسي",
+      "items": [
+        {
+          "ar": "السيارة هنا اليوم، والتاكسي هناك زين",
+          "en": "The car is here today, and the taxi is there, good",
+          "translit": "es-sayyaara hina el-yoom, wat-taaksi hinaak zayn"
+        },
+        {
+          "ar": "التاكسي بعيد اليوم، والسيارة قريبة زين",
+          "en": "The taxi is far today, and the car is near, good",
+          "translit": "et-taaksi ba3eed el-yoom, was-sayyaara gareeba zayn"
+        },
+        {
+          "ar": "التاكسي قريب اليوم، والسيارة بعيدة زين",
+          "en": "The taxi is near today, and the car is far, good",
+          "translit": "et-taaksi gareeb el-yoom, was-sayyaara ba3eeda zayn"
+        },
+        {
+          "ar": "السيارة كبيرة اليوم، والتاكسي صغير زين",
+          "en": "The car is big today, and the taxi is small, good",
+          "translit": "es-sayyaara kabeera el-yoom, wat-taaksi sagheer zayn"
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "title": "Money: How Much?",
+      "titleNative": "كم؟",
+      "items": [
+        {
+          "ar": "كم هذا اليوم؟ هذا غالي كثير",
+          "en": "How much is this today? This is very expensive",
+          "translit": "kam hatha el-yoom? hatha ghaali katheer"
+        },
+        {
+          "ar": "هذا غالي اليوم، وهذا رخيص زين",
+          "en": "This is expensive today, and this is cheap, good",
+          "translit": "hatha ghaali el-yoom, wa hatha rakhees zayn"
+        },
+        {
+          "ar": "هذا رخيص اليوم، وهذا غالي كثير",
+          "en": "This is cheap today, and this is very expensive",
+          "translit": "hatha rakhees el-yoom, wa hatha ghaali katheer"
+        },
+        {
+          "ar": "وين الفلوس اليوم؟ الفلوس هنا زين",
+          "en": "Where is the money today? The money is here, good",
+          "translit": "wein el-fluus el-yoom? el-fluus hina zayn"
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "title": "Review: Directions, Places, Negation",
+      "titleNative": "مراجعة",
+      "items": [
+        {
+          "ar": "التاكسي هنا اليوم، والسيارة بعيدة زين",
+          "en": "The taxi is here today, and the car is far, good",
+          "translit": "et-taaksi hina el-yoom, was-sayyaara ba3eeda zayn"
+        },
+        {
+          "ar": "البيت الجديد قريب اليوم، مب بعيد",
+          "en": "The new house is near today, not far",
+          "translit": "el-bayt el-jideed gareeb el-yoom, mub ba3eed"
+        },
+        {
+          "ar": "كم هذا اليوم؟ غالي مب رخيص",
+          "en": "How much is this today? Expensive, not cheap",
+          "translit": "kam hatha el-yoom? ghaali mub rakhees"
+        },
+        {
+          "ar": "يوم الجمعة أروح هناك اليوم، زين",
+          "en": "On Friday I go there today, good",
+          "translit": "yoom el-jum3a aruu7 hinaak el-yoom, zayn"
+        }
+      ]
+    }
+  ]
+}

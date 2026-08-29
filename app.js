@@ -34,6 +34,8 @@
     { id: "pashto", file: "data/courses-pashto.json", audioManifest: "data/audio-pashto/manifest.json", label: "Pashto — پښتو", native: "پښتو", en: "Pashto", flag: "پښتو", group: "underserved", accent: "rust" },
     { id: "turkmen", file: "data/courses-turkmen.json", audioManifest: "data/audio-turkmen/manifest.json", label: "Turkmen — Türkmençe", native: "Türkmençe", en: "Turkmen", flag: "Türkmençe", group: "underserved", accent: "maroon" },
     { id: "urdu", file: "data/courses-urdu.json", audioManifest: "data/audio-urdu/manifest.json", label: "Urdu — اردو", native: "اردو", en: "Urdu", flag: "اردو", group: "underserved", accent: "gold" },
+    { id: "emirati", file: "data/courses-emirati.json", audioManifest: "data/audio-emirati/manifest.json", label: "Emirati Arabic — خليجي", native: "خليجي", en: "Emirati Arabic", flag: "خليجي", group: "underserved", accent: "indigo" },
+    { id: "syrian", file: "data/courses-syrian.json", audioManifest: "data/audio-syrian/manifest.json", label: "Syrian Arabic — شامي", native: "شامي", en: "Syrian Arabic", flag: "شامي", group: "underserved", accent: "maroon" },
     { id: "spanish", file: "data/courses-spanish.json", audioManifest: "data/audio-spanish/manifest.json", label: "Spanish — Español", native: "Español", en: "Spanish", flag: "Español", group: "world", accent: "gold" },
     { id: "french", file: "data/courses-french.json", audioManifest: "data/audio-french/manifest.json", label: "French — Français", native: "Français", en: "French", flag: "Français", group: "world", accent: "indigo" },
     { id: "german", file: "data/courses-german.json", audioManifest: "data/audio-german/manifest.json", label: "German — Deutsch", native: "Deutsch", en: "German", flag: "Deutsch", group: "world", accent: "rust" },

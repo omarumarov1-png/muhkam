@@ -1,0 +1,317 @@
+{
+  "level": "a2",
+  "grammarTopics": {
+    "a2-past-raah": {
+      "title": "Past Tense: I Went, You Went...",
+      "pattern": "رحت / رحت / رحتي / راح / راحت / رحنا / رحتو / راحو",
+      "explanation": "The past tense of راح (raah, \"to go\") is formed with suffixes attached to the root ر-و-ح: رحت (riHt, \"I went\"), رحت (riHt, \"you-m went\"), رحتي (riHti, \"you-f went\"), راح (raah, \"he went\"), راحت (raaHat, \"she went\"), رحنا (riHna, \"we went\"), رحتو (riHtaw, \"you-all went\"), راحو (raaHaw, \"they went\").",
+      "fact": "Notice the vowel shift: the medial \"aa\" of راح shortens to a plain \"i\" in every person except he/she/they (راح/راحت/راحو keep the long \"aa\"). This a→i shift in all-but-third-person is a very common pattern across Gulf Arabic past-tense verbs, not unique to راح.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "وين رحت أمس؟",
+          "en": "Where did you go yesterday?"
+        },
+        {
+          "sp": "B",
+          "native": "رحت البيت، وشفت الأهل زين",
+          "en": "I went home, and I saw the family, good"
+        }
+      ]
+    },
+    "a2-past-shaaf": {
+      "title": "Past Tense: I Saw, You Saw...",
+      "pattern": "شفت / شفت / شفتي / شاف / شافت / شفنا / شفتو / شافو",
+      "explanation": "The past tense of شاف (shaaf, \"to see\") follows the same pattern as راح: شفت (shift, \"I saw\"), شفت (shift, \"you-m saw\"), شفتي (shifti, \"you-f saw\"), شاف (shaaf, \"he saw\"), شافت (shaafat, \"she saw\"), شفنا (shifna, \"we saw\"), شفتو (shiftaw, \"you-all saw\"), شافو (shaafaw, \"they saw\").",
+      "fact": "Many Emirati speakers pronounce this verb with چ instead of ش (چاف/چفت, chaaf/chift) — a well-known regional sound shift found in parts of the UAE and wider Gulf, and both pronunciations are considered correct.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "شفتي الأهل أمس؟",
+          "en": "Did you (f) see the family yesterday?"
+        },
+        {
+          "sp": "B",
+          "native": "نعم، شفت الأهل، وشفت صديق زين",
+          "en": "Yes, I saw the family, and I saw a good friend"
+        }
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "number": 1,
+      "title": "I Went, You Went",
+      "titleNative": "رحت، رحت",
+      "items": [
+        {
+          "ar": "رحت البيت أمس، وشفت الأهل زين",
+          "en": "I went home yesterday, and I saw the family, good",
+          "translit": "riHt el-bayt ams, wa shift el-ahl zayn"
+        },
+        {
+          "ar": "رحت البيت أمس، وانت رحت وين",
+          "en": "You (m) went home yesterday, and where did you go",
+          "translit": "riHt el-bayt ams, wa inta riHt wein"
+        },
+        {
+          "ar": "رحتي البيت أمس، وشفتي الأهل زين",
+          "en": "You (f) went home yesterday, and you saw the family, good",
+          "translit": "riHti el-bayt ams, wa shifti el-ahl zayn"
+        },
+        {
+          "ar": "راح البيت أمس، وشاف الأهل زين",
+          "en": "He went home yesterday, and he saw the family, good",
+          "translit": "raaH el-bayt ams, wa shaaf el-ahl zayn"
+        }
+      ],
+      "topicId": "a2-past-raah"
+    },
+    {
+      "number": 2,
+      "title": "She Went, We Went, They Went",
+      "titleNative": "راحت، رحنا، راحو",
+      "items": [
+        {
+          "ar": "راحت البيت أمس، وشافت الأهل زين",
+          "en": "She went home yesterday, and she saw the family, good",
+          "translit": "raaHat el-bayt ams, wa shaafat el-ahl zayn"
+        },
+        {
+          "ar": "رحنا البيت أمس، وشفنا الأهل زين",
+          "en": "We went home yesterday, and we saw the family, good",
+          "translit": "riHna el-bayt ams, wa shifna el-ahl zayn"
+        },
+        {
+          "ar": "رحتو البيت أمس، وشفتو الأهل زين",
+          "en": "You all went home yesterday, and you saw the family, good",
+          "translit": "riHtaw el-bayt ams, wa shiftaw el-ahl zayn"
+        },
+        {
+          "ar": "راحو البيت أمس، وشافو الأهل زين",
+          "en": "They went home yesterday, and they saw the family, good",
+          "translit": "raaHaw el-bayt ams, wa shaafaw el-ahl zayn"
+        }
+      ],
+      "topicId": "a2-past-raah"
+    },
+    {
+      "number": 3,
+      "title": "Where Did You Go Yesterday?",
+      "titleNative": "وين رحت أمس؟",
+      "items": [
+        {
+          "ar": "وين رحت أمس؟ رحت البيت والحمد لله",
+          "en": "Where did you go yesterday? I went home, thank God",
+          "translit": "wein riHt ams? riHt el-bayt wal-hamdulillah"
+        },
+        {
+          "ar": "وين راح أمس؟ راح البيت زين",
+          "en": "Where did he go yesterday? He went home, good",
+          "translit": "wein raaH ams? raaH el-bayt zayn"
+        },
+        {
+          "ar": "وين راحت أمس؟ راحت البيت زين",
+          "en": "Where did she go yesterday? She went home, good",
+          "translit": "wein raaHat ams? raaHat el-bayt zayn"
+        },
+        {
+          "ar": "وين راحو أمس؟ راحو البيت زين",
+          "en": "Where did they go yesterday? They went home, good",
+          "translit": "wein raaHaw ams? raaHaw el-bayt zayn"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Going Tomorrow",
+      "titleNative": "باجر بروح",
+      "items": [
+        {
+          "ar": "رحت البيت أمس، وباجر أروح زين",
+          "en": "I went home yesterday, and tomorrow I'll go again",
+          "translit": "riHt el-bayt ams, wa baajir aruu7 taani"
+        },
+        {
+          "ar": "راح البيت أمس، وباجر يروح زين",
+          "en": "He went home yesterday, and tomorrow he'll go again",
+          "translit": "raaH el-bayt ams, wa baajir yruu7 taani"
+        },
+        {
+          "ar": "رحنا البيت أمس، وباجر نروح زين",
+          "en": "We went home yesterday, and tomorrow we'll go again",
+          "translit": "riHna el-bayt ams, wa baajir nruu7 taani"
+        },
+        {
+          "ar": "راحو البيت أمس، وباجر يروحون زين",
+          "en": "They went home yesterday, and tomorrow they'll go again",
+          "translit": "raaHaw el-bayt ams, wa baajir yruu7oon taani"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Review: Past Tense of Raah",
+      "titleNative": "مراجعة: رحت",
+      "items": [
+        {
+          "ar": "رحت البيت أمس، وشفت الأهل، والحمد لله",
+          "en": "I went home yesterday, and I saw the family, thank God",
+          "translit": "riHt el-bayt ams, wa shift el-ahl, wal-hamdulillah"
+        },
+        {
+          "ar": "راح البيت أمس، وباجر يروح زين والحمد لله",
+          "en": "He went home yesterday, and tomorrow he'll go again, good, thank God",
+          "translit": "raaH el-bayt ams, wa baajir yruu7 zayn wal-hamdulillah"
+        },
+        {
+          "ar": "رحتو البيت أمس، وشفتو الأهل زين والحمد لله",
+          "en": "You all went home yesterday, and you saw the family, thank God",
+          "translit": "riHtaw el-bayt ams, wa shiftaw el-ahl zayn wal-hamdulillah"
+        },
+        {
+          "ar": "راحو البيت أمس، وأنا رحت باجر زين",
+          "en": "They went home yesterday, and I'll go tomorrow again",
+          "translit": "raaHaw el-bayt ams, wa ana aruu7 baajir taani"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "I Saw, You Saw",
+      "titleNative": "شفت، شفت",
+      "items": [
+        {
+          "ar": "شفت الأهل أمس، وشفت صديق زين",
+          "en": "I saw the family yesterday, and I saw a good friend",
+          "translit": "shift el-ahl ams, wa shift sadeeq zayn"
+        },
+        {
+          "ar": "شفت الأهل أمس، وانت شفت وين",
+          "en": "You (m) saw the family yesterday, and where did you see them",
+          "translit": "shift el-ahl ams, wa inta shift wein"
+        },
+        {
+          "ar": "شفتي الأهل أمس، وشفتي صديق زين",
+          "en": "You (f) saw the family yesterday, and you saw a good friend",
+          "translit": "shifti el-ahl ams, wa shifti sadeeq zayn"
+        },
+        {
+          "ar": "شاف الأهل أمس، وشاف صديق زين",
+          "en": "He saw the family yesterday, and he saw a good friend",
+          "translit": "shaaf el-ahl ams, wa shaaf sadeeq zayn"
+        }
+      ],
+      "topicId": "a2-past-shaaf"
+    },
+    {
+      "number": 7,
+      "title": "She Saw, We Saw, They Saw",
+      "titleNative": "شافت، شفنا، شافو",
+      "items": [
+        {
+          "ar": "شافت الأهل أمس، وشافت صديق زين",
+          "en": "She saw the family yesterday, and she saw a good friend",
+          "translit": "shaafat el-ahl ams, wa shaafat sadeeq zayn"
+        },
+        {
+          "ar": "شفنا الأهل أمس، وشفنا صديق زين",
+          "en": "We saw the family yesterday, and we saw a good friend",
+          "translit": "shifna el-ahl ams, wa shifna sadeeq zayn"
+        },
+        {
+          "ar": "شفتو الأهل أمس، وشفتو صديق زين",
+          "en": "You all saw the family yesterday, and you saw a good friend",
+          "translit": "shiftaw el-ahl ams, wa shiftaw sadeeq zayn"
+        },
+        {
+          "ar": "شافو الأهل أمس، وشافو صديق زين",
+          "en": "They saw the family yesterday, and they saw a good friend",
+          "translit": "shaafaw el-ahl ams, wa shaafaw sadeeq zayn"
+        }
+      ],
+      "topicId": "a2-past-shaaf"
+    },
+    {
+      "number": 8,
+      "title": "What Did You See?",
+      "titleNative": "شنو شفت؟",
+      "items": [
+        {
+          "ar": "شنو شفت أمس؟ شفت بيت كبير",
+          "en": "What did you see yesterday? I saw a big house",
+          "translit": "shinu shift ams? shift bayt kabeer"
+        },
+        {
+          "ar": "شنو شاف أمس؟ شاف بيت جديد",
+          "en": "What did he see yesterday? He saw a new house",
+          "translit": "shinu shaaf ams? shaaf bayt jideed"
+        },
+        {
+          "ar": "شنو شافت أمس؟ شافت بيت صغير",
+          "en": "What did she see yesterday? She saw a small house",
+          "translit": "shinu shaafat ams? shaafat bayt sagheer"
+        },
+        {
+          "ar": "شنو شافو أمس؟ شافو بيت قديم",
+          "en": "What did they see yesterday? They saw an old house",
+          "translit": "shinu shaafaw ams? shaafaw bayt gadeem"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Combining Raah and Shaaf",
+      "titleNative": "رحت وشفت",
+      "items": [
+        {
+          "ar": "رحت البيت أمس، وشفت الأهل والحمد لله",
+          "en": "I went home yesterday, and I saw my family, thank God",
+          "translit": "riHt el-bayt ams, wa shift ahli wal-hamdulillah"
+        },
+        {
+          "ar": "راح البيت أمس، وشاف أخو هناك",
+          "en": "He went home yesterday, and he saw brother there",
+          "translit": "raaH el-bayt ams, wa shaaf akhu hinaak"
+        },
+        {
+          "ar": "راحت البيت أمس، وشافت يمة هناك",
+          "en": "She went home yesterday, and she saw mom there",
+          "translit": "raaHat el-bayt ams, wa shaafat yumma hinaak"
+        },
+        {
+          "ar": "رحنا البيت أمس، وشفنا الأهل هناك زين",
+          "en": "We went home yesterday, and we saw the family there, good",
+          "translit": "riHna el-bayt ams, wa shifna el-ahl hinaak zayn"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Review: Past Tense of Shaaf",
+      "titleNative": "مراجعة: شفت",
+      "items": [
+        {
+          "ar": "شفت الأهل أمس، وباجر يروح يشرب قهوة",
+          "en": "I saw the family yesterday, and tomorrow he'll go drink coffee",
+          "translit": "shift el-ahl ams, wa baajir yruu7 yishrab gahwa"
+        },
+        {
+          "ar": "شاف بيت كبير أمس، وشافت بيت صغير",
+          "en": "He saw a big house yesterday, and she saw a small house",
+          "translit": "shaaf bayt kabeer ams, wa shaafat bayt sagheer"
+        },
+        {
+          "ar": "شفنا الأهل أمس، ورحنا البيت زين والحمد لله",
+          "en": "We saw the family yesterday, and we went home, good, thank God",
+          "translit": "shifna el-ahl ams, wa riHna el-bayt zayn wal-hamdulillah"
+        },
+        {
+          "ar": "شافو صديق زين أمس، وراحو البيت زين",
+          "en": "They saw a good friend yesterday, and they went home again",
+          "translit": "shaafaw sadeeq zayn ams, wa raaHaw el-bayt taani"
+        }
+      ]
+    }
+  ]
+}
