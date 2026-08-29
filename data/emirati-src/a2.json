@@ -36,6 +36,24 @@
           "en": "Yes, I saw the family, and I saw a good friend"
         }
       ]
+    },
+    "a2-past-negation": {
+      "title": "Negating the Past: Ma + Past Verb",
+      "pattern": "ما + الفعل الماضي",
+      "explanation": "To negate a past-tense verb, put ما (ma) right before it, exactly like with the present tense: ما رحت (ma riHt, \"I didn't go\"), ما شفت (ma shift, \"I didn't see\").",
+      "fact": "Unlike the present tense (which splits between ما for verbs and مب for nominal sentences), the past tense always uses ما — there's no مب-equivalent for past-tense negation, which simplifies this pattern compared to the present.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "شفت الأهل أمس؟",
+          "en": "Did you see the family yesterday?"
+        },
+        {
+          "sp": "B",
+          "native": "لا، ما شفت الأهل، رحت الحين بس",
+          "en": "No, I didn't see the family, I only went now"
+        }
+      ]
     }
   },
   "lessons": [
@@ -310,6 +328,278 @@
           "ar": "شافو صديق زين أمس، وراحو البيت زين",
           "en": "They saw a good friend yesterday, and they went home again",
           "translit": "shaafaw sadeeq zayn ams, wa raaHaw el-bayt taani"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "I Didn't Go, I Didn't See",
+      "titleNative": "ما رحت، ما شفت",
+      "items": [
+        {
+          "ar": "ما رحت البيت أمس، رحت الحين بس",
+          "en": "I didn't go home yesterday, I only went now",
+          "translit": "ma riHt el-bayt ams, riHt el-heen bas"
+        },
+        {
+          "ar": "ما شفت الأهل أمس، شفت صديق زين",
+          "en": "I didn't see the family yesterday, I saw a good friend",
+          "translit": "ma shift el-ahl ams, shift sadeeq zayn"
+        },
+        {
+          "ar": "ما راح البيت أمس، راح الحين بس",
+          "en": "He didn't go home yesterday, he only went now",
+          "translit": "ma raaH el-bayt ams, raaH el-heen bas"
+        },
+        {
+          "ar": "ما شاف الأهل أمس، شاف صديق زين",
+          "en": "He didn't see the family yesterday, he saw a good friend",
+          "translit": "ma shaaf el-ahl ams, shaaf sadeeq zayn"
+        }
+      ],
+      "topicId": "a2-past-negation"
+    },
+    {
+      "number": 12,
+      "title": "She Didn't, We Didn't",
+      "titleNative": "ما راحت، ما رحنا",
+      "items": [
+        {
+          "ar": "ما راحت البيت أمس، راحت الحين بس",
+          "en": "She didn't go home yesterday, she only went now",
+          "translit": "ma raaHat el-bayt ams, raaHat el-heen bas"
+        },
+        {
+          "ar": "ما شافت الأهل أمس، شافت صديق زين",
+          "en": "She didn't see the family yesterday, she saw a good friend",
+          "translit": "ma shaafat el-ahl ams, shaafat sadeeq zayn"
+        },
+        {
+          "ar": "ما رحنا البيت أمس، رحنا الحين بس",
+          "en": "We didn't go home yesterday, we only went now",
+          "translit": "ma riHna el-bayt ams, riHna el-heen bas"
+        },
+        {
+          "ar": "ما شفنا الأهل أمس، شفنا صديق زين",
+          "en": "We didn't see the family yesterday, we saw a good friend",
+          "translit": "ma shifna el-ahl ams, shifna sadeeq zayn"
+        }
+      ],
+      "topicId": "a2-past-negation"
+    },
+    {
+      "number": 13,
+      "title": "Yesterday and Tomorrow",
+      "titleNative": "أمس وباجر",
+      "items": [
+        {
+          "ar": "رحت البيت أمس، وباجر أروح صديق بعدين",
+          "en": "I went home yesterday, and tomorrow I'll go to a friend later",
+          "translit": "riHt el-bayt ams, wa baajir aruu7 sadeeq ba3dayn"
+        },
+        {
+          "ar": "ما رحت أمس، بس باجر أروح زين",
+          "en": "I didn't go yesterday, but tomorrow I'll go, good",
+          "translit": "ma riHt ams, bas baajir aruu7 zayn"
+        },
+        {
+          "ar": "شفت الأهل أمس، وباجر يشرب قهوة زين",
+          "en": "I saw the family yesterday, and tomorrow he'll drink good coffee",
+          "translit": "shift el-ahl ams, wa baajir yishrab gahwa zayn"
+        },
+        {
+          "ar": "ما شفت أمس، بس باجر أشرب شاي",
+          "en": "I didn't see yesterday, but tomorrow I'll drink tea",
+          "translit": "ma shift ams, bas baajir ashrab shaay"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "title": "Family and Past Tense",
+      "titleNative": "الأهل والماضي",
+      "items": [
+        {
+          "ar": "شفت أبويه أمس، وشفت يمة زين اليوم",
+          "en": "I saw dad yesterday, and I saw mom, good, today",
+          "translit": "shift abooyah ams, wa shift yumma zayn el-yoom"
+        },
+        {
+          "ar": "راح أخو أمس، وراحت يمة أمس زين",
+          "en": "Brother went yesterday, and mom went yesterday, good",
+          "translit": "raaH akhu ams, wa raaHat yumma ams zayn"
+        },
+        {
+          "ar": "شافت الأهل أمس، والأهل زين والحمد لله",
+          "en": "She saw the family yesterday, and the family is good, thank God",
+          "translit": "shaafat el-ahl ams, wal-ahl zayn wal-hamdulillah"
+        },
+        {
+          "ar": "رحنا البيت أمس، وشفنا أبويه ويمة زين",
+          "en": "We went home yesterday, and we saw dad and mom, good",
+          "translit": "riHna el-bayt ams, wa shifna abooyah wa yumma zayn"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "title": "Review: Past Tense Negation",
+      "titleNative": "مراجعة",
+      "items": [
+        {
+          "ar": "ما رحت البيت أمس، رحت الحين والحمد لله",
+          "en": "I didn't go home yesterday, I went now, thank God",
+          "translit": "ma riHt el-bayt ams, riHt el-heen wal-hamdulillah"
+        },
+        {
+          "ar": "ما شاف الأهل أمس، شاف صديق زين بس",
+          "en": "He didn't see the family yesterday, he only saw a good friend",
+          "translit": "ma shaaf el-ahl ams, shaaf sadeeq zayn bas"
+        },
+        {
+          "ar": "ما شافو الأهل أمس، شافو بيت جديد زين",
+          "en": "They didn't see the family yesterday, they saw a good new house",
+          "translit": "ma shaafo el-ahl ams, shaafo bayt jideed zayn"
+        },
+        {
+          "ar": "ما رحنا أمس، بس باجر نروح زين والحمد لله",
+          "en": "We didn't go yesterday, but tomorrow we'll go, good, thank God",
+          "translit": "ma riHna ams, bas baajir nruu7 zayn wal-hamdulillah"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "title": "Numbers and Past Tense",
+      "titleNative": "الأرقام والماضي",
+      "items": [
+        {
+          "ar": "شفت واحد أمس، وشفت اثنين اليوم زين",
+          "en": "I saw one yesterday, and I saw two today, good",
+          "translit": "shift waahid ams, wa shift ithnayn el-yoom zayn"
+        },
+        {
+          "ar": "راح ثلاثة أمس، وراح أربعة اليوم زين",
+          "en": "Three went yesterday, and four went today, good",
+          "translit": "raaH thalaatha ams, wa raaH arba3a el-yoom zayn"
+        },
+        {
+          "ar": "شافت خمسة أمس، وشافت ستة اليوم زين",
+          "en": "She saw five yesterday, and she saw six today, good",
+          "translit": "shaafat khamsa ams, wa shaafat sitta el-yoom zayn"
+        },
+        {
+          "ar": "شفنا سبعة أمس، وشفنا ثمانية اليوم زين",
+          "en": "We saw seven yesterday, and we saw eight today, good",
+          "translit": "shifna sab3a ams, wa shifna thamaanya el-yoom zayn"
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "title": "Colors and Past Tense",
+      "titleNative": "الألوان والماضي",
+      "items": [
+        {
+          "ar": "شفت بيت أحمر أمس، وشفت بيت أزرق",
+          "en": "I saw a red house yesterday, and I saw a blue house",
+          "translit": "shift bayt ahmar ams, wa shift bayt azraq"
+        },
+        {
+          "ar": "شاف بيت أصفر أمس، وشاف بيت أخضر",
+          "en": "He saw a yellow house yesterday, and he saw a green house",
+          "translit": "shaaf bayt asfar ams, wa shaaf bayt akhdar"
+        },
+        {
+          "ar": "شافت بيت أحمر أمس، وشافت بيت كبير",
+          "en": "She saw a red house yesterday, and she saw a big house",
+          "translit": "shaafat bayt ahmar ams, wa shaafat bayt kabeer"
+        },
+        {
+          "ar": "شفنا بيت أزرق أمس، وشفنا بيت صغير",
+          "en": "We saw a blue house yesterday, and we saw a small house",
+          "translit": "shifna bayt azraq ams, wa shifna bayt sagheer"
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "title": "Feelings and Past Tense",
+      "titleNative": "المشاعر والماضي",
+      "items": [
+        {
+          "ar": "رحت البيت أمس، وأنا تعبان اليوم كثير",
+          "en": "I went home yesterday, and I'm very tired today",
+          "translit": "riHt el-bayt ams, wa ana ta3baan el-yoom katheer"
+        },
+        {
+          "ar": "راح البيت أمس، وهو مبسوط اليوم زين",
+          "en": "He went home yesterday, and he's happy today, good",
+          "translit": "raaH el-bayt ams, wa huwa mabsoot el-yoom zayn"
+        },
+        {
+          "ar": "راحت البيت أمس، وهي جوعان اليوم بس",
+          "en": "She went home yesterday, and she's just hungry today",
+          "translit": "raaHat el-bayt ams, wa hiya joo3aan el-yoom bas"
+        },
+        {
+          "ar": "رحنا البيت أمس، واحنا عطشان اليوم كثير",
+          "en": "We went home yesterday, and we're very thirsty today",
+          "translit": "riHna el-bayt ams, wa i7na 3atshaan el-yoom katheer"
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "title": "Money and Past Tense",
+      "titleNative": "الفلوس والماضي",
+      "items": [
+        {
+          "ar": "شفت هذا أمس، وهذا غالي كثير اليوم",
+          "en": "I saw this yesterday, and this is very expensive today",
+          "translit": "shift hatha ams, wa hatha ghaali katheer el-yoom"
+        },
+        {
+          "ar": "شاف هذا أمس، وهذا رخيص كثير اليوم",
+          "en": "He saw this yesterday, and this is very cheap today",
+          "translit": "shaaf hatha ams, wa hatha rakhees katheer el-yoom"
+        },
+        {
+          "ar": "شافت الفلوس أمس، والفلوس هنا اليوم زين",
+          "en": "She saw the money yesterday, and the money is here today, good",
+          "translit": "shaafat el-fluus ams, wal-fluus hina el-yoom zayn"
+        },
+        {
+          "ar": "شفنا هذا أمس، وشفنا كم هذا اليوم",
+          "en": "We saw this yesterday, and we saw how much this is today",
+          "translit": "shifna hatha ams, wa shifna kam hatha el-yoom"
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "title": "Review: Numbers, Colors, Feelings, Money",
+      "titleNative": "مراجعة",
+      "items": [
+        {
+          "ar": "شفت واحد وبيت أحمر أمس، وأنا زين اليوم",
+          "en": "I saw one and a red house yesterday, and I'm good today",
+          "translit": "shift waahid wa bayt ahmar ams, wa ana zayn el-yoom"
+        },
+        {
+          "ar": "شاف بيت أخضر أمس، وهو مبسوط اليوم كثير",
+          "en": "He saw a green house yesterday, and he's very happy today",
+          "translit": "shaaf bayt akhdar ams, wa huwa mabsoot el-yoom katheer"
+        },
+        {
+          "ar": "شافت هذا أمس، وهذا غالي، بس زين اليوم",
+          "en": "She saw this yesterday, and it's expensive, but good today",
+          "translit": "shaafat hatha ams, wa hatha ghaali, bas zayn el-yoom"
+        },
+        {
+          "ar": "شفنا الفلوس أمس، وشفنا كم هذا زين اليوم",
+          "en": "We saw the money yesterday, and we saw how much this is, good, today",
+          "translit": "shifna el-fluus ams, wa shifna kam hatha zayn el-yoom"
         }
       ]
     }
