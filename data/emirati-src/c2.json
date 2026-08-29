@@ -1,0 +1,302 @@
+{
+  "level": "c2",
+  "grammarTopics": {
+    "c2-chain": {
+      "title": "Four-Clause Fluency",
+      "pattern": "الفعل + لأن + سبب + بس/و + نتيجة + و + تفصيل إضافي",
+      "explanation": "This is the top of the course: sentences that pack four full clauses together the way a fluent speaker actually talks -- a statement, its reason, a contrast or addition, and one more detail, all in a single breath: لازم أروح البيت الحين لأن تعبان كثير، بس أبغى أشرب قهوة زين، وبعدين أشرب مويه (I have to go home now because I'm very tired, but I want to drink good coffee, and then I'll drink water). Nothing here is new grammar -- it's the same simple pieces from the whole course, just chained at native speed.",
+      "fact": "Reaching this level means you can follow (and produce) Gulf Arabic the way it's actually spoken in a real conversation -- not textbook sentences, but the long, looping, reason-then-detail style that native speakers use without even thinking about it.",
+      "dialogue": [
+        {
+          "sp": "A",
+          "native": "لازم أروح البيت الحين لأن تعبان كثير، بس أبغى أشرب قهوة زين، وبعدين أشرب مويه",
+          "en": "I have to go home now because I'm very tired, but I want to drink good coffee, and then I'll drink water"
+        },
+        {
+          "sp": "B",
+          "native": "زين، وأنا لازم أروح بيت أهلي لأن ما شفتهم كثير، بس عندي شغل بعدين",
+          "en": "Okay, and I have to go to my family's house because I haven't seen them much, but I have work later"
+        }
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Going Home, Dense Chain",
+      "titleNative": "أروح البيت، مسلسل كامل",
+      "items": [
+        {
+          "ar": "لازم أروح البيت الحين لأن تعبان كثير، بس أبغى أشرب قهوة زين، وبعدين أشرب مويه",
+          "en": "I have to go home now because I'm very tired, but I want to drink good coffee, and then I'll drink water",
+          "translit": "laazim aruu7 el-bayt el-heen li-ann ta3baan katheer, bas abgha ashrab gahwa zayn, wa ba3dayn ashrab moya"
+        },
+        {
+          "ar": "لازم تروح الشغل بكرا لأن مستعجل كثير، بس عندك شغل زين اليوم، وأبغى أشرب قهوة معاك",
+          "en": "You have to go to work tomorrow because it's very urgent, but you have good work today, and I want to drink coffee with you",
+          "translit": "laazim truu7 esh-shughul bukra li-ann musta3jil katheer, bas aandik shughul zayn el-yoom, wa abgha ashrab gahwa ma3aak"
+        },
+        {
+          "ar": "يروح المطعم اليوم لأن جوعان كثير، بس عنده فلوس زين اليوم، وعنده صديق زين معاه",
+          "en": "He's going to the restaurant today because he's very hungry, but he has good money today, and he has a good friend with him",
+          "translit": "yruu7 el-mat3am el-yoom li-ann jaw3aan katheer, bas aandah fluus zayn el-yoom, wa aandah sadeeq zayn ma3aah"
+        },
+        {
+          "ar": "نروح بيت الأهل بكرا لأن ما شفناهم أمس، بس نشرب قهوة زين معاهم، وبعدين نروح البيت",
+          "en": "We're going to the family's house tomorrow because we didn't see them yesterday, but we'll drink good coffee with them, and then we'll go home",
+          "translit": "nruu7 bayt el-ahl bukra li-ann ma shifnaahum ams, bas nishrab gahwa zayn ma3aahum, wa ba3dayn nruu7 el-bayt"
+        }
+      ],
+      "topicId": "c2-chain"
+    },
+    {
+      "number": 2,
+      "title": "Drinking, Dense Chain",
+      "titleNative": "أشرب، مسلسل كامل",
+      "items": [
+        {
+          "ar": "أشرب قهوة زين اليوم لأن تعبان كثير اليوم، بس عندي شغل بعدين، وأبغى أروح البيت زين",
+          "en": "I'm drinking good coffee today because I'm very tired today, but I have work later, and I want to go home, okay",
+          "translit": "ashrab gahwa zayn el-yoom li-ann ta3baan katheer el-yoom, bas aandi shughul ba3dayn, wa abgha aruu7 el-bayt zayn"
+        },
+        {
+          "ar": "تشرب مويه باردة الحين لأن عطشان كثير، بس بعدين تروح الشغل، وعندك شغل زين اليوم",
+          "en": "You're drinking cold water now because you're very thirsty, but afterward you're going to work, and you have good work today",
+          "translit": "tishrab moya baarda el-heen li-ann 3atshaan katheer, bas ba3dayn truu7 esh-shughul, wa aandik shughul zayn el-yoom"
+        },
+        {
+          "ar": "يشرب شاي زين اليوم لأن تعبان كثير اليوم، ويبغى يروح بيته بعدين، بس عنده صديق معاه زين",
+          "en": "He's drinking good tea today because he's very tired today, and he wants to go home later, but he has a good friend with him",
+          "translit": "yishrab shaay zayn el-yoom li-ann ta3baan katheer el-yoom, wa yabgha yruu7 baytah ba3dayn, bas aandah sadeeq ma3aah zayn"
+        },
+        {
+          "ar": "نشرب قهوة زين اليوم لأن عندنا شغل بعدين، ونروح المطعم بعدين، بس نشرب مويه زين اليوم",
+          "en": "We're drinking good coffee today because we have work later, and we're going to the restaurant later, but we'll drink water, okay",
+          "translit": "nishrab gahwa zayn el-yoom li-ann aandana shughul ba3dayn, wa nruu7 el-mat3am ba3dayn, bas nishrab moya zayn el-yoom"
+        }
+      ],
+      "topicId": "c2-chain"
+    },
+    {
+      "number": 3,
+      "title": "Wanting, Dense Chain",
+      "titleNative": "أبغى، مسلسل كامل",
+      "items": [
+        {
+          "ar": "أبغى بيت جديد اليوم لأن هذا قديم كثير، بس عندي فلوس زين، وأبغى أروح بكرا زين",
+          "en": "I want a new house today because this one is very old, but I have good money, and I want to go tomorrow, okay",
+          "translit": "abgha bayt jideed el-yoom li-ann hatha gadeem katheer, bas aandi fluus zayn, wa abgha aruu7 bukra zayn"
+        },
+        {
+          "ar": "تبغى قهوة زين اليوم لأن تعبانة كثير، بس عندها شغل بعدين، وتبغى تروح البيت زين",
+          "en": "You want good coffee today because you're very tired, but you have work later, and you want to go home, okay",
+          "translit": "tabgha gahwa zayn el-yoom li-ann ta3baana katheer, bas aandaha shughul ba3dayn, wa tabgha truu7 el-bayt zayn"
+        },
+        {
+          "ar": "يبغى يروح المطعم اليوم لأن جوعان كثير، بس عنده صديق زين هناك، ويبغى يشرب قهوة معاه",
+          "en": "He wants to go to the restaurant today because he's very hungry, but he has a good friend there, and he wants to drink coffee with him",
+          "translit": "yabgha yruu7 el-mat3am el-yoom li-ann jaw3aan katheer, bas aandah sadeeq zayn hinaak, wa yabgha yishrab gahwa ma3aah"
+        },
+        {
+          "ar": "أدري وين البيت الجديد اليوم لأن رحت معاه أمس، وهو زين كثير، بس السعر غالي كثير اليوم",
+          "en": "I know where the new house is today because I went there with him yesterday, and it's very good, but the price is very expensive today",
+          "translit": "adri wein el-bayt el-jideed el-yoom li-ann riHt ma3aah ams, wa huwa zayn katheer, bas es-si3ir ghaali katheer el-yoom"
+        }
+      ],
+      "topicId": "c2-chain"
+    },
+    {
+      "number": 4,
+      "title": "Knowing, Dense Chain",
+      "titleNative": "أدري، مسلسل كامل",
+      "items": [
+        {
+          "ar": "أدري وين البيت الجديد لأن رحت معاه أمس، وهو زين كثير، بس مب قريب كثير اليوم",
+          "en": "I know where the new house is because I went there with him yesterday, and it's very good, but it's not very close today",
+          "translit": "adri wein el-bayt el-jideed li-ann riHt ma3aah ams, wa huwa zayn katheer, bas mub gareeb katheer el-yoom"
+        },
+        {
+          "ar": "تدري متى نروح بكرا لأن شفت الأهل اليوم، وانت زين تدري، بس لازم تدرين اليوم زين",
+          "en": "You know when we're going tomorrow because you saw the family today, and you know well, but you should find out today, okay",
+          "translit": "tadri mata nruu7 bukra li-ann shift el-ahl el-yoom, wa inta zayn tadri, bas laazim tadreen el-yoom zayn"
+        },
+        {
+          "ar": "يدري وين المستشفى القريب لأن رحنا معاه أمس، وهو يدري زين، بس مستعجل كثير اليوم هو",
+          "en": "He knows where the near hospital is because we went there with him yesterday, and he knows well, but he's very urgent today",
+          "translit": "yadri wein el-mustashfa el-gareeb li-ann ru7na ma3aah ams, wa huwa yadri zayn, bas musta3jil katheer el-yoom"
+        },
+        {
+          "ar": "ندري وين الأهل الحين لأن شفناهم أمس، وهم مبسوطين كثير اليوم، بس تعبانين كثير اليوم",
+          "en": "We know where the family is now because we saw them yesterday, and they're very happy today, but they're a bit tired today",
+          "translit": "nadri wein el-ahl el-heen li-ann shifnaahum ams, wa hum mabsooteen katheer el-yoom, bas ta3baaneen el-yoom"
+        }
+      ],
+      "topicId": "c2-chain"
+    },
+    {
+      "number": 5,
+      "title": "Review: Dense Chains",
+      "titleNative": "مراجعة",
+      "items": [
+        {
+          "ar": "لازم أروح البيت الحين لأن تعبان كثير، بس أبغى أشرب قهوة زين، وبعدين أشرب مويه",
+          "en": "I have to go home now because I'm very tired, but I want to drink good coffee, and then I'll drink water",
+          "translit": "laazim aruu7 el-bayt el-heen li-ann ta3baan katheer, bas abgha ashrab gahwa zayn, wa ba3dayn ashrab moya"
+        },
+        {
+          "ar": "تشرب مويه باردة الحين لأن عطشان كثير، بس بعدين تروح الشغل، وعندك شغل زين اليوم",
+          "en": "You're drinking cold water now because you're very thirsty, but afterward you're going to work, and you have good work today",
+          "translit": "tishrab moya baarda el-heen li-ann 3atshaan katheer, bas ba3dayn truu7 esh-shughul, wa aandik shughul zayn el-yoom"
+        },
+        {
+          "ar": "يبغى يروح المطعم اليوم لأن جوعان كثير، بس عنده صديق زين هناك، ويبغى يشرب قهوة معاه",
+          "en": "He wants to go to the restaurant today because he's very hungry, but he has a good friend there, and he wants to drink coffee with him",
+          "translit": "yabgha yruu7 el-mat3am el-yoom li-ann jaw3aan katheer, bas aandah sadeeq zayn hinaak, wa yabgha yishrab gahwa ma3aah"
+        },
+        {
+          "ar": "ندري وين الأهل الحين لأن شفناهم أمس، وهم مبسوطين كثير اليوم، بس تعبانين كثير اليوم",
+          "en": "We know where the family is now because we saw them yesterday, and they're very happy today, but they're a bit tired today",
+          "translit": "nadri wein el-ahl el-heen li-ann shifnaahum ams, wa hum mabsooteen katheer el-yoom, bas ta3baaneen el-yoom"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Not Going, Dense Chain",
+      "titleNative": "ما أروح، مسلسل كامل",
+      "items": [
+        {
+          "ar": "ما أروح الشغل اليوم لأن مريض كثير، بس بكرا أروح زين، وأبغى أشرب مويه اليوم",
+          "en": "I'm not going to work today because I'm very sick, but tomorrow I'll go, okay, and I want to drink water today",
+          "translit": "ma aruu7 esh-shughul el-yoom li-ann mareedh katheer, bas bukra aruu7 zayn, wa abgha ashrab moya el-yoom"
+        },
+        {
+          "ar": "ما تشرب قهوة اليوم لأن تعبانة كثير، بس تشرب مويه زين، وعندك شغل زين بعدين",
+          "en": "You're not drinking coffee today because you're very tired, but you're drinking water, okay, and you have good work later",
+          "translit": "ma tishrab gahwa el-yoom li-ann ta3baana katheer, bas tishrab moya zayn, wa aandik shughul zayn ba3dayn"
+        },
+        {
+          "ar": "ما يبغى بيت غالي اليوم لأن ما عنده فلوس، بس يبغى بيت زين، وعنده صديق يدري",
+          "en": "He doesn't want an expensive house today because he doesn't have money, but he wants a good house, and he has a friend who knows",
+          "translit": "ma yabgha bayt ghaali el-yoom li-ann ma aandah fluus, bas yabgha bayt zayn, wa aandah sadeeq yadri"
+        },
+        {
+          "ar": "ما ندري وين نروح بكرا، بس لازم ندري اليوم زين، وعندنا شغل كثير اليوم",
+          "en": "We don't know where we're going tomorrow, but we should find out today, okay, and we have a lot of work today",
+          "translit": "ma nadri wein nruu7 bukra, bas laazim nadri el-yoom zayn, wa aandana shughul katheer el-yoom"
+        }
+      ],
+      "topicId": "c2-chain"
+    },
+    {
+      "number": 7,
+      "title": "Not Wanting, Dense Chain",
+      "titleNative": "ما أبغى، مسلسل كامل",
+      "items": [
+        {
+          "ar": "ما أبغى المطعم الغالي اليوم لأن ما عندي فلوس كثير، بس أبغى قهوة زين، وأبغى أشرب معاك",
+          "en": "I don't want the expensive restaurant today because I don't have a lot of money, but I want good coffee, and I want to drink with you",
+          "translit": "ma abgha el-mat3am el-ghaali el-yoom li-ann ma aandi fluus katheer, bas abgha gahwa zayn, wa abgha ashrab ma3aak"
+        },
+        {
+          "ar": "ما تدري وين البيت الجديد اليوم، بس صديقك زين يدري، ويبغى يروح معاك بكرا زين",
+          "en": "You don't know where the new house is today, but your good friend knows, and he wants to go with you tomorrow, okay",
+          "translit": "ma tadri wein el-bayt el-jideed el-yoom, bas sadeegik zayn yadri, wa yabgha yruu7 ma3aak bukra zayn"
+        },
+        {
+          "ar": "ما يروح المستشفى اليوم لأن مب مريض كثير، بس يروح الدكتور بكرا، وعنده صديق زين معاه",
+          "en": "He's not going to the hospital today because he's not very sick, but he's going to the doctor tomorrow, and he has a good friend with him",
+          "translit": "ma yruu7 el-mustashfa el-yoom li-ann mub mareedh katheer, bas yruu7 ed-doktoor bukra, wa aandah sadeeq zayn ma3aah"
+        },
+        {
+          "ar": "ما نروح بيت صغير اليوم لأن عندنا أهل كثير، بس البيت الكبير غالي، وما عندنا فلوس زين",
+          "en": "We're not going to a small house today because we have a lot of family, but the big house is expensive, and we don't have good money",
+          "translit": "ma nruu7 bayt sagheer el-yoom li-ann aandana ahl katheer, bas el-bayt el-kabeer ghaali, wa ma aandana fluus zayn"
+        }
+      ],
+      "topicId": "c2-chain"
+    },
+    {
+      "number": 8,
+      "title": "Health, Dense Chain",
+      "titleNative": "الصحة، مسلسل كامل",
+      "items": [
+        {
+          "ar": "أروح الدكتور اليوم لأن راسي وجع كثير، بس مب مستعجل كثير، وعندي صديق زين معاي",
+          "en": "I'm going to the doctor today because my head hurts a lot, but it's not very urgent, and I have a good friend with me",
+          "translit": "aruu7 ed-doktoor el-yoom li-ann raasi waja3 katheer, bas mub musta3jil katheer, wa aandi sadeeq zayn ma3aay"
+        },
+        {
+          "ar": "تروحين المستشفى اليوم لأن بطنك وجع كثير، بس أختك زين معاك، ولازم تدرين وين تروحين",
+          "en": "You (f) are going to the hospital today because your stomach hurts a lot, but your sister is good with you, and you should find out where you're going",
+          "translit": "truu7een el-mustashfa el-yoom li-ann batnik waja3 katheer, bas ukhtik zayn ma3aach, wa laazim tadreen wein truu7een"
+        },
+        {
+          "ar": "يروح الدكتور بكرا لأن مريض كثير اليوم، بس عنده صديق زين، ويبغى يشرب مويه بعدين",
+          "en": "He's going to the doctor tomorrow because he's very sick today, but he has a good friend, and he wants to drink water later",
+          "translit": "yruu7 ed-doktoor bukra li-ann mareedh katheer el-yoom, bas aandah sadeeq zayn, wa yabgha yishrab moya ba3dayn"
+        },
+        {
+          "ar": "نروح المستشفى اليوم لأن أهلنا مريضين كثير، وأبغى أشرب مويه بعدين، بس لازم نروح الحين",
+          "en": "We're going to the hospital today because our family is very sick, and I want to drink water later, but we should go now",
+          "translit": "nruu7 el-mustashfa el-yoom li-ann ahalna mareedheen katheer, wa abgha ashrab moya ba3dayn, bas laazim nruu7 el-heen"
+        }
+      ],
+      "topicId": "c2-chain"
+    },
+    {
+      "number": 9,
+      "title": "Family, Dense Chain",
+      "titleNative": "الأهل، مسلسل كامل",
+      "items": [
+        {
+          "ar": "أروح بيت أختي اليوم لأن ما شفتها كثير، وأبغى أشرب قهوة معاها، بس عندي شغل بعدين",
+          "en": "I'm going to my sister's house today because I haven't seen her much, and I want to drink coffee with her, but I have work later",
+          "translit": "aruu7 bayt ukhti el-yoom li-ann ma shifitha katheer, wa abgha ashrab gahwa ma3aaha, bas aandi shughul ba3dayn"
+        },
+        {
+          "ar": "تروح بيت أخوك اليوم لأن عنده مشكلة كبيرة، وتبغى تشرب شاي معاه، بس مشغول كثير",
+          "en": "You're going to your brother's house today because he has a big problem, and you want to drink tea with him, but he's very busy",
+          "translit": "truu7 bayt akhook el-yoom li-ann aandah mushkila kabeera, wa tabgha tishrab shaay ma3aah, bas mashghool katheer"
+        },
+        {
+          "ar": "يروح بيت أهله اليوم لأن ما شافهم كثير، وعنده صديق زين معاه، وأبغى أروح معاهم بكرا",
+          "en": "He's going to his family's house today because he hasn't seen them much, and he has a good friend with him, and I want to go with them tomorrow",
+          "translit": "yruu7 bayt ahlah el-yoom li-ann ma shaafhum katheer, wa aandah sadeeq zayn ma3aah, wa abgha aruu7 ma3aahum bukra"
+        },
+        {
+          "ar": "نروح بيت أهلنا اليوم لأن عندهم مشكلة كبيرة، ونشرب قهوة معاهم زين، بس مستعجلين كثير اليوم",
+          "en": "We're going to our family's house today because they have a big problem, and we'll drink coffee with them, good, but we're very urgent today",
+          "translit": "nruu7 bayt ahalna el-yoom li-ann aandahum mushkila kabeera, wa nishrab gahwa ma3aahum zayn, bas musta3jileen katheer el-yoom"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Review: C2 Recap",
+      "titleNative": "مراجعة نهائية",
+      "items": [
+        {
+          "ar": "ما أروح الشغل اليوم لأن مريض كثير، بس بكرا أروح زين، وأبغى أشرب مويه اليوم",
+          "en": "I'm not going to work today because I'm very sick, but tomorrow I'll go, okay, and I want to drink water today",
+          "translit": "ma aruu7 esh-shughul el-yoom li-ann mareedh katheer, bas bukra aruu7 zayn, wa abgha ashrab moya el-yoom"
+        },
+        {
+          "ar": "أروح الدكتور اليوم لأن راسي وجع كثير، بس مب مستعجل كثير، وعندي صديق زين معاي",
+          "en": "I'm going to the doctor today because my head hurts a lot, but it's not very urgent, and I have a good friend with me",
+          "translit": "aruu7 ed-doktoor el-yoom li-ann raasi waja3 katheer, bas mub musta3jil katheer, wa aandi sadeeq zayn ma3aay"
+        },
+        {
+          "ar": "أروح بيت أختي اليوم لأن ما شفتها كثير، وأبغى أشرب قهوة معاها، بس عندي شغل بعدين",
+          "en": "I'm going to my sister's house today because I haven't seen her much, and I want to drink coffee with her, but I have work later",
+          "translit": "aruu7 bayt ukhti el-yoom li-ann ma shifitha katheer, wa abgha ashrab gahwa ma3aaha, bas aandi shughul ba3dayn"
+        },
+        {
+          "ar": "نروح بيت أهلنا اليوم لأن عندهم مشكلة كبيرة، ونشرب قهوة معاهم زين، بس مستعجلين كثير اليوم",
+          "en": "We're going to our family's house today because they have a big problem, and we'll drink coffee with them, good, but we're very urgent today",
+          "translit": "nruu7 bayt ahalna el-yoom li-ann aandahum mushkila kabeera, wa nishrab gahwa ma3aahum zayn, bas musta3jileen katheer el-yoom"
+        }
+      ]
+    }
+  ]
+}
