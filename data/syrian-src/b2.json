@@ -1,847 +1,1117 @@
 {
-  "level": "b2",
-  "grammarTopics": {
-    "b2-ma": {
-      "title": "Negation: Ma + Verb, Mish + Noun",
-      "pattern": "ما + الفعل المضارع، مش + الاسم/الصفة",
-      "explanation": "ما (ma) negates a present-tense verb directly: ما بشوف البيت اليوم (ma bshuf el-beit el-yom, \"I'm not seeing the house today\"). مش (mish) negates a noun, adjective, or nominal sentence instead: مش منيح (mish mnih, \"not good\") -- verbs take ما, everything else takes مش.",
-      "fact": "In fast, casual Damascus/Aleppo speech, ما often gets pronounced almost as a quick nasal hum fused onto the verb -- so \"ما بعرف\" can sound closer to \"mabaaraf\" than two separate words, even though it's written as two.",
-      "dialogue": [
-        {
-          "sp": "A",
-          "native": "ما بشوف البيت اليوم، مدري ليش",
-          "en": "I don't see the house today, I don't know why"
-        },
-        {
-          "sp": "B",
-          "native": "مش مشكلة، لازم بشوف بكرة",
-          "en": "It's not a problem, you should see it tomorrow"
-        }
-      ]
+ "level": "b2",
+ "grammarTopics": {
+  "b2-ma": {
+   "title": "Negation: Ma + Verb, Mish + Noun",
+   "pattern": "ما + الفعل المضارع، مش + الاسم/الصفة",
+   "explanation": "ما (ma) negates a present-tense verb directly: ما بشوف البيت اليوم (ma bshuf el-beit el-yom, \"I'm not seeing the house today\"). مش (mish) negates a noun, adjective, or nominal sentence instead: مش منيح (mish mnih, \"not good\") -- verbs take ما, everything else takes مش.",
+   "fact": "In fast, casual Damascus/Aleppo speech, ما often gets pronounced almost as a quick nasal hum fused onto the verb -- so \"ما بعرف\" can sound closer to \"mabaaraf\" than two separate words, even though it's written as two.",
+   "dialogue": [
+    {
+     "sp": "A",
+     "native": "ما بشوف البيت اليوم، مدري ليش",
+     "en": "I don't see the house today, I don't know why"
+    },
+    {
+     "sp": "B",
+     "native": "مش مشكلة، لازم بشوف بكرة",
+     "en": "It's not a problem, you should see it tomorrow"
     }
+   ]
+  }
+ },
+ "lessons": [
+  {
+   "number": 1,
+   "title": "I Don't See, I Don't Love",
+   "titleNative": "ما بشوف، ما بحب",
+   "items": [
+    {
+     "ar": "ما بشوف بيت اليوم لأن ما عندي فلوس كتير",
+     "en": "I'm not seeing a house today because I don't have a lot of money",
+     "translit": "ma bshuf beit el-yom la2an ma 3andi fluus kteer"
+    },
+    {
+     "ar": "ما بتشوف الأهل اليوم لأن تعبانة كتير اليوم",
+     "en": "You're not seeing the family today because you're very tired today",
+     "translit": "ma btshuf el-ahl el-yom la2an ta3baane kteer el-yom"
+    },
+    {
+     "ar": "ما بيحب القهوة اليوم، بيحب الشاي منيح كتير",
+     "en": "He doesn't love coffee today, he loves tea a lot",
+     "translit": "ma by7ibb el-ahwe el-yom, by7ibb esh-shay mnih kteer"
+    },
+    {
+     "ar": "ما بتحب هاد البيت لأن قديم كتير ومش منيح",
+     "en": "You don't love this house because it's very old and not good",
+     "translit": "ma bt7ibb haad el-beit la2an adeem kteer wa mish mnih"
+    }
+   ],
+   "topicId": "b2-ma"
   },
-  "lessons": [
+  {
+   "number": 2,
+   "title": "She Doesn't, We Don't",
+   "titleNative": "ما بتشوف، ما منشوف",
+   "items": [
     {
-      "number": 1,
-      "title": "I Don't See, I Don't Love",
-      "titleNative": "ما بشوف، ما بحب",
-      "items": [
-        {
-          "ar": "ما بشوف بيت اليوم لأن ما عندي فلوس كتير",
-          "en": "I'm not seeing a house today because I don't have a lot of money",
-          "translit": "ma bshuf beit el-yom la2an ma 3andi fluus kteer"
-        },
-        {
-          "ar": "ما بتشوف الأهل اليوم لأن تعبانة كتير اليوم",
-          "en": "You're not seeing the family today because you're very tired today",
-          "translit": "ma btshuf el-ahl el-yom la2an ta3baane kteer el-yom"
-        },
-        {
-          "ar": "ما بيحب القهوة اليوم، بيحب الشاي منيح كتير",
-          "en": "He doesn't love coffee today, he loves tea a lot",
-          "translit": "ma by7ibb el-ahwe el-yom, by7ibb esh-shay mnih kteer"
-        },
-        {
-          "ar": "ما بتحب هاد البيت لأن قديم كتير ومش منيح",
-          "en": "You don't love this house because it's very old and not good",
-          "translit": "ma bt7ibb haad el-beit la2an adeem kteer wa mish mnih"
-        }
-      ],
-      "topicId": "b2-ma"
+     "ar": "ما بتشوف بيت اليوم لأن غالي كتير هونيك اليوم",
+     "en": "She's not seeing a house today because it's very expensive there today",
+     "translit": "ma btshuf beit el-yom la2an ghali kteer hownik el-yom"
     },
     {
-      "number": 2,
-      "title": "She Doesn't, We Don't",
-      "titleNative": "ما بتشوف، ما منشوف",
-      "items": [
-        {
-          "ar": "ما بتشوف بيت اليوم لأن غالي كتير هونيك اليوم",
-          "en": "She's not seeing a house today because it's very expensive there today",
-          "translit": "ma btshuf beit el-yom la2an ghali kteer hownik el-yom"
-        },
-        {
-          "ar": "ما منشوف بيت اليوم لأن تعبانين كتير اليوم",
-          "en": "We're not seeing a house today because we're very tired today",
-          "translit": "ma mnshuf beit el-yom la2an ta3baaneen kteer el-yom"
-        },
-        {
-          "ar": "ما بتشوفو الأهل اليوم لأن بتحبو بتشوفوهم بكرة منيح",
-          "en": "You all aren't seeing the family today because you love seeing them tomorrow, good",
-          "translit": "ma btshufo el-ahl el-yom la2an bt7ibbo btshufohon bukra mnih"
-        },
-        {
-          "ar": "ما بيشوفو بيت اليوم لأن عندن شي كتير هلق",
-          "en": "They're not seeing a house today because they have a lot right now",
-          "translit": "ma byshufo beit el-yom la2an 3andon shi kteer hala2"
-        }
-      ],
-      "topicId": "b2-ma"
+     "ar": "ما منشوف بيت اليوم لأن تعبانين كتير اليوم",
+     "en": "We're not seeing a house today because we're very tired today",
+     "translit": "ma mnshuf beit el-yom la2an ta3baaneen kteer el-yom"
     },
     {
-      "number": 3,
-      "title": "Not This, Not That",
-      "titleNative": "مش هاد، مش هاي",
-      "items": [
-        {
-          "ar": "هاد البيت مش منيح كتير، بدي بشوف بيت جديد بكرة",
-          "en": "This house isn't very good, I want to see a new house tomorrow",
-          "translit": "haad el-beit mish mnih kteer, biddi bshuf beit jdeed bukra"
-        },
-        {
-          "ar": "هاي القهوة مش رخيصة، غالية كتير اليوم هون",
-          "en": "This coffee isn't cheap, it's very expensive here today",
-          "translit": "hayy el-ahwe mish rkhees, ghalye kteer el-yom hown"
-        },
-        {
-          "ar": "هدول الأهل مش تعبانين اليوم، لازم بشوف بيتهم بكرة",
-          "en": "This family isn't busy today, I should see their house tomorrow",
-          "translit": "hadol el-ahl mish mashgholeen el-yom, lazim bshuf beithon bukra"
-        },
-        {
-          "ar": "ما بدي هاد البيت لأن مش قريب منيح اليوم",
-          "en": "I don't want this house because it's not close and good today",
-          "translit": "ma biddi haad el-beit la2an mish 2areeb mnih el-yom"
-        }
-      ],
-      "topicId": "b2-ma"
+     "ar": "ما بتشوفو الأهل اليوم لأن بتحبو بتشوفوهم بكرة منيح",
+     "en": "You all aren't seeing the family today because you love seeing them tomorrow, good",
+     "translit": "ma btshufo el-ahl el-yom la2an bt7ibbo btshufohon bukra mnih"
     },
     {
-      "number": 4,
-      "title": "Not Because, But Because",
-      "titleNative": "مش لأن، بس لأن",
-      "items": [
-        {
-          "ar": "ما بشوف بيت اليوم مش لأن تعبان، بس لأن تعبان",
-          "en": "I'm not seeing a house today not because I'm busy, but because I'm tired",
-          "translit": "ma bshuf beit el-yom mish la2an mashghool, bas la2an ta3baan"
-        },
-        {
-          "ar": "ما بتشوفي بيت هلق مش لأن ما بتحبي، بس لأن تعبانة",
-          "en": "You're not seeing a house now not because you don't love it, but because you're tired",
-          "translit": "ma btshufi beit hala2 mish la2an ma bt7ibbi, bas la2an ta3baane"
-        },
-        {
-          "ar": "ما بيشوف الأهل مش لأن زعلان، بس لأن عنده شي كتير",
-          "en": "He's not seeing the family not because he's upset, but because he has a lot",
-          "translit": "ma byshuf el-ahl mish la2an za3laan, bas la2an 3ando shi kteer"
-        },
-        {
-          "ar": "ما منشوف بيت مش لأن ما منحب، بس لأن ما عندنا فلوس",
-          "en": "We're not seeing a house not because we don't love it, but because we don't have money",
-          "translit": "ma mnshuf beit mish la2an ma mn7ibb, bas la2an ma 3andna fluus"
-        }
-      ],
-      "topicId": "b2-ma"
-    },
-    {
-      "number": 5,
-      "title": "Review: Negation",
-      "titleNative": "مراجعة",
-      "items": [
-        {
-          "ar": "ما بشوف بيت اليوم لأن ما عندي فلوس كتير هلق",
-          "en": "I'm not seeing a house today because I don't have a lot of money right now",
-          "translit": "ma bshuf beit el-yom la2an ma 3andi fluus kteer hala2"
-        },
-        {
-          "ar": "هاد البيت مش منيح كتير، ما بدي بشوف هونيك بكرة",
-          "en": "This house isn't very good, I don't want to see it there tomorrow",
-          "translit": "haad el-beit mish mnih kteer, ma biddi bshuf hownik bukra"
-        },
-        {
-          "ar": "ما بتشوف الأهل مش لأن تعبانة، بس لأن تعبانة كتير",
-          "en": "You're not seeing the family not because you're busy, but because you're very tired",
-          "translit": "ma btshuf el-ahl mish la2an mashghole, bas la2an ta3baane kteer"
-        },
-        {
-          "ar": "ما منشوف بيت اليوم، لازم منشوف بكرة لأن عندنا فلوس",
-          "en": "We're not seeing a house today, we should see one tomorrow because we have money",
-          "translit": "ma mnshuf beit el-yom, lazim mnshuf bukra la2an 3andna fluus"
-        }
-      ]
-    },
-    {
-      "number": 6,
-      "title": "Negation and Money",
-      "titleNative": "النفي والفلوس",
-      "items": [
-        {
-          "ar": "ما بدي هاد البيت لأن غالي كتير اليوم",
-          "en": "I don't want this house because the price is very expensive today",
-          "translit": "ma biddi haad el-beit la2an es-si3ir ghali kteer el-yom"
-        },
-        {
-          "ar": "ما عندي فلوس كتير اليوم، ما بشوف بيت غالي",
-          "en": "I don't have a lot of money today, I'm not seeing an expensive house",
-          "translit": "ma 3andi fluus kteer el-yom, ma bshuf beit ghali"
-        },
-        {
-          "ar": "ما عنده فلوس منيح اليوم، ما بيحب قهوة غالية بكرة",
-          "en": "He doesn't have good money today, he's not loving expensive coffee tomorrow",
-          "translit": "ma 3ando fluus mnih el-yom, ma by7ibb ahwe ghalye bukra"
-        },
-        {
-          "ar": "ما عندنا فلوس كتير اليوم، ما منشوف بيت غالي بكرة",
-          "en": "We don't have a lot of money today, we're not seeing an expensive house tomorrow",
-          "translit": "ma 3andna fluus kteer el-yom, ma mnshuf beit ghali bukra"
-        }
-      ]
-    },
-    {
-      "number": 7,
-      "title": "Negation and Family",
-      "titleNative": "النفي والأهل",
-      "items": [
-        {
-          "ar": "ما شفت الأهل مبارح، بدي بشوف بيتهم اليوم منيح",
-          "en": "I didn't see the family yesterday, I want to see their house today, good",
-          "translit": "ma shift el-ahl mbare7, biddi bshuf beithon el-yom mnih"
-        },
-        {
-          "ar": "ما شفت بيت الأهل اليوم لأن تعبان كتير اليوم",
-          "en": "I didn't see the family's house today because I'm very tired today",
-          "translit": "ma shift beit el-ahl el-yom la2an ta3baan kteer el-yom"
-        },
-        {
-          "ar": "ما شافت الأهل مبارح، بتحب بتشوفهم بكرة منيح كتير",
-          "en": "She didn't see the family yesterday, she loves seeing them tomorrow, very good",
-          "translit": "ma shafit el-ahl mbare7, bt7ibb btshufon bukra mnih kteer"
-        },
-        {
-          "ar": "ما شفنا بيت الأهل اليوم لأن السيارة عندن مش هون",
-          "en": "We didn't see the family's house today because their car isn't here",
-          "translit": "ma shifna beit el-ahl el-yom la2an es-sayyara 3andon mish hown"
-        }
-      ]
-    },
-    {
-      "number": 8,
-      "title": "Negation and Colors",
-      "titleNative": "النفي والألوان",
-      "items": [
-        {
-          "ar": "ما بدي البيت الأحمر، بدي البيت الأزرق الجديد بكرة",
-          "en": "I don't want the red house, I want the new blue house tomorrow",
-          "translit": "ma biddi el-beit el-a7mar, biddi el-beit el-azra2 el-jdeed bukra"
-        },
-        {
-          "ar": "ما بتحب البيت الأصفر، بتحب البيت الأسود الجديد كتير",
-          "en": "You don't love the yellow house, you love the new black house a lot",
-          "translit": "ma bt7ibb el-beit el-asfar, bt7ibb el-beit el-aswad el-jdeed kteer"
-        },
-        {
-          "ar": "ما بيحب البيت الأخضر لأن مش قريب منيح اليوم",
-          "en": "He doesn't love the green house because it's not close and good today",
-          "translit": "ma by7ibb el-beit el-akhdar la2an mish 2areeb mnih el-yom"
-        },
-        {
-          "ar": "ما منحب البيت الأبيض، منحب بيت كبير وجديد منيح",
-          "en": "We don't love the white house, we love a big, new, good house",
-          "translit": "ma mn7ibb el-beit el-abyad, mn7ibb beit kbeer wa jdeed mnih"
-        }
-      ]
-    },
-    {
-      "number": 9,
-      "title": "Negation and Places",
-      "titleNative": "النفي والأماكن",
-      "items": [
-        {
-          "ar": "ما بشوف بيت قريب اليوم، بشوف بيت بعيد بكرة",
-          "en": "I'm not seeing a nearby house today, I'm seeing a far house tomorrow",
-          "translit": "ma bshuf beit 2areeb el-yom, bshuf beit ba3eed bukra"
-        },
-        {
-          "ar": "ما بتشوف بيت هون اليوم، لازم بتشوف بيت هونيك بكرة",
-          "en": "You're not seeing a house here today, you should see a house there tomorrow",
-          "translit": "ma btshuf beit hown el-yom, lazim btshuf beit hownik bukra"
-        },
-        {
-          "ar": "ما بيشوف بيت هلق لأن صديقه هونيك اليوم منيح",
-          "en": "He's not seeing a house now because his friend is there today, good",
-          "translit": "ma byshuf beit hala2 la2an sadeeqo hownik el-yom mnih"
-        },
-        {
-          "ar": "ما منشوف هونيك اليوم، منشوف هون لأن قريب منيح كتير",
-          "en": "We're not seeing there today, we're seeing here because it's much closer, good",
-          "translit": "ma mnshuf hownik el-yom, mnshuf hown la2an 2areeb mnih kteer"
-        }
-      ]
-    },
-    {
-      "number": 10,
-      "title": "Review: B2 Recap",
-      "titleNative": "مراجعة نهائية",
-      "items": [
-        {
-          "ar": "ما بدي هاد البيت لأن غالي كتير، بدي بيت رخيص",
-          "en": "I don't want this house because it's very expensive, I want a cheap house",
-          "translit": "ma biddi haad el-beit la2an ghali kteer, biddi beit rkhees"
-        },
-        {
-          "ar": "ما شفت الأهل مبارح، بدي بشوف بيتهم بكرة منيح كتير",
-          "en": "I didn't see the family yesterday, I want to see their house tomorrow, very good",
-          "translit": "ma shift el-ahl mbare7, biddi bshuf beithon bukra mnih kteer"
-        },
-        {
-          "ar": "ما بتحب البيت الأحمر، بتحب البيت الأزرق الجديد بكرة",
-          "en": "You don't love the red house, you love the new blue house tomorrow",
-          "translit": "ma bt7ibb el-beit el-a7mar, bt7ibb el-beit el-azra2 el-jdeed bukra"
-        },
-        {
-          "ar": "ما منشوف بيت بعيد اليوم، منشوف قريب لأن رخيص منيح",
-          "en": "We're not seeing a far house today, we're seeing a near one because it's cheap, good",
-          "translit": "ma mnshuf beit ba3eed el-yom, mnshuf 2areeb la2an rkhees mnih"
-        }
-      ]
-    },
-    {
-      "number": 11,
-      "title": "I'm Not Tired",
-      "titleNative": "أنا مش تعبان",
-      "items": [
-        {
-          "ar": "أنا مش تعبان اليوم، بس عندي شي كتير هلق",
-          "en": "I'm not tired today, I just have a lot right now",
-          "translit": "ana mish ta3baan el-yom, bas 3andi shi kteer hala2"
-        },
-        {
-          "ar": "ما بتحبي هاد البيت اليوم لأن مش منيح كتير",
-          "en": "You don't love this house today because it's not very good",
-          "translit": "ma bt7ibbi haad el-beit el-yom la2an mish mnih kteer"
-        },
-        {
-          "ar": "هو مش زعلان اليوم، بس تعبان كتير اليوم",
-          "en": "He's not upset today, just very tired today",
-          "translit": "huwwe mish za3laan el-yom, bas ta3baan kteer el-yom"
-        },
-        {
-          "ar": "ما منشوف الأهل هلق لأن الأهل مش هون اليوم",
-          "en": "We're not seeing the family now because the family isn't here today",
-          "translit": "ma mnshuf el-ahl hala2 la2an el-ahl mish hown el-yom"
-        }
-      ],
-      "topicId": "b2-ma"
-    },
-    {
-      "number": 12,
-      "title": "Not Good, Not Bad",
-      "titleNative": "مش منيح، مش منيح كمان",
-      "items": [
-        {
-          "ar": "هي مش تعبانة اليوم، بس عندا شي كتير هلق",
-          "en": "She's not tired today, she just has a lot right now",
-          "translit": "hiyye mish ta3baane el-yom, bas 3anda shi kteer hala2"
-        },
-        {
-          "ar": "ما بدي بشوف بيت اليوم لأن مش منيح هلق",
-          "en": "I don't want to see a house today because it's not good right now",
-          "translit": "ma biddi bshuf beit el-yom la2an mish mnih hala2"
-        },
-        {
-          "ar": "نحنا مش زعلانين اليوم، بس تعبانين كتير اليوم",
-          "en": "We're not upset today, just very tired today",
-          "translit": "ni7na mish za3laaneen el-yom, bas ta3baaneen kteer el-yom"
-        },
-        {
-          "ar": "هني مش منيحين اليوم لأن ما شافو الأهل مبارح",
-          "en": "They're not good today because they didn't see the family yesterday",
-          "translit": "hinne mish mnihheen el-yom la2an ma shafo el-ahl mbare7"
-        }
-      ],
-      "topicId": "b2-ma"
-    },
-    {
-      "number": 13,
-      "title": "Not One, Not Two",
-      "titleNative": "مش واحد، مش تنين",
-      "items": [
-        {
-          "ar": "عندي مش واحد اليوم، عندي تلاتة منيح والحمدلله",
-          "en": "I don't have one today, I have three, good, thank God",
-          "translit": "3andi mish wahed el-yom, 3andi tlete mnih wal-hamdulillah"
-        },
-        {
-          "ar": "عنده مش خمسة اليوم، عنده سبعة كتير منيح",
-          "en": "He doesn't have five today, he has seven, very good",
-          "translit": "3ando mish khamse el-yom, 3ando sab3a kteer mnih"
-        },
-        {
-          "ar": "ما شفت تنين اليوم، شفت أربعة منيح مع الأهل",
-          "en": "I didn't see two today, I saw four, good, with the family",
-          "translit": "ma shift tnein el-yom, shift arba3a mnih ma3 el-ahl"
-        },
-        {
-          "ar": "عندنا مش تسعة اليوم، عندنا عشرة منيح والحمدلله",
-          "en": "We don't have nine today, we have ten, good, thank God",
-          "translit": "3andna mish tis3a el-yom, 3andna 3ashra mnih wal-hamdulillah"
-        }
-      ],
-      "topicId": "b2-ma"
-    },
-    {
-      "number": 14,
-      "title": "Not Today, Not Friday",
-      "titleNative": "مش اليوم، مش الجمعة",
-      "items": [
-        {
-          "ar": "ما بشوف بيت اليوم، بشوف بكرة لأن تعبان كتير",
-          "en": "I'm not seeing a house today, I'm seeing one tomorrow because I'm very tired",
-          "translit": "ma bshuf beit el-yom, bshuf bukra la2an ta3baan kteer"
-        },
-        {
-          "ar": "يوم الجمعة مش منيح اليوم، يوم السبت منيح كتير",
-          "en": "Friday isn't good today, Saturday is very good",
-          "translit": "yom el-jum3a mish mnih el-yom, yom es-sabt mnih kteer"
-        },
-        {
-          "ar": "ما بتشوف بيت يوم الخميس، بتشوف يوم الجمعة منيح",
-          "en": "You're not seeing a house on Thursday, you're seeing one on Friday, good",
-          "translit": "ma btshuf beit yom el-khamees, btshuf yom el-jum3a mnih"
-        },
-        {
-          "ar": "ما شفنا الأهل يوم الأحد، شفناهن يوم الاثنين منيح",
-          "en": "We didn't see the family on Sunday, we saw them on Monday, good",
-          "translit": "ma shifna el-ahl yom el-a7ad, shifnahon yom el-tnein mnih"
-        }
-      ],
-      "topicId": "b2-ma"
-    },
-    {
-      "number": 15,
-      "title": "Review: Negation with Feelings, Numbers, Days",
-      "titleNative": "مراجعة",
-      "items": [
-        {
-          "ar": "أنا مش تعبان اليوم، بس عندي شي كتير هلق",
-          "en": "I'm not tired today, I just have a lot right now",
-          "translit": "ana mish ta3baan el-yom, bas 3andi shi kteer hala2"
-        },
-        {
-          "ar": "هي مش زعلانة اليوم، عندا صديق منيح هونيك اليوم",
-          "en": "She's not upset today, she has a good friend there today",
-          "translit": "hiyye mish za3laane el-yom, 3anda sadeeq mnih hownik el-yom"
-        },
-        {
-          "ar": "ما شفنا بيت يوم الجمعة، شفنا بيت يوم السبت منيح",
-          "en": "We didn't see a house on Friday, we saw one on Saturday, good",
-          "translit": "ma shifna beit yom el-jum3a, shifna beit yom es-sabt mnih"
-        },
-        {
-          "ar": "نحنا مش تعبانين اليوم، بس منيحين كتير اليوم",
-          "en": "We're not tired today, just very good today",
-          "translit": "ni7na mish ta3baaneen el-yom, bas mnihheen kteer el-yom"
-        }
-      ]
-    },
-    {
-      "number": 16,
-      "title": "Not Expensive, Not Cheap",
-      "titleNative": "مش غالي، مش رخيص",
-      "items": [
-        {
-          "ar": "هاد البيت مش غالي كتير، منيح كتير اليوم بس",
-          "en": "This house isn't very expensive, it's very good today",
-          "translit": "haad el-beit mish ghali kteer, mnih kteer el-yom bas"
-        },
-        {
-          "ar": "ما عندي فلوس كتير اليوم، بدي بيت رخيص بس منيح",
-          "en": "I don't have a lot of money today, I just want a cheap, good house",
-          "translit": "ma 3andi fluus kteer el-yom, biddi beit rkhees bas mnih"
-        },
-        {
-          "ar": "هاي القهوة مش رخيصة كتير، غالية كتير اليوم",
-          "en": "This coffee isn't very cheap, it's expensive today",
-          "translit": "hayy el-ahwe mish rkhees kteer, ghalye kteer el-yom"
-        },
-        {
-          "ar": "ما منحب بيت غالي اليوم، منحب بيت رخيص ومنيح",
-          "en": "We don't love an expensive house today, we love a cheap, good house",
-          "translit": "ma mn7ibb beit ghali el-yom, mn7ibb beit rkhees wa mnih"
-        }
-      ]
-    },
-    {
-      "number": 17,
-      "title": "Not This Family, That Family",
-      "titleNative": "مش هدول، هدول التانيين",
-      "items": [
-        {
-          "ar": "ما شفت الأهل اليوم، شفت صديق منيح كتير هلق",
-          "en": "I didn't see the family today, I saw a good friend right now",
-          "translit": "ma shift el-ahl el-yom, shift sadeeq mnih kteer hala2"
-        },
-        {
-          "ar": "ما شافت أهلها اليوم، شافت أهل صديقها منيح كتير",
-          "en": "She didn't see her family today, she saw her friend's family, very good",
-          "translit": "ma shafit ahilha el-yom, shafit ahl sadeeqha mnih kteer"
-        },
-        {
-          "ar": "ما عندنا أهل هونيك اليوم، عندنا أهل هون منيح",
-          "en": "We don't have family there today, we have family here, good",
-          "translit": "ma 3andna ahl hownik el-yom, 3andna ahl hown mnih"
-        },
-        {
-          "ar": "هاد مش أهلي، هاد صديق منيح كتير من هلق",
-          "en": "This isn't my family, this is a very good friend right now",
-          "translit": "haad mish ahli, haad sadeeq mnih kteer hala2"
-        }
-      ]
-    },
-    {
-      "number": 18,
-      "title": "Not Near, Not Far",
-      "titleNative": "مش قريب، مش بعيد",
-      "items": [
-        {
-          "ar": "هاد البيت مش قريب كتير، بعيد كتير اليوم هلق",
-          "en": "This house isn't close, it's very far today right now",
-          "translit": "haad el-beit mish 2areeb kteer, ba3eed kteer el-yom hala2"
-        },
-        {
-          "ar": "ما بتشوف بيت هون اليوم، بتشوف بيت هونيك منيح",
-          "en": "You're not seeing a house here today, you're seeing one there, good",
-          "translit": "ma btshuf beit hown el-yom, btshuf beit hownik mnih"
-        },
-        {
-          "ar": "ما بيشوف بيت بعيد اليوم، بيشوف بيت قريب منيح",
-          "en": "He's not seeing a far house today, he's seeing a near one, good",
-          "translit": "ma byshuf beit ba3eed el-yom, byshuf beit 2areeb mnih"
-        },
-        {
-          "ar": "ما منشوف هونيك اليوم، منشوف هون لأن قريب ومنيح",
-          "en": "We're not seeing there today, we're seeing here because it's close and good",
-          "translit": "ma mnshuf hownik el-yom, mnshuf hown la2an 2areeb wa mnih"
-        }
-      ]
-    },
-    {
-      "number": 19,
-      "title": "Not Red, Not Blue",
-      "titleNative": "مش أحمر، مش أزرق",
-      "items": [
-        {
-          "ar": "ما بدي البيت الأحمر اليوم، بدي البيت الأخضر بكرة",
-          "en": "I don't want the red house today, I want the green house tomorrow",
-          "translit": "ma biddi el-beit el-a7mar el-yom, biddi el-beit el-akhdar bukra"
-        },
-        {
-          "ar": "ما بتحب البيت الأصفر اليوم، بتحب البيت الأبيض كتير",
-          "en": "You don't love the yellow house today, you love the white house a lot",
-          "translit": "ma bt7ibb el-beit el-asfar el-yom, bt7ibb el-beit el-abyad kteer"
-        },
-        {
-          "ar": "ما بيحب البيت الأسود، بيحب البيت الأخضر الجديد منيح",
-          "en": "He doesn't love the black house, he loves the new green house, good",
-          "translit": "ma by7ibb el-beit el-aswad, by7ibb el-beit el-akhdar el-jdeed mnih"
-        },
-        {
-          "ar": "ما منحب بيت أزرق اليوم، منحب بيت أبيض وجديد",
-          "en": "We don't love a blue house today, we love a white, new house",
-          "translit": "ma mn7ibb beit azra2 el-yom, mn7ibb beit abyad wa jdeed"
-        }
-      ]
-    },
-    {
-      "number": 20,
-      "title": "Review: B2 Recap",
-      "titleNative": "مراجعة نهائية",
-      "items": [
-        {
-          "ar": "هاد البيت مش غالي كتير، منيح، بدي بشوف بكرة",
-          "en": "This house isn't very expensive, it's good, I want to see it tomorrow",
-          "translit": "haad el-beit mish ghali kteer, mnih, biddi bshuf bukra"
-        },
-        {
-          "ar": "ما شفت الأهل اليوم، شفت صديق منيح كتير هلق",
-          "en": "I didn't see the family today, I saw a very good friend right now",
-          "translit": "ma shift el-ahl el-yom, shift sadeeq mnih kteer hala2"
-        },
-        {
-          "ar": "هاد البيت مش قريب، بس مش غالي كتير منيح",
-          "en": "This house isn't close, but it's not very expensive, good",
-          "translit": "haad el-beit mish 2areeb, bas mish ghali kteer mnih"
-        },
-        {
-          "ar": "ما منحب البيت الأحمر اليوم، منحب البيت الأزرق الجديد",
-          "en": "We don't love the red house today, we love the new blue house",
-          "translit": "ma mn7ibb el-beit el-a7mar el-yom, mn7ibb el-beit el-azra2 el-jdeed"
-        }
-      ]
-    },
-    {
-      "number": 21,
-      "title": "You Don't Have to See It",
-      "titleNative": "ما لازم بتشوف",
-      "items": [
-        {
-          "ar": "ما لازم بشوف بيت اليوم لأن مش منيح كتير",
-          "en": "I don't have to see a house today because it's not very good",
-          "translit": "ma lazim bshuf beit el-yom la2an mish mnih kteer"
-        },
-        {
-          "ar": "ما لازم بتحب هاد البيت، بتحب بيت جديد منيح",
-          "en": "You don't have to love this house, you love a new good house",
-          "translit": "ma lazim bt7ibb haad el-beit, bt7ibb beit jdeed mnih"
-        },
-        {
-          "ar": "ما لازم بيشوف بيت اليوم لأن مش تعبان كتير",
-          "en": "He doesn't have to see a house today because he's not very tired",
-          "translit": "ma lazim byshuf beit el-yom la2an mish ta3baan kteer"
-        },
-        {
-          "ar": "ما لازم منحب القهوة هلق، عندنا شاي منيح كتير",
-          "en": "We don't have to love the coffee now, we have very good tea",
-          "translit": "ma lazim mn7ibb el-ahwe hala2, 3andna shay mnih kteer"
-        }
-      ],
-      "topicId": "b2-ma"
-    },
-    {
-      "number": 22,
-      "title": "She Doesn't Have To, You All Don't Have To",
-      "titleNative": "ما لازم بتشوف، ما لازم بتشوفو",
-      "items": [
-        {
-          "ar": "ما لازم بتشوف بيت هلق لأن مش تعبانة كتير",
-          "en": "She doesn't have to see a house now because she's not very tired",
-          "translit": "ma lazim btshuf beit hala2 la2an mish ta3baane kteer"
-        },
-        {
-          "ar": "ما لازم بتشوفو بيت هلق لأن مش تعبانين كتير",
-          "en": "You all don't have to see a house now because you're not very tired",
-          "translit": "ma lazim btshufo beit hala2 la2an mish ta3baaneen kteer"
-        },
-        {
-          "ar": "ما لازم بيشوفو بيت هلق لأن مش تعبانين كتير",
-          "en": "They don't have to see a house now because they're not very tired",
-          "translit": "ma lazim byshufo beit hala2 la2an mish ta3baaneen kteer"
-        },
-        {
-          "ar": "ما لازم بشوف بيت بكرة لأن عندي بيت منيح",
-          "en": "I don't have to see a house tomorrow because I have a good house",
-          "translit": "ma lazim bshuf beit bukra la2an 3andi beit mnih"
-        }
-      ],
-      "topicId": "b2-ma"
-    },
-    {
-      "number": 23,
-      "title": "I Don't Want, You Don't See",
-      "titleNative": "ما بدي، ما بتشوف",
-      "items": [
-        {
-          "ar": "ما بدي بشوف هاد البيت، بدي بشوف بيت جديد بكرة",
-          "en": "I don't want to see this house, I want to see a new house tomorrow",
-          "translit": "ma biddi bshuf haad el-beit, biddi bshuf beit jdeed bukra"
-        },
-        {
-          "ar": "ما بتشوف بيت اليوم لأن مش عندك فلوس كتير",
-          "en": "You're not seeing a house today because you don't have a lot of money",
-          "translit": "ma btshuf beit el-yom la2an mish 3andak fluus kteer"
-        },
-        {
-          "ar": "ما بيحب هاد البيت، بيحب البيت الجديد الأخضر كتير",
-          "en": "He doesn't love this house, he loves the new green house a lot",
-          "translit": "ma by7ibb haad el-beit, by7ibb el-beit el-jdeed el-akhdar kteer"
-        },
-        {
-          "ar": "ما منشوف بيت غالي اليوم، منشوف بيت رخيص بكرة",
-          "en": "We're not seeing an expensive house today, we're seeing a cheap house tomorrow",
-          "translit": "ma mnshuf beit ghali el-yom, mnshuf beit rkhees bukra"
-        }
-      ],
-      "topicId": "b2-ma"
-    },
-    {
-      "number": 24,
-      "title": "They Don't Love, We Don't Want",
-      "titleNative": "ما بيحبو، ما منشوف",
-      "items": [
-        {
-          "ar": "ما بتشوفو بيت اليوم، بس عندكن بيت منيح هون",
-          "en": "You all aren't seeing a house today, but you have a good house here",
-          "translit": "ma btshufo beit el-yom, bas 3andkon beit mnih hown"
-        },
-        {
-          "ar": "ما بيحبو هاد البيت، بيحبو البيت الجديد الأبيض كتير",
-          "en": "They don't love this house, they love the new white house a lot",
-          "translit": "ma by7ibbo haad el-beit, by7ibbo el-beit el-jdeed el-abyad kteer"
-        },
-        {
-          "ar": "ما منشوف بيت غالي اليوم، منشوف بيت رخيص وقريب",
-          "en": "We're not seeing an expensive house today, we're seeing a cheap, close house",
-          "translit": "ma mnshuf beit ghali el-yom, mnshuf beit rkhees wa 2areeb"
-        },
-        {
-          "ar": "ما بدي بشوف بيت بعيد اليوم، بدي بشوف بيت قريب",
-          "en": "I don't want to see a far house today, I want to see a near house",
-          "translit": "ma biddi bshuf beit ba3eed el-yom, biddi bshuf beit 2areeb"
-        }
-      ],
-      "topicId": "b2-ma"
-    },
-    {
-      "number": 25,
-      "title": "Review: Negation with Lazim, See, Want",
-      "titleNative": "مراجعة",
-      "items": [
-        {
-          "ar": "ما لازم بشوف بيت اليوم لأن مش منيح كتير",
-          "en": "I don't have to see a house today because it's not very good",
-          "translit": "ma lazim bshuf beit el-yom la2an mish mnih kteer"
-        },
-        {
-          "ar": "ما بدي بشوف هاد البيت، بدي بحب القهوة هلق",
-          "en": "I don't want to see this house, I want to love the coffee now",
-          "translit": "ma biddi bshuf haad el-beit, biddi b7ibb el-ahwe hala2"
-        },
-        {
-          "ar": "ما بيحبو هاد البيت، بس ما بيحبو بيت غالي",
-          "en": "They don't love this house, but they don't love an expensive house either",
-          "translit": "ma by7ibbo haad el-beit, bas ma by7ibbo beit ghali"
-        },
-        {
-          "ar": "ما منشوف بيت غالي اليوم، منشوف بيت رخيص وقريب",
-          "en": "We're not seeing an expensive house today, we're seeing a cheap, close house",
-          "translit": "ma mnshuf beit ghali el-yom, mnshuf beit rkhees wa 2areeb"
-        }
-      ]
-    },
-    {
-      "number": 26,
-      "title": "A Day of Negation",
-      "titleNative": "يوم من النفي",
-      "items": [
-        {
-          "ar": "ما بحب القهوة الصباح اليوم، بحب الشاي منيح كتير",
-          "en": "I'm not loving coffee this morning today, I love tea a lot",
-          "translit": "ma b7ibb el-ahwe es-sabah el-yom, b7ibb esh-shay mnih kteer"
-        },
-        {
-          "ar": "ما شفت بيت الأهل بكرة، شفت بيت صديقي منيح",
-          "en": "I didn't see the family's house tomorrow, I saw my friend's house, good",
-          "translit": "ma shift beit el-ahl bukra, shift beit sadeeqi mnih"
-        },
-        {
-          "ar": "ما شفت الأهل اليوم، بس شفت صديق منيح هونيك",
-          "en": "I didn't see the family today, but I saw a good friend there",
-          "translit": "ma shift el-ahl el-yom, bas shift sadeeq mnih hownik"
-        },
-        {
-          "ar": "مدري وين شفت هاد البيت مبارح، بس بدي بشوف بكرة",
-          "en": "I don't know where I saw this house yesterday, but I want to see it tomorrow",
-          "translit": "midri wein shift haad el-beit mbare7, bas biddi bshuf bukra"
-        }
-      ]
-    },
-    {
-      "number": 27,
-      "title": "Another Day of Negation",
-      "titleNative": "يوم ثاني من النفي",
-      "items": [
-        {
-          "ar": "ما بدي بشوف بيت غالي اليوم مش لأن غالي، بس لأن تعبان",
-          "en": "I don't want to see an expensive house today not because it's expensive, but because I'm tired",
-          "translit": "ma biddi bshuf beit ghali el-yom mish la2an ghali, bas la2an ta3baan"
-        },
-        {
-          "ar": "ما بيحب البيت الأحمر، بيحب البيت الأزرق الجديد بكرة",
-          "en": "He doesn't love the red house, he loves the new blue house tomorrow",
-          "translit": "ma by7ibb el-beit el-a7mar, by7ibb el-beit el-azra2 el-jdeed bukra"
-        },
-        {
-          "ar": "مدري وين أهلنا هلق، بس ما منشوف بيت بعيد اليوم",
-          "en": "I don't know where our family is now, but we're not seeing a far house today",
-          "translit": "midri wein ahalna hala2, bas ma mnshuf beit ba3eed el-yom"
-        },
-        {
-          "ar": "ما شفت صديقي كتير، بدي بشوف بيته بكرة منيح",
-          "en": "I haven't seen my friend much, I want to see his house tomorrow, good",
-          "translit": "ma shift sadeeqi kteer, biddi bshuf beito bukra mnih"
-        }
-      ]
-    },
-    {
-      "number": 28,
-      "title": "Not Good, Not Sad",
-      "titleNative": "مش منيح، مش زعلان",
-      "items": [
-        {
-          "ar": "أنا مش منيح اليوم لأن ما شفت الأهل اليوم",
-          "en": "I'm not good today because I didn't see the family today",
-          "translit": "ana mish mnih el-yom la2an ma shift el-ahl el-yom"
-        },
-        {
-          "ar": "هي مش زعلانة اليوم، بس ما عندا فلوس كتير",
-          "en": "She's not upset today, but she doesn't have a lot of money",
-          "translit": "hiyye mish za3laane el-yom, bas ma 3anda fluus kteer"
-        },
-        {
-          "ar": "ما شفنا بيت الأهل اليوم لأن مش منيح اليوم",
-          "en": "We didn't see the family's house today because it's not good today",
-          "translit": "ma shifna beit el-ahl el-yom la2an mish mnih el-yom"
-        },
-        {
-          "ar": "الأهل مش تعبانين اليوم، بس عندن شي كتير اليوم",
-          "en": "The family isn't tired today, but they have a lot today",
-          "translit": "el-ahl mish ta3baaneen el-yom, bas 3andon shi kteer el-yom"
-        }
-      ]
-    },
-    {
-      "number": 29,
-      "title": "Friends, Family, and Negation",
-      "titleNative": "الأصحاب والأهل والنفي",
-      "items": [
-        {
-          "ar": "ما بدي بشوف بيت صديقي اليوم لأن تعبان كتير اليوم",
-          "en": "I don't want to see my friend's house today because I'm very tired today",
-          "translit": "ma biddi bshuf beit sadeeqi el-yom la2an ta3baan kteer el-yom"
-        },
-        {
-          "ar": "صديقي مش تعبان اليوم، بس ما بيحب يشوف بيت غالي",
-          "en": "My friend isn't tired today, but he doesn't love seeing an expensive house",
-          "translit": "sadeeqi mish ta3baan el-yom, bas ma by7ibb yshuf beit ghali"
-        },
-        {
-          "ar": "مدري وين أهلنا اليوم لأن ما شفناهن اليوم منيح",
-          "en": "I don't know where our family is today because we haven't seen them today",
-          "translit": "midri wein ahalna el-yom la2an ma shifnahon el-yom mnih"
-        },
-        {
-          "ar": "ما شفت صديقي كتير، بدي بشوف بيته بكرة منيح كتير",
-          "en": "I haven't seen my friend much, I want to see his house tomorrow, very good",
-          "translit": "ma shift sadeeqi kteer, biddi bshuf beito bukra mnih kteer"
-        }
-      ]
-    },
-    {
-      "number": 30,
-      "title": "Review: B2 Recap",
-      "titleNative": "مراجعة نهائية",
-      "items": [
-        {
-          "ar": "ما لازم بشوف بيت اليوم لأن مش منيح، بحب القهوة بس",
-          "en": "I don't have to see a house today because it's not good, I just love coffee",
-          "translit": "ma lazim bshuf beit el-yom la2an mish mnih, b7ibb el-ahwe bas"
-        },
-        {
-          "ar": "مدري وين أهلي هلق، بس بدي بشوف بيتهن بكرة",
-          "en": "I don't know where my family is now, but I want to see their house tomorrow",
-          "translit": "midri wein ahli hala2, bas biddi bshuf beithon bukra"
-        },
-        {
-          "ar": "ما بتحب البيت الغالي اليوم، بتحب البيت الرخيص القريب",
-          "en": "You don't love the expensive house today, you love the cheap, close house",
-          "translit": "ma bt7ibb el-beit el-ghali el-yom, bt7ibb el-beit er-rkhees el-2areeb"
-        },
-        {
-          "ar": "ما منشوف بعيد اليوم، منشوف بيت الأهل القريب بكرة",
-          "en": "We're not seeing far today, we're seeing the family's nearby house tomorrow",
-          "translit": "ma mnshuf ba3eed el-yom, mnshuf beit el-ahl el-2areeb bukra"
-        }
-      ]
+     "ar": "ما بيشوفو بيت اليوم لأن عندن شي كتير هلق",
+     "en": "They're not seeing a house today because they have a lot right now",
+     "translit": "ma byshufo beit el-yom la2an 3andon shi kteer hala2"
     }
-  ]
+   ],
+   "topicId": "b2-ma"
+  },
+  {
+   "number": 3,
+   "title": "Not This, Not That",
+   "titleNative": "مش هاد، مش هاي",
+   "items": [
+    {
+     "ar": "هاد البيت مش منيح كتير، بدي بشوف بيت جديد بكرة",
+     "en": "This house isn't very good, I want to see a new house tomorrow",
+     "translit": "haad el-beit mish mnih kteer, biddi bshuf beit jdeed bukra"
+    },
+    {
+     "ar": "هاي القهوة مش رخيصة، غالية كتير اليوم هون",
+     "en": "This coffee isn't cheap, it's very expensive here today",
+     "translit": "hayy el-ahwe mish rkhees, ghalye kteer el-yom hown"
+    },
+    {
+     "ar": "هدول الأهل مش تعبانين اليوم، لازم بشوف بيتهم بكرة",
+     "en": "This family isn't busy today, I should see their house tomorrow",
+     "translit": "hadol el-ahl mish mashgholeen el-yom, lazim bshuf beithon bukra"
+    },
+    {
+     "ar": "ما بدي هاد البيت لأن مش قريب منيح اليوم",
+     "en": "I don't want this house because it's not close and good today",
+     "translit": "ma biddi haad el-beit la2an mish 2areeb mnih el-yom"
+    }
+   ],
+   "topicId": "b2-ma"
+  },
+  {
+   "number": 4,
+   "title": "Not Because, But Because",
+   "titleNative": "مش لأن، بس لأن",
+   "items": [
+    {
+     "ar": "ما بشوف بيت اليوم مش لأن تعبان، بس لأن تعبان",
+     "en": "I'm not seeing a house today not because I'm busy, but because I'm tired",
+     "translit": "ma bshuf beit el-yom mish la2an mashghool, bas la2an ta3baan"
+    },
+    {
+     "ar": "ما بتشوفي بيت هلق مش لأن ما بتحبي، بس لأن تعبانة",
+     "en": "You're not seeing a house now not because you don't love it, but because you're tired",
+     "translit": "ma btshufi beit hala2 mish la2an ma bt7ibbi, bas la2an ta3baane"
+    },
+    {
+     "ar": "ما بيشوف الأهل مش لأن زعلان، بس لأن عنده شي كتير",
+     "en": "He's not seeing the family not because he's upset, but because he has a lot",
+     "translit": "ma byshuf el-ahl mish la2an za3laan, bas la2an 3ando shi kteer"
+    },
+    {
+     "ar": "ما منشوف بيت مش لأن ما منحب، بس لأن ما عندنا فلوس",
+     "en": "We're not seeing a house not because we don't love it, but because we don't have money",
+     "translit": "ma mnshuf beit mish la2an ma mn7ibb, bas la2an ma 3andna fluus"
+    }
+   ],
+   "topicId": "b2-ma"
+  },
+  {
+   "number": 5,
+   "title": "Review: Negation",
+   "titleNative": "مراجعة",
+   "items": [
+    {
+     "ar": "ما بشوف بيت اليوم لأن ما عندي فلوس كتير هلق",
+     "en": "I'm not seeing a house today because I don't have a lot of money right now",
+     "translit": "ma bshuf beit el-yom la2an ma 3andi fluus kteer hala2"
+    },
+    {
+     "ar": "هاد البيت مش منيح كتير، ما بدي بشوف هونيك بكرة",
+     "en": "This house isn't very good, I don't want to see it there tomorrow",
+     "translit": "haad el-beit mish mnih kteer, ma biddi bshuf hownik bukra"
+    },
+    {
+     "ar": "ما بتشوف الأهل مش لأن تعبانة، بس لأن تعبانة كتير",
+     "en": "You're not seeing the family not because you're busy, but because you're very tired",
+     "translit": "ma btshuf el-ahl mish la2an mashghole, bas la2an ta3baane kteer"
+    },
+    {
+     "ar": "ما منشوف بيت اليوم، لازم منشوف بكرة لأن عندنا فلوس",
+     "en": "We're not seeing a house today, we should see one tomorrow because we have money",
+     "translit": "ma mnshuf beit el-yom, lazim mnshuf bukra la2an 3andna fluus"
+    }
+   ]
+  },
+  {
+   "number": 6,
+   "title": "Negation and Money",
+   "titleNative": "النفي والفلوس",
+   "items": [
+    {
+     "ar": "ما بدي هاد البيت لأن غالي كتير اليوم",
+     "en": "I don't want this house because the price is very expensive today",
+     "translit": "ma biddi haad el-beit la2an es-si3ir ghali kteer el-yom"
+    },
+    {
+     "ar": "ما عندي فلوس كتير اليوم، ما بشوف بيت غالي",
+     "en": "I don't have a lot of money today, I'm not seeing an expensive house",
+     "translit": "ma 3andi fluus kteer el-yom, ma bshuf beit ghali"
+    },
+    {
+     "ar": "ما عنده فلوس منيح اليوم، ما بيحب قهوة غالية بكرة",
+     "en": "He doesn't have good money today, he's not loving expensive coffee tomorrow",
+     "translit": "ma 3ando fluus mnih el-yom, ma by7ibb ahwe ghalye bukra"
+    },
+    {
+     "ar": "ما عندنا فلوس كتير اليوم، ما منشوف بيت غالي بكرة",
+     "en": "We don't have a lot of money today, we're not seeing an expensive house tomorrow",
+     "translit": "ma 3andna fluus kteer el-yom, ma mnshuf beit ghali bukra"
+    }
+   ]
+  },
+  {
+   "number": 7,
+   "title": "Negation and Family",
+   "titleNative": "النفي والأهل",
+   "items": [
+    {
+     "ar": "ما شفت الأهل مبارح، بدي بشوف بيتهم اليوم منيح",
+     "en": "I didn't see the family yesterday, I want to see their house today, good",
+     "translit": "ma shift el-ahl mbare7, biddi bshuf beithon el-yom mnih"
+    },
+    {
+     "ar": "ما شفت بيت الأهل اليوم لأن تعبان كتير اليوم",
+     "en": "I didn't see the family's house today because I'm very tired today",
+     "translit": "ma shift beit el-ahl el-yom la2an ta3baan kteer el-yom"
+    },
+    {
+     "ar": "ما شافت الأهل مبارح، بتحب بتشوفهم بكرة منيح كتير",
+     "en": "She didn't see the family yesterday, she loves seeing them tomorrow, very good",
+     "translit": "ma shafit el-ahl mbare7, bt7ibb btshufon bukra mnih kteer"
+    },
+    {
+     "ar": "ما شفنا بيت الأهل اليوم لأن السيارة عندن مش هون",
+     "en": "We didn't see the family's house today because their car isn't here",
+     "translit": "ma shifna beit el-ahl el-yom la2an es-sayyara 3andon mish hown"
+    }
+   ]
+  },
+  {
+   "number": 8,
+   "title": "Negation and Colors",
+   "titleNative": "النفي والألوان",
+   "items": [
+    {
+     "ar": "ما بدي البيت الأحمر، بدي البيت الأزرق الجديد بكرة",
+     "en": "I don't want the red house, I want the new blue house tomorrow",
+     "translit": "ma biddi el-beit el-a7mar, biddi el-beit el-azra2 el-jdeed bukra"
+    },
+    {
+     "ar": "ما بتحب البيت الأصفر، بتحب البيت الأسود الجديد كتير",
+     "en": "You don't love the yellow house, you love the new black house a lot",
+     "translit": "ma bt7ibb el-beit el-asfar, bt7ibb el-beit el-aswad el-jdeed kteer"
+    },
+    {
+     "ar": "ما بيحب البيت الأخضر لأن مش قريب منيح اليوم",
+     "en": "He doesn't love the green house because it's not close and good today",
+     "translit": "ma by7ibb el-beit el-akhdar la2an mish 2areeb mnih el-yom"
+    },
+    {
+     "ar": "ما منحب البيت الأبيض، منحب بيت كبير وجديد منيح",
+     "en": "We don't love the white house, we love a big, new, good house",
+     "translit": "ma mn7ibb el-beit el-abyad, mn7ibb beit kbeer wa jdeed mnih"
+    }
+   ]
+  },
+  {
+   "number": 9,
+   "title": "Negation and Places",
+   "titleNative": "النفي والأماكن",
+   "items": [
+    {
+     "ar": "ما بشوف بيت قريب اليوم، بشوف بيت بعيد بكرة",
+     "en": "I'm not seeing a nearby house today, I'm seeing a far house tomorrow",
+     "translit": "ma bshuf beit 2areeb el-yom, bshuf beit ba3eed bukra"
+    },
+    {
+     "ar": "ما بتشوف بيت هون اليوم، لازم بتشوف بيت هونيك بكرة",
+     "en": "You're not seeing a house here today, you should see a house there tomorrow",
+     "translit": "ma btshuf beit hown el-yom, lazim btshuf beit hownik bukra"
+    },
+    {
+     "ar": "ما بيشوف بيت هلق لأن صديقه هونيك اليوم منيح",
+     "en": "He's not seeing a house now because his friend is there today, good",
+     "translit": "ma byshuf beit hala2 la2an sadeeqo hownik el-yom mnih"
+    },
+    {
+     "ar": "ما منشوف هونيك اليوم، منشوف هون لأن قريب منيح كتير",
+     "en": "We're not seeing there today, we're seeing here because it's much closer, good",
+     "translit": "ma mnshuf hownik el-yom, mnshuf hown la2an 2areeb mnih kteer"
+    }
+   ]
+  },
+  {
+   "number": 10,
+   "title": "Review: B2 Recap",
+   "titleNative": "مراجعة نهائية",
+   "items": [
+    {
+     "ar": "ما بدي هاد البيت لأن غالي كتير، بدي بيت رخيص",
+     "en": "I don't want this house because it's very expensive, I want a cheap house",
+     "translit": "ma biddi haad el-beit la2an ghali kteer, biddi beit rkhees"
+    },
+    {
+     "ar": "ما شفت الأهل مبارح، بدي بشوف بيتهم بكرة منيح كتير",
+     "en": "I didn't see the family yesterday, I want to see their house tomorrow, very good",
+     "translit": "ma shift el-ahl mbare7, biddi bshuf beithon bukra mnih kteer"
+    },
+    {
+     "ar": "ما بتحب البيت الأحمر، بتحب البيت الأزرق الجديد بكرة",
+     "en": "You don't love the red house, you love the new blue house tomorrow",
+     "translit": "ma bt7ibb el-beit el-a7mar, bt7ibb el-beit el-azra2 el-jdeed bukra"
+    },
+    {
+     "ar": "ما منشوف بيت بعيد اليوم، منشوف قريب لأن رخيص منيح",
+     "en": "We're not seeing a far house today, we're seeing a near one because it's cheap, good",
+     "translit": "ma mnshuf beit ba3eed el-yom, mnshuf 2areeb la2an rkhees mnih"
+    }
+   ]
+  },
+  {
+   "number": 11,
+   "title": "I'm Not Tired",
+   "titleNative": "أنا مش تعبان",
+   "items": [
+    {
+     "ar": "أنا مش تعبان اليوم، بس عندي شي كتير هلق",
+     "en": "I'm not tired today, I just have a lot right now",
+     "translit": "ana mish ta3baan el-yom, bas 3andi shi kteer hala2"
+    },
+    {
+     "ar": "ما بتحبي هاد البيت اليوم لأن مش منيح كتير",
+     "en": "You don't love this house today because it's not very good",
+     "translit": "ma bt7ibbi haad el-beit el-yom la2an mish mnih kteer"
+    },
+    {
+     "ar": "هو مش زعلان اليوم، بس تعبان كتير اليوم",
+     "en": "He's not upset today, just very tired today",
+     "translit": "huwwe mish za3laan el-yom, bas ta3baan kteer el-yom"
+    },
+    {
+     "ar": "ما منشوف الأهل هلق لأن الأهل مش هون اليوم",
+     "en": "We're not seeing the family now because the family isn't here today",
+     "translit": "ma mnshuf el-ahl hala2 la2an el-ahl mish hown el-yom"
+    }
+   ],
+   "topicId": "b2-ma"
+  },
+  {
+   "number": 12,
+   "title": "Not Good, Not Bad",
+   "titleNative": "مش منيح، مش منيح كمان",
+   "items": [
+    {
+     "ar": "هي مش تعبانة اليوم، بس عندا شي كتير هلق",
+     "en": "She's not tired today, she just has a lot right now",
+     "translit": "hiyye mish ta3baane el-yom, bas 3anda shi kteer hala2"
+    },
+    {
+     "ar": "ما بدي بشوف بيت اليوم لأن مش منيح هلق",
+     "en": "I don't want to see a house today because it's not good right now",
+     "translit": "ma biddi bshuf beit el-yom la2an mish mnih hala2"
+    },
+    {
+     "ar": "نحنا مش زعلانين اليوم، بس تعبانين كتير اليوم",
+     "en": "We're not upset today, just very tired today",
+     "translit": "ni7na mish za3laaneen el-yom, bas ta3baaneen kteer el-yom"
+    },
+    {
+     "ar": "هني مش منيحين اليوم لأن ما شافو الأهل مبارح",
+     "en": "They're not good today because they didn't see the family yesterday",
+     "translit": "hinne mish mnihheen el-yom la2an ma shafo el-ahl mbare7"
+    }
+   ],
+   "topicId": "b2-ma"
+  },
+  {
+   "number": 13,
+   "title": "Not One, Not Two",
+   "titleNative": "مش واحد، مش تنين",
+   "items": [
+    {
+     "ar": "عندي مش واحد اليوم، عندي تلاتة منيح والحمدلله",
+     "en": "I don't have one today, I have three, good, thank God",
+     "translit": "3andi mish wahed el-yom, 3andi tlete mnih wal-hamdulillah"
+    },
+    {
+     "ar": "عنده مش خمسة اليوم، عنده سبعة كتير منيح",
+     "en": "He doesn't have five today, he has seven, very good",
+     "translit": "3ando mish khamse el-yom, 3ando sab3a kteer mnih"
+    },
+    {
+     "ar": "ما شفت تنين اليوم، شفت أربعة منيح مع الأهل",
+     "en": "I didn't see two today, I saw four, good, with the family",
+     "translit": "ma shift tnein el-yom, shift arba3a mnih ma3 el-ahl"
+    },
+    {
+     "ar": "عندنا مش تسعة اليوم، عندنا عشرة منيح والحمدلله",
+     "en": "We don't have nine today, we have ten, good, thank God",
+     "translit": "3andna mish tis3a el-yom, 3andna 3ashra mnih wal-hamdulillah"
+    }
+   ],
+   "topicId": "b2-ma"
+  },
+  {
+   "number": 14,
+   "title": "Not Today, Not Friday",
+   "titleNative": "مش اليوم، مش الجمعة",
+   "items": [
+    {
+     "ar": "ما بشوف بيت اليوم، بشوف بكرة لأن تعبان كتير",
+     "en": "I'm not seeing a house today, I'm seeing one tomorrow because I'm very tired",
+     "translit": "ma bshuf beit el-yom, bshuf bukra la2an ta3baan kteer"
+    },
+    {
+     "ar": "يوم الجمعة مش منيح اليوم، يوم السبت منيح كتير",
+     "en": "Friday isn't good today, Saturday is very good",
+     "translit": "yom el-jum3a mish mnih el-yom, yom es-sabt mnih kteer"
+    },
+    {
+     "ar": "ما بتشوف بيت يوم الخميس، بتشوف يوم الجمعة منيح",
+     "en": "You're not seeing a house on Thursday, you're seeing one on Friday, good",
+     "translit": "ma btshuf beit yom el-khamees, btshuf yom el-jum3a mnih"
+    },
+    {
+     "ar": "ما شفنا الأهل يوم الأحد، شفناهن يوم الاثنين منيح",
+     "en": "We didn't see the family on Sunday, we saw them on Monday, good",
+     "translit": "ma shifna el-ahl yom el-a7ad, shifnahon yom el-tnein mnih"
+    }
+   ],
+   "topicId": "b2-ma"
+  },
+  {
+   "number": 15,
+   "title": "Review: Negation with Feelings, Numbers, Days",
+   "titleNative": "مراجعة",
+   "items": [
+    {
+     "ar": "أنا مش تعبان اليوم، بس عندي شي كتير هلق",
+     "en": "I'm not tired today, I just have a lot right now",
+     "translit": "ana mish ta3baan el-yom, bas 3andi shi kteer hala2"
+    },
+    {
+     "ar": "هي مش زعلانة اليوم، عندا صديق منيح هونيك اليوم",
+     "en": "She's not upset today, she has a good friend there today",
+     "translit": "hiyye mish za3laane el-yom, 3anda sadeeq mnih hownik el-yom"
+    },
+    {
+     "ar": "ما شفنا بيت يوم الجمعة، شفنا بيت يوم السبت منيح",
+     "en": "We didn't see a house on Friday, we saw one on Saturday, good",
+     "translit": "ma shifna beit yom el-jum3a, shifna beit yom es-sabt mnih"
+    },
+    {
+     "ar": "نحنا مش تعبانين اليوم، بس منيحين كتير اليوم",
+     "en": "We're not tired today, just very good today",
+     "translit": "ni7na mish ta3baaneen el-yom, bas mnihheen kteer el-yom"
+    }
+   ]
+  },
+  {
+   "number": 16,
+   "title": "Not Expensive, Not Cheap",
+   "titleNative": "مش غالي، مش رخيص",
+   "items": [
+    {
+     "ar": "هاد البيت مش غالي كتير، منيح كتير اليوم بس",
+     "en": "This house isn't very expensive, it's very good today",
+     "translit": "haad el-beit mish ghali kteer, mnih kteer el-yom bas"
+    },
+    {
+     "ar": "ما عندي فلوس كتير اليوم، بدي بيت رخيص بس منيح",
+     "en": "I don't have a lot of money today, I just want a cheap, good house",
+     "translit": "ma 3andi fluus kteer el-yom, biddi beit rkhees bas mnih"
+    },
+    {
+     "ar": "هاي القهوة مش رخيصة كتير، غالية كتير اليوم",
+     "en": "This coffee isn't very cheap, it's expensive today",
+     "translit": "hayy el-ahwe mish rkhees kteer, ghalye kteer el-yom"
+    },
+    {
+     "ar": "ما منحب بيت غالي اليوم، منحب بيت رخيص ومنيح",
+     "en": "We don't love an expensive house today, we love a cheap, good house",
+     "translit": "ma mn7ibb beit ghali el-yom, mn7ibb beit rkhees wa mnih"
+    }
+   ]
+  },
+  {
+   "number": 17,
+   "title": "Not This Family, That Family",
+   "titleNative": "مش هدول، هدول التانيين",
+   "items": [
+    {
+     "ar": "ما شفت الأهل اليوم، شفت صديق منيح كتير هلق",
+     "en": "I didn't see the family today, I saw a good friend right now",
+     "translit": "ma shift el-ahl el-yom, shift sadeeq mnih kteer hala2"
+    },
+    {
+     "ar": "ما شافت أهلها اليوم، شافت أهل صديقها منيح كتير",
+     "en": "She didn't see her family today, she saw her friend's family, very good",
+     "translit": "ma shafit ahilha el-yom, shafit ahl sadeeqha mnih kteer"
+    },
+    {
+     "ar": "ما عندنا أهل هونيك اليوم، عندنا أهل هون منيح",
+     "en": "We don't have family there today, we have family here, good",
+     "translit": "ma 3andna ahl hownik el-yom, 3andna ahl hown mnih"
+    },
+    {
+     "ar": "هاد مش أهلي، هاد صديق منيح كتير من هلق",
+     "en": "This isn't my family, this is a very good friend right now",
+     "translit": "haad mish ahli, haad sadeeq mnih kteer hala2"
+    }
+   ]
+  },
+  {
+   "number": 18,
+   "title": "Not Near, Not Far",
+   "titleNative": "مش قريب، مش بعيد",
+   "items": [
+    {
+     "ar": "هاد البيت مش قريب كتير، بعيد كتير اليوم هلق",
+     "en": "This house isn't close, it's very far today right now",
+     "translit": "haad el-beit mish 2areeb kteer, ba3eed kteer el-yom hala2"
+    },
+    {
+     "ar": "ما بتشوف بيت هون اليوم، بتشوف بيت هونيك منيح",
+     "en": "You're not seeing a house here today, you're seeing one there, good",
+     "translit": "ma btshuf beit hown el-yom, btshuf beit hownik mnih"
+    },
+    {
+     "ar": "ما بيشوف بيت بعيد اليوم، بيشوف بيت قريب منيح",
+     "en": "He's not seeing a far house today, he's seeing a near one, good",
+     "translit": "ma byshuf beit ba3eed el-yom, byshuf beit 2areeb mnih"
+    },
+    {
+     "ar": "ما منشوف هونيك اليوم، منشوف هون لأن قريب ومنيح",
+     "en": "We're not seeing there today, we're seeing here because it's close and good",
+     "translit": "ma mnshuf hownik el-yom, mnshuf hown la2an 2areeb wa mnih"
+    }
+   ]
+  },
+  {
+   "number": 19,
+   "title": "Not Red, Not Blue",
+   "titleNative": "مش أحمر، مش أزرق",
+   "items": [
+    {
+     "ar": "ما بدي البيت الأحمر اليوم، بدي البيت الأخضر بكرة",
+     "en": "I don't want the red house today, I want the green house tomorrow",
+     "translit": "ma biddi el-beit el-a7mar el-yom, biddi el-beit el-akhdar bukra"
+    },
+    {
+     "ar": "ما بتحب البيت الأصفر اليوم، بتحب البيت الأبيض كتير",
+     "en": "You don't love the yellow house today, you love the white house a lot",
+     "translit": "ma bt7ibb el-beit el-asfar el-yom, bt7ibb el-beit el-abyad kteer"
+    },
+    {
+     "ar": "ما بيحب البيت الأسود، بيحب البيت الأخضر الجديد منيح",
+     "en": "He doesn't love the black house, he loves the new green house, good",
+     "translit": "ma by7ibb el-beit el-aswad, by7ibb el-beit el-akhdar el-jdeed mnih"
+    },
+    {
+     "ar": "ما منحب بيت أزرق اليوم، منحب بيت أبيض وجديد",
+     "en": "We don't love a blue house today, we love a white, new house",
+     "translit": "ma mn7ibb beit azra2 el-yom, mn7ibb beit abyad wa jdeed"
+    }
+   ]
+  },
+  {
+   "number": 20,
+   "title": "Review: B2 Recap",
+   "titleNative": "مراجعة نهائية",
+   "items": [
+    {
+     "ar": "هاد البيت مش غالي كتير، منيح، بدي بشوف بكرة",
+     "en": "This house isn't very expensive, it's good, I want to see it tomorrow",
+     "translit": "haad el-beit mish ghali kteer, mnih, biddi bshuf bukra"
+    },
+    {
+     "ar": "ما شفت الأهل اليوم، شفت صديق منيح كتير هلق",
+     "en": "I didn't see the family today, I saw a very good friend right now",
+     "translit": "ma shift el-ahl el-yom, shift sadeeq mnih kteer hala2"
+    },
+    {
+     "ar": "هاد البيت مش قريب، بس مش غالي كتير منيح",
+     "en": "This house isn't close, but it's not very expensive, good",
+     "translit": "haad el-beit mish 2areeb, bas mish ghali kteer mnih"
+    },
+    {
+     "ar": "ما منحب البيت الأحمر اليوم، منحب البيت الأزرق الجديد",
+     "en": "We don't love the red house today, we love the new blue house",
+     "translit": "ma mn7ibb el-beit el-a7mar el-yom, mn7ibb el-beit el-azra2 el-jdeed"
+    }
+   ]
+  },
+  {
+   "number": 21,
+   "title": "You Don't Have to See It",
+   "titleNative": "ما لازم بتشوف",
+   "items": [
+    {
+     "ar": "ما لازم بشوف بيت اليوم لأن مش منيح كتير",
+     "en": "I don't have to see a house today because it's not very good",
+     "translit": "ma lazim bshuf beit el-yom la2an mish mnih kteer"
+    },
+    {
+     "ar": "ما لازم بتحب هاد البيت، بتحب بيت جديد منيح",
+     "en": "You don't have to love this house, you love a new good house",
+     "translit": "ma lazim bt7ibb haad el-beit, bt7ibb beit jdeed mnih"
+    },
+    {
+     "ar": "ما لازم بيشوف بيت اليوم لأن مش تعبان كتير",
+     "en": "He doesn't have to see a house today because he's not very tired",
+     "translit": "ma lazim byshuf beit el-yom la2an mish ta3baan kteer"
+    },
+    {
+     "ar": "ما لازم منحب القهوة هلق، عندنا شاي منيح كتير",
+     "en": "We don't have to love the coffee now, we have very good tea",
+     "translit": "ma lazim mn7ibb el-ahwe hala2, 3andna shay mnih kteer"
+    }
+   ],
+   "topicId": "b2-ma"
+  },
+  {
+   "number": 22,
+   "title": "She Doesn't Have To, You All Don't Have To",
+   "titleNative": "ما لازم بتشوف، ما لازم بتشوفو",
+   "items": [
+    {
+     "ar": "ما لازم بتشوف بيت هلق لأن مش تعبانة كتير",
+     "en": "She doesn't have to see a house now because she's not very tired",
+     "translit": "ma lazim btshuf beit hala2 la2an mish ta3baane kteer"
+    },
+    {
+     "ar": "ما لازم بتشوفو بيت هلق لأن مش تعبانين كتير",
+     "en": "You all don't have to see a house now because you're not very tired",
+     "translit": "ma lazim btshufo beit hala2 la2an mish ta3baaneen kteer"
+    },
+    {
+     "ar": "ما لازم بيشوفو بيت هلق لأن مش تعبانين كتير",
+     "en": "They don't have to see a house now because they're not very tired",
+     "translit": "ma lazim byshufo beit hala2 la2an mish ta3baaneen kteer"
+    },
+    {
+     "ar": "ما لازم بشوف بيت بكرة لأن عندي بيت منيح",
+     "en": "I don't have to see a house tomorrow because I have a good house",
+     "translit": "ma lazim bshuf beit bukra la2an 3andi beit mnih"
+    }
+   ],
+   "topicId": "b2-ma"
+  },
+  {
+   "number": 23,
+   "title": "I Don't Want, You Don't See",
+   "titleNative": "ما بدي، ما بتشوف",
+   "items": [
+    {
+     "ar": "ما بدي بشوف هاد البيت، بدي بشوف بيت جديد بكرة",
+     "en": "I don't want to see this house, I want to see a new house tomorrow",
+     "translit": "ma biddi bshuf haad el-beit, biddi bshuf beit jdeed bukra"
+    },
+    {
+     "ar": "ما بتشوف بيت اليوم لأن مش عندك فلوس كتير",
+     "en": "You're not seeing a house today because you don't have a lot of money",
+     "translit": "ma btshuf beit el-yom la2an mish 3andak fluus kteer"
+    },
+    {
+     "ar": "ما بيحب هاد البيت، بيحب البيت الجديد الأخضر كتير",
+     "en": "He doesn't love this house, he loves the new green house a lot",
+     "translit": "ma by7ibb haad el-beit, by7ibb el-beit el-jdeed el-akhdar kteer"
+    },
+    {
+     "ar": "ما منشوف بيت غالي اليوم، منشوف بيت رخيص بكرة",
+     "en": "We're not seeing an expensive house today, we're seeing a cheap house tomorrow",
+     "translit": "ma mnshuf beit ghali el-yom, mnshuf beit rkhees bukra"
+    }
+   ],
+   "topicId": "b2-ma"
+  },
+  {
+   "number": 24,
+   "title": "They Don't Love, We Don't Want",
+   "titleNative": "ما بيحبو، ما منشوف",
+   "items": [
+    {
+     "ar": "ما بتشوفو بيت اليوم، بس عندكن بيت منيح هون",
+     "en": "You all aren't seeing a house today, but you have a good house here",
+     "translit": "ma btshufo beit el-yom, bas 3andkon beit mnih hown"
+    },
+    {
+     "ar": "ما بيحبو هاد البيت، بيحبو البيت الجديد الأبيض كتير",
+     "en": "They don't love this house, they love the new white house a lot",
+     "translit": "ma by7ibbo haad el-beit, by7ibbo el-beit el-jdeed el-abyad kteer"
+    },
+    {
+     "ar": "ما منشوف بيت غالي اليوم، منشوف بيت رخيص وقريب",
+     "en": "We're not seeing an expensive house today, we're seeing a cheap, close house",
+     "translit": "ma mnshuf beit ghali el-yom, mnshuf beit rkhees wa 2areeb"
+    },
+    {
+     "ar": "ما بدي بشوف بيت بعيد اليوم، بدي بشوف بيت قريب",
+     "en": "I don't want to see a far house today, I want to see a near house",
+     "translit": "ma biddi bshuf beit ba3eed el-yom, biddi bshuf beit 2areeb"
+    }
+   ],
+   "topicId": "b2-ma"
+  },
+  {
+   "number": 25,
+   "title": "Review: Negation with Lazim, See, Want",
+   "titleNative": "مراجعة",
+   "items": [
+    {
+     "ar": "ما لازم بشوف بيت اليوم لأن مش منيح كتير",
+     "en": "I don't have to see a house today because it's not very good",
+     "translit": "ma lazim bshuf beit el-yom la2an mish mnih kteer"
+    },
+    {
+     "ar": "ما بدي بشوف هاد البيت، بدي بحب القهوة هلق",
+     "en": "I don't want to see this house, I want to love the coffee now",
+     "translit": "ma biddi bshuf haad el-beit, biddi b7ibb el-ahwe hala2"
+    },
+    {
+     "ar": "ما بيحبو هاد البيت، بس ما بيحبو بيت غالي",
+     "en": "They don't love this house, but they don't love an expensive house either",
+     "translit": "ma by7ibbo haad el-beit, bas ma by7ibbo beit ghali"
+    },
+    {
+     "ar": "ما منشوف بيت غالي اليوم، منشوف بيت رخيص وقريب",
+     "en": "We're not seeing an expensive house today, we're seeing a cheap, close house",
+     "translit": "ma mnshuf beit ghali el-yom, mnshuf beit rkhees wa 2areeb"
+    }
+   ]
+  },
+  {
+   "number": 26,
+   "title": "A Day of Negation",
+   "titleNative": "يوم من النفي",
+   "items": [
+    {
+     "ar": "ما بحب القهوة الصباح اليوم، بحب الشاي منيح كتير",
+     "en": "I'm not loving coffee this morning today, I love tea a lot",
+     "translit": "ma b7ibb el-ahwe es-sabah el-yom, b7ibb esh-shay mnih kteer"
+    },
+    {
+     "ar": "ما شفت بيت الأهل بكرة، شفت بيت صديقي منيح",
+     "en": "I didn't see the family's house tomorrow, I saw my friend's house, good",
+     "translit": "ma shift beit el-ahl bukra, shift beit sadeeqi mnih"
+    },
+    {
+     "ar": "ما شفت الأهل اليوم، بس شفت صديق منيح هونيك",
+     "en": "I didn't see the family today, but I saw a good friend there",
+     "translit": "ma shift el-ahl el-yom, bas shift sadeeq mnih hownik"
+    },
+    {
+     "ar": "مدري وين شفت هاد البيت مبارح، بس بدي بشوف بكرة",
+     "en": "I don't know where I saw this house yesterday, but I want to see it tomorrow",
+     "translit": "midri wein shift haad el-beit mbare7, bas biddi bshuf bukra"
+    }
+   ]
+  },
+  {
+   "number": 27,
+   "title": "Another Day of Negation",
+   "titleNative": "يوم ثاني من النفي",
+   "items": [
+    {
+     "ar": "ما بدي بشوف بيت غالي اليوم مش لأن غالي، بس لأن تعبان",
+     "en": "I don't want to see an expensive house today not because it's expensive, but because I'm tired",
+     "translit": "ma biddi bshuf beit ghali el-yom mish la2an ghali, bas la2an ta3baan"
+    },
+    {
+     "ar": "ما بيحب البيت الأحمر، بيحب البيت الأزرق الجديد بكرة",
+     "en": "He doesn't love the red house, he loves the new blue house tomorrow",
+     "translit": "ma by7ibb el-beit el-a7mar, by7ibb el-beit el-azra2 el-jdeed bukra"
+    },
+    {
+     "ar": "مدري وين أهلنا هلق، بس ما منشوف بيت بعيد اليوم",
+     "en": "I don't know where our family is now, but we're not seeing a far house today",
+     "translit": "midri wein ahalna hala2, bas ma mnshuf beit ba3eed el-yom"
+    },
+    {
+     "ar": "ما شفت صديقي كتير، بدي بشوف بيته بكرة منيح",
+     "en": "I haven't seen my friend much, I want to see his house tomorrow, good",
+     "translit": "ma shift sadeeqi kteer, biddi bshuf beito bukra mnih"
+    }
+   ]
+  },
+  {
+   "number": 28,
+   "title": "Not Good, Not Sad",
+   "titleNative": "مش منيح، مش زعلان",
+   "items": [
+    {
+     "ar": "أنا مش منيح اليوم لأن ما شفت الأهل اليوم",
+     "en": "I'm not good today because I didn't see the family today",
+     "translit": "ana mish mnih el-yom la2an ma shift el-ahl el-yom"
+    },
+    {
+     "ar": "هي مش زعلانة اليوم، بس ما عندا فلوس كتير",
+     "en": "She's not upset today, but she doesn't have a lot of money",
+     "translit": "hiyye mish za3laane el-yom, bas ma 3anda fluus kteer"
+    },
+    {
+     "ar": "ما شفنا بيت الأهل اليوم لأن مش منيح اليوم",
+     "en": "We didn't see the family's house today because it's not good today",
+     "translit": "ma shifna beit el-ahl el-yom la2an mish mnih el-yom"
+    },
+    {
+     "ar": "الأهل مش تعبانين اليوم، بس عندن شي كتير اليوم",
+     "en": "The family isn't tired today, but they have a lot today",
+     "translit": "el-ahl mish ta3baaneen el-yom, bas 3andon shi kteer el-yom"
+    }
+   ]
+  },
+  {
+   "number": 29,
+   "title": "Friends, Family, and Negation",
+   "titleNative": "الأصحاب والأهل والنفي",
+   "items": [
+    {
+     "ar": "ما بدي بشوف بيت صديقي اليوم لأن تعبان كتير اليوم",
+     "en": "I don't want to see my friend's house today because I'm very tired today",
+     "translit": "ma biddi bshuf beit sadeeqi el-yom la2an ta3baan kteer el-yom"
+    },
+    {
+     "ar": "صديقي مش تعبان اليوم، بس ما بيحب يشوف بيت غالي",
+     "en": "My friend isn't tired today, but he doesn't love seeing an expensive house",
+     "translit": "sadeeqi mish ta3baan el-yom, bas ma by7ibb yshuf beit ghali"
+    },
+    {
+     "ar": "مدري وين أهلنا اليوم لأن ما شفناهن اليوم منيح",
+     "en": "I don't know where our family is today because we haven't seen them today",
+     "translit": "midri wein ahalna el-yom la2an ma shifnahon el-yom mnih"
+    },
+    {
+     "ar": "ما شفت صديقي كتير، بدي بشوف بيته بكرة منيح كتير",
+     "en": "I haven't seen my friend much, I want to see his house tomorrow, very good",
+     "translit": "ma shift sadeeqi kteer, biddi bshuf beito bukra mnih kteer"
+    }
+   ]
+  },
+  {
+   "number": 30,
+   "title": "Review: B2 Recap",
+   "titleNative": "مراجعة نهائية",
+   "items": [
+    {
+     "ar": "ما لازم بشوف بيت اليوم لأن مش منيح، بحب القهوة بس",
+     "en": "I don't have to see a house today because it's not good, I just love coffee",
+     "translit": "ma lazim bshuf beit el-yom la2an mish mnih, b7ibb el-ahwe bas"
+    },
+    {
+     "ar": "مدري وين أهلي هلق، بس بدي بشوف بيتهن بكرة",
+     "en": "I don't know where my family is now, but I want to see their house tomorrow",
+     "translit": "midri wein ahli hala2, bas biddi bshuf beithon bukra"
+    },
+    {
+     "ar": "ما بتحب البيت الغالي اليوم، بتحب البيت الرخيص القريب",
+     "en": "You don't love the expensive house today, you love the cheap, close house",
+     "translit": "ma bt7ibb el-beit el-ghali el-yom, bt7ibb el-beit er-rkhees el-2areeb"
+    },
+    {
+     "ar": "ما منشوف بعيد اليوم، منشوف بيت الأهل القريب بكرة",
+     "en": "We're not seeing far today, we're seeing the family's nearby house tomorrow",
+     "translit": "ma mnshuf ba3eed el-yom, mnshuf beit el-ahl el-2areeb bukra"
+    }
+   ]
+  },
+  {
+   "number": 31,
+   "title": "Not This House, That One",
+   "titleNative": "مش هاد البيت، هاد التاني",
+   "items": [
+    {
+     "ar": "ما بشوف هاد البيت اليوم، بشوف بيت جديد بكرة",
+     "en": "I don't see this house today, I see a new house tomorrow",
+     "translit": "ma bshuf haad el-beit el-yom, bshuf beit jdeed bukra"
+    },
+    {
+     "ar": "هاد البيت مش غالي كتير، هاد البيت رخيص كتير",
+     "en": "This house isn't very expensive, this house is very cheap",
+     "translit": "haad el-beit mish ghali ktir, haad el-beit rkhees ktir"
+    },
+    {
+     "ar": "ما بتحب هاد البيت لأن مش جديد، بتحب بيت جديد كتير",
+     "en": "You don't love this house because it's not new, you love a very new house",
+     "translit": "ma bthib haad el-beit la2an mish jdeed, bthib beit jdeed ktir"
+    },
+    {
+     "ar": "ما منشوف هاد البيت اليوم، منشوف بيت جديد بكرة",
+     "en": "We don't see this house today, we see a new house tomorrow",
+     "translit": "ma mnshuf haad el-beit el-yom, mnshuf beit jdeed bukra"
+    }
+   ]
+  },
+  {
+   "number": 32,
+   "title": "Not Happy, But Tired",
+   "titleNative": "مش مبسوط، بس تعبان",
+   "items": [
+    {
+     "ar": "أنا مش زعلان اليوم، بس تعبان كتير من مبارح",
+     "en": "I'm not upset today, but very tired since yesterday",
+     "translit": "ana mish za3lan el-yom, bas ta3ban ktir min mbari7"
+    },
+    {
+     "ar": "هو مش تعبان اليوم، بس زعلان لأن ما عنده فلوس",
+     "en": "He's not tired today, but upset because he doesn't have money",
+     "translit": "huwwe mish ta3ban el-yom, bas za3lan la2an ma 3ando fluus"
+    },
+    {
+     "ar": "هي مش زعلانة اليوم، بس تعبانة كتير اليوم",
+     "en": "She's not upset today, but very tired today",
+     "translit": "hiyye mish za3lane el-yom, bas ta3bane ktir el-yom"
+    },
+    {
+     "ar": "نحنا مش زعلانين اليوم، بس تعبانين كتير من مبارح",
+     "en": "We're not upset today, but very tired since yesterday",
+     "translit": "ni7na mish za3lanin el-yom, bas ta3banin ktir min mbari7"
+    }
+   ]
+  },
+  {
+   "number": 33,
+   "title": "Not Because Tired, But Because Busy",
+   "titleNative": "مش لأن تعبان، بس لأن مشغول",
+   "items": [
+    {
+     "ar": "ما بشوف الأهل اليوم مش لأن تعبان، بس لأن عندي فلوس كتير",
+     "en": "I don't see the family today not because I'm tired, but because I have a lot of money",
+     "translit": "ma bshuf el-ahl el-yom mish la2an ta3ban, bas la2an 3andi fluus ktir"
+    },
+    {
+     "ar": "ما بيحب هاد البيت مش لأن غالي، بس لأن قديم كتير",
+     "en": "He doesn't love this house not because it's expensive, but because it's very old",
+     "translit": "ma byhib haad el-beit mish la2an ghali, bas la2an 2adeem ktir"
+    },
+    {
+     "ar": "ما بتشوفي صديقك اليوم مش لأن زعلانة، بس لأن تعبانة كتير",
+     "en": "You don't see your friend today not because you're upset, but because you're very tired",
+     "translit": "ma btshufi sadee2ek el-yom mish la2an za3lane, bas la2an ta3bane ktir"
+    },
+    {
+     "ar": "ما منشوف بيت جديد اليوم مش لأن رخيص، بس لأن ما عندنا فلوس",
+     "en": "We don't see a new house today not because it's cheap, but because we don't have money",
+     "translit": "ma mnshuf beit jdeed el-yom mish la2an rkhees, bas la2an ma 3andna fluus"
+    }
+   ]
+  },
+  {
+   "number": 34,
+   "title": "Not Red, Not Blue",
+   "titleNative": "مش أحمر، مش أزرق",
+   "items": [
+    {
+     "ar": "هاد البيت مش أحمر اليوم، هاد البيت أزرق كتير",
+     "en": "This house isn't red today, this house is very blue",
+     "translit": "haad el-beit mish a7mar el-yom, haad el-beit azra2 ktir"
+    },
+    {
+     "ar": "ما بشوف بيت أخضر اليوم، بشوف بيت أصفر بكرة",
+     "en": "I don't see a green house today, I see a yellow house tomorrow",
+     "translit": "ma bshuf beit akhdar el-yom, bshuf beit asfar bukra"
+    },
+    {
+     "ar": "البيت مش أبيض كتير، البيت أسود كتير اليوم",
+     "en": "The house isn't very white, the house is very black today",
+     "translit": "el-beit mish abyad ktir, el-beit iswad ktir el-yom"
+    },
+    {
+     "ar": "ما منشوف بيت أحمر بكرة، منشوف بيت أزرق اليوم",
+     "en": "We don't see a red house tomorrow, we see a blue house today",
+     "translit": "ma mnshuf beit a7mar bukra, mnshuf beit azra2 el-yom"
+    }
+   ]
+  },
+  {
+   "number": 35,
+   "title": "Not Near, Not Far",
+   "titleNative": "مش قريب، مش بعيد",
+   "items": [
+    {
+     "ar": "البيت مش قريب كتير اليوم، البيت بعيد كتير من هون",
+     "en": "The house isn't very near today, the house is very far from here",
+     "translit": "el-beit mish 2areeb ktir el-yom, el-beit ba3eed ktir min hown"
+    },
+    {
+     "ar": "ما بشوف بيت قريب اليوم، بشوف بيت بعيد كتير بكرة",
+     "en": "I don't see a nearby house today, I see a very far house tomorrow",
+     "translit": "ma bshuf beit 2areeb el-yom, bshuf beit ba3eed ktir bukra"
+    },
+    {
+     "ar": "صديقي مش بعيد كتير اليوم، صديقي قريب كتير من بيتي",
+     "en": "My friend isn't very far today, my friend is very near my house",
+     "translit": "sadee2i mish ba3eed ktir el-yom, sadee2i 2areeb ktir min beiti"
+    },
+    {
+     "ar": "ما منشوف بيت بعيد بكرة، منشوف بيت قريب اليوم",
+     "en": "We don't see a far house tomorrow, we see a nearby house today",
+     "translit": "ma mnshuf beit ba3eed bukra, mnshuf beit 2areeb el-yom"
+    }
+   ]
+  },
+  {
+   "number": 36,
+   "title": "Review: Negation with Must",
+   "titleNative": "مراجعة: نفي مع لازم",
+   "items": [
+    {
+     "ar": "ما لازم بشوف بيت اليوم لأن ما عندي فلوس كتير",
+     "en": "I don't have to see a house today because I don't have much money",
+     "translit": "ma lazim bshuf beit el-yom la2an ma 3andi fluus ktir"
+    },
+    {
+     "ar": "ما لازم بيحب هاد البيت، بيحب بيت جديد منيح كتير",
+     "en": "He doesn't have to love this house, he loves a very good new house",
+     "translit": "ma lazim byhib haad el-beit, byhib beit jdeed mnih ktir"
+    },
+    {
+     "ar": "ما لازم بتشوفي بيت بكرة لأن مش تعبانة كتير اليوم",
+     "en": "You don't have to see a house tomorrow because you're not very tired today",
+     "translit": "ma lazim btshufi beit bukra la2an mish ta3bane ktir el-yom"
+    },
+    {
+     "ar": "ما لازم منحب القهوة هلق، عندنا شاي منيح كتير اليوم",
+     "en": "We don't have to love coffee now, we have very good tea today",
+     "translit": "ma lazim mnhib el-ahwe hala2, 3andna shay mnih ktir el-yom"
+    }
+   ]
+  },
+  {
+   "number": 37,
+   "title": "Review: Not This, Not That",
+   "titleNative": "مراجعة: مش هاد، مش هاد",
+   "items": [
+    {
+     "ar": "هاد مش بيت كبير اليوم، هاد بيت صغير كتير",
+     "en": "This isn't a big house today, this is a very small house",
+     "translit": "haad mish beit kbeer el-yom, haad beit sgheer ktir"
+    },
+    {
+     "ar": "ما بيحب هاد الشاي، بيحب هاد القهوة كتير",
+     "en": "He doesn't love this tea, he loves this coffee a lot",
+     "translit": "ma byhib haad esh-shay, byhib haad el-ahwe ktir"
+    },
+    {
+     "ar": "مش هاد صديقي اليوم، بشوف صديقي بكرة",
+     "en": "It's not my friend today, I see my friend tomorrow",
+     "translit": "mish haad sadee2i el-yom, bshuf sadee2i bukra"
+    },
+    {
+     "ar": "ما منحب هاد البيت اليوم، منحب بيت جديد كتير",
+     "en": "We don't love this house today, we love a very new house",
+     "translit": "ma mnhib haad el-beit el-yom, mnhib beit jdeed ktir"
+    }
+   ]
+  },
+  {
+   "number": 38,
+   "title": "Review: A Day of No",
+   "titleNative": "مراجعة: يوم من لا",
+   "items": [
+    {
+     "ar": "ما بشوف الأهل اليوم لأن مش قريب، بشوفهم بكرة",
+     "en": "I don't see the family today because it's not nearby, I see them tomorrow",
+     "translit": "ma bshuf el-ahl el-yom la2an mish 2areeb, bshufun bukra"
+    },
+    {
+     "ar": "هو مش تعبان اليوم، بس ما بيحب القهوة هلق",
+     "en": "He's not tired today, but he doesn't love coffee now",
+     "translit": "huwwe mish ta3ban el-yom, bas ma byhib el-ahwe hala2"
+    },
+    {
+     "ar": "ما بتشوفي بيت جديد اليوم لأن مش عندك فلوس كتير",
+     "en": "You don't see a new house today because you don't have a lot of money",
+     "translit": "ma btshufi beit jdeed el-yom la2an mish 3andek fluus ktir"
+    },
+    {
+     "ar": "ما منشوف الفلوس اليوم لأن مش هون، هونيك بكرة",
+     "en": "We don't see the money today because it's not here, it's there tomorrow",
+     "translit": "ma mnshuf el-fluus el-yom la2an mish hown, hownik bukra"
+    }
+   ]
+  },
+  {
+   "number": 39,
+   "title": "Review: Not Sad, Not Angry",
+   "titleNative": "مراجعة: مش حزين، مش زعلان",
+   "items": [
+    {
+     "ar": "أنا مش زعلان اليوم، أنا منيح كتير والحمدلله",
+     "en": "I'm not upset today, I'm very good, thank God",
+     "translit": "ana mish za3lan el-yom, ana mnih ktir wal-hamdulillah"
+    },
+    {
+     "ar": "هو مش زعلان لأن ما شاف الأهل، هو منيح كتير اليوم",
+     "en": "He's not upset because he didn't see the family, he's very good today",
+     "translit": "huwwe mish za3lan la2an ma shaf el-ahl, huwwe mnih ktir el-yom"
+    },
+    {
+     "ar": "هي مش زعلانة اليوم، هي تعبانة بس منيحة كتير كمان",
+     "en": "She's not upset today, she's tired but very good too",
+     "translit": "hiyye mish za3lane el-yom, hiyye ta3bane bas mniha ktir kaman"
+    },
+    {
+     "ar": "نحنا مش زعلانين اليوم، منيحين كتير والحمدلله",
+     "en": "We're not upset today, very good, thank God",
+     "translit": "ni7na mish za3lanin el-yom, mnihin ktir wal-hamdulillah"
+    }
+   ]
+  },
+  {
+   "number": 40,
+   "title": "Complete: B2 First Wrap",
+   "titleNative": "ختام: أول ختام B2",
+   "items": [
+    {
+     "ar": "ما بشوف بيت غالي اليوم، بشوف بيت رخيص بكرة",
+     "en": "I don't see an expensive house today, I see a cheap house tomorrow",
+     "translit": "ma bshuf beit ghali el-yom, bshuf beit rkhees bukra"
+    },
+    {
+     "ar": "هو مش زعلان اليوم لأن عنده فلوس كتير والحمدلله",
+     "en": "He's not upset today because he has a lot of money, thank God",
+     "translit": "huwwe mish za3lan el-yom la2an 3ando fluus ktir wal-hamdulillah"
+    },
+    {
+     "ar": "ما لازم بتشوفي بيت جديد اليوم لأن عندك بيت منيح",
+     "en": "You don't have to see a new house today because you have a good house",
+     "translit": "ma lazim btshufi beit jdeed el-yom la2an 3andek beit mnih"
+    },
+    {
+     "ar": "ما منحب هاد البيت مش لأن غالي، بس لأن قديم كتير",
+     "en": "We don't love this house not because it's expensive, but because it's very old",
+     "translit": "ma mnhib haad el-beit mish la2an ghali, bas la2an 2adeem ktir"
+    }
+   ]
+  }
+ ]
 }
