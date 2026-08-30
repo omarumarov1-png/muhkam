@@ -1,5 +1,5 @@
 {
- "_comment": "Words NOT present in any shipped lesson but confirmed by >=2 independent sources (kaikki.org North Levantine Arabic Wiktionary dump, Peace Corps Jordan pre-departure Arabic materials, Wikivoyage Jordanian Arabic phrasebook). Available for use from B2 onward (the level in progress when this research was done) -- not retroactively injected into A1 through B1+, which already hit their targets.",
+ "_comment": "Words NOT present in any shipped lesson but confirmed by >=2 independent sources: kaikki.org North Levantine Arabic Wiktionary dump, Peace Corps Jordan pre-departure Arabic materials, Wikivoyage Jordanian Arabic phrasebook, Living Arabic Project (livingarabic.com, an academic Levantine dialect dictionary with roots/examples), RESET UK's 'Basic Arabic Expressions & Words: Syrian Dialect' PDF (commissioned from Lisan Arabi Ltd for refugee resettlement services, native-speaker audio), and Kalmasoft's Dictionary of Colloquial Syrian Arabic sample. Available for use from B2 onward (the level in progress when this research was done) -- not retroactively injected into A1 through B1+, which already hit their targets.",
  "available_from_level": "b2",
  "words": {
   "عيلة": {"gloss": "family", "sources": ["kaikki", "peace_corps"]},
@@ -29,6 +29,13 @@
   "بحر": {"gloss": "sea", "sources": ["kaikki", "livingarabic (33 entries)"]},
   "دقيقة": {"gloss": "minute", "sources": ["kaikki", "livingarabic (49 entries)"]},
   "نهر": {"gloss": "river", "sources": ["kaikki", "livingarabic (19 entries)"]},
-  "ورد": {"gloss": "flowers, roses", "sources": ["kaikki", "livingarabic (20 entries)"]}
+  "ورد": {"gloss": "flowers, roses", "sources": ["kaikki", "livingarabic (20 entries)"]},
+  "ابن": {"gloss": "son", "sources": ["kaikki", "reset_uk_pdf"]},
+  "بنك": {"gloss": "bank", "sources": ["kaikki", "reset_uk_pdf"]},
+  "تكسي": {"gloss": "taxi", "sources": ["wikivoyage", "reset_uk_pdf"]},
+  "زوج": {"gloss": "husband", "sources": ["peace_corps", "reset_uk_pdf"]},
+  "زوجة": {"gloss": "wife", "sources": ["peace_corps", "reset_uk_pdf"]},
+  "شغلة": {"gloss": "matter, thing", "sources": ["kaikki", "kalmasoft"]},
+  "مصاري": {"gloss": "money", "sources": ["peace_corps", "reset_uk_pdf"]}
  }
 }
