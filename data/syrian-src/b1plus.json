@@ -1,846 +1,1116 @@
 {
-  "level": "b1plus",
-  "grammarTopics": {
-    "b1plus-lazim": {
-      "title": "Must/Should: Lazim",
-      "pattern": "لازم + الفعل المضارع (present-tense verb)",
-      "explanation": "لازم (lazim, \"must/should/have to\") is followed by a present-tense verb: لازم بشوف الأهل (lazim bshuf el-ahl, \"I must see the family\"). لازم itself never changes form — only the verb that follows it conjugates for the person.",
-      "fact": "لازم can also stand alone as a short, firm reply — \"لازم!\" by itself means something like \"You have to!\" — a compact way to insist on something without a full sentence.",
-      "dialogue": [
-        {
-          "sp": "A",
-          "native": "لازم بشوف الأهل اليوم، مبارح ما شفتهم",
-          "en": "I have to see the family today, I didn't see them yesterday"
-        },
-        {
-          "sp": "B",
-          "native": "منيح، لازم بتحب القهوة معهم كمان",
-          "en": "Good, you should love the coffee with them too"
-        }
-      ]
+ "level": "b1plus",
+ "grammarTopics": {
+  "b1plus-lazim": {
+   "title": "Must/Should: Lazim",
+   "pattern": "لازم + الفعل المضارع (present-tense verb)",
+   "explanation": "لازم (lazim, \"must/should/have to\") is followed by a present-tense verb: لازم بشوف الأهل (lazim bshuf el-ahl, \"I must see the family\"). لازم itself never changes form — only the verb that follows it conjugates for the person.",
+   "fact": "لازم can also stand alone as a short, firm reply — \"لازم!\" by itself means something like \"You have to!\" — a compact way to insist on something without a full sentence.",
+   "dialogue": [
+    {
+     "sp": "A",
+     "native": "لازم بشوف الأهل اليوم، مبارح ما شفتهم",
+     "en": "I have to see the family today, I didn't see them yesterday"
+    },
+    {
+     "sp": "B",
+     "native": "منيح، لازم بتحب القهوة معهم كمان",
+     "en": "Good, you should love the coffee with them too"
     }
+   ]
+  }
+ },
+ "lessons": [
+  {
+   "number": 1,
+   "title": "I Must See",
+   "titleNative": "لازم بشوف",
+   "items": [
+    {
+     "ar": "لازم بشوف الأهل اليوم، تعبان كتير من مبارح",
+     "en": "I have to see the family today, very tired from yesterday",
+     "translit": "lazim bshuf el-ahl el-yom, ta3baan kteer min mbare7"
+    },
+    {
+     "ar": "لازم بتشوف بيت اليوم، عندك فلوس منيح",
+     "en": "You have to see a house today, you have good money",
+     "translit": "lazim btshuf beit el-yom, 3andak fluus mnih"
+    },
+    {
+     "ar": "لازم بيشوف صديق اليوم لأن عنده فلوس منيح",
+     "en": "He has to see a friend today because he has good money",
+     "translit": "lazim byshuf sadeeq el-yom la2an 3ando fluus mnih"
+    },
+    {
+     "ar": "لازم بتشوفي الأهل اليوم، عندك بيت منيح هونيك",
+     "en": "You (f) have to see the family today, you have a good house there",
+     "translit": "lazim btshufi el-ahl el-yom, 3andek beit mnih hownik"
+    }
+   ],
+   "topicId": "b1plus-lazim"
   },
-  "lessons": [
+  {
+   "number": 2,
+   "title": "She Must, We Must",
+   "titleNative": "لازم بتشوف، لازم منشوف",
+   "items": [
     {
-      "number": 1,
-      "title": "I Must See",
-      "titleNative": "لازم بشوف",
-      "items": [
-        {
-          "ar": "لازم بشوف الأهل اليوم، تعبان كتير من مبارح",
-          "en": "I have to see the family today, very tired from yesterday",
-          "translit": "lazim bshuf el-ahl el-yom, ta3baan kteer min mbare7"
-        },
-        {
-          "ar": "لازم بتشوف بيت اليوم، عندك فلوس منيح",
-          "en": "You have to see a house today, you have good money",
-          "translit": "lazim btshuf beit el-yom, 3andak fluus mnih"
-        },
-        {
-          "ar": "لازم بيشوف صديق اليوم لأن عنده فلوس منيح",
-          "en": "He has to see a friend today because he has good money",
-          "translit": "lazim byshuf sadeeq el-yom la2an 3ando fluus mnih"
-        },
-        {
-          "ar": "لازم بتشوفي الأهل اليوم، عندك بيت منيح هونيك",
-          "en": "You (f) have to see the family today, you have a good house there",
-          "translit": "lazim btshufi el-ahl el-yom, 3andek beit mnih hownik"
-        }
-      ],
-      "topicId": "b1plus-lazim"
+     "ar": "لازم بتشوف بيت اليوم لأن عندا فلوس منيح",
+     "en": "She has to see a house today because she has good money",
+     "translit": "lazim btshuf beit el-yom la2an 3anda fluus mnih"
     },
     {
-      "number": 2,
-      "title": "She Must, We Must",
-      "titleNative": "لازم بتشوف، لازم منشوف",
-      "items": [
-        {
-          "ar": "لازم بتشوف بيت اليوم لأن عندا فلوس منيح",
-          "en": "She has to see a house today because she has good money",
-          "translit": "lazim btshuf beit el-yom la2an 3anda fluus mnih"
-        },
-        {
-          "ar": "لازم منشوف الأهل اليوم، عندنا صديق منيح هونيك",
-          "en": "We have to see the family today, we have a good friend there",
-          "translit": "lazim mnshuf el-ahl el-yom, 3andna sadeeq mnih hownik"
-        },
-        {
-          "ar": "لازم بتشوفو بيت اليوم لأن عندكن بيت جديد",
-          "en": "You all have to see a house today because you have a new house",
-          "translit": "lazim btshufo beit el-yom la2an 3andkon beit jdeed"
-        },
-        {
-          "ar": "لازم بيشوفو الأهل اليوم، عندن بيت منيح هونيك",
-          "en": "They have to see the family today, they have a good house there",
-          "translit": "lazim byshufo el-ahl el-yom, 3andon beit mnih hownik"
-        }
-      ],
-      "topicId": "b1plus-lazim"
+     "ar": "لازم منشوف الأهل اليوم، عندنا صديق منيح هونيك",
+     "en": "We have to see the family today, we have a good friend there",
+     "translit": "lazim mnshuf el-ahl el-yom, 3andna sadeeq mnih hownik"
     },
     {
-      "number": 3,
-      "title": "I Must Love/Want",
-      "titleNative": "لازم بحب",
-      "items": [
-        {
-          "ar": "لازم بحب هاد البيت لأن جديد ومنيح كتير",
-          "en": "I have to love this house because it's new and very good",
-          "translit": "lazim b7ibb haad el-beit la2an jdeed wa mnih kteer"
-        },
-        {
-          "ar": "لازم بتحب القهوة اليوم، تعبان كتير من مبارح",
-          "en": "You have to love the coffee today, very tired from yesterday",
-          "translit": "lazim bt7ibb el-ahwe el-yom, ta3baan kteer min mbare7"
-        },
-        {
-          "ar": "لازم بيحب هاد البيت لأن عنده فلوس منيح",
-          "en": "He has to love this house because he has good money",
-          "translit": "lazim by7ibb haad el-beit la2an 3ando fluus mnih"
-        },
-        {
-          "ar": "لازم بتحبي القهوة اليوم، تعبانة كتير من مبارح",
-          "en": "You (f) have to love the coffee today, very tired from yesterday",
-          "translit": "lazim bt7ibbi el-ahwe el-yom, ta3baane kteer min mbare7"
-        }
-      ],
-      "topicId": "b1plus-lazim"
+     "ar": "لازم بتشوفو بيت اليوم لأن عندكن بيت جديد",
+     "en": "You all have to see a house today because you have a new house",
+     "translit": "lazim btshufo beit el-yom la2an 3andkon beit jdeed"
     },
     {
-      "number": 4,
-      "title": "We Must Love",
-      "titleNative": "لازم منحب",
-      "items": [
-        {
-          "ar": "لازم منحب القهوة اليوم لأن تعبانين كتير",
-          "en": "We have to love the coffee today because we're very tired",
-          "translit": "lazim mn7ibb el-ahwe el-yom la2an ta3baaneen kteer"
-        },
-        {
-          "ar": "لازم بتحبو هاد البيت اليوم، عندكن فلوس منيح",
-          "en": "You all have to love this house today, you have good money",
-          "translit": "lazim bt7ibbo haad el-beit el-yom, 3andkon fluus mnih"
-        },
-        {
-          "ar": "لازم بيحبو هاد البيت اليوم لأن عندن صديق هونيك",
-          "en": "They have to love this house today because they have a friend there",
-          "translit": "lazim by7ibbo haad el-beit el-yom la2an 3andon sadeeq hownik"
-        },
-        {
-          "ar": "لازم بحب القهوة اليوم لأن عندي فلوس منيح",
-          "en": "I have to love the coffee today because I have good money",
-          "translit": "lazim b7ibb el-ahwe el-yom la2an 3andi fluus mnih"
-        }
-      ],
-      "topicId": "b1plus-lazim"
-    },
-    {
-      "number": 5,
-      "title": "Review: Lazim with Verbs",
-      "titleNative": "مراجعة: لازم",
-      "items": [
-        {
-          "ar": "لازم بشوف الأهل اليوم، وشفت بيت منيح مبارح",
-          "en": "I have to see the family today, and I saw a good house yesterday",
-          "translit": "lazim bshuf el-ahl el-yom, wa shift beit mnih mbare7"
-        },
-        {
-          "ar": "لازم بتحب القهوة لأن تعبانة كتير اليوم",
-          "en": "You have to love the coffee because you're very tired today",
-          "translit": "lazim bt7ibb el-ahwe la2an ta3baane kteer el-yom"
-        },
-        {
-          "ar": "لازم بيشوف بيت مع صديق لأن تعبان اليوم",
-          "en": "He has to see a house with a friend because he's tired today",
-          "translit": "lazim byshuf beit ma3 sadeeq la2an ta3baan el-yom"
-        },
-        {
-          "ar": "لازم منحب القهوة لأن عندنا فلوس منيح كتير",
-          "en": "We have to love the coffee because we have very good money",
-          "translit": "lazim mn7ibb el-ahwe la2an 3andna fluus mnih kteer"
-        }
-      ]
-    },
-    {
-      "number": 6,
-      "title": "Days and Must",
-      "titleNative": "الأيام ولازم",
-      "items": [
-        {
-          "ar": "يوم الأحد لازم بشوف الأهل، عندي أهل هونيك منيح",
-          "en": "On Sunday I have to see the family, I have good family there",
-          "translit": "yom el-a7ad lazim bshuf el-ahl, 3andi ahl hownik mnih"
-        },
-        {
-          "ar": "يوم الجمعة لازم بيحب القهوة منيح مع الأهل",
-          "en": "On Friday he has to love the coffee with the family",
-          "translit": "yom el-jum3a lazim by7ibb el-ahwe mnih ma3 el-ahl"
-        },
-        {
-          "ar": "يوم السبت لازم بتشوف بيت لأن تعبانة كتير",
-          "en": "On Saturday she has to see a house because she's very tired",
-          "translit": "yom es-sabt lazim btshuf beit la2an ta3baane kteer"
-        },
-        {
-          "ar": "يوم الاثنين لازم منشوف بيت مع صديق منيح",
-          "en": "On Monday we have to see a house with a good friend",
-          "translit": "yom el-tnein lazim mnshuf beit ma3 sadeeq mnih"
-        }
-      ],
-      "topicId": "b1plus-lazim"
-    },
-    {
-      "number": 7,
-      "title": "Money and Must",
-      "titleNative": "الفلوس ولازم",
-      "items": [
-        {
-          "ar": "لازم عندي فلوس اليوم لأن بدي بيت جديد",
-          "en": "I need to have money today because I want a new house",
-          "translit": "lazim 3andi fluus el-yom la2an biddi beit jdeed"
-        },
-        {
-          "ar": "لازم عنده فلوس منيح لأن البيت غالي كتير",
-          "en": "He needs to have good money because the house is very expensive",
-          "translit": "lazim 3ando fluus mnih la2an el-beit ghali kteer"
-        },
-        {
-          "ar": "لازم عندا فلوس اليوم لأن بدي قهوة منيح",
-          "en": "She needs to have money today because I want good coffee",
-          "translit": "lazim 3anda fluus el-yom la2an biddi ahwe mnih"
-        },
-        {
-          "ar": "لازم عندنا فلوس كتير لأن البيت الجديد غالي",
-          "en": "We need to have a lot of money because the new house is expensive",
-          "translit": "lazim 3andna fluus kteer la2an el-beit el-jdeed ghali"
-        }
-      ]
-    },
-    {
-      "number": 8,
-      "title": "Feelings and Must",
-      "titleNative": "المشاعر ولازم",
-      "items": [
-        {
-          "ar": "لازم بشوف الأهل لأن أنا تعبان كتير اليوم",
-          "en": "I have to see the family because I'm very tired today",
-          "translit": "lazim bshuf el-ahl la2an ana ta3baan kteer el-yom"
-        },
-        {
-          "ar": "لازم بيحب القهوة لأن هو تعبان كتير هلق",
-          "en": "He has to love the coffee because he's very tired now",
-          "translit": "lazim by7ibb el-ahwe la2an huwwe ta3baan kteer hala2"
-        },
-        {
-          "ar": "لازم بتحب الشاي لأن هي تعبانة اليوم كتير",
-          "en": "She has to love the tea because she's very tired today",
-          "translit": "lazim bt7ibb esh-shay la2an hiyye ta3baane el-yom kteer"
-        },
-        {
-          "ar": "لازم منشوف الأهل لأن نحنا تعبانين كتير اليوم",
-          "en": "We have to see the family because we're very tired today",
-          "translit": "lazim mnshuf el-ahl la2an ni7na ta3baaneen kteer el-yom"
-        }
-      ]
-    },
-    {
-      "number": 9,
-      "title": "Places and Must",
-      "titleNative": "الأماكن ولازم",
-      "items": [
-        {
-          "ar": "لازم بشوف بيت هون لأن البيت قريب اليوم منيح",
-          "en": "I have to see a house here because the house is near today, good",
-          "translit": "lazim bshuf beit hown la2an el-beit 2areeb el-yom mnih"
-        },
-        {
-          "ar": "لازم بيشوف بيت هونيك لأن السيارة بعيدة اليوم",
-          "en": "He has to see a house there because the car is far today",
-          "translit": "lazim byshuf beit hownik la2an es-sayyara ba3eede el-yom"
-        },
-        {
-          "ar": "لازم بتشوف بيت هون لأن الأهل هون اليوم منيح",
-          "en": "She has to see a house here because the family is here today, good",
-          "translit": "lazim btshuf beit hown la2an el-ahl hown el-yom mnih"
-        },
-        {
-          "ar": "لازم منشوف بيت هونيك لأن صديق هونيك اليوم",
-          "en": "We have to see a house there because a friend is there today",
-          "translit": "lazim mnshuf beit hownik la2an sadeeq hownik el-yom"
-        }
-      ]
-    },
-    {
-      "number": 10,
-      "title": "Review: Lazim Recap",
-      "titleNative": "مراجعة نهائية",
-      "items": [
-        {
-          "ar": "لازم بشوف الأهل اليوم لأن عندي أهل منيح هونيك",
-          "en": "I have to see the family today because I have a good family there",
-          "translit": "lazim bshuf el-ahl el-yom la2an 3andi ahl mnih hownik"
-        },
-        {
-          "ar": "لازم بتحب القهوة لأن انتي تعبانة كتير اليوم",
-          "en": "You have to love the coffee because you're very tired today",
-          "translit": "lazim bt7ibbi el-ahwe la2an inti ta3baane kteer el-yom"
-        },
-        {
-          "ar": "يوم الجمعة لازم عندنا فلوس لأن البيت غالي",
-          "en": "On Friday we need to have money because the house is expensive",
-          "translit": "yom el-jum3a lazim 3andna fluus la2an el-beit ghali"
-        },
-        {
-          "ar": "لازم بيشوفو الأهل مع الأهل لأن تعبانين كتير",
-          "en": "They have to see the family with the family because they're very tired",
-          "translit": "lazim byshufo el-ahl ma3 el-ahl la2an ta3baaneen kteer"
-        }
-      ]
-    },
-    {
-      "number": 11,
-      "title": "I Want, I Don't Know",
-      "titleNative": "بدي ومدري",
-      "items": [
-        {
-          "ar": "بدي بشوف بيت جديد اليوم لأن هاد قديم كتير",
-          "en": "I want to see a new house today because this one is very old",
-          "translit": "biddi bshuf beit jdeed el-yom la2an haad adeem kteer"
-        },
-        {
-          "ar": "مدري وين البيت اليوم، لازم بشوف الأهل هلق",
-          "en": "I don't know where the house is today, I have to see the family now",
-          "translit": "midri wein el-beit el-yom, lazim bshuf el-ahl hala2"
-        },
-        {
-          "ar": "بدي بحب هاد البيت اليوم لأن جديد ومنيح كتير",
-          "en": "I want to love this house today because it's new and very good",
-          "translit": "biddi b7ibb haad el-beit el-yom la2an jdeed wa mnih kteer"
-        },
-        {
-          "ar": "مدري ليش هو تعبان اليوم، بيحب القهوة منيح كتير",
-          "en": "I don't know why he's tired today, he loves good coffee a lot",
-          "translit": "midri leish huwwe ta3baan el-yom, by7ibb el-ahwe mnih kteer"
-        }
-      ],
-      "topicId": "b1plus-lazim"
-    },
-    {
-      "number": 12,
-      "title": "She and They See",
-      "titleNative": "بتشوف وبيشوفو",
-      "items": [
-        {
-          "ar": "بتشوف بيت اليوم لأن عندا فلوس منيح كتير",
-          "en": "She sees a house today because she has a lot of good money",
-          "translit": "btshuf beit el-yom la2an 3anda fluus mnih kteer"
-        },
-        {
-          "ar": "مدري وين هون البيت الجديد، لازم منشوف الأهل هلق",
-          "en": "I don't know where the new house is here, we have to see the family now",
-          "translit": "midri wein hown el-beit el-jdeed, lazim mnshuf el-ahl hala2"
-        },
-        {
-          "ar": "بتشوفو بيت جديد اليوم لأن هاد قديم كتير",
-          "en": "You all see a new house today because this one is very old",
-          "translit": "btshufo beit jdeed el-yom la2an haad adeem kteer"
-        },
-        {
-          "ar": "بيشوفو الأهل اليوم لأن عندن بيت منيح هونيك",
-          "en": "They see the family today because they have a good house there",
-          "translit": "byshufo el-ahl el-yom la2an 3andon beit mnih hownik"
-        }
-      ],
-      "topicId": "b1plus-lazim"
-    },
-    {
-      "number": 13,
-      "title": "What I Want",
-      "titleNative": "بدي",
-      "items": [
-        {
-          "ar": "بدي بشوف بيت رخيص اليوم لأن البيت هون غالي كتير",
-          "en": "I want to see a cheap house today because the house here is very expensive",
-          "translit": "biddi bshuf beit rkhees el-yom la2an el-beit hown ghali kteer"
-        },
-        {
-          "ar": "بدي بشوف كم فلوس عندي اليوم، وبكرة بشوف بيت",
-          "en": "I want to see how much money I have today, and tomorrow I'll see a house",
-          "translit": "biddi bshuf kam fluus 3andi el-yom, wa bukra bshuf beit"
-        },
-        {
-          "ar": "بدي بحب هاد البيت الرخيص اليوم لأن منيح كتير",
-          "en": "I want to love this cheap house today because it's very good",
-          "translit": "biddi b7ibb haad el-beit er-rkhees el-yom la2an mnih kteer"
-        },
-        {
-          "ar": "بدي بشوف بيت اليوم لأن ما عندي فلوس كتير",
-          "en": "I want to see a house today because I don't have a lot of money",
-          "translit": "biddi bshuf beit el-yom la2an ma 3andi fluus kteer"
-        }
-      ],
-      "topicId": "b1plus-lazim"
-    },
-    {
-      "number": 14,
-      "title": "This Red House",
-      "titleNative": "هاد البيت الأحمر",
-      "items": [
-        {
-          "ar": "لازم بحب القهوة اليوم لأن هاد البيت أزرق",
-          "en": "I have to love the coffee today because this house is blue",
-          "translit": "lazim b7ibb el-ahwe el-yom la2an haad el-beit azra2"
-        },
-        {
-          "ar": "لازم بتشوف بيت أصفر بكرة لأن قريب كتير",
-          "en": "You have to see a yellow house tomorrow because it's very close",
-          "translit": "lazim btshuf beit asfar bukra la2an 2areeb kteer"
-        },
-        {
-          "ar": "هاد البيت الأخضر منيح كتير، بدي بشوف هلق",
-          "en": "This green house is very good, I want to see it now",
-          "translit": "haad el-beit el-akhdar mnih kteer, biddi bshuf hala2"
-        },
-        {
-          "ar": "هدول الأهل منيح كتير، لازم بشوف مع الأهل بكرة",
-          "en": "These family are very good, I have to see with the family tomorrow",
-          "translit": "hadol el-ahl mnih kteer, lazim bshuf ma3 el-ahl bukra"
-        }
-      ]
-    },
-    {
-      "number": 15,
-      "title": "Review: Want, Know, Colors",
-      "titleNative": "مراجعة",
-      "items": [
-        {
-          "ar": "مدري وين البيت الأخضر، لازم بشوف اليوم منيح",
-          "en": "I don't know where the green house is, I have to see today, good",
-          "translit": "midri wein el-beit el-akhdar, lazim bshuf el-yom mnih"
-        },
-        {
-          "ar": "بتشوف بيت أبيض اليوم، بكرة بتشوف بيت جديد",
-          "en": "She sees a white house today, tomorrow she sees a new house",
-          "translit": "btshuf beit abyad el-yom, bukra btshuf beit jdeed"
-        },
-        {
-          "ar": "هاد البيت الأبيض غالي، بدي بشوف ليش كتير",
-          "en": "This white house is expensive, I want to see why very much",
-          "translit": "haad el-beit el-abyad ghali, biddi bshuf leish kteer"
-        },
-        {
-          "ar": "بيشوفو بيت أحمر بكرة، منيح كتير والحمدلله",
-          "en": "They see a red house tomorrow, very good, thank God",
-          "translit": "byshufo beit a7mar bukra, mnih kteer wal-hamdulillah"
-        }
-      ]
-    },
-    {
-      "number": 16,
-      "title": "The Family and Must",
-      "titleNative": "الأهل ولازم",
-      "items": [
-        {
-          "ar": "لازم بشوف بيت الأهل اليوم لأن تعبان كتير هلق",
-          "en": "I have to see the family's house today because I'm very tired now",
-          "translit": "lazim bshuf beit el-ahl el-yom la2an ta3baan kteer hala2"
-        },
-        {
-          "ar": "لازم بتشوف الأهل هونيك اليوم لأن ما عندن فلوس",
-          "en": "You have to see the family there today because they have no money",
-          "translit": "lazim btshuf el-ahl hownik el-yom la2an ma 3andon fluus"
-        },
-        {
-          "ar": "لازم بحب القهوة مع الأهل اليوم، وبعدين بشوف بيت",
-          "en": "I have to love the coffee with the family today, and later see a house",
-          "translit": "lazim b7ibb el-ahwe ma3 el-ahl el-yom, wa ba3dein bshuf beit"
-        },
-        {
-          "ar": "لازم بتشوفي بيت الأهل اليوم لأن تعبانة كتير هونيك",
-          "en": "You (f) have to see the family's house today because she's very tired there",
-          "translit": "lazim btshufi beit el-ahl el-yom la2an ta3baane kteer hownik"
-        }
-      ],
-      "topicId": "b1plus-lazim"
-    },
-    {
-      "number": 17,
-      "title": "Food, Drink, and Must",
-      "titleNative": "الأكل والشرب",
-      "items": [
-        {
-          "ar": "لازم بحب القهوة اليوم لأن تعبان كتير كمان",
-          "en": "I have to love the coffee today because I'm also very tired",
-          "translit": "lazim b7ibb el-ahwe el-yom la2an ta3baan kteer kamaan"
-        },
-        {
-          "ar": "لازم بتحب الشاي منيح اليوم لأن تعبانة كتير",
-          "en": "You have to love the good tea today because you're very tired",
-          "translit": "lazim bt7ibb esh-shay mnih el-yom la2an ta3baane kteer"
-        },
-        {
-          "ar": "لازم بيحب المي اليوم لأن هو تعبان كتير",
-          "en": "He has to love the water today because he's very tired",
-          "translit": "lazim by7ibb el-may el-yom la2an huwwe ta3baan kteer"
-        },
-        {
-          "ar": "لازم منحب القهوة اليوم لأن ما عندنا شي منيح",
-          "en": "We have to love the coffee today because we don't have anything good",
-          "translit": "lazim mn7ibb el-ahwe el-yom la2an ma 3andna shi mnih"
-        }
-      ]
-    },
-    {
-      "number": 18,
-      "title": "Places and Must",
-      "titleNative": "الأماكن ولازم",
-      "items": [
-        {
-          "ar": "لازم بشوف بيت قريب اليوم لأن السيارة بعيدة كتير",
-          "en": "I have to see a nearby house today because the car is very far",
-          "translit": "lazim bshuf beit 2areeb el-yom la2an es-sayyara ba3eede kteer"
-        },
-        {
-          "ar": "لازم بتشوف بيت هون اليوم لأن الأهل هون منيح",
-          "en": "You have to see a house here today because the family is here, good",
-          "translit": "lazim btshuf beit hown el-yom la2an el-ahl hown mnih"
-        },
-        {
-          "ar": "لازم بيشوف بيت هونيك اليوم لأن صديق هونيك كتير",
-          "en": "He has to see a house there today because a friend is there a lot",
-          "translit": "lazim byshuf beit hownik el-yom la2an sadeeq hownik kteer"
-        },
-        {
-          "ar": "لازم منشوف بيت قريب بكرة لأن عندنا شي كتير اليوم",
-          "en": "We have to see a nearby house tomorrow because we have a lot to do today",
-          "translit": "lazim mnshuf beit 2areeb bukra la2an 3andna shi kteer el-yom"
-        }
-      ]
-    },
-    {
-      "number": 19,
-      "title": "Numbers and Must",
-      "titleNative": "الأرقام ولازم",
-      "items": [
-        {
-          "ar": "لازم بشوف بيت اليوم مع صديق منيح، عنده فلوس كتير",
-          "en": "I have to see a house today with a good friend, he has a lot of money",
-          "translit": "lazim bshuf beit el-yom ma3 sadeeq mnih, 3ando fluus kteer"
-        },
-        {
-          "ar": "لازم بتشوف عندك خمسة فلوس اليوم لأن غالي كتير",
-          "en": "You have to see you have five [money] today because it's very expensive",
-          "translit": "lazim btshuf 3andak khamse fluus el-yom la2an ghali kteer"
-        },
-        {
-          "ar": "لازم بيشوف بيت بكرة لأن عنده شي كتير هونيك",
-          "en": "He has to see a house tomorrow because he has a lot there",
-          "translit": "lazim byshuf beit bukra la2an 3ando shi kteer hownik"
-        },
-        {
-          "ar": "لازم منشوف بيت اليوم لأن عندنا سبعة فلوس منيح اليوم",
-          "en": "We have to see a house today because we have seven good [money] today",
-          "translit": "lazim mnshuf beit el-yom la2an 3andna sab3a fluus mnih el-yom"
-        }
-      ]
-    },
-    {
-      "number": 20,
-      "title": "Review: Family, Food, Places, Numbers",
-      "titleNative": "مراجعة",
-      "items": [
-        {
-          "ar": "لازم بشوف بيت الأهل بكرة لأن تعبان كتير اليوم",
-          "en": "I have to see the family's house tomorrow because I'm very tired today",
-          "translit": "lazim bshuf beit el-ahl bukra la2an ta3baan kteer el-yom"
-        },
-        {
-          "ar": "لازم بتحب القهوة منيح اليوم لأن تعبانة كتير",
-          "en": "You have to love the good coffee today because you're very tired",
-          "translit": "lazim bt7ibb el-ahwe mnih el-yom la2an ta3baane kteer"
-        },
-        {
-          "ar": "لازم بيشوف بيت قريب اليوم لأن السيارة بعيدة كتير",
-          "en": "He has to see a nearby house today because the car is very far",
-          "translit": "lazim byshuf beit 2areeb el-yom la2an es-sayyara ba3eede kteer"
-        },
-        {
-          "ar": "لازم منحب القهوة مع الأهل اليوم، منيح كتير والحمدلله",
-          "en": "We have to love the coffee with the family today, very good, thank God",
-          "translit": "lazim mn7ibb el-ahwe ma3 el-ahl el-yom, mnih kteer wal-hamdulillah"
-        }
-      ]
-    },
-    {
-      "number": 21,
-      "title": "Coffee, Tea, and Money",
-      "titleNative": "القهوة والشاي والفلوس",
-      "items": [
-        {
-          "ar": "بحب القهوة كتير، وبحب الشاي كمان، بس ما عندي فلوس",
-          "en": "I love coffee a lot, and I love tea too, but I don't have money",
-          "translit": "b7ibb el-ahwe kteer, wa b7ibb esh-shay kamaan, bas ma 3andi fluus"
-        },
-        {
-          "ar": "عندك قهوة وشاي هون، وعندك مي كمان، منيح كتير",
-          "en": "You have coffee and tea here, and you have water too, very good",
-          "translit": "3andak ahwe wa shay hown, wa 3andak may kamaan, mnih kteer"
-        },
-        {
-          "ar": "بيحب قهوة غالية، بس بيحب قهوة رخيصة كمان اليوم",
-          "en": "He loves expensive coffee, but he also loves cheap coffee today",
-          "translit": "by7ibb ahwe ghalye, bas by7ibb ahwe rkhees kamaan el-yom"
-        },
-        {
-          "ar": "منحب الشاي والقهوة، وعندنا مي كتير هون اليوم",
-          "en": "We love tea and coffee, and we have a lot of water here today",
-          "translit": "mn7ibb esh-shay wal-ahwe, wa 3andna may kteer hown el-yom"
-        }
-      ],
-      "topicId": "b1plus-lazim"
-    },
-    {
-      "number": 22,
-      "title": "How Much Do You Have?",
-      "titleNative": "أديش عندك؟",
-      "items": [
-        {
-          "ar": "كم فلوس عندك اليوم؟ عندي عشرة، وبدي بشوف بيت",
-          "en": "How much money do you have today? I have ten, and I want to see a house",
-          "translit": "kam fluus 3andak el-yom? 3andi 3ashra, wa biddi bshuf beit"
-        },
-        {
-          "ar": "أديش عنده اليوم؟ عنده تسعة، وبيحب يشوف بيت كبير",
-          "en": "How much does he have today? He has nine, and he loves to see a big house",
-          "translit": "addesh 3ando el-yom? 3ando tis3a, wa by7ibb yshuf beit kbeer"
-        },
-        {
-          "ar": "عندا ثمانية اليوم، وبتحب تشوف بيت جديد وقريب",
-          "en": "She has eight today, and she loves to see a new, nearby house",
-          "translit": "3anda tmaanye el-yom, wa bt7ibb tshuf beit jdeed wa 2areeb"
-        },
-        {
-          "ar": "عندنا ستة اليوم بس، وبدي بشوف بيت رخيص هون",
-          "en": "We only have six today, and I want to see a cheap house here",
-          "translit": "3andna sitte el-yom bas, wa biddi bshuf beit rkhees hown"
-        }
-      ]
-    },
-    {
-      "number": 23,
-      "title": "This House, That Family",
-      "titleNative": "هاد البيت، هدول الأهل",
-      "items": [
-        {
-          "ar": "هاد البيت الأزرق منيح كتير، بحب هاد البيت من اليوم",
-          "en": "This blue house is very good, I love this house starting today",
-          "translit": "haad el-beit el-azra2 mnih kteer, b7ibb haad el-beit el-yom"
-        },
-        {
-          "ar": "هاي قهوة غالية كتير، بس بتحب قهوة رخيصة كمان اليوم",
-          "en": "This is very expensive coffee, but you also love cheap coffee today",
-          "translit": "hayy ahwe ghalye kteer, bas bt7ibb ahwe rkhees kamaan el-yom"
-        },
-        {
-          "ar": "هدول الأهل منيح كتير، وبيحبو البيت الأخضر الجديد هونيك",
-          "en": "This family is very good, and they love the new green house there",
-          "translit": "hadol el-ahl mnih kteer, wa by7ibbo el-beit el-akhdar el-jdeed hownik"
-        },
-        {
-          "ar": "يوم الجمعة بشوف الأهل، ويوم السبت بحب القهوة هون",
-          "en": "On Friday I see the family, and on Saturday I love the coffee here",
-          "translit": "yom el-jum3a bshuf el-ahl, wa yom es-sabt b7ibb el-ahwe hown"
-        }
-      ],
-      "topicId": "b1plus-lazim"
-    },
-    {
-      "number": 24,
-      "title": "What I Want, What I Know",
-      "titleNative": "بدي ومدري",
-      "items": [
-        {
-          "ar": "بدي بشوف بيت أبيض جديد اليوم، بس ما عندي فلوس كتير",
-          "en": "I want to see a new white house today, but I don't have a lot of money",
-          "translit": "biddi bshuf beit abyad jdeed el-yom, bas ma 3andi fluus kteer"
-        },
-        {
-          "ar": "مدري وين هاد البيت الأصفر، بس بحب هاد البيت كتير",
-          "en": "I don't know where this yellow house is, but I love this house a lot",
-          "translit": "midri wein haad el-beit el-asfar, bas b7ibb haad el-beit kteer"
-        },
-        {
-          "ar": "بدي بشوف الأهل بكرة، بس عندي شي كتير اليوم",
-          "en": "I want to see the family tomorrow, but I have a lot today",
-          "translit": "biddi bshuf el-ahl bukra, bas 3andi shi kteer el-yom"
-        },
-        {
-          "ar": "مدري ليش هو تعبان اليوم، بس بيحب القهوة والشاي",
-          "en": "I don't know why he's tired today, but he loves coffee and tea",
-          "translit": "midri leish huwwe ta3baan el-yom, bas by7ibb el-ahwe wash-shay"
-        }
-      ]
-    },
-    {
-      "number": 25,
-      "title": "Review: Food, Money, Colors, Days",
-      "titleNative": "مراجعة",
-      "items": [
-        {
-          "ar": "بحب القهوة والشاي كتير، بس ما عندي فلوس اليوم",
-          "en": "I love coffee and tea a lot, but I don't have money today",
-          "translit": "b7ibb el-ahwe wash-shay kteer, bas ma 3andi fluus el-yom"
-        },
-        {
-          "ar": "عندك كم فلوس اليوم؟ عندي تسعة، وبدي بشوف بيت",
-          "en": "How much money do you have today? I have nine, and I want to see a house",
-          "translit": "3andak kam fluus el-yom? 3andi tis3a, wa biddi bshuf beit"
-        },
-        {
-          "ar": "هاد البيت الأزرق منيح، بس هاي القهوة غالية كتير",
-          "en": "This blue house is good, but this coffee is very expensive",
-          "translit": "haad el-beit el-azra2 mnih, bas hayy el-ahwe ghalye kteer"
-        },
-        {
-          "ar": "يوم الجمعة بدي بشوف الأهل، مدري وين هلق كتير",
-          "en": "On Friday I want to see the family, I don't know where right now",
-          "translit": "yom el-jum3a biddi bshuf el-ahl, midri wein hala2 kteer"
-        }
-      ]
-    },
-    {
-      "number": 26,
-      "title": "A Full Day",
-      "titleNative": "يوم كامل",
-      "items": [
-        {
-          "ar": "صباح الخير، بحب القهوة، وبعدين بشوف الأهل اليوم",
-          "en": "Good morning, I love coffee, and later I see the family today",
-          "translit": "sabah el-kheir, b7ibb el-ahwe, wa ba3dein bshuf el-ahl el-yom"
-        },
-        {
-          "ar": "شفت بيت مبارح، وشفت الأهل، وبحب القهوة والشاي منيح",
-          "en": "I saw a house yesterday, and I saw the family, and I love coffee and tea, good",
-          "translit": "shift beit mbare7, wa shift el-ahl, wa b7ibb el-ahwe wash-shay mnih"
-        },
-        {
-          "ar": "بدي بشوف الأهل هلق، بس عندي شي كتير اليوم",
-          "en": "I want to see the family now, but I have a lot today",
-          "translit": "biddi bshuf el-ahl hala2, bas 3andi shi kteer el-yom"
-        },
-        {
-          "ar": "صباح النور، أنا منيح اليوم لأن عندي أهل وصديق منيح",
-          "en": "Good morning, I'm good today because I have family and a good friend",
-          "translit": "sabah en-noor, ana mnih el-yom la2an 3andi ahl wa sadeeq mnih"
-        }
-      ]
-    },
-    {
-      "number": 27,
-      "title": "Another Full Day",
-      "titleNative": "يوم ثاني",
-      "items": [
-        {
-          "ar": "بدي بشوف بيت اليوم مع صديق منيح، هو تعبان بس بيحب",
-          "en": "I want to see a house today with a good friend, he's tired but loves it",
-          "translit": "biddi bshuf beit el-yom ma3 sadeeq mnih, huwwe ta3baan bas by7ibb"
-        },
-        {
-          "ar": "شفت بيت منيح مبارح، وبدي بشوف هونيك بكرة كمان",
-          "en": "I saw a good house yesterday, and I want to see it there tomorrow too",
-          "translit": "shift beit mnih mbare7, wa biddi bshuf hownik bukra kamaan"
-        },
-        {
-          "ar": "مدري وين البيت بكرة، بس الأهل بيحبو هون كتير",
-          "en": "I don't know where the house is tomorrow, but the family loves it here a lot",
-          "translit": "midri wein el-beit bukra, bas el-ahl by7ibbo hown kteer"
-        },
-        {
-          "ar": "بحب القهوة، وشفت صديق، وتعبان هلق كتير والحمدلله",
-          "en": "I love coffee, and I saw a friend, and I'm very tired now, thank God",
-          "translit": "b7ibb el-ahwe, wa shift sadeeq, wa ta3baan hala2 kteer wal-hamdulillah"
-        }
-      ]
-    },
-    {
-      "number": 28,
-      "title": "Family and Feelings",
-      "titleNative": "الأهل والمشاعر",
-      "items": [
-        {
-          "ar": "أنا منيح اليوم لأن عندي بيت كبير جديد ومنيح",
-          "en": "I'm good today because I have a big, new, good house",
-          "translit": "ana mnih el-yom la2an 3andi beit kbeer jdeed wa mnih"
-        },
-        {
-          "ar": "هي مش منيحة اليوم لأن ما عندا فلوس كتير هلق",
-          "en": "She's not good today because she doesn't have a lot of money right now",
-          "translit": "hiyye mish mniha el-yom la2an ma 3anda fluus kteer hala2"
-        },
-        {
-          "ar": "نحنا تعبانين اليوم لأن شفنا بيت بعيد كتير هونيك",
-          "en": "We're tired today because we saw a very far house there",
-          "translit": "ni7na ta3baaneen el-yom la2an shifna beit ba3eed kteer hownik"
-        },
-        {
-          "ar": "هني تعبانين كمان لأن عندن شي كتير اليوم هون",
-          "en": "They're also tired because they have a lot today here",
-          "translit": "hinne ta3baaneen kamaan la2an 3andon shi kteer el-yom hown"
-        }
-      ]
-    },
-    {
-      "number": 29,
-      "title": "Friends, Places, and Numbers",
-      "titleNative": "الأصحاب والأماكن والأرقام",
-      "items": [
-        {
-          "ar": "عندي صديق منيح هونيك، بشوف بيته يوم الأحد اليوم",
-          "en": "I have a good friend there, I see his house today, on Sunday",
-          "translit": "3andi sadeeq mnih hownik, bshuf beito yom el-a7ad el-yom"
-        },
-        {
-          "ar": "بحب هاد البيت القريب، بس هاد البيت البعيد رخيص كمان",
-          "en": "I love this nearby house, but this far house is cheap too",
-          "translit": "b7ibb haad el-beit el-2areeb, bas haad el-beit el-ba3eed rkhees kamaan"
-        },
-        {
-          "ar": "عندنا سبعة فلوس هون، وعندنا تلاتة فلوس هونيك كمان اليوم",
-          "en": "We have seven [money] here, and we have three [money] there too today",
-          "translit": "3andna sab3a fluus hown, wa 3andna tlete fluus hownik kamaan el-yom"
-        },
-        {
-          "ar": "مدري كم صديق عندك اليوم، بس عندي كتير والحمدلله",
-          "en": "I don't know how many friends you have today, but I have a lot, thank God",
-          "translit": "midri kam sadeeq 3andak el-yom, bas 3andi kteer wal-hamdulillah"
-        }
-      ]
-    },
-    {
-      "number": 30,
-      "title": "Review: B1+ Recap",
-      "titleNative": "مراجعة نهائية",
-      "items": [
-        {
-          "ar": "بحب القهوة والشاي كتير اليوم، وعندي بيت كبير ومنيح",
-          "en": "I love coffee and tea a lot today, and I have a big, good house",
-          "translit": "b7ibb el-ahwe wash-shay kteer el-yom, wa 3andi beit kbeer wa mnih"
-        },
-        {
-          "ar": "شفت بيت جديد مبارح مع صديق منيح، وبدي بشوف بكرة كمان",
-          "en": "I saw a new house yesterday with a good friend, and I want to see it tomorrow too",
-          "translit": "shift beit jdeed mbare7 ma3 sadeeq mnih, wa biddi bshuf bukra kamaan"
-        },
-        {
-          "ar": "هي منيحة اليوم لأن عندا بيت جديد وأهل منيح هونيك",
-          "en": "She's good today because she has a new house and a good family there",
-          "translit": "hiyye mniha el-yom la2an 3anda beit jdeed wa ahl mnih hownik"
-        },
-        {
-          "ar": "مدري كم فلوس عندن، بس عندن بيت كبير وغالي كتير",
-          "en": "I don't know how much money they have, but they have a big, very expensive house",
-          "translit": "midri kam fluus 3andon, bas 3andon beit kbeer wa ghali kteer"
-        }
-      ]
+     "ar": "لازم بيشوفو الأهل اليوم، عندن بيت منيح هونيك",
+     "en": "They have to see the family today, they have a good house there",
+     "translit": "lazim byshufo el-ahl el-yom, 3andon beit mnih hownik"
     }
-  ]
+   ],
+   "topicId": "b1plus-lazim"
+  },
+  {
+   "number": 3,
+   "title": "I Must Love/Want",
+   "titleNative": "لازم بحب",
+   "items": [
+    {
+     "ar": "لازم بحب هاد البيت لأن جديد ومنيح كتير",
+     "en": "I have to love this house because it's new and very good",
+     "translit": "lazim b7ibb haad el-beit la2an jdeed wa mnih kteer"
+    },
+    {
+     "ar": "لازم بتحب القهوة اليوم، تعبان كتير من مبارح",
+     "en": "You have to love the coffee today, very tired from yesterday",
+     "translit": "lazim bt7ibb el-ahwe el-yom, ta3baan kteer min mbare7"
+    },
+    {
+     "ar": "لازم بيحب هاد البيت لأن عنده فلوس منيح",
+     "en": "He has to love this house because he has good money",
+     "translit": "lazim by7ibb haad el-beit la2an 3ando fluus mnih"
+    },
+    {
+     "ar": "لازم بتحبي القهوة اليوم، تعبانة كتير من مبارح",
+     "en": "You (f) have to love the coffee today, very tired from yesterday",
+     "translit": "lazim bt7ibbi el-ahwe el-yom, ta3baane kteer min mbare7"
+    }
+   ],
+   "topicId": "b1plus-lazim"
+  },
+  {
+   "number": 4,
+   "title": "We Must Love",
+   "titleNative": "لازم منحب",
+   "items": [
+    {
+     "ar": "لازم منحب القهوة اليوم لأن تعبانين كتير",
+     "en": "We have to love the coffee today because we're very tired",
+     "translit": "lazim mn7ibb el-ahwe el-yom la2an ta3baaneen kteer"
+    },
+    {
+     "ar": "لازم بتحبو هاد البيت اليوم، عندكن فلوس منيح",
+     "en": "You all have to love this house today, you have good money",
+     "translit": "lazim bt7ibbo haad el-beit el-yom, 3andkon fluus mnih"
+    },
+    {
+     "ar": "لازم بيحبو هاد البيت اليوم لأن عندن صديق هونيك",
+     "en": "They have to love this house today because they have a friend there",
+     "translit": "lazim by7ibbo haad el-beit el-yom la2an 3andon sadeeq hownik"
+    },
+    {
+     "ar": "لازم بحب القهوة اليوم لأن عندي فلوس منيح",
+     "en": "I have to love the coffee today because I have good money",
+     "translit": "lazim b7ibb el-ahwe el-yom la2an 3andi fluus mnih"
+    }
+   ],
+   "topicId": "b1plus-lazim"
+  },
+  {
+   "number": 5,
+   "title": "Review: Lazim with Verbs",
+   "titleNative": "مراجعة: لازم",
+   "items": [
+    {
+     "ar": "لازم بشوف الأهل اليوم، وشفت بيت منيح مبارح",
+     "en": "I have to see the family today, and I saw a good house yesterday",
+     "translit": "lazim bshuf el-ahl el-yom, wa shift beit mnih mbare7"
+    },
+    {
+     "ar": "لازم بتحب القهوة لأن تعبانة كتير اليوم",
+     "en": "You have to love the coffee because you're very tired today",
+     "translit": "lazim bt7ibb el-ahwe la2an ta3baane kteer el-yom"
+    },
+    {
+     "ar": "لازم بيشوف بيت مع صديق لأن تعبان اليوم",
+     "en": "He has to see a house with a friend because he's tired today",
+     "translit": "lazim byshuf beit ma3 sadeeq la2an ta3baan el-yom"
+    },
+    {
+     "ar": "لازم منحب القهوة لأن عندنا فلوس منيح كتير",
+     "en": "We have to love the coffee because we have very good money",
+     "translit": "lazim mn7ibb el-ahwe la2an 3andna fluus mnih kteer"
+    }
+   ]
+  },
+  {
+   "number": 6,
+   "title": "Days and Must",
+   "titleNative": "الأيام ولازم",
+   "items": [
+    {
+     "ar": "يوم الأحد لازم بشوف الأهل، عندي أهل هونيك منيح",
+     "en": "On Sunday I have to see the family, I have good family there",
+     "translit": "yom el-a7ad lazim bshuf el-ahl, 3andi ahl hownik mnih"
+    },
+    {
+     "ar": "يوم الجمعة لازم بيحب القهوة منيح مع الأهل",
+     "en": "On Friday he has to love the coffee with the family",
+     "translit": "yom el-jum3a lazim by7ibb el-ahwe mnih ma3 el-ahl"
+    },
+    {
+     "ar": "يوم السبت لازم بتشوف بيت لأن تعبانة كتير",
+     "en": "On Saturday she has to see a house because she's very tired",
+     "translit": "yom es-sabt lazim btshuf beit la2an ta3baane kteer"
+    },
+    {
+     "ar": "يوم الاثنين لازم منشوف بيت مع صديق منيح",
+     "en": "On Monday we have to see a house with a good friend",
+     "translit": "yom el-tnein lazim mnshuf beit ma3 sadeeq mnih"
+    }
+   ],
+   "topicId": "b1plus-lazim"
+  },
+  {
+   "number": 7,
+   "title": "Money and Must",
+   "titleNative": "الفلوس ولازم",
+   "items": [
+    {
+     "ar": "لازم عندي فلوس اليوم لأن بدي بيت جديد",
+     "en": "I need to have money today because I want a new house",
+     "translit": "lazim 3andi fluus el-yom la2an biddi beit jdeed"
+    },
+    {
+     "ar": "لازم عنده فلوس منيح لأن البيت غالي كتير",
+     "en": "He needs to have good money because the house is very expensive",
+     "translit": "lazim 3ando fluus mnih la2an el-beit ghali kteer"
+    },
+    {
+     "ar": "لازم عندا فلوس اليوم لأن بدي قهوة منيح",
+     "en": "She needs to have money today because I want good coffee",
+     "translit": "lazim 3anda fluus el-yom la2an biddi ahwe mnih"
+    },
+    {
+     "ar": "لازم عندنا فلوس كتير لأن البيت الجديد غالي",
+     "en": "We need to have a lot of money because the new house is expensive",
+     "translit": "lazim 3andna fluus kteer la2an el-beit el-jdeed ghali"
+    }
+   ]
+  },
+  {
+   "number": 8,
+   "title": "Feelings and Must",
+   "titleNative": "المشاعر ولازم",
+   "items": [
+    {
+     "ar": "لازم بشوف الأهل لأن أنا تعبان كتير اليوم",
+     "en": "I have to see the family because I'm very tired today",
+     "translit": "lazim bshuf el-ahl la2an ana ta3baan kteer el-yom"
+    },
+    {
+     "ar": "لازم بيحب القهوة لأن هو تعبان كتير هلق",
+     "en": "He has to love the coffee because he's very tired now",
+     "translit": "lazim by7ibb el-ahwe la2an huwwe ta3baan kteer hala2"
+    },
+    {
+     "ar": "لازم بتحب الشاي لأن هي تعبانة اليوم كتير",
+     "en": "She has to love the tea because she's very tired today",
+     "translit": "lazim bt7ibb esh-shay la2an hiyye ta3baane el-yom kteer"
+    },
+    {
+     "ar": "لازم منشوف الأهل لأن نحنا تعبانين كتير اليوم",
+     "en": "We have to see the family because we're very tired today",
+     "translit": "lazim mnshuf el-ahl la2an ni7na ta3baaneen kteer el-yom"
+    }
+   ]
+  },
+  {
+   "number": 9,
+   "title": "Places and Must",
+   "titleNative": "الأماكن ولازم",
+   "items": [
+    {
+     "ar": "لازم بشوف بيت هون لأن البيت قريب اليوم منيح",
+     "en": "I have to see a house here because the house is near today, good",
+     "translit": "lazim bshuf beit hown la2an el-beit 2areeb el-yom mnih"
+    },
+    {
+     "ar": "لازم بيشوف بيت هونيك لأن السيارة بعيدة اليوم",
+     "en": "He has to see a house there because the car is far today",
+     "translit": "lazim byshuf beit hownik la2an es-sayyara ba3eede el-yom"
+    },
+    {
+     "ar": "لازم بتشوف بيت هون لأن الأهل هون اليوم منيح",
+     "en": "She has to see a house here because the family is here today, good",
+     "translit": "lazim btshuf beit hown la2an el-ahl hown el-yom mnih"
+    },
+    {
+     "ar": "لازم منشوف بيت هونيك لأن صديق هونيك اليوم",
+     "en": "We have to see a house there because a friend is there today",
+     "translit": "lazim mnshuf beit hownik la2an sadeeq hownik el-yom"
+    }
+   ]
+  },
+  {
+   "number": 10,
+   "title": "Review: Lazim Recap",
+   "titleNative": "مراجعة نهائية",
+   "items": [
+    {
+     "ar": "لازم بشوف الأهل اليوم لأن عندي أهل منيح هونيك",
+     "en": "I have to see the family today because I have a good family there",
+     "translit": "lazim bshuf el-ahl el-yom la2an 3andi ahl mnih hownik"
+    },
+    {
+     "ar": "لازم بتحب القهوة لأن انتي تعبانة كتير اليوم",
+     "en": "You have to love the coffee because you're very tired today",
+     "translit": "lazim bt7ibbi el-ahwe la2an inti ta3baane kteer el-yom"
+    },
+    {
+     "ar": "يوم الجمعة لازم عندنا فلوس لأن البيت غالي",
+     "en": "On Friday we need to have money because the house is expensive",
+     "translit": "yom el-jum3a lazim 3andna fluus la2an el-beit ghali"
+    },
+    {
+     "ar": "لازم بيشوفو الأهل مع الأهل لأن تعبانين كتير",
+     "en": "They have to see the family with the family because they're very tired",
+     "translit": "lazim byshufo el-ahl ma3 el-ahl la2an ta3baaneen kteer"
+    }
+   ]
+  },
+  {
+   "number": 11,
+   "title": "I Want, I Don't Know",
+   "titleNative": "بدي ومدري",
+   "items": [
+    {
+     "ar": "بدي بشوف بيت جديد اليوم لأن هاد قديم كتير",
+     "en": "I want to see a new house today because this one is very old",
+     "translit": "biddi bshuf beit jdeed el-yom la2an haad adeem kteer"
+    },
+    {
+     "ar": "مدري وين البيت اليوم، لازم بشوف الأهل هلق",
+     "en": "I don't know where the house is today, I have to see the family now",
+     "translit": "midri wein el-beit el-yom, lazim bshuf el-ahl hala2"
+    },
+    {
+     "ar": "بدي بحب هاد البيت اليوم لأن جديد ومنيح كتير",
+     "en": "I want to love this house today because it's new and very good",
+     "translit": "biddi b7ibb haad el-beit el-yom la2an jdeed wa mnih kteer"
+    },
+    {
+     "ar": "مدري ليش هو تعبان اليوم، بيحب القهوة منيح كتير",
+     "en": "I don't know why he's tired today, he loves good coffee a lot",
+     "translit": "midri leish huwwe ta3baan el-yom, by7ibb el-ahwe mnih kteer"
+    }
+   ],
+   "topicId": "b1plus-lazim"
+  },
+  {
+   "number": 12,
+   "title": "She and They See",
+   "titleNative": "بتشوف وبيشوفو",
+   "items": [
+    {
+     "ar": "بتشوف بيت اليوم لأن عندا فلوس منيح كتير",
+     "en": "She sees a house today because she has a lot of good money",
+     "translit": "btshuf beit el-yom la2an 3anda fluus mnih kteer"
+    },
+    {
+     "ar": "مدري وين هون البيت الجديد، لازم منشوف الأهل هلق",
+     "en": "I don't know where the new house is here, we have to see the family now",
+     "translit": "midri wein hown el-beit el-jdeed, lazim mnshuf el-ahl hala2"
+    },
+    {
+     "ar": "بتشوفو بيت جديد اليوم لأن هاد قديم كتير",
+     "en": "You all see a new house today because this one is very old",
+     "translit": "btshufo beit jdeed el-yom la2an haad adeem kteer"
+    },
+    {
+     "ar": "بيشوفو الأهل اليوم لأن عندن بيت منيح هونيك",
+     "en": "They see the family today because they have a good house there",
+     "translit": "byshufo el-ahl el-yom la2an 3andon beit mnih hownik"
+    }
+   ],
+   "topicId": "b1plus-lazim"
+  },
+  {
+   "number": 13,
+   "title": "What I Want",
+   "titleNative": "بدي",
+   "items": [
+    {
+     "ar": "بدي بشوف بيت رخيص اليوم لأن البيت هون غالي كتير",
+     "en": "I want to see a cheap house today because the house here is very expensive",
+     "translit": "biddi bshuf beit rkhees el-yom la2an el-beit hown ghali kteer"
+    },
+    {
+     "ar": "بدي بشوف كم فلوس عندي اليوم، وبكرة بشوف بيت",
+     "en": "I want to see how much money I have today, and tomorrow I'll see a house",
+     "translit": "biddi bshuf kam fluus 3andi el-yom, wa bukra bshuf beit"
+    },
+    {
+     "ar": "بدي بحب هاد البيت الرخيص اليوم لأن منيح كتير",
+     "en": "I want to love this cheap house today because it's very good",
+     "translit": "biddi b7ibb haad el-beit er-rkhees el-yom la2an mnih kteer"
+    },
+    {
+     "ar": "بدي بشوف بيت اليوم لأن ما عندي فلوس كتير",
+     "en": "I want to see a house today because I don't have a lot of money",
+     "translit": "biddi bshuf beit el-yom la2an ma 3andi fluus kteer"
+    }
+   ],
+   "topicId": "b1plus-lazim"
+  },
+  {
+   "number": 14,
+   "title": "This Red House",
+   "titleNative": "هاد البيت الأحمر",
+   "items": [
+    {
+     "ar": "لازم بحب القهوة اليوم لأن هاد البيت أزرق",
+     "en": "I have to love the coffee today because this house is blue",
+     "translit": "lazim b7ibb el-ahwe el-yom la2an haad el-beit azra2"
+    },
+    {
+     "ar": "لازم بتشوف بيت أصفر بكرة لأن قريب كتير",
+     "en": "You have to see a yellow house tomorrow because it's very close",
+     "translit": "lazim btshuf beit asfar bukra la2an 2areeb kteer"
+    },
+    {
+     "ar": "هاد البيت الأخضر منيح كتير، بدي بشوف هلق",
+     "en": "This green house is very good, I want to see it now",
+     "translit": "haad el-beit el-akhdar mnih kteer, biddi bshuf hala2"
+    },
+    {
+     "ar": "هدول الأهل منيح كتير، لازم بشوف مع الأهل بكرة",
+     "en": "These family are very good, I have to see with the family tomorrow",
+     "translit": "hadol el-ahl mnih kteer, lazim bshuf ma3 el-ahl bukra"
+    }
+   ]
+  },
+  {
+   "number": 15,
+   "title": "Review: Want, Know, Colors",
+   "titleNative": "مراجعة",
+   "items": [
+    {
+     "ar": "مدري وين البيت الأخضر، لازم بشوف اليوم منيح",
+     "en": "I don't know where the green house is, I have to see today, good",
+     "translit": "midri wein el-beit el-akhdar, lazim bshuf el-yom mnih"
+    },
+    {
+     "ar": "بتشوف بيت أبيض اليوم، بكرة بتشوف بيت جديد",
+     "en": "She sees a white house today, tomorrow she sees a new house",
+     "translit": "btshuf beit abyad el-yom, bukra btshuf beit jdeed"
+    },
+    {
+     "ar": "هاد البيت الأبيض غالي، بدي بشوف ليش كتير",
+     "en": "This white house is expensive, I want to see why very much",
+     "translit": "haad el-beit el-abyad ghali, biddi bshuf leish kteer"
+    },
+    {
+     "ar": "بيشوفو بيت أحمر بكرة، منيح كتير والحمدلله",
+     "en": "They see a red house tomorrow, very good, thank God",
+     "translit": "byshufo beit a7mar bukra, mnih kteer wal-hamdulillah"
+    }
+   ]
+  },
+  {
+   "number": 16,
+   "title": "The Family and Must",
+   "titleNative": "الأهل ولازم",
+   "items": [
+    {
+     "ar": "لازم بشوف بيت الأهل اليوم لأن تعبان كتير هلق",
+     "en": "I have to see the family's house today because I'm very tired now",
+     "translit": "lazim bshuf beit el-ahl el-yom la2an ta3baan kteer hala2"
+    },
+    {
+     "ar": "لازم بتشوف الأهل هونيك اليوم لأن ما عندن فلوس",
+     "en": "You have to see the family there today because they have no money",
+     "translit": "lazim btshuf el-ahl hownik el-yom la2an ma 3andon fluus"
+    },
+    {
+     "ar": "لازم بحب القهوة مع الأهل اليوم، وبعدين بشوف بيت",
+     "en": "I have to love the coffee with the family today, and later see a house",
+     "translit": "lazim b7ibb el-ahwe ma3 el-ahl el-yom, wa ba3dein bshuf beit"
+    },
+    {
+     "ar": "لازم بتشوفي بيت الأهل اليوم لأن تعبانة كتير هونيك",
+     "en": "You (f) have to see the family's house today because she's very tired there",
+     "translit": "lazim btshufi beit el-ahl el-yom la2an ta3baane kteer hownik"
+    }
+   ],
+   "topicId": "b1plus-lazim"
+  },
+  {
+   "number": 17,
+   "title": "Food, Drink, and Must",
+   "titleNative": "الأكل والشرب",
+   "items": [
+    {
+     "ar": "لازم بحب القهوة اليوم لأن تعبان كتير كمان",
+     "en": "I have to love the coffee today because I'm also very tired",
+     "translit": "lazim b7ibb el-ahwe el-yom la2an ta3baan kteer kamaan"
+    },
+    {
+     "ar": "لازم بتحب الشاي منيح اليوم لأن تعبانة كتير",
+     "en": "You have to love the good tea today because you're very tired",
+     "translit": "lazim bt7ibb esh-shay mnih el-yom la2an ta3baane kteer"
+    },
+    {
+     "ar": "لازم بيحب المي اليوم لأن هو تعبان كتير",
+     "en": "He has to love the water today because he's very tired",
+     "translit": "lazim by7ibb el-may el-yom la2an huwwe ta3baan kteer"
+    },
+    {
+     "ar": "لازم منحب القهوة اليوم لأن ما عندنا شي منيح",
+     "en": "We have to love the coffee today because we don't have anything good",
+     "translit": "lazim mn7ibb el-ahwe el-yom la2an ma 3andna shi mnih"
+    }
+   ]
+  },
+  {
+   "number": 18,
+   "title": "Places and Must",
+   "titleNative": "الأماكن ولازم",
+   "items": [
+    {
+     "ar": "لازم بشوف بيت قريب اليوم لأن السيارة بعيدة كتير",
+     "en": "I have to see a nearby house today because the car is very far",
+     "translit": "lazim bshuf beit 2areeb el-yom la2an es-sayyara ba3eede kteer"
+    },
+    {
+     "ar": "لازم بتشوف بيت هون اليوم لأن الأهل هون منيح",
+     "en": "You have to see a house here today because the family is here, good",
+     "translit": "lazim btshuf beit hown el-yom la2an el-ahl hown mnih"
+    },
+    {
+     "ar": "لازم بيشوف بيت هونيك اليوم لأن صديق هونيك كتير",
+     "en": "He has to see a house there today because a friend is there a lot",
+     "translit": "lazim byshuf beit hownik el-yom la2an sadeeq hownik kteer"
+    },
+    {
+     "ar": "لازم منشوف بيت قريب بكرة لأن عندنا شي كتير اليوم",
+     "en": "We have to see a nearby house tomorrow because we have a lot to do today",
+     "translit": "lazim mnshuf beit 2areeb bukra la2an 3andna shi kteer el-yom"
+    }
+   ]
+  },
+  {
+   "number": 19,
+   "title": "Numbers and Must",
+   "titleNative": "الأرقام ولازم",
+   "items": [
+    {
+     "ar": "لازم بشوف بيت اليوم مع صديق منيح، عنده فلوس كتير",
+     "en": "I have to see a house today with a good friend, he has a lot of money",
+     "translit": "lazim bshuf beit el-yom ma3 sadeeq mnih, 3ando fluus kteer"
+    },
+    {
+     "ar": "لازم بتشوف عندك خمسة فلوس اليوم لأن غالي كتير",
+     "en": "You have to see you have five [money] today because it's very expensive",
+     "translit": "lazim btshuf 3andak khamse fluus el-yom la2an ghali kteer"
+    },
+    {
+     "ar": "لازم بيشوف بيت بكرة لأن عنده شي كتير هونيك",
+     "en": "He has to see a house tomorrow because he has a lot there",
+     "translit": "lazim byshuf beit bukra la2an 3ando shi kteer hownik"
+    },
+    {
+     "ar": "لازم منشوف بيت اليوم لأن عندنا سبعة فلوس منيح اليوم",
+     "en": "We have to see a house today because we have seven good [money] today",
+     "translit": "lazim mnshuf beit el-yom la2an 3andna sab3a fluus mnih el-yom"
+    }
+   ]
+  },
+  {
+   "number": 20,
+   "title": "Review: Family, Food, Places, Numbers",
+   "titleNative": "مراجعة",
+   "items": [
+    {
+     "ar": "لازم بشوف بيت الأهل بكرة لأن تعبان كتير اليوم",
+     "en": "I have to see the family's house tomorrow because I'm very tired today",
+     "translit": "lazim bshuf beit el-ahl bukra la2an ta3baan kteer el-yom"
+    },
+    {
+     "ar": "لازم بتحب القهوة منيح اليوم لأن تعبانة كتير",
+     "en": "You have to love the good coffee today because you're very tired",
+     "translit": "lazim bt7ibb el-ahwe mnih el-yom la2an ta3baane kteer"
+    },
+    {
+     "ar": "لازم بيشوف بيت قريب اليوم لأن السيارة بعيدة كتير",
+     "en": "He has to see a nearby house today because the car is very far",
+     "translit": "lazim byshuf beit 2areeb el-yom la2an es-sayyara ba3eede kteer"
+    },
+    {
+     "ar": "لازم منحب القهوة مع الأهل اليوم، منيح كتير والحمدلله",
+     "en": "We have to love the coffee with the family today, very good, thank God",
+     "translit": "lazim mn7ibb el-ahwe ma3 el-ahl el-yom, mnih kteer wal-hamdulillah"
+    }
+   ]
+  },
+  {
+   "number": 21,
+   "title": "Coffee, Tea, and Money",
+   "titleNative": "القهوة والشاي والفلوس",
+   "items": [
+    {
+     "ar": "بحب القهوة كتير، وبحب الشاي كمان، بس ما عندي فلوس",
+     "en": "I love coffee a lot, and I love tea too, but I don't have money",
+     "translit": "b7ibb el-ahwe kteer, wa b7ibb esh-shay kamaan, bas ma 3andi fluus"
+    },
+    {
+     "ar": "عندك قهوة وشاي هون، وعندك مي كمان، منيح كتير",
+     "en": "You have coffee and tea here, and you have water too, very good",
+     "translit": "3andak ahwe wa shay hown, wa 3andak may kamaan, mnih kteer"
+    },
+    {
+     "ar": "بيحب قهوة غالية، بس بيحب قهوة رخيصة كمان اليوم",
+     "en": "He loves expensive coffee, but he also loves cheap coffee today",
+     "translit": "by7ibb ahwe ghalye, bas by7ibb ahwe rkhees kamaan el-yom"
+    },
+    {
+     "ar": "منحب الشاي والقهوة، وعندنا مي كتير هون اليوم",
+     "en": "We love tea and coffee, and we have a lot of water here today",
+     "translit": "mn7ibb esh-shay wal-ahwe, wa 3andna may kteer hown el-yom"
+    }
+   ],
+   "topicId": "b1plus-lazim"
+  },
+  {
+   "number": 22,
+   "title": "How Much Do You Have?",
+   "titleNative": "أديش عندك؟",
+   "items": [
+    {
+     "ar": "كم فلوس عندك اليوم؟ عندي عشرة، وبدي بشوف بيت",
+     "en": "How much money do you have today? I have ten, and I want to see a house",
+     "translit": "kam fluus 3andak el-yom? 3andi 3ashra, wa biddi bshuf beit"
+    },
+    {
+     "ar": "أديش عنده اليوم؟ عنده تسعة، وبيحب يشوف بيت كبير",
+     "en": "How much does he have today? He has nine, and he loves to see a big house",
+     "translit": "addesh 3ando el-yom? 3ando tis3a, wa by7ibb yshuf beit kbeer"
+    },
+    {
+     "ar": "عندا ثمانية اليوم، وبتحب تشوف بيت جديد وقريب",
+     "en": "She has eight today, and she loves to see a new, nearby house",
+     "translit": "3anda tmaanye el-yom, wa bt7ibb tshuf beit jdeed wa 2areeb"
+    },
+    {
+     "ar": "عندنا ستة اليوم بس، وبدي بشوف بيت رخيص هون",
+     "en": "We only have six today, and I want to see a cheap house here",
+     "translit": "3andna sitte el-yom bas, wa biddi bshuf beit rkhees hown"
+    }
+   ]
+  },
+  {
+   "number": 23,
+   "title": "This House, That Family",
+   "titleNative": "هاد البيت، هدول الأهل",
+   "items": [
+    {
+     "ar": "هاد البيت الأزرق منيح كتير، بحب هاد البيت من اليوم",
+     "en": "This blue house is very good, I love this house starting today",
+     "translit": "haad el-beit el-azra2 mnih kteer, b7ibb haad el-beit el-yom"
+    },
+    {
+     "ar": "هاي قهوة غالية كتير، بس بتحب قهوة رخيصة كمان اليوم",
+     "en": "This is very expensive coffee, but you also love cheap coffee today",
+     "translit": "hayy ahwe ghalye kteer, bas bt7ibb ahwe rkhees kamaan el-yom"
+    },
+    {
+     "ar": "هدول الأهل منيح كتير، وبيحبو البيت الأخضر الجديد هونيك",
+     "en": "This family is very good, and they love the new green house there",
+     "translit": "hadol el-ahl mnih kteer, wa by7ibbo el-beit el-akhdar el-jdeed hownik"
+    },
+    {
+     "ar": "يوم الجمعة بشوف الأهل، ويوم السبت بحب القهوة هون",
+     "en": "On Friday I see the family, and on Saturday I love the coffee here",
+     "translit": "yom el-jum3a bshuf el-ahl, wa yom es-sabt b7ibb el-ahwe hown"
+    }
+   ],
+   "topicId": "b1plus-lazim"
+  },
+  {
+   "number": 24,
+   "title": "What I Want, What I Know",
+   "titleNative": "بدي ومدري",
+   "items": [
+    {
+     "ar": "بدي بشوف بيت أبيض جديد اليوم، بس ما عندي فلوس كتير",
+     "en": "I want to see a new white house today, but I don't have a lot of money",
+     "translit": "biddi bshuf beit abyad jdeed el-yom, bas ma 3andi fluus kteer"
+    },
+    {
+     "ar": "مدري وين هاد البيت الأصفر، بس بحب هاد البيت كتير",
+     "en": "I don't know where this yellow house is, but I love this house a lot",
+     "translit": "midri wein haad el-beit el-asfar, bas b7ibb haad el-beit kteer"
+    },
+    {
+     "ar": "بدي بشوف الأهل بكرة، بس عندي شي كتير اليوم",
+     "en": "I want to see the family tomorrow, but I have a lot today",
+     "translit": "biddi bshuf el-ahl bukra, bas 3andi shi kteer el-yom"
+    },
+    {
+     "ar": "مدري ليش هو تعبان اليوم، بس بيحب القهوة والشاي",
+     "en": "I don't know why he's tired today, but he loves coffee and tea",
+     "translit": "midri leish huwwe ta3baan el-yom, bas by7ibb el-ahwe wash-shay"
+    }
+   ]
+  },
+  {
+   "number": 25,
+   "title": "Review: Food, Money, Colors, Days",
+   "titleNative": "مراجعة",
+   "items": [
+    {
+     "ar": "بحب القهوة والشاي كتير، بس ما عندي فلوس اليوم",
+     "en": "I love coffee and tea a lot, but I don't have money today",
+     "translit": "b7ibb el-ahwe wash-shay kteer, bas ma 3andi fluus el-yom"
+    },
+    {
+     "ar": "عندك كم فلوس اليوم؟ عندي تسعة، وبدي بشوف بيت",
+     "en": "How much money do you have today? I have nine, and I want to see a house",
+     "translit": "3andak kam fluus el-yom? 3andi tis3a, wa biddi bshuf beit"
+    },
+    {
+     "ar": "هاد البيت الأزرق منيح، بس هاي القهوة غالية كتير",
+     "en": "This blue house is good, but this coffee is very expensive",
+     "translit": "haad el-beit el-azra2 mnih, bas hayy el-ahwe ghalye kteer"
+    },
+    {
+     "ar": "يوم الجمعة بدي بشوف الأهل، مدري وين هلق كتير",
+     "en": "On Friday I want to see the family, I don't know where right now",
+     "translit": "yom el-jum3a biddi bshuf el-ahl, midri wein hala2 kteer"
+    }
+   ]
+  },
+  {
+   "number": 26,
+   "title": "A Full Day",
+   "titleNative": "يوم كامل",
+   "items": [
+    {
+     "ar": "صباح الخير، بحب القهوة، وبعدين بشوف الأهل اليوم",
+     "en": "Good morning, I love coffee, and later I see the family today",
+     "translit": "sabah el-kheir, b7ibb el-ahwe, wa ba3dein bshuf el-ahl el-yom"
+    },
+    {
+     "ar": "شفت بيت مبارح، وشفت الأهل، وبحب القهوة والشاي منيح",
+     "en": "I saw a house yesterday, and I saw the family, and I love coffee and tea, good",
+     "translit": "shift beit mbare7, wa shift el-ahl, wa b7ibb el-ahwe wash-shay mnih"
+    },
+    {
+     "ar": "بدي بشوف الأهل هلق، بس عندي شي كتير اليوم",
+     "en": "I want to see the family now, but I have a lot today",
+     "translit": "biddi bshuf el-ahl hala2, bas 3andi shi kteer el-yom"
+    },
+    {
+     "ar": "صباح النور، أنا منيح اليوم لأن عندي أهل وصديق منيح",
+     "en": "Good morning, I'm good today because I have family and a good friend",
+     "translit": "sabah en-noor, ana mnih el-yom la2an 3andi ahl wa sadeeq mnih"
+    }
+   ]
+  },
+  {
+   "number": 27,
+   "title": "Another Full Day",
+   "titleNative": "يوم ثاني",
+   "items": [
+    {
+     "ar": "بدي بشوف بيت اليوم مع صديق منيح، هو تعبان بس بيحب",
+     "en": "I want to see a house today with a good friend, he's tired but loves it",
+     "translit": "biddi bshuf beit el-yom ma3 sadeeq mnih, huwwe ta3baan bas by7ibb"
+    },
+    {
+     "ar": "شفت بيت منيح مبارح، وبدي بشوف هونيك بكرة كمان",
+     "en": "I saw a good house yesterday, and I want to see it there tomorrow too",
+     "translit": "shift beit mnih mbare7, wa biddi bshuf hownik bukra kamaan"
+    },
+    {
+     "ar": "مدري وين البيت بكرة، بس الأهل بيحبو هون كتير",
+     "en": "I don't know where the house is tomorrow, but the family loves it here a lot",
+     "translit": "midri wein el-beit bukra, bas el-ahl by7ibbo hown kteer"
+    },
+    {
+     "ar": "بحب القهوة، وشفت صديق، وتعبان هلق كتير والحمدلله",
+     "en": "I love coffee, and I saw a friend, and I'm very tired now, thank God",
+     "translit": "b7ibb el-ahwe, wa shift sadeeq, wa ta3baan hala2 kteer wal-hamdulillah"
+    }
+   ]
+  },
+  {
+   "number": 28,
+   "title": "Family and Feelings",
+   "titleNative": "الأهل والمشاعر",
+   "items": [
+    {
+     "ar": "أنا منيح اليوم لأن عندي بيت كبير جديد ومنيح",
+     "en": "I'm good today because I have a big, new, good house",
+     "translit": "ana mnih el-yom la2an 3andi beit kbeer jdeed wa mnih"
+    },
+    {
+     "ar": "هي مش منيحة اليوم لأن ما عندا فلوس كتير هلق",
+     "en": "She's not good today because she doesn't have a lot of money right now",
+     "translit": "hiyye mish mniha el-yom la2an ma 3anda fluus kteer hala2"
+    },
+    {
+     "ar": "نحنا تعبانين اليوم لأن شفنا بيت بعيد كتير هونيك",
+     "en": "We're tired today because we saw a very far house there",
+     "translit": "ni7na ta3baaneen el-yom la2an shifna beit ba3eed kteer hownik"
+    },
+    {
+     "ar": "هني تعبانين كمان لأن عندن شي كتير اليوم هون",
+     "en": "They're also tired because they have a lot today here",
+     "translit": "hinne ta3baaneen kamaan la2an 3andon shi kteer el-yom hown"
+    }
+   ]
+  },
+  {
+   "number": 29,
+   "title": "Friends, Places, and Numbers",
+   "titleNative": "الأصحاب والأماكن والأرقام",
+   "items": [
+    {
+     "ar": "عندي صديق منيح هونيك، بشوف بيته يوم الأحد اليوم",
+     "en": "I have a good friend there, I see his house today, on Sunday",
+     "translit": "3andi sadeeq mnih hownik, bshuf beito yom el-a7ad el-yom"
+    },
+    {
+     "ar": "بحب هاد البيت القريب، بس هاد البيت البعيد رخيص كمان",
+     "en": "I love this nearby house, but this far house is cheap too",
+     "translit": "b7ibb haad el-beit el-2areeb, bas haad el-beit el-ba3eed rkhees kamaan"
+    },
+    {
+     "ar": "عندنا سبعة فلوس هون، وعندنا تلاتة فلوس هونيك كمان اليوم",
+     "en": "We have seven [money] here, and we have three [money] there too today",
+     "translit": "3andna sab3a fluus hown, wa 3andna tlete fluus hownik kamaan el-yom"
+    },
+    {
+     "ar": "مدري كم صديق عندك اليوم، بس عندي كتير والحمدلله",
+     "en": "I don't know how many friends you have today, but I have a lot, thank God",
+     "translit": "midri kam sadeeq 3andak el-yom, bas 3andi kteer wal-hamdulillah"
+    }
+   ]
+  },
+  {
+   "number": 30,
+   "title": "Review: B1+ Recap",
+   "titleNative": "مراجعة نهائية",
+   "items": [
+    {
+     "ar": "بحب القهوة والشاي كتير اليوم، وعندي بيت كبير ومنيح",
+     "en": "I love coffee and tea a lot today, and I have a big, good house",
+     "translit": "b7ibb el-ahwe wash-shay kteer el-yom, wa 3andi beit kbeer wa mnih"
+    },
+    {
+     "ar": "شفت بيت جديد مبارح مع صديق منيح، وبدي بشوف بكرة كمان",
+     "en": "I saw a new house yesterday with a good friend, and I want to see it tomorrow too",
+     "translit": "shift beit jdeed mbare7 ma3 sadeeq mnih, wa biddi bshuf bukra kamaan"
+    },
+    {
+     "ar": "هي منيحة اليوم لأن عندا بيت جديد وأهل منيح هونيك",
+     "en": "She's good today because she has a new house and a good family there",
+     "translit": "hiyye mniha el-yom la2an 3anda beit jdeed wa ahl mnih hownik"
+    },
+    {
+     "ar": "مدري كم فلوس عندن، بس عندن بيت كبير وغالي كتير",
+     "en": "I don't know how much money they have, but they have a big, very expensive house",
+     "translit": "midri kam fluus 3andon, bas 3andon beit kbeer wa ghali kteer"
+    }
+   ]
+  },
+  {
+   "number": 31,
+   "title": "I Must See the New House",
+   "titleNative": "لازم بشوف البيت الجديد",
+   "items": [
+    {
+     "ar": "لازم بشوف البيت الجديد اليوم، عندي فلوس كتير",
+     "en": "I must see the new house today, I have a lot of money",
+     "translit": "lazim bshuf el-beit ej-jdeed el-yom, 3andi fluus ktir"
+    },
+    {
+     "ar": "لازم بيشوف صديقه اليوم لأن تعبان من مبارح",
+     "en": "He must see his friend today because he's tired since yesterday",
+     "translit": "lazim byshuf sadee2o el-yom la2an ta3ban min mbari7"
+    },
+    {
+     "ar": "لازم بتشوفي الأهل اليوم، عندك بيت هونيك",
+     "en": "You (f) must see the family today, you have a house there",
+     "translit": "lazim btshufi el-ahl el-yom, 3andek beit hownik"
+    },
+    {
+     "ar": "لازم منشوف بيت جديد اليوم لأن عندنا فلوس",
+     "en": "We must see a new house today because we have money",
+     "translit": "lazim mnshuf beit jdeed el-yom la2an 3andna fluus"
+    }
+   ]
+  },
+  {
+   "number": 32,
+   "title": "Must, Because, Colors",
+   "titleNative": "لازم ولأن وألوان",
+   "items": [
+    {
+     "ar": "لازم بحب هاد البيت الأحمر لأن جديد ومنيح كتير",
+     "en": "I must love this red house because it's new and very good",
+     "translit": "lazim bhib haad el-beit el-a7mar la2an jdeed wa mnih ktir"
+    },
+    {
+     "ar": "لازم بيحب بيت أزرق لأن عنده فلوس منيح",
+     "en": "He must love a blue house because he has good money",
+     "translit": "lazim byhib beit azra2 la2an 3ando fluus mnih"
+    },
+    {
+     "ar": "لازم بتحبي بيت أخضر اليوم، عندك فلوس كتير",
+     "en": "You (f) must love a green house today, you have a lot of money",
+     "translit": "lazim bthibbi beit akhdar el-yom, 3andek fluus ktir"
+    },
+    {
+     "ar": "لازم منحب بيت أصفر لأن ما عندنا بيت منيح",
+     "en": "We must love a yellow house because we don't have a good house",
+     "translit": "lazim mnhib beit asfar la2an ma 3andna beit mnih"
+    }
+   ]
+  },
+  {
+   "number": 33,
+   "title": "Must, Days, Money",
+   "titleNative": "لازم وأيام وفلوس",
+   "items": [
+    {
+     "ar": "يوم الجمعة لازم بشوف الفلوس، عندي بيت جديد بكرة",
+     "en": "On Friday I must see the money, I have a new house tomorrow",
+     "translit": "yom el-jum3a lazim bshuf el-fluus, 3andi beit jdeed bukra"
+    },
+    {
+     "ar": "يوم السبت لازم بيشوف صديقه لأن عنده فلوس منيح",
+     "en": "On Saturday he must see his friend because he has good money",
+     "translit": "yom es-sabt lazim byshuf sadee2o la2an 3ando fluus mnih"
+    },
+    {
+     "ar": "يوم الأحد لازم بتشوف الأهل، تعبانة من مبارح",
+     "en": "On Sunday you must see the family, you're tired since yesterday",
+     "translit": "yom el-a7ad lazim btshuf el-ahl, ta3bane min mbari7"
+    },
+    {
+     "ar": "يوم الاثنين لازم منشوف بيت مع الفلوس والحمدلله",
+     "en": "On Monday we must see a house with the money, thank God",
+     "translit": "yom el-tnein lazim mnshuf beit ma3 el-fluus wal-hamdulillah"
+    }
+   ]
+  },
+  {
+   "number": 34,
+   "title": "Must, Feelings",
+   "titleNative": "لازم ومشاعر",
+   "items": [
+    {
+     "ar": "لازم بشوف الأهل اليوم لأن تعبان كتير من مبارح",
+     "en": "I must see the family today because I'm very tired since yesterday",
+     "translit": "lazim bshuf el-ahl el-yom la2an ta3ban ktir min mbari7"
+    },
+    {
+     "ar": "لازم بيحب القهوة اليوم لأن تعبان كتير كمان",
+     "en": "He must love coffee today because he's very tired too",
+     "translit": "lazim byhib el-ahwe el-yom la2an ta3ban ktir kaman"
+    },
+    {
+     "ar": "لازم بتشوفي بيت منيح اليوم عشان تعبانة من مبارح",
+     "en": "You (f) must see a good house today because you're tired since yesterday",
+     "translit": "lazim btshufi beit mnih el-yom 3ashan ta3bane min mbari7"
+    },
+    {
+     "ar": "لازم منشوف الأهل اليوم لأن تعبانين كتير من مبارح",
+     "en": "We must see the family today because we're very tired since yesterday",
+     "translit": "lazim mnshuf el-ahl el-yom la2an ta3banin ktir min mbari7"
+    }
+   ]
+  },
+  {
+   "number": 35,
+   "title": "Must, Places",
+   "titleNative": "لازم وأماكن",
+   "items": [
+    {
+     "ar": "لازم بشوف بيت هون اليوم لأن هونيك بعيد كتير",
+     "en": "I must see a house here today because there is very far",
+     "translit": "lazim bshuf beit hown el-yom la2an hownik ba3eed ktir"
+    },
+    {
+     "ar": "لازم بيشوف صديقه هونيك اليوم عشان قريب من بيته",
+     "en": "He must see his friend there today because it's near his house",
+     "translit": "lazim byshuf sadee2o hownik el-yom 3ashan 2areeb min beito"
+    },
+    {
+     "ar": "لازم بتشوف الأهل هون اليوم، البيت قريب كتير",
+     "en": "You must see the family here today, the house is very near",
+     "translit": "lazim btshuf el-ahl hown el-yom, el-beit 2areeb ktir"
+    },
+    {
+     "ar": "لازم منشوف بيت هونيك لأن بعيد من هون",
+     "en": "We must see a house there because it's far from here",
+     "translit": "lazim mnshuf beit hownik la2an ba3eed min hown"
+    }
+   ]
+  },
+  {
+   "number": 36,
+   "title": "Must, Numbers",
+   "titleNative": "لازم وأرقام",
+   "items": [
+    {
+     "ar": "لازم بشوف واحد اليوم، عندي فلوس كتير",
+     "en": "I must see one today, I have a lot of money",
+     "translit": "lazim bshuf wahed el-yom, 3andi fluus ktir"
+    },
+    {
+     "ar": "لازم بيشوف تلاتة اليوم لأن عنده فلوس منيح",
+     "en": "He must see three today because he has good money",
+     "translit": "lazim byshuf tlete el-yom la2an 3ando fluus mnih"
+    },
+    {
+     "ar": "لازم بتشوفي خمسة اليوم، تعبانة من مبارح",
+     "en": "You (f) must see five today, you're tired since yesterday",
+     "translit": "lazim btshufi khamse el-yom, ta3bane min mbari7"
+    },
+    {
+     "ar": "لازم منشوف سبعة اليوم لأن عندنا فلوس كتير",
+     "en": "We must see seven today because we have a lot of money",
+     "translit": "lazim mnshuf sab3a el-yom la2an 3andna fluus ktir"
+    }
+   ]
+  },
+  {
+   "number": 37,
+   "title": "Coffee, Tea, and Must",
+   "titleNative": "قهوة وشاي ولازم",
+   "items": [
+    {
+     "ar": "لازم بحب القهوة اليوم لأن منيحة كتير",
+     "en": "I must love the coffee today because it's very good",
+     "translit": "lazim bhib el-ahwe el-yom la2an mniha ktir"
+    },
+    {
+     "ar": "لازم بيحب الشاي اليوم لأن هو تعبان كتير",
+     "en": "He must love tea today because he's very tired",
+     "translit": "lazim byhib esh-shay el-yom la2an huwwe ta3ban ktir"
+    },
+    {
+     "ar": "لازم بتحبي القهوة اليوم، عندك فلوس كتير",
+     "en": "You (f) must love coffee today, you have a lot of money",
+     "translit": "lazim bthibbi el-ahwe el-yom, 3andek fluus ktir"
+    },
+    {
+     "ar": "لازم منحب القهوة اليوم عشان عندنا فلوس كتير",
+     "en": "We must love coffee today because we have a lot of money",
+     "translit": "lazim mnhib el-ahwe el-yom 3ashan 3andna fluus ktir"
+    }
+   ]
+  },
+  {
+   "number": 38,
+   "title": "Review: A Full Day with Must",
+   "titleNative": "مراجعة: يوم كامل مع لازم",
+   "items": [
+    {
+     "ar": "لازم بشوف الأهل اليوم لأن عندي فلوس كتير",
+     "en": "I must see the family today because I have a lot of money",
+     "translit": "lazim bshuf el-ahl el-yom la2an 3andi fluus ktir"
+    },
+    {
+     "ar": "لازم بيحب هاد البيت لأن جديد ومنيح كتير كمان",
+     "en": "He must love this house because it's new and very good too",
+     "translit": "lazim byhib haad el-beit la2an jdeed wa mnih ktir kaman"
+    },
+    {
+     "ar": "لازم بتشوفي صديقك اليوم عشان تعبانة من مبارح",
+     "en": "You (f) must see your friend today because you're tired since yesterday",
+     "translit": "lazim btshufi sadee2ek el-yom 3ashan ta3bane min mbari7"
+    },
+    {
+     "ar": "لازم منشوف بيت جديد اليوم، عندنا فلوس والحمدلله",
+     "en": "We must see a new house today, we have money, thank God",
+     "translit": "lazim mnshuf beit jdeed el-yom, 3andna fluus wal-hamdulillah"
+    }
+   ]
+  },
+  {
+   "number": 39,
+   "title": "Review: Must and Because Everywhere",
+   "titleNative": "مراجعة: لازم ولأن بكل مكان",
+   "items": [
+    {
+     "ar": "لازم بشوف بيت أحمر اليوم لأن بحب هاد البيت كتير",
+     "en": "I must see a red house today because I love this house a lot",
+     "translit": "lazim bshuf beit a7mar el-yom la2an bhib haad el-beit ktir"
+    },
+    {
+     "ar": "لازم بيشوف الفلوس اليوم عشان عنده بيت غالي",
+     "en": "He must see the money today because he has an expensive house",
+     "translit": "lazim byshuf el-fluus el-yom 3ashan 3ando beit ghali"
+    },
+    {
+     "ar": "لازم بتشوف الأهل اليوم لأن هونيك قريب من بيتك",
+     "en": "You must see the family today because there is near your house",
+     "translit": "lazim btshuf el-ahl el-yom la2an hownik 2areeb min beitak"
+    },
+    {
+     "ar": "لازم منشوف صديقنا اليوم، عندنا فلوس كتير",
+     "en": "We must see our friend today, we have a lot of money",
+     "translit": "lazim mnshuf sadee2na el-yom, 3andna fluus ktir"
+    }
+   ]
+  },
+  {
+   "number": 40,
+   "title": "Review: B1+ First Wrap",
+   "titleNative": "مراجعة: أول ختام B1+",
+   "items": [
+    {
+     "ar": "لازم بشوف الأهل اليوم لأن تعبان من مبارح كتير",
+     "en": "I must see the family today because I've been very tired since yesterday",
+     "translit": "lazim bshuf el-ahl el-yom la2an ta3ban min mbari7 ktir"
+    },
+    {
+     "ar": "لازم بيحب القهوة مع الأهل اليوم، منيح كتير والحمدلله",
+     "en": "He must love coffee with the family today, very good, thank God",
+     "translit": "lazim byhib el-ahwe ma3 el-ahl el-yom, mnih ktir wal-hamdulillah"
+    },
+    {
+     "ar": "لازم بتشوفي بيت جديد اليوم عشان عندك فلوس كتير",
+     "en": "You (f) must see a new house today because you have a lot of money",
+     "translit": "lazim btshufi beit jdeed el-yom 3ashan 3andek fluus ktir"
+    },
+    {
+     "ar": "لازم منشوف الأهل مع صديقنا اليوم، منيح والحمدلله",
+     "en": "We must see the family with our friend today, good, thank God",
+     "translit": "lazim mnshuf el-ahl ma3 sadee2na el-yom, wal-hamdulillah"
+    }
+   ]
+  }
+ ]
 }
