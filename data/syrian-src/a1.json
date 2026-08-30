@@ -1,899 +1,1169 @@
 {
-  "level": "a1",
-  "grammarTopics": {
-    "a1-greetings": {
-      "title": "Greetings: Marhaba and Kifak",
-      "pattern": "مرحبا / كيفك؟ / الحمدلله",
-      "explanation": "\"مرحبا\" (marhaba) is the everyday hello you'll hear everywhere in Syria — shops, taxis, cafés. \"كيفك؟\" (kifak, to a man) / \"كيفك؟\" (kifik, to a woman) asks \"how are you?\" — instantly recognizable as Levantine rather than textbook Arabic. The typical answer is \"الحمدلله منيح\" (alhamdulillah, mnih — \"thank God, good\"), with منيح becoming منيحة (mniha) when a woman is speaking about herself.",
-      "fact": "\"صباح الخير\" (sabah el-kheir, good morning) gets answered not by repeating it, but with \"صباح النور\" (sabah en-noor, literally \"morning of light\") — like many Arabic greeting pairs, the reply uses a different word entirely rather than echoing the greeting back.",
-      "dialogue": [
-        {
-          "sp": "A",
-          "native": "مرحبا! كيفك اليوم؟",
-          "en": "Hi! How are you today?"
-        },
-        {
-          "sp": "B",
-          "native": "الحمدلله منيح. وانت؟",
-          "en": "Thank God, good. And you?"
-        }
-      ]
+ "level": "a1",
+ "grammarTopics": {
+  "a1-greetings": {
+   "title": "Greetings: Marhaba and Kifak",
+   "pattern": "مرحبا / كيفك؟ / الحمدلله",
+   "explanation": "\"مرحبا\" (marhaba) is the everyday hello you'll hear everywhere in Syria — shops, taxis, cafés. \"كيفك؟\" (kifak, to a man) / \"كيفك؟\" (kifik, to a woman) asks \"how are you?\" — instantly recognizable as Levantine rather than textbook Arabic. The typical answer is \"الحمدلله منيح\" (alhamdulillah, mnih — \"thank God, good\"), with منيح becoming منيحة (mniha) when a woman is speaking about herself.",
+   "fact": "\"صباح الخير\" (sabah el-kheir, good morning) gets answered not by repeating it, but with \"صباح النور\" (sabah en-noor, literally \"morning of light\") — like many Arabic greeting pairs, the reply uses a different word entirely rather than echoing the greeting back.",
+   "dialogue": [
+    {
+     "sp": "A",
+     "native": "مرحبا! كيفك اليوم؟",
+     "en": "Hi! How are you today?"
     },
-    "a1-biddi": {
-      "title": "I Want: Biddi",
-      "pattern": "بدي + اسم (noun)",
-      "explanation": "\"بدي\" (biddi) is the everyday way to say \"I want\" in Syrian Arabic — one of the most common words you'll hear. Just follow it with what you want: \"بدي قهوة\" (biddi ahwe, \"I want coffee\").",
-      "fact": "بدي is actually بدّ (badd-, \"want/need\") fused with the possessive ending \"-i\" (my), so it literally means something like \"my wanting\" — the same possessive-suffix logic that gives Arabic its other person forms of this word, though this course only teaches the widely-used 1st-person بدي form for now.",
-      "dialogue": [
-        {
-          "sp": "A",
-          "native": "شو بدك اليوم؟",
-          "en": "What do you want today?"
-        },
-        {
-          "sp": "B",
-          "native": "بدي قهوة اليوم، شكراً كتير",
-          "en": "I want coffee today, thank you very much"
-        }
-      ]
-    },
-    "a1-present-shaf": {
-      "title": "Present Tense: I See, You See...",
-      "pattern": "ب- / بت- / بتي- / بي- / بت- / من- / بتو- / بي-و",
-      "explanation": "Syrian present-tense verbs take the ب- (b-) prefix plus a person marker: بشوف (bshuf, \"I see\"), بتشوف (btshuf, \"you-m see\"), بتشوفي (btshufi, \"you-f see\"), بيشوف (byshuf, \"he sees\"), بتشوف (btshuf, \"she sees\"), منشوف (mnshuf, \"we see\"), بتشوفو (btshufu, \"you-all see\"), بيشوفو (byshufu, \"they see\").",
-      "fact": "The 1st person plural \"we\" prefix (من mn-) looks completely different from the ب- pattern everywhere else — that's not an exception to memorize separately, it's just what happens when ب- fuses with the underlying \"n-\" marker for \"we\", a regular sound change across the whole b-prefix system.",
-      "dialogue": [
-        {
-          "sp": "A",
-          "native": "شو بتشوف اليوم؟",
-          "en": "What do you see today?"
-        },
-        {
-          "sp": "B",
-          "native": "بشوف بيت كبير اليوم",
-          "en": "I see a big house today"
-        }
-      ]
-    },
-    "a1-fi-mafi": {
-      "title": "There Is / There Isn't: Fi and Mafi",
-      "pattern": "فيه (there is) / مافي (there isn't)",
-      "explanation": "\"فيه\" (fi) means \"there is/are\", and its negative \"مافي\" (mafi, from ما + فيه) means \"there isn't/aren't\". This simple pair is so central to everyday Levantine speech that a well-known textbook is literally named \"Shou fi ma fi?\" (\"What's up? / What's there, what's not there?\").",
-      "fact": "\"شو في ما في؟\" is itself a common colloquial greeting/small-talk phrase meaning roughly \"what's going on?\" — literally \"what is there, what isn't there\" — showing how naturally فيه/مافي gets used beyond its literal grammatical meaning.",
-      "dialogue": [
-        {
-          "sp": "A",
-          "native": "في قهوة اليوم؟",
-          "en": "Is there coffee today?"
-        },
-        {
-          "sp": "B",
-          "native": "لا، مافي قهوة اليوم، بس في شاي",
-          "en": "No, there's no coffee today, but there's tea"
-        }
-      ]
+    {
+     "sp": "B",
+     "native": "الحمدلله منيح. وانت؟",
+     "en": "Thank God, good. And you?"
     }
+   ]
   },
-  "lessons": [
+  "a1-biddi": {
+   "title": "I Want: Biddi",
+   "pattern": "بدي + اسم (noun)",
+   "explanation": "\"بدي\" (biddi) is the everyday way to say \"I want\" in Syrian Arabic — one of the most common words you'll hear. Just follow it with what you want: \"بدي قهوة\" (biddi ahwe, \"I want coffee\").",
+   "fact": "بدي is actually بدّ (badd-, \"want/need\") fused with the possessive ending \"-i\" (my), so it literally means something like \"my wanting\" — the same possessive-suffix logic that gives Arabic its other person forms of this word, though this course only teaches the widely-used 1st-person بدي form for now.",
+   "dialogue": [
     {
-      "number": 1,
-      "title": "Hello",
-      "titleNative": "مرحبا",
-      "items": [
-        {
-          "ar": "مرحبا يا صديق، كيفك اليوم",
-          "en": "Hi, friend, how are you today",
-          "translit": "marhaba ya sadeeq, kifak el-yom"
-        },
-        {
-          "ar": "مرحبا، كيفك اليوم؟ منيح والحمدلله",
-          "en": "Hi, how are you today? Good, thank God",
-          "translit": "marhaba, kifak el-yom? mnih wal-hamdulillah"
-        },
-        {
-          "ar": "السلام عليكم يا صديق، كيفك اليوم",
-          "en": "Peace be upon you, friend, how are you today",
-          "translit": "as-salaamu alaykum ya sadeeq, kifak el-yom"
-        },
-        {
-          "ar": "وعليكم السلام، كيفك اليوم يا صديق",
-          "en": "And peace be upon you, how are you today, friend",
-          "translit": "wa alaykum as-salaam, kifak el-yom ya sadeeq"
-        }
-      ],
-      "topicId": "a1-greetings"
+     "sp": "A",
+     "native": "شو بدك اليوم؟",
+     "en": "What do you want today?"
     },
     {
-      "number": 2,
-      "title": "How Are You?",
-      "titleNative": "كيفك؟",
-      "items": [
-        {
-          "ar": "كيفك اليوم؟ أنا منيح والحمدلله",
-          "en": "How are you today? I'm good, thank God",
-          "translit": "kifak el-yom? ana mnih wal-hamdulillah"
-        },
-        {
-          "ar": "أنا منيح اليوم، والحمدلله يا صديق",
-          "en": "I'm good today, thank God, friend",
-          "translit": "ana mnih el-yom, wal-hamdulillah ya sadeeq"
-        },
-        {
-          "ar": "أنا منيحة اليوم، والحمدلله يا صديق",
-          "en": "I'm good today (a woman speaking), thank God, friend",
-          "translit": "ana mniha el-yom, wal-hamdulillah ya sadeeq"
-        },
-        {
-          "ar": "كيفك اليوم يا صديق؟ منيح والحمدلله",
-          "en": "How are you today, friend? Good, thank God",
-          "translit": "kifak el-yom ya sadeeq? mnih wal-hamdulillah"
-        }
-      ]
-    },
-    {
-      "number": 3,
-      "title": "Morning Greetings",
-      "titleNative": "صباح الخير",
-      "items": [
-        {
-          "ar": "صباح الخير يا صديق، كيفك اليوم",
-          "en": "Good morning, friend, how are you today",
-          "translit": "sabah el-kheir ya sadeeq, kifak el-yom"
-        },
-        {
-          "ar": "صباح النور، أنا منيح اليوم والحمدلله",
-          "en": "Good morning (reply), I'm good today, thank God",
-          "translit": "sabah en-noor, ana mnih el-yom wal-hamdulillah"
-        },
-        {
-          "ar": "مرحبا! صباح الخير يا صديق اليوم",
-          "en": "Hi! Good morning, friend, today",
-          "translit": "marhaba! sabah el-kheir ya sadeeq el-yom"
-        },
-        {
-          "ar": "كيفك اليوم؟ منيح، الحمدلله يا صديق",
-          "en": "How are you today? Good, thank God, friend",
-          "translit": "kifak el-yom? mnih, alhamdulillah ya sadeeq"
-        }
-      ]
-    },
-    {
-      "number": 4,
-      "title": "Thank You",
-      "titleNative": "شكراً",
-      "items": [
-        {
-          "ar": "شكراً، عفواً يا صديق اليوم",
-          "en": "Thank you, you're welcome, friend, today",
-          "translit": "shukran, afwan ya sadeeq el-yom"
-        },
-        {
-          "ar": "شكراً كتير يا صديق اليوم",
-          "en": "Thank you very much, friend, today",
-          "translit": "shukran kteer ya sadeeq el-yom"
-        },
-        {
-          "ar": "عفواً يا صديق، شكراً كتير اليوم",
-          "en": "You're welcome, friend, thank you very much today",
-          "translit": "afwan ya sadeeq, shukran kteer el-yom"
-        },
-        {
-          "ar": "منيح، شكراً كتير يا صديق اليوم",
-          "en": "Good, thank you very much, friend, today",
-          "translit": "mnih, shukran kteer ya sadeeq el-yom"
-        }
-      ]
-    },
-    {
-      "number": 5,
-      "title": "Pronouns: I, You, He, She",
-      "titleNative": "أنا، انت، هو، هي",
-      "items": [
-        {
-          "ar": "أنا منيح اليوم، وانت منيح اليوم",
-          "en": "I am good today, and you are good today",
-          "translit": "ana mnih el-yom, wa inte mnih el-yom"
-        },
-        {
-          "ar": "انتي منيحة اليوم، وهو منيح اليوم",
-          "en": "You (f) are good today, and he is good today",
-          "translit": "inti mniha el-yom, wa huwwe mnih el-yom"
-        },
-        {
-          "ar": "هو منيح اليوم، وهي منيحة اليوم",
-          "en": "He is good today, and she is good today",
-          "translit": "huwwe mnih el-yom, wa hiyye mniha el-yom"
-        },
-        {
-          "ar": "أنا منيح اليوم، وهو منيح اليوم",
-          "en": "I am good today, and he is good today",
-          "translit": "ana mnih el-yom, wa huwwe mnih el-yom"
-        }
-      ]
-    },
-    {
-      "number": 6,
-      "title": "Pronouns: We, You All, They",
-      "titleNative": "نحنا، انتو، هنّ",
-      "items": [
-        {
-          "ar": "نحنا هون اليوم، وانتو هونيك اليوم",
-          "en": "We are here today, and you all are there today",
-          "translit": "ni7na hown el-yom, wa intu hownik el-yom"
-        },
-        {
-          "ar": "انتو هونيك اليوم، وهنّ هون اليوم",
-          "en": "You all are there today, and they are here today",
-          "translit": "intu hownik el-yom, wa henne hown el-yom"
-        },
-        {
-          "ar": "هنّ هون اليوم، ونحنا هونيك اليوم",
-          "en": "They are here today, and we are there today",
-          "translit": "henne hown el-yom, wa ni7na hownik el-yom"
-        },
-        {
-          "ar": "نحنا هون اليوم، وهنّ هونيك اليوم",
-          "en": "We are here today, and they are there today",
-          "translit": "ni7na hown el-yom, wa henne hownik el-yom"
-        }
-      ]
-    },
-    {
-      "number": 7,
-      "title": "This and That",
-      "titleNative": "هاد وهاي",
-      "items": [
-        {
-          "ar": "هاد بيت اليوم، وهاي بنت اليوم",
-          "en": "This is a house today, and this is a girl today",
-          "translit": "haad beit el-yom, wa hay bint el-yom"
-        },
-        {
-          "ar": "هاد صديق اليوم، وهاي منيحة اليوم",
-          "en": "This is a friend today, and this (f) is good today",
-          "translit": "haad sadeeq el-yom, wa hay mniha el-yom"
-        },
-        {
-          "ar": "هاي بنت صغيرة اليوم، وهاد بيت كبير",
-          "en": "This is a small girl today, and this is a big house",
-          "translit": "hay bint sgheera el-yom, wa haad beit kbeer"
-        },
-        {
-          "ar": "هاد قديم اليوم، وهاد جديد اليوم",
-          "en": "This is old today, and this is new today",
-          "translit": "haad adeem el-yom, wa haad jdeed el-yom"
-        }
-      ]
-    },
-    {
-      "number": 8,
-      "title": "What Is This?",
-      "titleNative": "شو هاد؟",
-      "items": [
-        {
-          "ar": "شو هاد؟ هاد بيت كبير اليوم",
-          "en": "What is this? This is a big house today",
-          "translit": "shu haad? haad beit kbeer el-yom"
-        },
-        {
-          "ar": "مين هاد؟ هاد صديق منيح اليوم",
-          "en": "Who is this? This is a good friend today",
-          "translit": "miin haad? haad sadeeq mnih el-yom"
-        },
-        {
-          "ar": "شو هاد اليوم؟ هاد بيت جديد",
-          "en": "What is this today? This is a new house",
-          "translit": "shu haad el-yom? haad beit jdeed"
-        },
-        {
-          "ar": "مين هاي؟ هاي بنت صغيرة اليوم",
-          "en": "Who is this? This is a small girl today",
-          "translit": "miin hay? hay bint sgheera el-yom"
-        }
-      ],
-      "topicId": "a1-fi-mafi"
-    },
-    {
-      "number": 9,
-      "title": "Where and How",
-      "titleNative": "وين وكيف",
-      "items": [
-        {
-          "ar": "وين البيت اليوم؟ البيت هون اليوم",
-          "en": "Where is the house today? The house is here today",
-          "translit": "wein el-beit el-yom? el-beit hown el-yom"
-        },
-        {
-          "ar": "كيف انت اليوم؟ أنا منيح والحمدلله",
-          "en": "How are you today? I'm good, thank God",
-          "translit": "kiif inte el-yom? ana mnih wal-hamdulillah"
-        },
-        {
-          "ar": "كيفك انتي اليوم؟ أنا منيحة والحمدلله",
-          "en": "How are you today (f)? I'm good, thank God",
-          "translit": "kifik inti el-yom? ana mniha wal-hamdulillah"
-        },
-        {
-          "ar": "وين البيت؟ البيت هونيك اليوم مش هون",
-          "en": "Where is the house? The house is there today, not here",
-          "translit": "wein el-beit? el-beit hownik el-yom mish hown"
-        }
-      ]
-    },
-    {
-      "number": 10,
-      "title": "Review: Greetings and Basic Sentences",
-      "titleNative": "مراجعة",
-      "items": [
-        {
-          "ar": "مرحبا، أنا منيح اليوم، والحمدلله يا صديق",
-          "en": "Hi, I'm good today, thank God, friend",
-          "translit": "marhaba, ana mnih el-yom, wal-hamdulillah ya sadeeq"
-        },
-        {
-          "ar": "شو هاد؟ هاد بيت كبير اليوم منيح",
-          "en": "What is this? This is a big, good house today",
-          "translit": "shu haad? haad beit kbeer el-yom mnih"
-        },
-        {
-          "ar": "وين البيت اليوم؟ البيت هون منيح",
-          "en": "Where is the house today? The house is here, good",
-          "translit": "wein el-beit el-yom? el-beit hown mnih"
-        },
-        {
-          "ar": "شكراً كتير يا صديق، عفواً اليوم",
-          "en": "Thank you very much, friend, you're welcome, today",
-          "translit": "shukran kteer ya sadeeq, afwan el-yom"
-        }
-      ]
-    },
-    {
-      "number": 11,
-      "title": "I Want",
-      "titleNative": "بدي",
-      "items": [
-        {
-          "ar": "بدي قهوة اليوم، وبدي شاي اليوم",
-          "en": "I want coffee today, and I want tea today",
-          "translit": "biddi ahwe el-yom, wa biddi shay el-yom"
-        },
-        {
-          "ar": "بدي شاي اليوم، منيح والحمدلله يا صديق",
-          "en": "I want tea today, good, thank God, friend",
-          "translit": "biddi shay el-yom, mnih wal-hamdulillah ya sadeeq"
-        },
-        {
-          "ar": "بدي مي اليوم، وبدي أكل اليوم",
-          "en": "I want water today, and I want food today",
-          "translit": "biddi may el-yom, wa biddi akel el-yom"
-        },
-        {
-          "ar": "بدي أكل اليوم، شكراً كتير يا صديق",
-          "en": "I want food today, thank you very much, friend",
-          "translit": "biddi akel el-yom, shukran kteer ya sadeeq"
-        }
-      ],
-      "topicId": "a1-biddi"
-    },
-    {
-      "number": 12,
-      "title": "I See, You See",
-      "titleNative": "بشوف، بتشوف",
-      "items": [
-        {
-          "ar": "بشوف بيت اليوم، وبتشوف بيت اليوم",
-          "en": "I see a house today, and you see a house today",
-          "translit": "bshuf beit el-yom, wa btshuf beit el-yom"
-        },
-        {
-          "ar": "بتشوف قهوة اليوم، وبتشوفي شاي اليوم",
-          "en": "You (m) see coffee today, and you (f) see tea today",
-          "translit": "btshuf ahwe el-yom, wa btshufi shay el-yom"
-        },
-        {
-          "ar": "بتشوفي شاي اليوم، وبيشوف بيت كبير",
-          "en": "You (f) see tea today, and he sees a big house",
-          "translit": "btshufi shay el-yom, wa byshuf beit kbeer"
-        },
-        {
-          "ar": "بيشوف بيت كبير اليوم، وبتشوف بيت صغير",
-          "en": "He sees a big house today, and she sees a small house",
-          "translit": "byshuf beit kbeer el-yom, wa btshuf beit sgheer"
-        }
-      ],
-      "topicId": "a1-present-shaf"
-    },
-    {
-      "number": 13,
-      "title": "We See, They See",
-      "titleNative": "منشوف، بيشوفو",
-      "items": [
-        {
-          "ar": "بتشوف بيت صغير اليوم، ومنشوف قهوة اليوم",
-          "en": "She sees a small house today, and we see coffee today",
-          "translit": "btshuf beit sgheer el-yom, wa mnshuf ahwe el-yom"
-        },
-        {
-          "ar": "منشوف قهوة اليوم، وبتشوفو بيت جديد",
-          "en": "We see coffee today, and you all see a new house",
-          "translit": "mnshuf ahwe el-yom, wa btshufu beit jdeed"
-        },
-        {
-          "ar": "بتشوفو بيت جديد اليوم، وبيشوفو بيت قديم",
-          "en": "You all see a new house today, and they see an old house",
-          "translit": "btshufu beit jdeed el-yom, wa byshufu beit adeem"
-        },
-        {
-          "ar": "بيشوفو بيت قديم اليوم، ومنشوف بيت كبير",
-          "en": "They see an old house today, and we see a big house",
-          "translit": "byshufu beit adeem el-yom, wa mnshuf beit kbeer"
-        }
-      ],
-      "topicId": "a1-present-shaf"
-    },
-    {
-      "number": 14,
-      "title": "I Love, You Love",
-      "titleNative": "بحب، بتحب",
-      "items": [
-        {
-          "ar": "بحب قهوة اليوم، وبتحب شاي اليوم",
-          "en": "I love coffee today, and you love tea today",
-          "translit": "b7ibb ahwe el-yom, wa bt7ibb shay el-yom"
-        },
-        {
-          "ar": "بتحب شاي اليوم، وبتحبي مي اليوم",
-          "en": "You love tea today, and you (f) love water today",
-          "translit": "bt7ibb shay el-yom, wa bt7ibbi may el-yom"
-        },
-        {
-          "ar": "بتحبي مي اليوم، وبيحب أكل اليوم",
-          "en": "You (f) love water today, and he loves food today",
-          "translit": "bt7ibbi may el-yom, wa by7ibb akel el-yom"
-        },
-        {
-          "ar": "بيحب أكل اليوم، ومنحب قهوة وشاي",
-          "en": "He loves food today, and we love coffee and tea",
-          "translit": "by7ibb akel el-yom, wa mn7ibb ahwe wa shay"
-        }
-      ],
-      "topicId": "a1-present-shaf"
-    },
-    {
-      "number": 15,
-      "title": "Mdri: I Don't Know",
-      "titleNative": "مدري",
-      "items": [
-        {
-          "ar": "مدري وين البيت اليوم، بس بشوف صديق",
-          "en": "I don't know where the house is today, but I see a friend",
-          "translit": "midri wein el-beit el-yom, bas bshuf sadeeq"
-        },
-        {
-          "ar": "مدري شو هاد اليوم، هاد بيت جديد",
-          "en": "I don't know what this is today, this is a new house",
-          "translit": "midri shu haad el-yom, haad beit jdeed"
-        },
-        {
-          "ar": "مدري ليش اليوم، بس منيح والحمدلله",
-          "en": "I don't know why today, but it's good, thank God",
-          "translit": "midri leish el-yom, bas mnih wal-hamdulillah"
-        },
-        {
-          "ar": "مدري إيمتى اليوم، بس بدي قهوة",
-          "en": "I don't know when today, but I want coffee",
-          "translit": "midri eimta el-yom, bas biddi ahwe"
-        }
-      ]
-    },
-    {
-      "number": 16,
-      "title": "Numbers 1-5",
-      "titleNative": "الأرقام ١-٥",
-      "items": [
-        {
-          "ar": "شو هاد؟ واحد اليوم، وهاد تنين اليوم",
-          "en": "What is this? One today, and this is two today",
-          "translit": "shu haad? wahed el-yom, wa haad tnein el-yom"
-        },
-        {
-          "ar": "هاد تلاتة اليوم، وهاد أربعة اليوم",
-          "en": "This is three today, and this is four today",
-          "translit": "haad tlete el-yom, wa haad arba3a el-yom"
-        },
-        {
-          "ar": "هاد خمسة اليوم، وشو هاد اليوم",
-          "en": "This is five today, and what is this today",
-          "translit": "haad khamse el-yom, wa shu haad el-yom"
-        },
-        {
-          "ar": "واحد وتنين وتلاتة اليوم، منيح والحمدلله",
-          "en": "One and two and three today, good, thank God",
-          "translit": "wahed wa tnein wa tlete el-yom, mnih wal-hamdulillah"
-        }
-      ]
-    },
-    {
-      "number": 17,
-      "title": "Numbers 6-10",
-      "titleNative": "الأرقام ٦-١٠",
-      "items": [
-        {
-          "ar": "شو هاد؟ ستة اليوم، وهاد سبعة اليوم",
-          "en": "What is this? Six today, and this is seven today",
-          "translit": "shu haad? sitte el-yom, wa haad sab3a el-yom"
-        },
-        {
-          "ar": "هاد تمانية اليوم، وهاد تسعة اليوم",
-          "en": "This is eight today, and this is nine today",
-          "translit": "haad tmanye el-yom, wa haad tis3a el-yom"
-        },
-        {
-          "ar": "هاد عشرة اليوم، وشو هاد اليوم",
-          "en": "This is ten today, and what is this today",
-          "translit": "haad 3ashara el-yom, wa shu haad el-yom"
-        },
-        {
-          "ar": "ستة وسبعة وتمانية اليوم، منيح والحمدلله",
-          "en": "Six and seven and eight today, good, thank God",
-          "translit": "sitte wa sab3a wa tmanye el-yom, mnih wal-hamdulillah"
-        }
-      ]
-    },
-    {
-      "number": 18,
-      "title": "Colors",
-      "titleNative": "الألوان",
-      "items": [
-        {
-          "ar": "هاد أحمر اليوم، وهاد أزرق اليوم",
-          "en": "This is red today, and this is blue today",
-          "translit": "haad a7mar el-yom, wa haad azra2 el-yom"
-        },
-        {
-          "ar": "هاد أصفر اليوم، وهاد أخضر اليوم",
-          "en": "This is yellow today, and this is green today",
-          "translit": "haad asfar el-yom, wa haad akhdar el-yom"
-        },
-        {
-          "ar": "هاد أسود اليوم، وهاد أبيض اليوم",
-          "en": "This is black today, and this is white today",
-          "translit": "haad iswad el-yom, wa haad abyad el-yom"
-        },
-        {
-          "ar": "هاد أحمر وأزرق وأصفر اليوم، منيح",
-          "en": "This is red and blue and yellow today, good",
-          "translit": "haad a7mar wa azra2 wa asfar el-yom, mnih"
-        }
-      ]
-    },
-    {
-      "number": 19,
-      "title": "Family",
-      "titleNative": "العيلة",
-      "items": [
-        {
-          "ar": "هاد أب اليوم، وهاي أم اليوم",
-          "en": "This is a father today, and this is a mother today",
-          "translit": "haad ab el-yom, wa hay imm el-yom"
-        },
-        {
-          "ar": "هاد ولد اليوم، وهاي بنت اليوم",
-          "en": "This is a boy today, and this is a girl today",
-          "translit": "haad walad el-yom, wa hay bint el-yom"
-        },
-        {
-          "ar": "هاد أب منيح اليوم، وهاي أم منيحة",
-          "en": "This is a good father today, and this is a good mother",
-          "translit": "haad ab mnih el-yom, wa hay imm mniha"
-        },
-        {
-          "ar": "هاد ولد صغير اليوم، وهاي بنت صغيرة",
-          "en": "This is a small boy today, and this is a small girl",
-          "translit": "haad walad sgheer el-yom, wa hay bint sgheera"
-        }
-      ]
-    },
-    {
-      "number": 20,
-      "title": "Review: Verbs and Numbers",
-      "titleNative": "مراجعة",
-      "items": [
-        {
-          "ar": "بدي قهوة اليوم، وبحب قهوة اليوم منيح",
-          "en": "I want coffee today, and I love coffee today, good",
-          "translit": "biddi ahwe el-yom, wa b7ibb ahwe el-yom mnih"
-        },
-        {
-          "ar": "بشوف بيت كبير اليوم، شو هاد اليوم",
-          "en": "I see a big house today, what is this today",
-          "translit": "bshuf beit kbeer el-yom, shu haad el-yom"
-        },
-        {
-          "ar": "مدري وين الأهل اليوم، بس بشوف بيت",
-          "en": "I don't know where the family is today, but I see a house",
-          "translit": "midri wein el-ahl el-yom, bas bshuf beit"
-        },
-        {
-          "ar": "هاد أحمر اليوم، وهاي بنت صغيرة اليوم",
-          "en": "This is red today, and this is a small girl today",
-          "translit": "haad a7mar el-yom, wa hay bint sgheera el-yom"
-        }
-      ]
-    },
-    {
-      "number": 21,
-      "title": "There Is / There Isn't",
-      "titleNative": "في ومافي",
-      "items": [
-        {
-          "ar": "في قهوة اليوم، بس مافي شاي اليوم",
-          "en": "There is coffee today, but there is no tea today",
-          "translit": "fi ahwe el-yom, bas mafi shay el-yom"
-        },
-        {
-          "ar": "مافي قهوة اليوم، بس في شاي اليوم",
-          "en": "There is no coffee today, but there is tea today",
-          "translit": "mafi ahwe el-yom, bas fi shay el-yom"
-        },
-        {
-          "ar": "في بيت هون اليوم، وفي بيت هونيك",
-          "en": "There is a house here today, and there is a house there",
-          "translit": "fi beit hown el-yom, wa fi beit hownik"
-        },
-        {
-          "ar": "مافي أكل هلق، بس في قهوة اليوم",
-          "en": "There is no food right now, but there is coffee today",
-          "translit": "mafi akel halla2, bas fi ahwe el-yom"
-        }
-      ],
-      "topicId": "a1-fi-mafi"
-    },
-    {
-      "number": 22,
-      "title": "Days of the Week",
-      "titleNative": "أيام الأسبوع",
-      "items": [
-        {
-          "ar": "يوم الأحد اليوم، وبكرة يوم الاثنين",
-          "en": "Today is Sunday, and tomorrow is Monday",
-          "translit": "yom el-a7ad el-yom, wa bukra yom el-tnein"
-        },
-        {
-          "ar": "يوم الجمعة اليوم، وبدي قهوة اليوم",
-          "en": "Today is Friday, and I want coffee today",
-          "translit": "yom el-jum3a el-yom, wa biddi ahwe el-yom"
-        },
-        {
-          "ar": "يوم السبت اليوم، ومدري شو بكرة",
-          "en": "Today is Saturday, and I don't know what's tomorrow",
-          "translit": "yom es-sabt el-yom, wa midri shu bukra"
-        },
-        {
-          "ar": "يوم الثلاثاء اليوم، منيح والحمدلله يا صديق",
-          "en": "Today is Tuesday, good, thank God, friend",
-          "translit": "yom et-tlata el-yom, mnih wal-hamdulillah ya sadeeq"
-        }
-      ]
-    },
-    {
-      "number": 23,
-      "title": "More Days",
-      "titleNative": "أيام إضافية",
-      "items": [
-        {
-          "ar": "يوم الأربعاء اليوم، وبكرة يوم الخميس",
-          "en": "Today is Wednesday, and tomorrow is Thursday",
-          "translit": "yom el-arba3a el-yom, wa bukra yom el-khamees"
-        },
-        {
-          "ar": "يوم الخميس اليوم، وبدي بيت جديد اليوم",
-          "en": "Today is Thursday, and I want a new house today",
-          "translit": "yom el-khamees el-yom, wa biddi beit jdeed el-yom"
-        },
-        {
-          "ar": "اليوم يوم الجمعة، وبدي بيت جديد",
-          "en": "Today is Friday, and I want a new house",
-          "translit": "el-yom yom el-jum3a, wa biddi beit jdeed"
-        },
-        {
-          "ar": "اليوم يوم السبت، منيح والحمدلله يا صديق",
-          "en": "Today is Saturday, good, thank God, friend",
-          "translit": "el-yom yom es-sabt, mnih wal-hamdulillah ya sadeeq"
-        }
-      ]
-    },
-    {
-      "number": 24,
-      "title": "How Much?",
-      "titleNative": "كم؟",
-      "items": [
-        {
-          "ar": "كم هاد اليوم؟ هاد غالي اليوم",
-          "en": "How much is this today? This is expensive today",
-          "translit": "kam haad el-yom? haad ghali el-yom"
-        },
-        {
-          "ar": "هاد غالي اليوم، وهاد رخيص اليوم",
-          "en": "This is expensive today, and this is cheap today",
-          "translit": "haad ghali el-yom, wa haad rkhees el-yom"
-        },
-        {
-          "ar": "هاد رخيص اليوم، وين الفلوس اليوم",
-          "en": "This is cheap today, where is the money today",
-          "translit": "haad rkhees el-yom, wein el-fluus el-yom"
-        },
-        {
-          "ar": "أديش هاد اليوم؟ هاد رخيص والحمدلله",
-          "en": "How much is this today? This is cheap, thank God",
-          "translit": "addesh haad el-yom? haad rkhees wal-hamdulillah"
-        }
-      ]
-    },
-    {
-      "number": 25,
-      "title": "Near and Far",
-      "titleNative": "قريب وبعيد",
-      "items": [
-        {
-          "ar": "البيت قريب اليوم، والسيارة بعيدة اليوم",
-          "en": "The house is near today, and the car is far today",
-          "translit": "el-beit 2areeb el-yom, was-sayyara ba3eede el-yom"
-        },
-        {
-          "ar": "البيت بعيد اليوم، والسيارة قريبة اليوم",
-          "en": "The house is far today, and the car is near today",
-          "translit": "el-beit ba3eed el-yom, was-sayyara 2areeba el-yom"
-        },
-        {
-          "ar": "هون قريب اليوم، وهونيك بعيد اليوم",
-          "en": "Here is near today, and there is far today",
-          "translit": "hown 2areeb el-yom, wa hownik ba3eed el-yom"
-        },
-        {
-          "ar": "هونيك بعيد اليوم، بس البيت قريب",
-          "en": "There is far today, but the house is near",
-          "translit": "hownik ba3eed el-yom, bas el-beit 2areeb"
-        }
-      ]
-    },
-    {
-      "number": 26,
-      "title": "I Don't Want / I'm Not",
-      "titleNative": "ما بدي / أنا مش",
-      "items": [
-        {
-          "ar": "ما بدي قهوة اليوم، بدي شاي اليوم",
-          "en": "I don't want coffee today, I want tea today",
-          "translit": "ma biddi ahwe el-yom, biddi shay el-yom"
-        },
-        {
-          "ar": "أنا مش تعبان اليوم، أنا منيح اليوم",
-          "en": "I'm not tired today, I'm good today",
-          "translit": "ana mish ta3baan el-yom, ana mnih el-yom"
-        },
-        {
-          "ar": "مافي مشكلة اليوم، أنا منيح والحمدلله",
-          "en": "There's no problem today, I'm good, thank God",
-          "translit": "mafi mushkile el-yom, ana mnih wal-hamdulillah"
-        },
-        {
-          "ar": "هاد مش كبير اليوم، هاد صغير اليوم",
-          "en": "This is not big today, this is small today",
-          "translit": "haad mish kbeer el-yom, haad sgheer el-yom"
-        }
-      ],
-      "topicId": "a1-fi-mafi"
-    },
-    {
-      "number": 27,
-      "title": "What Do You See?",
-      "titleNative": "شو بتشوف؟",
-      "items": [
-        {
-          "ar": "شو بتشوف اليوم؟ بشوف سيارة اليوم",
-          "en": "What do you see today? I see a car today",
-          "translit": "shu btshuf el-yom? bshuf sayyara el-yom"
-        },
-        {
-          "ar": "بشوف سيارة اليوم، وبتشوف بيت اليوم",
-          "en": "I see a car today, and you see a house today",
-          "translit": "bshuf sayyara el-yom, wa btshuf beit el-yom"
-        },
-        {
-          "ar": "بشوف بنت صغيرة اليوم، وبيشوف ولد صغير",
-          "en": "I see a small girl today, and he sees a small boy",
-          "translit": "bshuf bint sgheera el-yom, wa byshuf walad sgheer"
-        },
-        {
-          "ar": "بيشوف بيت قديم اليوم، ومنشوف بيت جديد",
-          "en": "He sees an old house today, and we see a new house",
-          "translit": "byshuf beit adeem el-yom, wa mnshuf beit jdeed"
-        }
-      ],
-      "topicId": "a1-present-shaf"
-    },
-    {
-      "number": 28,
-      "title": "Colors and Objects",
-      "titleNative": "الألوان والأشياء",
-      "items": [
-        {
-          "ar": "هاد أزرق اليوم، والبيت أزرق اليوم",
-          "en": "This is blue today, and the house is blue today",
-          "translit": "haad azra2 el-yom, wal-beit azra2 el-yom"
-        },
-        {
-          "ar": "البيت أخضر اليوم، وهاد أحمر اليوم",
-          "en": "The house is green today, and this is red today",
-          "translit": "el-beit akhdar el-yom, wa haad a7mar el-yom"
-        },
-        {
-          "ar": "هاد جديد اليوم، وهاد قديم اليوم كتير",
-          "en": "This is new today, and this is very old today",
-          "translit": "haad jdeed el-yom, wa haad adeem el-yom kteer"
-        },
-        {
-          "ar": "هاد كبير اليوم، وهاد صغير اليوم كتير",
-          "en": "This is big today, and this is very small today",
-          "translit": "haad kbeer el-yom, wa haad sgheer el-yom kteer"
-        }
-      ]
-    },
-    {
-      "number": 29,
-      "title": "I Love, I Want, I See",
-      "titleNative": "بحب، بدي، بشوف",
-      "items": [
-        {
-          "ar": "بحب هاد البيت اليوم، وبدي بيت جديد",
-          "en": "I love this house today, and I want a new house",
-          "translit": "b7ibb haad el-beit el-yom, wa biddi beit jdeed"
-        },
-        {
-          "ar": "بدي بيت جديد اليوم، وبشوف بيت أخضر",
-          "en": "I want a new house today, and I see a green house",
-          "translit": "biddi beit jdeed el-yom, wa bshuf beit akhdar"
-        },
-        {
-          "ar": "بشوف بيت أخضر اليوم، وبحب قهوة وشاي",
-          "en": "I see a green house today, and I love coffee and tea",
-          "translit": "bshuf beit akhdar el-yom, wa b7ibb ahwe wa shay"
-        },
-        {
-          "ar": "بحب قهوة وشاي اليوم، منيح والحمدلله",
-          "en": "I love coffee and tea today, good, thank God",
-          "translit": "b7ibb ahwe wa shay el-yom, mnih wal-hamdulillah"
-        }
-      ],
-      "topicId": "a1-biddi"
-    },
-    {
-      "number": 30,
-      "title": "Review: Days, Shopping, Negation",
-      "titleNative": "مراجعة",
-      "items": [
-        {
-          "ar": "يوم الجمعة اليوم، وفي قهوة هون اليوم",
-          "en": "Today is Friday, and there's coffee here today",
-          "translit": "yom el-jum3a el-yom, wa fi ahwe hown el-yom"
-        },
-        {
-          "ar": "كم هاد اليوم؟ هاد مش غالي اليوم",
-          "en": "How much is this today? This isn't expensive today",
-          "translit": "kam haad el-yom? haad mish ghali el-yom"
-        },
-        {
-          "ar": "البيت قريب اليوم، مش بعيد اليوم",
-          "en": "The house is near today, not far today",
-          "translit": "el-beit 2areeb el-yom, mish ba3eed el-yom"
-        },
-        {
-          "ar": "بحب هاد البيت الجديد اليوم، منيح والحمدلله",
-          "en": "I love this new house today, good, thank God",
-          "translit": "b7ibb haad el-beit el-jdeed el-yom, mnih wal-hamdulillah"
-        }
-      ]
+     "sp": "B",
+     "native": "بدي قهوة اليوم، شكراً كتير",
+     "en": "I want coffee today, thank you very much"
     }
-  ]
+   ]
+  },
+  "a1-present-shaf": {
+   "title": "Present Tense: I See, You See...",
+   "pattern": "ب- / بت- / بتي- / بي- / بت- / من- / بتو- / بي-و",
+   "explanation": "Syrian present-tense verbs take the ب- (b-) prefix plus a person marker: بشوف (bshuf, \"I see\"), بتشوف (btshuf, \"you-m see\"), بتشوفي (btshufi, \"you-f see\"), بيشوف (byshuf, \"he sees\"), بتشوف (btshuf, \"she sees\"), منشوف (mnshuf, \"we see\"), بتشوفو (btshufu, \"you-all see\"), بيشوفو (byshufu, \"they see\").",
+   "fact": "The 1st person plural \"we\" prefix (من mn-) looks completely different from the ب- pattern everywhere else — that's not an exception to memorize separately, it's just what happens when ب- fuses with the underlying \"n-\" marker for \"we\", a regular sound change across the whole b-prefix system.",
+   "dialogue": [
+    {
+     "sp": "A",
+     "native": "شو بتشوف اليوم؟",
+     "en": "What do you see today?"
+    },
+    {
+     "sp": "B",
+     "native": "بشوف بيت كبير اليوم",
+     "en": "I see a big house today"
+    }
+   ]
+  },
+  "a1-fi-mafi": {
+   "title": "There Is / There Isn't: Fi and Mafi",
+   "pattern": "فيه (there is) / مافي (there isn't)",
+   "explanation": "\"فيه\" (fi) means \"there is/are\", and its negative \"مافي\" (mafi, from ما + فيه) means \"there isn't/aren't\". This simple pair is so central to everyday Levantine speech that a well-known textbook is literally named \"Shou fi ma fi?\" (\"What's up? / What's there, what's not there?\").",
+   "fact": "\"شو في ما في؟\" is itself a common colloquial greeting/small-talk phrase meaning roughly \"what's going on?\" — literally \"what is there, what isn't there\" — showing how naturally فيه/مافي gets used beyond its literal grammatical meaning.",
+   "dialogue": [
+    {
+     "sp": "A",
+     "native": "في قهوة اليوم؟",
+     "en": "Is there coffee today?"
+    },
+    {
+     "sp": "B",
+     "native": "لا، مافي قهوة اليوم، بس في شاي",
+     "en": "No, there's no coffee today, but there's tea"
+    }
+   ]
+  }
+ },
+ "lessons": [
+  {
+   "number": 1,
+   "title": "Hello",
+   "titleNative": "مرحبا",
+   "items": [
+    {
+     "ar": "مرحبا يا صديق، كيفك اليوم",
+     "en": "Hi, friend, how are you today",
+     "translit": "marhaba ya sadeeq, kifak el-yom"
+    },
+    {
+     "ar": "مرحبا، كيفك اليوم؟ منيح والحمدلله",
+     "en": "Hi, how are you today? Good, thank God",
+     "translit": "marhaba, kifak el-yom? mnih wal-hamdulillah"
+    },
+    {
+     "ar": "السلام عليكم يا صديق، كيفك اليوم",
+     "en": "Peace be upon you, friend, how are you today",
+     "translit": "as-salaamu alaykum ya sadeeq, kifak el-yom"
+    },
+    {
+     "ar": "وعليكم السلام، كيفك اليوم يا صديق",
+     "en": "And peace be upon you, how are you today, friend",
+     "translit": "wa alaykum as-salaam, kifak el-yom ya sadeeq"
+    }
+   ],
+   "topicId": "a1-greetings"
+  },
+  {
+   "number": 2,
+   "title": "How Are You?",
+   "titleNative": "كيفك؟",
+   "items": [
+    {
+     "ar": "كيفك اليوم؟ أنا منيح والحمدلله",
+     "en": "How are you today? I'm good, thank God",
+     "translit": "kifak el-yom? ana mnih wal-hamdulillah"
+    },
+    {
+     "ar": "أنا منيح اليوم، والحمدلله يا صديق",
+     "en": "I'm good today, thank God, friend",
+     "translit": "ana mnih el-yom, wal-hamdulillah ya sadeeq"
+    },
+    {
+     "ar": "أنا منيحة اليوم، والحمدلله يا صديق",
+     "en": "I'm good today (a woman speaking), thank God, friend",
+     "translit": "ana mniha el-yom, wal-hamdulillah ya sadeeq"
+    },
+    {
+     "ar": "كيفك اليوم يا صديق؟ منيح والحمدلله",
+     "en": "How are you today, friend? Good, thank God",
+     "translit": "kifak el-yom ya sadeeq? mnih wal-hamdulillah"
+    }
+   ]
+  },
+  {
+   "number": 3,
+   "title": "Morning Greetings",
+   "titleNative": "صباح الخير",
+   "items": [
+    {
+     "ar": "صباح الخير يا صديق، كيفك اليوم",
+     "en": "Good morning, friend, how are you today",
+     "translit": "sabah el-kheir ya sadeeq, kifak el-yom"
+    },
+    {
+     "ar": "صباح النور، أنا منيح اليوم والحمدلله",
+     "en": "Good morning (reply), I'm good today, thank God",
+     "translit": "sabah en-noor, ana mnih el-yom wal-hamdulillah"
+    },
+    {
+     "ar": "مرحبا! صباح الخير يا صديق اليوم",
+     "en": "Hi! Good morning, friend, today",
+     "translit": "marhaba! sabah el-kheir ya sadeeq el-yom"
+    },
+    {
+     "ar": "كيفك اليوم؟ منيح، الحمدلله يا صديق",
+     "en": "How are you today? Good, thank God, friend",
+     "translit": "kifak el-yom? mnih, alhamdulillah ya sadeeq"
+    }
+   ]
+  },
+  {
+   "number": 4,
+   "title": "Thank You",
+   "titleNative": "شكراً",
+   "items": [
+    {
+     "ar": "شكراً، عفواً يا صديق اليوم",
+     "en": "Thank you, you're welcome, friend, today",
+     "translit": "shukran, afwan ya sadeeq el-yom"
+    },
+    {
+     "ar": "شكراً كتير يا صديق اليوم",
+     "en": "Thank you very much, friend, today",
+     "translit": "shukran kteer ya sadeeq el-yom"
+    },
+    {
+     "ar": "عفواً يا صديق، شكراً كتير اليوم",
+     "en": "You're welcome, friend, thank you very much today",
+     "translit": "afwan ya sadeeq, shukran kteer el-yom"
+    },
+    {
+     "ar": "منيح، شكراً كتير يا صديق اليوم",
+     "en": "Good, thank you very much, friend, today",
+     "translit": "mnih, shukran kteer ya sadeeq el-yom"
+    }
+   ]
+  },
+  {
+   "number": 5,
+   "title": "Pronouns: I, You, He, She",
+   "titleNative": "أنا، انت، هو، هي",
+   "items": [
+    {
+     "ar": "أنا منيح اليوم، وانت منيح اليوم",
+     "en": "I am good today, and you are good today",
+     "translit": "ana mnih el-yom, wa inte mnih el-yom"
+    },
+    {
+     "ar": "انتي منيحة اليوم، وهو منيح اليوم",
+     "en": "You (f) are good today, and he is good today",
+     "translit": "inti mniha el-yom, wa huwwe mnih el-yom"
+    },
+    {
+     "ar": "هو منيح اليوم، وهي منيحة اليوم",
+     "en": "He is good today, and she is good today",
+     "translit": "huwwe mnih el-yom, wa hiyye mniha el-yom"
+    },
+    {
+     "ar": "أنا منيح اليوم، وهو منيح اليوم",
+     "en": "I am good today, and he is good today",
+     "translit": "ana mnih el-yom, wa huwwe mnih el-yom"
+    }
+   ]
+  },
+  {
+   "number": 6,
+   "title": "Pronouns: We, You All, They",
+   "titleNative": "نحنا، انتو، هنّ",
+   "items": [
+    {
+     "ar": "نحنا هون اليوم، وانتو هونيك اليوم",
+     "en": "We are here today, and you all are there today",
+     "translit": "ni7na hown el-yom, wa intu hownik el-yom"
+    },
+    {
+     "ar": "انتو هونيك اليوم، وهنّ هون اليوم",
+     "en": "You all are there today, and they are here today",
+     "translit": "intu hownik el-yom, wa henne hown el-yom"
+    },
+    {
+     "ar": "هنّ هون اليوم، ونحنا هونيك اليوم",
+     "en": "They are here today, and we are there today",
+     "translit": "henne hown el-yom, wa ni7na hownik el-yom"
+    },
+    {
+     "ar": "نحنا هون اليوم، وهنّ هونيك اليوم",
+     "en": "We are here today, and they are there today",
+     "translit": "ni7na hown el-yom, wa henne hownik el-yom"
+    }
+   ]
+  },
+  {
+   "number": 7,
+   "title": "This and That",
+   "titleNative": "هاد وهاي",
+   "items": [
+    {
+     "ar": "هاد بيت اليوم، وهاي بنت اليوم",
+     "en": "This is a house today, and this is a girl today",
+     "translit": "haad beit el-yom, wa hay bint el-yom"
+    },
+    {
+     "ar": "هاد صديق اليوم، وهاي منيحة اليوم",
+     "en": "This is a friend today, and this (f) is good today",
+     "translit": "haad sadeeq el-yom, wa hay mniha el-yom"
+    },
+    {
+     "ar": "هاي بنت صغيرة اليوم، وهاد بيت كبير",
+     "en": "This is a small girl today, and this is a big house",
+     "translit": "hay bint sgheera el-yom, wa haad beit kbeer"
+    },
+    {
+     "ar": "هاد قديم اليوم، وهاد جديد اليوم",
+     "en": "This is old today, and this is new today",
+     "translit": "haad adeem el-yom, wa haad jdeed el-yom"
+    }
+   ]
+  },
+  {
+   "number": 8,
+   "title": "What Is This?",
+   "titleNative": "شو هاد؟",
+   "items": [
+    {
+     "ar": "شو هاد؟ هاد بيت كبير اليوم",
+     "en": "What is this? This is a big house today",
+     "translit": "shu haad? haad beit kbeer el-yom"
+    },
+    {
+     "ar": "مين هاد؟ هاد صديق منيح اليوم",
+     "en": "Who is this? This is a good friend today",
+     "translit": "miin haad? haad sadeeq mnih el-yom"
+    },
+    {
+     "ar": "شو هاد اليوم؟ هاد بيت جديد",
+     "en": "What is this today? This is a new house",
+     "translit": "shu haad el-yom? haad beit jdeed"
+    },
+    {
+     "ar": "مين هاي؟ هاي بنت صغيرة اليوم",
+     "en": "Who is this? This is a small girl today",
+     "translit": "miin hay? hay bint sgheera el-yom"
+    }
+   ],
+   "topicId": "a1-fi-mafi"
+  },
+  {
+   "number": 9,
+   "title": "Where and How",
+   "titleNative": "وين وكيف",
+   "items": [
+    {
+     "ar": "وين البيت اليوم؟ البيت هون اليوم",
+     "en": "Where is the house today? The house is here today",
+     "translit": "wein el-beit el-yom? el-beit hown el-yom"
+    },
+    {
+     "ar": "كيف انت اليوم؟ أنا منيح والحمدلله",
+     "en": "How are you today? I'm good, thank God",
+     "translit": "kiif inte el-yom? ana mnih wal-hamdulillah"
+    },
+    {
+     "ar": "كيفك انتي اليوم؟ أنا منيحة والحمدلله",
+     "en": "How are you today (f)? I'm good, thank God",
+     "translit": "kifik inti el-yom? ana mniha wal-hamdulillah"
+    },
+    {
+     "ar": "وين البيت؟ البيت هونيك اليوم مش هون",
+     "en": "Where is the house? The house is there today, not here",
+     "translit": "wein el-beit? el-beit hownik el-yom mish hown"
+    }
+   ]
+  },
+  {
+   "number": 10,
+   "title": "Review: Greetings and Basic Sentences",
+   "titleNative": "مراجعة",
+   "items": [
+    {
+     "ar": "مرحبا، أنا منيح اليوم، والحمدلله يا صديق",
+     "en": "Hi, I'm good today, thank God, friend",
+     "translit": "marhaba, ana mnih el-yom, wal-hamdulillah ya sadeeq"
+    },
+    {
+     "ar": "شو هاد؟ هاد بيت كبير اليوم منيح",
+     "en": "What is this? This is a big, good house today",
+     "translit": "shu haad? haad beit kbeer el-yom mnih"
+    },
+    {
+     "ar": "وين البيت اليوم؟ البيت هون منيح",
+     "en": "Where is the house today? The house is here, good",
+     "translit": "wein el-beit el-yom? el-beit hown mnih"
+    },
+    {
+     "ar": "شكراً كتير يا صديق، عفواً اليوم",
+     "en": "Thank you very much, friend, you're welcome, today",
+     "translit": "shukran kteer ya sadeeq, afwan el-yom"
+    }
+   ]
+  },
+  {
+   "number": 11,
+   "title": "I Want",
+   "titleNative": "بدي",
+   "items": [
+    {
+     "ar": "بدي قهوة اليوم، وبدي شاي اليوم",
+     "en": "I want coffee today, and I want tea today",
+     "translit": "biddi ahwe el-yom, wa biddi shay el-yom"
+    },
+    {
+     "ar": "بدي شاي اليوم، منيح والحمدلله يا صديق",
+     "en": "I want tea today, good, thank God, friend",
+     "translit": "biddi shay el-yom, mnih wal-hamdulillah ya sadeeq"
+    },
+    {
+     "ar": "بدي مي اليوم، وبدي أكل اليوم",
+     "en": "I want water today, and I want food today",
+     "translit": "biddi may el-yom, wa biddi akel el-yom"
+    },
+    {
+     "ar": "بدي أكل اليوم، شكراً كتير يا صديق",
+     "en": "I want food today, thank you very much, friend",
+     "translit": "biddi akel el-yom, shukran kteer ya sadeeq"
+    }
+   ],
+   "topicId": "a1-biddi"
+  },
+  {
+   "number": 12,
+   "title": "I See, You See",
+   "titleNative": "بشوف، بتشوف",
+   "items": [
+    {
+     "ar": "بشوف بيت اليوم، وبتشوف بيت اليوم",
+     "en": "I see a house today, and you see a house today",
+     "translit": "bshuf beit el-yom, wa btshuf beit el-yom"
+    },
+    {
+     "ar": "بتشوف قهوة اليوم، وبتشوفي شاي اليوم",
+     "en": "You (m) see coffee today, and you (f) see tea today",
+     "translit": "btshuf ahwe el-yom, wa btshufi shay el-yom"
+    },
+    {
+     "ar": "بتشوفي شاي اليوم، وبيشوف بيت كبير",
+     "en": "You (f) see tea today, and he sees a big house",
+     "translit": "btshufi shay el-yom, wa byshuf beit kbeer"
+    },
+    {
+     "ar": "بيشوف بيت كبير اليوم، وبتشوف بيت صغير",
+     "en": "He sees a big house today, and she sees a small house",
+     "translit": "byshuf beit kbeer el-yom, wa btshuf beit sgheer"
+    }
+   ],
+   "topicId": "a1-present-shaf"
+  },
+  {
+   "number": 13,
+   "title": "We See, They See",
+   "titleNative": "منشوف، بيشوفو",
+   "items": [
+    {
+     "ar": "بتشوف بيت صغير اليوم، ومنشوف قهوة اليوم",
+     "en": "She sees a small house today, and we see coffee today",
+     "translit": "btshuf beit sgheer el-yom, wa mnshuf ahwe el-yom"
+    },
+    {
+     "ar": "منشوف قهوة اليوم، وبتشوفو بيت جديد",
+     "en": "We see coffee today, and you all see a new house",
+     "translit": "mnshuf ahwe el-yom, wa btshufu beit jdeed"
+    },
+    {
+     "ar": "بتشوفو بيت جديد اليوم، وبيشوفو بيت قديم",
+     "en": "You all see a new house today, and they see an old house",
+     "translit": "btshufu beit jdeed el-yom, wa byshufu beit adeem"
+    },
+    {
+     "ar": "بيشوفو بيت قديم اليوم، ومنشوف بيت كبير",
+     "en": "They see an old house today, and we see a big house",
+     "translit": "byshufu beit adeem el-yom, wa mnshuf beit kbeer"
+    }
+   ],
+   "topicId": "a1-present-shaf"
+  },
+  {
+   "number": 14,
+   "title": "I Love, You Love",
+   "titleNative": "بحب، بتحب",
+   "items": [
+    {
+     "ar": "بحب قهوة اليوم، وبتحب شاي اليوم",
+     "en": "I love coffee today, and you love tea today",
+     "translit": "b7ibb ahwe el-yom, wa bt7ibb shay el-yom"
+    },
+    {
+     "ar": "بتحب شاي اليوم، وبتحبي مي اليوم",
+     "en": "You love tea today, and you (f) love water today",
+     "translit": "bt7ibb shay el-yom, wa bt7ibbi may el-yom"
+    },
+    {
+     "ar": "بتحبي مي اليوم، وبيحب أكل اليوم",
+     "en": "You (f) love water today, and he loves food today",
+     "translit": "bt7ibbi may el-yom, wa by7ibb akel el-yom"
+    },
+    {
+     "ar": "بيحب أكل اليوم، ومنحب قهوة وشاي",
+     "en": "He loves food today, and we love coffee and tea",
+     "translit": "by7ibb akel el-yom, wa mn7ibb ahwe wa shay"
+    }
+   ],
+   "topicId": "a1-present-shaf"
+  },
+  {
+   "number": 15,
+   "title": "Mdri: I Don't Know",
+   "titleNative": "مدري",
+   "items": [
+    {
+     "ar": "مدري وين البيت اليوم، بس بشوف صديق",
+     "en": "I don't know where the house is today, but I see a friend",
+     "translit": "midri wein el-beit el-yom, bas bshuf sadeeq"
+    },
+    {
+     "ar": "مدري شو هاد اليوم، هاد بيت جديد",
+     "en": "I don't know what this is today, this is a new house",
+     "translit": "midri shu haad el-yom, haad beit jdeed"
+    },
+    {
+     "ar": "مدري ليش اليوم، بس منيح والحمدلله",
+     "en": "I don't know why today, but it's good, thank God",
+     "translit": "midri leish el-yom, bas mnih wal-hamdulillah"
+    },
+    {
+     "ar": "مدري إيمتى اليوم، بس بدي قهوة",
+     "en": "I don't know when today, but I want coffee",
+     "translit": "midri eimta el-yom, bas biddi ahwe"
+    }
+   ]
+  },
+  {
+   "number": 16,
+   "title": "Numbers 1-5",
+   "titleNative": "الأرقام ١-٥",
+   "items": [
+    {
+     "ar": "شو هاد؟ واحد اليوم، وهاد تنين اليوم",
+     "en": "What is this? One today, and this is two today",
+     "translit": "shu haad? wahed el-yom, wa haad tnein el-yom"
+    },
+    {
+     "ar": "هاد تلاتة اليوم، وهاد أربعة اليوم",
+     "en": "This is three today, and this is four today",
+     "translit": "haad tlete el-yom, wa haad arba3a el-yom"
+    },
+    {
+     "ar": "هاد خمسة اليوم، وشو هاد اليوم",
+     "en": "This is five today, and what is this today",
+     "translit": "haad khamse el-yom, wa shu haad el-yom"
+    },
+    {
+     "ar": "واحد وتنين وتلاتة اليوم، منيح والحمدلله",
+     "en": "One and two and three today, good, thank God",
+     "translit": "wahed wa tnein wa tlete el-yom, mnih wal-hamdulillah"
+    }
+   ]
+  },
+  {
+   "number": 17,
+   "title": "Numbers 6-10",
+   "titleNative": "الأرقام ٦-١٠",
+   "items": [
+    {
+     "ar": "شو هاد؟ ستة اليوم، وهاد سبعة اليوم",
+     "en": "What is this? Six today, and this is seven today",
+     "translit": "shu haad? sitte el-yom, wa haad sab3a el-yom"
+    },
+    {
+     "ar": "هاد تمانية اليوم، وهاد تسعة اليوم",
+     "en": "This is eight today, and this is nine today",
+     "translit": "haad tmanye el-yom, wa haad tis3a el-yom"
+    },
+    {
+     "ar": "هاد عشرة اليوم، وشو هاد اليوم",
+     "en": "This is ten today, and what is this today",
+     "translit": "haad 3ashara el-yom, wa shu haad el-yom"
+    },
+    {
+     "ar": "ستة وسبعة وتمانية اليوم، منيح والحمدلله",
+     "en": "Six and seven and eight today, good, thank God",
+     "translit": "sitte wa sab3a wa tmanye el-yom, mnih wal-hamdulillah"
+    }
+   ]
+  },
+  {
+   "number": 18,
+   "title": "Colors",
+   "titleNative": "الألوان",
+   "items": [
+    {
+     "ar": "هاد أحمر اليوم، وهاد أزرق اليوم",
+     "en": "This is red today, and this is blue today",
+     "translit": "haad a7mar el-yom, wa haad azra2 el-yom"
+    },
+    {
+     "ar": "هاد أصفر اليوم، وهاد أخضر اليوم",
+     "en": "This is yellow today, and this is green today",
+     "translit": "haad asfar el-yom, wa haad akhdar el-yom"
+    },
+    {
+     "ar": "هاد أسود اليوم، وهاد أبيض اليوم",
+     "en": "This is black today, and this is white today",
+     "translit": "haad iswad el-yom, wa haad abyad el-yom"
+    },
+    {
+     "ar": "هاد أحمر وأزرق وأصفر اليوم، منيح",
+     "en": "This is red and blue and yellow today, good",
+     "translit": "haad a7mar wa azra2 wa asfar el-yom, mnih"
+    }
+   ]
+  },
+  {
+   "number": 19,
+   "title": "Family",
+   "titleNative": "العيلة",
+   "items": [
+    {
+     "ar": "هاد أب اليوم، وهاي أم اليوم",
+     "en": "This is a father today, and this is a mother today",
+     "translit": "haad ab el-yom, wa hay imm el-yom"
+    },
+    {
+     "ar": "هاد ولد اليوم، وهاي بنت اليوم",
+     "en": "This is a boy today, and this is a girl today",
+     "translit": "haad walad el-yom, wa hay bint el-yom"
+    },
+    {
+     "ar": "هاد أب منيح اليوم، وهاي أم منيحة",
+     "en": "This is a good father today, and this is a good mother",
+     "translit": "haad ab mnih el-yom, wa hay imm mniha"
+    },
+    {
+     "ar": "هاد ولد صغير اليوم، وهاي بنت صغيرة",
+     "en": "This is a small boy today, and this is a small girl",
+     "translit": "haad walad sgheer el-yom, wa hay bint sgheera"
+    }
+   ]
+  },
+  {
+   "number": 20,
+   "title": "Review: Verbs and Numbers",
+   "titleNative": "مراجعة",
+   "items": [
+    {
+     "ar": "بدي قهوة اليوم، وبحب قهوة اليوم منيح",
+     "en": "I want coffee today, and I love coffee today, good",
+     "translit": "biddi ahwe el-yom, wa b7ibb ahwe el-yom mnih"
+    },
+    {
+     "ar": "بشوف بيت كبير اليوم، شو هاد اليوم",
+     "en": "I see a big house today, what is this today",
+     "translit": "bshuf beit kbeer el-yom, shu haad el-yom"
+    },
+    {
+     "ar": "مدري وين الأهل اليوم، بس بشوف بيت",
+     "en": "I don't know where the family is today, but I see a house",
+     "translit": "midri wein el-ahl el-yom, bas bshuf beit"
+    },
+    {
+     "ar": "هاد أحمر اليوم، وهاي بنت صغيرة اليوم",
+     "en": "This is red today, and this is a small girl today",
+     "translit": "haad a7mar el-yom, wa hay bint sgheera el-yom"
+    }
+   ]
+  },
+  {
+   "number": 21,
+   "title": "There Is / There Isn't",
+   "titleNative": "في ومافي",
+   "items": [
+    {
+     "ar": "في قهوة اليوم، بس مافي شاي اليوم",
+     "en": "There is coffee today, but there is no tea today",
+     "translit": "fi ahwe el-yom, bas mafi shay el-yom"
+    },
+    {
+     "ar": "مافي قهوة اليوم، بس في شاي اليوم",
+     "en": "There is no coffee today, but there is tea today",
+     "translit": "mafi ahwe el-yom, bas fi shay el-yom"
+    },
+    {
+     "ar": "في بيت هون اليوم، وفي بيت هونيك",
+     "en": "There is a house here today, and there is a house there",
+     "translit": "fi beit hown el-yom, wa fi beit hownik"
+    },
+    {
+     "ar": "مافي أكل هلق، بس في قهوة اليوم",
+     "en": "There is no food right now, but there is coffee today",
+     "translit": "mafi akel halla2, bas fi ahwe el-yom"
+    }
+   ],
+   "topicId": "a1-fi-mafi"
+  },
+  {
+   "number": 22,
+   "title": "Days of the Week",
+   "titleNative": "أيام الأسبوع",
+   "items": [
+    {
+     "ar": "يوم الأحد اليوم، وبكرة يوم الاثنين",
+     "en": "Today is Sunday, and tomorrow is Monday",
+     "translit": "yom el-a7ad el-yom, wa bukra yom el-tnein"
+    },
+    {
+     "ar": "يوم الجمعة اليوم، وبدي قهوة اليوم",
+     "en": "Today is Friday, and I want coffee today",
+     "translit": "yom el-jum3a el-yom, wa biddi ahwe el-yom"
+    },
+    {
+     "ar": "يوم السبت اليوم، ومدري شو بكرة",
+     "en": "Today is Saturday, and I don't know what's tomorrow",
+     "translit": "yom es-sabt el-yom, wa midri shu bukra"
+    },
+    {
+     "ar": "يوم الثلاثاء اليوم، منيح والحمدلله يا صديق",
+     "en": "Today is Tuesday, good, thank God, friend",
+     "translit": "yom et-tlata el-yom, mnih wal-hamdulillah ya sadeeq"
+    }
+   ]
+  },
+  {
+   "number": 23,
+   "title": "More Days",
+   "titleNative": "أيام إضافية",
+   "items": [
+    {
+     "ar": "يوم الأربعاء اليوم، وبكرة يوم الخميس",
+     "en": "Today is Wednesday, and tomorrow is Thursday",
+     "translit": "yom el-arba3a el-yom, wa bukra yom el-khamees"
+    },
+    {
+     "ar": "يوم الخميس اليوم، وبدي بيت جديد اليوم",
+     "en": "Today is Thursday, and I want a new house today",
+     "translit": "yom el-khamees el-yom, wa biddi beit jdeed el-yom"
+    },
+    {
+     "ar": "اليوم يوم الجمعة، وبدي بيت جديد",
+     "en": "Today is Friday, and I want a new house",
+     "translit": "el-yom yom el-jum3a, wa biddi beit jdeed"
+    },
+    {
+     "ar": "اليوم يوم السبت، منيح والحمدلله يا صديق",
+     "en": "Today is Saturday, good, thank God, friend",
+     "translit": "el-yom yom es-sabt, mnih wal-hamdulillah ya sadeeq"
+    }
+   ]
+  },
+  {
+   "number": 24,
+   "title": "How Much?",
+   "titleNative": "كم؟",
+   "items": [
+    {
+     "ar": "كم هاد اليوم؟ هاد غالي اليوم",
+     "en": "How much is this today? This is expensive today",
+     "translit": "kam haad el-yom? haad ghali el-yom"
+    },
+    {
+     "ar": "هاد غالي اليوم، وهاد رخيص اليوم",
+     "en": "This is expensive today, and this is cheap today",
+     "translit": "haad ghali el-yom, wa haad rkhees el-yom"
+    },
+    {
+     "ar": "هاد رخيص اليوم، وين الفلوس اليوم",
+     "en": "This is cheap today, where is the money today",
+     "translit": "haad rkhees el-yom, wein el-fluus el-yom"
+    },
+    {
+     "ar": "أديش هاد اليوم؟ هاد رخيص والحمدلله",
+     "en": "How much is this today? This is cheap, thank God",
+     "translit": "addesh haad el-yom? haad rkhees wal-hamdulillah"
+    }
+   ]
+  },
+  {
+   "number": 25,
+   "title": "Near and Far",
+   "titleNative": "قريب وبعيد",
+   "items": [
+    {
+     "ar": "البيت قريب اليوم، والسيارة بعيدة اليوم",
+     "en": "The house is near today, and the car is far today",
+     "translit": "el-beit 2areeb el-yom, was-sayyara ba3eede el-yom"
+    },
+    {
+     "ar": "البيت بعيد اليوم، والسيارة قريبة اليوم",
+     "en": "The house is far today, and the car is near today",
+     "translit": "el-beit ba3eed el-yom, was-sayyara 2areeba el-yom"
+    },
+    {
+     "ar": "هون قريب اليوم، وهونيك بعيد اليوم",
+     "en": "Here is near today, and there is far today",
+     "translit": "hown 2areeb el-yom, wa hownik ba3eed el-yom"
+    },
+    {
+     "ar": "هونيك بعيد اليوم، بس البيت قريب",
+     "en": "There is far today, but the house is near",
+     "translit": "hownik ba3eed el-yom, bas el-beit 2areeb"
+    }
+   ]
+  },
+  {
+   "number": 26,
+   "title": "I Don't Want / I'm Not",
+   "titleNative": "ما بدي / أنا مش",
+   "items": [
+    {
+     "ar": "ما بدي قهوة اليوم، بدي شاي اليوم",
+     "en": "I don't want coffee today, I want tea today",
+     "translit": "ma biddi ahwe el-yom, biddi shay el-yom"
+    },
+    {
+     "ar": "أنا مش تعبان اليوم، أنا منيح اليوم",
+     "en": "I'm not tired today, I'm good today",
+     "translit": "ana mish ta3baan el-yom, ana mnih el-yom"
+    },
+    {
+     "ar": "مافي مشكلة اليوم، أنا منيح والحمدلله",
+     "en": "There's no problem today, I'm good, thank God",
+     "translit": "mafi mushkile el-yom, ana mnih wal-hamdulillah"
+    },
+    {
+     "ar": "هاد مش كبير اليوم، هاد صغير اليوم",
+     "en": "This is not big today, this is small today",
+     "translit": "haad mish kbeer el-yom, haad sgheer el-yom"
+    }
+   ],
+   "topicId": "a1-fi-mafi"
+  },
+  {
+   "number": 27,
+   "title": "What Do You See?",
+   "titleNative": "شو بتشوف؟",
+   "items": [
+    {
+     "ar": "شو بتشوف اليوم؟ بشوف سيارة اليوم",
+     "en": "What do you see today? I see a car today",
+     "translit": "shu btshuf el-yom? bshuf sayyara el-yom"
+    },
+    {
+     "ar": "بشوف سيارة اليوم، وبتشوف بيت اليوم",
+     "en": "I see a car today, and you see a house today",
+     "translit": "bshuf sayyara el-yom, wa btshuf beit el-yom"
+    },
+    {
+     "ar": "بشوف بنت صغيرة اليوم، وبيشوف ولد صغير",
+     "en": "I see a small girl today, and he sees a small boy",
+     "translit": "bshuf bint sgheera el-yom, wa byshuf walad sgheer"
+    },
+    {
+     "ar": "بيشوف بيت قديم اليوم، ومنشوف بيت جديد",
+     "en": "He sees an old house today, and we see a new house",
+     "translit": "byshuf beit adeem el-yom, wa mnshuf beit jdeed"
+    }
+   ],
+   "topicId": "a1-present-shaf"
+  },
+  {
+   "number": 28,
+   "title": "Colors and Objects",
+   "titleNative": "الألوان والأشياء",
+   "items": [
+    {
+     "ar": "هاد أزرق اليوم، والبيت أزرق اليوم",
+     "en": "This is blue today, and the house is blue today",
+     "translit": "haad azra2 el-yom, wal-beit azra2 el-yom"
+    },
+    {
+     "ar": "البيت أخضر اليوم، وهاد أحمر اليوم",
+     "en": "The house is green today, and this is red today",
+     "translit": "el-beit akhdar el-yom, wa haad a7mar el-yom"
+    },
+    {
+     "ar": "هاد جديد اليوم، وهاد قديم اليوم كتير",
+     "en": "This is new today, and this is very old today",
+     "translit": "haad jdeed el-yom, wa haad adeem el-yom kteer"
+    },
+    {
+     "ar": "هاد كبير اليوم، وهاد صغير اليوم كتير",
+     "en": "This is big today, and this is very small today",
+     "translit": "haad kbeer el-yom, wa haad sgheer el-yom kteer"
+    }
+   ]
+  },
+  {
+   "number": 29,
+   "title": "I Love, I Want, I See",
+   "titleNative": "بحب، بدي، بشوف",
+   "items": [
+    {
+     "ar": "بحب هاد البيت اليوم، وبدي بيت جديد",
+     "en": "I love this house today, and I want a new house",
+     "translit": "b7ibb haad el-beit el-yom, wa biddi beit jdeed"
+    },
+    {
+     "ar": "بدي بيت جديد اليوم، وبشوف بيت أخضر",
+     "en": "I want a new house today, and I see a green house",
+     "translit": "biddi beit jdeed el-yom, wa bshuf beit akhdar"
+    },
+    {
+     "ar": "بشوف بيت أخضر اليوم، وبحب قهوة وشاي",
+     "en": "I see a green house today, and I love coffee and tea",
+     "translit": "bshuf beit akhdar el-yom, wa b7ibb ahwe wa shay"
+    },
+    {
+     "ar": "بحب قهوة وشاي اليوم، منيح والحمدلله",
+     "en": "I love coffee and tea today, good, thank God",
+     "translit": "b7ibb ahwe wa shay el-yom, mnih wal-hamdulillah"
+    }
+   ],
+   "topicId": "a1-biddi"
+  },
+  {
+   "number": 30,
+   "title": "Review: Days, Shopping, Negation",
+   "titleNative": "مراجعة",
+   "items": [
+    {
+     "ar": "يوم الجمعة اليوم، وفي قهوة هون اليوم",
+     "en": "Today is Friday, and there's coffee here today",
+     "translit": "yom el-jum3a el-yom, wa fi ahwe hown el-yom"
+    },
+    {
+     "ar": "كم هاد اليوم؟ هاد مش غالي اليوم",
+     "en": "How much is this today? This isn't expensive today",
+     "translit": "kam haad el-yom? haad mish ghali el-yom"
+    },
+    {
+     "ar": "البيت قريب اليوم، مش بعيد اليوم",
+     "en": "The house is near today, not far today",
+     "translit": "el-beit 2areeb el-yom, mish ba3eed el-yom"
+    },
+    {
+     "ar": "بحب هاد البيت الجديد اليوم، منيح والحمدلله",
+     "en": "I love this new house today, good, thank God",
+     "translit": "b7ibb haad el-beit el-jdeed el-yom, mnih wal-hamdulillah"
+    }
+   ]
+  },
+  {
+   "number": 31,
+   "title": "Numbers and Days",
+   "titleNative": "أرقام وأيام",
+   "items": [
+    {
+     "ar": "يوم الأحد بدي قهوة، ويوم الاثنين بدي شاي",
+     "en": "On Sunday I want coffee, and on Monday I want tea",
+     "translit": "yom el-a7ad biddi ahwe, wa yom el-tnein biddi shay"
+    },
+    {
+     "ar": "هاد واحد اليوم، وهاد تنين يوم الجمعة",
+     "en": "This is one today, and this is two on Friday",
+     "translit": "haad wahed el-yom, wa haad tnein yom el-jum3a"
+    },
+    {
+     "ar": "يوم السبت هاد تلاتة، ويوم الأحد هاد أربعة",
+     "en": "On Saturday this is three, and on Sunday this is four",
+     "translit": "yom es-sabt haad tlete, wa yom el-a7ad haad arba3a"
+    },
+    {
+     "ar": "كم هاد يوم الخميس؟ هاد خمسة والحمدلله",
+     "en": "How much is this on Thursday? This is five, thank God",
+     "translit": "kam haad yom el-khamees? haad khamse wal-hamdulillah"
+    }
+   ]
+  },
+  {
+   "number": 32,
+   "title": "Colors of the House",
+   "titleNative": "ألوان البيت",
+   "items": [
+    {
+     "ar": "البيت أحمر اليوم، وهاد أزرق اليوم",
+     "en": "The house is red today, and this is blue today",
+     "translit": "el-beit a7mar el-yom, wa haad azra2 el-yom"
+    },
+    {
+     "ar": "هاد بيت أصفر اليوم، وهاد بيت أخضر اليوم",
+     "en": "This is a yellow house today, and this is a green house today",
+     "translit": "haad beit asfar el-yom, wa haad beit akhdar el-yom"
+    },
+    {
+     "ar": "البيت الجديد أبيض اليوم، والبيت القديم أسود اليوم",
+     "en": "The new house is white today, and the old house is black today",
+     "translit": "el-beit ej-jdeed abyad el-yom, wal-beit el-2adeem iswad el-yom"
+    },
+    {
+     "ar": "بدي بيت أحمر اليوم، بس هاد بيت أصفر",
+     "en": "I want a red house today, but this is a yellow house",
+     "translit": "biddi beit a7mar el-yom, bas haad beit asfar"
+    }
+   ]
+  },
+  {
+   "number": 33,
+   "title": "Family, Big and Small",
+   "titleNative": "العيلة، كبيرة وصغيرة",
+   "items": [
+    {
+     "ar": "هاد أب منيح اليوم، وهاي أم منيحة اليوم",
+     "en": "This is a good father today, and this is a good mother today",
+     "translit": "haad ab mnih el-yom, wa hay imm mniha el-yom"
+    },
+    {
+     "ar": "هاد ولد كبير اليوم، وهاي بنت صغيرة اليوم",
+     "en": "This is a big boy today, and this is a small girl today",
+     "translit": "haad walad kbeer el-yom, wa hay bint sgheera el-yom"
+    },
+    {
+     "ar": "الأهل هون اليوم، وبشوف الأهل بكرة",
+     "en": "The family is here today, and I'll see the family tomorrow",
+     "translit": "el-ahl hown el-yom, wa bshuf el-ahl bukra"
+    },
+    {
+     "ar": "هاد ولد صغير اليوم، وهاد أب كبير اليوم",
+     "en": "This is a small boy today, and this is a big father today",
+     "translit": "haad walad sgheer el-yom, wa haad ab kbeer el-yom"
+    }
+   ]
+  },
+  {
+   "number": 34,
+   "title": "What I Want Today",
+   "titleNative": "شو بدي اليوم",
+   "items": [
+    {
+     "ar": "بدي قهوة اليوم، وبدي شاي بكرة",
+     "en": "I want coffee today, and I want tea tomorrow",
+     "translit": "biddi ahwe el-yom, wa biddi shay bukra"
+    },
+    {
+     "ar": "بدي بيت جديد اليوم، منيح والحمدلله",
+     "en": "I want a new house today, good, thank God",
+     "translit": "biddi beit jdeed el-yom, mnih wal-hamdulillah"
+    },
+    {
+     "ar": "بدي بشوف الأهل اليوم، بس هني هونيك",
+     "en": "I want to see the family today, but they're over there",
+     "translit": "biddi bshuf el-ahl el-yom, bas henne hownik"
+    },
+    {
+     "ar": "بدي مي اليوم، ومنيح والحمدلله يا صديق",
+     "en": "I want water today, and good, thank God, friend",
+     "translit": "biddi mai el-yom, wa mnih wal-hamdulillah ya sadeeq"
+    }
+   ]
+  },
+  {
+   "number": 35,
+   "title": "Expensive or Cheap?",
+   "titleNative": "غالي ولا رخيص؟",
+   "items": [
+    {
+     "ar": "البيت غالي اليوم، وهاد رخيص اليوم",
+     "en": "The house is expensive today, and this is cheap today",
+     "translit": "el-beit ghali el-yom, wa haad rkhees el-yom"
+    },
+    {
+     "ar": "هاد غالي اليوم، بس الشاي رخيص اليوم",
+     "en": "This is expensive today, but the tea is cheap today",
+     "translit": "haad ghali el-yom, bas ash-shay rkhees el-yom"
+    },
+    {
+     "ar": "كم هاد اليوم؟ هاد غالي، ووين الفلوس",
+     "en": "How much is this today? This is expensive, and where's the money",
+     "translit": "kam haad el-yom? haad ghali, wa wein el-fluus"
+    },
+    {
+     "ar": "أديش هاد اليوم؟ هاد رخيص كتير والحمدلله",
+     "en": "How much is this today? This is very cheap, thank God",
+     "translit": "addesh haad el-yom? haad rkhees ktir wal-hamdulillah"
+    }
+   ]
+  },
+  {
+   "number": 36,
+   "title": "Near the House",
+   "titleNative": "قريب من البيت",
+   "items": [
+    {
+     "ar": "البيت الجديد قريب اليوم، والسيارة بعيدة اليوم",
+     "en": "The new house is near today, and the car is far today",
+     "translit": "el-beit ej-jdeed 2areeb el-yom, was-sayyara ba3eede el-yom"
+    },
+    {
+     "ar": "هون قريب اليوم، وهونيك بعيد بس بدي بشوف",
+     "en": "Here is near today, and there is far but I want to see",
+     "translit": "hown 2areeb el-yom, wa hownik ba3eed bas biddi bshuf"
+    },
+    {
+     "ar": "صديقي هون اليوم، والأهل هونيك اليوم",
+     "en": "My friend is here today, and the family is there today",
+     "translit": "sadee2i hown el-yom, wal-ahl hownik el-yom"
+    },
+    {
+     "ar": "البيت القديم بعيد اليوم، بس البيت الجديد قريب",
+     "en": "The old house is far today, but the new house is near",
+     "translit": "el-beit el-2adeem ba3eed el-yom, bas el-beit ej-jdeed 2areeb"
+    }
+   ]
+  },
+  {
+   "number": 37,
+   "title": "This or That",
+   "titleNative": "هاد ولا هاد",
+   "items": [
+    {
+     "ar": "شو هاد؟ هاد بيت كبير، وهاد بيت صغير",
+     "en": "What is this? This is a big house, and this is a small house",
+     "translit": "shu haad? haad beit kbeer, wa haad beit sgheer"
+    },
+    {
+     "ar": "هاد قديم اليوم، وهاد جديد اليوم، شو هاد",
+     "en": "This is old today, and this is new today, what is this",
+     "translit": "haad 2adeem el-yom, wa haad jdeed el-yom, shu haad"
+    },
+    {
+     "ar": "هاي بنت منيحة اليوم، وهاد ولد منيح اليوم",
+     "en": "This is a good girl today, and this is a good boy today",
+     "translit": "hay bint mniha el-yom, wa haad walad mnih el-yom"
+    },
+    {
+     "ar": "وين هاد اليوم؟ هاد هون، وهاد هونيك",
+     "en": "Where is this today? This is here, and this is there",
+     "translit": "wein haad el-yom? haad hown, wa haad hownik"
+    }
+   ]
+  },
+  {
+   "number": 38,
+   "title": "Review: Colors and Family",
+   "titleNative": "مراجعة: ألوان وعيلة",
+   "items": [
+    {
+     "ar": "أب منيح، وأم منيحة، وبيت جديد، منيح والحمدلله",
+     "en": "A good father, a good mother, and a new house, good, thank God",
+     "translit": "ab mnih, wa imm mniha, wa beit jdeed, mnih wal-hamdulillah"
+    },
+    {
+     "ar": "البيت أحمر اليوم، وهاد كتير منيح اليوم",
+     "en": "The house is red today, and this is very good today",
+     "translit": "el-beit a7mar el-yom, wa haad ktir mnih el-yom"
+    },
+    {
+     "ar": "ولد صغير، وبنت صغيرة، والأهل منيحين اليوم",
+     "en": "A small boy, a small girl, and the family is good today",
+     "translit": "walad sgheer, wa bint sgheera, wal-ahl mnihin el-yom"
+    },
+    {
+     "ar": "شو هاد اليوم؟ بدي بشوف الأهل، والحمدلله",
+     "en": "What is this today? I want to see the family, thank God",
+     "translit": "shu haad el-yom? biddi bshuf el-ahl, wal-hamdulillah"
+    }
+   ]
+  },
+  {
+   "number": 39,
+   "title": "Review: Numbers and Price",
+   "titleNative": "مراجعة: أرقام وأسعار",
+   "items": [
+    {
+     "ar": "واحد وتنين وتلاتة، كم هاد اليوم؟ هاد رخيص",
+     "en": "One, two, three, how much is this today? This is cheap",
+     "translit": "wahed wa tnein wa tlete, kam haad el-yom? haad rkhees"
+    },
+    {
+     "ar": "ستة وسبعة وتمانية، هاد غالي اليوم والحمدلله",
+     "en": "Six, seven, eight, this is expensive today, thank God",
+     "translit": "sitte wa sab3a wa tmanye el-yom wal-hamdulillah"
+    },
+    {
+     "ar": "تسعة وعشرة، وين الفلوس؟ هاد كتير غالي",
+     "en": "Nine and ten, where's the money? This is very expensive",
+     "translit": "tis3a wa 3ashara, wein el-fluus? haad ktir ghali"
+    },
+    {
+     "ar": "أديش هاد؟ خمسة اليوم، ورخيص والحمدلله يا صديق",
+     "en": "How much is this? Five today, and cheap, thank God, friend",
+     "translit": "addesh haad? khamse el-yom, wa rkhees wal-hamdulillah ya sadeeq"
+    }
+   ]
+  },
+  {
+   "number": 40,
+   "title": "Review: Days and Wants",
+   "titleNative": "مراجعة: أيام ورغبات",
+   "items": [
+    {
+     "ar": "يوم الجمعة بدي قهوة، ويوم السبت بدي شاي",
+     "en": "On Friday I want coffee, and on Saturday I want tea",
+     "translit": "yom el-jum3a biddi ahwe, wa yom es-sabt biddi shay"
+    },
+    {
+     "ar": "اليوم يوم الأحد، وبدي بشوف صديقي بكرة",
+     "en": "Today is Sunday, and I want to see my friend tomorrow",
+     "translit": "el-yom yom el-a7ad, wa biddi bshuf sadee2i bukra"
+    },
+    {
+     "ar": "يوم الاثنين بدي بيت جديد، والحمدلله",
+     "en": "On Monday I want a new house, thank God",
+     "translit": "yom el-tnein biddi beit jdeed, wal-hamdulillah"
+    },
+    {
+     "ar": "مدري شو بكرة، بس اليوم منيح والحمدلله يا صديق",
+     "en": "I don't know what's tomorrow, but today is good, thank God, friend",
+     "translit": "midri shu bukra, bas el-yom mnih wal-hamdulillah ya sadeeq"
+    }
+   ]
+  }
+ ]
 }
