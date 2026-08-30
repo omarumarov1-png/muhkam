@@ -1,861 +1,1131 @@
 {
-  "level": "b1",
-  "grammarTopics": {
-    "b1-3and": {
-      "title": "Possession: Andi, Andak, Ando...",
-      "pattern": "عندي / عندك / عنده / عندا / عندنا / عندكن / عندن",
-      "explanation": "Arabic has no verb \"to have\" — Syrian uses عند (3and, literally \"at/by\") fused with a person ending: عندي (3andi, \"I have\"), عندك (3andak, \"you-m have\"), عنده (3ando, \"he has\"), عندا (3anda, \"she has\"), عندنا (3andna, \"we have\"), عندكن (3andkon, \"you-all have\"), عندن (3andon, \"they have\"). Negate it with ما: ما عندي (ma 3andi, \"I don't have\").",
-      "fact": "عند marks lasting/permanent possession (owning something), distinct from مع (ma3, \"with\") used for what you're physically carrying right now — a nuance English's single word \"have\" doesn't capture.",
-      "dialogue": [
-        {
-          "sp": "A",
-          "native": "عندك فلوس اليوم؟",
-          "en": "Do you have money today?"
-        },
-        {
-          "sp": "B",
-          "native": "أي، عندي فلوس، الحمدلله",
-          "en": "Yes, I have money, thank God"
-        }
-      ]
+ "level": "b1",
+ "grammarTopics": {
+  "b1-3and": {
+   "title": "Possession: Andi, Andak, Ando...",
+   "pattern": "عندي / عندك / عنده / عندا / عندنا / عندكن / عندن",
+   "explanation": "Arabic has no verb \"to have\" — Syrian uses عند (3and, literally \"at/by\") fused with a person ending: عندي (3andi, \"I have\"), عندك (3andak, \"you-m have\"), عنده (3ando, \"he has\"), عندا (3anda, \"she has\"), عندنا (3andna, \"we have\"), عندكن (3andkon, \"you-all have\"), عندن (3andon, \"they have\"). Negate it with ما: ما عندي (ma 3andi, \"I don't have\").",
+   "fact": "عند marks lasting/permanent possession (owning something), distinct from مع (ma3, \"with\") used for what you're physically carrying right now — a nuance English's single word \"have\" doesn't capture.",
+   "dialogue": [
+    {
+     "sp": "A",
+     "native": "عندك فلوس اليوم؟",
+     "en": "Do you have money today?"
     },
-    "b1-lian": {
-      "title": "Because: Lأan and Ashan",
-      "pattern": "لأن / عشان + سبب (reason)",
-      "explanation": "لأن (la2an) and عشان (3ashan) both mean \"because\" and are largely interchangeable in everyday Syrian speech: أنا منيح اليوم لأن شفت الأهل (\"I'm good today because I saw the family\") or أنا منيح اليوم عشان شفت الأهل — either works.",
-      "fact": "عشان also does double duty as \"in order to\" before a verb, not just \"because\" before a full clause — a small extra flexibility لأن doesn't share.",
-      "dialogue": [
-        {
-          "sp": "A",
-          "native": "ليش عندك فلوس كتير؟",
-          "en": "Why do you have a lot of money?"
-        },
-        {
-          "sp": "B",
-          "native": "عشان بشرب قهوة بس، ما بدي شي غالي",
-          "en": "Because I only drink coffee, I don't want anything expensive"
-        }
-      ]
+    {
+     "sp": "B",
+     "native": "أي، عندي فلوس، الحمدلله",
+     "en": "Yes, I have money, thank God"
     }
+   ]
   },
-  "lessons": [
+  "b1-lian": {
+   "title": "Because: Lأan and Ashan",
+   "pattern": "لأن / عشان + سبب (reason)",
+   "explanation": "لأن (la2an) and عشان (3ashan) both mean \"because\" and are largely interchangeable in everyday Syrian speech: أنا منيح اليوم لأن شفت الأهل (\"I'm good today because I saw the family\") or أنا منيح اليوم عشان شفت الأهل — either works.",
+   "fact": "عشان also does double duty as \"in order to\" before a verb, not just \"because\" before a full clause — a small extra flexibility لأن doesn't share.",
+   "dialogue": [
     {
-      "number": 1,
-      "title": "I Have, You Have",
-      "titleNative": "عندي، عندك",
-      "items": [
-        {
-          "ar": "عندي فلوس اليوم، الحمدلله منيح كتير",
-          "en": "I have money today, thank God, very good",
-          "translit": "3andi fluus el-yom, wal-hamdulillah mnih kteer"
-        },
-        {
-          "ar": "عندك بيت كبير اليوم؟ أي، عندي بيت",
-          "en": "Do you have a big house today? Yes, I have a house",
-          "translit": "3andak beit kbeer el-yom? ay, 3andi beit"
-        },
-        {
-          "ar": "عنده صديق منيح اليوم، والحمدلله كتير",
-          "en": "He has a good friend today, thank God, so much",
-          "translit": "3ando sadeeq mnih el-yom, wal-hamdulillah kteer"
-        },
-        {
-          "ar": "عندا فلوس اليوم، بس ما عندا بيت",
-          "en": "She has money today, but she doesn't have a house",
-          "translit": "3anda fluus el-yom, bas ma 3anda beit"
-        }
-      ],
-      "topicId": "b1-3and"
+     "sp": "A",
+     "native": "ليش عندك فلوس كتير؟",
+     "en": "Why do you have a lot of money?"
     },
     {
-      "number": 2,
-      "title": "We Have, They Have",
-      "titleNative": "عندنا، عندن",
-      "items": [
-        {
-          "ar": "عندنا بيت كبير اليوم، والحمدلله منيح",
-          "en": "We have a big house today, thank God, good",
-          "translit": "3andna beit kbeer el-yom, wal-hamdulillah mnih"
-        },
-        {
-          "ar": "عندكن فلوس اليوم؟ أي، عندنا فلوس كتير",
-          "en": "Do you all have money today? Yes, we have a lot of money",
-          "translit": "3andkon fluus el-yom? ay, 3andna fluus kteer"
-        },
-        {
-          "ar": "عندن بيت جديد اليوم، والحمدلله منيح",
-          "en": "They have a new house today, thank God, good",
-          "translit": "3andon beit jdeed el-yom, wal-hamdulillah mnih"
-        },
-        {
-          "ar": "ما عندن فلوس اليوم، بس عندن بيت منيح",
-          "en": "They don't have money today, but they have a good house",
-          "translit": "ma 3andon fluus el-yom, bas 3andon beit mnih"
-        }
-      ],
-      "topicId": "b1-3and"
-    },
-    {
-      "number": 3,
-      "title": "What Do You Have?",
-      "titleNative": "شو عندك؟",
-      "items": [
-        {
-          "ar": "شو عندك اليوم؟ عندي قهوة وشاي منيح",
-          "en": "What do you have today? I have good coffee and tea",
-          "translit": "shu 3andak el-yom? 3andi ahwe wa shay mnih"
-        },
-        {
-          "ar": "شو عنده اليوم؟ عنده بيت كبير جديد",
-          "en": "What does he have today? He has a big, new house",
-          "translit": "shu 3ando el-yom? 3ando beit kbeer jdeed"
-        },
-        {
-          "ar": "شو عندا اليوم؟ عندا فلوس كتير والحمدلله",
-          "en": "What does she have today? She has a lot of money, thank God",
-          "translit": "shu 3anda el-yom? 3anda fluus kteer wal-hamdulillah"
-        },
-        {
-          "ar": "شو عندكن اليوم؟ عندنا صديق منيح والحمدلله",
-          "en": "What do you all have today? We have a good friend, thank God",
-          "translit": "shu 3andkon el-yom? 3andna sadeeq mnih wal-hamdulillah"
-        }
-      ]
-    },
-    {
-      "number": 4,
-      "title": "I Don't Have",
-      "titleNative": "ما عندي",
-      "items": [
-        {
-          "ar": "ما عندي فلوس اليوم، بس عندي بيت منيح",
-          "en": "I don't have money today, but I have a good house",
-          "translit": "ma 3andi fluus el-yom, bas 3andi beit mnih"
-        },
-        {
-          "ar": "ما عنده بيت اليوم، بس عنده فلوس كتير",
-          "en": "He doesn't have a house today, but he has a lot of money",
-          "translit": "ma 3ando beit el-yom, bas 3ando fluus kteer"
-        },
-        {
-          "ar": "ما عندا صديق اليوم، بس عندا أهل منيح",
-          "en": "She doesn't have a friend today, but she has a good family",
-          "translit": "ma 3anda sadeeq el-yom, bas 3anda ahl mnih"
-        },
-        {
-          "ar": "ما عندنا فلوس كتير اليوم، بس منيح والحمدلله",
-          "en": "We don't have a lot of money today, but it's good, thank God",
-          "translit": "ma 3andna fluus kteer el-yom, bas mnih wal-hamdulillah"
-        }
-      ]
-    },
-    {
-      "number": 5,
-      "title": "Review: Possession",
-      "titleNative": "مراجعة: عند",
-      "items": [
-        {
-          "ar": "عندي بيت كبير اليوم، وعندي فلوس منيح",
-          "en": "I have a big house today, and I have good money",
-          "translit": "3andi beit kbeer el-yom, wa 3andi fluus mnih"
-        },
-        {
-          "ar": "عنده صديق منيح، بس ما عنده بيت جديد",
-          "en": "He has a good friend, but he doesn't have a new house",
-          "translit": "3ando sadeeq mnih, bas ma 3ando beit jdeed"
-        },
-        {
-          "ar": "عندا فلوس كتير اليوم، والحمدلله منيح",
-          "en": "She has a lot of money today, thank God, good",
-          "translit": "3anda fluus kteer el-yom, wal-hamdulillah mnih"
-        },
-        {
-          "ar": "عندن بيت منيح اليوم، بس ما عندن فلوس كتير",
-          "en": "They have a good house today, but they don't have a lot of money",
-          "translit": "3andon beit mnih el-yom, bas ma 3andon fluus kteer"
-        }
-      ]
-    },
-    {
-      "number": 6,
-      "title": "Because I Saw",
-      "titleNative": "لأن شفت",
-      "items": [
-        {
-          "ar": "أنا منيح اليوم لأن شفت الأهل مبارح",
-          "en": "I'm good today because I saw the family yesterday",
-          "translit": "ana mnih el-yom la2an shift el-ahl mbare7"
-        },
-        {
-          "ar": "هو منيح اليوم عشان شاف صديق منيح",
-          "en": "He's good today because he saw a good friend",
-          "translit": "huwwe mnih el-yom 3ashan shaf sadeeq mnih"
-        },
-        {
-          "ar": "هي منيحة اليوم لأن عندا فلوس كتير",
-          "en": "She's good today because she has a lot of money",
-          "translit": "hiyye mniha el-yom la2an 3anda fluus kteer"
-        },
-        {
-          "ar": "نحنا هون اليوم عشان عندنا بيت جديد منيح",
-          "en": "We're here today because we have a good, new house",
-          "translit": "ni7na hown el-yom 3ashan 3andna beit jdeed mnih"
-        }
-      ],
-      "topicId": "b1-lian"
-    },
-    {
-      "number": 7,
-      "title": "Why Are You Tired?",
-      "titleNative": "ليش انت تعبان؟",
-      "items": [
-        {
-          "ar": "ليش انت تعبان؟ لأن ما شفت قهوة اليوم",
-          "en": "Why are you tired? Because I didn't see coffee today",
-          "translit": "leish inte ta3baan? la2an ma shift ahwe el-yom"
-        },
-        {
-          "ar": "ليش هو منيح؟ عشان عنده صديق منيح كتير",
-          "en": "Why is he good? Because he has a very good friend",
-          "translit": "leish huwwe mnih? 3ashan 3ando sadeeq mnih kteer"
-        },
-        {
-          "ar": "ليش هي منيحة اليوم؟ لأن ما شافت شي",
-          "en": "Why is she good today? Because she didn't see anything (bad)",
-          "translit": "leish hiyye mniha el-yom? la2an ma shafit shi"
-        },
-        {
-          "ar": "ليش بدي مي اليوم؟ عشان ما شفت شاي",
-          "en": "Why do I want water today? Because I didn't see tea",
-          "translit": "leish biddi may el-yom? 3ashan ma shift shay"
-        }
-      ]
-    },
-    {
-      "number": 8,
-      "title": "Because It's Expensive",
-      "titleNative": "لأن غالي",
-      "items": [
-        {
-          "ar": "ما بدي هاد لأن غالي كتير اليوم",
-          "en": "I don't want this because it's very expensive today",
-          "translit": "ma biddi haad la2an ghali kteer el-yom"
-        },
-        {
-          "ar": "بدي هاد عشان رخيص كتير اليوم منيح",
-          "en": "I want this because it's very cheap today, good",
-          "translit": "biddi haad 3ashan rkhees kteer el-yom mnih"
-        },
-        {
-          "ar": "شاف بيت لأن ما عنده بيت اليوم",
-          "en": "He saw a house because he doesn't have a house today",
-          "translit": "shaf beit la2an ma 3ando beit el-yom"
-        },
-        {
-          "ar": "شفت هاد عشان عندي فلوس اليوم منيح",
-          "en": "I saw this because I have money today, good",
-          "translit": "shift haad 3ashan 3andi fluus el-yom mnih"
-        }
-      ]
-    },
-    {
-      "number": 9,
-      "title": "With Someone",
-      "titleNative": "مع صديق",
-      "items": [
-        {
-          "ar": "شفت بيت مع صديق مبارح، والحمدلله منيح",
-          "en": "I saw a house with a friend yesterday, thank God, good",
-          "translit": "shift beit ma3 sadeeq mbare7, wal-hamdulillah mnih"
-        },
-        {
-          "ar": "شاف الأهل مع صديق مبارح، منيح والحمدلله",
-          "en": "He saw the family with a friend yesterday, good, thank God",
-          "translit": "shaf el-ahl ma3 sadeeq mbare7, mnih wal-hamdulillah"
-        },
-        {
-          "ar": "بحب قهوة مع الأهل اليوم، والحمدلله منيح",
-          "en": "I love coffee with the family today, thank God, good",
-          "translit": "b7ibb ahwe ma3 el-ahl el-yom, wal-hamdulillah mnih"
-        },
-        {
-          "ar": "شافت بيت مع صديق مبارح، منيح والحمدلله",
-          "en": "She saw a house with a friend yesterday, good, thank God",
-          "translit": "shafit beit ma3 sadeeq mbare7, mnih wal-hamdulillah"
-        }
-      ],
-      "topicId": "b1-3and"
-    },
-    {
-      "number": 10,
-      "title": "Review: Possession, Because, With",
-      "titleNative": "مراجعة",
-      "items": [
-        {
-          "ar": "عندي فلوس كتير لأن بحب قهوة بس",
-          "en": "I have a lot of money because I only love coffee",
-          "translit": "3andi fluus kteer la2an b7ibb ahwe bas"
-        },
-        {
-          "ar": "شفت بيت مع صديق عشان ما عندي سيارة",
-          "en": "I saw a house with a friend because I don't have a car",
-          "translit": "shift beit ma3 sadeeq 3ashan ma 3andi sayyara"
-        },
-        {
-          "ar": "هي منيحة اليوم لأن عندا بيت جديد كبير",
-          "en": "She's good today because she has a new, big house",
-          "translit": "hiyye mniha el-yom la2an 3anda beit jdeed kbeer"
-        },
-        {
-          "ar": "ما عندن فلوس كتير، عشان عندن بيت غالي",
-          "en": "They don't have a lot of money, because they have an expensive house",
-          "translit": "ma 3andon fluus kteer, 3ashan 3andon beit ghali"
-        }
-      ]
-    },
-    {
-      "number": 11,
-      "title": "Family Possession",
-      "titleNative": "عند العيلة",
-      "items": [
-        {
-          "ar": "عندي أب منيح، وعندي أم منيحة والحمدلله",
-          "en": "I have a good father, and I have a good mother, thank God",
-          "translit": "3andi ab mnih, wa 3andi imm mniha wal-hamdulillah"
-        },
-        {
-          "ar": "عنده أخ منيح اليوم، والحمدلله كتير",
-          "en": "He has a good brother today, thank God, so much",
-          "translit": "3ando akh mnih el-yom, wal-hamdulillah kteer"
-        },
-        {
-          "ar": "عندا أهل منيح اليوم، بس ما عندا بيت",
-          "en": "She has a good family today, but she doesn't have a house",
-          "translit": "3anda ahl mnih el-yom, bas ma 3anda beit"
-        },
-        {
-          "ar": "عندنا أهل منيح، والحمدلله عندنا بيت كبير",
-          "en": "We have a good family, thank God we have a big house",
-          "translit": "3andna ahl mnih, wal-hamdulillah 3andna beit kbeer"
-        }
-      ],
-      "topicId": "b1-3and"
-    },
-    {
-      "number": 12,
-      "title": "Days and Possession",
-      "titleNative": "الأيام والملكية",
-      "items": [
-        {
-          "ar": "يوم الأحد عندي فلوس، ويوم الاثنين ما عندي",
-          "en": "On Sunday I have money, and on Monday I don't have",
-          "translit": "yom el-a7ad 3andi fluus, wa yom el-tnein ma 3andi"
-        },
-        {
-          "ar": "يوم الجمعة عنده صديق، ويوم السبت شاف بيت",
-          "en": "On Friday he has a friend, and on Saturday he saw a house",
-          "translit": "yom el-jum3a 3ando sadeeq, wa yom es-sabt shaf beit"
-        },
-        {
-          "ar": "يوم السبت عندا بيت جديد، والحمدلله منيح",
-          "en": "On Saturday she has a new house, thank God, good",
-          "translit": "yom es-sabt 3anda beit jdeed, wal-hamdulillah mnih"
-        },
-        {
-          "ar": "يوم الأحد عندنا صديق منيح، وشفنا الأهل منيح",
-          "en": "On Sunday we have a good friend, and we saw the family, good",
-          "translit": "yom el-a7ad 3andna sadeeq mnih, wa shifna el-ahl mnih"
-        }
-      ]
-    },
-    {
-      "number": 13,
-      "title": "Feelings and Because",
-      "titleNative": "المشاعر ولأن",
-      "items": [
-        {
-          "ar": "أنا منيح اليوم لأن عندي فلوس كتير",
-          "en": "I'm good today because I have a lot of money",
-          "translit": "ana mnih el-yom la2an 3andi fluus kteer"
-        },
-        {
-          "ar": "هو تعبان اليوم لأن شفت بيت كتير مبارح",
-          "en": "He's tired today because I saw a lot of houses yesterday",
-          "translit": "huwwe ta3baan el-yom la2an shift beit kteer mbare7"
-        },
-        {
-          "ar": "هي مش منيحة اليوم لأن ما عندا بيت جديد",
-          "en": "She's not good today because she doesn't have a new house",
-          "translit": "hiyye mish mniha el-yom la2an ma 3anda beit jdeed"
-        },
-        {
-          "ar": "نحنا منيح اليوم لأن عندنا أهل منيح كتير",
-          "en": "We're good today because we have a very good family",
-          "translit": "ni7na mnih el-yom la2an 3andna ahl mnih kteer"
-        }
-      ],
-      "topicId": "b1-lian"
-    },
-    {
-      "number": 14,
-      "title": "Money and Because",
-      "titleNative": "الفلوس ولأن",
-      "items": [
-        {
-          "ar": "عندي فلوس كتير لأن ما بدي بيت غالي",
-          "en": "I have a lot of money because I don't want an expensive house",
-          "translit": "3andi fluus kteer la2an ma biddi beit ghali"
-        },
-        {
-          "ar": "ما عنده فلوس اليوم لأن شاف بيت جديد",
-          "en": "He doesn't have money today because he saw a new house",
-          "translit": "ma 3ando fluus el-yom la2an shaf beit jdeed"
-        },
-        {
-          "ar": "عندا فلوس منيح لأن شافت هاد رخيص كتير",
-          "en": "She has good money because she saw this was very cheap",
-          "translit": "3anda fluus mnih la2an shafit haad rkhees kteer"
-        },
-        {
-          "ar": "عندنا فلوس كتير لأن ما شفنا البيت الغالي",
-          "en": "We have a lot of money because we didn't see the expensive house",
-          "translit": "3andna fluus kteer la2an ma shifna el-beit el-ghali"
-        }
-      ]
-    },
-    {
-      "number": 15,
-      "title": "Review: Possession and Because",
-      "titleNative": "مراجعة",
-      "items": [
-        {
-          "ar": "عندي بيت كبير لأن عندي فلوس كتير منيح",
-          "en": "I have a big house because I have a lot of money, good",
-          "translit": "3andi beit kbeer la2an 3andi fluus kteer mnih"
-        },
-        {
-          "ar": "هو منيح اليوم لأن عنده أهل وصديق منيح",
-          "en": "He's good today because he has family and a good friend",
-          "translit": "huwwe mnih el-yom la2an 3ando ahl wa sadeeq mnih"
-        },
-        {
-          "ar": "يوم الجمعة عندا فلوس، ويوم السبت ما عندا",
-          "en": "On Friday she has money, and on Saturday she doesn't",
-          "translit": "yom el-jum3a 3anda fluus, wa yom es-sabt ma 3anda"
-        },
-        {
-          "ar": "عندنا بيت جديد لأن عندنا فلوس كتير والحمدلله",
-          "en": "We have a new house because we have a lot of money, thank God",
-          "translit": "3andna beit jdeed la2an 3andna fluus kteer wal-hamdulillah"
-        }
-      ]
-    },
-    {
-      "number": 16,
-      "title": "With Family",
-      "titleNative": "مع العيلة",
-      "items": [
-        {
-          "ar": "شفت بيت مع أب منيح مبارح، والحمدلله كتير",
-          "en": "I saw a house with a good father yesterday, thank God, a lot",
-          "translit": "shift beit ma3 ab mnih mbare7, wal-hamdulillah kteer"
-        },
-        {
-          "ar": "شاف الأهل مع أم منيحة مبارح، منيح والحمدلله",
-          "en": "He saw the family with a good mother yesterday, good, thank God",
-          "translit": "shaf el-ahl ma3 imm mniha mbare7, mnih wal-hamdulillah"
-        },
-        {
-          "ar": "بحب قهوة مع الأهل اليوم، والحمدلله منيح",
-          "en": "I love coffee with the family today, thank God, good",
-          "translit": "b7ibb ahwe ma3 el-ahl el-yom, wal-hamdulillah mnih"
-        },
-        {
-          "ar": "شافت بيت مع صديق مبارح، منيح والحمدلله كتير",
-          "en": "She saw a house with a friend yesterday, good, thank God, a lot",
-          "translit": "shafit beit ma3 sadeeq mbare7, mnih wal-hamdulillah kteer"
-        }
-      ],
-      "topicId": "b1-3and"
-    },
-    {
-      "number": 17,
-      "title": "Colors and Possession",
-      "titleNative": "الألوان والملكية",
-      "items": [
-        {
-          "ar": "عندي بيت أحمر اليوم، وعنده بيت أزرق منيح",
-          "en": "I have a red house today, and he has a good blue house",
-          "translit": "3andi beit a7mar el-yom, wa 3ando beit azra2 mnih"
-        },
-        {
-          "ar": "عندا بيت أصفر اليوم، وعندنا بيت أخضر منيح",
-          "en": "She has a yellow house today, and we have a good green house",
-          "translit": "3anda beit asfar el-yom, wa 3andna beit akhdar mnih"
-        },
-        {
-          "ar": "ما عندي بيت أحمر، بس عندي بيت كبير منيح",
-          "en": "I don't have a red house, but I have a good big house",
-          "translit": "ma 3andi beit a7mar, bas 3andi beit kbeer mnih"
-        },
-        {
-          "ar": "عندن بيت أزرق وجديد، والحمدلله منيح كتير",
-          "en": "They have a blue and new house, thank God, very good",
-          "translit": "3andon beit azra2 wa jdeed, wal-hamdulillah mnih kteer"
-        }
-      ]
-    },
-    {
-      "number": 18,
-      "title": "Numbers and Possession",
-      "titleNative": "الأرقام والملكية",
-      "items": [
-        {
-          "ar": "عندي واحد اليوم، وعنده تنين اليوم والحمدلله",
-          "en": "I have one today, and he has two today, thank God",
-          "translit": "3andi wahed el-yom, wa 3ando tnein el-yom wal-hamdulillah"
-        },
-        {
-          "ar": "عندا تلاتة اليوم، وعندنا أربعة منيح كتير",
-          "en": "She has three today, and we have four, very good",
-          "translit": "3anda tlete el-yom, wa 3andna arba3a mnih kteer"
-        },
-        {
-          "ar": "عندن خمسة اليوم، والحمدلله عندن ستة منيح",
-          "en": "They have five today, and thank God they have six, good",
-          "translit": "3andon khamse el-yom, wal-hamdulillah 3andon sitte mnih"
-        },
-        {
-          "ar": "ما عندي سبعة اليوم، بس عندي تمانية منيح",
-          "en": "I don't have seven today, but I have eight, good",
-          "translit": "ma 3andi sab3a el-yom, bas 3andi tmanye mnih"
-        }
-      ]
-    },
-    {
-      "number": 19,
-      "title": "Places and Because",
-      "titleNative": "الأماكن ولأن",
-      "items": [
-        {
-          "ar": "شفت البيت هون لأن البيت قريب اليوم منيح",
-          "en": "I saw the house here because the house is near today, good",
-          "translit": "shift el-beit hown la2an el-beit 2areeb el-yom mnih"
-        },
-        {
-          "ar": "شاف السيارة هونيك لأن السيارة بعيدة اليوم كتير",
-          "en": "He saw the car there because the car is very far today",
-          "translit": "shaf es-sayyara hownik la2an es-sayyara ba3eede el-yom kteer"
-        },
-        {
-          "ar": "بدي بيت هون لأن هون قريب اليوم منيح",
-          "en": "I want a house here because here is near today, good",
-          "translit": "biddi beit hown la2an hown 2areeb el-yom mnih"
-        },
-        {
-          "ar": "شافت السيارة هونيك لأن السيارة بعيدة اليوم كتير",
-          "en": "She saw the car there because the car is very far today",
-          "translit": "shafit es-sayyara hownik la2an es-sayyara ba3eede el-yom kteer"
-        }
-      ]
-    },
-    {
-      "number": 20,
-      "title": "Review: With, Colors, Numbers, Places",
-      "titleNative": "مراجعة",
-      "items": [
-        {
-          "ar": "شفت بيت مع الأهل مبارح، وعندي بيت أحمر",
-          "en": "I saw a house with the family yesterday, and I have a red house",
-          "translit": "shift beit ma3 el-ahl mbare7, wa 3andi beit a7mar"
-        },
-        {
-          "ar": "عندا تلاتة اليوم منيح، وشفت قهوة مع صديق",
-          "en": "She has three today, good, and I saw coffee with a friend",
-          "translit": "3anda tlete el-yom mnih, wa shift ahwe ma3 sadeeq"
-        },
-        {
-          "ar": "شاف بيت هون لأن البيت قريب اليوم، منيح والحمدلله",
-          "en": "He saw a house here because the house is near today, good, thank God",
-          "translit": "shaf beit hown la2an el-beit 2areeb el-yom, mnih wal-hamdulillah"
-        },
-        {
-          "ar": "عندنا فلوس كتير لأن ما شفنا البيت الغالي",
-          "en": "We have a lot of money because we didn't see the expensive house",
-          "translit": "3andna fluus kteer la2an ma shifna el-beit el-ghali"
-        }
-      ]
-    },
-    {
-      "number": 21,
-      "title": "I Love Because I Have",
-      "titleNative": "بحب لأن عندي",
-      "items": [
-        {
-          "ar": "بحب قهوة اليوم لأن عندي فلوس كتير",
-          "en": "I love coffee today because I have a lot of money",
-          "translit": "b7ibb ahwe el-yom la2an 3andi fluus kteer"
-        },
-        {
-          "ar": "بيحب شاي اليوم لأن عنده صديق منيح",
-          "en": "He loves tea today because he has a good friend",
-          "translit": "by7ibb shay el-yom la2an 3ando sadeeq mnih"
-        },
-        {
-          "ar": "بتحب مي اليوم لأن عندا بيت جديد",
-          "en": "She loves water today because she has a new house",
-          "translit": "bt7ibb may el-yom la2an 3anda beit jdeed"
-        },
-        {
-          "ar": "منحب قهوة اليوم لأن عندنا أهل منيح",
-          "en": "We love coffee today because we have a good family",
-          "translit": "mn7ibb ahwe el-yom la2an 3andna ahl mnih"
-        }
-      ],
-      "topicId": "b1-lian"
-    },
-    {
-      "number": 22,
-      "title": "Seeing Because of Money",
-      "titleNative": "بشوف لأن الفلوس",
-      "items": [
-        {
-          "ar": "بشوف بيت اليوم لأن عندي فلوس منيح",
-          "en": "I see a house today because I have good money",
-          "translit": "bshuf beit el-yom la2an 3andi fluus mnih"
-        },
-        {
-          "ar": "بيشوف صديق مبارح لأن عنده فلوس منيح",
-          "en": "He saw a friend yesterday because he has good money",
-          "translit": "byshuf sadeeq mbare7 la2an 3ando fluus mnih"
-        },
-        {
-          "ar": "بتشوف بيت اليوم لأن عندا أهل منيح",
-          "en": "She sees a house today because she has a good family",
-          "translit": "btshuf beit el-yom la2an 3anda ahl mnih"
-        },
-        {
-          "ar": "منشوف بيت جديد اليوم لأن عندنا بيت قديم",
-          "en": "We see a new house today because we have an old house",
-          "translit": "mnshuf beit jdeed el-yom la2an 3andna beit adeem"
-        }
-      ]
-    },
-    {
-      "number": 23,
-      "title": "Days and Love",
-      "titleNative": "الأيام والحب",
-      "items": [
-        {
-          "ar": "يوم الأحد بحب قهوة، ويوم الاثنين بحب شاي",
-          "en": "On Sunday I love coffee, and on Monday I love tea",
-          "translit": "yom el-a7ad b7ibb ahwe, wa yom el-tnein b7ibb shay"
-        },
-        {
-          "ar": "يوم الجمعة بيحب قهوة لأن عنده فلوس منيح",
-          "en": "On Friday he loves coffee because he has good money",
-          "translit": "yom el-jum3a by7ibb ahwe la2an 3ando fluus mnih"
-        },
-        {
-          "ar": "يوم السبت بتحب شاي لأن عندا بيت جديد",
-          "en": "On Saturday she loves tea because she has a new house",
-          "translit": "yom es-sabt bt7ibb shay la2an 3anda beit jdeed"
-        },
-        {
-          "ar": "يوم الأحد منحب قهوة مع الأهل منيح والحمدلله",
-          "en": "On Sunday we love coffee with the family, good, thank God",
-          "translit": "yom el-a7ad mn7ibb ahwe ma3 el-ahl mnih wal-hamdulillah"
-        }
-      ]
-    },
-    {
-      "number": 24,
-      "title": "Feelings Because of Possession",
-      "titleNative": "المشاعر والملكية",
-      "items": [
-        {
-          "ar": "أنا منيح اليوم لأن عندي بيت كبير جديد",
-          "en": "I'm good today because I have a big, new house",
-          "translit": "ana mnih el-yom la2an 3andi beit kbeer jdeed"
-        },
-        {
-          "ar": "هو مش منيح اليوم لأن ما عنده فلوس كتير",
-          "en": "He's not good today because he doesn't have a lot of money",
-          "translit": "huwwe mish mnih el-yom la2an ma 3ando fluus kteer"
-        },
-        {
-          "ar": "هي تعبانة اليوم لأن شفت بيت مع الأهل",
-          "en": "She's tired today because she saw a house with the family",
-          "translit": "hiyye ta3baane el-yom la2an shafit beit ma3 el-ahl"
-        },
-        {
-          "ar": "نحنا منيح اليوم لأن عندنا صديق منيح كتير",
-          "en": "We're good today because we have a very good friend",
-          "translit": "ni7na mnih el-yom la2an 3andna sadeeq mnih kteer"
-        }
-      ]
-    },
-    {
-      "number": 25,
-      "title": "Review: Love, See, Days, Feelings",
-      "titleNative": "مراجعة",
-      "items": [
-        {
-          "ar": "بحب قهوة اليوم لأن عندي فلوس، والحمدلله",
-          "en": "I love coffee today because I have money, thank God",
-          "translit": "b7ibb ahwe el-yom la2an 3andi fluus, wal-hamdulillah"
-        },
-        {
-          "ar": "شاف بيت مع صديق مبارح لأن عنده فلوس منيح",
-          "en": "He saw a house with a friend yesterday because he has good money",
-          "translit": "shaf beit ma3 sadeeq mbare7 la2an 3ando fluus mnih"
-        },
-        {
-          "ar": "يوم الجمعة أنا منيح لأن عندي بيت جديد",
-          "en": "On Friday I'm good because I have a new house",
-          "translit": "yom el-jum3a ana mnih la2an 3andi beit jdeed"
-        },
-        {
-          "ar": "هي مش منيحة اليوم لأن ما عندا فلوس كتير",
-          "en": "She's not good today because she doesn't have a lot of money",
-          "translit": "hiyye mish mniha el-yom la2an ma 3anda fluus kteer"
-        }
-      ]
-    },
-    {
-      "number": 26,
-      "title": "What Do You See and Why?",
-      "titleNative": "شو بتشوف وليش؟",
-      "items": [
-        {
-          "ar": "شو بتشوف اليوم؟ بشوف بيت لأن منيح",
-          "en": "What do you see today? I see a house because it's good",
-          "translit": "shu btshuf el-yom? bshuf beit la2an mnih"
-        },
-        {
-          "ar": "شو بيشوف مبارح؟ شاف صديق منيح مع الأهل",
-          "en": "What did he see yesterday? He saw a good friend with the family",
-          "translit": "shu byshuf mbare7? shaf sadeeq mnih ma3 el-ahl"
-        },
-        {
-          "ar": "شو بتشوف اليوم؟ بتشوف بيت لأن عندا فلوس",
-          "en": "What does she see today? She sees a house because she has money",
-          "translit": "shu btshuf el-yom? btshuf beit la2an 3anda fluus"
-        },
-        {
-          "ar": "شو منشوف اليوم؟ منشوف بيت مع الأهل منيح",
-          "en": "What do we see today? We see a house with the family, good",
-          "translit": "shu mnshuf el-yom? mnshuf beit ma3 el-ahl mnih"
-        }
-      ]
-    },
-    {
-      "number": 27,
-      "title": "Numbers and Because",
-      "titleNative": "الأرقام ولأن",
-      "items": [
-        {
-          "ar": "عندي واحد اليوم لأن ما عندي تنين",
-          "en": "I have one today because I don't have two",
-          "translit": "3andi wahed el-yom la2an ma 3andi tnein"
-        },
-        {
-          "ar": "عنده تلاتة اليوم لأن شاف أربعة مبارح",
-          "en": "He has three today because he saw four yesterday",
-          "translit": "3ando tlete el-yom la2an shaf arba3a mbare7"
-        },
-        {
-          "ar": "عندا خمسة اليوم لأن عندا فلوس كتير منيح",
-          "en": "She has five today because she has a lot of good money",
-          "translit": "3anda khamse el-yom la2an 3anda fluus kteer mnih"
-        },
-        {
-          "ar": "عندنا ستة اليوم لأن شفنا سبعة مبارح منيح",
-          "en": "We have six today because we saw seven yesterday, good",
-          "translit": "3andna sitte el-yom la2an shifna sab3a mbare7 mnih"
-        }
-      ]
-    },
-    {
-      "number": 28,
-      "title": "Money, Places, and Because",
-      "titleNative": "الفلوس والأماكن",
-      "items": [
-        {
-          "ar": "شفت بيت هون لأن عندي صديق هون اليوم",
-          "en": "I saw a house here because I have a friend here today",
-          "translit": "shift beit hown la2an 3andi sadeeq hown el-yom"
-        },
-        {
-          "ar": "شاف بيت هونيك لأن البيت بعيد اليوم منيح",
-          "en": "He saw a house there because the house is far today, ok",
-          "translit": "shaf beit hownik la2an el-beit ba3eed el-yom mnih"
-        },
-        {
-          "ar": "عندا بيت هون لأن السيارة قريبة اليوم منيح",
-          "en": "She has a house here because the car is near today, good",
-          "translit": "3anda beit hown la2an es-sayyara 2areebe el-yom mnih"
-        },
-        {
-          "ar": "عندنا بيت هونيك لأن الأهل هونيك اليوم منيح",
-          "en": "We have a house there because the family is there today, good",
-          "translit": "3andna beit hownik la2an el-ahl hownik el-yom mnih"
-        }
-      ]
-    },
-    {
-      "number": 29,
-      "title": "A Full Day",
-      "titleNative": "يوم كامل",
-      "items": [
-        {
-          "ar": "صباح الخير، بحب قهوة، وبعدين بشوف الأهل",
-          "en": "Good morning, I love coffee, and later I see the family",
-          "translit": "sabah el-kheir, b7ibb ahwe, wa ba3dein bshuf el-ahl"
-        },
-        {
-          "ar": "شفت بيت مبارح، وشفت الأهل، وبحب قهوة منيح",
-          "en": "I saw a house yesterday, and I saw the family, and I love good coffee",
-          "translit": "shift beit mbare7, wa shift el-ahl, wa b7ibb ahwe mnih"
-        },
-        {
-          "ar": "عندي فلوس اليوم لأن ما شفت البيت الغالي",
-          "en": "I have money today because I didn't see the expensive house",
-          "translit": "3andi fluus el-yom la2an ma shift el-beit el-ghali"
-        },
-        {
-          "ar": "صباح النور، أنا منيح اليوم لأن عندي أهل منيح",
-          "en": "Good morning, I'm good today because I have a good family",
-          "translit": "sabah en-noor, ana mnih el-yom la2an 3andi ahl mnih"
-        }
-      ]
-    },
-    {
-      "number": 30,
-      "title": "Review: B1 Recap",
-      "titleNative": "مراجعة نهائية",
-      "items": [
-        {
-          "ar": "عندي بيت كبير لأن عندي فلوس كتير، والحمدلله",
-          "en": "I have a big house because I have a lot of money, thank God",
-          "translit": "3andi beit kbeer la2an 3andi fluus kteer, wal-hamdulillah"
-        },
-        {
-          "ar": "شفت بيت مع صديق مبارح، وبحب قهوة منيح",
-          "en": "I saw a house with a friend yesterday, and I love good coffee",
-          "translit": "shift beit ma3 sadeeq mbare7, wa b7ibb ahwe mnih"
-        },
-        {
-          "ar": "هي منيحة اليوم لأن عندا بيت جديد وصديق منيح",
-          "en": "She's good today because she has a new house and a good friend",
-          "translit": "hiyye mniha el-yom la2an 3anda beit jdeed wa sadeeq mnih"
-        },
-        {
-          "ar": "ما عندن فلوس كتير لأن عندن بيت غالي كبير",
-          "en": "They don't have a lot of money because they have a big, expensive house",
-          "translit": "ma 3andon fluus kteer la2an 3andon beit ghali kbeer"
-        }
-      ]
+     "sp": "B",
+     "native": "عشان بشرب قهوة بس، ما بدي شي غالي",
+     "en": "Because I only drink coffee, I don't want anything expensive"
     }
-  ]
+   ]
+  }
+ },
+ "lessons": [
+  {
+   "number": 1,
+   "title": "I Have, You Have",
+   "titleNative": "عندي، عندك",
+   "items": [
+    {
+     "ar": "عندي فلوس اليوم، الحمدلله منيح كتير",
+     "en": "I have money today, thank God, very good",
+     "translit": "3andi fluus el-yom, wal-hamdulillah mnih kteer"
+    },
+    {
+     "ar": "عندك بيت كبير اليوم؟ أي، عندي بيت",
+     "en": "Do you have a big house today? Yes, I have a house",
+     "translit": "3andak beit kbeer el-yom? ay, 3andi beit"
+    },
+    {
+     "ar": "عنده صديق منيح اليوم، والحمدلله كتير",
+     "en": "He has a good friend today, thank God, so much",
+     "translit": "3ando sadeeq mnih el-yom, wal-hamdulillah kteer"
+    },
+    {
+     "ar": "عندا فلوس اليوم، بس ما عندا بيت",
+     "en": "She has money today, but she doesn't have a house",
+     "translit": "3anda fluus el-yom, bas ma 3anda beit"
+    }
+   ],
+   "topicId": "b1-3and"
+  },
+  {
+   "number": 2,
+   "title": "We Have, They Have",
+   "titleNative": "عندنا، عندن",
+   "items": [
+    {
+     "ar": "عندنا بيت كبير اليوم، والحمدلله منيح",
+     "en": "We have a big house today, thank God, good",
+     "translit": "3andna beit kbeer el-yom, wal-hamdulillah mnih"
+    },
+    {
+     "ar": "عندكن فلوس اليوم؟ أي، عندنا فلوس كتير",
+     "en": "Do you all have money today? Yes, we have a lot of money",
+     "translit": "3andkon fluus el-yom? ay, 3andna fluus kteer"
+    },
+    {
+     "ar": "عندن بيت جديد اليوم، والحمدلله منيح",
+     "en": "They have a new house today, thank God, good",
+     "translit": "3andon beit jdeed el-yom, wal-hamdulillah mnih"
+    },
+    {
+     "ar": "ما عندن فلوس اليوم، بس عندن بيت منيح",
+     "en": "They don't have money today, but they have a good house",
+     "translit": "ma 3andon fluus el-yom, bas 3andon beit mnih"
+    }
+   ],
+   "topicId": "b1-3and"
+  },
+  {
+   "number": 3,
+   "title": "What Do You Have?",
+   "titleNative": "شو عندك؟",
+   "items": [
+    {
+     "ar": "شو عندك اليوم؟ عندي قهوة وشاي منيح",
+     "en": "What do you have today? I have good coffee and tea",
+     "translit": "shu 3andak el-yom? 3andi ahwe wa shay mnih"
+    },
+    {
+     "ar": "شو عنده اليوم؟ عنده بيت كبير جديد",
+     "en": "What does he have today? He has a big, new house",
+     "translit": "shu 3ando el-yom? 3ando beit kbeer jdeed"
+    },
+    {
+     "ar": "شو عندا اليوم؟ عندا فلوس كتير والحمدلله",
+     "en": "What does she have today? She has a lot of money, thank God",
+     "translit": "shu 3anda el-yom? 3anda fluus kteer wal-hamdulillah"
+    },
+    {
+     "ar": "شو عندكن اليوم؟ عندنا صديق منيح والحمدلله",
+     "en": "What do you all have today? We have a good friend, thank God",
+     "translit": "shu 3andkon el-yom? 3andna sadeeq mnih wal-hamdulillah"
+    }
+   ]
+  },
+  {
+   "number": 4,
+   "title": "I Don't Have",
+   "titleNative": "ما عندي",
+   "items": [
+    {
+     "ar": "ما عندي فلوس اليوم، بس عندي بيت منيح",
+     "en": "I don't have money today, but I have a good house",
+     "translit": "ma 3andi fluus el-yom, bas 3andi beit mnih"
+    },
+    {
+     "ar": "ما عنده بيت اليوم، بس عنده فلوس كتير",
+     "en": "He doesn't have a house today, but he has a lot of money",
+     "translit": "ma 3ando beit el-yom, bas 3ando fluus kteer"
+    },
+    {
+     "ar": "ما عندا صديق اليوم، بس عندا أهل منيح",
+     "en": "She doesn't have a friend today, but she has a good family",
+     "translit": "ma 3anda sadeeq el-yom, bas 3anda ahl mnih"
+    },
+    {
+     "ar": "ما عندنا فلوس كتير اليوم، بس منيح والحمدلله",
+     "en": "We don't have a lot of money today, but it's good, thank God",
+     "translit": "ma 3andna fluus kteer el-yom, bas mnih wal-hamdulillah"
+    }
+   ]
+  },
+  {
+   "number": 5,
+   "title": "Review: Possession",
+   "titleNative": "مراجعة: عند",
+   "items": [
+    {
+     "ar": "عندي بيت كبير اليوم، وعندي فلوس منيح",
+     "en": "I have a big house today, and I have good money",
+     "translit": "3andi beit kbeer el-yom, wa 3andi fluus mnih"
+    },
+    {
+     "ar": "عنده صديق منيح، بس ما عنده بيت جديد",
+     "en": "He has a good friend, but he doesn't have a new house",
+     "translit": "3ando sadeeq mnih, bas ma 3ando beit jdeed"
+    },
+    {
+     "ar": "عندا فلوس كتير اليوم، والحمدلله منيح",
+     "en": "She has a lot of money today, thank God, good",
+     "translit": "3anda fluus kteer el-yom, wal-hamdulillah mnih"
+    },
+    {
+     "ar": "عندن بيت منيح اليوم، بس ما عندن فلوس كتير",
+     "en": "They have a good house today, but they don't have a lot of money",
+     "translit": "3andon beit mnih el-yom, bas ma 3andon fluus kteer"
+    }
+   ]
+  },
+  {
+   "number": 6,
+   "title": "Because I Saw",
+   "titleNative": "لأن شفت",
+   "items": [
+    {
+     "ar": "أنا منيح اليوم لأن شفت الأهل مبارح",
+     "en": "I'm good today because I saw the family yesterday",
+     "translit": "ana mnih el-yom la2an shift el-ahl mbare7"
+    },
+    {
+     "ar": "هو منيح اليوم عشان شاف صديق منيح",
+     "en": "He's good today because he saw a good friend",
+     "translit": "huwwe mnih el-yom 3ashan shaf sadeeq mnih"
+    },
+    {
+     "ar": "هي منيحة اليوم لأن عندا فلوس كتير",
+     "en": "She's good today because she has a lot of money",
+     "translit": "hiyye mniha el-yom la2an 3anda fluus kteer"
+    },
+    {
+     "ar": "نحنا هون اليوم عشان عندنا بيت جديد منيح",
+     "en": "We're here today because we have a good, new house",
+     "translit": "ni7na hown el-yom 3ashan 3andna beit jdeed mnih"
+    }
+   ],
+   "topicId": "b1-lian"
+  },
+  {
+   "number": 7,
+   "title": "Why Are You Tired?",
+   "titleNative": "ليش انت تعبان؟",
+   "items": [
+    {
+     "ar": "ليش انت تعبان؟ لأن ما شفت قهوة اليوم",
+     "en": "Why are you tired? Because I didn't see coffee today",
+     "translit": "leish inte ta3baan? la2an ma shift ahwe el-yom"
+    },
+    {
+     "ar": "ليش هو منيح؟ عشان عنده صديق منيح كتير",
+     "en": "Why is he good? Because he has a very good friend",
+     "translit": "leish huwwe mnih? 3ashan 3ando sadeeq mnih kteer"
+    },
+    {
+     "ar": "ليش هي منيحة اليوم؟ لأن ما شافت شي",
+     "en": "Why is she good today? Because she didn't see anything (bad)",
+     "translit": "leish hiyye mniha el-yom? la2an ma shafit shi"
+    },
+    {
+     "ar": "ليش بدي مي اليوم؟ عشان ما شفت شاي",
+     "en": "Why do I want water today? Because I didn't see tea",
+     "translit": "leish biddi may el-yom? 3ashan ma shift shay"
+    }
+   ]
+  },
+  {
+   "number": 8,
+   "title": "Because It's Expensive",
+   "titleNative": "لأن غالي",
+   "items": [
+    {
+     "ar": "ما بدي هاد لأن غالي كتير اليوم",
+     "en": "I don't want this because it's very expensive today",
+     "translit": "ma biddi haad la2an ghali kteer el-yom"
+    },
+    {
+     "ar": "بدي هاد عشان رخيص كتير اليوم منيح",
+     "en": "I want this because it's very cheap today, good",
+     "translit": "biddi haad 3ashan rkhees kteer el-yom mnih"
+    },
+    {
+     "ar": "شاف بيت لأن ما عنده بيت اليوم",
+     "en": "He saw a house because he doesn't have a house today",
+     "translit": "shaf beit la2an ma 3ando beit el-yom"
+    },
+    {
+     "ar": "شفت هاد عشان عندي فلوس اليوم منيح",
+     "en": "I saw this because I have money today, good",
+     "translit": "shift haad 3ashan 3andi fluus el-yom mnih"
+    }
+   ]
+  },
+  {
+   "number": 9,
+   "title": "With Someone",
+   "titleNative": "مع صديق",
+   "items": [
+    {
+     "ar": "شفت بيت مع صديق مبارح، والحمدلله منيح",
+     "en": "I saw a house with a friend yesterday, thank God, good",
+     "translit": "shift beit ma3 sadeeq mbare7, wal-hamdulillah mnih"
+    },
+    {
+     "ar": "شاف الأهل مع صديق مبارح، منيح والحمدلله",
+     "en": "He saw the family with a friend yesterday, good, thank God",
+     "translit": "shaf el-ahl ma3 sadeeq mbare7, mnih wal-hamdulillah"
+    },
+    {
+     "ar": "بحب قهوة مع الأهل اليوم، والحمدلله منيح",
+     "en": "I love coffee with the family today, thank God, good",
+     "translit": "b7ibb ahwe ma3 el-ahl el-yom, wal-hamdulillah mnih"
+    },
+    {
+     "ar": "شافت بيت مع صديق مبارح، منيح والحمدلله",
+     "en": "She saw a house with a friend yesterday, good, thank God",
+     "translit": "shafit beit ma3 sadeeq mbare7, mnih wal-hamdulillah"
+    }
+   ],
+   "topicId": "b1-3and"
+  },
+  {
+   "number": 10,
+   "title": "Review: Possession, Because, With",
+   "titleNative": "مراجعة",
+   "items": [
+    {
+     "ar": "عندي فلوس كتير لأن بحب قهوة بس",
+     "en": "I have a lot of money because I only love coffee",
+     "translit": "3andi fluus kteer la2an b7ibb ahwe bas"
+    },
+    {
+     "ar": "شفت بيت مع صديق عشان ما عندي سيارة",
+     "en": "I saw a house with a friend because I don't have a car",
+     "translit": "shift beit ma3 sadeeq 3ashan ma 3andi sayyara"
+    },
+    {
+     "ar": "هي منيحة اليوم لأن عندا بيت جديد كبير",
+     "en": "She's good today because she has a new, big house",
+     "translit": "hiyye mniha el-yom la2an 3anda beit jdeed kbeer"
+    },
+    {
+     "ar": "ما عندن فلوس كتير، عشان عندن بيت غالي",
+     "en": "They don't have a lot of money, because they have an expensive house",
+     "translit": "ma 3andon fluus kteer, 3ashan 3andon beit ghali"
+    }
+   ]
+  },
+  {
+   "number": 11,
+   "title": "Family Possession",
+   "titleNative": "عند العيلة",
+   "items": [
+    {
+     "ar": "عندي أب منيح، وعندي أم منيحة والحمدلله",
+     "en": "I have a good father, and I have a good mother, thank God",
+     "translit": "3andi ab mnih, wa 3andi imm mniha wal-hamdulillah"
+    },
+    {
+     "ar": "عنده أخ منيح اليوم، والحمدلله كتير",
+     "en": "He has a good brother today, thank God, so much",
+     "translit": "3ando akh mnih el-yom, wal-hamdulillah kteer"
+    },
+    {
+     "ar": "عندا أهل منيح اليوم، بس ما عندا بيت",
+     "en": "She has a good family today, but she doesn't have a house",
+     "translit": "3anda ahl mnih el-yom, bas ma 3anda beit"
+    },
+    {
+     "ar": "عندنا أهل منيح، والحمدلله عندنا بيت كبير",
+     "en": "We have a good family, thank God we have a big house",
+     "translit": "3andna ahl mnih, wal-hamdulillah 3andna beit kbeer"
+    }
+   ],
+   "topicId": "b1-3and"
+  },
+  {
+   "number": 12,
+   "title": "Days and Possession",
+   "titleNative": "الأيام والملكية",
+   "items": [
+    {
+     "ar": "يوم الأحد عندي فلوس، ويوم الاثنين ما عندي",
+     "en": "On Sunday I have money, and on Monday I don't have",
+     "translit": "yom el-a7ad 3andi fluus, wa yom el-tnein ma 3andi"
+    },
+    {
+     "ar": "يوم الجمعة عنده صديق، ويوم السبت شاف بيت",
+     "en": "On Friday he has a friend, and on Saturday he saw a house",
+     "translit": "yom el-jum3a 3ando sadeeq, wa yom es-sabt shaf beit"
+    },
+    {
+     "ar": "يوم السبت عندا بيت جديد، والحمدلله منيح",
+     "en": "On Saturday she has a new house, thank God, good",
+     "translit": "yom es-sabt 3anda beit jdeed, wal-hamdulillah mnih"
+    },
+    {
+     "ar": "يوم الأحد عندنا صديق منيح، وشفنا الأهل منيح",
+     "en": "On Sunday we have a good friend, and we saw the family, good",
+     "translit": "yom el-a7ad 3andna sadeeq mnih, wa shifna el-ahl mnih"
+    }
+   ]
+  },
+  {
+   "number": 13,
+   "title": "Feelings and Because",
+   "titleNative": "المشاعر ولأن",
+   "items": [
+    {
+     "ar": "أنا منيح اليوم لأن عندي فلوس كتير",
+     "en": "I'm good today because I have a lot of money",
+     "translit": "ana mnih el-yom la2an 3andi fluus kteer"
+    },
+    {
+     "ar": "هو تعبان اليوم لأن شفت بيت كتير مبارح",
+     "en": "He's tired today because I saw a lot of houses yesterday",
+     "translit": "huwwe ta3baan el-yom la2an shift beit kteer mbare7"
+    },
+    {
+     "ar": "هي مش منيحة اليوم لأن ما عندا بيت جديد",
+     "en": "She's not good today because she doesn't have a new house",
+     "translit": "hiyye mish mniha el-yom la2an ma 3anda beit jdeed"
+    },
+    {
+     "ar": "نحنا منيح اليوم لأن عندنا أهل منيح كتير",
+     "en": "We're good today because we have a very good family",
+     "translit": "ni7na mnih el-yom la2an 3andna ahl mnih kteer"
+    }
+   ],
+   "topicId": "b1-lian"
+  },
+  {
+   "number": 14,
+   "title": "Money and Because",
+   "titleNative": "الفلوس ولأن",
+   "items": [
+    {
+     "ar": "عندي فلوس كتير لأن ما بدي بيت غالي",
+     "en": "I have a lot of money because I don't want an expensive house",
+     "translit": "3andi fluus kteer la2an ma biddi beit ghali"
+    },
+    {
+     "ar": "ما عنده فلوس اليوم لأن شاف بيت جديد",
+     "en": "He doesn't have money today because he saw a new house",
+     "translit": "ma 3ando fluus el-yom la2an shaf beit jdeed"
+    },
+    {
+     "ar": "عندا فلوس منيح لأن شافت هاد رخيص كتير",
+     "en": "She has good money because she saw this was very cheap",
+     "translit": "3anda fluus mnih la2an shafit haad rkhees kteer"
+    },
+    {
+     "ar": "عندنا فلوس كتير لأن ما شفنا البيت الغالي",
+     "en": "We have a lot of money because we didn't see the expensive house",
+     "translit": "3andna fluus kteer la2an ma shifna el-beit el-ghali"
+    }
+   ]
+  },
+  {
+   "number": 15,
+   "title": "Review: Possession and Because",
+   "titleNative": "مراجعة",
+   "items": [
+    {
+     "ar": "عندي بيت كبير لأن عندي فلوس كتير منيح",
+     "en": "I have a big house because I have a lot of money, good",
+     "translit": "3andi beit kbeer la2an 3andi fluus kteer mnih"
+    },
+    {
+     "ar": "هو منيح اليوم لأن عنده أهل وصديق منيح",
+     "en": "He's good today because he has family and a good friend",
+     "translit": "huwwe mnih el-yom la2an 3ando ahl wa sadeeq mnih"
+    },
+    {
+     "ar": "يوم الجمعة عندا فلوس، ويوم السبت ما عندا",
+     "en": "On Friday she has money, and on Saturday she doesn't",
+     "translit": "yom el-jum3a 3anda fluus, wa yom es-sabt ma 3anda"
+    },
+    {
+     "ar": "عندنا بيت جديد لأن عندنا فلوس كتير والحمدلله",
+     "en": "We have a new house because we have a lot of money, thank God",
+     "translit": "3andna beit jdeed la2an 3andna fluus kteer wal-hamdulillah"
+    }
+   ]
+  },
+  {
+   "number": 16,
+   "title": "With Family",
+   "titleNative": "مع العيلة",
+   "items": [
+    {
+     "ar": "شفت بيت مع أب منيح مبارح، والحمدلله كتير",
+     "en": "I saw a house with a good father yesterday, thank God, a lot",
+     "translit": "shift beit ma3 ab mnih mbare7, wal-hamdulillah kteer"
+    },
+    {
+     "ar": "شاف الأهل مع أم منيحة مبارح، منيح والحمدلله",
+     "en": "He saw the family with a good mother yesterday, good, thank God",
+     "translit": "shaf el-ahl ma3 imm mniha mbare7, mnih wal-hamdulillah"
+    },
+    {
+     "ar": "بحب قهوة مع الأهل اليوم، والحمدلله منيح",
+     "en": "I love coffee with the family today, thank God, good",
+     "translit": "b7ibb ahwe ma3 el-ahl el-yom, wal-hamdulillah mnih"
+    },
+    {
+     "ar": "شافت بيت مع صديق مبارح، منيح والحمدلله كتير",
+     "en": "She saw a house with a friend yesterday, good, thank God, a lot",
+     "translit": "shafit beit ma3 sadeeq mbare7, mnih wal-hamdulillah kteer"
+    }
+   ],
+   "topicId": "b1-3and"
+  },
+  {
+   "number": 17,
+   "title": "Colors and Possession",
+   "titleNative": "الألوان والملكية",
+   "items": [
+    {
+     "ar": "عندي بيت أحمر اليوم، وعنده بيت أزرق منيح",
+     "en": "I have a red house today, and he has a good blue house",
+     "translit": "3andi beit a7mar el-yom, wa 3ando beit azra2 mnih"
+    },
+    {
+     "ar": "عندا بيت أصفر اليوم، وعندنا بيت أخضر منيح",
+     "en": "She has a yellow house today, and we have a good green house",
+     "translit": "3anda beit asfar el-yom, wa 3andna beit akhdar mnih"
+    },
+    {
+     "ar": "ما عندي بيت أحمر، بس عندي بيت كبير منيح",
+     "en": "I don't have a red house, but I have a good big house",
+     "translit": "ma 3andi beit a7mar, bas 3andi beit kbeer mnih"
+    },
+    {
+     "ar": "عندن بيت أزرق وجديد، والحمدلله منيح كتير",
+     "en": "They have a blue and new house, thank God, very good",
+     "translit": "3andon beit azra2 wa jdeed, wal-hamdulillah mnih kteer"
+    }
+   ]
+  },
+  {
+   "number": 18,
+   "title": "Numbers and Possession",
+   "titleNative": "الأرقام والملكية",
+   "items": [
+    {
+     "ar": "عندي واحد اليوم، وعنده تنين اليوم والحمدلله",
+     "en": "I have one today, and he has two today, thank God",
+     "translit": "3andi wahed el-yom, wa 3ando tnein el-yom wal-hamdulillah"
+    },
+    {
+     "ar": "عندا تلاتة اليوم، وعندنا أربعة منيح كتير",
+     "en": "She has three today, and we have four, very good",
+     "translit": "3anda tlete el-yom, wa 3andna arba3a mnih kteer"
+    },
+    {
+     "ar": "عندن خمسة اليوم، والحمدلله عندن ستة منيح",
+     "en": "They have five today, and thank God they have six, good",
+     "translit": "3andon khamse el-yom, wal-hamdulillah 3andon sitte mnih"
+    },
+    {
+     "ar": "ما عندي سبعة اليوم، بس عندي تمانية منيح",
+     "en": "I don't have seven today, but I have eight, good",
+     "translit": "ma 3andi sab3a el-yom, bas 3andi tmanye mnih"
+    }
+   ]
+  },
+  {
+   "number": 19,
+   "title": "Places and Because",
+   "titleNative": "الأماكن ولأن",
+   "items": [
+    {
+     "ar": "شفت البيت هون لأن البيت قريب اليوم منيح",
+     "en": "I saw the house here because the house is near today, good",
+     "translit": "shift el-beit hown la2an el-beit 2areeb el-yom mnih"
+    },
+    {
+     "ar": "شاف السيارة هونيك لأن السيارة بعيدة اليوم كتير",
+     "en": "He saw the car there because the car is very far today",
+     "translit": "shaf es-sayyara hownik la2an es-sayyara ba3eede el-yom kteer"
+    },
+    {
+     "ar": "بدي بيت هون لأن هون قريب اليوم منيح",
+     "en": "I want a house here because here is near today, good",
+     "translit": "biddi beit hown la2an hown 2areeb el-yom mnih"
+    },
+    {
+     "ar": "شافت السيارة هونيك لأن السيارة بعيدة اليوم كتير",
+     "en": "She saw the car there because the car is very far today",
+     "translit": "shafit es-sayyara hownik la2an es-sayyara ba3eede el-yom kteer"
+    }
+   ]
+  },
+  {
+   "number": 20,
+   "title": "Review: With, Colors, Numbers, Places",
+   "titleNative": "مراجعة",
+   "items": [
+    {
+     "ar": "شفت بيت مع الأهل مبارح، وعندي بيت أحمر",
+     "en": "I saw a house with the family yesterday, and I have a red house",
+     "translit": "shift beit ma3 el-ahl mbare7, wa 3andi beit a7mar"
+    },
+    {
+     "ar": "عندا تلاتة اليوم منيح، وشفت قهوة مع صديق",
+     "en": "She has three today, good, and I saw coffee with a friend",
+     "translit": "3anda tlete el-yom mnih, wa shift ahwe ma3 sadeeq"
+    },
+    {
+     "ar": "شاف بيت هون لأن البيت قريب اليوم، منيح والحمدلله",
+     "en": "He saw a house here because the house is near today, good, thank God",
+     "translit": "shaf beit hown la2an el-beit 2areeb el-yom, mnih wal-hamdulillah"
+    },
+    {
+     "ar": "عندنا فلوس كتير لأن ما شفنا البيت الغالي",
+     "en": "We have a lot of money because we didn't see the expensive house",
+     "translit": "3andna fluus kteer la2an ma shifna el-beit el-ghali"
+    }
+   ]
+  },
+  {
+   "number": 21,
+   "title": "I Love Because I Have",
+   "titleNative": "بحب لأن عندي",
+   "items": [
+    {
+     "ar": "بحب قهوة اليوم لأن عندي فلوس كتير",
+     "en": "I love coffee today because I have a lot of money",
+     "translit": "b7ibb ahwe el-yom la2an 3andi fluus kteer"
+    },
+    {
+     "ar": "بيحب شاي اليوم لأن عنده صديق منيح",
+     "en": "He loves tea today because he has a good friend",
+     "translit": "by7ibb shay el-yom la2an 3ando sadeeq mnih"
+    },
+    {
+     "ar": "بتحب مي اليوم لأن عندا بيت جديد",
+     "en": "She loves water today because she has a new house",
+     "translit": "bt7ibb may el-yom la2an 3anda beit jdeed"
+    },
+    {
+     "ar": "منحب قهوة اليوم لأن عندنا أهل منيح",
+     "en": "We love coffee today because we have a good family",
+     "translit": "mn7ibb ahwe el-yom la2an 3andna ahl mnih"
+    }
+   ],
+   "topicId": "b1-lian"
+  },
+  {
+   "number": 22,
+   "title": "Seeing Because of Money",
+   "titleNative": "بشوف لأن الفلوس",
+   "items": [
+    {
+     "ar": "بشوف بيت اليوم لأن عندي فلوس منيح",
+     "en": "I see a house today because I have good money",
+     "translit": "bshuf beit el-yom la2an 3andi fluus mnih"
+    },
+    {
+     "ar": "بيشوف صديق مبارح لأن عنده فلوس منيح",
+     "en": "He saw a friend yesterday because he has good money",
+     "translit": "byshuf sadeeq mbare7 la2an 3ando fluus mnih"
+    },
+    {
+     "ar": "بتشوف بيت اليوم لأن عندا أهل منيح",
+     "en": "She sees a house today because she has a good family",
+     "translit": "btshuf beit el-yom la2an 3anda ahl mnih"
+    },
+    {
+     "ar": "منشوف بيت جديد اليوم لأن عندنا بيت قديم",
+     "en": "We see a new house today because we have an old house",
+     "translit": "mnshuf beit jdeed el-yom la2an 3andna beit adeem"
+    }
+   ]
+  },
+  {
+   "number": 23,
+   "title": "Days and Love",
+   "titleNative": "الأيام والحب",
+   "items": [
+    {
+     "ar": "يوم الأحد بحب قهوة، ويوم الاثنين بحب شاي",
+     "en": "On Sunday I love coffee, and on Monday I love tea",
+     "translit": "yom el-a7ad b7ibb ahwe, wa yom el-tnein b7ibb shay"
+    },
+    {
+     "ar": "يوم الجمعة بيحب قهوة لأن عنده فلوس منيح",
+     "en": "On Friday he loves coffee because he has good money",
+     "translit": "yom el-jum3a by7ibb ahwe la2an 3ando fluus mnih"
+    },
+    {
+     "ar": "يوم السبت بتحب شاي لأن عندا بيت جديد",
+     "en": "On Saturday she loves tea because she has a new house",
+     "translit": "yom es-sabt bt7ibb shay la2an 3anda beit jdeed"
+    },
+    {
+     "ar": "يوم الأحد منحب قهوة مع الأهل منيح والحمدلله",
+     "en": "On Sunday we love coffee with the family, good, thank God",
+     "translit": "yom el-a7ad mn7ibb ahwe ma3 el-ahl mnih wal-hamdulillah"
+    }
+   ]
+  },
+  {
+   "number": 24,
+   "title": "Feelings Because of Possession",
+   "titleNative": "المشاعر والملكية",
+   "items": [
+    {
+     "ar": "أنا منيح اليوم لأن عندي بيت كبير جديد",
+     "en": "I'm good today because I have a big, new house",
+     "translit": "ana mnih el-yom la2an 3andi beit kbeer jdeed"
+    },
+    {
+     "ar": "هو مش منيح اليوم لأن ما عنده فلوس كتير",
+     "en": "He's not good today because he doesn't have a lot of money",
+     "translit": "huwwe mish mnih el-yom la2an ma 3ando fluus kteer"
+    },
+    {
+     "ar": "هي تعبانة اليوم لأن شفت بيت مع الأهل",
+     "en": "She's tired today because she saw a house with the family",
+     "translit": "hiyye ta3baane el-yom la2an shafit beit ma3 el-ahl"
+    },
+    {
+     "ar": "نحنا منيح اليوم لأن عندنا صديق منيح كتير",
+     "en": "We're good today because we have a very good friend",
+     "translit": "ni7na mnih el-yom la2an 3andna sadeeq mnih kteer"
+    }
+   ]
+  },
+  {
+   "number": 25,
+   "title": "Review: Love, See, Days, Feelings",
+   "titleNative": "مراجعة",
+   "items": [
+    {
+     "ar": "بحب قهوة اليوم لأن عندي فلوس، والحمدلله",
+     "en": "I love coffee today because I have money, thank God",
+     "translit": "b7ibb ahwe el-yom la2an 3andi fluus, wal-hamdulillah"
+    },
+    {
+     "ar": "شاف بيت مع صديق مبارح لأن عنده فلوس منيح",
+     "en": "He saw a house with a friend yesterday because he has good money",
+     "translit": "shaf beit ma3 sadeeq mbare7 la2an 3ando fluus mnih"
+    },
+    {
+     "ar": "يوم الجمعة أنا منيح لأن عندي بيت جديد",
+     "en": "On Friday I'm good because I have a new house",
+     "translit": "yom el-jum3a ana mnih la2an 3andi beit jdeed"
+    },
+    {
+     "ar": "هي مش منيحة اليوم لأن ما عندا فلوس كتير",
+     "en": "She's not good today because she doesn't have a lot of money",
+     "translit": "hiyye mish mniha el-yom la2an ma 3anda fluus kteer"
+    }
+   ]
+  },
+  {
+   "number": 26,
+   "title": "What Do You See and Why?",
+   "titleNative": "شو بتشوف وليش؟",
+   "items": [
+    {
+     "ar": "شو بتشوف اليوم؟ بشوف بيت لأن منيح",
+     "en": "What do you see today? I see a house because it's good",
+     "translit": "shu btshuf el-yom? bshuf beit la2an mnih"
+    },
+    {
+     "ar": "شو بيشوف مبارح؟ شاف صديق منيح مع الأهل",
+     "en": "What did he see yesterday? He saw a good friend with the family",
+     "translit": "shu byshuf mbare7? shaf sadeeq mnih ma3 el-ahl"
+    },
+    {
+     "ar": "شو بتشوف اليوم؟ بتشوف بيت لأن عندا فلوس",
+     "en": "What does she see today? She sees a house because she has money",
+     "translit": "shu btshuf el-yom? btshuf beit la2an 3anda fluus"
+    },
+    {
+     "ar": "شو منشوف اليوم؟ منشوف بيت مع الأهل منيح",
+     "en": "What do we see today? We see a house with the family, good",
+     "translit": "shu mnshuf el-yom? mnshuf beit ma3 el-ahl mnih"
+    }
+   ]
+  },
+  {
+   "number": 27,
+   "title": "Numbers and Because",
+   "titleNative": "الأرقام ولأن",
+   "items": [
+    {
+     "ar": "عندي واحد اليوم لأن ما عندي تنين",
+     "en": "I have one today because I don't have two",
+     "translit": "3andi wahed el-yom la2an ma 3andi tnein"
+    },
+    {
+     "ar": "عنده تلاتة اليوم لأن شاف أربعة مبارح",
+     "en": "He has three today because he saw four yesterday",
+     "translit": "3ando tlete el-yom la2an shaf arba3a mbare7"
+    },
+    {
+     "ar": "عندا خمسة اليوم لأن عندا فلوس كتير منيح",
+     "en": "She has five today because she has a lot of good money",
+     "translit": "3anda khamse el-yom la2an 3anda fluus kteer mnih"
+    },
+    {
+     "ar": "عندنا ستة اليوم لأن شفنا سبعة مبارح منيح",
+     "en": "We have six today because we saw seven yesterday, good",
+     "translit": "3andna sitte el-yom la2an shifna sab3a mbare7 mnih"
+    }
+   ]
+  },
+  {
+   "number": 28,
+   "title": "Money, Places, and Because",
+   "titleNative": "الفلوس والأماكن",
+   "items": [
+    {
+     "ar": "شفت بيت هون لأن عندي صديق هون اليوم",
+     "en": "I saw a house here because I have a friend here today",
+     "translit": "shift beit hown la2an 3andi sadeeq hown el-yom"
+    },
+    {
+     "ar": "شاف بيت هونيك لأن البيت بعيد اليوم منيح",
+     "en": "He saw a house there because the house is far today, ok",
+     "translit": "shaf beit hownik la2an el-beit ba3eed el-yom mnih"
+    },
+    {
+     "ar": "عندا بيت هون لأن السيارة قريبة اليوم منيح",
+     "en": "She has a house here because the car is near today, good",
+     "translit": "3anda beit hown la2an es-sayyara 2areebe el-yom mnih"
+    },
+    {
+     "ar": "عندنا بيت هونيك لأن الأهل هونيك اليوم منيح",
+     "en": "We have a house there because the family is there today, good",
+     "translit": "3andna beit hownik la2an el-ahl hownik el-yom mnih"
+    }
+   ]
+  },
+  {
+   "number": 29,
+   "title": "A Full Day",
+   "titleNative": "يوم كامل",
+   "items": [
+    {
+     "ar": "صباح الخير، بحب قهوة، وبعدين بشوف الأهل",
+     "en": "Good morning, I love coffee, and later I see the family",
+     "translit": "sabah el-kheir, b7ibb ahwe, wa ba3dein bshuf el-ahl"
+    },
+    {
+     "ar": "شفت بيت مبارح، وشفت الأهل، وبحب قهوة منيح",
+     "en": "I saw a house yesterday, and I saw the family, and I love good coffee",
+     "translit": "shift beit mbare7, wa shift el-ahl, wa b7ibb ahwe mnih"
+    },
+    {
+     "ar": "عندي فلوس اليوم لأن ما شفت البيت الغالي",
+     "en": "I have money today because I didn't see the expensive house",
+     "translit": "3andi fluus el-yom la2an ma shift el-beit el-ghali"
+    },
+    {
+     "ar": "صباح النور، أنا منيح اليوم لأن عندي أهل منيح",
+     "en": "Good morning, I'm good today because I have a good family",
+     "translit": "sabah en-noor, ana mnih el-yom la2an 3andi ahl mnih"
+    }
+   ]
+  },
+  {
+   "number": 30,
+   "title": "Review: B1 Recap",
+   "titleNative": "مراجعة نهائية",
+   "items": [
+    {
+     "ar": "عندي بيت كبير لأن عندي فلوس كتير، والحمدلله",
+     "en": "I have a big house because I have a lot of money, thank God",
+     "translit": "3andi beit kbeer la2an 3andi fluus kteer, wal-hamdulillah"
+    },
+    {
+     "ar": "شفت بيت مع صديق مبارح، وبحب قهوة منيح",
+     "en": "I saw a house with a friend yesterday, and I love good coffee",
+     "translit": "shift beit ma3 sadeeq mbare7, wa b7ibb ahwe mnih"
+    },
+    {
+     "ar": "هي منيحة اليوم لأن عندا بيت جديد وصديق منيح",
+     "en": "She's good today because she has a new house and a good friend",
+     "translit": "hiyye mniha el-yom la2an 3anda beit jdeed wa sadeeq mnih"
+    },
+    {
+     "ar": "ما عندن فلوس كتير لأن عندن بيت غالي كبير",
+     "en": "They don't have a lot of money because they have a big, expensive house",
+     "translit": "ma 3andon fluus kteer la2an 3andon beit ghali kbeer"
+    }
+   ]
+  },
+  {
+   "number": 31,
+   "title": "I Have a New House",
+   "titleNative": "عندي بيت جديد",
+   "items": [
+    {
+     "ar": "عندي بيت جديد اليوم، والحمدلله منيح كتير",
+     "en": "I have a new house today, thank God, very good",
+     "translit": "3andi beit jdeed el-yom, wal-hamdulillah mnih ktir"
+    },
+    {
+     "ar": "عنده بيت أحمر اليوم، وعنده بيت أزرق اليوم",
+     "en": "He has a red house today, and has a blue house today",
+     "translit": "3ando beit a7mar el-yom, wa 3ando beit azra2 el-yom"
+    },
+    {
+     "ar": "عندا بيت كبير اليوم، بس ما عندا فلوس كتير",
+     "en": "She has a big house today, but doesn't have much money",
+     "translit": "3anda beit kbeer el-yom, bas ma 3anda fluus ktir"
+    },
+    {
+     "ar": "عندنا بيت صغير اليوم، بس منيح والحمدلله",
+     "en": "We have a small house today, but good, thank God",
+     "translit": "3andna beit sgheer el-yom, bas mnih wal-hamdulillah"
+    }
+   ]
+  },
+  {
+   "number": 32,
+   "title": "Because I Have Money",
+   "titleNative": "لأن عندي فلوس",
+   "items": [
+    {
+     "ar": "أنا منيح اليوم لأن عندي فلوس كتير والحمدلله",
+     "en": "I'm good today because I have a lot of money, thank God",
+     "translit": "ana mnih el-yom la2an 3andi fluus ktir wal-hamdulillah"
+    },
+    {
+     "ar": "هو تعبان اليوم لأن ما عنده بيت",
+     "en": "He's tired today because he doesn't have a house",
+     "translit": "huwwe ta3ban el-yom la2an ma 3ando beit"
+    },
+    {
+     "ar": "هي منيحة اليوم عشان عندا صديق منيح",
+     "en": "She's good today because she has a good friend",
+     "translit": "hiyye mniha el-yom 3ashan 3anda sadeeq mnih"
+    },
+    {
+     "ar": "نحنا منيحين اليوم لأن عندنا الفلوس والحمدلله",
+     "en": "We're good today because we have the money, thank God",
+     "translit": "ni7na mnihin el-yom la2an 3andna el-fluus wal-hamdulillah"
+    }
+   ]
+  },
+  {
+   "number": 33,
+   "title": "With My Friend",
+   "titleNative": "مع صديقي",
+   "items": [
+    {
+     "ar": "شفت بيت جديد مع صديقي مبارح، منيح كتير",
+     "en": "I saw a new house with my friend yesterday, very good",
+     "translit": "shift beit jdeed ma3 sadee2i mbari7, mnih ktir"
+    },
+    {
+     "ar": "بحب شاي مع الأهل اليوم، والحمدلله منيح",
+     "en": "I love tea with the family today, thank God, good",
+     "translit": "bhib shay ma3 el-ahl el-yom, wal-hamdulillah mnih"
+    },
+    {
+     "ar": "شافت بيت مع صديقها مبارح، والحمدلله منيح كتير",
+     "en": "She saw a house with her friend yesterday, thank God, very good",
+     "translit": "shafet beit ma3 sadee2ha mbari7, wal-hamdulillah mnih ktir"
+    },
+    {
+     "ar": "شفنا الأهل مع صديقنا مبارح، منيح كتير",
+     "en": "We saw the family with our friend yesterday, very good",
+     "translit": "shifna el-ahl ma3 sadee2na mbari7, mnih ktir"
+    }
+   ]
+  },
+  {
+   "number": 34,
+   "title": "Why Are You Tired?",
+   "titleNative": "ليش انت تعبان؟",
+   "items": [
+    {
+     "ar": "ليش انت تعبان اليوم؟ لأن ما شفت قهوة اليوم",
+     "en": "Why are you tired today? Because I didn't see coffee today",
+     "translit": "leish inte ta3ban el-yom? la2an ma shift ahwe el-yom"
+    },
+    {
+     "ar": "ليش هي تعبانة اليوم؟ عشان عندا فلوس كتير بس بيت صغير",
+     "en": "Why is she tired today? Because she has a lot of money but a small house",
+     "translit": "leish hiyye ta3bane el-yom? 3ashan 3anda fluus ktir bas beit sgheer"
+    },
+    {
+     "ar": "ليش هو منيح اليوم؟ لأن عنده صديق منيح كتير",
+     "en": "Why is he good today? Because he has a very good friend",
+     "translit": "leish huwwe mnih el-yom? la2an 3ando sadeeq mnih ktir"
+    },
+    {
+     "ar": "ليش نحنا تعبانين اليوم؟ عشان ما عندنا فلوس",
+     "en": "Why are we tired today? Because we don't have money",
+     "translit": "leish ni7na ta3banin el-yom? 3ashan ma 3andna fluus"
+    }
+   ]
+  },
+  {
+   "number": 35,
+   "title": "Colors and Possession",
+   "titleNative": "ألوان وامتلاك",
+   "items": [
+    {
+     "ar": "عندي بيت أحمر اليوم، وعندك بيت أزرق اليوم",
+     "en": "I have a red house today, and you have a blue house today",
+     "translit": "3andi beit a7mar el-yom, wa 3andak beit azra2 el-yom"
+    },
+    {
+     "ar": "عنده بيت أخضر اليوم، وعنده بيت أصفر اليوم",
+     "en": "He has a green house today, and has a yellow house today",
+     "translit": "3ando beit akhdar el-yom, wa 3ando beit asfar el-yom"
+    },
+    {
+     "ar": "عندا بيت أبيض اليوم، منيح كتير والحمدلله",
+     "en": "She has a white house today, very good, thank God",
+     "translit": "3anda beit abyad el-yom, mnih ktir wal-hamdulillah"
+    },
+    {
+     "ar": "عندنا بيت أسود اليوم، وعندنا بيت أحمر اليوم",
+     "en": "We have a black house today, and we have a red house today",
+     "translit": "3andna beit iswad el-yom, wa 3andna beit a7mar el-yom"
+    }
+   ]
+  },
+  {
+   "number": 36,
+   "title": "Numbers and Possession",
+   "titleNative": "أرقام وامتلاك",
+   "items": [
+    {
+     "ar": "عندي واحد اليوم، وعندك تنين اليوم",
+     "en": "I have one today, and you have two today",
+     "translit": "3andi wahed el-yom, wa 3andak tnein el-yom"
+    },
+    {
+     "ar": "عنده تلاتة اليوم، بس عندا أربعة اليوم",
+     "en": "He has three today, but she has four today",
+     "translit": "3ando tlete el-yom, bas 3anda arba3a el-yom"
+    },
+    {
+     "ar": "عندنا خمسة اليوم، منيح كتير والحمدلله",
+     "en": "We have five today, very good, thank God",
+     "translit": "3andna khamse el-yom, mnih ktir wal-hamdulillah"
+    },
+    {
+     "ar": "كم عندك اليوم؟ عندي ستة، منيح والحمدلله",
+     "en": "How much do you have today? I have six, good, thank God",
+     "translit": "kam 3andak el-yom? 3andi sitte, wal-hamdulillah"
+    }
+   ]
+  },
+  {
+   "number": 37,
+   "title": "Places and Because",
+   "titleNative": "أماكن ولأن",
+   "items": [
+    {
+     "ar": "صديقي هون اليوم لأن عنده بيت قريب",
+     "en": "My friend is here today because he has a nearby house",
+     "translit": "sadee2i hown el-yom la2an 3ando beit 2areeb"
+    },
+    {
+     "ar": "الأهل هونيك اليوم عشان عندن بيت بعيد",
+     "en": "The family is there today because they have a far house",
+     "translit": "el-ahl hownik el-yom 3ashan 3andun beit ba3eed"
+    },
+    {
+     "ar": "أنا هون اليوم لأن عندي صديق هون",
+     "en": "I'm here today because I have a friend here",
+     "translit": "ana hown el-yom la2an 3andi sadeeq hown"
+    },
+    {
+     "ar": "نحنا هونيك اليوم عشان عندنا أهل هونيك",
+     "en": "We're there today because we have family there",
+     "translit": "ni7na hownik el-yom 3ashan 3andna ahl hownik"
+    }
+   ]
+  },
+  {
+   "number": 38,
+   "title": "Family Possession",
+   "titleNative": "امتلاك العيلة",
+   "items": [
+    {
+     "ar": "عندي أب منيح اليوم، وعندي أم منيحة اليوم",
+     "en": "I have a good father today, and I have a good mother today",
+     "translit": "3andi ab mnih el-yom, wa 3andi imm mniha el-yom"
+    },
+    {
+     "ar": "عنده ولد صغير اليوم، وعنده بنت صغيرة اليوم",
+     "en": "He has a small boy today, and has a small girl today",
+     "translit": "3ando walad sgheer el-yom, wa 3ando bint sgheera el-yom"
+    },
+    {
+     "ar": "عندا أهل منيحين اليوم، والحمدلله كتير",
+     "en": "She has a good family today, thank God, very much",
+     "translit": "3anda ahl mnihin el-yom, wal-hamdulillah ktir"
+    },
+    {
+     "ar": "عندنا أهل منيح اليوم، وصديق منيح اليوم",
+     "en": "We have a good family today, and a good friend today",
+     "translit": "3andna ahl mnih el-yom, wa sadeeq mnih el-yom"
+    }
+   ]
+  },
+  {
+   "number": 39,
+   "title": "Review: With and Because",
+   "titleNative": "مراجعة: مع ولأن",
+   "items": [
+    {
+     "ar": "أنا منيح اليوم لأن شفت الأهل مع صديقي",
+     "en": "I'm good today because I saw the family with my friend",
+     "translit": "ana mnih el-yom la2an shift el-ahl ma3 sadee2i"
+    },
+    {
+     "ar": "هو تعبان اليوم عشان ما عنده فلوس كتير",
+     "en": "He's tired today because he doesn't have much money",
+     "translit": "huwwe ta3ban el-yom 3ashan ma 3ando fluus ktir"
+    },
+    {
+     "ar": "هي منيحة اليوم لأن عندا بيت جديد مع أهلها",
+     "en": "She's good today because she has a new house with her family",
+     "translit": "hiyye mniha el-yom la2an 3anda beit jdeed ma3 ahlha"
+    },
+    {
+     "ar": "نحنا منيحين اليوم لأن عندنا صديق منيح كتير",
+     "en": "We're good today because we have a very good friend",
+     "translit": "ni7na mnihin el-yom la2an 3andna sadeeq mnih ktir"
+    }
+   ]
+  },
+  {
+   "number": 40,
+   "title": "Review: B1 Possession Recap",
+   "titleNative": "مراجعة: ختام الامتلاك B1",
+   "items": [
+    {
+     "ar": "عندي بيت اليوم، وعندي فلوس اليوم، منيح والحمدلله كتير",
+     "en": "I have a house today, and I have money today, good, thank God",
+     "translit": "3andi beit el-yom, wa 3andi fluus el-yom, mnih wal-hamdulillah"
+    },
+    {
+     "ar": "عنده صديق منيح اليوم لأن هو منيح كتير",
+     "en": "He has a good friend today because he's very good",
+     "translit": "3ando sadeeq mnih el-yom la2an huwwe mnih ktir"
+    },
+    {
+     "ar": "ما عندنا مشكلة اليوم، والحمدلله كتير منيح",
+     "en": "We don't have a problem today, thank God, very good",
+     "translit": "ma 3andna mushkile el-yom, wal-hamdulillah ktir mnih"
+    },
+    {
+     "ar": "عندا بيت مع أهلها اليوم، ومنيحة كتير والحمدلله",
+     "en": "She has a house with her family today, and very good, thank God",
+     "translit": "3anda beit ma3 ahlha el-yom, wa mniha ktir wal-hamdulillah"
+    }
+   ]
+  }
+ ]
 }
