@@ -203,25 +203,43 @@
   </div>
 </div>
 
+<div class="update-banner hidden" id="updateBanner">
+  <span>A new version of Muḥkam is ready.</span>
+  <button type="button" id="updateBannerBtn">Refresh</button>
+</div>
+
 <script src="firebase-config.js?v=1"></script>
 <script src="app.js?v=1786564578"></script>
 <script src="auth.js?v=10"></script>
 <script>
-  // Offline support disabled for now. Only re-register when an old worker
-  // is already installed -- that forces an IMMEDIATE update check against
-  // sw.js (which is now a self-destructing kill switch: it wipes every
-  // cache and unregisters itself on activate) instead of waiting on the
-  // browser's slow ~24h automatic check, which is what silently trapped
-  // devices behind a stale cached shell before this fix. Once clean,
-  // getRegistrations() comes back empty and this stops registering
-  // anything at all.
+  // sw.js is now network-first for the app shell (see its own comments for
+  // why that makes it safe to always register unconditionally again --
+  // the old cache-first version is what previously trapped devices behind
+  // stale content, not the act of having a service worker at all).
   if ("serviceWorker" in navigator) {
     window.addEventListener("load", () => {
-      navigator.serviceWorker.getRegistrations().then((regs) => {
-        if (regs.length > 0) navigator.serviceWorker.register("sw.js").catch(() => {});
+      navigator.serviceWorker.register("sw.js").then((reg) => {
+        // Only the FIRST activation of a worker for this page load leaves
+        // navigator.serviceWorker.controller unset -- if a controller
+        // already exists, any newer worker found from here on is a real
+        // update to an already-running app, not the initial install, so
+        // that's the only case worth surfacing to the user.
+        const hadController = !!navigator.serviceWorker.controller;
+        reg.addEventListener("updatefound", () => {
+          const installing = reg.installing;
+          if (!installing) return;
+          installing.addEventListener("statechange", () => {
+            if (installing.state === "installed" && hadController) {
+              document.getElementById("updateBanner").classList.remove("hidden");
+            }
+          });
+        });
       }).catch(() => {});
     });
   }
+  document.getElementById("updateBannerBtn").addEventListener("click", () => {
+    window.location.reload();
+  });
 </script>
 </body>
 </html>

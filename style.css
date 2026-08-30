@@ -1347,6 +1347,19 @@ button.stat:hover { color: var(--teal); }
 .streak-toast-text b { color: var(--gold); }
 @media (prefers-reduced-motion: reduce) { .streak-toast { transition: opacity 0.25s ease; } }
 
+.update-banner {
+  position: fixed; left: 50%; bottom: 18px; transform: translateX(-50%);
+  z-index: 260; display: flex; align-items: center; gap: 12px;
+  background: var(--paper-raised); border: 1px solid var(--gold); border-radius: 999px;
+  padding: 10px 10px 10px 18px; box-shadow: 0 8px 24px var(--shadow);
+  font-size: 0.85rem; color: var(--ink); max-width: calc(100vw - 32px);
+}
+.update-banner.hidden { display: none; }
+.update-banner button {
+  border: none; border-radius: 999px; padding: 7px 16px; font-size: 0.82rem; font-weight: 600;
+  background: var(--maroon); color: var(--paper-raised); cursor: pointer; white-space: nowrap;
+}
+
 .summary-stats .stat-block .lbl {
   font-family: var(--font-mono);
   font-size: 0.7rem;
