@@ -388,7 +388,13 @@
     // time and was never actually heard.
     const meta = COURSES.find(c => c.id === activeCourseId);
     const dir = (meta && meta.audioManifest) ? meta.audioManifest.replace(/manifest\.json$/, "") : "data/audio-uzbek/";
-    const url = `${dir}${entry.file}`;
+    // A downloaded blob is always preferred over a fresh network request --
+    // this is a synchronous Map lookup (no IDB round-trip in the hot path,
+    // same reasoning as Wird's cachedBlobFor), so unlike Wird there's no
+    // need to gate this on navigator.onLine: cached audio is strictly
+    // faster online too, not just an offline fallback.
+    const cachedUrl = _audioBlobUrls.get(audioFileId(activeCourseId, entry.file));
+    const url = cachedUrl || `${dir}${entry.file}`;
     const audio = new Audio(url);
     _currentBundledAudio = audio;
     let settled = false;
@@ -778,24 +784,217 @@
     saveProgress();
   }
 
+  // ---------- offline downloads ----------
+  // Two IndexedDB stores, deliberately separate from progress (which stays
+  // in localStorage + Firestore, untouched by any of this): "courseData"
+  // holds one record per course (the compiled JSON + its audio manifest,
+  // written automatically on every successful online load -- cheap, since
+  // course JSON tops out around 9MB even for the biggest course), and
+  // "audioFiles" holds one blob per bundled audio file, populated only by
+  // an explicit downloadCourse() call since those can run to ~170MB for a
+  // course. courseData.audioDownloaded distinguishes "just seen once
+  // online" (JSON cached, badge shows nothing) from "explicitly downloaded"
+  // (badge shows done) -- a course with no audioManifest at all (Fusha,
+  // Chechen, Ossetian, ...) counts as fully downloaded the moment its JSON
+  // is cached, since there's nothing else to fetch for it.
+  const OFFLINE_DB_NAME = "muhkam-offline-v1";
+  let _offlineDbPromise = null;
+  function openOfflineDb() {
+    if (_offlineDbPromise) return _offlineDbPromise;
+    _offlineDbPromise = new Promise((resolve, reject) => {
+      const req = indexedDB.open(OFFLINE_DB_NAME, 1);
+      req.onupgradeneeded = () => {
+        const db = req.result;
+        if (!db.objectStoreNames.contains("courseData")) {
+          db.createObjectStore("courseData", { keyPath: "courseId" });
+        }
+        if (!db.objectStoreNames.contains("audioFiles")) {
+          db.createObjectStore("audioFiles", { keyPath: "id" }).createIndex("courseId", "courseId");
+        }
+      };
+      req.onsuccess = () => resolve(req.result);
+      req.onerror = () => reject(req.error);
+    });
+    return _offlineDbPromise;
+  }
+  function idbStore(name, mode) {
+    return openOfflineDb().then(db => db.transaction(name, mode).objectStore(name));
+  }
+  function idbPut(name, record) {
+    return idbStore(name, "readwrite").then(store => new Promise((resolve, reject) => {
+      const req = store.put(record);
+      req.onsuccess = () => resolve();
+      req.onerror = () => reject(req.error);
+    }));
+  }
+  function idbGet(name, key) {
+    return idbStore(name, "readonly").then(store => new Promise((resolve, reject) => {
+      const req = store.get(key);
+      req.onsuccess = () => resolve(req.result || null);
+      req.onerror = () => reject(req.error);
+    }));
+  }
+  function idbDelete(name, key) {
+    return idbStore(name, "readwrite").then(store => new Promise((resolve, reject) => {
+      const req = store.delete(key);
+      req.onsuccess = () => resolve();
+      req.onerror = () => reject(req.error);
+    }));
+  }
+  function idbGetAllByCourse(name, courseId) {
+    return idbStore(name, "readonly").then(store => new Promise((resolve, reject) => {
+      const req = store.index("courseId").getAll(courseId);
+      req.onsuccess = () => resolve(req.result || []);
+      req.onerror = () => reject(req.error);
+    }));
+  }
+  function idbGetAll(name) {
+    return idbStore(name, "readonly").then(store => new Promise((resolve, reject) => {
+      const req = store.getAll();
+      req.onsuccess = () => resolve(req.result || []);
+      req.onerror = () => reject(req.error);
+    }));
+  }
+  function audioFileId(courseId, file) { return `${courseId}|${file}`; }
+
+  const _downloadedCourses = new Set();
+  const _audioBlobUrls = new Map(); // "courseId|file" -> object URL
+  const _downloadState = new Map(); // courseId -> { total, done, active }
+  const _downloadListeners = new Set();
+  let _hydrateDownloadedPromise = null;
+
+  function onDownloadProgress(fn) { _downloadListeners.add(fn); return () => _downloadListeners.delete(fn); }
+  function notifyDownloadProgress(courseId) {
+    _downloadListeners.forEach(fn => fn(courseId, _downloadState.get(courseId) || null));
+  }
+
+  // Called once, lazily, before the course picker's first render each
+  // session -- IndexedDB has no cheap "list downloaded courses" query, so
+  // this is the one place that pays for a full courseData scan.
+  function hydrateDownloadedCourses() {
+    if (_hydrateDownloadedPromise) return _hydrateDownloadedPromise;
+    _hydrateDownloadedPromise = idbGetAll("courseData").then(records => {
+      records.forEach(r => { if (r.audioDownloaded) _downloadedCourses.add(r.courseId); });
+    }).catch(() => {});
+    return _hydrateDownloadedPromise;
+  }
+
+  // Populates the in-memory blob-URL map from whatever's already in
+  // IndexedDB for this course, so playBundledAudio can stay fully
+  // synchronous (no async IDB round-trip in the hot path) -- same reasoning
+  // as Wird's cachedBlobFor. Safe to call for a course with nothing
+  // downloaded yet; it just resolves having warmed zero entries.
+  async function warmCourseAudioFromIdb(courseId) {
+    const records = await idbGetAllByCourse("audioFiles", courseId).catch(() => []);
+    records.forEach(r => {
+      const key = audioFileId(courseId, r.file);
+      if (!_audioBlobUrls.has(key)) _audioBlobUrls.set(key, URL.createObjectURL(r.blob));
+    });
+  }
+
+  async function downloadCourse(courseId) {
+    const meta = COURSES.find(c => c.id === courseId);
+    if (!meta) return;
+    const bust = `v=${DATA_VERSION}`;
+    const withVersion = url => url + (url.includes("?") ? "&" : "?") + bust;
+    const res = await fetch(withVersion(meta.file), { cache: "no-cache" });
+    if (!res.ok) throw new Error("Failed to load course data");
+    const data = await res.json();
+    let manifestJson = {};
+    if (meta.audioManifest) {
+      const mRes = await fetch(withVersion(meta.audioManifest), { cache: "no-cache" }).catch(() => null);
+      if (mRes && mRes.ok) manifestJson = await mRes.json().catch(() => ({}));
+    }
+
+    const files = Array.from(new Set(Object.values(manifestJson).map(e => e.file)));
+    _downloadState.set(courseId, { total: files.length, done: 0, active: true });
+    notifyDownloadProgress(courseId);
+
+    if (files.length) {
+      const dir = meta.audioManifest.replace(/manifest\.json$/, "");
+      const CONCURRENCY = 6;
+      let idx = 0;
+      async function worker() {
+        while (idx < files.length) {
+          const file = files[idx++];
+          try {
+            const r = await fetch(`${dir}${file}`);
+            if (r.ok) {
+              const blob = await r.blob();
+              await idbPut("audioFiles", { id: audioFileId(courseId, file), courseId, file, blob, bytes: blob.size, cachedAt: Date.now() });
+            }
+          } catch (e) { /* one file failing shouldn't abort the whole download */ }
+          _downloadState.get(courseId).done++;
+          notifyDownloadProgress(courseId);
+        }
+      }
+      await Promise.all(Array.from({ length: Math.min(CONCURRENCY, files.length) }, worker));
+    }
+
+    await idbPut("courseData", { courseId, data, audioManifest: manifestJson, cachedAt: Date.now(), audioDownloaded: true });
+    _downloadState.set(courseId, { total: files.length, done: files.length, active: false });
+    notifyDownloadProgress(courseId);
+    _downloadedCourses.add(courseId);
+    if (courseId === activeCourseId) await warmCourseAudioFromIdb(courseId);
+  }
+
+  async function deleteCourseDownload(courseId) {
+    const meta = COURSES.find(c => c.id === courseId);
+    const records = await idbGetAllByCourse("audioFiles", courseId).catch(() => []);
+    await Promise.all(records.map(r => idbDelete("audioFiles", r.id)));
+    records.forEach(r => {
+      const key = audioFileId(courseId, r.file);
+      const url = _audioBlobUrls.get(key);
+      if (url) { URL.revokeObjectURL(url); _audioBlobUrls.delete(key); }
+    });
+    // A course with no bundled audio has nothing meaningful to "keep
+    // cached but not downloaded" -- deleting its download means forgetting
+    // it entirely. A course WITH audio keeps its (small) JSON cached so a
+    // later offline open still shows the roadmap, just without sound;
+    // only the audioDownloaded flag flips off.
+    if (meta && meta.audioManifest) {
+      const rec = await idbGet("courseData", courseId).catch(() => null);
+      if (rec) await idbPut("courseData", { ...rec, audioDownloaded: false });
+    } else {
+      await idbDelete("courseData", courseId);
+    }
+    _downloadedCourses.delete(courseId);
+    _downloadState.delete(courseId);
+    notifyDownloadProgress(courseId);
+  }
+
   // ---------- boot ----------
   async function loadCourseData(courseId) {
     const meta = COURSES.find(c => c.id === courseId) || COURSES[0];
     const bust = `v=${DATA_VERSION}`;
     const withVersion = url => url + (url.includes("?") ? "&" : "?") + bust;
-    const [res, manifestRes] = await Promise.all([
-      fetch(withVersion(meta.file), { cache: "no-cache" }),
-      meta.audioManifest ? fetch(withVersion(meta.audioManifest), { cache: "no-cache" }).catch(() => null) : Promise.resolve(null),
-    ]);
-    if (!res.ok) throw new Error("Failed to load course data");
-    const data = await res.json();
+    let data, manifestJson;
+    try {
+      if (!navigator.onLine) throw new Error("Offline");
+      const [res, manifestRes] = await Promise.all([
+        fetch(withVersion(meta.file), { cache: "no-cache" }),
+        meta.audioManifest ? fetch(withVersion(meta.audioManifest), { cache: "no-cache" }).catch(() => null) : Promise.resolve(null),
+      ]);
+      if (!res.ok) throw new Error("Failed to load course data");
+      data = await res.json();
+      manifestJson = (manifestRes && manifestRes.ok) ? await manifestRes.json().catch(() => ({})) : {};
+      // Fire-and-forget write-through: keeps this course's JSON warm for a
+      // future offline open even if the learner never taps "download" --
+      // never preserves a false audioDownloaded=true from a stale record.
+      idbGet("courseData", courseId).then(existing => idbPut("courseData", {
+        courseId, data, audioManifest: manifestJson, cachedAt: Date.now(),
+        audioDownloaded: (existing && existing.audioDownloaded) || !meta.audioManifest,
+      })).catch(() => {});
+    } catch (networkErr) {
+      const cached = await idbGet("courseData", courseId).catch(() => null);
+      if (!cached) throw networkErr;
+      data = cached.data;
+      manifestJson = cached.audioManifest || {};
+    }
     course = data.course;
     course.id = meta.id;
-    if (manifestRes && manifestRes.ok) {
-      try { audioManifest = await manifestRes.json(); } catch (e) { audioManifest = {}; }
-    } else {
-      audioManifest = {};
-    }
+    audioManifest = manifestJson;
+    warmCourseAudioFromIdb(courseId).catch(() => {});
     _voicePollAttempts = 0;
     pollVoicesUntilFound();
 
@@ -865,8 +1064,33 @@
     return { found, lessonsInCloud };
   }
 
+  // Reachable only when the active course has never been loaded on this
+  // device before (so there's nothing in IndexedDB to fall back to) AND
+  // there's no network to fetch it fresh. Before offline downloads existed,
+  // this exact situation was structurally impossible to reach -- the old
+  // sw.js kill switch meant the app itself never even opened offline, so
+  // boot() never got the chance to hang here. Now that the shell loads
+  // offline, this needs its own message instead of leaving the learner
+  // staring at unfilled "0" placeholders with no explanation.
+  function renderOfflineBootFailure() {
+    screenEl.innerHTML = `
+      <div class="summary">
+        <h2>No connection</h2>
+        <p>This course hasn't been downloaded for offline use yet, and there's no connection to load it fresh. Reconnect, or open a different course you've already downloaded.</p>
+        <button class="btn btn-primary" id="offlineRetryBtn">Try again</button>
+      </div>
+    `;
+    document.getElementById("offlineRetryBtn").addEventListener("click", () => window.location.reload());
+  }
+
   async function boot() {
-    await loadCourseData(activeCourseId);
+    try {
+      await loadCourseData(activeCourseId);
+    } catch (e) {
+      renderOfflineBootFailure();
+      wireGlobalUi();
+      return;
+    }
     progress = loadProgress();
     if (window.CloudSync && window.CloudSync.user) {
       try { await syncFromCloud(); } catch (e) { /* offline — continue with local progress */ }
@@ -903,6 +1127,16 @@
     { group: "underserved", title: "Underserved Languages" },
   ];
 
+  const DL_ICON = {
+    none: `<svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M12 4v11m0 0l-4-4m4 4l4-4M5 19h14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
+    downloading: `<svg class="course-card-dl-spin" viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2.2" stroke-dasharray="34 20" stroke-linecap="round"/></svg>`,
+    done: `<svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M5 12.5l4.3 4.3L19 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
+  };
+  function courseDlState(courseId) {
+    const st = _downloadState.get(courseId);
+    if (st && st.active) return "downloading";
+    return _downloadedCourses.has(courseId) ? "done" : "none";
+  }
   function courseCardHtml(meta) {
     const s = meta.id === activeCourseId ? { lessonsDone: progress.completedLessons.length, streak: progress.streak, xp: progress.xp } : readCourseStats(meta.id);
     const statsHtml = s
@@ -912,16 +1146,26 @@
           ${s.streak > 0 ? `<span class="course-card-pill course-card-pill--streak">${s.streak}${ICON_FLAME}</span>` : ""}
         </span>`
       : `<span class="course-card-empty">Not started — tap to begin</span>`;
+    const dlState = courseDlState(meta.id);
+    const dlLabel = dlState === "done" ? "Downloaded for offline — tap to remove"
+      : dlState === "downloading" ? "Downloading for offline"
+      : "Download for offline";
     return `
-      <button class="course-card course-card--${meta.accent} ${meta.id === activeCourseId ? "active" : ""}" data-course="${meta.id}">
-        <span class="course-card-native" dir="auto">${meta.native}</span>
-        <span class="course-card-en">${meta.en}</span>
-        ${statsHtml}
-      </button>
+      <div class="course-card course-card--${meta.accent} ${meta.id === activeCourseId ? "active" : ""}">
+        <button class="course-card-main" data-course="${meta.id}">
+          <span class="course-card-native" dir="auto">${meta.native}</span>
+          <span class="course-card-en">${meta.en}</span>
+          ${statsHtml}
+        </button>
+        <button type="button" class="course-card-dl" data-course-dl="${meta.id}" data-dl-state="${dlState}" aria-label="${dlLabel}" title="${dlLabel}">
+          ${DL_ICON[dlState]}
+        </button>
+      </div>
     `;
   }
 
-  function renderCoursePicker() {
+  async function renderCoursePicker() {
+    await hydrateDownloadedCourses();
     const list = document.getElementById("courseList");
     list.innerHTML = COURSE_SECTIONS.map(sec => {
       const courses = COURSES.filter(c => c.group === sec.group);
@@ -933,20 +1177,52 @@
         </section>
       `;
     }).join("");
-    list.querySelectorAll(".course-card").forEach(btn => {
+    list.querySelectorAll(".course-card-main").forEach(btn => {
       btn.addEventListener("click", async () => {
         const id = btn.dataset.course;
         courseModal.classList.add("hidden");
         await switchCourse(id);
       });
     });
+    list.querySelectorAll(".course-card-dl").forEach(btn => {
+      btn.addEventListener("click", async (e) => {
+        e.stopPropagation();
+        const id = btn.dataset.courseDl;
+        if (courseDlState(id) === "downloading") return;
+        const unsub = onDownloadProgress((cid) => { if (cid === id) refreshCourseDlButton(id); });
+        try {
+          if (courseDlState(id) === "done") {
+            await deleteCourseDownload(id);
+          } else {
+            await downloadCourse(id);
+          }
+        } catch (err) {
+          console.warn("Course download failed", err);
+        } finally {
+          unsub();
+          refreshCourseDlButton(id);
+        }
+      });
+    });
+  }
+
+  function refreshCourseDlButton(courseId) {
+    const btn = document.querySelector(`.course-card-dl[data-course-dl="${courseId}"]`);
+    if (!btn) return;
+    const dlState = courseDlState(courseId);
+    const dlLabel = dlState === "done" ? "Downloaded for offline — tap to remove"
+      : dlState === "downloading" ? "Downloading for offline"
+      : "Download for offline";
+    btn.dataset.dlState = dlState;
+    btn.setAttribute("aria-label", dlLabel);
+    btn.setAttribute("title", dlLabel);
+    btn.innerHTML = DL_ICON[dlState];
   }
 
   function wireGlobalUi() {
     themeToggleEl.addEventListener("click", toggleTheme);
     soundToggleEl.addEventListener("click", toggleSound);
-    // Disabled for now -- navigator.onLine was flagging false positives.
-    // wireOfflineIndicator();
+    wireOfflineIndicator();
     wirePullToRefresh();
     const testSoundBtn = document.getElementById("testSoundBtn");
     if (testSoundBtn) {
@@ -998,8 +1274,8 @@
       });
     }
 
-    courseToggleEl.addEventListener("click", () => {
-      renderCoursePicker();
+    courseToggleEl.addEventListener("click", async () => {
+      await renderCoursePicker();
       courseModal.classList.remove("hidden");
     });
     document.getElementById("courseClose").addEventListener("click", () => {
