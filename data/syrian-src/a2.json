@@ -2383,6 +2383,356 @@
      "answerIndex": 1
     }
    ]
+  },
+  {
+   "number": 211,
+   "title": "I Saw You",
+   "titleNative": "شفتك",
+   "context": "A passage using object pronouns with the verb 'to see'.",
+   "paragraphs": [
+    {
+     "ar": "مبارح شفتك، كيفك اليوم؟",
+     "en": "Yesterday I saw you, how are you today?"
+    },
+    {
+     "ar": "منيح كتير! شفت صديقك مبارح.",
+     "en": "Very good! I saw your friend yesterday."
+    },
+    {
+     "ar": "صديقك شفته مبارح، هو منيح كتير.",
+     "en": "I saw your friend yesterday, he's very good."
+    },
+    {
+     "ar": "وصديقنا؟ شفته هونيك.",
+     "en": "And our friend? I saw him over there."
+    },
+    {
+     "ar": "بكرة بشوفك، شكرا!",
+     "en": "Tomorrow I'll see you, thank you!"
+    }
+   ],
+   "questions": [
+    {
+     "question": "When did the speaker see the listener?",
+     "options": [
+      "Today",
+      "Yesterday",
+      "Tomorrow",
+      "Never"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "Who else did the speaker see?",
+     "options": [
+      "No one",
+      "The listener's friend",
+      "A stranger",
+      "The bank"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "Where did the speaker see our friend?",
+     "options": [
+      "At home",
+      "Over there",
+      "At the bank",
+      "At the sea"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "When will the speaker see the listener again?",
+     "options": [
+      "Today",
+      "Tomorrow",
+      "Never",
+      "Yesterday"
+     ],
+     "answerIndex": 1
+    }
+   ]
+  },
+  {
+   "number": 212,
+   "title": "No Problem",
+   "titleNative": "مافي مشكلة",
+   "context": "A passage about a small problem and its solution.",
+   "paragraphs": [
+    {
+     "ar": "مافي شاي اليوم.",
+     "en": "There's no tea today."
+    },
+    {
+     "ar": "مافي مشكلة، بدي قهوة.",
+     "en": "No problem, I want coffee."
+    },
+    {
+     "ar": "صديقي شاف القهوة، وهي منيحة كتير.",
+     "en": "My friend saw the coffee, and it's very good."
+    },
+    {
+     "ar": "شفت صديقي هون، وبدي قهوة أنا.",
+     "en": "I saw my friend here, and I want coffee."
+    },
+    {
+     "ar": "منيح! شكرا كتير يا صديق.",
+     "en": "Good! Thank you very much, friend."
+    }
+   ],
+   "questions": [
+    {
+     "question": "What is not available today?",
+     "options": [
+      "Coffee",
+      "Tea",
+      "Water",
+      "Bread"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "What does the speaker want instead?",
+     "options": [
+      "Tea",
+      "Water",
+      "Coffee",
+      "Nothing"
+     ],
+     "answerIndex": 2
+    },
+    {
+     "question": "How is the coffee described?",
+     "options": [
+      "Bad",
+      "Very good",
+      "Old",
+      "Expensive"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "Where did the speaker see the friend?",
+     "options": [
+      "At the bank",
+      "Here",
+      "At the sea",
+      "In the city"
+     ],
+     "answerIndex": 1
+    }
+   ]
+  },
+  {
+   "number": 213,
+   "title": "This House, That House",
+   "titleNative": "هاد البيت، هاد البيت",
+   "context": "A passage comparing two houses.",
+   "paragraphs": [
+    {
+     "ar": "شو هاد؟ هاد بيتنا الجديد.",
+     "en": "What is this? This is our new house."
+    },
+    {
+     "ar": "وهاد؟ هاد بيت صديقنا القديم.",
+     "en": "And this? This is our friend's old house."
+    },
+    {
+     "ar": "شفت البيتين مبارح، وهني منيحين كتير.",
+     "en": "I saw both houses yesterday, and they're both very good."
+    },
+    {
+     "ar": "بيتنا قريب، وبيت صديقنا بعيد شوي.",
+     "en": "Our house is close, and our friend's house is a little far."
+    },
+    {
+     "ar": "شكرا! منيح كتير، بكرة منشوف صديقنا.",
+     "en": "Thank you! Very good, tomorrow we'll see our friend."
+    }
+   ],
+   "questions": [
+    {
+     "question": "What is the first house?",
+     "options": [
+      "A stranger's house",
+      "Our new house",
+      "A car",
+      "The bank"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "What is the second house?",
+     "options": [
+      "Our new house",
+      "Our friend's old house",
+      "A car",
+      "The bank"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "When did the speaker see both houses?",
+     "options": [
+      "Today",
+      "Yesterday",
+      "Tomorrow",
+      "Never"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "How is our friend's house described?",
+     "options": [
+      "Very close",
+      "A little far",
+      "In the city",
+      "At the bank"
+     ],
+     "answerIndex": 1
+    }
+   ]
+  },
+  {
+   "number": 214,
+   "title": "A Small Problem",
+   "titleNative": "مشكلة صغيرة",
+   "context": "A passage about a minor issue.",
+   "paragraphs": [
+    {
+     "ar": "مافي مشكلة كبير اليوم.",
+     "en": "There's no big problem today."
+    },
+    {
+     "ar": "مافي شاي، بس مافي مشكلة.",
+     "en": "There's no tea, but there's no problem."
+    },
+    {
+     "ar": "صديقي شاف المشكلة الصغيرة، وهو منيح.",
+     "en": "My friend saw the small problem, and he's good."
+    },
+    {
+     "ar": "بدي قهوة اليوم.",
+     "en": "I want coffee today."
+    },
+    {
+     "ar": "منيح! شكرا كتير يا صديق.",
+     "en": "Good! Thank you very much, friend."
+    }
+   ],
+   "questions": [
+    {
+     "question": "Is there a big problem today?",
+     "options": [
+      "Yes",
+      "No",
+      "Maybe",
+      "Two problems"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "What is missing?",
+     "options": [
+      "Coffee",
+      "Tea",
+      "Water",
+      "Bread"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "Who saw the small problem?",
+     "options": [
+      "No one",
+      "The friend",
+      "The family",
+      "A stranger"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "What does the speaker want?",
+     "options": [
+      "Tea",
+      "Water",
+      "Coffee",
+      "Nothing"
+     ],
+     "answerIndex": 2
+    }
+   ]
+  },
+  {
+   "number": 215,
+   "title": "Complete: A2 Reading Wrap Three",
+   "titleNative": "مراجعة القراءة التالتة",
+   "context": "A final A2 review passage.",
+   "paragraphs": [
+    {
+     "ar": "مبارح شفتك هونيك، كيفك اليوم؟",
+     "en": "Yesterday I saw you over there, how are you today?"
+    },
+    {
+     "ar": "منيح كتير، الحمدلله! شفت صديقك هون.",
+     "en": "Very good, thank God! I saw your friend here."
+    },
+    {
+     "ar": "بدي قهوة اليوم.",
+     "en": "I want coffee today."
+    },
+    {
+     "ar": "مافي مشكلة، بيتنا قريب وسيارتنا صغيرة.",
+     "en": "No problem, our house is close and our car is small."
+    },
+    {
+     "ar": "شكرا كتير، بكرة بشوفك!",
+     "en": "Thank you very much, tomorrow I'll see you!"
+    }
+   ],
+   "questions": [
+    {
+     "question": "Where did the speaker see the listener?",
+     "options": [
+      "At home",
+      "Over there",
+      "At the bank",
+      "In the city"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "How does the listener feel?",
+     "options": [
+      "Tired",
+      "Very good",
+      "Sad",
+      "Angry"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "What is the house like?",
+     "options": [
+      "Far",
+      "Close",
+      "Old",
+      "Big"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "When will the speaker see the listener again?",
+     "options": [
+      "Today",
+      "Tomorrow",
+      "Never",
+      "Yesterday"
+     ],
+     "answerIndex": 1
+    }
+   ]
   }
  ]
 }
