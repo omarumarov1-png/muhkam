@@ -2919,6 +2919,356 @@
      "answerIndex": 1
     }
    ]
+  },
+  {
+   "number": 206,
+   "title": "How Much Is This Cat?",
+   "titleNative": "قديش هاد القط؟",
+   "context": "A passage about a market visit.",
+   "paragraphs": [
+    {
+     "ar": "قديش هاد القط الأسود؟ هو غالي كتير.",
+     "en": "How much is this black cat? It's very expensive."
+    },
+    {
+     "ar": "وهاد القط الأبيض؟ هو رخيص كتير.",
+     "en": "And this white cat? It's very cheap."
+    },
+    {
+     "ar": "صديقي بيحب القط الأسود، وأنا بحب القط الأبيض.",
+     "en": "My friend loves the black cat, and I love the white cat."
+    },
+    {
+     "ar": "إذا بدك بتاخدي القط الأسود، لازم بتخلصي فلوسك هلق.",
+     "en": "If you want to take the black cat, you must finish your money now."
+    },
+    {
+     "ar": "منيح! باخد القط الأسود، وانت بتاخدي القط الأبيض.",
+     "en": "Good! I take the black cat, and you take the white cat."
+    }
+   ],
+   "questions": [
+    {
+     "question": "How is the black cat described?",
+     "options": [
+      "Cheap",
+      "Very expensive",
+      "Free",
+      "Old"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "How is the white cat described?",
+     "options": [
+      "Expensive",
+      "Very cheap",
+      "Free",
+      "Old"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "Which cat does the friend love?",
+     "options": [
+      "The white one",
+      "The black one",
+      "Neither",
+      "Both"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "What must you do if you want the black cat?",
+     "options": [
+      "Nothing",
+      "Finish your money now",
+      "Wait a year",
+      "Sell it"
+     ],
+     "answerIndex": 1
+    }
+   ]
+  },
+  {
+   "number": 207,
+   "title": "My Friend's Sword",
+   "titleNative": "سيف صديقي",
+   "context": "A passage about an old sword.",
+   "paragraphs": [
+    {
+     "ar": "صديقي عنده سيف قديم، وهو غالي كتير.",
+     "en": "My friend has an old sword, and it's very expensive."
+    },
+    {
+     "ar": "إذا بيجي بيتي بكرة، بيحب يشوف سيفي كمان.",
+     "en": "If he comes to my house tomorrow, he'll love to see my sword too."
+    },
+    {
+     "ar": "هاي القصة منيحة كتير، هي قصة سيف قديم.",
+     "en": "This story is very good, it's a story of an old sword."
+    },
+    {
+     "ar": "مؤكد صديقي بيحب هاي القصة كتير.",
+     "en": "My friend certainly loves this story a lot."
+    },
+    {
+     "ar": "منيح كتير! بكرة منشوف السيف سوا.",
+     "en": "Very good! Tomorrow we'll see the sword together."
+    }
+   ],
+   "questions": [
+    {
+     "question": "What does the friend have?",
+     "options": [
+      "A book",
+      "An old sword",
+      "A car",
+      "Nothing"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "What will the friend love to see if he comes tomorrow?",
+     "options": [
+      "A car",
+      "The sword",
+      "A book",
+      "Nothing"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "What is the story about?",
+     "options": [
+      "A cat",
+      "An old sword",
+      "A house",
+      "Money"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "Who certainly loves this story?",
+     "options": [
+      "No one",
+      "My friend",
+      "A stranger",
+      "The uncle"
+     ],
+     "answerIndex": 1
+    }
+   ]
+  },
+  {
+   "number": 208,
+   "title": "You All Must Come",
+   "titleNative": "لازم بتجوا",
+   "context": "A passage using plural forms and 'must'.",
+   "paragraphs": [
+    {
+     "ar": "لازم بتجوا بيتنا بكرة، عندنا كتاب أحمر منيح كتير.",
+     "en": "You all must come to our house tomorrow, we have a very good red book."
+    },
+    {
+     "ar": "إذا بتحبو بتشوفو بيتنا الأخضر، لازم بتجوا هلق.",
+     "en": "If you all love to see our green house, you all must come now."
+    },
+    {
+     "ar": "صديقنا وخالنا بيحبو بيشوفو البيت الجديد.",
+     "en": "Our friend and our uncle love to see the new house."
+    },
+    {
+     "ar": "منيح كتير! إنتو منيحين كتير.",
+     "en": "Very good! You all are very good."
+    },
+    {
+     "ar": "شكرا كتير! بكرة منشوفكم سوا.",
+     "en": "Thank you very much! Tomorrow we'll see you all together."
+    }
+   ],
+   "questions": [
+    {
+     "question": "What do 'we' have?",
+     "options": [
+      "A car",
+      "A very good red book",
+      "Nothing",
+      "Money"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "What house must you all come see?",
+     "options": [
+      "The red house",
+      "The green house",
+      "The blue house",
+      "No house"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "Who loves to see the new house?",
+     "options": [
+      "No one",
+      "Our friend and our uncle",
+      "A stranger",
+      "The neighbor"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "How are 'you all' described?",
+     "options": [
+      "Tired",
+      "Very good",
+      "Sad",
+      "Angry"
+     ],
+     "answerIndex": 1
+    }
+   ]
+  },
+  {
+   "number": 209,
+   "title": "Certain and Late",
+   "titleNative": "مؤكد ومتأخر",
+   "context": "A review passage using 'certain' and 'late'.",
+   "paragraphs": [
+    {
+     "ar": "صديقي متأخر كتير اليوم، بس مؤكد بيجي.",
+     "en": "My friend is very late today, but he's certainly coming."
+    },
+    {
+     "ar": "إذا بيجي متأخر، منجي البنك سوا، ومناخد فلوسنا.",
+     "en": "If he comes late, we'll come to the bank together, and take our money."
+    },
+    {
+     "ar": "عمي مؤكد بيحب هاد الكتاب، بيحب بياخده بكرة.",
+     "en": "My uncle certainly loves this book, he loves taking it tomorrow."
+    },
+    {
+     "ar": "خالتي متأخر اليوم كمان، بس هي مؤكد بتجي.",
+     "en": "My aunt is late today too, but she's certainly coming."
+    },
+    {
+     "ar": "منيح! صديقي بيجي هلق، ماشي حاله.",
+     "en": "Good! My friend is coming now, he's fine."
+    }
+   ],
+   "questions": [
+    {
+     "question": "How is the friend today?",
+     "options": [
+      "On time",
+      "Very late but certainly coming",
+      "Not coming",
+      "Early"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "What will they take at the bank if he comes late?",
+     "options": [
+      "Nothing",
+      "Their money",
+      "A book",
+      "A car"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "What does the uncle certainly love?",
+     "options": [
+      "A car",
+      "This book",
+      "A house",
+      "Money only"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "How is the aunt today?",
+     "options": [
+      "On time",
+      "Late but certainly coming",
+      "Not coming",
+      "Early"
+     ],
+     "answerIndex": 1
+    }
+   ]
+  },
+  {
+   "number": 210,
+   "title": "Complete: B2+ Reading Wrap Two",
+   "titleNative": "مراجعة القراءة التانية",
+   "context": "A final review passage for this batch.",
+   "paragraphs": [
+    {
+     "ar": "قديش هاد القط؟ هو غالي كتير.",
+     "en": "How much is this cat? It's very expensive."
+    },
+    {
+     "ar": "صديقي عنده سيف قديم، وهو منيح كتير معي.",
+     "en": "My friend has an old sword, and he's very good to me."
+    },
+    {
+     "ar": "لازم بتجوا بيتنا بكرة، عندنا كتاب أحمر منيح.",
+     "en": "You all must come to our house tomorrow, we have a good red book."
+    },
+    {
+     "ar": "صديقي متأخر، بس مؤكد بيجي هلق.",
+     "en": "My friend is late, but he's certainly coming now."
+    },
+    {
+     "ar": "شكرا كتير! هاد اليوم منيح كتير، والحمدلله.",
+     "en": "Thank you very much! This day is very good, thank God."
+    }
+   ],
+   "questions": [
+    {
+     "question": "How is the cat described?",
+     "options": [
+      "Cheap",
+      "Very expensive",
+      "Free",
+      "Old"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "What does the friend have?",
+     "options": [
+      "A book",
+      "An old sword",
+      "A car",
+      "Nothing"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "What do 'we' have?",
+     "options": [
+      "A car",
+      "A good red book",
+      "Nothing",
+      "Money"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "How is the friend today?",
+     "options": [
+      "On time",
+      "Late but certainly coming",
+      "Not coming",
+      "Early"
+     ],
+     "answerIndex": 1
+    }
+   ]
   }
  ]
 }
