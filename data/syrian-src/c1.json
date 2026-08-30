@@ -1,852 +1,1202 @@
 {
-  "level": "c1",
-  "grammarTopics": {
-    "c1-chain": {
-      "title": "Chaining Clauses",
-      "pattern": "الفعل + لأن + سبب + و/بس + نتيجة (verb + because + reason + and/but + result)",
-      "explanation": "At this level, sentences stop being single statements and start chaining reason and result together: بشوف بيت جديد اليوم لأن هاد قديم كتير، وعندي فلوس منيح (I'm seeing a new house today because this one is very old, and I have good money). Each clause stays simple -- the skill is stringing 2-3 of them together fluently, the way real spoken Syrian Arabic naturally runs on.",
-      "fact": "Long chained sentences like this are exactly how Syrian Arabic speakers naturally tell a story or explain a decision out loud -- rarely as one flat statement, almost always as a little chain of \"this, because that, so this.\"",
-      "dialogue": [
-        {
-          "sp": "A",
-          "native": "بشوف بيت جديد اليوم لأن هاد قديم كتير، وعندي فلوس منيح",
-          "en": "I'm seeing a new house today because this one is very old, and I have good money"
-        },
-        {
-          "sp": "B",
-          "native": "منيح، وأنا بدي بشوف بيت الأهل لأن ما شفتهن من هلق",
-          "en": "Good, and I want to see the family's house because I haven't seen them"
-        }
-      ]
+ "level": "c1",
+ "grammarTopics": {
+  "c1-chain": {
+   "title": "Chaining Clauses",
+   "pattern": "الفعل + لأن + سبب + و/بس + نتيجة (verb + because + reason + and/but + result)",
+   "explanation": "At this level, sentences stop being single statements and start chaining reason and result together: بشوف بيت جديد اليوم لأن هاد قديم كتير، وعندي فلوس منيح (I'm seeing a new house today because this one is very old, and I have good money). Each clause stays simple -- the skill is stringing 2-3 of them together fluently, the way real spoken Syrian Arabic naturally runs on.",
+   "fact": "Long chained sentences like this are exactly how Syrian Arabic speakers naturally tell a story or explain a decision out loud -- rarely as one flat statement, almost always as a little chain of \"this, because that, so this.\"",
+   "dialogue": [
+    {
+     "sp": "A",
+     "native": "بشوف بيت جديد اليوم لأن هاد قديم كتير، وعندي فلوس منيح",
+     "en": "I'm seeing a new house today because this one is very old, and I have good money"
+    },
+    {
+     "sp": "B",
+     "native": "منيح، وأنا بدي بشوف بيت الأهل لأن ما شفتهن من هلق",
+     "en": "Good, and I want to see the family's house because I haven't seen them"
     }
+   ]
+  }
+ },
+ "lessons": [
+  {
+   "number": 1,
+   "title": "Seeing, Because, And",
+   "titleNative": "بشوف، لأن، و",
+   "items": [
+    {
+     "ar": "بشوف بيت جديد اليوم لأن هاد قديم كتير، وعندي فلوس منيح",
+     "en": "I'm seeing a new house today because this one is very old, and I have good money",
+     "translit": "bshuf beit jdeed el-yom la2an haad adeem kteer, wa 3andi fluus mnih"
+    },
+    {
+     "ar": "بتشوف بيت اليوم لأن عندا فلوس منيح، وبتحب بيت جديد كتير",
+     "en": "She's seeing a house today because she has good money, and she loves a very new house",
+     "translit": "btshuf beit el-yom la2an 3anda fluus mnih, wa bt7ibb beit jdeed kteer"
+    },
+    {
+     "ar": "بيشوف بيت اليوم لأن تعبان كتير، وعنده فلوس منيح اليوم",
+     "en": "He's seeing a house today because he's very tired, and he has good money today",
+     "translit": "byshuf beit el-yom la2an ta3baan kteer, wa 3ando fluus mnih el-yom"
+    },
+    {
+     "ar": "منشوف بيت الأهل بكرة لأن ما شفناهن اليوم، ومنحب نشوفهن كتير",
+     "en": "We're seeing the family's house tomorrow because we didn't see them today, and we love seeing them a lot",
+     "translit": "mnshuf beit el-ahl bukra la2an ma shifnahon el-yom, wa mn7ibb nshufhon kteer"
+    }
+   ],
+   "topicId": "c1-chain"
   },
-  "lessons": [
+  {
+   "number": 2,
+   "title": "Loving, Because, And",
+   "titleNative": "بحب، لأن، و",
+   "items": [
     {
-      "number": 1,
-      "title": "Seeing, Because, And",
-      "titleNative": "بشوف، لأن، و",
-      "items": [
-        {
-          "ar": "بشوف بيت جديد اليوم لأن هاد قديم كتير، وعندي فلوس منيح",
-          "en": "I'm seeing a new house today because this one is very old, and I have good money",
-          "translit": "bshuf beit jdeed el-yom la2an haad adeem kteer, wa 3andi fluus mnih"
-        },
-        {
-          "ar": "بتشوف بيت اليوم لأن عندا فلوس منيح، وبتحب بيت جديد كتير",
-          "en": "She's seeing a house today because she has good money, and she loves a very new house",
-          "translit": "btshuf beit el-yom la2an 3anda fluus mnih, wa bt7ibb beit jdeed kteer"
-        },
-        {
-          "ar": "بيشوف بيت اليوم لأن تعبان كتير، وعنده فلوس منيح اليوم",
-          "en": "He's seeing a house today because he's very tired, and he has good money today",
-          "translit": "byshuf beit el-yom la2an ta3baan kteer, wa 3ando fluus mnih el-yom"
-        },
-        {
-          "ar": "منشوف بيت الأهل بكرة لأن ما شفناهن اليوم، ومنحب نشوفهن كتير",
-          "en": "We're seeing the family's house tomorrow because we didn't see them today, and we love seeing them a lot",
-          "translit": "mnshuf beit el-ahl bukra la2an ma shifnahon el-yom, wa mn7ibb nshufhon kteer"
-        }
-      ],
-      "topicId": "c1-chain"
+     "ar": "بحب القهوة منيح اليوم لأن تعبان كتير اليوم، وعندي شي بعدين",
+     "en": "I love the coffee a lot today because I'm very tired today, and I have something later",
+     "translit": "b7ibb el-ahwe mnih el-yom la2an ta3baan kteer el-yom, wa 3andi shi ba3dein"
     },
     {
-      "number": 2,
-      "title": "Loving, Because, And",
-      "titleNative": "بحب، لأن، و",
-      "items": [
-        {
-          "ar": "بحب القهوة منيح اليوم لأن تعبان كتير اليوم، وعندي شي بعدين",
-          "en": "I love the coffee a lot today because I'm very tired today, and I have something later",
-          "translit": "b7ibb el-ahwe mnih el-yom la2an ta3baan kteer el-yom, wa 3andi shi ba3dein"
-        },
-        {
-          "ar": "بتحب الشاي منيح اليوم لأن تعبانة كتير، وبعدين بتشوف بيت",
-          "en": "You love the tea a lot today because you're very tired, and afterward you're seeing a house",
-          "translit": "bt7ibb esh-shay mnih el-yom la2an ta3baane kteer, wa ba3dein btshuf beit"
-        },
-        {
-          "ar": "بيحب القهوة منيح اليوم لأن تعبان كتير الصباح، وبيحب يشوف بيته بعدين",
-          "en": "He loves the coffee a lot today because he's very tired this morning, and he loves seeing his house later",
-          "translit": "by7ibb el-ahwe mnih el-yom la2an ta3baan kteer, wa by7ibb yshuf beito ba3dein"
-        },
-        {
-          "ar": "منحب القهوة منيح اليوم لأن عندنا شي بعدين، ومنشوف بيت جديد بكرة",
-          "en": "We love the coffee a lot today because we have something later, and we're seeing a new house tomorrow",
-          "translit": "mn7ibb el-ahwe mnih el-yom la2an 3andna shi ba3dein, wa mnshuf beit jdeed bukra"
-        }
-      ],
-      "topicId": "c1-chain"
+     "ar": "بتحب الشاي منيح اليوم لأن تعبانة كتير، وبعدين بتشوف بيت",
+     "en": "You love the tea a lot today because you're very tired, and afterward you're seeing a house",
+     "translit": "bt7ibb esh-shay mnih el-yom la2an ta3baane kteer, wa ba3dein btshuf beit"
     },
     {
-      "number": 3,
-      "title": "Wanting, Because, And",
-      "titleNative": "بدي، لأن، و",
-      "items": [
-        {
-          "ar": "بدي بشوف بيت جديد اليوم لأن هاد قديم كتير، وعندي فلوس منيح",
-          "en": "I want to see a new house today because this one is very old, and I have good money",
-          "translit": "biddi bshuf beit jdeed el-yom la2an haad adeem kteer, wa 3andi fluus mnih"
-        },
-        {
-          "ar": "بتشوف بيت جديد اليوم لأن هاد قديم كتير، وعندا فلوس منيح",
-          "en": "She's seeing a new house today because this one is very old, and she has good money",
-          "translit": "btshuf beit jdeed el-yom la2an haad adeem kteer, wa 3anda fluus mnih"
-        },
-        {
-          "ar": "بيشوف بيت اليوم لأن تعبان كتير، وعنده صديق منيح هونيك",
-          "en": "He's seeing a house today because he's very tired, and he has a good friend there",
-          "translit": "byshuf beit el-yom la2an ta3baan kteer, wa 3ando sadeeq mnih hownik"
-        },
-        {
-          "ar": "بشوف بيت جديد اليوم لأن شفته مع صديقي مبارح، وهو منيح كتير",
-          "en": "I'm seeing a new house today because I saw it with my friend yesterday, and it's very good",
-          "translit": "bshuf beit jdeed el-yom la2an shifto ma3 sadeeqi mbare7, wa huwwe mnih kteer"
-        }
-      ],
-      "topicId": "c1-chain"
+     "ar": "بيحب القهوة منيح اليوم لأن تعبان كتير الصباح، وبيحب يشوف بيته بعدين",
+     "en": "He loves the coffee a lot today because he's very tired this morning, and he loves seeing his house later",
+     "translit": "by7ibb el-ahwe mnih el-yom la2an ta3baan kteer, wa by7ibb yshuf beito ba3dein"
     },
     {
-      "number": 4,
-      "title": "I Don't Know, Because, And",
-      "titleNative": "مدري، لأن، و",
-      "items": [
-        {
-          "ar": "مدري وين البيت الجديد اليوم لأن ما شفته، بس صديقي منيح هونيك",
-          "en": "I don't know where the new house is today because I haven't seen it, but my good friend is there",
-          "translit": "midri wein el-beit el-jdeed el-yom la2an ma shifto, bas sadeeqi mnih hownik"
-        },
-        {
-          "ar": "مدري وين منشوف بكرة لأن ما شفت الأهل اليوم، بس بحب بشوف",
-          "en": "I don't know where we're seeing it tomorrow because I didn't see the family today, but I love to see it",
-          "translit": "midri wein mnshuf bukra la2an ma shift el-ahl el-yom, bas b7ibb bshuf"
-        },
-        {
-          "ar": "مدري وين البيت القريب لأن شفته مع الأهل مبارح، وهو منيح كتير",
-          "en": "I don't know where the close house is because I saw it with the family yesterday, and it's very good",
-          "translit": "midri wein el-beit el-2areeb la2an shifto ma3 el-ahl mbare7, wa huwwe mnih kteer"
-        },
-        {
-          "ar": "مدري وين الأهل هلق لأن شفناهن مبارح، وهني منيحين كتير اليوم",
-          "en": "I don't know where the family is now because we saw them yesterday, and they're very good today",
-          "translit": "midri wein el-ahl hala2 la2an shifnahon mbare7, wa hinne mnihheen kteer el-yom"
-        }
-      ],
-      "topicId": "c1-chain"
-    },
-    {
-      "number": 5,
-      "title": "Review: Chained Clauses",
-      "titleNative": "مراجعة",
-      "items": [
-        {
-          "ar": "بشوف بيت جديد اليوم لأن هاد قديم كتير، وعندي فلوس منيح اليوم",
-          "en": "I'm seeing a new house today because this one is very old, and I have good money today",
-          "translit": "bshuf beit jdeed el-yom la2an haad adeem kteer, wa 3andi fluus mnih el-yom"
-        },
-        {
-          "ar": "بتحب الشاي منيح اليوم لأن تعبانة كتير، وبعدين بتشوف بيت جديد",
-          "en": "You love the tea a lot today because you're very tired, and afterward you're seeing a new house",
-          "translit": "bt7ibb esh-shay mnih el-yom la2an ta3baane kteer, wa ba3dein btshuf beit jdeed"
-        },
-        {
-          "ar": "بدي بشوف بيت جديد اليوم لأن هاد قديم كتير، وعندي فلوس منيح",
-          "en": "I want to see a new house today because this one is very old, and I have good money",
-          "translit": "biddi bshuf beit jdeed el-yom la2an haad adeem kteer, wa 3andi fluus mnih"
-        },
-        {
-          "ar": "مدري وين الأهل هلق لأن شفناهن مبارح، وهني منيحين كتير اليوم",
-          "en": "I don't know where the family is now because we saw them yesterday, and they're very good today",
-          "translit": "midri wein el-ahl hala2 la2an shifnahon mbare7, wa hinne mnihheen kteer el-yom"
-        }
-      ]
-    },
-    {
-      "number": 6,
-      "title": "Not Seeing, Because, But",
-      "titleNative": "ما بشوف، لأن، بس",
-      "items": [
-        {
-          "ar": "ما بشوف بيت اليوم لأن تعبان كتير، بس بكرة بشوف منيح",
-          "en": "I'm not seeing a house today because I'm very tired, but tomorrow I'll see one, good",
-          "translit": "ma bshuf beit el-yom la2an ta3baan kteer, bas bukra bshuf mnih"
-        },
-        {
-          "ar": "ما بتحب القهوة اليوم لأن تعبانة كتير، بس بتحب المي منيح",
-          "en": "You're not loving coffee today because you're very tired, but you love water, good",
-          "translit": "ma bt7ibb el-ahwe el-yom la2an ta3baane kteer, bas bt7ibb el-may mnih"
-        },
-        {
-          "ar": "ما بيحب بيت غالي اليوم لأن ما عنده فلوس، بس بيحب بيت منيح",
-          "en": "He doesn't love an expensive house today because he doesn't have money, but he loves a good house",
-          "translit": "ma by7ibb beit ghali el-yom la2an ma 3ando fluus, bas by7ibb beit mnih"
-        },
-        {
-          "ar": "ما منشوف بيت اليوم، بس لازم منشوف بيت بكرة منيح",
-          "en": "We're not seeing a house today, but we should see a house tomorrow, good",
-          "translit": "ma mnshuf beit el-yom, bas lazim mnshuf beit bukra mnih"
-        }
-      ],
-      "topicId": "c1-chain"
-    },
-    {
-      "number": 7,
-      "title": "Not Wanting, Because, But",
-      "titleNative": "ما بدي، لأن، بس",
-      "items": [
-        {
-          "ar": "ما بدي بشوف بيت غالي اليوم لأن ما عندي فلوس كتير، بس بدي بحب القهوة",
-          "en": "I don't want to see an expensive house today because I don't have a lot of money, but I want to love the coffee",
-          "translit": "ma biddi bshuf beit ghali el-yom la2an ma 3andi fluus kteer, bas biddi b7ibb el-ahwe"
-        },
-        {
-          "ar": "مدري وين البيت الجديد اليوم، بس صديقك منيح بيشوف",
-          "en": "You don't know where the new house is today, but your good friend sees it",
-          "translit": "midri wein el-beit el-jdeed el-yom, bas sadeeqak mnih byshuf"
-        },
-        {
-          "ar": "ما بيشوف بيت غالي اليوم لأن مش عنده فلوس كتير، بس بيشوف بيت منيح",
-          "en": "He's not seeing an expensive house today because he doesn't have a lot of money, but he's seeing a good house",
-          "translit": "ma byshuf beit ghali el-yom la2an mish 3ando fluus kteer, bas byshuf beit mnih"
-        },
-        {
-          "ar": "ما منشوف بيت صغير اليوم لأن عندنا أهل كتير، بس البيت الكبير غالي",
-          "en": "We're not seeing a small house today because we have a lot of family, but the big house is expensive",
-          "translit": "ma mnshuf beit sgheer el-yom la2an 3andna ahl kteer, bas el-beit el-kbeer ghali"
-        }
-      ],
-      "topicId": "c1-chain"
-    },
-    {
-      "number": 8,
-      "title": "Money, Because, And",
-      "titleNative": "الفلوس، لأن، و",
-      "items": [
-        {
-          "ar": "عندي فلوس كتير اليوم لأن بحب قهوة رخيصة، وبدي بشوف بيت بعدين",
-          "en": "I have a lot of money today because I love cheap coffee, and I want to see a house later",
-          "translit": "3andi fluus kteer el-yom la2an b7ibb ahwe rkhees, wa biddi bshuf beit ba3dein"
-        },
-        {
-          "ar": "ما عندك فلوس كتير اليوم لأن شفت بيت غالي مبارح، بس بكرة منيح",
-          "en": "You don't have a lot of money today because you saw an expensive house yesterday, but tomorrow it's fine",
-          "translit": "ma 3andak fluus kteer el-yom la2an shift beit ghali mbare7, bas bukra mnih"
-        },
-        {
-          "ar": "عنده فلوس منيح اليوم لأن عنده شي كتير، وبيحب يشوف بيت جديد",
-          "en": "He has good money today because he has a lot, and he loves seeing a new house",
-          "translit": "3ando fluus mnih el-yom la2an 3ando shi kteer, wa by7ibb yshuf beit jdeed"
-        },
-        {
-          "ar": "ما عندنا فلوس كتير اليوم لأن شفنا بيت غالي مبارح، بس منيح اليوم",
-          "en": "We don't have a lot of money today because we saw an expensive house yesterday, but it's fine today",
-          "translit": "ma 3andna fluus kteer el-yom la2an shifna beit ghali mbare7, bas mnih el-yom"
-        }
-      ]
-    },
-    {
-      "number": 9,
-      "title": "Family, Because, And",
-      "titleNative": "الأهل، لأن، و",
-      "items": [
-        {
-          "ar": "بشوف بيت الأهل اليوم لأن ما شفته كتير، وبحب بشوف بيته منيح",
-          "en": "I'm seeing the family's house today because I haven't seen it much, and I love seeing his house, good",
-          "translit": "bshuf beit el-ahl el-yom la2an ma shifto kteer, wa b7ibb bshuf beito mnih"
-        },
-        {
-          "ar": "بتشوف بيت الأهل اليوم لأن عندن شي كبير، وبتحب تشوف بيته منيح",
-          "en": "You're seeing the family's house today because they have something big, and you love seeing his house, good",
-          "translit": "btshuf beit el-ahl el-yom la2an 3andon shi kbeer, wa bt7ibb tshuf beito mnih"
-        },
-        {
-          "ar": "بيشوف بيت الأهل اليوم لأن ما شافه كتير، وعنده صديق منيح هونيك",
-          "en": "He's seeing the family's house today because he hasn't seen it much, and he has a good friend there",
-          "translit": "byshuf beit el-ahl el-yom la2an ma shafo kteer, wa 3ando sadeeq mnih hownik"
-        },
-        {
-          "ar": "منشوف بيت الأهل اليوم لأن عندن شي كبير، ومنحب نشوف بيتهن منيح",
-          "en": "We're seeing the family's house today because they have something big, and we love seeing their house, good",
-          "translit": "mnshuf beit el-ahl el-yom la2an 3andon shi kbeer, wa mn7ibb nshuf beithon mnih"
-        }
-      ]
-    },
-    {
-      "number": 10,
-      "title": "Review: C1 Recap",
-      "titleNative": "مراجعة نهائية",
-      "items": [
-        {
-          "ar": "ما بشوف بيت اليوم لأن تعبان كتير، بس بكرة بشوف منيح",
-          "en": "I'm not seeing a house today because I'm very tired, but tomorrow I'll see one, good",
-          "translit": "ma bshuf beit el-yom la2an ta3baan kteer, bas bukra bshuf mnih"
-        },
-        {
-          "ar": "ما بدي بشوف بيت غالي اليوم لأن ما عندي فلوس كتير، بس بدي بحب القهوة",
-          "en": "I don't want to see an expensive house today because I don't have a lot of money, but I want to love the coffee",
-          "translit": "ma biddi bshuf beit ghali el-yom la2an ma 3andi fluus kteer, bas biddi b7ibb el-ahwe"
-        },
-        {
-          "ar": "عندي فلوس كتير اليوم لأن بحب قهوة رخيصة، وبدي بشوف بيت بعدين",
-          "en": "I have a lot of money today because I love cheap coffee, and I want to see a house later",
-          "translit": "3andi fluus kteer el-yom la2an b7ibb ahwe rkhees, wa biddi bshuf beit ba3dein"
-        },
-        {
-          "ar": "بشوف بيت الأهل اليوم لأن ما شفته كتير، وبحب بشوف بيته منيح",
-          "en": "I'm seeing the family's house today because I haven't seen it much, and I love seeing his house, good",
-          "translit": "bshuf beit el-ahl el-yom la2an ma shifto kteer, wa b7ibb bshuf beito mnih"
-        }
-      ]
-    },
-    {
-      "number": 11,
-      "title": "The Near Place, Because, But",
-      "titleNative": "المكان القريب، لأن، بس",
-      "items": [
-        {
-          "ar": "بشوف بيت قريب اليوم لأن السيارة مشكلة، بس بكرة بشوف بعيد",
-          "en": "I'm seeing a nearby house today because the car is a problem, but tomorrow I'll see a far one",
-          "translit": "bshuf beit 2areeb el-yom la2an es-sayyara mushkile, bas bukra bshuf ba3eed"
-        },
-        {
-          "ar": "بتشوف بيت هون اليوم لأن الأهل هون منيح، بس مش عندك شي كتير",
-          "en": "You're seeing a house here today because the family is here, good, but you don't have a lot",
-          "translit": "btshuf beit hown el-yom la2an el-ahl hown mnih, bas mish 3andek shi kteer"
-        },
-        {
-          "ar": "بيشوف بيت هونيك اليوم لأن أهله هونيك، وعنده صديق منيح هونيك",
-          "en": "He's seeing a house there today because his family is there, and he has a good friend there",
-          "translit": "byshuf beit hownik el-yom la2an ahlo hownik, wa 3ando sadeeq mnih hownik"
-        },
-        {
-          "ar": "منشوف بيت قريب اليوم لأن تعبانين كتير، وعندنا فلوس منيح اليوم",
-          "en": "We're seeing a nearby house today because we're very tired, and we have good money today",
-          "translit": "mnshuf beit 2areeb el-yom la2an ta3baaneen kteer, wa 3andna fluus mnih el-yom"
-        }
-      ],
-      "topicId": "c1-chain"
-    },
-    {
-      "number": 12,
-      "title": "This Red House, Because, And",
-      "titleNative": "هاد البيت الأحمر، لأن، و",
-      "items": [
-        {
-          "ar": "بدي البيت الأحمر اليوم لأن قريب كتير، وعندي فلوس منيح اليوم",
-          "en": "I want the red house today because it's very close, and I have good money today",
-          "translit": "biddi el-beit el-a7mar el-yom la2an 2areeb kteer, wa 3andi fluus mnih el-yom"
-        },
-        {
-          "ar": "بتحب البيت الأزرق اليوم لأن كبير كتير، بس غالي كتير اليوم",
-          "en": "You love the blue house today because it's very big, but it's very expensive today",
-          "translit": "bt7ibb el-beit el-azra2 el-yom la2an kbeer kteer, bas ghali kteer el-yom"
-        },
-        {
-          "ar": "بيحب البيت الأصفر اليوم لأن جديد كتير، وعنده فلوس منيح اليوم",
-          "en": "He loves the yellow house today because it's very new, and he has good money today",
-          "translit": "by7ibb el-beit el-asfar el-yom la2an jdeed kteer, wa 3ando fluus mnih el-yom"
-        },
-        {
-          "ar": "منشوف البيت الأخضر اليوم لأن قريب كتير، وعندنا فلوس منيح اليوم",
-          "en": "We're seeing the green house today because it's very close, and we have good money today",
-          "translit": "mnshuf el-beit el-akhdar el-yom la2an 2areeb kteer, wa 3andna fluus mnih el-yom"
-        }
-      ],
-      "topicId": "c1-chain"
-    },
-    {
-      "number": 13,
-      "title": "Days, Because, And",
-      "titleNative": "الأيام، لأن، و",
-      "items": [
-        {
-          "ar": "بشوف بيت يوم الأحد لأن عندي فلوس منيح، وبحب بشوف بيته منيح",
-          "en": "I'm seeing a house on Sunday because I have good money, and I love seeing his house, good",
-          "translit": "bshuf beit yom el-a7ad la2an 3andi fluus mnih, wa b7ibb bshuf beito mnih"
-        },
-        {
-          "ar": "بتحب القهوة يوم الجمعة لأن تعبانة كتير، وعندك شي كتير بعدين",
-          "en": "You love the coffee on Friday because you're very tired, and you have something later",
-          "translit": "bt7ibb el-ahwe yom el-jum3a la2an ta3baane kteer, wa 3andek shi kteer ba3dein"
-        },
-        {
-          "ar": "بيشوف بيت يوم السبت لأن عنده صديق منيح، وبيحب القهوة معه كتير",
-          "en": "He's seeing a house on Saturday because he has a good friend, and he loves the coffee with him a lot",
-          "translit": "byshuf beit yom es-sabt la2an 3ando sadeeq mnih, wa by7ibb el-ahwe ma3o kteer"
-        },
-        {
-          "ar": "منشوف بيت الأهل يوم الخميس لأن ما شفناهن كتير، ومنحب الشاي معهن كتير",
-          "en": "We're seeing the family's house on Thursday because we haven't seen them much, and we love the tea with them a lot",
-          "translit": "mnshuf beit el-ahl yom el-khamees la2an ma shifnahon kteer, wa mn7ibb esh-shay ma3hon kteer"
-        }
-      ],
-      "topicId": "c1-chain"
-    },
-    {
-      "number": 14,
-      "title": "Feelings, Because, But",
-      "titleNative": "المشاعر، لأن، بس",
-      "items": [
-        {
-          "ar": "أنا منيح اليوم لأن شفت الأهل، بس تعبان كتير اليوم",
-          "en": "I'm good today because I saw the family, but I'm very tired today",
-          "translit": "ana mnih el-yom la2an shift el-ahl, bas ta3baan kteer el-yom"
-        },
-        {
-          "ar": "هي مش منيحة اليوم لأن ما شافت أهلها، بس بتحب تشوف بيتهن بكرة",
-          "en": "She's not good today because she didn't see her family, but she loves seeing their house tomorrow",
-          "translit": "hiyye mish mniha el-yom la2an ma shafit ahilha, bas bt7ibb tshuf beithon bukra"
-        },
-        {
-          "ar": "هو مش منيح اليوم لأن ما عنده فلوس كتير، بس عنده صديق منيح",
-          "en": "He's not good today because he doesn't have a lot of money, but he has a good friend",
-          "translit": "huwwe mish mnih el-yom la2an ma 3ando fluus kteer, bas 3ando sadeeq mnih"
-        },
-        {
-          "ar": "نحنا منيحين اليوم لأن شفنا الأهل، بس تعبانين كتير اليوم",
-          "en": "We're good today because we saw the family, but we're very tired today",
-          "translit": "ni7na mnihheen el-yom la2an shifna el-ahl, bas ta3baaneen kteer el-yom"
-        }
-      ],
-      "topicId": "c1-chain"
-    },
-    {
-      "number": 15,
-      "title": "Review: Places, Colors, Days, Feelings",
-      "titleNative": "مراجعة",
-      "items": [
-        {
-          "ar": "بشوف بيت قريب اليوم لأن السيارة مشكلة، بس بكرة بشوف بعيد",
-          "en": "I'm seeing a nearby house today because the car is a problem, but tomorrow I'll see a far one",
-          "translit": "bshuf beit 2areeb el-yom la2an es-sayyara mushkile, bas bukra bshuf ba3eed"
-        },
-        {
-          "ar": "بدي البيت الأحمر اليوم لأن قريب كتير، وعندي فلوس منيح اليوم",
-          "en": "I want the red house today because it's very close, and I have good money today",
-          "translit": "biddi el-beit el-a7mar el-yom la2an 2areeb kteer, wa 3andi fluus mnih el-yom"
-        },
-        {
-          "ar": "بشوف بيت يوم الأحد لأن عندي فلوس منيح، وبحب بشوف بيته منيح",
-          "en": "I'm seeing a house on Sunday because I have good money, and I love seeing his house, good",
-          "translit": "bshuf beit yom el-a7ad la2an 3andi fluus mnih, wa b7ibb bshuf beito mnih"
-        },
-        {
-          "ar": "أنا منيح اليوم لأن شفت الأهل، بس تعبان كتير اليوم",
-          "en": "I'm good today because I saw the family, but I'm very tired today",
-          "translit": "ana mnih el-yom la2an shift el-ahl, bas ta3baan kteer el-yom"
-        }
-      ]
-    },
-    {
-      "number": 16,
-      "title": "Numbers, Because, And",
-      "titleNative": "الأرقام، لأن، و",
-      "items": [
-        {
-          "ar": "عندي تلاتة فلوس منيح اليوم لأن عندي شي منيح، وبدي بشوف بيت بعدين",
-          "en": "I have three good [money] today because I have something good, and I want to see a house later",
-          "translit": "3andi tlete fluus mnih el-yom la2an 3andi shi mnih, wa biddi bshuf beit ba3dein"
-        },
-        {
-          "ar": "عندك خمسة فلوس منيح اليوم لأن شفت الأهل كتير، وبدي بحب القهوة معك",
-          "en": "You have five good [money] today because you saw the family a lot, and I want to love coffee with you",
-          "translit": "3andak khamse fluus mnih el-yom la2an shift el-ahl kteer, wa biddi b7ibb el-ahwe ma3ak"
-        },
-        {
-          "ar": "عنده سبعة فلوس منيح اليوم لأن بيحب يشوف كتير، وعنده صديق منيح",
-          "en": "He has seven good [money] today because he loves seeing a lot, and he has a good friend",
-          "translit": "3ando sab3a fluus mnih el-yom la2an by7ibb yshuf kteer, wa 3ando sadeeq mnih"
-        },
-        {
-          "ar": "عندنا تسعة فلوس منيح هونيك لأن أهلنا منيحين، وبدي بشوف بيتهن بكرة",
-          "en": "We have nine good [money] there because our family is good, and I want to see their house tomorrow",
-          "translit": "3andna tis3a fluus mnih hownik la2an ahalna mnihheen, wa biddi bshuf beithon bukra"
-        }
-      ],
-      "topicId": "c1-chain"
-    },
-    {
-      "number": 17,
-      "title": "Not Because, But Because, Chained",
-      "titleNative": "مش لأن، بس لأن، متسلسل",
-      "items": [
-        {
-          "ar": "ما بشوف بيت اليوم مش لأن تعبان، بس لأن ما عندي فلوس كتير",
-          "en": "I'm not seeing a house today not because I'm tired, but because I don't have a lot of money",
-          "translit": "ma bshuf beit el-yom mish la2an ta3baan, bas la2an ma 3andi fluus kteer"
-        },
-        {
-          "ar": "ما بتحبي القهوة اليوم مش لأن مش منيحة، بس لأن عندك شي كتير",
-          "en": "You're not loving the coffee today not because it's not good, but because you have a lot",
-          "translit": "ma bt7ibbi el-ahwe el-yom mish la2an mish mniha, bas la2an 3andek shi kteer"
-        },
-        {
-          "ar": "ما بيشوف بيت غالي اليوم مش لأن غالي، بس لأن تعبان كتير",
-          "en": "He's not seeing an expensive house today not because it's expensive, but because he's very tired",
-          "translit": "ma byshuf beit ghali el-yom mish la2an ghali, bas la2an ta3baan kteer"
-        },
-        {
-          "ar": "ما منشوف بيت الأهل اليوم مش لأن تعبانين، بس لأن السيارة مشكلة",
-          "en": "We're not seeing the family's house today not because we're tired, but because the car is a problem",
-          "translit": "ma mnshuf beit el-ahl el-yom mish la2an ta3baaneen, bas la2an es-sayyara mushkile"
-        }
-      ],
-      "topicId": "c1-chain"
-    },
-    {
-      "number": 18,
-      "title": "A Full Day, Chained",
-      "titleNative": "يوم كامل، متسلسل",
-      "items": [
-        {
-          "ar": "صباح الخير، بحب القهوة منيح، وبعدين بشوف بيت لأن عندي شي كتير",
-          "en": "Good morning, I love the good coffee, and then I see a house because I have a lot to do",
-          "translit": "sabah el-kheir, b7ibb el-ahwe mnih, wa ba3dein bshuf beit la2an 3andi shi kteer"
-        },
-        {
-          "ar": "شفت بيت الأهل مبارح لأن ما شفته كتير، وبحب القهوة منيح معهن",
-          "en": "I saw the family's house yesterday because I hadn't seen it much, and I love the coffee with them, good",
-          "translit": "shift beit el-ahl mbare7 la2an ma shifto kteer, wa b7ibb el-ahwe mnih ma3hon"
-        },
-        {
-          "ar": "عندي فلوس منيح اليوم لأن ما شفت البيت الغالي، وبدي بشوف بكرة",
-          "en": "I have good money today because I didn't see the expensive house, and I want to see one tomorrow",
-          "translit": "3andi fluus mnih el-yom la2an ma shift el-beit el-ghali, wa biddi bshuf bukra"
-        },
-        {
-          "ar": "صباح النور، أنا منيح اليوم لأن عندي أهل منيح، وشفتهن اليوم",
-          "en": "Good morning, I'm good today because I have a good family, and I saw them today",
-          "translit": "sabah en-noor, ana mnih el-yom la2an 3andi ahl mnih, wa shifthon el-yom"
-        }
-      ]
-    },
-    {
-      "number": 19,
-      "title": "Another Full Day, Chained",
-      "titleNative": "يوم ثاني، متسلسل",
-      "items": [
-        {
-          "ar": "بدي بشوف بيت اليوم لأن هاد قديم كتير، وعندي فلوس منيح اليوم",
-          "en": "I want to see a house today because this one is very old, and I have good money today",
-          "translit": "biddi bshuf beit el-yom la2an haad adeem kteer, wa 3andi fluus mnih el-yom"
-        },
-        {
-          "ar": "بتحب القهوة اليوم لأن تعبانة كتير، بس عندك شي كتير بعدين",
-          "en": "You love the coffee today because you're very tired, but you have something later",
-          "translit": "bt7ibb el-ahwe el-yom la2an ta3baane kteer, bas 3andek shi kteer ba3dein"
-        },
-        {
-          "ar": "بيشوف بيت جديد اليوم لأن عنده فلوس منيح، وبيحب البيت الأخضر كتير",
-          "en": "He's seeing a new house today because he has good money, and he loves the green house a lot",
-          "translit": "byshuf beit jdeed el-yom la2an 3ando fluus mnih, wa by7ibb el-beit el-akhdar kteer"
-        },
-        {
-          "ar": "منشوف بيت الأهل اليوم لأن ما شفناه كتير، ومنحب القهوة معهن منيح",
-          "en": "We're seeing the family's house today because we haven't seen it much, and we love the coffee with them, good",
-          "translit": "mnshuf beit el-ahl el-yom la2an ma shifnah kteer, wa mn7ibb el-ahwe ma3hon mnih"
-        }
-      ]
-    },
-    {
-      "number": 20,
-      "title": "Review: C1 Recap 2",
-      "titleNative": "مراجعة نهائية",
-      "items": [
-        {
-          "ar": "عندي تلاتة فلوس منيح اليوم لأن عندي شي منيح، وبدي بشوف بيت بعدين",
-          "en": "I have three good [money] today because I have something good, and I want to see a house later",
-          "translit": "3andi tlete fluus mnih el-yom la2an 3andi shi mnih, wa biddi bshuf beit ba3dein"
-        },
-        {
-          "ar": "ما بشوف بيت اليوم مش لأن تعبان، بس لأن ما عندي فلوس كتير",
-          "en": "I'm not seeing a house today not because I'm tired, but because I don't have a lot of money",
-          "translit": "ma bshuf beit el-yom mish la2an ta3baan, bas la2an ma 3andi fluus kteer"
-        },
-        {
-          "ar": "صباح الخير، بحب القهوة منيح، وبعدين بشوف بيت لأن عندي شي كتير",
-          "en": "Good morning, I love the good coffee, and then I see a house because I have a lot to do",
-          "translit": "sabah el-kheir, b7ibb el-ahwe mnih, wa ba3dein bshuf beit la2an 3andi shi kteer"
-        },
-        {
-          "ar": "عندي فلوس منيح اليوم لأن ما شفت البيت الغالي، وبدي بشوف بكرة",
-          "en": "I have good money today because I didn't see the expensive house, and I want to see one tomorrow",
-          "translit": "3andi fluus mnih el-yom la2an ma shift el-beit el-ghali, wa biddi bshuf bukra"
-        }
-      ]
-    },
-    {
-      "number": 21,
-      "title": "Lazim, Because, And",
-      "titleNative": "لازم، لأن، و",
-      "items": [
-        {
-          "ar": "لازم بشوف بيت بكرة لأن هاد قديم كتير، وبدي بشوف بيت جديد",
-          "en": "I have to see a house tomorrow because this one is very old, and I want to see a new house",
-          "translit": "lazim bshuf beit bukra la2an haad adeem kteer, wa biddi bshuf beit jdeed"
-        },
-        {
-          "ar": "لازم بتحبي القهوة اليوم لأن تعبانة كتير، وعندك شي كتير بعدين",
-          "en": "You have to love the coffee today because you're very tired, and you have a lot later",
-          "translit": "lazim bt7ibbi el-ahwe el-yom la2an ta3baane kteer, wa 3andek shi kteer ba3dein"
-        },
-        {
-          "ar": "لازم بيشوف بيت اليوم لأن تعبان كتير، وعنده صديق منيح معه",
-          "en": "He has to see a house today because he's very tired, and he has a good friend with him",
-          "translit": "lazim byshuf beit el-yom la2an ta3baan kteer, wa 3ando sadeeq mnih ma3o"
-        },
-        {
-          "ar": "لازم منشوف بيت الأهل اليوم لأن ما شفناهن كتير، ومنحب القهوة معهن",
-          "en": "We have to see the family's house today because we haven't seen them much, and we love the coffee with them",
-          "translit": "lazim mnshuf beit el-ahl el-yom la2an ma shifnahon kteer, wa mn7ibb el-ahwe ma3hon"
-        }
-      ],
-      "topicId": "c1-chain"
-    },
-    {
-      "number": 22,
-      "title": "Lazim Ma, Because, But",
-      "titleNative": "لازم ما، لأن، بس",
-      "items": [
-        {
-          "ar": "لازم ما بشوف بيت غالي اليوم لأن ما عندي فلوس، بس البيت الرخيص منيح",
-          "en": "I shouldn't see an expensive house today because I don't have money, but the cheap house is good",
-          "translit": "lazim ma bshuf beit ghali el-yom la2an ma 3andi fluus, bas el-beit er-rkhees mnih"
-        },
-        {
-          "ar": "لازم ما بتحب قهوة كتير وانت تعبان كتير، لازم بتحب المي بس",
-          "en": "You shouldn't love a lot of coffee while you're very tired, you should just love water",
-          "translit": "lazim ma bt7ibb ahwe kteer wa inta ta3baan kteer, lazim bt7ibb el-may bas"
-        },
-        {
-          "ar": "لازم ما بيشوف بيت بعيد اليوم لأن السيارة مشكلة، بس البيت القريب منيح",
-          "en": "He shouldn't see a far house today because the car is a problem, but the near house is good",
-          "translit": "lazim ma byshuf beit ba3eed el-yom la2an es-sayyara mushkile, bas el-beit el-2areeb mnih"
-        },
-        {
-          "ar": "لازم ما منشوف بيت غالي اليوم لأن ما عندنا فلوس، بس البيت الرخيص منيح",
-          "en": "We shouldn't see an expensive house today because we don't have money, but the cheap house is good",
-          "translit": "lazim ma mnshuf beit ghali el-yom la2an ma 3andna fluus, bas el-beit er-rkhees mnih"
-        }
-      ],
-      "topicId": "c1-chain"
-    },
-    {
-      "number": 23,
-      "title": "I Don't Know, Because, But",
-      "titleNative": "مدري، لأن، بس",
-      "items": [
-        {
-          "ar": "مدري وين البيت الجديد اليوم لأن شفته مع صديقي مبارح، بس هو منيح كتير",
-          "en": "I don't know where the new house is today because I saw it with my friend yesterday, but it's very good",
-          "translit": "midri wein el-beit el-jdeed el-yom la2an shifto ma3 sadeeqi mbare7, bas huwwe mnih kteer"
-        },
-        {
-          "ar": "ما بتشوفي وين البيت هلق، بس لازم بتشوفي اليوم منيح",
-          "en": "You don't see where the house is now, but you should see it today, good",
-          "translit": "ma btshufi wein el-beit hala2, bas lazim btshufi el-yom mnih"
-        },
-        {
-          "ar": "بيشوف وين البيت القريب لأن شفته مع الأهل مبارح، بس هو تعبان كتير",
-          "en": "He sees where the near house is because he saw it with the family yesterday, but he's very tired",
-          "translit": "byshuf wein el-beit el-2areeb la2an shifto ma3 el-ahl mbare7, bas huwwe ta3baan kteer"
-        },
-        {
-          "ar": "منشوف وين الأهل هلق لأن شفناهن مبارح، بس تعبانين كتير اليوم",
-          "en": "We see where the family is now because we saw them yesterday, but they're very tired today",
-          "translit": "mnshuf wein el-ahl hala2 la2an shifnahon mbare7, bas ta3baaneen kteer el-yom"
-        }
-      ],
-      "topicId": "c1-chain"
-    },
-    {
-      "number": 24,
-      "title": "Wanting, Because, But",
-      "titleNative": "بدي، لأن، بس",
-      "items": [
-        {
-          "ar": "بدي بشوف بيت جديد اليوم لأن هاد قديم كتير، بس ما عندي فلوس منيح",
-          "en": "I want to see a new house today because this one is very old, but I don't have good money",
-          "translit": "biddi bshuf beit jdeed el-yom la2an haad adeem kteer, bas ma 3andi fluus mnih"
-        },
-        {
-          "ar": "بتحبي القهوة منيح اليوم لأن تعبانة كتير، بس عندك شي بعدين",
-          "en": "You love the good coffee today because you're very tired, but you have something later",
-          "translit": "bt7ibbi el-ahwe mnih el-yom la2an ta3baane kteer, bas 3andek shi ba3dein"
-        },
-        {
-          "ar": "بيحب يشوف بيت اليوم لأن تعبان كتير، بس ما عنده فلوس كتير",
-          "en": "He loves seeing a house today because he's very tired, but he doesn't have a lot of money",
-          "translit": "by7ibb yshuf beit el-yom la2an ta3baan kteer, bas ma 3ando fluus kteer"
-        },
-        {
-          "ar": "مدري وين البيت الجديد لأن شفته مع صديقي مبارح، وهو منيح كتير اليوم",
-          "en": "I don't know where the new house is because I saw it with my friend yesterday, and it's very good today",
-          "translit": "midri wein el-beit el-jdeed la2an shifto ma3 sadeeqi mbare7, wa huwwe mnih kteer el-yom"
-        }
-      ],
-      "topicId": "c1-chain"
-    },
-    {
-      "number": 25,
-      "title": "Review: Lazim, Know, Want",
-      "titleNative": "مراجعة",
-      "items": [
-        {
-          "ar": "لازم بشوف بيت بكرة لأن هاد قديم كتير، وبدي بشوف بيت جديد",
-          "en": "I have to see a house tomorrow because this one is very old, and I want to see a new house",
-          "translit": "lazim bshuf beit bukra la2an haad adeem kteer, wa biddi bshuf beit jdeed"
-        },
-        {
-          "ar": "لازم ما بشوف بيت غالي اليوم لأن ما عندي فلوس، بس البيت الرخيص منيح",
-          "en": "I shouldn't see an expensive house today because I don't have money, but the cheap house is good",
-          "translit": "lazim ma bshuf beit ghali el-yom la2an ma 3andi fluus, bas el-beit er-rkhees mnih"
-        },
-        {
-          "ar": "مدري وين البيت الجديد اليوم لأن شفته مع صديقي مبارح، بس هو منيح كتير",
-          "en": "I don't know where the new house is today because I saw it with my friend yesterday, but it's very good",
-          "translit": "midri wein el-beit el-jdeed el-yom la2an shifto ma3 sadeeqi mbare7, bas huwwe mnih kteer"
-        },
-        {
-          "ar": "بدي بشوف بيت جديد اليوم لأن هاد قديم كتير، بس ما عندي فلوس منيح",
-          "en": "I want to see a new house today because this one is very old, but I don't have good money",
-          "translit": "biddi bshuf beit jdeed el-yom la2an haad adeem kteer, bas ma 3andi fluus mnih"
-        }
-      ]
-    },
-    {
-      "number": 26,
-      "title": "Colors, Chained",
-      "titleNative": "الألوان، متسلسل",
-      "items": [
-        {
-          "ar": "بدي البيت الأحمر اليوم لأن قريب كتير، وعندي فلوس منيح اليوم",
-          "en": "I want the red house today because it's very close, and I have good money today",
-          "translit": "biddi el-beit el-a7mar el-yom la2an 2areeb kteer, wa 3andi fluus mnih el-yom"
-        },
-        {
-          "ar": "بتحب البيت الأزرق اليوم لأن كبير كتير، بس غالي كتير اليوم",
-          "en": "You love the blue house today because it's very big, but it's very expensive today",
-          "translit": "bt7ibb el-beit el-azra2 el-yom la2an kbeer kteer, bas ghali kteer el-yom"
-        },
-        {
-          "ar": "بيحب البيت الأصفر اليوم لأن جديد كتير، وعنده فلوس منيح اليوم",
-          "en": "He loves the yellow house today because it's very new, and he has good money today",
-          "translit": "by7ibb el-beit el-asfar el-yom la2an jdeed kteer, wa 3ando fluus mnih el-yom"
-        },
-        {
-          "ar": "منحب البيت الأخضر اليوم لأن قريب كتير، وعندنا فلوس منيح اليوم",
-          "en": "We love the green house today because it's very close, and we have good money today",
-          "translit": "mn7ibb el-beit el-akhdar el-yom la2an 2areeb kteer, wa 3andna fluus mnih el-yom"
-        }
-      ],
-      "topicId": "c1-chain"
-    },
-    {
-      "number": 27,
-      "title": "A Story, Chained",
-      "titleNative": "قصة، متسلسل",
-      "items": [
-        {
-          "ar": "شفت بيت مبارح مع صديقي لأن هو منيح كتير، وشفت الأهل معه",
-          "en": "I saw a house yesterday with my friend because it's very good, and I saw the family with him",
-          "translit": "shift beit mbare7 ma3 sadeeqi la2an huwwe mnih kteer, wa shift el-ahl ma3o"
-        },
-        {
-          "ar": "شفتي بيت أختك مبارح لأن تعبانة كتير، وشفتي أهلها معها منيح",
-          "en": "You (f) saw your sister's house yesterday because she was very tired, and you saw her family with her, good",
-          "translit": "shifti beit ukhtek mbare7 la2an ta3baane kteer, wa shifti ahilha ma3a mnih"
-        },
-        {
-          "ar": "شاف بيت الأهل مبارح لأن تعبان كتير، وشاف صديقه هونيك منيح",
-          "en": "He saw the family's house yesterday because he was very tired, and he saw his friend there, good",
-          "translit": "shaf beit el-ahl mbare7 la2an ta3baan kteer, wa shaf sadeeqo hownik mnih"
-        },
-        {
-          "ar": "شفنا بيت أهلنا مبارح لأن ما شفناهن كتير، وشفنا صديقهن هونيك منيح",
-          "en": "We saw our family's house yesterday because we hadn't seen them much, and we saw their friend there, good",
-          "translit": "shifna beit ahalna mbare7 la2an ma shifnahon kteer, wa shifna sadeeqhon hownik mnih"
-        }
-      ]
-    },
-    {
-      "number": 28,
-      "title": "Money, Chained",
-      "titleNative": "الفلوس، متسلسل",
-      "items": [
-        {
-          "ar": "عندي فلوس كتير اليوم لأن ما شفت بيت غالي، وبدي بشوف بيت رخيص",
-          "en": "I have a lot of money today because I didn't see an expensive house, and I want to see a cheap one",
-          "translit": "3andi fluus kteer el-yom la2an ma shift beit ghali, wa biddi bshuf beit rkhees"
-        },
-        {
-          "ar": "ما عندك فلوس كتير اليوم لأن شفتي بيت غالي مبارح، بس بكرة منيح",
-          "en": "You (f) don't have a lot of money today because you saw an expensive house yesterday, but tomorrow it's fine",
-          "translit": "ma 3andek fluus kteer el-yom la2an shifti beit ghali mbare7, bas bukra mnih"
-        },
-        {
-          "ar": "عنده فلوس منيح اليوم لأن ما شاف بيت غالي، وبيحب يشوف معه بكرة",
-          "en": "He has good money today because he didn't see an expensive house, and he loves seeing with him tomorrow",
-          "translit": "3ando fluus mnih el-yom la2an ma shaf beit ghali, wa by7ibb yshuf ma3o bukra"
-        },
-        {
-          "ar": "عندنا فلوس منيح اليوم لأن ما شفنا بيت غالي، ومنشوف بكرة منيح",
-          "en": "We have good money today because we didn't see an expensive house, and we're seeing tomorrow, good",
-          "translit": "3andna fluus mnih el-yom la2an ma shifna beit ghali, wa mnshuf bukra mnih"
-        }
-      ]
-    },
-    {
-      "number": 29,
-      "title": "Feelings, Chained",
-      "titleNative": "المشاعر، متسلسل",
-      "items": [
-        {
-          "ar": "أنا منيح اليوم لأن شفت الأهل مبارح، وبدي بشوف بيتهن بكرة منيح",
-          "en": "I'm good today because I saw the family yesterday, and I want to see their house tomorrow, good",
-          "translit": "ana mnih el-yom la2an shift el-ahl mbare7, wa biddi bshuf beithon bukra mnih"
-        },
-        {
-          "ar": "هي مش منيحة اليوم لأن ما عندا فلوس كتير، بس صديقها منيح معها",
-          "en": "She's not good today because she doesn't have a lot of money, but her friend is good with her",
-          "translit": "hiyye mish mniha el-yom la2an ma 3anda fluus kteer, bas sadeeqha mnih ma3a"
-        },
-        {
-          "ar": "هو تعبان اليوم لأن شاف الأهل كتير، وبيحب يشوف معه بعدين",
-          "en": "He's tired today because he saw the family a lot, and he loves seeing with him later",
-          "translit": "huwwe ta3baan el-yom la2an shaf el-ahl kteer, wa by7ibb yshuf ma3o ba3dein"
-        },
-        {
-          "ar": "نحنا منيحين اليوم لأن شفنا الأهل مبارح، ومنحب نشوف بيتهن بكرة منيح",
-          "en": "We're good today because we saw the family yesterday, and we love seeing their house tomorrow, good",
-          "translit": "ni7na mnihheen el-yom la2an shifna el-ahl mbare7, wa mn7ibb nshuf beithon bukra mnih"
-        }
-      ]
-    },
-    {
-      "number": 30,
-      "title": "Review: C1 Final Recap",
-      "titleNative": "مراجعة نهائية",
-      "items": [
-        {
-          "ar": "بدي البيت الأحمر اليوم لأن قريب كتير، وعندي فلوس منيح اليوم",
-          "en": "I want the red house today because it's very close, and I have good money today",
-          "translit": "biddi el-beit el-a7mar el-yom la2an 2areeb kteer, wa 3andi fluus mnih el-yom"
-        },
-        {
-          "ar": "شفت بيت مبارح مع صديقي لأن هو منيح كتير، وشفت الأهل معه",
-          "en": "I saw a house yesterday with my friend because it's very good, and I saw the family with him",
-          "translit": "shift beit mbare7 ma3 sadeeqi la2an huwwe mnih kteer, wa shift el-ahl ma3o"
-        },
-        {
-          "ar": "عندي فلوس كتير اليوم لأن ما شفت بيت غالي، وبدي بشوف بيت رخيص",
-          "en": "I have a lot of money today because I didn't see an expensive house, and I want to see a cheap one",
-          "translit": "3andi fluus kteer el-yom la2an ma shift beit ghali, wa biddi bshuf beit rkhees"
-        },
-        {
-          "ar": "أنا منيح اليوم لأن شفت الأهل مبارح، وبدي بشوف بيتهن بكرة منيح",
-          "en": "I'm good today because I saw the family yesterday, and I want to see their house tomorrow, good",
-          "translit": "ana mnih el-yom la2an shift el-ahl mbare7, wa biddi bshuf beithon bukra mnih"
-        }
-      ]
+     "ar": "منحب القهوة منيح اليوم لأن عندنا شي بعدين، ومنشوف بيت جديد بكرة",
+     "en": "We love the coffee a lot today because we have something later, and we're seeing a new house tomorrow",
+     "translit": "mn7ibb el-ahwe mnih el-yom la2an 3andna shi ba3dein, wa mnshuf beit jdeed bukra"
     }
-  ]
+   ],
+   "topicId": "c1-chain"
+  },
+  {
+   "number": 3,
+   "title": "Wanting, Because, And",
+   "titleNative": "بدي، لأن، و",
+   "items": [
+    {
+     "ar": "بدي بشوف بيت جديد اليوم لأن هاد قديم كتير، وعندي فلوس منيح",
+     "en": "I want to see a new house today because this one is very old, and I have good money",
+     "translit": "biddi bshuf beit jdeed el-yom la2an haad adeem kteer, wa 3andi fluus mnih"
+    },
+    {
+     "ar": "بتشوف بيت جديد اليوم لأن هاد قديم كتير، وعندا فلوس منيح",
+     "en": "She's seeing a new house today because this one is very old, and she has good money",
+     "translit": "btshuf beit jdeed el-yom la2an haad adeem kteer, wa 3anda fluus mnih"
+    },
+    {
+     "ar": "بيشوف بيت اليوم لأن تعبان كتير، وعنده صديق منيح هونيك",
+     "en": "He's seeing a house today because he's very tired, and he has a good friend there",
+     "translit": "byshuf beit el-yom la2an ta3baan kteer, wa 3ando sadeeq mnih hownik"
+    },
+    {
+     "ar": "بشوف بيت جديد اليوم لأن شفته مع صديقي مبارح، وهو منيح كتير",
+     "en": "I'm seeing a new house today because I saw it with my friend yesterday, and it's very good",
+     "translit": "bshuf beit jdeed el-yom la2an shifto ma3 sadeeqi mbare7, wa huwwe mnih kteer"
+    }
+   ],
+   "topicId": "c1-chain"
+  },
+  {
+   "number": 4,
+   "title": "I Don't Know, Because, And",
+   "titleNative": "مدري، لأن، و",
+   "items": [
+    {
+     "ar": "مدري وين البيت الجديد اليوم لأن ما شفته، بس صديقي منيح هونيك",
+     "en": "I don't know where the new house is today because I haven't seen it, but my good friend is there",
+     "translit": "midri wein el-beit el-jdeed el-yom la2an ma shifto, bas sadeeqi mnih hownik"
+    },
+    {
+     "ar": "مدري وين منشوف بكرة لأن ما شفت الأهل اليوم، بس بحب بشوف",
+     "en": "I don't know where we're seeing it tomorrow because I didn't see the family today, but I love to see it",
+     "translit": "midri wein mnshuf bukra la2an ma shift el-ahl el-yom, bas b7ibb bshuf"
+    },
+    {
+     "ar": "مدري وين البيت القريب لأن شفته مع الأهل مبارح، وهو منيح كتير",
+     "en": "I don't know where the close house is because I saw it with the family yesterday, and it's very good",
+     "translit": "midri wein el-beit el-2areeb la2an shifto ma3 el-ahl mbare7, wa huwwe mnih kteer"
+    },
+    {
+     "ar": "مدري وين الأهل هلق لأن شفناهن مبارح، وهني منيحين كتير اليوم",
+     "en": "I don't know where the family is now because we saw them yesterday, and they're very good today",
+     "translit": "midri wein el-ahl hala2 la2an shifnahon mbare7, wa hinne mnihheen kteer el-yom"
+    }
+   ],
+   "topicId": "c1-chain"
+  },
+  {
+   "number": 5,
+   "title": "Review: Chained Clauses",
+   "titleNative": "مراجعة",
+   "items": [
+    {
+     "ar": "بشوف بيت جديد اليوم لأن هاد قديم كتير، وعندي فلوس منيح اليوم",
+     "en": "I'm seeing a new house today because this one is very old, and I have good money today",
+     "translit": "bshuf beit jdeed el-yom la2an haad adeem kteer, wa 3andi fluus mnih el-yom"
+    },
+    {
+     "ar": "بتحب الشاي منيح اليوم لأن تعبانة كتير، وبعدين بتشوف بيت جديد",
+     "en": "You love the tea a lot today because you're very tired, and afterward you're seeing a new house",
+     "translit": "bt7ibb esh-shay mnih el-yom la2an ta3baane kteer, wa ba3dein btshuf beit jdeed"
+    },
+    {
+     "ar": "بدي بشوف بيت جديد اليوم لأن هاد قديم كتير، وعندي فلوس منيح",
+     "en": "I want to see a new house today because this one is very old, and I have good money",
+     "translit": "biddi bshuf beit jdeed el-yom la2an haad adeem kteer, wa 3andi fluus mnih"
+    },
+    {
+     "ar": "مدري وين الأهل هلق لأن شفناهن مبارح، وهني منيحين كتير اليوم",
+     "en": "I don't know where the family is now because we saw them yesterday, and they're very good today",
+     "translit": "midri wein el-ahl hala2 la2an shifnahon mbare7, wa hinne mnihheen kteer el-yom"
+    }
+   ]
+  },
+  {
+   "number": 6,
+   "title": "Not Seeing, Because, But",
+   "titleNative": "ما بشوف، لأن، بس",
+   "items": [
+    {
+     "ar": "ما بشوف بيت اليوم لأن تعبان كتير، بس بكرة بشوف منيح",
+     "en": "I'm not seeing a house today because I'm very tired, but tomorrow I'll see one, good",
+     "translit": "ma bshuf beit el-yom la2an ta3baan kteer, bas bukra bshuf mnih"
+    },
+    {
+     "ar": "ما بتحب القهوة اليوم لأن تعبانة كتير، بس بتحب المي منيح",
+     "en": "You're not loving coffee today because you're very tired, but you love water, good",
+     "translit": "ma bt7ibb el-ahwe el-yom la2an ta3baane kteer, bas bt7ibb el-may mnih"
+    },
+    {
+     "ar": "ما بيحب بيت غالي اليوم لأن ما عنده فلوس، بس بيحب بيت منيح",
+     "en": "He doesn't love an expensive house today because he doesn't have money, but he loves a good house",
+     "translit": "ma by7ibb beit ghali el-yom la2an ma 3ando fluus, bas by7ibb beit mnih"
+    },
+    {
+     "ar": "ما منشوف بيت اليوم، بس لازم منشوف بيت بكرة منيح",
+     "en": "We're not seeing a house today, but we should see a house tomorrow, good",
+     "translit": "ma mnshuf beit el-yom, bas lazim mnshuf beit bukra mnih"
+    }
+   ],
+   "topicId": "c1-chain"
+  },
+  {
+   "number": 7,
+   "title": "Not Wanting, Because, But",
+   "titleNative": "ما بدي، لأن، بس",
+   "items": [
+    {
+     "ar": "ما بدي بشوف بيت غالي اليوم لأن ما عندي فلوس كتير، بس بدي بحب القهوة",
+     "en": "I don't want to see an expensive house today because I don't have a lot of money, but I want to love the coffee",
+     "translit": "ma biddi bshuf beit ghali el-yom la2an ma 3andi fluus kteer, bas biddi b7ibb el-ahwe"
+    },
+    {
+     "ar": "مدري وين البيت الجديد اليوم، بس صديقك منيح بيشوف",
+     "en": "You don't know where the new house is today, but your good friend sees it",
+     "translit": "midri wein el-beit el-jdeed el-yom, bas sadeeqak mnih byshuf"
+    },
+    {
+     "ar": "ما بيشوف بيت غالي اليوم لأن مش عنده فلوس كتير، بس بيشوف بيت منيح",
+     "en": "He's not seeing an expensive house today because he doesn't have a lot of money, but he's seeing a good house",
+     "translit": "ma byshuf beit ghali el-yom la2an mish 3ando fluus kteer, bas byshuf beit mnih"
+    },
+    {
+     "ar": "ما منشوف بيت صغير اليوم لأن عندنا أهل كتير، بس البيت الكبير غالي",
+     "en": "We're not seeing a small house today because we have a lot of family, but the big house is expensive",
+     "translit": "ma mnshuf beit sgheer el-yom la2an 3andna ahl kteer, bas el-beit el-kbeer ghali"
+    }
+   ],
+   "topicId": "c1-chain"
+  },
+  {
+   "number": 8,
+   "title": "Money, Because, And",
+   "titleNative": "الفلوس، لأن، و",
+   "items": [
+    {
+     "ar": "عندي فلوس كتير اليوم لأن بحب قهوة رخيصة، وبدي بشوف بيت بعدين",
+     "en": "I have a lot of money today because I love cheap coffee, and I want to see a house later",
+     "translit": "3andi fluus kteer el-yom la2an b7ibb ahwe rkhees, wa biddi bshuf beit ba3dein"
+    },
+    {
+     "ar": "ما عندك فلوس كتير اليوم لأن شفت بيت غالي مبارح، بس بكرة منيح",
+     "en": "You don't have a lot of money today because you saw an expensive house yesterday, but tomorrow it's fine",
+     "translit": "ma 3andak fluus kteer el-yom la2an shift beit ghali mbare7, bas bukra mnih"
+    },
+    {
+     "ar": "عنده فلوس منيح اليوم لأن عنده شي كتير، وبيحب يشوف بيت جديد",
+     "en": "He has good money today because he has a lot, and he loves seeing a new house",
+     "translit": "3ando fluus mnih el-yom la2an 3ando shi kteer, wa by7ibb yshuf beit jdeed"
+    },
+    {
+     "ar": "ما عندنا فلوس كتير اليوم لأن شفنا بيت غالي مبارح، بس منيح اليوم",
+     "en": "We don't have a lot of money today because we saw an expensive house yesterday, but it's fine today",
+     "translit": "ma 3andna fluus kteer el-yom la2an shifna beit ghali mbare7, bas mnih el-yom"
+    }
+   ]
+  },
+  {
+   "number": 9,
+   "title": "Family, Because, And",
+   "titleNative": "الأهل، لأن، و",
+   "items": [
+    {
+     "ar": "بشوف بيت الأهل اليوم لأن ما شفته كتير، وبحب بشوف بيته منيح",
+     "en": "I'm seeing the family's house today because I haven't seen it much, and I love seeing his house, good",
+     "translit": "bshuf beit el-ahl el-yom la2an ma shifto kteer, wa b7ibb bshuf beito mnih"
+    },
+    {
+     "ar": "بتشوف بيت الأهل اليوم لأن عندن شي كبير، وبتحب تشوف بيته منيح",
+     "en": "You're seeing the family's house today because they have something big, and you love seeing his house, good",
+     "translit": "btshuf beit el-ahl el-yom la2an 3andon shi kbeer, wa bt7ibb tshuf beito mnih"
+    },
+    {
+     "ar": "بيشوف بيت الأهل اليوم لأن ما شافه كتير، وعنده صديق منيح هونيك",
+     "en": "He's seeing the family's house today because he hasn't seen it much, and he has a good friend there",
+     "translit": "byshuf beit el-ahl el-yom la2an ma shafo kteer, wa 3ando sadeeq mnih hownik"
+    },
+    {
+     "ar": "منشوف بيت الأهل اليوم لأن عندن شي كبير، ومنحب نشوف بيتهن منيح",
+     "en": "We're seeing the family's house today because they have something big, and we love seeing their house, good",
+     "translit": "mnshuf beit el-ahl el-yom la2an 3andon shi kbeer, wa mn7ibb nshuf beithon mnih"
+    }
+   ]
+  },
+  {
+   "number": 10,
+   "title": "Review: C1 Recap",
+   "titleNative": "مراجعة نهائية",
+   "items": [
+    {
+     "ar": "ما بشوف بيت اليوم لأن تعبان كتير، بس بكرة بشوف منيح",
+     "en": "I'm not seeing a house today because I'm very tired, but tomorrow I'll see one, good",
+     "translit": "ma bshuf beit el-yom la2an ta3baan kteer, bas bukra bshuf mnih"
+    },
+    {
+     "ar": "ما بدي بشوف بيت غالي اليوم لأن ما عندي فلوس كتير، بس بدي بحب القهوة",
+     "en": "I don't want to see an expensive house today because I don't have a lot of money, but I want to love the coffee",
+     "translit": "ma biddi bshuf beit ghali el-yom la2an ma 3andi fluus kteer, bas biddi b7ibb el-ahwe"
+    },
+    {
+     "ar": "عندي فلوس كتير اليوم لأن بحب قهوة رخيصة، وبدي بشوف بيت بعدين",
+     "en": "I have a lot of money today because I love cheap coffee, and I want to see a house later",
+     "translit": "3andi fluus kteer el-yom la2an b7ibb ahwe rkhees, wa biddi bshuf beit ba3dein"
+    },
+    {
+     "ar": "بشوف بيت الأهل اليوم لأن ما شفته كتير، وبحب بشوف بيته منيح",
+     "en": "I'm seeing the family's house today because I haven't seen it much, and I love seeing his house, good",
+     "translit": "bshuf beit el-ahl el-yom la2an ma shifto kteer, wa b7ibb bshuf beito mnih"
+    }
+   ]
+  },
+  {
+   "number": 11,
+   "title": "The Near Place, Because, But",
+   "titleNative": "المكان القريب، لأن، بس",
+   "items": [
+    {
+     "ar": "بشوف بيت قريب اليوم لأن السيارة مشكلة، بس بكرة بشوف بعيد",
+     "en": "I'm seeing a nearby house today because the car is a problem, but tomorrow I'll see a far one",
+     "translit": "bshuf beit 2areeb el-yom la2an es-sayyara mushkile, bas bukra bshuf ba3eed"
+    },
+    {
+     "ar": "بتشوف بيت هون اليوم لأن الأهل هون منيح، بس مش عندك شي كتير",
+     "en": "You're seeing a house here today because the family is here, good, but you don't have a lot",
+     "translit": "btshuf beit hown el-yom la2an el-ahl hown mnih, bas mish 3andek shi kteer"
+    },
+    {
+     "ar": "بيشوف بيت هونيك اليوم لأن أهله هونيك، وعنده صديق منيح هونيك",
+     "en": "He's seeing a house there today because his family is there, and he has a good friend there",
+     "translit": "byshuf beit hownik el-yom la2an ahlo hownik, wa 3ando sadeeq mnih hownik"
+    },
+    {
+     "ar": "منشوف بيت قريب اليوم لأن تعبانين كتير، وعندنا فلوس منيح اليوم",
+     "en": "We're seeing a nearby house today because we're very tired, and we have good money today",
+     "translit": "mnshuf beit 2areeb el-yom la2an ta3baaneen kteer, wa 3andna fluus mnih el-yom"
+    }
+   ],
+   "topicId": "c1-chain"
+  },
+  {
+   "number": 12,
+   "title": "This Red House, Because, And",
+   "titleNative": "هاد البيت الأحمر، لأن، و",
+   "items": [
+    {
+     "ar": "بدي البيت الأحمر اليوم لأن قريب كتير، وعندي فلوس منيح اليوم",
+     "en": "I want the red house today because it's very close, and I have good money today",
+     "translit": "biddi el-beit el-a7mar el-yom la2an 2areeb kteer, wa 3andi fluus mnih el-yom"
+    },
+    {
+     "ar": "بتحب البيت الأزرق اليوم لأن كبير كتير، بس غالي كتير اليوم",
+     "en": "You love the blue house today because it's very big, but it's very expensive today",
+     "translit": "bt7ibb el-beit el-azra2 el-yom la2an kbeer kteer, bas ghali kteer el-yom"
+    },
+    {
+     "ar": "بيحب البيت الأصفر اليوم لأن جديد كتير، وعنده فلوس منيح اليوم",
+     "en": "He loves the yellow house today because it's very new, and he has good money today",
+     "translit": "by7ibb el-beit el-asfar el-yom la2an jdeed kteer, wa 3ando fluus mnih el-yom"
+    },
+    {
+     "ar": "منشوف البيت الأخضر اليوم لأن قريب كتير، وعندنا فلوس منيح اليوم",
+     "en": "We're seeing the green house today because it's very close, and we have good money today",
+     "translit": "mnshuf el-beit el-akhdar el-yom la2an 2areeb kteer, wa 3andna fluus mnih el-yom"
+    }
+   ],
+   "topicId": "c1-chain"
+  },
+  {
+   "number": 13,
+   "title": "Days, Because, And",
+   "titleNative": "الأيام، لأن، و",
+   "items": [
+    {
+     "ar": "بشوف بيت يوم الأحد لأن عندي فلوس منيح، وبحب بشوف بيته منيح",
+     "en": "I'm seeing a house on Sunday because I have good money, and I love seeing his house, good",
+     "translit": "bshuf beit yom el-a7ad la2an 3andi fluus mnih, wa b7ibb bshuf beito mnih"
+    },
+    {
+     "ar": "بتحب القهوة يوم الجمعة لأن تعبانة كتير، وعندك شي كتير بعدين",
+     "en": "You love the coffee on Friday because you're very tired, and you have something later",
+     "translit": "bt7ibb el-ahwe yom el-jum3a la2an ta3baane kteer, wa 3andek shi kteer ba3dein"
+    },
+    {
+     "ar": "بيشوف بيت يوم السبت لأن عنده صديق منيح، وبيحب القهوة معه كتير",
+     "en": "He's seeing a house on Saturday because he has a good friend, and he loves the coffee with him a lot",
+     "translit": "byshuf beit yom es-sabt la2an 3ando sadeeq mnih, wa by7ibb el-ahwe ma3o kteer"
+    },
+    {
+     "ar": "منشوف بيت الأهل يوم الخميس لأن ما شفناهن كتير، ومنحب الشاي معهن كتير",
+     "en": "We're seeing the family's house on Thursday because we haven't seen them much, and we love the tea with them a lot",
+     "translit": "mnshuf beit el-ahl yom el-khamees la2an ma shifnahon kteer, wa mn7ibb esh-shay ma3hon kteer"
+    }
+   ],
+   "topicId": "c1-chain"
+  },
+  {
+   "number": 14,
+   "title": "Feelings, Because, But",
+   "titleNative": "المشاعر، لأن، بس",
+   "items": [
+    {
+     "ar": "أنا منيح اليوم لأن شفت الأهل، بس تعبان كتير اليوم",
+     "en": "I'm good today because I saw the family, but I'm very tired today",
+     "translit": "ana mnih el-yom la2an shift el-ahl, bas ta3baan kteer el-yom"
+    },
+    {
+     "ar": "هي مش منيحة اليوم لأن ما شافت أهلها، بس بتحب تشوف بيتهن بكرة",
+     "en": "She's not good today because she didn't see her family, but she loves seeing their house tomorrow",
+     "translit": "hiyye mish mniha el-yom la2an ma shafit ahilha, bas bt7ibb tshuf beithon bukra"
+    },
+    {
+     "ar": "هو مش منيح اليوم لأن ما عنده فلوس كتير، بس عنده صديق منيح",
+     "en": "He's not good today because he doesn't have a lot of money, but he has a good friend",
+     "translit": "huwwe mish mnih el-yom la2an ma 3ando fluus kteer, bas 3ando sadeeq mnih"
+    },
+    {
+     "ar": "نحنا منيحين اليوم لأن شفنا الأهل، بس تعبانين كتير اليوم",
+     "en": "We're good today because we saw the family, but we're very tired today",
+     "translit": "ni7na mnihheen el-yom la2an shifna el-ahl, bas ta3baaneen kteer el-yom"
+    }
+   ],
+   "topicId": "c1-chain"
+  },
+  {
+   "number": 15,
+   "title": "Review: Places, Colors, Days, Feelings",
+   "titleNative": "مراجعة",
+   "items": [
+    {
+     "ar": "بشوف بيت قريب اليوم لأن السيارة مشكلة، بس بكرة بشوف بعيد",
+     "en": "I'm seeing a nearby house today because the car is a problem, but tomorrow I'll see a far one",
+     "translit": "bshuf beit 2areeb el-yom la2an es-sayyara mushkile, bas bukra bshuf ba3eed"
+    },
+    {
+     "ar": "بدي البيت الأحمر اليوم لأن قريب كتير، وعندي فلوس منيح اليوم",
+     "en": "I want the red house today because it's very close, and I have good money today",
+     "translit": "biddi el-beit el-a7mar el-yom la2an 2areeb kteer, wa 3andi fluus mnih el-yom"
+    },
+    {
+     "ar": "بشوف بيت يوم الأحد لأن عندي فلوس منيح، وبحب بشوف بيته منيح",
+     "en": "I'm seeing a house on Sunday because I have good money, and I love seeing his house, good",
+     "translit": "bshuf beit yom el-a7ad la2an 3andi fluus mnih, wa b7ibb bshuf beito mnih"
+    },
+    {
+     "ar": "أنا منيح اليوم لأن شفت الأهل، بس تعبان كتير اليوم",
+     "en": "I'm good today because I saw the family, but I'm very tired today",
+     "translit": "ana mnih el-yom la2an shift el-ahl, bas ta3baan kteer el-yom"
+    }
+   ]
+  },
+  {
+   "number": 16,
+   "title": "Numbers, Because, And",
+   "titleNative": "الأرقام، لأن، و",
+   "items": [
+    {
+     "ar": "عندي تلاتة فلوس منيح اليوم لأن عندي شي منيح، وبدي بشوف بيت بعدين",
+     "en": "I have three good [money] today because I have something good, and I want to see a house later",
+     "translit": "3andi tlete fluus mnih el-yom la2an 3andi shi mnih, wa biddi bshuf beit ba3dein"
+    },
+    {
+     "ar": "عندك خمسة فلوس منيح اليوم لأن شفت الأهل كتير، وبدي بحب القهوة معك",
+     "en": "You have five good [money] today because you saw the family a lot, and I want to love coffee with you",
+     "translit": "3andak khamse fluus mnih el-yom la2an shift el-ahl kteer, wa biddi b7ibb el-ahwe ma3ak"
+    },
+    {
+     "ar": "عنده سبعة فلوس منيح اليوم لأن بيحب يشوف كتير، وعنده صديق منيح",
+     "en": "He has seven good [money] today because he loves seeing a lot, and he has a good friend",
+     "translit": "3ando sab3a fluus mnih el-yom la2an by7ibb yshuf kteer, wa 3ando sadeeq mnih"
+    },
+    {
+     "ar": "عندنا تسعة فلوس منيح هونيك لأن أهلنا منيحين، وبدي بشوف بيتهن بكرة",
+     "en": "We have nine good [money] there because our family is good, and I want to see their house tomorrow",
+     "translit": "3andna tis3a fluus mnih hownik la2an ahalna mnihheen, wa biddi bshuf beithon bukra"
+    }
+   ],
+   "topicId": "c1-chain"
+  },
+  {
+   "number": 17,
+   "title": "Not Because, But Because, Chained",
+   "titleNative": "مش لأن، بس لأن، متسلسل",
+   "items": [
+    {
+     "ar": "ما بشوف بيت اليوم مش لأن تعبان، بس لأن ما عندي فلوس كتير",
+     "en": "I'm not seeing a house today not because I'm tired, but because I don't have a lot of money",
+     "translit": "ma bshuf beit el-yom mish la2an ta3baan, bas la2an ma 3andi fluus kteer"
+    },
+    {
+     "ar": "ما بتحبي القهوة اليوم مش لأن مش منيحة، بس لأن عندك شي كتير",
+     "en": "You're not loving the coffee today not because it's not good, but because you have a lot",
+     "translit": "ma bt7ibbi el-ahwe el-yom mish la2an mish mniha, bas la2an 3andek shi kteer"
+    },
+    {
+     "ar": "ما بيشوف بيت غالي اليوم مش لأن غالي، بس لأن تعبان كتير",
+     "en": "He's not seeing an expensive house today not because it's expensive, but because he's very tired",
+     "translit": "ma byshuf beit ghali el-yom mish la2an ghali, bas la2an ta3baan kteer"
+    },
+    {
+     "ar": "ما منشوف بيت الأهل اليوم مش لأن تعبانين، بس لأن السيارة مشكلة",
+     "en": "We're not seeing the family's house today not because we're tired, but because the car is a problem",
+     "translit": "ma mnshuf beit el-ahl el-yom mish la2an ta3baaneen, bas la2an es-sayyara mushkile"
+    }
+   ],
+   "topicId": "c1-chain"
+  },
+  {
+   "number": 18,
+   "title": "A Full Day, Chained",
+   "titleNative": "يوم كامل، متسلسل",
+   "items": [
+    {
+     "ar": "صباح الخير، بحب القهوة منيح، وبعدين بشوف بيت لأن عندي شي كتير",
+     "en": "Good morning, I love the good coffee, and then I see a house because I have a lot to do",
+     "translit": "sabah el-kheir, b7ibb el-ahwe mnih, wa ba3dein bshuf beit la2an 3andi shi kteer"
+    },
+    {
+     "ar": "شفت بيت الأهل مبارح لأن ما شفته كتير، وبحب القهوة منيح معهن",
+     "en": "I saw the family's house yesterday because I hadn't seen it much, and I love the coffee with them, good",
+     "translit": "shift beit el-ahl mbare7 la2an ma shifto kteer, wa b7ibb el-ahwe mnih ma3hon"
+    },
+    {
+     "ar": "عندي فلوس منيح اليوم لأن ما شفت البيت الغالي، وبدي بشوف بكرة",
+     "en": "I have good money today because I didn't see the expensive house, and I want to see one tomorrow",
+     "translit": "3andi fluus mnih el-yom la2an ma shift el-beit el-ghali, wa biddi bshuf bukra"
+    },
+    {
+     "ar": "صباح النور، أنا منيح اليوم لأن عندي أهل منيح، وشفتهن اليوم",
+     "en": "Good morning, I'm good today because I have a good family, and I saw them today",
+     "translit": "sabah en-noor, ana mnih el-yom la2an 3andi ahl mnih, wa shifthon el-yom"
+    }
+   ]
+  },
+  {
+   "number": 19,
+   "title": "Another Full Day, Chained",
+   "titleNative": "يوم ثاني، متسلسل",
+   "items": [
+    {
+     "ar": "بدي بشوف بيت اليوم لأن هاد قديم كتير، وعندي فلوس منيح اليوم",
+     "en": "I want to see a house today because this one is very old, and I have good money today",
+     "translit": "biddi bshuf beit el-yom la2an haad adeem kteer, wa 3andi fluus mnih el-yom"
+    },
+    {
+     "ar": "بتحب القهوة اليوم لأن تعبانة كتير، بس عندك شي كتير بعدين",
+     "en": "You love the coffee today because you're very tired, but you have something later",
+     "translit": "bt7ibb el-ahwe el-yom la2an ta3baane kteer, bas 3andek shi kteer ba3dein"
+    },
+    {
+     "ar": "بيشوف بيت جديد اليوم لأن عنده فلوس منيح، وبيحب البيت الأخضر كتير",
+     "en": "He's seeing a new house today because he has good money, and he loves the green house a lot",
+     "translit": "byshuf beit jdeed el-yom la2an 3ando fluus mnih, wa by7ibb el-beit el-akhdar kteer"
+    },
+    {
+     "ar": "منشوف بيت الأهل اليوم لأن ما شفناه كتير، ومنحب القهوة معهن منيح",
+     "en": "We're seeing the family's house today because we haven't seen it much, and we love the coffee with them, good",
+     "translit": "mnshuf beit el-ahl el-yom la2an ma shifnah kteer, wa mn7ibb el-ahwe ma3hon mnih"
+    }
+   ]
+  },
+  {
+   "number": 20,
+   "title": "Review: C1 Recap 2",
+   "titleNative": "مراجعة نهائية",
+   "items": [
+    {
+     "ar": "عندي تلاتة فلوس منيح اليوم لأن عندي شي منيح، وبدي بشوف بيت بعدين",
+     "en": "I have three good [money] today because I have something good, and I want to see a house later",
+     "translit": "3andi tlete fluus mnih el-yom la2an 3andi shi mnih, wa biddi bshuf beit ba3dein"
+    },
+    {
+     "ar": "ما بشوف بيت اليوم مش لأن تعبان، بس لأن ما عندي فلوس كتير",
+     "en": "I'm not seeing a house today not because I'm tired, but because I don't have a lot of money",
+     "translit": "ma bshuf beit el-yom mish la2an ta3baan, bas la2an ma 3andi fluus kteer"
+    },
+    {
+     "ar": "صباح الخير، بحب القهوة منيح، وبعدين بشوف بيت لأن عندي شي كتير",
+     "en": "Good morning, I love the good coffee, and then I see a house because I have a lot to do",
+     "translit": "sabah el-kheir, b7ibb el-ahwe mnih, wa ba3dein bshuf beit la2an 3andi shi kteer"
+    },
+    {
+     "ar": "عندي فلوس منيح اليوم لأن ما شفت البيت الغالي، وبدي بشوف بكرة",
+     "en": "I have good money today because I didn't see the expensive house, and I want to see one tomorrow",
+     "translit": "3andi fluus mnih el-yom la2an ma shift el-beit el-ghali, wa biddi bshuf bukra"
+    }
+   ]
+  },
+  {
+   "number": 21,
+   "title": "Lazim, Because, And",
+   "titleNative": "لازم، لأن، و",
+   "items": [
+    {
+     "ar": "لازم بشوف بيت بكرة لأن هاد قديم كتير، وبدي بشوف بيت جديد",
+     "en": "I have to see a house tomorrow because this one is very old, and I want to see a new house",
+     "translit": "lazim bshuf beit bukra la2an haad adeem kteer, wa biddi bshuf beit jdeed"
+    },
+    {
+     "ar": "لازم بتحبي القهوة اليوم لأن تعبانة كتير، وعندك شي كتير بعدين",
+     "en": "You have to love the coffee today because you're very tired, and you have a lot later",
+     "translit": "lazim bt7ibbi el-ahwe el-yom la2an ta3baane kteer, wa 3andek shi kteer ba3dein"
+    },
+    {
+     "ar": "لازم بيشوف بيت اليوم لأن تعبان كتير، وعنده صديق منيح معه",
+     "en": "He has to see a house today because he's very tired, and he has a good friend with him",
+     "translit": "lazim byshuf beit el-yom la2an ta3baan kteer, wa 3ando sadeeq mnih ma3o"
+    },
+    {
+     "ar": "لازم منشوف بيت الأهل اليوم لأن ما شفناهن كتير، ومنحب القهوة معهن",
+     "en": "We have to see the family's house today because we haven't seen them much, and we love the coffee with them",
+     "translit": "lazim mnshuf beit el-ahl el-yom la2an ma shifnahon kteer, wa mn7ibb el-ahwe ma3hon"
+    }
+   ],
+   "topicId": "c1-chain"
+  },
+  {
+   "number": 22,
+   "title": "Lazim Ma, Because, But",
+   "titleNative": "لازم ما، لأن، بس",
+   "items": [
+    {
+     "ar": "لازم ما بشوف بيت غالي اليوم لأن ما عندي فلوس، بس البيت الرخيص منيح",
+     "en": "I shouldn't see an expensive house today because I don't have money, but the cheap house is good",
+     "translit": "lazim ma bshuf beit ghali el-yom la2an ma 3andi fluus, bas el-beit er-rkhees mnih"
+    },
+    {
+     "ar": "لازم ما بتحب قهوة كتير وانت تعبان كتير، لازم بتحب المي بس",
+     "en": "You shouldn't love a lot of coffee while you're very tired, you should just love water",
+     "translit": "lazim ma bt7ibb ahwe kteer wa inta ta3baan kteer, lazim bt7ibb el-may bas"
+    },
+    {
+     "ar": "لازم ما بيشوف بيت بعيد اليوم لأن السيارة مشكلة، بس البيت القريب منيح",
+     "en": "He shouldn't see a far house today because the car is a problem, but the near house is good",
+     "translit": "lazim ma byshuf beit ba3eed el-yom la2an es-sayyara mushkile, bas el-beit el-2areeb mnih"
+    },
+    {
+     "ar": "لازم ما منشوف بيت غالي اليوم لأن ما عندنا فلوس، بس البيت الرخيص منيح",
+     "en": "We shouldn't see an expensive house today because we don't have money, but the cheap house is good",
+     "translit": "lazim ma mnshuf beit ghali el-yom la2an ma 3andna fluus, bas el-beit er-rkhees mnih"
+    }
+   ],
+   "topicId": "c1-chain"
+  },
+  {
+   "number": 23,
+   "title": "I Don't Know, Because, But",
+   "titleNative": "مدري، لأن، بس",
+   "items": [
+    {
+     "ar": "مدري وين البيت الجديد اليوم لأن شفته مع صديقي مبارح، بس هو منيح كتير",
+     "en": "I don't know where the new house is today because I saw it with my friend yesterday, but it's very good",
+     "translit": "midri wein el-beit el-jdeed el-yom la2an shifto ma3 sadeeqi mbare7, bas huwwe mnih kteer"
+    },
+    {
+     "ar": "ما بتشوفي وين البيت هلق، بس لازم بتشوفي اليوم منيح",
+     "en": "You don't see where the house is now, but you should see it today, good",
+     "translit": "ma btshufi wein el-beit hala2, bas lazim btshufi el-yom mnih"
+    },
+    {
+     "ar": "بيشوف وين البيت القريب لأن شفته مع الأهل مبارح، بس هو تعبان كتير",
+     "en": "He sees where the near house is because he saw it with the family yesterday, but he's very tired",
+     "translit": "byshuf wein el-beit el-2areeb la2an shifto ma3 el-ahl mbare7, bas huwwe ta3baan kteer"
+    },
+    {
+     "ar": "منشوف وين الأهل هلق لأن شفناهن مبارح، بس تعبانين كتير اليوم",
+     "en": "We see where the family is now because we saw them yesterday, but they're very tired today",
+     "translit": "mnshuf wein el-ahl hala2 la2an shifnahon mbare7, bas ta3baaneen kteer el-yom"
+    }
+   ],
+   "topicId": "c1-chain"
+  },
+  {
+   "number": 24,
+   "title": "Wanting, Because, But",
+   "titleNative": "بدي، لأن، بس",
+   "items": [
+    {
+     "ar": "بدي بشوف بيت جديد اليوم لأن هاد قديم كتير، بس ما عندي فلوس منيح",
+     "en": "I want to see a new house today because this one is very old, but I don't have good money",
+     "translit": "biddi bshuf beit jdeed el-yom la2an haad adeem kteer, bas ma 3andi fluus mnih"
+    },
+    {
+     "ar": "بتحبي القهوة منيح اليوم لأن تعبانة كتير، بس عندك شي بعدين",
+     "en": "You love the good coffee today because you're very tired, but you have something later",
+     "translit": "bt7ibbi el-ahwe mnih el-yom la2an ta3baane kteer, bas 3andek shi ba3dein"
+    },
+    {
+     "ar": "بيحب يشوف بيت اليوم لأن تعبان كتير، بس ما عنده فلوس كتير",
+     "en": "He loves seeing a house today because he's very tired, but he doesn't have a lot of money",
+     "translit": "by7ibb yshuf beit el-yom la2an ta3baan kteer, bas ma 3ando fluus kteer"
+    },
+    {
+     "ar": "مدري وين البيت الجديد لأن شفته مع صديقي مبارح، وهو منيح كتير اليوم",
+     "en": "I don't know where the new house is because I saw it with my friend yesterday, and it's very good today",
+     "translit": "midri wein el-beit el-jdeed la2an shifto ma3 sadeeqi mbare7, wa huwwe mnih kteer el-yom"
+    }
+   ],
+   "topicId": "c1-chain"
+  },
+  {
+   "number": 25,
+   "title": "Review: Lazim, Know, Want",
+   "titleNative": "مراجعة",
+   "items": [
+    {
+     "ar": "لازم بشوف بيت بكرة لأن هاد قديم كتير، وبدي بشوف بيت جديد",
+     "en": "I have to see a house tomorrow because this one is very old, and I want to see a new house",
+     "translit": "lazim bshuf beit bukra la2an haad adeem kteer, wa biddi bshuf beit jdeed"
+    },
+    {
+     "ar": "لازم ما بشوف بيت غالي اليوم لأن ما عندي فلوس، بس البيت الرخيص منيح",
+     "en": "I shouldn't see an expensive house today because I don't have money, but the cheap house is good",
+     "translit": "lazim ma bshuf beit ghali el-yom la2an ma 3andi fluus, bas el-beit er-rkhees mnih"
+    },
+    {
+     "ar": "مدري وين البيت الجديد اليوم لأن شفته مع صديقي مبارح، بس هو منيح كتير",
+     "en": "I don't know where the new house is today because I saw it with my friend yesterday, but it's very good",
+     "translit": "midri wein el-beit el-jdeed el-yom la2an shifto ma3 sadeeqi mbare7, bas huwwe mnih kteer"
+    },
+    {
+     "ar": "بدي بشوف بيت جديد اليوم لأن هاد قديم كتير، بس ما عندي فلوس منيح",
+     "en": "I want to see a new house today because this one is very old, but I don't have good money",
+     "translit": "biddi bshuf beit jdeed el-yom la2an haad adeem kteer, bas ma 3andi fluus mnih"
+    }
+   ]
+  },
+  {
+   "number": 26,
+   "title": "Colors, Chained",
+   "titleNative": "الألوان، متسلسل",
+   "items": [
+    {
+     "ar": "بدي البيت الأحمر اليوم لأن قريب كتير، وعندي فلوس منيح اليوم",
+     "en": "I want the red house today because it's very close, and I have good money today",
+     "translit": "biddi el-beit el-a7mar el-yom la2an 2areeb kteer, wa 3andi fluus mnih el-yom"
+    },
+    {
+     "ar": "بتحب البيت الأزرق اليوم لأن كبير كتير، بس غالي كتير اليوم",
+     "en": "You love the blue house today because it's very big, but it's very expensive today",
+     "translit": "bt7ibb el-beit el-azra2 el-yom la2an kbeer kteer, bas ghali kteer el-yom"
+    },
+    {
+     "ar": "بيحب البيت الأصفر اليوم لأن جديد كتير، وعنده فلوس منيح اليوم",
+     "en": "He loves the yellow house today because it's very new, and he has good money today",
+     "translit": "by7ibb el-beit el-asfar el-yom la2an jdeed kteer, wa 3ando fluus mnih el-yom"
+    },
+    {
+     "ar": "منحب البيت الأخضر اليوم لأن قريب كتير، وعندنا فلوس منيح اليوم",
+     "en": "We love the green house today because it's very close, and we have good money today",
+     "translit": "mn7ibb el-beit el-akhdar el-yom la2an 2areeb kteer, wa 3andna fluus mnih el-yom"
+    }
+   ],
+   "topicId": "c1-chain"
+  },
+  {
+   "number": 27,
+   "title": "A Story, Chained",
+   "titleNative": "قصة، متسلسل",
+   "items": [
+    {
+     "ar": "شفت بيت مبارح مع صديقي لأن هو منيح كتير، وشفت الأهل معه",
+     "en": "I saw a house yesterday with my friend because it's very good, and I saw the family with him",
+     "translit": "shift beit mbare7 ma3 sadeeqi la2an huwwe mnih kteer, wa shift el-ahl ma3o"
+    },
+    {
+     "ar": "شفتي بيت أختك مبارح لأن تعبانة كتير، وشفتي أهلها معها منيح",
+     "en": "You (f) saw your sister's house yesterday because she was very tired, and you saw her family with her, good",
+     "translit": "shifti beit ukhtek mbare7 la2an ta3baane kteer, wa shifti ahilha ma3a mnih"
+    },
+    {
+     "ar": "شاف بيت الأهل مبارح لأن تعبان كتير، وشاف صديقه هونيك منيح",
+     "en": "He saw the family's house yesterday because he was very tired, and he saw his friend there, good",
+     "translit": "shaf beit el-ahl mbare7 la2an ta3baan kteer, wa shaf sadeeqo hownik mnih"
+    },
+    {
+     "ar": "شفنا بيت أهلنا مبارح لأن ما شفناهن كتير، وشفنا صديقهن هونيك منيح",
+     "en": "We saw our family's house yesterday because we hadn't seen them much, and we saw their friend there, good",
+     "translit": "shifna beit ahalna mbare7 la2an ma shifnahon kteer, wa shifna sadeeqhon hownik mnih"
+    }
+   ]
+  },
+  {
+   "number": 28,
+   "title": "Money, Chained",
+   "titleNative": "الفلوس، متسلسل",
+   "items": [
+    {
+     "ar": "عندي فلوس كتير اليوم لأن ما شفت بيت غالي، وبدي بشوف بيت رخيص",
+     "en": "I have a lot of money today because I didn't see an expensive house, and I want to see a cheap one",
+     "translit": "3andi fluus kteer el-yom la2an ma shift beit ghali, wa biddi bshuf beit rkhees"
+    },
+    {
+     "ar": "ما عندك فلوس كتير اليوم لأن شفتي بيت غالي مبارح، بس بكرة منيح",
+     "en": "You (f) don't have a lot of money today because you saw an expensive house yesterday, but tomorrow it's fine",
+     "translit": "ma 3andek fluus kteer el-yom la2an shifti beit ghali mbare7, bas bukra mnih"
+    },
+    {
+     "ar": "عنده فلوس منيح اليوم لأن ما شاف بيت غالي، وبيحب يشوف معه بكرة",
+     "en": "He has good money today because he didn't see an expensive house, and he loves seeing with him tomorrow",
+     "translit": "3ando fluus mnih el-yom la2an ma shaf beit ghali, wa by7ibb yshuf ma3o bukra"
+    },
+    {
+     "ar": "عندنا فلوس منيح اليوم لأن ما شفنا بيت غالي، ومنشوف بكرة منيح",
+     "en": "We have good money today because we didn't see an expensive house, and we're seeing tomorrow, good",
+     "translit": "3andna fluus mnih el-yom la2an ma shifna beit ghali, wa mnshuf bukra mnih"
+    }
+   ]
+  },
+  {
+   "number": 29,
+   "title": "Feelings, Chained",
+   "titleNative": "المشاعر، متسلسل",
+   "items": [
+    {
+     "ar": "أنا منيح اليوم لأن شفت الأهل مبارح، وبدي بشوف بيتهن بكرة منيح",
+     "en": "I'm good today because I saw the family yesterday, and I want to see their house tomorrow, good",
+     "translit": "ana mnih el-yom la2an shift el-ahl mbare7, wa biddi bshuf beithon bukra mnih"
+    },
+    {
+     "ar": "هي مش منيحة اليوم لأن ما عندا فلوس كتير، بس صديقها منيح معها",
+     "en": "She's not good today because she doesn't have a lot of money, but her friend is good with her",
+     "translit": "hiyye mish mniha el-yom la2an ma 3anda fluus kteer, bas sadeeqha mnih ma3a"
+    },
+    {
+     "ar": "هو تعبان اليوم لأن شاف الأهل كتير، وبيحب يشوف معه بعدين",
+     "en": "He's tired today because he saw the family a lot, and he loves seeing with him later",
+     "translit": "huwwe ta3baan el-yom la2an shaf el-ahl kteer, wa by7ibb yshuf ma3o ba3dein"
+    },
+    {
+     "ar": "نحنا منيحين اليوم لأن شفنا الأهل مبارح، ومنحب نشوف بيتهن بكرة منيح",
+     "en": "We're good today because we saw the family yesterday, and we love seeing their house tomorrow, good",
+     "translit": "ni7na mnihheen el-yom la2an shifna el-ahl mbare7, wa mn7ibb nshuf beithon bukra mnih"
+    }
+   ]
+  },
+  {
+   "number": 30,
+   "title": "Review: C1 Final Recap",
+   "titleNative": "مراجعة نهائية",
+   "items": [
+    {
+     "ar": "بدي البيت الأحمر اليوم لأن قريب كتير، وعندي فلوس منيح اليوم",
+     "en": "I want the red house today because it's very close, and I have good money today",
+     "translit": "biddi el-beit el-a7mar el-yom la2an 2areeb kteer, wa 3andi fluus mnih el-yom"
+    },
+    {
+     "ar": "شفت بيت مبارح مع صديقي لأن هو منيح كتير، وشفت الأهل معه",
+     "en": "I saw a house yesterday with my friend because it's very good, and I saw the family with him",
+     "translit": "shift beit mbare7 ma3 sadeeqi la2an huwwe mnih kteer, wa shift el-ahl ma3o"
+    },
+    {
+     "ar": "عندي فلوس كتير اليوم لأن ما شفت بيت غالي، وبدي بشوف بيت رخيص",
+     "en": "I have a lot of money today because I didn't see an expensive house, and I want to see a cheap one",
+     "translit": "3andi fluus kteer el-yom la2an ma shift beit ghali, wa biddi bshuf beit rkhees"
+    },
+    {
+     "ar": "أنا منيح اليوم لأن شفت الأهل مبارح، وبدي بشوف بيتهن بكرة منيح",
+     "en": "I'm good today because I saw the family yesterday, and I want to see their house tomorrow, good",
+     "translit": "ana mnih el-yom la2an shift el-ahl mbare7, wa biddi bshuf beithon bukra mnih"
+    }
+   ]
+  },
+  {
+   "number": 201,
+   "title": "My Uncle's Green House",
+   "titleNative": "بيت عمي الأخضر",
+   "context": "A passage about visiting an uncle's house.",
+   "paragraphs": [
+    {
+     "ar": "عمي بيحب بيته الأخضر كتير، وهو قريب من البحر.",
+     "en": "My uncle loves his green house a lot, and it's close to the sea."
+    },
+    {
+     "ar": "إذا بيجي عمي بكرة، منشوف بيته سوا.",
+     "en": "If my uncle comes tomorrow, we'll see his house together."
+    },
+    {
+     "ar": "خالتي بتحب تشوف عمي، عشان هني منيحين كتير سوا.",
+     "en": "My aunt loves to see my uncle, because they're very good together."
+    },
+    {
+     "ar": "إختي وخيي بيحبو بيت عمي كتير، ودايما بيجوا معي.",
+     "en": "My sister and my brother love my uncle's house a lot, and they always come with me."
+    },
+    {
+     "ar": "منيح كتير! عيلتنا منيحة، والحمدلله.",
+     "en": "Very good! Our family is good, thank God."
+    }
+   ],
+   "questions": [
+    {
+     "question": "What color is the uncle's house?",
+     "options": [
+      "Red",
+      "Green",
+      "Blue",
+      "Yellow"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "What will they see if the uncle comes tomorrow?",
+     "options": [
+      "A car",
+      "His house",
+      "The bank",
+      "Nothing"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "Who loves to see the uncle?",
+     "options": [
+      "No one",
+      "The aunt",
+      "A stranger",
+      "The neighbor"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "Who always comes with the speaker?",
+     "options": [
+      "No one",
+      "The sister and brother",
+      "A stranger",
+      "The aunt"
+     ],
+     "answerIndex": 1
+    }
+   ]
+  },
+  {
+   "number": 202,
+   "title": "The Best Story I've Seen",
+   "titleNative": "أحسن قصة شفتها",
+   "context": "A passage about a good book.",
+   "paragraphs": [
+    {
+     "ar": "هاي أحسن قصة شفتها، هي قصة سيف قديم.",
+     "en": "This is the best story I've seen, it's a story of an old sword."
+    },
+    {
+     "ar": "صديقي شافها مبارح، وهو بيحبها كتير.",
+     "en": "My friend saw it yesterday, and he loves it a lot."
+    },
+    {
+     "ar": "إذا بدك بتشوفي القصة، لازم بتجي بيتي بكرة.",
+     "en": "If you want to see the story, you must come to my house tomorrow."
+    },
+    {
+     "ar": "هاد الكتاب أحسن من هاي القصة، بس القصة رخيصة كتير.",
+     "en": "This book is better than this story, but the story is very cheap."
+    },
+    {
+     "ar": "منيح! بشوف القصة هلق، شكرا كتير.",
+     "en": "Good! I see the story now, thank you very much."
+    }
+   ],
+   "questions": [
+    {
+     "question": "What is the story about?",
+     "options": [
+      "A cat",
+      "An old sword",
+      "A house",
+      "Money"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "When did the friend see it?",
+     "options": [
+      "Today",
+      "Yesterday",
+      "Tomorrow",
+      "Never"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "What must you do to see the story?",
+     "options": [
+      "Nothing",
+      "Come to my house tomorrow",
+      "Call",
+      "Write"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "How is the story's price described?",
+     "options": [
+      "Very expensive",
+      "Very cheap",
+      "Free",
+      "Unknown"
+     ],
+     "answerIndex": 1
+    }
+   ]
+  },
+  {
+   "number": 203,
+   "title": "If My Family Comes Together",
+   "titleNative": "إذا بتجي عيلتي سوا",
+   "context": "A passage using conditionals with family.",
+   "paragraphs": [
+    {
+     "ar": "إذا بتجي عيلتي سوا بكرة، منجي البحر ومناخد وقتنا.",
+     "en": "If my family comes together tomorrow, we'll come to the sea and take our time."
+    },
+    {
+     "ar": "عمي وخالي بيحبو البحر كتير، ودايما بيجوا معنا.",
+     "en": "My uncle and my uncle love the sea a lot, and they always come with us."
+    },
+    {
+     "ar": "تيتتي وجدو بيحبو بيشوفو أحفادهم.",
+     "en": "My grandmother and grandfather love to see their grandchildren."
+    },
+    {
+     "ar": "إذا بتحبي تشوفي عيلتي الكبيرة، لازم بتجي بيتنا يوم الجمعة.",
+     "en": "If you love to see my big family, you must come to our house on Friday."
+    },
+    {
+     "ar": "عيلتي منيحة كتير، وإذا بتجي معنا، بتشوفي قرايبي.",
+     "en": "My family is very good, and if you come with us, you'll see my relatives."
+    }
+   ],
+   "questions": [
+    {
+     "question": "Where will the family come together tomorrow?",
+     "options": [
+      "The bank",
+      "The sea",
+      "The city",
+      "Nowhere"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "What do the uncles love?",
+     "options": [
+      "The bank",
+      "The sea",
+      "The city",
+      "Nothing"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "Who do the grandparents love to see?",
+     "options": [
+      "No one",
+      "Their grandchildren",
+      "A stranger",
+      "The neighbor"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "When must you come to see the big family?",
+     "options": [
+      "Sunday",
+      "Monday",
+      "Friday",
+      "Never"
+     ],
+     "answerIndex": 2
+    }
+   ]
+  },
+  {
+   "number": 204,
+   "title": "Certain but a Little Late",
+   "titleNative": "مؤكد بس متأخر شوي",
+   "context": "A passage about waiting for two people.",
+   "paragraphs": [
+    {
+     "ar": "صديقي مؤكد بيجي هلق، بس هو متأخر شوي.",
+     "en": "My friend is certainly coming now, but he's a little late."
+    },
+    {
+     "ar": "إذا بيجي التنين بكرة، منشوف بيتي الجديد سوا.",
+     "en": "If both of them come tomorrow, we'll see my new house together."
+    },
+    {
+     "ar": "هاد الكتاب أحسن من هاي القصة، وهو مؤكد منيح.",
+     "en": "This book is better than this story, and it's certainly good."
+    },
+    {
+     "ar": "عمي مؤكد بيحب هاد الكتاب، بيحب بياخده بكرة.",
+     "en": "My uncle certainly loves this book, he loves taking it tomorrow."
+    },
+    {
+     "ar": "منيح! صديقي بيجي هلق، ماشي حاله.",
+     "en": "Good! My friend is coming now, he's fine."
+    }
+   ],
+   "questions": [
+    {
+     "question": "How is the friend today?",
+     "options": [
+      "On time",
+      "Certainly coming, but a little late",
+      "Not coming",
+      "Early"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "What will they see if both come tomorrow?",
+     "options": [
+      "A car",
+      "My new house",
+      "A book",
+      "Nothing"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "How is the book compared to the story?",
+     "options": [
+      "Worse",
+      "Better",
+      "The same",
+      "Cheaper"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "What does the uncle certainly love?",
+     "options": [
+      "A car",
+      "This book",
+      "A house",
+      "Money only"
+     ],
+     "answerIndex": 1
+    }
+   ]
+  },
+  {
+   "number": 205,
+   "title": "Complete: C1 Reading Wrap One",
+   "titleNative": "مراجعة القراءة الأولى",
+   "context": "A review passage combining family and colors.",
+   "paragraphs": [
+    {
+     "ar": "إذا بيجي خالي بكرة، منشوف بيته الأخضر سوا.",
+     "en": "If my uncle comes tomorrow, we'll see his green house together."
+    },
+    {
+     "ar": "صديقي الأحسن دايما بيجي معي، وبيحب أهلي كتير.",
+     "en": "My best friend always comes with me, and he loves my family a lot."
+    },
+    {
+     "ar": "هاي أحسن قصة شفتها، وهي منيحة كتير.",
+     "en": "This is the best story I've seen, and it's very good."
+    },
+    {
+     "ar": "عيلتنا منيحة كتير، عندنا بيت أحمر وبيت أخضر.",
+     "en": "Our family is very good, we have a red house and a green house."
+    },
+    {
+     "ar": "شكرا كتير، بكرة منشوف عيلتنا سوا.",
+     "en": "Thank you very much, tomorrow we'll see our family together."
+    }
+   ],
+   "questions": [
+    {
+     "question": "What color house will they see if the uncle comes?",
+     "options": [
+      "Red",
+      "Green",
+      "Blue",
+      "Yellow"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "Who always comes with the speaker?",
+     "options": [
+      "No one",
+      "Their best friend",
+      "The uncle",
+      "A stranger"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "How is the story described?",
+     "options": [
+      "Bad",
+      "Very good",
+      "Boring",
+      "Old"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "What colors are their houses?",
+     "options": [
+      "Blue and yellow",
+      "Red and green",
+      "Black and white",
+      "Only red"
+     ],
+     "answerIndex": 1
+    }
+   ]
+  }
+ ]
 }
