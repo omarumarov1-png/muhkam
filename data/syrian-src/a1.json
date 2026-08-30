@@ -2134,6 +2134,356 @@
      "answerIndex": 1
     }
    ]
+  },
+  {
+   "number": 211,
+   "title": "I Don't Know",
+   "titleNative": "مدري",
+   "context": "A passage about not knowing something.",
+   "paragraphs": [
+    {
+     "ar": "وين صديقي؟ مدري، هو مش هون.",
+     "en": "Where is my friend? I don't know, he's not here."
+    },
+    {
+     "ar": "مين هاد؟ مدري، هاد مش صديقي.",
+     "en": "Who is this? I don't know, this is not my friend."
+    },
+    {
+     "ar": "بدي شاي، بس مافي شاي.",
+     "en": "I want tea, but there's no tea."
+    },
+    {
+     "ar": "مافي مشكلة، بدي مي.",
+     "en": "No problem, I want water."
+    },
+    {
+     "ar": "شكرا! هاي مي منيحة كتير.",
+     "en": "Thank you! This water is very good."
+    }
+   ],
+   "questions": [
+    {
+     "question": "Where is the friend?",
+     "options": [
+      "At home",
+      "I don't know",
+      "At the bank",
+      "At the sea"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "What does the speaker want first?",
+     "options": [
+      "Water",
+      "Coffee",
+      "Tea",
+      "Nothing"
+     ],
+     "answerIndex": 2
+    },
+    {
+     "question": "What does the speaker want instead?",
+     "options": [
+      "Coffee",
+      "Water",
+      "Nothing",
+      "Juice"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "How is the water described?",
+     "options": [
+      "Bad",
+      "Very good",
+      "Expensive",
+      "Cheap"
+     ],
+     "answerIndex": 1
+    }
+   ]
+  },
+  {
+   "number": 212,
+   "title": "How Many?",
+   "titleNative": "كم؟",
+   "context": "A passage using the question word 'how many'.",
+   "paragraphs": [
+    {
+     "ar": "كم بيت هون؟ واحد، تنين، تلاتة.",
+     "en": "How many houses are here? One, two, three."
+    },
+    {
+     "ar": "كم سيارة هون؟ أربعة، خمسة.",
+     "en": "How many cars are here? Four, five."
+    },
+    {
+     "ar": "صديقي منيح، وهو هون.",
+     "en": "My friend is good, and he's here."
+    },
+    {
+     "ar": "كيفكم اليوم يا صديق؟",
+     "en": "How are you all today, friend?"
+    },
+    {
+     "ar": "منيحين، الحمدلله!",
+     "en": "Good, thank God!"
+    }
+   ],
+   "questions": [
+    {
+     "question": "How many houses are counted?",
+     "options": [
+      "Two",
+      "Three",
+      "Four",
+      "Five"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "How many cars are counted?",
+     "options": [
+      "Two",
+      "Three",
+      "Four",
+      "Five"
+     ],
+     "answerIndex": 2
+    },
+    {
+     "question": "Is the friend here too?",
+     "options": [
+      "Yes",
+      "No",
+      "Maybe",
+      "Unclear"
+     ],
+     "answerIndex": 0
+    },
+    {
+     "question": "How does the group answer 'how are you'?",
+     "options": [
+      "Tired",
+      "Good, thank God",
+      "Sad",
+      "Angry"
+     ],
+     "answerIndex": 1
+    }
+   ]
+  },
+  {
+   "number": 213,
+   "title": "This Is Cheap, This Is Expensive",
+   "titleNative": "هاد رخيص، هاد غالي",
+   "context": "A passage comparing two things.",
+   "paragraphs": [
+    {
+     "ar": "شو هاد؟ هاد بيت.",
+     "en": "What is this? This is a house."
+    },
+    {
+     "ar": "بدي هاد البيت، هو منيح كتير.",
+     "en": "I want this house, it's very good."
+    },
+    {
+     "ar": "وهاي؟ هاي سيارة منيحة.",
+     "en": "And this? This is a good car."
+    },
+    {
+     "ar": "هاد البيت رخيص، وهاد غالي.",
+     "en": "This house is cheap, and this is expensive."
+    },
+    {
+     "ar": "بدي الرخيص، شكرا!",
+     "en": "I want the cheap one, thank you!"
+    }
+   ],
+   "questions": [
+    {
+     "question": "What does the speaker first identify?",
+     "options": [
+      "A car",
+      "A house",
+      "Tea",
+      "Coffee"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "How is the first house described?",
+     "options": [
+      "Bad",
+      "Very good",
+      "Old",
+      "Broken"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "What does the speaker finally want?",
+     "options": [
+      "The expensive one",
+      "The cheap one",
+      "Neither",
+      "Both"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "How does the passage end?",
+     "options": [
+      "A question",
+      "Shukran",
+      "Marhaba",
+      "Salaam"
+     ],
+     "answerIndex": 1
+    }
+   ]
+  },
+  {
+   "number": 214,
+   "title": "Everything Is Good",
+   "titleNative": "كلشي منيح",
+   "context": "A review passage using many A1 words together.",
+   "paragraphs": [
+    {
+     "ar": "صباح الخير! كيفكم اليوم؟",
+     "en": "Good morning! How are you all today?"
+    },
+    {
+     "ar": "منيحين، الحمدلله. البيت منيح والسيارة منيحة.",
+     "en": "Good, thank God. The house is good and the car is good."
+    },
+    {
+     "ar": "صديقي منيح، وصديقنا منيح كتير.",
+     "en": "My friend is good, and our friend is very good."
+    },
+    {
+     "ar": "مافي مشكلة اليوم، والحمدلله.",
+     "en": "No problem today, thank God."
+    },
+    {
+     "ar": "شكرا كتير! صباح النور يا صديق.",
+     "en": "Thank you very much! Good morning, friend."
+    }
+   ],
+   "questions": [
+    {
+     "question": "How does the group feel?",
+     "options": [
+      "Tired",
+      "Good",
+      "Angry",
+      "Sad"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "What is described as good along with the house?",
+     "options": [
+      "The car",
+      "The tea",
+      "The coffee",
+      "The book"
+     ],
+     "answerIndex": 0
+    },
+    {
+     "question": "Are there any problems today?",
+     "options": [
+      "Yes, many",
+      "No",
+      "Only one",
+      "Unclear"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "How does the passage close?",
+     "options": [
+      "Shukran and Sabah el-noor",
+      "A question",
+      "Silence",
+      "Salaam"
+     ],
+     "answerIndex": 0
+    }
+   ]
+  },
+  {
+   "number": 215,
+   "title": "Complete: A1 Reading Wrap Two",
+   "titleNative": "مراجعة القراءة التانية",
+   "context": "A final A1 review passage.",
+   "paragraphs": [
+    {
+     "ar": "مرحبا يا صديق! كيفكم اليوم؟",
+     "en": "Hi, friend! How are you all today?"
+    },
+    {
+     "ar": "منيحين كتير، الحمدلله.",
+     "en": "Very good, thank God."
+    },
+    {
+     "ar": "بيتنا كبير، وسيارتنا صغيرة ومنيحة.",
+     "en": "Our house is big, and our car is small and good."
+    },
+    {
+     "ar": "بدي شاي، مافي قهوة اليوم.",
+     "en": "I want tea, there's no coffee today."
+    },
+    {
+     "ar": "شكرا كتير، صباح النور!",
+     "en": "Thank you very much, good morning (reply)!"
+    }
+   ],
+   "questions": [
+    {
+     "question": "How does the group feel?",
+     "options": [
+      "Tired",
+      "Very good",
+      "Sad",
+      "Angry"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "What is the house like?",
+     "options": [
+      "Small",
+      "Big",
+      "Old",
+      "Far"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "What is not available today?",
+     "options": [
+      "Tea",
+      "Coffee",
+      "Water",
+      "Bread"
+     ],
+     "answerIndex": 1
+    },
+    {
+     "question": "What greeting closes the passage?",
+     "options": [
+      "Marhaba",
+      "Sabah el-kheir",
+      "Sabah el-noor",
+      "Salaam"
+     ],
+     "answerIndex": 2
+    }
+   ]
   }
  ]
 }
