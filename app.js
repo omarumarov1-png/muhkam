@@ -892,50 +892,86 @@
     });
   }
 
+  // One retry per file, matching playBundledAudio's retry-once pattern --
+  // a single transient network blip shouldn't fail an otherwise-fine
+  // download. Skips the fetch entirely for a file already sitting in
+  // IndexedDB, so re-tapping download after a partial failure only pulls
+  // what's actually missing instead of re-fetching everything.
+  async function downloadOneFile(courseId, dir, file) {
+    const id = audioFileId(courseId, file);
+    if (await idbGet("audioFiles", id).catch(() => null)) return true;
+    for (let attempt = 0; attempt < 2; attempt++) {
+      try {
+        const r = await fetch(`${dir}${file}`);
+        if (r.ok) {
+          const blob = await r.blob();
+          await idbPut("audioFiles", { id, courseId, file, blob, bytes: blob.size, cachedAt: Date.now() });
+          return true;
+        }
+      } catch (e) { /* try once more, then give up on this file */ }
+    }
+    return false;
+  }
+
   async function downloadCourse(courseId) {
     const meta = COURSES.find(c => c.id === courseId);
     if (!meta) return;
     const bust = `v=${DATA_VERSION}`;
     const withVersion = url => url + (url.includes("?") ? "&" : "?") + bust;
-    const res = await fetch(withVersion(meta.file), { cache: "no-cache" });
-    if (!res.ok) throw new Error("Failed to load course data");
-    const data = await res.json();
-    let manifestJson = {};
-    if (meta.audioManifest) {
-      const mRes = await fetch(withVersion(meta.audioManifest), { cache: "no-cache" }).catch(() => null);
-      if (mRes && mRes.ok) manifestJson = await mRes.json().catch(() => ({}));
-    }
-
-    const files = Array.from(new Set(Object.values(manifestJson).map(e => e.file)));
-    _downloadState.set(courseId, { total: files.length, done: 0, active: true });
-    notifyDownloadProgress(courseId);
-
-    if (files.length) {
-      const dir = meta.audioManifest.replace(/manifest\.json$/, "");
-      const CONCURRENCY = 6;
-      let idx = 0;
-      async function worker() {
-        while (idx < files.length) {
-          const file = files[idx++];
-          try {
-            const r = await fetch(`${dir}${file}`);
-            if (r.ok) {
-              const blob = await r.blob();
-              await idbPut("audioFiles", { id: audioFileId(courseId, file), courseId, file, blob, bytes: blob.size, cachedAt: Date.now() });
-            }
-          } catch (e) { /* one file failing shouldn't abort the whole download */ }
-          _downloadState.get(courseId).done++;
-          notifyDownloadProgress(courseId);
-        }
+    try {
+      const res = await fetch(withVersion(meta.file), { cache: "no-cache" });
+      if (!res.ok) throw new Error("Failed to load course data");
+      const data = await res.json();
+      let manifestJson = {};
+      if (meta.audioManifest) {
+        const mRes = await fetch(withVersion(meta.audioManifest), { cache: "no-cache" }).catch(() => null);
+        if (mRes && mRes.ok) manifestJson = await mRes.json().catch(() => ({}));
       }
-      await Promise.all(Array.from({ length: Math.min(CONCURRENCY, files.length) }, worker));
-    }
 
-    await idbPut("courseData", { courseId, data, audioManifest: manifestJson, cachedAt: Date.now(), audioDownloaded: true });
-    _downloadState.set(courseId, { total: files.length, done: files.length, active: false });
-    notifyDownloadProgress(courseId);
-    _downloadedCourses.add(courseId);
-    if (courseId === activeCourseId) await warmCourseAudioFromIdb(courseId);
+      const files = Array.from(new Set(Object.values(manifestJson).map(e => e.file)));
+      _downloadState.set(courseId, { total: files.length, done: 0, failed: 0, active: true });
+      notifyDownloadProgress(courseId);
+
+      if (files.length) {
+        const dir = meta.audioManifest.replace(/manifest\.json$/, "");
+        const CONCURRENCY = 6;
+        let idx = 0;
+        const worker = async () => {
+          while (idx < files.length) {
+            const file = files[idx++];
+            const ok = await downloadOneFile(courseId, dir, file);
+            const state = _downloadState.get(courseId);
+            state.done++;
+            if (!ok) state.failed++;
+            notifyDownloadProgress(courseId);
+          }
+        };
+        await Promise.all(Array.from({ length: Math.min(CONCURRENCY, files.length) }, worker));
+      }
+
+      const finalState = _downloadState.get(courseId);
+      const allAudioPresent = finalState.failed === 0;
+      await idbPut("courseData", { courseId, data, audioManifest: manifestJson, cachedAt: Date.now(), audioDownloaded: allAudioPresent });
+      _downloadState.set(courseId, { ...finalState, active: false });
+      notifyDownloadProgress(courseId);
+      if (allAudioPresent) {
+        _downloadedCourses.add(courseId);
+        if (courseId === activeCourseId) await warmCourseAudioFromIdb(courseId);
+      } else {
+        throw new Error(`${finalState.failed} of ${finalState.total} audio files failed -- tap again to retry just those`);
+      }
+    } catch (err) {
+      // The one invariant that must hold no matter what fails: the button
+      // can never be left stuck showing "downloading" forever. This is
+      // exactly the bug a real device hit -- a fetch or IndexedDB error
+      // partway through left _downloadState.active permanently true, so
+      // the spinner just spun forever with no way out except a reload.
+      const prior = _downloadState.get(courseId) || { total: 0, done: 0, failed: 0 };
+      const quotaExceeded = err && (err.name === "QuotaExceededError" || /quota/i.test(err.message || ""));
+      _downloadState.set(courseId, { ...prior, active: false, error: quotaExceeded ? "Not enough storage on this device" : (err.message || "Download failed") });
+      notifyDownloadProgress(courseId);
+      throw err;
+    }
   }
 
   async function deleteCourseDownload(courseId) {
@@ -1131,11 +1167,23 @@
     none: `<svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M12 4v11m0 0l-4-4m4 4l4-4M5 19h14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
     downloading: `<svg class="course-card-dl-spin" viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2.2" stroke-dasharray="34 20" stroke-linecap="round"/></svg>`,
     done: `<svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M5 12.5l4.3 4.3L19 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
+    error: `<svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M12 8v5M12 16.2v.1" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2.2"/></svg>`,
   };
+  // "active" (spinner still spinning) is only ever momentary -- the real
+  // state that must survive a failure is read straight off _downloadState
+  // rather than a separate flag, so there's exactly one source of truth
+  // for "is this course's download stuck/broken/done" and the button can
+  // never end up frozen on the spinner (the bug a real device hit).
   function courseDlState(courseId) {
     const st = _downloadState.get(courseId);
     if (st && st.active) return "downloading";
+    if (st && st.error) return "error";
     return _downloadedCourses.has(courseId) ? "done" : "none";
+  }
+  function courseDlProgressPct(courseId) {
+    const st = _downloadState.get(courseId);
+    if (!st || !st.total) return 0;
+    return Math.round((st.done / st.total) * 100);
   }
   function courseCardHtml(meta) {
     const s = meta.id === activeCourseId ? { lessonsDone: progress.completedLessons.length, streak: progress.streak, xp: progress.xp } : readCourseStats(meta.id);
@@ -1147,8 +1195,10 @@
         </span>`
       : `<span class="course-card-empty">Not started — tap to begin</span>`;
     const dlState = courseDlState(meta.id);
+    const dlSt = _downloadState.get(meta.id);
     const dlLabel = dlState === "done" ? "Downloaded for offline — tap to remove"
-      : dlState === "downloading" ? "Downloading for offline"
+      : dlState === "downloading" ? `Downloading for offline (${courseDlProgressPct(meta.id)}%)`
+      : dlState === "error" ? `Download failed: ${dlSt && dlSt.error} — tap to retry`
       : "Download for offline";
     return `
       <div class="course-card course-card--${meta.accent} ${meta.id === activeCourseId ? "active" : ""}">
@@ -1160,6 +1210,8 @@
         <button type="button" class="course-card-dl" data-course-dl="${meta.id}" data-dl-state="${dlState}" aria-label="${dlLabel}" title="${dlLabel}">
           ${DL_ICON[dlState]}
         </button>
+        <span class="course-card-dl-pct" data-dl-pct="${meta.id}">${dlState === "downloading" ? courseDlProgressPct(meta.id) + "%" : ""}</span>
+        <div class="course-card-dl-bar" data-dl-bar="${meta.id}" style="width:${dlState === "downloading" ? courseDlProgressPct(meta.id) : 0}%"></div>
       </div>
     `;
   }
@@ -1210,13 +1262,20 @@
     const btn = document.querySelector(`.course-card-dl[data-course-dl="${courseId}"]`);
     if (!btn) return;
     const dlState = courseDlState(courseId);
+    const dlSt = _downloadState.get(courseId);
+    const pct = courseDlProgressPct(courseId);
     const dlLabel = dlState === "done" ? "Downloaded for offline — tap to remove"
-      : dlState === "downloading" ? "Downloading for offline"
+      : dlState === "downloading" ? `Downloading for offline (${pct}%)`
+      : dlState === "error" ? `Download failed: ${dlSt && dlSt.error} — tap to retry`
       : "Download for offline";
     btn.dataset.dlState = dlState;
     btn.setAttribute("aria-label", dlLabel);
     btn.setAttribute("title", dlLabel);
     btn.innerHTML = DL_ICON[dlState];
+    const pctEl = document.querySelector(`.course-card-dl-pct[data-dl-pct="${courseId}"]`);
+    if (pctEl) pctEl.textContent = dlState === "downloading" ? `${pct}%` : "";
+    const barEl = document.querySelector(`.course-card-dl-bar[data-dl-bar="${courseId}"]`);
+    if (barEl) barEl.style.width = `${dlState === "downloading" ? pct : 0}%`;
   }
 
   function wireGlobalUi() {
