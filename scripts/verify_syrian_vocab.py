@@ -35,7 +35,25 @@ def load_confirmed_vocab():
     vocab = set()
     for lvl in LEVEL_ORDER:
         vocab |= load_level_vocab(lvl)
+    researched, _ = load_researched_vocab()
+    vocab |= researched
     return vocab
+
+
+def load_researched_vocab():
+    """Words never shipped in any lesson but confirmed by >=2 independent
+    sources outside the course itself (see researched_vocab.json for
+    provenance). Distinct from load_level_vocab, which only trusts what's
+    already shipped -- this is the one deliberate exception, and only
+    words that survived real cross-referencing land here."""
+    f = os.path.join(ROOT, "data/syrian-src/researched_vocab.json")
+    if not os.path.exists(f):
+        return set(), None
+    d = json.load(open(f, encoding="utf-8"))
+    return set(d.get("words", {}).keys()), d.get("available_from_level")
+
+
+RESEARCHED_VOCAB, RESEARCHED_AVAILABLE_FROM = load_researched_vocab()
 
 
 def load_cumulative_vocab(up_to_level):
@@ -44,10 +62,15 @@ def load_cumulative_vocab(up_to_level):
     later level's grammar (e.g. B1+'s لازم) can't leak into an earlier
     one just because it's confirmed SOMEWHERE in the shipped course."""
     vocab = set()
+    reached_researched_level = RESEARCHED_AVAILABLE_FROM is None
     for lvl in LEVEL_ORDER:
         vocab |= load_level_vocab(lvl)
+        if lvl == RESEARCHED_AVAILABLE_FROM:
+            reached_researched_level = True
         if lvl == up_to_level:
             break
+    if reached_researched_level:
+        vocab |= RESEARCHED_VOCAB
     return vocab
 
 
