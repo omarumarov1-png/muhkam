@@ -37,6 +37,8 @@ def load_confirmed_vocab():
         vocab |= load_level_vocab(lvl)
     researched, _ = load_researched_vocab()
     vocab |= researched
+    verb_forms, _ = load_researched_verb_forms()
+    vocab |= verb_forms
     return vocab
 
 
@@ -53,7 +55,24 @@ def load_researched_vocab():
     return set(d.get("words", {}).keys()), d.get("available_from_level")
 
 
+def load_researched_verb_forms():
+    """Full 8-person conjugated forms for verbs confirmed via a real
+    paradigm source (see researched_verb_paradigms.json) -- distinct from
+    plain vocabulary since a verb needs every person confirmed, not just
+    a citation form, to be safely usable in a sentence."""
+    f = os.path.join(ROOT, "data/syrian-research/researched_verb_paradigms.json")
+    if not os.path.exists(f):
+        return set(), None
+    d = json.load(open(f, encoding="utf-8"))
+    forms = set()
+    for verb, data in d.get("verbs", {}).items():
+        for tense in ("perfect", "bi_imperfect"):
+            forms.update(data.get(tense, {}).values())
+    return forms, d.get("available_from_level")
+
+
 RESEARCHED_VOCAB, RESEARCHED_AVAILABLE_FROM = load_researched_vocab()
+RESEARCHED_VERB_FORMS, RESEARCHED_VERBS_AVAILABLE_FROM = load_researched_verb_forms()
 
 
 def load_cumulative_vocab(up_to_level):
@@ -63,14 +82,19 @@ def load_cumulative_vocab(up_to_level):
     one just because it's confirmed SOMEWHERE in the shipped course."""
     vocab = set()
     reached_researched_level = RESEARCHED_AVAILABLE_FROM is None
+    reached_verbs_level = RESEARCHED_VERBS_AVAILABLE_FROM is None
     for lvl in LEVEL_ORDER:
         vocab |= load_level_vocab(lvl)
         if lvl == RESEARCHED_AVAILABLE_FROM:
             reached_researched_level = True
+        if lvl == RESEARCHED_VERBS_AVAILABLE_FROM:
+            reached_verbs_level = True
         if lvl == up_to_level:
             break
     if reached_researched_level:
         vocab |= RESEARCHED_VOCAB
+    if reached_verbs_level:
+        vocab |= RESEARCHED_VERB_FORMS
     return vocab
 
 
