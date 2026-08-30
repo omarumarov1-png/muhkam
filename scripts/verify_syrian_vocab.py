@@ -46,7 +46,7 @@ def load_researched_vocab():
     provenance). Distinct from load_level_vocab, which only trusts what's
     already shipped -- this is the one deliberate exception, and only
     words that survived real cross-referencing land here."""
-    f = os.path.join(ROOT, "data/syrian-src/researched_vocab.json")
+    f = os.path.join(ROOT, "data/syrian-research/researched_vocab.json")
     if not os.path.exists(f):
         return set(), None
     d = json.load(open(f, encoding="utf-8"))
@@ -89,7 +89,15 @@ def check_wa_prefix(word, vocab):
 
 def check_possessive_suffix(word, vocab):
     for suf in POSSESSIVE_SUFFIXES:
-        if word.endswith(suf) and len(word) > len(suf) and word[: -len(suf)] in vocab:
+        if not (word.endswith(suf) and len(word) > len(suf)):
+            continue
+        base = word[: -len(suf)]
+        if base in vocab:
+            return True
+        # A feminine noun's ة becomes ت before a possessive suffix
+        # (e.g. عيلة "family" -> عيلتي "my family") -- the stripped base
+        # ends in ت but the confirmed form ends in ة.
+        if base.endswith("ت") and (base[:-1] + "ة") in vocab:
             return True
     return False
 
