@@ -1,878 +1,1148 @@
 {
-  "level": "a2",
-  "grammarTopics": {
-    "a2-past-katab": {
-      "title": "Past Tense: I Wrote, You Saw...",
-      "pattern": "-ت / -ت / -تِ / (bare) / -ت / -نا / -تو / -و",
-      "explanation": "Levantine past tense uses suffixes on the verb stem: كتبت (katabt, \"I wrote\"), كتبت (katabt, \"you-m wrote\"), كتبتِ (katabti, \"you-f wrote\"), كتب (katab, \"he wrote\"), كتبت (katbit, \"she wrote\"), كتبنا (katabna, \"we wrote\"), كتبتو (katabtoo, \"you-all wrote\"), كتبو (katabo, \"they wrote\"). \"I\" and \"you-m\" share the exact same form — context tells them apart.",
-      "fact": "The verb شاف (shaf, \"to see\") follows the same suffix pattern, but as a \"hollow\" root (ش-و-ف) its long vowel shortens in every person except he/she/they: شفت (shift, \"I saw\"), شاف (shaf, \"he saw\"), شافت (shafit, \"she saw\"), شافو (shafo, \"they saw\") — the same aa→i shortening pattern found across hollow verbs in Arabic dialects generally.",
-      "dialogue": [
-        {
-          "sp": "A",
-          "native": "شو شفت مبارح؟",
-          "en": "What did you see yesterday?"
-        },
-        {
-          "sp": "B",
-          "native": "شفت بيت كبير وشفت صديق منيح",
-          "en": "I saw a big house and I saw a good friend"
-        }
-      ]
+ "level": "a2",
+ "grammarTopics": {
+  "a2-past-katab": {
+   "title": "Past Tense: I Wrote, You Saw...",
+   "pattern": "-ت / -ت / -تِ / (bare) / -ت / -نا / -تو / -و",
+   "explanation": "Levantine past tense uses suffixes on the verb stem: كتبت (katabt, \"I wrote\"), كتبت (katabt, \"you-m wrote\"), كتبتِ (katabti, \"you-f wrote\"), كتب (katab, \"he wrote\"), كتبت (katbit, \"she wrote\"), كتبنا (katabna, \"we wrote\"), كتبتو (katabtoo, \"you-all wrote\"), كتبو (katabo, \"they wrote\"). \"I\" and \"you-m\" share the exact same form — context tells them apart.",
+   "fact": "The verb شاف (shaf, \"to see\") follows the same suffix pattern, but as a \"hollow\" root (ش-و-ف) its long vowel shortens in every person except he/she/they: شفت (shift, \"I saw\"), شاف (shaf, \"he saw\"), شافت (shafit, \"she saw\"), شافو (shafo, \"they saw\") — the same aa→i shortening pattern found across hollow verbs in Arabic dialects generally.",
+   "dialogue": [
+    {
+     "sp": "A",
+     "native": "شو شفت مبارح؟",
+     "en": "What did you see yesterday?"
     },
-    "a2-past-negation": {
-      "title": "Negating the Past: Ma + Past Verb",
-      "pattern": "ما + الفعل الماضي",
-      "explanation": "To negate a past-tense verb, put ما (ma) right before it: ما شفت (ma shift, \"I didn't see\"). This is the same ما used for present-tense negation — unlike مش, which is reserved for nominal/participle sentences (\"أنا مش تعبان\").",
-      "fact": "In fast speech, ما often contracts right onto the verb with barely a pause — ماشفت — but it's still written and thought of as two separate words, ما and شفت, not a single fused word.",
-      "dialogue": [
-        {
-          "sp": "A",
-          "native": "شفت صديق مبارح؟",
-          "en": "Did you see a friend yesterday?"
-        },
-        {
-          "sp": "B",
-          "native": "لا، ما شفت صديق اليوم، شفت بيت بس",
-          "en": "No, I didn't see a friend today, I only saw a house"
-        }
-      ]
-    },
-    "a2-days-past": {
-      "title": "Days of the Week with Past Tense",
-      "pattern": "يوم + الفعل الماضي",
-      "explanation": "Combining a day name with a past-tense verb builds a simple narrative: يوم الجمعة شفت صديق (yom el-jum3a shift sadeeq, \"On Friday I saw a friend\"). The day name simply comes first, like a time adverb.",
-      "fact": "Just like مبارح (yesterday), day names need no extra preposition (\"on Friday\") — Syrian Arabic places time expressions directly at the start of the sentence.",
-      "dialogue": [
-        {
-          "sp": "A",
-          "native": "يوم السبت شو شفت؟",
-          "en": "On Saturday, what did you see?"
-        },
-        {
-          "sp": "B",
-          "native": "يوم السبت شفت بيت كبير منيح",
-          "en": "On Saturday I saw a big, good house"
-        }
-      ]
+    {
+     "sp": "B",
+     "native": "شفت بيت كبير وشفت صديق منيح",
+     "en": "I saw a big house and I saw a good friend"
     }
+   ]
   },
-  "lessons": [
+  "a2-past-negation": {
+   "title": "Negating the Past: Ma + Past Verb",
+   "pattern": "ما + الفعل الماضي",
+   "explanation": "To negate a past-tense verb, put ما (ma) right before it: ما شفت (ma shift, \"I didn't see\"). This is the same ما used for present-tense negation — unlike مش, which is reserved for nominal/participle sentences (\"أنا مش تعبان\").",
+   "fact": "In fast speech, ما often contracts right onto the verb with barely a pause — ماشفت — but it's still written and thought of as two separate words, ما and شفت, not a single fused word.",
+   "dialogue": [
     {
-      "number": 1,
-      "title": "I Saw, You Saw",
-      "titleNative": "شفت، شفت",
-      "items": [
-        {
-          "ar": "شفت بيت كبير اليوم، وشفت صديق منيح",
-          "en": "I saw a big house today, and I saw a good friend",
-          "translit": "shift beit kbeer el-yom, wa shift sadeeq mnih"
-        },
-        {
-          "ar": "شفت بيت اليوم، وانت شفت شو اليوم",
-          "en": "You (m) saw a house today, and what did you see today",
-          "translit": "shift beit el-yom, wa inte shift shu el-yom"
-        },
-        {
-          "ar": "شفتي بيت اليوم، وشفتي صديق منيح",
-          "en": "You (f) saw a house today, and you saw a good friend",
-          "translit": "shifti beit el-yom, wa shifti sadeeq mnih"
-        },
-        {
-          "ar": "شاف بيت كبير اليوم، وشاف صديق منيح",
-          "en": "He saw a big house today, and he saw a good friend",
-          "translit": "shaf beit kbeer el-yom, wa shaf sadeeq mnih"
-        }
-      ],
-      "topicId": "a2-past-katab"
+     "sp": "A",
+     "native": "شفت صديق مبارح؟",
+     "en": "Did you see a friend yesterday?"
     },
     {
-      "number": 2,
-      "title": "She Saw, We Saw, They Saw",
-      "titleNative": "شافت، شفنا، شافو",
-      "items": [
-        {
-          "ar": "شافت بيت كبير اليوم، وشافت صديق منيح",
-          "en": "She saw a big house today, and she saw a good friend",
-          "translit": "shafit beit kbeer el-yom, wa shafit sadeeq mnih"
-        },
-        {
-          "ar": "شفنا بيت اليوم، وشفنا صديق منيح اليوم",
-          "en": "We saw a house today, and we saw a good friend today",
-          "translit": "shifna beit el-yom, wa shifna sadeeq mnih el-yom"
-        },
-        {
-          "ar": "شفتو بيت اليوم، وشفتو صديق منيح اليوم",
-          "en": "You all saw a house today, and you saw a good friend today",
-          "translit": "shiftu beit el-yom, wa shiftu sadeeq mnih el-yom"
-        },
-        {
-          "ar": "شافو بيت كبير اليوم، وشافو صديق منيح",
-          "en": "They saw a big house today, and they saw a good friend",
-          "translit": "shafo beit kbeer el-yom, wa shafo sadeeq mnih"
-        }
-      ],
-      "topicId": "a2-past-katab"
-    },
-    {
-      "number": 3,
-      "title": "What Did You See?",
-      "titleNative": "شو شفت؟",
-      "items": [
-        {
-          "ar": "شو شفت اليوم؟ شفت بيت كبير منيح",
-          "en": "What did you see today? I saw a big, good house",
-          "translit": "shu shift el-yom? shift beit kbeer mnih"
-        },
-        {
-          "ar": "شو شاف اليوم؟ شاف بيت جديد منيح",
-          "en": "What did he see today? He saw a good, new house",
-          "translit": "shu shaf el-yom? shaf beit jdeed mnih"
-        },
-        {
-          "ar": "شو شافت اليوم؟ شافت بيت صغير منيح",
-          "en": "What did she see today? She saw a good, small house",
-          "translit": "shu shafit el-yom? shafit beit sgheer mnih"
-        },
-        {
-          "ar": "شو شافو اليوم؟ شافو بيت قديم منيح",
-          "en": "What did they see today? They saw a good, old house",
-          "translit": "shu shafo el-yom? shafo beit adeem mnih"
-        }
-      ]
-    },
-    {
-      "number": 4,
-      "title": "I Saw and I Wanted",
-      "titleNative": "شفت وبدي",
-      "items": [
-        {
-          "ar": "شفت بيت اليوم، وبدي بيت جديد منيح",
-          "en": "I saw a house today, and I want a good, new house",
-          "translit": "shift beit el-yom, wa biddi beit jdeed mnih"
-        },
-        {
-          "ar": "شاف قهوة اليوم، وبدي قهوة وشاي منيح",
-          "en": "He saw coffee today, and I want good coffee and tea",
-          "translit": "shaf ahwe el-yom, wa biddi ahwe wa shay mnih"
-        },
-        {
-          "ar": "شافت أب اليوم، وشافت أم منيحة اليوم",
-          "en": "She saw a father today, and she saw a good mother today",
-          "translit": "shafit ab el-yom, wa shafit imm mniha el-yom"
-        },
-        {
-          "ar": "شفنا صديق اليوم، وبدي صديق منيح اليوم",
-          "en": "We saw a friend today, and I want a good friend today",
-          "translit": "shifna sadeeq el-yom, wa biddi sadeeq mnih el-yom"
-        }
-      ]
-    },
-    {
-      "number": 5,
-      "title": "Review: Past Tense of Shaf",
-      "titleNative": "مراجعة: شفت",
-      "items": [
-        {
-          "ar": "شفت بيت كبير اليوم، وشفت صديق منيح كتير",
-          "en": "I saw a big house today, and I saw a very good friend",
-          "translit": "shift beit kbeer el-yom, wa shift sadeeq mnih kteer"
-        },
-        {
-          "ar": "شاف بيت جديد اليوم، وشافت بيت قديم",
-          "en": "He saw a new house today, and she saw an old house",
-          "translit": "shaf beit jdeed el-yom, wa shafit beit adeem"
-        },
-        {
-          "ar": "شفنا صديق منيح اليوم، وشفتو بيت كبير",
-          "en": "We saw a good friend today, and you all saw a big house",
-          "translit": "shifna sadeeq mnih el-yom, wa shiftu beit kbeer"
-        },
-        {
-          "ar": "شافو بيت صغير اليوم، وأنا شفت بيت أزرق",
-          "en": "They saw a small house today, and I saw a blue house",
-          "translit": "shafo beit sgheer el-yom, wa ana shift beit azra2"
-        }
-      ]
-    },
-    {
-      "number": 6,
-      "title": "There Was, There Wasn't",
-      "titleNative": "كان فيه، مافي كان",
-      "items": [
-        {
-          "ar": "في قهوة اليوم، وشفت شاي منيح اليوم",
-          "en": "There is coffee today, and I saw good tea today",
-          "translit": "fi ahwe el-yom, wa shift shay mnih el-yom"
-        },
-        {
-          "ar": "مافي قهوة اليوم، بس شفت شاي منيح",
-          "en": "There's no coffee today, but I saw good tea",
-          "translit": "mafi ahwe el-yom, bas shift shay mnih"
-        },
-        {
-          "ar": "في بيت هون اليوم، وشاف صديق منيح",
-          "en": "There's a house here today, and he saw a good friend",
-          "translit": "fi beit hown el-yom, wa shaf sadeeq mnih"
-        },
-        {
-          "ar": "مافي بيت هونيك اليوم، بس شافت بيت هون",
-          "en": "There's no house there today, but she saw a house here",
-          "translit": "mafi beit hownik el-yom, bas shafit beit hown"
-        }
-      ],
-      "topicId": "a1-fi-mafi"
-    },
-    {
-      "number": 7,
-      "title": "Yesterday and Today",
-      "titleNative": "مبارح واليوم",
-      "items": [
-        {
-          "ar": "شفت بيت اليوم، ومبارح شفت صديق منيح",
-          "en": "I saw a house today, and yesterday I saw a good friend",
-          "translit": "shift beit el-yom, wa mbare7 shift sadeeq mnih"
-        },
-        {
-          "ar": "شاف قهوة مبارح، واليوم بدي قهوة منيح",
-          "en": "He saw coffee yesterday, and today I want good coffee",
-          "translit": "shaf ahwe mbare7, wal-yom biddi ahwe mnih"
-        },
-        {
-          "ar": "شافت بيت مبارح، واليوم بدي بيت جديد",
-          "en": "She saw a house yesterday, and today I want a new house",
-          "translit": "shafit beit mbare7, wal-yom biddi beit jdeed"
-        },
-        {
-          "ar": "شفنا صديق مبارح، واليوم شفنا صديق منيح",
-          "en": "We saw a friend yesterday, and today we saw a good friend",
-          "translit": "shifna sadeeq mbare7, wal-yom shifna sadeeq mnih"
-        }
-      ]
-    },
-    {
-      "number": 8,
-      "title": "Days and Past Tense",
-      "titleNative": "أيام وماضي",
-      "items": [
-        {
-          "ar": "يوم الجمعة شفت بيت كبير اليوم، منيح",
-          "en": "On Friday I saw a big house today, good",
-          "translit": "yom el-jum3a shift beit kbeer el-yom, mnih"
-        },
-        {
-          "ar": "يوم السبت شاف صديق منيح اليوم، والحمدلله",
-          "en": "On Saturday he saw a good friend today, thank God",
-          "translit": "yom es-sabt shaf sadeeq mnih el-yom, wal-hamdulillah"
-        },
-        {
-          "ar": "يوم الأحد شافت بيت جديد اليوم، منيح",
-          "en": "On Sunday she saw a new house today, good",
-          "translit": "yom el-a7ad shafit beit jdeed el-yom, mnih"
-        },
-        {
-          "ar": "يوم الاثنين شفنا بيت صغير اليوم، منيح",
-          "en": "On Monday we saw a small house today, good",
-          "translit": "yom el-tnein shifna beit sgheer el-yom, mnih"
-        }
-      ]
-    },
-    {
-      "number": 9,
-      "title": "Money and Past Tense",
-      "titleNative": "فلوس وماضي",
-      "items": [
-        {
-          "ar": "شفت هاد اليوم، وهاد غالي كتير اليوم",
-          "en": "I saw this today, and this is very expensive today",
-          "translit": "shift haad el-yom, wa haad ghali kteer el-yom"
-        },
-        {
-          "ar": "شاف هاد اليوم، وهاد رخيص كتير اليوم",
-          "en": "He saw this today, and this is very cheap today",
-          "translit": "shaf haad el-yom, wa haad rkhees kteer el-yom"
-        },
-        {
-          "ar": "شافت الفلوس اليوم، والفلوس هون منيح اليوم",
-          "en": "She saw the money today, and the money is here, good, today",
-          "translit": "shafit el-fluus el-yom, wal-fluus hown mnih el-yom"
-        },
-        {
-          "ar": "شفنا هاد اليوم، وشفنا كم هاد اليوم",
-          "en": "We saw this today, and we saw how much this is today",
-          "translit": "shifna haad el-yom, wa shifna kam haad el-yom"
-        }
-      ]
-    },
-    {
-      "number": 10,
-      "title": "Review: Verbs and Time",
-      "titleNative": "مراجعة",
-      "items": [
-        {
-          "ar": "شفت بيت كبير اليوم، ومبارح شفت بيت صغير",
-          "en": "I saw a big house today, and yesterday I saw a small house",
-          "translit": "shift beit kbeer el-yom, wa mbare7 shift beit sgheer"
-        },
-        {
-          "ar": "شاف صديق منيح مبارح، واليوم بدي قهوة",
-          "en": "He saw a good friend yesterday, and today I want coffee",
-          "translit": "shaf sadeeq mnih mbare7, wal-yom biddi ahwe"
-        },
-        {
-          "ar": "في قهوة اليوم، وشفنا صديق منيح كتير",
-          "en": "There is coffee today, and we saw a very good friend",
-          "translit": "fi ahwe el-yom, wa shifna sadeeq mnih kteer"
-        },
-        {
-          "ar": "شافو بيت جديد اليوم، وشافو صديق منيح كتير",
-          "en": "They saw a new house today, and they saw a very good friend",
-          "translit": "shafo beit jdeed el-yom, wa shafo sadeeq mnih kteer"
-        }
-      ]
-    },
-    {
-      "number": 11,
-      "title": "I Didn't See",
-      "titleNative": "ما شفت",
-      "items": [
-        {
-          "ar": "ما شفت بيت اليوم، شفت صديق منيح بس",
-          "en": "I didn't see a house today, I only saw a good friend",
-          "translit": "ma shift beit el-yom, shift sadeeq mnih bas"
-        },
-        {
-          "ar": "ما شاف صديق اليوم، شاف بيت كبير بس",
-          "en": "He didn't see a friend today, he only saw a big house",
-          "translit": "ma shaf sadeeq el-yom, shaf beit kbeer bas"
-        },
-        {
-          "ar": "ما شافت بيت اليوم، شافت صديق منيح بس",
-          "en": "She didn't see a house today, she only saw a good friend",
-          "translit": "ma shafit beit el-yom, shafit sadeeq mnih bas"
-        },
-        {
-          "ar": "ما شفنا بيت اليوم، شفنا صديق منيح بس",
-          "en": "We didn't see a house today, we only saw a good friend",
-          "translit": "ma shifna beit el-yom, shifna sadeeq mnih bas"
-        }
-      ],
-      "topicId": "a2-past-negation"
-    },
-    {
-      "number": 12,
-      "title": "They Didn't See",
-      "titleNative": "ما شافو",
-      "items": [
-        {
-          "ar": "ما شافو بيت اليوم، شافو صديق منيح بس",
-          "en": "They didn't see a house today, they only saw a good friend",
-          "translit": "ma shafo beit el-yom, shafo sadeeq mnih bas"
-        },
-        {
-          "ar": "ما شفت قهوة اليوم، شفت شاي منيح بس",
-          "en": "I didn't see coffee today, I only saw good tea",
-          "translit": "ma shift ahwe el-yom, shift shay mnih bas"
-        },
-        {
-          "ar": "ما بدي قهوة اليوم، بدي شاي منيح بس",
-          "en": "I don't want coffee today, I only want good tea",
-          "translit": "ma biddi ahwe el-yom, biddi shay mnih bas"
-        },
-        {
-          "ar": "ما شفنا صديق مبارح، شفنا صديق منيح اليوم",
-          "en": "We didn't see a friend yesterday, we saw a good friend today",
-          "translit": "ma shifna sadeeq mbare7, shifna sadeeq mnih el-yom"
-        }
-      ],
-      "topicId": "a2-past-negation"
-    },
-    {
-      "number": 13,
-      "title": "Yesterday and Today",
-      "titleNative": "مبارح واليوم",
-      "items": [
-        {
-          "ar": "شفت بيت مبارح، واليوم بدي بيت جديد منيح",
-          "en": "I saw a house yesterday, and today I want a good, new house",
-          "translit": "shift beit mbare7, wal-yom biddi beit jdeed mnih"
-        },
-        {
-          "ar": "ما شفت مبارح، بس اليوم بشوف بيت منيح",
-          "en": "I didn't see yesterday, but today I see a good house",
-          "translit": "ma shift mbare7, bas el-yom bshuf beit mnih"
-        },
-        {
-          "ar": "شاف قهوة مبارح، واليوم بيحب قهوة منيح كتير",
-          "en": "He saw coffee yesterday, and today he loves good coffee very much",
-          "translit": "shaf ahwe mbare7, wal-yom by7ibb ahwe mnih kteer"
-        },
-        {
-          "ar": "ما شاف مبارح، بس اليوم بشوف صديق منيح",
-          "en": "He didn't see yesterday, but today he sees a good friend",
-          "translit": "ma shaf mbare7, bas el-yom bshuf sadeeq mnih"
-        }
-      ]
-    },
-    {
-      "number": 14,
-      "title": "Family and Past Tense",
-      "titleNative": "العيلة والماضي",
-      "items": [
-        {
-          "ar": "شفت أب مبارح، وشفت أم منيحة اليوم كتير",
-          "en": "I saw a father yesterday, and I saw a very good mother today",
-          "translit": "shift ab mbare7, wa shift imm mniha el-yom kteer"
-        },
-        {
-          "ar": "شاف ولد مبارح، وشافت بنت منيحة اليوم",
-          "en": "He saw a boy yesterday, and she saw a good girl today",
-          "translit": "shaf walad mbare7, wa shafit bint mniha el-yom"
-        },
-        {
-          "ar": "شافت أهل منيح مبارح، والأهل منيح اليوم كتير",
-          "en": "She saw a good family yesterday, and the family is very good today",
-          "translit": "shafit ahl mnih mbare7, wal-ahl mnih el-yom kteer"
-        },
-        {
-          "ar": "شفنا أب وأم مبارح، وشفنا ولد وبنت اليوم",
-          "en": "We saw a father and mother yesterday, and we saw a boy and girl today",
-          "translit": "shifna ab wa imm mbare7, wa shifna walad wa bint el-yom"
-        }
-      ]
-    },
-    {
-      "number": 15,
-      "title": "Review: Past Tense Negation",
-      "titleNative": "مراجعة",
-      "items": [
-        {
-          "ar": "ما شفت بيت مبارح، شفت بيت جديد اليوم",
-          "en": "I didn't see a house yesterday, I saw a new house today",
-          "translit": "ma shift beit mbare7, shift beit jdeed el-yom"
-        },
-        {
-          "ar": "ما شاف صديق مبارح، شاف صديق منيح اليوم كتير",
-          "en": "He didn't see a friend yesterday, he saw a very good friend today",
-          "translit": "ma shaf sadeeq mbare7, shaf sadeeq mnih el-yom kteer"
-        },
-        {
-          "ar": "ما شافو بيت مبارح، شافو بيت أخضر منيح اليوم",
-          "en": "They didn't see a house yesterday, they saw a good green house today",
-          "translit": "ma shafo beit mbare7, shafo beit akhdar mnih el-yom"
-        },
-        {
-          "ar": "ما شفنا مبارح، بس اليوم شفنا بيت كبير منيح",
-          "en": "We didn't see yesterday, but today we saw a good big house",
-          "translit": "ma shifna mbare7, bas el-yom shifna beit kbeer mnih"
-        }
-      ]
-    },
-    {
-      "number": 16,
-      "title": "Numbers and Past Tense",
-      "titleNative": "الأرقام والماضي",
-      "items": [
-        {
-          "ar": "شفت واحد مبارح، وشفت تنين اليوم منيح كتير",
-          "en": "I saw one yesterday, and I saw two today, very good",
-          "translit": "shift wahed mbare7, wa shift tnein el-yom mnih kteer"
-        },
-        {
-          "ar": "شاف تلاتة مبارح، وشاف أربعة اليوم منيح كتير",
-          "en": "He saw three yesterday, and he saw four today, very good",
-          "translit": "shaf tlete mbare7, wa shaf arba3a el-yom mnih kteer"
-        },
-        {
-          "ar": "شافت خمسة مبارح، وشافت ستة اليوم منيح كتير",
-          "en": "She saw five yesterday, and she saw six today, very good",
-          "translit": "shafit khamse mbare7, wa shafit sitte el-yom mnih kteer"
-        },
-        {
-          "ar": "شفنا سبعة مبارح، وشفنا تمانية اليوم منيح كتير",
-          "en": "We saw seven yesterday, and we saw eight today, very good",
-          "translit": "shifna sab3a mbare7, wa shifna tmanye el-yom mnih kteer"
-        }
-      ]
-    },
-    {
-      "number": 17,
-      "title": "Colors and Past Tense",
-      "titleNative": "الألوان والماضي",
-      "items": [
-        {
-          "ar": "شفت بيت أحمر مبارح، وشفت بيت أزرق اليوم",
-          "en": "I saw a red house yesterday, and I saw a blue house today",
-          "translit": "shift beit a7mar mbare7, wa shift beit azra2 el-yom"
-        },
-        {
-          "ar": "شاف بيت أصفر مبارح، وشاف بيت أخضر اليوم",
-          "en": "He saw a yellow house yesterday, and he saw a green house today",
-          "translit": "shaf beit asfar mbare7, wa shaf beit akhdar el-yom"
-        },
-        {
-          "ar": "شافت بيت أسود مبارح، وشافت بيت أبيض اليوم",
-          "en": "She saw a black house yesterday, and she saw a white house today",
-          "translit": "shafit beit iswad mbare7, wa shafit beit abyad el-yom"
-        },
-        {
-          "ar": "شفنا بيت كبير مبارح، وشفنا بيت صغير اليوم",
-          "en": "We saw a big house yesterday, and we saw a small house today",
-          "translit": "shifna beit kbeer mbare7, wa shifna beit sgheer el-yom"
-        }
-      ]
-    },
-    {
-      "number": 18,
-      "title": "Days and Past Tense",
-      "titleNative": "الأيام والماضي",
-      "items": [
-        {
-          "ar": "يوم الجمعة شفت بيت جديد، ويوم السبت شفت بيت قديم",
-          "en": "On Friday I saw a new house, and on Saturday I saw an old house",
-          "translit": "yom el-jum3a shift beit jdeed, wa yom es-sabt shift beit adeem"
-        },
-        {
-          "ar": "يوم الأحد شاف صديق منيح، ويوم الاثنين شاف بيت كبير",
-          "en": "On Sunday he saw a good friend, and on Monday he saw a big house",
-          "translit": "yom el-a7ad shaf sadeeq mnih, wa yom el-tnein shaf beit kbeer"
-        },
-        {
-          "ar": "يوم الثلاثاء شافت قهوة اليوم، وبدي شاي منيح كتير",
-          "en": "On Tuesday she saw coffee today, and I want very good tea",
-          "translit": "yom et-tlata shafit ahwe el-yom, wa biddi shay mnih kteer"
-        },
-        {
-          "ar": "يوم الأربعاء شفنا بيت أزرق، ويوم الخميس شفنا بيت أخضر",
-          "en": "On Wednesday we saw a blue house, and on Thursday we saw a green house",
-          "translit": "yom el-arba3a shifna beit azra2, wa yom el-khamees shifna beit akhdar"
-        }
-      ]
-    },
-    {
-      "number": 19,
-      "title": "Money and Past Tense",
-      "titleNative": "الفلوس والماضي",
-      "items": [
-        {
-          "ar": "شفت هاد مبارح، وهاد غالي كتير اليوم منيح",
-          "en": "I saw this yesterday, and this is very expensive today, good",
-          "translit": "shift haad mbare7, wa haad ghali kteer el-yom mnih"
-        },
-        {
-          "ar": "شاف هاد مبارح، وهاد رخيص كتير اليوم منيح",
-          "en": "He saw this yesterday, and this is very cheap today, good",
-          "translit": "shaf haad mbare7, wa haad rkhees kteer el-yom mnih"
-        },
-        {
-          "ar": "شافت الفلوس مبارح، والفلوس هون اليوم منيح كتير",
-          "en": "She saw the money yesterday, and the money is here today, very good",
-          "translit": "shafit el-fluus mbare7, wal-fluus hown el-yom mnih kteer"
-        },
-        {
-          "ar": "شفنا هاد مبارح، وكم هاد اليوم؟ رخيص منيح",
-          "en": "We saw this yesterday, and how much is this today? Cheap, good",
-          "translit": "shifna haad mbare7, wa kam haad el-yom? rkhees mnih"
-        }
-      ]
-    },
-    {
-      "number": 20,
-      "title": "Review: Numbers, Colors, Days, Money",
-      "titleNative": "مراجعة",
-      "items": [
-        {
-          "ar": "شفت واحد وبيت أحمر مبارح، وأنا منيح اليوم",
-          "en": "I saw one and a red house yesterday, and I'm good today",
-          "translit": "shift wahed wa beit a7mar mbare7, wa ana mnih el-yom"
-        },
-        {
-          "ar": "شاف بيت أخضر مبارح، ويوم الجمعة شاف صديق منيح",
-          "en": "He saw a green house yesterday, and on Friday he saw a good friend",
-          "translit": "shaf beit akhdar mbare7, wa yom el-jum3a shaf sadeeq mnih"
-        },
-        {
-          "ar": "شافت هاد مبارح، وهاد غالي، بس منيح اليوم",
-          "en": "She saw this yesterday, and it's expensive, but good today",
-          "translit": "shafit haad mbare7, wa haad ghali, bas mnih el-yom"
-        },
-        {
-          "ar": "شفنا الفلوس مبارح، وشفنا كم هاد منيح اليوم",
-          "en": "We saw the money yesterday, and we saw how much this is, good, today",
-          "translit": "shifna el-fluus mbare7, wa shifna kam haad mnih el-yom"
-        }
-      ]
-    },
-    {
-      "number": 21,
-      "title": "Days with Past Tense",
-      "titleNative": "الأيام والماضي",
-      "items": [
-        {
-          "ar": "يوم الأحد شفت بيت اليوم، وشفت صديق منيح",
-          "en": "On Sunday I saw a house today, and I saw a good friend",
-          "translit": "yom el-a7ad shift beit el-yom, wa shift sadeeq mnih"
-        },
-        {
-          "ar": "يوم الاثنين شاف بيت اليوم، وشاف صديق منيح",
-          "en": "On Monday he saw a house today, and he saw a good friend",
-          "translit": "yom el-tnein shaf beit el-yom, wa shaf sadeeq mnih"
-        },
-        {
-          "ar": "يوم الجمعة شافت بيت اليوم، وشافت صديق منيح",
-          "en": "On Friday she saw a house today, and she saw a good friend",
-          "translit": "yom el-jum3a shafit beit el-yom, wa shafit sadeeq mnih"
-        },
-        {
-          "ar": "يوم السبت شفنا بيت اليوم، وشفنا صديق منيح",
-          "en": "On Saturday we saw a house today, and we saw a good friend",
-          "translit": "yom es-sabt shifna beit el-yom, wa shifna sadeeq mnih"
-        }
-      ],
-      "topicId": "a2-days-past"
-    },
-    {
-      "number": 22,
-      "title": "Places with Past Tense",
-      "titleNative": "الأماكن والماضي",
-      "items": [
-        {
-          "ar": "شفت بيت مبارح، والبيت قريب اليوم منيح",
-          "en": "I saw a house yesterday, and the house is near today, good",
-          "translit": "shift beit mbare7, wal-beit 2areeb el-yom mnih"
-        },
-        {
-          "ar": "شاف بيت مبارح، والبيت بعيد اليوم كتير",
-          "en": "He saw a house yesterday, and the house is very far today",
-          "translit": "shaf beit mbare7, wal-beit ba3eed el-yom kteer"
-        },
-        {
-          "ar": "شفت سيارة مبارح، والسيارة قريبة اليوم منيح",
-          "en": "I saw a car yesterday, and the car is near today, good",
-          "translit": "shift sayyara mbare7, was-sayyara 2areeba el-yom mnih"
-        },
-        {
-          "ar": "شافت سيارة مبارح، والسيارة بعيدة اليوم كتير",
-          "en": "She saw a car yesterday, and the car is very far today",
-          "translit": "shafit sayyara mbare7, was-sayyara ba3eede el-yom kteer"
-        }
-      ]
-    },
-    {
-      "number": 23,
-      "title": "Money and Shopping in the Past",
-      "titleNative": "الفلوس والتسوق بالماضي",
-      "items": [
-        {
-          "ar": "شفت هاد مبارح، وكم هاد اليوم؟ غالي كتير",
-          "en": "I saw this yesterday, and how much is this today? Very expensive",
-          "translit": "shift haad mbare7, wa kam haad el-yom? ghali kteer"
-        },
-        {
-          "ar": "شاف هاد مبارح، وهاد رخيص كتير اليوم منيح",
-          "en": "He saw this yesterday, and this is very cheap today, good",
-          "translit": "shaf haad mbare7, wa haad rkhees kteer el-yom mnih"
-        },
-        {
-          "ar": "شافت الفلوس مبارح، والفلوس هون اليوم منيح كتير",
-          "en": "She saw the money yesterday, and the money is here today, very good",
-          "translit": "shafit el-fluus mbare7, wal-fluus hown el-yom mnih kteer"
-        },
-        {
-          "ar": "شفنا هاد مبارح، وهاد غالي، بس منيح اليوم",
-          "en": "We saw this yesterday, and this is expensive, but good today",
-          "translit": "shifna haad mbare7, wa haad ghali, bas mnih el-yom"
-        }
-      ]
-    },
-    {
-      "number": 24,
-      "title": "Big and Small in the Past",
-      "titleNative": "الكبير والصغير بالماضي",
-      "items": [
-        {
-          "ar": "شفت بيت كبير مبارح، وشفت بيت صغير اليوم",
-          "en": "I saw a big house yesterday, and I saw a small house today",
-          "translit": "shift beit kbeer mbare7, wa shift beit sgheer el-yom"
-        },
-        {
-          "ar": "شاف بيت جديد مبارح، وشاف بيت قديم اليوم",
-          "en": "He saw a new house yesterday, and he saw an old house today",
-          "translit": "shaf beit jdeed mbare7, wa shaf beit adeem el-yom"
-        },
-        {
-          "ar": "شافت بيت كبير وجديد مبارح، منيح والحمدلله",
-          "en": "She saw a big, new house yesterday, good, thank God",
-          "translit": "shafit beit kbeer wa jdeed mbare7, mnih wal-hamdulillah"
-        },
-        {
-          "ar": "شفنا بيت صغير وقديم مبارح، بس منيح اليوم",
-          "en": "We saw a small, old house yesterday, but it's good today",
-          "translit": "shifna beit sgheer wa adeem mbare7, bas mnih el-yom"
-        }
-      ]
-    },
-    {
-      "number": 25,
-      "title": "Review: Days, Places, Money, Size",
-      "titleNative": "مراجعة",
-      "items": [
-        {
-          "ar": "يوم الأحد شفت بيت اليوم، والبيت قريب وكبير",
-          "en": "On Sunday I saw a house today, and the house is near and big",
-          "translit": "yom el-a7ad shift beit el-yom, wal-beit 2areeb wa kbeer"
-        },
-        {
-          "ar": "شاف بيت مبارح، وشفت هاد اليوم، غالي كتير",
-          "en": "He saw a house yesterday, and I saw this today, very expensive",
-          "translit": "shaf beit mbare7, wa shift haad el-yom, ghali kteer"
-        },
-        {
-          "ar": "شفنا بيت جديد مبارح، وشفنا الفلوس اليوم منيح",
-          "en": "We saw a new house yesterday, and we saw the money today, good",
-          "translit": "shifna beit jdeed mbare7, wa shifna el-fluus el-yom mnih"
-        },
-        {
-          "ar": "شافو بيت صغير مبارح، وشافو صديق منيح اليوم",
-          "en": "They saw a small house yesterday, and they saw a good friend today",
-          "translit": "shafo beit sgheer mbare7, wa shafo sadeeq mnih el-yom"
-        }
-      ]
-    },
-    {
-      "number": 26,
-      "title": "I Love and I Saw",
-      "titleNative": "بحب وشفت",
-      "items": [
-        {
-          "ar": "بحب قهوة اليوم، ومبارح شفت الأهل منيح",
-          "en": "I love coffee today, and yesterday I saw the family, good",
-          "translit": "b7ibb ahwe el-yom, wa mbare7 shift el-ahl mnih"
-        },
-        {
-          "ar": "بيحب شاي اليوم، ومبارح شاف بيت جديد",
-          "en": "He loves tea today, and yesterday he saw a new house",
-          "translit": "by7ibb shay el-yom, wa mbare7 shaf beit jdeed"
-        },
-        {
-          "ar": "بتحب مي اليوم، ومبارح شافت صديق منيح",
-          "en": "She loves water today, and yesterday she saw a good friend",
-          "translit": "bt7ibb may el-yom, wa mbare7 shafit sadeeq mnih"
-        },
-        {
-          "ar": "منحب قهوة اليوم، ومبارح شفنا بيت كبير",
-          "en": "We love coffee today, and yesterday we saw a big house",
-          "translit": "mn7ibb ahwe el-yom, wa mbare7 shifna beit kbeer"
-        }
-      ],
-      "topicId": "a1-present-shaf"
-    },
-    {
-      "number": 27,
-      "title": "Days and Wanting",
-      "titleNative": "الأيام والرغبة",
-      "items": [
-        {
-          "ar": "يوم الجمعة بدي قهوة اليوم، منيح والحمدلله",
-          "en": "On Friday I want coffee today, good, thank God",
-          "translit": "yom el-jum3a biddi ahwe el-yom, mnih wal-hamdulillah"
-        },
-        {
-          "ar": "يوم السبت بدي بيت جديد اليوم، منيح كتير",
-          "en": "On Saturday I want a new house today, very good",
-          "translit": "yom es-sabt biddi beit jdeed el-yom, mnih kteer"
-        },
-        {
-          "ar": "يوم الأحد بدي شاي اليوم، وشفت صديق منيح",
-          "en": "On Sunday I want tea today, and I saw a good friend",
-          "translit": "yom el-a7ad biddi shay el-yom, wa shift sadeeq mnih"
-        },
-        {
-          "ar": "يوم الاثنين بدي مي اليوم، وشاف بيت كبير",
-          "en": "On Monday I want water today, and he saw a big house",
-          "translit": "yom el-tnein biddi may el-yom, wa shaf beit kbeer"
-        }
-      ]
-    },
-    {
-      "number": 28,
-      "title": "Family Recombined",
-      "titleNative": "العيلة",
-      "items": [
-        {
-          "ar": "شفت أب مبارح، وبيحب قهوة منيح اليوم",
-          "en": "I saw a father yesterday, and he loves good coffee today",
-          "translit": "shift ab mbare7, wa by7ibb ahwe mnih el-yom"
-        },
-        {
-          "ar": "شفت أم مبارح، وبتحب شاي منيح اليوم",
-          "en": "I saw a mother yesterday, and she loves good tea today",
-          "translit": "shift imm mbare7, wa bt7ibb shay mnih el-yom"
-        },
-        {
-          "ar": "شاف ولد مبارح، وبشوف بنت منيحة اليوم",
-          "en": "He saw a boy yesterday, and I see a good girl today",
-          "translit": "shaf walad mbare7, wa bshuf bint mniha el-yom"
-        },
-        {
-          "ar": "الأهل منيح اليوم، وشفت الأهل مبارح والحمدلله",
-          "en": "The family is good today, and I saw the family yesterday, thank God",
-          "translit": "el-ahl mnih el-yom, wa shift el-ahl mbare7 wal-hamdulillah"
-        }
-      ]
-    },
-    {
-      "number": 29,
-      "title": "Questions About the Past",
-      "titleNative": "أسئلة عن الماضي",
-      "items": [
-        {
-          "ar": "شو شفت مبارح؟ شفت بيت كبير وجديد",
-          "en": "What did you see yesterday? I saw a big, new house",
-          "translit": "shu shift mbare7? shift beit kbeer wa jdeed"
-        },
-        {
-          "ar": "مين شاف اليوم؟ شاف صديق منيح والحمدلله",
-          "en": "Who saw today? He saw a good friend, thank God",
-          "translit": "miin shaf el-yom? shaf sadeeq mnih wal-hamdulillah"
-        },
-        {
-          "ar": "مدري ليش شافت اليوم، بس شافت بيت منيح",
-          "en": "I don't know why she saw today, but she saw a good house",
-          "translit": "midri leish shafit el-yom, bas shafit beit mnih"
-        },
-        {
-          "ar": "وين شفنا مبارح؟ شفنا الأهل هون منيح اليوم",
-          "en": "Where did we see yesterday? We saw the family here, good, today",
-          "translit": "wein shifna mbare7? shifna el-ahl hown mnih el-yom"
-        }
-      ]
-    },
-    {
-      "number": 30,
-      "title": "Review: A2 Recap",
-      "titleNative": "مراجعة نهائية",
-      "items": [
-        {
-          "ar": "شفت بيت مبارح، وشفت الأهل، والحمدلله منيح",
-          "en": "I saw a house yesterday, and I saw the family, thank God, good",
-          "translit": "shift beit mbare7, wa shift el-ahl, wal-hamdulillah mnih"
-        },
-        {
-          "ar": "يوم الجمعة شاف صديق، وشاف بيت كبير جديد",
-          "en": "On Friday he saw a friend, and he saw a big, new house",
-          "translit": "yom el-jum3a shaf sadeeq, wa shaf beit kbeer jdeed"
-        },
-        {
-          "ar": "ما شفنا مبارح، بس اليوم بشوف بيت منيح",
-          "en": "We didn't see yesterday, but today I see a good house",
-          "translit": "ma shifna mbare7, bas el-yom bshuf beit mnih"
-        },
-        {
-          "ar": "شفت هاد مبارح، غالي كتير، بس منيح اليوم",
-          "en": "I saw this yesterday, very expensive, but good today",
-          "translit": "shift haad mbare7, ghali kteer, bas mnih el-yom"
-        }
-      ]
+     "sp": "B",
+     "native": "لا، ما شفت صديق اليوم، شفت بيت بس",
+     "en": "No, I didn't see a friend today, I only saw a house"
     }
-  ]
+   ]
+  },
+  "a2-days-past": {
+   "title": "Days of the Week with Past Tense",
+   "pattern": "يوم + الفعل الماضي",
+   "explanation": "Combining a day name with a past-tense verb builds a simple narrative: يوم الجمعة شفت صديق (yom el-jum3a shift sadeeq, \"On Friday I saw a friend\"). The day name simply comes first, like a time adverb.",
+   "fact": "Just like مبارح (yesterday), day names need no extra preposition (\"on Friday\") — Syrian Arabic places time expressions directly at the start of the sentence.",
+   "dialogue": [
+    {
+     "sp": "A",
+     "native": "يوم السبت شو شفت؟",
+     "en": "On Saturday, what did you see?"
+    },
+    {
+     "sp": "B",
+     "native": "يوم السبت شفت بيت كبير منيح",
+     "en": "On Saturday I saw a big, good house"
+    }
+   ]
+  }
+ },
+ "lessons": [
+  {
+   "number": 1,
+   "title": "I Saw, You Saw",
+   "titleNative": "شفت، شفت",
+   "items": [
+    {
+     "ar": "شفت بيت كبير اليوم، وشفت صديق منيح",
+     "en": "I saw a big house today, and I saw a good friend",
+     "translit": "shift beit kbeer el-yom, wa shift sadeeq mnih"
+    },
+    {
+     "ar": "شفت بيت اليوم، وانت شفت شو اليوم",
+     "en": "You (m) saw a house today, and what did you see today",
+     "translit": "shift beit el-yom, wa inte shift shu el-yom"
+    },
+    {
+     "ar": "شفتي بيت اليوم، وشفتي صديق منيح",
+     "en": "You (f) saw a house today, and you saw a good friend",
+     "translit": "shifti beit el-yom, wa shifti sadeeq mnih"
+    },
+    {
+     "ar": "شاف بيت كبير اليوم، وشاف صديق منيح",
+     "en": "He saw a big house today, and he saw a good friend",
+     "translit": "shaf beit kbeer el-yom, wa shaf sadeeq mnih"
+    }
+   ],
+   "topicId": "a2-past-katab"
+  },
+  {
+   "number": 2,
+   "title": "She Saw, We Saw, They Saw",
+   "titleNative": "شافت، شفنا، شافو",
+   "items": [
+    {
+     "ar": "شافت بيت كبير اليوم، وشافت صديق منيح",
+     "en": "She saw a big house today, and she saw a good friend",
+     "translit": "shafit beit kbeer el-yom, wa shafit sadeeq mnih"
+    },
+    {
+     "ar": "شفنا بيت اليوم، وشفنا صديق منيح اليوم",
+     "en": "We saw a house today, and we saw a good friend today",
+     "translit": "shifna beit el-yom, wa shifna sadeeq mnih el-yom"
+    },
+    {
+     "ar": "شفتو بيت اليوم، وشفتو صديق منيح اليوم",
+     "en": "You all saw a house today, and you saw a good friend today",
+     "translit": "shiftu beit el-yom, wa shiftu sadeeq mnih el-yom"
+    },
+    {
+     "ar": "شافو بيت كبير اليوم، وشافو صديق منيح",
+     "en": "They saw a big house today, and they saw a good friend",
+     "translit": "shafo beit kbeer el-yom, wa shafo sadeeq mnih"
+    }
+   ],
+   "topicId": "a2-past-katab"
+  },
+  {
+   "number": 3,
+   "title": "What Did You See?",
+   "titleNative": "شو شفت؟",
+   "items": [
+    {
+     "ar": "شو شفت اليوم؟ شفت بيت كبير منيح",
+     "en": "What did you see today? I saw a big, good house",
+     "translit": "shu shift el-yom? shift beit kbeer mnih"
+    },
+    {
+     "ar": "شو شاف اليوم؟ شاف بيت جديد منيح",
+     "en": "What did he see today? He saw a good, new house",
+     "translit": "shu shaf el-yom? shaf beit jdeed mnih"
+    },
+    {
+     "ar": "شو شافت اليوم؟ شافت بيت صغير منيح",
+     "en": "What did she see today? She saw a good, small house",
+     "translit": "shu shafit el-yom? shafit beit sgheer mnih"
+    },
+    {
+     "ar": "شو شافو اليوم؟ شافو بيت قديم منيح",
+     "en": "What did they see today? They saw a good, old house",
+     "translit": "shu shafo el-yom? shafo beit adeem mnih"
+    }
+   ]
+  },
+  {
+   "number": 4,
+   "title": "I Saw and I Wanted",
+   "titleNative": "شفت وبدي",
+   "items": [
+    {
+     "ar": "شفت بيت اليوم، وبدي بيت جديد منيح",
+     "en": "I saw a house today, and I want a good, new house",
+     "translit": "shift beit el-yom, wa biddi beit jdeed mnih"
+    },
+    {
+     "ar": "شاف قهوة اليوم، وبدي قهوة وشاي منيح",
+     "en": "He saw coffee today, and I want good coffee and tea",
+     "translit": "shaf ahwe el-yom, wa biddi ahwe wa shay mnih"
+    },
+    {
+     "ar": "شافت أب اليوم، وشافت أم منيحة اليوم",
+     "en": "She saw a father today, and she saw a good mother today",
+     "translit": "shafit ab el-yom, wa shafit imm mniha el-yom"
+    },
+    {
+     "ar": "شفنا صديق اليوم، وبدي صديق منيح اليوم",
+     "en": "We saw a friend today, and I want a good friend today",
+     "translit": "shifna sadeeq el-yom, wa biddi sadeeq mnih el-yom"
+    }
+   ]
+  },
+  {
+   "number": 5,
+   "title": "Review: Past Tense of Shaf",
+   "titleNative": "مراجعة: شفت",
+   "items": [
+    {
+     "ar": "شفت بيت كبير اليوم، وشفت صديق منيح كتير",
+     "en": "I saw a big house today, and I saw a very good friend",
+     "translit": "shift beit kbeer el-yom, wa shift sadeeq mnih kteer"
+    },
+    {
+     "ar": "شاف بيت جديد اليوم، وشافت بيت قديم",
+     "en": "He saw a new house today, and she saw an old house",
+     "translit": "shaf beit jdeed el-yom, wa shafit beit adeem"
+    },
+    {
+     "ar": "شفنا صديق منيح اليوم، وشفتو بيت كبير",
+     "en": "We saw a good friend today, and you all saw a big house",
+     "translit": "shifna sadeeq mnih el-yom, wa shiftu beit kbeer"
+    },
+    {
+     "ar": "شافو بيت صغير اليوم، وأنا شفت بيت أزرق",
+     "en": "They saw a small house today, and I saw a blue house",
+     "translit": "shafo beit sgheer el-yom, wa ana shift beit azra2"
+    }
+   ]
+  },
+  {
+   "number": 6,
+   "title": "There Was, There Wasn't",
+   "titleNative": "كان فيه، مافي كان",
+   "items": [
+    {
+     "ar": "في قهوة اليوم، وشفت شاي منيح اليوم",
+     "en": "There is coffee today, and I saw good tea today",
+     "translit": "fi ahwe el-yom, wa shift shay mnih el-yom"
+    },
+    {
+     "ar": "مافي قهوة اليوم، بس شفت شاي منيح",
+     "en": "There's no coffee today, but I saw good tea",
+     "translit": "mafi ahwe el-yom, bas shift shay mnih"
+    },
+    {
+     "ar": "في بيت هون اليوم، وشاف صديق منيح",
+     "en": "There's a house here today, and he saw a good friend",
+     "translit": "fi beit hown el-yom, wa shaf sadeeq mnih"
+    },
+    {
+     "ar": "مافي بيت هونيك اليوم، بس شافت بيت هون",
+     "en": "There's no house there today, but she saw a house here",
+     "translit": "mafi beit hownik el-yom, bas shafit beit hown"
+    }
+   ],
+   "topicId": "a1-fi-mafi"
+  },
+  {
+   "number": 7,
+   "title": "Yesterday and Today",
+   "titleNative": "مبارح واليوم",
+   "items": [
+    {
+     "ar": "شفت بيت اليوم، ومبارح شفت صديق منيح",
+     "en": "I saw a house today, and yesterday I saw a good friend",
+     "translit": "shift beit el-yom, wa mbare7 shift sadeeq mnih"
+    },
+    {
+     "ar": "شاف قهوة مبارح، واليوم بدي قهوة منيح",
+     "en": "He saw coffee yesterday, and today I want good coffee",
+     "translit": "shaf ahwe mbare7, wal-yom biddi ahwe mnih"
+    },
+    {
+     "ar": "شافت بيت مبارح، واليوم بدي بيت جديد",
+     "en": "She saw a house yesterday, and today I want a new house",
+     "translit": "shafit beit mbare7, wal-yom biddi beit jdeed"
+    },
+    {
+     "ar": "شفنا صديق مبارح، واليوم شفنا صديق منيح",
+     "en": "We saw a friend yesterday, and today we saw a good friend",
+     "translit": "shifna sadeeq mbare7, wal-yom shifna sadeeq mnih"
+    }
+   ]
+  },
+  {
+   "number": 8,
+   "title": "Days and Past Tense",
+   "titleNative": "أيام وماضي",
+   "items": [
+    {
+     "ar": "يوم الجمعة شفت بيت كبير اليوم، منيح",
+     "en": "On Friday I saw a big house today, good",
+     "translit": "yom el-jum3a shift beit kbeer el-yom, mnih"
+    },
+    {
+     "ar": "يوم السبت شاف صديق منيح اليوم، والحمدلله",
+     "en": "On Saturday he saw a good friend today, thank God",
+     "translit": "yom es-sabt shaf sadeeq mnih el-yom, wal-hamdulillah"
+    },
+    {
+     "ar": "يوم الأحد شافت بيت جديد اليوم، منيح",
+     "en": "On Sunday she saw a new house today, good",
+     "translit": "yom el-a7ad shafit beit jdeed el-yom, mnih"
+    },
+    {
+     "ar": "يوم الاثنين شفنا بيت صغير اليوم، منيح",
+     "en": "On Monday we saw a small house today, good",
+     "translit": "yom el-tnein shifna beit sgheer el-yom, mnih"
+    }
+   ]
+  },
+  {
+   "number": 9,
+   "title": "Money and Past Tense",
+   "titleNative": "فلوس وماضي",
+   "items": [
+    {
+     "ar": "شفت هاد اليوم، وهاد غالي كتير اليوم",
+     "en": "I saw this today, and this is very expensive today",
+     "translit": "shift haad el-yom, wa haad ghali kteer el-yom"
+    },
+    {
+     "ar": "شاف هاد اليوم، وهاد رخيص كتير اليوم",
+     "en": "He saw this today, and this is very cheap today",
+     "translit": "shaf haad el-yom, wa haad rkhees kteer el-yom"
+    },
+    {
+     "ar": "شافت الفلوس اليوم، والفلوس هون منيح اليوم",
+     "en": "She saw the money today, and the money is here, good, today",
+     "translit": "shafit el-fluus el-yom, wal-fluus hown mnih el-yom"
+    },
+    {
+     "ar": "شفنا هاد اليوم، وشفنا كم هاد اليوم",
+     "en": "We saw this today, and we saw how much this is today",
+     "translit": "shifna haad el-yom, wa shifna kam haad el-yom"
+    }
+   ]
+  },
+  {
+   "number": 10,
+   "title": "Review: Verbs and Time",
+   "titleNative": "مراجعة",
+   "items": [
+    {
+     "ar": "شفت بيت كبير اليوم، ومبارح شفت بيت صغير",
+     "en": "I saw a big house today, and yesterday I saw a small house",
+     "translit": "shift beit kbeer el-yom, wa mbare7 shift beit sgheer"
+    },
+    {
+     "ar": "شاف صديق منيح مبارح، واليوم بدي قهوة",
+     "en": "He saw a good friend yesterday, and today I want coffee",
+     "translit": "shaf sadeeq mnih mbare7, wal-yom biddi ahwe"
+    },
+    {
+     "ar": "في قهوة اليوم، وشفنا صديق منيح كتير",
+     "en": "There is coffee today, and we saw a very good friend",
+     "translit": "fi ahwe el-yom, wa shifna sadeeq mnih kteer"
+    },
+    {
+     "ar": "شافو بيت جديد اليوم، وشافو صديق منيح كتير",
+     "en": "They saw a new house today, and they saw a very good friend",
+     "translit": "shafo beit jdeed el-yom, wa shafo sadeeq mnih kteer"
+    }
+   ]
+  },
+  {
+   "number": 11,
+   "title": "I Didn't See",
+   "titleNative": "ما شفت",
+   "items": [
+    {
+     "ar": "ما شفت بيت اليوم، شفت صديق منيح بس",
+     "en": "I didn't see a house today, I only saw a good friend",
+     "translit": "ma shift beit el-yom, shift sadeeq mnih bas"
+    },
+    {
+     "ar": "ما شاف صديق اليوم، شاف بيت كبير بس",
+     "en": "He didn't see a friend today, he only saw a big house",
+     "translit": "ma shaf sadeeq el-yom, shaf beit kbeer bas"
+    },
+    {
+     "ar": "ما شافت بيت اليوم، شافت صديق منيح بس",
+     "en": "She didn't see a house today, she only saw a good friend",
+     "translit": "ma shafit beit el-yom, shafit sadeeq mnih bas"
+    },
+    {
+     "ar": "ما شفنا بيت اليوم، شفنا صديق منيح بس",
+     "en": "We didn't see a house today, we only saw a good friend",
+     "translit": "ma shifna beit el-yom, shifna sadeeq mnih bas"
+    }
+   ],
+   "topicId": "a2-past-negation"
+  },
+  {
+   "number": 12,
+   "title": "They Didn't See",
+   "titleNative": "ما شافو",
+   "items": [
+    {
+     "ar": "ما شافو بيت اليوم، شافو صديق منيح بس",
+     "en": "They didn't see a house today, they only saw a good friend",
+     "translit": "ma shafo beit el-yom, shafo sadeeq mnih bas"
+    },
+    {
+     "ar": "ما شفت قهوة اليوم، شفت شاي منيح بس",
+     "en": "I didn't see coffee today, I only saw good tea",
+     "translit": "ma shift ahwe el-yom, shift shay mnih bas"
+    },
+    {
+     "ar": "ما بدي قهوة اليوم، بدي شاي منيح بس",
+     "en": "I don't want coffee today, I only want good tea",
+     "translit": "ma biddi ahwe el-yom, biddi shay mnih bas"
+    },
+    {
+     "ar": "ما شفنا صديق مبارح، شفنا صديق منيح اليوم",
+     "en": "We didn't see a friend yesterday, we saw a good friend today",
+     "translit": "ma shifna sadeeq mbare7, shifna sadeeq mnih el-yom"
+    }
+   ],
+   "topicId": "a2-past-negation"
+  },
+  {
+   "number": 13,
+   "title": "Yesterday and Today",
+   "titleNative": "مبارح واليوم",
+   "items": [
+    {
+     "ar": "شفت بيت مبارح، واليوم بدي بيت جديد منيح",
+     "en": "I saw a house yesterday, and today I want a good, new house",
+     "translit": "shift beit mbare7, wal-yom biddi beit jdeed mnih"
+    },
+    {
+     "ar": "ما شفت مبارح، بس اليوم بشوف بيت منيح",
+     "en": "I didn't see yesterday, but today I see a good house",
+     "translit": "ma shift mbare7, bas el-yom bshuf beit mnih"
+    },
+    {
+     "ar": "شاف قهوة مبارح، واليوم بيحب قهوة منيح كتير",
+     "en": "He saw coffee yesterday, and today he loves good coffee very much",
+     "translit": "shaf ahwe mbare7, wal-yom by7ibb ahwe mnih kteer"
+    },
+    {
+     "ar": "ما شاف مبارح، بس اليوم بشوف صديق منيح",
+     "en": "He didn't see yesterday, but today he sees a good friend",
+     "translit": "ma shaf mbare7, bas el-yom bshuf sadeeq mnih"
+    }
+   ]
+  },
+  {
+   "number": 14,
+   "title": "Family and Past Tense",
+   "titleNative": "العيلة والماضي",
+   "items": [
+    {
+     "ar": "شفت أب مبارح، وشفت أم منيحة اليوم كتير",
+     "en": "I saw a father yesterday, and I saw a very good mother today",
+     "translit": "shift ab mbare7, wa shift imm mniha el-yom kteer"
+    },
+    {
+     "ar": "شاف ولد مبارح، وشافت بنت منيحة اليوم",
+     "en": "He saw a boy yesterday, and she saw a good girl today",
+     "translit": "shaf walad mbare7, wa shafit bint mniha el-yom"
+    },
+    {
+     "ar": "شافت أهل منيح مبارح، والأهل منيح اليوم كتير",
+     "en": "She saw a good family yesterday, and the family is very good today",
+     "translit": "shafit ahl mnih mbare7, wal-ahl mnih el-yom kteer"
+    },
+    {
+     "ar": "شفنا أب وأم مبارح، وشفنا ولد وبنت اليوم",
+     "en": "We saw a father and mother yesterday, and we saw a boy and girl today",
+     "translit": "shifna ab wa imm mbare7, wa shifna walad wa bint el-yom"
+    }
+   ]
+  },
+  {
+   "number": 15,
+   "title": "Review: Past Tense Negation",
+   "titleNative": "مراجعة",
+   "items": [
+    {
+     "ar": "ما شفت بيت مبارح، شفت بيت جديد اليوم",
+     "en": "I didn't see a house yesterday, I saw a new house today",
+     "translit": "ma shift beit mbare7, shift beit jdeed el-yom"
+    },
+    {
+     "ar": "ما شاف صديق مبارح، شاف صديق منيح اليوم كتير",
+     "en": "He didn't see a friend yesterday, he saw a very good friend today",
+     "translit": "ma shaf sadeeq mbare7, shaf sadeeq mnih el-yom kteer"
+    },
+    {
+     "ar": "ما شافو بيت مبارح، شافو بيت أخضر منيح اليوم",
+     "en": "They didn't see a house yesterday, they saw a good green house today",
+     "translit": "ma shafo beit mbare7, shafo beit akhdar mnih el-yom"
+    },
+    {
+     "ar": "ما شفنا مبارح، بس اليوم شفنا بيت كبير منيح",
+     "en": "We didn't see yesterday, but today we saw a good big house",
+     "translit": "ma shifna mbare7, bas el-yom shifna beit kbeer mnih"
+    }
+   ]
+  },
+  {
+   "number": 16,
+   "title": "Numbers and Past Tense",
+   "titleNative": "الأرقام والماضي",
+   "items": [
+    {
+     "ar": "شفت واحد مبارح، وشفت تنين اليوم منيح كتير",
+     "en": "I saw one yesterday, and I saw two today, very good",
+     "translit": "shift wahed mbare7, wa shift tnein el-yom mnih kteer"
+    },
+    {
+     "ar": "شاف تلاتة مبارح، وشاف أربعة اليوم منيح كتير",
+     "en": "He saw three yesterday, and he saw four today, very good",
+     "translit": "shaf tlete mbare7, wa shaf arba3a el-yom mnih kteer"
+    },
+    {
+     "ar": "شافت خمسة مبارح، وشافت ستة اليوم منيح كتير",
+     "en": "She saw five yesterday, and she saw six today, very good",
+     "translit": "shafit khamse mbare7, wa shafit sitte el-yom mnih kteer"
+    },
+    {
+     "ar": "شفنا سبعة مبارح، وشفنا تمانية اليوم منيح كتير",
+     "en": "We saw seven yesterday, and we saw eight today, very good",
+     "translit": "shifna sab3a mbare7, wa shifna tmanye el-yom mnih kteer"
+    }
+   ]
+  },
+  {
+   "number": 17,
+   "title": "Colors and Past Tense",
+   "titleNative": "الألوان والماضي",
+   "items": [
+    {
+     "ar": "شفت بيت أحمر مبارح، وشفت بيت أزرق اليوم",
+     "en": "I saw a red house yesterday, and I saw a blue house today",
+     "translit": "shift beit a7mar mbare7, wa shift beit azra2 el-yom"
+    },
+    {
+     "ar": "شاف بيت أصفر مبارح، وشاف بيت أخضر اليوم",
+     "en": "He saw a yellow house yesterday, and he saw a green house today",
+     "translit": "shaf beit asfar mbare7, wa shaf beit akhdar el-yom"
+    },
+    {
+     "ar": "شافت بيت أسود مبارح، وشافت بيت أبيض اليوم",
+     "en": "She saw a black house yesterday, and she saw a white house today",
+     "translit": "shafit beit iswad mbare7, wa shafit beit abyad el-yom"
+    },
+    {
+     "ar": "شفنا بيت كبير مبارح، وشفنا بيت صغير اليوم",
+     "en": "We saw a big house yesterday, and we saw a small house today",
+     "translit": "shifna beit kbeer mbare7, wa shifna beit sgheer el-yom"
+    }
+   ]
+  },
+  {
+   "number": 18,
+   "title": "Days and Past Tense",
+   "titleNative": "الأيام والماضي",
+   "items": [
+    {
+     "ar": "يوم الجمعة شفت بيت جديد، ويوم السبت شفت بيت قديم",
+     "en": "On Friday I saw a new house, and on Saturday I saw an old house",
+     "translit": "yom el-jum3a shift beit jdeed, wa yom es-sabt shift beit adeem"
+    },
+    {
+     "ar": "يوم الأحد شاف صديق منيح، ويوم الاثنين شاف بيت كبير",
+     "en": "On Sunday he saw a good friend, and on Monday he saw a big house",
+     "translit": "yom el-a7ad shaf sadeeq mnih, wa yom el-tnein shaf beit kbeer"
+    },
+    {
+     "ar": "يوم الثلاثاء شافت قهوة اليوم، وبدي شاي منيح كتير",
+     "en": "On Tuesday she saw coffee today, and I want very good tea",
+     "translit": "yom et-tlata shafit ahwe el-yom, wa biddi shay mnih kteer"
+    },
+    {
+     "ar": "يوم الأربعاء شفنا بيت أزرق، ويوم الخميس شفنا بيت أخضر",
+     "en": "On Wednesday we saw a blue house, and on Thursday we saw a green house",
+     "translit": "yom el-arba3a shifna beit azra2, wa yom el-khamees shifna beit akhdar"
+    }
+   ]
+  },
+  {
+   "number": 19,
+   "title": "Money and Past Tense",
+   "titleNative": "الفلوس والماضي",
+   "items": [
+    {
+     "ar": "شفت هاد مبارح، وهاد غالي كتير اليوم منيح",
+     "en": "I saw this yesterday, and this is very expensive today, good",
+     "translit": "shift haad mbare7, wa haad ghali kteer el-yom mnih"
+    },
+    {
+     "ar": "شاف هاد مبارح، وهاد رخيص كتير اليوم منيح",
+     "en": "He saw this yesterday, and this is very cheap today, good",
+     "translit": "shaf haad mbare7, wa haad rkhees kteer el-yom mnih"
+    },
+    {
+     "ar": "شافت الفلوس مبارح، والفلوس هون اليوم منيح كتير",
+     "en": "She saw the money yesterday, and the money is here today, very good",
+     "translit": "shafit el-fluus mbare7, wal-fluus hown el-yom mnih kteer"
+    },
+    {
+     "ar": "شفنا هاد مبارح، وكم هاد اليوم؟ رخيص منيح",
+     "en": "We saw this yesterday, and how much is this today? Cheap, good",
+     "translit": "shifna haad mbare7, wa kam haad el-yom? rkhees mnih"
+    }
+   ]
+  },
+  {
+   "number": 20,
+   "title": "Review: Numbers, Colors, Days, Money",
+   "titleNative": "مراجعة",
+   "items": [
+    {
+     "ar": "شفت واحد وبيت أحمر مبارح، وأنا منيح اليوم",
+     "en": "I saw one and a red house yesterday, and I'm good today",
+     "translit": "shift wahed wa beit a7mar mbare7, wa ana mnih el-yom"
+    },
+    {
+     "ar": "شاف بيت أخضر مبارح، ويوم الجمعة شاف صديق منيح",
+     "en": "He saw a green house yesterday, and on Friday he saw a good friend",
+     "translit": "shaf beit akhdar mbare7, wa yom el-jum3a shaf sadeeq mnih"
+    },
+    {
+     "ar": "شافت هاد مبارح، وهاد غالي، بس منيح اليوم",
+     "en": "She saw this yesterday, and it's expensive, but good today",
+     "translit": "shafit haad mbare7, wa haad ghali, bas mnih el-yom"
+    },
+    {
+     "ar": "شفنا الفلوس مبارح، وشفنا كم هاد منيح اليوم",
+     "en": "We saw the money yesterday, and we saw how much this is, good, today",
+     "translit": "shifna el-fluus mbare7, wa shifna kam haad mnih el-yom"
+    }
+   ]
+  },
+  {
+   "number": 21,
+   "title": "Days with Past Tense",
+   "titleNative": "الأيام والماضي",
+   "items": [
+    {
+     "ar": "يوم الأحد شفت بيت اليوم، وشفت صديق منيح",
+     "en": "On Sunday I saw a house today, and I saw a good friend",
+     "translit": "yom el-a7ad shift beit el-yom, wa shift sadeeq mnih"
+    },
+    {
+     "ar": "يوم الاثنين شاف بيت اليوم، وشاف صديق منيح",
+     "en": "On Monday he saw a house today, and he saw a good friend",
+     "translit": "yom el-tnein shaf beit el-yom, wa shaf sadeeq mnih"
+    },
+    {
+     "ar": "يوم الجمعة شافت بيت اليوم، وشافت صديق منيح",
+     "en": "On Friday she saw a house today, and she saw a good friend",
+     "translit": "yom el-jum3a shafit beit el-yom, wa shafit sadeeq mnih"
+    },
+    {
+     "ar": "يوم السبت شفنا بيت اليوم، وشفنا صديق منيح",
+     "en": "On Saturday we saw a house today, and we saw a good friend",
+     "translit": "yom es-sabt shifna beit el-yom, wa shifna sadeeq mnih"
+    }
+   ],
+   "topicId": "a2-days-past"
+  },
+  {
+   "number": 22,
+   "title": "Places with Past Tense",
+   "titleNative": "الأماكن والماضي",
+   "items": [
+    {
+     "ar": "شفت بيت مبارح، والبيت قريب اليوم منيح",
+     "en": "I saw a house yesterday, and the house is near today, good",
+     "translit": "shift beit mbare7, wal-beit 2areeb el-yom mnih"
+    },
+    {
+     "ar": "شاف بيت مبارح، والبيت بعيد اليوم كتير",
+     "en": "He saw a house yesterday, and the house is very far today",
+     "translit": "shaf beit mbare7, wal-beit ba3eed el-yom kteer"
+    },
+    {
+     "ar": "شفت سيارة مبارح، والسيارة قريبة اليوم منيح",
+     "en": "I saw a car yesterday, and the car is near today, good",
+     "translit": "shift sayyara mbare7, was-sayyara 2areeba el-yom mnih"
+    },
+    {
+     "ar": "شافت سيارة مبارح، والسيارة بعيدة اليوم كتير",
+     "en": "She saw a car yesterday, and the car is very far today",
+     "translit": "shafit sayyara mbare7, was-sayyara ba3eede el-yom kteer"
+    }
+   ]
+  },
+  {
+   "number": 23,
+   "title": "Money and Shopping in the Past",
+   "titleNative": "الفلوس والتسوق بالماضي",
+   "items": [
+    {
+     "ar": "شفت هاد مبارح، وكم هاد اليوم؟ غالي كتير",
+     "en": "I saw this yesterday, and how much is this today? Very expensive",
+     "translit": "shift haad mbare7, wa kam haad el-yom? ghali kteer"
+    },
+    {
+     "ar": "شاف هاد مبارح، وهاد رخيص كتير اليوم منيح",
+     "en": "He saw this yesterday, and this is very cheap today, good",
+     "translit": "shaf haad mbare7, wa haad rkhees kteer el-yom mnih"
+    },
+    {
+     "ar": "شافت الفلوس مبارح، والفلوس هون اليوم منيح كتير",
+     "en": "She saw the money yesterday, and the money is here today, very good",
+     "translit": "shafit el-fluus mbare7, wal-fluus hown el-yom mnih kteer"
+    },
+    {
+     "ar": "شفنا هاد مبارح، وهاد غالي، بس منيح اليوم",
+     "en": "We saw this yesterday, and this is expensive, but good today",
+     "translit": "shifna haad mbare7, wa haad ghali, bas mnih el-yom"
+    }
+   ]
+  },
+  {
+   "number": 24,
+   "title": "Big and Small in the Past",
+   "titleNative": "الكبير والصغير بالماضي",
+   "items": [
+    {
+     "ar": "شفت بيت كبير مبارح، وشفت بيت صغير اليوم",
+     "en": "I saw a big house yesterday, and I saw a small house today",
+     "translit": "shift beit kbeer mbare7, wa shift beit sgheer el-yom"
+    },
+    {
+     "ar": "شاف بيت جديد مبارح، وشاف بيت قديم اليوم",
+     "en": "He saw a new house yesterday, and he saw an old house today",
+     "translit": "shaf beit jdeed mbare7, wa shaf beit adeem el-yom"
+    },
+    {
+     "ar": "شافت بيت كبير وجديد مبارح، منيح والحمدلله",
+     "en": "She saw a big, new house yesterday, good, thank God",
+     "translit": "shafit beit kbeer wa jdeed mbare7, mnih wal-hamdulillah"
+    },
+    {
+     "ar": "شفنا بيت صغير وقديم مبارح، بس منيح اليوم",
+     "en": "We saw a small, old house yesterday, but it's good today",
+     "translit": "shifna beit sgheer wa adeem mbare7, bas mnih el-yom"
+    }
+   ]
+  },
+  {
+   "number": 25,
+   "title": "Review: Days, Places, Money, Size",
+   "titleNative": "مراجعة",
+   "items": [
+    {
+     "ar": "يوم الأحد شفت بيت اليوم، والبيت قريب وكبير",
+     "en": "On Sunday I saw a house today, and the house is near and big",
+     "translit": "yom el-a7ad shift beit el-yom, wal-beit 2areeb wa kbeer"
+    },
+    {
+     "ar": "شاف بيت مبارح، وشفت هاد اليوم، غالي كتير",
+     "en": "He saw a house yesterday, and I saw this today, very expensive",
+     "translit": "shaf beit mbare7, wa shift haad el-yom, ghali kteer"
+    },
+    {
+     "ar": "شفنا بيت جديد مبارح، وشفنا الفلوس اليوم منيح",
+     "en": "We saw a new house yesterday, and we saw the money today, good",
+     "translit": "shifna beit jdeed mbare7, wa shifna el-fluus el-yom mnih"
+    },
+    {
+     "ar": "شافو بيت صغير مبارح، وشافو صديق منيح اليوم",
+     "en": "They saw a small house yesterday, and they saw a good friend today",
+     "translit": "shafo beit sgheer mbare7, wa shafo sadeeq mnih el-yom"
+    }
+   ]
+  },
+  {
+   "number": 26,
+   "title": "I Love and I Saw",
+   "titleNative": "بحب وشفت",
+   "items": [
+    {
+     "ar": "بحب قهوة اليوم، ومبارح شفت الأهل منيح",
+     "en": "I love coffee today, and yesterday I saw the family, good",
+     "translit": "b7ibb ahwe el-yom, wa mbare7 shift el-ahl mnih"
+    },
+    {
+     "ar": "بيحب شاي اليوم، ومبارح شاف بيت جديد",
+     "en": "He loves tea today, and yesterday he saw a new house",
+     "translit": "by7ibb shay el-yom, wa mbare7 shaf beit jdeed"
+    },
+    {
+     "ar": "بتحب مي اليوم، ومبارح شافت صديق منيح",
+     "en": "She loves water today, and yesterday she saw a good friend",
+     "translit": "bt7ibb may el-yom, wa mbare7 shafit sadeeq mnih"
+    },
+    {
+     "ar": "منحب قهوة اليوم، ومبارح شفنا بيت كبير",
+     "en": "We love coffee today, and yesterday we saw a big house",
+     "translit": "mn7ibb ahwe el-yom, wa mbare7 shifna beit kbeer"
+    }
+   ],
+   "topicId": "a1-present-shaf"
+  },
+  {
+   "number": 27,
+   "title": "Days and Wanting",
+   "titleNative": "الأيام والرغبة",
+   "items": [
+    {
+     "ar": "يوم الجمعة بدي قهوة اليوم، منيح والحمدلله",
+     "en": "On Friday I want coffee today, good, thank God",
+     "translit": "yom el-jum3a biddi ahwe el-yom, mnih wal-hamdulillah"
+    },
+    {
+     "ar": "يوم السبت بدي بيت جديد اليوم، منيح كتير",
+     "en": "On Saturday I want a new house today, very good",
+     "translit": "yom es-sabt biddi beit jdeed el-yom, mnih kteer"
+    },
+    {
+     "ar": "يوم الأحد بدي شاي اليوم، وشفت صديق منيح",
+     "en": "On Sunday I want tea today, and I saw a good friend",
+     "translit": "yom el-a7ad biddi shay el-yom, wa shift sadeeq mnih"
+    },
+    {
+     "ar": "يوم الاثنين بدي مي اليوم، وشاف بيت كبير",
+     "en": "On Monday I want water today, and he saw a big house",
+     "translit": "yom el-tnein biddi may el-yom, wa shaf beit kbeer"
+    }
+   ]
+  },
+  {
+   "number": 28,
+   "title": "Family Recombined",
+   "titleNative": "العيلة",
+   "items": [
+    {
+     "ar": "شفت أب مبارح، وبيحب قهوة منيح اليوم",
+     "en": "I saw a father yesterday, and he loves good coffee today",
+     "translit": "shift ab mbare7, wa by7ibb ahwe mnih el-yom"
+    },
+    {
+     "ar": "شفت أم مبارح، وبتحب شاي منيح اليوم",
+     "en": "I saw a mother yesterday, and she loves good tea today",
+     "translit": "shift imm mbare7, wa bt7ibb shay mnih el-yom"
+    },
+    {
+     "ar": "شاف ولد مبارح، وبشوف بنت منيحة اليوم",
+     "en": "He saw a boy yesterday, and I see a good girl today",
+     "translit": "shaf walad mbare7, wa bshuf bint mniha el-yom"
+    },
+    {
+     "ar": "الأهل منيح اليوم، وشفت الأهل مبارح والحمدلله",
+     "en": "The family is good today, and I saw the family yesterday, thank God",
+     "translit": "el-ahl mnih el-yom, wa shift el-ahl mbare7 wal-hamdulillah"
+    }
+   ]
+  },
+  {
+   "number": 29,
+   "title": "Questions About the Past",
+   "titleNative": "أسئلة عن الماضي",
+   "items": [
+    {
+     "ar": "شو شفت مبارح؟ شفت بيت كبير وجديد",
+     "en": "What did you see yesterday? I saw a big, new house",
+     "translit": "shu shift mbare7? shift beit kbeer wa jdeed"
+    },
+    {
+     "ar": "مين شاف اليوم؟ شاف صديق منيح والحمدلله",
+     "en": "Who saw today? He saw a good friend, thank God",
+     "translit": "miin shaf el-yom? shaf sadeeq mnih wal-hamdulillah"
+    },
+    {
+     "ar": "مدري ليش شافت اليوم، بس شافت بيت منيح",
+     "en": "I don't know why she saw today, but she saw a good house",
+     "translit": "midri leish shafit el-yom, bas shafit beit mnih"
+    },
+    {
+     "ar": "وين شفنا مبارح؟ شفنا الأهل هون منيح اليوم",
+     "en": "Where did we see yesterday? We saw the family here, good, today",
+     "translit": "wein shifna mbare7? shifna el-ahl hown mnih el-yom"
+    }
+   ]
+  },
+  {
+   "number": 30,
+   "title": "Review: A2 Recap",
+   "titleNative": "مراجعة نهائية",
+   "items": [
+    {
+     "ar": "شفت بيت مبارح، وشفت الأهل، والحمدلله منيح",
+     "en": "I saw a house yesterday, and I saw the family, thank God, good",
+     "translit": "shift beit mbare7, wa shift el-ahl, wal-hamdulillah mnih"
+    },
+    {
+     "ar": "يوم الجمعة شاف صديق، وشاف بيت كبير جديد",
+     "en": "On Friday he saw a friend, and he saw a big, new house",
+     "translit": "yom el-jum3a shaf sadeeq, wa shaf beit kbeer jdeed"
+    },
+    {
+     "ar": "ما شفنا مبارح، بس اليوم بشوف بيت منيح",
+     "en": "We didn't see yesterday, but today I see a good house",
+     "translit": "ma shifna mbare7, bas el-yom bshuf beit mnih"
+    },
+    {
+     "ar": "شفت هاد مبارح، غالي كتير، بس منيح اليوم",
+     "en": "I saw this yesterday, very expensive, but good today",
+     "translit": "shift haad mbare7, ghali kteer, bas mnih el-yom"
+    }
+   ]
+  },
+  {
+   "number": 31,
+   "title": "I Saw a New House",
+   "titleNative": "شفت بيت جديد",
+   "items": [
+    {
+     "ar": "شفت بيت جديد مبارح، وشفت بيت قديم اليوم",
+     "en": "I saw a new house yesterday, and I saw an old house today",
+     "translit": "shift beit jdeed mbari7, wa shift beit 2adeem el-yom"
+    },
+    {
+     "ar": "شاف صديقي بيت كبير مبارح، وشاف بيت صغير اليوم",
+     "en": "My friend saw a big house yesterday, and saw a small house today",
+     "translit": "shaf sadee2i beit kbeer mbari7, wa shaf beit sgheer el-yom"
+    },
+    {
+     "ar": "شافت بنت بيت أخضر مبارح، وشافت بيت أزرق اليوم",
+     "en": "A girl saw a green house yesterday, and saw a blue house today",
+     "translit": "shafet bint beit akhdar mbari7, wa shafet beit azra2 el-yom"
+    },
+    {
+     "ar": "شفنا بيت أحمر مبارح، وشفنا بيت أصفر اليوم",
+     "en": "We saw a red house yesterday, and we saw a yellow house today",
+     "translit": "shifna beit a7mar mbari7, wa shifna beit asfar el-yom"
+    }
+   ]
+  },
+  {
+   "number": 32,
+   "title": "They Saw the Family",
+   "titleNative": "شافو الأهل",
+   "items": [
+    {
+     "ar": "شافو الأهل مبارح، وشافو صديقنا اليوم",
+     "en": "They saw the family yesterday, and saw our friend today",
+     "translit": "shafu el-ahl mbari7, wa shafu sadee2na el-yom"
+    },
+    {
+     "ar": "شفتو أب منيح مبارح، وشفتو أم منيحة اليوم",
+     "en": "You all saw a good father yesterday, and saw a good mother today",
+     "translit": "shiftu ab mnih mbari7, wa shiftu imm mniha el-yom"
+    },
+    {
+     "ar": "شفتي ولد صغير مبارح، وشفتي بنت صغيرة اليوم",
+     "en": "You (f) saw a small boy yesterday, and saw a small girl today",
+     "translit": "shifti walad sgheer mbari7, wa shifti bint sgheera el-yom"
+    },
+    {
+     "ar": "شاف الأهل مبارح، ومنيحين والحمدلله اليوم",
+     "en": "He saw the family yesterday, and they're good, thank God, today",
+     "translit": "shaf el-ahl mbari7, wa mnihin wal-hamdulillah el-yom"
+    }
+   ]
+  },
+  {
+   "number": 33,
+   "title": "Yesterday's Money",
+   "titleNative": "فلوس مبارح",
+   "items": [
+    {
+     "ar": "شفت الفلوس مبارح، وين الفلوس اليوم",
+     "en": "I saw the money yesterday, where's the money today",
+     "translit": "shift el-fluus mbari7, wein el-fluus el-yom"
+    },
+    {
+     "ar": "هاد غالي مبارح، وهاد رخيص اليوم",
+     "en": "This was expensive yesterday, and this is cheap today",
+     "translit": "haad ghali mbari7, wa haad rkhees el-yom"
+    },
+    {
+     "ar": "شافت بيت غالي مبارح، بس البيت رخيص اليوم",
+     "en": "She saw an expensive house yesterday, but the house is cheap today",
+     "translit": "shafet beit ghali mbari7, bas el-beit rkhees el-yom"
+    },
+    {
+     "ar": "شفنا قهوة اليوم، وشفنا الفلوس اليوم والحمدلله",
+     "en": "We saw coffee today, and we saw the money today, thank God",
+     "translit": "shifna ahwe el-yom, wa shifna el-fluus el-yom wal-hamdulillah"
+    }
+   ]
+  },
+  {
+   "number": 34,
+   "title": "Yesterday and Today, Days",
+   "titleNative": "مبارح واليوم، أيام",
+   "items": [
+    {
+     "ar": "يوم الجمعة شفت صديقي، ويوم السبت شفت الأهل",
+     "en": "On Friday I saw my friend, and on Saturday I saw the family",
+     "translit": "yom el-jum3a shift sadee2i, wa yom es-sabt shift el-ahl"
+    },
+    {
+     "ar": "يوم الأحد شاف بيت جديد، ويوم الاثنين شاف بيت قديم",
+     "en": "On Sunday he saw a new house, and on Monday he saw an old house",
+     "translit": "yom el-a7ad shaf beit jdeed, wa yom el-tnein shaf beit 2adeem"
+    },
+    {
+     "ar": "مبارح يوم الجمعة، واليوم يوم السبت",
+     "en": "Yesterday is Friday, and today is Saturday",
+     "translit": "mbari7 yom el-jum3a, wal-yom yom es-sabt"
+    },
+    {
+     "ar": "مبارح شفت قهوة كتير، واليوم بدي شاي بس",
+     "en": "Yesterday I saw a lot of coffee, and today I just want tea",
+     "translit": "mbari7 shift ahwe ktir, wal-yom biddi shay bas"
+    }
+   ]
+  },
+  {
+   "number": 35,
+   "title": "I Didn't See Yesterday",
+   "titleNative": "ما شفت مبارح",
+   "items": [
+    {
+     "ar": "ما شفت صديقي مبارح، بس شفت صديقي اليوم",
+     "en": "I didn't see my friend yesterday, but I saw my friend today",
+     "translit": "ma shift sadee2i mbari7, bas shift sadee2i el-yom"
+    },
+    {
+     "ar": "ما شاف الأهل مبارح، بس شاف الأهل اليوم",
+     "en": "He didn't see the family yesterday, but saw the family today",
+     "translit": "ma shaf el-ahl mbari7, bas shaf el-ahl el-yom"
+    },
+    {
+     "ar": "ما شافت بيت جديد مبارح، بس شافت بيت جديد اليوم",
+     "en": "She didn't see a new house yesterday, but saw a new house today",
+     "translit": "ma shafet beit jdeed mbari7, bas shafet beit jdeed el-yom"
+    },
+    {
+     "ar": "ما شفنا الفلوس مبارح، بس شفنا الفلوس اليوم والحمدلله",
+     "en": "We didn't see the money yesterday, but we saw the money today, thank God",
+     "translit": "ma shifna el-fluus mbari7, bas shifna el-fluus el-yom wal-hamdulillah"
+    }
+   ]
+  },
+  {
+   "number": 36,
+   "title": "Review: Past Tense of Colors",
+   "titleNative": "مراجعة: ألوان بالماضي",
+   "items": [
+    {
+     "ar": "شفت بيت أزرق مبارح، وشفت بيت أحمر اليوم",
+     "en": "I saw a blue house yesterday, and I saw a red house today",
+     "translit": "shift beit azra2 mbari7, wa shift beit a7mar el-yom"
+    },
+    {
+     "ar": "شاف بيت أخضر مبارح، بس ما شاف بيت أصفر اليوم",
+     "en": "He saw a green house yesterday, but didn't see a yellow house today",
+     "translit": "shaf beit akhdar mbari7, bas ma shaf beit asfar el-yom"
+    },
+    {
+     "ar": "شافت بيت أبيض مبارح، وشافت بيت أسود اليوم",
+     "en": "She saw a white house yesterday, and saw a black house today",
+     "translit": "shafet beit abyad mbari7, wa shafet beit iswad el-yom"
+    },
+    {
+     "ar": "شفنا بيت أحمر مبارح، منيح والحمدلله",
+     "en": "We saw a red house yesterday, good, thank God",
+     "translit": "shifna beit a7mar mbari7, wal-hamdulillah"
+    }
+   ]
+  },
+  {
+   "number": 37,
+   "title": "There Is, There Isn't, Today",
+   "titleNative": "في، مافي، اليوم",
+   "items": [
+    {
+     "ar": "في قهوة اليوم، بس مافي شاي اليوم",
+     "en": "There's coffee today, but there's no tea today",
+     "translit": "fii ahwe el-yom, bas mafi shay el-yom"
+    },
+    {
+     "ar": "مافي مشكلة اليوم، ومافي مشكلة مبارح",
+     "en": "There's no problem today, and there was no problem yesterday",
+     "translit": "mafi mushkile el-yom, wa mafi mushkile mbari7"
+    },
+    {
+     "ar": "في بيت هون اليوم، وفي بيت هونيك اليوم",
+     "en": "There's a house here today, and there's a house there today",
+     "translit": "fii beit hown el-yom, wa fii beit hownik el-yom"
+    },
+    {
+     "ar": "شو في اليوم؟ في شاي وقهوة والحمدلله",
+     "en": "What's there today? There's tea and coffee, thank God",
+     "translit": "shu fii el-yom? fii shay wa ahwe wal-hamdulillah"
+    }
+   ]
+  },
+  {
+   "number": 38,
+   "title": "Review: A Family Visit",
+   "titleNative": "مراجعة: زيارة العيلة",
+   "items": [
+    {
+     "ar": "شفت أبي مبارح، وشفت أمي اليوم، منيحين والحمدلله",
+     "en": "I saw my father yesterday, and I saw my mother today, they're good, thank God",
+     "translit": "shift abi mbari7, wa shift immi el-yom, wal-hamdulillah"
+    },
+    {
+     "ar": "شافو ولد صغير مبارح، وشافو بنت صغيرة اليوم",
+     "en": "They saw a small boy yesterday, and saw a small girl today",
+     "translit": "shafu walad sgheer mbari7, wa shafu bint sgheera el-yom"
+    },
+    {
+     "ar": "صديقي شاف بيتنا الجديد مبارح، منيح كتير",
+     "en": "My friend saw our new house yesterday, very good",
+     "translit": "sadee2i shaf beitna ej-jdeed mbari7, mnih ktir"
+    },
+    {
+     "ar": "شفنا الأهل مبارح، وبدي بشوف الأهل بكرة",
+     "en": "We saw the family yesterday, and I want to see the family tomorrow",
+     "translit": "shifna el-ahl mbari7, wa biddi bshuf el-ahl bukra"
+    }
+   ]
+  },
+  {
+   "number": 39,
+   "title": "Review: Numbers in the Past",
+   "titleNative": "مراجعة: أرقام بالماضي",
+   "items": [
+    {
+     "ar": "شفت واحد مبارح، وشفت تنين اليوم",
+     "en": "I saw one yesterday, and I saw two today",
+     "translit": "shift wahed mbari7, wa shift tnein el-yom"
+    },
+    {
+     "ar": "شاف تلاتة مبارح، وشاف أربعة اليوم",
+     "en": "He saw three yesterday, and saw four today",
+     "translit": "shaf tlete mbari7, wa shaf arba3a el-yom"
+    },
+    {
+     "ar": "شافت خمسة مبارح، منيح كتير والحمدلله",
+     "en": "She saw five yesterday, very good, thank God",
+     "translit": "shafet khamse mbari7, wal-hamdulillah"
+    },
+    {
+     "ar": "شفنا ستة مبارح، وشفنا سبعة اليوم، كتير منيح",
+     "en": "We saw six yesterday, and we saw seven today, very good",
+     "translit": "shifna sitte mbari7, wa shifna sab3a el-yom"
+    }
+   ]
+  },
+  {
+   "number": 40,
+   "title": "Review: A2 Wrap-Up",
+   "titleNative": "مراجعة: ختام A2",
+   "items": [
+    {
+     "ar": "شفت صديقي مبارح، وبدي بشوف صديقي بكرة والحمدلله",
+     "en": "I saw my friend yesterday, and I want to see my friend tomorrow, thank God",
+     "translit": "shift sadee2i mbari7, wa biddi bshuf sadee2i bukra wal-hamdulillah"
+    },
+    {
+     "ar": "مبارح شفت بيت غالي، واليوم في بيت رخيص",
+     "en": "Yesterday I saw an expensive house, and today there's a cheap house",
+     "translit": "mbari7 shift beit ghali, wal-yom fii beit rkhees"
+    },
+    {
+     "ar": "ما شفت الأهل مبارح، بس بشوف الأهل بكرة والحمدلله",
+     "en": "I didn't see the family yesterday, but I'll see the family tomorrow, thank God",
+     "translit": "ma shift el-ahl mbari7, bas bshuf el-ahl bukra wal-hamdulillah"
+    },
+    {
+     "ar": "يوم الجمعة شفنا بيت جديد، ومنيح كتير والحمدلله",
+     "en": "On Friday we saw a new house, and very good, thank God",
+     "translit": "yom el-jum3a shifna beit jdeed, wal-hamdulillah"
+    }
+   ]
+  }
+ ]
 }
