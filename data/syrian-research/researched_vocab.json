@@ -2,40 +2,551 @@
  "_comment": "Words NOT present in any shipped lesson but confirmed by >=2 independent sources: kaikki.org North Levantine Arabic Wiktionary dump, Peace Corps Jordan pre-departure Arabic materials, Wikivoyage Jordanian Arabic phrasebook, Living Arabic Project (livingarabic.com, an academic Levantine dialect dictionary with roots/examples), RESET UK's 'Basic Arabic Expressions & Words: Syrian Dialect' PDF (commissioned from Lisan Arabi Ltd for refugee resettlement services, native-speaker audio), and Kalmasoft's Dictionary of Colloquial Syrian Arabic sample. Available for use from B2 onward (the level in progress when this research was done) -- not retroactively injected into A1 through B1+, which already hit their targets.",
  "available_from_level": "b2",
  "words": {
-  "عيلة": {"gloss": "family", "sources": ["kaikki", "peace_corps"]},
-  "آسف": {"gloss": "sorry", "sources": ["kaikki", "peace_corps"]},
-  "رز": {"gloss": "rice", "sources": ["kaikki", "peace_corps"]},
-  "عشا": {"gloss": "dinner", "sources": ["kaikki", "peace_corps"]},
-  "حمام": {"gloss": "bathroom", "sources": ["kaikki", "wikivoyage"]},
-  "شمال": {"gloss": "north", "sources": ["kaikki", "wikivoyage"]},
-  "جنوب": {"gloss": "south", "sources": ["kaikki", "wikivoyage"]},
-  "شرق": {"gloss": "east", "sources": ["kaikki", "wikivoyage"]},
-  "غرب": {"gloss": "west", "sources": ["kaikki", "wikivoyage"]},
-  "صابون": {"gloss": "soap", "sources": ["kaikki", "wikivoyage"]},
-  "فطور": {"gloss": "breakfast", "sources": ["kaikki", "wikivoyage"]},
-  "فواكه": {"gloss": "fruit", "sources": ["kaikki", "wikivoyage"]},
-  "فول": {"gloss": "beans", "sources": ["kaikki", "wikivoyage"]},
-  "شارع": {"gloss": "street", "sources": ["peace_corps", "wikivoyage"]},
-  "خبز": {"gloss": "bread", "sources": ["peace_corps", "wikivoyage"]},
-  "كتاب": {"gloss": "book", "sources": ["kaikki", "livingarabic (43 entries)"]},
-  "قط": {"gloss": "cat", "sources": ["kaikki", "livingarabic (7 entries)"]},
-  "زيت": {"gloss": "oil", "sources": ["kaikki", "livingarabic (41 entries)"]},
-  "مدينة": {"gloss": "city", "sources": ["kaikki", "livingarabic (9 entries)"]},
-  "طاولة": {"gloss": "table", "sources": ["kaikki", "livingarabic (22 entries)"]},
-  "كرسي": {"gloss": "chair", "sources": ["kaikki", "livingarabic (16 entries)"]},
-  "سيف": {"gloss": "sword", "sources": ["kaikki", "livingarabic (7 entries)"]},
-  "عيد": {"gloss": "holiday, feast", "sources": ["kaikki", "livingarabic (53 entries)"]},
-  "لسان": {"gloss": "tongue", "sources": ["kaikki", "livingarabic (13 entries)"]},
-  "بحر": {"gloss": "sea", "sources": ["kaikki", "livingarabic (33 entries)"]},
-  "دقيقة": {"gloss": "minute", "sources": ["kaikki", "livingarabic (49 entries)"]},
-  "نهر": {"gloss": "river", "sources": ["kaikki", "livingarabic (19 entries)"]},
-  "ورد": {"gloss": "flowers, roses", "sources": ["kaikki", "livingarabic (20 entries)"]},
-  "ابن": {"gloss": "son", "sources": ["kaikki", "reset_uk_pdf"]},
-  "بنك": {"gloss": "bank", "sources": ["kaikki", "reset_uk_pdf"]},
-  "تكسي": {"gloss": "taxi", "sources": ["wikivoyage", "reset_uk_pdf"]},
-  "زوج": {"gloss": "husband", "sources": ["peace_corps", "reset_uk_pdf"]},
-  "زوجة": {"gloss": "wife", "sources": ["peace_corps", "reset_uk_pdf"]},
-  "شغلة": {"gloss": "matter, thing", "sources": ["kaikki", "kalmasoft"]},
-  "مصاري": {"gloss": "money", "sources": ["peace_corps", "reset_uk_pdf"]}
+  "عيلة": {
+   "gloss": "family",
+   "sources": [
+    "kaikki",
+    "peace_corps"
+   ]
+  },
+  "آسف": {
+   "gloss": "sorry",
+   "sources": [
+    "kaikki",
+    "peace_corps"
+   ]
+  },
+  "رز": {
+   "gloss": "rice",
+   "sources": [
+    "kaikki",
+    "peace_corps"
+   ]
+  },
+  "عشا": {
+   "gloss": "dinner",
+   "sources": [
+    "kaikki",
+    "peace_corps"
+   ]
+  },
+  "حمام": {
+   "gloss": "bathroom",
+   "sources": [
+    "kaikki",
+    "wikivoyage"
+   ]
+  },
+  "شمال": {
+   "gloss": "north",
+   "sources": [
+    "kaikki",
+    "wikivoyage"
+   ]
+  },
+  "جنوب": {
+   "gloss": "south",
+   "sources": [
+    "kaikki",
+    "wikivoyage"
+   ]
+  },
+  "شرق": {
+   "gloss": "east",
+   "sources": [
+    "kaikki",
+    "wikivoyage"
+   ]
+  },
+  "غرب": {
+   "gloss": "west",
+   "sources": [
+    "kaikki",
+    "wikivoyage"
+   ]
+  },
+  "صابون": {
+   "gloss": "soap",
+   "sources": [
+    "kaikki",
+    "wikivoyage"
+   ]
+  },
+  "فطور": {
+   "gloss": "breakfast",
+   "sources": [
+    "kaikki",
+    "wikivoyage"
+   ]
+  },
+  "فواكه": {
+   "gloss": "fruit",
+   "sources": [
+    "kaikki",
+    "wikivoyage"
+   ]
+  },
+  "فول": {
+   "gloss": "beans",
+   "sources": [
+    "kaikki",
+    "wikivoyage"
+   ]
+  },
+  "شارع": {
+   "gloss": "street",
+   "sources": [
+    "peace_corps",
+    "wikivoyage"
+   ]
+  },
+  "خبز": {
+   "gloss": "bread",
+   "sources": [
+    "peace_corps",
+    "wikivoyage"
+   ]
+  },
+  "كتاب": {
+   "gloss": "book",
+   "sources": [
+    "kaikki",
+    "livingarabic (43 entries)"
+   ]
+  },
+  "قط": {
+   "gloss": "cat",
+   "sources": [
+    "kaikki",
+    "livingarabic (7 entries)"
+   ]
+  },
+  "زيت": {
+   "gloss": "oil",
+   "sources": [
+    "kaikki",
+    "livingarabic (41 entries)"
+   ]
+  },
+  "مدينة": {
+   "gloss": "city",
+   "sources": [
+    "kaikki",
+    "livingarabic (9 entries)"
+   ]
+  },
+  "طاولة": {
+   "gloss": "table",
+   "sources": [
+    "kaikki",
+    "livingarabic (22 entries)"
+   ]
+  },
+  "كرسي": {
+   "gloss": "chair",
+   "sources": [
+    "kaikki",
+    "livingarabic (16 entries)"
+   ]
+  },
+  "سيف": {
+   "gloss": "sword",
+   "sources": [
+    "kaikki",
+    "livingarabic (7 entries)"
+   ]
+  },
+  "عيد": {
+   "gloss": "holiday, feast",
+   "sources": [
+    "kaikki",
+    "livingarabic (53 entries)"
+   ]
+  },
+  "لسان": {
+   "gloss": "tongue",
+   "sources": [
+    "kaikki",
+    "livingarabic (13 entries)"
+   ]
+  },
+  "بحر": {
+   "gloss": "sea",
+   "sources": [
+    "kaikki",
+    "livingarabic (33 entries)"
+   ]
+  },
+  "دقيقة": {
+   "gloss": "minute",
+   "sources": [
+    "kaikki",
+    "livingarabic (49 entries)"
+   ]
+  },
+  "نهر": {
+   "gloss": "river",
+   "sources": [
+    "kaikki",
+    "livingarabic (19 entries)"
+   ]
+  },
+  "ورد": {
+   "gloss": "flowers, roses",
+   "sources": [
+    "kaikki",
+    "livingarabic (20 entries)"
+   ]
+  },
+  "ابن": {
+   "gloss": "son",
+   "sources": [
+    "kaikki",
+    "reset_uk_pdf"
+   ]
+  },
+  "بنك": {
+   "gloss": "bank",
+   "sources": [
+    "kaikki",
+    "reset_uk_pdf"
+   ]
+  },
+  "تكسي": {
+   "gloss": "taxi",
+   "sources": [
+    "wikivoyage",
+    "reset_uk_pdf"
+   ]
+  },
+  "زوج": {
+   "gloss": "husband",
+   "sources": [
+    "peace_corps",
+    "reset_uk_pdf"
+   ]
+  },
+  "زوجة": {
+   "gloss": "wife",
+   "sources": [
+    "peace_corps",
+    "reset_uk_pdf"
+   ]
+  },
+  "شغلة": {
+   "gloss": "matter, thing",
+   "sources": [
+    "kaikki",
+    "kalmasoft"
+   ]
+  },
+  "مصاري": {
+   "gloss": "money",
+   "sources": [
+    "peace_corps",
+    "reset_uk_pdf"
+   ]
+  },
+  "حمار": {
+   "gloss": "donkey",
+   "sources": [
+    "kaikki",
+    "vicav_vienna_dict"
+   ]
+  },
+  "سلام": {
+   "gloss": "peace",
+   "sources": [
+    "kaikki",
+    "vicav_vienna_dict"
+   ]
+  },
+  "تموز": {
+   "gloss": "July",
+   "sources": [
+    "kaikki",
+    "vicav_vienna_dict"
+   ]
+  },
+  "وقت": {
+   "gloss": "time",
+   "sources": [
+    "kaikki",
+    "vicav_vienna_dict"
+   ]
+  },
+  "ل": {
+   "gloss": "for",
+   "sources": [
+    "kaikki",
+    "vicav_vienna_dict"
+   ]
+  },
+  "شطرنج": {
+   "gloss": "chess",
+   "sources": [
+    "kaikki",
+    "vicav_vienna_dict"
+   ]
+  },
+  "شال": {
+   "gloss": "scarf",
+   "sources": [
+    "kaikki",
+    "vicav_vienna_dict"
+   ]
+  },
+  "شفة": {
+   "gloss": "lip",
+   "sources": [
+    "kaikki",
+    "vicav_vienna_dict"
+   ]
+  },
+  "مطار": {
+   "gloss": "airport",
+   "sources": [
+    "kaikki",
+    "vicav_vienna_dict"
+   ]
+  },
+  "بعد": {
+   "gloss": "after",
+   "sources": [
+    "kaikki",
+    "vicav_vienna_dict"
+   ]
+  },
+  "قال": {
+   "gloss": "to say",
+   "sources": [
+    "kaikki",
+    "vicav_vienna_dict"
+   ]
+  },
+  "مات": {
+   "gloss": "to die",
+   "sources": [
+    "kaikki",
+    "vicav_vienna_dict"
+   ]
+  },
+  "سؤال": {
+   "gloss": "question",
+   "sources": [
+    "kaikki",
+    "vicav_vienna_dict"
+   ]
+  },
+  "فقير": {
+   "gloss": "poor",
+   "sources": [
+    "kaikki",
+    "vicav_vienna_dict"
+   ]
+  },
+  "منين": {
+   "gloss": "from where?",
+   "sources": [
+    "kaikki",
+    "vicav_vienna_dict"
+   ]
+  },
+  "ايد": {
+   "gloss": "hand",
+   "sources": [
+    "kaikki",
+    "vicav_vienna_dict"
+   ]
+  },
+  "مقص": {
+   "gloss": "scissors",
+   "sources": [
+    "kaikki",
+    "vicav_vienna_dict"
+   ]
+  },
+  "عم": {
+   "gloss": "paternal uncle",
+   "sources": [
+    "kaikki",
+    "vicav_vienna_dict"
+   ]
+  },
+  "نبيت": {
+   "gloss": "wine",
+   "sources": [
+    "kaikki",
+    "vicav_vienna_dict"
+   ]
+  },
+  "حب": {
+   "gloss": "to love",
+   "sources": [
+    "kaikki",
+    "vicav_vienna_dict"
+   ]
+  },
+  "صار": {
+   "gloss": "to become",
+   "sources": [
+    "kaikki",
+    "vicav_vienna_dict"
+   ]
+  },
+  "رفيق": {
+   "gloss": "friend",
+   "sources": [
+    "kaikki",
+    "vicav_vienna_dict"
+   ]
+  },
+  "مسيحي": {
+   "gloss": "Christian",
+   "sources": [
+    "kaikki",
+    "vicav_vienna_dict"
+   ]
+  },
+  "غني": {
+   "gloss": "rich",
+   "sources": [
+    "kaikki",
+    "vicav_vienna_dict"
+   ]
+  },
+  "جرب": {
+   "gloss": "to try",
+   "sources": [
+    "kaikki",
+    "vicav_vienna_dict"
+   ]
+  },
+  "ملعقة": {
+   "gloss": "spoon",
+   "sources": [
+    "kaikki",
+    "vicav_vienna_dict"
+   ]
+  },
+  "أسمر": {
+   "gloss": "dark-skinned",
+   "sources": [
+    "kaikki",
+    "vicav_vienna_dict"
+   ]
+  },
+  "قدام": {
+   "gloss": "in front of",
+   "sources": [
+    "kaikki",
+    "vicav_vienna_dict"
+   ]
+  },
+  "كفاية": {
+   "gloss": "enough",
+   "sources": [
+    "kaikki",
+    "vicav_vienna_dict"
+   ]
+  },
+  "غنية": {
+   "gloss": "song",
+   "sources": [
+    "kaikki",
+    "vicav_vienna_dict"
+   ]
+  },
+  "سوا": {
+   "gloss": "together",
+   "sources": [
+    "kaikki",
+    "vicav_vienna_dict"
+   ]
+  },
+  "دايما": {
+   "gloss": "always",
+   "sources": [
+    "kaikki",
+    "vicav_vienna_dict"
+   ]
+  },
+  "تين": {
+   "gloss": "figs",
+   "sources": [
+    "kaikki",
+    "vicav_vienna_dict"
+   ]
+  },
+  "أوضة": {
+   "gloss": "room",
+   "sources": [
+    "kaikki",
+    "vicav_vienna_dict"
+   ]
+  },
+  "ملفوف": {
+   "gloss": "cabbage",
+   "sources": [
+    "kaikki",
+    "vicav_vienna_dict"
+   ]
+  },
+  "ضو": {
+   "gloss": "light",
+   "sources": [
+    "kaikki",
+    "vicav_vienna_dict"
+   ]
+  },
+  "تقيل": {
+   "gloss": "heavy",
+   "sources": [
+    "kaikki",
+    "vicav_vienna_dict"
+   ]
+  },
+  "عيط": {
+   "gloss": "to shout",
+   "sources": [
+    "kaikki",
+    "vicav_vienna_dict"
+   ]
+  },
+  "بكير": {
+   "gloss": "early",
+   "sources": [
+    "kaikki",
+    "vicav_vienna_dict"
+   ]
+  },
+  "ڤيزا": {
+   "gloss": "visa",
+   "sources": [
+    "kaikki",
+    "vicav_vienna_dict"
+   ]
+  },
+  "جرسون": {
+   "gloss": "waiter",
+   "sources": [
+    "kaikki",
+    "vicav_vienna_dict"
+   ]
+  },
+  "طابة": {
+   "gloss": "ball",
+   "sources": [
+    "kaikki",
+    "vicav_vienna_dict"
+   ]
+  },
+  "جاتوه": {
+   "gloss": "cake",
+   "sources": [
+    "kaikki",
+    "vicav_vienna_dict"
+   ]
+  }
  }
 }
