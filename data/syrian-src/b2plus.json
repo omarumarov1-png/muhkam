@@ -1,854 +1,1124 @@
 {
-  "level": "b2plus",
-  "grammarTopics": {
-    "b2plus-lazim-ma": {
-      "title": "Mustn't/Shouldn't: Lazim Ma",
-      "pattern": "لازم + ما + الفعل المضارع (present-tense verb)",
-      "explanation": "To say someone shouldn't do something, ما slots in right before the verb, after لازم stays in place: لازم ما بتشوف هلق (lazim ma btshuf hala2, \"you shouldn't see it now\"). لازم itself never takes ما directly -- the negation always attaches to the verb that follows it.",
-      "fact": "This exact pattern -- a fixed modal word followed by ما plus a verb -- is one of the most common ways Syrian Arabic gives advice or warnings, similar to how English speakers lean on \"shouldn't\" far more often than a flat \"don't.\"",
-      "dialogue": [
-        {
-          "sp": "A",
-          "native": "لازم ما بتحب القهوة كتير هلق",
-          "en": "You shouldn't love a lot of coffee now"
-        },
-        {
-          "sp": "B",
-          "native": "منيح، لازم ما بشوف بيت غالي",
-          "en": "Good, I shouldn't see an expensive house"
-        }
-      ]
+ "level": "b2plus",
+ "grammarTopics": {
+  "b2plus-lazim-ma": {
+   "title": "Mustn't/Shouldn't: Lazim Ma",
+   "pattern": "لازم + ما + الفعل المضارع (present-tense verb)",
+   "explanation": "To say someone shouldn't do something, ما slots in right before the verb, after لازم stays in place: لازم ما بتشوف هلق (lazim ma btshuf hala2, \"you shouldn't see it now\"). لازم itself never takes ما directly -- the negation always attaches to the verb that follows it.",
+   "fact": "This exact pattern -- a fixed modal word followed by ما plus a verb -- is one of the most common ways Syrian Arabic gives advice or warnings, similar to how English speakers lean on \"shouldn't\" far more often than a flat \"don't.\"",
+   "dialogue": [
+    {
+     "sp": "A",
+     "native": "لازم ما بتحب القهوة كتير هلق",
+     "en": "You shouldn't love a lot of coffee now"
+    },
+    {
+     "sp": "B",
+     "native": "منيح، لازم ما بشوف بيت غالي",
+     "en": "Good, I shouldn't see an expensive house"
     }
+   ]
+  }
+ },
+ "lessons": [
+  {
+   "number": 1,
+   "title": "You Shouldn't Love, You Shouldn't See",
+   "titleNative": "لازم ما بتحب، لازم ما بتشوف",
+   "items": [
+    {
+     "ar": "لازم ما بتحب القهوة كتير هلق لأن تعبان منيح",
+     "en": "You shouldn't love a lot of coffee now because you're tired, alright",
+     "translit": "lazim ma bt7ibb el-ahwe kteer hala2 la2an ta3baan mnih"
+    },
+    {
+     "ar": "لازم ما بشوف بيت غالي اليوم لأن ما عندي فلوس",
+     "en": "I shouldn't see an expensive house today because I don't have money",
+     "translit": "lazim ma bshuf beit ghali el-yom la2an ma 3andi fluus"
+    },
+    {
+     "ar": "لازم ما بيحب القهوة كتير هلق لأن تعبان كتير",
+     "en": "He shouldn't love a lot of coffee now because he's very tired",
+     "translit": "lazim ma by7ibb el-ahwe kteer hala2 la2an ta3baan kteer"
+    },
+    {
+     "ar": "مدري وين البيت هلق، بس لازم ما بتشوف اليوم",
+     "en": "I don't know where the house is now, but you shouldn't see it today",
+     "translit": "midri wein el-beit hala2, bas lazim ma btshuf el-yom"
+    }
+   ],
+   "topicId": "b2plus-lazim-ma"
   },
-  "lessons": [
+  {
+   "number": 2,
+   "title": "She Shouldn't, We Shouldn't",
+   "titleNative": "لازم ما بتشوف، لازم ما منشوف",
+   "items": [
     {
-      "number": 1,
-      "title": "You Shouldn't Love, You Shouldn't See",
-      "titleNative": "لازم ما بتحب، لازم ما بتشوف",
-      "items": [
-        {
-          "ar": "لازم ما بتحب القهوة كتير هلق لأن تعبان منيح",
-          "en": "You shouldn't love a lot of coffee now because you're tired, alright",
-          "translit": "lazim ma bt7ibb el-ahwe kteer hala2 la2an ta3baan mnih"
-        },
-        {
-          "ar": "لازم ما بشوف بيت غالي اليوم لأن ما عندي فلوس",
-          "en": "I shouldn't see an expensive house today because I don't have money",
-          "translit": "lazim ma bshuf beit ghali el-yom la2an ma 3andi fluus"
-        },
-        {
-          "ar": "لازم ما بيحب القهوة كتير هلق لأن تعبان كتير",
-          "en": "He shouldn't love a lot of coffee now because he's very tired",
-          "translit": "lazim ma by7ibb el-ahwe kteer hala2 la2an ta3baan kteer"
-        },
-        {
-          "ar": "مدري وين البيت هلق، بس لازم ما بتشوف اليوم",
-          "en": "I don't know where the house is now, but you shouldn't see it today",
-          "translit": "midri wein el-beit hala2, bas lazim ma btshuf el-yom"
-        }
-      ],
-      "topicId": "b2plus-lazim-ma"
+     "ar": "لازم ما بتشوف بيت غالي اليوم لأن ما عندا فلوس",
+     "en": "She shouldn't see an expensive house today because she doesn't have money",
+     "translit": "lazim ma btshuf beit ghali el-yom la2an ma 3anda fluus"
     },
     {
-      "number": 2,
-      "title": "She Shouldn't, We Shouldn't",
-      "titleNative": "لازم ما بتشوف، لازم ما منشوف",
-      "items": [
-        {
-          "ar": "لازم ما بتشوف بيت غالي اليوم لأن ما عندا فلوس",
-          "en": "She shouldn't see an expensive house today because she doesn't have money",
-          "translit": "lazim ma btshuf beit ghali el-yom la2an ma 3anda fluus"
-        },
-        {
-          "ar": "لازم ما منشوف بيت بعيد اليوم لأن تعبانين كتير",
-          "en": "We shouldn't see a far house today because we're very busy",
-          "translit": "lazim ma mnshuf beit ba3eed el-yom la2an mashgholeen kteer"
-        },
-        {
-          "ar": "لازم ما بتحبو القهوة كتير اليوم لأن تعبانين منيح",
-          "en": "You all shouldn't love a lot of coffee today because you're tired, alright",
-          "translit": "lazim ma bt7ibbo el-ahwe kteer el-yom la2an ta3baaneen mnih"
-        },
-        {
-          "ar": "لازم ما بيشوفو بيت غالي اليوم لأن ما عندن فلوس",
-          "en": "They shouldn't see an expensive house today because they don't have money",
-          "translit": "lazim ma byshufo beit ghali el-yom la2an ma 3andon fluus"
-        }
-      ],
-      "topicId": "b2plus-lazim-ma"
+     "ar": "لازم ما منشوف بيت بعيد اليوم لأن تعبانين كتير",
+     "en": "We shouldn't see a far house today because we're very busy",
+     "translit": "lazim ma mnshuf beit ba3eed el-yom la2an mashgholeen kteer"
     },
     {
-      "number": 3,
-      "title": "You Shouldn't Want, I Don't Know",
-      "titleNative": "لازم ما بدي، مدري",
-      "items": [
-        {
-          "ar": "لازم ما بدي بشوف بيت غالي اليوم لأن ما عندي فلوس",
-          "en": "I shouldn't want to see an expensive house today because I don't have money",
-          "translit": "lazim ma biddi bshuf beit ghali el-yom la2an ma 3andi fluus"
-        },
-        {
-          "ar": "مدري وين شفت هاد البيت مبارح، مش مشكلة كبيرة",
-          "en": "I don't know where I saw this house yesterday, it's not a big problem",
-          "translit": "midri wein shift haad el-beit mbare7, mish mushkile kbeere"
-        },
-        {
-          "ar": "لازم ما بدي بشوف بيت غالي اليوم لأن ما عندي فلوس",
-          "en": "I shouldn't want to see an expensive house today because I don't have money",
-          "translit": "lazim ma biddi bshuf beit ghali el-yom la2an ma 3andi fluus"
-        },
-        {
-          "ar": "مدري وين أهلهن هلق، مش مشكلة كبيرة اليوم",
-          "en": "I don't know where their family is now, it's not a big problem today",
-          "translit": "midri wein ahalhon hala2, mish mushkile kbeere el-yom"
-        }
-      ],
-      "topicId": "b2plus-lazim-ma"
+     "ar": "لازم ما بتحبو القهوة كتير اليوم لأن تعبانين منيح",
+     "en": "You all shouldn't love a lot of coffee today because you're tired, alright",
+     "translit": "lazim ma bt7ibbo el-ahwe kteer el-yom la2an ta3baaneen mnih"
     },
     {
-      "number": 4,
-      "title": "Not Because Tired, But Because Busy",
-      "titleNative": "مش لأن تعبان، بس لأن تعبان",
-      "items": [
-        {
-          "ar": "لازم ما بشوف بيت غالي اليوم مش لأن غالي، بس لأن بعيد",
-          "en": "I shouldn't see an expensive house today not because it's expensive, but because it's far",
-          "translit": "lazim ma bshuf beit ghali el-yom mish la2an ghali, bas la2an ba3eed"
-        },
-        {
-          "ar": "لازم ما بيحب القهوة كتير اليوم مش لأن غالية، بس لأن تعبان",
-          "en": "He shouldn't love a lot of coffee today not because it's expensive, but because he's tired",
-          "translit": "lazim ma by7ibb el-ahwe kteer el-yom mish la2an ghalye, bas la2an ta3baan"
-        },
-        {
-          "ar": "لازم ما منشوف بيت بعيد اليوم مش لأن غالي، بس لأن بعيد",
-          "en": "We shouldn't see a far house today not because it's expensive, but because it's far",
-          "translit": "lazim ma mnshuf beit ba3eed el-yom mish la2an ghali, bas la2an ba3eed"
-        },
-        {
-          "ar": "مدري وين شفنا هاد البيت مبارح، مش مشكلة كبيرة اليوم",
-          "en": "I don't know where we saw this house yesterday, it's not a big problem today",
-          "translit": "midri wein shifna haad el-beit mbare7, mish mushkile kbeere el-yom"
-        }
-      ],
-      "topicId": "b2plus-lazim-ma"
-    },
-    {
-      "number": 5,
-      "title": "Review: Lazim Ma",
-      "titleNative": "مراجعة",
-      "items": [
-        {
-          "ar": "لازم ما بتحب القهوة كتير اليوم لأن تعبان كتير",
-          "en": "You shouldn't love a lot of coffee today because you're very tired",
-          "translit": "lazim ma bt7ibb el-ahwe kteer el-yom la2an ta3baan kteer"
-        },
-        {
-          "ar": "لازم ما بشوف بيت غالي اليوم لأن ما عندي فلوس",
-          "en": "I shouldn't see an expensive house today because I don't have money",
-          "translit": "lazim ma bshuf beit ghali el-yom la2an ma 3andi fluus"
-        },
-        {
-          "ar": "لازم ما بدي بشوف بيت غالي اليوم لأن ما عندي فلوس",
-          "en": "I shouldn't want to see an expensive house today because I don't have money",
-          "translit": "lazim ma biddi bshuf beit ghali el-yom la2an ma 3andi fluus"
-        },
-        {
-          "ar": "مدري وين أهلهن هلق، مش مشكلة كبيرة اليوم",
-          "en": "I don't know where their family is now, it's not a big problem today",
-          "translit": "midri wein ahalhon hala2, mish mushkile kbeere el-yom"
-        }
-      ]
-    },
-    {
-      "number": 6,
-      "title": "You Shouldn't See Your Brother's House",
-      "titleNative": "لازم ما بتشوف بيت أخوك",
-      "items": [
-        {
-          "ar": "لازم ما بشوف بيت الأهل اليوم لأن تعبان كتير",
-          "en": "I shouldn't see the family's house today because I'm very busy",
-          "translit": "lazim ma bshuf beit el-ahl el-yom la2an mashghool kteer"
-        },
-        {
-          "ar": "مدري وين أهلك هلق، مش مشكلة كبيرة اليوم منيح",
-          "en": "I don't know where your family is now, it's not a big problem today, alright",
-          "translit": "midri wein ahlak hala2, mish mushkile kbeere el-yom mnih"
-        },
-        {
-          "ar": "لازم ما بيحب يشوف بيت الأهل اليوم لأن تعبان كتير",
-          "en": "He shouldn't love seeing the family's house today because he's very tired",
-          "translit": "lazim ma by7ibb yshuf beit el-ahl el-yom la2an ta3baan kteer"
-        },
-        {
-          "ar": "لازم ما منشوف بيت الأهل هلق لأن تعبانين كتير اليوم",
-          "en": "We shouldn't see the family's house now because we're very busy today",
-          "translit": "lazim ma mnshuf beit el-ahl hala2 la2an mashgholeen kteer el-yom"
-        }
-      ],
-      "topicId": "b2plus-lazim-ma"
-    },
-    {
-      "number": 7,
-      "title": "You Shouldn't Want the Red House",
-      "titleNative": "لازم ما بدك البيت الأحمر",
-      "items": [
-        {
-          "ar": "لازم ما بشوف البيت الأحمر اليوم لأن غالي كتير",
-          "en": "I shouldn't see the red house today because it's very expensive",
-          "translit": "lazim ma bshuf el-beit el-a7mar el-yom la2an ghali kteer"
-        },
-        {
-          "ar": "لازم ما بيحب البيت الأصفر اليوم لأن بعيد كتير",
-          "en": "He shouldn't love the yellow house today because it's very far",
-          "translit": "lazim ma by7ibb el-beit el-asfar el-yom la2an ba3eed kteer"
-        },
-        {
-          "ar": "لازم ما بدي بشوف البيت الأزرق اليوم لأن غالي كتير",
-          "en": "I shouldn't want to see the blue house today because it's very expensive",
-          "translit": "lazim ma biddi bshuf el-beit el-azra2 el-yom la2an ghali kteer"
-        },
-        {
-          "ar": "لازم ما منحب البيت الأخضر اليوم لأن بعيد كتير اليوم",
-          "en": "We shouldn't love the green house today because it's very far today",
-          "translit": "lazim ma mn7ibb el-beit el-akhdar el-yom la2an ba3eed kteer el-yom"
-        }
-      ],
-      "topicId": "b2plus-lazim-ma"
-    },
-    {
-      "number": 8,
-      "title": "You Shouldn't Go Far",
-      "titleNative": "لازم ما بتشوف بعيد",
-      "items": [
-        {
-          "ar": "لازم ما بشوف بيت بعيد اليوم لأن السيارة مشكلة كبيرة",
-          "en": "I shouldn't see a far house today because the car is a big problem",
-          "translit": "lazim ma bshuf beit ba3eed el-yom la2an es-sayyara mushkile kbeere"
-        },
-        {
-          "ar": "لازم ما بيشوف بيت قريب اليوم لأن مش منيح كتير",
-          "en": "He shouldn't see a near house today because it's not very good",
-          "translit": "lazim ma byshuf beit 2areeb el-yom la2an mish mnih kteer"
-        },
-        {
-          "ar": "لازم ما بتشوفي بيت هونيك هلق لأن بعيد كتير",
-          "en": "You (f) shouldn't see a house there now because it's very far",
-          "translit": "lazim ma btshufi beit hownik hala2 la2an ba3eed kteer"
-        },
-        {
-          "ar": "لازم ما منشوف هونيك اليوم، منشوف بيت هون منيح بس",
-          "en": "We shouldn't see there today, we should just see a house here, alright",
-          "translit": "lazim ma mnshuf hownik el-yom, mnshuf beit hown mnih bas"
-        }
-      ],
-      "topicId": "b2plus-lazim-ma"
-    },
-    {
-      "number": 9,
-      "title": "You Shouldn't Have Nine",
-      "titleNative": "لازم ما يكون عندك تسعة",
-      "items": [
-        {
-          "ar": "لازم ما بشوف بيت اليوم لأن عندي تلاتة بس",
-          "en": "I shouldn't see a house today because I only have three",
-          "translit": "lazim ma bshuf beit el-yom la2an 3andi tlete bas"
-        },
-        {
-          "ar": "لازم ما بيحب يشوف بيت غالي اليوم لأن عنده خمسة بس",
-          "en": "He shouldn't love seeing an expensive house today because he only has five",
-          "translit": "lazim ma by7ibb yshuf beit ghali el-yom la2an 3ando khamse bas"
-        },
-        {
-          "ar": "لازم ما بتشوف بيت اليوم لأن عندا سبعة بس منيح",
-          "en": "She shouldn't see a house today because she only has seven, alright",
-          "translit": "lazim ma btshuf beit el-yom la2an 3anda sab3a bas mnih"
-        },
-        {
-          "ar": "لازم ما منشوف بيت غالي اليوم لأن عندنا عشرة بس",
-          "en": "We shouldn't see an expensive house today because we only have ten",
-          "translit": "lazim ma mnshuf beit ghali el-yom la2an 3andna 3ashra bas"
-        }
-      ],
-      "topicId": "b2plus-lazim-ma"
-    },
-    {
-      "number": 10,
-      "title": "Review: B2+ Recap",
-      "titleNative": "مراجعة نهائية",
-      "items": [
-        {
-          "ar": "لازم ما بشوف بيت الأهل اليوم لأن تعبان كتير",
-          "en": "I shouldn't see the family's house today because I'm very busy",
-          "translit": "lazim ma bshuf beit el-ahl el-yom la2an mashghool kteer"
-        },
-        {
-          "ar": "لازم ما بشوف البيت الأحمر اليوم لأن غالي كتير",
-          "en": "I shouldn't see the red house today because it's very expensive",
-          "translit": "lazim ma bshuf el-beit el-a7mar el-yom la2an ghali kteer"
-        },
-        {
-          "ar": "لازم ما بشوف بيت بعيد اليوم لأن السيارة مشكلة كبيرة",
-          "en": "I shouldn't see a far house today because the car is a big problem",
-          "translit": "lazim ma bshuf beit ba3eed el-yom la2an es-sayyara mushkile kbeere"
-        },
-        {
-          "ar": "لازم ما بشوف بيت غالي اليوم لأن عندي تلاتة بس",
-          "en": "I shouldn't see an expensive house today because I only have three",
-          "translit": "lazim ma bshuf beit ghali el-yom la2an 3andi tlete bas"
-        }
-      ]
-    },
-    {
-      "number": 11,
-      "title": "You Shouldn't Love That",
-      "titleNative": "لازم ما بتحب هيك",
-      "items": [
-        {
-          "ar": "لازم ما بتحب قهوة غالية اليوم، بتحب شاي منيح بس",
-          "en": "You shouldn't love expensive coffee today, just love good tea",
-          "translit": "lazim ma bt7ibb ahwe ghalye el-yom, bt7ibb shay mnih bas"
-        },
-        {
-          "ar": "لازم ما بيحب مي كتير هلق لأن عنده شي بعدين",
-          "en": "He shouldn't love a lot of water now because he has something later",
-          "translit": "lazim ma by7ibb may kteer hala2 la2an 3ando shi ba3dein"
-        },
-        {
-          "ar": "لازم ما بتحبي قهوة غالية اليوم لأن ما عندك فلوس",
-          "en": "You (f) shouldn't love expensive coffee today because you don't have money",
-          "translit": "lazim ma bt7ibbi ahwe ghalye el-yom la2an ma 3andek fluus"
-        },
-        {
-          "ar": "لازم ما منحب شاي كتير اليوم، منحب مي منيح بس",
-          "en": "We shouldn't love a lot of tea today, we should just love water, good",
-          "translit": "lazim ma mn7ibb shay kteer el-yom, mn7ibb may mnih bas"
-        }
-      ],
-      "topicId": "b2plus-lazim-ma"
-    },
-    {
-      "number": 12,
-      "title": "You All Shouldn't, They Shouldn't",
-      "titleNative": "لازم ما بتحبو، لازم ما بيحبو",
-      "items": [
-        {
-          "ar": "لازم ما بتحبو قهوة اليوم، بتحبو شاي منيح بس",
-          "en": "You all shouldn't love coffee today, you should love good tea",
-          "translit": "lazim ma bt7ibbo ahwe el-yom, bt7ibbo shay mnih bas"
-        },
-        {
-          "ar": "لازم ما بيحبو مي كتير اليوم لأن تعبانين كتير",
-          "en": "They shouldn't love a lot of water today because they're very tired",
-          "translit": "lazim ma by7ibbo may kteer el-yom la2an ta3baaneen kteer"
-        },
-        {
-          "ar": "لازم ما بحب قهوة كتير هلق لأن عندي شي بعدين",
-          "en": "I shouldn't love a lot of coffee now because I have something later",
-          "translit": "lazim ma b7ibb ahwe kteer hala2 la2an 3andi shi ba3dein"
-        },
-        {
-          "ar": "لازم ما بتحب مي كتير اليوم لأن تعبانة كتير اليوم",
-          "en": "You shouldn't love a lot of water today because you're very tired today",
-          "translit": "lazim ma bt7ibb may kteer el-yom la2an ta3baane kteer el-yom"
-        }
-      ],
-      "topicId": "b2plus-lazim-ma"
-    },
-    {
-      "number": 13,
-      "title": "You Shouldn't See a House on Friday",
-      "titleNative": "لازم ما بتشوف بيت يوم الجمعة",
-      "items": [
-        {
-          "ar": "لازم ما بشوف بيت يوم الجمعة لأن مش منيح اليوم",
-          "en": "I shouldn't see a house on Friday because it's not good today",
-          "translit": "lazim ma bshuf beit yom el-jum3a la2an mish mnih el-yom"
-        },
-        {
-          "ar": "لازم ما بيحب قهوة كتير يوم السبت لأن عنده شي",
-          "en": "He shouldn't love a lot of coffee on Saturday because he has something",
-          "translit": "lazim ma by7ibb ahwe kteer yom es-sabt la2an 3ando shi"
-        },
-        {
-          "ar": "لازم ما بتشوفي بيت يوم الخميس لأن تعبانة كتير",
-          "en": "You (f) shouldn't see a house on Thursday because you're very tired",
-          "translit": "lazim ma btshufi beit yom el-khamees la2an ta3baane kteer"
-        },
-        {
-          "ar": "لازم ما منشوف بيت الأهل يوم الأحد لأن تعبانين كتير",
-          "en": "We shouldn't see the family's house on Sunday because we're very tired",
-          "translit": "lazim ma mnshuf beit el-ahl yom el-a7ad la2an ta3baaneen kteer"
-        }
-      ],
-      "topicId": "b2plus-lazim-ma"
-    },
-    {
-      "number": 14,
-      "title": "You Shouldn't Drink Nine Coffees",
-      "titleNative": "لازم ما بتشرب تسعة قهوة",
-      "items": [
-        {
-          "ar": "لازم ما بشوف تسعة قهوة اليوم، بشوف تلاتة منيح والحمدلله",
-          "en": "I shouldn't see nine coffees today, I should see three, good, thank God",
-          "translit": "lazim ma bshuf tis3a ahwe el-yom, bshuf tlete mnih wal-hamdulillah"
-        },
-        {
-          "ar": "لازم ما بيحب خمسة قهوة اليوم لأن تعبان كتير",
-          "en": "He shouldn't love five coffees today because he's very tired",
-          "translit": "lazim ma by7ibb khamse ahwe el-yom la2an ta3baan kteer"
-        },
-        {
-          "ar": "لازم ما بتحبي سبعة قهوة اليوم، بتحبي أربعة منيح بس",
-          "en": "You (f) shouldn't love seven coffees today, you should love four, good",
-          "translit": "lazim ma bt7ibbi sab3a ahwe el-yom, bt7ibbi arba3a mnih bas"
-        },
-        {
-          "ar": "لازم ما منحب عشرة قهوة اليوم، منحب تنين منيح والحمدلله",
-          "en": "We shouldn't love ten coffees today, we should love two, good, thank God",
-          "translit": "lazim ma mn7ibb 3ashra ahwe el-yom, mn7ibb tnein mnih wal-hamdulillah"
-        }
-      ],
-      "topicId": "b2plus-lazim-ma"
-    },
-    {
-      "number": 15,
-      "title": "Review: Lazim Ma with Love, Days, Numbers",
-      "titleNative": "مراجعة",
-      "items": [
-        {
-          "ar": "لازم ما بتحب قهوة غالية اليوم، بتحب شاي منيح بس",
-          "en": "You shouldn't love expensive coffee today, just love good tea",
-          "translit": "lazim ma bt7ibb ahwe ghalye el-yom, bt7ibb shay mnih bas"
-        },
-        {
-          "ar": "لازم ما بشوف بيت يوم الجمعة لأن مش منيح اليوم",
-          "en": "I shouldn't see a house on Friday because it's not good today",
-          "translit": "lazim ma bshuf beit yom el-jum3a la2an mish mnih el-yom"
-        },
-        {
-          "ar": "لازم ما بشوف تسعة قهوة اليوم، بشوف تلاتة منيح والحمدلله",
-          "en": "I shouldn't see nine coffees today, I should see three, good, thank God",
-          "translit": "lazim ma bshuf tis3a ahwe el-yom, bshuf tlete mnih wal-hamdulillah"
-        },
-        {
-          "ar": "لازم ما بيحبو مي كتير اليوم لأن تعبانين كتير",
-          "en": "They shouldn't love a lot of water today because they're very tired",
-          "translit": "lazim ma by7ibbo may kteer el-yom la2an ta3baaneen kteer"
-        }
-      ]
-    },
-    {
-      "number": 16,
-      "title": "You Shouldn't Be Upset",
-      "titleNative": "لازم ما تكون زعلان",
-      "items": [
-        {
-          "ar": "ما لازم زعلان اليوم لأن مش مشكلة كبيرة، منيح كتير",
-          "en": "You don't have to be upset today because it's not a big problem, it's fine",
-          "translit": "ma lazim za3laan el-yom la2an mish mushkile kbeere, mnih kteer"
-        },
-        {
-          "ar": "لازم ما بشوف بيت وأنا تعبان كتير هلق، بحب المي بس",
-          "en": "I shouldn't see a house while I'm very tired now, I should just love water",
-          "translit": "lazim ma bshuf beit wa ana ta3baan kteer hala2, b7ibb el-may bas"
-        },
-        {
-          "ar": "لازم ما بيحب قهوة كتير وهو تعبان كتير اليوم",
-          "en": "He shouldn't love a lot of coffee while he's very tired today",
-          "translit": "lazim ma by7ibb ahwe kteer wa huwwe ta3baan kteer el-yom"
-        },
-        {
-          "ar": "لازم ما منشوف بيت ونحنا تعبانين كتير، منحب المي اليوم",
-          "en": "We shouldn't see a house while we're very tired, we should love water today",
-          "translit": "lazim ma mnshuf beit wa ni7na ta3baaneen kteer, mn7ibb el-may el-yom"
-        }
-      ],
-      "topicId": "b2plus-lazim-ma"
-    },
-    {
-      "number": 17,
-      "title": "You Shouldn't See a Far House Tired",
-      "titleNative": "لازم ما بتشوف بيت بعيد تعبان",
-      "items": [
-        {
-          "ar": "لازم ما بشوف بيت بعيد وأنا تعبان كتير، بحب القهوة بس",
-          "en": "I shouldn't see a far house while I'm very tired, I should just love coffee",
-          "translit": "lazim ma bshuf beit ba3eed wa ana ta3baan kteer, b7ibb el-ahwe bas"
-        },
-        {
-          "ar": "لازم ما بتحبي مي كتير وانتي تعبانة كتير هلق",
-          "en": "You (f) shouldn't love a lot of water while you're very tired now",
-          "translit": "lazim ma bt7ibbi may kteer wa inti ta3baane kteer hala2"
-        },
-        {
-          "ar": "لازم ما بيشوف بيت بعيد وهو تعبان كتير اليوم",
-          "en": "He shouldn't see a far house while he's very tired today",
-          "translit": "lazim ma byshuf beit ba3eed wa huwwe ta3baan kteer el-yom"
-        },
-        {
-          "ar": "لازم ما منشوف بيت بعيد ونحنا تعبانين كتير، بحب المي بس",
-          "en": "We shouldn't see a far house while we're very tired, we should just love water",
-          "translit": "lazim ma mnshuf beit ba3eed wa ni7na ta3baaneen kteer, b7ibb el-may bas"
-        }
-      ],
-      "topicId": "b2plus-lazim-ma"
-    },
-    {
-      "number": 18,
-      "title": "You Shouldn't See Close By",
-      "titleNative": "لازم ما بتشوف قريب",
-      "items": [
-        {
-          "ar": "لازم ما بشوف بيت هون هلق، بشوف بيت هونيك منيح بس",
-          "en": "I shouldn't see a house here now, I should just see a house there, good",
-          "translit": "lazim ma bshuf beit hown hala2, bshuf beit hownik mnih bas"
-        },
-        {
-          "ar": "لازم ما بيشوف بيت بعيد كتير لأن السيارة مشكلة اليوم",
-          "en": "He shouldn't see a very far house because the car is a problem today",
-          "translit": "lazim ma byshuf beit ba3eed kteer la2an es-sayyara mushkile el-yom"
-        },
-        {
-          "ar": "لازم ما بتشوفي بيت بعيد هلق، بتشوفي بيت قريب منيح",
-          "en": "You (f) shouldn't see a far house now, you should see a near house, good",
-          "translit": "lazim ma btshufi beit ba3eed hala2, btshufi beit 2areeb mnih"
-        },
-        {
-          "ar": "لازم ما منشوف هونيك اليوم، منشوف بيت هون منيح بس",
-          "en": "We shouldn't see there today, we should just see a house here, good",
-          "translit": "lazim ma mnshuf hownik el-yom, mnshuf beit hown mnih bas"
-        }
-      ],
-      "topicId": "b2plus-lazim-ma"
-    },
-    {
-      "number": 19,
-      "title": "You Shouldn't Want the Old House",
-      "titleNative": "لازم ما بدك بيت قديم",
-      "items": [
-        {
-          "ar": "لازم ما بدي بشوف بيت قديم اليوم، بدي بشوف بيت جديد",
-          "en": "I shouldn't want to see an old house today, I want to see a new house",
-          "translit": "lazim ma biddi bshuf beit adeem el-yom, biddi bshuf beit jdeed"
-        },
-        {
-          "ar": "لازم ما بيحب سيارة قديمة اليوم لأن مشكلة كبيرة",
-          "en": "He shouldn't love an old car today because it's a big problem",
-          "translit": "lazim ma by7ibb sayyara adeeme el-yom la2an mushkile kbeere"
-        },
-        {
-          "ar": "لازم ما بتشوفي بيت صغير اليوم، بتشوفي بيت كبير منيح",
-          "en": "You (f) shouldn't see a small house today, you should see a big house, good",
-          "translit": "lazim ma btshufi beit sgheer el-yom, btshufi beit kbeer mnih"
-        },
-        {
-          "ar": "لازم ما منشوف بيت صغير اليوم، عندنا أهل كتير منيح",
-          "en": "We shouldn't see a small house today, we have a lot of family, good",
-          "translit": "lazim ma mnshuf beit sgheer el-yom, 3andna ahl kteer mnih"
-        }
-      ],
-      "topicId": "b2plus-lazim-ma"
-    },
-    {
-      "number": 20,
-      "title": "Review: B2+ Recap 2",
-      "titleNative": "مراجعة نهائية",
-      "items": [
-        {
-          "ar": "ما لازم زعلان اليوم لأن مش مشكلة كبيرة، منيح كتير",
-          "en": "You don't have to be upset today because it's not a big problem, it's fine",
-          "translit": "ma lazim za3laan el-yom la2an mish mushkile kbeere, mnih kteer"
-        },
-        {
-          "ar": "لازم ما بشوف بيت بعيد وأنا تعبان كتير، بحب القهوة بس",
-          "en": "I shouldn't see a far house while I'm very tired, I should just love coffee",
-          "translit": "lazim ma bshuf beit ba3eed wa ana ta3baan kteer, b7ibb el-ahwe bas"
-        },
-        {
-          "ar": "لازم ما بشوف بيت هون هلق، بشوف بيت هونيك منيح بس",
-          "en": "I shouldn't see a house here now, I should just see a house there, good",
-          "translit": "lazim ma bshuf beit hown hala2, bshuf beit hownik mnih bas"
-        },
-        {
-          "ar": "لازم ما بدي بشوف بيت قديم اليوم، بدي بشوف بيت جديد",
-          "en": "I shouldn't want to see an old house today, I want to see a new house",
-          "translit": "lazim ma biddi bshuf beit adeem el-yom, biddi bshuf beit jdeed"
-        }
-      ]
-    },
-    {
-      "number": 21,
-      "title": "You Shouldn't See Your Sister's House Tired",
-      "titleNative": "لازم ما بتشوف بيت أختك تعبان",
-      "items": [
-        {
-          "ar": "لازم ما بشوف بيت الأهل وأنا تعبان كتير، بحب القهوة بس",
-          "en": "I shouldn't see the family's house while I'm very tired, I should just love coffee",
-          "translit": "lazim ma bshuf beit el-ahl wa ana ta3baan kteer, b7ibb el-ahwe bas"
-        },
-        {
-          "ar": "مدري وين أخوك هلق، مش مشكلة كبيرة اليوم منيح",
-          "en": "I don't know where your brother is now, it's not a big problem today",
-          "translit": "midri wein akhook hala2, mish mushkile kbeere el-yom mnih"
-        },
-        {
-          "ar": "لازم ما بيحب يشوف بيت أهله وهو تعبان كتير اليوم",
-          "en": "He shouldn't love seeing his family's house while he's very tired today",
-          "translit": "lazim ma by7ibb yshuf beit ahlo wa huwwe ta3baan kteer el-yom"
-        },
-        {
-          "ar": "لازم ما منشوف بيت الأهل ونحنا تعبانين كتير اليوم",
-          "en": "We shouldn't see the family's house while we're very tired today",
-          "translit": "lazim ma mnshuf beit el-ahl wa ni7na ta3baaneen kteer el-yom"
-        }
-      ],
-      "topicId": "b2plus-lazim-ma"
-    },
-    {
-      "number": 22,
-      "title": "You Shouldn't Want Your Brother's House",
-      "titleNative": "لازم ما بدك بيت أخوك",
-      "items": [
-        {
-          "ar": "لازم ما بدك بيت أخوك اليوم، عندك بيت منيح",
-          "en": "You shouldn't want your brother's house today, you have a good house",
-          "translit": "lazim ma biddak beit akhook el-yom, 3andak beit mnih"
-        },
-        {
-          "ar": "لازم ما بيحب بيت أخته اليوم لأن عنده بيت منيح",
-          "en": "He shouldn't love his sister's house today because he has a good house",
-          "translit": "lazim ma by7ibb beit ukhto el-yom la2an 3ando beit mnih"
-        },
-        {
-          "ar": "لازم ما بتحب بيت أهلها اليوم، عندا بيت جديد منيح",
-          "en": "She shouldn't love her family's house today, she has a good new house",
-          "translit": "lazim ma bt7ibb beit ahilha el-yom, 3anda beit jdeed mnih"
-        },
-        {
-          "ar": "لازم ما منحب بيت أهلهن اليوم، عندنا بيت كبير منيح",
-          "en": "We shouldn't love their family's house today, we have a big good house",
-          "translit": "lazim ma mn7ibb beit ahalhon el-yom, 3andna beit kbeer mnih"
-        }
-      ],
-      "topicId": "b2plus-lazim-ma"
-    },
-    {
-      "number": 23,
-      "title": "I Don't Need to Know",
-      "titleNative": "مدري",
-      "items": [
-        {
-          "ar": "مدري وين شفت هاد البيت مبارح، مش مشكلة كبيرة منيح",
-          "en": "I don't know where I saw this house yesterday, it's not a big problem, alright",
-          "translit": "midri wein shift haad el-beit mbare7, mish mushkile kbeere mnih"
-        },
-        {
-          "ar": "لازم ما بتحب القهوة كتير وانت تعبان كتير الصباح",
-          "en": "You shouldn't love a lot of coffee while you're very tired this morning",
-          "translit": "lazim ma bt7ibb el-ahwe kteer wa inta ta3baan kteer es-sabah"
-        },
-        {
-          "ar": "مدري وين أهله هلق، بس عنده صديق منيح كتير هونيك",
-          "en": "I don't know where his family is now, but he has a very good friend there",
-          "translit": "midri wein ahlo hala2, bas 3ando sadeeq mnih kteer hownik"
-        },
-        {
-          "ar": "مدري وين شفنا هاد البيت مبارح، مش مشكلة كبيرة اليوم",
-          "en": "I don't know where we saw this house yesterday, it's not a big problem today",
-          "translit": "midri wein shifna haad el-beit mbare7, mish mushkile kbeere el-yom"
-        }
-      ],
-      "topicId": "b2plus-lazim-ma"
-    },
-    {
-      "number": 24,
-      "title": "A Full Day of Lazim Ma",
-      "titleNative": "يوم كامل من لازم ما",
-      "items": [
-        {
-          "ar": "لازم ما بشوف قهوة غالية اليوم، بحب مي منيح بكرة",
-          "en": "You shouldn't see expensive coffee today, love water tomorrow, alright",
-          "translit": "lazim ma bshuf ahwe ghalye el-yom, b7ibb may mnih bukra"
-        },
-        {
-          "ar": "لازم ما بشوف بيت وأنا تعبان كتير، لازم بحب المي اليوم",
-          "en": "I shouldn't see a house while I'm very tired, I should love water today",
-          "translit": "lazim ma bshuf beit wa ana ta3baan kteer, lazim b7ibb el-may el-yom"
-        },
-        {
-          "ar": "لازم ما بيشوف بيت بعيد اليوم لأن السيارة مشكلة كبيرة",
-          "en": "He shouldn't see a far house today because the car is a big problem",
-          "translit": "lazim ma byshuf beit ba3eed el-yom la2an es-sayyara mushkile kbeere"
-        },
-        {
-          "ar": "لازم ما منشوف بيت غالي اليوم، منشوف بيت رخيص ومنيح",
-          "en": "We shouldn't see an expensive house today, we should see a cheap, good house",
-          "translit": "lazim ma mnshuf beit ghali el-yom, mnshuf beit rkhees wa mnih"
-        }
-      ]
-    },
-    {
-      "number": 25,
-      "title": "Review: Lazim Ma with Family, See, Love",
-      "titleNative": "مراجعة",
-      "items": [
-        {
-          "ar": "لازم ما بشوف بيت الأهل وأنا تعبان كتير، بحب القهوة بس",
-          "en": "I shouldn't see the family's house while I'm very tired, I should just love coffee",
-          "translit": "lazim ma bshuf beit el-ahl wa ana ta3baan kteer, b7ibb el-ahwe bas"
-        },
-        {
-          "ar": "لازم ما بدك بيت أخوك اليوم، عندك بيت منيح",
-          "en": "You shouldn't want your brother's house today, you have a good house",
-          "translit": "lazim ma biddak beit akhook el-yom, 3andak beit mnih"
-        },
-        {
-          "ar": "مدري وين شفت هاد البيت مبارح، مش مشكلة كبيرة منيح",
-          "en": "I don't know where I saw this house yesterday, it's not a big problem, alright",
-          "translit": "midri wein shift haad el-beit mbare7, mish mushkile kbeere mnih"
-        },
-        {
-          "ar": "لازم ما بشوف بيت وأنا تعبان كتير، لازم بحب المي اليوم",
-          "en": "I shouldn't see a house while I'm very tired, I should love water today",
-          "translit": "lazim ma bshuf beit wa ana ta3baan kteer, lazim b7ibb el-may el-yom"
-        }
-      ]
-    },
-    {
-      "number": 26,
-      "title": "Another Full Day",
-      "titleNative": "يوم ثاني",
-      "items": [
-        {
-          "ar": "لازم ما بشوف قهوة غالية اليوم، عندي شاي منيح اليوم",
-          "en": "I shouldn't see expensive coffee today, I have good tea today",
-          "translit": "lazim ma bshuf ahwe ghalye el-yom, 3andi shay mnih el-yom"
-        },
-        {
-          "ar": "مدري وين البيت الأحمر هلق، مش مشكلة كبيرة اليوم",
-          "en": "I don't know where the red house is now, it's not a big problem today",
-          "translit": "midri wein el-beit el-a7mar hala2, mish mushkile kbeere el-yom"
-        },
-        {
-          "ar": "لازم ما بيحب البيت الأزرق اليوم لأن بعيد كتير اليوم",
-          "en": "He shouldn't love the blue house today because it's very far today",
-          "translit": "lazim ma by7ibb el-beit el-azra2 el-yom la2an ba3eed kteer el-yom"
-        },
-        {
-          "ar": "لازم ما منشوف بيت غالي اليوم، منشوف بيت رخيص منيح",
-          "en": "We shouldn't see an expensive house today, we should see a cheap, good house",
-          "translit": "lazim ma mnshuf beit ghali el-yom, mnshuf beit rkhees mnih"
-        }
-      ]
-    },
-    {
-      "number": 27,
-      "title": "Places and Lazim Ma",
-      "titleNative": "الأماكن ولازم ما",
-      "items": [
-        {
-          "ar": "لازم ما بشوف بيت هون هلق، بيت هونيك منيح كتير",
-          "en": "I shouldn't see a house here now, a house there is very good",
-          "translit": "lazim ma bshuf beit hown hala2, beit hownik mnih kteer"
-        },
-        {
-          "ar": "لازم ما بيشوف بيت بعيد اليوم لأن مش منيح كتير",
-          "en": "He shouldn't see a far house today because it's not very good",
-          "translit": "lazim ma byshuf beit ba3eed el-yom la2an mish mnih kteer"
-        },
-        {
-          "ar": "لازم ما بتشوفي هونيك هلق، بيت هون قريب منيح بس",
-          "en": "You (f) shouldn't see there now, a house here is close, good",
-          "translit": "lazim ma btshufi hownik hala2, beit hown 2areeb mnih bas"
-        },
-        {
-          "ar": "لازم ما منشوف بعيد اليوم، منشوف بيت قريب منيح اليوم",
-          "en": "We shouldn't see far today, we should see a close, good house today",
-          "translit": "lazim ma mnshuf ba3eed el-yom, mnshuf beit 2areeb mnih el-yom"
-        }
-      ]
-    },
-    {
-      "number": 28,
-      "title": "Lazim Ma with Money",
-      "titleNative": "لازم ما والفلوس",
-      "items": [
-        {
-          "ar": "لازم ما بدي بشوف بيت غالي اليوم لأن ما عندي فلوس كتير",
-          "en": "I shouldn't want to see an expensive house today because I don't have a lot of money",
-          "translit": "lazim ma biddi bshuf beit ghali el-yom la2an ma 3andi fluus kteer"
-        },
-        {
-          "ar": "لازم ما بيحب قهوة غالية كتير اليوم لأن ما عنده فلوس كتير",
-          "en": "He shouldn't love a lot of expensive coffee today because he doesn't have a lot of money",
-          "translit": "lazim ma by7ibb ahwe ghalye kteer el-yom la2an ma 3ando fluus kteer"
-        },
-        {
-          "ar": "لازم ما بتحب بيت غالي اليوم لأن عندك فلوس منيح بس",
-          "en": "You shouldn't love an expensive house today because you just have some money",
-          "translit": "lazim ma bt7ibb beit ghali el-yom la2an 3andak fluus mnih bas"
-        },
-        {
-          "ar": "لازم ما منشوف بيت غالي اليوم، ما عندنا فلوس كتير",
-          "en": "We shouldn't see an expensive house today, we don't have a lot of money",
-          "translit": "lazim ma mnshuf beit ghali el-yom, ma 3andna fluus kteer"
-        }
-      ]
-    },
-    {
-      "number": 29,
-      "title": "Lazim Ma with Feelings",
-      "titleNative": "لازم ما والمشاعر",
-      "items": [
-        {
-          "ar": "ما لازم زعلان اليوم لأن الأهل منيح، منيح كتير اليوم",
-          "en": "You don't have to be upset today because the family is good, very good today",
-          "translit": "ma lazim za3laan el-yom la2an el-ahl mnih, mnih kteer el-yom"
-        },
-        {
-          "ar": "لازم ما بيحب يشوف بيت وهو تعبان كتير اليوم",
-          "en": "He shouldn't love seeing a house while he's very tired today",
-          "translit": "lazim ma by7ibb yshuf beit wa huwwe ta3baan kteer el-yom"
-        },
-        {
-          "ar": "ما لازم منيحة كتير اليوم، عندنا شي كتير بس منيح",
-          "en": "You don't have to be very good today, we have a lot but it's fine",
-          "translit": "ma lazim mniha kteer el-yom, 3andna shi kteer bas mnih"
-        },
-        {
-          "ar": "لازم ما منشوف بيت ونحنا تعبانين كتير، منحب المي منيح",
-          "en": "We shouldn't see a house while we're very tired, we should love water, good",
-          "translit": "lazim ma mnshuf beit wa ni7na ta3baaneen kteer, mn7ibb el-may mnih"
-        }
-      ]
-    },
-    {
-      "number": 30,
-      "title": "Review: B2+ Final Recap",
-      "titleNative": "مراجعة نهائية",
-      "items": [
-        {
-          "ar": "لازم ما بشوف بيت الأهل وأنا تعبان كتير، بحب القهوة بس",
-          "en": "I shouldn't see the family's house while I'm very tired, I should just love coffee",
-          "translit": "lazim ma bshuf beit el-ahl wa ana ta3baan kteer, b7ibb el-ahwe bas"
-        },
-        {
-          "ar": "مدري وين شفت هاد البيت مبارح، مش مشكلة كبيرة منيح",
-          "en": "I don't know where I saw this house yesterday, it's not a big problem, alright",
-          "translit": "midri wein shift haad el-beit mbare7, mish mushkile kbeere mnih"
-        },
-        {
-          "ar": "لازم ما بدي بشوف بيت غالي اليوم لأن ما عندي فلوس كتير",
-          "en": "I shouldn't want to see an expensive house today because I don't have a lot of money",
-          "translit": "lazim ma biddi bshuf beit ghali el-yom la2an ma 3andi fluus kteer"
-        },
-        {
-          "ar": "ما لازم زعلان اليوم لأن الأهل منيح، منيح كتير اليوم",
-          "en": "You don't have to be upset today because the family is good, very good today",
-          "translit": "ma lazim za3laan el-yom la2an el-ahl mnih, mnih kteer el-yom"
-        }
-      ]
+     "ar": "لازم ما بيشوفو بيت غالي اليوم لأن ما عندن فلوس",
+     "en": "They shouldn't see an expensive house today because they don't have money",
+     "translit": "lazim ma byshufo beit ghali el-yom la2an ma 3andon fluus"
     }
-  ]
+   ],
+   "topicId": "b2plus-lazim-ma"
+  },
+  {
+   "number": 3,
+   "title": "You Shouldn't Want, I Don't Know",
+   "titleNative": "لازم ما بدي، مدري",
+   "items": [
+    {
+     "ar": "لازم ما بدي بشوف بيت غالي اليوم لأن ما عندي فلوس",
+     "en": "I shouldn't want to see an expensive house today because I don't have money",
+     "translit": "lazim ma biddi bshuf beit ghali el-yom la2an ma 3andi fluus"
+    },
+    {
+     "ar": "مدري وين شفت هاد البيت مبارح، مش مشكلة كبيرة",
+     "en": "I don't know where I saw this house yesterday, it's not a big problem",
+     "translit": "midri wein shift haad el-beit mbare7, mish mushkile kbeere"
+    },
+    {
+     "ar": "لازم ما بدي بشوف بيت غالي اليوم لأن ما عندي فلوس",
+     "en": "I shouldn't want to see an expensive house today because I don't have money",
+     "translit": "lazim ma biddi bshuf beit ghali el-yom la2an ma 3andi fluus"
+    },
+    {
+     "ar": "مدري وين أهلهن هلق، مش مشكلة كبيرة اليوم",
+     "en": "I don't know where their family is now, it's not a big problem today",
+     "translit": "midri wein ahalhon hala2, mish mushkile kbeere el-yom"
+    }
+   ],
+   "topicId": "b2plus-lazim-ma"
+  },
+  {
+   "number": 4,
+   "title": "Not Because Tired, But Because Busy",
+   "titleNative": "مش لأن تعبان، بس لأن تعبان",
+   "items": [
+    {
+     "ar": "لازم ما بشوف بيت غالي اليوم مش لأن غالي، بس لأن بعيد",
+     "en": "I shouldn't see an expensive house today not because it's expensive, but because it's far",
+     "translit": "lazim ma bshuf beit ghali el-yom mish la2an ghali, bas la2an ba3eed"
+    },
+    {
+     "ar": "لازم ما بيحب القهوة كتير اليوم مش لأن غالية، بس لأن تعبان",
+     "en": "He shouldn't love a lot of coffee today not because it's expensive, but because he's tired",
+     "translit": "lazim ma by7ibb el-ahwe kteer el-yom mish la2an ghalye, bas la2an ta3baan"
+    },
+    {
+     "ar": "لازم ما منشوف بيت بعيد اليوم مش لأن غالي، بس لأن بعيد",
+     "en": "We shouldn't see a far house today not because it's expensive, but because it's far",
+     "translit": "lazim ma mnshuf beit ba3eed el-yom mish la2an ghali, bas la2an ba3eed"
+    },
+    {
+     "ar": "مدري وين شفنا هاد البيت مبارح، مش مشكلة كبيرة اليوم",
+     "en": "I don't know where we saw this house yesterday, it's not a big problem today",
+     "translit": "midri wein shifna haad el-beit mbare7, mish mushkile kbeere el-yom"
+    }
+   ],
+   "topicId": "b2plus-lazim-ma"
+  },
+  {
+   "number": 5,
+   "title": "Review: Lazim Ma",
+   "titleNative": "مراجعة",
+   "items": [
+    {
+     "ar": "لازم ما بتحب القهوة كتير اليوم لأن تعبان كتير",
+     "en": "You shouldn't love a lot of coffee today because you're very tired",
+     "translit": "lazim ma bt7ibb el-ahwe kteer el-yom la2an ta3baan kteer"
+    },
+    {
+     "ar": "لازم ما بشوف بيت غالي اليوم لأن ما عندي فلوس",
+     "en": "I shouldn't see an expensive house today because I don't have money",
+     "translit": "lazim ma bshuf beit ghali el-yom la2an ma 3andi fluus"
+    },
+    {
+     "ar": "لازم ما بدي بشوف بيت غالي اليوم لأن ما عندي فلوس",
+     "en": "I shouldn't want to see an expensive house today because I don't have money",
+     "translit": "lazim ma biddi bshuf beit ghali el-yom la2an ma 3andi fluus"
+    },
+    {
+     "ar": "مدري وين أهلهن هلق، مش مشكلة كبيرة اليوم",
+     "en": "I don't know where their family is now, it's not a big problem today",
+     "translit": "midri wein ahalhon hala2, mish mushkile kbeere el-yom"
+    }
+   ]
+  },
+  {
+   "number": 6,
+   "title": "You Shouldn't See Your Brother's House",
+   "titleNative": "لازم ما بتشوف بيت أخوك",
+   "items": [
+    {
+     "ar": "لازم ما بشوف بيت الأهل اليوم لأن تعبان كتير",
+     "en": "I shouldn't see the family's house today because I'm very busy",
+     "translit": "lazim ma bshuf beit el-ahl el-yom la2an mashghool kteer"
+    },
+    {
+     "ar": "مدري وين أهلك هلق، مش مشكلة كبيرة اليوم منيح",
+     "en": "I don't know where your family is now, it's not a big problem today, alright",
+     "translit": "midri wein ahlak hala2, mish mushkile kbeere el-yom mnih"
+    },
+    {
+     "ar": "لازم ما بيحب يشوف بيت الأهل اليوم لأن تعبان كتير",
+     "en": "He shouldn't love seeing the family's house today because he's very tired",
+     "translit": "lazim ma by7ibb yshuf beit el-ahl el-yom la2an ta3baan kteer"
+    },
+    {
+     "ar": "لازم ما منشوف بيت الأهل هلق لأن تعبانين كتير اليوم",
+     "en": "We shouldn't see the family's house now because we're very busy today",
+     "translit": "lazim ma mnshuf beit el-ahl hala2 la2an mashgholeen kteer el-yom"
+    }
+   ],
+   "topicId": "b2plus-lazim-ma"
+  },
+  {
+   "number": 7,
+   "title": "You Shouldn't Want the Red House",
+   "titleNative": "لازم ما بدك البيت الأحمر",
+   "items": [
+    {
+     "ar": "لازم ما بشوف البيت الأحمر اليوم لأن غالي كتير",
+     "en": "I shouldn't see the red house today because it's very expensive",
+     "translit": "lazim ma bshuf el-beit el-a7mar el-yom la2an ghali kteer"
+    },
+    {
+     "ar": "لازم ما بيحب البيت الأصفر اليوم لأن بعيد كتير",
+     "en": "He shouldn't love the yellow house today because it's very far",
+     "translit": "lazim ma by7ibb el-beit el-asfar el-yom la2an ba3eed kteer"
+    },
+    {
+     "ar": "لازم ما بدي بشوف البيت الأزرق اليوم لأن غالي كتير",
+     "en": "I shouldn't want to see the blue house today because it's very expensive",
+     "translit": "lazim ma biddi bshuf el-beit el-azra2 el-yom la2an ghali kteer"
+    },
+    {
+     "ar": "لازم ما منحب البيت الأخضر اليوم لأن بعيد كتير اليوم",
+     "en": "We shouldn't love the green house today because it's very far today",
+     "translit": "lazim ma mn7ibb el-beit el-akhdar el-yom la2an ba3eed kteer el-yom"
+    }
+   ],
+   "topicId": "b2plus-lazim-ma"
+  },
+  {
+   "number": 8,
+   "title": "You Shouldn't Go Far",
+   "titleNative": "لازم ما بتشوف بعيد",
+   "items": [
+    {
+     "ar": "لازم ما بشوف بيت بعيد اليوم لأن السيارة مشكلة كبيرة",
+     "en": "I shouldn't see a far house today because the car is a big problem",
+     "translit": "lazim ma bshuf beit ba3eed el-yom la2an es-sayyara mushkile kbeere"
+    },
+    {
+     "ar": "لازم ما بيشوف بيت قريب اليوم لأن مش منيح كتير",
+     "en": "He shouldn't see a near house today because it's not very good",
+     "translit": "lazim ma byshuf beit 2areeb el-yom la2an mish mnih kteer"
+    },
+    {
+     "ar": "لازم ما بتشوفي بيت هونيك هلق لأن بعيد كتير",
+     "en": "You (f) shouldn't see a house there now because it's very far",
+     "translit": "lazim ma btshufi beit hownik hala2 la2an ba3eed kteer"
+    },
+    {
+     "ar": "لازم ما منشوف هونيك اليوم، منشوف بيت هون منيح بس",
+     "en": "We shouldn't see there today, we should just see a house here, alright",
+     "translit": "lazim ma mnshuf hownik el-yom, mnshuf beit hown mnih bas"
+    }
+   ],
+   "topicId": "b2plus-lazim-ma"
+  },
+  {
+   "number": 9,
+   "title": "You Shouldn't Have Nine",
+   "titleNative": "لازم ما يكون عندك تسعة",
+   "items": [
+    {
+     "ar": "لازم ما بشوف بيت اليوم لأن عندي تلاتة بس",
+     "en": "I shouldn't see a house today because I only have three",
+     "translit": "lazim ma bshuf beit el-yom la2an 3andi tlete bas"
+    },
+    {
+     "ar": "لازم ما بيحب يشوف بيت غالي اليوم لأن عنده خمسة بس",
+     "en": "He shouldn't love seeing an expensive house today because he only has five",
+     "translit": "lazim ma by7ibb yshuf beit ghali el-yom la2an 3ando khamse bas"
+    },
+    {
+     "ar": "لازم ما بتشوف بيت اليوم لأن عندا سبعة بس منيح",
+     "en": "She shouldn't see a house today because she only has seven, alright",
+     "translit": "lazim ma btshuf beit el-yom la2an 3anda sab3a bas mnih"
+    },
+    {
+     "ar": "لازم ما منشوف بيت غالي اليوم لأن عندنا عشرة بس",
+     "en": "We shouldn't see an expensive house today because we only have ten",
+     "translit": "lazim ma mnshuf beit ghali el-yom la2an 3andna 3ashra bas"
+    }
+   ],
+   "topicId": "b2plus-lazim-ma"
+  },
+  {
+   "number": 10,
+   "title": "Review: B2+ Recap",
+   "titleNative": "مراجعة نهائية",
+   "items": [
+    {
+     "ar": "لازم ما بشوف بيت الأهل اليوم لأن تعبان كتير",
+     "en": "I shouldn't see the family's house today because I'm very busy",
+     "translit": "lazim ma bshuf beit el-ahl el-yom la2an mashghool kteer"
+    },
+    {
+     "ar": "لازم ما بشوف البيت الأحمر اليوم لأن غالي كتير",
+     "en": "I shouldn't see the red house today because it's very expensive",
+     "translit": "lazim ma bshuf el-beit el-a7mar el-yom la2an ghali kteer"
+    },
+    {
+     "ar": "لازم ما بشوف بيت بعيد اليوم لأن السيارة مشكلة كبيرة",
+     "en": "I shouldn't see a far house today because the car is a big problem",
+     "translit": "lazim ma bshuf beit ba3eed el-yom la2an es-sayyara mushkile kbeere"
+    },
+    {
+     "ar": "لازم ما بشوف بيت غالي اليوم لأن عندي تلاتة بس",
+     "en": "I shouldn't see an expensive house today because I only have three",
+     "translit": "lazim ma bshuf beit ghali el-yom la2an 3andi tlete bas"
+    }
+   ]
+  },
+  {
+   "number": 11,
+   "title": "You Shouldn't Love That",
+   "titleNative": "لازم ما بتحب هيك",
+   "items": [
+    {
+     "ar": "لازم ما بتحب قهوة غالية اليوم، بتحب شاي منيح بس",
+     "en": "You shouldn't love expensive coffee today, just love good tea",
+     "translit": "lazim ma bt7ibb ahwe ghalye el-yom, bt7ibb shay mnih bas"
+    },
+    {
+     "ar": "لازم ما بيحب مي كتير هلق لأن عنده شي بعدين",
+     "en": "He shouldn't love a lot of water now because he has something later",
+     "translit": "lazim ma by7ibb may kteer hala2 la2an 3ando shi ba3dein"
+    },
+    {
+     "ar": "لازم ما بتحبي قهوة غالية اليوم لأن ما عندك فلوس",
+     "en": "You (f) shouldn't love expensive coffee today because you don't have money",
+     "translit": "lazim ma bt7ibbi ahwe ghalye el-yom la2an ma 3andek fluus"
+    },
+    {
+     "ar": "لازم ما منحب شاي كتير اليوم، منحب مي منيح بس",
+     "en": "We shouldn't love a lot of tea today, we should just love water, good",
+     "translit": "lazim ma mn7ibb shay kteer el-yom, mn7ibb may mnih bas"
+    }
+   ],
+   "topicId": "b2plus-lazim-ma"
+  },
+  {
+   "number": 12,
+   "title": "You All Shouldn't, They Shouldn't",
+   "titleNative": "لازم ما بتحبو، لازم ما بيحبو",
+   "items": [
+    {
+     "ar": "لازم ما بتحبو قهوة اليوم، بتحبو شاي منيح بس",
+     "en": "You all shouldn't love coffee today, you should love good tea",
+     "translit": "lazim ma bt7ibbo ahwe el-yom, bt7ibbo shay mnih bas"
+    },
+    {
+     "ar": "لازم ما بيحبو مي كتير اليوم لأن تعبانين كتير",
+     "en": "They shouldn't love a lot of water today because they're very tired",
+     "translit": "lazim ma by7ibbo may kteer el-yom la2an ta3baaneen kteer"
+    },
+    {
+     "ar": "لازم ما بحب قهوة كتير هلق لأن عندي شي بعدين",
+     "en": "I shouldn't love a lot of coffee now because I have something later",
+     "translit": "lazim ma b7ibb ahwe kteer hala2 la2an 3andi shi ba3dein"
+    },
+    {
+     "ar": "لازم ما بتحب مي كتير اليوم لأن تعبانة كتير اليوم",
+     "en": "You shouldn't love a lot of water today because you're very tired today",
+     "translit": "lazim ma bt7ibb may kteer el-yom la2an ta3baane kteer el-yom"
+    }
+   ],
+   "topicId": "b2plus-lazim-ma"
+  },
+  {
+   "number": 13,
+   "title": "You Shouldn't See a House on Friday",
+   "titleNative": "لازم ما بتشوف بيت يوم الجمعة",
+   "items": [
+    {
+     "ar": "لازم ما بشوف بيت يوم الجمعة لأن مش منيح اليوم",
+     "en": "I shouldn't see a house on Friday because it's not good today",
+     "translit": "lazim ma bshuf beit yom el-jum3a la2an mish mnih el-yom"
+    },
+    {
+     "ar": "لازم ما بيحب قهوة كتير يوم السبت لأن عنده شي",
+     "en": "He shouldn't love a lot of coffee on Saturday because he has something",
+     "translit": "lazim ma by7ibb ahwe kteer yom es-sabt la2an 3ando shi"
+    },
+    {
+     "ar": "لازم ما بتشوفي بيت يوم الخميس لأن تعبانة كتير",
+     "en": "You (f) shouldn't see a house on Thursday because you're very tired",
+     "translit": "lazim ma btshufi beit yom el-khamees la2an ta3baane kteer"
+    },
+    {
+     "ar": "لازم ما منشوف بيت الأهل يوم الأحد لأن تعبانين كتير",
+     "en": "We shouldn't see the family's house on Sunday because we're very tired",
+     "translit": "lazim ma mnshuf beit el-ahl yom el-a7ad la2an ta3baaneen kteer"
+    }
+   ],
+   "topicId": "b2plus-lazim-ma"
+  },
+  {
+   "number": 14,
+   "title": "You Shouldn't Drink Nine Coffees",
+   "titleNative": "لازم ما بتشرب تسعة قهوة",
+   "items": [
+    {
+     "ar": "لازم ما بشوف تسعة قهوة اليوم، بشوف تلاتة منيح والحمدلله",
+     "en": "I shouldn't see nine coffees today, I should see three, good, thank God",
+     "translit": "lazim ma bshuf tis3a ahwe el-yom, bshuf tlete mnih wal-hamdulillah"
+    },
+    {
+     "ar": "لازم ما بيحب خمسة قهوة اليوم لأن تعبان كتير",
+     "en": "He shouldn't love five coffees today because he's very tired",
+     "translit": "lazim ma by7ibb khamse ahwe el-yom la2an ta3baan kteer"
+    },
+    {
+     "ar": "لازم ما بتحبي سبعة قهوة اليوم، بتحبي أربعة منيح بس",
+     "en": "You (f) shouldn't love seven coffees today, you should love four, good",
+     "translit": "lazim ma bt7ibbi sab3a ahwe el-yom, bt7ibbi arba3a mnih bas"
+    },
+    {
+     "ar": "لازم ما منحب عشرة قهوة اليوم، منحب تنين منيح والحمدلله",
+     "en": "We shouldn't love ten coffees today, we should love two, good, thank God",
+     "translit": "lazim ma mn7ibb 3ashra ahwe el-yom, mn7ibb tnein mnih wal-hamdulillah"
+    }
+   ],
+   "topicId": "b2plus-lazim-ma"
+  },
+  {
+   "number": 15,
+   "title": "Review: Lazim Ma with Love, Days, Numbers",
+   "titleNative": "مراجعة",
+   "items": [
+    {
+     "ar": "لازم ما بتحب قهوة غالية اليوم، بتحب شاي منيح بس",
+     "en": "You shouldn't love expensive coffee today, just love good tea",
+     "translit": "lazim ma bt7ibb ahwe ghalye el-yom, bt7ibb shay mnih bas"
+    },
+    {
+     "ar": "لازم ما بشوف بيت يوم الجمعة لأن مش منيح اليوم",
+     "en": "I shouldn't see a house on Friday because it's not good today",
+     "translit": "lazim ma bshuf beit yom el-jum3a la2an mish mnih el-yom"
+    },
+    {
+     "ar": "لازم ما بشوف تسعة قهوة اليوم، بشوف تلاتة منيح والحمدلله",
+     "en": "I shouldn't see nine coffees today, I should see three, good, thank God",
+     "translit": "lazim ma bshuf tis3a ahwe el-yom, bshuf tlete mnih wal-hamdulillah"
+    },
+    {
+     "ar": "لازم ما بيحبو مي كتير اليوم لأن تعبانين كتير",
+     "en": "They shouldn't love a lot of water today because they're very tired",
+     "translit": "lazim ma by7ibbo may kteer el-yom la2an ta3baaneen kteer"
+    }
+   ]
+  },
+  {
+   "number": 16,
+   "title": "You Shouldn't Be Upset",
+   "titleNative": "لازم ما تكون زعلان",
+   "items": [
+    {
+     "ar": "ما لازم زعلان اليوم لأن مش مشكلة كبيرة، منيح كتير",
+     "en": "You don't have to be upset today because it's not a big problem, it's fine",
+     "translit": "ma lazim za3laan el-yom la2an mish mushkile kbeere, mnih kteer"
+    },
+    {
+     "ar": "لازم ما بشوف بيت وأنا تعبان كتير هلق، بحب المي بس",
+     "en": "I shouldn't see a house while I'm very tired now, I should just love water",
+     "translit": "lazim ma bshuf beit wa ana ta3baan kteer hala2, b7ibb el-may bas"
+    },
+    {
+     "ar": "لازم ما بيحب قهوة كتير وهو تعبان كتير اليوم",
+     "en": "He shouldn't love a lot of coffee while he's very tired today",
+     "translit": "lazim ma by7ibb ahwe kteer wa huwwe ta3baan kteer el-yom"
+    },
+    {
+     "ar": "لازم ما منشوف بيت ونحنا تعبانين كتير، منحب المي اليوم",
+     "en": "We shouldn't see a house while we're very tired, we should love water today",
+     "translit": "lazim ma mnshuf beit wa ni7na ta3baaneen kteer, mn7ibb el-may el-yom"
+    }
+   ],
+   "topicId": "b2plus-lazim-ma"
+  },
+  {
+   "number": 17,
+   "title": "You Shouldn't See a Far House Tired",
+   "titleNative": "لازم ما بتشوف بيت بعيد تعبان",
+   "items": [
+    {
+     "ar": "لازم ما بشوف بيت بعيد وأنا تعبان كتير، بحب القهوة بس",
+     "en": "I shouldn't see a far house while I'm very tired, I should just love coffee",
+     "translit": "lazim ma bshuf beit ba3eed wa ana ta3baan kteer, b7ibb el-ahwe bas"
+    },
+    {
+     "ar": "لازم ما بتحبي مي كتير وانتي تعبانة كتير هلق",
+     "en": "You (f) shouldn't love a lot of water while you're very tired now",
+     "translit": "lazim ma bt7ibbi may kteer wa inti ta3baane kteer hala2"
+    },
+    {
+     "ar": "لازم ما بيشوف بيت بعيد وهو تعبان كتير اليوم",
+     "en": "He shouldn't see a far house while he's very tired today",
+     "translit": "lazim ma byshuf beit ba3eed wa huwwe ta3baan kteer el-yom"
+    },
+    {
+     "ar": "لازم ما منشوف بيت بعيد ونحنا تعبانين كتير، بحب المي بس",
+     "en": "We shouldn't see a far house while we're very tired, we should just love water",
+     "translit": "lazim ma mnshuf beit ba3eed wa ni7na ta3baaneen kteer, b7ibb el-may bas"
+    }
+   ],
+   "topicId": "b2plus-lazim-ma"
+  },
+  {
+   "number": 18,
+   "title": "You Shouldn't See Close By",
+   "titleNative": "لازم ما بتشوف قريب",
+   "items": [
+    {
+     "ar": "لازم ما بشوف بيت هون هلق، بشوف بيت هونيك منيح بس",
+     "en": "I shouldn't see a house here now, I should just see a house there, good",
+     "translit": "lazim ma bshuf beit hown hala2, bshuf beit hownik mnih bas"
+    },
+    {
+     "ar": "لازم ما بيشوف بيت بعيد كتير لأن السيارة مشكلة اليوم",
+     "en": "He shouldn't see a very far house because the car is a problem today",
+     "translit": "lazim ma byshuf beit ba3eed kteer la2an es-sayyara mushkile el-yom"
+    },
+    {
+     "ar": "لازم ما بتشوفي بيت بعيد هلق، بتشوفي بيت قريب منيح",
+     "en": "You (f) shouldn't see a far house now, you should see a near house, good",
+     "translit": "lazim ma btshufi beit ba3eed hala2, btshufi beit 2areeb mnih"
+    },
+    {
+     "ar": "لازم ما منشوف هونيك اليوم، منشوف بيت هون منيح بس",
+     "en": "We shouldn't see there today, we should just see a house here, good",
+     "translit": "lazim ma mnshuf hownik el-yom, mnshuf beit hown mnih bas"
+    }
+   ],
+   "topicId": "b2plus-lazim-ma"
+  },
+  {
+   "number": 19,
+   "title": "You Shouldn't Want the Old House",
+   "titleNative": "لازم ما بدك بيت قديم",
+   "items": [
+    {
+     "ar": "لازم ما بدي بشوف بيت قديم اليوم، بدي بشوف بيت جديد",
+     "en": "I shouldn't want to see an old house today, I want to see a new house",
+     "translit": "lazim ma biddi bshuf beit adeem el-yom, biddi bshuf beit jdeed"
+    },
+    {
+     "ar": "لازم ما بيحب سيارة قديمة اليوم لأن مشكلة كبيرة",
+     "en": "He shouldn't love an old car today because it's a big problem",
+     "translit": "lazim ma by7ibb sayyara adeeme el-yom la2an mushkile kbeere"
+    },
+    {
+     "ar": "لازم ما بتشوفي بيت صغير اليوم، بتشوفي بيت كبير منيح",
+     "en": "You (f) shouldn't see a small house today, you should see a big house, good",
+     "translit": "lazim ma btshufi beit sgheer el-yom, btshufi beit kbeer mnih"
+    },
+    {
+     "ar": "لازم ما منشوف بيت صغير اليوم، عندنا أهل كتير منيح",
+     "en": "We shouldn't see a small house today, we have a lot of family, good",
+     "translit": "lazim ma mnshuf beit sgheer el-yom, 3andna ahl kteer mnih"
+    }
+   ],
+   "topicId": "b2plus-lazim-ma"
+  },
+  {
+   "number": 20,
+   "title": "Review: B2+ Recap 2",
+   "titleNative": "مراجعة نهائية",
+   "items": [
+    {
+     "ar": "ما لازم زعلان اليوم لأن مش مشكلة كبيرة، منيح كتير",
+     "en": "You don't have to be upset today because it's not a big problem, it's fine",
+     "translit": "ma lazim za3laan el-yom la2an mish mushkile kbeere, mnih kteer"
+    },
+    {
+     "ar": "لازم ما بشوف بيت بعيد وأنا تعبان كتير، بحب القهوة بس",
+     "en": "I shouldn't see a far house while I'm very tired, I should just love coffee",
+     "translit": "lazim ma bshuf beit ba3eed wa ana ta3baan kteer, b7ibb el-ahwe bas"
+    },
+    {
+     "ar": "لازم ما بشوف بيت هون هلق، بشوف بيت هونيك منيح بس",
+     "en": "I shouldn't see a house here now, I should just see a house there, good",
+     "translit": "lazim ma bshuf beit hown hala2, bshuf beit hownik mnih bas"
+    },
+    {
+     "ar": "لازم ما بدي بشوف بيت قديم اليوم، بدي بشوف بيت جديد",
+     "en": "I shouldn't want to see an old house today, I want to see a new house",
+     "translit": "lazim ma biddi bshuf beit adeem el-yom, biddi bshuf beit jdeed"
+    }
+   ]
+  },
+  {
+   "number": 21,
+   "title": "You Shouldn't See Your Sister's House Tired",
+   "titleNative": "لازم ما بتشوف بيت أختك تعبان",
+   "items": [
+    {
+     "ar": "لازم ما بشوف بيت الأهل وأنا تعبان كتير، بحب القهوة بس",
+     "en": "I shouldn't see the family's house while I'm very tired, I should just love coffee",
+     "translit": "lazim ma bshuf beit el-ahl wa ana ta3baan kteer, b7ibb el-ahwe bas"
+    },
+    {
+     "ar": "مدري وين أخوك هلق، مش مشكلة كبيرة اليوم منيح",
+     "en": "I don't know where your brother is now, it's not a big problem today",
+     "translit": "midri wein akhook hala2, mish mushkile kbeere el-yom mnih"
+    },
+    {
+     "ar": "لازم ما بيحب يشوف بيت أهله وهو تعبان كتير اليوم",
+     "en": "He shouldn't love seeing his family's house while he's very tired today",
+     "translit": "lazim ma by7ibb yshuf beit ahlo wa huwwe ta3baan kteer el-yom"
+    },
+    {
+     "ar": "لازم ما منشوف بيت الأهل ونحنا تعبانين كتير اليوم",
+     "en": "We shouldn't see the family's house while we're very tired today",
+     "translit": "lazim ma mnshuf beit el-ahl wa ni7na ta3baaneen kteer el-yom"
+    }
+   ],
+   "topicId": "b2plus-lazim-ma"
+  },
+  {
+   "number": 22,
+   "title": "You Shouldn't Want Your Brother's House",
+   "titleNative": "لازم ما بدك بيت أخوك",
+   "items": [
+    {
+     "ar": "لازم ما بدك بيت أخوك اليوم، عندك بيت منيح",
+     "en": "You shouldn't want your brother's house today, you have a good house",
+     "translit": "lazim ma biddak beit akhook el-yom, 3andak beit mnih"
+    },
+    {
+     "ar": "لازم ما بيحب بيت أخته اليوم لأن عنده بيت منيح",
+     "en": "He shouldn't love his sister's house today because he has a good house",
+     "translit": "lazim ma by7ibb beit ukhto el-yom la2an 3ando beit mnih"
+    },
+    {
+     "ar": "لازم ما بتحب بيت أهلها اليوم، عندا بيت جديد منيح",
+     "en": "She shouldn't love her family's house today, she has a good new house",
+     "translit": "lazim ma bt7ibb beit ahilha el-yom, 3anda beit jdeed mnih"
+    },
+    {
+     "ar": "لازم ما منحب بيت أهلهن اليوم، عندنا بيت كبير منيح",
+     "en": "We shouldn't love their family's house today, we have a big good house",
+     "translit": "lazim ma mn7ibb beit ahalhon el-yom, 3andna beit kbeer mnih"
+    }
+   ],
+   "topicId": "b2plus-lazim-ma"
+  },
+  {
+   "number": 23,
+   "title": "I Don't Need to Know",
+   "titleNative": "مدري",
+   "items": [
+    {
+     "ar": "مدري وين شفت هاد البيت مبارح، مش مشكلة كبيرة منيح",
+     "en": "I don't know where I saw this house yesterday, it's not a big problem, alright",
+     "translit": "midri wein shift haad el-beit mbare7, mish mushkile kbeere mnih"
+    },
+    {
+     "ar": "لازم ما بتحب القهوة كتير وانت تعبان كتير الصباح",
+     "en": "You shouldn't love a lot of coffee while you're very tired this morning",
+     "translit": "lazim ma bt7ibb el-ahwe kteer wa inta ta3baan kteer es-sabah"
+    },
+    {
+     "ar": "مدري وين أهله هلق، بس عنده صديق منيح كتير هونيك",
+     "en": "I don't know where his family is now, but he has a very good friend there",
+     "translit": "midri wein ahlo hala2, bas 3ando sadeeq mnih kteer hownik"
+    },
+    {
+     "ar": "مدري وين شفنا هاد البيت مبارح، مش مشكلة كبيرة اليوم",
+     "en": "I don't know where we saw this house yesterday, it's not a big problem today",
+     "translit": "midri wein shifna haad el-beit mbare7, mish mushkile kbeere el-yom"
+    }
+   ],
+   "topicId": "b2plus-lazim-ma"
+  },
+  {
+   "number": 24,
+   "title": "A Full Day of Lazim Ma",
+   "titleNative": "يوم كامل من لازم ما",
+   "items": [
+    {
+     "ar": "لازم ما بشوف قهوة غالية اليوم، بحب مي منيح بكرة",
+     "en": "You shouldn't see expensive coffee today, love water tomorrow, alright",
+     "translit": "lazim ma bshuf ahwe ghalye el-yom, b7ibb may mnih bukra"
+    },
+    {
+     "ar": "لازم ما بشوف بيت وأنا تعبان كتير، لازم بحب المي اليوم",
+     "en": "I shouldn't see a house while I'm very tired, I should love water today",
+     "translit": "lazim ma bshuf beit wa ana ta3baan kteer, lazim b7ibb el-may el-yom"
+    },
+    {
+     "ar": "لازم ما بيشوف بيت بعيد اليوم لأن السيارة مشكلة كبيرة",
+     "en": "He shouldn't see a far house today because the car is a big problem",
+     "translit": "lazim ma byshuf beit ba3eed el-yom la2an es-sayyara mushkile kbeere"
+    },
+    {
+     "ar": "لازم ما منشوف بيت غالي اليوم، منشوف بيت رخيص ومنيح",
+     "en": "We shouldn't see an expensive house today, we should see a cheap, good house",
+     "translit": "lazim ma mnshuf beit ghali el-yom, mnshuf beit rkhees wa mnih"
+    }
+   ]
+  },
+  {
+   "number": 25,
+   "title": "Review: Lazim Ma with Family, See, Love",
+   "titleNative": "مراجعة",
+   "items": [
+    {
+     "ar": "لازم ما بشوف بيت الأهل وأنا تعبان كتير، بحب القهوة بس",
+     "en": "I shouldn't see the family's house while I'm very tired, I should just love coffee",
+     "translit": "lazim ma bshuf beit el-ahl wa ana ta3baan kteer, b7ibb el-ahwe bas"
+    },
+    {
+     "ar": "لازم ما بدك بيت أخوك اليوم، عندك بيت منيح",
+     "en": "You shouldn't want your brother's house today, you have a good house",
+     "translit": "lazim ma biddak beit akhook el-yom, 3andak beit mnih"
+    },
+    {
+     "ar": "مدري وين شفت هاد البيت مبارح، مش مشكلة كبيرة منيح",
+     "en": "I don't know where I saw this house yesterday, it's not a big problem, alright",
+     "translit": "midri wein shift haad el-beit mbare7, mish mushkile kbeere mnih"
+    },
+    {
+     "ar": "لازم ما بشوف بيت وأنا تعبان كتير، لازم بحب المي اليوم",
+     "en": "I shouldn't see a house while I'm very tired, I should love water today",
+     "translit": "lazim ma bshuf beit wa ana ta3baan kteer, lazim b7ibb el-may el-yom"
+    }
+   ]
+  },
+  {
+   "number": 26,
+   "title": "Another Full Day",
+   "titleNative": "يوم ثاني",
+   "items": [
+    {
+     "ar": "لازم ما بشوف قهوة غالية اليوم، عندي شاي منيح اليوم",
+     "en": "I shouldn't see expensive coffee today, I have good tea today",
+     "translit": "lazim ma bshuf ahwe ghalye el-yom, 3andi shay mnih el-yom"
+    },
+    {
+     "ar": "مدري وين البيت الأحمر هلق، مش مشكلة كبيرة اليوم",
+     "en": "I don't know where the red house is now, it's not a big problem today",
+     "translit": "midri wein el-beit el-a7mar hala2, mish mushkile kbeere el-yom"
+    },
+    {
+     "ar": "لازم ما بيحب البيت الأزرق اليوم لأن بعيد كتير اليوم",
+     "en": "He shouldn't love the blue house today because it's very far today",
+     "translit": "lazim ma by7ibb el-beit el-azra2 el-yom la2an ba3eed kteer el-yom"
+    },
+    {
+     "ar": "لازم ما منشوف بيت غالي اليوم، منشوف بيت رخيص منيح",
+     "en": "We shouldn't see an expensive house today, we should see a cheap, good house",
+     "translit": "lazim ma mnshuf beit ghali el-yom, mnshuf beit rkhees mnih"
+    }
+   ]
+  },
+  {
+   "number": 27,
+   "title": "Places and Lazim Ma",
+   "titleNative": "الأماكن ولازم ما",
+   "items": [
+    {
+     "ar": "لازم ما بشوف بيت هون هلق، بيت هونيك منيح كتير",
+     "en": "I shouldn't see a house here now, a house there is very good",
+     "translit": "lazim ma bshuf beit hown hala2, beit hownik mnih kteer"
+    },
+    {
+     "ar": "لازم ما بيشوف بيت بعيد اليوم لأن مش منيح كتير",
+     "en": "He shouldn't see a far house today because it's not very good",
+     "translit": "lazim ma byshuf beit ba3eed el-yom la2an mish mnih kteer"
+    },
+    {
+     "ar": "لازم ما بتشوفي هونيك هلق، بيت هون قريب منيح بس",
+     "en": "You (f) shouldn't see there now, a house here is close, good",
+     "translit": "lazim ma btshufi hownik hala2, beit hown 2areeb mnih bas"
+    },
+    {
+     "ar": "لازم ما منشوف بعيد اليوم، منشوف بيت قريب منيح اليوم",
+     "en": "We shouldn't see far today, we should see a close, good house today",
+     "translit": "lazim ma mnshuf ba3eed el-yom, mnshuf beit 2areeb mnih el-yom"
+    }
+   ]
+  },
+  {
+   "number": 28,
+   "title": "Lazim Ma with Money",
+   "titleNative": "لازم ما والفلوس",
+   "items": [
+    {
+     "ar": "لازم ما بدي بشوف بيت غالي اليوم لأن ما عندي فلوس كتير",
+     "en": "I shouldn't want to see an expensive house today because I don't have a lot of money",
+     "translit": "lazim ma biddi bshuf beit ghali el-yom la2an ma 3andi fluus kteer"
+    },
+    {
+     "ar": "لازم ما بيحب قهوة غالية كتير اليوم لأن ما عنده فلوس كتير",
+     "en": "He shouldn't love a lot of expensive coffee today because he doesn't have a lot of money",
+     "translit": "lazim ma by7ibb ahwe ghalye kteer el-yom la2an ma 3ando fluus kteer"
+    },
+    {
+     "ar": "لازم ما بتحب بيت غالي اليوم لأن عندك فلوس منيح بس",
+     "en": "You shouldn't love an expensive house today because you just have some money",
+     "translit": "lazim ma bt7ibb beit ghali el-yom la2an 3andak fluus mnih bas"
+    },
+    {
+     "ar": "لازم ما منشوف بيت غالي اليوم، ما عندنا فلوس كتير",
+     "en": "We shouldn't see an expensive house today, we don't have a lot of money",
+     "translit": "lazim ma mnshuf beit ghali el-yom, ma 3andna fluus kteer"
+    }
+   ]
+  },
+  {
+   "number": 29,
+   "title": "Lazim Ma with Feelings",
+   "titleNative": "لازم ما والمشاعر",
+   "items": [
+    {
+     "ar": "ما لازم زعلان اليوم لأن الأهل منيح، منيح كتير اليوم",
+     "en": "You don't have to be upset today because the family is good, very good today",
+     "translit": "ma lazim za3laan el-yom la2an el-ahl mnih, mnih kteer el-yom"
+    },
+    {
+     "ar": "لازم ما بيحب يشوف بيت وهو تعبان كتير اليوم",
+     "en": "He shouldn't love seeing a house while he's very tired today",
+     "translit": "lazim ma by7ibb yshuf beit wa huwwe ta3baan kteer el-yom"
+    },
+    {
+     "ar": "ما لازم منيحة كتير اليوم، عندنا شي كتير بس منيح",
+     "en": "You don't have to be very good today, we have a lot but it's fine",
+     "translit": "ma lazim mniha kteer el-yom, 3andna shi kteer bas mnih"
+    },
+    {
+     "ar": "لازم ما منشوف بيت ونحنا تعبانين كتير، منحب المي منيح",
+     "en": "We shouldn't see a house while we're very tired, we should love water, good",
+     "translit": "lazim ma mnshuf beit wa ni7na ta3baaneen kteer, mn7ibb el-may mnih"
+    }
+   ]
+  },
+  {
+   "number": 30,
+   "title": "Review: B2+ Final Recap",
+   "titleNative": "مراجعة نهائية",
+   "items": [
+    {
+     "ar": "لازم ما بشوف بيت الأهل وأنا تعبان كتير، بحب القهوة بس",
+     "en": "I shouldn't see the family's house while I'm very tired, I should just love coffee",
+     "translit": "lazim ma bshuf beit el-ahl wa ana ta3baan kteer, b7ibb el-ahwe bas"
+    },
+    {
+     "ar": "مدري وين شفت هاد البيت مبارح، مش مشكلة كبيرة منيح",
+     "en": "I don't know where I saw this house yesterday, it's not a big problem, alright",
+     "translit": "midri wein shift haad el-beit mbare7, mish mushkile kbeere mnih"
+    },
+    {
+     "ar": "لازم ما بدي بشوف بيت غالي اليوم لأن ما عندي فلوس كتير",
+     "en": "I shouldn't want to see an expensive house today because I don't have a lot of money",
+     "translit": "lazim ma biddi bshuf beit ghali el-yom la2an ma 3andi fluus kteer"
+    },
+    {
+     "ar": "ما لازم زعلان اليوم لأن الأهل منيح، منيح كتير اليوم",
+     "en": "You don't have to be upset today because the family is good, very good today",
+     "translit": "ma lazim za3laan el-yom la2an el-ahl mnih, mnih kteer el-yom"
+    }
+   ]
+  },
+  {
+   "number": 31,
+   "title": "You Shouldn't Take That Book",
+   "titleNative": "لازم ما تاخد هاد الكتاب",
+   "items": [
+    {
+     "ar": "لازم ما باخد هاد الكتاب اليوم لأن غالي كتير",
+     "en": "I shouldn't take this book today because it's very expensive",
+     "translit": "lazim ma bexud haad el-ktaab el-yom la2an ghali ktir"
+    },
+    {
+     "ar": "لازم ما بياخد صديقك هاد الزيت اليوم لأن رخيص كتير",
+     "en": "Your friend shouldn't take this oil today because it's very cheap",
+     "translit": "lazim ma byexud sadee2ak haad ez-zeit el-yom la2an rkhees ktir"
+    },
+    {
+     "ar": "لازم ما بتاخدي فلوس اليوم لأن ما عندك كتير",
+     "en": "You shouldn't take money today because you don't have much",
+     "translit": "lazim ma btexdi fluus el-yom la2an ma 3andek ktir"
+    },
+    {
+     "ar": "لازم ما مناخد هاد القط اليوم لأن عندنا قط كتير",
+     "en": "We shouldn't take this cat today because we have a lot of cats",
+     "translit": "lazim ma mnexud haad el-2it el-yom la2an 3andna 2it ktir"
+    }
+   ]
+  },
+  {
+   "number": 32,
+   "title": "You Shouldn't Come Tired",
+   "titleNative": "لازم ما تجي تعبان",
+   "items": [
+    {
+     "ar": "لازم ما بجي البيت تعبان اليوم لأن عندي شغلة",
+     "en": "I shouldn't come home tired today because I have a matter",
+     "translit": "lazim ma biji el-beit ta3ban el-yom la2an 3andi shaghle"
+    },
+    {
+     "ar": "لازم ما بيجي أخوك زعلان اليوم لأن عيلتنا منيحة",
+     "en": "Your brother shouldn't come upset today because our family is good",
+     "translit": "lazim ma byiji akhuuk za3lan el-yom la2an 3eeltna mniha"
+    },
+    {
+     "ar": "لازم ما بتجي المدينة اليوم لأن الشغلة كتير",
+     "en": "You shouldn't come to the city today because there's a lot of the matter",
+     "translit": "lazim ma btiji el-madiine el-yom la2an esh-shaghle ktir"
+    },
+    {
+     "ar": "لازم ما منجي البحر اليوم لأن تعبانين كتير",
+     "en": "We shouldn't come to the sea today because we're very tired",
+     "translit": "lazim ma mniji el-ba7er el-yom la2an ta3banin ktir"
+    }
+   ]
+  },
+  {
+   "number": 33,
+   "title": "You Shouldn't Finish the Story Now",
+   "titleNative": "لازم ما تخلص هلق",
+   "items": [
+    {
+     "ar": "لازم ما بخلص الشغلة هلق لأن عندي وقت كتير",
+     "en": "I shouldn't finish the matter now because I have a lot of time",
+     "translit": "lazim ma bxalliş esh-shaghle hala2 la2an 3andi wa2t ktir"
+    },
+    {
+     "ar": "لازم ما بيخلص صديقي الكتاب هلق لأن منيح كتير",
+     "en": "My friend shouldn't finish the book now because it's very good",
+     "translit": "lazim ma byixlaş sadee2i el-ktaab hala2 la2an mnih ktir"
+    },
+    {
+     "ar": "لازم ما بتخلصي هلق لأن عندك وقت من البحر",
+     "en": "You shouldn't finish now because you have time from the sea",
+     "translit": "lazim ma btixlaşi hala2 la2an 3andek wa2t min el-ba7er"
+    },
+    {
+     "ar": "لازم ما منخلص هلق لأن عندنا وقت كتير اليوم",
+     "en": "We shouldn't finish now because we have a lot of time today",
+     "translit": "lazim ma mnixlaş hala2 la2an 3andna wa2t ktir el-yom"
+    }
+   ]
+  },
+  {
+   "number": 34,
+   "title": "Rich Friend, Poor Friend",
+   "titleNative": "صديق غني، صديق فقير",
+   "items": [
+    {
+     "ar": "لازم ما بشوف صديقي الغني اليوم لأن عنده وقت كتير",
+     "en": "I shouldn't see my rich friend today because he has a lot of time",
+     "translit": "lazim ma bshuf sadee2i el-ghani el-yom la2an 3ando wa2t ktir"
+    },
+    {
+     "ar": "لازم ما بيحب صديقه الفقير اليوم لأن ما عنده فلوس",
+     "en": "He shouldn't love his poor friend today because he doesn't have money",
+     "translit": "lazim ma byhib sadee2o el-faqiir el-yom la2an ma 3ando fluus"
+    },
+    {
+     "ar": "مدري ليش صديقي غني اليوم، بس عنده بيت كبير كتير",
+     "en": "I don't know why my friend is rich today, but he has a very big house",
+     "translit": "midri leish sadee2i ghani el-yom, bas 3ando beit kbeer ktir"
+    },
+    {
+     "ar": "لازم ما منحب الفقير الغالي اليوم، منحب الفقير الرخيص",
+     "en": "We shouldn't love the expensive poor person today, we love the cheap poor person",
+     "translit": "lazim ma mnhib el-faqiir el-ghali el-yom, mnhib el-faqiir er-rkhees"
+    }
+   ]
+  },
+  {
+   "number": 35,
+   "title": "Review: A Friend Named Rafiq",
+   "titleNative": "مراجعة: صديق اسمه رفيق",
+   "items": [
+    {
+     "ar": "هاد رفيقي اليوم، منيح كتير والحمدلله",
+     "en": "This is my friend Rafiq today, very good, thank God",
+     "translit": "haad rafiiqi el-yom, mnih ktir wal-hamdulillah"
+    },
+    {
+     "ar": "لازم ما بيحب رفيقه الغالي اليوم، بيحب الرخيص",
+     "en": "He shouldn't love his expensive friend today, he loves the cheap one",
+     "translit": "lazim ma byhib rafiiqo el-ghali el-yom, byhib er-rkhees"
+    },
+    {
+     "ar": "مدري وين رفيقي هلق، بس عنده بيت قريب من البحر",
+     "en": "I don't know where my friend is now, but he has a house near the sea",
+     "translit": "midri wein rafiiqi hala2, bas 3ando beit 2areeb min el-ba7er"
+    },
+    {
+     "ar": "لازم ما منشوف رفيقنا هلق لأن عنده شغلة كبيرة",
+     "en": "We shouldn't see our friend now because he has a big matter",
+     "translit": "lazim ma mnshuf rafiiqna hala2 la2an 3ando shaghle kbeere"
+    }
+   ]
+  },
+  {
+   "number": 36,
+   "title": "Review: Time and Money",
+   "titleNative": "مراجعة: وقت وفلوس",
+   "items": [
+    {
+     "ar": "لازم ما بشوف الوقت هلق لأن عندي شغلة كبيرة",
+     "en": "I shouldn't see the time now because I have a big matter",
+     "translit": "lazim ma bshuf el-wa2t hala2 la2an 3andi shaghle kbeere"
+    },
+    {
+     "ar": "لازم ما بيحب الوقت البعيد اليوم، بيحب اليوم كتير",
+     "en": "He shouldn't love the far time today, he loves today a lot",
+     "translit": "lazim ma byhib el-wa2t el-ba3eed el-yom, byhib el-yom ktir"
+    },
+    {
+     "ar": "مدري وين الوقت اليوم، بس عندي شغلة قريبة من هون",
+     "en": "I don't know where the time is today, but I have a matter near here",
+     "translit": "midri wein el-wa2t el-yom, bas 3andi shaghle 2areebe min hown"
+    },
+    {
+     "ar": "لازم ما منحب الوقت الغالي اليوم، منحب الوقت المنيح",
+     "en": "We shouldn't love the expensive time today, we love the good time",
+     "translit": "lazim ma mnhib el-wa2t el-ghali el-yom, mnhib el-wa2t el-mnih"
+    }
+   ]
+  },
+  {
+   "number": 37,
+   "title": "Review: The River and the Book",
+   "titleNative": "مراجعة: النهر والكتاب",
+   "items": [
+    {
+     "ar": "لازم ما باخد كتاب من النهر اليوم لأن بعيد كتير",
+     "en": "I shouldn't take a book from the river today because it's very far",
+     "translit": "lazim ma bexud ktaab min en-nahr el-yom la2an ba3eed ktir"
+    },
+    {
+     "ar": "لازم ما بيجي صديقي البحر اليوم لأن تعبان كتير",
+     "en": "My friend shouldn't come to the sea today because he's very tired",
+     "translit": "lazim ma byiji sadee2i el-ba7er el-yom la2an ta3ban ktir"
+    },
+    {
+     "ar": "مدري وين رفيقي هلق، بس بشوف كتابه القريب من الطاولة",
+     "en": "I don't know where my friend is now, but I see his book near the table",
+     "translit": "midri wein rafiiqi hala2, bas bshuf ktaabo el-2areeb min et-tawle"
+    },
+    {
+     "ar": "لازم ما منخلص هلق لأن عندنا وقت من النهر والبحر",
+     "en": "We shouldn't finish now because we have time from the river and the sea",
+     "translit": "lazim ma mnixlaş hala2 la2an 3andna wa2t min en-nahr wal-ba7er"
+    }
+   ]
+  },
+  {
+   "number": 38,
+   "title": "Review: Days and Verbs",
+   "titleNative": "مراجعة: أيام وأفعال",
+   "items": [
+    {
+     "ar": "يوم الجمعة لازم ما باخد فلوس كتير من البنك",
+     "en": "On Friday I shouldn't take a lot of money from the bank",
+     "translit": "yom el-jum3a lazim ma bexud fluus ktir min el-bank"
+    },
+    {
+     "ar": "يوم السبت لازم ما بيجي زوجي تعبان كتير من الشغلة",
+     "en": "On Saturday my husband shouldn't come very tired from the matter",
+     "translit": "yom es-sabt lazim ma byiji zawji ta3ban ktir min esh-shaghle"
+    },
+    {
+     "ar": "يوم الأحد لازم ما بتخلصي هلق لأن عندك وقت كتير",
+     "en": "On Sunday you shouldn't finish now because you have a lot of time",
+     "translit": "yom el-a7ad lazim ma btixlaşi hala2 la2an 3andek wa2t ktir"
+    },
+    {
+     "ar": "يوم الاثنين لازم ما منجي البحر تعبانين كتير",
+     "en": "On Monday we shouldn't come to the sea very tired",
+     "translit": "yom el-tnein lazim ma mniji el-ba7er ta3banin ktir"
+    }
+   ]
+  },
+  {
+   "number": 39,
+   "title": "Review: A Full Day with New Verbs",
+   "titleNative": "مراجعة: يوم كامل مع أفعال جديدة",
+   "items": [
+    {
+     "ar": "بجي البيت اليوم، وباخد كتابي، وبخلص شغلتي",
+     "en": "I come home today, and I take my book, and I finish my matter",
+     "translit": "biji el-beit el-yom, wa bexud ktaabi, wa bxalliş shaghlti"
+    },
+    {
+     "ar": "بيجي صديقي المدينة، وبيحب البحر، وبيخلص شغلته بكرة",
+     "en": "My friend comes to the city, and loves the sea, and finishes his matter tomorrow",
+     "translit": "byiji sadee2i el-madiine, wa byhib el-ba7er, wa byixlaş shaghlto bukra"
+    },
+    {
+     "ar": "بتجي بنتي هون، وباخد كتابها، وبتخلص فطورها بكرة",
+     "en": "My daughter comes here, and I take her book, and she finishes her breakfast tomorrow",
+     "translit": "btiji binti hown, wa bexud ktaabha, wa btixlaş futuurha bukra"
+    },
+    {
+     "ar": "منجي هون اليوم، ومناخد كتابنا، ومنخلص شغلتنا مع صديقنا",
+     "en": "We come here today, and take our book, and finish our matter with our friend",
+     "translit": "mniji hown el-yom, wa mnexud ktaabna, wa mnixlaş shaghletna ma3 sadee2na"
+    }
+   ]
+  },
+  {
+   "number": 40,
+   "title": "Complete: B2+ New Verbs Wrap",
+   "titleNative": "ختام: ختام الأفعال الجديدة B2+",
+   "items": [
+    {
+     "ar": "لازم ما باخد فلوس من رفيقي الفقير، عندي فلوس كتير",
+     "en": "I shouldn't take money from my poor friend, I have a lot of money",
+     "translit": "lazim ma bexud fluus min rafiiqi el-faqiir, 3andi fluus ktir"
+    },
+    {
+     "ar": "لازم ما بيجي زوجي تعبان اليوم لأن عيلتنا منيحة",
+     "en": "My husband shouldn't come tired today because our family is good",
+     "translit": "lazim ma byiji zawji ta3ban el-yom la2an 3eeltna mniha"
+    },
+    {
+     "ar": "لازم ما بتخلصي شغلتك هلق، عندك وقت من البحر والنهر",
+     "en": "You shouldn't finish your matter now, you have time from the sea and the river",
+     "translit": "lazim ma btixlaşi shaghletek hala2, 3andek wa2t min el-ba7er wan-nahr"
+    },
+    {
+     "ar": "لازم ما منحب كتابنا الغالي كتير، منحب كتابنا القريب",
+     "en": "We shouldn't love our very expensive book, we love our nearby book",
+     "translit": "lazim ma mnhib ktaabna el-ghali ktir, mnhib ktaabna el-2areeb"
+    }
+   ]
+  }
+ ]
 }
