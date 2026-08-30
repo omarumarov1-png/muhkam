@@ -862,10 +862,29 @@
   const _downloadState = new Map(); // courseId -> { total, done, active }
   const _downloadListeners = new Set();
   let _hydrateDownloadedPromise = null;
+  let _courseSizes = null; // courseId -> { jsonBytes, audioBytes }, fetched once
+  let _armedForDelete = null; // courseId currently showing "tap again to remove"
 
   function onDownloadProgress(fn) { _downloadListeners.add(fn); return () => _downloadListeners.delete(fn); }
   function notifyDownloadProgress(courseId) {
     _downloadListeners.forEach(fn => fn(courseId, _downloadState.get(courseId) || null));
+  }
+
+  function formatBytes(bytes) {
+    if (!bytes) return "0 MB";
+    const mb = bytes / 1024 / 1024;
+    return mb < 1 ? "< 1 MB" : `${mb < 10 ? mb.toFixed(1) : Math.round(mb)} MB`;
+  }
+  function courseSizeBytes(courseId) {
+    const s = _courseSizes && _courseSizes[courseId];
+    return s ? s.jsonBytes + s.audioBytes : 0;
+  }
+  function loadCourseSizes() {
+    if (_courseSizes) return Promise.resolve(_courseSizes);
+    return fetch(`data/course-sizes.json?v=${DATA_VERSION}`, { cache: "no-cache" })
+      .then(r => r.ok ? r.json() : {})
+      .then(json => { _courseSizes = json; return json; })
+      .catch(() => { _courseSizes = {}; return _courseSizes; });
   }
 
   // Called once, lazily, before the course picker's first render each
@@ -873,9 +892,12 @@
   // this is the one place that pays for a full courseData scan.
   function hydrateDownloadedCourses() {
     if (_hydrateDownloadedPromise) return _hydrateDownloadedPromise;
-    _hydrateDownloadedPromise = idbGetAll("courseData").then(records => {
-      records.forEach(r => { if (r.audioDownloaded) _downloadedCourses.add(r.courseId); });
-    }).catch(() => {});
+    _hydrateDownloadedPromise = Promise.all([
+      idbGetAll("courseData").then(records => {
+        records.forEach(r => { if (r.audioDownloaded) _downloadedCourses.add(r.courseId); });
+      }).catch(() => {}),
+      loadCourseSizes(),
+    ]);
     return _hydrateDownloadedPromise;
   }
 
@@ -1168,6 +1190,7 @@
     downloading: `<svg class="course-card-dl-spin" viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2.2" stroke-dasharray="34 20" stroke-linecap="round"/></svg>`,
     done: `<svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M5 12.5l4.3 4.3L19 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
     error: `<svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M12 8v5M12 16.2v.1" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2.2"/></svg>`,
+    armed: `<svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M5 7h14M9 7V5a1 1 0 011-1h4a1 1 0 011 1v2m-9 0l1 12a1 1 0 001 1h8a1 1 0 001-1l1-12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
   };
   // "active" (spinner still spinning) is only ever momentary -- the real
   // state that must survive a failure is read straight off _downloadState
@@ -1178,12 +1201,27 @@
     const st = _downloadState.get(courseId);
     if (st && st.active) return "downloading";
     if (st && st.error) return "error";
+    if (_armedForDelete === courseId) return "armed";
     return _downloadedCourses.has(courseId) ? "done" : "none";
   }
   function courseDlProgressPct(courseId) {
     const st = _downloadState.get(courseId);
     if (!st || !st.total) return 0;
     return Math.round((st.done / st.total) * 100);
+  }
+  function courseDlLabel(courseId, dlState) {
+    const dlSt = _downloadState.get(courseId);
+    const size = formatBytes(courseSizeBytes(courseId));
+    if (dlState === "armed") return "Tap again to remove this download";
+    if (dlState === "done") return `Downloaded (${size}) — tap to remove`;
+    if (dlState === "downloading") return `Downloading for offline (${courseDlProgressPct(courseId)}%)`;
+    if (dlState === "error") return `Download failed: ${dlSt && dlSt.error} — tap to retry`;
+    return `Download for offline (${size})`;
+  }
+  function courseDlSideText(courseId, dlState) {
+    if (dlState === "downloading") return `${courseDlProgressPct(courseId)}%`;
+    if (dlState === "none" || dlState === "done") return formatBytes(courseSizeBytes(courseId));
+    return "";
   }
   function courseCardHtml(meta) {
     const s = meta.id === activeCourseId ? { lessonsDone: progress.completedLessons.length, streak: progress.streak, xp: progress.xp } : readCourseStats(meta.id);
@@ -1195,11 +1233,7 @@
         </span>`
       : `<span class="course-card-empty">Not started — tap to begin</span>`;
     const dlState = courseDlState(meta.id);
-    const dlSt = _downloadState.get(meta.id);
-    const dlLabel = dlState === "done" ? "Downloaded for offline — tap to remove"
-      : dlState === "downloading" ? `Downloading for offline (${courseDlProgressPct(meta.id)}%)`
-      : dlState === "error" ? `Download failed: ${dlSt && dlSt.error} — tap to retry`
-      : "Download for offline";
+    const dlLabel = courseDlLabel(meta.id, dlState);
     return `
       <div class="course-card course-card--${meta.accent} ${meta.id === activeCourseId ? "active" : ""}">
         <button class="course-card-main" data-course="${meta.id}">
@@ -1208,9 +1242,9 @@
           ${statsHtml}
         </button>
         <button type="button" class="course-card-dl" data-course-dl="${meta.id}" data-dl-state="${dlState}" aria-label="${dlLabel}" title="${dlLabel}">
-          ${DL_ICON[dlState]}
+          ${DL_ICON[dlState] || DL_ICON.done}
         </button>
-        <span class="course-card-dl-pct" data-dl-pct="${meta.id}">${dlState === "downloading" ? courseDlProgressPct(meta.id) + "%" : ""}</span>
+        <span class="course-card-dl-pct" data-dl-pct="${meta.id}">${courseDlSideText(meta.id, dlState)}</span>
         <div class="course-card-dl-bar" data-dl-bar="${meta.id}" style="width:${dlState === "downloading" ? courseDlProgressPct(meta.id) : 0}%"></div>
       </div>
     `;
@@ -1229,6 +1263,7 @@
         </section>
       `;
     }).join("");
+    renderDownloadsSummary();
     list.querySelectorAll(".course-card-main").forEach(btn => {
       btn.addEventListener("click", async () => {
         const id = btn.dataset.course;
@@ -1240,10 +1275,28 @@
       btn.addEventListener("click", async (e) => {
         e.stopPropagation();
         const id = btn.dataset.courseDl;
-        if (courseDlState(id) === "downloading") return;
+        const state = courseDlState(id);
+        if (state === "downloading") return;
+        // Deleting a download is a real loss (could be 100+ MB re-fetched
+        // later) -- a stray tap shouldn't be able to do it in one motion.
+        // First tap on a completed download arms it; the SAME tap target
+        // has to be tapped again within 3s to actually delete.
+        if (state === "done") {
+          _armedForDelete = id;
+          refreshCourseDlButton(id);
+          clearTimeout(_disarmTimer);
+          _disarmTimer = setTimeout(() => {
+            if (_armedForDelete === id) { _armedForDelete = null; refreshCourseDlButton(id); }
+          }, 3000);
+          return;
+        }
+        if (state === "armed") {
+          clearTimeout(_disarmTimer);
+          _armedForDelete = null;
+        }
         const unsub = onDownloadProgress((cid) => { if (cid === id) refreshCourseDlButton(id); });
         try {
-          if (courseDlState(id) === "done") {
+          if (state === "armed") {
             await deleteCourseDownload(id);
           } else {
             await downloadCourse(id);
@@ -1253,29 +1306,45 @@
         } finally {
           unsub();
           refreshCourseDlButton(id);
+          renderDownloadsSummary();
         }
       });
     });
   }
 
+  let _disarmTimer = null;
+
   function refreshCourseDlButton(courseId) {
     const btn = document.querySelector(`.course-card-dl[data-course-dl="${courseId}"]`);
     if (!btn) return;
     const dlState = courseDlState(courseId);
-    const dlSt = _downloadState.get(courseId);
-    const pct = courseDlProgressPct(courseId);
-    const dlLabel = dlState === "done" ? "Downloaded for offline — tap to remove"
-      : dlState === "downloading" ? `Downloading for offline (${pct}%)`
-      : dlState === "error" ? `Download failed: ${dlSt && dlSt.error} — tap to retry`
-      : "Download for offline";
+    const dlLabel = courseDlLabel(courseId, dlState);
     btn.dataset.dlState = dlState;
     btn.setAttribute("aria-label", dlLabel);
     btn.setAttribute("title", dlLabel);
-    btn.innerHTML = DL_ICON[dlState];
+    btn.innerHTML = DL_ICON[dlState] || DL_ICON.done;
     const pctEl = document.querySelector(`.course-card-dl-pct[data-dl-pct="${courseId}"]`);
-    if (pctEl) pctEl.textContent = dlState === "downloading" ? `${pct}%` : "";
+    if (pctEl) pctEl.textContent = courseDlSideText(courseId, dlState);
     const barEl = document.querySelector(`.course-card-dl-bar[data-dl-bar="${courseId}"]`);
-    if (barEl) barEl.style.width = `${dlState === "downloading" ? pct : 0}%`;
+    if (barEl) barEl.style.width = `${dlState === "downloading" ? courseDlProgressPct(courseId) : 0}%`;
+  }
+
+  async function renderDownloadsSummary() {
+    const el = document.getElementById("downloadsSummary");
+    if (!el) return;
+    const downloadedBytes = Array.from(_downloadedCourses).reduce((sum, id) => sum + courseSizeBytes(id), 0);
+    let quotaText = "";
+    if (navigator.storage && navigator.storage.estimate) {
+      try {
+        const { usage, quota } = await navigator.storage.estimate();
+        if (typeof quota === "number" && quota > 0) {
+          quotaText = ` · ${formatBytes(quota - usage)} free on this device`;
+        }
+      } catch (e) { /* estimate() unsupported or denied -- just skip the free-space part */ }
+    }
+    el.textContent = _downloadedCourses.size
+      ? `${_downloadedCourses.size} course${_downloadedCourses.size === 1 ? "" : "s"} downloaded (${formatBytes(downloadedBytes)})${quotaText}`
+      : `No courses downloaded yet${quotaText}`;
   }
 
   function wireGlobalUi() {

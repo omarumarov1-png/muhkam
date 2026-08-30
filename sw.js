@@ -39,6 +39,7 @@ const SHELL_FILES = [
   "./auth.js",
   "./firebase-config.js",
   "./manifest.json",
+  "./data/course-sizes.json",
 ];
 
 const ICON_FILES = [

@@ -529,6 +529,7 @@ button.stat:hover { color: var(--teal); }
 .course-card-dl[data-dl-state="done"] { color: var(--card-accent); }
 .course-card-dl[data-dl-state="downloading"] { cursor: default; }
 .course-card-dl[data-dl-state="error"] { color: var(--maroon); background: var(--maroon-wash); }
+.course-card-dl[data-dl-state="armed"] { color: var(--gold); background: var(--gold-wash); }
 .course-card-dl-spin { animation: courseDlSpin 0.8s linear infinite; }
 @keyframes courseDlSpin { to { transform: rotate(360deg); } }
 @media (prefers-reduced-motion: reduce) { .course-card-dl-spin { animation: none; } }
@@ -547,6 +548,12 @@ button.stat:hover { color: var(--teal); }
   width: 0%;
   transition: width 0.2s ease;
   border-radius: 0 2px 2px 0;
+}
+.downloads-summary {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  opacity: 0.75;
+  margin-top: -6px;
 }
 .course-card-empty {
   font-size: 0.74rem;
