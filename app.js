@@ -21,7 +21,7 @@
   // style.css) purely so the picker's cards are visually distinguishable
   // at a glance -- it carries no other meaning.
   const COURSES = [
-    { id: "arabic", file: "data/courses.json", legacyProgressKey: "muhkam-progress-v2", label: "Arabic — العربية", native: "العربية", en: "Arabic", flag: "العربية", group: "established", accent: "gold" },
+    { id: "arabic", file: "data/courses.json", audioManifest: "data/audio-arabic/manifest.json", legacyProgressKey: "muhkam-progress-v2", label: "Arabic — العربية", native: "العربية", en: "Arabic", flag: "العربية", group: "established", accent: "gold" },
     { id: "tajik", file: "data/courses-tajik.json", label: "Tajik — Тоҷикӣ", native: "Тоҷикӣ", en: "Tajik", flag: "Тоҷикӣ", group: "established", accent: "teal" },
     { id: "hebrew", file: "data/courses-hebrew.json", label: "Hebrew — עברית", native: "עברית", en: "Hebrew", flag: "עברית", group: "established", accent: "indigo" },
     { id: "kazakh", file: "data/courses-kazakh.json", label: "Kazakh — Қазақша", native: "Қазақша", en: "Kazakh", flag: "Қазақша", group: "established", accent: "sage" },
