@@ -10,6 +10,7 @@ without any bookkeeping.
 """
 import hashlib
 import json
+import os
 import subprocess
 import sys
 import time
@@ -22,8 +23,14 @@ COURSE_PATH = ROOT / "data/courses.json"
 AUDIO_DIR = ROOT / "data/audio-arabic"
 MANIFEST_PATH = AUDIO_DIR / "manifest.json"
 
-VOICEBOX = "http://localhost:17493"
-PROFILE_ID = "e975228b-59d9-4599-a32b-3e801f172c22"  # designed-ar-msa-female
+# Profile IDs are local to each Voicebox install's database, so they don't
+# transfer across machines even when the profile is recreated with the exact
+# same design_prompt. Override per-machine via env vars rather than editing
+# this file (which is shared/committed across machines).
+VOICEBOX = os.environ.get("VOICEBOX_URL", "http://localhost:17493")
+PROFILE_ID = os.environ.get(
+    "VOICEBOX_PROFILE_ID", "e975228b-59d9-4599-a32b-3e801f172c22"
+)  # designed-ar-msa-female
 VOICE_NAME = "designed-ar-msa-female"
 
 POLL_INTERVAL = 1.5
