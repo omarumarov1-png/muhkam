@@ -1,853 +1,899 @@
 {
-  "level": "c1",
-  "grammarTopics": {
-    "c1-chain": {
-      "title": "Chaining Clauses",
-      "pattern": "الفعل + لأن + سبب + و + نتيجة (verb + because + reason + and + result)",
-      "explanation": "At this level, sentences stop being single statements and start chaining reason and result together: لازم أروح البيت الحين لأن تعبان كثير، وأبغى أشرب شاي (I have to go home now because I'm very tired, and I want to drink tea). Each clause stays simple -- the skill is stringing 2-3 of them together fluently, the way real spoken Gulf Arabic naturally runs on.",
-      "fact": "Long chained sentences like this are exactly how Gulf Arabic speakers naturally tell a story or explain a decision out loud -- rarely as one flat statement, almost always as a little chain of \"this, because that, so I did this.\"",
-      "dialogue": [
-        {
-          "sp": "A",
-          "native": "لازم أروح الشغل الحين لأن مستعجل، وبعدين أشرب قهوة",
-          "en": "I have to go to work now because it's urgent, and afterward I'll drink coffee"
-        },
-        {
-          "sp": "B",
-          "native": "زين، وأنا لازم أروح بيت أهلي لأن ما شفتهم من أمس",
-          "en": "Okay, and I have to go to my family's house because I haven't seen them since yesterday"
-        }
-      ]
+ "level": "c1",
+ "grammarTopics": {
+  "c1-chain": {
+   "title": "Chaining Clauses",
+   "pattern": "الفعل + لأن + سبب + و + نتيجة (verb + because + reason + and + result)",
+   "explanation": "At this level, sentences stop being single statements and start chaining reason and result together: لازم أروح البيت الحين لأن تعبان كثير، وأبغى أشرب شاي (I have to go home now because I'm very tired, and I want to drink tea). Each clause stays simple -- the skill is stringing 2-3 of them together fluently, the way real spoken Gulf Arabic naturally runs on.",
+   "fact": "Long chained sentences like this are exactly how Gulf Arabic speakers naturally tell a story or explain a decision out loud -- rarely as one flat statement, almost always as a little chain of \"this, because that, so I did this.\"",
+   "dialogue": [
+    {
+     "sp": "A",
+     "native": "لازم أروح الشغل الحين لأن مستعجل، وبعدين أشرب قهوة",
+     "en": "I have to go to work now because it's urgent, and afterward I'll drink coffee"
+    },
+    {
+     "sp": "B",
+     "native": "زين، وأنا لازم أروح بيت أهلي لأن ما شفتهم من أمس",
+     "en": "Okay, and I have to go to my family's house because I haven't seen them since yesterday"
     }
+   ]
+  }
+ },
+ "lessons": [
+  {
+   "number": 1,
+   "title": "Going Home, Because, And",
+   "titleNative": "أروح البيت، لأن، و",
+   "items": [
+    {
+     "ar": "لازم أروح البيت الحين لأن تعبان كثير، وأبغى أشرب شاي",
+     "en": "I have to go home now because I'm very tired, and I want to drink tea",
+     "translit": "laazim aruu7 el-bayt el-heen li-ann ta3baan katheer, wa abgha ashrab shaay"
+    },
+    {
+     "ar": "لازم تروح الشغل بكرا لأن مستعجل كثير، وعندك شغل زين اليوم",
+     "en": "You have to go to work tomorrow because it's very urgent, and you have good work today",
+     "translit": "laazim truu7 esh-shughul bukra li-ann musta3jil katheer, wa aandik shughul zayn el-yoom"
+    },
+    {
+     "ar": "يروح المطعم اليوم لأن جوعان كثير، وعنده فلوس زين اليوم",
+     "en": "He's going to the restaurant today because he's very hungry, and he has good money today",
+     "translit": "yruu7 el-mat3am el-yoom li-ann jaw3aan katheer, wa aandah fluus zayn el-yoom"
+    },
+    {
+     "ar": "نروح بيت الأهل بكرا لأن ما شفناهم أمس، ونشرب قهوة زين معاهم",
+     "en": "We're going to the family's house tomorrow because we didn't see them yesterday, and we'll drink good coffee with them",
+     "translit": "nruu7 bayt el-ahl bukra li-ann ma shifnaahum ams, wa nishrab gahwa zayn ma3aahum"
+    }
+   ],
+   "topicId": "c1-chain"
   },
-  "lessons": [
+  {
+   "number": 2,
+   "title": "Drinking, Because, And",
+   "titleNative": "أشرب، لأن، و",
+   "items": [
     {
-      "number": 1,
-      "title": "Going Home, Because, And",
-      "titleNative": "أروح البيت، لأن، و",
-      "items": [
-        {
-          "ar": "لازم أروح البيت الحين لأن تعبان كثير، وأبغى أشرب شاي",
-          "en": "I have to go home now because I'm very tired, and I want to drink tea",
-          "translit": "laazim aruu7 el-bayt el-heen li-ann ta3baan katheer, wa abgha ashrab shaay"
-        },
-        {
-          "ar": "لازم تروح الشغل بكرا لأن مستعجل كثير، وعندك شغل زين اليوم",
-          "en": "You have to go to work tomorrow because it's very urgent, and you have good work today",
-          "translit": "laazim truu7 esh-shughul bukra li-ann musta3jil katheer, wa aandik shughul zayn el-yoom"
-        },
-        {
-          "ar": "يروح المطعم اليوم لأن جوعان كثير، وعنده فلوس زين اليوم",
-          "en": "He's going to the restaurant today because he's very hungry, and he has good money today",
-          "translit": "yruu7 el-mat3am el-yoom li-ann jaw3aan katheer, wa aandah fluus zayn el-yoom"
-        },
-        {
-          "ar": "نروح بيت الأهل بكرا لأن ما شفناهم أمس، ونشرب قهوة زين معاهم",
-          "en": "We're going to the family's house tomorrow because we didn't see them yesterday, and we'll drink good coffee with them",
-          "translit": "nruu7 bayt el-ahl bukra li-ann ma shifnaahum ams, wa nishrab gahwa zayn ma3aahum"
-        }
-      ],
-      "topicId": "c1-chain"
+     "ar": "أشرب قهوة زين اليوم لأن تعبان كثير اليوم، وعندي شغل بعدين",
+     "en": "I'm drinking good coffee today because I'm very tired today, and I have work later",
+     "translit": "ashrab gahwa zayn el-yoom li-ann ta3baan katheer, wa aandi shughul ba3dayn"
     },
     {
-      "number": 2,
-      "title": "Drinking, Because, And",
-      "titleNative": "أشرب، لأن، و",
-      "items": [
-        {
-          "ar": "أشرب قهوة زين اليوم لأن تعبان كثير اليوم، وعندي شغل بعدين",
-          "en": "I'm drinking good coffee today because I'm very tired today, and I have work later",
-          "translit": "ashrab gahwa zayn el-yoom li-ann ta3baan katheer, wa aandi shughul ba3dayn"
-        },
-        {
-          "ar": "تشرب مويه باردة الحين لأن عطشان كثير، وبعدين تروح الشغل",
-          "en": "You're drinking cold water now because you're very thirsty, and afterward you're going to work",
-          "translit": "tishrab moya baarda el-heen li-ann 3atshaan katheer, wa ba3dayn truu7 esh-shughul"
-        },
-        {
-          "ar": "يشرب شاي زين اليوم لأن تعبان كثير الصباح، ويبغى يروح بيته بعدين",
-          "en": "He's drinking good tea today because he's very tired this morning, and he wants to go home later",
-          "translit": "yishrab shaay zayn el-yoom li-ann ta3baan katheer es-sabaa7, wa yabgha yruu7 baytah ba3dayn"
-        },
-        {
-          "ar": "نشرب قهوة زين اليوم لأن عندنا شغل بعدين، ونروح المطعم بعدين",
-          "en": "We're drinking good coffee today because we have work later, and we're going to the restaurant later",
-          "translit": "nishrab gahwa zayn el-yoom li-ann aandana shughul ba3dayn, wa nruu7 el-mat3am ba3dayn"
-        }
-      ],
-      "topicId": "c1-chain"
+     "ar": "تشرب مويه باردة الحين لأن عطشان كثير، وبعدين تروح الشغل",
+     "en": "You're drinking cold water now because you're very thirsty, and afterward you're going to work",
+     "translit": "tishrab moya baarda el-heen li-ann 3atshaan katheer, wa ba3dayn truu7 esh-shughul"
     },
     {
-      "number": 3,
-      "title": "Wanting, Because, And",
-      "titleNative": "أبغى، لأن، و",
-      "items": [
-        {
-          "ar": "أبغى بيت جديد اليوم لأن هذا قديم كثير، وعندي فلوس زين",
-          "en": "I want a new house today because this one is very old, and I have good money",
-          "translit": "abgha bayt jideed el-yoom li-ann hatha gadeem katheer, wa aandi fluus zayn"
-        },
-        {
-          "ar": "تبغى قهوة زين اليوم لأن تعبانة كثير، وعندها شغل بعدين",
-          "en": "You want good coffee today because you're very tired, and you have work later",
-          "translit": "tabgha gahwa zayn el-yoom li-ann ta3baana katheer, wa aandaha shughul ba3dayn"
-        },
-        {
-          "ar": "يبغى يروح المطعم اليوم لأن جوعان كثير، وعنده صديق زين هناك",
-          "en": "He wants to go to the restaurant today because he's very hungry, and he has a good friend there",
-          "translit": "yabgha yruu7 el-mat3am el-yoom li-ann jaw3aan katheer, wa aandah sadeeq zayn hinaak"
-        },
-        {
-          "ar": "أدري وين البيت الجديد اليوم لأن رحت معاه، وهو يدري زين",
-          "en": "I know where the new house is today because I went with him, and he knows well",
-          "translit": "adri wein el-bayt el-jideed el-yoom li-ann riHt ma3aah, wa huwa yadri zayn"
-        }
-      ],
-      "topicId": "c1-chain"
+     "ar": "يشرب شاي زين اليوم لأن تعبان كثير الصباح، ويبغى يروح بيته بعدين",
+     "en": "He's drinking good tea today because he's very tired this morning, and he wants to go home later",
+     "translit": "yishrab shaay zayn el-yoom li-ann ta3baan katheer es-sabaa7, wa yabgha yruu7 baytah ba3dayn"
     },
     {
-      "number": 4,
-      "title": "Knowing, Because, And",
-      "titleNative": "أدري، لأن، و",
-      "items": [
-        {
-          "ar": "أدري وين البيت الجديد لأن رحت معاه أمس، وهو زين كثير",
-          "en": "I know where the new house is because I went there with him yesterday, and it's very good",
-          "translit": "adri wein el-bayt el-jideed li-ann riHt ma3aah ams, wa huwa zayn katheer"
-        },
-        {
-          "ar": "تدري متى نروح بكرا لأن شفت الأهل اليوم، وانت زين تدري",
-          "en": "You know when we're going tomorrow because you saw the family today, and you know well",
-          "translit": "tadri mata nruu7 bukra li-ann shift el-ahl el-yoom, wa inta zayn tadri"
-        },
-        {
-          "ar": "يدري وين المستشفى القريب لأن رحنا معاه أمس، وهو يدري زين",
-          "en": "He knows where the near hospital is because we went there with him yesterday, and he knows well",
-          "translit": "yadri wein el-mustashfa el-gareeb li-ann ru7na ma3aah ams, wa huwa yadri zayn"
-        },
-        {
-          "ar": "ندري وين الأهل الحين لأن شفناهم أمس، وهم مبسوطين كثير اليوم",
-          "en": "We know where the family is now because we saw them yesterday, and they're very happy today",
-          "translit": "nadri wein el-ahl el-heen li-ann shifnaahum ams, wa hum mabsooteen katheer el-yoom"
-        }
-      ],
-      "topicId": "c1-chain"
-    },
-    {
-      "number": 5,
-      "title": "Review: Chained Clauses",
-      "titleNative": "مراجعة",
-      "items": [
-        {
-          "ar": "لازم أروح البيت الحين لأن تعبان كثير، وأبغى أشرب شاي زين",
-          "en": "I have to go home now because I'm very tired, and I want to drink good tea",
-          "translit": "laazim aruu7 el-bayt el-heen li-ann ta3baan katheer, wa abgha ashrab shaay zayn"
-        },
-        {
-          "ar": "تشرب مويه باردة الحين لأن عطشانة كثير، وبعدين تروحين الشغل",
-          "en": "You (f) are drinking cold water now because you're very thirsty, and afterward you're going to work",
-          "translit": "tishrabeen moya baarda el-heen li-ann 3atshaana katheer, wa ba3dayn truu7een esh-shughul"
-        },
-        {
-          "ar": "يبغى يروح المطعم اليوم لأن جوعان كثير، وعنده صديق زين هناك",
-          "en": "He wants to go to the restaurant today because he's very hungry, and he has a good friend there",
-          "translit": "yabgha yruu7 el-mat3am el-yoom li-ann jaw3aan katheer, wa aandah sadeeq zayn hinaak"
-        },
-        {
-          "ar": "ندري وين الأهل الحين لأن شفناهم أمس، وهم مبسوطين كثير اليوم",
-          "en": "We know where the family is now because we saw them yesterday, and they're very happy today",
-          "translit": "nadri wein el-ahl el-heen li-ann shifnaahum ams, wa hum mabsooteen katheer el-yoom"
-        }
-      ]
-    },
-    {
-      "number": 6,
-      "title": "Not Going, Because, But",
-      "titleNative": "ما أروح، لأن، بس",
-      "items": [
-        {
-          "ar": "ما أروح الشغل اليوم لأن مريض كثير، بس بكرا أروح زين",
-          "en": "I'm not going to work today because I'm very sick, but tomorrow I'll go, okay",
-          "translit": "ma aruu7 esh-shughul el-yoom li-ann mareedh katheer, bas bukra aruu7 zayn"
-        },
-        {
-          "ar": "ما تشرب قهوة اليوم لأن تعبانة كثير، بس تشرب مويه زين",
-          "en": "You're not drinking coffee today because you're very tired, but you're drinking water, okay",
-          "translit": "ma tishrab gahwa el-yoom li-ann ta3baana katheer, bas tishrab moya zayn"
-        },
-        {
-          "ar": "ما يبغى بيت غالي اليوم لأن ما عنده فلوس، بس يبغى بيت زين",
-          "en": "He doesn't want an expensive house today because he doesn't have money, but he wants a good house",
-          "translit": "ma yabgha bayt ghaali el-yoom li-ann ma aandah fluus, bas yabgha bayt zayn"
-        },
-        {
-          "ar": "ما ندري وين نروح بكرا، بس لازم ندري اليوم زين",
-          "en": "We don't know where we're going tomorrow, but we should find out today, okay",
-          "translit": "ma nadri wein nruu7 bukra, bas laazim nadri el-yoom zayn"
-        }
-      ],
-      "topicId": "c1-chain"
-    },
-    {
-      "number": 7,
-      "title": "Not Wanting, Because, But",
-      "titleNative": "ما أبغى، لأن، بس",
-      "items": [
-        {
-          "ar": "ما أبغى المطعم الغالي اليوم لأن ما عندي فلوس كثير، بس أبغى قهوة زين",
-          "en": "I don't want the expensive restaurant today because I don't have a lot of money, but I want good coffee",
-          "translit": "ma abgha el-mat3am el-ghaali el-yoom li-ann ma aandi fluus katheer, bas abgha gahwa zayn"
-        },
-        {
-          "ar": "ما تدري وين البيت الجديد اليوم، بس صديقك زين يدري",
-          "en": "You don't know where the new house is today, but your good friend knows",
-          "translit": "ma tadri wein el-bayt el-jideed el-yoom, bas sadeegik zayn yadri"
-        },
-        {
-          "ar": "ما يروح المستشفى اليوم لأن مب مريض كثير، بس يروح الدكتور بكرا",
-          "en": "He's not going to the hospital today because he's not very sick, but he's going to the doctor tomorrow",
-          "translit": "ma yruu7 el-mustashfa el-yoom li-ann mub mareedh katheer, bas yruu7 ed-doktoor bukra"
-        },
-        {
-          "ar": "ما نروح بيت صغير اليوم لأن عندنا أهل كثير، بس البيت الكبير غالي",
-          "en": "We're not going to a small house today because we have a lot of family, but the big house is expensive",
-          "translit": "ma nruu7 bayt sagheer el-yoom li-ann aandana ahl katheer, bas el-bayt el-kabeer ghaali"
-        }
-      ],
-      "topicId": "c1-chain"
-    },
-    {
-      "number": 8,
-      "title": "Money, Because, So",
-      "titleNative": "الفلوس، لأن، عشان كذا",
-      "items": [
-        {
-          "ar": "عندي فلوس كثير اليوم لأن شربت قهوة رخيصة، وأبغى أروح المطعم بعدين",
-          "en": "I have a lot of money today because I drank cheap coffee, and I want to go to the restaurant later",
-          "translit": "aandi fluus katheer el-yoom li-ann shirabt gahwa rikheesa, wa abgha aruu7 el-mat3am ba3dayn"
-        },
-        {
-          "ar": "ما عندك فلوس كثير اليوم لأن رحت المطعم الغالي أمس، بس بكرا زين",
-          "en": "You don't have a lot of money today because you went to the expensive restaurant yesterday, but tomorrow it's fine",
-          "translit": "ma aandik fluus katheer el-yoom li-ann riHt el-mat3am el-ghaali ams, bas bukra zayn"
-        },
-        {
-          "ar": "عنده فلوس زين اليوم لأن عنده شغل كثير، ويبغى يروح بيت جديد",
-          "en": "He has good money today because he has a lot of work, and he wants to go to a new house",
-          "translit": "aandah fluus zayn el-yoom li-ann aandah shughul katheer, wa yabgha yruu7 bayt jideed"
-        },
-        {
-          "ar": "ما عندنا فلوس كثير اليوم لأن رحنا المطعم الغالي أمس، بس زين اليوم",
-          "en": "We don't have a lot of money today because we went to the expensive restaurant yesterday, but it's fine today",
-          "translit": "ma aandana fluus katheer el-yoom li-ann ru7na el-mat3am el-ghaali ams, bas zayn el-yoom"
-        }
-      ]
-    },
-    {
-      "number": 9,
-      "title": "Family, Because, And",
-      "titleNative": "الأهل، لأن، و",
-      "items": [
-        {
-          "ar": "أروح بيت أختي اليوم لأن ما شفتها كثير، وأبغى أشرب قهوة معاها",
-          "en": "I'm going to my sister's house today because I haven't seen her much, and I want to drink coffee with her",
-          "translit": "aruu7 bayt ukhti el-yoom li-ann ma shifitha katheer, wa abgha ashrab gahwa ma3aaha"
-        },
-        {
-          "ar": "تروح بيت أخوك اليوم لأن عنده مشكلة كبيرة، وتبغى تشرب شاي معاه",
-          "en": "You're going to your brother's house today because he has a big problem, and you want to drink tea with him",
-          "translit": "truu7 bayt akhook el-yoom li-ann aandah mushkila kabeera, wa tabgha tishrab shaay ma3aah"
-        },
-        {
-          "ar": "يروح بيت أهله اليوم لأن ما شافهم كثير، وعنده صديق زين معاه",
-          "en": "He's going to his family's house today because he hasn't seen them much, and he has a good friend with him",
-          "translit": "yruu7 bayt ahlah el-yoom li-ann ma shaafhum katheer, wa aandah sadeeq zayn ma3aah"
-        },
-        {
-          "ar": "نروح بيت أهلنا اليوم لأن عندهم مشكلة كبيرة، ونشرب قهوة معاهم زين",
-          "en": "We're going to our family's house today because they have a big problem, and we'll drink coffee with them, good",
-          "translit": "nruu7 bayt ahalna el-yoom li-ann aandahum mushkila kabeera, wa nishrab gahwa ma3aahum zayn"
-        }
-      ]
-    },
-    {
-      "number": 10,
-      "title": "Review: C1 Recap",
-      "titleNative": "مراجعة نهائية",
-      "items": [
-        {
-          "ar": "ما أروح الشغل اليوم لأن مريض كثير، بس بكرا أروح زين",
-          "en": "I'm not going to work today because I'm very sick, but tomorrow I'll go, okay",
-          "translit": "ma aruu7 esh-shughul el-yoom li-ann mareedh katheer, bas bukra aruu7 zayn"
-        },
-        {
-          "ar": "ما أبغى المطعم الغالي اليوم لأن ما عندي فلوس كثير، بس أبغى قهوة زين",
-          "en": "I don't want the expensive restaurant today because I don't have a lot of money, but I want good coffee",
-          "translit": "ma abgha el-mat3am el-ghaali el-yoom li-ann ma aandi fluus katheer, bas abgha gahwa zayn"
-        },
-        {
-          "ar": "عندي فلوس كثير اليوم لأن شربت قهوة رخيصة، وأبغى أروح المطعم بعدين",
-          "en": "I have a lot of money today because I drank cheap coffee, and I want to go to the restaurant later",
-          "translit": "aandi fluus katheer el-yoom li-ann shirabt gahwa rikheesa, wa abgha aruu7 el-mat3am ba3dayn"
-        },
-        {
-          "ar": "أروح بيت أختي اليوم لأن ما شفتها كثير، وأبغى أشرب قهوة معاها",
-          "en": "I'm going to my sister's house today because I haven't seen her much, and I want to drink coffee with her",
-          "translit": "aruu7 bayt ukhti el-yoom li-ann ma shifitha katheer, wa abgha ashrab gahwa ma3aaha"
-        }
-      ]
-    },
-    {
-      "number": 11,
-      "title": "The Near Place, Because, But",
-      "titleNative": "المكان القريب، لأن، بس",
-      "items": [
-        {
-          "ar": "أروح المطعم القريب اليوم لأن السيارة مشكلة، بس بكرا أروح البعيد",
-          "en": "I'm going to the near restaurant today because the car is a problem, but tomorrow I'll go to the far one",
-          "translit": "aruu7 el-mat3am el-gareeb el-yoom li-ann es-sayyaara mushkila, bas bukra aruu7 el-ba3eed"
-        },
-        {
-          "ar": "تروح المستشفى القريب اليوم لأن مستعجل كثير، بس مب مريضة كثير",
-          "en": "You're going to the near hospital today because it's very urgent, but you're not very sick",
-          "translit": "truu7 el-mustashfa el-gareeb el-yoom li-ann musta3jil katheer, bas mub mareedha katheer"
-        },
-        {
-          "ar": "يروح البيت البعيد اليوم لأن أهله هناك، وعنده صديق زين هناك",
-          "en": "He's going to the far house today because his family is there, and he has a good friend there",
-          "translit": "yruu7 el-bayt el-ba3eed el-yoom li-ann ahlah hinaak, wa aandah sadeeq zayn hinaak"
-        },
-        {
-          "ar": "نروح المطعم القريب اليوم لأن جوعانين كثير، وعندنا فلوس زين اليوم",
-          "en": "We're going to the near restaurant today because we're very hungry, and we have good money today",
-          "translit": "nruu7 el-mat3am el-gareeb el-yoom li-ann jaw3aaneen katheer, wa aandana fluus zayn el-yoom"
-        }
-      ],
-      "topicId": "c1-chain"
-    },
-    {
-      "number": 12,
-      "title": "This Red House, Because, And",
-      "titleNative": "هذا البيت الأحمر، لأن، و",
-      "items": [
-        {
-          "ar": "أبغى البيت الأحمر اليوم لأن قريب كثير، وعندي فلوس زين اليوم",
-          "en": "I want the red house today because it's very close, and I have good money today",
-          "translit": "abgha el-bayt el-a7mar el-yoom li-ann gareeb katheer, wa aandi fluus zayn el-yoom"
-        },
-        {
-          "ar": "تبغى البيت الأزرق اليوم لأن كبير كثير، بس السعر غالي كثير",
-          "en": "You want the blue house today because it's very big, but the price is very expensive",
-          "translit": "tabgha el-bayt el-azrag el-yoom li-ann kabeer katheer, bas es-si3ir ghaali katheer"
-        },
-        {
-          "ar": "يبغى البيت الأصفر اليوم لأن جديد كثير، وعنده فلوس زين اليوم",
-          "en": "He wants the yellow house today because it's very new, and he has good money today",
-          "translit": "yabgha el-bayt el-asfar el-yoom li-ann jideed katheer, wa aandah fluus zayn el-yoom"
-        },
-        {
-          "ar": "نروح البيت الأخضر اليوم لأن قريب كثير، وعندنا فلوس زين اليوم",
-          "en": "We're going to the green house today because it's very close, and we have good money today",
-          "translit": "nruu7 el-bayt el-akhdar el-yoom li-ann gareeb katheer, wa aandana fluus zayn el-yoom"
-        }
-      ],
-      "topicId": "c1-chain"
-    },
-    {
-      "number": 13,
-      "title": "Days, Because, And",
-      "titleNative": "الأيام، لأن، و",
-      "items": [
-        {
-          "ar": "أروح الشغل يوم الأحد لأن مستعجل كثير، وأبغى أشرب قهوة بعدين",
-          "en": "I'm going to work on Sunday because it's very urgent, and I want to drink coffee later",
-          "translit": "aruu7 esh-shughul yoom el-a7ad li-ann musta3jil katheer, wa abgha ashrab gahwa ba3dayn"
-        },
-        {
-          "ar": "تشربين قهوة يوم الجمعة لأن تعبانة كثير، وعندك شغل بعدين اليوم",
-          "en": "You (f) are drinking coffee on Friday because you're very tired, and you have work later today",
-          "translit": "tishrabeen gahwa yoom el-jum3a li-ann ta3baana katheer, wa aandik shughul ba3dayn el-yoom"
-        },
-        {
-          "ar": "يروح المطعم يوم السبت لأن عنده صديق زين، ويبغى يشرب قهوة معاه",
-          "en": "He's going to the restaurant on Saturday because he has a good friend, and he wants to drink coffee with him",
-          "translit": "yruu7 el-mat3am yoom es-sabt li-ann aandah sadeeq zayn, wa yabgha yishrab gahwa ma3aah"
-        },
-        {
-          "ar": "نروح بيت الأهل يوم الخميس لأن ما شفناهم كثير، ونشرب شاي معاهم زين",
-          "en": "We're going to the family's house on Thursday because we haven't seen them much, and we'll drink tea with them, good",
-          "translit": "nruu7 bayt el-ahl yoom el-khamees li-ann ma shifnaahum katheer, wa nishrab shaay ma3aahum zayn"
-        }
-      ],
-      "topicId": "c1-chain"
-    },
-    {
-      "number": 14,
-      "title": "Feelings, Because, But",
-      "titleNative": "المشاعر، لأن، بس",
-      "items": [
-        {
-          "ar": "أنا مبسوط اليوم لأن شفت أهلي، بس تعبان كثير اليوم",
-          "en": "I'm happy today because I saw my family, but I'm very tired today",
-          "translit": "ana mabsoot el-yoom li-ann shift ahli, bas ta3baan katheer el-yoom"
-        },
-        {
-          "ar": "هي زعلانة اليوم لأن ما شافت أهلها، بس تبغى تروح بيتهم بكرا",
-          "en": "She's upset today because she didn't see her family, but she wants to go to their house tomorrow",
-          "translit": "hiya za3laana el-yoom li-ann ma shaafat ahilha, bas tabgha truu7 baythum bukra"
-        },
-        {
-          "ar": "هو زعلان اليوم لأن ما عنده فلوس كثير، بس عنده صديق زين",
-          "en": "He's upset today because he doesn't have a lot of money, but he has a good friend",
-          "translit": "huwa za3laan el-yoom li-ann ma aandah fluus katheer, bas aandah sadeeq zayn"
-        },
-        {
-          "ar": "احنا مبسوطين اليوم لأن شفنا أهلنا، بس تعبانين كثير اليوم",
-          "en": "We're happy today because we saw our family, but we're very tired today",
-          "translit": "i7na mabsooteen el-yoom li-ann shifna ahalna, bas ta3baaneen katheer el-yoom"
-        }
-      ],
-      "topicId": "c1-chain"
-    },
-    {
-      "number": 15,
-      "title": "Review: Places, Colors, Days, Feelings",
-      "titleNative": "مراجعة",
-      "items": [
-        {
-          "ar": "أروح المطعم القريب اليوم لأن السيارة مشكلة، بس بكرا أروح البعيد",
-          "en": "I'm going to the near restaurant today because the car is a problem, but tomorrow I'll go to the far one",
-          "translit": "aruu7 el-mat3am el-gareeb el-yoom li-ann es-sayyaara mushkila, bas bukra aruu7 el-ba3eed"
-        },
-        {
-          "ar": "أبغى البيت الأحمر اليوم لأن قريب كثير، وعندي فلوس زين اليوم",
-          "en": "I want the red house today because it's very close, and I have good money today",
-          "translit": "abgha el-bayt el-a7mar el-yoom li-ann gareeb katheer, wa aandi fluus zayn el-yoom"
-        },
-        {
-          "ar": "أروح الشغل يوم الأحد لأن مستعجل كثير، وأبغى أشرب قهوة بعدين",
-          "en": "I'm going to work on Sunday because it's very urgent, and I want to drink coffee later",
-          "translit": "aruu7 esh-shughul yoom el-a7ad li-ann musta3jil katheer, wa abgha ashrab gahwa ba3dayn"
-        },
-        {
-          "ar": "أنا مبسوط اليوم لأن شفت أهلي، بس تعبان كثير اليوم",
-          "en": "I'm happy today because I saw my family, but I'm very tired today",
-          "translit": "ana mabsoot el-yoom li-ann shift ahli, bas ta3baan katheer el-yoom"
-        }
-      ]
-    },
-    {
-      "number": 16,
-      "title": "Numbers, Because, And",
-      "titleNative": "الأرقام، لأن، و",
-      "items": [
-        {
-          "ar": "عندي ثلاثة فلوس زين اليوم لأن شغلي زين، وأبغى أروح المطعم بعدين",
-          "en": "I have three good [money] today because my work is good, and I want to go to the restaurant later",
-          "translit": "aandi thalaatha fluus zayn el-yoom li-ann shughli zayn, wa abgha aruu7 el-mat3am ba3dayn"
-        },
-        {
-          "ar": "عندك خمسة فلوس زين اليوم لأن رحت الشغل كثير، وأبغى أشرب قهوة معاك",
-          "en": "You have five good [money] today because you went to work a lot, and I want to drink coffee with you",
-          "translit": "aandik khamsa fluus zayn el-yoom li-ann riHt esh-shughul katheer, wa abgha ashrab gahwa ma3aak"
-        },
-        {
-          "ar": "عنده سبعة فلوس زين اليوم لأن يبغى يدري كثير، وعنده صديق زين",
-          "en": "He has seven good [money] today because he wants to know a lot, and he has a good friend",
-          "translit": "aandah sab3a fluus zayn el-yoom li-ann yabgha yadri katheer, wa aandah sadeeq zayn"
-        },
-        {
-          "ar": "عندنا تسعة فلوس زين هناك لأن ابويه زين، وأبغى أروح بيته بكرا",
-          "en": "We have nine good [money] there because my dad is good, and I want to go to his house tomorrow",
-          "translit": "aandana tis3a fluus zayn hinaak li-ann abooyah zayn, wa abgha aruu7 baytah bukra"
-        }
-      ],
-      "topicId": "c1-chain"
-    },
-    {
-      "number": 17,
-      "title": "Health, Because, But",
-      "titleNative": "الصحة، لأن، بس",
-      "items": [
-        {
-          "ar": "أروح الدكتور اليوم لأن راسي وجع كثير، بس مب مستعجل كثير",
-          "en": "I'm going to the doctor today because my head hurts a lot, but it's not very urgent",
-          "translit": "aruu7 ed-doktoor el-yoom li-ann raasi waja3 katheer, bas mub musta3jil katheer"
-        },
-        {
-          "ar": "تروحين المستشفى اليوم لأن بطنك وجع كثير، بس أختك زين معاك",
-          "en": "You (f) are going to the hospital today because your stomach hurts a lot, but your sister is good with you",
-          "translit": "truu7een el-mustashfa el-yoom li-ann batnik waja3 katheer, bas ukhtik zayn ma3aach"
-        },
-        {
-          "ar": "يروح الدكتور بكرا لأن مريض كثير اليوم، بس عنده صديق زين",
-          "en": "He's going to the doctor tomorrow because he's been sick since yesterday, but he has a good friend",
-          "translit": "yruu7 ed-doktoor bukra li-ann mareedh katheer el-yoom, bas aandah sadeeq zayn"
-        },
-        {
-          "ar": "نروح المستشفى اليوم لأن أهلنا مريضين كثير، وأبغى أشرب مويه بعدين",
-          "en": "We're going to the hospital today because our family is very sick, and I want to drink water later",
-          "translit": "nruu7 el-mustashfa el-yoom li-ann ahalna mareedheen katheer, wa abgha ashrab moya ba3dayn"
-        }
-      ],
-      "topicId": "c1-chain"
-    },
-    {
-      "number": 18,
-      "title": "Not Because, But Because, Chained",
-      "titleNative": "مب لأن، بس لأن، مسلسل",
-      "items": [
-        {
-          "ar": "ما أروح الشغل اليوم مب لأن مريض، بس لأن تعبان كثير اليوم",
-          "en": "I'm not going to work today not because I'm sick, but because I'm very tired since the morning",
-          "translit": "ma aruu7 esh-shughul el-yoom mub li-ann mareedh, bas li-ann ta3baan katheer"
-        },
-        {
-          "ar": "ما تشربين قهوة اليوم مب لأن مب زينة، بس لأن عندك شغل كثير",
-          "en": "You're not drinking coffee today not because it's not good, but because you have a lot of work",
-          "translit": "ma tishrabeen gahwa el-yoom mub li-ann mub zayna, bas li-ann aandik shughul katheer"
-        },
-        {
-          "ar": "ما يروح المطعم اليوم مب لأن غالي، بس لأن جوعان مب كثير",
-          "en": "He's not going to the restaurant today not because it's expensive, but because he's not very hungry",
-          "translit": "ma yruu7 el-mat3am el-yoom mub li-ann ghaali, bas li-ann jaw3aan mub katheer"
-        },
-        {
-          "ar": "ما نروح بيت أهلنا اليوم مب لأن مشغولين، بس لأن السيارة مشكلة",
-          "en": "We're not going to our family's house today not because we're busy, but because the car is a problem",
-          "translit": "ma nruu7 bayt ahalna el-yoom mub li-ann mashghooleen, bas li-ann es-sayyaara mushkila"
-        }
-      ],
-      "topicId": "c1-chain"
-    },
-    {
-      "number": 19,
-      "title": "A Full Day, Chained",
-      "titleNative": "يوم كامل، مسلسل",
-      "items": [
-        {
-          "ar": "صباح الخير، أشرب قهوة زين، وبعدين أروح الشغل لأن مستعجل كثير",
-          "en": "Good morning, I drink good coffee, and then I go to work because it's very urgent",
-          "translit": "sabaah el-khayr, ashrab gahwa zayn, wa ba3dayn aruu7 esh-shughul li-ann musta3jil katheer"
-        },
-        {
-          "ar": "رحت بيت أختي أمس لأن ما شفتها كثير، وشربت قهوة زين معاها",
-          "en": "I went to my sister's house yesterday because I hadn't seen her much, and I drank good coffee with her",
-          "translit": "riHt bayt ukhti ams li-ann ma shifitha katheer, wa shirabt gahwa zayn ma3aaha"
-        },
-        {
-          "ar": "عندي فلوس زين اليوم لأن ما رحت المطعم الغالي، وأبغى أروح بكرا",
-          "en": "I have good money today because I didn't go to the expensive restaurant, and I want to go tomorrow",
-          "translit": "aandi fluus zayn el-yoom li-ann ma riHt el-mat3am el-ghaali, wa abgha aruu7 bukra"
-        },
-        {
-          "ar": "مساء الخير، أنا مبسوط اليوم لأن عندي أهل زين، وشفتهم اليوم",
-          "en": "Good evening, I'm happy today because I have a good family, and I saw them today",
-          "translit": "masaa el-khayr, ana mabsoot el-yoom li-ann aandi ahl zayn, wa shifthum el-yoom"
-        }
-      ]
-    },
-    {
-      "number": 20,
-      "title": "Review: C1 Recap 2",
-      "titleNative": "مراجعة نهائية",
-      "items": [
-        {
-          "ar": "أروح الدكتور اليوم لأن راسي وجع كثير، بس مب مستعجل كثير",
-          "en": "I'm going to the doctor today because my head hurts a lot, but it's not very urgent",
-          "translit": "aruu7 ed-doktoor el-yoom li-ann raasi waja3 katheer, bas mub musta3jil katheer"
-        },
-        {
-          "ar": "ما أروح الشغل اليوم مب لأن مريض، بس لأن تعبان كثير اليوم",
-          "en": "I'm not going to work today not because I'm sick, but because I'm very tired since the morning",
-          "translit": "ma aruu7 esh-shughul el-yoom mub li-ann mareedh, bas li-ann ta3baan katheer"
-        },
-        {
-          "ar": "صباح الخير، أشرب قهوة زين، وبعدين أروح الشغل لأن مستعجل كثير",
-          "en": "Good morning, I drink good coffee, and then I go to work because it's very urgent",
-          "translit": "sabaah el-khayr, ashrab gahwa zayn, wa ba3dayn aruu7 esh-shughul li-ann musta3jil katheer"
-        },
-        {
-          "ar": "عندي فلوس زين اليوم لأن ما رحت المطعم الغالي، وأبغى أروح بكرا",
-          "en": "I have good money today because I didn't go to the expensive restaurant, and I want to go tomorrow",
-          "translit": "aandi fluus zayn el-yoom li-ann ma riHt el-mat3am el-ghaali, wa abgha aruu7 bukra"
-        }
-      ]
-    },
-    {
-      "number": 21,
-      "title": "Lazim, Because, And",
-      "titleNative": "لازم، لأن، و",
-      "items": [
-        {
-          "ar": "لازم أروح الشغل بكرا لأن مستعجل كثير، وأبغى أشرب قهوة اليوم",
-          "en": "I have to go to work tomorrow because it's very urgent, and I want to drink coffee today",
-          "translit": "laazim aruu7 esh-shughul bukra li-ann musta3jil katheer, wa abgha ashrab gahwa el-yoom"
-        },
-        {
-          "ar": "لازم تشربين مويه اليوم لأن عطشانة كثير، وعندك شغل كثير بعدين",
-          "en": "You (f) have to drink water today because you're very thirsty, and you have a lot of work later",
-          "translit": "laazim tishrabeen moya el-yoom li-ann 3atshaana katheer, wa aandik shughul katheer ba3dayn"
-        },
-        {
-          "ar": "لازم يروح المستشفى اليوم لأن مريض كثير، وعنده صديق زين معاه",
-          "en": "He has to go to the hospital today because he's very sick, and he has a good friend with him",
-          "translit": "laazim yruu7 el-mustashfa el-yoom li-ann mareedh katheer, wa aandah sadeeq zayn ma3aah"
-        },
-        {
-          "ar": "لازم نروح بيت الأهل اليوم لأن ما شفناهم كثير، ونشرب قهوة معاهم زين",
-          "en": "We have to go to the family's house today because we haven't seen them much, and we'll drink coffee with them, good",
-          "translit": "laazim nruu7 bayt el-ahl el-yoom li-ann ma shifnaahum katheer, wa nishrab gahwa ma3aahum zayn"
-        }
-      ],
-      "topicId": "c1-chain"
-    },
-    {
-      "number": 22,
-      "title": "Lazim Ma, Because, But",
-      "titleNative": "لازم ما، لأن، بس",
-      "items": [
-        {
-          "ar": "لازم ما تروح الشغل تعبان كثير، لازم تشرب مويه اليوم بس",
-          "en": "You shouldn't go to work very tired, you should just drink water today",
-          "translit": "laazim ma truu7 esh-shughul ta3baan katheer, laazim tishrab moya el-yoom bas"
-        },
-        {
-          "ar": "لازم ما تبغى بيت غالي اليوم لأن ما عندك فلوس، بس البيت الرخيص زين",
-          "en": "You shouldn't want an expensive house today because you don't have money, but the cheap house is good",
-          "translit": "laazim ma tabgha bayt ghaali el-yoom li-ann ma aandik fluus, bas el-bayt er-rikhees zayn"
-        },
-        {
-          "ar": "لازم ما يشرب قهوة كثير وهو تعبان كثير، لازم يشرب مويه بس",
-          "en": "He shouldn't drink a lot of coffee while he's very tired, he should just drink water",
-          "translit": "laazim ma yishrab gahwa katheer wa huwa ta3baan katheer, laazim yishrab moya bas"
-        },
-        {
-          "ar": "لازم ما نروح بيت بعيد اليوم لأن السيارة مشكلة، بس البيت القريب زين",
-          "en": "We shouldn't go to a far house today because the car is a problem, but the near house is good",
-          "translit": "laazim ma nruu7 bayt ba3eed el-yoom li-ann es-sayyaara mushkila, bas el-bayt el-gareeb zayn"
-        }
-      ],
-      "topicId": "c1-chain"
-    },
-    {
-      "number": 23,
-      "title": "Knowing, Because, But",
-      "titleNative": "أدري، لأن، بس",
-      "items": [
-        {
-          "ar": "أدري وين البيت الجديد اليوم لأن رحت معاه أمس، بس صديقي يدري زين",
-          "en": "I know where the new house is today because I went there with him yesterday, but my friend knows well",
-          "translit": "adri wein el-bayt el-jideed el-yoom li-ann riHt ma3aah ams, bas sadeeqi yadri zayn"
-        },
-        {
-          "ar": "ما تدرين وين أختك الحين، بس لازم تدرين اليوم بس",
-          "en": "You don't know where your sister is now, but you should find out today",
-          "translit": "ma tadreen wein ukhtik el-heen, bas laazim tadreen el-yoom bas"
-        },
-        {
-          "ar": "يدري وين المستشفى القريب لأن رحنا معاه أمس، بس هو تعبان كثير",
-          "en": "He knows where the near hospital is because we went there with him yesterday, but he's very tired",
-          "translit": "yadri wein el-mustashfa el-gareeb li-ann ru7na ma3aah ams, bas huwa ta3baan katheer"
-        },
-        {
-          "ar": "ندري وين الأهل الحين لأن شفناهم أمس، بس مشغولين كثير اليوم",
-          "en": "We know where the family is now because we saw them yesterday, but they're very busy today",
-          "translit": "nadri wein el-ahl el-heen li-ann shifnaahum ams, bas mashghooleen katheer el-yoom"
-        }
-      ],
-      "topicId": "c1-chain"
-    },
-    {
-      "number": 24,
-      "title": "Wanting, Because, But",
-      "titleNative": "أبغى، لأن، بس",
-      "items": [
-        {
-          "ar": "أبغى بيت جديد اليوم لأن هذا قديم كثير، بس ما عندي فلوس زين",
-          "en": "I want a new house today because this one is very old, but I don't have good money",
-          "translit": "abgha bayt jideed el-yoom li-ann hatha gadeem katheer, bas ma aandi fluus zayn"
-        },
-        {
-          "ar": "تشربين قهوة زين اليوم لأن تعبانة كثير، بس عندك شغل بعدين",
-          "en": "You (f) are drinking good coffee today because you're very tired, but you have work later",
-          "translit": "tishrabeen gahwa zayn el-yoom li-ann ta3baana katheer, bas aandik shughul ba3dayn"
-        },
-        {
-          "ar": "يبغى يروح المطعم اليوم لأن جوعان كثير، بس ما عنده فلوس كثير",
-          "en": "He wants to go to the restaurant today because he's very hungry, but he doesn't have a lot of money",
-          "translit": "yabgha yruu7 el-mat3am el-yoom li-ann jaw3aan katheer, bas ma aandah fluus katheer"
-        },
-        {
-          "ar": "أدري وين البيت الجديد لأن رحت معاه أمس، وهو زين كثير اليوم",
-          "en": "I know where the new house is because I went there with him yesterday, and it's very good today",
-          "translit": "adri wein el-bayt el-jideed li-ann riHt ma3aah ams, wa huwa zayn katheer el-yoom"
-        }
-      ],
-      "topicId": "c1-chain"
-    },
-    {
-      "number": 25,
-      "title": "Review: Lazim, Know, Want",
-      "titleNative": "مراجعة",
-      "items": [
-        {
-          "ar": "لازم أروح الشغل بكرا لأن مستعجل كثير، وأبغى أشرب قهوة اليوم",
-          "en": "I have to go to work tomorrow because it's very urgent, and I want to drink coffee today",
-          "translit": "laazim aruu7 esh-shughul bukra li-ann musta3jil katheer, wa abgha ashrab gahwa el-yoom"
-        },
-        {
-          "ar": "لازم ما تروح الشغل تعبان كثير، لازم تشرب مويه اليوم بس",
-          "en": "You shouldn't go to work very tired, you should just drink water today",
-          "translit": "laazim ma truu7 esh-shughul ta3baan katheer, laazim tishrab moya el-yoom bas"
-        },
-        {
-          "ar": "أدري وين البيت الجديد اليوم لأن رحت معاه أمس، بس صديقي يدري زين",
-          "en": "I know where the new house is today because I went there with him yesterday, but my friend knows well",
-          "translit": "adri wein el-bayt el-jideed el-yoom li-ann riHt ma3aah ams, bas sadeeqi yadri zayn"
-        },
-        {
-          "ar": "أبغى بيت جديد اليوم لأن هذا قديم كثير، بس ما عندي فلوس زين",
-          "en": "I want a new house today because this one is very old, but I don't have good money",
-          "translit": "abgha bayt jideed el-yoom li-ann hatha gadeem katheer, bas ma aandi fluus zayn"
-        }
-      ]
-    },
-    {
-      "number": 26,
-      "title": "Colors and Directions, Chained",
-      "titleNative": "الألوان والاتجاهات، مسلسل",
-      "items": [
-        {
-          "ar": "أبغى البيت الأحمر اليوم لأن يمين هنا كثير، وقريب زين اليوم",
-          "en": "I want the red house today because it's very much to the right here, and it's very close today",
-          "translit": "abgha el-bayt el-a7mar el-yoom li-ann yameen hina katheer, wa gareeb zayn el-yoom"
-        },
-        {
-          "ar": "تبغى البيت الأزرق اليوم لأن يسار هنا كثير، بس السعر غالي كثير",
-          "en": "You want the blue house today because it's very much to the left here, but the price is very expensive",
-          "translit": "tabgha el-bayt el-azrag el-yoom li-ann yasaar hina katheer, bas es-si3ir ghaali katheer"
-        },
-        {
-          "ar": "يبغى البيت الأصفر اليوم لأن قدّام المطعم، وعنده فلوس زين اليوم",
-          "en": "He wants the yellow house today because it's in front of the restaurant, and he has good money today",
-          "translit": "yabgha el-bayt el-asfar el-yoom li-ann guddaam el-mat3am, wa aandah fluus zayn el-yoom"
-        },
-        {
-          "ar": "نروح البيت الأخضر اليوم لأن ورا المستشفى، وعندنا أهل زين هناك",
-          "en": "We're going to the green house today because it's behind the hospital, and we have good family there",
-          "translit": "nruu7 el-bayt el-akhdar el-yoom li-ann wara el-mustashfa, wa aandana ahl zayn hinaak"
-        }
-      ],
-      "topicId": "c1-chain"
-    },
-    {
-      "number": 27,
-      "title": "A Story, Chained",
-      "titleNative": "قصة، مسلسل",
-      "items": [
-        {
-          "ar": "رحت المطعم أمس مع صديقي لأن جوعان كثير، وشربت قهوة زين معاه",
-          "en": "I went to the restaurant yesterday with my friend because I was very hungry, and I drank good coffee with him",
-          "translit": "riHt el-mat3am ams ma3a sadeeqi li-ann jaw3aan katheer, wa shirabt gahwa zayn ma3aah"
-        },
-        {
-          "ar": "رحتي بيت أختك أمس لأن تعبانة كثير، وشربتي شاي زين معاها",
-          "en": "You (f) went to your sister's house yesterday because she was very tired, and you drank good tea with her",
-          "translit": "riHti bayt ukhtik ams li-ann ta3baana katheer, wa shirabti shaay zayn ma3aaha"
-        },
-        {
-          "ar": "راح المستشفى أمس لأن مريض كثير، وشافه دكتور زين هناك اليوم",
-          "en": "He went to the hospital yesterday because he was very sick, and a good doctor saw him there today",
-          "translit": "raaH el-mustashfa ams li-ann mareedh katheer, wa shaafah doktoor zayn hinaak el-yoom"
-        },
-        {
-          "ar": "رحنا بيت أهلنا أمس لأن ما شفناهم كثير، وشفنا صديقهم الزين هناك",
-          "en": "We went to our family's house yesterday because we hadn't seen them much, and we saw their good friend there",
-          "translit": "ru7na bayt ahalna ams li-ann ma shifnaahum katheer, wa shifna sadeeghum ez-zayn hinaak"
-        }
-      ]
-    },
-    {
-      "number": 28,
-      "title": "Money, Chained",
-      "titleNative": "الفلوس، مسلسل",
-      "items": [
-        {
-          "ar": "عندي فلوس كثير اليوم لأن ما رحت المطعم الغالي، وأبغى أروح المطعم الرخيص",
-          "en": "I have a lot of money today because I didn't go to the expensive restaurant, and I want to go to the cheap one",
-          "translit": "aandi fluus katheer el-yoom li-ann ma riHt el-mat3am el-ghaali, wa abgha aruu7 el-mat3am er-rikhees"
-        },
-        {
-          "ar": "ما عندك فلوس كثير اليوم لأن رحتي المطعم الغالي أمس، بس بكرا زين",
-          "en": "You (f) don't have a lot of money today because you went to the expensive restaurant yesterday, but tomorrow it's fine",
-          "translit": "ma aandik fluus katheer el-yoom li-ann riHti el-mat3am el-ghaali ams, bas bukra zayn"
-        },
-        {
-          "ar": "عنده فلوس زين اليوم لأن ما يروح المطعم الغالي، وأبغى أشرب معاه بكرا",
-          "en": "He has good money today because he doesn't go to the expensive restaurant, and I want to drink with him tomorrow",
-          "translit": "aandah fluus zayn el-yoom li-ann ma yruu7 el-mat3am el-ghaali, wa abgha ashrab ma3aah bukra"
-        },
-        {
-          "ar": "عندنا فلوس زين اليوم لأن ما رحنا المطعم الغالي، ونروح بكرا زين اليوم",
-          "en": "We have good money today because we didn't go to the expensive restaurant, and we're going tomorrow, okay",
-          "translit": "aandana fluus zayn el-yoom li-ann ma ru7na el-mat3am el-ghaali, wa nruu7 bukra zayn el-yoom"
-        }
-      ]
-    },
-    {
-      "number": 29,
-      "title": "Feelings, Chained",
-      "titleNative": "المشاعر، مسلسل",
-      "items": [
-        {
-          "ar": "أنا مبسوط اليوم لأن شفت أهلي أمس، وأبغى أروح بيتهم بكرا زين",
-          "en": "I'm happy today because I saw my family yesterday, and I want to go to their house tomorrow, good",
-          "translit": "ana mabsoot el-yoom li-ann shift ahli ams, wa abgha aruu7 baythum bukra zayn"
-        },
-        {
-          "ar": "هي زعلانة اليوم لأن ما عندها فلوس كثير، بس صديقها زين معاها",
-          "en": "She's upset today because she doesn't have a lot of money, but her friend is good with her",
-          "translit": "hiya za3laana el-yoom li-ann ma aandaha fluus katheer, bas sadeegtha zayn ma3aaha"
-        },
-        {
-          "ar": "هو تعبان اليوم لأن رحت الشغل كثير، وأبغى أشرب قهوة معاه بعدين",
-          "en": "He's tired today because he went to work a lot, and I want to drink coffee with him later",
-          "translit": "huwa ta3baan el-yoom li-ann riHt esh-shughul katheer, wa abgha ashrab gahwa ma3aah ba3dayn"
-        },
-        {
-          "ar": "احنا مبسوطين اليوم لأن شفنا أهلنا أمس، ونروح بيتهم بكرا زين اليوم",
-          "en": "We're happy today because we saw our family yesterday, and we're going to their house tomorrow, good",
-          "translit": "i7na mabsooteen el-yoom li-ann shifna ahalna ams, wa nruu7 baythum bukra zayn el-yoom"
-        }
-      ]
-    },
-    {
-      "number": 30,
-      "title": "Review: C1 Final Recap",
-      "titleNative": "مراجعة نهائية",
-      "items": [
-        {
-          "ar": "أبغى البيت الأحمر اليوم لأن يمين هنا كثير، وقريب زين اليوم",
-          "en": "I want the red house today because it's very much to the right here, and it's very close today",
-          "translit": "abgha el-bayt el-a7mar el-yoom li-ann yameen hina katheer, wa gareeb zayn el-yoom"
-        },
-        {
-          "ar": "رحت المطعم أمس مع صديقي لأن جوعان كثير، وشربت قهوة زين معاه",
-          "en": "I went to the restaurant yesterday with my friend because I was very hungry, and I drank good coffee with him",
-          "translit": "riHt el-mat3am ams ma3a sadeeqi li-ann jaw3aan katheer, wa shirabt gahwa zayn ma3aah"
-        },
-        {
-          "ar": "عندي فلوس كثير اليوم لأن ما رحت المطعم الغالي، وأبغى أروح المطعم الرخيص",
-          "en": "I have a lot of money today because I didn't go to the expensive restaurant, and I want to go to the cheap one",
-          "translit": "aandi fluus katheer el-yoom li-ann ma riHt el-mat3am el-ghaali, wa abgha aruu7 el-mat3am er-rikhees"
-        },
-        {
-          "ar": "أنا مبسوط اليوم لأن شفت أهلي أمس، وأبغى أروح بيتهم بكرا زين",
-          "en": "I'm happy today because I saw my family yesterday, and I want to go to their house tomorrow, good",
-          "translit": "ana mabsoot el-yoom li-ann shift ahli ams, wa abgha aruu7 baythum bukra zayn"
-        }
-      ]
+     "ar": "نشرب قهوة زين اليوم لأن عندنا شغل بعدين، ونروح المطعم بعدين",
+     "en": "We're drinking good coffee today because we have work later, and we're going to the restaurant later",
+     "translit": "nishrab gahwa zayn el-yoom li-ann aandana shughul ba3dayn, wa nruu7 el-mat3am ba3dayn"
     }
-  ]
+   ],
+   "topicId": "c1-chain"
+  },
+  {
+   "number": 3,
+   "title": "Wanting, Because, And",
+   "titleNative": "أبغى، لأن، و",
+   "items": [
+    {
+     "ar": "أبغى بيت جديد اليوم لأن هذا قديم كثير، وعندي فلوس زين",
+     "en": "I want a new house today because this one is very old, and I have good money",
+     "translit": "abgha bayt jideed el-yoom li-ann hatha gadeem katheer, wa aandi fluus zayn"
+    },
+    {
+     "ar": "تبغى قهوة زين اليوم لأن تعبانة كثير، وعندها شغل بعدين",
+     "en": "You want good coffee today because you're very tired, and you have work later",
+     "translit": "tabgha gahwa zayn el-yoom li-ann ta3baana katheer, wa aandaha shughul ba3dayn"
+    },
+    {
+     "ar": "يبغى يروح المطعم اليوم لأن جوعان كثير، وعنده صديق زين هناك",
+     "en": "He wants to go to the restaurant today because he's very hungry, and he has a good friend there",
+     "translit": "yabgha yruu7 el-mat3am el-yoom li-ann jaw3aan katheer, wa aandah sadeeq zayn hinaak"
+    },
+    {
+     "ar": "أدري وين البيت الجديد اليوم لأن رحت معاه، وهو يدري زين",
+     "en": "I know where the new house is today because I went with him, and he knows well",
+     "translit": "adri wein el-bayt el-jideed el-yoom li-ann riHt ma3aah, wa huwa yadri zayn"
+    }
+   ],
+   "topicId": "c1-chain"
+  },
+  {
+   "number": 4,
+   "title": "Knowing, Because, And",
+   "titleNative": "أدري، لأن، و",
+   "items": [
+    {
+     "ar": "أدري وين البيت الجديد لأن رحت معاه أمس، وهو زين كثير",
+     "en": "I know where the new house is because I went there with him yesterday, and it's very good",
+     "translit": "adri wein el-bayt el-jideed li-ann riHt ma3aah ams, wa huwa zayn katheer"
+    },
+    {
+     "ar": "تدري متى نروح بكرا لأن شفت الأهل اليوم، وانت زين تدري",
+     "en": "You know when we're going tomorrow because you saw the family today, and you know well",
+     "translit": "tadri mata nruu7 bukra li-ann shift el-ahl el-yoom, wa inta zayn tadri"
+    },
+    {
+     "ar": "يدري وين المستشفى القريب لأن رحنا معاه أمس، وهو يدري زين",
+     "en": "He knows where the near hospital is because we went there with him yesterday, and he knows well",
+     "translit": "yadri wein el-mustashfa el-gareeb li-ann ru7na ma3aah ams, wa huwa yadri zayn"
+    },
+    {
+     "ar": "ندري وين الأهل الحين لأن شفناهم أمس، وهم مبسوطين كثير اليوم",
+     "en": "We know where the family is now because we saw them yesterday, and they're very happy today",
+     "translit": "nadri wein el-ahl el-heen li-ann shifnaahum ams, wa hum mabsooteen katheer el-yoom"
+    }
+   ],
+   "topicId": "c1-chain"
+  },
+  {
+   "number": 5,
+   "title": "Review: Chained Clauses",
+   "titleNative": "مراجعة",
+   "items": [
+    {
+     "ar": "لازم أروح البيت الحين لأن تعبان كثير، وأبغى أشرب شاي زين",
+     "en": "I have to go home now because I'm very tired, and I want to drink good tea",
+     "translit": "laazim aruu7 el-bayt el-heen li-ann ta3baan katheer, wa abgha ashrab shaay zayn"
+    },
+    {
+     "ar": "تشرب مويه باردة الحين لأن عطشانة كثير، وبعدين تروحين الشغل",
+     "en": "You (f) are drinking cold water now because you're very thirsty, and afterward you're going to work",
+     "translit": "tishrabeen moya baarda el-heen li-ann 3atshaana katheer, wa ba3dayn truu7een esh-shughul"
+    },
+    {
+     "ar": "يبغى يروح المطعم اليوم لأن جوعان كثير، وعنده صديق زين هناك",
+     "en": "He wants to go to the restaurant today because he's very hungry, and he has a good friend there",
+     "translit": "yabgha yruu7 el-mat3am el-yoom li-ann jaw3aan katheer, wa aandah sadeeq zayn hinaak"
+    },
+    {
+     "ar": "ندري وين الأهل الحين لأن شفناهم أمس، وهم مبسوطين كثير اليوم",
+     "en": "We know where the family is now because we saw them yesterday, and they're very happy today",
+     "translit": "nadri wein el-ahl el-heen li-ann shifnaahum ams, wa hum mabsooteen katheer el-yoom"
+    }
+   ]
+  },
+  {
+   "number": 6,
+   "title": "Not Going, Because, But",
+   "titleNative": "ما أروح، لأن، بس",
+   "items": [
+    {
+     "ar": "ما أروح الشغل اليوم لأن مريض كثير، بس بكرا أروح زين",
+     "en": "I'm not going to work today because I'm very sick, but tomorrow I'll go, okay",
+     "translit": "ma aruu7 esh-shughul el-yoom li-ann mareedh katheer, bas bukra aruu7 zayn"
+    },
+    {
+     "ar": "ما تشرب قهوة اليوم لأن تعبانة كثير، بس تشرب مويه زين",
+     "en": "You're not drinking coffee today because you're very tired, but you're drinking water, okay",
+     "translit": "ma tishrab gahwa el-yoom li-ann ta3baana katheer, bas tishrab moya zayn"
+    },
+    {
+     "ar": "ما يبغى بيت غالي اليوم لأن ما عنده فلوس، بس يبغى بيت زين",
+     "en": "He doesn't want an expensive house today because he doesn't have money, but he wants a good house",
+     "translit": "ma yabgha bayt ghaali el-yoom li-ann ma aandah fluus, bas yabgha bayt zayn"
+    },
+    {
+     "ar": "ما ندري وين نروح بكرا، بس لازم ندري اليوم زين",
+     "en": "We don't know where we're going tomorrow, but we should find out today, okay",
+     "translit": "ma nadri wein nruu7 bukra, bas laazim nadri el-yoom zayn"
+    }
+   ],
+   "topicId": "c1-chain"
+  },
+  {
+   "number": 7,
+   "title": "Not Wanting, Because, But",
+   "titleNative": "ما أبغى، لأن، بس",
+   "items": [
+    {
+     "ar": "ما أبغى المطعم الغالي اليوم لأن ما عندي فلوس كثير، بس أبغى قهوة زين",
+     "en": "I don't want the expensive restaurant today because I don't have a lot of money, but I want good coffee",
+     "translit": "ma abgha el-mat3am el-ghaali el-yoom li-ann ma aandi fluus katheer, bas abgha gahwa zayn"
+    },
+    {
+     "ar": "ما تدري وين البيت الجديد اليوم، بس صديقك زين يدري",
+     "en": "You don't know where the new house is today, but your good friend knows",
+     "translit": "ma tadri wein el-bayt el-jideed el-yoom, bas sadeegik zayn yadri"
+    },
+    {
+     "ar": "ما يروح المستشفى اليوم لأن مب مريض كثير، بس يروح الدكتور بكرا",
+     "en": "He's not going to the hospital today because he's not very sick, but he's going to the doctor tomorrow",
+     "translit": "ma yruu7 el-mustashfa el-yoom li-ann mub mareedh katheer, bas yruu7 ed-doktoor bukra"
+    },
+    {
+     "ar": "ما نروح بيت صغير اليوم لأن عندنا أهل كثير، بس البيت الكبير غالي",
+     "en": "We're not going to a small house today because we have a lot of family, but the big house is expensive",
+     "translit": "ma nruu7 bayt sagheer el-yoom li-ann aandana ahl katheer, bas el-bayt el-kabeer ghaali"
+    }
+   ],
+   "topicId": "c1-chain"
+  },
+  {
+   "number": 8,
+   "title": "Money, Because, So",
+   "titleNative": "الفلوس، لأن، عشان كذا",
+   "items": [
+    {
+     "ar": "عندي فلوس كثير اليوم لأن شربت قهوة رخيصة، وأبغى أروح المطعم بعدين",
+     "en": "I have a lot of money today because I drank cheap coffee, and I want to go to the restaurant later",
+     "translit": "aandi fluus katheer el-yoom li-ann shirabt gahwa rikheesa, wa abgha aruu7 el-mat3am ba3dayn"
+    },
+    {
+     "ar": "ما عندك فلوس كثير اليوم لأن رحت المطعم الغالي أمس، بس بكرا زين",
+     "en": "You don't have a lot of money today because you went to the expensive restaurant yesterday, but tomorrow it's fine",
+     "translit": "ma aandik fluus katheer el-yoom li-ann riHt el-mat3am el-ghaali ams, bas bukra zayn"
+    },
+    {
+     "ar": "عنده فلوس زين اليوم لأن عنده شغل كثير، ويبغى يروح بيت جديد",
+     "en": "He has good money today because he has a lot of work, and he wants to go to a new house",
+     "translit": "aandah fluus zayn el-yoom li-ann aandah shughul katheer, wa yabgha yruu7 bayt jideed"
+    },
+    {
+     "ar": "ما عندنا فلوس كثير اليوم لأن رحنا المطعم الغالي أمس، بس زين اليوم",
+     "en": "We don't have a lot of money today because we went to the expensive restaurant yesterday, but it's fine today",
+     "translit": "ma aandana fluus katheer el-yoom li-ann ru7na el-mat3am el-ghaali ams, bas zayn el-yoom"
+    }
+   ]
+  },
+  {
+   "number": 9,
+   "title": "Family, Because, And",
+   "titleNative": "الأهل، لأن، و",
+   "items": [
+    {
+     "ar": "أروح بيت أختي اليوم لأن ما شفتها كثير، وأبغى أشرب قهوة معاها",
+     "en": "I'm going to my sister's house today because I haven't seen her much, and I want to drink coffee with her",
+     "translit": "aruu7 bayt ukhti el-yoom li-ann ma shifitha katheer, wa abgha ashrab gahwa ma3aaha"
+    },
+    {
+     "ar": "تروح بيت أخوك اليوم لأن عنده مشكلة كبيرة، وتبغى تشرب شاي معاه",
+     "en": "You're going to your brother's house today because he has a big problem, and you want to drink tea with him",
+     "translit": "truu7 bayt akhook el-yoom li-ann aandah mushkila kabeera, wa tabgha tishrab shaay ma3aah"
+    },
+    {
+     "ar": "يروح بيت أهله اليوم لأن ما شافهم كثير، وعنده صديق زين معاه",
+     "en": "He's going to his family's house today because he hasn't seen them much, and he has a good friend with him",
+     "translit": "yruu7 bayt ahlah el-yoom li-ann ma shaafhum katheer, wa aandah sadeeq zayn ma3aah"
+    },
+    {
+     "ar": "نروح بيت أهلنا اليوم لأن عندهم مشكلة كبيرة، ونشرب قهوة معاهم زين",
+     "en": "We're going to our family's house today because they have a big problem, and we'll drink coffee with them, good",
+     "translit": "nruu7 bayt ahalna el-yoom li-ann aandahum mushkila kabeera, wa nishrab gahwa ma3aahum zayn"
+    }
+   ]
+  },
+  {
+   "number": 10,
+   "title": "Review: C1 Recap",
+   "titleNative": "مراجعة نهائية",
+   "items": [
+    {
+     "ar": "ما أروح الشغل اليوم لأن مريض كثير، بس بكرا أروح زين",
+     "en": "I'm not going to work today because I'm very sick, but tomorrow I'll go, okay",
+     "translit": "ma aruu7 esh-shughul el-yoom li-ann mareedh katheer, bas bukra aruu7 zayn"
+    },
+    {
+     "ar": "ما أبغى المطعم الغالي اليوم لأن ما عندي فلوس كثير، بس أبغى قهوة زين",
+     "en": "I don't want the expensive restaurant today because I don't have a lot of money, but I want good coffee",
+     "translit": "ma abgha el-mat3am el-ghaali el-yoom li-ann ma aandi fluus katheer, bas abgha gahwa zayn"
+    },
+    {
+     "ar": "عندي فلوس كثير اليوم لأن شربت قهوة رخيصة، وأبغى أروح المطعم بعدين",
+     "en": "I have a lot of money today because I drank cheap coffee, and I want to go to the restaurant later",
+     "translit": "aandi fluus katheer el-yoom li-ann shirabt gahwa rikheesa, wa abgha aruu7 el-mat3am ba3dayn"
+    },
+    {
+     "ar": "أروح بيت أختي اليوم لأن ما شفتها كثير، وأبغى أشرب قهوة معاها",
+     "en": "I'm going to my sister's house today because I haven't seen her much, and I want to drink coffee with her",
+     "translit": "aruu7 bayt ukhti el-yoom li-ann ma shifitha katheer, wa abgha ashrab gahwa ma3aaha"
+    }
+   ]
+  },
+  {
+   "number": 11,
+   "title": "The Near Place, Because, But",
+   "titleNative": "المكان القريب، لأن، بس",
+   "items": [
+    {
+     "ar": "أروح المطعم القريب اليوم لأن السيارة مشكلة، بس بكرا أروح البعيد",
+     "en": "I'm going to the near restaurant today because the car is a problem, but tomorrow I'll go to the far one",
+     "translit": "aruu7 el-mat3am el-gareeb el-yoom li-ann es-sayyaara mushkila, bas bukra aruu7 el-ba3eed"
+    },
+    {
+     "ar": "تروح المستشفى القريب اليوم لأن مستعجل كثير، بس مب مريضة كثير",
+     "en": "You're going to the near hospital today because it's very urgent, but you're not very sick",
+     "translit": "truu7 el-mustashfa el-gareeb el-yoom li-ann musta3jil katheer, bas mub mareedha katheer"
+    },
+    {
+     "ar": "يروح البيت البعيد اليوم لأن أهله هناك، وعنده صديق زين هناك",
+     "en": "He's going to the far house today because his family is there, and he has a good friend there",
+     "translit": "yruu7 el-bayt el-ba3eed el-yoom li-ann ahlah hinaak, wa aandah sadeeq zayn hinaak"
+    },
+    {
+     "ar": "نروح المطعم القريب اليوم لأن جوعانين كثير، وعندنا فلوس زين اليوم",
+     "en": "We're going to the near restaurant today because we're very hungry, and we have good money today",
+     "translit": "nruu7 el-mat3am el-gareeb el-yoom li-ann jaw3aaneen katheer, wa aandana fluus zayn el-yoom"
+    }
+   ],
+   "topicId": "c1-chain"
+  },
+  {
+   "number": 12,
+   "title": "This Red House, Because, And",
+   "titleNative": "هذا البيت الأحمر، لأن، و",
+   "items": [
+    {
+     "ar": "أبغى البيت الأحمر اليوم لأن قريب كثير، وعندي فلوس زين اليوم",
+     "en": "I want the red house today because it's very close, and I have good money today",
+     "translit": "abgha el-bayt el-a7mar el-yoom li-ann gareeb katheer, wa aandi fluus zayn el-yoom"
+    },
+    {
+     "ar": "تبغى البيت الأزرق اليوم لأن كبير كثير، بس السعر غالي كثير",
+     "en": "You want the blue house today because it's very big, but the price is very expensive",
+     "translit": "tabgha el-bayt el-azrag el-yoom li-ann kabeer katheer, bas es-si3ir ghaali katheer"
+    },
+    {
+     "ar": "يبغى البيت الأصفر اليوم لأن جديد كثير، وعنده فلوس زين اليوم",
+     "en": "He wants the yellow house today because it's very new, and he has good money today",
+     "translit": "yabgha el-bayt el-asfar el-yoom li-ann jideed katheer, wa aandah fluus zayn el-yoom"
+    },
+    {
+     "ar": "نروح البيت الأخضر اليوم لأن قريب كثير، وعندنا فلوس زين اليوم",
+     "en": "We're going to the green house today because it's very close, and we have good money today",
+     "translit": "nruu7 el-bayt el-akhdar el-yoom li-ann gareeb katheer, wa aandana fluus zayn el-yoom"
+    }
+   ],
+   "topicId": "c1-chain"
+  },
+  {
+   "number": 13,
+   "title": "Days, Because, And",
+   "titleNative": "الأيام، لأن، و",
+   "items": [
+    {
+     "ar": "أروح الشغل يوم الأحد لأن مستعجل كثير، وأبغى أشرب قهوة بعدين",
+     "en": "I'm going to work on Sunday because it's very urgent, and I want to drink coffee later",
+     "translit": "aruu7 esh-shughul yoom el-a7ad li-ann musta3jil katheer, wa abgha ashrab gahwa ba3dayn"
+    },
+    {
+     "ar": "تشربين قهوة يوم الجمعة لأن تعبانة كثير، وعندك شغل بعدين اليوم",
+     "en": "You (f) are drinking coffee on Friday because you're very tired, and you have work later today",
+     "translit": "tishrabeen gahwa yoom el-jum3a li-ann ta3baana katheer, wa aandik shughul ba3dayn el-yoom"
+    },
+    {
+     "ar": "يروح المطعم يوم السبت لأن عنده صديق زين، ويبغى يشرب قهوة معاه",
+     "en": "He's going to the restaurant on Saturday because he has a good friend, and he wants to drink coffee with him",
+     "translit": "yruu7 el-mat3am yoom es-sabt li-ann aandah sadeeq zayn, wa yabgha yishrab gahwa ma3aah"
+    },
+    {
+     "ar": "نروح بيت الأهل يوم الخميس لأن ما شفناهم كثير، ونشرب شاي معاهم زين",
+     "en": "We're going to the family's house on Thursday because we haven't seen them much, and we'll drink tea with them, good",
+     "translit": "nruu7 bayt el-ahl yoom el-khamees li-ann ma shifnaahum katheer, wa nishrab shaay ma3aahum zayn"
+    }
+   ],
+   "topicId": "c1-chain"
+  },
+  {
+   "number": 14,
+   "title": "Feelings, Because, But",
+   "titleNative": "المشاعر، لأن، بس",
+   "items": [
+    {
+     "ar": "أنا مبسوط اليوم لأن شفت أهلي، بس تعبان كثير اليوم",
+     "en": "I'm happy today because I saw my family, but I'm very tired today",
+     "translit": "ana mabsoot el-yoom li-ann shift ahli, bas ta3baan katheer el-yoom"
+    },
+    {
+     "ar": "هي زعلانة اليوم لأن ما شافت أهلها، بس تبغى تروح بيتهم بكرا",
+     "en": "She's upset today because she didn't see her family, but she wants to go to their house tomorrow",
+     "translit": "hiya za3laana el-yoom li-ann ma shaafat ahilha, bas tabgha truu7 baythum bukra"
+    },
+    {
+     "ar": "هو زعلان اليوم لأن ما عنده فلوس كثير، بس عنده صديق زين",
+     "en": "He's upset today because he doesn't have a lot of money, but he has a good friend",
+     "translit": "huwa za3laan el-yoom li-ann ma aandah fluus katheer, bas aandah sadeeq zayn"
+    },
+    {
+     "ar": "احنا مبسوطين اليوم لأن شفنا أهلنا، بس تعبانين كثير اليوم",
+     "en": "We're happy today because we saw our family, but we're very tired today",
+     "translit": "i7na mabsooteen el-yoom li-ann shifna ahalna, bas ta3baaneen katheer el-yoom"
+    }
+   ],
+   "topicId": "c1-chain"
+  },
+  {
+   "number": 15,
+   "title": "Review: Places, Colors, Days, Feelings",
+   "titleNative": "مراجعة",
+   "items": [
+    {
+     "ar": "أروح المطعم القريب اليوم لأن السيارة مشكلة، بس بكرا أروح البعيد",
+     "en": "I'm going to the near restaurant today because the car is a problem, but tomorrow I'll go to the far one",
+     "translit": "aruu7 el-mat3am el-gareeb el-yoom li-ann es-sayyaara mushkila, bas bukra aruu7 el-ba3eed"
+    },
+    {
+     "ar": "أبغى البيت الأحمر اليوم لأن قريب كثير، وعندي فلوس زين اليوم",
+     "en": "I want the red house today because it's very close, and I have good money today",
+     "translit": "abgha el-bayt el-a7mar el-yoom li-ann gareeb katheer, wa aandi fluus zayn el-yoom"
+    },
+    {
+     "ar": "أروح الشغل يوم الأحد لأن مستعجل كثير، وأبغى أشرب قهوة بعدين",
+     "en": "I'm going to work on Sunday because it's very urgent, and I want to drink coffee later",
+     "translit": "aruu7 esh-shughul yoom el-a7ad li-ann musta3jil katheer, wa abgha ashrab gahwa ba3dayn"
+    },
+    {
+     "ar": "أنا مبسوط اليوم لأن شفت أهلي، بس تعبان كثير اليوم",
+     "en": "I'm happy today because I saw my family, but I'm very tired today",
+     "translit": "ana mabsoot el-yoom li-ann shift ahli, bas ta3baan katheer el-yoom"
+    }
+   ]
+  },
+  {
+   "number": 16,
+   "title": "Numbers, Because, And",
+   "titleNative": "الأرقام، لأن، و",
+   "items": [
+    {
+     "ar": "عندي ثلاثة فلوس زين اليوم لأن شغلي زين، وأبغى أروح المطعم بعدين",
+     "en": "I have three good [money] today because my work is good, and I want to go to the restaurant later",
+     "translit": "aandi thalaatha fluus zayn el-yoom li-ann shughli zayn, wa abgha aruu7 el-mat3am ba3dayn"
+    },
+    {
+     "ar": "عندك خمسة فلوس زين اليوم لأن رحت الشغل كثير، وأبغى أشرب قهوة معاك",
+     "en": "You have five good [money] today because you went to work a lot, and I want to drink coffee with you",
+     "translit": "aandik khamsa fluus zayn el-yoom li-ann riHt esh-shughul katheer, wa abgha ashrab gahwa ma3aak"
+    },
+    {
+     "ar": "عنده سبعة فلوس زين اليوم لأن يبغى يدري كثير، وعنده صديق زين",
+     "en": "He has seven good [money] today because he wants to know a lot, and he has a good friend",
+     "translit": "aandah sab3a fluus zayn el-yoom li-ann yabgha yadri katheer, wa aandah sadeeq zayn"
+    },
+    {
+     "ar": "عندنا تسعة فلوس زين هناك لأن ابويه زين، وأبغى أروح بيته بكرا",
+     "en": "We have nine good [money] there because my dad is good, and I want to go to his house tomorrow",
+     "translit": "aandana tis3a fluus zayn hinaak li-ann abooyah zayn, wa abgha aruu7 baytah bukra"
+    }
+   ],
+   "topicId": "c1-chain"
+  },
+  {
+   "number": 17,
+   "title": "Health, Because, But",
+   "titleNative": "الصحة، لأن، بس",
+   "items": [
+    {
+     "ar": "أروح الدكتور اليوم لأن راسي وجع كثير، بس مب مستعجل كثير",
+     "en": "I'm going to the doctor today because my head hurts a lot, but it's not very urgent",
+     "translit": "aruu7 ed-doktoor el-yoom li-ann raasi waja3 katheer, bas mub musta3jil katheer"
+    },
+    {
+     "ar": "تروحين المستشفى اليوم لأن بطنك وجع كثير، بس أختك زين معاك",
+     "en": "You (f) are going to the hospital today because your stomach hurts a lot, but your sister is good with you",
+     "translit": "truu7een el-mustashfa el-yoom li-ann batnik waja3 katheer, bas ukhtik zayn ma3aach"
+    },
+    {
+     "ar": "يروح الدكتور بكرا لأن مريض كثير اليوم، بس عنده صديق زين",
+     "en": "He's going to the doctor tomorrow because he's been sick since yesterday, but he has a good friend",
+     "translit": "yruu7 ed-doktoor bukra li-ann mareedh katheer el-yoom, bas aandah sadeeq zayn"
+    },
+    {
+     "ar": "نروح المستشفى اليوم لأن أهلنا مريضين كثير، وأبغى أشرب مويه بعدين",
+     "en": "We're going to the hospital today because our family is very sick, and I want to drink water later",
+     "translit": "nruu7 el-mustashfa el-yoom li-ann ahalna mareedheen katheer, wa abgha ashrab moya ba3dayn"
+    }
+   ],
+   "topicId": "c1-chain"
+  },
+  {
+   "number": 18,
+   "title": "Not Because, But Because, Chained",
+   "titleNative": "مب لأن، بس لأن، مسلسل",
+   "items": [
+    {
+     "ar": "ما أروح الشغل اليوم مب لأن مريض، بس لأن تعبان كثير اليوم",
+     "en": "I'm not going to work today not because I'm sick, but because I'm very tired since the morning",
+     "translit": "ma aruu7 esh-shughul el-yoom mub li-ann mareedh, bas li-ann ta3baan katheer"
+    },
+    {
+     "ar": "ما تشربين قهوة اليوم مب لأن مب زينة، بس لأن عندك شغل كثير",
+     "en": "You're not drinking coffee today not because it's not good, but because you have a lot of work",
+     "translit": "ma tishrabeen gahwa el-yoom mub li-ann mub zayna, bas li-ann aandik shughul katheer"
+    },
+    {
+     "ar": "ما يروح المطعم اليوم مب لأن غالي، بس لأن جوعان مب كثير",
+     "en": "He's not going to the restaurant today not because it's expensive, but because he's not very hungry",
+     "translit": "ma yruu7 el-mat3am el-yoom mub li-ann ghaali, bas li-ann jaw3aan mub katheer"
+    },
+    {
+     "ar": "ما نروح بيت أهلنا اليوم مب لأن مشغولين، بس لأن السيارة مشكلة",
+     "en": "We're not going to our family's house today not because we're busy, but because the car is a problem",
+     "translit": "ma nruu7 bayt ahalna el-yoom mub li-ann mashghooleen, bas li-ann es-sayyaara mushkila"
+    }
+   ],
+   "topicId": "c1-chain"
+  },
+  {
+   "number": 19,
+   "title": "A Full Day, Chained",
+   "titleNative": "يوم كامل، مسلسل",
+   "items": [
+    {
+     "ar": "صباح الخير، أشرب قهوة زين، وبعدين أروح الشغل لأن مستعجل كثير",
+     "en": "Good morning, I drink good coffee, and then I go to work because it's very urgent",
+     "translit": "sabaah el-khayr, ashrab gahwa zayn, wa ba3dayn aruu7 esh-shughul li-ann musta3jil katheer"
+    },
+    {
+     "ar": "رحت بيت أختي أمس لأن ما شفتها كثير، وشربت قهوة زين معاها",
+     "en": "I went to my sister's house yesterday because I hadn't seen her much, and I drank good coffee with her",
+     "translit": "riHt bayt ukhti ams li-ann ma shifitha katheer, wa shirabt gahwa zayn ma3aaha"
+    },
+    {
+     "ar": "عندي فلوس زين اليوم لأن ما رحت المطعم الغالي، وأبغى أروح بكرا",
+     "en": "I have good money today because I didn't go to the expensive restaurant, and I want to go tomorrow",
+     "translit": "aandi fluus zayn el-yoom li-ann ma riHt el-mat3am el-ghaali, wa abgha aruu7 bukra"
+    },
+    {
+     "ar": "مساء الخير، أنا مبسوط اليوم لأن عندي أهل زين، وشفتهم اليوم",
+     "en": "Good evening, I'm happy today because I have a good family, and I saw them today",
+     "translit": "masaa el-khayr, ana mabsoot el-yoom li-ann aandi ahl zayn, wa shifthum el-yoom"
+    }
+   ]
+  },
+  {
+   "number": 20,
+   "title": "Review: C1 Recap 2",
+   "titleNative": "مراجعة نهائية",
+   "items": [
+    {
+     "ar": "أروح الدكتور اليوم لأن راسي وجع كثير، بس مب مستعجل كثير",
+     "en": "I'm going to the doctor today because my head hurts a lot, but it's not very urgent",
+     "translit": "aruu7 ed-doktoor el-yoom li-ann raasi waja3 katheer, bas mub musta3jil katheer"
+    },
+    {
+     "ar": "ما أروح الشغل اليوم مب لأن مريض، بس لأن تعبان كثير اليوم",
+     "en": "I'm not going to work today not because I'm sick, but because I'm very tired since the morning",
+     "translit": "ma aruu7 esh-shughul el-yoom mub li-ann mareedh, bas li-ann ta3baan katheer"
+    },
+    {
+     "ar": "صباح الخير، أشرب قهوة زين، وبعدين أروح الشغل لأن مستعجل كثير",
+     "en": "Good morning, I drink good coffee, and then I go to work because it's very urgent",
+     "translit": "sabaah el-khayr, ashrab gahwa zayn, wa ba3dayn aruu7 esh-shughul li-ann musta3jil katheer"
+    },
+    {
+     "ar": "عندي فلوس زين اليوم لأن ما رحت المطعم الغالي، وأبغى أروح بكرا",
+     "en": "I have good money today because I didn't go to the expensive restaurant, and I want to go tomorrow",
+     "translit": "aandi fluus zayn el-yoom li-ann ma riHt el-mat3am el-ghaali, wa abgha aruu7 bukra"
+    }
+   ]
+  },
+  {
+   "number": 21,
+   "title": "Lazim, Because, And",
+   "titleNative": "لازم، لأن، و",
+   "items": [
+    {
+     "ar": "لازم أروح الشغل بكرا لأن مستعجل كثير، وأبغى أشرب قهوة اليوم",
+     "en": "I have to go to work tomorrow because it's very urgent, and I want to drink coffee today",
+     "translit": "laazim aruu7 esh-shughul bukra li-ann musta3jil katheer, wa abgha ashrab gahwa el-yoom"
+    },
+    {
+     "ar": "لازم تشربين مويه اليوم لأن عطشانة كثير، وعندك شغل كثير بعدين",
+     "en": "You (f) have to drink water today because you're very thirsty, and you have a lot of work later",
+     "translit": "laazim tishrabeen moya el-yoom li-ann 3atshaana katheer, wa aandik shughul katheer ba3dayn"
+    },
+    {
+     "ar": "لازم يروح المستشفى اليوم لأن مريض كثير، وعنده صديق زين معاه",
+     "en": "He has to go to the hospital today because he's very sick, and he has a good friend with him",
+     "translit": "laazim yruu7 el-mustashfa el-yoom li-ann mareedh katheer, wa aandah sadeeq zayn ma3aah"
+    },
+    {
+     "ar": "لازم نروح بيت الأهل اليوم لأن ما شفناهم كثير، ونشرب قهوة معاهم زين",
+     "en": "We have to go to the family's house today because we haven't seen them much, and we'll drink coffee with them, good",
+     "translit": "laazim nruu7 bayt el-ahl el-yoom li-ann ma shifnaahum katheer, wa nishrab gahwa ma3aahum zayn"
+    }
+   ],
+   "topicId": "c1-chain"
+  },
+  {
+   "number": 22,
+   "title": "Lazim Ma, Because, But",
+   "titleNative": "لازم ما، لأن، بس",
+   "items": [
+    {
+     "ar": "لازم ما تروح الشغل تعبان كثير، لازم تشرب مويه اليوم بس",
+     "en": "You shouldn't go to work very tired, you should just drink water today",
+     "translit": "laazim ma truu7 esh-shughul ta3baan katheer, laazim tishrab moya el-yoom bas"
+    },
+    {
+     "ar": "لازم ما تبغى بيت غالي اليوم لأن ما عندك فلوس، بس البيت الرخيص زين",
+     "en": "You shouldn't want an expensive house today because you don't have money, but the cheap house is good",
+     "translit": "laazim ma tabgha bayt ghaali el-yoom li-ann ma aandik fluus, bas el-bayt er-rikhees zayn"
+    },
+    {
+     "ar": "لازم ما يشرب قهوة كثير وهو تعبان كثير، لازم يشرب مويه بس",
+     "en": "He shouldn't drink a lot of coffee while he's very tired, he should just drink water",
+     "translit": "laazim ma yishrab gahwa katheer wa huwa ta3baan katheer, laazim yishrab moya bas"
+    },
+    {
+     "ar": "لازم ما نروح بيت بعيد اليوم لأن السيارة مشكلة، بس البيت القريب زين",
+     "en": "We shouldn't go to a far house today because the car is a problem, but the near house is good",
+     "translit": "laazim ma nruu7 bayt ba3eed el-yoom li-ann es-sayyaara mushkila, bas el-bayt el-gareeb zayn"
+    }
+   ],
+   "topicId": "c1-chain"
+  },
+  {
+   "number": 23,
+   "title": "Knowing, Because, But",
+   "titleNative": "أدري، لأن، بس",
+   "items": [
+    {
+     "ar": "أدري وين البيت الجديد اليوم لأن رحت معاه أمس، بس صديقي يدري زين",
+     "en": "I know where the new house is today because I went there with him yesterday, but my friend knows well",
+     "translit": "adri wein el-bayt el-jideed el-yoom li-ann riHt ma3aah ams, bas sadeeqi yadri zayn"
+    },
+    {
+     "ar": "ما تدرين وين أختك الحين، بس لازم تدرين اليوم بس",
+     "en": "You don't know where your sister is now, but you should find out today",
+     "translit": "ma tadreen wein ukhtik el-heen, bas laazim tadreen el-yoom bas"
+    },
+    {
+     "ar": "يدري وين المستشفى القريب لأن رحنا معاه أمس، بس هو تعبان كثير",
+     "en": "He knows where the near hospital is because we went there with him yesterday, but he's very tired",
+     "translit": "yadri wein el-mustashfa el-gareeb li-ann ru7na ma3aah ams, bas huwa ta3baan katheer"
+    },
+    {
+     "ar": "ندري وين الأهل الحين لأن شفناهم أمس، بس مشغولين كثير اليوم",
+     "en": "We know where the family is now because we saw them yesterday, but they're very busy today",
+     "translit": "nadri wein el-ahl el-heen li-ann shifnaahum ams, bas mashghooleen katheer el-yoom"
+    }
+   ],
+   "topicId": "c1-chain"
+  },
+  {
+   "number": 24,
+   "title": "Wanting, Because, But",
+   "titleNative": "أبغى، لأن، بس",
+   "items": [
+    {
+     "ar": "أبغى بيت جديد اليوم لأن هذا قديم كثير، بس ما عندي فلوس زين",
+     "en": "I want a new house today because this one is very old, but I don't have good money",
+     "translit": "abgha bayt jideed el-yoom li-ann hatha gadeem katheer, bas ma aandi fluus zayn"
+    },
+    {
+     "ar": "تشربين قهوة زين اليوم لأن تعبانة كثير، بس عندك شغل بعدين",
+     "en": "You (f) are drinking good coffee today because you're very tired, but you have work later",
+     "translit": "tishrabeen gahwa zayn el-yoom li-ann ta3baana katheer, bas aandik shughul ba3dayn"
+    },
+    {
+     "ar": "يبغى يروح المطعم اليوم لأن جوعان كثير، بس ما عنده فلوس كثير",
+     "en": "He wants to go to the restaurant today because he's very hungry, but he doesn't have a lot of money",
+     "translit": "yabgha yruu7 el-mat3am el-yoom li-ann jaw3aan katheer, bas ma aandah fluus katheer"
+    },
+    {
+     "ar": "أدري وين البيت الجديد لأن رحت معاه أمس، وهو زين كثير اليوم",
+     "en": "I know where the new house is because I went there with him yesterday, and it's very good today",
+     "translit": "adri wein el-bayt el-jideed li-ann riHt ma3aah ams, wa huwa zayn katheer el-yoom"
+    }
+   ],
+   "topicId": "c1-chain"
+  },
+  {
+   "number": 25,
+   "title": "Review: Lazim, Know, Want",
+   "titleNative": "مراجعة",
+   "items": [
+    {
+     "ar": "لازم أروح الشغل بكرا لأن مستعجل كثير، وأبغى أشرب قهوة اليوم",
+     "en": "I have to go to work tomorrow because it's very urgent, and I want to drink coffee today",
+     "translit": "laazim aruu7 esh-shughul bukra li-ann musta3jil katheer, wa abgha ashrab gahwa el-yoom"
+    },
+    {
+     "ar": "لازم ما تروح الشغل تعبان كثير، لازم تشرب مويه اليوم بس",
+     "en": "You shouldn't go to work very tired, you should just drink water today",
+     "translit": "laazim ma truu7 esh-shughul ta3baan katheer, laazim tishrab moya el-yoom bas"
+    },
+    {
+     "ar": "أدري وين البيت الجديد اليوم لأن رحت معاه أمس، بس صديقي يدري زين",
+     "en": "I know where the new house is today because I went there with him yesterday, but my friend knows well",
+     "translit": "adri wein el-bayt el-jideed el-yoom li-ann riHt ma3aah ams, bas sadeeqi yadri zayn"
+    },
+    {
+     "ar": "أبغى بيت جديد اليوم لأن هذا قديم كثير، بس ما عندي فلوس زين",
+     "en": "I want a new house today because this one is very old, but I don't have good money",
+     "translit": "abgha bayt jideed el-yoom li-ann hatha gadeem katheer, bas ma aandi fluus zayn"
+    }
+   ]
+  },
+  {
+   "number": 26,
+   "title": "Colors and Directions, Chained",
+   "titleNative": "الألوان والاتجاهات، مسلسل",
+   "items": [
+    {
+     "ar": "أبغى البيت الأحمر اليوم لأن يمين هنا كثير، وقريب زين اليوم",
+     "en": "I want the red house today because it's very much to the right here, and it's very close today",
+     "translit": "abgha el-bayt el-a7mar el-yoom li-ann yameen hina katheer, wa gareeb zayn el-yoom"
+    },
+    {
+     "ar": "تبغى البيت الأزرق اليوم لأن يسار هنا كثير، بس السعر غالي كثير",
+     "en": "You want the blue house today because it's very much to the left here, but the price is very expensive",
+     "translit": "tabgha el-bayt el-azrag el-yoom li-ann yasaar hina katheer, bas es-si3ir ghaali katheer"
+    },
+    {
+     "ar": "يبغى البيت الأصفر اليوم لأن قدّام المطعم، وعنده فلوس زين اليوم",
+     "en": "He wants the yellow house today because it's in front of the restaurant, and he has good money today",
+     "translit": "yabgha el-bayt el-asfar el-yoom li-ann guddaam el-mat3am, wa aandah fluus zayn el-yoom"
+    },
+    {
+     "ar": "نروح البيت الأخضر اليوم لأن ورا المستشفى، وعندنا أهل زين هناك",
+     "en": "We're going to the green house today because it's behind the hospital, and we have good family there",
+     "translit": "nruu7 el-bayt el-akhdar el-yoom li-ann wara el-mustashfa, wa aandana ahl zayn hinaak"
+    }
+   ],
+   "topicId": "c1-chain"
+  },
+  {
+   "number": 27,
+   "title": "A Story, Chained",
+   "titleNative": "قصة، مسلسل",
+   "items": [
+    {
+     "ar": "رحت المطعم أمس مع صديقي لأن جوعان كثير، وشربت قهوة زين معاه",
+     "en": "I went to the restaurant yesterday with my friend because I was very hungry, and I drank good coffee with him",
+     "translit": "riHt el-mat3am ams ma3a sadeeqi li-ann jaw3aan katheer, wa shirabt gahwa zayn ma3aah"
+    },
+    {
+     "ar": "رحتي بيت أختك أمس لأن تعبانة كثير، وشربتي شاي زين معاها",
+     "en": "You (f) went to your sister's house yesterday because she was very tired, and you drank good tea with her",
+     "translit": "riHti bayt ukhtik ams li-ann ta3baana katheer, wa shirabti shaay zayn ma3aaha"
+    },
+    {
+     "ar": "راح المستشفى أمس لأن مريض كثير، وشافه دكتور زين هناك اليوم",
+     "en": "He went to the hospital yesterday because he was very sick, and a good doctor saw him there today",
+     "translit": "raaH el-mustashfa ams li-ann mareedh katheer, wa shaafah doktoor zayn hinaak el-yoom"
+    },
+    {
+     "ar": "رحنا بيت أهلنا أمس لأن ما شفناهم كثير، وشفنا صديقهم الزين هناك",
+     "en": "We went to our family's house yesterday because we hadn't seen them much, and we saw their good friend there",
+     "translit": "ru7na bayt ahalna ams li-ann ma shifnaahum katheer, wa shifna sadeeghum ez-zayn hinaak"
+    }
+   ]
+  },
+  {
+   "number": 28,
+   "title": "Money, Chained",
+   "titleNative": "الفلوس، مسلسل",
+   "items": [
+    {
+     "ar": "عندي فلوس كثير اليوم لأن ما رحت المطعم الغالي، وأبغى أروح المطعم الرخيص",
+     "en": "I have a lot of money today because I didn't go to the expensive restaurant, and I want to go to the cheap one",
+     "translit": "aandi fluus katheer el-yoom li-ann ma riHt el-mat3am el-ghaali, wa abgha aruu7 el-mat3am er-rikhees"
+    },
+    {
+     "ar": "ما عندك فلوس كثير اليوم لأن رحتي المطعم الغالي أمس، بس بكرا زين",
+     "en": "You (f) don't have a lot of money today because you went to the expensive restaurant yesterday, but tomorrow it's fine",
+     "translit": "ma aandik fluus katheer el-yoom li-ann riHti el-mat3am el-ghaali ams, bas bukra zayn"
+    },
+    {
+     "ar": "عنده فلوس زين اليوم لأن ما يروح المطعم الغالي، وأبغى أشرب معاه بكرا",
+     "en": "He has good money today because he doesn't go to the expensive restaurant, and I want to drink with him tomorrow",
+     "translit": "aandah fluus zayn el-yoom li-ann ma yruu7 el-mat3am el-ghaali, wa abgha ashrab ma3aah bukra"
+    },
+    {
+     "ar": "عندنا فلوس زين اليوم لأن ما رحنا المطعم الغالي، ونروح بكرا زين اليوم",
+     "en": "We have good money today because we didn't go to the expensive restaurant, and we're going tomorrow, okay",
+     "translit": "aandana fluus zayn el-yoom li-ann ma ru7na el-mat3am el-ghaali, wa nruu7 bukra zayn el-yoom"
+    }
+   ]
+  },
+  {
+   "number": 29,
+   "title": "Feelings, Chained",
+   "titleNative": "المشاعر، مسلسل",
+   "items": [
+    {
+     "ar": "أنا مبسوط اليوم لأن شفت أهلي أمس، وأبغى أروح بيتهم بكرا زين",
+     "en": "I'm happy today because I saw my family yesterday, and I want to go to their house tomorrow, good",
+     "translit": "ana mabsoot el-yoom li-ann shift ahli ams, wa abgha aruu7 baythum bukra zayn"
+    },
+    {
+     "ar": "هي زعلانة اليوم لأن ما عندها فلوس كثير، بس صديقها زين معاها",
+     "en": "She's upset today because she doesn't have a lot of money, but her friend is good with her",
+     "translit": "hiya za3laana el-yoom li-ann ma aandaha fluus katheer, bas sadeegtha zayn ma3aaha"
+    },
+    {
+     "ar": "هو تعبان اليوم لأن رحت الشغل كثير، وأبغى أشرب قهوة معاه بعدين",
+     "en": "He's tired today because he went to work a lot, and I want to drink coffee with him later",
+     "translit": "huwa ta3baan el-yoom li-ann riHt esh-shughul katheer, wa abgha ashrab gahwa ma3aah ba3dayn"
+    },
+    {
+     "ar": "احنا مبسوطين اليوم لأن شفنا أهلنا أمس، ونروح بيتهم بكرا زين اليوم",
+     "en": "We're happy today because we saw our family yesterday, and we're going to their house tomorrow, good",
+     "translit": "i7na mabsooteen el-yoom li-ann shifna ahalna ams, wa nruu7 baythum bukra zayn el-yoom"
+    }
+   ]
+  },
+  {
+   "number": 30,
+   "title": "Review: C1 Final Recap",
+   "titleNative": "مراجعة نهائية",
+   "items": [
+    {
+     "ar": "أبغى البيت الأحمر اليوم لأن يمين هنا كثير، وقريب زين اليوم",
+     "en": "I want the red house today because it's very much to the right here, and it's very close today",
+     "translit": "abgha el-bayt el-a7mar el-yoom li-ann yameen hina katheer, wa gareeb zayn el-yoom"
+    },
+    {
+     "ar": "رحت المطعم أمس مع صديقي لأن جوعان كثير، وشربت قهوة زين معاه",
+     "en": "I went to the restaurant yesterday with my friend because I was very hungry, and I drank good coffee with him",
+     "translit": "riHt el-mat3am ams ma3a sadeeqi li-ann jaw3aan katheer, wa shirabt gahwa zayn ma3aah"
+    },
+    {
+     "ar": "عندي فلوس كثير اليوم لأن ما رحت المطعم الغالي، وأبغى أروح المطعم الرخيص",
+     "en": "I have a lot of money today because I didn't go to the expensive restaurant, and I want to go to the cheap one",
+     "translit": "aandi fluus katheer el-yoom li-ann ma riHt el-mat3am el-ghaali, wa abgha aruu7 el-mat3am er-rikhees"
+    },
+    {
+     "ar": "أنا مبسوط اليوم لأن شفت أهلي أمس، وأبغى أروح بيتهم بكرا زين",
+     "en": "I'm happy today because I saw my family yesterday, and I want to go to their house tomorrow, good",
+     "translit": "ana mabsoot el-yoom li-ann shift ahli ams, wa abgha aruu7 baythum bukra zayn"
+    }
+   ]
+  },
+  {
+   "number": 31,
+   "title": "At the Hospital, Chained",
+   "titleNative": "في المستشفى، جمل مركبة",
+   "items": [
+    {
+     "ar": "لازم أروح المستشفى الحين لأن مريض كثير، وأبغى الطبيب زين",
+     "en": "I have to go to the hospital now because I'm very sick, and I want a good doctor"
+    },
+    {
+     "ar": "لازم تروح الطبيبة بكرا لأن مريض كثير، وعندها شغل زين",
+     "en": "You have to go to the doctor (f) tomorrow because you're very sick, and she has good work"
+    },
+    {
+     "ar": "ما أبغى أروح المستشفى اليوم لأن مشغولين كثير، بس لازم أروح",
+     "en": "I don't want to go to the hospital today because it's very busy, but I have to go"
+    },
+    {
+     "ar": "خالي عنده شغل زين في المستشفى، وأبغى شغل زين هناك بعدين",
+     "en": "My uncle has good work at the hospital, and I want good work there later"
+    }
+   ]
+  },
+  {
+   "number": 32,
+   "title": "Train Rides, Chained",
+   "titleNative": "القطار، جمل مركبة",
+   "items": [
+    {
+     "ar": "رحت الشغل في القطار أمس لأن السيارة ما زينة، وشفت أخوي هناك",
+     "en": "I went to work on the train yesterday because the car isn't good, and I saw my brother there"
+    },
+    {
+     "ar": "تروح البيت في القطار بكرا لأن مستعجل كثير، وتشرب قهوة هناك",
+     "en": "You're going home on the train tomorrow because you're in a hurry, and you'll drink coffee there"
+    },
+    {
+     "ar": "ما أبغى أروح في القطار اليوم لأن مشغولين كثير هناك، وعندي شغل",
+     "en": "I don't want to go on the train today because it's very busy there, and I have work"
+    },
+    {
+     "ar": "لازم أروح المطعم في القطار الحين لأن أخوي عنده السيارة، وتعبان كثير",
+     "en": "I have to go to the restaurant on the train now because my brother has the car, and I'm very tired"
+    }
+   ]
+  }
+ ]
 }

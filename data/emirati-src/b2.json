@@ -1,847 +1,866 @@
 {
-  "level": "b2",
-  "grammarTopics": {
-    "b2-ma": {
-      "title": "Negation: Ma + Verb",
-      "pattern": "ما + الفعل المضارع (present-tense verb)",
-      "explanation": "ما (ma) negates a present-tense verb directly, with no extra word needed: ما أروح البيت اليوم (ma aruu7 el-bayt el-yoom, \"I'm not going home today\"). This is different from مب/مو, which only negate nouns and adjectives (مب زين, \"not good\") -- verbs always take ما.",
-      "fact": "Gulf Arabic speakers sometimes drop the subject pronoun entirely and rely on the verb's own prefix to carry the person, so \"ما أدري\" alone (no أنا) is a completely normal, complete sentence for \"I don't know.\"",
-      "dialogue": [
-        {
-          "sp": "A",
-          "native": "ما أدري وين البيت اليوم، والله",
-          "en": "I don't know where the house is today, honestly"
-        },
-        {
-          "sp": "B",
-          "native": "ما تقدر تدري؟ لازم تسأل صديقك",
-          "en": "You can't find out? You should ask your friend"
-        }
-      ]
+ "level": "b2",
+ "grammarTopics": {
+  "b2-ma": {
+   "title": "Negation: Ma + Verb",
+   "pattern": "ما + الفعل المضارع (present-tense verb)",
+   "explanation": "ما (ma) negates a present-tense verb directly, with no extra word needed: ما أروح البيت اليوم (ma aruu7 el-bayt el-yoom, \"I'm not going home today\"). This is different from مب/مو, which only negate nouns and adjectives (مب زين, \"not good\") -- verbs always take ما.",
+   "fact": "Gulf Arabic speakers sometimes drop the subject pronoun entirely and rely on the verb's own prefix to carry the person, so \"ما أدري\" alone (no أنا) is a completely normal, complete sentence for \"I don't know.\"",
+   "dialogue": [
+    {
+     "sp": "A",
+     "native": "ما أدري وين البيت اليوم، والله",
+     "en": "I don't know where the house is today, honestly"
+    },
+    {
+     "sp": "B",
+     "native": "ما تقدر تدري؟ لازم تسأل صديقك",
+     "en": "You can't find out? You should ask your friend"
     }
+   ]
+  }
+ },
+ "lessons": [
+  {
+   "number": 1,
+   "title": "I Don't Drink, I Don't Go",
+   "titleNative": "ما أشرب، ما أروح",
+   "items": [
+    {
+     "ar": "ما أشرب قهوة اليوم لأن عطشان مويه بس زين",
+     "en": "I'm not drinking coffee today because I'm just thirsty for water, that's fine",
+     "translit": "ma ashrab gahwa el-yoom li-ann 3atshaan moya bas zayn"
+    },
+    {
+     "ar": "ما تروح البيت الحين لأن الأهل مب هناك اليوم",
+     "en": "You're not going home now because the family isn't there today",
+     "translit": "ma truu7 el-bayt el-heen li-ann el-ahl mub hinaak el-yoom"
+    },
+    {
+     "ar": "ما يشرب شاي اليوم لأن يبغى قهوة زين بس",
+     "en": "He's not drinking tea today because he just wants good coffee",
+     "translit": "ma yishrab shaay el-yoom li-ann yabgha gahwa zayn bas"
+    },
+    {
+     "ar": "ما تدري وين البيت الجديد، لازم تدري اليوم بس",
+     "en": "You don't know where the new house is, you should find out today",
+     "translit": "ma tadri wein el-bayt el-jideed, laazim tadri el-yoom bas"
+    }
+   ],
+   "topicId": "b2-ma"
   },
-  "lessons": [
+  {
+   "number": 2,
+   "title": "She Doesn't, We Don't",
+   "titleNative": "ما تروح، ما نروح",
+   "items": [
     {
-      "number": 1,
-      "title": "I Don't Drink, I Don't Go",
-      "titleNative": "ما أشرب، ما أروح",
-      "items": [
-        {
-          "ar": "ما أشرب قهوة اليوم لأن عطشان مويه بس زين",
-          "en": "I'm not drinking coffee today because I'm just thirsty for water, that's fine",
-          "translit": "ma ashrab gahwa el-yoom li-ann 3atshaan moya bas zayn"
-        },
-        {
-          "ar": "ما تروح البيت الحين لأن الأهل مب هناك اليوم",
-          "en": "You're not going home now because the family isn't there today",
-          "translit": "ma truu7 el-bayt el-heen li-ann el-ahl mub hinaak el-yoom"
-        },
-        {
-          "ar": "ما يشرب شاي اليوم لأن يبغى قهوة زين بس",
-          "en": "He's not drinking tea today because he just wants good coffee",
-          "translit": "ma yishrab shaay el-yoom li-ann yabgha gahwa zayn bas"
-        },
-        {
-          "ar": "ما تدري وين البيت الجديد، لازم تدري اليوم بس",
-          "en": "You don't know where the new house is, you should find out today",
-          "translit": "ma tadri wein el-bayt el-jideed, laazim tadri el-yoom bas"
-        }
-      ],
-      "topicId": "b2-ma"
+     "ar": "ما تروح المطعم اليوم لأن السعر غالي كثير هناك",
+     "en": "She's not going to the restaurant today because the price is very expensive there",
+     "translit": "ma truu7 el-mat3am el-yoom li-ann es-si3ir ghaali katheer hinaak"
     },
     {
-      "number": 2,
-      "title": "She Doesn't, We Don't",
-      "titleNative": "ما تروح، ما نروح",
-      "items": [
-        {
-          "ar": "ما تروح المطعم اليوم لأن السعر غالي كثير هناك",
-          "en": "She's not going to the restaurant today because the price is very expensive there",
-          "translit": "ma truu7 el-mat3am el-yoom li-ann es-si3ir ghaali katheer hinaak"
-        },
-        {
-          "ar": "ما ندري وين نروح بكرا لأن مشغولين كثير اليوم",
-          "en": "We don't know where we're going tomorrow because we're very busy today",
-          "translit": "ma nadri wein nruu7 bukra li-ann mashghooleen katheer el-yoom"
-        },
-        {
-          "ar": "ما تشربون قهوة اليوم لأن عندكم شاي زين بس",
-          "en": "You all aren't drinking coffee today because you just have good tea",
-          "translit": "ma tishraboon gahwa el-yoom li-ann aandakum shaay zayn bas"
-        },
-        {
-          "ar": "ما يدرون وين البيت، لازم يدرون اليوم بس",
-          "en": "They don't know where the house is, they should find out today",
-          "translit": "ma yadroon wein el-bayt, laazim yadroon el-yoom bas"
-        }
-      ],
-      "topicId": "b2-ma"
+     "ar": "ما ندري وين نروح بكرا لأن مشغولين كثير اليوم",
+     "en": "We don't know where we're going tomorrow because we're very busy today",
+     "translit": "ma nadri wein nruu7 bukra li-ann mashghooleen katheer el-yoom"
     },
     {
-      "number": 3,
-      "title": "Not This, Not That",
-      "titleNative": "مب هذا، مب هذي",
-      "items": [
-        {
-          "ar": "هذا البيت مب زين كثير، أبغى بيت جديد بكرا",
-          "en": "This house isn't very good, I want a new house tomorrow",
-          "translit": "hatha el-bayt mub zayn katheer, abgha bayt jideed bukra"
-        },
-        {
-          "ar": "هذي السيارة مب رخيصة، السعر غالي كثير اليوم",
-          "en": "This car isn't cheap, the price is very expensive today",
-          "translit": "hathi es-sayyaara mub rikheesa, es-si3ir ghaali katheer el-yoom"
-        },
-        {
-          "ar": "هذول الأهل مب مشغولين اليوم، لازم أروح بيتهم بكرا",
-          "en": "This family isn't busy today, I should go to their house tomorrow",
-          "translit": "hathool el-ahl mub mashghooleen el-yoom, laazim aruu7 baythum bukra"
-        },
-        {
-          "ar": "ما أبغى هذا البيت لأن مب قريب زين اليوم",
-          "en": "I don't want this house because it's not close and good today",
-          "translit": "ma abgha hatha el-bayt li-ann mub gareeb zayn el-yoom"
-        }
-      ],
-      "topicId": "b2-ma"
+     "ar": "ما تشربون قهوة اليوم لأن عندكم شاي زين بس",
+     "en": "You all aren't drinking coffee today because you just have good tea",
+     "translit": "ma tishraboon gahwa el-yoom li-ann aandakum shaay zayn bas"
     },
     {
-      "number": 4,
-      "title": "Not Because, But Because",
-      "titleNative": "مب لأن، بس لأن",
-      "items": [
-        {
-          "ar": "ما أروح المطعم اليوم مب لأن مشغول، بس لأن تعبان",
-          "en": "I'm not going to the restaurant today not because I'm busy, but because I'm tired",
-          "translit": "ma aruu7 el-mat3am el-yoom mub li-ann mashghool, bas li-ann ta3baan"
-        },
-        {
-          "ar": "ما تشرب قهوة الحين مب لأن ما تبغى، بس لأن تعبانة",
-          "en": "You're not drinking coffee now not because you don't want to, but because you're tired",
-          "translit": "ma tishrab gahwa el-heen mub li-ann ma tabgha, bas li-ann ta3baana"
-        },
-        {
-          "ar": "ما يروح البيت مب لأن زعلان، بس لأن مشغول كثير",
-          "en": "He's not going home not because he's upset, but because he's very busy",
-          "translit": "ma yruu7 el-bayt mub li-ann za3laan, bas li-ann mashghool katheer"
-        },
-        {
-          "ar": "ما ندري مب لأن مشغولين، بس لأن ما شفنا الأهل",
-          "en": "We don't know not because we're busy, but because we haven't seen the family",
-          "translit": "ma nadri mub li-ann mashghooleen, bas li-ann ma shifna el-ahl"
-        }
-      ],
-      "topicId": "b2-ma"
-    },
-    {
-      "number": 5,
-      "title": "Review: Negation",
-      "titleNative": "مراجعة",
-      "items": [
-        {
-          "ar": "ما أشرب قهوة اليوم لأن أبغى شاي زين بس",
-          "en": "I'm not drinking coffee today because I just want good tea",
-          "translit": "ma ashrab gahwa el-yoom li-ann abgha shaay zayn bas"
-        },
-        {
-          "ar": "هذا البيت مب زين كثير، ما أبغى أروح هناك بكرا",
-          "en": "This house isn't very good, I don't want to go there tomorrow",
-          "translit": "hatha el-bayt mub zayn katheer, ma abgha aruu7 hinaak bukra"
-        },
-        {
-          "ar": "ما تدري وين الأهل مب لأن مشغولة، بس لأن تعبانة",
-          "en": "You don't know where the family is not because you're busy, but because you're tired",
-          "translit": "ma tadri wein el-ahl mub li-ann mashghoola, bas li-ann ta3baana"
-        },
-        {
-          "ar": "ما ندري وين نروح بكرا، لازم ندري اليوم بس",
-          "en": "We don't know where we're going tomorrow, we should find out today",
-          "translit": "ma nadri wein nruu7 bukra, laazim nadri el-yoom bas"
-        }
-      ]
-    },
-    {
-      "number": 6,
-      "title": "Negation and Money",
-      "titleNative": "النفي والفلوس",
-      "items": [
-        {
-          "ar": "ما أبغى هذا البيت لأن السعر غالي كثير اليوم",
-          "en": "I don't want this house because the price is very expensive today",
-          "translit": "ma abgha hatha el-bayt li-ann es-si3ir ghaali katheer el-yoom"
-        },
-        {
-          "ar": "ما عندي فلوس كثير اليوم، ما أقدر أروح المطعم",
-          "en": "I don't have a lot of money today, I can't go to the restaurant",
-          "translit": "ma aandi fluus katheer el-yoom, ma aqdar aruu7 el-mat3am"
-        },
-        {
-          "ar": "ما عنده فلوس زين اليوم، ما يشرب قهوة غالية بكرا",
-          "en": "He doesn't have good money today, he's not drinking expensive coffee tomorrow",
-          "translit": "ma aandah fluus zayn el-yoom, ma yishrab gahwa ghaalya bukra"
-        },
-        {
-          "ar": "ما عندنا فلوس كثير اليوم، ما نروح المطعم الغالي بكرا",
-          "en": "We don't have a lot of money today, we're not going to the expensive restaurant tomorrow",
-          "translit": "ma aandana fluus katheer el-yoom, ma nruu7 el-mat3am el-ghaali bukra"
-        }
-      ]
-    },
-    {
-      "number": 7,
-      "title": "Negation and Family",
-      "titleNative": "النفي والأهل",
-      "items": [
-        {
-          "ar": "ما شفت أختي أمس، أبغى أروح بيتها اليوم زين",
-          "en": "I didn't see my sister yesterday, I want to go to her house today, good",
-          "translit": "ma shift ukhti ams, abgha aruu7 baytha el-yoom zayn"
-        },
-        {
-          "ar": "ما رحت بيت أخوي اليوم لأن مشغول كثير اليوم",
-          "en": "I didn't go to my brother's house today because I'm very busy today",
-          "translit": "ma riHt bayt akhooy el-yoom li-ann mashghool katheer el-yoom"
-        },
-        {
-          "ar": "ما شافت أهلها أمس، تبغى تروح بيتهم بكرا زين",
-          "en": "She didn't see her family yesterday, she wants to go to their house tomorrow, good",
-          "translit": "ma shaafat ahilha ams, tabgha truu7 baythum bukra zayn"
-        },
-        {
-          "ar": "ما رحنا بيت أهلنا اليوم لأن السيارة عندهم مب هنا",
-          "en": "We didn't go to our family's house today because the car isn't with them here",
-          "translit": "ma ru7na bayt ahalna el-yoom li-ann es-sayyaara aandahum mub hina"
-        }
-      ]
-    },
-    {
-      "number": 8,
-      "title": "Negation and Colors",
-      "titleNative": "النفي والألوان",
-      "items": [
-        {
-          "ar": "ما أبغى البيت الأحمر، أبغى البيت الأزرق الجديد بكرا",
-          "en": "I don't want the red house, I want the new blue house tomorrow",
-          "translit": "ma abgha el-bayt el-a7mar, abgha el-bayt el-azrag el-jideed bukra"
-        },
-        {
-          "ar": "ما تبغى البيت الأصفر، تبغى البيت الأسود الجديد بكرا",
-          "en": "You don't want the yellow house, you want the new black house tomorrow",
-          "translit": "ma tabgha el-bayt el-asfar, tabgha el-bayt el-aswad el-jideed bukra"
-        },
-        {
-          "ar": "ما يبغى البيت الأخضر لأن مب قريب زين اليوم",
-          "en": "He doesn't want the green house because it's not close and good today",
-          "translit": "ma yabgha el-bayt el-akhdar li-ann mub gareeb zayn el-yoom"
-        },
-        {
-          "ar": "ما نروح البيت الأبيض، لازم نروح بيت كبير وجديد بكرا",
-          "en": "We're not going to the white house, we should go to a big, new house tomorrow",
-          "translit": "ma nruu7 el-bayt el-abyad, laazim nruu7 bayt kabeer wa jideed bukra"
-        }
-      ]
-    },
-    {
-      "number": 9,
-      "title": "Negation and Places",
-      "titleNative": "النفي والأماكن",
-      "items": [
-        {
-          "ar": "ما أروح المطعم القريب اليوم، أروح المطعم البعيد بكرا",
-          "en": "I'm not going to the nearby restaurant today, I'm going to the far one tomorrow",
-          "translit": "ma aruu7 el-mat3am el-gareeb el-yoom, aruu7 el-mat3am el-ba3eed bukra"
-        },
-        {
-          "ar": "ما تروح يمين اليوم، لازم تروح يسار لأن قريب زين",
-          "en": "You're not going right today, you should go left because it's close, good",
-          "translit": "ma truu7 yameen el-yoom, laazim truu7 yasaar li-ann gareeb zayn"
-        },
-        {
-          "ar": "ما يروح البيت الحين لأن الشرطة قدّام البيت اليوم",
-          "en": "He's not going home now because the police are in front of the house today",
-          "translit": "ma yruu7 el-bayt el-heen li-ann esh-shurta guddaam el-bayt el-yoom"
-        },
-        {
-          "ar": "ما نروح هناك اليوم، نروح هنا لأن قريب زين كثير",
-          "en": "We're not going there today, we're going here because it's very close, good",
-          "translit": "ma nruu7 hinaak el-yoom, nruu7 hina li-ann gareeb zayn katheer"
-        }
-      ]
-    },
-    {
-      "number": 10,
-      "title": "Review: B2 Recap",
-      "titleNative": "مراجعة نهائية",
-      "items": [
-        {
-          "ar": "ما أبغى هذا البيت لأن السعر غالي، أبغى بيت رخيص",
-          "en": "I don't want this house because the price is expensive, I want a cheap house",
-          "translit": "ma abgha hatha el-bayt li-ann es-si3ir ghaali, abgha bayt rikhees"
-        },
-        {
-          "ar": "ما شفت أهلي أمس، أبغى أروح بيتهم بكرا زين",
-          "en": "I didn't see my family yesterday, I want to go to their house tomorrow, good",
-          "translit": "ma shift ahli ams, abgha aruu7 baythum bukra zayn"
-        },
-        {
-          "ar": "ما تبغى البيت الأحمر، تبغى البيت الأزرق الجديد بكرا",
-          "en": "You don't want the red house, you want the new blue house tomorrow",
-          "translit": "ma tabgha el-bayt el-a7mar, tabgha el-bayt el-azrag el-jideed bukra"
-        },
-        {
-          "ar": "ما نروح المطعم البعيد اليوم، نروح القريب لأن رخيص زين",
-          "en": "We're not going to the far restaurant today, we're going to the near one because it's cheap, good",
-          "translit": "ma nruu7 el-mat3am el-ba3eed el-yoom, nruu7 el-gareeb li-ann rikhees zayn"
-        }
-      ]
-    },
-    {
-      "number": 11,
-      "title": "I'm Not Sick",
-      "titleNative": "أنا مب مريض",
-      "items": [
-        {
-          "ar": "أنا مب مريض اليوم، بس تعبان كثير اليوم",
-          "en": "I'm not sick today, just very tired today",
-          "translit": "ana mub mareedh el-yoom, bas ta3baan katheer el-yoom"
-        },
-        {
-          "ar": "ما تروح الدكتور اليوم لأن مب مريضة كثير",
-          "en": "You're not going to the doctor today because you're not very sick",
-          "translit": "ma truu7 ed-doktoor el-yoom li-ann mub mareedha katheer"
-        },
-        {
-          "ar": "هو مب زعلان اليوم، بس تعبان كثير اليوم",
-          "en": "He's not upset today, just very tired today",
-          "translit": "huwa mub za3laan el-yoom, bas ta3baan katheer el-yoom"
-        },
-        {
-          "ar": "ما نروح المستشفى الحين لأن الأهل مب مريضين كثير",
-          "en": "We're not going to the hospital now because the family isn't very sick",
-          "translit": "ma nruu7 el-mustashfa el-heen li-ann el-ahl mub mareedheen katheer"
-        }
-      ],
-      "topicId": "b2-ma"
-    },
-    {
-      "number": 12,
-      "title": "Not Tired, Not Happy",
-      "titleNative": "مب تعبان، مب مبسوط",
-      "items": [
-        {
-          "ar": "هي مب تعبانة اليوم، بس زعلانة كثير اليوم",
-          "en": "She's not tired today, just very upset today",
-          "translit": "hiya mub ta3baana el-yoom, bas za3laana katheer el-yoom"
-        },
-        {
-          "ar": "ما أبغى أروح الشغل اليوم لأن مب مبسوط كثير",
-          "en": "I don't want to go to work today because I'm not very happy",
-          "translit": "ma abgha aruu7 esh-shughul el-yoom li-ann mub mabsoot katheer"
-        },
-        {
-          "ar": "احنا مب زعلانين اليوم، بس تعبانين كثير اليوم",
-          "en": "We're not upset today, just very tired today",
-          "translit": "i7na mub za3laaneen el-yoom, bas ta3baaneen katheer el-yoom"
-        },
-        {
-          "ar": "هم مب مبسوطين اليوم لأن ما شافو الأهل أمس",
-          "en": "They're not happy today because they didn't see the family yesterday",
-          "translit": "hum mub mabsooteen el-yoom li-ann ma shaafo el-ahl ams"
-        }
-      ],
-      "topicId": "b2-ma"
-    },
-    {
-      "number": 13,
-      "title": "Not One, Not Two",
-      "titleNative": "مب واحد، مب اثنين",
-      "items": [
-        {
-          "ar": "عندي مب واحد اليوم، عندي ثلاثة زين والحمد لله",
-          "en": "I don't have one today, I have three, good, thank God",
-          "translit": "aandi mub waahid el-yoom, aandi thalaatha zayn wal-hamdulillah"
-        },
-        {
-          "ar": "عنده مب خمسة اليوم، عنده سبعة كثير زين",
-          "en": "He doesn't have five today, he has seven, very good",
-          "translit": "aandah mub khamsa el-yoom, aandah sab3a katheer zayn"
-        },
-        {
-          "ar": "ما شفت اثنين اليوم، شفت أربعة زين مع الأهل",
-          "en": "I didn't see two today, I saw four, good, with the family",
-          "translit": "ma shift ithnayn el-yoom, shift arba3a zayn ma3a el-ahl"
-        },
-        {
-          "ar": "عندنا مب تسعة اليوم، عندنا عشرة زين والحمد لله",
-          "en": "We don't have nine today, we have ten, good, thank God",
-          "translit": "aandana mub tis3a el-yoom, aandana ashara zayn wal-hamdulillah"
-        }
-      ],
-      "topicId": "b2-ma"
-    },
-    {
-      "number": 14,
-      "title": "Not Today, Not Friday",
-      "titleNative": "مب اليوم، مب الجمعة",
-      "items": [
-        {
-          "ar": "ما أروح البيت اليوم، أروح بكرا لأن مشغول كثير",
-          "en": "I'm not going home today, I'm going tomorrow because I'm very busy",
-          "translit": "ma aruu7 el-bayt el-yoom, aruu7 bukra li-ann mashghool katheer"
-        },
-        {
-          "ar": "يوم الجمعة مب زين اليوم، يوم السبت زين كثير",
-          "en": "Friday isn't good today, Saturday is very good",
-          "translit": "yoom el-jum3a mub zayn el-yoom, yoom es-sabt zayn katheer"
-        },
-        {
-          "ar": "ما تروح المطعم يوم الخميس، تروح يوم الجمعة زين",
-          "en": "You're not going to the restaurant on Thursday, you're going on Friday, good",
-          "translit": "ma truu7 el-mat3am yoom el-khamees, truu7 yoom el-jum3a zayn"
-        },
-        {
-          "ar": "ما شفنا الأهل يوم الأحد، شفناهم يوم الاثنين زين",
-          "en": "We didn't see the family on Sunday, we saw them on Monday, good",
-          "translit": "ma shifna el-ahl yoom el-a7ad, shifnaahum yoom el-ithnayn zayn"
-        }
-      ],
-      "topicId": "b2-ma"
-    },
-    {
-      "number": 15,
-      "title": "Review: Negation with Health, Numbers, Days",
-      "titleNative": "مراجعة",
-      "items": [
-        {
-          "ar": "أنا مب مريض اليوم، بس تعبان كثير اليوم",
-          "en": "I'm not sick today, just very tired today",
-          "translit": "ana mub mareedh el-yoom, bas ta3baan katheer el-yoom"
-        },
-        {
-          "ar": "هي مب زعلانة اليوم، عندها صديق زين هناك اليوم",
-          "en": "She's not upset today, she has a good friend there today",
-          "translit": "hiya mub za3laana el-yoom, aandaha sadeeq zayn hinaak el-yoom"
-        },
-        {
-          "ar": "ما رحنا الدكتور يوم الجمعة، رحنا يوم السبت زين",
-          "en": "We didn't go to the doctor on Friday, we went on Saturday, good",
-          "translit": "ma ru7na ed-doktoor yoom el-jum3a, ru7na yoom es-sabt zayn"
-        },
-        {
-          "ar": "احنا مب تعبانين اليوم، بس مبسوطين كثير اليوم",
-          "en": "We're not tired today, just very happy today",
-          "translit": "i7na mub ta3baaneen el-yoom, bas mabsooteen katheer el-yoom"
-        }
-      ]
-    },
-    {
-      "number": 16,
-      "title": "Not Expensive, Not Cheap",
-      "titleNative": "مب غالي، مب رخيص",
-      "items": [
-        {
-          "ar": "هذا البيت مب غالي كثير، السعر زين اليوم بس",
-          "en": "This house isn't very expensive, the price is good today",
-          "translit": "hatha el-bayt mub ghaali katheer, es-si3ir zayn el-yoom bas"
-        },
-        {
-          "ar": "ما عندي فلوس كثير اليوم، أبغى بيت رخيص بس زين",
-          "en": "I don't have a lot of money today, I just want a cheap, good house",
-          "translit": "ma aandi fluus katheer el-yoom, abgha bayt rikhees bas zayn"
-        },
-        {
-          "ar": "هذي السيارة مب رخيصة كثير، السعر غالي اليوم",
-          "en": "This car isn't very cheap, the price is expensive today",
-          "translit": "hathi es-sayyaara mub rikheesa katheer, es-si3ir ghaali el-yoom"
-        },
-        {
-          "ar": "ما نروح البيت الغالي اليوم، نروح البيت الرخيص الزين",
-          "en": "We're not going to the expensive house today, we're going to the cheap, good house",
-          "translit": "ma nruu7 el-bayt el-ghaali el-yoom, nruu7 el-bayt er-rikhees ez-zayn"
-        }
-      ]
-    },
-    {
-      "number": 17,
-      "title": "Not My Brother, My Sister",
-      "titleNative": "مب أخوي، أختي",
-      "items": [
-        {
-          "ar": "ما رحت بيت أخوي اليوم، رحت بيت أختي زين",
-          "en": "I didn't go to my brother's house today, I went to my sister's house, good",
-          "translit": "ma riHt bayt akhooy el-yoom, riHt bayt ukhti zayn"
-        },
-        {
-          "ar": "ما شافت أهلها اليوم، شافت أهل صديقها زين كثير",
-          "en": "She didn't see her family today, she saw her friend's family, very good",
-          "translit": "ma shaafat ahilha el-yoom, shaafat ahl sadeegha zayn katheer"
-        },
-        {
-          "ar": "ما عندنا أهل هناك اليوم، عندنا أهل هنا زين",
-          "en": "We don't have family there today, we have family here, good",
-          "translit": "ma aandana ahl hinaak el-yoom, aandana ahl hina zayn"
-        },
-        {
-          "ar": "أبويه مب زعلان اليوم، بس تعبان كثير اليوم",
-          "en": "Dad isn't upset today, just very tired today",
-          "translit": "abooyah mub za3laan el-yoom, bas ta3baan katheer el-yoom"
-        }
-      ]
-    },
-    {
-      "number": 18,
-      "title": "Not Near, Not Far",
-      "titleNative": "مب قريب، مب بعيد",
-      "items": [
-        {
-          "ar": "هذا المطعم مب قريب كثير، بعيد كثير اليوم",
-          "en": "This restaurant isn't close, it's very far today",
-          "translit": "hatha el-mat3am mub gareeb, ba3eed katheer el-yoom"
-        },
-        {
-          "ar": "ما تروح يمين اليوم، تروح يسار لأن زين اليوم",
-          "en": "You're not going right today, you're going left because it's good today",
-          "translit": "ma truu7 yameen el-yoom, truu7 yasaar li-ann zayn el-yoom"
-        },
-        {
-          "ar": "ما يروح المستشفى البعيد، يروح المستشفى القريب زين",
-          "en": "He's not going to the far hospital, he's going to the near one, good",
-          "translit": "ma yruu7 el-mustashfa el-ba3eed, yruu7 el-mustashfa el-gareeb zayn"
-        },
-        {
-          "ar": "ما نروح هناك اليوم، نروح هنا لأن قريب وزين",
-          "en": "We're not going there today, we're going here because it's close and good",
-          "translit": "ma nruu7 hinaak el-yoom, nruu7 hina li-ann gareeb wa zayn"
-        }
-      ]
-    },
-    {
-      "number": 19,
-      "title": "Not Red, Not Blue",
-      "titleNative": "مب أحمر، مب أزرق",
-      "items": [
-        {
-          "ar": "ما أبغى البيت الأحمر اليوم، أبغى البيت الأخضر بكرا",
-          "en": "I don't want the red house today, I want the green house tomorrow",
-          "translit": "ma abgha el-bayt el-a7mar el-yoom, abgha el-bayt el-akhdar bukra"
-        },
-        {
-          "ar": "ما أبغى البيت الأصفر اليوم، أبغى البيت الأبيض بكرا",
-          "en": "I don't want the yellow house today, I want the white house tomorrow",
-          "translit": "ma abgha el-bayt el-asfar el-yoom, abgha el-bayt el-abyad bukra"
-        },
-        {
-          "ar": "ما يبغى البيت الأسود، يبغى البيت الأبيض الجديد زين",
-          "en": "He doesn't want the black house, he wants the new white house, good",
-          "translit": "ma yabgha el-bayt el-aswad, yabgha el-bayt el-abyad el-jideed zayn"
-        },
-        {
-          "ar": "ما نروح بيت بني اليوم، نروح بيت رمادي وجديد بكرا",
-          "en": "We're not going to a brown house today, we're going to a new, gray house tomorrow",
-          "translit": "ma nruu7 bayt bunni el-yoom, nruu7 bayt ramaadi wa jideed bukra"
-        }
-      ]
-    },
-    {
-      "number": 20,
-      "title": "Review: B2 Recap",
-      "titleNative": "مراجعة نهائية",
-      "items": [
-        {
-          "ar": "هذا البيت مب غالي كثير، السعر زين، أبغى أروح بكرا",
-          "en": "This house isn't very expensive, the price is good, I want to go tomorrow",
-          "translit": "hatha el-bayt mub ghaali katheer, es-si3ir zayn, abgha aruu7 bukra"
-        },
-        {
-          "ar": "ما رحت بيت أخوي اليوم، رحت بيت أختي لأن زين",
-          "en": "I didn't go to my brother's house today, I went to my sister's because it's good",
-          "translit": "ma riHt bayt akhooy el-yoom, riHt bayt ukhti li-ann zayn"
-        },
-        {
-          "ar": "هذا المطعم مب قريب، بس مب غالي كثير زين",
-          "en": "This restaurant isn't close, but it's not very expensive, good",
-          "translit": "hatha el-mat3am mub gareeb, bas mub ghaali katheer zayn"
-        },
-        {
-          "ar": "ما نروح البيت الأحمر اليوم، نروح البيت الأزرق الجديد بكرا",
-          "en": "We're not going to the red house today, we're going to the new blue house tomorrow",
-          "translit": "ma nruu7 el-bayt el-a7mar el-yoom, nruu7 el-bayt el-azrag el-jideed bukra"
-        }
-      ]
-    },
-    {
-      "number": 21,
-      "title": "You Don't Have to Go",
-      "titleNative": "ما لازم تروح",
-      "items": [
-        {
-          "ar": "ما لازم تروح الشغل اليوم لأن مب مستعجل كثير",
-          "en": "You don't have to go to work today because it's not very urgent",
-          "translit": "ma laazim truu7 esh-shughul el-yoom li-ann mub musta3jil katheer"
-        },
-        {
-          "ar": "ما لازم أشرب قهوة الحين، أبغى مويه زين بس",
-          "en": "I don't have to drink coffee now, I just want good water",
-          "translit": "ma laazim ashrab gahwa el-heen, abgha moya zayn bas"
-        },
-        {
-          "ar": "ما لازم يروح الدكتور اليوم لأن مب مريض كثير",
-          "en": "He doesn't have to go to the doctor today because he's not very sick",
-          "translit": "ma laazim yruu7 ed-doktoor el-yoom li-ann mub mareedh katheer"
-        },
-        {
-          "ar": "ما لازم نشرب شاي الحين، عندنا قهوة زين بس",
-          "en": "We don't have to drink tea now, we just have good coffee",
-          "translit": "ma laazim nishrab shaay el-heen, aandana gahwa zayn bas"
-        }
-      ],
-      "topicId": "b2-ma"
-    },
-    {
-      "number": 22,
-      "title": "She Doesn't Have To, You All Don't Have To",
-      "titleNative": "ما لازم تشرب، ما لازم تشربون",
-      "items": [
-        {
-          "ar": "ما لازم تشرب قهوة الحين لأن مب عطشانة كثير",
-          "en": "She doesn't have to drink coffee now because she's not very thirsty",
-          "translit": "ma laazim tishrab gahwa el-heen li-ann mub 3atshaana katheer"
-        },
-        {
-          "ar": "ما لازم تشربون مويه الحين لأن مب عطشانين كثير",
-          "en": "You all don't have to drink water now because you're not very thirsty",
-          "translit": "ma laazim tishraboon moya el-heen li-ann mub 3atshaaneen katheer"
-        },
-        {
-          "ar": "ما لازم يشربون شاي الحين لأن مب تعبانين كثير",
-          "en": "They don't have to drink tea now because they're not very tired",
-          "translit": "ma laazim yishraboon shaay el-heen li-ann mub ta3baaneen katheer"
-        },
-        {
-          "ar": "ما لازم أروح المطعم بكرا لأن عندي أكل زين",
-          "en": "I don't have to go to the restaurant tomorrow because I have good food",
-          "translit": "ma laazim aruu7 el-mat3am bukra li-ann aandi akil zayn"
-        }
-      ],
-      "topicId": "b2-ma"
-    },
-    {
-      "number": 23,
-      "title": "I Don't Know, You Don't Want",
-      "titleNative": "ما أدري، ما تبغى",
-      "items": [
-        {
-          "ar": "ما أدري وين البيت الجديد، بس أبغى أروح بكرا",
-          "en": "I don't know where the new house is, but I want to go tomorrow",
-          "translit": "ma adri wein el-bayt el-jideed, bas abgha aruu7 bukra"
-        },
-        {
-          "ar": "ما تبغى تروح المطعم اليوم لأن مب جوعان كثير",
-          "en": "You don't want to go to the restaurant today because you're not very hungry",
-          "translit": "ma tabgha truu7 el-mat3am el-yoom li-ann mub jaw3aan katheer"
-        },
-        {
-          "ar": "ما يدري وين أهله الحين، بس يبغى يروح بيتهم",
-          "en": "He doesn't know where his family is now, but he wants to go to their house",
-          "translit": "ma yadri wein ahlah el-heen, bas yabgha yruu7 baythum"
-        },
-        {
-          "ar": "ما ندري وين نروح بكرا، بس ما نروح المطعم الغالي بكرا",
-          "en": "We don't know where we're going tomorrow, but we're not going to the expensive restaurant tomorrow",
-          "translit": "ma nadri wein nruu7 bukra, bas ma nruu7 el-mat3am el-ghaali bukra"
-        }
-      ],
-      "topicId": "b2-ma"
-    },
-    {
-      "number": 24,
-      "title": "They Don't Know, We Don't Want",
-      "titleNative": "ما يدرون، ما نبغى",
-      "items": [
-        {
-          "ar": "ما تدرون وين البيت اليوم، لازم تدرون اليوم بس",
-          "en": "You all don't know where the house is today, you should find out today",
-          "translit": "ma tadroon wein el-bayt el-yoom, laazim tadroon el-yoom bas"
-        },
-        {
-          "ar": "ما يدرون وين يروحون بكرا، بس عندهم بيت زين",
-          "en": "They don't know where they're going tomorrow, but they have a good house",
-          "translit": "ma yadroon wein yruu7oon bukra, bas aandahum bayt zayn"
-        },
-        {
-          "ar": "ما نروح بيت غالي اليوم، نروح بيت رخيص وقريب بكرا",
-          "en": "We're not going to an expensive house today, we're going to a cheap, close house tomorrow",
-          "translit": "ma nruu7 bayt ghaali el-yoom, nruu7 bayt rikhees wa gareeb bukra"
-        },
-        {
-          "ar": "ما أبغى أروح المطعم البعيد اليوم، أبغى المطعم القريب",
-          "en": "I don't want to go to the far restaurant today, I want the near one",
-          "translit": "ma abgha aruu7 el-mat3am el-ba3eed el-yoom, abgha el-mat3am el-gareeb"
-        }
-      ],
-      "topicId": "b2-ma"
-    },
-    {
-      "number": 25,
-      "title": "Review: Negation with Lazim, Know, Want",
-      "titleNative": "مراجعة",
-      "items": [
-        {
-          "ar": "ما لازم تروح الشغل اليوم لأن مب مستعجل كثير",
-          "en": "You don't have to go to work today because it's not very urgent",
-          "translit": "ma laazim truu7 esh-shughul el-yoom li-ann mub musta3jil katheer"
-        },
-        {
-          "ar": "ما أدري وين البيت الجديد، بس أبغى أشرب قهوة الحين",
-          "en": "I don't know where the new house is, but I want to drink coffee now",
-          "translit": "ma adri wein el-bayt el-jideed, bas abgha ashrab gahwa el-heen"
-        },
-        {
-          "ar": "ما يدرون وين يروحون بكرا، بس ما يروحون المطعم الغالي",
-          "en": "They don't know where they're going tomorrow, but they're not going to the expensive restaurant",
-          "translit": "ma yadroon wein yruu7oon bukra, bas ma yruu7oon el-mat3am el-ghaali"
-        },
-        {
-          "ar": "ما نروح بيت غالي اليوم، نروح بيت رخيص وقريب بكرا",
-          "en": "We're not going to an expensive house today, we're going to a cheap, close house tomorrow",
-          "translit": "ma nruu7 bayt ghaali el-yoom, nruu7 bayt rikhees wa gareeb bukra"
-        }
-      ]
-    },
-    {
-      "number": 26,
-      "title": "A Day of Negation",
-      "titleNative": "يوم من النفي",
-      "items": [
-        {
-          "ar": "ما أشرب قهوة الصباح اليوم، أشرب شاي زين بس",
-          "en": "I'm not drinking coffee this morning today, I'm just drinking good tea",
-          "translit": "ma ashrab gahwa es-sabaa7 el-yoom, ashrab shaay zayn bas"
-        },
-        {
-          "ar": "ما رحت الشغل بكرا، رحت بيت أهلي زين كثير",
-          "en": "I didn't go to work tomorrow, I went to my family's house, very good",
-          "translit": "ma riHt esh-shughul bukra, riHt bayt ahli zayn katheer"
-        },
-        {
-          "ar": "ما شفت أخوي اليوم، بس شفت أختي زين هناك",
-          "en": "I didn't see my brother today, but I saw my sister, good, there",
-          "translit": "ma shift akhooy el-yoom, bas shift ukhti zayn hinaak"
-        },
-        {
-          "ar": "ما أدري وين رحت أمس، بس أبغى أروح بكرا زين",
-          "en": "I don't know where I went yesterday, but I want to go tomorrow, good",
-          "translit": "ma adri wein riHt ams, bas abgha aruu7 bukra zayn"
-        }
-      ]
-    },
-    {
-      "number": 27,
-      "title": "Another Day of Negation",
-      "titleNative": "يوم ثاني من النفي",
-      "items": [
-        {
-          "ar": "ما تبغى تروح المطعم اليوم مب لأن غالي، بس لأن تعبانة",
-          "en": "You don't want to go to the restaurant today not because it's expensive, but because you're tired",
-          "translit": "ma tabgha truu7 el-mat3am el-yoom mub li-ann ghaali, bas li-ann ta3baana"
-        },
-        {
-          "ar": "ما يبغى البيت الأحمر، يبغى البيت الأزرق الجديد بكرا",
-          "en": "He doesn't want the red house, he wants the new blue house tomorrow",
-          "translit": "ma yabgha el-bayt el-a7mar, yabgha el-bayt el-azrag el-jideed bukra"
-        },
-        {
-          "ar": "ما ندري وين أهلنا الحين، بس ما نروح بعيد اليوم",
-          "en": "We don't know where our family is now, but we're not going far today",
-          "translit": "ma nadri wein ahalna el-heen, bas ma nruu7 ba3eed el-yoom"
-        },
-        {
-          "ar": "ما شفنا صديقنا كثير، بس أبغى أروح بيته بكرا",
-          "en": "We haven't seen our friend much, but I want to go to his house tomorrow",
-          "translit": "ma shifna sadeegna katheer, bas abgha aruu7 baytah bukra"
-        }
-      ]
-    },
-    {
-      "number": 28,
-      "title": "Not Happy, Not Sad",
-      "titleNative": "مب مبسوط، مب زعلان",
-      "items": [
-        {
-          "ar": "أنا مب مبسوط اليوم لأن ما شفت أهلي أمس",
-          "en": "I'm not happy today because I didn't see my family yesterday",
-          "translit": "ana mub mabsoot el-yoom li-ann ma shift ahli ams"
-        },
-        {
-          "ar": "هي مب زعلانة اليوم، بس ما عندها فلوس كثير",
-          "en": "She's not upset today, but she doesn't have a lot of money",
-          "translit": "hiya mub za3laana el-yoom, bas ma aandaha fluus katheer"
-        },
-        {
-          "ar": "ما رحنا بيت أخوي اليوم لأن مب زين اليوم",
-          "en": "We didn't go to my brother's house today because it's not good today",
-          "translit": "ma ru7na bayt akhooy el-yoom li-ann mub zayn el-yoom"
-        },
-        {
-          "ar": "أختي مب تعبانة اليوم، بس عندها شغل كثير اليوم",
-          "en": "My sister isn't tired today, but she has a lot of work today",
-          "translit": "ukhti mub ta3baana el-yoom, bas aandaha shughul katheer el-yoom"
-        }
-      ]
-    },
-    {
-      "number": 29,
-      "title": "Friends, Family, and Negation",
-      "titleNative": "الأصحاب والأهل والنفي",
-      "items": [
-        {
-          "ar": "ما أبغى أروح بيت صديقي اليوم لأن تعبان كثير اليوم",
-          "en": "I don't want to go to my friend's house today because I'm very tired today",
-          "translit": "ma abgha aruu7 bayt sadeeqi el-yoom li-ann ta3baan katheer el-yoom"
-        },
-        {
-          "ar": "أخوي مب مشغول اليوم، بس ما يبغى يروح المطعم",
-          "en": "My brother isn't busy today, but he doesn't want to go to the restaurant",
-          "translit": "akhooy mub mashghool el-yoom, bas ma yabgha yruu7 el-mat3am"
-        },
-        {
-          "ar": "ما ندري وين أهلنا اليوم لأن ما شفناهم أمس",
-          "en": "We don't know where our family is today because we didn't see them yesterday",
-          "translit": "ma nadri wein ahalna el-yoom li-ann ma shifnaahum ams"
-        },
-        {
-          "ar": "ما شفت صديقي كثير، أبغى أروح بيته بكرا زين",
-          "en": "I haven't seen my friend much, I want to go to his house tomorrow, good",
-          "translit": "ma shift sadeeqi katheer, abgha aruu7 baytah bukra zayn"
-        }
-      ]
-    },
-    {
-      "number": 30,
-      "title": "Review: B2 Recap",
-      "titleNative": "مراجعة نهائية",
-      "items": [
-        {
-          "ar": "ما لازم تروح الشغل اليوم لأن مب مستعجل، أشرب قهوة بس",
-          "en": "You don't have to go to work today because it's not urgent, just drink coffee",
-          "translit": "ma laazim truu7 esh-shughul el-yoom li-ann mub musta3jil, ashrab gahwa bas"
-        },
-        {
-          "ar": "ما أدري وين أهلي الحين، بس أبغى أروح بيتهم بكرا",
-          "en": "I don't know where my family is now, but I want to go to their house tomorrow",
-          "translit": "ma adri wein ahli el-heen, bas abgha aruu7 baythum bukra"
-        },
-        {
-          "ar": "ما تبغى البيت الغالي اليوم، تبغى البيت الرخيص القريب",
-          "en": "You don't want the expensive house today, you want the cheap, close house",
-          "translit": "ma tabgha el-bayt el-ghaali el-yoom, tabgha el-bayt er-rikhees el-gareeb"
-        },
-        {
-          "ar": "ما نروح بعيد اليوم، نروح بيت أهلنا القريب بكرا",
-          "en": "We're not going far today, we're going to our family's nearby house tomorrow",
-          "translit": "ma nruu7 ba3eed el-yoom, nruu7 bayt ahalna el-gareeb bukra"
-        }
-      ]
+     "ar": "ما يدرون وين البيت، لازم يدرون اليوم بس",
+     "en": "They don't know where the house is, they should find out today",
+     "translit": "ma yadroon wein el-bayt, laazim yadroon el-yoom bas"
     }
-  ]
+   ],
+   "topicId": "b2-ma"
+  },
+  {
+   "number": 3,
+   "title": "Not This, Not That",
+   "titleNative": "مب هذا، مب هذي",
+   "items": [
+    {
+     "ar": "هذا البيت مب زين كثير، أبغى بيت جديد بكرا",
+     "en": "This house isn't very good, I want a new house tomorrow",
+     "translit": "hatha el-bayt mub zayn katheer, abgha bayt jideed bukra"
+    },
+    {
+     "ar": "هذي السيارة مب رخيصة، السعر غالي كثير اليوم",
+     "en": "This car isn't cheap, the price is very expensive today",
+     "translit": "hathi es-sayyaara mub rikheesa, es-si3ir ghaali katheer el-yoom"
+    },
+    {
+     "ar": "هذول الأهل مب مشغولين اليوم، لازم أروح بيتهم بكرا",
+     "en": "This family isn't busy today, I should go to their house tomorrow",
+     "translit": "hathool el-ahl mub mashghooleen el-yoom, laazim aruu7 baythum bukra"
+    },
+    {
+     "ar": "ما أبغى هذا البيت لأن مب قريب زين اليوم",
+     "en": "I don't want this house because it's not close and good today",
+     "translit": "ma abgha hatha el-bayt li-ann mub gareeb zayn el-yoom"
+    }
+   ],
+   "topicId": "b2-ma"
+  },
+  {
+   "number": 4,
+   "title": "Not Because, But Because",
+   "titleNative": "مب لأن، بس لأن",
+   "items": [
+    {
+     "ar": "ما أروح المطعم اليوم مب لأن مشغول، بس لأن تعبان",
+     "en": "I'm not going to the restaurant today not because I'm busy, but because I'm tired",
+     "translit": "ma aruu7 el-mat3am el-yoom mub li-ann mashghool, bas li-ann ta3baan"
+    },
+    {
+     "ar": "ما تشرب قهوة الحين مب لأن ما تبغى، بس لأن تعبانة",
+     "en": "You're not drinking coffee now not because you don't want to, but because you're tired",
+     "translit": "ma tishrab gahwa el-heen mub li-ann ma tabgha, bas li-ann ta3baana"
+    },
+    {
+     "ar": "ما يروح البيت مب لأن زعلان، بس لأن مشغول كثير",
+     "en": "He's not going home not because he's upset, but because he's very busy",
+     "translit": "ma yruu7 el-bayt mub li-ann za3laan, bas li-ann mashghool katheer"
+    },
+    {
+     "ar": "ما ندري مب لأن مشغولين، بس لأن ما شفنا الأهل",
+     "en": "We don't know not because we're busy, but because we haven't seen the family",
+     "translit": "ma nadri mub li-ann mashghooleen, bas li-ann ma shifna el-ahl"
+    }
+   ],
+   "topicId": "b2-ma"
+  },
+  {
+   "number": 5,
+   "title": "Review: Negation",
+   "titleNative": "مراجعة",
+   "items": [
+    {
+     "ar": "ما أشرب قهوة اليوم لأن أبغى شاي زين بس",
+     "en": "I'm not drinking coffee today because I just want good tea",
+     "translit": "ma ashrab gahwa el-yoom li-ann abgha shaay zayn bas"
+    },
+    {
+     "ar": "هذا البيت مب زين كثير، ما أبغى أروح هناك بكرا",
+     "en": "This house isn't very good, I don't want to go there tomorrow",
+     "translit": "hatha el-bayt mub zayn katheer, ma abgha aruu7 hinaak bukra"
+    },
+    {
+     "ar": "ما تدري وين الأهل مب لأن مشغولة، بس لأن تعبانة",
+     "en": "You don't know where the family is not because you're busy, but because you're tired",
+     "translit": "ma tadri wein el-ahl mub li-ann mashghoola, bas li-ann ta3baana"
+    },
+    {
+     "ar": "ما ندري وين نروح بكرا، لازم ندري اليوم بس",
+     "en": "We don't know where we're going tomorrow, we should find out today",
+     "translit": "ma nadri wein nruu7 bukra, laazim nadri el-yoom bas"
+    }
+   ]
+  },
+  {
+   "number": 6,
+   "title": "Negation and Money",
+   "titleNative": "النفي والفلوس",
+   "items": [
+    {
+     "ar": "ما أبغى هذا البيت لأن السعر غالي كثير اليوم",
+     "en": "I don't want this house because the price is very expensive today",
+     "translit": "ma abgha hatha el-bayt li-ann es-si3ir ghaali katheer el-yoom"
+    },
+    {
+     "ar": "ما عندي فلوس كثير اليوم، ما أقدر أروح المطعم",
+     "en": "I don't have a lot of money today, I can't go to the restaurant",
+     "translit": "ma aandi fluus katheer el-yoom, ma aqdar aruu7 el-mat3am"
+    },
+    {
+     "ar": "ما عنده فلوس زين اليوم، ما يشرب قهوة غالية بكرا",
+     "en": "He doesn't have good money today, he's not drinking expensive coffee tomorrow",
+     "translit": "ma aandah fluus zayn el-yoom, ma yishrab gahwa ghaalya bukra"
+    },
+    {
+     "ar": "ما عندنا فلوس كثير اليوم، ما نروح المطعم الغالي بكرا",
+     "en": "We don't have a lot of money today, we're not going to the expensive restaurant tomorrow",
+     "translit": "ma aandana fluus katheer el-yoom, ma nruu7 el-mat3am el-ghaali bukra"
+    }
+   ]
+  },
+  {
+   "number": 7,
+   "title": "Negation and Family",
+   "titleNative": "النفي والأهل",
+   "items": [
+    {
+     "ar": "ما شفت أختي أمس، أبغى أروح بيتها اليوم زين",
+     "en": "I didn't see my sister yesterday, I want to go to her house today, good",
+     "translit": "ma shift ukhti ams, abgha aruu7 baytha el-yoom zayn"
+    },
+    {
+     "ar": "ما رحت بيت أخوي اليوم لأن مشغول كثير اليوم",
+     "en": "I didn't go to my brother's house today because I'm very busy today",
+     "translit": "ma riHt bayt akhooy el-yoom li-ann mashghool katheer el-yoom"
+    },
+    {
+     "ar": "ما شافت أهلها أمس، تبغى تروح بيتهم بكرا زين",
+     "en": "She didn't see her family yesterday, she wants to go to their house tomorrow, good",
+     "translit": "ma shaafat ahilha ams, tabgha truu7 baythum bukra zayn"
+    },
+    {
+     "ar": "ما رحنا بيت أهلنا اليوم لأن السيارة عندهم مب هنا",
+     "en": "We didn't go to our family's house today because the car isn't with them here",
+     "translit": "ma ru7na bayt ahalna el-yoom li-ann es-sayyaara aandahum mub hina"
+    }
+   ]
+  },
+  {
+   "number": 8,
+   "title": "Negation and Colors",
+   "titleNative": "النفي والألوان",
+   "items": [
+    {
+     "ar": "ما أبغى البيت الأحمر، أبغى البيت الأزرق الجديد بكرا",
+     "en": "I don't want the red house, I want the new blue house tomorrow",
+     "translit": "ma abgha el-bayt el-a7mar, abgha el-bayt el-azrag el-jideed bukra"
+    },
+    {
+     "ar": "ما تبغى البيت الأصفر، تبغى البيت الأسود الجديد بكرا",
+     "en": "You don't want the yellow house, you want the new black house tomorrow",
+     "translit": "ma tabgha el-bayt el-asfar, tabgha el-bayt el-aswad el-jideed bukra"
+    },
+    {
+     "ar": "ما يبغى البيت الأخضر لأن مب قريب زين اليوم",
+     "en": "He doesn't want the green house because it's not close and good today",
+     "translit": "ma yabgha el-bayt el-akhdar li-ann mub gareeb zayn el-yoom"
+    },
+    {
+     "ar": "ما نروح البيت الأبيض، لازم نروح بيت كبير وجديد بكرا",
+     "en": "We're not going to the white house, we should go to a big, new house tomorrow",
+     "translit": "ma nruu7 el-bayt el-abyad, laazim nruu7 bayt kabeer wa jideed bukra"
+    }
+   ]
+  },
+  {
+   "number": 9,
+   "title": "Negation and Places",
+   "titleNative": "النفي والأماكن",
+   "items": [
+    {
+     "ar": "ما أروح المطعم القريب اليوم، أروح المطعم البعيد بكرا",
+     "en": "I'm not going to the nearby restaurant today, I'm going to the far one tomorrow",
+     "translit": "ma aruu7 el-mat3am el-gareeb el-yoom, aruu7 el-mat3am el-ba3eed bukra"
+    },
+    {
+     "ar": "ما تروح يمين اليوم، لازم تروح يسار لأن قريب زين",
+     "en": "You're not going right today, you should go left because it's close, good",
+     "translit": "ma truu7 yameen el-yoom, laazim truu7 yasaar li-ann gareeb zayn"
+    },
+    {
+     "ar": "ما يروح البيت الحين لأن الشرطة قدّام البيت اليوم",
+     "en": "He's not going home now because the police are in front of the house today",
+     "translit": "ma yruu7 el-bayt el-heen li-ann esh-shurta guddaam el-bayt el-yoom"
+    },
+    {
+     "ar": "ما نروح هناك اليوم، نروح هنا لأن قريب زين كثير",
+     "en": "We're not going there today, we're going here because it's very close, good",
+     "translit": "ma nruu7 hinaak el-yoom, nruu7 hina li-ann gareeb zayn katheer"
+    }
+   ]
+  },
+  {
+   "number": 10,
+   "title": "Review: B2 Recap",
+   "titleNative": "مراجعة نهائية",
+   "items": [
+    {
+     "ar": "ما أبغى هذا البيت لأن السعر غالي، أبغى بيت رخيص",
+     "en": "I don't want this house because the price is expensive, I want a cheap house",
+     "translit": "ma abgha hatha el-bayt li-ann es-si3ir ghaali, abgha bayt rikhees"
+    },
+    {
+     "ar": "ما شفت أهلي أمس، أبغى أروح بيتهم بكرا زين",
+     "en": "I didn't see my family yesterday, I want to go to their house tomorrow, good",
+     "translit": "ma shift ahli ams, abgha aruu7 baythum bukra zayn"
+    },
+    {
+     "ar": "ما تبغى البيت الأحمر، تبغى البيت الأزرق الجديد بكرا",
+     "en": "You don't want the red house, you want the new blue house tomorrow",
+     "translit": "ma tabgha el-bayt el-a7mar, tabgha el-bayt el-azrag el-jideed bukra"
+    },
+    {
+     "ar": "ما نروح المطعم البعيد اليوم، نروح القريب لأن رخيص زين",
+     "en": "We're not going to the far restaurant today, we're going to the near one because it's cheap, good",
+     "translit": "ma nruu7 el-mat3am el-ba3eed el-yoom, nruu7 el-gareeb li-ann rikhees zayn"
+    }
+   ]
+  },
+  {
+   "number": 11,
+   "title": "I'm Not Sick",
+   "titleNative": "أنا مب مريض",
+   "items": [
+    {
+     "ar": "أنا مب مريض اليوم، بس تعبان كثير اليوم",
+     "en": "I'm not sick today, just very tired today",
+     "translit": "ana mub mareedh el-yoom, bas ta3baan katheer el-yoom"
+    },
+    {
+     "ar": "ما تروح الدكتور اليوم لأن مب مريضة كثير",
+     "en": "You're not going to the doctor today because you're not very sick",
+     "translit": "ma truu7 ed-doktoor el-yoom li-ann mub mareedha katheer"
+    },
+    {
+     "ar": "هو مب زعلان اليوم، بس تعبان كثير اليوم",
+     "en": "He's not upset today, just very tired today",
+     "translit": "huwa mub za3laan el-yoom, bas ta3baan katheer el-yoom"
+    },
+    {
+     "ar": "ما نروح المستشفى الحين لأن الأهل مب مريضين كثير",
+     "en": "We're not going to the hospital now because the family isn't very sick",
+     "translit": "ma nruu7 el-mustashfa el-heen li-ann el-ahl mub mareedheen katheer"
+    }
+   ],
+   "topicId": "b2-ma"
+  },
+  {
+   "number": 12,
+   "title": "Not Tired, Not Happy",
+   "titleNative": "مب تعبان، مب مبسوط",
+   "items": [
+    {
+     "ar": "هي مب تعبانة اليوم، بس زعلانة كثير اليوم",
+     "en": "She's not tired today, just very upset today",
+     "translit": "hiya mub ta3baana el-yoom, bas za3laana katheer el-yoom"
+    },
+    {
+     "ar": "ما أبغى أروح الشغل اليوم لأن مب مبسوط كثير",
+     "en": "I don't want to go to work today because I'm not very happy",
+     "translit": "ma abgha aruu7 esh-shughul el-yoom li-ann mub mabsoot katheer"
+    },
+    {
+     "ar": "احنا مب زعلانين اليوم، بس تعبانين كثير اليوم",
+     "en": "We're not upset today, just very tired today",
+     "translit": "i7na mub za3laaneen el-yoom, bas ta3baaneen katheer el-yoom"
+    },
+    {
+     "ar": "هم مب مبسوطين اليوم لأن ما شافو الأهل أمس",
+     "en": "They're not happy today because they didn't see the family yesterday",
+     "translit": "hum mub mabsooteen el-yoom li-ann ma shaafo el-ahl ams"
+    }
+   ],
+   "topicId": "b2-ma"
+  },
+  {
+   "number": 13,
+   "title": "Not One, Not Two",
+   "titleNative": "مب واحد، مب اثنين",
+   "items": [
+    {
+     "ar": "عندي مب واحد اليوم، عندي ثلاثة زين والحمد لله",
+     "en": "I don't have one today, I have three, good, thank God",
+     "translit": "aandi mub waahid el-yoom, aandi thalaatha zayn wal-hamdulillah"
+    },
+    {
+     "ar": "عنده مب خمسة اليوم، عنده سبعة كثير زين",
+     "en": "He doesn't have five today, he has seven, very good",
+     "translit": "aandah mub khamsa el-yoom, aandah sab3a katheer zayn"
+    },
+    {
+     "ar": "ما شفت اثنين اليوم، شفت أربعة زين مع الأهل",
+     "en": "I didn't see two today, I saw four, good, with the family",
+     "translit": "ma shift ithnayn el-yoom, shift arba3a zayn ma3a el-ahl"
+    },
+    {
+     "ar": "عندنا مب تسعة اليوم، عندنا عشرة زين والحمد لله",
+     "en": "We don't have nine today, we have ten, good, thank God",
+     "translit": "aandana mub tis3a el-yoom, aandana ashara zayn wal-hamdulillah"
+    }
+   ],
+   "topicId": "b2-ma"
+  },
+  {
+   "number": 14,
+   "title": "Not Today, Not Friday",
+   "titleNative": "مب اليوم، مب الجمعة",
+   "items": [
+    {
+     "ar": "ما أروح البيت اليوم، أروح بكرا لأن مشغول كثير",
+     "en": "I'm not going home today, I'm going tomorrow because I'm very busy",
+     "translit": "ma aruu7 el-bayt el-yoom, aruu7 bukra li-ann mashghool katheer"
+    },
+    {
+     "ar": "يوم الجمعة مب زين اليوم، يوم السبت زين كثير",
+     "en": "Friday isn't good today, Saturday is very good",
+     "translit": "yoom el-jum3a mub zayn el-yoom, yoom es-sabt zayn katheer"
+    },
+    {
+     "ar": "ما تروح المطعم يوم الخميس، تروح يوم الجمعة زين",
+     "en": "You're not going to the restaurant on Thursday, you're going on Friday, good",
+     "translit": "ma truu7 el-mat3am yoom el-khamees, truu7 yoom el-jum3a zayn"
+    },
+    {
+     "ar": "ما شفنا الأهل يوم الأحد، شفناهم يوم الاثنين زين",
+     "en": "We didn't see the family on Sunday, we saw them on Monday, good",
+     "translit": "ma shifna el-ahl yoom el-a7ad, shifnaahum yoom el-ithnayn zayn"
+    }
+   ],
+   "topicId": "b2-ma"
+  },
+  {
+   "number": 15,
+   "title": "Review: Negation with Health, Numbers, Days",
+   "titleNative": "مراجعة",
+   "items": [
+    {
+     "ar": "أنا مب مريض اليوم، بس تعبان كثير اليوم",
+     "en": "I'm not sick today, just very tired today",
+     "translit": "ana mub mareedh el-yoom, bas ta3baan katheer el-yoom"
+    },
+    {
+     "ar": "هي مب زعلانة اليوم، عندها صديق زين هناك اليوم",
+     "en": "She's not upset today, she has a good friend there today",
+     "translit": "hiya mub za3laana el-yoom, aandaha sadeeq zayn hinaak el-yoom"
+    },
+    {
+     "ar": "ما رحنا الدكتور يوم الجمعة، رحنا يوم السبت زين",
+     "en": "We didn't go to the doctor on Friday, we went on Saturday, good",
+     "translit": "ma ru7na ed-doktoor yoom el-jum3a, ru7na yoom es-sabt zayn"
+    },
+    {
+     "ar": "احنا مب تعبانين اليوم، بس مبسوطين كثير اليوم",
+     "en": "We're not tired today, just very happy today",
+     "translit": "i7na mub ta3baaneen el-yoom, bas mabsooteen katheer el-yoom"
+    }
+   ]
+  },
+  {
+   "number": 16,
+   "title": "Not Expensive, Not Cheap",
+   "titleNative": "مب غالي، مب رخيص",
+   "items": [
+    {
+     "ar": "هذا البيت مب غالي كثير، السعر زين اليوم بس",
+     "en": "This house isn't very expensive, the price is good today",
+     "translit": "hatha el-bayt mub ghaali katheer, es-si3ir zayn el-yoom bas"
+    },
+    {
+     "ar": "ما عندي فلوس كثير اليوم، أبغى بيت رخيص بس زين",
+     "en": "I don't have a lot of money today, I just want a cheap, good house",
+     "translit": "ma aandi fluus katheer el-yoom, abgha bayt rikhees bas zayn"
+    },
+    {
+     "ar": "هذي السيارة مب رخيصة كثير، السعر غالي اليوم",
+     "en": "This car isn't very cheap, the price is expensive today",
+     "translit": "hathi es-sayyaara mub rikheesa katheer, es-si3ir ghaali el-yoom"
+    },
+    {
+     "ar": "ما نروح البيت الغالي اليوم، نروح البيت الرخيص الزين",
+     "en": "We're not going to the expensive house today, we're going to the cheap, good house",
+     "translit": "ma nruu7 el-bayt el-ghaali el-yoom, nruu7 el-bayt er-rikhees ez-zayn"
+    }
+   ]
+  },
+  {
+   "number": 17,
+   "title": "Not My Brother, My Sister",
+   "titleNative": "مب أخوي، أختي",
+   "items": [
+    {
+     "ar": "ما رحت بيت أخوي اليوم، رحت بيت أختي زين",
+     "en": "I didn't go to my brother's house today, I went to my sister's house, good",
+     "translit": "ma riHt bayt akhooy el-yoom, riHt bayt ukhti zayn"
+    },
+    {
+     "ar": "ما شافت أهلها اليوم، شافت أهل صديقها زين كثير",
+     "en": "She didn't see her family today, she saw her friend's family, very good",
+     "translit": "ma shaafat ahilha el-yoom, shaafat ahl sadeegha zayn katheer"
+    },
+    {
+     "ar": "ما عندنا أهل هناك اليوم، عندنا أهل هنا زين",
+     "en": "We don't have family there today, we have family here, good",
+     "translit": "ma aandana ahl hinaak el-yoom, aandana ahl hina zayn"
+    },
+    {
+     "ar": "أبويه مب زعلان اليوم، بس تعبان كثير اليوم",
+     "en": "Dad isn't upset today, just very tired today",
+     "translit": "abooyah mub za3laan el-yoom, bas ta3baan katheer el-yoom"
+    }
+   ]
+  },
+  {
+   "number": 18,
+   "title": "Not Near, Not Far",
+   "titleNative": "مب قريب، مب بعيد",
+   "items": [
+    {
+     "ar": "هذا المطعم مب قريب كثير، بعيد كثير اليوم",
+     "en": "This restaurant isn't close, it's very far today",
+     "translit": "hatha el-mat3am mub gareeb, ba3eed katheer el-yoom"
+    },
+    {
+     "ar": "ما تروح يمين اليوم، تروح يسار لأن زين اليوم",
+     "en": "You're not going right today, you're going left because it's good today",
+     "translit": "ma truu7 yameen el-yoom, truu7 yasaar li-ann zayn el-yoom"
+    },
+    {
+     "ar": "ما يروح المستشفى البعيد، يروح المستشفى القريب زين",
+     "en": "He's not going to the far hospital, he's going to the near one, good",
+     "translit": "ma yruu7 el-mustashfa el-ba3eed, yruu7 el-mustashfa el-gareeb zayn"
+    },
+    {
+     "ar": "ما نروح هناك اليوم، نروح هنا لأن قريب وزين",
+     "en": "We're not going there today, we're going here because it's close and good",
+     "translit": "ma nruu7 hinaak el-yoom, nruu7 hina li-ann gareeb wa zayn"
+    }
+   ]
+  },
+  {
+   "number": 19,
+   "title": "Not Red, Not Blue",
+   "titleNative": "مب أحمر، مب أزرق",
+   "items": [
+    {
+     "ar": "ما أبغى البيت الأحمر اليوم، أبغى البيت الأخضر بكرا",
+     "en": "I don't want the red house today, I want the green house tomorrow",
+     "translit": "ma abgha el-bayt el-a7mar el-yoom, abgha el-bayt el-akhdar bukra"
+    },
+    {
+     "ar": "ما أبغى البيت الأصفر اليوم، أبغى البيت الأبيض بكرا",
+     "en": "I don't want the yellow house today, I want the white house tomorrow",
+     "translit": "ma abgha el-bayt el-asfar el-yoom, abgha el-bayt el-abyad bukra"
+    },
+    {
+     "ar": "ما يبغى البيت الأسود، يبغى البيت الأبيض الجديد زين",
+     "en": "He doesn't want the black house, he wants the new white house, good",
+     "translit": "ma yabgha el-bayt el-aswad, yabgha el-bayt el-abyad el-jideed zayn"
+    },
+    {
+     "ar": "ما نروح بيت بني اليوم، نروح بيت رمادي وجديد بكرا",
+     "en": "We're not going to a brown house today, we're going to a new, gray house tomorrow",
+     "translit": "ma nruu7 bayt bunni el-yoom, nruu7 bayt ramaadi wa jideed bukra"
+    }
+   ]
+  },
+  {
+   "number": 20,
+   "title": "Review: B2 Recap",
+   "titleNative": "مراجعة نهائية",
+   "items": [
+    {
+     "ar": "هذا البيت مب غالي كثير، السعر زين، أبغى أروح بكرا",
+     "en": "This house isn't very expensive, the price is good, I want to go tomorrow",
+     "translit": "hatha el-bayt mub ghaali katheer, es-si3ir zayn, abgha aruu7 bukra"
+    },
+    {
+     "ar": "ما رحت بيت أخوي اليوم، رحت بيت أختي لأن زين",
+     "en": "I didn't go to my brother's house today, I went to my sister's because it's good",
+     "translit": "ma riHt bayt akhooy el-yoom, riHt bayt ukhti li-ann zayn"
+    },
+    {
+     "ar": "هذا المطعم مب قريب، بس مب غالي كثير زين",
+     "en": "This restaurant isn't close, but it's not very expensive, good",
+     "translit": "hatha el-mat3am mub gareeb, bas mub ghaali katheer zayn"
+    },
+    {
+     "ar": "ما نروح البيت الأحمر اليوم، نروح البيت الأزرق الجديد بكرا",
+     "en": "We're not going to the red house today, we're going to the new blue house tomorrow",
+     "translit": "ma nruu7 el-bayt el-a7mar el-yoom, nruu7 el-bayt el-azrag el-jideed bukra"
+    }
+   ]
+  },
+  {
+   "number": 21,
+   "title": "You Don't Have to Go",
+   "titleNative": "ما لازم تروح",
+   "items": [
+    {
+     "ar": "ما لازم تروح الشغل اليوم لأن مب مستعجل كثير",
+     "en": "You don't have to go to work today because it's not very urgent",
+     "translit": "ma laazim truu7 esh-shughul el-yoom li-ann mub musta3jil katheer"
+    },
+    {
+     "ar": "ما لازم أشرب قهوة الحين، أبغى مويه زين بس",
+     "en": "I don't have to drink coffee now, I just want good water",
+     "translit": "ma laazim ashrab gahwa el-heen, abgha moya zayn bas"
+    },
+    {
+     "ar": "ما لازم يروح الدكتور اليوم لأن مب مريض كثير",
+     "en": "He doesn't have to go to the doctor today because he's not very sick",
+     "translit": "ma laazim yruu7 ed-doktoor el-yoom li-ann mub mareedh katheer"
+    },
+    {
+     "ar": "ما لازم نشرب شاي الحين، عندنا قهوة زين بس",
+     "en": "We don't have to drink tea now, we just have good coffee",
+     "translit": "ma laazim nishrab shaay el-heen, aandana gahwa zayn bas"
+    }
+   ],
+   "topicId": "b2-ma"
+  },
+  {
+   "number": 22,
+   "title": "She Doesn't Have To, You All Don't Have To",
+   "titleNative": "ما لازم تشرب، ما لازم تشربون",
+   "items": [
+    {
+     "ar": "ما لازم تشرب قهوة الحين لأن مب عطشانة كثير",
+     "en": "She doesn't have to drink coffee now because she's not very thirsty",
+     "translit": "ma laazim tishrab gahwa el-heen li-ann mub 3atshaana katheer"
+    },
+    {
+     "ar": "ما لازم تشربون مويه الحين لأن مب عطشانين كثير",
+     "en": "You all don't have to drink water now because you're not very thirsty",
+     "translit": "ma laazim tishraboon moya el-heen li-ann mub 3atshaaneen katheer"
+    },
+    {
+     "ar": "ما لازم يشربون شاي الحين لأن مب تعبانين كثير",
+     "en": "They don't have to drink tea now because they're not very tired",
+     "translit": "ma laazim yishraboon shaay el-heen li-ann mub ta3baaneen katheer"
+    },
+    {
+     "ar": "ما لازم أروح المطعم بكرا لأن عندي أكل زين",
+     "en": "I don't have to go to the restaurant tomorrow because I have good food",
+     "translit": "ma laazim aruu7 el-mat3am bukra li-ann aandi akil zayn"
+    }
+   ],
+   "topicId": "b2-ma"
+  },
+  {
+   "number": 23,
+   "title": "I Don't Know, You Don't Want",
+   "titleNative": "ما أدري، ما تبغى",
+   "items": [
+    {
+     "ar": "ما أدري وين البيت الجديد، بس أبغى أروح بكرا",
+     "en": "I don't know where the new house is, but I want to go tomorrow",
+     "translit": "ma adri wein el-bayt el-jideed, bas abgha aruu7 bukra"
+    },
+    {
+     "ar": "ما تبغى تروح المطعم اليوم لأن مب جوعان كثير",
+     "en": "You don't want to go to the restaurant today because you're not very hungry",
+     "translit": "ma tabgha truu7 el-mat3am el-yoom li-ann mub jaw3aan katheer"
+    },
+    {
+     "ar": "ما يدري وين أهله الحين، بس يبغى يروح بيتهم",
+     "en": "He doesn't know where his family is now, but he wants to go to their house",
+     "translit": "ma yadri wein ahlah el-heen, bas yabgha yruu7 baythum"
+    },
+    {
+     "ar": "ما ندري وين نروح بكرا، بس ما نروح المطعم الغالي بكرا",
+     "en": "We don't know where we're going tomorrow, but we're not going to the expensive restaurant tomorrow",
+     "translit": "ma nadri wein nruu7 bukra, bas ma nruu7 el-mat3am el-ghaali bukra"
+    }
+   ],
+   "topicId": "b2-ma"
+  },
+  {
+   "number": 24,
+   "title": "They Don't Know, We Don't Want",
+   "titleNative": "ما يدرون، ما نبغى",
+   "items": [
+    {
+     "ar": "ما تدرون وين البيت اليوم، لازم تدرون اليوم بس",
+     "en": "You all don't know where the house is today, you should find out today",
+     "translit": "ma tadroon wein el-bayt el-yoom, laazim tadroon el-yoom bas"
+    },
+    {
+     "ar": "ما يدرون وين يروحون بكرا، بس عندهم بيت زين",
+     "en": "They don't know where they're going tomorrow, but they have a good house",
+     "translit": "ma yadroon wein yruu7oon bukra, bas aandahum bayt zayn"
+    },
+    {
+     "ar": "ما نروح بيت غالي اليوم، نروح بيت رخيص وقريب بكرا",
+     "en": "We're not going to an expensive house today, we're going to a cheap, close house tomorrow",
+     "translit": "ma nruu7 bayt ghaali el-yoom, nruu7 bayt rikhees wa gareeb bukra"
+    },
+    {
+     "ar": "ما أبغى أروح المطعم البعيد اليوم، أبغى المطعم القريب",
+     "en": "I don't want to go to the far restaurant today, I want the near one",
+     "translit": "ma abgha aruu7 el-mat3am el-ba3eed el-yoom, abgha el-mat3am el-gareeb"
+    }
+   ],
+   "topicId": "b2-ma"
+  },
+  {
+   "number": 25,
+   "title": "Review: Negation with Lazim, Know, Want",
+   "titleNative": "مراجعة",
+   "items": [
+    {
+     "ar": "ما لازم تروح الشغل اليوم لأن مب مستعجل كثير",
+     "en": "You don't have to go to work today because it's not very urgent",
+     "translit": "ma laazim truu7 esh-shughul el-yoom li-ann mub musta3jil katheer"
+    },
+    {
+     "ar": "ما أدري وين البيت الجديد، بس أبغى أشرب قهوة الحين",
+     "en": "I don't know where the new house is, but I want to drink coffee now",
+     "translit": "ma adri wein el-bayt el-jideed, bas abgha ashrab gahwa el-heen"
+    },
+    {
+     "ar": "ما يدرون وين يروحون بكرا، بس ما يروحون المطعم الغالي",
+     "en": "They don't know where they're going tomorrow, but they're not going to the expensive restaurant",
+     "translit": "ma yadroon wein yruu7oon bukra, bas ma yruu7oon el-mat3am el-ghaali"
+    },
+    {
+     "ar": "ما نروح بيت غالي اليوم، نروح بيت رخيص وقريب بكرا",
+     "en": "We're not going to an expensive house today, we're going to a cheap, close house tomorrow",
+     "translit": "ma nruu7 bayt ghaali el-yoom, nruu7 bayt rikhees wa gareeb bukra"
+    }
+   ]
+  },
+  {
+   "number": 26,
+   "title": "A Day of Negation",
+   "titleNative": "يوم من النفي",
+   "items": [
+    {
+     "ar": "ما أشرب قهوة الصباح اليوم، أشرب شاي زين بس",
+     "en": "I'm not drinking coffee this morning today, I'm just drinking good tea",
+     "translit": "ma ashrab gahwa es-sabaa7 el-yoom, ashrab shaay zayn bas"
+    },
+    {
+     "ar": "ما رحت الشغل بكرا، رحت بيت أهلي زين كثير",
+     "en": "I didn't go to work tomorrow, I went to my family's house, very good",
+     "translit": "ma riHt esh-shughul bukra, riHt bayt ahli zayn katheer"
+    },
+    {
+     "ar": "ما شفت أخوي اليوم، بس شفت أختي زين هناك",
+     "en": "I didn't see my brother today, but I saw my sister, good, there",
+     "translit": "ma shift akhooy el-yoom, bas shift ukhti zayn hinaak"
+    },
+    {
+     "ar": "ما أدري وين رحت أمس، بس أبغى أروح بكرا زين",
+     "en": "I don't know where I went yesterday, but I want to go tomorrow, good",
+     "translit": "ma adri wein riHt ams, bas abgha aruu7 bukra zayn"
+    }
+   ]
+  },
+  {
+   "number": 27,
+   "title": "Another Day of Negation",
+   "titleNative": "يوم ثاني من النفي",
+   "items": [
+    {
+     "ar": "ما تبغى تروح المطعم اليوم مب لأن غالي، بس لأن تعبانة",
+     "en": "You don't want to go to the restaurant today not because it's expensive, but because you're tired",
+     "translit": "ma tabgha truu7 el-mat3am el-yoom mub li-ann ghaali, bas li-ann ta3baana"
+    },
+    {
+     "ar": "ما يبغى البيت الأحمر، يبغى البيت الأزرق الجديد بكرا",
+     "en": "He doesn't want the red house, he wants the new blue house tomorrow",
+     "translit": "ma yabgha el-bayt el-a7mar, yabgha el-bayt el-azrag el-jideed bukra"
+    },
+    {
+     "ar": "ما ندري وين أهلنا الحين، بس ما نروح بعيد اليوم",
+     "en": "We don't know where our family is now, but we're not going far today",
+     "translit": "ma nadri wein ahalna el-heen, bas ma nruu7 ba3eed el-yoom"
+    },
+    {
+     "ar": "ما شفنا صديقنا كثير، بس أبغى أروح بيته بكرا",
+     "en": "We haven't seen our friend much, but I want to go to his house tomorrow",
+     "translit": "ma shifna sadeegna katheer, bas abgha aruu7 baytah bukra"
+    }
+   ]
+  },
+  {
+   "number": 28,
+   "title": "Not Happy, Not Sad",
+   "titleNative": "مب مبسوط، مب زعلان",
+   "items": [
+    {
+     "ar": "أنا مب مبسوط اليوم لأن ما شفت أهلي أمس",
+     "en": "I'm not happy today because I didn't see my family yesterday",
+     "translit": "ana mub mabsoot el-yoom li-ann ma shift ahli ams"
+    },
+    {
+     "ar": "هي مب زعلانة اليوم، بس ما عندها فلوس كثير",
+     "en": "She's not upset today, but she doesn't have a lot of money",
+     "translit": "hiya mub za3laana el-yoom, bas ma aandaha fluus katheer"
+    },
+    {
+     "ar": "ما رحنا بيت أخوي اليوم لأن مب زين اليوم",
+     "en": "We didn't go to my brother's house today because it's not good today",
+     "translit": "ma ru7na bayt akhooy el-yoom li-ann mub zayn el-yoom"
+    },
+    {
+     "ar": "أختي مب تعبانة اليوم، بس عندها شغل كثير اليوم",
+     "en": "My sister isn't tired today, but she has a lot of work today",
+     "translit": "ukhti mub ta3baana el-yoom, bas aandaha shughul katheer el-yoom"
+    }
+   ]
+  },
+  {
+   "number": 29,
+   "title": "Friends, Family, and Negation",
+   "titleNative": "الأصحاب والأهل والنفي",
+   "items": [
+    {
+     "ar": "ما أبغى أروح بيت صديقي اليوم لأن تعبان كثير اليوم",
+     "en": "I don't want to go to my friend's house today because I'm very tired today",
+     "translit": "ma abgha aruu7 bayt sadeeqi el-yoom li-ann ta3baan katheer el-yoom"
+    },
+    {
+     "ar": "أخوي مب مشغول اليوم، بس ما يبغى يروح المطعم",
+     "en": "My brother isn't busy today, but he doesn't want to go to the restaurant",
+     "translit": "akhooy mub mashghool el-yoom, bas ma yabgha yruu7 el-mat3am"
+    },
+    {
+     "ar": "ما ندري وين أهلنا اليوم لأن ما شفناهم أمس",
+     "en": "We don't know where our family is today because we didn't see them yesterday",
+     "translit": "ma nadri wein ahalna el-yoom li-ann ma shifnaahum ams"
+    },
+    {
+     "ar": "ما شفت صديقي كثير، أبغى أروح بيته بكرا زين",
+     "en": "I haven't seen my friend much, I want to go to his house tomorrow, good",
+     "translit": "ma shift sadeeqi katheer, abgha aruu7 baytah bukra zayn"
+    }
+   ]
+  },
+  {
+   "number": 30,
+   "title": "Review: B2 Recap",
+   "titleNative": "مراجعة نهائية",
+   "items": [
+    {
+     "ar": "ما لازم تروح الشغل اليوم لأن مب مستعجل، أشرب قهوة بس",
+     "en": "You don't have to go to work today because it's not urgent, just drink coffee",
+     "translit": "ma laazim truu7 esh-shughul el-yoom li-ann mub musta3jil, ashrab gahwa bas"
+    },
+    {
+     "ar": "ما أدري وين أهلي الحين، بس أبغى أروح بيتهم بكرا",
+     "en": "I don't know where my family is now, but I want to go to their house tomorrow",
+     "translit": "ma adri wein ahli el-heen, bas abgha aruu7 baythum bukra"
+    },
+    {
+     "ar": "ما تبغى البيت الغالي اليوم، تبغى البيت الرخيص القريب",
+     "en": "You don't want the expensive house today, you want the cheap, close house",
+     "translit": "ma tabgha el-bayt el-ghaali el-yoom, tabgha el-bayt er-rikhees el-gareeb"
+    },
+    {
+     "ar": "ما نروح بعيد اليوم، نروح بيت أهلنا القريب بكرا",
+     "en": "We're not going far today, we're going to our family's nearby house tomorrow",
+     "translit": "ma nruu7 ba3eed el-yoom, nruu7 bayt ahalna el-gareeb bukra"
+    }
+   ]
+  },
+  {
+   "number": 31,
+   "title": "Not Wanting Food",
+   "titleNative": "ما أبغى أكل",
+   "items": [
+    {
+     "ar": "ما أبغى لحم اليوم لأن ما عندي فلوس زين",
+     "en": "I don't want meat today because I don't have good money"
+    },
+    {
+     "ar": "ما أبغى بيض اليوم لأن ما عندي فلوس زين",
+     "en": "I don't want eggs today because I don't have good money"
+    },
+    {
+     "ar": "ما أبغى سلطة اليوم لأن ما عندي فلوس زين",
+     "en": "I don't want salad today because I don't have good money"
+    }
+   ]
+  }
+ ]
 }
