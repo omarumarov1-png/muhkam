@@ -851,6 +851,29 @@
   },
   {
    "number": 31,
+   "title": "Professions, Chained",
+   "titleNative": "المهن، جمل مركبة",
+   "items": [
+    {
+     "ar": "الكاتب عنده شغل زين وعنده فلوس زين، بس مريض",
+     "en": "The clerk has good work and good money, but he's sick"
+    },
+    {
+     "ar": "الدريول عنده شغل زين وعنده فلوس زين، بس مشغولين",
+     "en": "The driver has good work and good money, but he's busy"
+    },
+    {
+     "ar": "الميكانيكي عنده شغل زين وعنده فلوس زين، بس مستعجل",
+     "en": "The mechanic has good work and good money, but he's in a hurry"
+    },
+    {
+     "ar": "السكرتير عنده شغل زين وعنده فلوس زين، بس تعبان",
+     "en": "The secretary has good work and good money, but he's tired"
+    }
+   ]
+  },
+  {
+   "number": 32,
    "title": "At the Hospital, Chained",
    "titleNative": "في المستشفى، جمل مركبة",
    "items": [
@@ -859,21 +882,21 @@
      "en": "I have to go to the hospital now because I'm very sick, and I want a good doctor"
     },
     {
-     "ar": "لازم تروح الطبيبة بكرا لأن مريض كثير، وعندها شغل زين",
-     "en": "You have to go to the doctor (f) tomorrow because you're very sick, and she has good work"
+     "ar": "لازم تروح الطبيبة بكرا لأن مريض، وعندها شغل زين",
+     "en": "You have to go to the doctor (f) tomorrow because you're sick, and she has good work"
     },
     {
-     "ar": "ما أبغى أروح المستشفى اليوم لأن مشغولين كثير، بس لازم أروح",
-     "en": "I don't want to go to the hospital today because it's very busy, but I have to go"
+     "ar": "ما أبغى أروح المستشفى لأن مشغولين كثير، بس لازم أروح",
+     "en": "I don't want to go to the hospital because it's very busy, but I have to go"
     },
     {
-     "ar": "خالي عنده شغل زين في المستشفى، وأبغى شغل زين هناك بعدين",
-     "en": "My uncle has good work at the hospital, and I want good work there later"
+     "ar": "خالي عنده شغل زين في المستشفى، وأبغى شغل زين هناك",
+     "en": "My uncle has good work at the hospital, and I want good work there"
     }
    ]
   },
   {
-   "number": 32,
+   "number": 33,
    "title": "Train Rides, Chained",
    "titleNative": "القطار، جمل مركبة",
    "items": [
@@ -882,16 +905,100 @@
      "en": "I went to work on the train yesterday because the car isn't good, and I saw my brother there"
     },
     {
-     "ar": "تروح البيت في القطار بكرا لأن مستعجل كثير، وتشرب قهوة هناك",
+     "ar": "تروح البيت في القطار بكرا لأن مستعجل، وتشرب قهوة هناك",
      "en": "You're going home on the train tomorrow because you're in a hurry, and you'll drink coffee there"
     },
     {
-     "ar": "ما أبغى أروح في القطار اليوم لأن مشغولين كثير هناك، وعندي شغل",
-     "en": "I don't want to go on the train today because it's very busy there, and I have work"
+     "ar": "ما أبغى أروح في القطار لأن مشغولين كثير هناك، وعندي شغل",
+     "en": "I don't want to go on the train because it's very busy there, and I have work"
     },
     {
-     "ar": "لازم أروح المطعم في القطار الحين لأن أخوي عنده السيارة، وتعبان كثير",
-     "en": "I have to go to the restaurant on the train now because my brother has the car, and I'm very tired"
+     "ar": "لازم أروح المطعم في القطار الحين لأن أخوي عنده السيارة، وتعبان",
+     "en": "I have to go to the restaurant on the train now because my brother has the car, and I'm tired"
+    }
+   ]
+  },
+  {
+   "number": 34,
+   "title": "Clothes, Chained",
+   "titleNative": "الملابس، جمل مركبة",
+   "items": [
+    {
+     "ar": "أبغى قميص زين لأن تعبان، وعندي فلوس زين",
+     "en": "I want a good shirt because I'm tired, and I have good money"
+    },
+    {
+     "ar": "أبغى بنطلون زين لأن عطشان زين، وعندي فلوس زين",
+     "en": "I want good pants because I'm thirsty, and I have good money"
+    },
+    {
+     "ar": "أبغى عباية زين لأن مريض، وعندي فلوس زين",
+     "en": "I want a good abaya because I'm sick, and I have good money"
+    },
+    {
+     "ar": "أبغى غترة زين لأن مشغولين كثير، وعندي فلوس زين",
+     "en": "I want a good headdress because I'm busy, and I have good money"
+    }
+   ]
+  },
+  {
+   "number": 35,
+   "title": "Clothes, Chained II",
+   "titleNative": "الملابس، جمل مركبة ٢",
+   "items": [
+    {
+     "ar": "هذا قميص زين لأن السعر رخيص، وأبغى قميص الحين",
+     "en": "This is a good shirt because the price is cheap, and I want a shirt now"
+    },
+    {
+     "ar": "هذا بنطلون زين لأن السعر رخيص، وأبغى بنطلون الحين",
+     "en": "This is good pants because the price is cheap, and I want pants now"
+    },
+    {
+     "ar": "هذا عباية زين لأن السعر رخيص، وأبغى عباية الحين",
+     "en": "This is a good abaya because the price is cheap, and I want an abaya now"
+    },
+    {
+     "ar": "هذا غترة زين لأن السعر رخيص، وأبغى غترة الحين",
+     "en": "This is a good headdress because the price is cheap, and I want a headdress now"
+    }
+   ]
+  },
+  {
+   "number": 36,
+   "title": "Food, Chained",
+   "titleNative": "الأكل، جمل مركبة",
+   "items": [
+    {
+     "ar": "أبغى لحم زين لأن تعبان، وعندي فلوس زين",
+     "en": "I want good meat because I'm tired, and I have good money"
+    },
+    {
+     "ar": "أبغى بيض زين لأن عطشان زين، وعندي فلوس زين",
+     "en": "I want good eggs because I'm thirsty, and I have good money"
+    },
+    {
+     "ar": "أبغى سلطة زين لأن مريض، وعندي فلوس زين",
+     "en": "I want good salad because I'm sick, and I have good money"
+    }
+   ]
+  },
+  {
+   "number": 37,
+   "title": "Food, Chained II",
+   "titleNative": "الأكل، جمل مركبة ٢",
+   "items": [
+    {
+     "ar": "هذا لحم زين لأن السعر رخيص، وأبغى لحم الحين",
+     "en": "This is good meat because the price is cheap, and I want meat now"
+    },
+    {
+     "ar": "هذا بيض زين لأن السعر رخيص، وأبغى بيض الحين",
+     "en": "This is good eggs because the price is cheap, and I want eggs now"
+    },
+    {
+     "ar": "هذا سلطة زين لأن السعر رخيص، وأبغى سلطة الحين",
+     "en": "This is good salad because the price is cheap, and I want salad now"
     }
    ]
   }
