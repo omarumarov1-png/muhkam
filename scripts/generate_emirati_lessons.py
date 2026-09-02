@@ -923,6 +923,35 @@ def block_more_verbs():
     return [("More Verbs", "أفعال أكثر", items)]
 
 
+def block_objects_negation():
+    items = [
+        {"ar": check("ما أبغى الكتاب الصعب، أبغى الكتاب السهل"), "en": "I don't want the difficult book, I want the easy book"},
+        {"ar": check("ما تبغى القلم القبيح، تبغى القلم الجميل"), "en": "You don't want the ugly pen, you want the beautiful pen"},
+        {"ar": check("ما يبغى الشغل الصعب، يبغى الشغل السهل"), "en": "He doesn't want difficult work, he wants easy work"},
+        {"ar": check("ما أبغى المفتاح القديم، أبغى المفتاح الجديد"), "en": "I don't want the old key, I want the new key"},
+    ]
+    return [("Not This, But That", "ما أبغى هذا", items)]
+
+
+def block_objects_lazim():
+    items = [
+        {"ar": check("لازم أبغى كتاب سهل الحين"), "en": "I have to want an easy book now"},
+        {"ar": check("لازم تبغى قلم جديد"), "en": "You have to want a new pen"},
+        {"ar": check("لازم يبغى شنطة زينة"), "en": "He has to want a good bag"},
+    ]
+    return [("Lazim with Objects", "لازم مع الأشياء", items)]
+
+
+def block_body_parts_chain():
+    items = [
+        {"ar": check("عيني تعبانة لأن عندي شغل كثير، ولازم أروح الطبيب"),
+         "en": "My eye is tired because I have a lot of work, and I have to go to the doctor"},
+        {"ar": check("يدي تعبانة لأن نظفت البيت اليوم"), "en": "My hand is tired because I cleaned the house today"},
+        {"ar": check("رجلي تعبانة لأن رحت الشغل في القطار"), "en": "My leg is tired because I went to work on the train"},
+    ]
+    return [("Body Parts, Because", "أعضاء الجسم، لأن", items)]
+
+
 SHIPPED_BLOCKS = {
     "professions": block_professions_a1,
     "professions_past": block_professions_past,
@@ -974,6 +1003,9 @@ SHIPPED_BLOCKS = {
     "clean_present": block_clean_present,
     "clean_past": block_clean_past,
     "more_verbs": block_more_verbs,
+    "objects_negation": block_objects_negation,
+    "objects_lazim": block_objects_lazim,
+    "body_parts_chain": block_body_parts_chain,
 }
 
 BLOCK_LEVEL = {
@@ -996,6 +1028,7 @@ BLOCK_LEVEL = {
     "objects_1": "a1", "objects_2": "a2", "body_parts": "b1plus",
     "see_present_past": "a2", "clean_present": "a1", "clean_past": "a2",
     "more_verbs": "b1",
+    "objects_negation": "b2", "objects_lazim": "b1plus", "body_parts_chain": "c1",
 }
 
 # Blocks introduced in this (second) research round -- the ones NOT already
@@ -1015,7 +1048,10 @@ ROUND_4_BLOCKS = {
     "body_parts", "see_present_past", "clean_present", "clean_past", "more_verbs",
 }
 
-ALL_BLOCKS = {name: fn for name, fn in SHIPPED_BLOCKS.items() if name in ROUND_4_BLOCKS}
+# Fifth round: negation/lazim/chain drilling on round 4's new vocab, no new research.
+ROUND_5_BLOCKS = {"objects_negation", "objects_lazim", "body_parts_chain"}
+
+ALL_BLOCKS = {name: fn for name, fn in SHIPPED_BLOCKS.items() if name in ROUND_5_BLOCKS}
 ALL_BLOCKS.update(systematic_sweep())
 
 
