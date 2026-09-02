@@ -69,7 +69,44 @@
     "سبعين": {"gloss": "seventy", "sources": ["aminacademy", "kalimah-center.com"]},
     "ثمانين": {"gloss": "eighty", "sources": ["aminacademy", "kalimah-center.com"]},
     "تسعين": {"gloss": "ninety", "sources": ["aminacademy", "kalimah-center.com"]},
-    "مية": {"gloss": "hundred", "sources": ["aminacademy (إميَة)", "arabicworksheet.com (مية, spelling variant)"]}
+    "مية": {"gloss": "hundred", "sources": ["aminacademy (إميَة)", "arabicworksheet.com (مية, spelling variant)"]},
+
+    "سريع": {"gloss": "fast", "sources": ["blogs.transparent.com/arabic", "pinhok.com/arabic123.com"]},
+    "بطيء": {"gloss": "slow", "sources": ["blogs.transparent.com/arabic", "pinhok.com/arabic123.com"]},
+    "سهل": {"gloss": "easy", "sources": ["pinhok.com", "arabicpod101.com/arabic123.com"]},
+    "صعب": {"gloss": "difficult/hard", "sources": ["pinhok.com", "arabicpod101.com/arabic123.com"]},
+    "جميل": {"gloss": "beautiful/pretty", "sources": ["blogs.transparent.com", "arabicpod101.com/arabic123.com"]},
+    "قبيح": {"gloss": "ugly", "sources": ["blogs.transparent.com", "arabic123.com"]},
+    "قوي": {"gloss": "strong", "sources": ["pinhok.com", "arabicpod101.com/arabic123.com"]},
+    "ضعيف": {"gloss": "weak", "sources": ["pinhok.com", "arabicpod101.com/arabic123.com"]},
+    "نظيف": {"gloss": "clean (adj.)", "sources": ["pinhok.com", "arabic123.com"]},
+    "وسخ": {"gloss": "dirty", "sources": ["pinhok.com", "arabic123.com"]},
+    "لذيذ": {"gloss": "delicious/tasty", "sources": ["preply.com", "arabicpod101.com/arabic123.com"]},
+
+    "كتاب": {"gloss": "book", "sources": ["aractivities.com", "kalimah-center.com/arabic123.com"]},
+    "قلم": {"gloss": "pen", "sources": ["aractivities.com", "kalimah-center.com/arabic123.com"]},
+    "شنطة": {"gloss": "bag", "sources": ["arabic123.com (explicit Gulf-dialect note)", "hinative.com consensus"], "note": "Gulf-specific; MSA is حقيبة"},
+    "مفتاح": {"gloss": "key", "sources": ["arabic123.com", "thenationalnews.com"]},
+    "محفظة": {"gloss": "wallet", "sources": ["arabic123.com", "general dictionary consensus"]},
+    "مظلة": {"gloss": "umbrella", "sources": ["arabic123.com", "dictionary consensus"]},
+    "نظارة": {"gloss": "glasses/eyewear", "sources": ["arabic123.com-adjacent consensus", "almaany.com"]},
+
+    "يد": {"gloss": "hand", "sources": ["aminacademy.org", "kalimah-center.com/preply.com"]},
+    "عين": {"gloss": "eye", "sources": ["aminacademy.org", "kalimah-center.com/preply.com"]},
+    "أذن": {"gloss": "ear", "sources": ["aminacademy.org", "kalimah-center.com/preply.com"]},
+    "فم": {"gloss": "mouth", "sources": ["kalimah-center.com", "preply.com/arabic123.com"]},
+    "رجل": {"gloss": "leg/foot", "sources": ["kalimah-center.com", "preply.com"]},
+    "شعر": {"gloss": "hair", "sources": ["kalimah-center.com", "preply.com/arabic123.com"]},
+
+    "درس": {"gloss": "lesson/class", "sources": ["kalimah-center.com", "arabic123.com"]},
+    "طالب": {"gloss": "student (m)", "sources": ["kalimah-center.com", "arabic123.com"]},
+    "طالبة": {"gloss": "student (f)", "sources": ["kalimah-center.com", "arabic123.com"]},
+
+    "أشوف": {"gloss": "I see (present tense of شاف, which the course previously only had confirmed in past tense)", "sources": ["Qafisheh (asuufa, attested in example sentence)", "gulfarabicresources.com (simple-conjugation-charts-of-some-example-verbs.pdf, 'To see' table)"]},
+    "يشوف": {"gloss": "he sees", "sources": ["Qafisheh (ysuufni, attested in example sentence)", "gulfarabicresources.com (simple-conjugation-charts-of-some-example-verbs.pdf)"]},
+    "يغسل": {"gloss": "he washes", "sources": ["aminacademy.org (the-present-simple/, raw HTML)", "Qafisheh (ygasil)"]},
+    "يلعب": {"gloss": "he plays", "sources": ["Qafisheh (verb-class table)", "gulfarabicresources.com (practice-for-past-and-present-tense.pdf, answer key #5)"]},
+    "ناطرين": {"gloss": "waiting (plural participle)", "sources": ["Qafisheh (naatriinak, attested in example sentence)", "general native-speaker consensus (HiNative/TikTok/Quora threads on Emirati 'waiting')"], "note": "only the plural participle is directly attested; singular ناطر/ناطرة not verified, don't use"}
   },
   "verbs": {
     "_comment": "Partial confirmed conjugation paradigms for new verbs beyond the original GO/SEE/DRINK/WANT/KNOW/HAVE set. Only persons/tenses confirmed by >=2 independent sources are listed -- content generation must only use the listed keys for each verb, never fill gaps by analogy.",
@@ -104,6 +141,13 @@
       "past": {"1s_or_2sm": "نمت", "3sm": "نام", "1p": "نمنا"},
       "sources": ["gulfarabic.com (verb list, نمت/نمنا native script)", "Qafisheh (hollow-verb class, imperfect ينام)"],
       "note": "نمت is ambiguous between 1s and 2sm without a subject pronoun -- only use with an explicit أنا/انت"
+    },
+    "CLEAN": {
+      "root": "نظف / ينظف",
+      "present": {"1s": "أنظف", "2sm": "تنظف", "3sm": "ينظف", "3sf": "تنظف", "1p": "ننظف"},
+      "past": {"1s": "نظفت", "2sm": "نظفت", "2sf": "نظفتي", "3sm": "نظف", "3sf": "نظفت", "1p": "نظفنا", "2p": "نظفتوا", "3p": "نظفوا"},
+      "sources": ["aminacademy.org (the-present-simple/, the-past-tense/, raw HTML re-fetched to rule out AI-summary paraphrase)", "gulfarabicresources.com (simple-conjugation-charts-of-some-example-verbs.pdf, Form II table)"],
+      "note": "present 2sf/2p/3p omitted -- the two sources disagree on the ending (ن-suffix vs not) and neither wins outright; past forms use pronoun disambiguation where 1s/2sm/3sf collide in script (نظفت is shared by all three)"
     }
   },
   "_sources_log": {

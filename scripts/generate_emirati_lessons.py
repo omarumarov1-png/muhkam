@@ -824,6 +824,105 @@ def block_weather_chain():
     return [("Weather, Chained", "الجو، جمل مركبة", items)]
 
 
+def block_adjectives_1():
+    items = [
+        {"ar": check("البيت جميل"), "en": "The house is beautiful"},
+        {"ar": check("الشغل صعب"), "en": "The work is difficult"},
+        {"ar": check("هذا سهل"), "en": "This is easy"},
+        {"ar": check("القميص نظيف"), "en": "The shirt is clean"},
+    ]
+    return [("New Adjectives", "صفات جديدة", items)]
+
+
+def block_adjectives_2():
+    items = [
+        {"ar": check("القطار سريع"), "en": "The train is fast"},
+        {"ar": check("الدريول بطيء"), "en": "The driver is slow"},
+        {"ar": check("اللحم لذيذ"), "en": "The meat is delicious"},
+        {"ar": check("الكرسي ضعيف"), "en": "The chair is weak"},
+    ]
+    return [("More Adjectives", "صفات أكثر", items)]
+
+
+def block_adjectives_3():
+    items = [
+        {"ar": check("الباب قبيح"), "en": "The door is ugly"},
+        {"ar": check("البيت وسخ الحين"), "en": "The house is dirty now"},
+        {"ar": check("المطبخ نظيف زين"), "en": "The kitchen is very clean"},
+    ]
+    return [("Ugly and Clean", "قبيح ونظيف", items)]
+
+
+def block_objects_1():
+    items = [
+        {"ar": check("أبغى كتاب جديد"), "en": "I want a new book"},
+        {"ar": check("أبغى قلم جديد"), "en": "I want a new pen"},
+        {"ar": check("أبغى مفتاح جديد"), "en": "I want a new key"},
+    ]
+    return [("Things I Want", "أشياء أبغاها", items)]
+
+
+def block_objects_2():
+    items = [
+        {"ar": check("عندي شنطة زينة"), "en": "I have a good bag"},
+        {"ar": check("عندي محفظة زينة"), "en": "I have a good wallet"},
+        {"ar": check("عندي مظلة زينة"), "en": "I have a good umbrella"},
+        {"ar": check("عندي نظارة زينة"), "en": "I have good glasses"},
+    ]
+    return [("Things I Have", "أشياء عندي", items)]
+
+
+def block_body_parts():
+    items = [
+        {"ar": check("عيني تعبانة، لازم أروح الطبيب"), "en": "My eye is tired, I have to go to the doctor"},
+        {"ar": check("يدي تعبانة الحين"), "en": "My hand is tired now"},
+        {"ar": check("رجلي تعبانة كثير"), "en": "My leg is very tired"},
+        {"ar": check("أذني تعبانة"), "en": "My ear is tired"},
+    ]
+    return [("Body Parts", "أعضاء الجسم", items)]
+
+
+def block_see_present_past():
+    items = [
+        {"ar": check("أشوف بيت زين الحين"), "en": "I see a good house now"},
+        {"ar": check("شفت بيت زين أمس"), "en": "I saw a good house yesterday"},
+        {"ar": check("يشوف بيت زين"), "en": "He sees a good house"},
+        {"ar": check("شاف بيت زين أمس"), "en": "He saw a good house yesterday"},
+    ]
+    return [("I See, I Saw", "أشوف، شفت", items)]
+
+
+def block_clean_present():
+    items = [
+        {"ar": check("أنظف البيت"), "en": "I clean the house"},
+        {"ar": check("انت تنظف المطبخ"), "en": "You clean the kitchen"},
+        {"ar": check("ينظف البيت"), "en": "He cleans the house"},
+        {"ar": check("هي تنظف المطبخ"), "en": "She cleans the kitchen"},
+        {"ar": check("ننظف البيت"), "en": "We clean the house"},
+    ]
+    return [("I Clean, You Clean", "أنظف، تنظف", items)]
+
+
+def block_clean_past():
+    items = [
+        {"ar": check("أنا نظفت البيت أمس"), "en": "I cleaned the house yesterday"},
+        {"ar": check("نظفتي المطبخ أمس"), "en": "You (f.) cleaned the kitchen yesterday"},
+        {"ar": check("نظف البيت أمس"), "en": "He cleaned the house yesterday"},
+        {"ar": check("هي نظفت المطبخ"), "en": "She cleaned the kitchen"},
+        {"ar": check("نظفنا البيت أمس"), "en": "We cleaned the house yesterday"},
+    ]
+    return [("I Cleaned, You Cleaned", "نظفت، نظف", items)]
+
+
+def block_more_verbs():
+    items = [
+        {"ar": check("احنا ناطرين القطار"), "en": "We are waiting for the train"},
+        {"ar": check("يغسل السيارة"), "en": "He washes the car"},
+        {"ar": check("يلعب في البيت"), "en": "He plays at home"},
+    ]
+    return [("More Verbs", "أفعال أكثر", items)]
+
+
 SHIPPED_BLOCKS = {
     "professions": block_professions_a1,
     "professions_past": block_professions_past,
@@ -865,6 +964,16 @@ SHIPPED_BLOCKS = {
     "love_chain": block_love_chain,
     "numbers_because": block_numbers_because,
     "weather_chain": block_weather_chain,
+    "adjectives_1": block_adjectives_1,
+    "adjectives_2": block_adjectives_2,
+    "adjectives_3": block_adjectives_3,
+    "objects_1": block_objects_1,
+    "objects_2": block_objects_2,
+    "body_parts": block_body_parts,
+    "see_present_past": block_see_present_past,
+    "clean_present": block_clean_present,
+    "clean_past": block_clean_past,
+    "more_verbs": block_more_verbs,
 }
 
 BLOCK_LEVEL = {
@@ -883,6 +992,10 @@ BLOCK_LEVEL = {
     "work": "b1", "love": "a2", "sleep": "b1plus",
     "eat_negation": "b2", "cook_lazim": "b1plus", "work_negation": "b2",
     "love_chain": "c1", "numbers_because": "b1", "weather_chain": "c1",
+    "adjectives_1": "a1", "adjectives_2": "a2", "adjectives_3": "b1",
+    "objects_1": "a1", "objects_2": "a2", "body_parts": "b1plus",
+    "see_present_past": "a2", "clean_present": "a1", "clean_past": "a2",
+    "more_verbs": "b1",
 }
 
 # Blocks introduced in this (second) research round -- the ones NOT already
@@ -896,7 +1009,13 @@ ROUND_3_BLOCKS = {
     "numbers_because", "weather_chain",
 }
 
-ALL_BLOCKS = {name: fn for name, fn in SHIPPED_BLOCKS.items() if name in ROUND_3_BLOCKS}
+# Blocks introduced in this (fourth) round only.
+ROUND_4_BLOCKS = {
+    "adjectives_1", "adjectives_2", "adjectives_3", "objects_1", "objects_2",
+    "body_parts", "see_present_past", "clean_present", "clean_past", "more_verbs",
+}
+
+ALL_BLOCKS = {name: fn for name, fn in SHIPPED_BLOCKS.items() if name in ROUND_4_BLOCKS}
 ALL_BLOCKS.update(systematic_sweep())
 
 
