@@ -768,6 +768,62 @@ def block_sleep():
     return [("Sleeping", "النوم", items)]
 
 
+def block_eat_negation():
+    items = [
+        {"ar": check("ما آكل لحم لأن ما عندي فلوس"), "en": "I don't eat meat because I don't have money"},
+        {"ar": check("ما تاكل بيض لأن ما تبغى بيض"), "en": "You don't eat eggs because you don't want eggs"},
+        {"ar": check("ما ياكل لحم لأن مريض"), "en": "He doesn't eat meat because he's sick"},
+    ]
+    return [("Not Eating", "ما آكل", items)]
+
+
+def block_cook_lazim():
+    items = [
+        {"ar": check("لازم أطبخ لحم بكرا"), "en": "I have to cook meat tomorrow"},
+        {"ar": check("لازم تطبخ بيض"), "en": "You have to cook eggs"},
+        {"ar": check("هي لازم تطبخ سلطة الحين"), "en": "She has to cook salad now"},
+        {"ar": check("لازم نطبخ لحم زين"), "en": "We have to cook good meat"},
+    ]
+    return [("I Must Cook", "لازم أطبخ", items)]
+
+
+def block_work_negation():
+    items = [
+        {"ar": check("ما أشتغل في المطعم لأن مشغولين كثير"), "en": "I don't work at the restaurant because it's very busy"},
+        {"ar": check("انت ما تشتغل في المستشفى"), "en": "You don't work at the hospital"},
+        {"ar": check("هي ما تشتغل الحين لأن تعبانة"), "en": "She isn't working now because she's tired"},
+    ]
+    return [("Not Working", "ما أشتغل", items)]
+
+
+def block_love_chain():
+    items = [
+        {"ar": check("أحب القهوة لأن زينة كثير"), "en": "I love coffee because it's very good"},
+        {"ar": check("انت تحب الشاي لأن رخيص"), "en": "You love tea because it's cheap"},
+        {"ar": check("يحب القهوة، بس ما عنده فلوس"), "en": "He loves coffee, but he doesn't have money"},
+    ]
+    return [("Why I Love It", "أحب لأن", items)]
+
+
+def block_numbers_because():
+    items = [
+        {"ar": check("أبغى عشرين لأن رخيص"), "en": "I want twenty because it's cheap"},
+        {"ar": check("أبغى ثلاثين لأن السعر زين"), "en": "I want thirty because the price is good"},
+        {"ar": check("ما أبغى مية لأن غالي كثير"), "en": "I don't want a hundred because it's very expensive"},
+    ]
+    return [("Numbers, Because", "الأرقام، لأن", items)]
+
+
+def block_weather_chain():
+    items = [
+        {"ar": check("الجو حار كثير، ولازم أروح البيت، بس أبغى أروح الشغل"),
+         "en": "It's very hot, and I have to go home, but I want to go to work"},
+        {"ar": check("فيه مطر الحين، ما أبغى أروح، بس لازم أروح المستشفى"),
+         "en": "There's rain now, I don't want to go, but I have to go to the hospital"},
+    ]
+    return [("Weather, Chained", "الجو، جمل مركبة", items)]
+
+
 SHIPPED_BLOCKS = {
     "professions": block_professions_a1,
     "professions_past": block_professions_past,
@@ -803,6 +859,12 @@ SHIPPED_BLOCKS = {
     "work": block_work,
     "love": block_love,
     "sleep": block_sleep,
+    "eat_negation": block_eat_negation,
+    "cook_lazim": block_cook_lazim,
+    "work_negation": block_work_negation,
+    "love_chain": block_love_chain,
+    "numbers_because": block_numbers_because,
+    "weather_chain": block_weather_chain,
 }
 
 BLOCK_LEVEL = {
@@ -819,18 +881,22 @@ BLOCK_LEVEL = {
     "numbers_13_20": "a1", "numbers_30_60": "a2", "numbers_70_100": "a2",
     "eat": "a1", "cook_present_1": "a1", "cook_present_2": "a2", "cook_past": "a2",
     "work": "b1", "love": "a2", "sleep": "b1plus",
+    "eat_negation": "b2", "cook_lazim": "b1plus", "work_negation": "b2",
+    "love_chain": "c1", "numbers_because": "b1", "weather_chain": "c1",
 }
 
 # Blocks introduced in this (second) research round -- the ones NOT already
 # present in the previous commit. Re-running --write must only ever append
 # these, never the already-shipped blocks above, or content gets duplicated.
-ROUND_2_BLOCKS = {
-    "weather_a1", "weather_lazim", "household_a1", "household_a2", "animals_a1",
-    "numbers_13_20", "numbers_30_60", "numbers_70_100",
-    "eat", "cook_present_1", "cook_present_2", "cook_past", "work", "love", "sleep",
+# Blocks introduced in this (third) round only -- everything above this set
+# is already shipped in a previous commit. Re-running --write must only
+# ever append these, never re-append already-shipped blocks.
+ROUND_3_BLOCKS = {
+    "eat_negation", "cook_lazim", "work_negation", "love_chain",
+    "numbers_because", "weather_chain",
 }
 
-ALL_BLOCKS = {name: fn for name, fn in SHIPPED_BLOCKS.items() if name in ROUND_2_BLOCKS}
+ALL_BLOCKS = {name: fn for name, fn in SHIPPED_BLOCKS.items() if name in ROUND_3_BLOCKS}
 ALL_BLOCKS.update(systematic_sweep())
 
 
