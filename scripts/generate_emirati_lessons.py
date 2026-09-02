@@ -952,6 +952,34 @@ def block_body_parts_chain():
     return [("Body Parts, Because", "أعضاء الجسم، لأن", items)]
 
 
+def block_time_of_day():
+    items = [
+        {"ar": check("أروح الشغل الصبح"), "en": "I go to work in the morning"},
+        {"ar": check("أشرب قهوة عصر"), "en": "I drink coffee in the afternoon"},
+        {"ar": check("لازم أروح البيت المساء"), "en": "I have to go home in the evening"},
+        {"ar": check("ما أشتغل الليل"), "en": "I don't work at night"},
+    ]
+    return [("Time of Day", "أوقات اليوم", items)]
+
+
+def block_telling_time():
+    items = [
+        {"ar": check("عندي ساعة زينة"), "en": "I have a good watch"},
+        {"ar": check("أبغى دقيقة"), "en": "I want a minute"},
+        {"ar": check("الظهر أروح المطعم"), "en": "At noon I go to the restaurant"},
+    ]
+    return [("Telling Time", "الساعة", items)]
+
+
+def block_time_because():
+    items = [
+        {"ar": check("أروح الشغل الصبح لأن عندي شغل كثير"), "en": "I go to work in the morning because I have a lot of work"},
+        {"ar": check("لازم أروح البيت الليل لأن تعبان"), "en": "I have to go home at night because I'm tired"},
+        {"ar": check("ما أشتغل عصر لأن أطبخ في البيت"), "en": "I don't work in the afternoon because I cook at home"},
+    ]
+    return [("Time and Because", "الوقت ولأن", items)]
+
+
 SHIPPED_BLOCKS = {
     "professions": block_professions_a1,
     "professions_past": block_professions_past,
@@ -1006,6 +1034,9 @@ SHIPPED_BLOCKS = {
     "objects_negation": block_objects_negation,
     "objects_lazim": block_objects_lazim,
     "body_parts_chain": block_body_parts_chain,
+    "time_of_day": block_time_of_day,
+    "telling_time": block_telling_time,
+    "time_because": block_time_because,
 }
 
 BLOCK_LEVEL = {
@@ -1029,6 +1060,7 @@ BLOCK_LEVEL = {
     "see_present_past": "a2", "clean_present": "a1", "clean_past": "a2",
     "more_verbs": "b1",
     "objects_negation": "b2", "objects_lazim": "b1plus", "body_parts_chain": "c1",
+    "time_of_day": "a1", "telling_time": "a2", "time_because": "b1",
 }
 
 # Blocks introduced in this (second) research round -- the ones NOT already
@@ -1051,7 +1083,11 @@ ROUND_4_BLOCKS = {
 # Fifth round: negation/lazim/chain drilling on round 4's new vocab, no new research.
 ROUND_5_BLOCKS = {"objects_negation", "objects_lazim", "body_parts_chain"}
 
-ALL_BLOCKS = {name: fn for name, fn in SHIPPED_BLOCKS.items() if name in ROUND_5_BLOCKS}
+# Sixth round: time-of-day vocabulary confirmed in round 1's research but
+# never used until now.
+ROUND_6_BLOCKS = {"time_of_day", "telling_time", "time_because"}
+
+ALL_BLOCKS = {name: fn for name, fn in SHIPPED_BLOCKS.items() if name in ROUND_6_BLOCKS}
 ALL_BLOCKS.update(systematic_sweep())
 
 
