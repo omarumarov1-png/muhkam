@@ -37,14 +37,83 @@
     "اتصل": {"gloss": "to call (verb)", "sources": ["aminacademy (telephone page)", "general Gulf phone-vocab sources"]},
     "الاحد": {"gloss": "Sunday", "sources": ["gulfarabic.com (days page)", "general consensus"]},
     "الثلاثاء": {"gloss": "Tuesday", "sources": ["gulfarabic.com (days page)", "general consensus"]},
-    "الاربعاء": {"gloss": "Wednesday", "sources": ["gulfarabic.com (days page)", "general consensus"]}
+    "الاربعاء": {"gloss": "Wednesday", "sources": ["gulfarabic.com (days page)", "general consensus"]},
+
+    "الجو": {"gloss": "weather/the air", "sources": ["kalimah-center.com", "preply.com"], "note": "colloquial Gulf phrasing, e.g. الجو حار/بارد"},
+    "بارد": {"gloss": "cold", "sources": ["kalimah-center.com", "meaningofarabic.com", "preply.com"]},
+    "مشمس": {"gloss": "sunny", "sources": ["meaningofarabic.com", "preply.com"]},
+    "ريح": {"gloss": "wind", "sources": ["aminacademy (الرياح)", "meaningofarabic.com"]},
+    "مطر": {"gloss": "rain", "sources": ["aminacademy (أمطار/مطيرة)", "general Arabic weather-vocab consensus"]},
+
+    "باب": {"gloss": "door", "sources": ["aminacademy", "gulfarabic.com"]},
+    "دريشة": {"gloss": "window", "sources": ["aminacademy", "bayut.com/mybayut (Emirati Words And Meanings)"], "note": "Emirati-specific; MSA is نافذة"},
+    "مطبخ": {"gloss": "kitchen", "sources": ["aminacademy", "gulfarabic.com"]},
+    "طاولة": {"gloss": "table", "sources": ["aminacademy (طولة colloquial variant)", "general consensus"]},
+    "كرسي": {"gloss": "chair", "sources": ["aminacademy", "general Gulf/MSA-shared consensus"]},
+    "صحن": {"gloss": "plate", "sources": ["aminacademy", "independent kitchen-vocab consensus"]},
+
+    "قطوة": {"gloss": "cat", "sources": ["aminacademy", "Wiktionary (dedicated Gulf Arabic entry)"], "note": "Gulf/Najdi-specific; MSA is قطة"},
+    "جلب": {"gloss": "dog", "sources": ["aminacademy", "arabic123/thetalklist consensus"], "note": "Gulf-specific; MSA/most dialects use كلب"},
+    "جمل": {"gloss": "camel", "sources": ["aminacademy", "thetalklist.com"]},
+    "طير": {"gloss": "bird", "sources": ["aminacademy", "general Arabic consensus"]},
+
+    "ثلاث": {"gloss": "three (bound form, in ثلاث طعش = thirteen)", "sources": ["aminacademy", "wikibooks/fluentarabic consensus"]},
+    "أربع": {"gloss": "four (bound form, in أربع طعش = fourteen)", "sources": ["aminacademy", "wikibooks/fluentarabic consensus"]},
+    "خمس": {"gloss": "five (bound form, in خمس طعش = fifteen)", "sources": ["aminacademy", "wikibooks/fluentarabic consensus"]},
+    "طعش": {"gloss": "-teen (suffix word, e.g. ثلاث طعش = thirteen)", "sources": ["aminacademy", "wikibooks/fluentarabic consensus"]},
+    "عشرين": {"gloss": "twenty", "sources": ["aminacademy", "arabicworksheet.com (Numbers in Saudi Arabic)"]},
+    "ثلاثين": {"gloss": "thirty", "sources": ["aminacademy", "arabicworksheet.com"]},
+    "أربعين": {"gloss": "forty", "sources": ["aminacademy", "arabicworksheet.com"]},
+    "خمسين": {"gloss": "fifty", "sources": ["aminacademy", "arabicworksheet.com"]},
+    "ستين": {"gloss": "sixty", "sources": ["aminacademy (سِتِّين)", "kalimah-center.com (ستون, MSA case-ending variant of same root)"]},
+    "سبعين": {"gloss": "seventy", "sources": ["aminacademy", "kalimah-center.com"]},
+    "ثمانين": {"gloss": "eighty", "sources": ["aminacademy", "kalimah-center.com"]},
+    "تسعين": {"gloss": "ninety", "sources": ["aminacademy", "kalimah-center.com"]},
+    "مية": {"gloss": "hundred", "sources": ["aminacademy (إميَة)", "arabicworksheet.com (مية, spelling variant)"]}
+  },
+  "verbs": {
+    "_comment": "Partial confirmed conjugation paradigms for new verbs beyond the original GO/SEE/DRINK/WANT/KNOW/HAVE set. Only persons/tenses confirmed by >=2 independent sources are listed -- content generation must only use the listed keys for each verb, never fill gaps by analogy.",
+    "EAT": {
+      "root": "اكل / ياكل",
+      "present": {"1s": "آكل", "2sm": "تاكل", "2sf": "تاكلين", "3sm": "ياكل"},
+      "past": {"3sm": "اكل"},
+      "sources": ["aminacademy (restaurant page)", "Qafisheh, A Short Reference Grammar of Gulf Arabic"]
+    },
+    "COOK": {
+      "root": "طبخ / يطبخ",
+      "present": {"1s": "أطبخ", "2sm": "تطبخ", "2sf": "تطبخين", "3sm": "يطبخ",
+                  "3sf": "تطبخ", "1p": "نطبخ", "2p": "تطبخون", "3p": "يطبخون"},
+      "past": {"2sm": "طبخت", "3sm": "طبخ", "3sf": "طبخت", "1p": "طبخنا", "2p": "طبختوا", "3p": "طبخوا"},
+      "sources": ["aminacademy (present-simple + past-tense pages, full paradigms)", "Qafisheh (root/3sm corroboration)"],
+      "note": "site's past-tense 1s (أطبخت) and 2sf (طبخي) cells dropped as likely typos -- don't match the regular sound-verb pattern"
+    },
+    "WORK": {
+      "root": "اشتغل / يشتغل",
+      "present": {"1s": "أشتغل", "2sm": "تشتغل", "3sm": "يشتغل", "3sf": "تشتغل", "2p": "تشتغلون", "3p": "يشتغلون"},
+      "sources": ["Qafisheh (1s attested in example sentence)", "gulfarabicresources.com/work-jobs-professions (real Q&A sentences)"]
+    },
+    "LOVE": {
+      "root": "حب / يحب",
+      "present": {"1s": "أحب", "2sm": "تحب", "3sm": "يحب", "3sf": "تحب"},
+      "past": {"3sm": "حب"},
+      "sources": ["gulfarabic.com (present paradigm + أحبج/أحبك set phrases)", "Qafisheh (3sm, doubled-verb class)"]
+    },
+    "SLEEP": {
+      "root": "نام / ينام",
+      "present": {"3sm": "ينام"},
+      "past": {"1s_or_2sm": "نمت", "3sm": "نام", "1p": "نمنا"},
+      "sources": ["gulfarabic.com (verb list, نمت/نمنا native script)", "Qafisheh (hollow-verb class, imperfect ينام)"],
+      "note": "نمت is ambiguous between 1s and 2sm without a subject pronoun -- only use with an explicit أنا/انت"
+    }
   },
   "_sources_log": {
-    "aminacademy": "aminacademy.org Gulf Arabic pedagogical pages (professions/feelings/family/clothing/food/health/transport/tech, several distinct pages)",
-    "gulfarabic.com": "gulfarabic.com structured lessons (professions v34, days-of-week page, At the Market page)",
+    "aminacademy": "aminacademy.org Gulf Arabic pedagogical pages (professions/feelings/family/clothing/food/health/transport/tech/weather/household/animals/numbers, many distinct pages)",
+    "gulfarabic.com": "gulfarabic.com structured lessons (professions v34, days-of-week page, At the Market page, verb list)",
     "second-pass-consensus": "cross-check pass against sources distinct from aminacademy.org and storylearning.com",
     "arabicpod101/playaling/learnarabicuae": "independent Arabic family-vocabulary pedagogical pages",
     "wikipedia Emirati Arabic + consensus": "en.wikipedia.org Emirati Arabic article cross-checked against general Gulf clothing-vocab consensus",
-    "kalimah-center/arabic123": "independent Arabic medical-vocabulary pedagogical pages (MSA-shared forms also standard in Khaleeji per Wikipedia's Gulf Arabic article)"
+    "kalimah-center/arabic123": "independent Arabic medical/weather/numbers-vocabulary pedagogical pages (MSA-shared forms also standard in Khaleeji per Wikipedia's Gulf Arabic article)",
+    "Qafisheh, A Short Reference Grammar of Gulf Arabic": "Hamdi Qafisheh's academic grammar of the Abu Dhabi dialect (Univ. of Arizona Press) -- transliteration-only, converted to Arabic script by the researching agent, so exact script form is not independently native-script-verified even though root/conjugation class is academically confirmed",
+    "meaningofarabic.com / preply.com / bayut.com / thetalklist.com / arabicworksheet.com / wikibooks/fluentarabic / gulfarabicresources.com / Wiktionary": "independent pedagogical or reference pages used for weather, household, animal, and number vocabulary cross-checks"
   }
 }

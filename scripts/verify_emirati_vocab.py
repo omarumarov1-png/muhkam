@@ -40,7 +40,14 @@ def load_researched_vocab():
     if not os.path.exists(f):
         return set(), None
     d = json.load(open(f, encoding="utf-8"))
-    return set(d.get("words", {}).keys()), d.get("available_from_level")
+    vocab = set(d.get("words", {}).keys())
+    for verb, info in d.get("verbs", {}).items():
+        if not isinstance(info, dict):
+            continue
+        vocab.update(info.get("present", {}).values())
+        vocab.update(info.get("past", {}).values())
+        vocab.update(TOKEN_RE.findall(info.get("root", "")))
+    return vocab, d.get("available_from_level")
 
 
 RESEARCHED_VOCAB, RESEARCHED_AVAILABLE_FROM = load_researched_vocab()

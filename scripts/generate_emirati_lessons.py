@@ -585,10 +585,10 @@ TOPIC_POOLS = {
     "food": (FOOD_NEW, "Food", "الأكل"),
 }
 
-ALREADY_COVERED = {
-    ("clothing", "a1"), ("clothing", "b1plus"),
-    ("food", "a1"), ("food", "b2"),
-}
+# Both topics were fully swept across every level in the previous batch
+# (already shipped/committed) -- mark every level covered so a re-run of
+# this script never re-appends the same sweep content a second time.
+ALREADY_COVERED = {(topic, lvl) for topic in ("clothing", "food") for lvl in FRAMES}
 
 
 def systematic_sweep():
@@ -604,6 +604,168 @@ def systematic_sweep():
             if lessons_b:
                 blocks[f"sweep_{topic_id}_{level}_b"] = (lambda ls=lessons_b: ls)
     return blocks
+
+
+# ---------------------------------------------------------------------------
+# Second research round: weather, household, animals, numbers 13-100, and
+# five new verbs (eat/cook/work/love/sleep) confirmed via researched_vocab.json
+# ("verbs" section). Only confirmed persons are used -- see that file for the
+# exact sourcing per form. Ambiguous forms (identical script across two
+# different persons, e.g. طبخت for both 2sm and 3sf) are always given an
+# explicit subject pronoun to disambiguate.
+# ---------------------------------------------------------------------------
+
+def block_weather_a1():
+    items = [
+        {"ar": check("الجو حار اليوم"), "en": "The weather is hot today"},
+        {"ar": check("الجو بارد"), "en": "The weather is cold"},
+        {"ar": check("الجو مشمس بكرا"), "en": "It's sunny tomorrow"},
+        {"ar": check("فيه ريح الحين"), "en": "There's wind now"},
+    ]
+    return [("Weather", "الجو", items)]
+
+
+def block_weather_lazim():
+    items = [
+        {"ar": check("فيه ريح، ما أبغى أروح الحين"), "en": "There's wind, I don't want to go now"},
+        {"ar": check("فيه مطر، لازم أروح البيت"), "en": "There's rain, I have to go home"},
+        {"ar": check("الجو بارد، لازم أروح البيت"), "en": "It's cold, I have to go home"},
+        {"ar": check("الجو حار كثير، ما أبغى أروح الشغل"), "en": "It's very hot, I don't want to go to work"},
+    ]
+    return [("Weather and Must", "الجو ولازم", items)]
+
+
+def block_household_a1():
+    items = [
+        {"ar": check("في البيت فيه باب زين"), "en": "In the house there's a good door"},
+        {"ar": check("في البيت فيه دريشة زين"), "en": "In the house there's a good window"},
+        {"ar": check("في البيت فيه مطبخ زين"), "en": "In the house there's a good kitchen"},
+    ]
+    return [("Around the House", "البيت", items)]
+
+
+def block_household_a2():
+    items = [
+        {"ar": check("عندي طاولة زين في المطبخ"), "en": "I have a good table in the kitchen"},
+        {"ar": check("عندي كرسي زين في المطبخ"), "en": "I have a good chair in the kitchen"},
+        {"ar": check("عندي صحن زين في المطبخ"), "en": "I have a good plate in the kitchen"},
+    ]
+    return [("Furniture", "الأثاث", items)]
+
+
+def block_animals_a1():
+    items = [
+        {"ar": check("عندي قطوة زين في البيت"), "en": "I have a good cat at home"},
+        {"ar": check("شفت جلب كبير أمس"), "en": "I saw a big dog yesterday"},
+        {"ar": check("شفت جمل كبير"), "en": "I saw a big camel"},
+        {"ar": check("شفت طير صغير الحين"), "en": "I just saw a small bird"},
+    ]
+    return [("Animals", "الحيوانات", items)]
+
+
+def block_numbers_13_20():
+    items = [
+        {"ar": check("أبغى ثلاث طعش وأربع طعش"), "en": "I want thirteen and fourteen"},
+        {"ar": check("هذا خمس طعش، وهذا عشرين"), "en": "This is fifteen, and this is twenty"},
+        {"ar": check("كم هذا؟ هذا ثلاث طعش"), "en": "How much is this? This is thirteen"},
+        {"ar": check("أبغى أربع طعش وخمس طعش وعشرين"), "en": "I want fourteen and fifteen and twenty"},
+    ]
+    return [("Numbers 13-20", "الأرقام ١٣-٢٠", items)]
+
+
+def block_numbers_30_60():
+    items = [
+        {"ar": check("أبغى ثلاثين وأربعين"), "en": "I want thirty and forty"},
+        {"ar": check("هذا خمسين، وهذا ستين"), "en": "This is fifty, and this is sixty"},
+        {"ar": check("كم هذا؟ هذا ثلاثين"), "en": "How much is this? This is thirty"},
+        {"ar": check("أبغى أربعين وخمسين وستين"), "en": "I want forty and fifty and sixty"},
+    ]
+    return [("Numbers 30-60", "الأرقام ٣٠-٦٠", items)]
+
+
+def block_numbers_70_100():
+    items = [
+        {"ar": check("أبغى سبعين وثمانين"), "en": "I want seventy and eighty"},
+        {"ar": check("هذا تسعين، وهذا مية"), "en": "This is ninety, and this is a hundred"},
+        {"ar": check("كم هذا؟ هذا سبعين"), "en": "How much is this? This is seventy"},
+        {"ar": check("أبغى ثمانين وتسعين ومية"), "en": "I want eighty and ninety and a hundred"},
+    ]
+    return [("Numbers 70-100", "الأرقام ٧٠-١٠٠", items)]
+
+
+def block_eat():
+    items = [
+        {"ar": check("آكل لحم زين"), "en": "I eat good meat"},
+        {"ar": check("تاكل بيض زين"), "en": "You eat good eggs"},
+        {"ar": check("تاكلين سلطة زين"), "en": "You (f.) eat good salad"},
+        {"ar": check("ياكل لحم زين في المطعم"), "en": "He eats good meat at the restaurant"},
+        {"ar": check("راح المطعم واكل لحم زين"), "en": "He went to the restaurant and ate good meat"},
+        {"ar": check("خالي راح المطعم واكل بيض زين"), "en": "My uncle went to the restaurant and ate good eggs"},
+    ]
+    return [("Eating", "الأكل", items)]
+
+
+def block_cook_present_1():
+    items = [
+        {"ar": check("أطبخ لحم زين"), "en": "I cook good meat"},
+        {"ar": check("تطبخ بيض زين"), "en": "You cook good eggs"},
+        {"ar": check("تطبخين سلطة زين"), "en": "You (f.) cook good salad"},
+        {"ar": check("يطبخ لحم زين"), "en": "He cooks good meat"},
+    ]
+    return [("I Cook, You Cook", "أطبخ، تطبخ", items)]
+
+
+def block_cook_present_2():
+    items = [
+        {"ar": check("هي تطبخ سلطة زين"), "en": "She cooks good salad"},
+        {"ar": check("نطبخ لحم زين"), "en": "We cook good meat"},
+        {"ar": check("انتوا تطبخون بيض زين"), "en": "You all cook good eggs"},
+        {"ar": check("هم يطبخون سلطة زين"), "en": "They cook good salad"},
+    ]
+    return [("She Cooks, We Cook", "تطبخ، نطبخ", items)]
+
+
+def block_cook_past():
+    items = [
+        {"ar": check("انت طبخت لحم زين"), "en": "You cooked good meat"},
+        {"ar": check("هو طبخ بيض زين أمس"), "en": "He cooked good eggs yesterday"},
+        {"ar": check("هي طبخت سلطة زين"), "en": "She cooked good salad"},
+        {"ar": check("احنا طبخنا لحم زين أمس"), "en": "We cooked good meat yesterday"},
+    ]
+    return [("I Cooked, You Cooked", "طبخت، طبخ", items)]
+
+
+def block_work():
+    items = [
+        {"ar": check("أشتغل في المستشفى"), "en": "I work at the hospital"},
+        {"ar": check("انت تشتغل في المطعم"), "en": "You work at the restaurant"},
+        {"ar": check("يشتغل في المستشفى"), "en": "He works at the hospital"},
+        {"ar": check("هي تشتغل في المطعم"), "en": "She works at the restaurant"},
+        {"ar": check("انتوا تشتغلون في المستشفى"), "en": "You all work at the hospital"},
+        {"ar": check("هم يشتغلون في المطعم"), "en": "They work at the restaurant"},
+    ]
+    return [("Working", "الشغل", items)]
+
+
+def block_love():
+    items = [
+        {"ar": check("أحب القهوة"), "en": "I love coffee"},
+        {"ar": check("انت تحب الشاي"), "en": "You love tea"},
+        {"ar": check("يحب القهوة"), "en": "He loves coffee"},
+        {"ar": check("هي تحب الشاي"), "en": "She loves tea"},
+        {"ar": check("خالي حب الشاي زين"), "en": "My uncle loved good tea"},
+    ]
+    return [("Loving Things", "أحب", items)]
+
+
+def block_sleep():
+    items = [
+        {"ar": check("ينام كثير"), "en": "He sleeps a lot"},
+        {"ar": check("أنا نمت كثير أمس"), "en": "I slept a lot yesterday"},
+        {"ar": check("هو نام زين أمس"), "en": "He slept well yesterday"},
+        {"ar": check("احنا نمنا زين أمس"), "en": "We slept well yesterday"},
+    ]
+    return [("Sleeping", "النوم", items)]
 
 
 SHIPPED_BLOCKS = {
@@ -626,6 +788,21 @@ SHIPPED_BLOCKS = {
     "feelings_dense": block_feelings_dense,
     "phone": block_phone,
     "feelings_new": block_feelings_new,
+    "weather_a1": block_weather_a1,
+    "weather_lazim": block_weather_lazim,
+    "household_a1": block_household_a1,
+    "household_a2": block_household_a2,
+    "animals_a1": block_animals_a1,
+    "numbers_13_20": block_numbers_13_20,
+    "numbers_30_60": block_numbers_30_60,
+    "numbers_70_100": block_numbers_70_100,
+    "eat": block_eat,
+    "cook_present_1": block_cook_present_1,
+    "cook_present_2": block_cook_present_2,
+    "cook_past": block_cook_past,
+    "work": block_work,
+    "love": block_love,
+    "sleep": block_sleep,
 }
 
 BLOCK_LEVEL = {
@@ -636,9 +813,24 @@ BLOCK_LEVEL = {
     "food_new": "a1", "food_negation": "b2", "health": "b1plus",
     "health_c1": "c1", "transport": "a2", "transport_chain": "c1",
     "feelings_dense": "c2", "phone": "b1", "feelings_new": "b2plus",
+    "weather_a1": "a1", "weather_lazim": "b1plus",
+    "household_a1": "a1", "household_a2": "a2",
+    "animals_a1": "a1",
+    "numbers_13_20": "a1", "numbers_30_60": "a2", "numbers_70_100": "a2",
+    "eat": "a1", "cook_present_1": "a1", "cook_present_2": "a2", "cook_past": "a2",
+    "work": "b1", "love": "a2", "sleep": "b1plus",
 }
 
-ALL_BLOCKS = dict(SHIPPED_BLOCKS)
+# Blocks introduced in this (second) research round -- the ones NOT already
+# present in the previous commit. Re-running --write must only ever append
+# these, never the already-shipped blocks above, or content gets duplicated.
+ROUND_2_BLOCKS = {
+    "weather_a1", "weather_lazim", "household_a1", "household_a2", "animals_a1",
+    "numbers_13_20", "numbers_30_60", "numbers_70_100",
+    "eat", "cook_present_1", "cook_present_2", "cook_past", "work", "love", "sleep",
+}
+
+ALL_BLOCKS = {name: fn for name, fn in SHIPPED_BLOCKS.items() if name in ROUND_2_BLOCKS}
 ALL_BLOCKS.update(systematic_sweep())
 
 
