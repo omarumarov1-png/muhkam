@@ -30,6 +30,16 @@
         {"tr": "Türkçe konuşabiliyor musun?", "en": "Can you speak Turkish?"},
         {"tr": "Biraz konuşabiliyorum, daha öğreniyorum.", "en": "I can speak a little, I'm still learning."}
       ]
+    },
+    "b1-gerekmek": {
+      "title": "Necessity with gerekmek",
+      "pattern": "verb-stem + -mE (infinitive) + possessive + gerekiyor",
+      "explanation": "Besides -mAlI, Turkish has a second, very common way to say 'need to': the verb gerekmek (to be necessary) paired with a nominalized (infinitive) form of the main verb carrying a possessive suffix that marks WHO needs to do it -- git-me-m gerekiyor (literally 'my going is necessary' = I need to go). Crucially, 'gerekiyor' itself never changes person -- it's always 3rd person singular, because grammatically the thing that IS necessary is 'my going', not 'I'.",
+      "fact": "-mAlI expresses the speaker's own judgment ('su içmeliyim' = I must drink water, I've decided), while gerekmek reads as more neutral/external necessity ('su içmem gerekiyor' = drinking water is something I need) -- in everyday speech Turks use them close to interchangeably, but gerekmek is often preferred for more objective, fact-based necessity.",
+      "dialogue": [
+        {"tr": "Neden bu kadar erken gitmen gerekiyor?", "en": "Why do you need to leave so early?"},
+        {"tr": "Yarın önemli bir toplantım var.", "en": "I have an important meeting tomorrow."}
+      ]
     }
   },
   "lessons": [
@@ -364,6 +374,117 @@
         {"tr": "Geçen yıl bunu yapamıyordum.", "en": "Last year I couldn't do this."},
         {"tr": "Çok çalıştım ve başarabildim.", "en": "I worked hard and I was able to succeed."},
         {"tr": "Gelecekte daha fazlasını yapabileceğim.", "en": "In the future I will be able to do more."}
+      ]
+    },
+    {
+      "number": 31,
+      "title": "I Need To",
+      "titleNative": "Gerekiyor",
+      "topicId": "b1-gerekmek",
+      "items": [
+        {"tr": "Yarın erken kalkmam gerekiyor.", "en": "I need to get up early tomorrow."},
+        {"tr": "Bu işi bugün bitirmem gerekiyor.", "en": "I need to finish this work today."},
+        {"tr": "Doktora gitmem gerekiyor.", "en": "I need to go to the doctor."},
+        {"tr": "Biraz dinlenmem gerekiyor.", "en": "I need to rest a little."}
+      ]
+    },
+    {
+      "number": 32,
+      "title": "What You Need to Do",
+      "titleNative": "Senin Gereken",
+      "items": [
+        {"tr": "Senin de dinlenmen gerekiyor.", "en": "You need to rest too."},
+        {"tr": "Bu formu doldurman gerekiyor.", "en": "You need to fill out this form."},
+        {"tr": "Onunla konuşman gerekiyor.", "en": "You need to talk to him."},
+        {"tr": "Biraz daha sabırlı olman gerekiyor.", "en": "You need to be a little more patient."}
+      ]
+    },
+    {
+      "number": 33,
+      "title": "What He Needs to Do",
+      "titleNative": "Onun Gereken",
+      "items": [
+        {"tr": "Onun bu konuda karar vermesi gerekiyor.", "en": "He needs to make a decision on this matter."},
+        {"tr": "Doktorun onu görmesi gerekiyor.", "en": "The doctor needs to see him."},
+        {"tr": "Herkesin kurallara uyması gerekiyor.", "en": "Everyone needs to follow the rules."},
+        {"tr": "Çocuğun erken yatması gerekiyor.", "en": "The child needs to go to bed early."}
+      ]
+    },
+    {
+      "number": 34,
+      "title": "What We Need to Do",
+      "titleNative": "Bizim Gereken",
+      "items": [
+        {"tr": "Bu sorunu birlikte çözmemiz gerekiyor.", "en": "We need to solve this problem together."},
+        {"tr": "Daha dikkatli olmamız gerekiyor.", "en": "We need to be more careful."},
+        {"tr": "Planımızı değiştirmemiz gerekiyor.", "en": "We need to change our plan."},
+        {"tr": "Hep birlikte çalışmamız gerekiyor.", "en": "We all need to work together."}
+      ]
+    },
+    {
+      "number": 35,
+      "title": "Necessity in the Past",
+      "titleNative": "Geçmişte Gereklilik",
+      "items": [
+        {"tr": "Dün erken gitmem gerekiyordu.", "en": "I needed to leave early yesterday."},
+        {"tr": "O gün çok çalışmamız gerekiyordu.", "en": "We needed to work a lot that day."},
+        {"tr": "Kararı hemen vermesi gerekiyordu.", "en": "He needed to make the decision immediately."},
+        {"tr": "Daha erken söylemen gerekiyordu.", "en": "You needed to say it earlier."}
+      ]
+    },
+    {
+      "number": 36,
+      "title": "-mAlI vs. gerekiyor",
+      "titleNative": "-mAlI ve Gerekiyor",
+      "items": [
+        {"tr": "Su içmeliyim.", "en": "I must drink water."},
+        {"tr": "Su içmem gerekiyor.", "en": "I need to drink water."},
+        {"tr": "İkisi de aynı anlama geliyor.", "en": "Both mean the same thing."},
+        {"tr": "Günlük konuşmada ikisini de kullanıyoruz.", "en": "In everyday speech, we use both."}
+      ]
+    },
+    {
+      "number": 37,
+      "title": "Necessary Documents",
+      "titleNative": "Gerekli Belgeler",
+      "items": [
+        {"tr": "Vize için pasaportum gerekiyor.", "en": "I need my passport for the visa."},
+        {"tr": "Bu iş için deneyim gerekiyor.", "en": "Experience is needed for this job."},
+        {"tr": "Kayıt için kimlik belgesi gerekiyor.", "en": "An ID document is needed for registration."},
+        {"tr": "Fazladan bilgiye gerek yok.", "en": "No extra information is needed."}
+      ]
+    },
+    {
+      "number": 38,
+      "title": "Health Necessities",
+      "titleNative": "Sağlık Gereksinimleri",
+      "items": [
+        {"tr": "İyileşmen için dinlenmen gerekiyor.", "en": "You need to rest in order to get better."},
+        {"tr": "Ameliyat olması gerekiyormuş.", "en": "Apparently he needs to have surgery."},
+        {"tr": "Düzenli egzersiz yapmamız gerekiyor.", "en": "We need to exercise regularly."},
+        {"tr": "Daha az stres yaşamam gerekiyor.", "en": "I need to experience less stress."}
+      ]
+    },
+    {
+      "number": 39,
+      "title": "What's Required for Success",
+      "titleNative": "Başarı İçin Gerekenler",
+      "items": [
+        {"tr": "Başarılı olmak için sabırlı olman gerekiyor.", "en": "To be successful, you need to be patient."},
+        {"tr": "Hedefe ulaşmak için çok çalışman gerekiyor.", "en": "To reach the goal, you need to work hard."},
+        {"tr": "İyi bir lider olmak için insanları dinlemen gerekiyor.", "en": "To be a good leader, you need to listen to people."},
+        {"tr": "Değişim için cesaret gerekiyor.", "en": "Courage is needed for change."}
+      ]
+    },
+    {
+      "number": 40,
+      "title": "Review: Necessity",
+      "titleNative": "Tekrar: Gereklilik",
+      "items": [
+        {"tr": "Bu işi bitirmem gerekiyor.", "en": "I need to finish this work."},
+        {"tr": "Senin de biraz dinlenmen gerekiyor.", "en": "You need to rest a little too."},
+        {"tr": "Başarmak için çok çalışmamız gerekiyor.", "en": "We need to work hard to succeed."},
+        {"tr": "Bazen değişmemiz gerekiyor.", "en": "Sometimes we need to change."}
       ]
     }
   ]
