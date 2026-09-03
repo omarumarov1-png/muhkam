@@ -163,6 +163,11 @@
 
     "يرحمكم": {"gloss": "may He have mercy on you (يرحمكم الله, said after a sneeze)", "sources": ["speakrealarabic.com", "insidesaudi.com (Gulf-region source)"]},
 
+    "ركبة": {"gloss": "knee", "sources": ["aminacademy.org (body-parts-in-gulf-arabic page)", "kalimah-center.com (body-parts-in-arabic page)"]},
+    "ظهر": {"gloss": "back", "sources": ["kalimah-center.com (body-parts-in-arabic page)", "gulfarabicresources.com (health page, 'آلام في الظهر')"]},
+    "خشم": {"gloss": "nose", "sources": ["aminacademy.org (body-parts-in-gulf-arabic page)", "Wiktionary (dedicated Gulf Arabic entry)"], "note": "Gulf-specific; MSA is أنف, same pattern as قطوة/جلب/دريشة"},
+    "أحيانا": {"gloss": "sometimes (spelled أحياناً with tanwin in prose, but the tanwin diacritic is stripped by tokenization)", "sources": ["aminacademy.org (Adverbs in Gulf Arabic page)", "gulfarabicresources.com (practice-for-past-and-present-tense PDF, answer key item 18)"]},
+
     "أشوف": {"gloss": "I see (present tense of شاف, which the course previously only had confirmed in past tense)", "sources": ["Qafisheh (asuufa, attested in example sentence)", "gulfarabicresources.com (simple-conjugation-charts-of-some-example-verbs.pdf, 'To see' table)"]},
     "يشوف": {"gloss": "he sees", "sources": ["Qafisheh (ysuufni, attested in example sentence)", "gulfarabicresources.com (simple-conjugation-charts-of-some-example-verbs.pdf)"]},
     "يغسل": {"gloss": "he washes", "sources": ["aminacademy.org (the-present-simple/, raw HTML)", "Qafisheh (ygasil)"]},
@@ -216,6 +221,18 @@
       "past": {"1s_or_2sm": "ييت", "2sf": "ييتي", "3sm": "يا", "3sf": "يات", "1p": "يينا", "2p": "ييتو", "3p": "ياو"},
       "sources": ["gulfarabic.com (g47, Verbs Past Tense II -- full 8-cell past paradigm with live example sentences)", "Qafisheh (full conjugation table for the hollow/hamzated ja/ya verb class, matches gulfarabic.com's forms exactly)"],
       "note": "present 3sm يجي and 2sm/3sf تجي each confirmed by 2 independent sources (Qafisheh + gulfarabicresources.com topical-conversation pages); 1s present أجي only single-sourced (Qafisheh) and 1p/2p/3p present unattested anywhere -- do not use those. ييت is ambiguous between 1s and 2sm without an explicit subject pronoun."
+    },
+    "BUY": {
+      "root": "اشترى / يشتري",
+      "present": {"2sm_or_3sf": "تشتري"},
+      "sources": ["aminacademy.org (at-the-bank page: 'تقدر تشتري تدفع')", "gulfarabicresources.com (money page: 'هل عادة تفكر في السعر ولا بس تشتري اللي تحتاجه؟')"],
+      "note": "only this one cell meets the 2-source bar; 1s أشتري, 3sm يشتري, and 1p نشتري are each single-domain only, and past tense اشترى is unattested anywhere -- do not use those"
+    },
+    "PAY": {
+      "root": "دفع / يدفع",
+      "present": {"2sm_or_3sf": "تدفع"},
+      "sources": ["aminacademy.org (at-the-bank page: 'و تدفع بيه من تشتري')", "gulfarabicresources.com (work-jobs-professions page: 'هل الشركة لسى تدفع لك؟')"],
+      "note": "only this one cell meets the 2-source bar; 1s أدفع and 3p forms are each single-domain only -- do not use those"
     }
   },
   "_sources_log": {

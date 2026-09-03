@@ -1210,6 +1210,42 @@ def block_weather_chain_2():
     return [("Weather, Chained II", "الجو، جمل مركبة ٢", items)]
 
 
+def block_body_parts_extended():
+    items = [
+        {"ar": check("ظهري تعبان، لازم أروح الطبيب"), "en": "My back is tired, I have to go to the doctor"},
+        {"ar": check("ركبتي تعبانة كثير"), "en": "My knee is very tired"},
+        {"ar": check("خشمي تعبان الحين"), "en": "My nose is tired now"},
+    ]
+    return [("Back, Knee, Nose", "الظهر، الركبة، الخشم", items)]
+
+
+def block_sometimes():
+    items = [
+        {"ar": check("أحيانا أشرب قهوة الصبح"), "en": "Sometimes I drink coffee in the morning"},
+        {"ar": check("أحيانا يروح الشغل في الباص"), "en": "Sometimes he goes to work by bus"},
+        {"ar": check("هي أحيانا تشتغل في المطعم"), "en": "She sometimes works at the restaurant"},
+    ]
+    return [("Sometimes", "أحيانا", items)]
+
+
+def block_buy_pay():
+    items = [
+        {"ar": check("انت تشتري قميص جديد"), "en": "You buy a new shirt"},
+        {"ar": check("هي تشتري لحم زين في السوق"), "en": "She buys good meat at the market"},
+        {"ar": check("انت تدفع الحساب الحين"), "en": "You pay the bill now"},
+        {"ar": check("هي تدفع فلوس زين"), "en": "She pays good money"},
+    ]
+    return [("Buying and Paying", "تشتري، تدفع", items)]
+
+
+def block_buy_pay_chain():
+    items = [
+        {"ar": check("هي تشتري قميص جديد لأن هذا قديم"), "en": "She buys a new shirt because this one is old"},
+        {"ar": check("انت تدفع الحساب لأن أبغى أروح"), "en": "You pay the bill because I want to go"},
+    ]
+    return [("Buying and Paying, Because", "تشتري، تدفع، لأن", items)]
+
+
 SHIPPED_BLOCKS = {
     "professions": block_professions_a1,
     "professions_past": block_professions_past,
@@ -1291,6 +1327,10 @@ SHIPPED_BLOCKS = {
     "time_expressions_chain": block_time_expressions_chain,
     "come_negation": block_come_negation,
     "weather_chain_2": block_weather_chain_2,
+    "body_parts_extended": block_body_parts_extended,
+    "sometimes": block_sometimes,
+    "buy_pay": block_buy_pay,
+    "buy_pay_chain": block_buy_pay_chain,
 }
 
 BLOCK_LEVEL = {
@@ -1325,6 +1365,8 @@ BLOCK_LEVEL = {
     "cousins": "b1", "weather_extended": "b1",
     "clothing_extended_because": "b1", "time_expressions_chain": "b1plus",
     "come_negation": "b2", "weather_chain_2": "c1",
+    "body_parts_extended": "b1plus", "sometimes": "b1",
+    "buy_pay": "b1", "buy_pay_chain": "b1plus",
 }
 
 # Blocks introduced in this (second) research round -- the ones NOT already
@@ -1373,7 +1415,12 @@ ROUND_10_BLOCKS = {
     "come_negation", "weather_chain_2",
 }
 
-ALL_BLOCKS = {name: fn for name, fn in SHIPPED_BLOCKS.items() if name in ROUND_10_BLOCKS}
+# Eleventh round: back/knee/nose, sometimes, buy/pay.
+ROUND_11_BLOCKS = {
+    "body_parts_extended", "sometimes", "buy_pay", "buy_pay_chain",
+}
+
+ALL_BLOCKS = {name: fn for name, fn in SHIPPED_BLOCKS.items() if name in ROUND_11_BLOCKS}
 ALL_BLOCKS.update(systematic_sweep())
 
 
