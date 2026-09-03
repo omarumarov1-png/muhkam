@@ -30,6 +30,26 @@
         {"tr": "Duydun mu, yeni bir kafe açılmış.", "en": "Did you hear, a new cafe has apparently opened."},
         {"tr": "Hayır duymadım, gidip bakalım.", "en": "No, I hadn't heard, let's go check it out."}
       ]
+    },
+    "a2-future": {
+      "title": "Future Tense (-EcEk)",
+      "pattern": "stem + -(y)EcEk (harmonized: ecek/acak) + personal ending",
+      "explanation": "The future suffix -EcEk has only 2-way harmony (ecek after front vowels, acak after back vowels) rather than the 4-way harmony of -Iyor/-DI/-mIş. A y-buffer is inserted if the stem ends in a vowel. Its own final k softens to ğ whenever a vowel-initial personal ending follows (1st person singular -im and 1st person plural -iz), which is why 'gitmek' gives 'gideceğim' (I will go) but plain 'gidecek' (he/she will go, no personal ending after it).",
+      "fact": "Like -Iyor, the intervocalic softening that turns git- into gid- also happens here (gid-ecek), since -EcEk starts with a vowel -- but most verbs' stem-final consonant does NOT soften this way; git-/gid- and et-/ed- are the two everyday verbs where you'll see it constantly.",
+      "dialogue": [
+        {"tr": "Bu hafta sonu ne yapacaksın?", "en": "What will you do this weekend?"},
+        {"tr": "Arkadaşlarımla sinemaya gideceğim.", "en": "I will go to the movies with my friends."}
+      ]
+    },
+    "a2-possessive": {
+      "title": "Possessive Suffixes",
+      "pattern": "noun + -(I)m/-(I)n/-(s)I/-(I)mIz/-(I)nIz/-lArI",
+      "explanation": "Turkish marks 'my/your/his/our/your(pl)/their X' with a suffix on the noun itself, not a separate possessive word: ev (house) -> evim (my house), evin (your house), evi (his/her house). Consonant-final stems take -Im/-In/-I directly (4-way harmony); vowel-final stems take -m/-n/-sI, with an s-buffer for the 3rd person form so two vowels don't collide (araba -> arabası, not 'arabaı').",
+      "fact": "The same p/ç/t/k softening seen in verbs also happens to nouns before a vowel-initial possessive suffix -- kitap (book) becomes kitabım (my book), not 'kitapım'.",
+      "dialogue": [
+        {"tr": "Bu senin kitabın mı?", "en": "Is this your book?"},
+        {"tr": "Evet, kitabım.", "en": "Yes, it's my book."}
+      ]
     }
   },
   "lessons": [
@@ -364,6 +384,228 @@
         {"tr": "Duyduğuma göre hava bugün çok soğukmuş.", "en": "From what I heard, the weather is apparently very cold today."},
         {"tr": "Geçen hafta yeni bir kitap okudum.", "en": "Last week I read a new book."},
         {"tr": "Duyduğuma göre yazarı ünlü biriymiş.", "en": "From what I heard, the author is apparently someone famous."}
+      ]
+    },
+    {
+      "number": 31,
+      "title": "Weekend Plans",
+      "titleNative": "Hafta Sonu Planları",
+      "topicId": "a2-future",
+      "items": [
+        {"tr": "Bu hafta sonu arkadaşlarımla buluşacağım.", "en": "This weekend I will meet up with my friends."},
+        {"tr": "Sinemaya gideceğiz.", "en": "We will go to the movies."},
+        {"tr": "Yeni bir film izleyeceğiz.", "en": "We will watch a new movie."},
+        {"tr": "Sonra bir kafede oturacağız.", "en": "Afterwards we will sit at a cafe."}
+      ]
+    },
+    {
+      "number": 32,
+      "title": "Career Plans",
+      "titleNative": "Kariyer Planları",
+      "items": [
+        {"tr": "Gelecek yıl yeni bir iş bulacağım.", "en": "Next year I will find a new job."},
+        {"tr": "Daha çok para kazanacağım.", "en": "I will earn more money."},
+        {"tr": "Belki kendi şirketimi kuracağım.", "en": "Maybe I will start my own company."},
+        {"tr": "Zor olacak ama denemek istiyorum.", "en": "It will be hard but I want to try."}
+      ]
+    },
+    {
+      "number": 33,
+      "title": "Travel Plans",
+      "titleNative": "Seyahat Planları",
+      "items": [
+        {"tr": "Yaz tatilinde Antalya'ya gideceğim.", "en": "During summer vacation I will go to Antalya."},
+        {"tr": "Denizde yüzeceğim.", "en": "I will swim in the sea."},
+        {"tr": "Güzel oteller arayacağım.", "en": "I will look for nice hotels."},
+        {"tr": "Ailemle birlikte gideceğiz.", "en": "We will go together with my family."}
+      ]
+    },
+    {
+      "number": 34,
+      "title": "Studying Plans",
+      "titleNative": "Çalışma Planları",
+      "items": [
+        {"tr": "Yarın sınava çalışacağım.", "en": "Tomorrow I will study for the exam."},
+        {"tr": "Yeni bir dil öğreneceğim.", "en": "I will learn a new language."},
+        {"tr": "Her gün pratik yapacağım.", "en": "I will practice every day."},
+        {"tr": "Zamanla çok gelişeceğim.", "en": "Over time I will improve a lot."}
+      ]
+    },
+    {
+      "number": 35,
+      "title": "Health Plans",
+      "titleNative": "Sağlık Planları",
+      "items": [
+        {"tr": "Daha sağlıklı yiyecekler yiyeceğim.", "en": "I will eat healthier foods."},
+        {"tr": "Her gün spor yapacağım.", "en": "I will exercise every day."},
+        {"tr": "Erken yatacağım.", "en": "I will go to bed early."},
+        {"tr": "Daha az şeker yiyeceğim.", "en": "I will eat less sugar."}
+      ]
+    },
+    {
+      "number": 36,
+      "title": "Home Plans",
+      "titleNative": "Ev Planları",
+      "items": [
+        {"tr": "Yeni bir ev alacağız.", "en": "We will buy a new house."},
+        {"tr": "Evi yeniden boyayacağız.", "en": "We will repaint the house."},
+        {"tr": "Bahçeye ağaç dikeceğiz.", "en": "We will plant a tree in the garden."},
+        {"tr": "Güzel bir bahçemiz olacak.", "en": "We will have a beautiful garden."}
+      ]
+    },
+    {
+      "number": 37,
+      "title": "Environment and Future",
+      "titleNative": "Çevre ve Gelecek",
+      "items": [
+        {"tr": "Daha az plastik kullanacağım.", "en": "I will use less plastic."},
+        {"tr": "Geri dönüşüm yapacağız.", "en": "We will recycle."},
+        {"tr": "Enerji tasarrufu yapacağız.", "en": "We will save energy."},
+        {"tr": "Gelecek nesiller için çalışacağız.", "en": "We will work for future generations."}
+      ]
+    },
+    {
+      "number": 38,
+      "title": "A Big Decision",
+      "titleNative": "Büyük Bir Karar",
+      "items": [
+        {"tr": "Yakında önemli bir karar vereceğim.", "en": "Soon I will make an important decision."},
+        {"tr": "Bu şehirden taşınacağım.", "en": "I will move away from this city."},
+        {"tr": "Yeni bir hayata başlayacağım.", "en": "I will start a new life."},
+        {"tr": "Umarım doğru kararı vereceğim.", "en": "I hope I will make the right decision."}
+      ]
+    },
+    {
+      "number": 39,
+      "title": "Promises",
+      "titleNative": "Sözler",
+      "items": [
+        {"tr": "Sana her zaman yardım edeceğim.", "en": "I will always help you."},
+        {"tr": "Seni asla unutmayacağım.", "en": "I will never forget you."},
+        {"tr": "Söz veriyorum, dürüst olacağım.", "en": "I promise, I will be honest."},
+        {"tr": "Bu sözümü tutacağım.", "en": "I will keep this promise of mine."}
+      ]
+    },
+    {
+      "number": 40,
+      "title": "Review: Future Plans",
+      "titleNative": "Tekrar: Gelecek Planları",
+      "items": [
+        {"tr": "Yarın erken kalkacağım.", "en": "Tomorrow I will get up early."},
+        {"tr": "İşe gideceğim ve çok çalışacağım.", "en": "I will go to work and work hard."},
+        {"tr": "Akşam ailemle vakit geçireceğim.", "en": "In the evening I will spend time with my family."},
+        {"tr": "Güzel bir gün olacak.", "en": "It will be a beautiful day."}
+      ]
+    },
+    {
+      "number": 41,
+      "title": "My Family",
+      "titleNative": "Ailem",
+      "topicId": "a2-possessive",
+      "items": [
+        {"tr": "Annem çok çalışkan bir kadın.", "en": "My mother is a very hardworking woman."},
+        {"tr": "Babam mühendis olarak çalışıyor.", "en": "My father works as an engineer."},
+        {"tr": "Kardeşim benden iki yaş küçük.", "en": "My sibling is two years younger than me."},
+        {"tr": "Ailem benim için çok önemli.", "en": "My family is very important to me."}
+      ]
+    },
+    {
+      "number": 42,
+      "title": "Whose Is This?",
+      "titleNative": "Bu Kimin?",
+      "items": [
+        {"tr": "Bu araba babamın.", "en": "This car is my father's."},
+        {"tr": "O çanta annemin.", "en": "That bag is my mother's."},
+        {"tr": "Bu benim kitabım.", "en": "This is my book."},
+        {"tr": "Şu senin mi?", "en": "Is that yours?"}
+      ]
+    },
+    {
+      "number": 43,
+      "title": "There Is / There Isn't",
+      "titleNative": "Var / Yok",
+      "items": [
+        {"tr": "Evde bir kedimiz var.", "en": "We have a cat at home."},
+        {"tr": "Bahçede ağaç yok.", "en": "There is no tree in the garden."},
+        {"tr": "Odamda büyük bir pencere var.", "en": "There is a big window in my room."},
+        {"tr": "Zamanım yok, çok meşgulüm.", "en": "I don't have time, I'm very busy."}
+      ]
+    },
+    {
+      "number": 44,
+      "title": "My Things",
+      "titleNative": "Eşyalarım",
+      "items": [
+        {"tr": "Telefonum masanın üstünde.", "en": "My phone is on the table."},
+        {"tr": "Anahtarlarım nerede?", "en": "Where are my keys?"},
+        {"tr": "Çantam çok ağır.", "en": "My bag is very heavy."},
+        {"tr": "Gözlüklerim nerede?", "en": "Where are my glasses?"}
+      ]
+    },
+    {
+      "number": 45,
+      "title": "Our Home",
+      "titleNative": "Evimiz",
+      "items": [
+        {"tr": "Evimiz şehir merkezinde.", "en": "Our house is in the city center."},
+        {"tr": "Mutfağımız oldukça büyük.", "en": "Our kitchen is quite big."},
+        {"tr": "Salonumuzda büyük bir kanepe var.", "en": "There is a big couch in our living room."},
+        {"tr": "Komşularımız çok nazik insanlar.", "en": "Our neighbors are very kind people."}
+      ]
+    },
+    {
+      "number": 46,
+      "title": "Your Family",
+      "titleNative": "Senin Ailen",
+      "items": [
+        {"tr": "Senin ailen kalabalık mı?", "en": "Is your family big?"},
+        {"tr": "Kardeşlerin var mı?", "en": "Do you have siblings?"},
+        {"tr": "Annen ve baban nerede yaşıyor?", "en": "Where do your mother and father live?"},
+        {"tr": "Ailenle yakın mısın?", "en": "Are you close with your family?"}
+      ]
+    },
+    {
+      "number": 47,
+      "title": "Their House",
+      "titleNative": "Onların Evi",
+      "items": [
+        {"tr": "Onların evi çok büyük.", "en": "Their house is very big."},
+        {"tr": "Bahçeleri güzel çiçeklerle dolu.", "en": "Their garden is full of beautiful flowers."},
+        {"tr": "Köpekleri çok tatlı bir hayvan.", "en": "Their dog is a very cute animal."},
+        {"tr": "Evleri şehrin dışında.", "en": "Their house is outside the city."}
+      ]
+    },
+    {
+      "number": 48,
+      "title": "Whose Is It, at Work",
+      "titleNative": "İşte, Kimin",
+      "items": [
+        {"tr": "Bu senin masan mı?", "en": "Is this your desk?"},
+        {"tr": "Hayır, bu meslektaşımın masası.", "en": "No, this is my colleague's desk."},
+        {"tr": "Onun bilgisayarı çok yeni.", "en": "His computer is very new."},
+        {"tr": "Benim sandalyem rahat değil.", "en": "My chair is not comfortable."}
+      ]
+    },
+    {
+      "number": 49,
+      "title": "A Family Gathering",
+      "titleNative": "Bir Aile Buluşması",
+      "items": [
+        {"tr": "Bu hafta sonu büyükannemi ziyaret ediyoruz.", "en": "This weekend we are visiting my grandmother."},
+        {"tr": "Tüm akrabalarımız bir araya gelecek.", "en": "All our relatives will come together."},
+        {"tr": "Herkes yemek getirecek.", "en": "Everyone will bring food."},
+        {"tr": "Çok eğlenceli bir gün olacak.", "en": "It will be a very fun day."}
+      ]
+    },
+    {
+      "number": 50,
+      "title": "Review: Possession and Family",
+      "titleNative": "Tekrar: İyelik ve Aile",
+      "items": [
+        {"tr": "Bu benim ailem.", "en": "This is my family."},
+        {"tr": "Annemin adı Ayşe, babamın adı Mehmet.", "en": "My mother's name is Ayşe, my father's name is Mehmet."},
+        {"tr": "İki kardeşim var.", "en": "I have two siblings."},
+        {"tr": "Ailem benim için her şey.", "en": "My family is everything to me."}
       ]
     }
   ]
