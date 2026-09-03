@@ -20,6 +20,16 @@
         {"tr": "Dün okuduğun kitap nasıldı?", "en": "How was the book you read yesterday?"},
         {"tr": "Okuduğum kitap çok güzeldi.", "en": "The book I read was very good."}
       ]
+    },
+    "b1-ability": {
+      "title": "Ability (-Ebil)",
+      "pattern": "stem + -(y)Ebil (harmonized: ebil/abil) + tense; negative: stem + -(y)EmE + tense",
+      "explanation": "'Can/be able to' is built by inserting -Ebil right after the verb stem, then adding a normal tense suffix: gid-ebil-di-m (I was able to go, past), gid-ebil-eceğim (I will be able to go, future), gid-ebil-iyorum (I can go, present continuous -- very common in everyday speech for general ability, not just an action in progress). The negative uses a DIFFERENT infix, -(y)EmE- instead of -Ebil-: gid-eme-dim (I couldn't go), gid-emi-yorum (I can't go).",
+      "fact": "The habitual/general 'can' also has an aorist form (gidebilirim), but -Ebiliyor (present continuous) covers the same everyday meaning just as naturally and is extremely common in casual speech -- so you'll hear both.",
+      "dialogue": [
+        {"tr": "Türkçe konuşabiliyor musun?", "en": "Can you speak Turkish?"},
+        {"tr": "Biraz konuşabiliyorum, daha öğreniyorum.", "en": "I can speak a little, I'm still learning."}
+      ]
     }
   },
   "lessons": [
@@ -243,6 +253,117 @@
         {"tr": "Tanıdığım en iyi insan sensin.", "en": "You are the best person I know."},
         {"tr": "Yaşadığımız anlar çok değerli.", "en": "The moments we lived are very valuable."},
         {"tr": "Söylediklerini hiç unutmadım.", "en": "I never forgot what you said."}
+      ]
+    },
+    {
+      "number": 21,
+      "title": "What I Could Do",
+      "titleNative": "Yapabildiklerim",
+      "topicId": "b1-ability",
+      "items": [
+        {"tr": "Sonunda İngilizce konuşabildim.", "en": "I was finally able to speak English."},
+        {"tr": "Erken kalkabildim çünkü iyi uyudum.", "en": "I was able to get up early because I slept well."},
+        {"tr": "Sonunda sorunu çözebildim.", "en": "I was finally able to solve the problem."},
+        {"tr": "Tatilde çok dinlenebildim.", "en": "I was able to rest a lot on vacation."}
+      ]
+    },
+    {
+      "number": 22,
+      "title": "What I Couldn't Do",
+      "titleNative": "Yapamadıklarım",
+      "items": [
+        {"tr": "Dün gece uyuyamadım.", "en": "I couldn't sleep last night."},
+        {"tr": "Toplantıya katılamadım.", "en": "I couldn't attend the meeting."},
+        {"tr": "Zamanında gelemedim, özür dilerim.", "en": "I couldn't come on time, I apologize."},
+        {"tr": "Bu soruyu çözemedim.", "en": "I couldn't solve this question."}
+      ]
+    },
+    {
+      "number": 23,
+      "title": "Future Abilities",
+      "titleNative": "Gelecekteki Yeteneklerim",
+      "items": [
+        {"tr": "Bir gün akıcı Türkçe konuşabileceğim.", "en": "One day I will be able to speak fluent Turkish."},
+        {"tr": "Çok çalışacağım ve sınavı geçebileceğim.", "en": "I will study hard and I will be able to pass the exam."},
+        {"tr": "Gelecek yıl yeni bir dil öğrenebileceğim.", "en": "Next year I will be able to learn a new language."},
+        {"tr": "Bu projeyi zamanında bitirebileceğim.", "en": "I will be able to finish this project on time."}
+      ]
+    },
+    {
+      "number": 24,
+      "title": "Were You Able To...?",
+      "titleNative": "Yapabildin mi?",
+      "items": [
+        {"tr": "Bana yardım edebildin mi?", "en": "Were you able to help me?"},
+        {"tr": "Dün gece iyi uyuyabildin mi?", "en": "Were you able to sleep well last night?"},
+        {"tr": "Bu hafta sonu gelebilecek misin?", "en": "Will you be able to come this weekend?"},
+        {"tr": "Ödevini bitirebildin mi?", "en": "Were you able to finish your homework?"}
+      ]
+    },
+    {
+      "number": 25,
+      "title": "Overcoming Challenges",
+      "titleNative": "Zorlukların Üstesinden Gelmek",
+      "items": [
+        {"tr": "Zor bir dönemdi ama üstesinden gelebildim.", "en": "It was a hard period but I was able to overcome it."},
+        {"tr": "Korkularımı yenebildim.", "en": "I was able to overcome my fears."},
+        {"tr": "Hiç pes etmedim ve başarabildim.", "en": "I never gave up and I was able to succeed."},
+        {"tr": "Bu deneyimden çok şey öğrenebildim.", "en": "I was able to learn a lot from this experience."}
+      ]
+    },
+    {
+      "number": 26,
+      "title": "Language Learning Journey",
+      "titleNative": "Dil Öğrenme Yolculuğu",
+      "items": [
+        {"tr": "Bir yıl önce hiç Türkçe konuşamıyordum.", "en": "A year ago I couldn't speak Turkish at all."},
+        {"tr": "Şimdi basit cümleler kurabiliyorum.", "en": "Now I can construct simple sentences."},
+        {"tr": "Artık haberleri anlayabiliyorum.", "en": "Now I can understand the news."},
+        {"tr": "Hedefime yaklaşabiliyorum.", "en": "I am able to get closer to my goal."}
+      ]
+    },
+    {
+      "number": 27,
+      "title": "What Children Can Do",
+      "titleNative": "Çocukların Yapabildikleri",
+      "items": [
+        {"tr": "Kızım artık yüzebiliyor.", "en": "My daughter can swim now."},
+        {"tr": "Oğlum bisiklete binebiliyor.", "en": "My son can ride a bike."},
+        {"tr": "İki yaşında bile konuşabiliyordu.", "en": "He could even talk at two years old."},
+        {"tr": "Çocuklar çok hızlı öğrenebiliyor.", "en": "Children can learn very fast."}
+      ]
+    },
+    {
+      "number": 28,
+      "title": "Technology and Abilities",
+      "titleNative": "Teknoloji ve Yetenekler",
+      "items": [
+        {"tr": "Bu telefon suya dayanabiliyor.", "en": "This phone can withstand water."},
+        {"tr": "Yapay zeka artık resim çizebiliyor.", "en": "Artificial intelligence can now draw pictures."},
+        {"tr": "Bu program birçok dili çevirebiliyor.", "en": "This program can translate many languages."},
+        {"tr": "İnternetle her yerden çalışabiliyoruz.", "en": "With the internet we can work from anywhere."}
+      ]
+    },
+    {
+      "number": 29,
+      "title": "Limitations",
+      "titleNative": "Sınırlamalar",
+      "items": [
+        {"tr": "Bu telefonla video çekemiyorum.", "en": "I can't shoot video with this phone."},
+        {"tr": "Maalesef sana katılamıyorum.", "en": "Unfortunately I can't join you."},
+        {"tr": "Bu müziği dinleyemiyorum, çok yüksek sesli.", "en": "I can't listen to this music, it's too loud."},
+        {"tr": "İnternet olmadan çalışamıyorum.", "en": "I can't work without internet."}
+      ]
+    },
+    {
+      "number": 30,
+      "title": "Review: Ability",
+      "titleNative": "Tekrar: Yeterlilik",
+      "items": [
+        {"tr": "Artık Türkçe okuyabiliyorum ve yazabiliyorum.", "en": "Now I can read and write Turkish."},
+        {"tr": "Geçen yıl bunu yapamıyordum.", "en": "Last year I couldn't do this."},
+        {"tr": "Çok çalıştım ve başarabildim.", "en": "I worked hard and I was able to succeed."},
+        {"tr": "Gelecekte daha fazlasını yapabileceğim.", "en": "In the future I will be able to do more."}
       ]
     }
   ]
