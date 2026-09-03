@@ -1096,6 +1096,83 @@ def block_quantifiers_extended():
     return [("Quantifiers Extended", "شوي وبعض وكل، أكثر", items)]
 
 
+def block_come_present():
+    items = [
+        {"ar": check("يجي كل يوم"), "en": "He comes every day"},
+        {"ar": check("انت تجي المطعم بكرا"), "en": "You come to the restaurant tomorrow"},
+        {"ar": check("هي تجي البيت الحين"), "en": "She comes home now"},
+        {"ar": check("خالي يجي مع أخوي"), "en": "My uncle comes with my brother"},
+    ]
+    return [("Coming", "يجي", items)]
+
+
+def block_came_past_1():
+    items = [
+        {"ar": check("أنا ييت البيت أمس"), "en": "I came home yesterday"},
+        {"ar": check("انت ييت المطعم أمس"), "en": "You came to the restaurant yesterday"},
+        {"ar": check("ييتي من السوق أمس"), "en": "You (f.) came from the market yesterday"},
+        {"ar": check("يا من الشغل أمس"), "en": "He came from work yesterday"},
+    ]
+    return [("I Came, You Came", "ييت", items)]
+
+
+def block_came_past_2():
+    items = [
+        {"ar": check("يات مع خالي أمس"), "en": "She came with my uncle yesterday"},
+        {"ar": check("يينا البيت أمس"), "en": "We came home yesterday"},
+        {"ar": check("ييتو من السوق أمس"), "en": "You all came from the market yesterday"},
+        {"ar": check("ياو مع الأهل أمس"), "en": "They came with the family yesterday"},
+    ]
+    return [("She Came, We Came", "يات، يينا", items)]
+
+
+def block_sitting():
+    items = [
+        {"ar": check("قعد في البيت أمس"), "en": "He sat at home yesterday"},
+        {"ar": check("خالي قعد في المطعم أمس"), "en": "My uncle sat at the restaurant yesterday"},
+    ]
+    return [("Sitting", "قعد", items)]
+
+
+def block_time_expressions():
+    items = [
+        {"ar": check("رحت السوق الأسبوع الماضي"), "en": "I went to the market last week"},
+        {"ar": check("أبغى أروح الأسبوع الجاي"), "en": "I want to go next week"},
+        {"ar": check("شفت خالي الشهر الماضي"), "en": "I saw my uncle last month"},
+        {"ar": check("لازم أروح الشهر الجاي"), "en": "I have to go next month"},
+    ]
+    return [("Last Week, Next Month", "الأسبوع، الشهر", items)]
+
+
+def block_clothing_extended():
+    items = [
+        {"ar": check("أبغى جوتي جديد"), "en": "I want new shoes"},
+        {"ar": check("عندي دلاغات زينة"), "en": "I have good socks"},
+        {"ar": check("خالي عنده قحفية زينة"), "en": "My uncle has a nice cap"},
+        {"ar": check("الجوتي غالي كثير"), "en": "The shoes are very expensive"},
+    ]
+    return [("Shoes, Socks, and Caps", "جوتي، دلاغات، قحفية", items)]
+
+
+def block_cousins():
+    items = [
+        {"ar": check("هذا ابن العم زين"), "en": "This is a good cousin"},
+        {"ar": check("هذي بنت الخال زينة"), "en": "This is a good cousin (f.)"},
+        {"ar": check("عندي حفيد زين"), "en": "I have a good grandson"},
+        {"ar": check("خالتي عندها حفيدة زينة"), "en": "My aunt has a good granddaughter"},
+    ]
+    return [("Cousins and Grandchildren", "ابن العم، حفيد", items)]
+
+
+def block_weather_extended():
+    items = [
+        {"ar": check("الجو غائم اليوم"), "en": "The weather is cloudy today"},
+        {"ar": check("فيه عاصفة، ما أبغى أروح"), "en": "There's a storm, I don't want to go"},
+        {"ar": check("فيه رطوبة كثير الحين"), "en": "There's a lot of humidity now"},
+    ]
+    return [("Cloudy, Storm, Humidity", "غائم، عاصفة، رطوبة", items)]
+
+
 SHIPPED_BLOCKS = {
     "professions": block_professions_a1,
     "professions_past": block_professions_past,
@@ -1165,6 +1242,14 @@ SHIPPED_BLOCKS = {
     "leaving": block_leaving,
     "comparatives_because": block_comparatives_because,
     "quantifiers_extended": block_quantifiers_extended,
+    "come_present": block_come_present,
+    "came_past_1": block_came_past_1,
+    "came_past_2": block_came_past_2,
+    "sitting": block_sitting,
+    "time_expressions": block_time_expressions,
+    "clothing_extended": block_clothing_extended,
+    "cousins": block_cousins,
+    "weather_extended": block_weather_extended,
 }
 
 BLOCK_LEVEL = {
@@ -1194,6 +1279,9 @@ BLOCK_LEVEL = {
     "comparatives": "a2", "reactions": "a1", "first_again_never": "a2",
     "quantifiers": "a2", "bill_free": "a1", "leaving": "a2",
     "comparatives_because": "b1plus", "quantifiers_extended": "b1",
+    "come_present": "a2", "came_past_1": "a2", "came_past_2": "a2",
+    "sitting": "a2", "time_expressions": "b1", "clothing_extended": "a2",
+    "cousins": "b1", "weather_extended": "b1",
 }
 
 # Blocks introduced in this (second) research round -- the ones NOT already
@@ -1230,7 +1318,13 @@ ROUND_8_BLOCKS = {
     "bill_free", "leaving", "comparatives_because", "quantifiers_extended",
 }
 
-ALL_BLOCKS = {name: fn for name, fn in SHIPPED_BLOCKS.items() if name in ROUND_8_BLOCKS}
+# Ninth round: come/sit verbs, time expressions, extended clothing/family/weather.
+ROUND_9_BLOCKS = {
+    "come_present", "came_past_1", "came_past_2", "sitting",
+    "time_expressions", "clothing_extended", "cousins", "weather_extended",
+}
+
+ALL_BLOCKS = {name: fn for name, fn in SHIPPED_BLOCKS.items() if name in ROUND_9_BLOCKS}
 ALL_BLOCKS.update(systematic_sweep())
 
 

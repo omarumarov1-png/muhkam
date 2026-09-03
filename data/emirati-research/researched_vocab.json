@@ -139,6 +139,29 @@
     "الحساب": {"gloss": "the bill/check", "sources": ["storylearning.com (Gulf Arabic phrases article)", "aminacademy.org (at-the-bank, booking-a-hotel pages)"]},
     "مجاني": {"gloss": "free (of charge)", "sources": ["aminacademy.org (at-the-bank page)", "thetalklist.com (Free in Different Languages)"]},
     "طلع": {"gloss": "to leave/go out (3sm past/citation form)", "sources": ["aminacademy.org (booking-a-hotel, at-the-airport pages)", "gulfarabic.com (g47)", "gulfarabicresources.com (picture-stories page)"]},
+    "قعد": {"gloss": "to sit/stay (3sm past/citation form)", "sources": ["gulfarabic.com (v56, In the Office II)", "Qafisheh (live sentence: ga9ad sawlaf)"]},
+
+    "الأسبوع": {"gloss": "the week", "sources": ["aminacademy.org (adverbs-in-gulf-arabic page)", "Qafisheh (s-subuu9 l-maaDi)"]},
+    "الماضي": {"gloss": "last/past (as in الأسبوع الماضي 'last week')", "sources": ["aminacademy.org (adverbs-in-gulf-arabic page)", "Qafisheh (s-subuu9 l-maaDi, s-sahar l-maaDi)"]},
+    "الشهر": {"gloss": "the month", "sources": ["aminacademy.org (adverbs-in-gulf-arabic page)", "Qafisheh (s-sahar l-maaDi)"]},
+    "الجاي": {"gloss": "coming/next (as in الأسبوع الجاي 'next week')", "sources": ["aminacademy.org (adverbs-in-gulf-arabic page)", "Qafisheh (jaay/yaay glossed 'coming')"]},
+
+    "جوتي": {"gloss": "shoes", "sources": ["aminacademy.org (clothes-in-gulf-arabic page)", "Wiktionary (dedicated Gulf Arabic entry)"]},
+    "دلاغات": {"gloss": "socks", "sources": ["aminacademy.org", "UAE retail sites (socksup.ae)"]},
+    "قحفية": {"gloss": "men's skull cap/hat", "sources": ["aminacademy.org", "Gulf retail/reference sites (shababalyola.ae, littlebedoo.com)"]},
+
+    "ابن": {"gloss": "son (as in ابن العم 'cousin')", "sources": ["kalimah-center.com", "kaleela.com/preply.com"]},
+    "بنت": {"gloss": "daughter/girl (as in بنت العم 'female cousin')", "sources": ["kalimah-center.com", "kaleela.com"]},
+    "العم": {"gloss": "the paternal uncle (as in ابن العم 'paternal cousin')", "sources": ["kalimah-center.com", "kaleela.com/preply.com"]},
+    "الخال": {"gloss": "the maternal uncle (as in ابن الخال 'maternal cousin')", "sources": ["kalimah-center.com", "kaleela.com/preply.com"]},
+    "حفيد": {"gloss": "grandson", "sources": ["kalimah-center.com", "preply.com"]},
+    "حفيدة": {"gloss": "granddaughter", "sources": ["kalimah-center.com", "preply.com"]},
+
+    "غائم": {"gloss": "cloudy", "sources": ["kalimah-center.com (seasons-and-weather-in-arabic)", "preply.com (arabic-weather-terms)"]},
+    "عاصفة": {"gloss": "storm", "sources": ["kalimah-center.com", "preply.com"]},
+    "رطوبة": {"gloss": "humidity (noun)", "sources": ["kalimah-center.com", "preply.com"]},
+
+    "يرحمكم": {"gloss": "may He have mercy on you (يرحمكم الله, said after a sneeze)", "sources": ["speakrealarabic.com", "insidesaudi.com (Gulf-region source)"]},
 
     "أشوف": {"gloss": "I see (present tense of شاف, which the course previously only had confirmed in past tense)", "sources": ["Qafisheh (asuufa, attested in example sentence)", "gulfarabicresources.com (simple-conjugation-charts-of-some-example-verbs.pdf, 'To see' table)"]},
     "يشوف": {"gloss": "he sees", "sources": ["Qafisheh (ysuufni, attested in example sentence)", "gulfarabicresources.com (simple-conjugation-charts-of-some-example-verbs.pdf)"]},
@@ -186,6 +209,13 @@
       "past": {"1s": "نظفت", "2sm": "نظفت", "2sf": "نظفتي", "3sm": "نظف", "3sf": "نظفت", "1p": "نظفنا", "2p": "نظفتوا", "3p": "نظفوا"},
       "sources": ["aminacademy.org (the-present-simple/, the-past-tense/, raw HTML re-fetched to rule out AI-summary paraphrase)", "gulfarabicresources.com (simple-conjugation-charts-of-some-example-verbs.pdf, Form II table)"],
       "note": "present 2sf/2p/3p omitted -- the two sources disagree on the ending (ن-suffix vs not) and neither wins outright; past forms use pronoun disambiguation where 1s/2sm/3sf collide in script (نظفت is shared by all three)"
+    },
+    "COME": {
+      "root": "جاء / يا / يجي",
+      "present": {"3sm": "يجي", "2sm_or_3sf": "تجي"},
+      "past": {"1s_or_2sm": "ييت", "2sf": "ييتي", "3sm": "يا", "3sf": "يات", "1p": "يينا", "2p": "ييتو", "3p": "ياو"},
+      "sources": ["gulfarabic.com (g47, Verbs Past Tense II -- full 8-cell past paradigm with live example sentences)", "Qafisheh (full conjugation table for the hollow/hamzated ja/ya verb class, matches gulfarabic.com's forms exactly)"],
+      "note": "present 3sm يجي and 2sm/3sf تجي each confirmed by 2 independent sources (Qafisheh + gulfarabicresources.com topical-conversation pages); 1s present أجي only single-sourced (Qafisheh) and 1p/2p/3p present unattested anywhere -- do not use those. ييت is ambiguous between 1s and 2sm without an explicit subject pronoun."
     }
   },
   "_sources_log": {
