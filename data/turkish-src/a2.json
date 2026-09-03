@@ -1,0 +1,370 @@
+{
+  "level": "a2",
+  "grammarTopics": {
+    "a2-present-continuous": {
+      "title": "Present Continuous (-Iyor)",
+      "pattern": "stem + (buffer vowel) + -Iyor + personal ending",
+      "explanation": "Turkish forms the present continuous by attaching -Iyor to the verb stem, with the connecting vowel following 4-way vowel harmony (ı/i/u/ü) based on the stem's last vowel. If the stem ends in a vowel, that vowel drops before -Iyor is added. This tense covers both actions happening right now and, very commonly in everyday speech, habitual actions -- 'Her sabah erken kalkıyorum' (I get up early every morning) is completely natural, not just 'I am getting up' in the moment.",
+      "fact": "Unlike the aorist (-Ir) tense, -Iyor attaches the same way to every verb with zero irregular exceptions -- once you know the harmony rule, you can conjugate any verb in this tense correctly.",
+      "dialogue": [
+        {"tr": "Şu anda ne yapıyorsun?", "en": "What are you doing right now?"},
+        {"tr": "Kahvaltı yapıyorum.", "en": "I'm having breakfast."}
+      ]
+    },
+    "a2-past-di": {
+      "title": "Definite Past (-DI)",
+      "pattern": "stem + -DI (harmonized: dı/di/du/dü or tı/ti/tu/tü) + personal ending",
+      "explanation": "The -DI suffix marks events the speaker witnessed or is certain happened -- Turkey's everyday 'I did X' past tense. Its vowel follows 4-way harmony (dı/di/du/dü) based on the stem's last vowel, and the consonant becomes t instead of d if the stem ends in a voiceless consonant (p, ç, t, k, f, s, ş, h) -- so gitmek gives gittim (t stays t), but gelmek gives geldim (l is voiced, so d stays d).",
+      "fact": "-DI is one of the most reliably regular suffixes in Turkish -- once you know the harmony and devoicing rules, the only real irregularity in this whole tense is a small set of verbs whose STEM itself changes (like gitmek's git-/gid- alternation, which shows up in other tenses, not this one).",
+      "dialogue": [
+        {"tr": "Dün ne yaptın?", "en": "What did you do yesterday?"},
+        {"tr": "Arkadaşlarımla sinemaya gittim.", "en": "I went to the movies with my friends."}
+      ]
+    },
+    "a2-past-mis": {
+      "title": "Reported Past (-mIş)",
+      "pattern": "stem + -mIş (harmonized: mış/miş/muş/müş) + personal ending",
+      "explanation": "-mIş marks things the speaker did NOT personally witness: hearsay, rumor, things learned secondhand, or things discovered/realized after the fact. It contrasts directly with -DI, which marks events the speaker is certain about or saw happen. Its vowel follows the same 4-way harmony as -DI (mış/miş/muş/müş), but since the suffix starts with the consonant m rather than d, there's no devoicing rule to worry about -- it attaches the same way after every stem.",
+      "fact": "-mIş also attaches to nouns and adjectives (with a y buffer after a vowel) to report a STATE secondhand -- 'yorgunmuş' (apparently tired), 'pahalıymış' (apparently expensive) -- not just verbs.",
+      "dialogue": [
+        {"tr": "Duydun mu, yeni bir kafe açılmış.", "en": "Did you hear, a new cafe has apparently opened."},
+        {"tr": "Hayır duymadım, gidip bakalım.", "en": "No, I hadn't heard, let's go check it out."}
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Waking Up",
+      "titleNative": "Uyanmak",
+      "topicId": "a2-present-continuous",
+      "items": [
+        {"tr": "Her sabah erken uyanıyorum.", "en": "I wake up early every morning."},
+        {"tr": "Saat altıda uyanıyorum.", "en": "I wake up at six o'clock."},
+        {"tr": "Hafta sonu geç uyanıyorum.", "en": "I wake up late on the weekend."},
+        {"tr": "Kardeşim benden önce uyanıyor.", "en": "My sibling wakes up before me."}
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Getting Up and Ready",
+      "titleNative": "Kalkmak ve Hazırlanmak",
+      "items": [
+        {"tr": "Yataktan hemen kalkıyorum.", "en": "I get out of bed right away."},
+        {"tr": "Kalkıyorum ve pencereyi açıyorum.", "en": "I get up and open the window."},
+        {"tr": "Sabahları çabuk hazırlanıyorum.", "en": "I get ready quickly in the mornings."},
+        {"tr": "Annem erken kalkıyor.", "en": "My mom gets up early."}
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Getting Dressed",
+      "titleNative": "Giyinmek",
+      "items": [
+        {"tr": "Odamda giyiniyorum.", "en": "I get dressed in my room."},
+        {"tr": "Bugün mavi bir gömlek giyiyorum.", "en": "Today I'm wearing a blue shirt."},
+        {"tr": "Kızım kendi kıyafetlerini seçiyor.", "en": "My daughter picks out her own clothes."},
+        {"tr": "İşe giderken rahat ayakkabılar giyiyorum.", "en": "I wear comfortable shoes when going to work."}
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Brushing Teeth and Washing Up",
+      "titleNative": "Diş Fırçalamak ve Yıkanmak",
+      "items": [
+        {"tr": "Kalktıktan sonra dişlerimi fırçalıyorum.", "en": "After getting up, I brush my teeth."},
+        {"tr": "Her gün sabah ve akşam yıkanıyorum.", "en": "I wash up every morning and evening."},
+        {"tr": "Sıcak suyla yüzümü yıkıyorum.", "en": "I wash my face with warm water."},
+        {"tr": "Oğlum sabahları dişlerini unutmadan fırçalıyor.", "en": "My son brushes his teeth every morning without forgetting."}
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Breakfast",
+      "titleNative": "Kahvaltı",
+      "items": [
+        {"tr": "Mutfakta kahvaltı yapıyorum.", "en": "I have breakfast in the kitchen."},
+        {"tr": "Sabahları peynir ve ekmek yiyorum.", "en": "In the mornings I eat cheese and bread."},
+        {"tr": "Kahvaltıda genellikle çay içiyorum.", "en": "At breakfast I usually drink tea."},
+        {"tr": "Ailem birlikte kahvaltı yapıyor.", "en": "My family has breakfast together."}
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Leaving the House",
+      "titleNative": "Evden Çıkmak",
+      "items": [
+        {"tr": "Saat sekizde evden çıkıyorum.", "en": "I leave the house at eight o'clock."},
+        {"tr": "Çıkmadan önce çantamı kontrol ediyorum.", "en": "Before leaving, I check my bag."},
+        {"tr": "Kapıyı kilitliyorum ve otobüs durağına yürüyorum.", "en": "I lock the door and walk to the bus stop."},
+        {"tr": "Bazen işe arabayla gidiyorum.", "en": "Sometimes I go to work by car."}
+      ]
+    },
+    {
+      "number": 7,
+      "title": "At Work or School",
+      "titleNative": "İşte veya Okulda",
+      "items": [
+        {"tr": "Ofiste bilgisayarımın başında çalışıyorum.", "en": "I work at my computer in the office."},
+        {"tr": "Meslektaşlarımla toplantıya katılıyorum.", "en": "I attend a meeting with my colleagues."},
+        {"tr": "Öğrenciler sınıfta dikkatle dinliyor.", "en": "The students listen attentively in class."},
+        {"tr": "Öğretmenimiz yeni bir konu anlatıyor.", "en": "Our teacher is explaining a new topic."}
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Lunch Break",
+      "titleNative": "Öğle Molası",
+      "items": [
+        {"tr": "Saat on ikide öğle yemeği yiyorum.", "en": "I eat lunch at twelve o'clock."},
+        {"tr": "Arkadaşımla birlikte yemek yiyoruz.", "en": "My friend and I eat together."},
+        {"tr": "Molada biraz dinleniyorum.", "en": "During the break I rest a little."},
+        {"tr": "Öğleden sonra tekrar çalışmaya başlıyorum.", "en": "In the afternoon I start working again."}
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Coming Home and Relaxing",
+      "titleNative": "Eve Dönmek ve Dinlenmek",
+      "items": [
+        {"tr": "Akşam saat altıda eve dönüyorum.", "en": "I return home at six in the evening."},
+        {"tr": "Eve gelince rahat kıyafetler giyiyorum.", "en": "When I get home, I put on comfortable clothes."},
+        {"tr": "Koltukta oturup dinleniyorum.", "en": "I sit on the couch and relax."},
+        {"tr": "Bazen kitap okuyorum, bazen müzik dinliyorum.", "en": "Sometimes I read a book, sometimes I listen to music."}
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Review: A Day in the Present",
+      "titleNative": "Tekrar: Şimdiki Zamanda Bir Gün",
+      "items": [
+        {"tr": "Erken uyanıyorum, hızlıca giyiniyorum ve kahvaltı yapıyorum.", "en": "I wake up early, get dressed quickly, and have breakfast."},
+        {"tr": "Sekizde evden çıkıyorum ve işe gidiyorum.", "en": "I leave the house at eight and go to work."},
+        {"tr": "Öğlen yemek yiyorum, akşam eve dönüyorum.", "en": "I eat lunch at noon, and in the evening I return home."},
+        {"tr": "Eve dönünce dinleniyorum ve erken yatıyorum.", "en": "When I get home, I relax and go to bed early."}
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Yesterday",
+      "titleNative": "Dün",
+      "topicId": "a2-past-di",
+      "items": [
+        {"tr": "Dün çok yorgundum.", "en": "I was very tired yesterday."},
+        {"tr": "Dün erken uyandım.", "en": "I woke up early yesterday."},
+        {"tr": "Dün akşam erken yattım.", "en": "I went to bed early last night."},
+        {"tr": "Dün hiç dışarı çıkmadım.", "en": "I didn't go outside at all yesterday."}
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Last Weekend",
+      "titleNative": "Geçen Hafta Sonu",
+      "items": [
+        {"tr": "Geçen hafta sonu ailemi ziyaret ettim.", "en": "Last weekend I visited my family."},
+        {"tr": "Arkadaşlarımla sinemaya gittik.", "en": "I went to the movies with my friends."},
+        {"tr": "Parkta yürüyüş yaptık.", "en": "We took a walk in the park."},
+        {"tr": "Akşam güzel bir yemek yedik.", "en": "In the evening we ate a nice meal."}
+      ]
+    },
+    {
+      "number": 13,
+      "title": "A Trip I Took",
+      "titleNative": "Yaptığım Bir Gezi",
+      "items": [
+        {"tr": "Geçen yıl İstanbul'a gittim.", "en": "Last year I went to Istanbul."},
+        {"tr": "Uçakla seyahat ettim.", "en": "I traveled by plane."},
+        {"tr": "Güzel bir otelde kaldım.", "en": "I stayed at a nice hotel."},
+        {"tr": "Birçok tarihi yer gördüm.", "en": "I saw many historical places."}
+      ]
+    },
+    {
+      "number": 14,
+      "title": "What I Ate",
+      "titleNative": "Ne Yedim",
+      "items": [
+        {"tr": "Kahvaltıda yumurta yedim.", "en": "I ate eggs for breakfast."},
+        {"tr": "Öğlen bir çorba içtim.", "en": "At noon I had some soup."},
+        {"tr": "Akşam yemeğinde balık yedim.", "en": "For dinner I ate fish."},
+        {"tr": "Tatlı olarak baklava yedim.", "en": "For dessert I had baklava."}
+      ]
+    },
+    {
+      "number": 15,
+      "title": "A Conversation About the Past",
+      "titleNative": "Geçmiş Hakkında Bir Konuşma",
+      "items": [
+        {"tr": "Dün ne yaptın?", "en": "What did you do yesterday?"},
+        {"tr": "Sinemaya gittim, sen ne yaptın?", "en": "I went to the movies, what did you do?"},
+        {"tr": "Ben evde kaldım ve kitap okudum.", "en": "I stayed home and read a book."},
+        {"tr": "Hafta sonu güzel geçti mi?", "en": "Did the weekend go well?"}
+      ]
+    },
+    {
+      "number": 16,
+      "title": "School Days",
+      "titleNative": "Okul Günleri",
+      "items": [
+        {"tr": "Çocukken her gün okula yürüdüm.", "en": "When I was a child, I walked to school every day."},
+        {"tr": "Matematik dersini çok sevdim.", "en": "I loved math class a lot."},
+        {"tr": "Arkadaşlarımla teneffüste oynadım.", "en": "I played with my friends during recess."},
+        {"tr": "Öğretmenim bana çok yardım etti.", "en": "My teacher helped me a lot."}
+      ]
+    },
+    {
+      "number": 17,
+      "title": "An Old Job of Mine",
+      "titleNative": "Eski Bir İşim",
+      "items": [
+        {"tr": "Geçen yaz bir kafede çalıştım.", "en": "Last summer I worked at a cafe."},
+        {"tr": "Müşterilere kahve yaptım.", "en": "I made coffee for customers."},
+        {"tr": "Meslektaşlarımı çok sevdim.", "en": "I liked my colleagues a lot."},
+        {"tr": "O işten çok şey öğrendim.", "en": "I learned a lot from that job."}
+      ]
+    },
+    {
+      "number": 18,
+      "title": "Something That Happened",
+      "titleNative": "Olan Bir Şey",
+      "items": [
+        {"tr": "Dün ilginç bir şey oldu.", "en": "Yesterday something interesting happened."},
+        {"tr": "Sokakta eski bir arkadaşımı gördüm.", "en": "I saw an old friend on the street."},
+        {"tr": "Uzun zamandır konuşmadık.", "en": "We hadn't talked in a long time."},
+        {"tr": "Birlikte kahve içtik ve sohbet ettik.", "en": "We drank coffee together and chatted."}
+      ]
+    },
+    {
+      "number": 19,
+      "title": "A Special Celebration",
+      "titleNative": "Özel Bir Kutlama",
+      "items": [
+        {"tr": "Geçen ay kız kardeşimin düğünü oldu.", "en": "Last month my sister's wedding took place."},
+        {"tr": "Bütün aile bir araya geldi.", "en": "The whole family came together."},
+        {"tr": "Güzel bir elbise giydim.", "en": "I wore a beautiful dress."},
+        {"tr": "Herkes çok eğlendi.", "en": "Everyone had a lot of fun."}
+      ]
+    },
+    {
+      "number": 20,
+      "title": "Review: Talking About the Past",
+      "titleNative": "Tekrar: Geçmiş Hakkında Konuşmak",
+      "items": [
+        {"tr": "Dün erken kalktım ve işe gittim.", "en": "Yesterday I got up early and went to work."},
+        {"tr": "Öğlen arkadaşlarımla yemek yedim.", "en": "At noon I ate with my friends."},
+        {"tr": "Akşam eve döndüm ve dinlendim.", "en": "In the evening I returned home and rested."},
+        {"tr": "Güzel bir gündü.", "en": "It was a beautiful day."}
+      ]
+    },
+    {
+      "number": 21,
+      "title": "Something I Heard",
+      "titleNative": "Duyduğum Bir Şey",
+      "topicId": "a2-past-mis",
+      "items": [
+        {"tr": "Yeni bir restoran açılmış.", "en": "A new restaurant has apparently opened."},
+        {"tr": "Yemekleri çok güzelmiş.", "en": "Apparently the food there is very good."},
+        {"tr": "Arkadaşım oraya gitmiş ve çok beğenmiş.", "en": "My friend apparently went there and liked it a lot."},
+        {"tr": "Ben de bir gün gitmek istiyorum.", "en": "I also want to go there someday."}
+      ]
+    },
+    {
+      "number": 22,
+      "title": "News and Rumors",
+      "titleNative": "Haberler ve Söylentiler",
+      "items": [
+        {"tr": "Komşumuz yeni bir eve taşınmış.", "en": "Our neighbor has apparently moved to a new house."},
+        {"tr": "Duyduğuma göre işini değiştirmiş.", "en": "From what I heard, he's apparently changed jobs."},
+        {"tr": "Yeni işini çok seviyormuş.", "en": "Apparently he loves his new job."},
+        {"tr": "Kimse tam olarak bilmiyor.", "en": "Nobody knows exactly."}
+      ]
+    },
+    {
+      "number": 23,
+      "title": "What Happened While I Was Away",
+      "titleNative": "Ben Yokken Ne Olmuş",
+      "items": [
+        {"tr": "Ben yokken posta gelmiş.", "en": "While I was away, the mail apparently arrived."},
+        {"tr": "Kedi mutfaktan bir şey çalmış.", "en": "The cat apparently stole something from the kitchen."},
+        {"tr": "Komşular gürültü yapmışlar.", "en": "The neighbors apparently made noise."},
+        {"tr": "Neyse ki hiçbir şey kırılmamış.", "en": "Fortunately, nothing got broken."}
+      ]
+    },
+    {
+      "number": 24,
+      "title": "Discovering Something",
+      "titleNative": "Bir Şey Fark Etmek",
+      "items": [
+        {"tr": "Çantamı açtığımda param yokmuş.", "en": "When I opened my bag, I realized I didn't have my money."},
+        {"tr": "Meğer bütün gün evde unutmuşum.", "en": "It turns out I had forgotten it at home all day."},
+        {"tr": "Neyse ki kredi kartım yanımdaymış.", "en": "Fortunately, my credit card was apparently with me."},
+        {"tr": "Bu tür şeyler bazen oluyor.", "en": "These kinds of things sometimes happen."}
+      ]
+    },
+    {
+      "number": 25,
+      "title": "A Story Someone Told Me",
+      "titleNative": "Birinin Anlattığı Bir Hikaye",
+      "items": [
+        {"tr": "Büyükannem bana eski günleri anlattı.", "en": "My grandmother told me about the old days."},
+        {"tr": "Genç yaşta evlenmiş.", "en": "She had apparently gotten married at a young age."},
+        {"tr": "O zamanlar hayat çok farklıymış.", "en": "Life was apparently very different back then."},
+        {"tr": "Hikayesini dinlemek çok keyifliydi.", "en": "Listening to her story was very enjoyable."}
+      ]
+    },
+    {
+      "number": 26,
+      "title": "People and Places, Long Ago",
+      "titleNative": "Uzun Zaman Önce, İnsanlar ve Yerler",
+      "items": [
+        {"tr": "Bu şehir eskiden çok küçükmüş.", "en": "This city used to apparently be very small."},
+        {"tr": "Nüfusu zamanla çok artmış.", "en": "Its population has apparently grown a lot over time."},
+        {"tr": "Dedem gençken burada çiftçilik yapmış.", "en": "When my grandfather was young, he apparently farmed here."},
+        {"tr": "Şimdi burada büyük binalar var.", "en": "Now there are big buildings here."}
+      ]
+    },
+    {
+      "number": 27,
+      "title": "How Things Used to Be",
+      "titleNative": "Eskiden Nasıldı",
+      "items": [
+        {"tr": "Eskiden burada büyük bir pazar varmış.", "en": "There used to apparently be a big market here."},
+        {"tr": "İnsanlar eskiden at arabasıyla seyahat edermiş.", "en": "People used to apparently travel by horse carriage."},
+        {"tr": "Hayat şimdikinden daha zormuş.", "en": "Life was apparently harder than now."},
+        {"tr": "Ama insanlar birbirine daha yakınmış.", "en": "But people were apparently closer to each other."}
+      ]
+    },
+    {
+      "number": 28,
+      "title": "Feelings, Reported",
+      "titleNative": "Aktarılan Duygular",
+      "items": [
+        {"tr": "Kardeşim sınavdan önce çok gerginmiş.", "en": "My sibling was apparently very nervous before the exam."},
+        {"tr": "Ama sınavı iyi geçmiş, çok mutlu olmuş.", "en": "But the exam apparently went well, and he became very happy."},
+        {"tr": "Ailesi onunla gurur duymuş.", "en": "His family apparently felt proud of him."},
+        {"tr": "Ben de onun için sevindim.", "en": "I was happy for him too."}
+      ]
+    },
+    {
+      "number": 29,
+      "title": "-DI vs. -mIş",
+      "titleNative": "-DI ve -mIş Karşılaştırması",
+      "items": [
+        {"tr": "Dün maçı seyrettim, takımımız kazandı.", "en": "I watched the match yesterday, our team won."},
+        {"tr": "Duydum ki diğer maçta da kazanmışlar.", "en": "I heard that they won the other match too."},
+        {"tr": "Kendi gözümle gördüğüm için eminim.", "en": "Since I saw it with my own eyes, I'm sure."},
+        {"tr": "Ama diğer maçı sadece duydum, görmedim.", "en": "But I only heard about the other match, I didn't see it."}
+      ]
+    },
+    {
+      "number": 30,
+      "title": "Review: Two Ways to Talk About the Past",
+      "titleNative": "Tekrar: Geçmişi Anlatmanın İki Yolu",
+      "items": [
+        {"tr": "Dün erken kalktım ve kahvaltı yaptım.", "en": "Yesterday I got up early and had breakfast."},
+        {"tr": "Duyduğuma göre hava bugün çok soğukmuş.", "en": "From what I heard, the weather is apparently very cold today."},
+        {"tr": "Geçen hafta yeni bir kitap okudum.", "en": "Last week I read a new book."},
+        {"tr": "Duyduğuma göre yazarı ünlü biriymiş.", "en": "From what I heard, the author is apparently someone famous."}
+      ]
+    }
+  ]
+}

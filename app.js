@@ -39,6 +39,7 @@
     { id: "spanish", file: "data/courses-spanish.json", audioManifest: "data/audio-spanish/manifest.json", label: "Spanish — Español", native: "Español", en: "Spanish", flag: "Español", group: "world", accent: "gold" },
     { id: "french", file: "data/courses-french.json", audioManifest: "data/audio-french/manifest.json", label: "French — Français", native: "Français", en: "French", flag: "Français", group: "world", accent: "indigo" },
     { id: "german", file: "data/courses-german.json", audioManifest: "data/audio-german/manifest.json", label: "German — Deutsch", native: "Deutsch", en: "German", flag: "Deutsch", group: "world", accent: "rust" },
+    { id: "turkish", file: "data/courses-turkish.json", label: "Turkish — Türkçe", native: "Türkçe", en: "Turkish", flag: "Türkçe", group: "world", accent: "teal" },
   ];
 
   // A small shared icon set (currentColor throughout, so each one just
@@ -295,6 +296,18 @@
       /Microsoft (Asaf|Avri).*(Natural|Online)/i,
     ],
     kk: [],
+    // Turkish has much better platform TTS support than Kazakh/Tajik --
+    // iOS/macOS ship Apple's own "Yelda" voice, Edge has Microsoft's
+    // Emel/Ahmet neural voices, and Chrome/Android carry a Google Türkçe
+    // voice -- so unlike kk/tg this course relies entirely on the device's
+    // own speechSynthesis (no bundled audio), same mechanism as Kazakh, but
+    // ranked so the best available voice wins where a device offers more
+    // than one.
+    tr: [
+      /Microsoft (Emel|Ahmet).*(Natural|Online)/i,
+      /Yelda/i,
+      /Google Türkçe/i,
+    ],
     // Mandarin (mainland) voices are widely available across platforms,
     // unlike Tajik/Kazakh -- ranked by typical naturalness. `.lang` prefix
     // matching ("zh") already covers zh-CN/zh-TW/zh-HK; the name patterns
