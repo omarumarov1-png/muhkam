@@ -1,0 +1,249 @@
+{
+  "level": "b1",
+  "grammarTopics": {
+    "b1-relative-en": {
+      "title": "Relative Clauses with -En",
+      "pattern": "verb stem + -(y)En (harmonized: en/an) + noun",
+      "explanation": "Turkish builds 'the person/thing who/that does X' by turning the verb into an adjective with -En, placed BEFORE the noun it describes -- the mirror image of English word order. 'Koşan adam' is literally 'running man' = 'the man who is running/runs'. -En only has 2-way harmony (en after front vowels, an after back vowels), with a y-buffer after vowel-final stems, and it's used specifically when the SUBJECT of the relative clause is what's being described (the man WHO runs, not the man someone else saw running).",
+      "fact": "-En starts with a vowel, so it triggers the same git-/gid- style softening as -Iyor and -EcEk: gitmek (to go) gives 'giden' (the one who goes/is going), not 'giten'.",
+      "dialogue": [
+        {"tr": "Kapıyı açan kim?", "en": "Who opened the door?"},
+        {"tr": "Bilmiyorum, ben açan değildim.", "en": "I don't know, I wasn't the one who opened it."}
+      ]
+    },
+    "b1-relative-dik": {
+      "title": "Relative Clauses with -DIk",
+      "pattern": "verb stem + -DIk (harmonized: dık/dik/duk/dük, devoiced to tık/tik/tuk/tük after voiceless stems) + possessive + noun",
+      "explanation": "-DIk is the other half of Turkish relative clauses, used when the described noun is the OBJECT of the action (or when the doer needs to be specified) rather than the subject: 'okuduğum kitap' (the book I read) vs. -En's 'okuyan kişi' (the person who reads). A possessive suffix on -DIk marks WHO did the action -- oku-duk-um (my having-read) kitap, oku-duk-un (your having-read) kitap, oku-duk-u (his/her having-read) kitap.",
+      "fact": "-DIk's own final k softens to ğ before the vowel-initial possessive suffixes (-um, -un, -umuz, -unuz), same p/ç/t/k pattern seen everywhere else: gördüğüm (the thing I saw), not 'gördüküm'.",
+      "dialogue": [
+        {"tr": "Dün okuduğun kitap nasıldı?", "en": "How was the book you read yesterday?"},
+        {"tr": "Okuduğum kitap çok güzeldi.", "en": "The book I read was very good."}
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "number": 1,
+      "title": "The Person Who...",
+      "titleNative": "...Kişi",
+      "topicId": "b1-relative-en",
+      "items": [
+        {"tr": "Orada duran adam kim?", "en": "Who is the man standing there?"},
+        {"tr": "Kapıyı açan sen misin?", "en": "Are you the one who opened the door?"},
+        {"tr": "Bana yardım eden kişiye teşekkür ettim.", "en": "I thanked the person who helped me."},
+        {"tr": "Bu şarkıyı söyleyen kim?", "en": "Who is singing this song?"}
+      ]
+    },
+    {
+      "number": 2,
+      "title": "The Thing That...",
+      "titleNative": "...Şey",
+      "items": [
+        {"tr": "Beni mutlu eden şey ailem.", "en": "The thing that makes me happy is my family."},
+        {"tr": "Onu üzen ne oldu?", "en": "What happened that upset him?"},
+        {"tr": "İşe yarayan bir fikrim var.", "en": "I have an idea that works."},
+        {"tr": "Vaktimi alan işlerden hoşlanmıyorum.", "en": "I don't like tasks that take up my time."}
+      ]
+    },
+    {
+      "number": 3,
+      "title": "People I Know",
+      "titleNative": "Tanıdığım İnsanlar",
+      "items": [
+        {"tr": "Bu okulda okuyan öğrenciler çok başarılı.", "en": "The students who study at this school are very successful."},
+        {"tr": "Hızlı koşan sporcuyu izledim.", "en": "I watched the athlete who runs fast."},
+        {"tr": "Bu şirkette çalışan herkes çok yetenekli.", "en": "Everyone who works at this company is very talented."},
+        {"tr": "Gülümseyen insanları seviyorum.", "en": "I love people who smile."}
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Describing Objects",
+      "titleNative": "Nesneleri Tanımlamak",
+      "items": [
+        {"tr": "Masada duran kitap kimin?", "en": "Whose is the book sitting on the table?"},
+        {"tr": "Işık saçan bir lamba aldım.", "en": "I bought a lamp that emits light."},
+        {"tr": "Ses çıkaran şey neydi?", "en": "What was the thing making noise?"},
+        {"tr": "Enerji tasarrufu sağlayan cihazları tercih ediyorum.", "en": "I prefer devices that save energy."}
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Who Is...?",
+      "titleNative": "Kim...?",
+      "items": [
+        {"tr": "Bu resmi çizen sensin.", "en": "You are the one who drew this picture."},
+        {"tr": "Telefonu bulan ben değilim.", "en": "I am not the one who found the phone."},
+        {"tr": "Bu yemeği pişiren kim?", "en": "Who cooked this meal?"},
+        {"tr": "Bana yalan söyleyen arkadaşım değil.", "en": "The one who lied to me is not my friend."}
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Everyday Descriptions",
+      "titleNative": "Günlük Tanımlamalar",
+      "items": [
+        {"tr": "Erken kalkan yol alır.", "en": "The early bird catches the worm."},
+        {"tr": "Bu ürünü satan mağazayı biliyorum.", "en": "I know the store that sells this product."},
+        {"tr": "Yağmur yağan bir günde evde kaldım.", "en": "I stayed home on a rainy day."},
+        {"tr": "Bize yardım eden komşumuza minnettarız.", "en": "We are grateful to our neighbor who helped us."}
+      ]
+    },
+    {
+      "number": 7,
+      "title": "People I Appreciate",
+      "titleNative": "Değer Verdiğim İnsanlar",
+      "items": [
+        {"tr": "Beni her zaman destekleyen ailem için minnettarım.", "en": "I am grateful for my family who always supports me."},
+        {"tr": "İşini seven insanlar daha mutlu.", "en": "People who love their job are happier."},
+        {"tr": "Doğru söyleyen dostumu kaybetmek istemiyorum.", "en": "I don't want to lose my friend who tells the truth."},
+        {"tr": "Bana güvenen herkese teşekkür ederim.", "en": "I thank everyone who trusts me."}
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Nature and Animals",
+      "titleNative": "Doğa ve Hayvanlar",
+      "items": [
+        {"tr": "Gökyüzünde uçan kuşları izlemeyi seviyorum.", "en": "I love watching birds flying in the sky."},
+        {"tr": "Hızlı koşan hayvanlardan biri çitadır.", "en": "One of the fast-running animals is the cheetah."},
+        {"tr": "Bal yapan böcek arıdır.", "en": "The insect that makes honey is the bee."},
+        {"tr": "Gece aktif olan hayvanlara gece hayvanı diyoruz.", "en": "We call animals that are active at night 'night animals'."}
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Books and Movies",
+      "titleNative": "Kitaplar ve Filmler",
+      "items": [
+        {"tr": "Bu kitabı yazan yazarı çok seviyorum.", "en": "I really like the author who wrote this book."},
+        {"tr": "En çok izlenen film hangisi?", "en": "Which is the most-watched movie?"},
+        {"tr": "Beni ağlatan bir film izledim.", "en": "I watched a movie that made me cry."},
+        {"tr": "Çok satan bir kitap aldım.", "en": "I bought a bestselling book."}
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Review: -En Relative Clauses",
+      "titleNative": "Tekrar: -En ile İlgi Cümleleri",
+      "items": [
+        {"tr": "Bana gülümseyen herkesi hatırlarım.", "en": "I remember everyone who smiles at me."},
+        {"tr": "Yardım eden insanlara her zaman minnettarım.", "en": "I am always grateful to people who help."},
+        {"tr": "Doğru olanı seçmelisin.", "en": "You should choose the one that's right."},
+        {"tr": "Değişen tek şey zamandır.", "en": "The only thing that changes is time."}
+      ]
+    },
+    {
+      "number": 11,
+      "title": "The Book I Read",
+      "titleNative": "Okuduğum Kitap",
+      "topicId": "b1-relative-dik",
+      "items": [
+        {"tr": "Okuduğum kitap çok ilginçti.", "en": "The book I read was very interesting."},
+        {"tr": "Yediğim yemek harikaydı.", "en": "The food I ate was wonderful."},
+        {"tr": "İzlediğim film beni çok etkiledi.", "en": "The movie I watched affected me a lot."},
+        {"tr": "Aldığım hediye çok güzeldi.", "en": "The gift I bought was very nice."}
+      ]
+    },
+    {
+      "number": 12,
+      "title": "The Person I Love",
+      "titleNative": "Sevdiğim Kişi",
+      "items": [
+        {"tr": "Sevdiğim kişi çok naziktir.", "en": "The person I love is very kind."},
+        {"tr": "Tanıdığım herkes onu övüyor.", "en": "Everyone I know praises him."},
+        {"tr": "Güvendiğim tek kişi sensin.", "en": "You are the only person I trust."},
+        {"tr": "En çok özlediğim şey ailem.", "en": "The thing I miss most is my family."}
+      ]
+    },
+    {
+      "number": 13,
+      "title": "What You Said",
+      "titleNative": "Söylediğin Şey",
+      "items": [
+        {"tr": "Söylediğin her şeyi hatırlıyorum.", "en": "I remember everything you said."},
+        {"tr": "Yazdığın mektubu okudum.", "en": "I read the letter you wrote."},
+        {"tr": "Verdiğin tavsiye çok işe yaradı.", "en": "The advice you gave was very useful."},
+        {"tr": "Yaptığın hata küçüktü.", "en": "The mistake you made was small."}
+      ]
+    },
+    {
+      "number": 14,
+      "title": "What He Did",
+      "titleNative": "Onun Yaptığı",
+      "items": [
+        {"tr": "Onun yaptığı yemek çok lezzetliydi.", "en": "The food he made was very delicious."},
+        {"tr": "Gördüğü rüyayı anlattı.", "en": "He told the dream he saw."},
+        {"tr": "Söylediği şeye inanmadım.", "en": "I didn't believe what he said."},
+        {"tr": "Aldığı karar herkesi şaşırttı.", "en": "The decision he made surprised everyone."}
+      ]
+    },
+    {
+      "number": 15,
+      "title": "Memories",
+      "titleNative": "Anılar",
+      "items": [
+        {"tr": "Çocukken yaşadığım şehri hâlâ seviyorum.", "en": "I still love the city where I lived as a child."},
+        {"tr": "En sevdiğim anım ailemle geçirdiğim tatildi.", "en": "My favorite memory is the vacation I spent with my family."},
+        {"tr": "Hiç unutmadığım bir gün vardı.", "en": "There was a day I never forgot."},
+        {"tr": "Yaşadığımız güzel anları hatırlıyorum.", "en": "I remember the beautiful moments we lived."}
+      ]
+    },
+    {
+      "number": 16,
+      "title": "Gifts and Surprises",
+      "titleNative": "Hediyeler ve Sürprizler",
+      "items": [
+        {"tr": "Bana verdiğin hediyeyi çok beğendim.", "en": "I really liked the gift you gave me."},
+        {"tr": "Hazırladığım sürpriz işe yaradı.", "en": "The surprise I prepared worked."},
+        {"tr": "Planladığımız parti harika geçti.", "en": "The party we planned went great."},
+        {"tr": "Unutmadığın bir şey var mı?", "en": "Is there something you haven't forgotten?"}
+      ]
+    },
+    {
+      "number": 17,
+      "title": "Choices and Decisions",
+      "titleNative": "Seçimler ve Kararlar",
+      "items": [
+        {"tr": "Seçtiğim yol doğruydu.", "en": "The path I chose was right."},
+        {"tr": "Verdiğimiz karardan memnunuz.", "en": "We are pleased with the decision we made."},
+        {"tr": "Aldığın kararı destekliyorum.", "en": "I support the decision you made."},
+        {"tr": "Yaptığımız seçimden pişman değiliz.", "en": "We don't regret the choice we made."}
+      ]
+    },
+    {
+      "number": 18,
+      "title": "Things That Changed My Life",
+      "titleNative": "Hayatımı Değiştiren Şeyler",
+      "items": [
+        {"tr": "Hayatımı değiştiren karar Türkçe öğrenmekti.", "en": "The decision that changed my life was learning Turkish."},
+        {"tr": "Okuduğum bir kitap bakış açımı değiştirdi.", "en": "A book I read changed my perspective."},
+        {"tr": "Tanıştığım insanlar beni çok etkiledi.", "en": "The people I met affected me a lot."},
+        {"tr": "Yaşadığım deneyimler beni güçlendirdi.", "en": "The experiences I lived through made me stronger."}
+      ]
+    },
+    {
+      "number": 19,
+      "title": "Work Achievements",
+      "titleNative": "İş Başarıları",
+      "items": [
+        {"tr": "Bu yıl tamamladığım projeler çok başarılıydı.", "en": "The projects I completed this year were very successful."},
+        {"tr": "Kazandığım deneyim çok değerli.", "en": "The experience I gained is very valuable."},
+        {"tr": "Öğrendiğim her şey işime yaradı.", "en": "Everything I learned was useful for my work."},
+        {"tr": "Yaptığımız iş takdir edildi.", "en": "The work we did was appreciated."}
+      ]
+    },
+    {
+      "number": 20,
+      "title": "Review: -DIk Participle",
+      "titleNative": "Tekrar: -DIk Ortacı",
+      "items": [
+        {"tr": "Okuduğum kitaplar beni değiştirdi.", "en": "The books I read changed me."},
+        {"tr": "Tanıdığım en iyi insan sensin.", "en": "You are the best person I know."},
+        {"tr": "Yaşadığımız anlar çok değerli.", "en": "The moments we lived are very valuable."},
+        {"tr": "Söylediklerini hiç unutmadım.", "en": "I never forgot what you said."}
+      ]
+    }
+  ]
+}
