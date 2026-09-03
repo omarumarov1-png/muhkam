@@ -1173,6 +1173,43 @@ def block_weather_extended():
     return [("Cloudy, Storm, Humidity", "غائم، عاصفة، رطوبة", items)]
 
 
+def block_clothing_extended_because():
+    items = [
+        {"ar": check("أبغى جوتي جديد لأن هذا قديم"), "en": "I want new shoes because this one is old"},
+        {"ar": check("ما أبغى قحفية لأن غالي كثير"), "en": "I don't want a cap because it's very expensive"},
+        {"ar": check("عندي دلاغات زينة لأن عندي فلوس"), "en": "I have good socks because I have money"},
+    ]
+    return [("Clothes, Because", "جوتي، لأن", items)]
+
+
+def block_time_expressions_chain():
+    items = [
+        {"ar": check("رحت السوق الأسبوع الماضي لأن أبغى قميص جديد"), "en": "I went to the market last week because I want a new shirt"},
+        {"ar": check("أبغى أروح الشهر الجاي لأن عندي فلوس زين، بس مشغول"), "en": "I want to go next month because I have good money, but I'm busy"},
+        {"ar": check("شفت خالي الشهر الماضي، وأبغى أروح بيته الأسبوع الجاي"), "en": "I saw my uncle last month, and I want to go to his house next week"},
+    ]
+    return [("Time, Chained", "الأسبوع، جمل مركبة", items)]
+
+
+def block_come_negation():
+    items = [
+        {"ar": check("ما يجي كل يوم"), "en": "He doesn't come every day"},
+        {"ar": check("هي ما تجي البيت الحين"), "en": "She doesn't come home now"},
+        {"ar": check("خالي ما يجي مع أخوي"), "en": "My uncle doesn't come with my brother"},
+    ]
+    return [("Not Coming", "ما يجي", items)]
+
+
+def block_weather_chain_2():
+    items = [
+        {"ar": check("الجو غائم اليوم، ولازم أروح البيت، بس أبغى أروح السوق"),
+         "en": "The weather is cloudy today, and I have to go home, but I want to go to the market"},
+        {"ar": check("فيه عاصفة الحين، ما أبغى أروح، لأن فيه رطوبة كثير"),
+         "en": "There's a storm now, I don't want to go, because there's a lot of humidity"},
+    ]
+    return [("Weather, Chained II", "الجو، جمل مركبة ٢", items)]
+
+
 SHIPPED_BLOCKS = {
     "professions": block_professions_a1,
     "professions_past": block_professions_past,
@@ -1250,6 +1287,10 @@ SHIPPED_BLOCKS = {
     "clothing_extended": block_clothing_extended,
     "cousins": block_cousins,
     "weather_extended": block_weather_extended,
+    "clothing_extended_because": block_clothing_extended_because,
+    "time_expressions_chain": block_time_expressions_chain,
+    "come_negation": block_come_negation,
+    "weather_chain_2": block_weather_chain_2,
 }
 
 BLOCK_LEVEL = {
@@ -1282,6 +1323,8 @@ BLOCK_LEVEL = {
     "come_present": "a2", "came_past_1": "a2", "came_past_2": "a2",
     "sitting": "a2", "time_expressions": "b1", "clothing_extended": "a2",
     "cousins": "b1", "weather_extended": "b1",
+    "clothing_extended_because": "b1", "time_expressions_chain": "b1plus",
+    "come_negation": "b2", "weather_chain_2": "c1",
 }
 
 # Blocks introduced in this (second) research round -- the ones NOT already
@@ -1324,7 +1367,13 @@ ROUND_9_BLOCKS = {
     "time_expressions", "clothing_extended", "cousins", "weather_extended",
 }
 
-ALL_BLOCKS = {name: fn for name, fn in SHIPPED_BLOCKS.items() if name in ROUND_9_BLOCKS}
+# Tenth round: grammar drilling on round 9's fresh vocab, no new research.
+ROUND_10_BLOCKS = {
+    "clothing_extended_because", "time_expressions_chain",
+    "come_negation", "weather_chain_2",
+}
+
+ALL_BLOCKS = {name: fn for name, fn in SHIPPED_BLOCKS.items() if name in ROUND_10_BLOCKS}
 ALL_BLOCKS.update(systematic_sweep())
 
 
