@@ -980,6 +980,44 @@ def block_time_because():
     return [("Time and Because", "الوقت ولأن", items)]
 
 
+def block_polite_phrases():
+    items = [
+        {"ar": check("من فضلك، أبغى قهوة"), "en": "Please, I want coffee"},
+        {"ar": check("لو سمحت، وين المطعم؟"), "en": "Excuse me, where is the restaurant?"},
+        {"ar": check("طبعا، أبغى أروح"), "en": "Of course, I want to go"},
+        {"ar": check("انشاالله بكرا"), "en": "God willing, tomorrow"},
+    ]
+    return [("Polite Phrases", "عبارات مؤدبة", items)]
+
+
+def block_places_bus_market():
+    items = [
+        {"ar": check("أروح السوق الصبح"), "en": "I go to the market in the morning"},
+        {"ar": check("أبغى أروح في الباص"), "en": "I want to go by bus"},
+        {"ar": check("شفت طيارة كبيرة"), "en": "I saw a big airplane"},
+        {"ar": check("شفت جاري في السوق"), "en": "I saw my neighbor at the market"},
+    ]
+    return [("Bus, Market, and Sky", "الباص والسوق", items)]
+
+
+def block_always():
+    items = [
+        {"ar": check("دايما أشرب قهوة الصبح"), "en": "I always drink coffee in the morning"},
+        {"ar": check("دايما يروح الشغل في الباص"), "en": "He always goes to work by bus"},
+        {"ar": check("هي دايما تشتغل في المطعم"), "en": "She always works at the restaurant"},
+    ]
+    return [("Always", "دايماً", items)]
+
+
+def block_polite_because():
+    items = [
+        {"ar": check("من فضلك أبغى قهوة لأن تعبان"), "en": "Please, I want coffee because I'm tired"},
+        {"ar": check("لو سمحت، لازم أروح السوق الحين"), "en": "Excuse me, I have to go to the market now"},
+        {"ar": check("طبعا أبغى أروح في الباص لأن رخيص"), "en": "Of course I want to go by bus because it's cheap"},
+    ]
+    return [("Polite Requests, Because", "عبارات مؤدبة، لأن", items)]
+
+
 SHIPPED_BLOCKS = {
     "professions": block_professions_a1,
     "professions_past": block_professions_past,
@@ -1037,6 +1075,10 @@ SHIPPED_BLOCKS = {
     "time_of_day": block_time_of_day,
     "telling_time": block_telling_time,
     "time_because": block_time_because,
+    "polite_phrases": block_polite_phrases,
+    "places_bus_market": block_places_bus_market,
+    "always": block_always,
+    "polite_because": block_polite_because,
 }
 
 BLOCK_LEVEL = {
@@ -1061,6 +1103,8 @@ BLOCK_LEVEL = {
     "more_verbs": "b1",
     "objects_negation": "b2", "objects_lazim": "b1plus", "body_parts_chain": "c1",
     "time_of_day": "a1", "telling_time": "a2", "time_because": "b1",
+    "polite_phrases": "a1", "places_bus_market": "a2", "always": "b1",
+    "polite_because": "b1plus",
 }
 
 # Blocks introduced in this (second) research round -- the ones NOT already
@@ -1087,7 +1131,10 @@ ROUND_5_BLOCKS = {"objects_negation", "objects_lazim", "body_parts_chain"}
 # never used until now.
 ROUND_6_BLOCKS = {"time_of_day", "telling_time", "time_because"}
 
-ALL_BLOCKS = {name: fn for name, fn in SHIPPED_BLOCKS.items() if name in ROUND_6_BLOCKS}
+# Seventh round: politeness phrases, bus/market/airplane/neighbor, "always".
+ROUND_7_BLOCKS = {"polite_phrases", "places_bus_market", "always", "polite_because"}
+
+ALL_BLOCKS = {name: fn for name, fn in SHIPPED_BLOCKS.items() if name in ROUND_7_BLOCKS}
 ALL_BLOCKS.update(systematic_sweep())
 
 
