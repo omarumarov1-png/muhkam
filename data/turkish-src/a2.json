@@ -50,6 +50,46 @@
         {"tr": "Bu senin kitabın mı?", "en": "Is this your book?"},
         {"tr": "Evet, kitabım.", "en": "Yes, it's my book."}
       ]
+    },
+    "a2-cases": {
+      "title": "The Four Cases (Accusative, Dative, Locative, Ablative)",
+      "pattern": "noun + -(y)I (to/accusative object) / -(y)E (to, direction) / -DE (at/in) / -DEn (from)",
+      "explanation": "Turkish marks a noun's grammatical role with a case suffix instead of word order or a preposition: eve (to home), evde (at home), evden (from home), evi (the house, as a definite object). Accusative and dative have y-buffers after vowel-final stems and full 4-way (accusative) or 2-way (dative) harmony; locative and ablative both start with D, which devoices to T after a voiceless-final stem (parkta, not 'parkda'). Only DEFINITE direct objects take the accusative -- 'bir ceket almak istiyorum' (I want to buy a jacket, indefinite, no suffix) vs. 'bu ceketi alıyorum' (I'm buying this jacket, definite, -i attached).",
+      "fact": "When a case suffix attaches after a 3rd-person possessive ending (-I/-sI), an extra -n- buffer appears: ev-i (his house) but ev-i-nde (in his house), ev-i-nden (from his house) -- a leftover of Turkish's historical grammar that's now just a fixed rule to memorize.",
+      "dialogue": [
+        {"tr": "Nereye gidiyorsun?", "en": "Where are you going?"},
+        {"tr": "Eve gidiyorum, çok yorgunum.", "en": "I'm going home, I'm very tired."}
+      ]
+    },
+    "a2-postpositions": {
+      "title": "Postpositions and Connectors",
+      "pattern": "noun (+ case) + için/ile/gibi/kadar/önce/sonra; clause + çünkü/ama/veya",
+      "explanation": "Turkish postpositions come AFTER the noun they govern, the mirror image of an English preposition: 'senin için' (for you), 'benim gibi' (like me). 'İle' (with) is so common it's usually fused onto the noun as a suffix instead: arkadaşım + ile -> arkadaşımla. 'Önce' (before) and 'sonra' (after) pair with the ablative case: yemekten önce (before eating), yemekten sonra (after eating).",
+      "fact": "The negative aorist (-mAz/-mEz, used in fixed phrases like 'fark etmez' -- it doesn't matter) is fully regular for every verb, even the handful of verbs whose POSITIVE aorist is irregular (etmek's positive is 'eder', but its negative is still the expected 'etmez').",
+      "dialogue": [
+        {"tr": "Neden Türkçe öğreniyorsun?", "en": "Why are you learning Turkish?"},
+        {"tr": "Çünkü Türkiye'yi çok seviyorum.", "en": "Because I love Turkey a lot."}
+      ]
+    },
+    "a2-comparison": {
+      "title": "Comparatives and Superlatives",
+      "pattern": "X-den daha Y (more Y than X); en Y (the most Y); X Z kadar Y (as Y as Z)",
+      "explanation": "Turkish comparison doesn't change the adjective itself the way English '-er/-est' does -- it uses separate words. 'Daha' (more) goes before the adjective, and what you're comparing against takes the ablative case: 'Ali Ahmet'ten daha çalışkan' (Ali is more hardworking than Ahmet, literally 'from Ahmet'). 'En' (most) simply goes before the adjective for a superlative, with no case needed since there's nothing being compared against.",
+      "fact": "The same p/ç/t/k softening from nouns and verbs applies to adjectives too when a vowel-initial personal suffix follows: küçük (small) + üm (I am) becomes küçüğüm, not 'küçüküm'.",
+      "dialogue": [
+        {"tr": "Hangi ev daha büyük?", "en": "Which house is bigger?"},
+        {"tr": "Bu ev o evden daha büyük.", "en": "This house is bigger than that house."}
+      ]
+    },
+    "a2-obligation": {
+      "title": "Obligation (-mAlI)",
+      "pattern": "stem + -mAlI (harmonized: malı/meli) + personal ending",
+      "explanation": "-mAlI expresses 'must/should', with only 2-way harmony (malı after back vowels, meli after front vowels) and no buffer consonants or irregular exceptions to worry about -- it attaches to every verb stem the same simple way. The negative 'shouldn't' inserts -mA- before it: unut-ma-malı-yım (I shouldn't forget).",
+      "fact": "Unlike -Iyor and -EcEk, -mAlI never triggers the git-/gid- or et-/ed- style stem-consonant softening, because it starts with a consonant (m) -- gitmeliyim (I must go), not 'gidmeliyim'.",
+      "dialogue": [
+        {"tr": "Bugün ne yapmalıyım?", "en": "What must I do today?"},
+        {"tr": "Önce doktora gitmelisin.", "en": "First you should go to the doctor."}
+      ]
     }
   },
   "lessons": [
@@ -606,6 +646,560 @@
         {"tr": "Annemin adı Ayşe, babamın adı Mehmet.", "en": "My mother's name is Ayşe, my father's name is Mehmet."},
         {"tr": "İki kardeşim var.", "en": "I have two siblings."},
         {"tr": "Ailem benim için her şey.", "en": "My family is everything to me."}
+      ]
+    },
+    {
+      "number": 51,
+      "title": "Where Are You Going?",
+      "titleNative": "Nereye Gidiyorsun?",
+      "topicId": "a2-cases",
+      "items": [
+        {"tr": "Okula gidiyorum.", "en": "I'm going to school."},
+        {"tr": "Markete gidiyorum.", "en": "I'm going to the market."},
+        {"tr": "Arkadaşıma gidiyorum.", "en": "I'm going to my friend's place."},
+        {"tr": "Eve erken gideceğim.", "en": "I will go home early."}
+      ]
+    },
+    {
+      "number": 52,
+      "title": "Where Is It?",
+      "titleNative": "Nerede?",
+      "items": [
+        {"tr": "Anahtarlar masada.", "en": "The keys are on the table."},
+        {"tr": "Kedi bahçede uyuyor.", "en": "The cat is sleeping in the garden."},
+        {"tr": "Toplantı ofiste.", "en": "The meeting is at the office."},
+        {"tr": "Çocuklar parkta oynuyor.", "en": "The children are playing in the park."}
+      ]
+    },
+    {
+      "number": 53,
+      "title": "Where Are You From?",
+      "titleNative": "Nereden Geliyorsun?",
+      "items": [
+        {"tr": "Ben İstanbul'dan geliyorum.", "en": "I come from Istanbul."},
+        {"tr": "Nereden geliyorsun?", "en": "Where do you come from?"},
+        {"tr": "Trenden yeni indim.", "en": "I just got off the train."},
+        {"tr": "Havaalanından eve gidiyorum.", "en": "I'm going home from the airport."}
+      ]
+    },
+    {
+      "number": 54,
+      "title": "In the City",
+      "titleNative": "Şehirde",
+      "items": [
+        {"tr": "Müzeye gitmek istiyorum.", "en": "I want to go to the museum."},
+        {"tr": "Müze şehir merkezinde.", "en": "The museum is in the city center."},
+        {"tr": "Oraya otobüsle gidiyorum.", "en": "I go there by bus."},
+        {"tr": "Müzeden sonra parka gideceğiz.", "en": "After the museum, we will go to the park."}
+      ]
+    },
+    {
+      "number": 55,
+      "title": "At the Restaurant",
+      "titleNative": "Restoranda",
+      "items": [
+        {"tr": "Restoranda güzel bir masa bulduk.", "en": "We found a nice table at the restaurant."},
+        {"tr": "Menüyü inceliyorum.", "en": "I'm looking over the menu."},
+        {"tr": "Çorbayı çok beğendim.", "en": "I liked the soup a lot."},
+        {"tr": "Hesabı ödedik.", "en": "We paid the bill."}
+      ]
+    },
+    {
+      "number": 56,
+      "title": "Shopping",
+      "titleNative": "Alışveriş",
+      "items": [
+        {"tr": "Yeni bir ceket almak istiyorum.", "en": "I want to buy a new jacket."},
+        {"tr": "Bu ceketi deniyorum.", "en": "I'm trying on this jacket."},
+        {"tr": "Kasaya gidiyorum.", "en": "I'm going to the cashier."},
+        {"tr": "Kartımı kullandım.", "en": "I used my card."}
+      ]
+    },
+    {
+      "number": 57,
+      "title": "Asking for Directions",
+      "titleNative": "Yol Sormak",
+      "items": [
+        {"tr": "Affedersiniz, otobüs durağı nerede?", "en": "Excuse me, where is the bus stop?"},
+        {"tr": "Bu caddeden düz gidin.", "en": "Go straight down this street."},
+        {"tr": "İkinci sokağa sağa dönün.", "en": "Turn right at the second street."},
+        {"tr": "Postane solda.", "en": "The post office is on the left."}
+      ]
+    },
+    {
+      "number": 58,
+      "title": "At School",
+      "titleNative": "Okulda",
+      "items": [
+        {"tr": "Sınıfa geç kaldım.", "en": "I was late to class."},
+        {"tr": "Kitabı çantama koydum.", "en": "I put the book in my bag."},
+        {"tr": "Öğretmenden yardım istedim.", "en": "I asked the teacher for help."},
+        {"tr": "Sınavdan sonra eve gittim.", "en": "After the exam, I went home."}
+      ]
+    },
+    {
+      "number": 59,
+      "title": "Nature and Places",
+      "titleNative": "Doğa ve Yerler",
+      "items": [
+        {"tr": "Dağları çok seviyorum.", "en": "I love mountains a lot."},
+        {"tr": "Ormanda yürüyüş yapmak güzel.", "en": "Walking in the forest is nice."},
+        {"tr": "Gölden su içtik.", "en": "We drank water from the lake."},
+        {"tr": "Sahile gitmek istiyorum.", "en": "I want to go to the beach."}
+      ]
+    },
+    {
+      "number": 60,
+      "title": "Review: The Four Cases",
+      "titleNative": "Tekrar: Dört Hal Eki",
+      "items": [
+        {"tr": "Eve gidiyorum.", "en": "I'm going home."},
+        {"tr": "Evdeyim.", "en": "I'm at home."},
+        {"tr": "Evden çıkıyorum.", "en": "I'm leaving the house."},
+        {"tr": "Evi çok seviyorum.", "en": "I love the house a lot."}
+      ]
+    },
+    {
+      "number": 61,
+      "title": "For You",
+      "titleNative": "Senin İçin",
+      "topicId": "a2-postpositions",
+      "items": [
+        {"tr": "Bunu senin için yaptım.", "en": "I did this for you."},
+        {"tr": "Sağlığım için spor yapıyorum.", "en": "I exercise for my health."},
+        {"tr": "Para için çalışıyoruz.", "en": "We work for money."},
+        {"tr": "Onun için endişeleniyorum.", "en": "I'm worried about him."}
+      ]
+    },
+    {
+      "number": 62,
+      "title": "With Someone",
+      "titleNative": "Biriyle",
+      "items": [
+        {"tr": "Arkadaşımla yemek yiyorum.", "en": "I'm eating with my friend."},
+        {"tr": "Ailemle tatile gidiyorum.", "en": "I'm going on vacation with my family."},
+        {"tr": "Kalemle yazıyorum.", "en": "I write with a pen."},
+        {"tr": "Onunla konuşmak istiyorum.", "en": "I want to talk with him."}
+      ]
+    },
+    {
+      "number": 63,
+      "title": "Like Something",
+      "titleNative": "Gibi",
+      "items": [
+        {"tr": "Sen benim gibi düşünüyorsun.", "en": "You think like me."},
+        {"tr": "Bu ev bir saray gibi.", "en": "This house is like a palace."},
+        {"tr": "Zaman çok hızlı geçiyor.", "en": "Time passes very quickly."},
+        {"tr": "Kardeşim babam gibi konuşuyor.", "en": "My sibling talks like my father."}
+      ]
+    },
+    {
+      "number": 64,
+      "title": "Until and As Much As",
+      "titleNative": "Kadar",
+      "items": [
+        {"tr": "Eve kadar yürüdüm.", "en": "I walked all the way home."},
+        {"tr": "Akşama kadar burada olacağım.", "en": "I will be here until evening."},
+        {"tr": "Senin kadar çalışkan değilim.", "en": "I'm not as hardworking as you."},
+        {"tr": "Bu kadar yeter.", "en": "This much is enough."}
+      ]
+    },
+    {
+      "number": 65,
+      "title": "Before and After",
+      "titleNative": "Önce ve Sonra",
+      "items": [
+        {"tr": "Yemekten önce ellerimi yıkıyorum.", "en": "I wash my hands before eating."},
+        {"tr": "Yemekten sonra dişlerimi fırçalıyorum.", "en": "I brush my teeth after eating."},
+        {"tr": "İşten önce spor yapıyorum.", "en": "I exercise before work."},
+        {"tr": "Okuldan sonra eve gidiyorum.", "en": "I go home after school."}
+      ]
+    },
+    {
+      "number": 66,
+      "title": "Because",
+      "titleNative": "Çünkü",
+      "items": [
+        {"tr": "Eve erken gittim çünkü yorgundum.", "en": "I went home early because I was tired."},
+        {"tr": "Türkçe öğreniyorum çünkü Türkiye'yi seviyorum.", "en": "I'm learning Turkish because I love Turkey."},
+        {"tr": "Çalışamadım çünkü hastaydım.", "en": "I couldn't work because I was sick."},
+        {"tr": "Geç kaldım çünkü trafik çoktu.", "en": "I was late because there was a lot of traffic."}
+      ]
+    },
+    {
+      "number": 67,
+      "title": "But",
+      "titleNative": "Ama, Fakat",
+      "items": [
+        {"tr": "Yorgunum ama mutluyum.", "en": "I'm tired but I'm happy."},
+        {"tr": "Pahalı ama kaliteli.", "en": "It's expensive but good quality."},
+        {"tr": "İstedim fakat zamanım yoktu.", "en": "I wanted to, but I didn't have time."},
+        {"tr": "Küçük ama rahat bir ev.", "en": "A small but comfortable house."}
+      ]
+    },
+    {
+      "number": 68,
+      "title": "Or",
+      "titleNative": "Veya, Ya Da",
+      "items": [
+        {"tr": "Çay mı kahve mi istersin?", "en": "Would you like tea or coffee?"},
+        {"tr": "Bu ya da o, fark etmez.", "en": "This or that, it doesn't matter."},
+        {"tr": "Otobüsle ya da yürüyerek gidiyorum.", "en": "I go by bus or on foot."},
+        {"tr": "Hangisini istersin, çay mı kahve mi?", "en": "Which do you want, tea or coffee?"}
+      ]
+    },
+    {
+      "number": 69,
+      "title": "Both...And",
+      "titleNative": "Hem...Hem De",
+      "items": [
+        {"tr": "Hem akıllı hem çalışkan.", "en": "Both smart and hardworking."},
+        {"tr": "Hem yorgunum hem açım.", "en": "I'm both tired and hungry."},
+        {"tr": "Bu iş hem zor hem ilginç.", "en": "This job is both difficult and interesting."},
+        {"tr": "Hem kitap okuyorum hem müzik dinliyorum.", "en": "I'm both reading a book and listening to music."}
+      ]
+    },
+    {
+      "number": 70,
+      "title": "Review: Connectors",
+      "titleNative": "Tekrar: Bağlaçlar",
+      "items": [
+        {"tr": "Yorgunum ama mutluyum çünkü işim bitti.", "en": "I'm tired but happy because my work is finished."},
+        {"tr": "Çay ya da kahve, ikisi de olur.", "en": "Tea or coffee, either is fine."},
+        {"tr": "Yemekten önce ve sonra ellerimi yıkarım.", "en": "I wash my hands before and after eating."},
+        {"tr": "Ailem için ve kendim için çalışıyorum.", "en": "I work for my family and for myself."}
+      ]
+    },
+    {
+      "number": 71,
+      "title": "Bigger, Smaller",
+      "titleNative": "Daha Büyük, Daha Küçük",
+      "topicId": "a2-comparison",
+      "items": [
+        {"tr": "Bu ev o evden daha büyük.", "en": "This house is bigger than that house."},
+        {"tr": "Kardeşim benden daha uzun.", "en": "My sibling is taller than me."},
+        {"tr": "Bu araba daha hızlı.", "en": "This car is faster."},
+        {"tr": "O daha küçük bir şehir.", "en": "That is a smaller city."}
+      ]
+    },
+    {
+      "number": 72,
+      "title": "The Most",
+      "titleNative": "En",
+      "items": [
+        {"tr": "Bu en iyi restoran.", "en": "This is the best restaurant."},
+        {"tr": "En sevdiğim renk mavi.", "en": "My favorite color is blue."},
+        {"tr": "En büyük problemimiz zaman.", "en": "Our biggest problem is time."},
+        {"tr": "Dünyanın en yüksek dağı Everest.", "en": "The world's highest mountain is Everest."}
+      ]
+    },
+    {
+      "number": 73,
+      "title": "Comparing People",
+      "titleNative": "İnsanları Karşılaştırmak",
+      "items": [
+        {"tr": "Ali Ahmet'ten daha çalışkan.", "en": "Ali is more hardworking than Ahmet."},
+        {"tr": "Ben ondan daha sabırlıyım.", "en": "I am more patient than him."},
+        {"tr": "Sen benden daha deneyimlisin.", "en": "You are more experienced than me."},
+        {"tr": "İkimiz de aynı yaştayız.", "en": "We are both the same age."}
+      ]
+    },
+    {
+      "number": 74,
+      "title": "Comparing Prices and Quality",
+      "titleNative": "Fiyat ve Kalite Karşılaştırması",
+      "items": [
+        {"tr": "Bu ürün diğerinden daha pahalı.", "en": "This product is more expensive than the other one."},
+        {"tr": "Ama kalitesi de daha iyi.", "en": "But its quality is also better."},
+        {"tr": "En ucuz seçenek hangisi?", "en": "Which is the cheapest option?"},
+        {"tr": "Fiyat kalite kadar önemli değil.", "en": "Price isn't as important as quality."}
+      ]
+    },
+    {
+      "number": 75,
+      "title": "As...As",
+      "titleNative": "Kadar",
+      "items": [
+        {"tr": "Bu kitap o kitap kadar ilginç.", "en": "This book is as interesting as that book."},
+        {"tr": "Sen kardeşin kadar uzun değilsin.", "en": "You aren't as tall as your sibling."},
+        {"tr": "Hava dün kadar soğuk değil.", "en": "The weather isn't as cold as yesterday."},
+        {"tr": "Onun kadar hızlı koşmuyorum.", "en": "I don't run as fast as him."}
+      ]
+    },
+    {
+      "number": 76,
+      "title": "Describing Cities",
+      "titleNative": "Şehirleri Anlatmak",
+      "items": [
+        {"tr": "İstanbul Ankara'dan daha kalabalık.", "en": "Istanbul is more crowded than Ankara."},
+        {"tr": "Ama Ankara daha sakin.", "en": "But Ankara is calmer."},
+        {"tr": "En çok İzmir'i seviyorum.", "en": "I love Izmir the most."},
+        {"tr": "Her şehrin kendine has bir güzelliği var.", "en": "Every city has its own unique beauty."}
+      ]
+    },
+    {
+      "number": 77,
+      "title": "Better and Worse",
+      "titleNative": "Daha İyi, Daha Kötü",
+      "items": [
+        {"tr": "Bugün dünden daha iyi hissediyorum.", "en": "Today I feel better than yesterday."},
+        {"tr": "Hava tahmininden daha kötü.", "en": "The weather is worse than forecast."},
+        {"tr": "Yeni işim eskisinden daha iyi.", "en": "My new job is better than my old one."},
+        {"tr": "Her şey zamanla daha iyi olacak.", "en": "Everything will get better with time."}
+      ]
+    },
+    {
+      "number": 78,
+      "title": "Age Comparisons",
+      "titleNative": "Yaş Karşılaştırması",
+      "items": [
+        {"tr": "Ben ablamdan üç yaş küçüğüm.", "en": "I am three years younger than my older sister."},
+        {"tr": "Kardeşim benden büyük.", "en": "My sibling is older than me."},
+        {"tr": "En büyüğümüz kim?", "en": "Who is the oldest among us?"},
+        {"tr": "Yaş sadece bir sayı.", "en": "Age is just a number."}
+      ]
+    },
+    {
+      "number": 79,
+      "title": "Making Choices",
+      "titleNative": "Seçim Yapmak",
+      "items": [
+        {"tr": "Bu ikisinden hangisini tercih edersin?", "en": "Which of these two do you prefer?"},
+        {"tr": "Kırmızıyı maviye tercih ederim.", "en": "I prefer red to blue."},
+        {"tr": "Bence bu daha mantıklı.", "en": "In my opinion, this is more logical."},
+        {"tr": "Karar senin.", "en": "The decision is yours."}
+      ]
+    },
+    {
+      "number": 80,
+      "title": "Review: Comparisons",
+      "titleNative": "Tekrar: Karşılaştırmalar",
+      "items": [
+        {"tr": "Bu ev diğerinden daha büyük ve daha pahalı.", "en": "This house is bigger and more expensive than the other."},
+        {"tr": "En sevdiğim mevsim yaz.", "en": "My favorite season is summer."},
+        {"tr": "Sen benden daha deneyimlisin ama ben daha hızlıyım.", "en": "You are more experienced than me but I am faster."},
+        {"tr": "Hiçbiri diğeri kadar iyi değil.", "en": "None is as good as the other."}
+      ]
+    },
+    {
+      "number": 81,
+      "title": "Health Obligations",
+      "titleNative": "Sağlık Zorunlulukları",
+      "topicId": "a2-obligation",
+      "items": [
+        {"tr": "Doktora gitmeliyim.", "en": "I must go to the doctor."},
+        {"tr": "Daha çok su içmeliyim.", "en": "I should drink more water."},
+        {"tr": "Erken yatmalıyım.", "en": "I should go to bed early."},
+        {"tr": "Sigara içmemeliyim.", "en": "I shouldn't smoke."}
+      ]
+    },
+    {
+      "number": 82,
+      "title": "Work Obligations",
+      "titleNative": "İş Zorunlulukları",
+      "items": [
+        {"tr": "Raporu bugün bitirmeliyim.", "en": "I must finish the report today."},
+        {"tr": "Toplantıya zamanında gitmeliyim.", "en": "I must go to the meeting on time."},
+        {"tr": "Patronumla konuşmalıyım.", "en": "I need to talk to my boss."},
+        {"tr": "İşi ertelememeliyim.", "en": "I shouldn't postpone the work."}
+      ]
+    },
+    {
+      "number": 83,
+      "title": "Study Obligations",
+      "titleNative": "Ders Zorunlulukları",
+      "items": [
+        {"tr": "Sınava çalışmalıyım.", "en": "I must study for the exam."},
+        {"tr": "Ödevimi bitirmeliyim.", "en": "I must finish my homework."},
+        {"tr": "Kitabı okumalıyım.", "en": "I must read the book."},
+        {"tr": "Dersleri kaçırmamalıyım.", "en": "I shouldn't miss classes."}
+      ]
+    },
+    {
+      "number": 84,
+      "title": "What You Must Do",
+      "titleNative": "Ne Yapmalısın",
+      "items": [
+        {"tr": "Bu ilacı almalısın.", "en": "You must take this medicine."},
+        {"tr": "Biraz dinlenmelisin.", "en": "You should rest a little."},
+        {"tr": "Ona özür dilemelisin.", "en": "You should apologize to him."},
+        {"tr": "Kararını vermelisin.", "en": "You must make your decision."}
+      ]
+    },
+    {
+      "number": 85,
+      "title": "What He Must Do",
+      "titleNative": "Ne Yapmalı",
+      "items": [
+        {"tr": "O daha dikkatli olmalı.", "en": "He should be more careful."},
+        {"tr": "Doktor onu görmeli.", "en": "The doctor should see him."},
+        {"tr": "Herkes kurallara uymalı.", "en": "Everyone should follow the rules."},
+        {"tr": "Çocuklar erken yatmalı.", "en": "Children should go to bed early."}
+      ]
+    },
+    {
+      "number": 86,
+      "title": "Rules and Requirements",
+      "titleNative": "Kurallar ve Gereklilikler",
+      "items": [
+        {"tr": "Burada sessiz olmalısınız.", "en": "You must be quiet here."},
+        {"tr": "Kemerinizi bağlamalısınız.", "en": "You must fasten your seatbelt."},
+        {"tr": "Pasaportunuzu göstermelisiniz.", "en": "You must show your passport."},
+        {"tr": "Kurallara uymalıyız.", "en": "We must follow the rules."}
+      ]
+    },
+    {
+      "number": 87,
+      "title": "Giving Advice",
+      "titleNative": "Tavsiye Vermek",
+      "items": [
+        {"tr": "Daha sabırlı olmalısın.", "en": "You should be more patient."},
+        {"tr": "Kendine inanmalısın.", "en": "You should believe in yourself."},
+        {"tr": "Vazgeçmemelisin.", "en": "You shouldn't give up."},
+        {"tr": "Hayallerinin peşinden gitmelisin.", "en": "You should chase your dreams."}
+      ]
+    },
+    {
+      "number": 88,
+      "title": "Environmental Obligations",
+      "titleNative": "Çevresel Sorumluluklar",
+      "items": [
+        {"tr": "Doğayı korumalıyız.", "en": "We must protect nature."},
+        {"tr": "Suyu boşa harcamamalıyız.", "en": "We shouldn't waste water."},
+        {"tr": "Çöpü doğru yere atmalıyız.", "en": "We must throw trash in the right place."},
+        {"tr": "Herkes sorumluluk almalı.", "en": "Everyone must take responsibility."}
+      ]
+    },
+    {
+      "number": 89,
+      "title": "Travel Obligations",
+      "titleNative": "Seyahat Zorunlulukları",
+      "items": [
+        {"tr": "Erken uyanmalıyım, uçağım var.", "en": "I must wake up early, I have a flight."},
+        {"tr": "Valizimi hazırlamalıyım.", "en": "I need to pack my suitcase."},
+        {"tr": "Pasaportumu unutmamalıyım.", "en": "I mustn't forget my passport."},
+        {"tr": "Havaalanına zamanında varmalıyım.", "en": "I must arrive at the airport on time."}
+      ]
+    },
+    {
+      "number": 90,
+      "title": "Review: Obligation",
+      "titleNative": "Tekrar: Zorunluluk",
+      "items": [
+        {"tr": "Bugün çok iş yapmalıyım.", "en": "I must do a lot of work today."},
+        {"tr": "Ama önce dinlenmeliyim.", "en": "But first I should rest."},
+        {"tr": "Sen de kendine iyi bakmalısın.", "en": "You should take care of yourself too."},
+        {"tr": "Hepimiz birbirimize yardım etmeliyiz.", "en": "We should all help each other."}
+      ]
+    },
+    {
+      "number": 91,
+      "title": "A Typical Day",
+      "titleNative": "Tipik Bir Gün",
+      "items": [
+        {"tr": "Her sabah erken kalkıyorum, kahvaltı yapıyorum ve işe gidiyorum.", "en": "Every morning I get up early, have breakfast, and go to work."},
+        {"tr": "Dün işten sonra arkadaşımla buluştum.", "en": "Yesterday after work I met up with my friend."},
+        {"tr": "Yarın erken kalkmalıyım çünkü önemli bir toplantım var.", "en": "Tomorrow I must get up early because I have an important meeting."},
+        {"tr": "Gelecek hafta tatile gideceğim.", "en": "Next week I will go on vacation."}
+      ]
+    },
+    {
+      "number": 92,
+      "title": "Making Plans with Friends",
+      "titleNative": "Arkadaşlarla Plan Yapmak",
+      "items": [
+        {"tr": "Cumartesi günü ne yapacaksın?", "en": "What will you do on Saturday?"},
+        {"tr": "Arkadaşlarımla sinemaya gitmeyi düşünüyorum.", "en": "I'm thinking about going to the movies with my friends."},
+        {"tr": "Sen de bize katılmalısın.", "en": "You should join us too."},
+        {"tr": "Tabii ki, seve seve geleceğim!", "en": "Of course, I'll gladly come!"}
+      ]
+    },
+    {
+      "number": 93,
+      "title": "A Problem at Work",
+      "titleNative": "İşte Bir Sorun",
+      "items": [
+        {"tr": "Dün bilgisayarım bozuldu.", "en": "Yesterday my computer broke."},
+        {"tr": "Teknisyen bugün gelecekmiş.", "en": "The technician is apparently coming today."},
+        {"tr": "Bu arada başka bir bilgisayar kullanmalıyım.", "en": "In the meantime I must use another computer."},
+        {"tr": "Umarım yarın düzelecek.", "en": "I hope it will be fixed tomorrow."}
+      ]
+    },
+    {
+      "number": 94,
+      "title": "Weather and Plans",
+      "titleNative": "Hava Durumu ve Planlar",
+      "items": [
+        {"tr": "Hava durumuna göre yarın yağmur yağacakmış.", "en": "According to the weather forecast, it will apparently rain tomorrow."},
+        {"tr": "O yüzden şemsiye almalıyım.", "en": "That's why I should bring an umbrella."},
+        {"tr": "Dışarı çıkmadan önce hava durumuna bakıyorum.", "en": "Before going out I check the weather."},
+        {"tr": "Umarım hava açık olur.", "en": "I hope the weather will be clear."}
+      ]
+    },
+    {
+      "number": 95,
+      "title": "Comparing Past and Present",
+      "titleNative": "Geçmişi ve Şimdiyi Karşılaştırmak",
+      "items": [
+        {"tr": "Eskiden bu şehir çok daha sakinmiş.", "en": "This city used to apparently be much calmer."},
+        {"tr": "Şimdi eskisinden daha kalabalık.", "en": "Now it's more crowded than before."},
+        {"tr": "Geçen yıl buraya taşındım.", "en": "Last year I moved here."},
+        {"tr": "Kararımdan hiç pişman olmadım.", "en": "I never regretted my decision."}
+      ]
+    },
+    {
+      "number": 96,
+      "title": "At the Doctor",
+      "titleNative": "Doktorda",
+      "items": [
+        {"tr": "Birkaç gündür kendimi iyi hissetmiyorum.", "en": "I haven't been feeling well for a few days."},
+        {"tr": "Doktora gitmeliyim.", "en": "I must go to the doctor."},
+        {"tr": "Doktor bana ilaç yazdı.", "en": "The doctor prescribed me medicine."},
+        {"tr": "Bol su içmeliyim.", "en": "I should drink plenty of water."}
+      ]
+    },
+    {
+      "number": 97,
+      "title": "Shopping for a Gift",
+      "titleNative": "Hediye Almak",
+      "items": [
+        {"tr": "Arkadaşıma bir hediye almalıyım.", "en": "I must buy a gift for my friend."},
+        {"tr": "Bu hediye o hediyeden daha güzel.", "en": "This gift is nicer than that one."},
+        {"tr": "Hediyeyi kendim paketleyeceğim.", "en": "I will wrap the gift myself."},
+        {"tr": "Umarım çok beğenecek.", "en": "I hope he will like it a lot."}
+      ]
+    },
+    {
+      "number": 98,
+      "title": "Reflecting on the Year",
+      "titleNative": "Yılı Değerlendirmek",
+      "items": [
+        {"tr": "Bu yıl çok şey öğrendim.", "en": "This year I learned a lot."},
+        {"tr": "Bazı zorluklar yaşadım ama güçlendim.", "en": "I experienced some difficulties but I grew stronger."},
+        {"tr": "Gelecek yıl daha iyi olacak.", "en": "Next year will be better."},
+        {"tr": "Hedeflerime ulaşmak için çalışmalıyım.", "en": "I must work to reach my goals."}
+      ]
+    },
+    {
+      "number": 99,
+      "title": "Giving Life Advice",
+      "titleNative": "Hayat Tavsiyesi Vermek",
+      "items": [
+        {"tr": "Hayatta en önemli şey sağlık.", "en": "The most important thing in life is health."},
+        {"tr": "Ailenle vakit geçirmelisin.", "en": "You should spend time with your family."},
+        {"tr": "Param kadar zamanım da değerli.", "en": "My time is as valuable as my money."},
+        {"tr": "Mutluluk her şeyden daha önemli.", "en": "Happiness is more important than everything."}
+      ]
+    },
+    {
+      "number": 100,
+      "title": "Review: Everything We've Learned",
+      "titleNative": "Tekrar: Öğrendiğimiz Her Şey",
+      "items": [
+        {"tr": "Bu yıl Türkçe öğrenmeye başladım ve çok geliştim.", "en": "This year I started learning Turkish and improved a lot."},
+        {"tr": "Artık günlük hayatımı Türkçe anlatıyorum.", "en": "Now I describe my daily life in Turkish."},
+        {"tr": "Öğrenmeye devam etmeliyim.", "en": "I must continue learning."},
+        {"tr": "Bir sonraki seviyeye hazırım!", "en": "I'm ready for the next level!"}
       ]
     }
   ]
