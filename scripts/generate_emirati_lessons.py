@@ -1018,6 +1018,84 @@ def block_polite_because():
     return [("Polite Requests, Because", "عبارات مؤدبة، لأن", items)]
 
 
+def block_comparatives():
+    items = [
+        {"ar": check("الجمل أكبر من الجلب"), "en": "The camel is bigger than the dog"},
+        {"ar": check("القطوة أصغر من الجمل"), "en": "The cat is smaller than the camel"},
+        {"ar": check("القميص أغلى من البنطلون"), "en": "The shirt is more expensive than the pants"},
+        {"ar": check("القهوة أزيان من الشاي"), "en": "Coffee is better than tea"},
+    ]
+    return [("Comparatives", "أفعل التفضيل", items)]
+
+
+def block_reactions():
+    items = [
+        {"ar": check("يلا، أبغى أروح السوق"), "en": "Come on, I want to go to the market"},
+        {"ar": check("هذا حلو كثير"), "en": "This is very nice"},
+        {"ar": check("مبروك! هذا زين"), "en": "Congratulations! This is good"},
+        {"ar": check("يلا نروح المطعم"), "en": "Let's go to the restaurant"},
+    ]
+    return [("Reactions", "ردود فعل", items)]
+
+
+def block_first_again_never():
+    items = [
+        {"ar": check("هذا أول يوم في الشغل"), "en": "This is the first day at work"},
+        {"ar": check("أبغى أروح مرة ثانية"), "en": "I want to go again"},
+        {"ar": check("ما أروح هناك أبدا"), "en": "I never go there"},
+        {"ar": check("أبدا ما أشرب قهوة في الليل"), "en": "I never drink coffee at night"},
+    ]
+    return [("First, Again, Never", "أول، مرة ثانية، أبدا", items)]
+
+
+def block_quantifiers():
+    items = [
+        {"ar": check("أبغى شوي قهوة"), "en": "I want a little coffee"},
+        {"ar": check("عندي بعض الفلوس"), "en": "I have some money"},
+        {"ar": check("كل يوم أروح الشغل"), "en": "Every day I go to work"},
+        {"ar": check("كل البيت نظيف"), "en": "The whole house is clean"},
+    ]
+    return [("Quantifiers", "شوي، بعض، كل", items)]
+
+
+def block_bill_free():
+    items = [
+        {"ar": check("الحساب لو سمحت"), "en": "The bill please"},
+        {"ar": check("هذا مجاني اليوم"), "en": "This is free today"},
+        {"ar": check("أبغى الحساب الحين"), "en": "I want the bill now"},
+        {"ar": check("القهوة مجاني في المطعم"), "en": "The coffee is free at the restaurant"},
+    ]
+    return [("The Bill and Free Things", "الحساب ومجاني", items)]
+
+
+def block_leaving():
+    items = [
+        {"ar": check("طلع من البيت الصبح"), "en": "He left the house in the morning"},
+        {"ar": check("طلع من المطعم أمس"), "en": "He left the restaurant yesterday"},
+        {"ar": check("خالي طلع من الشغل الحين"), "en": "My uncle left work now"},
+        {"ar": check("طلع مع أخوي بكرا"), "en": "He'll leave with my brother tomorrow"},
+    ]
+    return [("Leaving", "طلع", items)]
+
+
+def block_comparatives_because():
+    items = [
+        {"ar": check("القميص أغلى من البنطلون لأن جديد"), "en": "The shirt is more expensive than the pants because it's new"},
+        {"ar": check("القهوة أزيان من الشاي، وأبغى أشرب قهوة"), "en": "Coffee is better than tea, and I want to drink coffee"},
+        {"ar": check("الجمل أكبر من الجلب، بس الجلب زين كثير"), "en": "The camel is bigger than the dog, but the dog is very good"},
+    ]
+    return [("Comparatives, Because", "أفعل التفضيل، لأن", items)]
+
+
+def block_quantifiers_extended():
+    items = [
+        {"ar": check("كل الأهل زين اليوم"), "en": "All the family is well today"},
+        {"ar": check("بعض الأهل زين، وبعض تعبان"), "en": "Some of the family are well, and some are tired"},
+        {"ar": check("أروح شوي شوي، تعبان"), "en": "I go slowly, I'm tired"},
+    ]
+    return [("Quantifiers Extended", "شوي وبعض وكل، أكثر", items)]
+
+
 SHIPPED_BLOCKS = {
     "professions": block_professions_a1,
     "professions_past": block_professions_past,
@@ -1079,6 +1157,14 @@ SHIPPED_BLOCKS = {
     "places_bus_market": block_places_bus_market,
     "always": block_always,
     "polite_because": block_polite_because,
+    "comparatives": block_comparatives,
+    "reactions": block_reactions,
+    "first_again_never": block_first_again_never,
+    "quantifiers": block_quantifiers,
+    "bill_free": block_bill_free,
+    "leaving": block_leaving,
+    "comparatives_because": block_comparatives_because,
+    "quantifiers_extended": block_quantifiers_extended,
 }
 
 BLOCK_LEVEL = {
@@ -1105,6 +1191,9 @@ BLOCK_LEVEL = {
     "time_of_day": "a1", "telling_time": "a2", "time_because": "b1",
     "polite_phrases": "a1", "places_bus_market": "a2", "always": "b1",
     "polite_because": "b1plus",
+    "comparatives": "a2", "reactions": "a1", "first_again_never": "a2",
+    "quantifiers": "a2", "bill_free": "a1", "leaving": "a2",
+    "comparatives_because": "b1plus", "quantifiers_extended": "b1",
 }
 
 # Blocks introduced in this (second) research round -- the ones NOT already
@@ -1134,7 +1223,14 @@ ROUND_6_BLOCKS = {"time_of_day", "telling_time", "time_because"}
 # Seventh round: politeness phrases, bus/market/airplane/neighbor, "always".
 ROUND_7_BLOCKS = {"polite_phrases", "places_bus_market", "always", "polite_because"}
 
-ALL_BLOCKS = {name: fn for name, fn in SHIPPED_BLOCKS.items() if name in ROUND_7_BLOCKS}
+# Eighth round: comparatives, reactions, first/again/never, quantifiers,
+# bill/free, leaving.
+ROUND_8_BLOCKS = {
+    "comparatives", "reactions", "first_again_never", "quantifiers",
+    "bill_free", "leaving", "comparatives_because", "quantifiers_extended",
+}
+
+ALL_BLOCKS = {name: fn for name, fn in SHIPPED_BLOCKS.items() if name in ROUND_8_BLOCKS}
 ALL_BLOCKS.update(systematic_sweep())
 
 
