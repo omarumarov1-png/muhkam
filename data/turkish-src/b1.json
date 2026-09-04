@@ -80,6 +80,16 @@
         {"tr": "Kendine iyi bak.", "en": "Take good care of yourself."},
         {"tr": "Sen de kendine iyi bak, birbirimize destek olalım.", "en": "You take care of yourself too, let's support each other."}
       ]
+    },
+    "b1-converbs": {
+      "title": "Converbs: -ArAk, -DIktan Sonra, -mAdAn Önce",
+      "pattern": "stem + -(y)ArAk (by/while doing); stem + -DIk + -tan sonra (after doing); stem + -mAdAn önce (before doing)",
+      "explanation": "-ArAk turns a verb into an adverb of manner or simultaneity: koşarak gitti (he went running/by running). Unlike the aorist, -ArAk uses simple 2-way harmony (arak after back vowels, erek after front vowels) for EVERY verb with no exceptions -- so kalkarak, çıkarak, and even yaparak/giderek all just follow the straightforward pattern, none of the aorist's irregular-verb quirks apply here. 'After doing X' reuses the -DIk participle you already know, now with the ablative case: bitir-dik-ten sonra (after finishing). 'Before doing X' uses a negative infinitive with önce: git-me-den önce (before going).",
+      "fact": "Because -ArAk is a completely separate suffix from the aorist -Ir, none of gitmek/etmek/yapmak/bakmak/kanmak's aorist irregularities carry over to it -- giderek (by going) is regular 2-way harmony, not borrowed from gider's irregularity.",
+      "dialogue": [
+        {"tr": "İşe nasıl gidiyorsun?", "en": "How do you go to work?"},
+        {"tr": "Genelde yürüyerek gidiyorum.", "en": "I usually go on foot."}
+      ]
     }
   },
   "lessons": [
@@ -969,6 +979,117 @@
         {"tr": "Biz birbirimizi anlıyoruz.", "en": "We understand each other."},
         {"tr": "Herkes kendi yolunda ilerler.", "en": "Everyone progresses on their own path."},
         {"tr": "Kendimize ve birbirimize iyi bakmalıyız.", "en": "We should take good care of ourselves and each other."}
+      ]
+    },
+    {
+      "number": 81,
+      "title": "By Doing X",
+      "titleNative": "-ArAk",
+      "topicId": "b1-converbs",
+      "items": [
+        {"tr": "Koşarak eve gittim.", "en": "I went home running."},
+        {"tr": "Gülümseyerek beni karşıladı.", "en": "He greeted me smiling."},
+        {"tr": "Çok çalışarak başarıya ulaştı.", "en": "By working hard, he achieved success."},
+        {"tr": "Konuşarak sorunları çözüyoruz.", "en": "By talking, we solve problems."}
+      ]
+    },
+    {
+      "number": 82,
+      "title": "After Doing X",
+      "titleNative": "-DIktan Sonra",
+      "items": [
+        {"tr": "Yemek yedikten sonra dişlerimi fırçalıyorum.", "en": "After eating, I brush my teeth."},
+        {"tr": "İşi bitirdikten sonra eve gittim.", "en": "After finishing the work, I went home."},
+        {"tr": "Duş aldıktan sonra kendimi çok iyi hissediyorum.", "en": "After taking a shower, I feel very good."},
+        {"tr": "Konuştuktan sonra daha iyi anlaştık.", "en": "After talking, we understood each other better."}
+      ]
+    },
+    {
+      "number": 83,
+      "title": "Before Doing X",
+      "titleNative": "-mAdAn Önce",
+      "items": [
+        {"tr": "Yemek yemeden önce ellerimi yıkarım.", "en": "Before eating, I wash my hands."},
+        {"tr": "Uyumadan önce kitap okurum.", "en": "Before sleeping, I read a book."},
+        {"tr": "Karar vermeden önce iyice düşünmelisin.", "en": "Before making a decision, you should think carefully."},
+        {"tr": "Konuşmadan önce dinlemeyi öğrenmeliyiz.", "en": "Before speaking, we should learn to listen."}
+      ]
+    },
+    {
+      "number": 84,
+      "title": "While Doing X",
+      "titleNative": "-ArAk, Eş Zamanlılık",
+      "items": [
+        {"tr": "Müzik dinleyerek çalışıyorum.", "en": "I work while listening to music."},
+        {"tr": "Yürüyerek konuşuyorduk.", "en": "We were talking while walking."},
+        {"tr": "Gülerek şaka yaptı.", "en": "He joked while laughing."},
+        {"tr": "Ağlayarak anlattı.", "en": "He told it while crying."}
+      ]
+    },
+    {
+      "number": 85,
+      "title": "Cause and Manner",
+      "titleNative": "-ArAk ile Sebep ve Şekil",
+      "items": [
+        {"tr": "Çok para harcayarak yeni bir ev aldı.", "en": "By spending a lot of money, he bought a new house."},
+        {"tr": "Sabırla bekleyerek sonunda başardı.", "en": "By waiting patiently, he finally succeeded."},
+        {"tr": "Erken kalkarak güne başlıyorum.", "en": "I start the day by getting up early."},
+        {"tr": "Düzenli çalışarak hedefe ulaştı.", "en": "By working regularly, he reached his goal."}
+      ]
+    },
+    {
+      "number": 86,
+      "title": "Before and After, Extended",
+      "titleNative": "Önce ve Sonra, Genişletilmiş",
+      "items": [
+        {"tr": "Eve varmadan önce markete uğradım.", "en": "Before arriving home, I stopped by the market."},
+        {"tr": "Toplantı bitmeden önce ayrıldım.", "en": "I left before the meeting ended."},
+        {"tr": "Vardıktan sonra seni ararım.", "en": "After I arrive, I'll call you."},
+        {"tr": "Okuldan mezun olduktan sonra iş aramaya başladım.", "en": "After graduating from school, I started looking for a job."}
+      ]
+    },
+    {
+      "number": 87,
+      "title": "Habits Expressed with Converbs",
+      "titleNative": "Ulaçlarla Alışkanlıklar",
+      "items": [
+        {"tr": "Her sabah koşarak spor yapıyorum.", "en": "Every morning I exercise by running."},
+        {"tr": "Genelde yürüyerek işe gidiyorum.", "en": "I usually go to work on foot."},
+        {"tr": "Kahve içerek güne başlıyorum.", "en": "I start the day by drinking coffee."},
+        {"tr": "Çalışarak ve öğrenerek gelişiyorum.", "en": "I develop by working and learning."}
+      ]
+    },
+    {
+      "number": 88,
+      "title": "Complex Sentences with Time Clauses",
+      "titleNative": "Zaman Cümleleriyle Karmaşık Cümleler",
+      "items": [
+        {"tr": "İşten çıktıktan sonra spor salonuna gidiyorum.", "en": "After leaving work, I go to the gym."},
+        {"tr": "Eve gelmeden önce alışveriş yapıyorum.", "en": "Before coming home, I go shopping."},
+        {"tr": "Yattıktan sonra telefonuma bakmamalıyım.", "en": "After going to bed, I shouldn't look at my phone."},
+        {"tr": "Sabah kalktığımda hemen kahve içerim.", "en": "As soon as I get up in the morning, I drink coffee right away."}
+      ]
+    },
+    {
+      "number": 89,
+      "title": "Reasons and Results with Converbs",
+      "titleNative": "Ulaçlarla Sebep ve Sonuç",
+      "items": [
+        {"tr": "Çok yorularak eve döndüm.", "en": "I returned home very tired."},
+        {"tr": "Çok düşünerek bir karara vardım.", "en": "By thinking a lot, I reached a decision."},
+        {"tr": "Erken başlayarak zamanında bitirdim.", "en": "By starting early, I finished on time."},
+        {"tr": "Dikkatli davranarak kazayı önledim.", "en": "By behaving carefully, I prevented the accident."}
+      ]
+    },
+    {
+      "number": 90,
+      "title": "Review: Converbs",
+      "titleNative": "Tekrar: Ulaçlar",
+      "items": [
+        {"tr": "Çok çalışarak hedefime ulaştım.", "en": "By working hard, I reached my goal."},
+        {"tr": "Yemek yedikten sonra dinlenirim.", "en": "After eating, I rest."},
+        {"tr": "Karar vermeden önce düşünmeliyiz.", "en": "Before making a decision, we should think."},
+        {"tr": "Gülümseyerek ve nazik davranarak insanları etkiliyoruz.", "en": "By smiling and behaving kindly, we influence people."}
       ]
     }
   ]
