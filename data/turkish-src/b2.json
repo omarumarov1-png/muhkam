@@ -50,6 +50,16 @@
         {"tr": "Hava çok kötüydü, neden dışarı çıktın?", "en": "The weather was very bad, why did you go out?"},
         {"tr": "Yağmura rağmen çıkmak zorundaydım.", "en": "Despite the rain, I had to go out."}
       ]
+    },
+    "b2-correlatives": {
+      "title": "Both...And / Either...Or / Neither...Nor",
+      "pattern": "hem X hem (de) Y; ya X ya (da) Y; ne X ne (de) Y",
+      "explanation": "hem...hem (de) links two things that are both true: 'Hem yorgunum hem açım' (I'm both tired and hungry). ya...ya (da) presents a choice between two options: 'Ya bugün ya yarın gel' (Come either today or tomorrow). ne...ne (de) negates both at once and doesn't need a separately negated verb ending: 'Ne param var ne vaktim' (I have neither money nor time) — var stays in its positive form, the ne...ne itself carries the negation.",
+      "fact": "With ne...ne, the verb is often left in its plain/positive form (var, biliyorum) rather than negated (yok, bilmiyorum), because ne...ne already supplies the negative meaning — doubling up with a negative verb would be redundant, though some speakers do it colloquially anyway.",
+      "dialogue": [
+        {"tr": "Çay mı kahve mi istersin?", "en": "Would you like tea or coffee?"},
+        {"tr": "Aslında ne çay ne kahve, sadece su istiyorum.", "en": "Actually neither tea nor coffee, I just want water."}
+      ]
     }
   },
   "lessons": [
@@ -606,6 +616,117 @@
         {"tr": "Bütün zorluklara rağmen başardık.", "en": "Despite all the difficulties, we succeeded."},
         {"tr": "Bunu herkes bilir, hatta çocuklar bile.", "en": "Everyone knows this, even children."},
         {"tr": "Zor olsa bile pes etmeyeceğim.", "en": "Even if it's hard, I won't give up."}
+      ]
+    },
+    {
+      "number": 51,
+      "title": "Both...And - hem...hem",
+      "titleNative": "Hem...Hem",
+      "topicId": "b2-correlatives",
+      "items": [
+        {"tr": "Hem yorgunum hem açım.", "en": "I'm both tired and hungry."},
+        {"tr": "Hem çalışıyor hem okuyor.", "en": "He's both working and studying."},
+        {"tr": "Bu ev hem büyük hem ucuz.", "en": "This house is both big and cheap."},
+        {"tr": "Hem akıllı hem çalışkan bir öğrenci.", "en": "He's a student who is both smart and hardworking."}
+      ]
+    },
+    {
+      "number": 52,
+      "title": "Either...Or - ya...ya",
+      "titleNative": "Ya...Ya",
+      "items": [
+        {"tr": "Ya bugün ya yarın gel.", "en": "Come either today or tomorrow."},
+        {"tr": "Ya sen ya ben gitmeliyiz.", "en": "Either you or I have to go."},
+        {"tr": "Ya bu işi kabul et ya da reddet.", "en": "Either accept this job or reject it."},
+        {"tr": "Ya şimdi karar ver ya da hiç verme.", "en": "Either decide now or never."}
+      ]
+    },
+    {
+      "number": 53,
+      "title": "Neither...Nor - ne...ne",
+      "titleNative": "Ne...Ne",
+      "items": [
+        {"tr": "Ne param var ne vaktim.", "en": "I have neither money nor time."},
+        {"tr": "Ne çay içiyorum ne kahve.", "en": "I drink neither tea nor coffee."},
+        {"tr": "Ne o geldi ne ben gittim.", "en": "Neither did he come nor did I go."},
+        {"tr": "Ne bu doğru ne o.", "en": "Neither this nor that is right."}
+      ]
+    },
+    {
+      "number": 54,
+      "title": "Combining Correlatives with Adjectives",
+      "titleNative": "Sıfatlarla Bağlaçları Birleştirmek",
+      "items": [
+        {"tr": "Hem güzel hem ucuz bir elbise buldum.", "en": "I found a dress that's both pretty and cheap."},
+        {"tr": "Bu film ne komik ne ilginç.", "en": "This movie is neither funny nor interesting."},
+        {"tr": "Ya kabul edersin ya da bu fırsatı kaybedersin.", "en": "Either you accept, or you lose this opportunity."},
+        {"tr": "Hem hızlı hem güvenilir bir hizmet sunuyorlar.", "en": "They offer a service that's both fast and reliable."}
+      ]
+    },
+    {
+      "number": 55,
+      "title": "Correlatives in Decisions",
+      "titleNative": "Kararlarda Bağlaçlar",
+      "items": [
+        {"tr": "Ya burada kal ya da benimle gel.", "en": "Either stay here or come with me."},
+        {"tr": "Hem param hem zamanım kısıtlı.", "en": "Both my money and my time are limited."},
+        {"tr": "Bu konuda ne kararlıyım ne de emin.", "en": "About this, I'm neither decided nor sure."},
+        {"tr": "Ya şimdi başla ya da asla başlama.", "en": "Either start now or never start."}
+      ]
+    },
+    {
+      "number": 56,
+      "title": "Describing People with Correlatives",
+      "titleNative": "Bağlaçlarla İnsanları Betimlemek",
+      "items": [
+        {"tr": "Hem yardımsever hem dürüst bir insan.", "en": "He's a person who is both helpful and honest."},
+        {"tr": "Ne bencil ne kibirli, tam tersine çok alçakgönüllü.", "en": "Neither selfish nor arrogant, quite the opposite, very humble."},
+        {"tr": "Ya çok konuşkan ya da çok sessiz oluyor, ortası yok.", "en": "He's either very talkative or very quiet, there's no in-between."},
+        {"tr": "Hem sabırlı hem anlayışlı bir öğretmen.", "en": "A teacher who is both patient and understanding."}
+      ]
+    },
+    {
+      "number": 57,
+      "title": "Neither Nor with Feelings",
+      "titleNative": "Duygularla Ne...Ne",
+      "items": [
+        {"tr": "Ne mutluyum ne üzgünüm, sadece yorgunum.", "en": "I'm neither happy nor sad, just tired."},
+        {"tr": "Ne kızgınım ne kırgınım, sadece şaşırdım.", "en": "I'm neither angry nor hurt, just surprised."},
+        {"tr": "Bu haber beni ne şaşırttı ne üzdü.", "en": "This news neither surprised me nor saddened me."},
+        {"tr": "Ne pişmanım ne memnunum.", "en": "I'm neither regretful nor pleased."}
+      ]
+    },
+    {
+      "number": 58,
+      "title": "Choices with ya...ya",
+      "titleNative": "Ya...Ya ile Seçimler",
+      "items": [
+        {"tr": "Ya bu evi ya da o evi seçeceğiz.", "en": "We'll choose either this house or that house."},
+        {"tr": "Ya İngilizce ya da Fransızca öğrenmek istiyorum.", "en": "I want to learn either English or French."},
+        {"tr": "Ya otobüsle ya da trenle gideriz.", "en": "We'll go either by bus or by train."},
+        {"tr": "Ya bugün ya da hiçbir zaman.", "en": "Either today or never."}
+      ]
+    },
+    {
+      "number": 59,
+      "title": "Combining All Three",
+      "titleNative": "Üçünü Birleştirmek",
+      "items": [
+        {"tr": "Hem çalışkan hem dürüst, bu yüzden ya terfi alacak ya da başka bir teklif bulacak.", "en": "He's both hardworking and honest, so either he'll get promoted or he'll find another offer."},
+        {"tr": "Ne para ne şöhret istiyorum, sadece huzur istiyorum.", "en": "I want neither money nor fame, I just want peace."},
+        {"tr": "Hem akıllı hem yetenekli olduğu için ya bu işi ya da daha iyisini bulacak.", "en": "Because he's both smart and talented, he'll find either this job or a better one."},
+        {"tr": "Ne geç kalmak istiyorum ne de acele etmek, bu yüzden hem planlı hem esnek olmalıyım.", "en": "I want neither to be late nor to rush, so I need to be both organized and flexible."}
+      ]
+    },
+    {
+      "number": 60,
+      "title": "Review: Correlative Conjunctions",
+      "titleNative": "Tekrar: Hem...Hem, Ya...Ya, Ne...Ne",
+      "items": [
+        {"tr": "Hem yorgunum hem mutluyum.", "en": "I'm both tired and happy."},
+        {"tr": "Ya şimdi ya da hiçbir zaman.", "en": "Either now or never."},
+        {"tr": "Ne param var ne enerjim.", "en": "I have neither money nor energy."},
+        {"tr": "Hem çalışkan hem alçakgönüllü bir insan tanıyorum.", "en": "I know a person who is both hardworking and humble."}
       ]
     }
   ]
