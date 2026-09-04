@@ -80,6 +80,16 @@
         {"tr": "Yeni kurallar ne zaman başlıyor?", "en": "When do the new rules start?"},
         {"tr": "Gelecek haftadan itibaren geçerli olacak.", "en": "They'll be in effect starting from next week."}
       ]
+    },
+    "b2plus-impersonal-style": {
+      "title": "Impersonal and Formal Style: denir, kabul edilir, düşünülür",
+      "pattern": "passive aorist verb with no named subject (X denir, X kabul edilir, X düşünülür, X söylenir)",
+      "explanation": "Turkish often expresses general truths, definitions, and widely-held beliefs with a passive aorist verb and no subject at all, similar to English 'it is said that' or 'one believes.' denir/denilir ('it is said/called') is used for naming or defining: 'Bu çiçeğe lale denir' (This flower is called a tulip). kabul edilir ('it is accepted'), düşünülür ('it is thought'), and söylenir ('it is said') work the same way for opinions and beliefs presented as general or official: 'Bu, doğru bir yaklaşım olarak kabul edilir' (This is accepted as a correct approach).",
+      "fact": "This impersonal-passive style is the backbone of Turkish academic, dictionary, and news writing — it lets a writer state something as established fact without naming who established it, which is exactly why formal writing sounds noticeably different from spoken Turkish, which prefers naming a subject (biz, insanlar, herkes) even for general statements.",
+      "dialogue": [
+        {"tr": "Bu kelimenin anlamı ne?", "en": "What does this word mean?"},
+        {"tr": "Bu genellikle 'saygı' olarak tanımlanır.", "en": "This is generally defined as 'respect.'"}
+      ]
     }
   },
   "lessons": [
@@ -969,6 +979,117 @@
         {"tr": "Bu yolculuk boyunca çok şey öğrendim.", "en": "Throughout this journey, I learned a lot."},
         {"tr": "Bu karara karşı değilim, sadece endişeliyim.", "en": "I'm not against this decision, I'm just worried."},
         {"tr": "Bu ev bana ait, burada kendimi güvende hissediyorum.", "en": "This house belongs to me, I feel safe here."}
+      ]
+    },
+    {
+      "number": 81,
+      "title": "Naming and Defining - denir",
+      "titleNative": "Denir",
+      "topicId": "b2plus-impersonal-style",
+      "items": [
+        {"tr": "Bu çiçeğe lale denir.", "en": "This flower is called a tulip."},
+        {"tr": "Bu yönteme geleneksel yöntem denir.", "en": "This method is called the traditional method."},
+        {"tr": "Ona uzman denir.", "en": "He is called an expert."},
+        {"tr": "Bu tür kararlara stratejik denir.", "en": "These kinds of decisions are called strategic."}
+      ]
+    },
+    {
+      "number": 82,
+      "title": "Accepted Facts - kabul edilir",
+      "titleNative": "Kabul Edilir",
+      "items": [
+        {"tr": "Bu, doğru bir yaklaşım olarak kabul edilir.", "en": "This is accepted as a correct approach."},
+        {"tr": "Genellikle en iyi çözüm bu olarak kabul edilir.", "en": "This is generally accepted as the best solution."},
+        {"tr": "Sabır önemli bir erdem olarak kabul edilir.", "en": "Patience is accepted as an important virtue."},
+        {"tr": "Bu kural herkes tarafından kabul edilir.", "en": "This rule is accepted by everyone."}
+      ]
+    },
+    {
+      "number": 83,
+      "title": "General Beliefs - düşünülür",
+      "titleNative": "Düşünülür",
+      "items": [
+        {"tr": "Bu konuda herkesin farklı düşündüğü düşünülür.", "en": "It is thought that everyone thinks differently about this."},
+        {"tr": "Genellikle erken kalkmanın faydalı olduğu düşünülür.", "en": "It is generally thought that getting up early is beneficial."},
+        {"tr": "Bu tür davranışlar kibar olarak düşünülmez.", "en": "These kinds of behaviors are not thought of as polite."},
+        {"tr": "Bu, önemli bir adım olarak düşünülüyor.", "en": "This is thought of as an important step."}
+      ]
+    },
+    {
+      "number": 84,
+      "title": "What Is Said - söylenir",
+      "titleNative": "Söylenir",
+      "items": [
+        {"tr": "Zamanın her şeyi iyileştirdiği söylenir.", "en": "It is said that time heals everything."},
+        {"tr": "Bu bölgede kışların çok sert geçtiği söylenir.", "en": "It is said that winters are very harsh in this region."},
+        {"tr": "Onun çok yetenekli olduğu söylenir.", "en": "It is said that he is very talented."},
+        {"tr": "Bu şehrin çok güvenli olduğu söylenir.", "en": "It is said that this city is very safe."}
+      ]
+    },
+    {
+      "number": 85,
+      "title": "Impersonal Style in Definitions",
+      "titleNative": "Tanımlarda Kişisiz Üslup",
+      "items": [
+        {"tr": "Bu terim genellikle ekonomi alanında kullanılır.", "en": "This term is generally used in the field of economics."},
+        {"tr": "Bu kavram farklı şekillerde tanımlanabilir.", "en": "This concept can be defined in different ways."},
+        {"tr": "Bu ifade günlük hayatta sıkça duyulur.", "en": "This expression is often heard in daily life."},
+        {"tr": "Bu yapı dilbilgisinde önemli bir yer tutar.", "en": "This structure holds an important place in grammar."}
+      ]
+    },
+    {
+      "number": 86,
+      "title": "Impersonal Style in Instructions",
+      "titleNative": "Talimatlarda Kişisiz Üslup",
+      "items": [
+        {"tr": "Bu ürün serin bir yerde saklanmalıdır.", "en": "This product should be stored in a cool place."},
+        {"tr": "Bu form dikkatlice doldurulmalıdır.", "en": "This form should be filled out carefully."},
+        {"tr": "Bu kurallara uyulması beklenir.", "en": "Compliance with these rules is expected."},
+        {"tr": "Bu bilgi gizli tutulmalıdır.", "en": "This information should be kept confidential."}
+      ]
+    },
+    {
+      "number": 87,
+      "title": "Impersonal Style in News and Reports",
+      "titleNative": "Haber ve Raporlarda Kişisiz Üslup",
+      "items": [
+        {"tr": "Yetkililer tarafından açıklama yapıldığı bildirildi.", "en": "It was reported that an explanation was made by the authorities."},
+        {"tr": "Durumun kontrol altında olduğu belirtildi.", "en": "It was stated that the situation is under control."},
+        {"tr": "Yeni önlemlerin alınacağı duyuruldu.", "en": "It was announced that new measures will be taken."},
+        {"tr": "Sürecin yakından takip edildiği ifade edildi.", "en": "It was expressed that the process is being closely monitored."}
+      ]
+    },
+    {
+      "number": 88,
+      "title": "Combining Impersonal Style with Opinion",
+      "titleNative": "Kişisiz Üslubu Görüşle Birleştirmek",
+      "items": [
+        {"tr": "Bence bu doğru kabul edilemez.", "en": "In my opinion, this cannot be accepted as correct."},
+        {"tr": "Genel olarak bu iyi bir fikir olarak görülür, ama ben katılmıyorum.", "en": "This is generally seen as a good idea, but I don't agree."},
+        {"tr": "Genellikle iyi bir alışkanlık olarak düşünülür, ama herkes için geçerli değil.", "en": "It's generally thought of as a good habit, but it's not valid for everyone."},
+        {"tr": "Bu, çoğu kişi tarafından mantıklı bulunur.", "en": "This is found reasonable by most people."}
+      ]
+    },
+    {
+      "number": 89,
+      "title": "Formal Writing Style",
+      "titleNative": "Resmi Yazı Üslubu",
+      "items": [
+        {"tr": "Bu araştırmada elde edilen sonuçlar önemli bulunmuştur.", "en": "The results obtained in this research have been found significant."},
+        {"tr": "Verilerin dikkatle incelenmesi önerilir.", "en": "It is recommended that the data be carefully examined."},
+        {"tr": "Bu konudaki eksiklikler giderilmelidir.", "en": "The shortcomings on this subject should be addressed."},
+        {"tr": "Gelecekteki çalışmalarda bu faktörün göz önünde bulundurulması gerekir.", "en": "In future studies, this factor needs to be taken into consideration."}
+      ]
+    },
+    {
+      "number": 90,
+      "title": "Review: Impersonal and Formal Style",
+      "titleNative": "Tekrar: Kişisiz ve Resmi Üslup",
+      "items": [
+        {"tr": "Bu çiçeğe gül denir.", "en": "This flower is called a rose."},
+        {"tr": "Sabırlı olmak önemli bir erdem olarak kabul edilir.", "en": "Being patient is accepted as an important virtue."},
+        {"tr": "Bu bölgenin çok güzel olduğu söylenir.", "en": "It is said that this region is very beautiful."},
+        {"tr": "Bu kurallara uyulması beklenir.", "en": "Compliance with these rules is expected."}
       ]
     }
   ]
