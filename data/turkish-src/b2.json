@@ -70,6 +70,16 @@
         {"tr": "Bu iş sana nasıl hissettiriyor?", "en": "How does this job make you feel?"},
         {"tr": "Bana büyük bir özgürlük hissi veriyor.", "en": "It gives me a great sense of freedom."}
       ]
+    },
+    "b2-passive-causative": {
+      "title": "Combining Passive and Causative",
+      "pattern": "causative stem + passive -Il/-In (yap-tır-ıl-mak, yaz-dır-ıl-mak)",
+      "explanation": "Causative and passive can stack on the same verb. Add the causative suffix first, then the passive suffix: yaptırmak (have done) → yaptırılmak (be had-done, i.e., 'be commissioned'). This is common in formal or impersonal contexts: 'Bu bina 1990'da yaptırıldı' (This building was commissioned in 1990) — distinct from the simple passive 'yapıldı' (it was built), which doesn't imply anyone had it built.",
+      "fact": "The order of suffixes always mirrors the order of operations: causative (make X happen) attaches closer to the stem, passive (X happens, agent unnamed) attaches further out — you cause something and THEN it can be described passively, never the reverse.",
+      "dialogue": [
+        {"tr": "Bu köprü ne zaman yapıldı?", "en": "When was this bridge built?"},
+        {"tr": "1985'te yaptırıldı, belediye inşa ettirdi.", "en": "It was commissioned in 1985, the municipality had it built."}
+      ]
     }
   },
   "lessons": [
@@ -848,6 +858,117 @@
         {"tr": "Bu iş büyük bir sorumluluk gerektiriyor.", "en": "This job requires great responsibility."},
         {"tr": "Beş kişilik bir aileyiz.", "en": "We are a family of five."},
         {"tr": "Onun dürüstlüğüne her zaman güvenirim.", "en": "I always trust his honesty."}
+      ]
+    },
+    {
+      "number": 71,
+      "title": "Passive of Causative Verbs",
+      "titleNative": "Ettirgen Fiillerin Edilgeni",
+      "topicId": "b2-passive-causative",
+      "items": [
+        {"tr": "Bu bina 1990'da yaptırıldı.", "en": "This building was commissioned in 1990."},
+        {"tr": "Mektup sekretere yazdırıldı.", "en": "The letter was had-written by the secretary."},
+        {"tr": "Ev geçen yıl boyatıldı.", "en": "The house was had-painted last year."},
+        {"tr": "Bu kitap üniversitede okutuluyor.", "en": "This book is taught at university."}
+      ]
+    },
+    {
+      "number": 72,
+      "title": "Impersonal Passive-Causative in Institutions",
+      "titleNative": "Kurumlarda Kişisiz Yapı",
+      "items": [
+        {"tr": "Yeni bina belediye tarafından yaptırıldı.", "en": "The new building was commissioned by the municipality."},
+        {"tr": "Bu proje hükümet tarafından başlatıldı.", "en": "This project was started by the government."},
+        {"tr": "Sınav sonuçları öğrencilere bildirildi.", "en": "The exam results were announced to the students."},
+        {"tr": "Kurallar herkese duyuruldu.", "en": "The rules were announced to everyone."}
+      ]
+    },
+    {
+      "number": 73,
+      "title": "Everyday Passive-Causative",
+      "titleNative": "Günlük Hayatta Ettirgen Edilgen",
+      "items": [
+        {"tr": "Çocuğa yeni kıyafetler giydirildi.", "en": "The child was dressed in new clothes."},
+        {"tr": "Bebek doktora götürüldü.", "en": "The baby was taken to the doctor."},
+        {"tr": "Arabam tamir ettirildi.", "en": "My car was had-repaired."},
+        {"tr": "Saçlarım kestirildi.", "en": "My hair was had-cut."}
+      ]
+    },
+    {
+      "number": 74,
+      "title": "Passive-Causative in the News",
+      "titleNative": "Haberlerde Ettirgen Edilgen",
+      "items": [
+        {"tr": "Yeni köprü hükümet tarafından yaptırıldı.", "en": "The new bridge was commissioned by the government."},
+        {"tr": "Bu rapor bağımsız bir kurum tarafından hazırlatıldı.", "en": "This report was commissioned to be prepared by an independent institution."},
+        {"tr": "Köprü uzmanlar tarafından inceletildi.", "en": "The bridge was had-examined by experts."},
+        {"tr": "Bina depremden sonra güçlendirildi.", "en": "The building was reinforced after the earthquake."}
+      ]
+    },
+    {
+      "number": 75,
+      "title": "Passive-Causative in Institutions",
+      "titleNative": "Kurumlarda Ettirgen Edilgen",
+      "items": [
+        {"tr": "Yeni okul bu yıl yaptırıldı.", "en": "The new school was commissioned this year."},
+        {"tr": "Sözleşme avukata yazdırıldı.", "en": "The contract was had-written by a lawyer."},
+        {"tr": "Duvarlar yeniden boyatıldı.", "en": "The walls were had-repainted."},
+        {"tr": "Bu ders üniversitede zorunlu olarak okutuluyor.", "en": "This course is taught as mandatory at university."}
+      ]
+    },
+    {
+      "number": 76,
+      "title": "Passive-Causative About Appearance and Repair",
+      "titleNative": "Görünüm ve Tamirde Ettirgen Edilgen",
+      "items": [
+        {"tr": "Arabam yine tamir ettirildi.", "en": "My car was had-repaired again."},
+        {"tr": "Saçım her ay kestiriliyor.", "en": "My hair gets had-cut every month."},
+        {"tr": "Elbise ölçüme göre diktirildi.", "en": "The dress was had-tailored to my measurements."},
+        {"tr": "Bina depremden sonra güçlendirildi.", "en": "The building was reinforced after the earthquake."}
+      ]
+    },
+    {
+      "number": 77,
+      "title": "Institutional Actions",
+      "titleNative": "Kurumsal Eylemler",
+      "items": [
+        {"tr": "Yeni proje resmi olarak başlatıldı.", "en": "The new project was officially started."},
+        {"tr": "Rapor bağımsız bir kurum tarafından hazırlatıldı.", "en": "The report was commissioned to be prepared by an independent institution."},
+        {"tr": "Köprü uzmanlar tarafından inceletildi.", "en": "The bridge was had-examined by experts."},
+        {"tr": "Kurallar tüm çalışanlara bildirildi.", "en": "The rules were announced to all employees."}
+      ]
+    },
+    {
+      "number": 78,
+      "title": "Passive-Causative in Family Life",
+      "titleNative": "Aile Hayatında Ettirgen Edilgen",
+      "items": [
+        {"tr": "Çocuğa yeni ayakkabılar giydirildi.", "en": "The child was put into new shoes."},
+        {"tr": "Bebek düzenli olarak doktora götürülüyor.", "en": "The baby is regularly taken to the doctor."},
+        {"tr": "Ev misafirler gelmeden önce temizlettirildi.", "en": "The house was had-cleaned before the guests came."},
+        {"tr": "Yemekler aşçıya hazırlatıldı.", "en": "The food was had-prepared by the chef."}
+      ]
+    },
+    {
+      "number": 79,
+      "title": "Comparing Simple Passive and Causative-Passive",
+      "titleNative": "Basit Edilgen ile Ettirgen Edilgeni Karşılaştırmak",
+      "items": [
+        {"tr": "Ev temizlendi.", "en": "The house was cleaned."},
+        {"tr": "Ev temizlettirildi.", "en": "The house was had-cleaned."},
+        {"tr": "Yemek pişti.", "en": "The food cooked."},
+        {"tr": "Yemek pişirildi.", "en": "The food was cooked."}
+      ]
+    },
+    {
+      "number": 80,
+      "title": "Review: Passive and Causative Combined",
+      "titleNative": "Tekrar: Ettirgen ve Edilgen Birlikte",
+      "items": [
+        {"tr": "Bu bina yıllar önce yaptırıldı.", "en": "This building was commissioned years ago."},
+        {"tr": "Mektup avukata yazdırıldı.", "en": "The letter was had-written by a lawyer."},
+        {"tr": "Saçım geçen hafta kestirildi.", "en": "My hair was had-cut last week."},
+        {"tr": "Kurallar herkese bildirildi.", "en": "The rules were announced to everyone."}
       ]
     }
   ]
