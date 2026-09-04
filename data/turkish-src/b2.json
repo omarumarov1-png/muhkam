@@ -1,0 +1,249 @@
+{
+  "level": "b2",
+  "grammarTopics": {
+    "b2-optative": {
+      "title": "Let Me / Let's / May He: The Optative-Jussive",
+      "pattern": "1sg -(y)AyIm; 1pl -(y)AlIm; 3sg/pl -sIn/-sInlEr",
+      "explanation": "Turkish has a dedicated mood for suggestions, permission-seeking, and third-person wishes or commands. -(y)AyIm means 'let me...': 'Yardım edeyim' (Let me help). -(y)AlIm means 'let's...': 'Gidelim' (Let's go). -sIn means 'let him/may he...' or a polite third-person command: 'Biraz beklesin' (Let him wait a bit) or 'Herkes mutlu olsun' (May everyone be happy).",
+      "fact": "Because -(y)AlIm and -(y)AyIm start with a vowel, they trigger the same p/ç/t/k softening you already know from -Iyor and -EcEk: gitmek becomes gidelim (let's go), not gitelim.",
+      "dialogue": [
+        {"tr": "Ne yapalım bu akşam?", "en": "What shall we do tonight?"},
+        {"tr": "Sinemaya gidelim.", "en": "Let's go to the movies."}
+      ]
+    },
+    "b2-past-necessity": {
+      "title": "Should Have: -mAlIydI",
+      "pattern": "verb + -mAlI + -y + DI",
+      "explanation": "-mAlI already expresses 'should' in the present/future. Add the past copula -(y)DI to shift it into regret about the past: 'Gitmeliydim' (I should have gone). Negate the -mAlI part, not the copula, for 'shouldn't have': 'Gitmemeliydim' (I shouldn't have gone).",
+      "fact": "-mAlIydI doesn't tell you by itself whether the action happened or not — context does. 'Erken kalkmalıydım' usually implies you didn't (a missed obligation), but it can also just mean 'it would have been proper' without specifying the outcome.",
+      "dialogue": [
+        {"tr": "Neden bu kadar geç kaldın?", "en": "Why are you so late?"},
+        {"tr": "Haklısın, daha erken çıkmalıydım.", "en": "You're right, I should have left earlier."}
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Let Me...",
+      "titleNative": "-(y)AyIm",
+      "topicId": "b2-optative",
+      "items": [
+        {"tr": "Sana yardım edeyim.", "en": "Let me help you."},
+        {"tr": "Bir dakika düşüneyim.", "en": "Let me think for a minute."},
+        {"tr": "Kapıyı ben açayım.", "en": "Let me open the door."},
+        {"tr": "Bu konuda biraz araştırayım.", "en": "Let me research this a bit."}
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Let's...",
+      "titleNative": "-(y)AlIm",
+      "items": [
+        {"tr": "Bu akşam dışarı çıkalım.", "en": "Let's go out tonight."},
+        {"tr": "Biraz dinlenelim.", "en": "Let's rest a bit."},
+        {"tr": "Yarın erken gidelim.", "en": "Let's go early tomorrow."},
+        {"tr": "Önce planı gözden geçirelim.", "en": "Let's review the plan first."}
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Let Him / May He...",
+      "titleNative": "-sIn",
+      "items": [
+        {"tr": "Biraz beklesin.", "en": "Let him wait a bit."},
+        {"tr": "Herkes mutlu olsun.", "en": "May everyone be happy."},
+        {"tr": "İsteyen gelsin.", "en": "Whoever wants to, let them come."},
+        {"tr": "Tanrı seni korusun.", "en": "May God protect you."}
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Polite Suggestions",
+      "titleNative": "Nazik Öneriler",
+      "items": [
+        {"tr": "Belki biraz ara verelim.", "en": "Maybe let's take a break."},
+        {"tr": "İstersen ben süreyim.", "en": "If you want, let me drive."},
+        {"tr": "Bu konuyu sonra konuşalım.", "en": "Let's talk about this later."},
+        {"tr": "Herkes kendi fikrini söylesin.", "en": "Let everyone say their own opinion."}
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Asking Permission with -AyIm",
+      "titleNative": "-AyIm ile İzin İstemek",
+      "items": [
+        {"tr": "Pencereyi açayım mı?", "en": "Shall I open the window?"},
+        {"tr": "Sana bir şey sorayım mı?", "en": "May I ask you something?"},
+        {"tr": "Işığı kapatayım mı?", "en": "Shall I turn off the light?"},
+        {"tr": "İçeri gireyim mi?", "en": "May I come in?"}
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Group Decisions",
+      "titleNative": "Grup Kararları",
+      "items": [
+        {"tr": "Bu konuyu birlikte konuşalım.", "en": "Let's talk about this together."},
+        {"tr": "Kararı beraber verelim.", "en": "Let's make the decision together."},
+        {"tr": "Herkes görüşünü paylaşsın.", "en": "Let everyone share their opinion."},
+        {"tr": "Oylamayla karar verelim.", "en": "Let's decide by voting."}
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Wishes for Someone Else",
+      "titleNative": "Başkası İçin Dilekler",
+      "items": [
+        {"tr": "Yolu açık olsun.", "en": "May his road be open."},
+        {"tr": "Her şeyi gönlünce olsun.", "en": "May everything go as he wishes."},
+        {"tr": "Sağlıklı ve mutlu yaşasın.", "en": "May he live healthy and happy."},
+        {"tr": "Dilekleri gerçek olsun.", "en": "May his wishes come true."}
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Combining Optative with Reason",
+      "titleNative": "Optatifi Sebeple Birleştirmek",
+      "items": [
+        {"tr": "Yorgunum, biraz oturayım.", "en": "I'm tired, let me sit for a bit."},
+        {"tr": "Geç oldu, artık gidelim.", "en": "It's gotten late, let's go now."},
+        {"tr": "O da gelsin, birlikte eğleniriz.", "en": "Let him come too, we'll have fun together."},
+        {"tr": "Vaktimiz az, hemen başlayalım.", "en": "We have little time, let's start right away."}
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Negative Optative",
+      "titleNative": "Olumsuz Optatif",
+      "items": [
+        {"tr": "Bunu kimseye söylemeyeyim.", "en": "Let me not tell anyone this."},
+        {"tr": "Bugün dışarı çıkmayalım.", "en": "Let's not go out today."},
+        {"tr": "Kimse üzülmesin.", "en": "Let no one be sad."},
+        {"tr": "Bu konuyu şimdi açmayalım.", "en": "Let's not bring up this topic now."}
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Review: The Optative-Jussive",
+      "titleNative": "Tekrar: -AyIm/-AlIm/-sIn",
+      "items": [
+        {"tr": "Bir kahve daha içeyim.", "en": "Let me have one more coffee."},
+        {"tr": "Beraber karar verelim.", "en": "Let's decide together."},
+        {"tr": "Herkes kendi işini yapsın.", "en": "Let everyone do their own job."},
+        {"tr": "Bu meseleyi burada bitirelim.", "en": "Let's finish this matter here."}
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Regretting Missed Obligations",
+      "titleNative": "Kaçırılan Yükümlülüklere Pişman Olmak",
+      "topicId": "b2-past-necessity",
+      "items": [
+        {"tr": "Daha erken çıkmalıydım.", "en": "I should have left earlier."},
+        {"tr": "Ona gerçeği söylemeliydim.", "en": "I should have told him the truth."},
+        {"tr": "Bu fırsatı kaçırmamalıydım.", "en": "I shouldn't have missed this opportunity."},
+        {"tr": "Daha dikkatli olmalıydım.", "en": "I should have been more careful."}
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Should Have (Others)",
+      "titleNative": "Başkaları İçin Keşke",
+      "items": [
+        {"tr": "Bize haber vermeliydin.", "en": "You should have let us know."},
+        {"tr": "Onlar bizi beklemeliydi.", "en": "They should have waited for us."},
+        {"tr": "Bu kararı birlikte almalıydık.", "en": "We should have made this decision together."},
+        {"tr": "Doktora daha önce gitmeliydi.", "en": "He should have gone to the doctor earlier."}
+      ]
+    },
+    {
+      "number": 13,
+      "title": "Shouldn't Have",
+      "titleNative": "Yapmamalıydım",
+      "items": [
+        {"tr": "Bu kadar sert konuşmamalıydım.", "en": "I shouldn't have spoken so harshly."},
+        {"tr": "Ona kızmamalıydın.", "en": "You shouldn't have gotten angry at him."},
+        {"tr": "O parayı harcamamalıydık.", "en": "We shouldn't have spent that money."},
+        {"tr": "Bu işi kabul etmemeliydi.", "en": "He shouldn't have accepted this job."}
+      ]
+    },
+    {
+      "number": 14,
+      "title": "Contrasting Past and Present Obligation",
+      "titleNative": "Geçmiş ve Şimdiki Yükümlülüğü Karşılaştırmak",
+      "items": [
+        {"tr": "O zaman erken kalkmalıydım, şimdi zaten alışkanlık oldu.", "en": "I should have gotten up early back then, now it's already a habit."},
+        {"tr": "Bunu daha önce öğrenmeliydim, ama şimdi biliyorum.", "en": "I should have learned this earlier, but now I know."},
+        {"tr": "Geçen yıl tasarruf etmeliydim, bu yıl yapıyorum.", "en": "I should have saved money last year, I'm doing it this year."},
+        {"tr": "Bunu önceden planlamalıydık, şimdi acele ediyoruz.", "en": "We should have planned this in advance, now we're rushing."}
+      ]
+    },
+    {
+      "number": 15,
+      "title": "Regret About Relationships",
+      "titleNative": "İlişkilerde Pişmanlık",
+      "items": [
+        {"tr": "Ona daha çok zaman ayırmalıydım.", "en": "I should have spent more time with him."},
+        {"tr": "Aramızdaki sorunu daha önce konuşmalıydık.", "en": "We should have talked about the problem between us earlier."},
+        {"tr": "Onu daha iyi dinlemeliydim.", "en": "I should have listened to him better."},
+        {"tr": "Bu kadar uzun süre küs kalmamalıydık.", "en": "We shouldn't have stayed upset with each other for so long."}
+      ]
+    },
+    {
+      "number": 16,
+      "title": "Regret About Choices",
+      "titleNative": "Seçimlerde Pişmanlık",
+      "items": [
+        {"tr": "Farklı bir yol seçmeliydim.", "en": "I should have chosen a different path."},
+        {"tr": "O işi kabul etmemeliydim.", "en": "I shouldn't have accepted that job."},
+        {"tr": "Bu şehre taşınmamalıydık.", "en": "We shouldn't have moved to this city."},
+        {"tr": "Daha sabırlı olmalıydım.", "en": "I should have been more patient."}
+      ]
+    },
+    {
+      "number": 17,
+      "title": "Speculating About Others' Regrets",
+      "titleNative": "Başkalarının Pişmanlığı Üzerine Düşünmek",
+      "items": [
+        {"tr": "O da muhtemelen aynı hatayı yapmamalıydı diye düşünüyor.", "en": "He probably thinks he shouldn't have made the same mistake either."},
+        {"tr": "Belki de bize daha erken söylemeliydi.", "en": "Maybe he should have told us earlier."},
+        {"tr": "Onlar da bu kararı tekrar düşünmeliydi.", "en": "They should have reconsidered this decision too."},
+        {"tr": "Belki hepimiz daha dikkatli olmalıydık.", "en": "Maybe all of us should have been more careful."}
+      ]
+    },
+    {
+      "number": 18,
+      "title": "Combining with Because",
+      "titleNative": "Sebep Cümleleriyle Birleştirmek",
+      "items": [
+        {"tr": "Yorgun olduğum için erken yatmalıydım.", "en": "Because I was tired, I should have gone to bed early."},
+        {"tr": "Param az olduğu için daha dikkatli harcamalıydım.", "en": "Because I had little money, I should have spent more carefully."},
+        {"tr": "Vaktim kısıtlı olduğu için önceliklerimi belirlemeliydim.", "en": "Because my time was limited, I should have set my priorities."},
+        {"tr": "Hava kötü olduğu için yola çıkmamalıydık.", "en": "Because the weather was bad, we shouldn't have set out."}
+      ]
+    },
+    {
+      "number": 19,
+      "title": "Life Lessons in Hindsight",
+      "titleNative": "Geriye Dönük Hayat Dersleri",
+      "items": [
+        {"tr": "Gençken daha çok risk almalıydım.", "en": "When I was young, I should have taken more risks."},
+        {"tr": "Param varken biraz biriktirmeliydim.", "en": "When I had money, I should have saved a bit."},
+        {"tr": "Fırsat varken denemeliydim.", "en": "When I had the chance, I should have tried."},
+        {"tr": "Zaman varken ailemle daha çok vakit geçirmeliydim.", "en": "When I had time, I should have spent more time with my family."}
+      ]
+    },
+    {
+      "number": 20,
+      "title": "Review: -mAlIydI",
+      "titleNative": "Tekrar: -mAlIydI",
+      "items": [
+        {"tr": "Bunu daha önce yapmalıydım.", "en": "I should have done this earlier."},
+        {"tr": "Sana kızmamalıydım, özür dilerim.", "en": "I shouldn't have gotten angry at you, I'm sorry."},
+        {"tr": "Belki hepimiz daha dikkatli olmalıydık.", "en": "Maybe all of us should have been more careful."},
+        {"tr": "Geçmişte yaptığım hatalardan öğrendim.", "en": "I learned from the mistakes I made in the past."}
+      ]
+    }
+  ]
+}
