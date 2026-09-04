@@ -60,6 +60,16 @@
         {"tr": "Çay mı kahve mi istersin?", "en": "Would you like tea or coffee?"},
         {"tr": "Aslında ne çay ne kahve, sadece su istiyorum.", "en": "Actually neither tea nor coffee, I just want water."}
       ]
+    },
+    "b2-lik-suffix": {
+      "title": "Turning Words into Nouns: -lIk",
+      "pattern": "adjective/noun + -lIk/-lık/-luk/-lük (4-way harmony)",
+      "explanation": "-lIk is one of Turkish's most productive suffixes: it turns adjectives into abstract nouns (mutlu→mutluluk 'happiness,' özgür→özgürlük 'freedom,' dost→dostluk 'friendship') and nouns into 'container/purpose' nouns (göz→gözlük 'glasses,' tuz→tuzluk 'salt shaker,' hafta→haftalık 'weekly, a week's worth'). It also builds professions and roles from nouns: öğretmenlik (the profession of teaching), müdürlük (management/directorship).",
+      "fact": "Because -lIk is so productive, Turkish speakers coin new -lIk words on the fly the way English speakers might add '-ness' to almost any adjective; not every -lIk word is in the dictionary, but native speakers understand a novel one instantly.",
+      "dialogue": [
+        {"tr": "Bu iş sana nasıl hissettiriyor?", "en": "How does this job make you feel?"},
+        {"tr": "Bana büyük bir özgürlük hissi veriyor.", "en": "It gives me a great sense of freedom."}
+      ]
     }
   },
   "lessons": [
@@ -727,6 +737,117 @@
         {"tr": "Ya şimdi ya da hiçbir zaman.", "en": "Either now or never."},
         {"tr": "Ne param var ne enerjim.", "en": "I have neither money nor energy."},
         {"tr": "Hem çalışkan hem alçakgönüllü bir insan tanıyorum.", "en": "I know a person who is both hardworking and humble."}
+      ]
+    },
+    {
+      "number": 61,
+      "title": "Abstract Qualities from Adjectives",
+      "titleNative": "Sıfatlardan Soyut İsimler",
+      "topicId": "b2-lik-suffix",
+      "items": [
+        {"tr": "Mutluluk her yerde aranmaz, bazen içimizdedir.", "en": "Happiness isn't sought everywhere, sometimes it's within us."},
+        {"tr": "Özgürlük benim için çok değerli.", "en": "Freedom is very valuable to me."},
+        {"tr": "Dostluk zamanla derinleşir.", "en": "Friendship deepens over time."},
+        {"tr": "Güzellik sadece dışarıdan gelmez.", "en": "Beauty doesn't only come from outside."}
+      ]
+    },
+    {
+      "number": 62,
+      "title": "Professions and Roles",
+      "titleNative": "Meslekler ve Roller",
+      "items": [
+        {"tr": "Öğretmenlik zor ama anlamlı bir meslek.", "en": "Teaching is a hard but meaningful profession."},
+        {"tr": "Müdürlük büyük bir sorumluluk gerektirir.", "en": "Management requires a lot of responsibility."},
+        {"tr": "Doktorluk yıllarca eğitim ister.", "en": "Being a doctor requires years of education."},
+        {"tr": "Sanatçılık her zaman kolay bir hayat değildir.", "en": "Being an artist isn't always an easy life."}
+      ]
+    },
+    {
+      "number": 63,
+      "title": "Containers and Purpose Nouns",
+      "titleNative": "Kap ve Amaç İsimleri",
+      "items": [
+        {"tr": "Gözlüğümü nereye koydum bilmiyorum.", "en": "I don't know where I put my glasses."},
+        {"tr": "Tuzluk masanın üzerinde.", "en": "The salt shaker is on the table."},
+        {"tr": "Bu çantada anahtarlık var mı?", "en": "Is there a keychain in this bag?"},
+        {"tr": "Kitaplığımda yüzlerce kitap var.", "en": "I have hundreds of books in my bookcase."}
+      ]
+    },
+    {
+      "number": 64,
+      "title": "Time Expressions with -lIk",
+      "titleNative": "-lIk ile Zaman İfadeleri",
+      "items": [
+        {"tr": "Bu haftalık planım çok yoğun.", "en": "My plan for this week is very busy."},
+        {"tr": "Aylık maaşım yeterli değil.", "en": "My monthly salary isn't enough."},
+        {"tr": "Yıllık izin ne zaman başlıyor?", "en": "When does the annual leave start?"},
+        {"tr": "Günlük rutinimi değiştirmek istiyorum.", "en": "I want to change my daily routine."}
+      ]
+    },
+    {
+      "number": 65,
+      "title": "Abstract Concepts in Conversation",
+      "titleNative": "Sohbette Soyut Kavramlar",
+      "items": [
+        {"tr": "Dürüstlük her ilişkinin temelidir.", "en": "Honesty is the foundation of every relationship."},
+        {"tr": "Sabırsızlık bazen büyük hatalara yol açar.", "en": "Impatience sometimes leads to big mistakes."},
+        {"tr": "Yalnızlık bazen huzur verir, bazen zor gelir.", "en": "Loneliness sometimes gives peace, sometimes feels hard."},
+        {"tr": "Cesaret ve korkaklık aynı anda var olabilir.", "en": "Courage and cowardice can exist at the same time."}
+      ]
+    },
+    {
+      "number": 66,
+      "title": "-lIk with Numbers and Quantities",
+      "titleNative": "-lIk ile Sayı ve Miktarlar",
+      "items": [
+        {"tr": "Beş kişilik bir masa istiyoruz.", "en": "We want a table for five people."},
+        {"tr": "İki saatlik bir toplantımız var.", "en": "We have a two-hour meeting."},
+        {"tr": "Üç günlük bir tatile çıkıyoruz.", "en": "We're going on a three-day vacation."},
+        {"tr": "On yıllık bir dostluğumuz var.", "en": "We have a ten-year friendship."}
+      ]
+    },
+    {
+      "number": 67,
+      "title": "Emotional States as Nouns",
+      "titleNative": "İsim Olarak Duygu Durumları",
+      "items": [
+        {"tr": "İçimde derin bir huzursuzluk var.", "en": "There's a deep uneasiness inside me."},
+        {"tr": "Bu haber bende büyük bir şaşkınlık yarattı.", "en": "This news created great astonishment in me."},
+        {"tr": "Onun kararlılığı beni etkiledi.", "en": "His determination impressed me."},
+        {"tr": "Bu durum bende bir belirsizlik hissi bırakıyor.", "en": "This situation leaves me with a feeling of uncertainty."}
+      ]
+    },
+    {
+      "number": 68,
+      "title": "Combining -lIk Nouns in Sentences",
+      "titleNative": "-lIk İsimlerini Cümlede Birleştirmek",
+      "items": [
+        {"tr": "Mutluluk ve huzur her zaman parayla gelmez.", "en": "Happiness and peace don't always come with money."},
+        {"tr": "Dostluk ve güven zamanla inşa edilir.", "en": "Friendship and trust are built over time."},
+        {"tr": "Cesaret olmadan hiçbir hayal gerçekleşmez.", "en": "Without courage, no dream comes true."},
+        {"tr": "Sağlık her şeyin başıdır.", "en": "Health is the beginning of everything."}
+      ]
+    },
+    {
+      "number": 69,
+      "title": "Reflecting Using -lIk Nouns",
+      "titleNative": "-lIk İsimleriyle Geriye Bakmak",
+      "items": [
+        {"tr": "Geçmişteki yalnızlığım beni güçlendirdi.", "en": "My loneliness in the past made me stronger."},
+        {"tr": "O yıllardaki mutsuzluğumu hiç unutmadım.", "en": "I never forgot my unhappiness from those years."},
+        {"tr": "Zamanla kazandığım özgüven hayatımı değiştirdi.", "en": "The self-confidence I gained over time changed my life."},
+        {"tr": "Bu tecrübe bana büyük bir olgunluk kazandırdı.", "en": "This experience brought me great maturity."}
+      ]
+    },
+    {
+      "number": 70,
+      "title": "Review: -lIk Suffix",
+      "titleNative": "Tekrar: -lIk Eki",
+      "items": [
+        {"tr": "Mutluluk, dostluk ve sağlık hayatın en değerli şeyleridir.", "en": "Happiness, friendship, and health are the most valuable things in life."},
+        {"tr": "Bu iş büyük bir sorumluluk gerektiriyor.", "en": "This job requires great responsibility."},
+        {"tr": "Beş kişilik bir aileyiz.", "en": "We are a family of five."},
+        {"tr": "Onun dürüstlüğüne her zaman güvenirim.", "en": "I always trust his honesty."}
       ]
     }
   ]
