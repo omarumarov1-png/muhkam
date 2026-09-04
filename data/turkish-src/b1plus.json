@@ -60,6 +60,16 @@
         {"tr": "Bu konuda hiç fikrin var mı?", "en": "Do you have any idea about this?"},
         {"tr": "Hayır, hiçbir fikrim yok.", "en": "No, I have no idea at all."}
       ]
+    },
+    "b1plus-comparison-extended": {
+      "title": "Extended Comparison: kadar, ne kadar...o kadar",
+      "pattern": "X kadar Y (as Y as X); ne kadar...o kadar (the more...the more)",
+      "explanation": "kadar means 'as much as / to the extent of.' 'Senin kadar çalışkanım' (I'm as hardworking as you). Negate with değil: 'Onun kadar hızlı değilim' (I'm not as fast as him). For 'the more X, the more Y,' pair ne kadar with o kadar: 'Ne kadar çok çalışırsan, o kadar çok kazanırsın' (The more you work, the more you earn).",
+      "fact": "kadar can also attach to a -DIk clause to compare actions, not just nouns: 'Düşündüğüm kadar kolay değildi' (It wasn't as easy as I thought).",
+      "dialogue": [
+        {"tr": "Bu iş zor mu?", "en": "Is this job hard?"},
+        {"tr": "Düşündüğün kadar zor değil.", "en": "It's not as hard as you think."}
+      ]
     }
   },
   "lessons": [
@@ -727,6 +737,117 @@
         {"tr": "Hiçbir şey imkansız değildir.", "en": "Nothing is impossible."},
         {"tr": "Birkaç kişiyle konuştum, birçoğu aynı şeyi düşünüyor.", "en": "I talked to a few people, most of them think the same thing."},
         {"tr": "Bazı şeyler zamanla değişir, bazıları hiç değişmez.", "en": "Some things change over time, some never change."}
+      ]
+    },
+    {
+      "number": 61,
+      "title": "As...As",
+      "titleNative": "Kadar",
+      "topicId": "b1plus-comparison-extended",
+      "items": [
+        {"tr": "Senin kadar çalışkanım.", "en": "I'm as hardworking as you."},
+        {"tr": "Bu ev o kadar büyük değil.", "en": "This house isn't that big."},
+        {"tr": "Kardeşim kadar uzun değilim.", "en": "I'm not as tall as my brother."},
+        {"tr": "Bu film beklediğim kadar iyi değildi.", "en": "This movie wasn't as good as I expected."}
+      ]
+    },
+    {
+      "number": 62,
+      "title": "The More...The More",
+      "titleNative": "Ne Kadar...O Kadar",
+      "items": [
+        {"tr": "Ne kadar çok okursan, o kadar çok öğrenirsin.", "en": "The more you read, the more you learn."},
+        {"tr": "Ne kadar çok çalışırsak, o kadar çok kazanırız.", "en": "The more we work, the more we earn."},
+        {"tr": "Ne kadar erken kalkarsam, o kadar verimli oluyorum.", "en": "The earlier I get up, the more productive I am."},
+        {"tr": "Ne kadar az uyursan, o kadar yorgun olursun.", "en": "The less you sleep, the more tired you get."}
+      ]
+    },
+    {
+      "number": 63,
+      "title": "Comparing Actions",
+      "titleNative": "Eylemleri Karşılaştırmak",
+      "items": [
+        {"tr": "Düşündüğüm kadar kolay değildi.", "en": "It wasn't as easy as I thought."},
+        {"tr": "Beklediğimizden daha hızlı bitti.", "en": "It finished faster than we expected."},
+        {"tr": "Sandığından daha zeki.", "en": "He's smarter than you think."},
+        {"tr": "Söylediğin kadar basit değil.", "en": "It's not as simple as you say."}
+      ]
+    },
+    {
+      "number": 64,
+      "title": "Superlatives Extended",
+      "titleNative": "Genişletilmiş Üstünlük Derecesi",
+      "items": [
+        {"tr": "Bu, hayatımda gördüğüm en güzel manzara.", "en": "This is the most beautiful view I've seen in my life."},
+        {"tr": "O, tanıdığım en dürüst insan.", "en": "He's the most honest person I know."},
+        {"tr": "Bu, şimdiye kadar aldığım en iyi karar.", "en": "This is the best decision I've made so far."},
+        {"tr": "Bu şehir, ziyaret ettiğim en kalabalık şehir.", "en": "This city is the most crowded city I've visited."}
+      ]
+    },
+    {
+      "number": 65,
+      "title": "Comparison with Numbers",
+      "titleNative": "Sayılarla Karşılaştırma",
+      "items": [
+        {"tr": "Ondan iki yaş büyüğüm.", "en": "I'm two years older than him."},
+        {"tr": "Bu araba diğerinden çok daha pahalı.", "en": "This car is much more expensive than the other one."},
+        {"tr": "Maaşım geçen yıla göre arttı.", "en": "My salary increased compared to last year."},
+        {"tr": "Nüfus her yıl biraz daha artıyor.", "en": "The population increases a bit more every year."}
+      ]
+    },
+    {
+      "number": 66,
+      "title": "As...As Possible",
+      "titleNative": "Mümkün Olduğu Kadar",
+      "items": [
+        {"tr": "Elimden geldiği kadar yardım ettim.", "en": "I helped as much as I could."},
+        {"tr": "Mümkün olduğu kadar erken gel.", "en": "Come as early as possible."},
+        {"tr": "Gücüm yettiği kadar çalıştım.", "en": "I worked as much as my strength allowed."},
+        {"tr": "Bildiğim kadarıyla o haklı.", "en": "As far as I know, he's right."}
+      ]
+    },
+    {
+      "number": 67,
+      "title": "Equal Comparisons",
+      "titleNative": "Eşit Karşılaştırmalar",
+      "items": [
+        {"tr": "İkimiz de aynı kadar yoruluyoruz.", "en": "Both of us get equally tired."},
+        {"tr": "Sen de benim kadar meraklısın.", "en": "You're just as curious as I am."},
+        {"tr": "Bu iki seçenek de birbiri kadar iyi.", "en": "These two options are just as good as each other."},
+        {"tr": "Onun kadar sabırlı olmak istiyorum.", "en": "I want to be as patient as him."}
+      ]
+    },
+    {
+      "number": 68,
+      "title": "Comparing Over Time",
+      "titleNative": "Zaman İçinde Karşılaştırma",
+      "items": [
+        {"tr": "Eskisi kadar enerjik değilim.", "en": "I'm not as energetic as before."},
+        {"tr": "Önceki kadar sık görüşmüyoruz.", "en": "We don't see each other as often as before."},
+        {"tr": "Bu şehir eskisi kadar sakin değil artık.", "en": "This city isn't as calm as it used to be anymore."},
+        {"tr": "Geçen yıla göre çok daha mutluyum.", "en": "I'm much happier compared to last year."}
+      ]
+    },
+    {
+      "number": 69,
+      "title": "Comparative Opinions",
+      "titleNative": "Karşılaştırmalı Görüşler",
+      "items": [
+        {"tr": "Bence bu, o kitaptan daha iyi.", "en": "In my opinion, this is better than that book."},
+        {"tr": "Bana göre, sabır her şeyden daha değerli.", "en": "To me, patience is more valuable than anything."},
+        {"tr": "Onun fikrine göre, bu karar en doğrusu.", "en": "According to his opinion, this is the most correct decision."},
+        {"tr": "Herkese göre farklı, ama bence bu en iyisi.", "en": "It's different for everyone, but I think this is the best."}
+      ]
+    },
+    {
+      "number": 70,
+      "title": "Review: Extended Comparison",
+      "titleNative": "Tekrar: Genişletilmiş Karşılaştırma",
+      "items": [
+        {"tr": "Ne kadar çok denersen, o kadar iyi olursun.", "en": "The more you try, the better you get."},
+        {"tr": "Bu, beklediğimden daha kolaydı.", "en": "This was easier than I expected."},
+        {"tr": "Kardeşim kadar sabırlı değilim.", "en": "I'm not as patient as my brother."},
+        {"tr": "Bu, gördüğüm en etkileyici performanstı.", "en": "This was the most impressive performance I've seen."}
       ]
     }
   ]
