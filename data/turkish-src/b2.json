@@ -30,6 +30,16 @@
         {"tr": "Neden bu kadar geç kaldın?", "en": "Why are you so late?"},
         {"tr": "O kadar çok trafik vardı ki iki saat yolda kaldım.", "en": "There was so much traffic that I was stuck on the road for two hours."}
       ]
+    },
+    "b2-cause-clauses": {
+      "title": "Because: -DIğI için, dolayı, yüzünden",
+      "pattern": "-DIk + possessive + için; noun/-DIk + possessive + -dan dolayı; noun/-DIk + possessive + -dan yüzünden",
+      "explanation": "You've used çünkü to link two full sentences (Geldim çünkü seni özledim). -DIğI için packages the reason into a single clause using the -DIk participle you already know, placed BEFORE the result: 'Yorgun olduğum için erken yattım' (Because I was tired, I went to bed early). dolayı and yüzünden do the same job as postpositions after an ablative-marked noun or -DIk clause; yüzünden usually carries a negative flavor ('because of, due to the fault of'), while dolayı is neutral, more formal.",
+      "fact": "yüzünden literally contains yüz (face) + possessive + -DAn (from its face/surface) — a vivid metaphor for 'on account of,' and its negative undertone comes from centuries of being used almost exclusively to blame something for a problem.",
+      "dialogue": [
+        {"tr": "Neden gelmedin?", "en": "Why didn't you come?"},
+        {"tr": "Hastalandığım için gelemedim.", "en": "Because I got sick, I couldn't come."}
+      ]
     }
   },
   "lessons": [
@@ -364,6 +374,117 @@
         {"tr": "O kadar hızlı gitti ki onu göremedim.", "en": "He went so fast that I couldn't see him."},
         {"tr": "Bu haber o kadar şaşırtıcıydı ki kimse inanmadı.", "en": "This news was so surprising that nobody believed it."},
         {"tr": "Onu o kadar çok seviyorum ki anlatamam.", "en": "I love him so much that I can't explain it."}
+      ]
+    },
+    {
+      "number": 31,
+      "title": "Because - DIğI için",
+      "titleNative": "-DIğI İçin",
+      "topicId": "b2-cause-clauses",
+      "items": [
+        {"tr": "Yorgun olduğum için erken yattım.", "en": "Because I was tired, I went to bed early."},
+        {"tr": "Param olmadığı için o kitabı alamadım.", "en": "Because I didn't have money, I couldn't buy that book."},
+        {"tr": "Hastalandığım için işe gidemedim.", "en": "Because I got sick, I couldn't go to work."},
+        {"tr": "Geç kaldığım için özür diledim.", "en": "Because I was late, I apologized."}
+      ]
+    },
+    {
+      "number": 32,
+      "title": "Because of - dolayı",
+      "titleNative": "Dolayı",
+      "items": [
+        {"tr": "Yoğun trafikten dolayı geç kaldım.", "en": "Due to heavy traffic, I was late."},
+        {"tr": "Kötü hava koşullarından dolayı uçak ertelendi.", "en": "Due to bad weather conditions, the flight was postponed."},
+        {"tr": "Bu durumdan dolayı özür dileriz.", "en": "We apologize for this situation."},
+        {"tr": "Teknik bir sorundan dolayı sistem çalışmıyor.", "en": "Due to a technical problem, the system isn't working."}
+      ]
+    },
+    {
+      "number": 33,
+      "title": "Because of, Blaming - yüzünden",
+      "titleNative": "Yüzünden",
+      "items": [
+        {"tr": "Senin yüzünden geç kaldık.", "en": "Because of you, we were late."},
+        {"tr": "Bu hatanın yüzünden çok zaman kaybettik.", "en": "Because of this mistake, we lost a lot of time."},
+        {"tr": "Onun yüzünden işi kaybettim.", "en": "Because of him, I lost the job."},
+        {"tr": "Kötü hava yüzünden tatilimiz mahvoldu.", "en": "Because of bad weather, our vacation was ruined."}
+      ]
+    },
+    {
+      "number": 34,
+      "title": "Comparing çünkü, için, dolayı, yüzünden",
+      "titleNative": "Çünkü, İçin, Dolayı, Yüzünden'i Karşılaştırmak",
+      "items": [
+        {"tr": "Geç kaldım çünkü trafik vardı.", "en": "I was late because there was traffic."},
+        {"tr": "Trafik olduğu için geç kaldım.", "en": "Because there was traffic, I was late."},
+        {"tr": "Trafikten dolayı geç kaldım.", "en": "Due to traffic, I was late."},
+        {"tr": "Trafik yüzünden geç kaldım.", "en": "Because of traffic, I was late."}
+      ]
+    },
+    {
+      "number": 35,
+      "title": "Cause and Effect in Daily Life",
+      "titleNative": "Günlük Hayatta Sebep-Sonuç",
+      "items": [
+        {"tr": "Yağmur yağdığı için toplantı iptal edildi.", "en": "Because it rained, the meeting was canceled."},
+        {"tr": "Uykusuz kaldığım için baş ağrım var.", "en": "Because I didn't sleep, I have a headache."},
+        {"tr": "Çok yemek yediğim için karnım ağrıyor.", "en": "Because I ate too much, my stomach hurts."},
+        {"tr": "İyi çalıştığı için terfi aldı.", "en": "Because he worked well, he got a promotion."}
+      ]
+    },
+    {
+      "number": 36,
+      "title": "Cause Clauses with Negative Reasons",
+      "titleNative": "Olumsuz Sebep Cümleleri",
+      "items": [
+        {"tr": "Vaktim olmadığı için gelemedim.", "en": "Because I didn't have time, I couldn't come."},
+        {"tr": "Hazır olmadığımız için ertelemeliyiz.", "en": "Because we're not ready, we should postpone."},
+        {"tr": "Anlamadığım için tekrar sordum.", "en": "Because I didn't understand, I asked again."},
+        {"tr": "Bilmediğim için yanlış yaptım.", "en": "Because I didn't know, I did it wrong."}
+      ]
+    },
+    {
+      "number": 37,
+      "title": "Formal Apologies and Explanations",
+      "titleNative": "Resmi Özürler ve Açıklamalar",
+      "items": [
+        {"tr": "Bu gecikmeden dolayı üzgünüz.", "en": "We are sorry for this delay."},
+        {"tr": "Yaşanan karışıklıktan dolayı özür dileriz.", "en": "We apologize for the confusion that occurred."},
+        {"tr": "Bu sorundan dolayı sizi bilgilendirmek istedik.", "en": "We wanted to inform you about this problem."},
+        {"tr": "Beklenmedik bir durumdan dolayı programımız değişti.", "en": "Due to an unexpected situation, our schedule changed."}
+      ]
+    },
+    {
+      "number": 38,
+      "title": "Blaming with yüzünden",
+      "titleNative": "Yüzünden ile Suçlamak",
+      "items": [
+        {"tr": "Kendi hatam yüzünden başarısız oldum.", "en": "Because of my own mistake, I failed."},
+        {"tr": "Onun aceleciliği yüzünden kaza oldu.", "en": "Because of his haste, there was an accident."},
+        {"tr": "Bu haber yüzünden çok endişelendim.", "en": "Because of this news, I got very worried."},
+        {"tr": "Dikkatsizlik yüzünden çok şey kaybettik.", "en": "Because of carelessness, we lost a lot."}
+      ]
+    },
+    {
+      "number": 39,
+      "title": "Complex Cause Sentences",
+      "titleNative": "Karmaşık Sebep Cümleleri",
+      "items": [
+        {"tr": "Çok çalıştığım için yorgun olduğumu fark etmedim.", "en": "Because I worked a lot, I didn't notice that I was tired."},
+        {"tr": "Herkes geç kaldığı için toplantıyı erteledik.", "en": "Because everyone was late, we postponed the meeting."},
+        {"tr": "Param olmadığından dolayı bu ay tasarruf etmeliyim.", "en": "Because I don't have money, I need to save this month."},
+        {"tr": "Onun yalan söylediği ortaya çıktığı için kimse ona güvenmiyor.", "en": "Because it came out that he lied, nobody trusts him."}
+      ]
+    },
+    {
+      "number": 40,
+      "title": "Review: Cause Clauses",
+      "titleNative": "Tekrar: Sebep Cümleleri",
+      "items": [
+        {"tr": "Hasta olduğum için evde kaldım.", "en": "Because I was sick, I stayed home."},
+        {"tr": "Yoğun trafikten dolayı geç kaldık.", "en": "Due to heavy traffic, we were late."},
+        {"tr": "Senin yüzünden bu fırsatı kaçırdık.", "en": "Because of you, we missed this opportunity."},
+        {"tr": "Çok çalıştığım için başarılı oldum.", "en": "Because I worked hard, I succeeded."}
       ]
     }
   ]
