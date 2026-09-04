@@ -40,6 +40,16 @@
         {"tr": "Neden bu kadar erken gitmen gerekiyor?", "en": "Why do you need to leave so early?"},
         {"tr": "Yarın önemli bir toplantım var.", "en": "I have an important meeting tomorrow."}
       ]
+    },
+    "b1-aorist": {
+      "title": "Aorist (-Ir): General Truths and Habits",
+      "pattern": "stem + -Ir (harmonized: ır/ir/ur/ür, or bare -r after a vowel-final stem)",
+      "explanation": "The aorist expresses general truths, habits, and characteristic behavior -- 'su 100 derecede kaynar' (water boils at 100 degrees), not a specific ongoing action. Vowel-final stems just add bare -r (izle-r, I watch/he watches). Polysyllabic consonant-final stems reliably follow 4-way harmony (değiştir-ir, çalış-ır). A handful of very common MONOSYLLABIC consonant-final verbs are genuine, specific exceptions to that harmony: gitmek->gider, etmek->eder, yapmak->yapar, bakmak->bakar, kanmak->kanar all take -Ar/-Er instead of the harmony-predicted -Ir/-Ir.",
+      "fact": "Despite a popular belief that 'monosyllabic verbs are always irregular,' most aren't -- almak (alır), bilmek (bilir), bulmak (bulur), durmak (durur), gelmek (gelir), görmek (görür), kalmak (kalır), olmak (olur), ölmek (ölür), varmak (varır), vermek (verir), vurmak (vurur), and sanmak (sanır) all follow the regular 4-way pattern perfectly. It's specifically gitmek/etmek/yapmak/bakmak/kanmak that don't.",
+      "dialogue": [
+        {"tr": "Sen genelde ne zaman spor yaparsın?", "en": "When do you usually exercise?"},
+        {"tr": "Genellikle akşamları yaparım.", "en": "I usually do it in the evenings."}
+      ]
     }
   },
   "lessons": [
@@ -485,6 +495,117 @@
         {"tr": "Senin de biraz dinlenmen gerekiyor.", "en": "You need to rest a little too."},
         {"tr": "Başarmak için çok çalışmamız gerekiyor.", "en": "We need to work hard to succeed."},
         {"tr": "Bazen değişmemiz gerekiyor.", "en": "Sometimes we need to change."}
+      ]
+    },
+    {
+      "number": 41,
+      "title": "General Truths",
+      "titleNative": "Genel Doğrular",
+      "topicId": "b1-aorist",
+      "items": [
+        {"tr": "Su 100 derecede kaynar.", "en": "Water boils at 100 degrees."},
+        {"tr": "Güneş her sabah doğudan yükselir.", "en": "The sun rises in the east every morning."},
+        {"tr": "Kediler genellikle gece daha aktif olur.", "en": "Cats are generally more active at night."},
+        {"tr": "Zaman herkesi değiştirir.", "en": "Time changes everyone."}
+      ]
+    },
+    {
+      "number": 42,
+      "title": "My Habits",
+      "titleNative": "Alışkanlıklarım",
+      "items": [
+        {"tr": "Her gün spor yaparım.", "en": "I exercise every day."},
+        {"tr": "Genellikle televizyon izlerim.", "en": "I usually watch television."},
+        {"tr": "Akşamları müzik dinlerim.", "en": "In the evenings I listen to music."},
+        {"tr": "Hafta sonları ailemi ziyaret ederim.", "en": "On weekends I visit my family."}
+      ]
+    },
+    {
+      "number": 43,
+      "title": "What People Generally Do",
+      "titleNative": "İnsanların Genel Alışkanlıkları",
+      "items": [
+        {"tr": "İnsanlar genellikle sabahları kahvaltı yapar.", "en": "People usually have breakfast in the morning."},
+        {"tr": "Çocuklar oyun oynamaktan hoşlanır.", "en": "Children enjoy playing games."},
+        {"tr": "Öğretmenler öğrencilere yardım eder.", "en": "Teachers help students."},
+        {"tr": "İyi liderler insanları dinler.", "en": "Good leaders listen to people."}
+      ]
+    },
+    {
+      "number": 44,
+      "title": "Weather Patterns",
+      "titleNative": "Hava Durumu Kalıpları",
+      "items": [
+        {"tr": "Yazın hava genellikle ısınır.", "en": "In summer the weather usually warms up."},
+        {"tr": "Kışın hava soğur.", "en": "In winter the weather gets cold."},
+        {"tr": "Bahar aylarında doğa canlanır.", "en": "In spring months nature comes alive."},
+        {"tr": "Sonbaharda yapraklar renk değiştirir.", "en": "In autumn leaves change color."}
+      ]
+    },
+    {
+      "number": 45,
+      "title": "Common Sayings",
+      "titleNative": "Yaygın Sözler",
+      "items": [
+        {"tr": "Damlaya damlaya göl olur.", "en": "Drop by drop, a lake forms."},
+        {"tr": "Ateş olmayan yerden duman çıkmaz.", "en": "There's no smoke without fire."},
+        {"tr": "Gülü seven dikenine katlanır.", "en": "He who loves the rose endures its thorns."},
+        {"tr": "Herkes kendi hatalarından ders çıkarır.", "en": "Everyone learns lessons from their own mistakes."}
+      ]
+    },
+    {
+      "number": 46,
+      "title": "Rules of Nature",
+      "titleNative": "Doğa Kuralları",
+      "items": [
+        {"tr": "Sıcak hava genelde yukarı yükselir.", "en": "Hot air generally rises upward."},
+        {"tr": "Bitkiler fotosentez yoluyla büyür.", "en": "Plants grow through photosynthesis."},
+        {"tr": "Bilim her gün gelişir.", "en": "Science develops every day."},
+        {"tr": "Gezegenler güneş etrafında hareket eder.", "en": "Planets move around the sun."}
+      ]
+    },
+    {
+      "number": 47,
+      "title": "How Machines Work",
+      "titleNative": "Makineler Nasıl Çalışır",
+      "items": [
+        {"tr": "Bu makine otomatik olarak çalışır.", "en": "This machine works automatically."},
+        {"tr": "Motor yakıtla çalışır.", "en": "The engine runs on fuel."},
+        {"tr": "Bu cihaz enerji tasarrufu sağlar.", "en": "This device provides energy savings."},
+        {"tr": "Sistem kendini otomatik olarak günceller.", "en": "The system updates itself automatically."}
+      ]
+    },
+    {
+      "number": 48,
+      "title": "Personality and Behavior",
+      "titleNative": "Kişilik ve Davranış",
+      "items": [
+        {"tr": "O her zaman dürüst davranır.", "en": "He always behaves honestly."},
+        {"tr": "Bazı insanlar kolayca sinirlenir.", "en": "Some people get angry easily."},
+        {"tr": "İyi bir dinleyici karşısındakini anlamaya çalışır.", "en": "A good listener tries to understand the other person."},
+        {"tr": "Kendine güvenen insan başarılı olur.", "en": "A self-confident person becomes successful."}
+      ]
+    },
+    {
+      "number": 49,
+      "title": "Cultural Habits",
+      "titleNative": "Kültürel Alışkanlıklar",
+      "items": [
+        {"tr": "Türkler misafirlerine çay ikram eder.", "en": "Turks offer tea to their guests."},
+        {"tr": "Aileler bayramlarda bir araya gelir.", "en": "Families come together on holidays."},
+        {"tr": "Düğünlerde herkes eğlenir.", "en": "Everyone has fun at weddings."},
+        {"tr": "İnsanlar bayramlarda birbirini ziyaret eder.", "en": "People visit each other on holidays."}
+      ]
+    },
+    {
+      "number": 50,
+      "title": "Review: Aorist General Truths",
+      "titleNative": "Tekrar: Geniş Zaman",
+      "items": [
+        {"tr": "Zaman her şeyi değiştirir.", "en": "Time changes everything."},
+        {"tr": "İyi insanlar başkalarına yardım eder.", "en": "Good people help others."},
+        {"tr": "Çok çalışan başarılı olur.", "en": "Those who work hard become successful."},
+        {"tr": "Herkes hata yapar ama az kişi bunu kabul eder.", "en": "Everyone makes mistakes, but few people admit it."}
       ]
     }
   ]
