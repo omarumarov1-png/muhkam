@@ -50,6 +50,16 @@
         {"tr": "Sence en zor şey ne?", "en": "What do you think is the hardest thing?"},
         {"tr": "Bence beklemek.", "en": "I think it's waiting."}
       ]
+    },
+    "b2plus-particles": {
+      "title": "Discourse Particles: zaten, üstelik, hatta, işte, tabii",
+      "pattern": "particle at the start or middle of a sentence",
+      "explanation": "zaten ('already, anyway, as it is') reinforces that something was already true, often justifying a point: 'Zaten geç kalmıştım' (I was already late anyway). üstelik ('moreover, on top of that') piles on an extra fact: 'Pahalıydı, üstelik kalitesizdi' (It was expensive, and on top of that, low quality). hatta ('even, in fact') introduces a stronger example, similar to bile but working as a connector between clauses: 'Herkes geldi, hatta patron bile geldi' (Everyone came, even the boss came). işte ('there, right there / that's exactly it') points at something or confirms a statement emphatically: 'İşte bu!' (That's exactly it!). tabii ('of course, naturally') signals obviousness or agreement: 'Tabii ki gelirim' (Of course I'll come).",
+      "fact": "These five particles are some of the most frequent words in spoken Turkish, but they appear far less densely in formal writing — overusing them in writing can sound too casual, while underusing them in speech can make a learner sound stiff or overly formal.",
+      "dialogue": [
+        {"tr": "Neden bu kadar erken ayrıldın?", "en": "Why did you leave so early?"},
+        {"tr": "Zaten yorgundum, üstelik yarın erken kalkmam gerekiyordu.", "en": "I was already tired, and on top of that, I had to get up early tomorrow."}
+      ]
     }
   },
   "lessons": [
@@ -606,6 +616,117 @@
         {"tr": "Onun bu kadar dürüst olması beni etkiledi.", "en": "His being this honest impressed me."},
         {"tr": "Kitap okumak zihni besler.", "en": "Reading books nourishes the mind."},
         {"tr": "Senin yardım etmen çok şey değiştirdi.", "en": "Your helping changed a lot."}
+      ]
+    },
+    {
+      "number": 51,
+      "title": "Already / Anyway - zaten",
+      "titleNative": "Zaten",
+      "topicId": "b2plus-particles",
+      "items": [
+        {"tr": "Zaten geç kalmıştım.", "en": "I was already late anyway."},
+        {"tr": "Zaten bunu biliyordum.", "en": "I already knew this."},
+        {"tr": "Zaten param yoktu, o yüzden almadım.", "en": "I didn't have money anyway, so I didn't buy it."},
+        {"tr": "Zaten seninle aynı fikirdeyim.", "en": "I already agree with you."}
+      ]
+    },
+    {
+      "number": 52,
+      "title": "On Top of That - üstelik",
+      "titleNative": "Üstelik",
+      "items": [
+        {"tr": "Pahalıydı, üstelik kalitesizdi.", "en": "It was expensive, and on top of that, low quality."},
+        {"tr": "Geç kaldı, üstelik özür bile dilemedi.", "en": "He was late, and on top of that, he didn't even apologize."},
+        {"tr": "Yorgunum, üstelik başım da ağrıyor.", "en": "I'm tired, and on top of that, my head hurts too."},
+        {"tr": "Hava soğuktu, üstelik yağmur da yağıyordu.", "en": "The weather was cold, and on top of that, it was raining too."}
+      ]
+    },
+    {
+      "number": 53,
+      "title": "Even / In Fact - hatta",
+      "titleNative": "Hatta",
+      "items": [
+        {"tr": "Herkes geldi, hatta patron bile geldi.", "en": "Everyone came, even the boss came."},
+        {"tr": "Bu konuda çok bilgiliyim, hatta bir kitap bile yazdım.", "en": "I'm very knowledgeable about this, in fact I even wrote a book."},
+        {"tr": "Onu çok seviyorum, hatta hayatımın aşkı diyebilirim.", "en": "I love him a lot, I could even say he's the love of my life."},
+        {"tr": "Bu iş kolay, hatta bir çocuk bile yapabilir.", "en": "This job is easy, even a child could do it."}
+      ]
+    },
+    {
+      "number": 54,
+      "title": "There It Is / That's It - işte",
+      "titleNative": "İşte",
+      "items": [
+        {"tr": "İşte bu!", "en": "That's exactly it!"},
+        {"tr": "İşte benim evim.", "en": "There's my house."},
+        {"tr": "İşte böyle yapılır.", "en": "That's how it's done."},
+        {"tr": "İşte, sana söylemiştim.", "en": "There, I told you so."}
+      ]
+    },
+    {
+      "number": 55,
+      "title": "Of Course - tabii",
+      "titleNative": "Tabii",
+      "items": [
+        {"tr": "Tabii ki gelirim.", "en": "Of course I'll come."},
+        {"tr": "Tabii biliyorum.", "en": "Of course I know."},
+        {"tr": "Tabii sen haklısın.", "en": "Of course you're right."},
+        {"tr": "Tabii ki yardım ederim.", "en": "Of course I'll help."}
+      ]
+    },
+    {
+      "number": 56,
+      "title": "Combining Particles",
+      "titleNative": "Bağlaçları Birleştirmek",
+      "items": [
+        {"tr": "Zaten yorgundum, üstelik hava da çok sıcaktı.", "en": "I was already tired, and on top of that, the weather was very hot too."},
+        {"tr": "Tabii ki geleceğim, hatta erken bile gelebilirim.", "en": "Of course I'll come, I could even come early."},
+        {"tr": "İşte böyle, zaten başka çare yoktu.", "en": "That's how it is, there was no other choice anyway."},
+        {"tr": "Herkes yorgundu, üstelik hiç kimse şikayet etmedi.", "en": "Everyone was tired, and on top of that, nobody complained."}
+      ]
+    },
+    {
+      "number": 57,
+      "title": "Particles in Arguments and Explanations",
+      "titleNative": "Tartışma ve Açıklamalarda Bağlaçlar",
+      "items": [
+        {"tr": "Zaten sana söylemiştim, dinlemedin.", "en": "I already told you, you didn't listen."},
+        {"tr": "Bu fikri beğenmedim, üstelik hiç mantıklı da değil.", "en": "I didn't like this idea, and on top of that, it's not even logical."},
+        {"tr": "Bunu herkes biliyor, hatta küçük çocuklar bile.", "en": "Everyone knows this, even small children."},
+        {"tr": "İşte sorun tam olarak burada.", "en": "That's exactly where the problem is."}
+      ]
+    },
+    {
+      "number": 58,
+      "title": "Particles Expressing Agreement or Confirmation",
+      "titleNative": "Onay ve Doğrulama Bildiren Bağlaçlar",
+      "items": [
+        {"tr": "Tabii, haklısın.", "en": "Of course, you're right."},
+        {"tr": "Zaten aynı şeyi düşünüyordum.", "en": "I was already thinking the same thing."},
+        {"tr": "İşte tam da bunu demek istedim.", "en": "That's exactly what I meant to say."},
+        {"tr": "Tabii ki, sorun değil.", "en": "Of course, no problem."}
+      ]
+    },
+    {
+      "number": 59,
+      "title": "Particles in a Story",
+      "titleNative": "Bir Hikayede Bağlaçlar",
+      "items": [
+        {"tr": "Zaten uzun bir gündü, üstelik trafik de çok kötüydü.", "en": "It was already a long day, and on top of that, the traffic was very bad."},
+        {"tr": "Herkes evine gitti, hatta en çalışkan meslektaşım bile erken çıktı.", "en": "Everyone went home, even my most hardworking colleague left early."},
+        {"tr": "İşte tam o anda telefon çaldı.", "en": "Right at that moment, the phone rang."},
+        {"tr": "Tabii ki sonunda her şey yoluna girdi.", "en": "Of course, in the end everything worked out."}
+      ]
+    },
+    {
+      "number": 60,
+      "title": "Review: Discourse Particles",
+      "titleNative": "Tekrar: Söylem Bağlaçları",
+      "items": [
+        {"tr": "Zaten biliyordum, üstelik sana da söylemiştim.", "en": "I already knew, and on top of that, I had already told you."},
+        {"tr": "Herkes memnun kaldı, hatta en zor müşteri bile.", "en": "Everyone was pleased, even the most difficult customer."},
+        {"tr": "İşte bu yüzden buradayız.", "en": "That's exactly why we're here."},
+        {"tr": "Tabii ki her şeyi anlıyorum.", "en": "Of course I understand everything."}
       ]
     }
   ]
