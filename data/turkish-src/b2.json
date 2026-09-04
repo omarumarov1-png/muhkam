@@ -20,6 +20,16 @@
         {"tr": "Neden bu kadar geç kaldın?", "en": "Why are you so late?"},
         {"tr": "Haklısın, daha erken çıkmalıydım.", "en": "You're right, I should have left earlier."}
       ]
+    },
+    "b2-o-kadar-ki": {
+      "title": "So...That: o kadar...ki",
+      "pattern": "o kadar + adjective/adverb + [clause] + ki + result",
+      "explanation": "To say something is 'so X that Y,' put o kadar before the adjective or adverb and follow the whole sentence with ki plus the result: 'O kadar yorgundum ki hemen uyudum' (I was so tired that I fell asleep immediately). ki also appears after verbs of knowing/believing/hoping as a lighter, more conversational alternative to a -DIk noun clause: 'Biliyorum ki haklısın' (I know that you're right).",
+      "fact": "ki is a borrowed Persian conjunction, one of the only common Turkish words that doesn't obey vowel harmony at all — it's always ki, never kı/kü/ku, no matter what precedes it.",
+      "dialogue": [
+        {"tr": "Neden bu kadar geç kaldın?", "en": "Why are you so late?"},
+        {"tr": "O kadar çok trafik vardı ki iki saat yolda kaldım.", "en": "There was so much traffic that I was stuck on the road for two hours."}
+      ]
     }
   },
   "lessons": [
@@ -243,6 +253,117 @@
         {"tr": "Sana kızmamalıydım, özür dilerim.", "en": "I shouldn't have gotten angry at you, I'm sorry."},
         {"tr": "Belki hepimiz daha dikkatli olmalıydık.", "en": "Maybe all of us should have been more careful."},
         {"tr": "Geçmişte yaptığım hatalardan öğrendim.", "en": "I learned from the mistakes I made in the past."}
+      ]
+    },
+    {
+      "number": 21,
+      "title": "So...That (Adjectives)",
+      "titleNative": "O Kadar...Ki (Sıfatlarla)",
+      "topicId": "b2-o-kadar-ki",
+      "items": [
+        {"tr": "O kadar yorgundum ki hemen uyudum.", "en": "I was so tired that I fell asleep immediately."},
+        {"tr": "Hava o kadar soğuktu ki dışarı çıkamadık.", "en": "The weather was so cold that we couldn't go outside."},
+        {"tr": "O kadar mutluyum ki anlatamam.", "en": "I'm so happy that I can't explain it."},
+        {"tr": "Film o kadar sıkıcıydı ki neredeyse uyudum.", "en": "The movie was so boring that I almost fell asleep."}
+      ]
+    },
+    {
+      "number": 22,
+      "title": "So...That (Quantities and Adverbs)",
+      "titleNative": "O Kadar...Ki (Miktar ve Zarflarla)",
+      "items": [
+        {"tr": "O kadar çok çalıştım ki artık dinlenmem gerek.", "en": "I worked so much that I need to rest now."},
+        {"tr": "O kadar hızlı konuştu ki hiçbir şey anlamadım.", "en": "He spoke so fast that I didn't understand anything."},
+        {"tr": "O kadar az uyudum ki bugün çok yorgunum.", "en": "I slept so little that I'm very tired today."},
+        {"tr": "O kadar uzak ki oraya gitmek saatler sürüyor.", "en": "It's so far that it takes hours to get there."}
+      ]
+    },
+    {
+      "number": 23,
+      "title": "Surprising Results",
+      "titleNative": "Şaşırtıcı Sonuçlar",
+      "items": [
+        {"tr": "O kadar değişti ki onu tanıyamadım.", "en": "He changed so much that I couldn't recognize him."},
+        {"tr": "O kadar sessizdi ki içeride kimse olmadığını düşündüm.", "en": "It was so quiet that I thought there was nobody inside."},
+        {"tr": "Fiyatlar o kadar arttı ki artık alışveriş yapamıyoruz.", "en": "Prices increased so much that we can no longer shop."},
+        {"tr": "O kadar kalabalıktı ki içeri giremedik.", "en": "It was so crowded that we couldn't get in."}
+      ]
+    },
+    {
+      "number": 24,
+      "title": "Emotional Intensity",
+      "titleNative": "Duygusal Yoğunluk",
+      "items": [
+        {"tr": "Onu o kadar özledim ki ağladım.", "en": "I missed him so much that I cried."},
+        {"tr": "O kadar korktum ki elim ayağım titredi.", "en": "I was so scared that my hands and feet shook."},
+        {"tr": "O kadar heyecanlıydım ki uyuyamadım.", "en": "I was so excited that I couldn't sleep."},
+        {"tr": "O kadar sevindim ki ne diyeceğimi bilemedim.", "en": "I was so glad that I didn't know what to say."}
+      ]
+    },
+    {
+      "number": 25,
+      "title": "So...That (Negative Results)",
+      "titleNative": "O Kadar...Ki (Olumsuz Sonuçlar)",
+      "items": [
+        {"tr": "O kadar yorgunum ki hiçbir şey yapmak istemiyorum.", "en": "I'm so tired that I don't want to do anything."},
+        {"tr": "O kadar üzgündü ki konuşmak bile istemedi.", "en": "He was so sad that he didn't even want to talk."},
+        {"tr": "O kadar meşgulüm ki seninle görüşemiyorum.", "en": "I'm so busy that I can't see you."},
+        {"tr": "O kadar karmaşık ki kimse anlamıyor.", "en": "It's so complicated that nobody understands."}
+      ]
+    },
+    {
+      "number": 26,
+      "title": "Using ki for Emphasis",
+      "titleNative": "Vurgu İçin Ki",
+      "items": [
+        {"tr": "Biliyorum ki bu senin için zor.", "en": "I know that this is hard for you."},
+        {"tr": "Eminim ki haklısın.", "en": "I'm sure that you're right."},
+        {"tr": "Umarım ki her şey yoluna gider.", "en": "I hope that everything works out."},
+        {"tr": "Görüyorum ki çok değişmişsin.", "en": "I see that you've changed a lot."}
+      ]
+    },
+    {
+      "number": 27,
+      "title": "So Much That",
+      "titleNative": "O Kadar Çok Ki",
+      "items": [
+        {"tr": "O kadar acıktım ki elimdeki her şeyi yedim.", "en": "I was so hungry that I ate everything in my hand."},
+        {"tr": "O kadar susadım ki bardağı bir dikişte bitirdim.", "en": "I was so thirsty that I finished the glass in one gulp."},
+        {"tr": "O kadar heyecanlandım ki elim titredi.", "en": "I got so excited that my hand shook."},
+        {"tr": "O kadar utandım ki yüzüm kızardı.", "en": "I was so embarrassed that my face turned red."}
+      ]
+    },
+    {
+      "number": 28,
+      "title": "Storytelling with o kadar...ki",
+      "titleNative": "O Kadar...Ki ile Hikaye Anlatmak",
+      "items": [
+        {"tr": "O gün o kadar çok şey oldu ki hâlâ hatırlıyorum.", "en": "So many things happened that day that I still remember."},
+        {"tr": "Yolculuk o kadar uzun sürdü ki herkes uyudu.", "en": "The journey took so long that everyone fell asleep."},
+        {"tr": "O kadar gülmüştük ki karnımız ağrımıştı.", "en": "We had laughed so much that our stomachs hurt."},
+        {"tr": "O kadar çok konuştuk ki zaman nasıl geçti anlamadık.", "en": "We talked so much that we didn't notice how time passed."}
+      ]
+    },
+    {
+      "number": 29,
+      "title": "Combining o kadar...ki with Other Grammar",
+      "titleNative": "O Kadar...Ki'yi Diğer Yapılarla Birleştirmek",
+      "items": [
+        {"tr": "O kadar yorgundum ki erken yatmalıydım.", "en": "I was so tired that I should have gone to bed early."},
+        {"tr": "O kadar meşguldü ki bize yardım edemedi.", "en": "He was so busy that he couldn't help us."},
+        {"tr": "O kadar sevindi ki gülmeye başladı.", "en": "He was so happy that he started laughing."},
+        {"tr": "O kadar çok bekledik ki sabrımız tükendi.", "en": "We waited so long that our patience ran out."}
+      ]
+    },
+    {
+      "number": 30,
+      "title": "Review: o kadar...ki",
+      "titleNative": "Tekrar: O Kadar...Ki",
+      "items": [
+        {"tr": "O kadar yorgunum ki uyumak istiyorum.", "en": "I'm so tired that I want to sleep."},
+        {"tr": "O kadar hızlı gitti ki onu göremedim.", "en": "He went so fast that I couldn't see him."},
+        {"tr": "Bu haber o kadar şaşırtıcıydı ki kimse inanmadı.", "en": "This news was so surprising that nobody believed it."},
+        {"tr": "Onu o kadar çok seviyorum ki anlatamam.", "en": "I love him so much that I can't explain it."}
       ]
     }
   ]
