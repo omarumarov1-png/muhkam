@@ -70,6 +70,16 @@
         {"tr": "Param olsa ne yapardın?", "en": "What would you do if you had money?"},
         {"tr": "Dünyayı dolaşırdım.", "en": "I would travel around the world."}
       ]
+    },
+    "b1-reflexive": {
+      "title": "Reflexive (kendi) and Reciprocal (birbiri)",
+      "pattern": "kendi + possessive + case; birbiri + possessive + case",
+      "explanation": "Turkish has no reflexive verb form the way Spanish does -- 'myself/yourself/himself' is the noun 'kendi' (self/own) carrying a possessive suffix and whatever case the sentence needs: kendim (myself), kendime (to myself), kendimi (myself, as object). 'Birbiri' (each other) works the same way for reciprocal actions: birbirimizi (each other, as our mutual object), birbirlerine (to each other, for them).",
+      "fact": "'Kendi' doubles as an intensifier meaning 'own' -- 'kendi param' isn't 'my own's money', it's simply 'my own money', with kendi reinforcing the possessive that's already on the noun.",
+      "dialogue": [
+        {"tr": "Kendine iyi bak.", "en": "Take good care of yourself."},
+        {"tr": "Sen de kendine iyi bak, birbirimize destek olalım.", "en": "You take care of yourself too, let's support each other."}
+      ]
     }
   },
   "lessons": [
@@ -848,6 +858,117 @@
         {"tr": "Çok çalışsan, başarılı olurdun.", "en": "If you worked hard, you would be successful."},
         {"tr": "Hava güzel olursa, parka gideriz.", "en": "If the weather is nice, we'll go to the park."},
         {"tr": "Keşke daha çok zamanım olsaydı.", "en": "I wish I had had more time."}
+      ]
+    },
+    {
+      "number": 71,
+      "title": "Myself",
+      "titleNative": "Kendim",
+      "topicId": "b1-reflexive",
+      "items": [
+        {"tr": "Kendi yemeğimi kendim pişiriyorum.", "en": "I cook my own food myself."},
+        {"tr": "Kendime güveniyorum.", "en": "I trust myself."},
+        {"tr": "Bazen kendimle konuşuyorum.", "en": "Sometimes I talk to myself."},
+        {"tr": "Kendimi geliştirmek istiyorum.", "en": "I want to improve myself."}
+      ]
+    },
+    {
+      "number": 72,
+      "title": "Each Other",
+      "titleNative": "Birbirimiz",
+      "items": [
+        {"tr": "Biz birbirimizi çok seviyoruz.", "en": "We love each other very much."},
+        {"tr": "Onlar birbirlerine yardım ediyor.", "en": "They help each other."},
+        {"tr": "Uzun zamandır birbirimizi görmedik.", "en": "We haven't seen each other in a long time."},
+        {"tr": "İyi arkadaşlar birbirine güvenir.", "en": "Good friends trust each other."}
+      ]
+    },
+    {
+      "number": 73,
+      "title": "By Myself",
+      "titleNative": "Kendi Başıma",
+      "items": [
+        {"tr": "Bu işi kendi başıma yapabiliyorum.", "en": "I can do this work by myself."},
+        {"tr": "Yalnız yaşamaktan hoşlanıyorum.", "en": "I enjoy living alone."},
+        {"tr": "Kendi kararlarımı kendim veririm.", "en": "I make my own decisions myself."},
+        {"tr": "Herkes kendi hayatını yaşar.", "en": "Everyone lives their own life."}
+      ]
+    },
+    {
+      "number": 74,
+      "title": "Self-Care",
+      "titleNative": "Kendine İyi Bakmak",
+      "items": [
+        {"tr": "Kendine iyi bakmalısın.", "en": "You should take good care of yourself."},
+        {"tr": "Kendim için zaman ayırıyorum.", "en": "I'm setting aside time for myself."},
+        {"tr": "Kendimi affetmeyi öğrendim.", "en": "I learned to forgive myself."},
+        {"tr": "Kendine karşı daha nazik ol.", "en": "Be kinder to yourself."}
+      ]
+    },
+    {
+      "number": 75,
+      "title": "Together and Apart",
+      "titleNative": "Birlikte ve Ayrı",
+      "items": [
+        {"tr": "Bazen birbirimizden uzak kalıyoruz.", "en": "Sometimes we stay far from each other."},
+        {"tr": "Onlar birbirlerini iyi tanıyor.", "en": "They know each other well."},
+        {"tr": "Birbirimize destek oluyoruz.", "en": "We support each other."},
+        {"tr": "Zorluklarda birbirimize sarılırız.", "en": "In hard times we embrace each other."}
+      ]
+    },
+    {
+      "number": 76,
+      "title": "Comparing Yourself to Others",
+      "titleNative": "Kendini Başkalarıyla Kıyaslamak",
+      "items": [
+        {"tr": "Kendimi başkalarıyla kıyaslamamalıyım.", "en": "I shouldn't compare myself to others."},
+        {"tr": "Herkesin kendi hızı var.", "en": "Everyone has their own pace."},
+        {"tr": "Kendi yolculuğuma odaklanıyorum.", "en": "I'm focusing on my own journey."},
+        {"tr": "Kendimle yarışıyorum, başkalarıyla değil.", "en": "I'm competing with myself, not with others."}
+      ]
+    },
+    {
+      "number": 77,
+      "title": "Talking to Yourself",
+      "titleNative": "Kendinle Konuşmak",
+      "items": [
+        {"tr": "Stresli olduğumda kendimle konuşurum.", "en": "When I'm stressed I talk to myself."},
+        {"tr": "Kendime pozitif şeyler söylerim.", "en": "I tell myself positive things."},
+        {"tr": "Aynada kendime bakarım.", "en": "I look at myself in the mirror."},
+        {"tr": "Kendimi motive etmeye çalışırım.", "en": "I try to motivate myself."}
+      ]
+    },
+    {
+      "number": 78,
+      "title": "Self-Improvement Goals",
+      "titleNative": "Kişisel Gelişim Hedefleri",
+      "items": [
+        {"tr": "Her gün kendimi geliştirmeye çalışıyorum.", "en": "I try to improve myself every day."},
+        {"tr": "Kendi hedeflerimi belirledim.", "en": "I set my own goals."},
+        {"tr": "Kendi potansiyelime inanıyorum.", "en": "I believe in my own potential."},
+        {"tr": "Kendimden gurur duyuyorum.", "en": "I am proud of myself."}
+      ]
+    },
+    {
+      "number": 79,
+      "title": "Independence",
+      "titleNative": "Bağımsızlık",
+      "items": [
+        {"tr": "Artık kendi ayaklarımın üzerinde duruyorum.", "en": "I now stand on my own two feet."},
+        {"tr": "Kendi param için çalışıyorum.", "en": "I work for my own money."},
+        {"tr": "Kendi hayatımı kendim yönetiyorum.", "en": "I manage my own life myself."},
+        {"tr": "Kimseye muhtaç değilim.", "en": "I don't need anyone."}
+      ]
+    },
+    {
+      "number": 80,
+      "title": "Review: Reflexive and Reciprocal",
+      "titleNative": "Tekrar: Dönüşlü ve Karşılıklı",
+      "items": [
+        {"tr": "Kendime güveniyorum ve kendi kararlarımı veriyorum.", "en": "I trust myself and I make my own decisions."},
+        {"tr": "Biz birbirimizi anlıyoruz.", "en": "We understand each other."},
+        {"tr": "Herkes kendi yolunda ilerler.", "en": "Everyone progresses on their own path."},
+        {"tr": "Kendimize ve birbirimize iyi bakmalıyız.", "en": "We should take good care of ourselves and each other."}
       ]
     }
   ]
