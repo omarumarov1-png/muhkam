@@ -1,0 +1,370 @@
+{
+  "level": "b1plus",
+  "grammarTopics": {
+    "b1plus-noun-clause-dik": {
+      "title": "Noun Clauses with -DIk (Knowing/Saying That...)",
+      "pattern": "verb stem + -DIk + possessive + case (bil-diğ-im-i, gel-diğ-in-i)",
+      "explanation": "You already used -DIk to build relative clauses (the book [that] I read). The same participle, now carrying a possessive suffix to mark WHO does the action and a case suffix to mark its role in the sentence, turns a whole clause into a noun: 'Onun geldiğini biliyorum' (I know that he came/is coming) literally means 'I know his coming.' The same pattern extends naturally to the future with -EcEk instead of -DIk: 'Geleceğini biliyorum' (I know that he will come).",
+      "fact": "A -DIk noun clause doesn't have a strict present/past split the way an English 'that'-clause does: geldiğini can mean 'that he came' or 'that he is coming' depending on context, since the participle marks realized fact, not a specific tense.",
+      "dialogue": [
+        {"tr": "Onun bu işi bitirdiğini biliyor musun?", "en": "Do you know that he finished this job?"},
+        {"tr": "Evet, biliyorum, çok çalıştığını duydum.", "en": "Yes, I know, I heard that he worked a lot."}
+      ]
+    },
+    "b1plus-noun-clause-ma": {
+      "title": "Noun Clauses with -mA (Wanting Someone to Do)",
+      "pattern": "verb stem + -mA + possessive + case (git-me-m-i, gel-me-si-ni)",
+      "explanation": "-DIk clauses report facts. -mA clauses express desires, requests, or actions that aren't (yet) real. istemek always takes -mA: 'Gitmemi istiyor' (He wants me to go) literally means 'he wants my going.' The same -mA nominal is used after asking/allowing/suggesting verbs (rica etmek, izin vermek, teklif etmek) and after postpositions like -DAn (hoşlanmak, korkmak) and -(y)A (başlamak, devam etmek).",
+      "fact": "The choice between -DIk and -mA isn't about tense, it's about reality: -DIk marks something that happened or is a known fact, -mA marks something wanted, possible, or not-yet-real. 'Geldiğini biliyorum' (I know he came, a fact) vs 'Gelmesini istiyorum' (I want him to come, not yet real).",
+      "dialogue": [
+        {"tr": "Benden ne istiyorsun?", "en": "What do you want from me?"},
+        {"tr": "Erken gelmeni istiyorum.", "en": "I want you to come early."}
+      ]
+    },
+    "b1plus-past-continuous": {
+      "title": "Past Continuous and Future-in-the-Past",
+      "pattern": "-Iyor + du (was doing); -EcEk + ti (was going to do)",
+      "explanation": "You know -Iyor (present continuous) and -EcEk (future). Add the past copula -DI to either and the whole frame shifts into the past: 'yapıyordum' (I was doing), 'yapacaktım' (I was going to do). A third related pattern, aorist + -DI, means 'used to': 'okurdum' (I used to read) describes a repeated past habit rather than a single moment in progress.",
+      "fact": "-EcEktI often carries the extra flavor of 'but it didn't happen': 'Gelecektim ama gelemedim' (I was going to come but I couldn't) — a broken plan, not just a neutral future-in-the-past.",
+      "dialogue": [
+        {"tr": "Dün akşam ne yapıyordun?", "en": "What were you doing last night?"},
+        {"tr": "Film izliyordum, sonra erken uyudum.", "en": "I was watching a movie, then I went to sleep early."}
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Knowing That...",
+      "titleNative": "-DIğIni Bilmek",
+      "topicId": "b1plus-noun-clause-dik",
+      "items": [
+        {"tr": "Onun bu işi bitirdiğini biliyorum.", "en": "I know that he finished this job."},
+        {"tr": "Yarın yağmur yağacağını duydum.", "en": "I heard that it will rain tomorrow."},
+        {"tr": "Senin haklı olduğunu düşünüyorum.", "en": "I think that you are right."},
+        {"tr": "Onların taşındığını biliyor muydun?", "en": "Did you know that they moved?"}
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Saying That...",
+      "titleNative": "-DIğIni Söylemek",
+      "items": [
+        {"tr": "Bana geç kalacağını söyledi.", "en": "He told me that he would be late."},
+        {"tr": "Toplantının iptal edildiğini duyurdular.", "en": "They announced that the meeting was canceled."},
+        {"tr": "Herkesin memnun olduğunu gördüm.", "en": "I saw that everyone was pleased."},
+        {"tr": "Onun yalan söylediğini fark ettim.", "en": "I realized that he was lying."}
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Believing and Thinking",
+      "titleNative": "İnanmak ve Düşünmek",
+      "items": [
+        {"tr": "Bu kararın doğru olduğuna inanıyorum.", "en": "I believe that this decision is correct."},
+        {"tr": "Onun bizi unuttuğunu sanmıyorum.", "en": "I don't think that he forgot us."},
+        {"tr": "Projenin zamanında biteceğini umuyorum.", "en": "I hope that the project will finish on time."},
+        {"tr": "Bu haberin doğru olmadığını umuyorum.", "en": "I hope that this news isn't true."}
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Remembering and Forgetting",
+      "titleNative": "Hatırlamak ve Unutmak",
+      "items": [
+        {"tr": "Onu tanıdığımı hatırlıyorum.", "en": "I remember that I knew him."},
+        {"tr": "Anahtarları nereye koyduğumu unuttum.", "en": "I forgot where I put the keys."},
+        {"tr": "Bu şarkıyı daha önce duyduğumu hatırlıyorum.", "en": "I remember that I heard this song before."},
+        {"tr": "Sana ne söylediğimi hatırlamıyorum.", "en": "I don't remember what I told you."}
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Seeing and Hearing",
+      "titleNative": "Görmek ve Duymak",
+      "items": [
+        {"tr": "Onun çok üzgün olduğunu gördüm.", "en": "I saw that he was very sad."},
+        {"tr": "Dışarıda kar yağdığını duydum.", "en": "I heard that it was snowing outside."},
+        {"tr": "Çocukların oyun oynadığını izledim.", "en": "I watched the children playing."},
+        {"tr": "Onun değiştiğini fark ettim.", "en": "I noticed that he had changed."}
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Explaining Why",
+      "titleNative": "Nedenini Açıklamak",
+      "items": [
+        {"tr": "Geç kaldığımı açıkladım.", "en": "I explained that I was late."},
+        {"tr": "Neden üzgün olduğumu anlattım.", "en": "I explained why I was sad."},
+        {"tr": "Bu kararı neden verdiğimi anlıyorum.", "en": "I understand why I made this decision."},
+        {"tr": "Onun neden gitmediğini merak ediyorum.", "en": "I wonder why he didn't go."}
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Combining Clauses",
+      "titleNative": "Cümleleri Birleştirmek",
+      "items": [
+        {"tr": "Onun bu işi sevdiğini ama zor bulduğunu biliyorum.", "en": "I know that he likes this job but finds it hard."},
+        {"tr": "Senin yorgun olduğunu ve dinlenmen gerektiğini düşünüyorum.", "en": "I think you're tired and need to rest."},
+        {"tr": "Bize geleceklerini ama geç kalacaklarını söylediler.", "en": "They said they would come but would be late."},
+        {"tr": "Onun haklı olduğunu kabul ediyorum.", "en": "I accept that he is right."}
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Opinions and Certainty",
+      "titleNative": "Fikirler ve Kesinlik",
+      "items": [
+        {"tr": "Bu filmin çok iyi olduğuna eminim.", "en": "I'm sure that this movie is very good."},
+        {"tr": "Onun bunu bilerek yaptığından şüpheleniyorum.", "en": "I suspect that he did this on purpose."},
+        {"tr": "Hepimizin aynı şeyi istediğine inanıyorum.", "en": "I believe that we all want the same thing."},
+        {"tr": "Onun bize yardım edeceğinden eminim.", "en": "I'm sure that he will help us."}
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Talking About the Past and Future Together",
+      "titleNative": "Geçmiş ve Gelecek Hakkında Konuşmak",
+      "items": [
+        {"tr": "Dün ne yaptığımı ve yarın ne yapacağımı planlıyorum.", "en": "I'm planning what I did yesterday and what I will do tomorrow."},
+        {"tr": "Onun geldiğini gördüm ve gideceğini biliyorum.", "en": "I saw that he came and I know that he will leave."},
+        {"tr": "Bu yıl neler öğrendiğimi düşünüyorum.", "en": "I'm thinking about what I learned this year."},
+        {"tr": "Gelecek yıl nerede olacağımı bilmiyorum.", "en": "I don't know where I will be next year."}
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Review: Noun Clauses with -DIk",
+      "titleNative": "Tekrar: -DIk ile İsim Cümleleri",
+      "items": [
+        {"tr": "Onun doğru söylediğini biliyorum.", "en": "I know that he is telling the truth."},
+        {"tr": "Bu işin zor olduğunu anlıyorum.", "en": "I understand that this job is hard."},
+        {"tr": "Herkesin farklı düşündüğünü fark ettim.", "en": "I noticed that everyone thinks differently."},
+        {"tr": "Gelecekte ne olacağını kimse bilmiyor.", "en": "Nobody knows what will happen in the future."}
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Wanting Someone to Do Something",
+      "titleNative": "Birinden Bir Şey İstemek",
+      "topicId": "b1plus-noun-clause-ma",
+      "items": [
+        {"tr": "Erken gelmeni istiyorum.", "en": "I want you to come early."},
+        {"tr": "Annem odamı temizlememi istiyor.", "en": "My mom wants me to clean my room."},
+        {"tr": "Onun bize katılmasını istiyoruz.", "en": "We want him to join us."},
+        {"tr": "Beni dinlemeni istiyorum.", "en": "I want you to listen to me."}
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Asking and Requesting",
+      "titleNative": "Rica Etmek",
+      "items": [
+        {"tr": "Sessiz olmanı rica ediyorum.", "en": "I ask you to be quiet."},
+        {"tr": "Kapıyı kapatmamı ister misin?", "en": "Do you want me to close the door?"},
+        {"tr": "Bana yardım etmesini rica ettim.", "en": "I asked him to help me."},
+        {"tr": "Bizimle gelmenizi rica ediyoruz.", "en": "We ask you all to come with us."}
+      ]
+    },
+    {
+      "number": 13,
+      "title": "Permission and Prevention",
+      "titleNative": "İzin ve Engel",
+      "items": [
+        {"tr": "Dışarı çıkmama izin verdi.", "en": "He gave me permission to go out."},
+        {"tr": "Erken gitmemize izin vermediler.", "en": "They didn't let us leave early."},
+        {"tr": "Onun konuşmasını engelledim.", "en": "I prevented him from speaking."},
+        {"tr": "Bize bu odayı kullanmamıza izin verdiler.", "en": "They allowed us to use this room."}
+      ]
+    },
+    {
+      "number": 14,
+      "title": "Necessity Revisited with -mA",
+      "titleNative": "-mA ile Gereklilik",
+      "items": [
+        {"tr": "Buraya gelmen gerekiyordu ama gelmedin.", "en": "You needed to come here, but you didn't."},
+        {"tr": "Onun bunu bilmesi lazım.", "en": "It's necessary that he know this."},
+        {"tr": "Erken kalkmamız şart.", "en": "It's essential that we get up early."},
+        {"tr": "Sabırlı olmamız gerekiyor.", "en": "We need to be patient."}
+      ]
+    },
+    {
+      "number": 15,
+      "title": "Suggestions and Offers",
+      "titleNative": "Öneriler ve Teklifler",
+      "items": [
+        {"tr": "Beraber gitmemizi teklif etti.", "en": "He suggested that we go together."},
+        {"tr": "Biraz dinlenmeni öneririm.", "en": "I suggest that you rest a bit."},
+        {"tr": "Bize yardım etmeyi teklif etti.", "en": "He offered to help us."},
+        {"tr": "Onunla konuşmanı tavsiye ederim.", "en": "I recommend that you talk to him."}
+      ]
+    },
+    {
+      "number": 16,
+      "title": "Likes and Dislikes About Actions",
+      "titleNative": "Eylemleri Sevmek ve Sevmemek",
+      "items": [
+        {"tr": "Erken kalkmaktan hoşlanmıyorum.", "en": "I don't like getting up early."},
+        {"tr": "Yalnız yemek yemekten hoşlanmam.", "en": "I don't like eating alone."},
+        {"tr": "Onun bağırmasından rahatsız oldum.", "en": "I was bothered by his shouting."},
+        {"tr": "Kitap okumaktan çok keyif alıyorum.", "en": "I take a lot of pleasure in reading books."}
+      ]
+    },
+    {
+      "number": 17,
+      "title": "Fear and Worry About Actions",
+      "titleNative": "Eylemlerden Korkmak ve Endişelenmek",
+      "items": [
+        {"tr": "Geç kalmaktan korkuyorum.", "en": "I'm afraid of being late."},
+        {"tr": "Onun kızmasından çekiniyorum.", "en": "I'm wary of him getting angry."},
+        {"tr": "Yanlış anlaşılmaktan endişeleniyorum.", "en": "I'm worried about being misunderstood."},
+        {"tr": "Unutmaktan korkuyorum, bu yüzden not alıyorum.", "en": "I'm afraid of forgetting, so I take notes."}
+      ]
+    },
+    {
+      "number": 18,
+      "title": "Starting and Stopping Actions",
+      "titleNative": "Eylemleri Başlatmak ve Durdurmak",
+      "items": [
+        {"tr": "Konuşmaya başladı.", "en": "He started talking."},
+        {"tr": "Sigara içmeyi bıraktı.", "en": "He quit smoking."},
+        {"tr": "Yağmur yağmaya devam etti.", "en": "It kept on raining."},
+        {"tr": "Çalışmayı bitirdik.", "en": "We finished working."}
+      ]
+    },
+    {
+      "number": 19,
+      "title": "Combining -DIk and -mA",
+      "titleNative": "-DIk ve -mA'yı Birleştirmek",
+      "items": [
+        {"tr": "Onun gelmesini istiyorum ama gelmeyeceğini biliyorum.", "en": "I want him to come, but I know he won't."},
+        {"tr": "Erken kalkmamız gerektiğini ve bunun zor olduğunu biliyorum.", "en": "I know that we need to get up early and that it's hard."},
+        {"tr": "Bana yardım etmeni istedim ama zamanın olmadığını anladım.", "en": "I wanted you to help me, but I understood that you didn't have time."},
+        {"tr": "Onun bizi duymasını istemiyorum çünkü kızacağını biliyorum.", "en": "I don't want him to hear us because I know he'll get angry."}
+      ]
+    },
+    {
+      "number": 20,
+      "title": "Review: Noun Clauses with -mA",
+      "titleNative": "Tekrar: -mA ile İsim Cümleleri",
+      "items": [
+        {"tr": "Sabırlı olmanı istiyorum.", "en": "I want you to be patient."},
+        {"tr": "Onun bize katılmasına izin verdiler.", "en": "They allowed him to join us."},
+        {"tr": "Erken gelmeni rica ediyorum.", "en": "I ask you to come early."},
+        {"tr": "Konuşmaya devam etmeni öneririm.", "en": "I recommend that you keep talking."}
+      ]
+    },
+    {
+      "number": 21,
+      "title": "What Was Happening",
+      "titleNative": "Ne Oluyordu",
+      "topicId": "b1plus-past-continuous",
+      "items": [
+        {"tr": "Dün bu saatte ders çalışıyordum.", "en": "At this time yesterday I was studying."},
+        {"tr": "Sen beni aradığında ben uyuyordum.", "en": "When you called me, I was sleeping."},
+        {"tr": "Onlar televizyon izliyorlardı, biz de sohbet ediyorduk.", "en": "They were watching TV, and we were chatting."},
+        {"tr": "Hava kararıyordu, eve döndük.", "en": "It was getting dark, so we went home."}
+      ]
+    },
+    {
+      "number": 22,
+      "title": "Interrupted Actions",
+      "titleNative": "Yarıda Kalan Eylemler",
+      "items": [
+        {"tr": "Kitap okuyordum, telefon çaldı.", "en": "I was reading a book, the phone rang."},
+        {"tr": "Yemek pişiriyordum, elektrik kesildi.", "en": "I was cooking, the power went out."},
+        {"tr": "Onunla konuşuyordum, birden ağlamaya başladı.", "en": "I was talking with him, he suddenly started crying."},
+        {"tr": "Dışarı çıkıyordum, sen geldin.", "en": "I was going out, you arrived."}
+      ]
+    },
+    {
+      "number": 23,
+      "title": "Plans That Fell Through",
+      "titleNative": "Gerçekleşmeyen Planlar",
+      "items": [
+        {"tr": "Sana yardım edecektim ama vaktim olmadı.", "en": "I was going to help you but I didn't have time."},
+        {"tr": "Bu hafta sonu seyahat edecektik ama planımız değişti.", "en": "We were going to travel this weekend but our plan changed."},
+        {"tr": "O da gelecekti ama hastalandı.", "en": "He was going to come too, but he got sick."},
+        {"tr": "Erken kalkacaktım ama geç kalktım.", "en": "I was going to get up early but I got up late."}
+      ]
+    },
+    {
+      "number": 24,
+      "title": "What Someone Intended",
+      "titleNative": "Birinin Niyeti",
+      "items": [
+        {"tr": "O gün beni ziyaret edecekti.", "en": "He was going to visit me that day."},
+        {"tr": "Bize doğruyu söyleyecekti ama korktu.", "en": "He was going to tell us the truth but he got scared."},
+        {"tr": "Bu projeyi tek başıma bitirecektim.", "en": "I was going to finish this project by myself."},
+        {"tr": "Onlar bize katılacaklardı ama zamanları olmadı.", "en": "They were going to join us but they didn't have time."}
+      ]
+    },
+    {
+      "number": 25,
+      "title": "Describing a Scene in the Past",
+      "titleNative": "Geçmişte Bir Sahneyi Betimlemek",
+      "items": [
+        {"tr": "Güneş batıyordu, deniz çok sakindi.", "en": "The sun was setting, the sea was very calm."},
+        {"tr": "Herkes gülüyordu, ortam çok neşeliydi.", "en": "Everyone was laughing, the atmosphere was very cheerful."},
+        {"tr": "Rüzgar sertçe esiyordu.", "en": "The wind was blowing hard."},
+        {"tr": "Sokaklar boştu, kimse yürümüyordu.", "en": "The streets were empty, nobody was walking."}
+      ]
+    },
+    {
+      "number": 26,
+      "title": "Combining Past Simple and Past Continuous",
+      "titleNative": "Geçmiş Zaman ve Şimdiki Zamanın Hikayesini Birleştirmek",
+      "items": [
+        {"tr": "Kapıyı açtığımda telefon çalıyordu.", "en": "When I opened the door, the phone was ringing."},
+        {"tr": "Biz konuştuğumuzda o hiç durmadan not alıyordu.", "en": "When we were talking, he was taking notes nonstop."},
+        {"tr": "Dışarı çıktığımda hava kararıyordu.", "en": "When I went outside, it was getting dark."},
+        {"tr": "Eve geldiğimde herkes uyuyordu.", "en": "When I got home, everyone was sleeping."}
+      ]
+    },
+    {
+      "number": 27,
+      "title": "Habits in the Past",
+      "titleNative": "Geçmişteki Alışkanlıklar",
+      "items": [
+        {"tr": "Çocukken her gün parkta oynardım.", "en": "When I was a child, I used to play in the park every day."},
+        {"tr": "Eskiden çok kitap okurdum, artık okumuyorum.", "en": "I used to read a lot, now I don't."},
+        {"tr": "Küçükken her gece erken uyurdum.", "en": "When I was little, I used to sleep early every night."},
+        {"tr": "Gençken çok seyahat ederdim.", "en": "When I was young, I used to travel a lot."}
+      ]
+    },
+    {
+      "number": 28,
+      "title": "Was About To",
+      "titleNative": "Tam Yapacakken",
+      "items": [
+        {"tr": "Tam çıkacaktım ki telefon çaldı.", "en": "I was just about to leave when the phone rang."},
+        {"tr": "Konuşacaktım ama vazgeçtim.", "en": "I was going to speak but I changed my mind."},
+        {"tr": "Ona söyleyecektim ama unuttum.", "en": "I was going to tell him but I forgot."},
+        {"tr": "Bu kitabı okuyacaktım ama zaman bulamadım.", "en": "I was going to read this book but I couldn't find time."}
+      ]
+    },
+    {
+      "number": 29,
+      "title": "Narrating a Story",
+      "titleNative": "Bir Hikaye Anlatmak",
+      "items": [
+        {"tr": "O gün çok mutluydum, güneş parlıyordu, kuşlar ötüyordu.", "en": "That day I was very happy, the sun was shining, the birds were singing."},
+        {"tr": "Herkes bekliyordu, ama otobüs bir türlü gelmiyordu.", "en": "Everyone was waiting, but the bus just wouldn't come."},
+        {"tr": "Hikayeyi anlattığımda herkes dikkatle dinliyordu.", "en": "When I told the story, everyone was listening carefully."},
+        {"tr": "O anda ne düşünüyordun?", "en": "What were you thinking at that moment?"}
+      ]
+    },
+    {
+      "number": 30,
+      "title": "Review: Past Continuous and Future-in-the-Past",
+      "titleNative": "Tekrar: Şimdiki Zamanın Hikayesi ve Gelecek",
+      "items": [
+        {"tr": "Beni aradığında çalışıyordum.", "en": "When you called me, I was working."},
+        {"tr": "Erken gelecektim ama trafik vardı.", "en": "I was going to come early but there was traffic."},
+        {"tr": "Küçükken her yaz denize giderdik.", "en": "When we were little, we used to go to the sea every summer."},
+        {"tr": "O gün hava çok güzeldi, herkes dışarıda yürüyordu.", "en": "That day the weather was very nice, everyone was walking outside."}
+      ]
+    }
+  ]
+}
