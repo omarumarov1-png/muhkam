@@ -30,6 +30,16 @@
         {"tr": "Bu sorunu nasıl çözeceğiz?", "en": "How will we solve this problem?"},
         {"tr": "Konuşmadıkça çözemeyiz.", "en": "Unless we talk, we can't solve it."}
       ]
+    },
+    "b2plus-since": {
+      "title": "Since: -DIğIndAn beri",
+      "pattern": "-DIk + possessive + -DAn + beri; noun/time + -DAn + beri",
+      "explanation": "To say 'ever since X happened,' attach the ablative case to the -DIk clause you already know, then follow with beri: 'Buraya geldiğimden beri çok değiştim' (Since I came here, I've changed a lot). With a simple noun or time expression, beri also attaches directly: 'İki yıldan beri burada yaşıyorum' (I've been living here for two years).",
+      "fact": "With beri, Turkish typically uses the PRESENT tense (-Iyor) even though English uses a present perfect ('have been living') — the action is framed as still ongoing right now, not as a completed block of time.",
+      "dialogue": [
+        {"tr": "Ne zamandır burada yaşıyorsun?", "en": "Since when have you been living here?"},
+        {"tr": "Üniversiteyi bitirdiğimden beri buradayım.", "en": "I've been here since I finished university."}
+      ]
     }
   },
   "lessons": [
@@ -364,6 +374,117 @@
         {"tr": "Konuşmadıkça anlaşamayız.", "en": "Unless we talk, we can't understand each other."},
         {"tr": "Çalışmadıkça hiçbir şey değişmez.", "en": "Unless you work, nothing changes."},
         {"tr": "Sevmedikçe gerçekten anlayamazsın.", "en": "Unless you love, you can't truly understand."}
+      ]
+    },
+    {
+      "number": 31,
+      "title": "Since - -DIğIndAn beri",
+      "titleNative": "-DIğIndAn Beri",
+      "topicId": "b2plus-since",
+      "items": [
+        {"tr": "Buraya geldiğimden beri çok değiştim.", "en": "Since I came here, I've changed a lot."},
+        {"tr": "Üniversiteyi bitirdiğimden beri burada çalışıyorum.", "en": "I've been working here since I finished university."},
+        {"tr": "Onunla tanıştığımdan beri çok mutluyum.", "en": "I've been very happy since I met him."},
+        {"tr": "Bu şehre taşındığımdan beri yeni arkadaşlar edindim.", "en": "Since I moved to this city, I've made new friends."}
+      ]
+    },
+    {
+      "number": 32,
+      "title": "Since (Time Expressions)",
+      "titleNative": "Zaman İfadeleriyle Beri",
+      "items": [
+        {"tr": "İki yıldan beri burada yaşıyorum.", "en": "I've been living here for two years."},
+        {"tr": "Çocukluğumdan beri bu şarkıyı severim.", "en": "I've loved this song since my childhood."},
+        {"tr": "Sabahtan beri hiçbir şey yemedim.", "en": "I haven't eaten anything since morning."},
+        {"tr": "Geçen haftadan beri hastayım.", "en": "I've been sick since last week."}
+      ]
+    },
+    {
+      "number": 33,
+      "title": "Since (Relationships and Changes)",
+      "titleNative": "İlişki ve Değişimlerde Beri",
+      "items": [
+        {"tr": "Evlendiğimizden beri birlikte çok şey öğrendik.", "en": "Since we got married, we've learned a lot together."},
+        {"tr": "O günden beri birbirimizi hiç görmedik.", "en": "We haven't seen each other since that day."},
+        {"tr": "Emekli olduğundan beri çok daha rahat.", "en": "Since he retired, he's much more relaxed."},
+        {"tr": "Çocuğumuz doğduğundan beri hayatımız tamamen değişti.", "en": "Since our child was born, our life has completely changed."}
+      ]
+    },
+    {
+      "number": 34,
+      "title": "Since (Habits and Routines)",
+      "titleNative": "Alışkanlık ve Rutinlerde Beri",
+      "items": [
+        {"tr": "Spora başladığımdan beri kendimi daha enerjik hissediyorum.", "en": "Since I started sports, I've felt more energetic."},
+        {"tr": "Sigara bıraktığımdan beri daha iyi nefes alıyorum.", "en": "Since I quit smoking, I breathe better."},
+        {"tr": "Erken kalkmaya başladığımdan beri günüm daha verimli geçiyor.", "en": "Since I started getting up early, my day goes by more productively."},
+        {"tr": "Bu diyete başladığımdan beri kendimi daha hafif hissediyorum.", "en": "Since I started this diet, I've felt lighter."}
+      ]
+    },
+    {
+      "number": 35,
+      "title": "Since (Negative Situations)",
+      "titleNative": "Olumsuz Durumlarda Beri",
+      "items": [
+        {"tr": "O olaydan beri ona güvenmiyorum.", "en": "Since that incident, I haven't trusted him."},
+        {"tr": "Tartıştığımızdan beri konuşmuyoruz.", "en": "Since we argued, we haven't been talking."},
+        {"tr": "İşten ayrıldığımdan beri para sıkıntısı çekiyorum.", "en": "Since I left the job, I've been having money trouble."},
+        {"tr": "Hastalandığımdan beri dışarı pek çıkmıyorum.", "en": "Since I got sick, I haven't gone out much."}
+      ]
+    },
+    {
+      "number": 36,
+      "title": "How Long",
+      "titleNative": "Ne Kadar Zamandır",
+      "items": [
+        {"tr": "Ne kadar zamandır burada çalışıyorsun?", "en": "How long have you been working here?"},
+        {"tr": "Kaç yıldır İstanbul'da yaşıyorsun?", "en": "How many years have you been living in Istanbul?"},
+        {"tr": "Beş yıldır bu şirkette çalışıyorum.", "en": "I've been working at this company for five years."},
+        {"tr": "Uzun zamandır seni görmek istiyordum.", "en": "I've wanted to see you for a long time."}
+      ]
+    },
+    {
+      "number": 37,
+      "title": "Combining beri with Other Grammar",
+      "titleNative": "Beri'yi Diğer Yapılarla Birleştirmek",
+      "items": [
+        {"tr": "Buraya taşındığımdan beri hâlâ yeni yerler keşfediyorum.", "en": "Since I moved here, I'm still discovering new places."},
+        {"tr": "O günden beri her şeyin farklı olduğunu hissediyorum.", "en": "Since that day, I've felt that everything is different."},
+        {"tr": "Emekli olduğundan beri daha çok kitap okuyor, hem de her gün.", "en": "Since he retired, he reads more books, every single day too."},
+        {"tr": "Ayrıldığımızdan beri onu hiç unutmadım.", "en": "Since we broke up, I've never forgotten him."}
+      ]
+    },
+    {
+      "number": 38,
+      "title": "Since Childhood / Since Always",
+      "titleNative": "Çocukluğumdan Beri",
+      "items": [
+        {"tr": "Küçüklüğümden beri resim yapmayı seviyorum.", "en": "I've loved drawing since my childhood."},
+        {"tr": "Doğduğumdan beri bu şehirde yaşıyorum.", "en": "I've been living in this city since I was born."},
+        {"tr": "Çocukluğumdan beri hep doktor olmak istedim.", "en": "I've always wanted to be a doctor, ever since childhood."},
+        {"tr": "Gençliğimden beri müzikle ilgileniyorum.", "en": "I've been interested in music since my youth."}
+      ]
+    },
+    {
+      "number": 39,
+      "title": "Professional and Formal Uses",
+      "titleNative": "Mesleki ve Resmi Kullanımlar",
+      "items": [
+        {"tr": "Şirkette çalışmaya başladığımdan beri çok şey öğrendim.", "en": "Since I started working at the company, I've learned a lot."},
+        {"tr": "Bu pozisyona geldiğimden beri sorumluluklarım arttı.", "en": "Since I came to this position, my responsibilities have increased."},
+        {"tr": "Yeni sistem kurulduğundan beri işler daha hızlı ilerliyor.", "en": "Since the new system was set up, things move faster."},
+        {"tr": "O toplantıdan beri projeye farklı bakıyoruz.", "en": "Since that meeting, we look at the project differently."}
+      ]
+    },
+    {
+      "number": 40,
+      "title": "Review: -DIğIndAn beri",
+      "titleNative": "Tekrar: -DIğIndAn Beri",
+      "items": [
+        {"tr": "Buraya geldiğimden beri çok şey öğrendim.", "en": "Since I came here, I've learned a lot."},
+        {"tr": "İki yıldır bu evde yaşıyorum.", "en": "I've been living in this house for two years."},
+        {"tr": "O günden beri her şey farklı.", "en": "Since that day, everything is different."},
+        {"tr": "Seninle tanıştığımdan beri hayatım değişti.", "en": "Since I met you, my life has changed."}
       ]
     }
   ]
