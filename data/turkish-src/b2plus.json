@@ -70,6 +70,16 @@
         {"tr": "Duydun mu, yeni bir şube açılıyormuş.", "en": "Did you hear, apparently a new branch is opening."},
         {"tr": "Gerçekten mi? Kimden duydun?", "en": "Really? Who did you hear it from?"}
       ]
+    },
+    "b2plus-postpositions-extended": {
+      "title": "Extended Postpositions: itibaren, boyunca, süresince, karşı, ait",
+      "pattern": "-DAn itibaren (starting from); noun + boyunca/süresince (throughout); noun + -A karşı (against/toward); noun + -A ait (belonging to)",
+      "explanation": "itibaren follows the ablative and means 'starting from': 'Yarından itibaren yeni programa geçiyoruz' (Starting from tomorrow, we're switching to the new program). boyunca and süresince follow a plain noun and mean 'throughout/during the whole of': 'Tatil boyunca çalıştım' (I worked throughout the vacation) — süresince is more formal/precise about a bounded duration. karşı follows the dative and means 'against, toward' (both a physical direction and an attitude): 'Bu karara karşıyım' (I'm against this decision). ait follows the dative and means 'belonging to': 'Bu kitap bana ait' (This book belongs to me).",
+      "fact": "karşı can flip between a neutral direction ('rüzgara karşı yürüdük,' we walked against/into the wind) and a strong opinion ('şiddete karşıyım,' I'm against violence) — context, not the word itself, tells you which meaning is active.",
+      "dialogue": [
+        {"tr": "Yeni kurallar ne zaman başlıyor?", "en": "When do the new rules start?"},
+        {"tr": "Gelecek haftadan itibaren geçerli olacak.", "en": "They'll be in effect starting from next week."}
+      ]
     }
   },
   "lessons": [
@@ -848,6 +858,117 @@
         {"tr": "Söylentiye göre şirket el değiştirecekmiş.", "en": "According to rumor, the company will change hands."},
         {"tr": "Öyle söylüyorlar ama emin değilim.", "en": "That's what they say, but I'm not sure."},
         {"tr": "Habere göre hava yarın çok soğuk olacakmış.", "en": "According to the news, tomorrow the weather will be very cold."}
+      ]
+    },
+    {
+      "number": 71,
+      "title": "Starting From - itibaren",
+      "titleNative": "İtibaren",
+      "topicId": "b2plus-postpositions-extended",
+      "items": [
+        {"tr": "Yarından itibaren yeni programa geçiyoruz.", "en": "Starting from tomorrow, we're switching to the new program."},
+        {"tr": "Bugünden itibaren daha erken kalkacağım.", "en": "Starting from today, I'll get up earlier."},
+        {"tr": "Ocaktan itibaren fiyatlar değişecek.", "en": "Starting from January, prices will change."},
+        {"tr": "Bu andan itibaren her şey farklı olacak.", "en": "Starting from this moment, everything will be different."}
+      ]
+    },
+    {
+      "number": 72,
+      "title": "Throughout - boyunca",
+      "titleNative": "Boyunca",
+      "items": [
+        {"tr": "Tatil boyunca çalıştım.", "en": "I worked throughout the vacation."},
+        {"tr": "Yolculuk boyunca hiç uyumadım.", "en": "I didn't sleep at all throughout the journey."},
+        {"tr": "Hayatı boyunca çok çalıştı.", "en": "He worked hard throughout his life."},
+        {"tr": "Toplantı boyunca sessiz kaldım.", "en": "I stayed quiet throughout the meeting."}
+      ]
+    },
+    {
+      "number": 73,
+      "title": "For the Duration Of - süresince",
+      "titleNative": "Süresince",
+      "items": [
+        {"tr": "Proje süresince sürekli iletişim halindeydik.", "en": "Throughout the project, we were in constant communication."},
+        {"tr": "Sınav süresince telefonlar kapalı olmalı.", "en": "Throughout the exam, phones must be off."},
+        {"tr": "Tedavi süresince dinlenmesi gerekiyor.", "en": "Throughout the treatment, he needs to rest."},
+        {"tr": "Etkinlik süresince güvenlik önlemleri artırıldı.", "en": "Throughout the event, security measures were increased."}
+      ]
+    },
+    {
+      "number": 74,
+      "title": "Against / Toward - karşı",
+      "titleNative": "Karşı",
+      "items": [
+        {"tr": "Bu karara karşıyım.", "en": "I'm against this decision."},
+        {"tr": "Rüzgara karşı yürüdük.", "en": "We walked against the wind."},
+        {"tr": "Şiddete karşı olmalıyız.", "en": "We should be against violence."},
+        {"tr": "Ona karşı hiç kırgın değilim.", "en": "I'm not at all upset with him."}
+      ]
+    },
+    {
+      "number": 75,
+      "title": "Belonging To - ait",
+      "titleNative": "Ait",
+      "items": [
+        {"tr": "Bu kitap bana ait.", "en": "This book belongs to me."},
+        {"tr": "Bu ev artık onlara ait değil.", "en": "This house no longer belongs to them."},
+        {"tr": "Bu karar sadece sana ait.", "en": "This decision belongs only to you."},
+        {"tr": "Bu topraklar atalarımıza ait.", "en": "These lands belong to our ancestors."}
+      ]
+    },
+    {
+      "number": 76,
+      "title": "Combining Extended Postpositions",
+      "titleNative": "Genişletilmiş Edatları Birleştirmek",
+      "items": [
+        {"tr": "Bu haftadan itibaren, proje süresince hiç tatil yapmayacağız.", "en": "Starting from this week, we won't take any vacation throughout the project."},
+        {"tr": "Hayatı boyunca haksızlığa karşı savaştı.", "en": "Throughout his life, he fought against injustice."},
+        {"tr": "Bu topraklar yüzyıllar boyunca farklı halklara ait olmuş.", "en": "These lands have belonged to different peoples throughout the centuries."},
+        {"tr": "Bugünden itibaren kendime karşı daha nazik olacağım.", "en": "Starting from today, I'll be kinder to myself."}
+      ]
+    },
+    {
+      "number": 77,
+      "title": "Formal and Legal Contexts",
+      "titleNative": "Resmi ve Hukuki Bağlamlar",
+      "items": [
+        {"tr": "Sözleşme imza tarihinden itibaren geçerlidir.", "en": "The contract is valid starting from the signing date."},
+        {"tr": "Garanti süresi bir yıl boyunca geçerlidir.", "en": "The warranty period is valid for one year."},
+        {"tr": "İnceleme süresince hiçbir değişiklik yapılamaz.", "en": "No changes can be made during the review."},
+        {"tr": "Bu belge şirkete ait resmi bir evraktır.", "en": "This document is an official paper belonging to the company."}
+      ]
+    },
+    {
+      "number": 78,
+      "title": "Attitudes and Feelings",
+      "titleNative": "Tutum ve Duygular",
+      "items": [
+        {"tr": "Ona karşı derin bir saygı duyuyorum.", "en": "I feel deep respect toward him."},
+        {"tr": "Değişime karşı değilim, sadece dikkatli olmak istiyorum.", "en": "I'm not against change, I just want to be careful."},
+        {"tr": "Kendime karşı dürüst olmaya çalışıyorum.", "en": "I try to be honest with myself."},
+        {"tr": "Bu tutuma karşı çıkmalıyız.", "en": "We should oppose this attitude."}
+      ]
+    },
+    {
+      "number": 79,
+      "title": "Time and Ownership Together",
+      "titleNative": "Zaman ve Aidiyeti Birleştirmek",
+      "items": [
+        {"tr": "Bu miras nesillerden beri ailemize ait.", "en": "This inheritance has belonged to our family for generations."},
+        {"tr": "Doğduğum günden itibaren bu şehirde yaşıyorum.", "en": "Starting from the day I was born, I've been living in this city."},
+        {"tr": "Bu proje başından sonuna kadar bize ait.", "en": "This project belongs to us from start to finish."},
+        {"tr": "Çocukluğum boyunca burada oynardım.", "en": "Throughout my childhood, I used to play here."}
+      ]
+    },
+    {
+      "number": 80,
+      "title": "Review: itibaren, boyunca, süresince, karşı, ait",
+      "titleNative": "Tekrar: İtibaren, Boyunca, Süresince, Karşı, Ait",
+      "items": [
+        {"tr": "Yarından itibaren yeni bir hayata başlıyorum.", "en": "Starting from tomorrow, I'm starting a new life."},
+        {"tr": "Bu yolculuk boyunca çok şey öğrendim.", "en": "Throughout this journey, I learned a lot."},
+        {"tr": "Bu karara karşı değilim, sadece endişeliyim.", "en": "I'm not against this decision, I'm just worried."},
+        {"tr": "Bu ev bana ait, burada kendimi güvende hissediyorum.", "en": "This house belongs to me, I feel safe here."}
       ]
     }
   ]
