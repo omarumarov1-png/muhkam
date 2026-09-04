@@ -50,6 +50,16 @@
         {"tr": "Sen genelde ne zaman spor yaparsın?", "en": "When do you usually exercise?"},
         {"tr": "Genellikle akşamları yaparım.", "en": "I usually do it in the evenings."}
       ]
+    },
+    "b1-passive": {
+      "title": "Passive Voice (-Il/-In)",
+      "pattern": "stem + -Il (after most consonant-final stems) or -In (after stems ending in l, and after vowel-final stems) + tense",
+      "explanation": "The passive turns 'X does Y' into 'Y is done (by X)': yapmak (to do) -> yapılmak (to be done). Most consonant-final stems take -Il with 4-way harmony (aç-ıl, göz-ül); vowel-final stems and stems already ending in 'l' switch to -In instead, to avoid an awkward double-l or vowel collision -- oku-n (not 'oku-l'), bil-in (not 'bil-il').",
+      "fact": "Turkish uses the impersonal passive constantly for general instructions and signs, where English would use 'you shouldn't' or 'no X allowed': 'Burada sigara içilmez' (smoking isn't [done] here) rather than naming who the rule is for.",
+      "dialogue": [
+        {"tr": "Bu iş ne zaman bitecek?", "en": "When will this work be finished?"},
+        {"tr": "Yarına kadar tamamlanacak.", "en": "It will be completed by tomorrow."}
+      ]
     }
   },
   "lessons": [
@@ -606,6 +616,117 @@
         {"tr": "İyi insanlar başkalarına yardım eder.", "en": "Good people help others."},
         {"tr": "Çok çalışan başarılı olur.", "en": "Those who work hard become successful."},
         {"tr": "Herkes hata yapar ama az kişi bunu kabul eder.", "en": "Everyone makes mistakes, but few people admit it."}
+      ]
+    },
+    {
+      "number": 51,
+      "title": "This Is Done",
+      "titleNative": "Bu Yapılıyor",
+      "topicId": "b1-passive",
+      "items": [
+        {"tr": "Bu iş çok dikkatli yapılıyor.", "en": "This work is being done very carefully."},
+        {"tr": "Kapı her sabah açılıyor.", "en": "The door is opened every morning."},
+        {"tr": "Mektup şu anda yazılıyor.", "en": "The letter is being written right now."},
+        {"tr": "Bu kitap birçok dile tercüme ediliyor.", "en": "This book is translated into many languages."}
+      ]
+    },
+    {
+      "number": 52,
+      "title": "This Was Done",
+      "titleNative": "Bu Yapıldı",
+      "items": [
+        {"tr": "Ev geçen yıl satıldı.", "en": "The house was sold last year."},
+        {"tr": "Mektup dün yazıldı.", "en": "The letter was written yesterday."},
+        {"tr": "Kapı kilitlendi.", "en": "The door was locked."},
+        {"tr": "Toplantı iptal edildi.", "en": "The meeting was canceled."}
+      ]
+    },
+    {
+      "number": 53,
+      "title": "This Will Be Done",
+      "titleNative": "Bu Yapılacak",
+      "items": [
+        {"tr": "Bu proje gelecek ay tamamlanacak.", "en": "This project will be completed next month."},
+        {"tr": "Yeni kurallar yakında açıklanacak.", "en": "New rules will be announced soon."},
+        {"tr": "Bu bina yıkılacak.", "en": "This building will be demolished."},
+        {"tr": "Sorun çözülecek.", "en": "The problem will be solved."}
+      ]
+    },
+    {
+      "number": 54,
+      "title": "Known and Unknown",
+      "titleNative": "Bilinen ve Bilinmeyen",
+      "items": [
+        {"tr": "Bu gerçek herkes tarafından biliniyor.", "en": "This fact is known by everyone."},
+        {"tr": "Cevap henüz bulunmadı.", "en": "The answer hasn't been found yet."},
+        {"tr": "Bu bilgi internette kolayca bulunur.", "en": "This information is easily found on the internet."},
+        {"tr": "Gerçek er ya da geç anlaşılır.", "en": "The truth is understood sooner or later."}
+      ]
+    },
+    {
+      "number": 55,
+      "title": "Passive in the News",
+      "titleNative": "Haberlerde Edilgen Çatı",
+      "items": [
+        {"tr": "Yeni yasa meclis tarafından kabul edildi.", "en": "The new law was accepted by parliament."},
+        {"tr": "Yeni ürün basına tanıtıldı.", "en": "The new product was introduced to the press."},
+        {"tr": "Suçlu polis tarafından yakalandı.", "en": "The culprit was caught by the police."},
+        {"tr": "Olay medyada geniş şekilde haber yapıldı.", "en": "The event was widely reported in the media."}
+      ]
+    },
+    {
+      "number": 56,
+      "title": "Impersonal Passive: Signs and Rules",
+      "titleNative": "Kişisiz Edilgen: Tabelalar ve Kurallar",
+      "items": [
+        {"tr": "Burada sigara içilmez.", "en": "Smoking is not allowed here."},
+        {"tr": "Bu alanda fotoğraf çekilmez.", "en": "Photography is not allowed in this area."},
+        {"tr": "Burada yüksek sesle konuşulmaz.", "en": "One should not speak loudly here."},
+        {"tr": "Kurallara uyulmalı.", "en": "The rules should be followed."}
+      ]
+    },
+    {
+      "number": 57,
+      "title": "What Is Said",
+      "titleNative": "Ne Söyleniyor",
+      "items": [
+        {"tr": "Bu konuda çok şey söyleniyor.", "en": "A lot is being said about this topic."},
+        {"tr": "Ona her şey anlatıldı.", "en": "He was told everything."},
+        {"tr": "Bu haber doğrulanmadı.", "en": "This news hasn't been confirmed."},
+        {"tr": "Doğruluğu zamanla kanıtlanır.", "en": "Its truth is proven over time."}
+      ]
+    },
+    {
+      "number": 58,
+      "title": "Products and Manufacturing",
+      "titleNative": "Ürünler ve Üretim",
+      "items": [
+        {"tr": "Bu ürün Türkiye'de üretiliyor.", "en": "This product is manufactured in Turkey."},
+        {"tr": "Kumaş elle dokunuyor.", "en": "The fabric is woven by hand."},
+        {"tr": "Bu araba fabrikada monte ediliyor.", "en": "This car is assembled in the factory."},
+        {"tr": "Kalite her aşamada kontrol edilir.", "en": "Quality is checked at every stage."}
+      ]
+    },
+    {
+      "number": 59,
+      "title": "Historical Events",
+      "titleNative": "Tarihi Olaylar",
+      "items": [
+        {"tr": "Bu şehir yüzyıllar önce kuruldu.", "en": "This city was founded centuries ago."},
+        {"tr": "Savaş sonunda barış imzalandı.", "en": "Peace was signed at the end of the war."},
+        {"tr": "Bu müze 1950'de açıldı.", "en": "This museum was opened in 1950."},
+        {"tr": "Önemli kararlar burada alındı.", "en": "Important decisions were made here."}
+      ]
+    },
+    {
+      "number": 60,
+      "title": "Review: Passive Voice",
+      "titleNative": "Tekrar: Edilgen Çatı",
+      "items": [
+        {"tr": "Bu iş dikkatlice yapıldı.", "en": "This work was done carefully."},
+        {"tr": "Kurallara uyulmalı.", "en": "Rules should be followed."},
+        {"tr": "Sorunlar zamanla çözülür.", "en": "Problems get solved over time."},
+        {"tr": "Emek her zaman takdir edilmeli.", "en": "Effort should always be appreciated."}
       ]
     }
   ]
