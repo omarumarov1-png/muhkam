@@ -40,6 +40,16 @@
         {"tr": "Ne zamandır burada yaşıyorsun?", "en": "Since when have you been living here?"},
         {"tr": "Üniversiteyi bitirdiğimden beri buradayım.", "en": "I've been here since I finished university."}
       ]
+    },
+    "b2plus-ma-subject": {
+      "title": "Verbs as Subjects: -mAk and -mA + Possessive",
+      "pattern": "verb-mAk (bare infinitive as subject); verb-mA + possessive (naming whose action)",
+      "explanation": "You've used -mAk as the dictionary/infinitive form and -mA in object clauses (istemek, hoşlanmak). -mAk can also stand as the SUBJECT of a sentence: 'Erken kalkmak zor' (Getting up early is hard). When you need to specify WHOSE action, switch to -mA + possessive instead: 'Onun erken kalkması zor' (His getting up early is hard) — -mAk stays generic and impersonal, -mA + possessive names the doer.",
+      "fact": "Bare -mAk can only be a subject or sit right before a small set of light verbs (istemek, gerekmek); once you need a possessive suffix, case ending, or plural, Turkish always switches to the -mA nominal, never adds those directly onto -mAk.",
+      "dialogue": [
+        {"tr": "Sence en zor şey ne?", "en": "What do you think is the hardest thing?"},
+        {"tr": "Bence beklemek.", "en": "I think it's waiting."}
+      ]
     }
   },
   "lessons": [
@@ -485,6 +495,117 @@
         {"tr": "İki yıldır bu evde yaşıyorum.", "en": "I've been living in this house for two years."},
         {"tr": "O günden beri her şey farklı.", "en": "Since that day, everything is different."},
         {"tr": "Seninle tanıştığımdan beri hayatım değişti.", "en": "Since I met you, my life has changed."}
+      ]
+    },
+    {
+      "number": 41,
+      "title": "Bare Infinitive as Subject",
+      "titleNative": "Özne Olarak -mAk",
+      "topicId": "b2plus-ma-subject",
+      "items": [
+        {"tr": "Erken kalkmak zor.", "en": "Getting up early is hard."},
+        {"tr": "Yalan söylemek yanlıştır.", "en": "Lying is wrong."},
+        {"tr": "Spor yapmak sağlıklıdır.", "en": "Exercising is healthy."},
+        {"tr": "Beklemek bazen en zor şeydir.", "en": "Waiting is sometimes the hardest thing."}
+      ]
+    },
+    {
+      "number": 42,
+      "title": "Whose Action",
+      "titleNative": "-mA + İyelik",
+      "items": [
+        {"tr": "Onun erken kalkması zor.", "en": "His getting up early is hard."},
+        {"tr": "Senin bu kadar çabuk vazgeçmen beni üzdü.", "en": "Your giving up this quickly upset me."},
+        {"tr": "Çocuğun bu kadar sessiz olması garip.", "en": "The child's being this quiet is strange."},
+        {"tr": "Onların bize haber vermemesi sorun oldu.", "en": "Their not informing us became a problem."}
+      ]
+    },
+    {
+      "number": 43,
+      "title": "Comparing -mAk and -mA + Possessive",
+      "titleNative": "-mAk ve -mA + İyelik'i Karşılaştırmak",
+      "items": [
+        {"tr": "Konuşmak kolaydır, ama yapmak zordur.", "en": "Talking is easy, but doing is hard."},
+        {"tr": "Onun konuşması beni her zaman etkiler.", "en": "His speaking always impresses me."},
+        {"tr": "Yardım etmek güzel bir şeydir.", "en": "Helping is a beautiful thing."},
+        {"tr": "Senin yardım etmen bizim için çok değerliydi.", "en": "Your helping was very valuable to us."}
+      ]
+    },
+    {
+      "number": 44,
+      "title": "-mA Nominals with Case Endings",
+      "titleNative": "Hal Ekleriyle -mA İsimleri",
+      "items": [
+        {"tr": "Erken kalkmaya alıştım.", "en": "I've gotten used to getting up early."},
+        {"tr": "Yardım etmekten mutluluk duyuyorum.", "en": "I feel happiness from helping."},
+        {"tr": "Onunla konuşmaktan çekiniyorum.", "en": "I hesitate to talk to him."},
+        {"tr": "Bu işi yapmaya karar verdim.", "en": "I decided to do this job."}
+      ]
+    },
+    {
+      "number": 45,
+      "title": "Opinions About Actions",
+      "titleNative": "Eylemler Hakkında Görüşler",
+      "items": [
+        {"tr": "Bence dürüst olmak her zaman en iyisidir.", "en": "I think being honest is always the best."},
+        {"tr": "Ona göre para kazanmak en önemli şey.", "en": "According to him, earning money is the most important thing."},
+        {"tr": "Kitap okumak zihni geliştirir.", "en": "Reading books develops the mind."},
+        {"tr": "Seyahat etmek insanı değiştirir.", "en": "Traveling changes a person."}
+      ]
+    },
+    {
+      "number": 46,
+      "title": "Actions as Topics of Discussion",
+      "titleNative": "Tartışma Konusu Olarak Eylemler",
+      "items": [
+        {"tr": "Erken evlenmek her zaman doğru değildir.", "en": "Getting married early isn't always right."},
+        {"tr": "Çok çalışmak bazen tükenmişliğe yol açar.", "en": "Working too much sometimes leads to burnout."},
+        {"tr": "Az uyumak sağlığa zararlıdır.", "en": "Sleeping too little is harmful to health."},
+        {"tr": "Sürekli şikayet etmek hiçbir şeyi değiştirmez.", "en": "Constantly complaining doesn't change anything."}
+      ]
+    },
+    {
+      "number": 47,
+      "title": "Possessive -mA in Complex Sentences",
+      "titleNative": "Karmaşık Cümlelerde İyelik -mA",
+      "items": [
+        {"tr": "Onun bu kadar sabırlı olması beni şaşırttı.", "en": "His being this patient surprised me."},
+        {"tr": "Senin bana güvenmen benim için çok anlamlı.", "en": "Your trusting me means a lot to me."},
+        {"tr": "Bizim birlikte çalışmamız projeyi hızlandırdı.", "en": "Our working together sped up the project."},
+        {"tr": "Onların anlaşması herkesi rahatlattı.", "en": "Their reaching an agreement relieved everyone."}
+      ]
+    },
+    {
+      "number": 48,
+      "title": "Gerund Phrases with Adjectives",
+      "titleNative": "Sıfatlarla -mAk Öbekleri",
+      "items": [
+        {"tr": "Erken kalkmak benim için hiç kolay değil.", "en": "Getting up early isn't easy for me at all."},
+        {"tr": "Yeni bir şey öğrenmek her zaman heyecan vericidir.", "en": "Learning something new is always exciting."},
+        {"tr": "Başkalarına yardım etmek beni mutlu ediyor.", "en": "Helping others makes me happy."},
+        {"tr": "Kendini geliştirmek zaman alır ama değer.", "en": "Improving yourself takes time but it's worth it."}
+      ]
+    },
+    {
+      "number": 49,
+      "title": "Combining with Cause and Result",
+      "titleNative": "Sebep ve Sonuçla Birleştirmek",
+      "items": [
+        {"tr": "Erken kalkmak istediğim için erken yatıyorum.", "en": "Because I want to get up early, I go to bed early."},
+        {"tr": "Onun bu kadar çabuk pes etmesi yüzünden hayal kırıklığına uğradım.", "en": "I was disappointed because of his giving up this quickly."},
+        {"tr": "Çok çalışmak sayesinde başarılı oldu.", "en": "Thanks to working a lot, he succeeded."},
+        {"tr": "Sabırlı olmak sayesinde her şeyi aştık.", "en": "Thanks to being patient, we overcame everything."}
+      ]
+    },
+    {
+      "number": 50,
+      "title": "Review: Verbs as Subjects",
+      "titleNative": "Tekrar: Özne Olarak Fiiller",
+      "items": [
+        {"tr": "Erken kalkmak zor ama faydalı.", "en": "Getting up early is hard but beneficial."},
+        {"tr": "Onun bu kadar dürüst olması beni etkiledi.", "en": "His being this honest impressed me."},
+        {"tr": "Kitap okumak zihni besler.", "en": "Reading books nourishes the mind."},
+        {"tr": "Senin yardım etmen çok şey değiştirdi.", "en": "Your helping changed a lot."}
       ]
     }
   ]
