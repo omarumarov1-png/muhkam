@@ -30,6 +30,26 @@
         {"tr": "Dün akşam ne yapıyordun?", "en": "What were you doing last night?"},
         {"tr": "Film izliyordum, sonra erken uyudum.", "en": "I was watching a movie, then I went to sleep early."}
       ]
+    },
+    "b1plus-zorunda": {
+      "title": "Obligation: zorunda and mecbur",
+      "pattern": "verb-mAk + zorunda (olmak/kalmak); verb-mAyA + mecbur (olmak/kalmak)",
+      "explanation": "-mAlI and gerekmek express general obligation or advice. zorunda olmak is stronger: a real, often external constraint. 'Gitmek zorundayım' (I have to go) feels heavier than 'gitmeliyim' (I should go). mecbur olmak/kalmak works the same way, but takes the dative infinitive: 'gitmeye mecburum.'",
+      "fact": "'zorunda kalmak' (rather than 'olmak') specifically frames the obligation as something that happened TO you — a situation forced your hand — while 'zorunda olmak' just states that the constraint exists.",
+      "dialogue": [
+        {"tr": "Neden bu kadar erken kalktın?", "en": "Why did you get up so early?"},
+        {"tr": "Uçağı yakalamak zorundaydım.", "en": "I had to catch the flight."}
+      ]
+    },
+    "b1plus-diye": {
+      "title": "Reported Speech with diye",
+      "pattern": "'[quote]' + diye + söylemek/düşünmek/sormak/bağırmak",
+      "explanation": "Turkish often reports speech and thought by quoting it directly and following with diye ('saying that') plus a reporting verb: 'Yarın geliyorum' diye söyledi (He said, 'I'm coming tomorrow'). diye also introduces reported questions and thoughts: 'Nereye gidiyorsun?' diye sordu (He asked, 'Where are you going?'). This sits alongside the -DIk-clause method (Geldiğini söyledi) as a second, very common way to report speech — and diye can also express a reason or worry: 'Geç kalırım diye koştum' (I ran, thinking I might be late).",
+      "fact": "diye comes from demek (to say) and functions like an invisible quotation mark: unlike English reported speech, it doesn't shift tense or person — the quoted part stays exactly as it was said.",
+      "dialogue": [
+        {"tr": "Ne dedi?", "en": "What did he say?"},
+        {"tr": "'Yarın gelirim' dedi.", "en": "He said, 'I'll come tomorrow.'"}
+      ]
     }
   },
   "lessons": [
@@ -364,6 +384,228 @@
         {"tr": "Erken gelecektim ama trafik vardı.", "en": "I was going to come early but there was traffic."},
         {"tr": "Küçükken her yaz denize giderdik.", "en": "When we were little, we used to go to the sea every summer."},
         {"tr": "O gün hava çok güzeldi, herkes dışarıda yürüyordu.", "en": "That day the weather was very nice, everyone was walking outside."}
+      ]
+    },
+    {
+      "number": 31,
+      "title": "Real Obligations",
+      "titleNative": "Gerçek Yükümlülükler",
+      "topicId": "b1plus-zorunda",
+      "items": [
+        {"tr": "Bu formu doldurmak zorundasın.", "en": "You have to fill out this form."},
+        {"tr": "Vergilerimizi ödemek zorundayız.", "en": "We are obliged to pay our taxes."},
+        {"tr": "Herkes kurallara uymak zorunda.", "en": "Everyone is obliged to follow the rules."},
+        {"tr": "Sınava girmek zorundayım.", "en": "I have to take the exam."}
+      ]
+    },
+    {
+      "number": 32,
+      "title": "Forced by Circumstance",
+      "titleNative": "Koşullar Yüzünden Mecbur Kalmak",
+      "items": [
+        {"tr": "Trafik yüzünden geç kalmak zorunda kaldım.", "en": "Because of traffic, I was forced to be late."},
+        {"tr": "Param olmadığı için evde kalmak zorunda kaldık.", "en": "Because we had no money, we had to stay home."},
+        {"tr": "Yağmur yağdığı için planımızı değiştirmek zorunda kaldık.", "en": "Because it rained, we had to change our plan."},
+        {"tr": "İşi kabul etmek zorunda kaldım.", "en": "I had no choice but to accept the job."}
+      ]
+    },
+    {
+      "number": 33,
+      "title": "No Obligation",
+      "titleNative": "Yükümlülük Yok",
+      "items": [
+        {"tr": "Bunu yapmak zorunda değilsin.", "en": "You don't have to do this."},
+        {"tr": "Erken gelmek zorunda değiliz.", "en": "We don't have to come early."},
+        {"tr": "Her şeyi tek başına çözmek zorunda değilsin.", "en": "You don't have to solve everything by yourself."},
+        {"tr": "Hemen karar vermek zorunda değilsiniz.", "en": "You don't have to decide right away."}
+      ]
+    },
+    {
+      "number": 34,
+      "title": "mecbur olmak / kalmak",
+      "titleNative": "Mecbur Olmak / Kalmak",
+      "items": [
+        {"tr": "Bu işi bitirmeye mecburum.", "en": "I'm obliged to finish this job."},
+        {"tr": "Geri dönmeye mecbur kaldık.", "en": "We were forced to go back."},
+        {"tr": "Herkes bu kurala uymaya mecbur.", "en": "Everyone is obliged to follow this rule."},
+        {"tr": "Onunla konuşmaya mecbur kaldım.", "en": "I had no choice but to talk to him."}
+      ]
+    },
+    {
+      "number": 35,
+      "title": "Comparing -mAlI, gerekmek, zorunda",
+      "titleNative": "-mAlI, Gerekmek ve Zorunda'yı Karşılaştırmak",
+      "items": [
+        {"tr": "Erken uyumalısın, bu iyi bir tavsiye.", "en": "You should sleep early, this is good advice."},
+        {"tr": "Bu evrakı imzalaman gerekiyor, resmi bir kural bu.", "en": "You need to sign this document, it's an official rule."},
+        {"tr": "Vizen bitmeden ülkeyi terk etmek zorundasın.", "en": "You must leave the country before your visa expires."},
+        {"tr": "Tavsiyeme uymak zorunda değilsin, ama düşünmelisin.", "en": "You don't have to follow my advice, but you should think about it."}
+      ]
+    },
+    {
+      "number": 36,
+      "title": "Duties at Work",
+      "titleNative": "İşteki Görevler",
+      "items": [
+        {"tr": "Toplantıya katılmak zorundayız.", "en": "We are obliged to attend the meeting."},
+        {"tr": "Raporu bugün teslim etmek zorundayım.", "en": "I have to submit the report today."},
+        {"tr": "Yeni çalışanlar eğitime katılmak zorunda.", "en": "New employees are required to attend training."},
+        {"tr": "Patronumla konuşmak zorunda kaldım.", "en": "I had to talk to my boss."}
+      ]
+    },
+    {
+      "number": 37,
+      "title": "Legal and Social Obligations",
+      "titleNative": "Yasal ve Toplumsal Yükümlülükler",
+      "items": [
+        {"tr": "Araba kullanırken kemer takmak zorundasın.", "en": "You have to wear a seatbelt while driving."},
+        {"tr": "Bu ülkede herkes vergi vermek zorunda.", "en": "In this country, everyone is obliged to pay tax."},
+        {"tr": "Öğrenciler üniformalarını giymek zorunda.", "en": "Students are required to wear their uniforms."},
+        {"tr": "Randevu almak zorundasın, direkt gidemezsin.", "en": "You have to make an appointment, you can't just go directly."}
+      ]
+    },
+    {
+      "number": 38,
+      "title": "Past Obligations",
+      "titleNative": "Geçmişteki Yükümlülükler",
+      "items": [
+        {"tr": "O yıl çok çalışmak zorunda kaldım.", "en": "That year I was forced to work a lot."},
+        {"tr": "Ailemi desteklemek zorundaydım.", "en": "I had to support my family."},
+        {"tr": "Herkes evde kalmak zorunda kaldı.", "en": "Everyone was forced to stay home."},
+        {"tr": "Planımızı iptal etmek zorunda kaldık.", "en": "We had to cancel our plan."}
+      ]
+    },
+    {
+      "number": 39,
+      "title": "Freedom from Obligation",
+      "titleNative": "Yükümlülükten Özgürlük",
+      "items": [
+        {"tr": "Artık her gün ofise gitmek zorunda değilim.", "en": "I no longer have to go to the office every day."},
+        {"tr": "Bu proje bittiğinde fazla mesai yapmak zorunda kalmayacağız.", "en": "When this project is finished, we won't have to work overtime."},
+        {"tr": "Sonunda kira ödemek zorunda kalmayacağım.", "en": "Finally, I won't have to pay rent."},
+        {"tr": "O artık bize hesap vermek zorunda değil.", "en": "He no longer has to answer to us."}
+      ]
+    },
+    {
+      "number": 40,
+      "title": "Review: zorunda and mecbur",
+      "titleNative": "Tekrar: Zorunda ve Mecbur",
+      "items": [
+        {"tr": "Bu kuralı uygulamak zorundayız.", "en": "We are obliged to apply this rule."},
+        {"tr": "Param olmadığı için yürümek zorunda kaldım.", "en": "Because I had no money, I had to walk."},
+        {"tr": "Hemen cevap vermek zorunda değilsin.", "en": "You don't have to answer right away."},
+        {"tr": "Herkes kendi sorumluluğunu almaya mecbur.", "en": "Everyone is obliged to take their own responsibility."}
+      ]
+    },
+    {
+      "number": 41,
+      "title": "Reporting What Someone Said",
+      "titleNative": "Birinin Söylediğini Aktarmak",
+      "topicId": "b1plus-diye",
+      "items": [
+        {"tr": "'Bugün çok yorgunum' dedi.", "en": "He said, 'I'm very tired today.'"},
+        {"tr": "'Seni özledim' diye yazdı.", "en": "He wrote, saying that he missed me."},
+        {"tr": "Bana 'teşekkür ederim' dedi.", "en": "He said 'thank you' to me."},
+        {"tr": "'Bunu ben yapmadım' diye ısrar etti.", "en": "He insisted, saying 'I didn't do this.'"}
+      ]
+    },
+    {
+      "number": 42,
+      "title": "Reporting Questions",
+      "titleNative": "Soruları Aktarmak",
+      "items": [
+        {"tr": "'Saat kaç?' diye sordu.", "en": "He asked, 'What time is it?'"},
+        {"tr": "'Nereye gidiyorsun?' diye sordum.", "en": "I asked, 'Where are you going?'"},
+        {"tr": "'Bu doğru mu?' diye merak ettim.", "en": "I wondered, 'Is this true?'"},
+        {"tr": "'Neden geç kaldın?' diye sordu.", "en": "He asked, 'Why were you late?'"}
+      ]
+    },
+    {
+      "number": 43,
+      "title": "Reporting Thoughts and Beliefs",
+      "titleNative": "Düşünceleri ve İnançları Aktarmak",
+      "items": [
+        {"tr": "'Bu doğru değil' diye düşünüyorum.", "en": "I think, 'This isn't right.'"},
+        {"tr": "'Her şey yoluna girecek' diye umuyorum.", "en": "I hope, 'Everything will work out.'"},
+        {"tr": "'Bunu başarabilirim' diye kendime söylüyorum.", "en": "I tell myself, 'I can do this.'"},
+        {"tr": "'Belki haklısın' diye düşündüm.", "en": "I thought, 'Maybe you're right.'"}
+      ]
+    },
+    {
+      "number": 44,
+      "title": "Naming and Calling",
+      "titleNative": "İsimlendirmek ve Seslenmek",
+      "items": [
+        {"tr": "Ona 'kardeşim' diye seslendim.", "en": "I called out to him, 'my brother.'"},
+        {"tr": "Bu çiçeğe 'lale' diyoruz.", "en": "We call this flower 'tulip.'"},
+        {"tr": "Herkes ona 'usta' diye hitap ediyor.", "en": "Everyone addresses him as 'master.'"},
+        {"tr": "Bu şehre neden 'küçük İstanbul' diyorlar?", "en": "Why do they call this city 'little Istanbul'?"}
+      ]
+    },
+    {
+      "number": 45,
+      "title": "Warning and Preparing with diye",
+      "titleNative": "Diye ile Uyarmak ve Hazırlanmak",
+      "items": [
+        {"tr": "Geç kalırsın diye erken çıktım.", "en": "I left early, thinking that you might be late."},
+        {"tr": "Üşürsün diye sana bir kazak getirdim.", "en": "I brought you a sweater in case you get cold."},
+        {"tr": "Kaybolur diye anahtarları buraya koydum.", "en": "I put the keys here so they wouldn't get lost."},
+        {"tr": "Unuturum diye not aldım.", "en": "I took a note in case I forget."}
+      ]
+    },
+    {
+      "number": 46,
+      "title": "Reasons Expressed with diye",
+      "titleNative": "Diye ile Sebep Belirtmek",
+      "items": [
+        {"tr": "Yağmur yağar diye şemsiyemi aldım.", "en": "I took my umbrella, thinking it might rain."},
+        {"tr": "Geç kalırım diye taksiye bindim.", "en": "I took a taxi, thinking I might be late."},
+        {"tr": "Sen üzülürsün diye sana söylemedim.", "en": "I didn't tell you, thinking you'd be upset."},
+        {"tr": "Yanlış anlaşılır diye açıkça konuştum.", "en": "I spoke clearly, thinking it might be misunderstood."}
+      ]
+    },
+    {
+      "number": 47,
+      "title": "Combining diye with -DIk Reporting",
+      "titleNative": "Diye ve -DIk'i Birleştirmek",
+      "items": [
+        {"tr": "'Gelmeyeceğim' dedi ama geleceğini biliyorum.", "en": "He said, 'I won't come,' but I know he will come."},
+        {"tr": "'Bunu yapamam' diye söyledi ama yapabileceğini düşünüyorum.", "en": "He said, 'I can't do this,' but I think he can do it."},
+        {"tr": "'Hazırım' dedi, ben de hazır olduğuna inandım.", "en": "He said, 'I'm ready,' and I believed that he was ready."},
+        {"tr": "'Asla vazgeçmem' dedi, ve gerçekten vazgeçmedi.", "en": "He said, 'I'll never give up,' and he really didn't give up."}
+      ]
+    },
+    {
+      "number": 48,
+      "title": "Everyday Reported Speech",
+      "titleNative": "Günlük Hayatta Aktarılan Sözler",
+      "items": [
+        {"tr": "'Bugün hava çok güzel' dedi.", "en": "He said, 'The weather is very nice today.'"},
+        {"tr": "'Bu restoran harika' diye duydum.", "en": "I heard someone say, 'This restaurant is great.'"},
+        {"tr": "'Yarın erken kalkmalıyız' dedi.", "en": "He said, 'We should get up early tomorrow.'"},
+        {"tr": "'Bunu birlikte yapalım' diye önerdi.", "en": "He suggested, 'Let's do this together.'"}
+      ]
+    },
+    {
+      "number": 49,
+      "title": "Reported Speech in a Story",
+      "titleNative": "Bir Hikayede Aktarılan Sözler",
+      "items": [
+        {"tr": "Bana 'seninle gurur duyuyorum' dedi ve gülümsedi.", "en": "He said to me, 'I'm proud of you,' and smiled."},
+        {"tr": "'Her şey iyi olacak' diye tekrarladı.", "en": "He kept repeating, 'Everything will be fine.'"},
+        {"tr": "'Asla pes etme' diye bağırdı.", "en": "He shouted, 'Never give up.'"},
+        {"tr": "Kendi kendime 'başarabilirim' dedim.", "en": "I said to myself, 'I can do it.'"}
+      ]
+    },
+    {
+      "number": 50,
+      "title": "Review: Reported Speech with diye",
+      "titleNative": "Tekrar: Diye ile Aktarılan Sözler",
+      "items": [
+        {"tr": "'Yarın görüşürüz' dedi.", "en": "He said, 'See you tomorrow.'"},
+        {"tr": "'Neden ağlıyorsun?' diye sordu.", "en": "He asked, 'Why are you crying?'"},
+        {"tr": "Geç kalırım diye erken çıktım.", "en": "I left early, thinking I might be late."},
+        {"tr": "'Her şeyi başarabiliriz' diye inanıyorum.", "en": "I believe, 'We can achieve everything.'"}
       ]
     }
   ]
