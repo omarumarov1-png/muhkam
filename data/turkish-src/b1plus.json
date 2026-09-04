@@ -70,6 +70,16 @@
         {"tr": "Bu iş zor mu?", "en": "Is this job hard?"},
         {"tr": "Düşündüğün kadar zor değil.", "en": "It's not as hard as you think."}
       ]
+    },
+    "b1plus-esi-gelmek": {
+      "title": "Feeling Like Doing: -esi gelmek",
+      "pattern": "verb stem + -esi/-ası + possessive + gelmek",
+      "explanation": "To say you suddenly feel like doing something, attach -esi (or -ası after back vowels) to the verb stem, add a possessive suffix, then follow with gelmek: 'Ağlayasım geldi' (I felt like crying), 'Gülesim geliyor' (I feel like laughing). It's a vivid, natural way to describe a sudden impulse, more colorful than plainly saying istiyorum.",
+      "fact": "Because gelmek (to come) is the finite verb here, it conjugates for tense normally while -esi+possessive stays fixed: 'içesim geldi' (I felt like drinking, past), 'içesim geliyor' (I feel like drinking, now), 'içesim gelecek' (I'll feel like drinking).",
+      "dialogue": [
+        {"tr": "Neden bu kadar sessizsin?", "en": "Why are you so quiet?"},
+        {"tr": "Bilmiyorum, hiçbir şey yapasım gelmiyor.", "en": "I don't know, I don't feel like doing anything."}
+      ]
     }
   },
   "lessons": [
@@ -848,6 +858,117 @@
         {"tr": "Bu, beklediğimden daha kolaydı.", "en": "This was easier than I expected."},
         {"tr": "Kardeşim kadar sabırlı değilim.", "en": "I'm not as patient as my brother."},
         {"tr": "Bu, gördüğüm en etkileyici performanstı.", "en": "This was the most impressive performance I've seen."}
+      ]
+    },
+    {
+      "number": 71,
+      "title": "Sudden Urges",
+      "titleNative": "Ani İstekler",
+      "topicId": "b1plus-esi-gelmek",
+      "items": [
+        {"tr": "Birden ağlayasım geldi.", "en": "Suddenly I felt like crying."},
+        {"tr": "Şimdi çok gülesim geliyor.", "en": "Right now I really feel like laughing."},
+        {"tr": "Bir kahve içesim geldi.", "en": "I felt like having a coffee."},
+        {"tr": "Bugün hiçbir şey yapasım gelmiyor.", "en": "Today I don't feel like doing anything."}
+      ]
+    },
+    {
+      "number": 72,
+      "title": "Cravings and Impulses",
+      "titleNative": "İçgüdüsel İstekler",
+      "items": [
+        {"tr": "Tatlı yiyesim geldi.", "en": "I felt like eating something sweet."},
+        {"tr": "Dışarı çıkasım geliyor.", "en": "I feel like going outside."},
+        {"tr": "Onunla hemen konuşasım geliyor.", "en": "I feel like talking to him right away."},
+        {"tr": "Bugün müzik dinleyesim gelmiyor.", "en": "Today I don't feel like listening to music."}
+      ]
+    },
+    {
+      "number": 73,
+      "title": "Well-Wishes and Hopes",
+      "titleNative": "İyi Dilekler ve Umutlar",
+      "items": [
+        {"tr": "İnşallah her şey yolunda gider.", "en": "Hopefully everything goes well."},
+        {"tr": "Umarım yakında görüşürüz.", "en": "I hope we see each other soon."},
+        {"tr": "İnşallah sınavda başarılı olursun.", "en": "Hopefully you succeed in the exam."},
+        {"tr": "Umarım hava güzel olur.", "en": "I hope the weather is nice."}
+      ]
+    },
+    {
+      "number": 74,
+      "title": "Wishes for Others",
+      "titleNative": "Başkalarına Dilekler",
+      "items": [
+        {"tr": "Geçmiş olsun, umarım çabuk iyileşirsin.", "en": "Get well soon, I hope you recover quickly."},
+        {"tr": "İyi şanslar, başarılar dilerim.", "en": "Good luck, I wish you success."},
+        {"tr": "Kolay gelsin, çok çalışıyorsun.", "en": "Take it easy, you're working hard."},
+        {"tr": "Güle güle kullan, yeni telefonun hayırlı olsun.", "en": "Enjoy it, congratulations on your new phone."}
+      ]
+    },
+    {
+      "number": 75,
+      "title": "Wishing Things Were Different",
+      "titleNative": "Farklı Olmasını Dilemek",
+      "items": [
+        {"tr": "Keşke şimdi tatilde olsaydım.", "en": "I wish I were on vacation right now."},
+        {"tr": "Keşke daha çok zamanımız olsaydı.", "en": "I wish we had more time."},
+        {"tr": "Keşke o gün orada olmasaydım.", "en": "I wish I hadn't been there that day."},
+        {"tr": "Keşke bu haberi daha erken duysaydım.", "en": "I wish I had heard this news earlier."}
+      ]
+    },
+    {
+      "number": 76,
+      "title": "Hopes for the Future",
+      "titleNative": "Gelecek İçin Umutlar",
+      "items": [
+        {"tr": "Umarım gelecek yıl daha iyi olur.", "en": "I hope next year turns out better."},
+        {"tr": "İnşallah hayallerimize ulaşırız.", "en": "Hopefully we reach our dreams."},
+        {"tr": "Umarım bu proje başarılı olur.", "en": "I hope this project is successful."},
+        {"tr": "İnşallah bir gün oraya gideriz.", "en": "Hopefully one day we'll go there."}
+      ]
+    },
+    {
+      "number": 77,
+      "title": "Combining Desire and Obligation",
+      "titleNative": "İstek ve Zorunluluğu Birleştirmek",
+      "items": [
+        {"tr": "Dinlenesim geliyor ama çalışmam gerekiyor.", "en": "I feel like resting, but I need to work."},
+        {"tr": "Tatile çıkasım geliyor, ama param yok.", "en": "I feel like going on vacation, but I don't have money."},
+        {"tr": "Uyuyasım geliyor ama bu işi bitirmeliyim.", "en": "I feel like sleeping but I need to finish this job."},
+        {"tr": "Pes edesim geliyor ama vazgeçmeyeceğim.", "en": "I feel like giving up but I won't quit."}
+      ]
+    },
+    {
+      "number": 78,
+      "title": "Expressing Longing",
+      "titleNative": "Özlem İfade Etmek",
+      "items": [
+        {"tr": "Seni çok özledim, görüşesim geldi.", "en": "I missed you a lot, I felt like seeing you."},
+        {"tr": "Eski günleri özlüyorum.", "en": "I miss the old days."},
+        {"tr": "Memleketimi çok özlüyorum, oraya gidesim geliyor.", "en": "I miss my hometown a lot, I feel like going there."},
+        {"tr": "Ailemi görmeyi çok istiyorum.", "en": "I really want to see my family."}
+      ]
+    },
+    {
+      "number": 79,
+      "title": "Everyday Wishes",
+      "titleNative": "Günlük Dilekler",
+      "items": [
+        {"tr": "İyi geceler, tatlı rüyalar dilerim.", "en": "Good night, sweet dreams."},
+        {"tr": "Afiyet olsun, ellerine sağlık.", "en": "Enjoy your meal, well done."},
+        {"tr": "Yolun açık olsun.", "en": "Have a safe journey."},
+        {"tr": "Umarım her şey planladığın gibi olur.", "en": "I hope everything turns out the way you planned."}
+      ]
+    },
+    {
+      "number": 80,
+      "title": "Review: Desire and Wishes",
+      "titleNative": "Tekrar: İstek ve Dilekler",
+      "items": [
+        {"tr": "Şimdi çok uyuyasım geliyor.", "en": "Right now I really feel like sleeping."},
+        {"tr": "İnşallah yakında buluşuruz.", "en": "Hopefully we meet soon."},
+        {"tr": "Keşke daha sabırlı olsaydım.", "en": "I wish I were more patient."},
+        {"tr": "Umarım hayallerin gerçek olur.", "en": "I hope your dreams come true."}
       ]
     }
   ]
