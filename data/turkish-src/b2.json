@@ -80,6 +80,16 @@
         {"tr": "Bu köprü ne zaman yapıldı?", "en": "When was this bridge built?"},
         {"tr": "1985'te yaptırıldı, belediye inşa ettirdi.", "en": "It was commissioned in 1985, the municipality had it built."}
       ]
+    },
+    "b2-extended-relatives": {
+      "title": "The Place/Time/Way That...: -DIğI yer, -DIğI zaman, -DIğI gibi",
+      "pattern": "-DIk + possessive + yer/zaman/gibi",
+      "explanation": "You already know -DIk builds relative clauses on nouns (the book I read) and noun clauses (that I read). The same participle combines directly with yer (place), zaman (time), and gibi (like/as) to build 'where,' 'when,' and 'as/like' clauses with no separate relative pronoun needed: 'Doğduğum yer burası' (The place I was born is here), 'Geldiğim zaman haber veririm' (When I arrive, I'll let you know), 'Dediğin gibi yaptım' (I did it as you said).",
+      "fact": "-DIğI zaman and the -DIğIndA form you met earlier (geldiğinde) mean almost the same thing ('when X'); -DIğI zaman is slightly more explicit and formal, -DIğIndA is more compact and very common in fast speech.",
+      "dialogue": [
+        {"tr": "Nerede büyüdün?", "en": "Where did you grow up?"},
+        {"tr": "Büyüdüğüm yer küçük bir sahil kasabası.", "en": "The place I grew up is a small coastal town."}
+      ]
     }
   },
   "lessons": [
@@ -969,6 +979,117 @@
         {"tr": "Mektup avukata yazdırıldı.", "en": "The letter was had-written by a lawyer."},
         {"tr": "Saçım geçen hafta kestirildi.", "en": "My hair was had-cut last week."},
         {"tr": "Kurallar herkese bildirildi.", "en": "The rules were announced to everyone."}
+      ]
+    },
+    {
+      "number": 81,
+      "title": "The Place Where",
+      "titleNative": "-DIğI Yer",
+      "topicId": "b2-extended-relatives",
+      "items": [
+        {"tr": "Doğduğum yer küçük bir köy.", "en": "The place I was born is a small village."},
+        {"tr": "Çalıştığım yer şehir merkezinde.", "en": "The place I work is in the city center."},
+        {"tr": "Büyüdüğüm yeri çok özlüyorum.", "en": "I miss the place I grew up in a lot."},
+        {"tr": "Tatil yaptığımız yer gerçekten çok güzeldi.", "en": "The place we vacationed was really beautiful."}
+      ]
+    },
+    {
+      "number": 82,
+      "title": "The Time When",
+      "titleNative": "-DIğI Zaman",
+      "items": [
+        {"tr": "Eve geldiğim zaman herkes uyuyordu.", "en": "When I came home, everyone was sleeping."},
+        {"tr": "Onu ilk gördüğüm zaman çok gençti.", "en": "When I first saw him, he was very young."},
+        {"tr": "Zor bir durumla karşılaştığım zaman sakin kalmaya çalışırım.", "en": "When I face a difficult situation, I try to stay calm."},
+        {"tr": "Vaktim olduğu zaman kitap okumayı severim.", "en": "When I have time, I like to read books."}
+      ]
+    },
+    {
+      "number": 83,
+      "title": "As / Like",
+      "titleNative": "-DIğI Gibi",
+      "items": [
+        {"tr": "Dediğin gibi yaptım.", "en": "I did it as you said."},
+        {"tr": "Beklediğim gibi çıkmadı.", "en": "It didn't turn out as I expected."},
+        {"tr": "Söylediğim gibi bu iş kolay değil.", "en": "As I said, this job isn't easy."},
+        {"tr": "Planladığımız gibi gitmedi.", "en": "It didn't go as we planned."}
+      ]
+    },
+    {
+      "number": 84,
+      "title": "Combining Place, Time, and Manner",
+      "titleNative": "Yer, Zaman ve Şekli Birleştirmek",
+      "items": [
+        {"tr": "Onunla tanıştığım yer ve zaman hâlâ aklımda.", "en": "The place and time I met him are still in my mind."},
+        {"tr": "Her şey düşündüğüm gibi oldu, tam zamanında bitti.", "en": "Everything turned out as I thought, it finished right on time."},
+        {"tr": "Yaşadığım yerde kışlar çok sert geçiyor.", "en": "Winters are very harsh where I live."},
+        {"tr": "Konuştuğumuz gibi yarın buluşalım.", "en": "Let's meet tomorrow as we discussed."}
+      ]
+    },
+    {
+      "number": 85,
+      "title": "Describing Memories",
+      "titleNative": "Anıları Betimlemek",
+      "items": [
+        {"tr": "İlk tanıştığımız yeri hiç unutmadım.", "en": "I never forgot the place we first met."},
+        {"tr": "Mezun olduğum zaman çok gururluydum.", "en": "When I graduated, I was very proud."},
+        {"tr": "Çocukken oynadığım yerler artık yok.", "en": "The places I used to play as a child no longer exist."},
+        {"tr": "Hayal ettiğim gibi bir hayatım oldu.", "en": "I had a life just as I imagined."}
+      ]
+    },
+    {
+      "number": 86,
+      "title": "Instructions and Explanations",
+      "titleNative": "Talimatlar ve Açıklamalar",
+      "items": [
+        {"tr": "Sana gösterdiğim gibi yap.", "en": "Do it as I showed you."},
+        {"tr": "Anlattığım gibi anlaşıldı mı?", "en": "Was it understood the way I explained it?"},
+        {"tr": "Kullanma kılavuzunda yazdığı gibi kurdum.", "en": "I set it up the way it's written in the manual."},
+        {"tr": "İstediğin yerde buluşabiliriz.", "en": "We can meet wherever you want."}
+      ]
+    },
+    {
+      "number": 87,
+      "title": "Uncertainty About Place and Time",
+      "titleNative": "Yer ve Zaman Hakkında Belirsizlik",
+      "items": [
+        {"tr": "Nereye gittiğini bilmiyorum.", "en": "I don't know where he went."},
+        {"tr": "Ne zaman döneceğini bilmiyorum.", "en": "I don't know when he'll return."},
+        {"tr": "Bunu nasıl yaptığını anlamıyorum.", "en": "I don't understand how he did this."},
+        {"tr": "Nerede olduğunu kimse bilmiyor.", "en": "Nobody knows where he is."}
+      ]
+    },
+    {
+      "number": 88,
+      "title": "Complex Sentences with Extended Relatives",
+      "titleNative": "Genişletilmiş Yapılarla Karmaşık Cümleler",
+      "items": [
+        {"tr": "Doğduğum yerde herkes birbirini tanır.", "en": "In the place I was born, everyone knows each other."},
+        {"tr": "İhtiyacım olduğu zaman hep yanımda oldu.", "en": "Whenever I needed him, he was always by my side."},
+        {"tr": "Anlattığın gibi bir insan hiç görmedim.", "en": "I've never seen a person like the one you described."},
+        {"tr": "Yaşadığımız yerde her şey çok pahalı.", "en": "Where we live, everything is very expensive."}
+      ]
+    },
+    {
+      "number": 89,
+      "title": "Talking About the Future with These Structures",
+      "titleNative": "Bu Yapılarla Gelecekten Bahsetmek",
+      "items": [
+        {"tr": "Vardığımız yerde bize rehberlik edecekler.", "en": "At the place we arrive, they'll guide us."},
+        {"tr": "Hazır olduğun zaman haber ver.", "en": "Let me know when you're ready."},
+        {"tr": "Planladığımız gibi gidecek.", "en": "It's going to go as we planned."},
+        {"tr": "İstediğin zaman beni arayabilirsin.", "en": "You can call me whenever you want."}
+      ]
+    },
+    {
+      "number": 90,
+      "title": "Review: -DIğI yer/zaman/gibi",
+      "titleNative": "Tekrar: -DIğI Yer/Zaman/Gibi",
+      "items": [
+        {"tr": "Büyüdüğüm yer çok değişti.", "en": "The place I grew up has changed a lot."},
+        {"tr": "Onu son gördüğüm zaman çok mutluydu.", "en": "The last time I saw him, he was very happy."},
+        {"tr": "Her şey planladığımız gibi gitti.", "en": "Everything went as we planned."},
+        {"tr": "Yaşadığım yerde insanlar çok yardımsever.", "en": "Where I live, people are very helpful."}
       ]
     }
   ]
