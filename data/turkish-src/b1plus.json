@@ -80,6 +80,16 @@
         {"tr": "Neden bu kadar sessizsin?", "en": "Why are you so quiet?"},
         {"tr": "Bilmiyorum, hiçbir şey yapasım gelmiyor.", "en": "I don't know, I don't feel like doing anything."}
       ]
+    },
+    "b1plus-causative": {
+      "title": "Causative Voice: -t, -DIr, and Irregular Forms",
+      "pattern": "vowel/l/r-final polysyllabic stem + -t (okutmak); most other stems + -DIr/-tIr (yaptırmak); a closed set of monosyllabic verbs are irregular (pişirmek, korkutmak) or fully suppletive (getirmek, götürmek, göstermek)",
+      "explanation": "The causative voice means 'make/have someone do X.' Polysyllabic vowel-, l-, or r-final stems take -t: oku-t-mak (have someone read), büyü-t-mek (raise/grow something), kızar-t-mak (fry). Most other stems take the productive -DIr/-tIr (4-way harmony + voicing): yap-tır-mak (have made), yaz-dır-mak (have written), kes-tir-mek (have cut). A small closed set of common monosyllabic verbs is irregular and must be learned individually: pişmek→pişirmek (cook), içmek→içirmek (make drink), korkmak→korkutmak (scare), kaçmak→kaçırmak (miss/cause to flee). A few pairs are fully suppletive, unrelated words: gelmek→getirmek (bring), gitmek→götürmek (take/carry), görmek→göstermek (show), öğrenmek→öğretmek (teach).",
+      "fact": "uyumak looks monosyllabic but is historically vowel-final (uyu-), so it follows the REGULAR -t pattern: uyutmak (put to sleep) — don't confuse it with the irregular pişirmek-type list just because it sounds short.",
+      "dialogue": [
+        {"tr": "Çocuğu neden ağlattın?", "en": "Why did you make the child cry?"},
+        {"tr": "Ben ağlatmadım, kendi düştü.", "en": "I didn't make him cry, he fell by himself."}
+      ]
     }
   },
   "lessons": [
@@ -969,6 +979,117 @@
         {"tr": "İnşallah yakında buluşuruz.", "en": "Hopefully we meet soon."},
         {"tr": "Keşke daha sabırlı olsaydım.", "en": "I wish I were more patient."},
         {"tr": "Umarım hayallerin gerçek olur.", "en": "I hope your dreams come true."}
+      ]
+    },
+    {
+      "number": 81,
+      "title": "Making Someone Do Something (-t)",
+      "titleNative": "-t ile Yaptırmak",
+      "topicId": "b1plus-causative",
+      "items": [
+        {"tr": "Öğretmen bize kitabı okuttu.", "en": "The teacher had us read the book."},
+        {"tr": "Çocuğu ağlattı.", "en": "He made the child cry."},
+        {"tr": "Bitkiyi büyüttüm.", "en": "I grew the plant."},
+        {"tr": "Eti kızarttım.", "en": "I fried the meat."}
+      ]
+    },
+    {
+      "number": 82,
+      "title": "Having Something Done (-DIr/-tIr)",
+      "titleNative": "-DIr/-tIr ile Yaptırmak",
+      "items": [
+        {"tr": "Arabamı tamir yaptırdım.", "en": "I had my car repaired."},
+        {"tr": "Evi boyattım.", "en": "I had the house painted."},
+        {"tr": "Saçımı kestirdim.", "en": "I had my hair cut."},
+        {"tr": "Mektubu yazdırdım.", "en": "I had the letter written."}
+      ]
+    },
+    {
+      "number": 83,
+      "title": "Irregular Causatives: Cooking and Drinking",
+      "titleNative": "Düzensiz Ettirgenler: Pişirmek ve İçirmek",
+      "items": [
+        {"tr": "Annem bize yemek pişirdi.", "en": "My mom cooked us food."},
+        {"tr": "Bebeğe süt içirdim.", "en": "I gave the baby milk to drink."},
+        {"tr": "Ona ilacını içirmek zor oldu.", "en": "It was hard to make him drink his medicine."},
+        {"tr": "Misafirlere çay içirdik.", "en": "We served the guests tea."}
+      ]
+    },
+    {
+      "number": 84,
+      "title": "Irregular Causatives: Fear and Escape",
+      "titleNative": "Düzensiz Ettirgenler: Korkutmak ve Kaçırmak",
+      "items": [
+        {"tr": "Onu çok korkuttun.", "en": "You scared him a lot."},
+        {"tr": "Bu film beni gerçekten korkuttu.", "en": "This movie really scared me."},
+        {"tr": "Otobüsü kaçırdım.", "en": "I missed the bus."},
+        {"tr": "Kuşu kaçırmayalım, sessiz olalım.", "en": "Let's not scare the bird away, let's be quiet."}
+      ]
+    },
+    {
+      "number": 85,
+      "title": "Fully Suppletive Causatives",
+      "titleNative": "Tamamen Farklı Ettirgen Fiiller",
+      "items": [
+        {"tr": "Bana bir bardak su getir.", "en": "Bring me a glass of water."},
+        {"tr": "Bavulları arabaya götürdüm.", "en": "I took the suitcases to the car."},
+        {"tr": "Bize yeni projeyi gösterdi.", "en": "He showed us the new project."},
+        {"tr": "Misafirlere odalarını gösterdim.", "en": "I showed the guests their rooms."}
+      ]
+    },
+    {
+      "number": 86,
+      "title": "Causative in Daily Life",
+      "titleNative": "Günlük Hayatta Ettirgen Çatı",
+      "items": [
+        {"tr": "Annem beni erken kaldırdı.", "en": "My mom made me get up early."},
+        {"tr": "Öğretmen öğrencilere ödev yaptırdı.", "en": "The teacher had the students do homework."},
+        {"tr": "Patronum bana raporu yazdırdı.", "en": "My boss had me write the report."},
+        {"tr": "Bize yeni kuralları öğretti.", "en": "He taught us the new rules."}
+      ]
+    },
+    {
+      "number": 87,
+      "title": "Causative for Emotional Effect",
+      "titleNative": "Duygusal Etki İçin Ettirgen Çatı",
+      "items": [
+        {"tr": "Bu haber beni çok düşündürdü.", "en": "This news made me think a lot."},
+        {"tr": "Bu haber onu çok sevindirdi.", "en": "This news made him very happy."},
+        {"tr": "Bu şaka herkesi güldürdü.", "en": "This joke made everyone laugh."},
+        {"tr": "Bu haber beni şaşırttı.", "en": "This news surprised me."}
+      ]
+    },
+    {
+      "number": 88,
+      "title": "Causative Feelings, Continued",
+      "titleNative": "Ettirgen Duygular, Devamı",
+      "items": [
+        {"tr": "Bu müzik beni rahatlattı.", "en": "This music relaxed me."},
+        {"tr": "Bu haber herkesi endişelendirdi.", "en": "This news worried everyone."},
+        {"tr": "Bu durum beni sinirlendirdi.", "en": "This situation made me angry."},
+        {"tr": "Onun sözleri beni utandırdı.", "en": "His words embarrassed me."}
+      ]
+    },
+    {
+      "number": 89,
+      "title": "Causative Verbs Working Together",
+      "titleNative": "Birlikte Çalışan Ettirgen Fiiller",
+      "items": [
+        {"tr": "Annem bana yemek pişirmeyi öğretti.", "en": "My mom taught me how to cook."},
+        {"tr": "Öğretmen bize kitabı okutup sonra yazdırdı.", "en": "The teacher had us read the book and then had us write."},
+        {"tr": "Çocuğu doktora götürdüm.", "en": "I took the child to the doctor."},
+        {"tr": "Bize yeni bir oyun gösterdi.", "en": "He showed us a new game."}
+      ]
+    },
+    {
+      "number": 90,
+      "title": "Review: Causative Voice",
+      "titleNative": "Tekrar: Ettirgen Çatı",
+      "items": [
+        {"tr": "Öğretmen öğrencilere kitabı okuttu.", "en": "The teacher had the students read the book."},
+        {"tr": "Annem bize yemek pişirdi.", "en": "My mom cooked us food."},
+        {"tr": "Bu haber beni çok şaşırttı.", "en": "This news surprised me a lot."},
+        {"tr": "Bavulları arabaya götürdüm.", "en": "I took the suitcases to the car."}
       ]
     }
   ]
