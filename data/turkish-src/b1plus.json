@@ -50,6 +50,16 @@
         {"tr": "Ne dedi?", "en": "What did he say?"},
         {"tr": "'Yarın gelirim' dedi.", "en": "He said, 'I'll come tomorrow.'"}
       ]
+    },
+    "b1plus-indefinites": {
+      "title": "Indefinite Pronouns and Quantifiers",
+      "pattern": "her/herkes/herhangi bir/hiç/hiçbir/hiç kimse/birkaç/birçok/bazı + noun",
+      "explanation": "her (every) + noun, herkes (everyone), herhangi bir (any/whichever), hiç (not... any/never, used with a negative verb), hiçbir (not a single), hiç kimse (nobody), birkaç (a few), birçok (many), bazı (some). her and hiçbir attach directly before a singular noun; birkaç/birçok/bazı can take a plural noun.",
+      "fact": "hiç alone (without bir) means 'at all / ever' and pairs with a negative verb: 'Hiç gitmedim' (I've never been), while hiçbir specifically means 'not a single X': 'Hiçbir şey anlamadım' (I understood nothing at all).",
+      "dialogue": [
+        {"tr": "Bu konuda hiç fikrin var mı?", "en": "Do you have any idea about this?"},
+        {"tr": "Hayır, hiçbir fikrim yok.", "en": "No, I have no idea at all."}
+      ]
     }
   },
   "lessons": [
@@ -606,6 +616,117 @@
         {"tr": "'Neden ağlıyorsun?' diye sordu.", "en": "He asked, 'Why are you crying?'"},
         {"tr": "Geç kalırım diye erken çıktım.", "en": "I left early, thinking I might be late."},
         {"tr": "'Her şeyi başarabiliriz' diye inanıyorum.", "en": "I believe, 'We can achieve everything.'"}
+      ]
+    },
+    {
+      "number": 51,
+      "title": "Every and Everyone",
+      "titleNative": "Her ve Herkes",
+      "topicId": "b1plus-indefinites",
+      "items": [
+        {"tr": "Her insan farklıdır.", "en": "Every person is different."},
+        {"tr": "Herkes kendi hayatını yaşar.", "en": "Everyone lives their own life."},
+        {"tr": "Her sabah spor yaparım.", "en": "I exercise every morning."},
+        {"tr": "Her öğrenci farklı öğrenir.", "en": "Every student learns differently."}
+      ]
+    },
+    {
+      "number": 52,
+      "title": "Any / Whichever",
+      "titleNative": "Herhangi Bir",
+      "items": [
+        {"tr": "Herhangi bir kitap okuyabilirsin.", "en": "You can read any book."},
+        {"tr": "Herhangi bir sorun olursa beni ara.", "en": "If there's any problem, call me."},
+        {"tr": "Herhangi bir zamanda gelebilirsin.", "en": "You can come at any time."},
+        {"tr": "Herhangi biri yardım edebilir mi?", "en": "Can anyone help?"}
+      ]
+    },
+    {
+      "number": 53,
+      "title": "Nothing At All",
+      "titleNative": "Hiçbir Şey",
+      "items": [
+        {"tr": "Hiçbir şey anlamadım.", "en": "I understood nothing at all."},
+        {"tr": "Hiçbir yere gitmek istemiyorum.", "en": "I don't want to go anywhere."},
+        {"tr": "Bu konuda hiçbir fikrim yok.", "en": "I have no idea at all about this."},
+        {"tr": "Hiçbir zaman pes etmedim.", "en": "I never gave up, not once."}
+      ]
+    },
+    {
+      "number": 54,
+      "title": "Nobody",
+      "titleNative": "Hiç Kimse",
+      "items": [
+        {"tr": "Hiç kimse bunu bilmiyor.", "en": "Nobody knows this."},
+        {"tr": "Bu odada hiç kimse yok.", "en": "There's nobody in this room."},
+        {"tr": "Hiç kimseyle konuşmak istemiyorum.", "en": "I don't want to talk to anyone."},
+        {"tr": "Hiç kimse mükemmel değildir.", "en": "Nobody is perfect."}
+      ]
+    },
+    {
+      "number": 55,
+      "title": "Ever / At All",
+      "titleNative": "Hiç",
+      "items": [
+        {"tr": "Bu konuda hiç fikrin var mı?", "en": "Do you have any idea about this?"},
+        {"tr": "İstanbul'a hiç gittin mi?", "en": "Have you ever been to Istanbul?"},
+        {"tr": "Bu filmi hiç izlemedim.", "en": "I've never watched this movie."},
+        {"tr": "Hiç böyle bir şey görmedim.", "en": "I've never seen such a thing."}
+      ]
+    },
+    {
+      "number": 56,
+      "title": "A Few",
+      "titleNative": "Birkaç",
+      "items": [
+        {"tr": "Birkaç dakika bekleyebilir misin?", "en": "Can you wait a few minutes?"},
+        {"tr": "Bize birkaç soru sordu.", "en": "He asked us a few questions."},
+        {"tr": "Birkaç arkadaşımla buluşacağım.", "en": "I'm going to meet a few friends."},
+        {"tr": "Birkaç gün sonra döneceğim.", "en": "I'll be back in a few days."}
+      ]
+    },
+    {
+      "number": 57,
+      "title": "Many",
+      "titleNative": "Birçok",
+      "items": [
+        {"tr": "Birçok insan bu şehirde yaşıyor.", "en": "Many people live in this city."},
+        {"tr": "Bu konuda birçok görüş var.", "en": "There are many opinions about this."},
+        {"tr": "Birçok kez seni aradım.", "en": "I called you many times."},
+        {"tr": "Hayatımda birçok şey öğrendim.", "en": "I've learned many things in my life."}
+      ]
+    },
+    {
+      "number": 58,
+      "title": "Some",
+      "titleNative": "Bazı",
+      "items": [
+        {"tr": "Bazı insanlar erken kalkmayı sever.", "en": "Some people like to get up early."},
+        {"tr": "Bazı günler çok yorgun hissediyorum.", "en": "Some days I feel very tired."},
+        {"tr": "Bazı sorular cevapsız kalır.", "en": "Some questions remain unanswered."},
+        {"tr": "Bazılarımız hemfikir değil.", "en": "Some of us don't agree."}
+      ]
+    },
+    {
+      "number": 59,
+      "title": "Combining Quantifiers",
+      "titleNative": "Belirsizlik Sözcüklerini Birleştirmek",
+      "items": [
+        {"tr": "Bazı insanlar her şeyi bilir, ama hiç kimse mükemmel değildir.", "en": "Some people know everything, but nobody is perfect."},
+        {"tr": "Birçok kişi denedi, ama birkaçı başardı.", "en": "Many people tried, but only a few succeeded."},
+        {"tr": "Herhangi bir zamanda gelebilirsin, ama hiçbir zaman geç kalma.", "en": "You can come anytime, but never be late."},
+        {"tr": "Bazı günler kolay, bazı günler zordur.", "en": "Some days are easy, some days are hard."}
+      ]
+    },
+    {
+      "number": 60,
+      "title": "Review: Indefinite Pronouns",
+      "titleNative": "Tekrar: Belirsizlik Zamirleri",
+      "items": [
+        {"tr": "Herkes farklı bir hayat yaşar.", "en": "Everyone lives a different life."},
+        {"tr": "Hiçbir şey imkansız değildir.", "en": "Nothing is impossible."},
+        {"tr": "Birkaç kişiyle konuştum, birçoğu aynı şeyi düşünüyor.", "en": "I talked to a few people, most of them think the same thing."},
+        {"tr": "Bazı şeyler zamanla değişir, bazıları hiç değişmez.", "en": "Some things change over time, some never change."}
       ]
     }
   ]
