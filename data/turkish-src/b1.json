@@ -60,6 +60,16 @@
         {"tr": "Bu iş ne zaman bitecek?", "en": "When will this work be finished?"},
         {"tr": "Yarına kadar tamamlanacak.", "en": "It will be completed by tomorrow."}
       ]
+    },
+    "b1-conditional": {
+      "title": "Conditional (-sE)",
+      "pattern": "stem + -sE (harmonized: se/sa) + personal ending",
+      "explanation": "-sE builds 'if' clauses: gel-se-m (if I come/came), ol-sa (if it is/were). It starts with a consonant, so unlike -Iyor/-EcEk/-En it never triggers the git-/gid- style softening. Hypothetical RESULT clauses ('I would go') typically pair the aorist with the past copula: gid-er-di-m (I would go) -- so a full hypothetical sentence often combines two different tenses, one for the condition and one for the imagined result.",
+      "fact": "'Keşke' (if only / I wish) is used with -sE for wishes about the present/future (keşke bilsem, I wish I knew) and with -sEydi for regrets about the past (keşke bilseydim, I wish I had known).",
+      "dialogue": [
+        {"tr": "Param olsa ne yapardın?", "en": "What would you do if you had money?"},
+        {"tr": "Dünyayı dolaşırdım.", "en": "I would travel around the world."}
+      ]
     }
   },
   "lessons": [
@@ -727,6 +737,117 @@
         {"tr": "Kurallara uyulmalı.", "en": "Rules should be followed."},
         {"tr": "Sorunlar zamanla çözülür.", "en": "Problems get solved over time."},
         {"tr": "Emek her zaman takdir edilmeli.", "en": "Effort should always be appreciated."}
+      ]
+    },
+    {
+      "number": 61,
+      "title": "If I...",
+      "titleNative": "Eğer...sem",
+      "topicId": "b1-conditional",
+      "items": [
+        {"tr": "Param olsa, seyahat ederdim.", "en": "If I had money, I would travel."},
+        {"tr": "Vaktim olsa, kitap okurdum.", "en": "If I had time, I would read a book."},
+        {"tr": "Hava güzel olsa, parka giderdim.", "en": "If the weather were nice, I would go to the park."},
+        {"tr": "Sen burada olsan, daha mutlu olurdum.", "en": "If you were here, I would be happier."}
+      ]
+    },
+    {
+      "number": 62,
+      "title": "If You...",
+      "titleNative": "Eğer...sen",
+      "items": [
+        {"tr": "Çok çalışsan, başarılı olurdun.", "en": "If you worked hard, you would be successful."},
+        {"tr": "Bana yazsan, cevap verirdim.", "en": "If you wrote to me, I would answer."},
+        {"tr": "Daha dikkatli olsan, hata yapmazdın.", "en": "If you were more careful, you wouldn't make mistakes."},
+        {"tr": "İstesen, sana yardım ederim.", "en": "If you want, I'll help you."}
+      ]
+    },
+    {
+      "number": 63,
+      "title": "If the Weather...",
+      "titleNative": "Hava...sa",
+      "items": [
+        {"tr": "Hava kötü olsa, evde kalırım.", "en": "If the weather is bad, I'll stay home."},
+        {"tr": "Trafik yoğun olsa, geç kalırım.", "en": "If traffic is heavy, I'll be late."},
+        {"tr": "Hava soğusa, üşürüm.", "en": "If the weather gets cold, I'll feel cold."},
+        {"tr": "Hava değişse, planlarımızı değiştiririz.", "en": "If the weather changes, we'll change our plans."}
+      ]
+    },
+    {
+      "number": 64,
+      "title": "If He...",
+      "titleNative": "O...se",
+      "items": [
+        {"tr": "O gelse, çok sevinirim.", "en": "If he comes, I'll be very happy."},
+        {"tr": "O çok çalışsa, başarılı olur.", "en": "If he works hard, he'll be successful."},
+        {"tr": "Hava izin verse, pikniğe gideriz.", "en": "If the weather permits, we'll go on a picnic."},
+        {"tr": "Zaman bulsa, bize gelir.", "en": "If he finds time, he'll come to us."}
+      ]
+    },
+    {
+      "number": 65,
+      "title": "Wishes with Keşke",
+      "titleNative": "Keşke ile Dilekler",
+      "items": [
+        {"tr": "Keşke daha çok zamanım olsa.", "en": "I wish I had more time."},
+        {"tr": "Keşke Türkçeyi daha iyi bilsem.", "en": "I wish I knew Turkish better."},
+        {"tr": "Keşke o gün orada olmasaydım.", "en": "I wish I hadn't been there that day."},
+        {"tr": "Keşke herkes birbirini anlasa.", "en": "I wish everyone understood each other."}
+      ]
+    },
+    {
+      "number": 66,
+      "title": "Real Conditions",
+      "titleNative": "Gerçek Koşullar",
+      "items": [
+        {"tr": "Yarın hava güzel olursa, pikniğe gideriz.", "en": "If the weather is nice tomorrow, we'll go on a picnic."},
+        {"tr": "Vaktin olursa, beni ara.", "en": "If you have time, call me."},
+        {"tr": "Erken gelirsen, birlikte otururuz.", "en": "If you come early, we'll sit together."},
+        {"tr": "Yardıma ihtiyacın olursa, buradayım.", "en": "If you need help, I'm here."}
+      ]
+    },
+    {
+      "number": 67,
+      "title": "Conditional Advice",
+      "titleNative": "Koşullu Tavsiye",
+      "items": [
+        {"tr": "Ben senin yerinde olsam, özür dilerdim.", "en": "If I were in your place, I would apologize."},
+        {"tr": "Yorgunsan, dinlenmelisin.", "en": "If you're tired, you should rest."},
+        {"tr": "Emin değilsen, bana sor.", "en": "If you're not sure, ask me."},
+        {"tr": "Zorlanıyorsan, yardım iste.", "en": "If you're struggling, ask for help."}
+      ]
+    },
+    {
+      "number": 68,
+      "title": "If Only",
+      "titleNative": "Sadece...sa",
+      "items": [
+        {"tr": "Biraz daha çalışsan, çok iyi olur.", "en": "If you work a little more, it will be very good."},
+        {"tr": "Tek bir şey değişse, her şey farklı olurdu.", "en": "If just one thing changed, everything would be different."},
+        {"tr": "Biraz daha sabırlı olsan, iyi olur.", "en": "If you were a little more patient, it would be good."},
+        {"tr": "Keşke bunu daha önce bilseydim.", "en": "I wish I had known this earlier."}
+      ]
+    },
+    {
+      "number": 69,
+      "title": "Conditional Questions",
+      "titleNative": "Koşullu Sorular",
+      "items": [
+        {"tr": "Param olsa ne yapardın?", "en": "What would you do if you had money?"},
+        {"tr": "Zamanın olsa nereye giderdin?", "en": "Where would you go if you had time?"},
+        {"tr": "Sen olsan ne derdin?", "en": "What would you say if you were me?"},
+        {"tr": "Bu fırsatı kaçırsan pişman olur musun?", "en": "Would you regret it if you missed this opportunity?"}
+      ]
+    },
+    {
+      "number": 70,
+      "title": "Review: Conditional",
+      "titleNative": "Tekrar: Koşul Kipi",
+      "items": [
+        {"tr": "Param olsa, seyahat ederdim.", "en": "If I had money, I would travel."},
+        {"tr": "Çok çalışsan, başarılı olurdun.", "en": "If you worked hard, you would be successful."},
+        {"tr": "Hava güzel olursa, parka gideriz.", "en": "If the weather is nice, we'll go to the park."},
+        {"tr": "Keşke daha çok zamanım olsaydı.", "en": "I wish I had had more time."}
       ]
     }
   ]
