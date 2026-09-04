@@ -60,6 +60,16 @@
         {"tr": "Neden bu kadar erken ayrıldın?", "en": "Why did you leave so early?"},
         {"tr": "Zaten yorgundum, üstelik yarın erken kalkmam gerekiyordu.", "en": "I was already tired, and on top of that, I had to get up early tomorrow."}
       ]
+    },
+    "b2plus-mis-hearsay": {
+      "title": "Hearsay and Rumor: Extended -mIş",
+      "pattern": "verb + -mIş (+ -mIş chains); duyduğuma göre / söylentiye göre + -mIş clause",
+      "explanation": "You've used -mIş for evidential/inferential past (things you didn't witness directly but conclude from evidence). The same suffix is also Turkish's main way to report RUMOR or hearsay — things you only know because someone told you, with no personal confirmation: 'Yarın toplantı iptal olmuşmuş' (Apparently the meeting has been canceled, so I've heard). Framing phrases like duyduğuma göre (from what I've heard) or söylentiye göre (according to rumor) make the secondhand source explicit.",
+      "fact": "Doubling -mIş (olmuşmuş, gelmişmiş) specifically marks something you heard SECONDHAND, distinct from a single -mIş, which can be your own inference from evidence you saw yourself — the double marks 'I'm just repeating what I was told,' often with a hint of skepticism or distance.",
+      "dialogue": [
+        {"tr": "Duydun mu, yeni bir şube açılıyormuş.", "en": "Did you hear, apparently a new branch is opening."},
+        {"tr": "Gerçekten mi? Kimden duydun?", "en": "Really? Who did you hear it from?"}
+      ]
     }
   },
   "lessons": [
@@ -727,6 +737,117 @@
         {"tr": "Herkes memnun kaldı, hatta en zor müşteri bile.", "en": "Everyone was pleased, even the most difficult customer."},
         {"tr": "İşte bu yüzden buradayız.", "en": "That's exactly why we're here."},
         {"tr": "Tabii ki her şeyi anlıyorum.", "en": "Of course I understand everything."}
+      ]
+    },
+    {
+      "number": 61,
+      "title": "Basic Hearsay with -mIş",
+      "titleNative": "-mIş ile Temel Duyum",
+      "topicId": "b2plus-mis-hearsay",
+      "items": [
+        {"tr": "Yarın toplantı iptal olmuşmuş.", "en": "Apparently the meeting has been canceled."},
+        {"tr": "Yeni bir şube açılıyormuş.", "en": "Apparently a new branch is opening."},
+        {"tr": "O, işten ayrılmış.", "en": "Apparently he left the job."},
+        {"tr": "Fiyatlar yine artmış.", "en": "Apparently prices have gone up again."}
+      ]
+    },
+    {
+      "number": 62,
+      "title": "According to What I Heard",
+      "titleNative": "Duyduğuma Göre",
+      "items": [
+        {"tr": "Duyduğuma göre yarın hava çok soğuk olacakmış.", "en": "From what I've heard, tomorrow it's going to be very cold."},
+        {"tr": "Duyduğuma göre onlar taşınıyormuş.", "en": "From what I've heard, they're moving."},
+        {"tr": "Duyduğuma göre bu restoran çok pahalıymış.", "en": "From what I've heard, this restaurant is very expensive."},
+        {"tr": "Duyduğuma göre proje ertelenmiş.", "en": "From what I've heard, the project has been postponed."}
+      ]
+    },
+    {
+      "number": 63,
+      "title": "According to Rumor",
+      "titleNative": "Söylentiye Göre",
+      "items": [
+        {"tr": "Söylentiye göre şirket satılıyormuş.", "en": "According to rumor, the company is being sold."},
+        {"tr": "Söylentiye göre yeni bir yasa çıkacakmış.", "en": "According to rumor, a new law will come out."},
+        {"tr": "Söylentiye göre o ikisi ayrılmış.", "en": "According to rumor, those two have broken up."},
+        {"tr": "Söylentiye göre fiyatlar düşecekmiş.", "en": "According to rumor, prices will fall."}
+      ]
+    },
+    {
+      "number": 64,
+      "title": "Gossip and Everyday Rumor",
+      "titleNative": "Dedikodu ve Günlük Söylenti",
+      "items": [
+        {"tr": "Duydun mu, komşumuz taşınıyormuş.", "en": "Did you hear, apparently our neighbor is moving."},
+        {"tr": "Onlar evleniyormuş, öyle duydum.", "en": "Apparently they're getting married, that's what I heard."},
+        {"tr": "Kızmış, çok üzülmüş diye duydum.", "en": "Apparently he got angry and was very upset, that's what I heard."},
+        {"tr": "O restoran kapanmış, gerçek mi bilmiyorum.", "en": "Apparently that restaurant closed, I don't know if it's true."}
+      ]
+    },
+    {
+      "number": 65,
+      "title": "Doubting Hearsay",
+      "titleNative": "Duyumdan Şüphe Etmek",
+      "items": [
+        {"tr": "Öyle söylüyorlar ama emin değilim.", "en": "That's what they say, but I'm not sure."},
+        {"tr": "Duydum ama pek inanmıyorum.", "en": "I heard it, but I don't quite believe it."},
+        {"tr": "Bu haberin doğru olduğundan emin değilim.", "en": "I'm not sure this news is true."},
+        {"tr": "Belki doğrudur, belki de sadece söylenti.", "en": "Maybe it's true, or maybe it's just a rumor."}
+      ]
+    },
+    {
+      "number": 66,
+      "title": "News and Media Hearsay",
+      "titleNative": "Haber ve Medyada Duyum",
+      "items": [
+        {"tr": "Habere göre deprem büyükmüş.", "en": "According to the news, the earthquake was big."},
+        {"tr": "Gazeteye göre yeni bir anlaşma imzalanmış.", "en": "According to the newspaper, a new agreement has been signed."},
+        {"tr": "Televizyonda söylediklerine göre hava kötüleşecekmiş.", "en": "According to what they said on TV, the weather will get worse."},
+        {"tr": "Habere göre birçok kişi etkilenmiş.", "en": "According to the news, many people were affected."}
+      ]
+    },
+    {
+      "number": 67,
+      "title": "Hearsay About People",
+      "titleNative": "İnsanlar Hakkında Duyum",
+      "items": [
+        {"tr": "Duyduğuma göre o çok yetenekliymiş.", "en": "From what I've heard, he's very talented."},
+        {"tr": "Onun hakkında iyi şeyler duymuşum.", "en": "I've heard good things about him."},
+        {"tr": "Çok başarılı biriymiş, herkes öyle söylüyor.", "en": "He's apparently a very successful person, everyone says so."},
+        {"tr": "Eskiden burada yaşarmış.", "en": "Apparently he used to live here."}
+      ]
+    },
+    {
+      "number": 68,
+      "title": "Combining Hearsay with Doubt and Certainty",
+      "titleNative": "Duyumu Şüphe ve Kesinlikle Birleştirmek",
+      "items": [
+        {"tr": "Duyduğuma göre bu doğruymuş, ama araştırmalıyım.", "en": "From what I've heard, this is true, but I should research it."},
+        {"tr": "Öyle diyorlar, ama ben kendi gözümle görmedim.", "en": "That's what they say, but I haven't seen it with my own eyes."},
+        {"tr": "Belki abartıyorlardır, kim bilir.", "en": "Maybe they're exaggerating, who knows."},
+        {"tr": "Kesin bir şey söyleyemem, sadece duyduklarımı aktarıyorum.", "en": "I can't say anything for certain, I'm just relaying what I've heard."}
+      ]
+    },
+    {
+      "number": 69,
+      "title": "Storytelling with Hearsay",
+      "titleNative": "Duyumla Hikaye Anlatmak",
+      "items": [
+        {"tr": "Eskiden bu köyde bir hazine varmış, öyle anlatırlar.", "en": "Apparently there used to be a treasure in this village, that's how they tell it."},
+        {"tr": "Bu hikayeyi büyükannemden duymuşum.", "en": "I've heard this story from my grandmother."},
+        {"tr": "Çok eski zamanlarda burada bir kale varmış.", "en": "A long time ago, apparently there was a castle here."},
+        {"tr": "Efsaneye göre bu göl çok derinmiş.", "en": "According to legend, this lake is very deep."}
+      ]
+    },
+    {
+      "number": 70,
+      "title": "Review: Hearsay and Rumor",
+      "titleNative": "Tekrar: Duyum ve Söylenti",
+      "items": [
+        {"tr": "Duyduğuma göre yarın toplantı varmış.", "en": "From what I've heard, there's a meeting tomorrow."},
+        {"tr": "Söylentiye göre şirket el değiştirecekmiş.", "en": "According to rumor, the company will change hands."},
+        {"tr": "Öyle söylüyorlar ama emin değilim.", "en": "That's what they say, but I'm not sure."},
+        {"tr": "Habere göre hava yarın çok soğuk olacakmış.", "en": "According to the news, tomorrow the weather will be very cold."}
       ]
     }
   ]
