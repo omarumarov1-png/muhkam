@@ -40,6 +40,16 @@
         {"tr": "Neden gelmedin?", "en": "Why didn't you come?"},
         {"tr": "Hastalandığım için gelemedim.", "en": "Because I got sick, I couldn't come."}
       ]
+    },
+    "b2-concessive": {
+      "title": "Even Though / Even If: rağmen, karşın, bile",
+      "pattern": "-mAsInA rağmen/karşın (even though); noun + -A rağmen (despite); word + bile (even)",
+      "explanation": "To say 'even though X, Y' (a contrast where the expected result doesn't happen), use -mAsInA rağmen, or the more formal -mAsInA karşın, after a possessive-marked clause: 'Yorgun olmasına rağmen çalıştı' (Even though he was tired, he worked). rağmen/karşın can also follow a plain noun in the dative: 'Yağmura rağmen dışarı çıktık' (Despite the rain, we went out). bile means 'even' and attaches right after the word or phrase it emphasizes: 'Bunu bir çocuk bile yapabilir' (Even a child can do this). eğer/-sA + bile means 'even if': 'Zor olsa bile denemeliyiz' (Even if it's hard, we should try).",
+      "fact": "rağmen is far more common in everyday speech than karşın, which sounds more formal and literary — rağmen is the safer default choice when in doubt.",
+      "dialogue": [
+        {"tr": "Hava çok kötüydü, neden dışarı çıktın?", "en": "The weather was very bad, why did you go out?"},
+        {"tr": "Yağmura rağmen çıkmak zorundaydım.", "en": "Despite the rain, I had to go out."}
+      ]
     }
   },
   "lessons": [
@@ -485,6 +495,117 @@
         {"tr": "Yoğun trafikten dolayı geç kaldık.", "en": "Due to heavy traffic, we were late."},
         {"tr": "Senin yüzünden bu fırsatı kaçırdık.", "en": "Because of you, we missed this opportunity."},
         {"tr": "Çok çalıştığım için başarılı oldum.", "en": "Because I worked hard, I succeeded."}
+      ]
+    },
+    {
+      "number": 41,
+      "title": "Even Though - -mAsInA rağmen",
+      "titleNative": "-mAsInA Rağmen",
+      "topicId": "b2-concessive",
+      "items": [
+        {"tr": "Yorgun olmasına rağmen çalıştı.", "en": "Even though he was tired, he worked."},
+        {"tr": "Param olmamasına rağmen o hediyeyi aldım.", "en": "Even though I didn't have money, I bought that gift."},
+        {"tr": "Hava kötü olmasına rağmen yola çıktık.", "en": "Even though the weather was bad, we set out."},
+        {"tr": "Çok çalışmasına rağmen sınavı geçemedi.", "en": "Even though he studied a lot, he couldn't pass the exam."}
+      ]
+    },
+    {
+      "number": 42,
+      "title": "Despite (Noun) - rağmen",
+      "titleNative": "İsimle Rağmen",
+      "items": [
+        {"tr": "Yağmura rağmen dışarı çıktık.", "en": "Despite the rain, we went out."},
+        {"tr": "Bütün zorluklara rağmen pes etmedi.", "en": "Despite all the difficulties, he didn't give up."},
+        {"tr": "Yaşına rağmen çok enerjik.", "en": "Despite his age, he's very energetic."},
+        {"tr": "Uyarılara rağmen aynı hatayı tekrar yaptı.", "en": "Despite the warnings, he made the same mistake again."}
+      ]
+    },
+    {
+      "number": 43,
+      "title": "Even - bile",
+      "titleNative": "Bile",
+      "items": [
+        {"tr": "Bunu bir çocuk bile yapabilir.", "en": "Even a child can do this."},
+        {"tr": "Ailesi bile ona inanmadı.", "en": "Even his family didn't believe him."},
+        {"tr": "Düşünmeye bile vaktim yoktu.", "en": "I didn't even have time to think."},
+        {"tr": "Beni aramayı bile unuttu.", "en": "He even forgot to call me."}
+      ]
+    },
+    {
+      "number": 44,
+      "title": "Combining rağmen and bile",
+      "titleNative": "Rağmen ve Bile'yi Birleştirmek",
+      "items": [
+        {"tr": "Yorgun olmasına rağmen şikayet bile etmedi.", "en": "Even though he was tired, he didn't even complain."},
+        {"tr": "Hastalığına rağmen işe gitti, hatta erken bile geldi.", "en": "Despite his illness, he went to work, and he even came early."},
+        {"tr": "Uyarılara rağmen dinlemedi bile.", "en": "Despite the warnings, he didn't even listen."},
+        {"tr": "Param olmamasına rağmen ona yardım etmeyi bile teklif ettim.", "en": "Even though I didn't have money, I even offered to help him."}
+      ]
+    },
+    {
+      "number": 45,
+      "title": "Concessive with Promises and Preparation",
+      "titleNative": "Söz ve Hazırlıkla Rağmen",
+      "items": [
+        {"tr": "Bilmesine rağmen bize söylemedi.", "en": "Even though he knew, he didn't tell us."},
+        {"tr": "Söz vermesine rağmen gelmedi.", "en": "Even though he promised, he didn't come."},
+        {"tr": "Hazırlanmasına rağmen sınavda başarısız oldu.", "en": "Even though he prepared, he failed the exam."},
+        {"tr": "Özür dilemesine rağmen onu affetmedim.", "en": "Even though he apologized, I didn't forgive him."}
+      ]
+    },
+    {
+      "number": 46,
+      "title": "Concessive Comparisons",
+      "titleNative": "Rağmen ile Karşılaştırmalar",
+      "items": [
+        {"tr": "Zengin olmasına rağmen çok cimri.", "en": "Even though he's rich, he's very stingy."},
+        {"tr": "Genç olmasına rağmen çok tecrübeli.", "en": "Even though he's young, he's very experienced."},
+        {"tr": "Küçük olmasına rağmen çok güçlü.", "en": "Even though it's small, it's very strong."},
+        {"tr": "Basit görünmesine rağmen aslında çok karmaşık.", "en": "Even though it looks simple, it's actually very complex."}
+      ]
+    },
+    {
+      "number": 47,
+      "title": "Even If (Hypothetical Concession)",
+      "titleNative": "-sA Bile",
+      "items": [
+        {"tr": "Zor olsa bile denemeliyiz.", "en": "Even if it's hard, we should try."},
+        {"tr": "Geç kalsam bile geleceğim.", "en": "Even if I'm late, I'll come."},
+        {"tr": "Yağmur yağsa bile dışarı çıkacağız.", "en": "Even if it rains, we're going outside."},
+        {"tr": "Kimse inanmasa bile ben gerçeği söylüyorum.", "en": "Even if nobody believes it, I'm telling the truth."}
+      ]
+    },
+    {
+      "number": 48,
+      "title": "Concession in Arguments",
+      "titleNative": "Tartışmalarda Rağmen",
+      "items": [
+        {"tr": "Haklı olmana rağmen bu şekilde konuşmamalıydın.", "en": "Even though you're right, you shouldn't have spoken this way."},
+        {"tr": "Onunla aynı fikirde olmamama rağmen saygı duyuyorum.", "en": "Even though I don't agree with him, I respect him."},
+        {"tr": "Zor bir dönem geçirmesine rağmen hep güçlü kaldı.", "en": "Even though he went through a hard time, he always stayed strong."},
+        {"tr": "Elinden geleni yapmasına rağmen yeterli olmadı.", "en": "Even though he did everything he could, it wasn't enough."}
+      ]
+    },
+    {
+      "number": 49,
+      "title": "Everyday Concessive Sentences",
+      "titleNative": "Günlük Rağmen Cümleleri",
+      "items": [
+        {"tr": "Yorgun olmama rağmen seninle buluşmak isterim.", "en": "Even though I'm tired, I want to meet you."},
+        {"tr": "Param az olmasına rağmen mutluyum.", "en": "Even though I don't have much money, I'm happy."},
+        {"tr": "Uzak olmasına rağmen her hafta ziyaret ediyoruz.", "en": "Even though it's far, we visit every week."},
+        {"tr": "Küçük bir hata bile büyük sorunlara yol açabilir.", "en": "Even a small mistake can lead to big problems."}
+      ]
+    },
+    {
+      "number": 50,
+      "title": "Review: Concessive Clauses",
+      "titleNative": "Tekrar: Rağmen, Karşın, Bile",
+      "items": [
+        {"tr": "Yorgun olmasına rağmen gülümsedi.", "en": "Even though he was tired, he smiled."},
+        {"tr": "Bütün zorluklara rağmen başardık.", "en": "Despite all the difficulties, we succeeded."},
+        {"tr": "Bunu herkes bilir, hatta çocuklar bile.", "en": "Everyone knows this, even children."},
+        {"tr": "Zor olsa bile pes etmeyeceğim.", "en": "Even if it's hard, I won't give up."}
       ]
     }
   ]
