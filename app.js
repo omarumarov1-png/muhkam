@@ -35,6 +35,7 @@
     { id: "turkmen", file: "data/courses-turkmen.json", audioManifest: "data/audio-turkmen/manifest.json", label: "Turkmen — Türkmençe", native: "Türkmençe", en: "Turkmen", flag: "Türkmençe", group: "underserved", accent: "maroon" },
     { id: "urdu", file: "data/courses-urdu.json", audioManifest: "data/audio-urdu/manifest.json", label: "Urdu — اردو", native: "اردو", en: "Urdu", flag: "اردو", group: "underserved", accent: "gold" },
     { id: "emirati", file: "data/courses-emirati.json", audioManifest: "data/audio-emirati/manifest.json", label: "Khaleeji Arabic (Gulf) — خليجي", native: "خليجي", en: "Khaleeji Arabic (Gulf)", flag: "خليجي", group: "underserved", accent: "indigo" },
+    { id: "dalail", file: "data/courses-dalail.json", audioManifest: "data/audio-dalail/manifest.json", label: "Dalail al-Khayrat — دلائل الخيرات", native: "دلائل الخيرات", en: "Dalail al-Khayrat", flag: "دلائل الخيرات", group: "devotional", accent: "gold" },
     { id: "syrian", file: "data/courses-syrian.json", audioManifest: "data/audio-syrian/manifest.json", label: "Syrian Arabic — شامي", native: "شامي", en: "Syrian Arabic", flag: "شامي", group: "underserved", accent: "maroon" },
     { id: "spanish", file: "data/courses-spanish.json", audioManifest: "data/audio-spanish/manifest.json", label: "Spanish — Español", native: "Español", en: "Spanish", flag: "Español", group: "world", accent: "gold" },
     { id: "french", file: "data/courses-french.json", audioManifest: "data/audio-french/manifest.json", label: "French — Français", native: "Français", en: "French", flag: "Français", group: "world", accent: "indigo" },
@@ -1196,6 +1197,7 @@
     { group: "established", title: "Languages" },
     { group: "world", title: "World Languages" },
     { group: "underserved", title: "Underserved Languages" },
+    { group: "devotional", title: "Devotional Texts" },
   ];
 
   const DL_ICON = {

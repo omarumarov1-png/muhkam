@@ -1,0 +1,216 @@
+{
+  "course": {
+    "id": "dalail",
+    "title": "Dalail al-Khayrat",
+    "subtitle": "The classical salawat collection of Imam al-Jazuli, one hizb per day of the week, with transliteration and reverent recitation-style audio for every line",
+    "dir": "rtl",
+    "lang": "ar",
+    "languageName": "Dalail al-Khayrat",
+    "fontNative": "'Noto Naskh Arabic', 'Noto Sans Arabic', serif",
+    "flag": "دلائل الخيرات",
+    "heroEyebrow": "دلائل الخيرات · الاثنين → الاثنين",
+    "heroNative": "دلائل الخيرات",
+    "heroLedeSuffix": "Learn Dalail al-Khayrat sentence by sentence, day by day, with transliteration and reverent tarteel-style audio for every line.",
+    "uiStrings": {
+      "grammarNote": "ملاحظة",
+      "didYouKnow": "تعرف؟"
+    },
+    "grammarTopics": {},
+    "levels": [
+      {
+        "id": "monday1",
+        "label": "Monday, Part 1",
+        "labelNative": "الحزب الأول - الاثنين",
+        "lessons": [
+          {
+            "id": "dal-monday1-1",
+            "number": 1,
+            "title": "Opening: Salawat on the Prophet",
+            "titleNative": "الحزب الأول ليلة الاثنين",
+            "description": "Opening: Salawat on the Prophet",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "ar-en",
+                "prompt": "الْحِزْبُ الْأَوَّلُ لَيْلَةَ الِاثْنَيْنِ",
+                "options": [
+                  "The First Part, Monday Night",
+                  "O Allah, send blessings upon our master Muhammad and upon the family of our master Muhammad, just as You sent blessings upon our master Ibrahim. And bless our master Muhammad and the family of our master Muhammad, just as You blessed our master Ibrahim. You are the Praiseworthy, the Glorious.",
+                  "I seek refuge in Allah from the accursed Satan. In the Name of Allah, the Most Gracious, the Most Merciful.",
+                  "O Allah, send blessings upon our master Muhammad and his wives and his descendants, just as You sent blessings upon our master and mawla Ibrahim, and bless our master and mawla Muhammad and his wives and his descendants, just as You blessed the family of our master and mawla Ibrahim. You are the Praiseworthy, the Glorious."
+                ],
+                "answerIndex": 0,
+                "translit": "Al-hizb al-awwal laylat al-ithnayn"
+              },
+              {
+                "type": "listening",
+                "native": "الْحِزْبُ الْأَوَّلُ لَيْلَةَ الِاثْنَيْنِ",
+                "options": [
+                  "O Allah, send blessings upon our master Muhammad and his wives and his descendants, just as You sent blessings upon our master Ibrahim. And bless our master Muhammad and his wives and his descendants, just as You blessed our master Ibrahim. You are the Praiseworthy, the Glorious.",
+                  "I seek refuge in Allah from the accursed Satan. In the Name of Allah, the Most Gracious, the Most Merciful.",
+                  "The First Part, Monday Night",
+                  "O Allah, send blessings upon our master Muhammad and his wives and his descendants, just as You sent blessings upon our master and mawla Ibrahim, and bless our master and mawla Muhammad and his wives and his descendants, just as You blessed the family of our master and mawla Ibrahim. You are the Praiseworthy, the Glorious."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ar-en",
+                "prompt": "أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ. بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ.",
+                "options": [
+                  "The First Part, Monday Night",
+                  "O Allah, send blessings upon our master Muhammad and his wives and his descendants, just as You sent blessings upon our master and mawla Ibrahim, and bless our master and mawla Muhammad and his wives and his descendants, just as You blessed the family of our master and mawla Ibrahim. You are the Praiseworthy, the Glorious.",
+                  "I seek refuge in Allah from the accursed Satan. In the Name of Allah, the Most Gracious, the Most Merciful.",
+                  "O Allah, send blessings upon our master Muhammad and upon the family of our master Muhammad, just as You sent blessings upon our master Ibrahim. And bless our master Muhammad and the family of our master Muhammad, just as You blessed our master Ibrahim. You are the Praiseworthy, the Glorious."
+                ],
+                "answerIndex": 2,
+                "translit": "A'uzu billahi minash-shaytanir-rajim. Bismillahir-rahmanir-rahim."
+              },
+              {
+                "type": "listening",
+                "native": "أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ. بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ.",
+                "options": [
+                  "O Allah, send blessings upon our master Muhammad and upon his family, just as You sent blessings upon our master Ibrahim. And bless our master Muhammad and the family of our master Muhammad, just as You blessed the family of our master Ibrahim, in all the worlds. You are the Praiseworthy, the Glorious.",
+                  "I seek refuge in Allah from the accursed Satan. In the Name of Allah, the Most Gracious, the Most Merciful.",
+                  "The First Part, Monday Night",
+                  "O Allah, send blessings upon our master Muhammad and upon the family of our master Muhammad, just as You sent blessings upon our master Ibrahim. And bless our master Muhammad and the family of our master Muhammad, just as You blessed our master Ibrahim. You are the Praiseworthy, the Glorious."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ar-en",
+                "prompt": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَأَزْوَاجِهِ وَذُرِّيَّتِهِ كَمَا صَلَّيْتَ عَلَى سَيِّدِنَا وَمَوْلَانَا إِبْرَاهِيمَ، وَبَارِكْ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ وَأَزْوَاجِهِ وَذُرِّيَّتِهِ كَمَا بَارَكْتَ عَلَى آلِ سَيِّدِنَا وَمَوْلَانَا إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ.",
+                "options": [
+                  "O Allah, send blessings upon our master Muhammad and upon the family of our master Muhammad, just as You sent blessings upon our master Ibrahim. And bless our master Muhammad and the family of our master Muhammad, just as You blessed our master Ibrahim. You are the Praiseworthy, the Glorious.",
+                  "O Allah, send blessings upon our master Muhammad and his wives and his descendants, just as You sent blessings upon our master and mawla Ibrahim, and bless our master and mawla Muhammad and his wives and his descendants, just as You blessed the family of our master and mawla Ibrahim. You are the Praiseworthy, the Glorious.",
+                  "O Allah, send blessings upon our master Muhammad and upon his family, just as You sent blessings upon our master Ibrahim. And bless our master Muhammad and the family of our master Muhammad, just as You blessed the family of our master Ibrahim, in all the worlds. You are the Praiseworthy, the Glorious.",
+                  "O Allah, send blessings upon our master Muhammad and his wives and his descendants, just as You sent blessings upon our master Ibrahim. And bless our master Muhammad and his wives and his descendants, just as You blessed our master Ibrahim. You are the Praiseworthy, the Glorious."
+                ],
+                "answerIndex": 1,
+                "translit": "Allahumma salli 'ala Sayyidina Muhammadin wa azwajihi wa dhurriyyatihi, kama sallayta 'ala Sayyidina wa Mawlana Ibrahima, wa barik 'ala Sayyidina wa Mawlana Muhammadin wa azwajihi wa dhurriyyatihi, kama barakta 'ala ali Sayyidina wa Mawlana Ibrahima, innaka Hamidun Majid."
+              },
+              {
+                "type": "listening",
+                "native": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَأَزْوَاجِهِ وَذُرِّيَّتِهِ كَمَا صَلَّيْتَ عَلَى سَيِّدِنَا وَمَوْلَانَا إِبْرَاهِيمَ، وَبَارِكْ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ وَأَزْوَاجِهِ وَذُرِّيَّتِهِ كَمَا بَارَكْتَ عَلَى آلِ سَيِّدِنَا وَمَوْلَانَا إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ.",
+                "options": [
+                  "O Allah, send blessings upon our master Muhammad and his wives and his descendants, just as You sent blessings upon our master and mawla Ibrahim, and bless our master and mawla Muhammad and his wives and his descendants, just as You blessed the family of our master and mawla Ibrahim. You are the Praiseworthy, the Glorious.",
+                  "O Allah, send blessings upon our master Muhammad and his wives and his descendants, just as You sent blessings upon our master Ibrahim. And bless our master Muhammad and his wives and his descendants, just as You blessed our master Ibrahim. You are the Praiseworthy, the Glorious.",
+                  "O Allah, send blessings upon our master Muhammad and upon the family of our master Muhammad, just as You sent blessings upon our master Ibrahim. And bless our master Muhammad and the family of our master Muhammad, just as You blessed our master Ibrahim. You are the Praiseworthy, the Glorious.",
+                  "The First Part, Monday Night"
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ar-en",
+                "prompt": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَأَزْوَاجِهِ وَذُرِّيَّتِهِ، كَمَا صَلَّيْتَ عَلَى سَيِّدِنَا إِبْرَاهِيمَ، وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَأَزْوَاجِهِ وَذُرِّيَّتِهِ كَمَا بَارَكْتَ عَلَى آلِ سَيِّدِنَا إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ.",
+                "options": [
+                  "O Allah, send blessings upon our master Muhammad and upon his family, just as You sent blessings upon our master Ibrahim. And bless our master Muhammad and the family of our master Muhammad, just as You blessed the family of our master Ibrahim, in all the worlds. You are the Praiseworthy, the Glorious.",
+                  "I seek refuge in Allah from the accursed Satan. In the Name of Allah, the Most Gracious, the Most Merciful.",
+                  "O Allah, send blessings upon our master Muhammad and upon the family of our master Muhammad, just as You sent blessings upon our master Ibrahim. And bless our master Muhammad and the family of our master Muhammad, just as You blessed our master Ibrahim. You are the Praiseworthy, the Glorious.",
+                  "O Allah, send blessings upon our master Muhammad and his wives and his descendants, just as You sent blessings upon our master Ibrahim. And bless our master Muhammad and his wives and his descendants, just as You blessed our master Ibrahim. You are the Praiseworthy, the Glorious."
+                ],
+                "answerIndex": 3,
+                "translit": "Allahumma salli 'ala Sayyidina Muhammadin wa azwajihi wa dhurriyyatihi, kama sallayta 'ala Sayyidina Ibrahim, wa barik 'ala Sayyidina Muhammadin wa azwajihi wa dhurriyyatihi, kama barakta 'ala ali Sayyidina Ibrahima, innaka Hamidun Majid."
+              },
+              {
+                "type": "listening",
+                "native": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَأَزْوَاجِهِ وَذُرِّيَّتِهِ، كَمَا صَلَّيْتَ عَلَى سَيِّدِنَا إِبْرَاهِيمَ، وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَأَزْوَاجِهِ وَذُرِّيَّتِهِ كَمَا بَارَكْتَ عَلَى آلِ سَيِّدِنَا إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ.",
+                "options": [
+                  "The First Part, Monday Night",
+                  "O Allah, send blessings upon our master Muhammad and his wives and his descendants, just as You sent blessings upon our master and mawla Ibrahim, and bless our master and mawla Muhammad and his wives and his descendants, just as You blessed the family of our master and mawla Ibrahim. You are the Praiseworthy, the Glorious.",
+                  "O Allah, send blessings upon our master Muhammad and his wives and his descendants, just as You sent blessings upon our master Ibrahim. And bless our master Muhammad and his wives and his descendants, just as You blessed our master Ibrahim. You are the Praiseworthy, the Glorious.",
+                  "I seek refuge in Allah from the accursed Satan. In the Name of Allah, the Most Gracious, the Most Merciful."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ar-en",
+                "prompt": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِهِ، كَمَا صَلَّيْتَ عَلَى سَيِّدِنَا إِبْرَاهِيمَ، وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَآلِ سَيِّدِنَا مُحَمَّدٍ، كَمَا بَارَكْتَ عَلَى آلِ سَيِّدِنَا إِبْرَاهِيمَ فِي الْعَالَمِينَ، إِنَّكَ حَمِيدٌ مَجِيدٌ.",
+                "options": [
+                  "The First Part, Monday Night",
+                  "O Allah, send blessings upon our master Muhammad and his wives and his descendants, just as You sent blessings upon our master Ibrahim. And bless our master Muhammad and his wives and his descendants, just as You blessed our master Ibrahim. You are the Praiseworthy, the Glorious.",
+                  "I seek refuge in Allah from the accursed Satan. In the Name of Allah, the Most Gracious, the Most Merciful.",
+                  "O Allah, send blessings upon our master Muhammad and upon his family, just as You sent blessings upon our master Ibrahim. And bless our master Muhammad and the family of our master Muhammad, just as You blessed the family of our master Ibrahim, in all the worlds. You are the Praiseworthy, the Glorious."
+                ],
+                "answerIndex": 3,
+                "translit": "Allahumma salli 'ala Sayyidina Muhammadin wa 'ala alihi, kama sallayta 'ala Sayyidina Ibrahima, wa barik 'ala Sayyidina Muhammadin wa 'ala ali Sayyidina Muhammadin, kama barakta 'ala ali Sayyidina Ibrahima fil 'alamina, innaka Hamidun Majid."
+              },
+              {
+                "type": "listening",
+                "native": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِهِ، كَمَا صَلَّيْتَ عَلَى سَيِّدِنَا إِبْرَاهِيمَ، وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَآلِ سَيِّدِنَا مُحَمَّدٍ، كَمَا بَارَكْتَ عَلَى آلِ سَيِّدِنَا إِبْرَاهِيمَ فِي الْعَالَمِينَ، إِنَّكَ حَمِيدٌ مَجِيدٌ.",
+                "options": [
+                  "O Allah, send blessings upon our master Muhammad and upon the family of our master Muhammad, just as You sent blessings upon our master Ibrahim. And bless our master Muhammad and the family of our master Muhammad, just as You blessed our master Ibrahim. You are the Praiseworthy, the Glorious.",
+                  "O Allah, send blessings upon our master Muhammad and upon his family, just as You sent blessings upon our master Ibrahim. And bless our master Muhammad and the family of our master Muhammad, just as You blessed the family of our master Ibrahim, in all the worlds. You are the Praiseworthy, the Glorious.",
+                  "O Allah, send blessings upon our master Muhammad and his wives and his descendants, just as You sent blessings upon our master Ibrahim. And bless our master Muhammad and his wives and his descendants, just as You blessed our master Ibrahim. You are the Praiseworthy, the Glorious.",
+                  "I seek refuge in Allah from the accursed Satan. In the Name of Allah, the Most Gracious, the Most Merciful."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ar-en",
+                "prompt": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَآلِ سَيِّدِنَا مُحَمَّدٍ، كَمَا صَلَّيْتَ عَلَى سَيِّدِنَا إِبْرَاهِيمَ، وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَآلِ سَيِّدِنَا مُحَمَّدٍ، كَمَا بَارَكْتَ عَلَى سَيِّدِنَا إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ.",
+                "options": [
+                  "O Allah, send blessings upon our master Muhammad and upon the family of our master Muhammad, just as You sent blessings upon our master Ibrahim. And bless our master Muhammad and the family of our master Muhammad, just as You blessed our master Ibrahim. You are the Praiseworthy, the Glorious.",
+                  "O Allah, send blessings upon our master Muhammad and upon his family, just as You sent blessings upon our master Ibrahim. And bless our master Muhammad and the family of our master Muhammad, just as You blessed the family of our master Ibrahim, in all the worlds. You are the Praiseworthy, the Glorious.",
+                  "The First Part, Monday Night",
+                  "O Allah, send blessings upon our master Muhammad and his wives and his descendants, just as You sent blessings upon our master Ibrahim. And bless our master Muhammad and his wives and his descendants, just as You blessed our master Ibrahim. You are the Praiseworthy, the Glorious."
+                ],
+                "answerIndex": 0,
+                "translit": "Allahumma salli 'ala Sayyidina Muhammadin wa ali Sayyidina Muhammadin, kama sallayta 'ala Sayyidina Ibrahima, wa barik 'ala Sayyidina Muhammadin wa ali Sayyidina Muhammadin, kama barakta 'ala Sayyidina Ibrahima, innaka Hamidun Majid."
+              },
+              {
+                "type": "listening",
+                "native": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَآلِ سَيِّدِنَا مُحَمَّدٍ، كَمَا صَلَّيْتَ عَلَى سَيِّدِنَا إِبْرَاهِيمَ، وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَآلِ سَيِّدِنَا مُحَمَّدٍ، كَمَا بَارَكْتَ عَلَى سَيِّدِنَا إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ.",
+                "options": [
+                  "O Allah, send blessings upon our master Muhammad and upon his family, just as You sent blessings upon our master Ibrahim. And bless our master Muhammad and the family of our master Muhammad, just as You blessed the family of our master Ibrahim, in all the worlds. You are the Praiseworthy, the Glorious.",
+                  "O Allah, send blessings upon our master Muhammad and his wives and his descendants, just as You sent blessings upon our master and mawla Ibrahim, and bless our master and mawla Muhammad and his wives and his descendants, just as You blessed the family of our master and mawla Ibrahim. You are the Praiseworthy, the Glorious.",
+                  "The First Part, Monday Night",
+                  "O Allah, send blessings upon our master Muhammad and upon the family of our master Muhammad, just as You sent blessings upon our master Ibrahim. And bless our master Muhammad and the family of our master Muhammad, just as You blessed our master Ibrahim. You are the Praiseworthy, the Glorious."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "الْحِزْبُ الْأَوَّلُ لَيْلَةَ الِاثْنَيْنِ",
+                    "en": "The First Part, Monday Night"
+                  },
+                  {
+                    "native": "أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ. بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ.",
+                    "en": "I seek refuge in Allah from the accursed Satan. In the Name of Allah, the Most Gracious, the Most Merciful."
+                  },
+                  {
+                    "native": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَأَزْوَاجِهِ وَذُرِّيَّتِهِ كَمَا صَلَّيْتَ عَلَى سَيِّدِنَا وَمَوْلَانَا إِبْرَاهِيمَ، وَبَارِكْ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ وَأَزْوَاجِهِ وَذُرِّيَّتِهِ كَمَا بَارَكْتَ عَلَى آلِ سَيِّدِنَا وَمَوْلَانَا إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ.",
+                    "en": "O Allah, send blessings upon our master Muhammad and his wives and his descendants, just as You sent blessings upon our master and mawla Ibrahim, and bless our master and mawla Muhammad and his wives and his descendants, just as You blessed the family of our master and mawla Ibrahim. You are the Praiseworthy, the Glorious."
+                  }
+                ]
+              },
+              {
+                "type": "matching",
+                "pairs": [
+                  {
+                    "native": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَأَزْوَاجِهِ وَذُرِّيَّتِهِ، كَمَا صَلَّيْتَ عَلَى سَيِّدِنَا إِبْرَاهِيمَ، وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَأَزْوَاجِهِ وَذُرِّيَّتِهِ كَمَا بَارَكْتَ عَلَى آلِ سَيِّدِنَا إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ.",
+                    "en": "O Allah, send blessings upon our master Muhammad and his wives and his descendants, just as You sent blessings upon our master Ibrahim. And bless our master Muhammad and his wives and his descendants, just as You blessed our master Ibrahim. You are the Praiseworthy, the Glorious."
+                  },
+                  {
+                    "native": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِهِ، كَمَا صَلَّيْتَ عَلَى سَيِّدِنَا إِبْرَاهِيمَ، وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَآلِ سَيِّدِنَا مُحَمَّدٍ، كَمَا بَارَكْتَ عَلَى آلِ سَيِّدِنَا إِبْرَاهِيمَ فِي الْعَالَمِينَ، إِنَّكَ حَمِيدٌ مَجِيدٌ.",
+                    "en": "O Allah, send blessings upon our master Muhammad and upon his family, just as You sent blessings upon our master Ibrahim. And bless our master Muhammad and the family of our master Muhammad, just as You blessed the family of our master Ibrahim, in all the worlds. You are the Praiseworthy, the Glorious."
+                  },
+                  {
+                    "native": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَآلِ سَيِّدِنَا مُحَمَّدٍ، كَمَا صَلَّيْتَ عَلَى سَيِّدِنَا إِبْرَاهِيمَ، وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَآلِ سَيِّدِنَا مُحَمَّدٍ، كَمَا بَارَكْتَ عَلَى سَيِّدِنَا إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ.",
+                    "en": "O Allah, send blessings upon our master Muhammad and upon the family of our master Muhammad, just as You sent blessings upon our master Ibrahim. And bless our master Muhammad and the family of our master Muhammad, just as You blessed our master Ibrahim. You are the Praiseworthy, the Glorious."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
