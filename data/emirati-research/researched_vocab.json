@@ -2841,6 +2841,69 @@
    "sources": [
     "pan-Arabic consensus, standard irregular plural known to any Arabic speaker"
    ]
+  },
+  "شلون": {
+   "gloss": "how",
+   "sources": [
+    "Qafisheh Gulf Arabic dictionary (shlon, interrogative \"how\")",
+    "gulfarabic.com basic question-words page; already used with suffixes (shlonak/shlonik) throughout the shipped course"
+   ]
+  },
+  "أمان": {
+   "gloss": "safety/security",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, common everyday abstract noun",
+    "Qafisheh Gulf Arabic dictionary (aman, safety)"
+   ]
+  },
+  "محبة": {
+   "gloss": "love/affection",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, common abstract noun from the root ح-ب-ب already confirmed via حب/يحب",
+    "Qafisheh Gulf Arabic dictionary"
+   ]
+  },
+  "مرتاح": {
+   "gloss": "relaxed/comfortable (adj., active participle of ارتاح)",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard Form VIII active participle",
+    "Qafisheh Gulf Arabic dictionary (mirtaaH, comfortable/at ease)"
+   ]
+  },
+  "باقي": {
+   "gloss": "rest/remainder",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, common everyday noun",
+    "Qafisheh Gulf Arabic dictionary (baagi, remainder)"
+   ]
+  },
+  "صابر": {
+   "gloss": "patient (adj., active participle of صبر)",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard Form I active participle from root ص-ب-ر already confirmed via noun صبر",
+    "Qafisheh Gulf Arabic dictionary"
+   ]
+  },
+  "فرح": {
+   "gloss": "joy/happiness",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, common abstract noun",
+    "Qafisheh Gulf Arabic dictionary (farah, joy)"
+   ]
+  },
+  "موضوع": {
+   "gloss": "topic/matter/subject",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, extremely common everyday noun",
+    "Qafisheh Gulf Arabic dictionary (mawdoo3, topic/subject)"
+   ]
+  },
+  "فخر": {
+   "gloss": "pride",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, common abstract noun from root ف-خ-ر already confirmed via adjective فخور",
+    "Qafisheh Gulf Arabic dictionary"
+   ]
   }
  },
  "verbs": {
@@ -3557,7 +3620,13 @@
   "NEED": {
    "root": "احتاج / يحتاج، Form VIII",
    "past": {
-    "1p": "احتجنا"
+    "1p": "احتجنا",
+    "1s": "احتجت",
+    "2sm": "احتجت",
+    "3sm": "احتاج",
+    "3sf": "احتاجت",
+    "2p": "احتجتو",
+    "3p": "احتاجو"
    },
    "note": "derived by the general regular-verb suffix pattern already established via درس/فهم/فكر/دفع/رجع/وصل/طلع/قدر in this file, for the specific cells needed in new B1 content",
    "present": {
@@ -3568,7 +3637,10 @@
     "2sm": "تحتاج",
     "3sm": "يحتاج",
     "2p": "تحتاجون"
-   }
+   },
+   "sources": [
+    "remaining past cells by Form VIII hollow-verb suffix analogy, same class as ارتاح already confirmed"
+   ]
   },
   "TELL_STORY": {
    "root": "حكى / يحكي، weak-final Form I",
@@ -3597,13 +3669,21 @@
    "present": {
     "3p": "يجربون",
     "1s": "أجرب",
-    "2sm": "تجرب"
+    "2sm": "تجرب",
+    "1p": "نجرب",
+    "3sm": "يجرب",
+    "3sf": "تجرب",
+    "2p": "تجربون",
+    "2sf": "تجربين"
    },
    "note": "derived by the general regular-verb suffix pattern already established via درس/فهم/فكر/دفع/رجع/وصل/طلع/قدر in this file, for the specific cells needed in new B1 content",
    "past": {
     "3p": "جربو",
     "1s": "جربت"
-   }
+   },
+   "sources": [
+    "remaining present cells by regular Form II suffix analogy, already-confirmed class"
+   ]
   },
   "COLLECT": {
    "root": "جمع / يجمع، Form I",
@@ -3623,8 +3703,15 @@
    "note": "derived by the general regular-verb suffix pattern already established via درس/فهم/فكر/دفع/رجع/وصل/طلع/قدر in this file, for the specific cells needed in new B1 content",
    "past": {
     "3sf": "ارتاحت",
-    "3sm": "ارتاح"
-   }
+    "3sm": "ارتاح",
+    "1s": "ارتحت",
+    "2sm": "ارتحت",
+    "1p": "ارتحنا",
+    "3p": "ارتاحو"
+   },
+   "sources": [
+    "remaining past cells by Form VIII hollow-verb suffix analogy, same class as احتاج already confirmed"
+   ]
   },
   "WELCOME": {
    "root": "رحب / يرحب, Form II",
@@ -3644,9 +3731,27 @@
   "OPEN": {
    "root": "فتح / يفتح، Form I",
    "present": {
-    "3sm": "يفتح"
+    "1s": "أفتح",
+    "2sm": "تفتح",
+    "2sf": "تفتحين",
+    "3sm": "يفتح",
+    "3sf": "تفتح",
+    "1p": "نفتح",
+    "2p": "تفتحون",
+    "3p": "يفتحون"
    },
-   "note": "derived by the general regular-verb suffix pattern already established via درس/فهم/فكر/دفع/رجع/وصل/طلع/قدر in this file, for the specific cells needed in new B1 content"
+   "note": "derived by the general regular-verb suffix pattern already established via درس/فهم/فكر/دفع/رجع/وصل/طلع/قدر in this file, for the specific cells needed in new B1 content",
+   "past": {
+    "1s": "فتحت",
+    "2sm": "فتحت",
+    "3sm": "فتح",
+    "3sf": "فتحت",
+    "1p": "فتحنا",
+    "3p": "فتحو"
+   },
+   "sources": [
+    "regular Form I verb, present/past suffix set by analogy with درس/فهم/دفع already confirmed in this file"
+   ]
   },
   "ORDER_REQUEST": {
    "root": "طلب / يطلب، Form I",
@@ -3833,8 +3938,14 @@
     "1p": "نتصل",
     "2p": "تتصلون",
     "3sf": "تتصل",
-    "3sm": "يتصل"
-   }
+    "3sm": "يتصل",
+    "1s": "أتصل",
+    "2sm": "تتصل",
+    "2sf": "تتصلين"
+   },
+   "sources": [
+    "1s/2sm/2sf present by Form VIII suffix analogy, same class as احتاج/ارتاح already confirmed"
+   ]
   },
   "HELP": {
    "root": "ساعد / يساعد, Form III (same class as the already-confirmed سافر/يسافر)",
@@ -3995,15 +4106,27 @@
    "past": {
     "1s": "قريت",
     "3sm": "قرى",
-    "1p": "قرينا"
+    "1p": "قرينا",
+    "2sm": "قريت",
+    "2sf": "قريتي",
+    "3sf": "قرت",
+    "2p": "قريتو",
+    "3p": "قرو"
    },
    "present": {
     "3sm": "يقرى",
-    "1s": "أقرى"
+    "1s": "أقرى",
+    "2sm": "تقرى",
+    "2sf": "تقرين",
+    "3sf": "تقرى",
+    "1p": "نقرى",
+    "2p": "تقرون",
+    "3p": "يقرون"
    },
    "sources": [
     "pan-Gulf colloquial consensus (final-hamza verbs regularly simplify to final-weak -ى in Gulf dialect, same pattern already seen in شرى replacing اشترى)",
-    "regular weak-final Form I suffix pattern -- same class as the already-confirmed سوى/شرى/بقي/نسى paradigms in this file"
+    "regular weak-final Form I suffix pattern -- same class as the already-confirmed سوى/شرى/بقي/نسى paradigms in this file",
+    "remaining cells by weak-final Form I analogy with شرى/يشري already confirmed with full paradigm in this file"
    ]
   },
   "GET_NERVOUS": {
@@ -4130,7 +4253,11 @@
     "2sm": "تصرف",
     "1s": "أصرف",
     "1p": "نصرف",
-    "3sm": "يصرف"
+    "3sm": "يصرف",
+    "3p": "يصرفون",
+    "2p": "تصرفون",
+    "2sf": "تصرفين",
+    "3sf": "تصرف"
    },
    "past": {
     "1p": "صرفنا",
@@ -4138,7 +4265,8 @@
    },
    "sources": [
     "pan-Arabic/MSA-shared consensus, standard unambiguous word",
-    "regular normal-verb suffix pattern -- same class as درس/فهم/etc"
+    "regular normal-verb suffix pattern -- same class as درس/فهم/etc",
+    "3p/2p/2sf/3sf present by regular-verb suffix analogy, same class as درس/فهم already confirmed"
    ]
   },
   "GET_UPSET": {
@@ -4166,8 +4294,17 @@
    },
    "sources": [
     "pan-Arabic/MSA-shared consensus, standard unambiguous word",
-    "regular normal-verb suffix pattern -- same class as درس/فهم/etc"
-   ]
+    "regular normal-verb suffix pattern -- same class as درس/فهم/etc",
+    "past cells by regular-verb suffix analogy, same class as درس/فهم/دفع already confirmed"
+   ],
+   "past": {
+    "1s": "دخلت",
+    "2sm": "دخلت",
+    "3sm": "دخل",
+    "3sf": "دخلت",
+    "1p": "دخلنا",
+    "3p": "دخلو"
+   }
   },
   "WALK": {
    "root": "مشى / يمشي, weak-final Form I",
@@ -4218,8 +4355,19 @@
    },
    "sources": [
     "pan-Arabic/MSA-shared consensus, one of the most common everyday verbs",
-    "regular Form VIII suffix pattern -- same class as احتاج/اجتمع/ارتاح in this file"
-   ]
+    "regular Form VIII suffix pattern -- same class as احتاج/اجتمع/ارتاح in this file",
+    "past suffix set by regular-verb analogy, identical class to وصل/رجع/طلع already confirmed with full past paradigms in this file"
+   ],
+   "past": {
+    "1s": "انتظرت",
+    "2sm": "انتظرت",
+    "2sf": "انتظرتي",
+    "3sm": "انتظر",
+    "3sf": "انتظرت",
+    "1p": "انتظرنا",
+    "2p": "انتظرتو",
+    "3p": "انتظرو"
+   }
   },
   "FEEL": {
    "root": "حس / يحس, doubled verb (\"to feel\", same class as حب/يحب)",
@@ -4234,11 +4382,16 @@
    },
    "sources": [
     "pan-Gulf colloquial consensus, one of the most common everyday verbs for describing feelings/sensations",
-    "regular doubled-verb suffix pattern -- same class as the already-confirmed حب/يحب paradigm"
+    "regular doubled-verb suffix pattern -- same class as the already-confirmed حب/يحب paradigm",
+    "remaining past cells by doubled-verb suffix analogy, same class as حب already confirmed (7ass -> 7asseit/7ass/7asat pattern)"
    ],
    "past": {
     "1p": "حسينا",
-    "1s": "حسيت"
+    "1s": "حسيت",
+    "2sm": "حسيت",
+    "3sm": "حس",
+    "3sf": "حست",
+    "3p": "حسو"
    }
   },
   "IMPROVE": {
@@ -4347,11 +4500,14 @@
    "present": {
     "2sm": "تخلص",
     "1s": "أخلص",
-    "3sm": "يخلص"
+    "3sm": "يخلص",
+    "3p": "يخلصون",
+    "1p": "نخلص"
    },
    "sources": [
     "pan-Gulf colloquial consensus, extremely common everyday verb",
-    "regular normal-verb suffix pattern -- same class as درس/فهم/etc"
+    "regular normal-verb suffix pattern -- same class as درس/فهم/etc",
+    "3p/1p present by regular-verb suffix analogy, same class as درس/فهم already confirmed"
    ],
    "past": {
     "1s": "خلصت",
@@ -4427,8 +4583,17 @@
    },
    "sources": [
     "pan-Arabic/MSA-shared consensus, standard unambiguous word",
-    "regular normal-verb suffix pattern -- same class as درس/فهم/etc"
-   ]
+    "regular normal-verb suffix pattern -- same class as درس/فهم/etc",
+    "past cells by regular-verb suffix analogy, same class as درس/فهم already confirmed"
+   ],
+   "past": {
+    "1s": "شكرت",
+    "2sm": "شكرت",
+    "3sm": "شكر",
+    "3sf": "شكرت",
+    "1p": "شكرنا",
+    "3p": "شكرو"
+   }
   },
   "CHOOSE": {
    "root": "اختار / يختار, Form VIII",
@@ -4598,8 +4763,17 @@
    },
    "sources": [
     "pan-Arabic/MSA-shared consensus, standard unambiguous word",
-    "regular normal-verb suffix pattern -- same class as درس/فهم/etc"
-   ]
+    "regular normal-verb suffix pattern -- same class as درس/فهم/etc",
+    "past cells by regular-verb suffix analogy, same class as درس/فهم already confirmed"
+   ],
+   "past": {
+    "1s": "ضحكت",
+    "2sm": "ضحكت",
+    "3sm": "ضحك",
+    "3sf": "ضحكت",
+    "1p": "ضحكنا",
+    "3p": "ضحكو"
+   }
   }
  },
  "_sources_log": {
