@@ -97,6 +97,8 @@ def check_possessive_suffix(word, vocab):
             return True
         if base.endswith("ت") and (base[:-1] + "ة") in vocab:
             return True
+        if base.endswith("ا") and check_word(base[:-1] + "ى", vocab):
+            return True
     return False
 
 
@@ -158,6 +160,12 @@ def check_fa_prefix(word, vocab):
     return word.startswith("ف") and len(word) > 2 and check_word(word[1:], vocab)
 
 
+def check_ha_demonstrative_prefix(word, vocab):
+    """Colloquial 'this' clitic: ها + definite noun (halfluus = 'this
+    money', literally 'ha-al-fluus')."""
+    return word.startswith("ها") and len(word) > 3 and check_word(word[2:], vocab)
+
+
 def check_word(word, vocab=None):
     vocab = vocab if vocab is not None else CONFIRMED_VOCAB
     if word in vocab:
@@ -189,6 +197,8 @@ def check_word(word, vocab=None):
     if check_fa_prefix(word, vocab):
         return True
     if check_future_1s_elision(word, vocab):
+        return True
+    if check_ha_demonstrative_prefix(word, vocab):
         return True
     return False
 
