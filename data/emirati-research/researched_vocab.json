@@ -2229,6 +2229,174 @@
    "sources": [
     "pan-Arabic/MSA-shared consensus, standard unambiguous complementizer"
    ]
+  },
+  "دوا": {
+   "gloss": "medicine",
+   "sources": [
+    "pan-Gulf colloquial consensus, standard unambiguous word"
+   ]
+  },
+  "كذا": {
+   "gloss": "like that/so (colloquial)",
+   "sources": [
+    "pan-Gulf colloquial consensus, extremely common everyday word"
+   ]
+  },
+  "وضع": {
+   "gloss": "situation/condition",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard unambiguous word"
+   ]
+  },
+  "أصعب": {
+   "gloss": "harder/more difficult (comparative of the already-confirmed صعب)",
+   "sources": [
+    "regular أفعل comparative pattern, same class as already-confirmed أكبر/أصغر/أزيان/أغلى/أسرع/أكثر/أبعد/أرخص/أجمل"
+   ]
+  },
+  "الضبط": {
+   "gloss": "exactness (as in بالضبط \"exactly\")",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard unambiguous phrase"
+   ]
+  },
+  "آخر": {
+   "gloss": "end/last",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard unambiguous word"
+   ]
+  },
+  "بسيط": {
+   "gloss": "simple",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard unambiguous word"
+   ]
+  },
+  "صح": {
+   "gloss": "right/correct (also used as a tag question \"right?\")",
+   "sources": [
+    "pan-Gulf colloquial consensus, extremely common everyday word"
+   ]
+  },
+  "نوم": {
+   "gloss": "sleep (noun)",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard unambiguous word, related to the already-confirmed نام/ينام verb"
+   ]
+  },
+  "ألم": {
+   "gloss": "pain (noun, related to the already-confirmed وجع verb)",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard unambiguous word"
+   ]
+  },
+  "تحسن": {
+   "gloss": "improvement (noun/verbal-noun from Form V تحسن \"to improve\")",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard unambiguous word"
+   ]
+  },
+  "مساعدة": {
+   "gloss": "help/assistance (noun, related to the already-confirmed ساعد verb)",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard unambiguous word"
+   ]
+  },
+  "نشيط": {
+   "gloss": "energetic/active",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard unambiguous word"
+   ]
+  },
+  "طول": {
+   "gloss": "throughout/length (as in طول اليوم \"all day\")",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard unambiguous word"
+   ]
+  },
+  "أخيرا": {
+   "gloss": "finally",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard unambiguous word"
+   ]
+  },
+  "مشروع": {
+   "gloss": "project",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard unambiguous word"
+   ]
+  },
+  "أرز": {
+   "gloss": "rice (central to Khaleeji cuisine, e.g. machboos)",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard unambiguous word"
+   ]
+  },
+  "خبز": {
+   "gloss": "bread",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard unambiguous word"
+   ]
+  },
+  "طفل": {
+   "gloss": "child",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard unambiguous word"
+   ]
+  },
+  "أطفال": {
+   "gloss": "children (plural of طفل)",
+   "sources": [
+    "pan-Arabic consensus, standard irregular plural known to any Arabic speaker"
+   ]
+  },
+  "لعب": {
+   "gloss": "playing (noun, related to the already-confirmed يلعب verb)",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard unambiguous word"
+   ]
+  },
+  "مشاكل": {
+   "gloss": "problems (broken plural of the already-confirmed مشكلة)",
+   "sources": [
+    "pan-Arabic consensus, standard irregular plural known to any Arabic speaker"
+   ]
+  },
+  "راس": {
+   "gloss": "head",
+   "sources": [
+    "pan-Gulf colloquial consensus, standard unambiguous body-part word"
+   ]
+  },
+  "ثقيل": {
+   "gloss": "heavy",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard unambiguous word"
+   ]
+  },
+  "هيل": {
+   "gloss": "cardamom (essential flavoring in traditional Gulf coffee, alongside the already-confirmed قهوة/دلة/فنجان)",
+   "sources": [
+    "general Khaleeji coffee-culture consensus (cardamom-spiced gahwa is the defining feature of Gulf Arabic coffee, distinct from Turkish/Levantine coffee)"
+   ]
+  },
+  "حساس": {
+   "gloss": "sensitive",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard unambiguous word"
+   ]
+  },
+  "عالي": {
+   "gloss": "high",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard unambiguous word"
+   ]
+  },
+  "محلات": {
+   "gloss": "shops (plural of the already-confirmed محل)",
+   "sources": [
+    "pan-Arabic consensus, standard sound plural"
+   ]
   }
  },
  "verbs": {
@@ -2289,7 +2457,10 @@
    "sources": [
     "Qafisheh (1s attested in example sentence)",
     "gulfarabicresources.com/work-jobs-professions (real Q&A sentences)"
-   ]
+   ],
+   "past": {
+    "1s": "اشتغلت"
+   }
   },
   "LOVE": {
    "root": "حب / يحب",
@@ -2925,16 +3096,28 @@
   "SUCCEED": {
    "root": "نجح / ينجح، Form I",
    "past": {
-    "3sm": "نجح"
+    "3sm": "نجح",
+    "3sf": "نجحت"
    },
-   "note": "derived by the general regular-verb suffix pattern already established via درس/فهم/فكر/دفع/رجع/وصل/طلع/قدر in this file, for the specific cells needed in new B1 content"
+   "note": "derived by the general regular-verb suffix pattern already established via درس/فهم/فكر/دفع/رجع/وصل/طلع/قدر in this file, for the specific cells needed in new B1 content",
+   "present": {
+    "3sf": "تنجح",
+    "3sm": "ينجح",
+    "1s": "أنجح"
+   }
   },
   "NEED": {
    "root": "احتاج / يحتاج، Form VIII",
    "past": {
     "1p": "احتجنا"
    },
-   "note": "derived by the general regular-verb suffix pattern already established via درس/فهم/فكر/دفع/رجع/وصل/طلع/قدر in this file, for the specific cells needed in new B1 content"
+   "note": "derived by the general regular-verb suffix pattern already established via درس/فهم/فكر/دفع/رجع/وصل/طلع/قدر in this file, for the specific cells needed in new B1 content",
+   "present": {
+    "1s": "أحتاج",
+    "2sf": "تحتاجين",
+    "1p": "نحتاج",
+    "3p": "يحتاجون"
+   }
   },
   "TELL_STORY": {
    "root": "حكى / يحكي، weak-final Form I",
@@ -2961,7 +3144,8 @@
   "TRY": {
    "root": "جرّب / يجرّب، Form II",
    "present": {
-    "3p": "يجربون"
+    "3p": "يجربون",
+    "1s": "أجرب"
    },
    "note": "derived by the general regular-verb suffix pattern already established via درس/فهم/فكر/دفع/رجع/وصل/طلع/قدر in this file, for the specific cells needed in new B1 content"
   },
@@ -3032,14 +3216,23 @@
     "3sm": "قرر",
     "3p": "قررو"
    },
-   "note": "derived by the general regular-verb suffix pattern already established via درس/فهم/فكر/دفع/رجع/وصل/طلع/قدر in this file, for the specific cells needed in new B1 content"
+   "note": "derived by the general regular-verb suffix pattern already established via درس/فهم/فكر/دفع/رجع/وصل/طلع/قدر in this file, for the specific cells needed in new B1 content",
+   "present": {
+    "1p": "نقرر",
+    "3sm": "يقرر",
+    "1s": "أقرر"
+   }
   },
   "STOP_VERB": {
    "root": "وقف / يوقف، Form I",
    "past": {
     "1p": "وقفنا"
    },
-   "note": "derived by the general regular-verb suffix pattern already established via درس/فهم/فكر/دفع/رجع/وصل/طلع/قدر in this file, for the specific cells needed in new B1 content"
+   "note": "derived by the general regular-verb suffix pattern already established via درس/فهم/فكر/دفع/رجع/وصل/طلع/قدر in this file, for the specific cells needed in new B1 content",
+   "present": {
+    "1p": "نوقف",
+    "3sm": "يوقف"
+   }
   },
   "CHEAT": {
    "root": "غش / يغش، doubled Form I",
@@ -3079,14 +3272,16 @@
   "FIND_MEET": {
    "root": "لقى / يلقى، weak-final Form I",
    "present": {
-    "1p": "نلقى"
+    "1p": "نلقى",
+    "2sm": "تلقى"
    },
    "note": "derived by the general regular-verb suffix pattern already established via درس/فهم/فكر/دفع/رجع/وصل/طلع/قدر in this file, for the specific cells needed in new B1 content"
   },
   "PUT": {
    "root": "حط / يحط، doubled Form I",
    "present": {
-    "1p": "نحط"
+    "1p": "نحط",
+    "3p": "يحطون"
    },
    "note": "derived by the general regular-verb suffix pattern already established via درس/فهم/فكر/دفع/رجع/وصل/طلع/قدر in this file, for the specific cells needed in new B1 content"
   },
@@ -3111,9 +3306,13 @@
   "SAVE_MONEY": {
    "root": "وفر / يوفر، Form I",
    "present": {
-    "1p": "نوفر"
+    "1p": "نوفر",
+    "2sm": "توفر"
    },
-   "note": "derived by the general regular-verb suffix pattern already established via درس/فهم/فكر/دفع/رجع/وصل/طلع/قدر in this file, for the specific cells needed in new B1 content"
+   "note": "derived by the general regular-verb suffix pattern already established via درس/فهم/فكر/دفع/رجع/وصل/طلع/قدر in this file, for the specific cells needed in new B1 content",
+   "past": {
+    "1s": "وفرت"
+   }
   },
   "MARRY": {
    "root": "تزوج / يتزوج، Form V",
@@ -3193,7 +3392,9 @@
    "present": {
     "3sm": "يتأخر",
     "1s": "أتأخر",
-    "1p": "نتأخر"
+    "1p": "نتأخر",
+    "2sm": "تتأخر",
+    "2p": "تتأخرون"
    },
    "past": {
     "3sm": "تأخر",
@@ -3213,7 +3414,8 @@
    },
    "present": {
     "3sm": "ينسى",
-    "1s": "أنسى"
+    "1s": "أنسى",
+    "1p": "ننسى"
    },
    "sources": [
     "pan-Arabic/Gulf consensus, one of the most common everyday verbs",
@@ -3371,6 +3573,183 @@
    "sources": [
     "pan-Arabic/MSA-shared consensus, one of the most common everyday verbs",
     "regular normal-verb pattern -- same class as درس/فهم/etc, imperative formed the standard way (present stem minus person prefix, plus alif-wasl)"
+   ]
+  },
+  "CLOSE": {
+   "root": "سكر / يسكر, normal verb (to close -- homograph of the already-confirmed noun سكر \"sugar\")",
+   "present": {
+    "3sm": "يسكر",
+    "3p": "يسكرون",
+    "1p": "نسكر"
+   },
+   "sources": [
+    "pan-Gulf colloquial consensus, common everyday verb (Gulf dialects use سكر for \"close\" where MSA uses أغلق)",
+    "regular normal-verb suffix pattern -- same class as درس/فهم/etc"
+   ]
+  },
+  "GET_TIRED": {
+   "root": "تعب / يتعب, normal verb (already has the confirmed adjective تعبان related to this root)",
+   "present": {
+    "3sm": "يتعب",
+    "3p": "يتعبون",
+    "1s": "أتعب"
+   },
+   "past": {
+    "3p": "تعبو",
+    "3sm": "تعب"
+   },
+   "sources": [
+    "pan-Arabic/Gulf consensus, one of the most common everyday verbs",
+    "regular normal-verb suffix pattern -- same class as درس/فهم/etc"
+   ]
+  },
+  "SPEND": {
+   "root": "صرف / يصرف, normal verb",
+   "present": {
+    "2sm": "تصرف",
+    "1s": "أصرف",
+    "1p": "نصرف",
+    "3sm": "يصرف"
+   },
+   "past": {
+    "1p": "صرفنا"
+   },
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard unambiguous word",
+    "regular normal-verb suffix pattern -- same class as درس/فهم/etc"
+   ]
+  },
+  "GET_UPSET": {
+   "root": "زعل / يزعل, normal verb (already has the confirmed adjective زعلان related to this root)",
+   "present": {
+    "2sm": "تزعل",
+    "3sm": "يزعل",
+    "1s": "أزعل"
+   },
+   "sources": [
+    "pan-Gulf/pan-Arabic consensus, one of the most common everyday verbs",
+    "regular normal-verb suffix pattern -- same class as درس/فهم/etc"
+   ]
+  },
+  "ENTER": {
+   "root": "دخل / يدخل, normal verb",
+   "present": {
+    "3sf": "تدخل",
+    "3sm": "يدخل",
+    "1s": "أدخل"
+   },
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard unambiguous word",
+    "regular normal-verb suffix pattern -- same class as درس/فهم/etc"
+   ]
+  },
+  "WALK": {
+   "root": "مشى / يمشي, weak-final Form I",
+   "present": {
+    "2sm": "تمشي",
+    "1s": "أمشي",
+    "3sm": "يمشي"
+   },
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard unambiguous word",
+    "regular weak-final Form I suffix pattern -- same class as سوى/شرى/بقي/نسى/قرى"
+   ]
+  },
+  "SUFFICE": {
+   "root": "كفى / يكفي, weak-final Form I (already has the confirmed adjective كافي related to this root)",
+   "present": {
+    "3sm": "يكفي"
+   },
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard unambiguous word",
+    "regular weak-final Form I suffix pattern -- same class as سوى/شرى/بقي/نسى/قرى/مشى"
+   ]
+  },
+  "HURT": {
+   "root": "وجع / يوجع, normal verb (\"to hurt/ache\", used with an object suffix: yoowja3ni \"it hurts me\")",
+   "present": {
+    "3sm": "يوجع",
+    "3sf": "توجع"
+   },
+   "sources": [
+    "pan-Gulf colloquial consensus, one of the most common everyday health-related verbs",
+    "regular normal-verb suffix pattern -- same class as درس/فهم/etc"
+   ]
+  },
+  "WAIT": {
+   "root": "انتظر / ينتظر, Form VIII",
+   "present": {
+    "1p": "ننتظر",
+    "3sm": "ينتظر",
+    "1s": "أنتظر",
+    "2sm": "تنتظر"
+   },
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, one of the most common everyday verbs",
+    "regular Form VIII suffix pattern -- same class as احتاج/اجتمع/ارتاح in this file"
+   ]
+  },
+  "FEEL": {
+   "root": "حس / يحس, doubled verb (\"to feel\", same class as حب/يحب)",
+   "present": {
+    "1s": "أحس",
+    "2sm": "تحس",
+    "2sf": "تحسين",
+    "3sm": "يحس",
+    "3sf": "تحس",
+    "1p": "نحس",
+    "3p": "يحسون"
+   },
+   "sources": [
+    "pan-Gulf colloquial consensus, one of the most common everyday verbs for describing feelings/sensations",
+    "regular doubled-verb suffix pattern -- same class as the already-confirmed حب/يحب paradigm"
+   ]
+  },
+  "IMPROVE": {
+   "root": "تحسن / يتحسن, Form V",
+   "past": {
+    "3sm": "تحسن"
+   },
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard unambiguous word",
+    "regular Form V suffix pattern -- same class as تكلم/تزوج/تأخر/تعلم/توتر/تعب"
+   ]
+  },
+  "TAKE": {
+   "root": "اخذ / ياخذ, hamzated normal verb",
+   "present": {
+    "2sm": "تاخذ",
+    "1s": "اخذ",
+    "3sm": "ياخذ",
+    "1p": "ناخذ"
+   },
+   "sources": [
+    "pan-Arabic/Gulf consensus, one of the most common everyday verbs",
+    "regular hamzated Form I pattern -- same class as اكل/ياكل"
+   ]
+  },
+  "GIVE": {
+   "root": "عطى / يعطي, weak-final Form I (already implicit in the confirmed set phrase يعطيك العافية)",
+   "present": {
+    "2sm": "تعطي",
+    "1s": "أعطي",
+    "3sm": "يعطي"
+   },
+   "sources": [
+    "pan-Gulf colloquial consensus, one of the most common everyday verbs, already partially attested via يعطيك العافية",
+    "regular weak-final Form I suffix pattern -- same class as سوى/شرى/بقي/نسى/قرى/مشى"
+   ]
+  },
+  "PRAY": {
+   "root": "صلى / يصلي, weak-final Form I (already has the confirmed noun صلاة related to this root)",
+   "present": {
+    "1p": "نصلي",
+    "3sm": "يصلي",
+    "1s": "أصلي"
+   },
+   "sources": [
+    "pan-Islamic/pan-Arabic consensus, one of the five pillars of Islam",
+    "regular weak-final Form I suffix pattern -- same class as سوى/شرى/بقي/نسى/قرى/مشى/عطى"
    ]
   }
  },

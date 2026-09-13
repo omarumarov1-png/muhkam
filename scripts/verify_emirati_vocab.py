@@ -77,7 +77,7 @@ def load_cumulative_vocab(up_to_level):
 
 CONFIRMED_VOCAB = load_confirmed_vocab()
 
-POSSESSIVE_SUFFIXES = ["ها", "هم", "كم", "نا", "ي", "ك", "ه"]
+POSSESSIVE_SUFFIXES = ["ها", "هم", "كم", "ني", "نا", "ي", "ك", "ه"]
 
 
 def check_definite_article(word, vocab):
