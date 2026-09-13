@@ -1,248 +1,2201 @@
 {
-  "_comment": "Words NOT yet shipped in any emirati-src lesson, confirmed via >=2 independent external sources before being trusted for use in new content. Mirrors data/syrian-research/researched_vocab.json's format/discipline.",
-  "available_from_level": "a1",
-  "words": {
-    "مدرس": {"gloss": "teacher (m)", "sources": ["aminacademy", "gulfarabic.com"]},
-    "مدرسة": {"gloss": "teacher (f) / school", "sources": ["aminacademy", "gulfarabic.com"]},
-    "مهندس": {"gloss": "engineer", "sources": ["aminacademy", "gulfarabic.com"]},
-    "مترجم": {"gloss": "translator", "sources": ["aminacademy", "gulfarabic.com"]},
-    "تاجر": {"gloss": "merchant", "sources": ["aminacademy", "gulfarabic.com"]},
-    "كاتب": {"gloss": "clerk/writer", "sources": ["aminacademy", "gulfarabic.com"]},
-    "فراش": {"gloss": "cleaner/servant", "sources": ["aminacademy", "gulfarabic.com"]},
-    "دريول": {"gloss": "driver", "sources": ["aminacademy", "gulfarabic.com"]},
-    "ميكانيكي": {"gloss": "mechanic", "sources": ["aminacademy", "gulfarabic.com"]},
-    "سكرتير": {"gloss": "secretary (m)", "sources": ["aminacademy", "gulfarabic.com"]},
-    "سكرتيرة": {"gloss": "secretary (f)", "sources": ["aminacademy", "gulfarabic.com"]},
-    "متوتر": {"gloss": "stressed/nervous", "sources": ["aminacademy", "second-pass-consensus"]},
-    "متضايق": {"gloss": "upset/annoyed", "sources": ["second-pass-consensus"], "note": "corrected form -- aminacademy's مضايق was unconfirmed, sources show متضايق instead"},
-    "خالي": {"gloss": "my maternal uncle", "sources": ["aminacademy", "arabicpod101/playaling/learnarabicuae"]},
-    "خالتي": {"gloss": "my maternal aunt", "sources": ["aminacademy", "arabicpod101/playaling/learnarabicuae"]},
-    "عمي": {"gloss": "my paternal uncle", "sources": ["aminacademy", "arabicpod101/playaling/learnarabicuae"]},
-    "عمتي": {"gloss": "my paternal aunt", "sources": ["aminacademy", "arabicpod101/playaling/learnarabicuae"]},
-    "جدي": {"gloss": "my grandfather", "sources": ["aminacademy", "arabicpod101/playaling/learnarabicuae"]},
-    "جدتي": {"gloss": "my grandmother", "sources": ["aminacademy", "arabicpod101/playaling/learnarabicuae"]},
-    "قميص": {"gloss": "shirt", "sources": ["aminacademy (clothing page)", "wikipedia Emirati Arabic + consensus"]},
-    "بنطلون": {"gloss": "pants", "sources": ["aminacademy (clothing page)", "wikipedia Emirati Arabic + consensus"]},
-    "عباية": {"gloss": "abaya", "sources": ["aminacademy (clothing page)", "wikipedia Emirati Arabic + consensus"]},
-    "غترة": {"gloss": "headdress", "sources": ["aminacademy (clothing page)", "wikipedia Emirati Arabic + consensus"]},
-    "لحم": {"gloss": "meat", "sources": ["aminacademy", "gulfarabic.com (At the Market)"]},
-    "بيض": {"gloss": "eggs", "sources": ["aminacademy", "gulfarabic.com (At the Market)"]},
-    "سلطة": {"gloss": "salad", "sources": ["aminacademy", "general Arabic food-vocab consensus"]},
-    "مستشفى": {"gloss": "hospital", "sources": ["aminacademy", "kalimah-center/arabic123"]},
-    "طبيب": {"gloss": "doctor (m)", "sources": ["aminacademy", "kalimah-center/arabic123"]},
-    "طبيبة": {"gloss": "doctor (f)", "sources": ["aminacademy", "kalimah-center/arabic123"]},
-    "قطار": {"gloss": "train", "sources": ["aminacademy", "arabic123 + consensus"]},
-    "جوال": {"gloss": "mobile phone", "sources": ["aminacademy (telephone page)", "general Gulf phone-vocab sources"]},
-    "خط": {"gloss": "(phone) line", "sources": ["aminacademy (telephone page)", "general Gulf phone-vocab sources"]},
-    "اتصل": {"gloss": "to call (verb)", "sources": ["aminacademy (telephone page)", "general Gulf phone-vocab sources"]},
-    "الاحد": {"gloss": "Sunday", "sources": ["gulfarabic.com (days page)", "general consensus"]},
-    "الثلاثاء": {"gloss": "Tuesday", "sources": ["gulfarabic.com (days page)", "general consensus"]},
-    "الاربعاء": {"gloss": "Wednesday", "sources": ["gulfarabic.com (days page)", "general consensus"]},
-
-    "الجو": {"gloss": "weather/the air", "sources": ["kalimah-center.com", "preply.com"], "note": "colloquial Gulf phrasing, e.g. الجو حار/بارد"},
-    "بارد": {"gloss": "cold", "sources": ["kalimah-center.com", "meaningofarabic.com", "preply.com"]},
-    "مشمس": {"gloss": "sunny", "sources": ["meaningofarabic.com", "preply.com"]},
-    "ريح": {"gloss": "wind", "sources": ["aminacademy (الرياح)", "meaningofarabic.com"]},
-    "مطر": {"gloss": "rain", "sources": ["aminacademy (أمطار/مطيرة)", "general Arabic weather-vocab consensus"]},
-
-    "باب": {"gloss": "door", "sources": ["aminacademy", "gulfarabic.com"]},
-    "دريشة": {"gloss": "window", "sources": ["aminacademy", "bayut.com/mybayut (Emirati Words And Meanings)"], "note": "Emirati-specific; MSA is نافذة"},
-    "مطبخ": {"gloss": "kitchen", "sources": ["aminacademy", "gulfarabic.com"]},
-    "طاولة": {"gloss": "table", "sources": ["aminacademy (طولة colloquial variant)", "general consensus"]},
-    "كرسي": {"gloss": "chair", "sources": ["aminacademy", "general Gulf/MSA-shared consensus"]},
-    "صحن": {"gloss": "plate", "sources": ["aminacademy", "independent kitchen-vocab consensus"]},
-
-    "قطوة": {"gloss": "cat", "sources": ["aminacademy", "Wiktionary (dedicated Gulf Arabic entry)"], "note": "Gulf/Najdi-specific; MSA is قطة"},
-    "جلب": {"gloss": "dog", "sources": ["aminacademy", "arabic123/thetalklist consensus"], "note": "Gulf-specific; MSA/most dialects use كلب"},
-    "جمل": {"gloss": "camel", "sources": ["aminacademy", "thetalklist.com"]},
-    "طير": {"gloss": "bird", "sources": ["aminacademy", "general Arabic consensus"]},
-
-    "ثلاث": {"gloss": "three (bound form, in ثلاث طعش = thirteen)", "sources": ["aminacademy", "wikibooks/fluentarabic consensus"]},
-    "أربع": {"gloss": "four (bound form, in أربع طعش = fourteen)", "sources": ["aminacademy", "wikibooks/fluentarabic consensus"]},
-    "خمس": {"gloss": "five (bound form, in خمس طعش = fifteen)", "sources": ["aminacademy", "wikibooks/fluentarabic consensus"]},
-    "طعش": {"gloss": "-teen (suffix word, e.g. ثلاث طعش = thirteen)", "sources": ["aminacademy", "wikibooks/fluentarabic consensus"]},
-    "عشرين": {"gloss": "twenty", "sources": ["aminacademy", "arabicworksheet.com (Numbers in Saudi Arabic)"]},
-    "ثلاثين": {"gloss": "thirty", "sources": ["aminacademy", "arabicworksheet.com"]},
-    "أربعين": {"gloss": "forty", "sources": ["aminacademy", "arabicworksheet.com"]},
-    "خمسين": {"gloss": "fifty", "sources": ["aminacademy", "arabicworksheet.com"]},
-    "ستين": {"gloss": "sixty", "sources": ["aminacademy (سِتِّين)", "kalimah-center.com (ستون, MSA case-ending variant of same root)"]},
-    "سبعين": {"gloss": "seventy", "sources": ["aminacademy", "kalimah-center.com"]},
-    "ثمانين": {"gloss": "eighty", "sources": ["aminacademy", "kalimah-center.com"]},
-    "تسعين": {"gloss": "ninety", "sources": ["aminacademy", "kalimah-center.com"]},
-    "مية": {"gloss": "hundred", "sources": ["aminacademy (إميَة)", "arabicworksheet.com (مية, spelling variant)"]},
-
-    "سريع": {"gloss": "fast", "sources": ["blogs.transparent.com/arabic", "pinhok.com/arabic123.com"]},
-    "بطيء": {"gloss": "slow", "sources": ["blogs.transparent.com/arabic", "pinhok.com/arabic123.com"]},
-    "سهل": {"gloss": "easy", "sources": ["pinhok.com", "arabicpod101.com/arabic123.com"]},
-    "صعب": {"gloss": "difficult/hard", "sources": ["pinhok.com", "arabicpod101.com/arabic123.com"]},
-    "جميل": {"gloss": "beautiful/pretty", "sources": ["blogs.transparent.com", "arabicpod101.com/arabic123.com"]},
-    "قبيح": {"gloss": "ugly", "sources": ["blogs.transparent.com", "arabic123.com"]},
-    "قوي": {"gloss": "strong", "sources": ["pinhok.com", "arabicpod101.com/arabic123.com"]},
-    "ضعيف": {"gloss": "weak", "sources": ["pinhok.com", "arabicpod101.com/arabic123.com"]},
-    "نظيف": {"gloss": "clean (adj.)", "sources": ["pinhok.com", "arabic123.com"]},
-    "وسخ": {"gloss": "dirty", "sources": ["pinhok.com", "arabic123.com"]},
-    "لذيذ": {"gloss": "delicious/tasty", "sources": ["preply.com", "arabicpod101.com/arabic123.com"]},
-
-    "كتاب": {"gloss": "book", "sources": ["aractivities.com", "kalimah-center.com/arabic123.com"]},
-    "قلم": {"gloss": "pen", "sources": ["aractivities.com", "kalimah-center.com/arabic123.com"]},
-    "شنطة": {"gloss": "bag", "sources": ["arabic123.com (explicit Gulf-dialect note)", "hinative.com consensus"], "note": "Gulf-specific; MSA is حقيبة"},
-    "مفتاح": {"gloss": "key", "sources": ["arabic123.com", "thenationalnews.com"]},
-    "محفظة": {"gloss": "wallet", "sources": ["arabic123.com", "general dictionary consensus"]},
-    "مظلة": {"gloss": "umbrella", "sources": ["arabic123.com", "dictionary consensus"]},
-    "نظارة": {"gloss": "glasses/eyewear", "sources": ["arabic123.com-adjacent consensus", "almaany.com"]},
-
-    "يد": {"gloss": "hand", "sources": ["aminacademy.org", "kalimah-center.com/preply.com"]},
-    "عين": {"gloss": "eye", "sources": ["aminacademy.org", "kalimah-center.com/preply.com"]},
-    "أذن": {"gloss": "ear", "sources": ["aminacademy.org", "kalimah-center.com/preply.com"]},
-    "فم": {"gloss": "mouth", "sources": ["kalimah-center.com", "preply.com/arabic123.com"]},
-    "رجل": {"gloss": "leg/foot", "sources": ["kalimah-center.com", "preply.com"]},
-    "شعر": {"gloss": "hair", "sources": ["kalimah-center.com", "preply.com/arabic123.com"]},
-
-    "درس": {"gloss": "lesson/class", "sources": ["kalimah-center.com", "arabic123.com"]},
-    "طالب": {"gloss": "student (m)", "sources": ["kalimah-center.com", "arabic123.com"]},
-    "طالبة": {"gloss": "student (f)", "sources": ["kalimah-center.com", "arabic123.com"]},
-
-    "ساعة": {"gloss": "hour / watch / clock", "sources": ["italki Khaleeji-noun list (native-speaker compiled)", "general Arabic-time consensus"]},
-    "دقيقة": {"gloss": "minute", "sources": ["italki Khaleeji list", "general Arabic-time consensus"]},
-    "الصبح": {"gloss": "morning (distinct spelling from صباح, used adverbially -- 'in the morning')", "sources": ["italki Khaleeji list", "blogs.transparent.com (times-of-day)"]},
-    "الظهر": {"gloss": "noon", "sources": ["italki Khaleeji list", "blogs.transparent.com"]},
-    "عصر": {"gloss": "afternoon", "sources": ["italki Khaleeji list", "blogs.transparent.com"]},
-    "الليل": {"gloss": "night", "sources": ["italki Khaleeji list", "blogs.transparent.com"]},
-
-    "من": {"gloss": "from/of (function word, part of من فضلك 'please')", "sources": ["storylearning.com (#38)", "gulfarabic.com (at-the-airport page)", "aminacademy.org (at-the-restaurant, catching-a-taxi pages)"]},
-    "فضلك": {"gloss": "please (من فضلك, lit. 'from your kindness')", "sources": ["storylearning.com (#38)", "gulfarabic.com (at-the-airport page)", "aminacademy.org (at-the-restaurant, catching-a-taxi pages)"]},
-    "لو": {"gloss": "if (function word, part of لو سمحت 'excuse me')", "sources": ["storylearning.com (#36-37)", "aminacademy.org (at-the-restaurant page)"]},
-    "سمحت": {"gloss": "excuse me (لو سمحت, lit. 'if you allow')", "sources": ["storylearning.com (#36-37)", "aminacademy.org (at-the-restaurant page)"]},
-    "طبعا": {"gloss": "of course (spelled طبعاً with tanwin in prose, but the tanwin diacritic is stripped by tokenization)", "sources": ["storylearning.com (#57)", "gulfarabic.com (v22 descriptive-phrases page)"]},
-    "انشاالله": {"gloss": "God willing (إن شاء الله, common informal spelling)", "sources": ["storylearning.com (#59)", "gulfarabic.com (greetings page, in situ usage)"]},
-    "باص": {"gloss": "bus", "sources": ["aminacademy.org (transportation + airport pages)", "Wiktionary (dedicated Gulf Arabic section)"]},
-    "طيارة": {"gloss": "airplane", "sources": ["aminacademy.org (at-the-airport, transportation pages)", "gulfarabic.com (v31 at-the-airport page)"]},
-    "سوق": {"gloss": "market", "sources": ["aminacademy.org", "storylearning.com", "gulfarabic.com (broken-plural page)", "Wiktionary"]},
-    "جار": {"gloss": "neighbor", "sources": ["Wiktionary (dedicated Gulf Arabic section)", "gulfarabic.com (broken-plural page)"]},
-    "جيران": {"gloss": "neighbors (plural of جار)", "sources": ["Wiktionary (dedicated Gulf Arabic section)", "gulfarabic.com (broken-plural page)"]},
-    "دايما": {"gloss": "always (spelled دايماً with tanwin in prose, but the tanwin diacritic is stripped by tokenization)", "sources": ["aminacademy.org (dedicated Adverbs in Gulf Arabic page)", "gulfarabic.com (v76, v72)"]},
-
-    "أكبر": {"gloss": "bigger", "sources": ["aminacademy.org (comparative/superlative page)", "gulfarabicresources.com (Comparing Our Countries conversation-questions page)"]},
-    "أصغر": {"gloss": "smaller", "sources": ["gulfarabicresources.com (Superlatives PDF)", "Qafisheh ('asgar, attested in a Text and Translation passage about the UAE emirates)"]},
-    "أزيان": {"gloss": "better", "sources": ["aminacademy.org (comparative/superlative page)", "Qafisheh (elative-adjectives table, zeen -> azyan)"], "note": "Qafisheh is transliteration-only; exact script form corroborated by root/meaning, not independently native-script-verified, same caveat as أشوف/ناطرين"},
-    "أغلى": {"gloss": "more expensive", "sources": ["gulfarabicresources.com (Superlatives PDF, shopping page)", "Qafisheh (elative-adjectives table, gaali -> 'agla)"]},
-    "مبروك": {"gloss": "congratulations", "sources": ["fluentinsixmonths.com (Gulf Arabic phrases list)", "blog.alifbee.com (explicitly names Gulf Arabic)"]},
-    "أبدا": {"gloss": "never (spelled أبداً with tanwin in prose, but the tanwin diacritic is stripped by tokenization)", "sources": ["aminacademy.org (Adverbs in Gulf Arabic page)", "Qafisheh (negation section, 'abdan/'abadan, used repeatedly in example sentences)"]},
-    "مرة": {"gloss": "time/occasion (as in مرة ثانية 'again')", "sources": ["storylearning.com (Gulf Arabic phrases article)", "Qafisheh (ordinals section, marra baanya)"]},
-    "ثانية": {"gloss": "second/another (as in مرة ثانية 'again')", "sources": ["storylearning.com (Gulf Arabic phrases article)", "Qafisheh (ordinals section)"]},
-    "أول": {"gloss": "first", "sources": ["aminacademy.org (at-the-bank, catching-a-taxi pages)", "gulfarabic.com (g43 ordinals page)"]},
-    "شوي": {"gloss": "a little/slowly", "sources": ["aminacademy.org (asking-questions, booking-a-hotel pages)", "arabic123.com (slang-and-informal)", "gulfarabicresources.com (Movies and Cinema page)"]},
-    "بعض": {"gloss": "some", "sources": ["aminacademy.org (weather-report page)", "gulfarabicresources.com (Music, Religion topical pages)"]},
-    "كل": {"gloss": "all/every", "sources": ["gulfarabicresources.com (dedicated Each/Every, Whole, All PDF worksheet)", "gulfarabic.com (v72, g47)"]},
-    "يلا": {"gloss": "let's go/come on", "sources": ["storylearning.com (Gulf Arabic phrases article)", "aminacademy.org (at-the-market page)", "arabic123.com (slang-and-informal)"]},
-    "حلو": {"gloss": "sweet/nice/beautiful", "sources": ["aminacademy.org (expressions page)", "arabic123.com (slang-and-informal)"]},
-    "الحساب": {"gloss": "the bill/check", "sources": ["storylearning.com (Gulf Arabic phrases article)", "aminacademy.org (at-the-bank, booking-a-hotel pages)"]},
-    "مجاني": {"gloss": "free (of charge)", "sources": ["aminacademy.org (at-the-bank page)", "thetalklist.com (Free in Different Languages)"]},
-    "طلع": {"gloss": "to leave/go out (3sm past/citation form)", "sources": ["aminacademy.org (booking-a-hotel, at-the-airport pages)", "gulfarabic.com (g47)", "gulfarabicresources.com (picture-stories page)"]},
-    "قعد": {"gloss": "to sit/stay (3sm past/citation form)", "sources": ["gulfarabic.com (v56, In the Office II)", "Qafisheh (live sentence: ga9ad sawlaf)"]},
-
-    "الأسبوع": {"gloss": "the week", "sources": ["aminacademy.org (adverbs-in-gulf-arabic page)", "Qafisheh (s-subuu9 l-maaDi)"]},
-    "الماضي": {"gloss": "last/past (as in الأسبوع الماضي 'last week')", "sources": ["aminacademy.org (adverbs-in-gulf-arabic page)", "Qafisheh (s-subuu9 l-maaDi, s-sahar l-maaDi)"]},
-    "الشهر": {"gloss": "the month", "sources": ["aminacademy.org (adverbs-in-gulf-arabic page)", "Qafisheh (s-sahar l-maaDi)"]},
-    "الجاي": {"gloss": "coming/next (as in الأسبوع الجاي 'next week')", "sources": ["aminacademy.org (adverbs-in-gulf-arabic page)", "Qafisheh (jaay/yaay glossed 'coming')"]},
-
-    "جوتي": {"gloss": "shoes", "sources": ["aminacademy.org (clothes-in-gulf-arabic page)", "Wiktionary (dedicated Gulf Arabic entry)"]},
-    "دلاغات": {"gloss": "socks", "sources": ["aminacademy.org", "UAE retail sites (socksup.ae)"]},
-    "قحفية": {"gloss": "men's skull cap/hat", "sources": ["aminacademy.org", "Gulf retail/reference sites (shababalyola.ae, littlebedoo.com)"]},
-
-    "ابن": {"gloss": "son (as in ابن العم 'cousin')", "sources": ["kalimah-center.com", "kaleela.com/preply.com"]},
-    "بنت": {"gloss": "daughter/girl (as in بنت العم 'female cousin')", "sources": ["kalimah-center.com", "kaleela.com"]},
-    "العم": {"gloss": "the paternal uncle (as in ابن العم 'paternal cousin')", "sources": ["kalimah-center.com", "kaleela.com/preply.com"]},
-    "الخال": {"gloss": "the maternal uncle (as in ابن الخال 'maternal cousin')", "sources": ["kalimah-center.com", "kaleela.com/preply.com"]},
-    "حفيد": {"gloss": "grandson", "sources": ["kalimah-center.com", "preply.com"]},
-    "حفيدة": {"gloss": "granddaughter", "sources": ["kalimah-center.com", "preply.com"]},
-
-    "غائم": {"gloss": "cloudy", "sources": ["kalimah-center.com (seasons-and-weather-in-arabic)", "preply.com (arabic-weather-terms)"]},
-    "عاصفة": {"gloss": "storm", "sources": ["kalimah-center.com", "preply.com"]},
-    "رطوبة": {"gloss": "humidity (noun)", "sources": ["kalimah-center.com", "preply.com"]},
-
-    "يرحمكم": {"gloss": "may He have mercy on you (يرحمكم الله, said after a sneeze)", "sources": ["speakrealarabic.com", "insidesaudi.com (Gulf-region source)"]},
-
-    "ركبة": {"gloss": "knee", "sources": ["aminacademy.org (body-parts-in-gulf-arabic page)", "kalimah-center.com (body-parts-in-arabic page)"]},
-    "ظهر": {"gloss": "back", "sources": ["kalimah-center.com (body-parts-in-arabic page)", "gulfarabicresources.com (health page, 'آلام في الظهر')"]},
-    "خشم": {"gloss": "nose", "sources": ["aminacademy.org (body-parts-in-gulf-arabic page)", "Wiktionary (dedicated Gulf Arabic entry)"], "note": "Gulf-specific; MSA is أنف, same pattern as قطوة/جلب/دريشة"},
-    "أحيانا": {"gloss": "sometimes (spelled أحياناً with tanwin in prose, but the tanwin diacritic is stripped by tokenization)", "sources": ["aminacademy.org (Adverbs in Gulf Arabic page)", "gulfarabicresources.com (practice-for-past-and-present-tense PDF, answer key item 18)"]},
-
-    "أشوف": {"gloss": "I see (present tense of شاف, which the course previously only had confirmed in past tense)", "sources": ["Qafisheh (asuufa, attested in example sentence)", "gulfarabicresources.com (simple-conjugation-charts-of-some-example-verbs.pdf, 'To see' table)"]},
-    "يشوف": {"gloss": "he sees", "sources": ["Qafisheh (ysuufni, attested in example sentence)", "gulfarabicresources.com (simple-conjugation-charts-of-some-example-verbs.pdf)"]},
-    "يغسل": {"gloss": "he washes", "sources": ["aminacademy.org (the-present-simple/, raw HTML)", "Qafisheh (ygasil)"]},
-    "يلعب": {"gloss": "he plays", "sources": ["Qafisheh (verb-class table)", "gulfarabicresources.com (practice-for-past-and-present-tense.pdf, answer key #5)"]},
-    "ناطرين": {"gloss": "waiting (plural participle)", "sources": ["Qafisheh (naatriinak, attested in example sentence)", "general native-speaker consensus (HiNative/TikTok/Quora threads on Emirati 'waiting')"], "note": "only the plural participle is directly attested; singular ناطر/ناطرة not verified, don't use"}
+ "_comment": "Words NOT yet shipped in any emirati-src lesson, confirmed via >=2 independent external sources before being trusted for use in new content. Mirrors data/syrian-research/researched_vocab.json's format/discipline.",
+ "available_from_level": "a1",
+ "words": {
+  "مدرس": {
+   "gloss": "teacher (m)",
+   "sources": [
+    "aminacademy",
+    "gulfarabic.com"
+   ]
   },
-  "verbs": {
-    "_comment": "Partial confirmed conjugation paradigms for new verbs beyond the original GO/SEE/DRINK/WANT/KNOW/HAVE set. Only persons/tenses confirmed by >=2 independent sources are listed -- content generation must only use the listed keys for each verb, never fill gaps by analogy.",
-    "EAT": {
-      "root": "اكل / ياكل",
-      "present": {"1s": "آكل", "2sm": "تاكل", "2sf": "تاكلين", "3sm": "ياكل"},
-      "past": {"3sm": "اكل"},
-      "sources": ["aminacademy (restaurant page)", "Qafisheh, A Short Reference Grammar of Gulf Arabic"]
-    },
-    "COOK": {
-      "root": "طبخ / يطبخ",
-      "present": {"1s": "أطبخ", "2sm": "تطبخ", "2sf": "تطبخين", "3sm": "يطبخ",
-                  "3sf": "تطبخ", "1p": "نطبخ", "2p": "تطبخون", "3p": "يطبخون"},
-      "past": {"2sm": "طبخت", "3sm": "طبخ", "3sf": "طبخت", "1p": "طبخنا", "2p": "طبختوا", "3p": "طبخوا"},
-      "sources": ["aminacademy (present-simple + past-tense pages, full paradigms)", "Qafisheh (root/3sm corroboration)"],
-      "note": "site's past-tense 1s (أطبخت) and 2sf (طبخي) cells dropped as likely typos -- don't match the regular sound-verb pattern"
-    },
-    "WORK": {
-      "root": "اشتغل / يشتغل",
-      "present": {"1s": "أشتغل", "2sm": "تشتغل", "3sm": "يشتغل", "3sf": "تشتغل", "2p": "تشتغلون", "3p": "يشتغلون"},
-      "sources": ["Qafisheh (1s attested in example sentence)", "gulfarabicresources.com/work-jobs-professions (real Q&A sentences)"]
-    },
-    "LOVE": {
-      "root": "حب / يحب",
-      "present": {"1s": "أحب", "2sm": "تحب", "3sm": "يحب", "3sf": "تحب"},
-      "past": {"3sm": "حب"},
-      "sources": ["gulfarabic.com (present paradigm + أحبج/أحبك set phrases)", "Qafisheh (3sm, doubled-verb class)"]
-    },
-    "SLEEP": {
-      "root": "نام / ينام",
-      "present": {"3sm": "ينام"},
-      "past": {"1s_or_2sm": "نمت", "3sm": "نام", "1p": "نمنا"},
-      "sources": ["gulfarabic.com (verb list, نمت/نمنا native script)", "Qafisheh (hollow-verb class, imperfect ينام)"],
-      "note": "نمت is ambiguous between 1s and 2sm without a subject pronoun -- only use with an explicit أنا/انت"
-    },
-    "CLEAN": {
-      "root": "نظف / ينظف",
-      "present": {"1s": "أنظف", "2sm": "تنظف", "3sm": "ينظف", "3sf": "تنظف", "1p": "ننظف"},
-      "past": {"1s": "نظفت", "2sm": "نظفت", "2sf": "نظفتي", "3sm": "نظف", "3sf": "نظفت", "1p": "نظفنا", "2p": "نظفتوا", "3p": "نظفوا"},
-      "sources": ["aminacademy.org (the-present-simple/, the-past-tense/, raw HTML re-fetched to rule out AI-summary paraphrase)", "gulfarabicresources.com (simple-conjugation-charts-of-some-example-verbs.pdf, Form II table)"],
-      "note": "present 2sf/2p/3p omitted -- the two sources disagree on the ending (ن-suffix vs not) and neither wins outright; past forms use pronoun disambiguation where 1s/2sm/3sf collide in script (نظفت is shared by all three)"
-    },
-    "COME": {
-      "root": "جاء / يا / يجي",
-      "present": {"3sm": "يجي", "2sm_or_3sf": "تجي"},
-      "past": {"1s_or_2sm": "ييت", "2sf": "ييتي", "3sm": "يا", "3sf": "يات", "1p": "يينا", "2p": "ييتو", "3p": "ياو"},
-      "sources": ["gulfarabic.com (g47, Verbs Past Tense II -- full 8-cell past paradigm with live example sentences)", "Qafisheh (full conjugation table for the hollow/hamzated ja/ya verb class, matches gulfarabic.com's forms exactly)"],
-      "note": "present 3sm يجي and 2sm/3sf تجي each confirmed by 2 independent sources (Qafisheh + gulfarabicresources.com topical-conversation pages); 1s present أجي only single-sourced (Qafisheh) and 1p/2p/3p present unattested anywhere -- do not use those. ييت is ambiguous between 1s and 2sm without an explicit subject pronoun."
-    },
-    "BUY": {
-      "root": "اشترى / يشتري",
-      "present": {"2sm_or_3sf": "تشتري"},
-      "sources": ["aminacademy.org (at-the-bank page: 'تقدر تشتري تدفع')", "gulfarabicresources.com (money page: 'هل عادة تفكر في السعر ولا بس تشتري اللي تحتاجه؟')"],
-      "note": "only this one cell meets the 2-source bar; 1s أشتري, 3sm يشتري, and 1p نشتري are each single-domain only, and past tense اشترى is unattested anywhere -- do not use those"
-    },
-    "PAY": {
-      "root": "دفع / يدفع",
-      "present": {"2sm_or_3sf": "تدفع"},
-      "sources": ["aminacademy.org (at-the-bank page: 'و تدفع بيه من تشتري')", "gulfarabicresources.com (work-jobs-professions page: 'هل الشركة لسى تدفع لك؟')"],
-      "note": "only this one cell meets the 2-source bar; 1s أدفع and 3p forms are each single-domain only -- do not use those"
-    }
+  "مدرسة": {
+   "gloss": "teacher (f) / school",
+   "sources": [
+    "aminacademy",
+    "gulfarabic.com"
+   ]
   },
-  "_sources_log": {
-    "aminacademy": "aminacademy.org Gulf Arabic pedagogical pages (professions/feelings/family/clothing/food/health/transport/tech/weather/household/animals/numbers, many distinct pages)",
-    "gulfarabic.com": "gulfarabic.com structured lessons (professions v34, days-of-week page, At the Market page, verb list)",
-    "second-pass-consensus": "cross-check pass against sources distinct from aminacademy.org and storylearning.com",
-    "arabicpod101/playaling/learnarabicuae": "independent Arabic family-vocabulary pedagogical pages",
-    "wikipedia Emirati Arabic + consensus": "en.wikipedia.org Emirati Arabic article cross-checked against general Gulf clothing-vocab consensus",
-    "kalimah-center/arabic123": "independent Arabic medical/weather/numbers-vocabulary pedagogical pages (MSA-shared forms also standard in Khaleeji per Wikipedia's Gulf Arabic article)",
-    "Qafisheh, A Short Reference Grammar of Gulf Arabic": "Hamdi Qafisheh's academic grammar of the Abu Dhabi dialect (Univ. of Arizona Press) -- transliteration-only, converted to Arabic script by the researching agent, so exact script form is not independently native-script-verified even though root/conjugation class is academically confirmed",
-    "meaningofarabic.com / preply.com / bayut.com / thetalklist.com / arabicworksheet.com / wikibooks/fluentarabic / gulfarabicresources.com / Wiktionary": "independent pedagogical or reference pages used for weather, household, animal, and number vocabulary cross-checks"
+  "مهندس": {
+   "gloss": "engineer",
+   "sources": [
+    "aminacademy",
+    "gulfarabic.com"
+   ]
+  },
+  "مترجم": {
+   "gloss": "translator",
+   "sources": [
+    "aminacademy",
+    "gulfarabic.com"
+   ]
+  },
+  "تاجر": {
+   "gloss": "merchant",
+   "sources": [
+    "aminacademy",
+    "gulfarabic.com"
+   ]
+  },
+  "كاتب": {
+   "gloss": "clerk/writer",
+   "sources": [
+    "aminacademy",
+    "gulfarabic.com"
+   ]
+  },
+  "فراش": {
+   "gloss": "cleaner/servant",
+   "sources": [
+    "aminacademy",
+    "gulfarabic.com"
+   ]
+  },
+  "دريول": {
+   "gloss": "driver",
+   "sources": [
+    "aminacademy",
+    "gulfarabic.com"
+   ]
+  },
+  "ميكانيكي": {
+   "gloss": "mechanic",
+   "sources": [
+    "aminacademy",
+    "gulfarabic.com"
+   ]
+  },
+  "سكرتير": {
+   "gloss": "secretary (m)",
+   "sources": [
+    "aminacademy",
+    "gulfarabic.com"
+   ]
+  },
+  "سكرتيرة": {
+   "gloss": "secretary (f)",
+   "sources": [
+    "aminacademy",
+    "gulfarabic.com"
+   ]
+  },
+  "متوتر": {
+   "gloss": "stressed/nervous",
+   "sources": [
+    "aminacademy",
+    "second-pass-consensus"
+   ]
+  },
+  "متضايق": {
+   "gloss": "upset/annoyed",
+   "sources": [
+    "second-pass-consensus"
+   ],
+   "note": "corrected form -- aminacademy's مضايق was unconfirmed, sources show متضايق instead"
+  },
+  "خالي": {
+   "gloss": "my maternal uncle",
+   "sources": [
+    "aminacademy",
+    "arabicpod101/playaling/learnarabicuae"
+   ]
+  },
+  "خالتي": {
+   "gloss": "my maternal aunt",
+   "sources": [
+    "aminacademy",
+    "arabicpod101/playaling/learnarabicuae"
+   ]
+  },
+  "عمي": {
+   "gloss": "my paternal uncle",
+   "sources": [
+    "aminacademy",
+    "arabicpod101/playaling/learnarabicuae"
+   ]
+  },
+  "عمتي": {
+   "gloss": "my paternal aunt",
+   "sources": [
+    "aminacademy",
+    "arabicpod101/playaling/learnarabicuae"
+   ]
+  },
+  "جدي": {
+   "gloss": "my grandfather",
+   "sources": [
+    "aminacademy",
+    "arabicpod101/playaling/learnarabicuae"
+   ]
+  },
+  "جدتي": {
+   "gloss": "my grandmother",
+   "sources": [
+    "aminacademy",
+    "arabicpod101/playaling/learnarabicuae"
+   ]
+  },
+  "قميص": {
+   "gloss": "shirt",
+   "sources": [
+    "aminacademy (clothing page)",
+    "wikipedia Emirati Arabic + consensus"
+   ]
+  },
+  "بنطلون": {
+   "gloss": "pants",
+   "sources": [
+    "aminacademy (clothing page)",
+    "wikipedia Emirati Arabic + consensus"
+   ]
+  },
+  "عباية": {
+   "gloss": "abaya",
+   "sources": [
+    "aminacademy (clothing page)",
+    "wikipedia Emirati Arabic + consensus"
+   ]
+  },
+  "غترة": {
+   "gloss": "headdress",
+   "sources": [
+    "aminacademy (clothing page)",
+    "wikipedia Emirati Arabic + consensus"
+   ]
+  },
+  "لحم": {
+   "gloss": "meat",
+   "sources": [
+    "aminacademy",
+    "gulfarabic.com (At the Market)"
+   ]
+  },
+  "بيض": {
+   "gloss": "eggs",
+   "sources": [
+    "aminacademy",
+    "gulfarabic.com (At the Market)"
+   ]
+  },
+  "سلطة": {
+   "gloss": "salad",
+   "sources": [
+    "aminacademy",
+    "general Arabic food-vocab consensus"
+   ]
+  },
+  "مستشفى": {
+   "gloss": "hospital",
+   "sources": [
+    "aminacademy",
+    "kalimah-center/arabic123"
+   ]
+  },
+  "طبيب": {
+   "gloss": "doctor (m)",
+   "sources": [
+    "aminacademy",
+    "kalimah-center/arabic123"
+   ]
+  },
+  "طبيبة": {
+   "gloss": "doctor (f)",
+   "sources": [
+    "aminacademy",
+    "kalimah-center/arabic123"
+   ]
+  },
+  "قطار": {
+   "gloss": "train",
+   "sources": [
+    "aminacademy",
+    "arabic123 + consensus"
+   ]
+  },
+  "جوال": {
+   "gloss": "mobile phone",
+   "sources": [
+    "aminacademy (telephone page)",
+    "general Gulf phone-vocab sources"
+   ]
+  },
+  "خط": {
+   "gloss": "(phone) line",
+   "sources": [
+    "aminacademy (telephone page)",
+    "general Gulf phone-vocab sources"
+   ]
+  },
+  "اتصل": {
+   "gloss": "to call (verb)",
+   "sources": [
+    "aminacademy (telephone page)",
+    "general Gulf phone-vocab sources"
+   ]
+  },
+  "الاحد": {
+   "gloss": "Sunday",
+   "sources": [
+    "gulfarabic.com (days page)",
+    "general consensus"
+   ]
+  },
+  "الثلاثاء": {
+   "gloss": "Tuesday",
+   "sources": [
+    "gulfarabic.com (days page)",
+    "general consensus"
+   ]
+  },
+  "الاربعاء": {
+   "gloss": "Wednesday",
+   "sources": [
+    "gulfarabic.com (days page)",
+    "general consensus"
+   ]
+  },
+  "الجو": {
+   "gloss": "weather/the air",
+   "sources": [
+    "kalimah-center.com",
+    "preply.com"
+   ],
+   "note": "colloquial Gulf phrasing, e.g. الجو حار/بارد"
+  },
+  "بارد": {
+   "gloss": "cold",
+   "sources": [
+    "kalimah-center.com",
+    "meaningofarabic.com",
+    "preply.com"
+   ]
+  },
+  "مشمس": {
+   "gloss": "sunny",
+   "sources": [
+    "meaningofarabic.com",
+    "preply.com"
+   ]
+  },
+  "ريح": {
+   "gloss": "wind",
+   "sources": [
+    "aminacademy (الرياح)",
+    "meaningofarabic.com"
+   ]
+  },
+  "مطر": {
+   "gloss": "rain",
+   "sources": [
+    "aminacademy (أمطار/مطيرة)",
+    "general Arabic weather-vocab consensus"
+   ]
+  },
+  "باب": {
+   "gloss": "door",
+   "sources": [
+    "aminacademy",
+    "gulfarabic.com"
+   ]
+  },
+  "دريشة": {
+   "gloss": "window",
+   "sources": [
+    "aminacademy",
+    "bayut.com/mybayut (Emirati Words And Meanings)"
+   ],
+   "note": "Emirati-specific; MSA is نافذة"
+  },
+  "مطبخ": {
+   "gloss": "kitchen",
+   "sources": [
+    "aminacademy",
+    "gulfarabic.com"
+   ]
+  },
+  "طاولة": {
+   "gloss": "table",
+   "sources": [
+    "aminacademy (طولة colloquial variant)",
+    "general consensus"
+   ]
+  },
+  "كرسي": {
+   "gloss": "chair",
+   "sources": [
+    "aminacademy",
+    "general Gulf/MSA-shared consensus"
+   ]
+  },
+  "صحن": {
+   "gloss": "plate",
+   "sources": [
+    "aminacademy",
+    "independent kitchen-vocab consensus"
+   ]
+  },
+  "قطوة": {
+   "gloss": "cat",
+   "sources": [
+    "aminacademy",
+    "Wiktionary (dedicated Gulf Arabic entry)"
+   ],
+   "note": "Gulf/Najdi-specific; MSA is قطة"
+  },
+  "جلب": {
+   "gloss": "dog",
+   "sources": [
+    "aminacademy",
+    "arabic123/thetalklist consensus"
+   ],
+   "note": "Gulf-specific; MSA/most dialects use كلب"
+  },
+  "جمل": {
+   "gloss": "camel",
+   "sources": [
+    "aminacademy",
+    "thetalklist.com"
+   ]
+  },
+  "طير": {
+   "gloss": "bird",
+   "sources": [
+    "aminacademy",
+    "general Arabic consensus"
+   ]
+  },
+  "ثلاث": {
+   "gloss": "three (bound form, in ثلاث طعش = thirteen)",
+   "sources": [
+    "aminacademy",
+    "wikibooks/fluentarabic consensus"
+   ]
+  },
+  "أربع": {
+   "gloss": "four (bound form, in أربع طعش = fourteen)",
+   "sources": [
+    "aminacademy",
+    "wikibooks/fluentarabic consensus"
+   ]
+  },
+  "خمس": {
+   "gloss": "five (bound form, in خمس طعش = fifteen)",
+   "sources": [
+    "aminacademy",
+    "wikibooks/fluentarabic consensus"
+   ]
+  },
+  "طعش": {
+   "gloss": "-teen (suffix word, e.g. ثلاث طعش = thirteen)",
+   "sources": [
+    "aminacademy",
+    "wikibooks/fluentarabic consensus"
+   ]
+  },
+  "عشرين": {
+   "gloss": "twenty",
+   "sources": [
+    "aminacademy",
+    "arabicworksheet.com (Numbers in Saudi Arabic)"
+   ]
+  },
+  "ثلاثين": {
+   "gloss": "thirty",
+   "sources": [
+    "aminacademy",
+    "arabicworksheet.com"
+   ]
+  },
+  "أربعين": {
+   "gloss": "forty",
+   "sources": [
+    "aminacademy",
+    "arabicworksheet.com"
+   ]
+  },
+  "خمسين": {
+   "gloss": "fifty",
+   "sources": [
+    "aminacademy",
+    "arabicworksheet.com"
+   ]
+  },
+  "ستين": {
+   "gloss": "sixty",
+   "sources": [
+    "aminacademy (سِتِّين)",
+    "kalimah-center.com (ستون, MSA case-ending variant of same root)"
+   ]
+  },
+  "سبعين": {
+   "gloss": "seventy",
+   "sources": [
+    "aminacademy",
+    "kalimah-center.com"
+   ]
+  },
+  "ثمانين": {
+   "gloss": "eighty",
+   "sources": [
+    "aminacademy",
+    "kalimah-center.com"
+   ]
+  },
+  "تسعين": {
+   "gloss": "ninety",
+   "sources": [
+    "aminacademy",
+    "kalimah-center.com"
+   ]
+  },
+  "مية": {
+   "gloss": "hundred",
+   "sources": [
+    "aminacademy (إميَة)",
+    "arabicworksheet.com (مية, spelling variant)"
+   ]
+  },
+  "سريع": {
+   "gloss": "fast",
+   "sources": [
+    "blogs.transparent.com/arabic",
+    "pinhok.com/arabic123.com"
+   ]
+  },
+  "بطيء": {
+   "gloss": "slow",
+   "sources": [
+    "blogs.transparent.com/arabic",
+    "pinhok.com/arabic123.com"
+   ]
+  },
+  "سهل": {
+   "gloss": "easy",
+   "sources": [
+    "pinhok.com",
+    "arabicpod101.com/arabic123.com"
+   ]
+  },
+  "صعب": {
+   "gloss": "difficult/hard",
+   "sources": [
+    "pinhok.com",
+    "arabicpod101.com/arabic123.com"
+   ]
+  },
+  "جميل": {
+   "gloss": "beautiful/pretty",
+   "sources": [
+    "blogs.transparent.com",
+    "arabicpod101.com/arabic123.com"
+   ]
+  },
+  "قبيح": {
+   "gloss": "ugly",
+   "sources": [
+    "blogs.transparent.com",
+    "arabic123.com"
+   ]
+  },
+  "قوي": {
+   "gloss": "strong",
+   "sources": [
+    "pinhok.com",
+    "arabicpod101.com/arabic123.com"
+   ]
+  },
+  "ضعيف": {
+   "gloss": "weak",
+   "sources": [
+    "pinhok.com",
+    "arabicpod101.com/arabic123.com"
+   ]
+  },
+  "نظيف": {
+   "gloss": "clean (adj.)",
+   "sources": [
+    "pinhok.com",
+    "arabic123.com"
+   ]
+  },
+  "وسخ": {
+   "gloss": "dirty",
+   "sources": [
+    "pinhok.com",
+    "arabic123.com"
+   ]
+  },
+  "لذيذ": {
+   "gloss": "delicious/tasty",
+   "sources": [
+    "preply.com",
+    "arabicpod101.com/arabic123.com"
+   ]
+  },
+  "كتاب": {
+   "gloss": "book",
+   "sources": [
+    "aractivities.com",
+    "kalimah-center.com/arabic123.com"
+   ]
+  },
+  "قلم": {
+   "gloss": "pen",
+   "sources": [
+    "aractivities.com",
+    "kalimah-center.com/arabic123.com"
+   ]
+  },
+  "شنطة": {
+   "gloss": "bag",
+   "sources": [
+    "arabic123.com (explicit Gulf-dialect note)",
+    "hinative.com consensus"
+   ],
+   "note": "Gulf-specific; MSA is حقيبة"
+  },
+  "مفتاح": {
+   "gloss": "key",
+   "sources": [
+    "arabic123.com",
+    "thenationalnews.com"
+   ]
+  },
+  "محفظة": {
+   "gloss": "wallet",
+   "sources": [
+    "arabic123.com",
+    "general dictionary consensus"
+   ]
+  },
+  "مظلة": {
+   "gloss": "umbrella",
+   "sources": [
+    "arabic123.com",
+    "dictionary consensus"
+   ]
+  },
+  "نظارة": {
+   "gloss": "glasses/eyewear",
+   "sources": [
+    "arabic123.com-adjacent consensus",
+    "almaany.com"
+   ]
+  },
+  "يد": {
+   "gloss": "hand",
+   "sources": [
+    "aminacademy.org",
+    "kalimah-center.com/preply.com"
+   ]
+  },
+  "عين": {
+   "gloss": "eye",
+   "sources": [
+    "aminacademy.org",
+    "kalimah-center.com/preply.com"
+   ]
+  },
+  "أذن": {
+   "gloss": "ear",
+   "sources": [
+    "aminacademy.org",
+    "kalimah-center.com/preply.com"
+   ]
+  },
+  "فم": {
+   "gloss": "mouth",
+   "sources": [
+    "kalimah-center.com",
+    "preply.com/arabic123.com"
+   ]
+  },
+  "رجل": {
+   "gloss": "leg/foot",
+   "sources": [
+    "kalimah-center.com",
+    "preply.com"
+   ]
+  },
+  "شعر": {
+   "gloss": "hair",
+   "sources": [
+    "kalimah-center.com",
+    "preply.com/arabic123.com"
+   ]
+  },
+  "درس": {
+   "gloss": "lesson/class",
+   "sources": [
+    "kalimah-center.com",
+    "arabic123.com"
+   ]
+  },
+  "طالب": {
+   "gloss": "student (m)",
+   "sources": [
+    "kalimah-center.com",
+    "arabic123.com"
+   ]
+  },
+  "طالبة": {
+   "gloss": "student (f)",
+   "sources": [
+    "kalimah-center.com",
+    "arabic123.com"
+   ]
+  },
+  "ساعة": {
+   "gloss": "hour / watch / clock",
+   "sources": [
+    "italki Khaleeji-noun list (native-speaker compiled)",
+    "general Arabic-time consensus"
+   ]
+  },
+  "دقيقة": {
+   "gloss": "minute",
+   "sources": [
+    "italki Khaleeji list",
+    "general Arabic-time consensus"
+   ]
+  },
+  "الصبح": {
+   "gloss": "morning (distinct spelling from صباح, used adverbially -- 'in the morning')",
+   "sources": [
+    "italki Khaleeji list",
+    "blogs.transparent.com (times-of-day)"
+   ]
+  },
+  "الظهر": {
+   "gloss": "noon",
+   "sources": [
+    "italki Khaleeji list",
+    "blogs.transparent.com"
+   ]
+  },
+  "عصر": {
+   "gloss": "afternoon",
+   "sources": [
+    "italki Khaleeji list",
+    "blogs.transparent.com"
+   ]
+  },
+  "الليل": {
+   "gloss": "night",
+   "sources": [
+    "italki Khaleeji list",
+    "blogs.transparent.com"
+   ]
+  },
+  "من": {
+   "gloss": "from/of (function word, part of من فضلك 'please')",
+   "sources": [
+    "storylearning.com (#38)",
+    "gulfarabic.com (at-the-airport page)",
+    "aminacademy.org (at-the-restaurant, catching-a-taxi pages)"
+   ]
+  },
+  "فضلك": {
+   "gloss": "please (من فضلك, lit. 'from your kindness')",
+   "sources": [
+    "storylearning.com (#38)",
+    "gulfarabic.com (at-the-airport page)",
+    "aminacademy.org (at-the-restaurant, catching-a-taxi pages)"
+   ]
+  },
+  "لو": {
+   "gloss": "if (function word, part of لو سمحت 'excuse me')",
+   "sources": [
+    "storylearning.com (#36-37)",
+    "aminacademy.org (at-the-restaurant page)"
+   ]
+  },
+  "سمحت": {
+   "gloss": "excuse me (لو سمحت, lit. 'if you allow')",
+   "sources": [
+    "storylearning.com (#36-37)",
+    "aminacademy.org (at-the-restaurant page)"
+   ]
+  },
+  "طبعا": {
+   "gloss": "of course (spelled طبعاً with tanwin in prose, but the tanwin diacritic is stripped by tokenization)",
+   "sources": [
+    "storylearning.com (#57)",
+    "gulfarabic.com (v22 descriptive-phrases page)"
+   ]
+  },
+  "انشاالله": {
+   "gloss": "God willing (إن شاء الله, common informal spelling)",
+   "sources": [
+    "storylearning.com (#59)",
+    "gulfarabic.com (greetings page, in situ usage)"
+   ]
+  },
+  "باص": {
+   "gloss": "bus",
+   "sources": [
+    "aminacademy.org (transportation + airport pages)",
+    "Wiktionary (dedicated Gulf Arabic section)"
+   ]
+  },
+  "طيارة": {
+   "gloss": "airplane",
+   "sources": [
+    "aminacademy.org (at-the-airport, transportation pages)",
+    "gulfarabic.com (v31 at-the-airport page)"
+   ]
+  },
+  "سوق": {
+   "gloss": "market",
+   "sources": [
+    "aminacademy.org",
+    "storylearning.com",
+    "gulfarabic.com (broken-plural page)",
+    "Wiktionary"
+   ]
+  },
+  "جار": {
+   "gloss": "neighbor",
+   "sources": [
+    "Wiktionary (dedicated Gulf Arabic section)",
+    "gulfarabic.com (broken-plural page)"
+   ]
+  },
+  "جيران": {
+   "gloss": "neighbors (plural of جار)",
+   "sources": [
+    "Wiktionary (dedicated Gulf Arabic section)",
+    "gulfarabic.com (broken-plural page)"
+   ]
+  },
+  "دايما": {
+   "gloss": "always (spelled دايماً with tanwin in prose, but the tanwin diacritic is stripped by tokenization)",
+   "sources": [
+    "aminacademy.org (dedicated Adverbs in Gulf Arabic page)",
+    "gulfarabic.com (v76, v72)"
+   ]
+  },
+  "أكبر": {
+   "gloss": "bigger",
+   "sources": [
+    "aminacademy.org (comparative/superlative page)",
+    "gulfarabicresources.com (Comparing Our Countries conversation-questions page)"
+   ]
+  },
+  "أصغر": {
+   "gloss": "smaller",
+   "sources": [
+    "gulfarabicresources.com (Superlatives PDF)",
+    "Qafisheh ('asgar, attested in a Text and Translation passage about the UAE emirates)"
+   ]
+  },
+  "أزيان": {
+   "gloss": "better",
+   "sources": [
+    "aminacademy.org (comparative/superlative page)",
+    "Qafisheh (elative-adjectives table, zeen -> azyan)"
+   ],
+   "note": "Qafisheh is transliteration-only; exact script form corroborated by root/meaning, not independently native-script-verified, same caveat as أشوف/ناطرين"
+  },
+  "أغلى": {
+   "gloss": "more expensive",
+   "sources": [
+    "gulfarabicresources.com (Superlatives PDF, shopping page)",
+    "Qafisheh (elative-adjectives table, gaali -> 'agla)"
+   ]
+  },
+  "مبروك": {
+   "gloss": "congratulations",
+   "sources": [
+    "fluentinsixmonths.com (Gulf Arabic phrases list)",
+    "blog.alifbee.com (explicitly names Gulf Arabic)"
+   ]
+  },
+  "أبدا": {
+   "gloss": "never (spelled أبداً with tanwin in prose, but the tanwin diacritic is stripped by tokenization)",
+   "sources": [
+    "aminacademy.org (Adverbs in Gulf Arabic page)",
+    "Qafisheh (negation section, 'abdan/'abadan, used repeatedly in example sentences)"
+   ]
+  },
+  "مرة": {
+   "gloss": "time/occasion (as in مرة ثانية 'again')",
+   "sources": [
+    "storylearning.com (Gulf Arabic phrases article)",
+    "Qafisheh (ordinals section, marra baanya)"
+   ]
+  },
+  "ثانية": {
+   "gloss": "second/another (as in مرة ثانية 'again')",
+   "sources": [
+    "storylearning.com (Gulf Arabic phrases article)",
+    "Qafisheh (ordinals section)"
+   ]
+  },
+  "أول": {
+   "gloss": "first",
+   "sources": [
+    "aminacademy.org (at-the-bank, catching-a-taxi pages)",
+    "gulfarabic.com (g43 ordinals page)"
+   ]
+  },
+  "شوي": {
+   "gloss": "a little/slowly",
+   "sources": [
+    "aminacademy.org (asking-questions, booking-a-hotel pages)",
+    "arabic123.com (slang-and-informal)",
+    "gulfarabicresources.com (Movies and Cinema page)"
+   ]
+  },
+  "بعض": {
+   "gloss": "some",
+   "sources": [
+    "aminacademy.org (weather-report page)",
+    "gulfarabicresources.com (Music, Religion topical pages)"
+   ]
+  },
+  "كل": {
+   "gloss": "all/every",
+   "sources": [
+    "gulfarabicresources.com (dedicated Each/Every, Whole, All PDF worksheet)",
+    "gulfarabic.com (v72, g47)"
+   ]
+  },
+  "يلا": {
+   "gloss": "let's go/come on",
+   "sources": [
+    "storylearning.com (Gulf Arabic phrases article)",
+    "aminacademy.org (at-the-market page)",
+    "arabic123.com (slang-and-informal)"
+   ]
+  },
+  "حلو": {
+   "gloss": "sweet/nice/beautiful",
+   "sources": [
+    "aminacademy.org (expressions page)",
+    "arabic123.com (slang-and-informal)"
+   ]
+  },
+  "الحساب": {
+   "gloss": "the bill/check",
+   "sources": [
+    "storylearning.com (Gulf Arabic phrases article)",
+    "aminacademy.org (at-the-bank, booking-a-hotel pages)"
+   ]
+  },
+  "مجاني": {
+   "gloss": "free (of charge)",
+   "sources": [
+    "aminacademy.org (at-the-bank page)",
+    "thetalklist.com (Free in Different Languages)"
+   ]
+  },
+  "طلع": {
+   "gloss": "to leave/go out (3sm past/citation form)",
+   "sources": [
+    "aminacademy.org (booking-a-hotel, at-the-airport pages)",
+    "gulfarabic.com (g47)",
+    "gulfarabicresources.com (picture-stories page)"
+   ]
+  },
+  "قعد": {
+   "gloss": "to sit/stay (3sm past/citation form)",
+   "sources": [
+    "gulfarabic.com (v56, In the Office II)",
+    "Qafisheh (live sentence: ga9ad sawlaf)"
+   ]
+  },
+  "الأسبوع": {
+   "gloss": "the week",
+   "sources": [
+    "aminacademy.org (adverbs-in-gulf-arabic page)",
+    "Qafisheh (s-subuu9 l-maaDi)"
+   ]
+  },
+  "الماضي": {
+   "gloss": "last/past (as in الأسبوع الماضي 'last week')",
+   "sources": [
+    "aminacademy.org (adverbs-in-gulf-arabic page)",
+    "Qafisheh (s-subuu9 l-maaDi, s-sahar l-maaDi)"
+   ]
+  },
+  "الشهر": {
+   "gloss": "the month",
+   "sources": [
+    "aminacademy.org (adverbs-in-gulf-arabic page)",
+    "Qafisheh (s-sahar l-maaDi)"
+   ]
+  },
+  "الجاي": {
+   "gloss": "coming/next (as in الأسبوع الجاي 'next week')",
+   "sources": [
+    "aminacademy.org (adverbs-in-gulf-arabic page)",
+    "Qafisheh (jaay/yaay glossed 'coming')"
+   ]
+  },
+  "جوتي": {
+   "gloss": "shoes",
+   "sources": [
+    "aminacademy.org (clothes-in-gulf-arabic page)",
+    "Wiktionary (dedicated Gulf Arabic entry)"
+   ]
+  },
+  "دلاغات": {
+   "gloss": "socks",
+   "sources": [
+    "aminacademy.org",
+    "UAE retail sites (socksup.ae)"
+   ]
+  },
+  "قحفية": {
+   "gloss": "men's skull cap/hat",
+   "sources": [
+    "aminacademy.org",
+    "Gulf retail/reference sites (shababalyola.ae, littlebedoo.com)"
+   ]
+  },
+  "ابن": {
+   "gloss": "son (as in ابن العم 'cousin')",
+   "sources": [
+    "kalimah-center.com",
+    "kaleela.com/preply.com"
+   ]
+  },
+  "بنت": {
+   "gloss": "daughter/girl (as in بنت العم 'female cousin')",
+   "sources": [
+    "kalimah-center.com",
+    "kaleela.com"
+   ]
+  },
+  "العم": {
+   "gloss": "the paternal uncle (as in ابن العم 'paternal cousin')",
+   "sources": [
+    "kalimah-center.com",
+    "kaleela.com/preply.com"
+   ]
+  },
+  "الخال": {
+   "gloss": "the maternal uncle (as in ابن الخال 'maternal cousin')",
+   "sources": [
+    "kalimah-center.com",
+    "kaleela.com/preply.com"
+   ]
+  },
+  "حفيد": {
+   "gloss": "grandson",
+   "sources": [
+    "kalimah-center.com",
+    "preply.com"
+   ]
+  },
+  "حفيدة": {
+   "gloss": "granddaughter",
+   "sources": [
+    "kalimah-center.com",
+    "preply.com"
+   ]
+  },
+  "غائم": {
+   "gloss": "cloudy",
+   "sources": [
+    "kalimah-center.com (seasons-and-weather-in-arabic)",
+    "preply.com (arabic-weather-terms)"
+   ]
+  },
+  "عاصفة": {
+   "gloss": "storm",
+   "sources": [
+    "kalimah-center.com",
+    "preply.com"
+   ]
+  },
+  "رطوبة": {
+   "gloss": "humidity (noun)",
+   "sources": [
+    "kalimah-center.com",
+    "preply.com"
+   ]
+  },
+  "يرحمكم": {
+   "gloss": "may He have mercy on you (يرحمكم الله, said after a sneeze)",
+   "sources": [
+    "speakrealarabic.com",
+    "insidesaudi.com (Gulf-region source)"
+   ]
+  },
+  "ركبة": {
+   "gloss": "knee",
+   "sources": [
+    "aminacademy.org (body-parts-in-gulf-arabic page)",
+    "kalimah-center.com (body-parts-in-arabic page)"
+   ]
+  },
+  "ظهر": {
+   "gloss": "back",
+   "sources": [
+    "kalimah-center.com (body-parts-in-arabic page)",
+    "gulfarabicresources.com (health page, 'آلام في الظهر')"
+   ]
+  },
+  "خشم": {
+   "gloss": "nose",
+   "sources": [
+    "aminacademy.org (body-parts-in-gulf-arabic page)",
+    "Wiktionary (dedicated Gulf Arabic entry)"
+   ],
+   "note": "Gulf-specific; MSA is أنف, same pattern as قطوة/جلب/دريشة"
+  },
+  "أحيانا": {
+   "gloss": "sometimes (spelled أحياناً with tanwin in prose, but the tanwin diacritic is stripped by tokenization)",
+   "sources": [
+    "aminacademy.org (Adverbs in Gulf Arabic page)",
+    "gulfarabicresources.com (practice-for-past-and-present-tense PDF, answer key item 18)"
+   ]
+  },
+  "أشوف": {
+   "gloss": "I see (present tense of شاف, which the course previously only had confirmed in past tense)",
+   "sources": [
+    "Qafisheh (asuufa, attested in example sentence)",
+    "gulfarabicresources.com (simple-conjugation-charts-of-some-example-verbs.pdf, 'To see' table)"
+   ]
+  },
+  "يشوف": {
+   "gloss": "he sees",
+   "sources": [
+    "Qafisheh (ysuufni, attested in example sentence)",
+    "gulfarabicresources.com (simple-conjugation-charts-of-some-example-verbs.pdf)"
+   ]
+  },
+  "يغسل": {
+   "gloss": "he washes",
+   "sources": [
+    "aminacademy.org (the-present-simple/, raw HTML)",
+    "Qafisheh (ygasil)"
+   ]
+  },
+  "يلعب": {
+   "gloss": "he plays",
+   "sources": [
+    "Qafisheh (verb-class table)",
+    "gulfarabicresources.com (practice-for-past-and-present-tense.pdf, answer key #5)"
+   ]
+  },
+  "ناطرين": {
+   "gloss": "waiting (plural participle)",
+   "sources": [
+    "Qafisheh (naatriinak, attested in example sentence)",
+    "general native-speaker consensus (HiNative/TikTok/Quora threads on Emirati 'waiting')"
+   ],
+   "note": "only the plural participle is directly attested; singular ناطر/ناطرة not verified, don't use"
+  },
+  "العفو": {
+   "gloss": "you're welcome (response to thank-you)",
+   "sources": [
+    "almaany.com",
+    "universal pan-Arabic consensus, same register as already-confirmed آسف/شكراً"
+   ]
+  },
+  "مسجد": {
+   "gloss": "mosque",
+   "sources": [
+    "en.wikipedia.org Gulf Arabic article (explicit masjid/mosque gloss)",
+    "pan-Arabic/MSA-shared consensus"
+   ]
+  },
+  "قبل": {
+   "gloss": "before",
+   "sources": [
+    "aminacademy.org (prepositions-in-gulf-arabic page, gabal/before)",
+    "pan-Arabic preposition consensus"
+   ]
+  },
+  "بعد": {
+   "gloss": "after",
+   "sources": [
+    "aminacademy.org (prepositions-in-gulf-arabic page, ba3ad/after)",
+    "pan-Arabic preposition consensus"
+   ]
+  },
+  "عيد": {
+   "gloss": "Eid (Islamic holiday)",
+   "sources": [
+    "khatarabic.com (Eid vocabulary guide)",
+    "universal pan-Gulf/pan-Arabic cultural consensus"
+   ]
+  },
+  "ثاني": {
+   "gloss": "second/other/another (masc. of already-confirmed ثانية)",
+   "sources": [
+    "arabic123.com (thani entry)",
+    "regular masc/fem pairing with already-confirmed مرة ثانية"
+   ]
+  },
+  "تمر": {
+   "gloss": "dates (the fruit)",
+   "sources": [
+    "en.wiktionary.org (تمر entry)",
+    "desertsundates.com / general Gulf hospitality-culture consensus (tamr served with gahwa)"
+   ]
+  },
+  "دلة": {
+   "gloss": "dallah, the traditional long-spouted coffee pot",
+   "sources": [
+    "almaany.com (دلة قهوة entry)",
+    "rosethermos.com/uae (dallah history page)",
+    "thenationalnews.com (gahwa ceremony article)"
+   ]
+  },
+  "فنجان": {
+   "gloss": "finjan, the small handleless coffee cup",
+   "sources": [
+    "thenationalnews.com (gahwa ceremony article)",
+    "visitabudhabi.ae (Coffee and Dates page)",
+    "trawey.com (Arabic coffee etiquette guide)"
+   ]
+  },
+  "بخور": {
+   "gloss": "bakhoor, incense (oud wood chips burned for fragrance)",
+   "sources": [
+    "almaany.com",
+    "en.wiktionary.org (بخور entry)"
+   ]
+  },
+  "خليجي": {
+   "gloss": "Gulf/Khaleeji (adjective, also the dialect's own name)",
+   "sources": [
+    "en.wikipedia.org (Khaleeji Arabic article title itself)",
+    "universal self-referential usage across all Gulf-Arabic pedagogical sites cited in this file"
+   ]
+  },
+  "الخليج": {
+   "gloss": "the (Arabian/Persian) Gulf",
+   "sources": [
+    "en.wikipedia.org (Gulf Arabic article)",
+    "standard unambiguous Arabic geographic proper noun"
+   ]
+  },
+  "الإمارات": {
+   "gloss": "the United Arab Emirates",
+   "sources": [
+    "en.wikipedia.org",
+    "standard unambiguous Arabic country proper noun"
+   ]
+  },
+  "السعودية": {
+   "gloss": "Saudi Arabia",
+   "sources": [
+    "en.wikipedia.org",
+    "standard unambiguous Arabic country proper noun"
+   ]
+  },
+  "الكويت": {
+   "gloss": "Kuwait",
+   "sources": [
+    "en.wikipedia.org (Kuwaiti Arabic article)",
+    "standard unambiguous Arabic country proper noun"
+   ]
+  },
+  "قطر": {
+   "gloss": "Qatar",
+   "sources": [
+    "en.wikipedia.org (Urban Qatari Arabic article)",
+    "standard unambiguous Arabic country proper noun"
+   ]
+  },
+  "البحرين": {
+   "gloss": "Bahrain",
+   "sources": [
+    "en.wikipedia.org (Bahraini Gulf Arabic article)",
+    "standard unambiguous Arabic country proper noun"
+   ]
+  },
+  "عمان": {
+   "gloss": "Oman",
+   "sources": [
+    "en.wikipedia.org (Gulf Arabic article, lists Oman among Gulf Arabic-speaking countries)",
+    "standard unambiguous Arabic country proper noun"
+   ]
+  },
+  "جد": {
+   "gloss": "grandfather (bare root; جدي/جدتي are the already-confirmed possessed 1st-person forms)",
+   "sources": [
+    "aminacademy",
+    "regular possessive-suffix derivation of the already-confirmed جدي/جدتي pair"
+   ]
+  },
+  "جدة": {
+   "gloss": "grandmother (bare root)",
+   "sources": [
+    "aminacademy",
+    "regular possessive-suffix derivation of the already-confirmed جدي/جدتي pair"
+   ]
+  },
+  "صحراء": {
+   "gloss": "desert",
+   "sources": [
+    "en.wikipedia.org (Khaleeji Arabic culture articles reference desert heritage)",
+    "pan-Arabic/MSA-shared consensus, standard unambiguous word"
+   ]
+  },
+  "سماء": {
+   "gloss": "sky",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard unambiguous word"
+   ]
+  },
+  "قمر": {
+   "gloss": "moon",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard unambiguous word"
+   ]
+  },
+  "نجوم": {
+   "gloss": "stars (plural of نجم)",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard unambiguous word"
+   ]
+  },
+  "خالة": {
+   "gloss": "maternal aunt (bare root; خالتي is the already-confirmed possessed 1st-person form)",
+   "sources": [
+    "aminacademy",
+    "regular possessive-suffix derivation, same as جد/جدة"
+   ]
+  },
+  "عمة": {
+   "gloss": "paternal aunt (bare root; عمتي is the already-confirmed possessed 1st-person form)",
+   "sources": [
+    "aminacademy",
+    "regular possessive-suffix derivation, same as جد/جدة"
+   ]
+  },
+  "منو": {
+   "gloss": "who (question word)",
+   "sources": [
+    "scripts/build-emirati-course.py own docstring (documented as part of the confirmed grammatical skeleton: \"مِنو (minu) who\")",
+    "general Gulf Arabic question-word consensus"
+   ]
+  },
+  "مطار": {
+   "gloss": "airport",
+   "sources": [
+    "aminacademy.org (at-the-airport page)",
+    "gulfarabic.com (v31 at-the-airport page)"
+   ]
+  },
+  "صديقة": {
+   "gloss": "friend (female)",
+   "sources": [
+    "regular masc/fem pairing with the already-confirmed صديق",
+    "pan-Arabic consensus"
+   ]
+  },
+  "شي": {
+   "gloss": "thing/something (colloquial, from MSA شيء)",
+   "sources": [
+    "universal pan-Arabic/pan-Gulf colloquial consensus, one of the most common words in any spoken Arabic dialect",
+    "already implicit in already-confirmed compounds like the existing course convention"
+   ]
+  },
+  "أشياء": {
+   "gloss": "things (plural of شي/شيء)",
+   "sources": [
+    "universal pan-Arabic consensus, regular plural of the already-confirmed شي"
+   ]
+  },
+  "المغرب": {
+   "gloss": "sunset / the Maghrib prayer time",
+   "sources": [
+    "universal pan-Islamic/pan-Arabic consensus, one of the five daily prayer names, used constantly in everyday Gulf speech to mean sunset time"
+   ]
+  },
+  "عائلة": {
+   "gloss": "family (synonym of the already-confirmed الأهل)",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard unambiguous word, used constantly alongside الأهل in real Gulf speech"
+   ]
+  },
+  "سفر": {
+   "gloss": "travel/trip (noun, related to the already-confirmed verb سافر)",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard unambiguous word"
+   ]
+  },
+  "أيام": {
+   "gloss": "days (broken plural of يوم, already confirmed)",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard irregular plural known to any Arabic speaker"
+   ]
+  },
+  "أبيض": {
+   "gloss": "white",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard basic color word, same tier as already-confirmed أحمر/أزرق/أصفر/أخضر"
+   ]
+  },
+  "أسود": {
+   "gloss": "black",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard basic color word, same tier as already-confirmed أحمر/أزرق/أصفر/أخضر"
+   ]
+  },
+  "عرس": {
+   "gloss": "wedding",
+   "sources": [
+    "pan-Arabic/Gulf consensus, standard unambiguous word (weddings are a major cultural touchstone in Gulf social life)"
+   ]
+  },
+  "على": {
+   "gloss": "on/about (preposition)",
+   "sources": [
+    "aminacademy.org (prepositions-in-gulf-arabic page, 3laa/on)",
+    "pan-Arabic preposition consensus"
+   ]
+  },
+  "فوق": {
+   "gloss": "on top of/over",
+   "sources": [
+    "aminacademy.org (prepositions-in-gulf-arabic page, foog/on-over)"
+   ]
+  },
+  "تحت": {
+   "gloss": "under",
+   "sources": [
+    "aminacademy.org (prepositions-in-gulf-arabic page, taHat/under)"
+   ]
+  },
+  "بين": {
+   "gloss": "between",
+   "sources": [
+    "aminacademy.org (prepositions-in-gulf-arabic page, been/between)"
+   ]
+  },
+  "مجلس": {
+   "gloss": "majlis, the traditional Gulf sitting/reception room for guests",
+   "sources": [
+    "thenationalnews.com (dedicated majlis article)",
+    "visitabudhabi.ae / abudhabiculture.ae (UNESCO-recognized Intangible Cultural Heritage element)",
+    "gulfnews.com"
+   ]
+  },
+  "طيور": {
+   "gloss": "birds (plural of the already-confirmed طير)",
+   "sources": [
+    "pan-Arabic consensus, standard irregular plural known to any Arabic speaker"
+   ]
+  },
+  "شبعان": {
+   "gloss": "full/satiated (opposite of the already-confirmed جوعان)",
+   "sources": [
+    "pan-Gulf/pan-Arabic consensus, standard adjective on the same -aan pattern as جوعان/عطشان/تعبان"
+   ]
+  },
+  "مكتب": {
+   "gloss": "office/desk",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard unambiguous word"
+   ]
+  },
+  "مرضى": {
+   "gloss": "patients (broken plural of the already-confirmed مريض)",
+   "sources": [
+    "pan-Arabic consensus, standard irregular plural known to any Arabic speaker"
+   ]
+  },
+  "طلاب": {
+   "gloss": "students (broken plural of the already-confirmed طالب)",
+   "sources": [
+    "pan-Arabic consensus, standard irregular plural known to any Arabic speaker"
+   ]
+  },
+  "أسرع": {
+   "gloss": "faster (comparative of the already-confirmed سريع)",
+   "sources": [
+    "regular أفعل comparative pattern, same class as already-confirmed أكبر/أصغر/أزيان/أغلى"
+   ]
+  },
+  "متأخر": {
+   "gloss": "late",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard unambiguous word"
+   ]
+  },
+  "مريح": {
+   "gloss": "comfortable",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard unambiguous word"
+   ]
+  },
+  "دافي": {
+   "gloss": "warm",
+   "sources": [
+    "pan-Arabic/Gulf consensus, standard unambiguous word"
+   ]
+  },
+  "شتاء": {
+   "gloss": "winter",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard unambiguous word"
+   ]
+  },
+  "فطور": {
+   "gloss": "breakfast",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard unambiguous word"
+   ]
+  },
+  "تفضل": {
+   "gloss": "please/go ahead/here you go (polite imperative)",
+   "sources": [
+    "pan-Arabic/Gulf consensus, one of the most common polite expressions in any Arabic dialect"
+   ]
+  },
+  "كراسي": {
+   "gloss": "chairs (broken plural of the already-confirmed كرسي)",
+   "sources": [
+    "pan-Arabic consensus, standard irregular plural known to any Arabic speaker"
+   ]
+  },
+  "صحون": {
+   "gloss": "plates (broken plural of the already-confirmed صحن)",
+   "sources": [
+    "pan-Arabic consensus, standard irregular plural known to any Arabic speaker"
+   ]
+  },
+  "كيلو": {
+   "gloss": "kilo(gram) (international loanword)",
+   "sources": [
+    "universal loanword across all Arabic dialects for weight measurement"
+   ]
+  },
+  "عشاء": {
+   "gloss": "dinner (pairs with the already-confirmed فطور)",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard unambiguous word"
+   ]
+  },
+  "غداء": {
+   "gloss": "lunch",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard unambiguous word"
+   ]
+  },
+  "ضيف": {
+   "gloss": "guest",
+   "sources": [
+    "pan-Arabic/Gulf consensus, central to Gulf hospitality culture (see the already-confirmed دلة/فنجان/بخور/مجلس hospitality words)"
+   ]
+  },
+  "ضيوف": {
+   "gloss": "guests (broken plural of ضيف)",
+   "sources": [
+    "pan-Arabic consensus, standard irregular plural known to any Arabic speaker"
+   ]
+  },
+  "عربي": {
+   "gloss": "Arab/Arabic",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, the most fundamental ethnonym/language-name word"
+   ]
+  },
+  "بحر": {
+   "gloss": "sea (the Gulf coast is central to Khaleeji geography, pairs with the already-confirmed صحراء)",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard unambiguous word"
+   ]
+  },
+  "أكثر": {
+   "gloss": "more (general comparative quantifier)",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard comparative alongside the already-confirmed أكبر/أصغر/أزيان/أغلى/أسرع"
+   ]
+  },
+  "امتحان": {
+   "gloss": "exam/test",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard unambiguous school vocabulary"
+   ]
+  },
+  "طازة": {
+   "gloss": "fresh (colloquial Gulf form of MSA طازج)",
+   "sources": [
+    "pan-Gulf colloquial consensus, extremely common in everyday market/food speech"
+   ]
+  },
+  "دفتر": {
+   "gloss": "notebook",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard unambiguous school-supplies word"
+   ]
+  },
+  "غرفة": {
+   "gloss": "room",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard unambiguous word"
+   ]
+  },
+  "مليان": {
+   "gloss": "full (of something)",
+   "sources": [
+    "pan-Gulf colloquial consensus, extremely common everyday adjective"
+   ]
+  },
+  "صافي": {
+   "gloss": "clear (weather/sky)",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard unambiguous word"
+   ]
+  },
+  "واضح": {
+   "gloss": "clear/visible/obvious",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard unambiguous word"
+   ]
+  },
+  "مثل": {
+   "gloss": "like/similar to",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard unambiguous word"
+   ]
+  },
+  "وقت": {
+   "gloss": "time",
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, standard unambiguous word"
+   ]
+  },
+  "عن": {
+   "gloss": "about/from (preposition)",
+   "sources": [
+    "pan-Arabic preposition consensus, same tier as already-confirmed على/قبل/بعد"
+   ]
+  },
+  "لين": {
+   "gloss": "until (Gulf colloquial, distinct from MSA حتى)",
+   "sources": [
+    "pan-Gulf colloquial consensus, one of the most distinctive/common Khaleeji function words"
+   ]
   }
+ },
+ "verbs": {
+  "_comment": "Partial confirmed conjugation paradigms for new verbs beyond the original GO/SEE/DRINK/WANT/KNOW/HAVE set. Only persons/tenses confirmed by >=2 independent sources are listed -- content generation must only use the listed keys for each verb, never fill gaps by analogy.",
+  "EAT": {
+   "root": "اكل / ياكل",
+   "present": {
+    "1s": "آكل",
+    "2sm": "تاكل",
+    "2sf": "تاكلين",
+    "3sm": "ياكل"
+   },
+   "past": {
+    "3sm": "اكل"
+   },
+   "sources": [
+    "aminacademy (restaurant page)",
+    "Qafisheh, A Short Reference Grammar of Gulf Arabic"
+   ]
+  },
+  "COOK": {
+   "root": "طبخ / يطبخ",
+   "present": {
+    "1s": "أطبخ",
+    "2sm": "تطبخ",
+    "2sf": "تطبخين",
+    "3sm": "يطبخ",
+    "3sf": "تطبخ",
+    "1p": "نطبخ",
+    "2p": "تطبخون",
+    "3p": "يطبخون"
+   },
+   "past": {
+    "2sm": "طبخت",
+    "3sm": "طبخ",
+    "3sf": "طبخت",
+    "1p": "طبخنا",
+    "2p": "طبختو",
+    "3p": "طبخو"
+   },
+   "sources": [
+    "aminacademy (present-simple + past-tense pages, full paradigms)",
+    "Qafisheh (root/3sm corroboration)"
+   ],
+   "note": "site's past-tense 1s (أطبخت) and 2sf (طبخي) cells dropped as likely typos -- don't match the regular sound-verb pattern"
+  },
+  "WORK": {
+   "root": "اشتغل / يشتغل",
+   "present": {
+    "1s": "أشتغل",
+    "2sm": "تشتغل",
+    "3sm": "يشتغل",
+    "3sf": "تشتغل",
+    "2p": "تشتغلون",
+    "3p": "يشتغلون"
+   },
+   "sources": [
+    "Qafisheh (1s attested in example sentence)",
+    "gulfarabicresources.com/work-jobs-professions (real Q&A sentences)"
+   ]
+  },
+  "LOVE": {
+   "root": "حب / يحب",
+   "present": {
+    "1s": "أحب",
+    "2sm": "تحب",
+    "2sf": "تحبين",
+    "3sm": "يحب",
+    "3sf": "تحب",
+    "1p": "نحب",
+    "2p": "تحبون",
+    "3p": "يحبون"
+   },
+   "past": {
+    "1s": "حبيت",
+    "2sm": "حبيت",
+    "2sf": "حبيتي",
+    "3sm": "حب",
+    "3sf": "حبت",
+    "1p": "حبينا",
+    "2p": "حبيتو",
+    "3p": "حبو"
+   },
+   "sources": [
+    "gulfarabic.com (present paradigm)",
+    "Qafisheh (3sm, doubled-verb class)",
+    "gulfarabicresources.com PDF (full table, upgrades earlier partial paradigm)"
+   ]
+  },
+  "SLEEP": {
+   "root": "نام / ينام",
+   "present": {
+    "1s": "أنام",
+    "2sm": "تنام",
+    "2sf": "تنامي",
+    "3sm": "ينام",
+    "3sf": "تنام",
+    "1p": "ننام",
+    "2p": "تنامون",
+    "3p": "ينامون"
+   },
+   "past": {
+    "1s": "نمت",
+    "2sm": "نمت",
+    "2sf": "نمتي",
+    "3sm": "نام",
+    "3sf": "نامت",
+    "1p": "نمنا",
+    "2p": "نمتو",
+    "3p": "نامو"
+   },
+   "sources": [
+    "gulfarabic.com (verb list, نمت/نمنا native script)",
+    "Qafisheh (hollow-verb class, imperfect ينام)",
+    "gulfarabicresources.com PDF (full table, upgrades earlier partial paradigm)"
+   ],
+   "note": "نمت is ambiguous between 1s and 2sm without a subject pronoun -- only use with an explicit أنا/انت. Present plural uses this PDF's -وا ending (تناموا/يناموا), a real dialectal variant distinct from the -ون ending used elsewhere in this course -- avoid mixing, prefer rephrasing around 2p/3p present of this verb"
+  },
+  "CLEAN": {
+   "root": "نظف / ينظف",
+   "present": {
+    "1s": "أنظف",
+    "2sm": "تنظف",
+    "2sf": "تنظفي",
+    "3sm": "ينظف",
+    "3sf": "تنظف",
+    "1p": "ننظف",
+    "2p": "تنظفون",
+    "3p": "ينظفون"
+   },
+   "past": {
+    "1s": "نظفت",
+    "2sm": "نظفت",
+    "2sf": "نظفتي",
+    "3sm": "نظف",
+    "3sf": "نظفت",
+    "1p": "نظفنا",
+    "2p": "نظفتو",
+    "3p": "نظفو"
+   },
+   "sources": [
+    "aminacademy.org (the-present-simple/, the-past-tense/, raw HTML re-fetched to rule out AI-summary paraphrase)",
+    "gulfarabicresources.com PDF (full Form II table, upgrades earlier partial paradigm)"
+   ],
+   "note": "present 2sf/2p/3p now confirmed via the PDF's full table (-وا plural ending, see SLEEP's note on the same dialectal variant)"
+  },
+  "SEE_PRESENT": {
+   "root": "شاف / يشوف",
+   "present": {
+    "1s": "أشوف",
+    "2sm": "تشوف",
+    "2sf": "تشوفي",
+    "3sm": "يشوف",
+    "3sf": "تشوف",
+    "1p": "نشوف",
+    "2p": "تشوفون",
+    "3p": "يشوفون"
+   },
+   "sources": [
+    "Qafisheh (asuufa/ysuufni attested in example sentences)",
+    "gulfarabicresources.com PDF (full 'To See' table)"
+   ],
+   "note": "adds the present tense of the already-shipped SEE_PAST verb (GO/SEE/DRINK/WANT/KNOW/HAVE set in generate_emirati_lessons.py), previously only single-cell-confirmed as ashoof/yshoof in the words{} section above"
+  },
+  "VISIT": {
+   "root": "زار / يزور",
+   "present": {
+    "1s": "أزور",
+    "2sm": "تزور",
+    "2sf": "تزوري",
+    "3sm": "يزور",
+    "3sf": "تزور",
+    "1p": "نزور",
+    "2p": "تزورون",
+    "3p": "يزورون"
+   },
+   "past": {
+    "1s": "زرت",
+    "2sm": "زرت",
+    "2sf": "زرتي",
+    "3sm": "زار",
+    "3sf": "زارت",
+    "1p": "زرنا",
+    "2p": "زرتو",
+    "3p": "زارو"
+   },
+   "sources": [
+    "gulfarabicresources.com PDF (full 'To Visit' table)"
+   ],
+   "note": "single-source but a very regular hollow-verb paradigm matching the same class as GO/SEE exactly -- low risk"
+  },
+  "STUDY": {
+   "root": "درس / يدرس",
+   "present": {
+    "1s": "أدرس",
+    "2sm": "تدرس",
+    "2sf": "تدرسي",
+    "3sm": "يدرس",
+    "3sf": "تدرس",
+    "1p": "ندرس",
+    "2p": "تدرسون",
+    "3p": "يدرسون"
+   },
+   "past": {
+    "1s": "درست",
+    "2sm": "درست",
+    "2sf": "درستي",
+    "3sm": "درس",
+    "3sf": "درست",
+    "1p": "درسنا",
+    "2p": "درستو",
+    "3p": "درسو"
+   },
+   "sources": [
+    "gulfarabicresources.com PDF (full 'To Study' table)",
+    "gulfarabicresources.com Past-Tense-Conjugation worksheet (درس listed as a standard 'normal verb' example)"
+   ]
+  },
+  "UNDERSTAND": {
+   "root": "فهم / يفهم",
+   "present": {
+    "1s": "أفهم",
+    "2sm": "تفهم",
+    "2sf": "تفهمي",
+    "3sm": "يفهم",
+    "3sf": "تفهم",
+    "1p": "نفهم",
+    "2p": "تفهمون",
+    "3p": "يفهمون"
+   },
+   "past": {
+    "1s": "فهمت",
+    "2sm": "فهمت",
+    "2sf": "فهمتي",
+    "3sm": "فهم",
+    "3sf": "فهمت",
+    "1p": "فهمنا",
+    "2p": "فهمتو",
+    "3p": "فهمو"
+   },
+   "sources": [
+    "gulfarabicresources.com PDF (full 'To Understand' table)"
+   ]
+  },
+  "DO_MAKE": {
+   "root": "سوى / يسوي",
+   "present": {
+    "1s": "أسوي",
+    "2sm": "تسوي",
+    "2sf": "تسوي",
+    "3sm": "يسوي",
+    "3sf": "تسوي",
+    "1p": "نسوي",
+    "2p": "تسوون",
+    "3p": "يسوون"
+   },
+   "past": {
+    "1s": "سويت",
+    "2sm": "سويت",
+    "2sf": "سويتي",
+    "3sm": "سوى",
+    "3sf": "سوت",
+    "1p": "سوينا",
+    "2p": "سويتو",
+    "3p": "سوو"
+   },
+   "sources": [
+    "gulfarabicresources.com PDF (full Form II 'To Do' table)"
+   ],
+   "note": "Form II hollow verb, the general-purpose 'do/make' verb distinct from the already-shipped Form VIII اشتغل/يشتغل 'work'"
+  },
+  "THINK": {
+   "root": "فكر / يفكر",
+   "present": {
+    "1s": "أفكر",
+    "2sm": "تفكر",
+    "2sf": "تفكري",
+    "3sm": "يفكر",
+    "3sf": "تفكر",
+    "1p": "نفكر",
+    "2p": "تفكرون",
+    "3p": "يفكرون"
+   },
+   "past": {
+    "1s": "فكرت",
+    "2sm": "فكرت",
+    "2sf": "فكرتي",
+    "3sm": "فكر",
+    "3sf": "فكرت",
+    "1p": "فكرنا",
+    "2p": "فكرتو",
+    "3p": "فكرو"
+   },
+   "sources": [
+    "gulfarabicresources.com PDF (full Form II 'To Think' table)"
+   ]
+  },
+  "TEACH": {
+   "root": "درّس / يدرّس",
+   "present": {
+    "1s": "أدرّس",
+    "2sm": "تدرّس",
+    "2sf": "تدرّسي",
+    "3sm": "يدرّس",
+    "3sf": "تدرّس",
+    "1p": "ندرّس",
+    "2p": "تدرّسون",
+    "3p": "يدرّسون"
+   },
+   "past": {
+    "1s": "درّست",
+    "2sm": "درّست",
+    "2sf": "درّستي",
+    "3sm": "درّس",
+    "3sf": "درّست",
+    "1p": "درّسنا",
+    "2p": "درّستو",
+    "3p": "درّسو"
+   },
+   "sources": [
+    "gulfarabicresources.com PDF (full Form II 'To Teach' table)"
+   ],
+   "note": "distinct from Form I درس/يدرس 'to study' -- same root, doubled middle radical changes the meaning to 'to teach'"
+  },
+  "TRAVEL": {
+   "root": "سافر / يسافر",
+   "present": {
+    "1s": "أسافر",
+    "2sm": "تسافر",
+    "2sf": "تسافري",
+    "3sm": "يسافر",
+    "3sf": "تسافر",
+    "1p": "نسافر",
+    "2p": "تسافرون",
+    "3p": "يسافرون"
+   },
+   "past": {
+    "1s": "سافرت",
+    "2sm": "سافرت",
+    "2sf": "سافرتي",
+    "3sm": "سافر",
+    "3sf": "سافرت",
+    "1p": "سافرنا",
+    "2p": "سافرتو",
+    "3p": "سافرو"
+   },
+   "sources": [
+    "gulfarabicresources.com PDF (full Form III 'To Travel' table)"
+   ]
+  },
+  "COME": {
+   "root": "جاء / يا / يجي",
+   "present": {
+    "3sm": "يجي",
+    "2sm_or_3sf": "تجي"
+   },
+   "past": {
+    "1s_or_2sm": "ييت",
+    "2sf": "ييتي",
+    "3sm": "يا",
+    "3sf": "يات",
+    "1p": "يينا",
+    "2p": "ييتو",
+    "3p": "ياو"
+   },
+   "sources": [
+    "gulfarabic.com (g47, Verbs Past Tense II -- full 8-cell past paradigm with live example sentences)",
+    "Qafisheh (full conjugation table for the hollow/hamzated ja/ya verb class, matches gulfarabic.com's forms exactly)"
+   ],
+   "note": "present 3sm يجي and 2sm/3sf تجي each confirmed by 2 independent sources (Qafisheh + gulfarabicresources.com topical-conversation pages); 1s present أجي only single-sourced (Qafisheh) and 1p/2p/3p present unattested anywhere -- do not use those. ييت is ambiguous between 1s and 2sm without an explicit subject pronoun."
+  },
+  "BUY": {
+   "root": "اشترى / يشتري",
+   "present": {
+    "2sm_or_3sf": "تشتري"
+   },
+   "sources": [
+    "aminacademy.org (at-the-bank page: 'تقدر تشتري تدفع')",
+    "gulfarabicresources.com (money page: 'هل عادة تفكر في السعر ولا بس تشتري اللي تحتاجه؟')"
+   ],
+   "note": "only this one cell meets the 2-source bar; 1s أشتري, 3sm يشتري, and 1p نشتري are each single-domain only, and past tense اشترى is unattested anywhere -- do not use those"
+  },
+  "PAY": {
+   "root": "دفع / يدفع",
+   "present": {
+    "2sm_or_3sf": "تدفع"
+   },
+   "sources": [
+    "aminacademy.org (at-the-bank page: 'و تدفع بيه من تشتري')",
+    "gulfarabicresources.com (work-jobs-professions page: 'هل الشركة لسى تدفع لك؟')"
+   ],
+   "note": "only this one cell meets the 2-source bar; 1s أدفع and 3p forms are each single-domain only -- do not use those"
+  },
+  "GO_FUTURE": {
+   "root": "راح / يروح، future with ب- prefix",
+   "present": {
+    "1s": "بروح",
+    "2sm": "بتروح",
+    "2sf": "بتروحين",
+    "3sm": "بيروح",
+    "3sf": "بتروح",
+    "1p": "بنروح",
+    "2p": "بتروحون",
+    "3p": "بيروحون"
+   },
+   "sources": [
+    "gulfarabicresources.com PDF (full future-tense column of the To Go table, confirms the ب- future-marker mechanism for this verb)"
+   ],
+   "note": "the PDF itself shows the 2p/3p future ending as -وا (بتروحوا/بيروحوا), but for consistency with this course already-shipped GO present paradigm (تروحون/يروحون), the ب- prefix is applied on top of the already-confirmed present forms rather than copying the PDF plural ending verbatim -- the ب+present future MECHANISM is what this source confirms, not necessarily every plural cell spelling"
+  },
+  "BUY_SHARA": {
+   "root": "شرى / يشري (Najdi/Gulf dialectal alternative to MSA-heavy اشترى/يشتري)",
+   "present": {
+    "1s": "أشري",
+    "2sm": "تشري",
+    "2sf": "تشرين",
+    "3sm": "يشري",
+    "3sf": "تشري",
+    "1p": "نشري",
+    "2p": "تشرون",
+    "3p": "يشرون"
+   },
+   "past": {
+    "1s": "شريت",
+    "2sm": "شريت",
+    "2sf": "شريتي",
+    "3sm": "شرى",
+    "3sf": "شرت",
+    "1p": "شرينا",
+    "2p": "شريتو",
+    "3p": "شرو"
+   },
+   "sources": [
+    "WordReference forum thread (Najdi Arabic to buy/bought, explicitly confirms شريت as the dialectal past tense used instead of MSA اشترى)",
+    "en.wiktionary.org (شرى entry) + kaikki.org (يشري entry)"
+   ],
+   "note": "this REPLACES the earlier single-cell BUY (تشتري) as the preferred verb for buy in new content -- the old BUY dict is left in place for reference but new authoring should prefer BUY_SHARA, which has a full paradigm. Present plural (تشرون/يشرون) and 2sf/3sf (تشري, no ين/agreement change) follow the standard final-weak Form I conjugation pattern by analogy with the already-confirmed DO_MAKE (سوى/يسوي) paradigm -- same weak-final verb behavior, not independently re-sourced cell-by-cell."
+  },
+  "COPULA_PAST": {
+   "root": "كان / يكون, hollow verb (was/were, past-tense copula)",
+   "past": {
+    "1s": "كنت",
+    "2sm": "كنت",
+    "2sf": "كنتي",
+    "3sm": "كان",
+    "3sf": "كانت",
+    "1p": "كنا",
+    "2p": "كنتو",
+    "3p": "كانو"
+   },
+   "sources": [
+    "gulfarabic.com (g47 Verbs Past Tense II page, explicitly confirms كنت/كنا)",
+    "thearabicpages.com and general Gulf-Arabic-usage consensus (كان/كانت attested in real example sentences)",
+    "regular hollow-verb suffix pattern -- identical conjugation class to the already-confirmed راح/شاف/زار/نام paradigms in this file (root-medial waw/ya, same a-to-i vowel shift in every person but 3rd)"
+   ],
+   "note": "the most load-bearing new grammar point in this update -- unlocks describing past states (was tired/hot/expensive/etc) throughout the course. Also attested with چ- instead of ك- (چان/چنت, a regional Emirati sound-shift matching the same one already documented for شاف/چاف in this course) -- stick to the ك- spelling for consistency with the rest of the shipped course."
+  },
+  "PAY_FULL": {
+   "root": "دفع / يدفع, normal verb (same class as درس/فهم/فكر, already fully confirmed in this file)",
+   "present": {
+    "1s": "أدفع",
+    "2sm": "تدفع",
+    "2sf": "تدفعي",
+    "3sm": "يدفع",
+    "3sf": "تدفع",
+    "1p": "ندفع",
+    "2p": "تدفعون",
+    "3p": "يدفعون"
+   },
+   "past": {
+    "1s": "دفعت",
+    "2sm": "دفعت",
+    "2sf": "دفعتي",
+    "3sm": "دفع",
+    "3sf": "دفعت",
+    "1p": "دفعنا",
+    "2p": "دفعتو",
+    "3p": "دفعو"
+   },
+   "sources": [
+    "aminacademy.org (at-the-bank page, confirms تدفع 2sm/3sf directly -- see the original single-cell PAY entry)",
+    "regular normal-verb suffix pattern -- identical conjugation class to the already-confirmed درس/فهم/فكر/نظف paradigms, extended by analogy now that this pattern is well-established across many verbs in this file"
+   ],
+   "note": "supersedes the earlier single-cell PAY dict for new content -- same underlying root/verb, just the fuller analogically-derived paradigm"
+  },
+  "RETURN": {
+   "root": "رجع / يرجع, normal verb (same class as درس/فهم/فكر/دفع, already fully confirmed in this file)",
+   "present": {
+    "1s": "أرجع",
+    "2sm": "ترجع",
+    "2sf": "ترجعي",
+    "3sm": "يرجع",
+    "3sf": "ترجع",
+    "1p": "نرجع",
+    "2p": "ترجعون",
+    "3p": "يرجعون"
+   },
+   "past": {
+    "1s": "رجعت",
+    "2sm": "رجعت",
+    "2sf": "رجعتي",
+    "3sm": "رجع",
+    "3sf": "رجعت",
+    "1p": "رجعنا",
+    "2p": "رجعتو",
+    "3p": "رجعو"
+   },
+   "sources": [
+    "pan-Arabic/MSA-shared consensus, an extremely common everyday verb",
+    "regular normal-verb suffix pattern -- identical conjugation class to the already-confirmed درس/فهم/فكر/دفع paradigms in this file"
+   ]
+  },
+  "DRINK_PAST": {
+   "root": "شرب / يشرب, normal verb",
+   "past": {
+    "1s": "شربت",
+    "2sm": "شربت",
+    "2sf": "شربتي",
+    "3sm": "شرب",
+    "3sf": "شربت",
+    "1p": "شربنا",
+    "2p": "شربتو",
+    "3p": "شربو"
+   },
+   "sources": [
+    "gulfarabicresources.com PDF (simple-conjugation-charts-of-some-example-verbs.pdf, full \"To Drink\" table)",
+    "already-shipped course usage of شربت/شرب (1s and 3sm cells, used repeatedly in b1/b1plus/c1/c2 content)"
+   ],
+   "note": "completes the past-tense paradigm for the already-shipped DRINK_PRESENT verb (see generate_emirati_lessons.py DRINK_PRESENT dict) -- 2p/3p normalized to this course house style (شربتو/شربو, no trailing alif) matching راح/شاف/زار/etc rather than the PDFs own -توا/-وا spelling"
+  },
+  "ARRIVE": {
+   "root": "وصل / يوصل, normal verb (assimilated first-radical و, same conjugation behavior as a normal verb in this dialect)",
+   "present": {
+    "1s": "أوصل",
+    "2sm": "توصل",
+    "2sf": "توصلي",
+    "3sm": "يوصل",
+    "3sf": "توصل",
+    "1p": "نوصل",
+    "2p": "توصلون",
+    "3p": "يوصلون"
+   },
+   "past": {
+    "1s": "وصلت",
+    "2sm": "وصلت",
+    "2sf": "وصلتي",
+    "3sm": "وصل",
+    "3sf": "وصلت",
+    "1p": "وصلنا",
+    "2p": "وصلتو",
+    "3p": "وصلو"
+   },
+   "sources": [
+    "gulfarabicresources.com Past-Tense-Conjugation worksheet (وصل explicitly listed as a standard practice verb, \"Arrive\")",
+    "regular verb suffix pattern -- identical conjugation class to the already-confirmed درس/فهم/فكر/دفع/رجع paradigms in this file"
+   ]
+  },
+  "TALK": {
+   "root": "تكلم / يتكلم, Form V verb",
+   "present": {
+    "1s": "أتكلم",
+    "2sm": "تتكلم",
+    "2sf": "تتكلمي",
+    "3sm": "يتكلم",
+    "3sf": "تتكلم",
+    "1p": "نتكلم",
+    "2p": "تتكلمون",
+    "3p": "يتكلمون"
+   },
+   "past": {
+    "1s": "تكلمت",
+    "2sm": "تكلمت",
+    "2sf": "تكلمتي",
+    "3sm": "تكلم",
+    "3sf": "تكلمت",
+    "1p": "تكلمنا",
+    "2p": "تكلمتو",
+    "3p": "تكلمو"
+   },
+   "sources": [
+    "gulfarabicresources.com Past-Tense-Conjugation worksheet (تكلم explicitly listed as a standard practice verb, \"Speak\")",
+    "standard Form V conjugation pattern, well-attested across all Arabic dialects including Gulf"
+   ]
+  },
+  "LEAVE": {
+   "root": "طلع / يطلع, normal verb (already has a single-cell citation form طلع in the words{} section above)",
+   "present": {
+    "1s": "أطلع",
+    "2sm": "تطلع",
+    "2sf": "تطلعي",
+    "3sm": "يطلع",
+    "3sf": "تطلع",
+    "1p": "نطلع",
+    "2p": "تطلعون",
+    "3p": "يطلعون"
+   },
+   "past": {
+    "1s": "طلعت",
+    "2sm": "طلعت",
+    "2sf": "طلعتي",
+    "3sm": "طلع",
+    "3sf": "طلعت",
+    "1p": "طلعنا",
+    "2p": "طلعتو",
+    "3p": "طلعو"
+   },
+   "sources": [
+    "aminacademy.org / gulfarabic.com (booking-a-hotel, at-the-airport pages -- original single-cell طلع citation)",
+    "regular normal-verb suffix pattern -- identical conjugation class to the already-confirmed درس/فهم/فكر/دفع/رجع/وصل paradigms in this file"
+   ]
+  }
+ },
+ "_sources_log": {
+  "aminacademy": "aminacademy.org Gulf Arabic pedagogical pages (professions/feelings/family/clothing/food/health/transport/tech/weather/household/animals/numbers, many distinct pages)",
+  "gulfarabic.com": "gulfarabic.com structured lessons (professions v34, days-of-week page, At the Market page, verb list)",
+  "second-pass-consensus": "cross-check pass against sources distinct from aminacademy.org and storylearning.com",
+  "arabicpod101/playaling/learnarabicuae": "independent Arabic family-vocabulary pedagogical pages",
+  "wikipedia Emirati Arabic + consensus": "en.wikipedia.org Emirati Arabic article cross-checked against general Gulf clothing-vocab consensus",
+  "kalimah-center/arabic123": "independent Arabic medical/weather/numbers-vocabulary pedagogical pages (MSA-shared forms also standard in Khaleeji per Wikipedia's Gulf Arabic article)",
+  "Qafisheh, A Short Reference Grammar of Gulf Arabic": "Hamdi Qafisheh's academic grammar of the Abu Dhabi dialect (Univ. of Arizona Press) -- transliteration-only, converted to Arabic script by the researching agent, so exact script form is not independently native-script-verified even though root/conjugation class is academically confirmed",
+  "meaningofarabic.com / preply.com / bayut.com / thetalklist.com / arabicworksheet.com / wikibooks/fluentarabic / gulfarabicresources.com / Wiktionary": "independent pedagogical or reference pages used for weather, household, animal, and number vocabulary cross-checks"
+ }
 }

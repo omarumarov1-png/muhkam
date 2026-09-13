@@ -93,7 +93,7 @@ def check_possessive_suffix(word, vocab):
         if not (word.endswith(suf) and len(word) > len(suf)):
             continue
         base = word[: -len(suf)]
-        if base in vocab:
+        if check_word(base, vocab):
             return True
         if base.endswith("ت") and (base[:-1] + "ة") in vocab:
             return True
@@ -101,7 +101,61 @@ def check_possessive_suffix(word, vocab):
 
 
 def check_sound_plural_yn(word, vocab):
-    return word.endswith("ين") and word[:-2] in vocab
+    return word.endswith("ين") and len(word) > 2 and check_word(word[:-2], vocab)
+
+
+def check_fem_dual(word, vocab):
+    """Feminine dual: -ة becomes -تين (sayyaara -> sayyaaratayn)."""
+    return word.endswith("تين") and len(word) > 3 and check_word(word[:-3] + "ة", vocab)
+
+
+def check_sound_plural_aat(word, vocab):
+    """Regular feminine sound plural: strip -ات, re-add ة, check the
+    already-confirmed singular (tayyaara -> tayyaaraat)."""
+    return word.endswith("ات") and len(word) > 3 and check_word(word[:-2] + "ة", vocab)
+
+
+def check_feminine_ta_marbuta(word, vocab):
+    """Regular masc->fem adjective/noun agreement: base + ة (kabeer -> kabeera)."""
+    return word.endswith("ة") and len(word) > 1 and word[:-1] in vocab
+
+
+def check_reverse_feminine(word, vocab):
+    """The masc counterpart of an already-confirmed fem -ة form (thaanya
+    confirmed -> thaani also safe), the mirror image of the check above."""
+    return (word + "ة") in vocab
+
+
+def check_feminine_afal_color(word, vocab):
+    """CaCCaa' fem of the 'af3al color/defect-adjective pattern
+    (azraq -> zarqaa', a7mar -> 7amraa'): strip اء, re-add أ, check vocab."""
+    return word.endswith("اء") and len(word) > 3 and ("أ" + word[:-2]) in vocab
+
+
+def check_bare_of_definite(word, vocab):
+    """The flip side of check_definite_article: if 'al-X' is already
+    confirmed, the bare noun X is the same lexeme, not a new word."""
+    return ("ال" + word) in vocab
+
+
+def check_bi_prefix(word, vocab):
+    return word.startswith("ب") and len(word) > 2 and check_word(word[1:], vocab)
+
+
+def check_future_1s_elision(word, vocab):
+    """The future ب- marker elides the 1st-person-singular أ- present
+    prefix (ب+أروح -> بروح, not بأروح) -- confirmed directly in the GO
+    future paradigm; this generalizes it to every other verb's already-
+    confirmed 1s present form."""
+    return word.startswith("ب") and len(word) > 2 and ("أ" + word[1:]) in vocab
+
+
+def check_li_prefix(word, vocab):
+    return word.startswith("ل") and len(word) > 2 and check_word(word[1:], vocab)
+
+
+def check_fa_prefix(word, vocab):
+    return word.startswith("ف") and len(word) > 2 and check_word(word[1:], vocab)
 
 
 def check_word(word, vocab=None):
@@ -115,6 +169,26 @@ def check_word(word, vocab=None):
     if check_possessive_suffix(word, vocab):
         return True
     if check_sound_plural_yn(word, vocab):
+        return True
+    if check_sound_plural_aat(word, vocab):
+        return True
+    if check_fem_dual(word, vocab):
+        return True
+    if check_feminine_ta_marbuta(word, vocab):
+        return True
+    if check_reverse_feminine(word, vocab):
+        return True
+    if check_feminine_afal_color(word, vocab):
+        return True
+    if check_bare_of_definite(word, vocab):
+        return True
+    if check_bi_prefix(word, vocab):
+        return True
+    if check_li_prefix(word, vocab):
+        return True
+    if check_fa_prefix(word, vocab):
+        return True
+    if check_future_1s_elision(word, vocab):
         return True
     return False
 
