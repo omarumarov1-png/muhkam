@@ -27,7 +27,7 @@ PROFILE_ID = "7e02a1cf-69c2-4a91-8937-8ce5e889c2a4"  # designed-ar-dalail-recite
 VOICE_NAME = "designed-ar-dalail-reciter"
 
 POLL_INTERVAL = 2.0
-POLL_TIMEOUT = 90  # long recitation items can take a while
+POLL_TIMEOUT = 240  # long recitation items can take a while
 MAX_RETRIES = 3
 
 
