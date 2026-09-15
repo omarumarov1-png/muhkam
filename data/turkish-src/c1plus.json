@@ -1,0 +1,1807 @@
+{
+ "level": "c1plus",
+ "grammarTopics": {
+  "c1p-edille-serriye": {
+   "title": "Edille-i Şer'iyye (Dört Ana Kaynak)",
+   "pattern": "Fıkıh usulünde ittifakla kabul edilen dört temel delil",
+   "explanation": "Edille-i şer'iyye, İslam hukukunun hüküm çıkarmada başvurduğu dört temel kaynaktır: Kur'an, Sünnet, İcma ve Kıyas. Bu sıralama aynı zamanda önceliği de gösterir; bir meselede önce Kur'an'a, sonra Sünnete, sonra İcma'ya, en son da Kıyas'a başvurulur.",
+   "fact": "Kıyas'a ancak Kur'an, Sünnet veya İcma'da doğrudan bir hüküm bulunamadığında başvurulur; bu yüzden dört kaynak arasında en 'son çare' konumundaki delildir.",
+   "dialogue": [
+    {
+     "tr": "Fıkıhta bir meselenin hükmü nasıl bulunur?",
+     "en": "How is the ruling on a matter found in fiqh?"
+    },
+    {
+     "tr": "Önce Kur'an'a, sonra sünnete, icmaya ve gerekirse kıyasa bakılır.",
+     "en": "First the Quran is consulted, then the Sunnah, then consensus, and if needed, analogy."
+    }
+   ]
+  },
+  "c1p-icma-cesit": {
+   "title": "Sarih İcma vs. Sükuti İcma",
+   "pattern": "İcmanın oluşum biçimine göre iki türü",
+   "explanation": "Sarih icma, müçtehidlerin bir meselede açıkça kendi görüşünü söyleyerek fikir birliğine varmasıdır ve en güçlü icma türüdür. Sükuti icma ise bazı müçtehidlerin bir görüşü açıkça onaylamayıp, ancak buna itiraz da etmeden sessiz kalmasıyla oluşur; bu tür icmanın bağlayıcılığı fıkıh usulcüleri arasında tartışmalıdır.",
+   "fact": "Sükuti icmanın delil değeri konusunda usulcüler arasında ihtilaf vardır: bazıları sessizliği kabul sayarken, bazıları sessizliğin çekimserlik de olabileceğini düşünür.",
+   "dialogue": [
+    {
+     "tr": "Sükuti icma neden tartışmalıdır?",
+     "en": "Why is tacit consensus debated?"
+    },
+    {
+     "tr": "Çünkü sessiz kalmak her zaman kabul anlamına gelmeyebilir.",
+     "en": "Because remaining silent doesn't always necessarily mean approval."
+    }
+   ]
+  },
+  "c1p-kiyas-rukun": {
+   "title": "Kıyasın Dört Rüknü",
+   "pattern": "Kıyasın gerçekleşmesi için gereken dört unsur",
+   "explanation": "Kıyasın dört rüknü vardır: asıl (nass ile hükmü bilinen mesele), fer' (hükmü aranan yeni mesele), illet (asıl ile fer' arasındaki ortak, hükmü gerektiren sebep) ve hüküm (aslın hükmünün fer'e de uygulanması). Klasik örnek, şarabın haram kılınmasındaki sarhoş edicilik illetinin diğer sarhoş edici içeceklere de kıyaslanmasıdır.",
+   "fact": "İlletin doğru tespit edilmesi kıyasın en kritik ve en çok tartışılan aşamasıdır; yanlış bir illet tespiti, tamamen hatalı bir kıyasa yol açabilir.",
+   "dialogue": [
+    {
+     "tr": "Kıyasta illet nedir?",
+     "en": "What is the effective cause (illah) in analogy?"
+    },
+    {
+     "tr": "Asıl ile fer' arasındaki, hükmü gerektiren ortak sebeptir.",
+     "en": "It's the common reason between the origin and the branch that necessitates the ruling."
+    }
+   ]
+  },
+  "c1p-istihsan": {
+   "title": "İstihsan",
+   "pattern": "Kıyası bırakıp daha uygun bir delile yönelme yöntemi",
+   "explanation": "İstihsan, bir meselede zahiren geçerli görünen bir kıyası, ondan daha güçlü bir delil (örf, zaruret veya gizli bir kıyas) sebebiyle terk edip, o mesele için daha uygun görülen başka bir hükme yönelmektir. Özellikle Hanefi mezhebinde sıkça kullanılan bu yöntem, katı kıyasın bazen adaletsiz sonuçlar doğurabileceği durumlarda bir denge unsuru işlevi görür.",
+   "fact": "İmam Şafii istihsanı 'keyfi hüküm verme' olarak eleştirmiş, ancak Hanefi usulcüler istihsanın da yine şer'i bir delile (örf, zaruret gibi) dayandığını, keyfilik olmadığını savunmuştur.",
+   "dialogue": [
+    {
+     "tr": "İstihsan keyfi bir karar mı?",
+     "en": "Is istihsan an arbitrary decision?"
+    },
+    {
+     "tr": "Hayır, güçlü bir şer'i delile, örneğin örfe veya zarurete dayanmalıdır.",
+     "en": "No, it must be based on a strong legal proof, such as custom or necessity."
+    }
+   ]
+  },
+  "c1p-orf-adet": {
+   "title": "Örf-i Sahih vs. Örf-i Fasid",
+   "pattern": "Toplumsal geleneklerin fıkıhtaki geçerliliği",
+   "explanation": "Örf, bir toplumda yerleşmiş, insanların alışkanlık haline getirdiği davranış veya uygulamalardır. Örf-i sahih, İslam'ın kesin bir hükmüne aykırı olmayan ve fıkhi hükümlerde delil olarak kullanılabilen örftür (örneğin belirli bir bölgede yaygın alışveriş usulleri). Örf-i fasid ise faizli işlemler gibi açıkça şeriata aykırı olan, dolayısıyla dikkate alınmayan örftür.",
+   "fact": "Fıkıh usulünde 'el-âdetü muhakkemetün' (örf/adet hükme esas alınır) diye bilinen külli bir kaide vardır; ancak bu kaide sadece örf-i sahih için geçerlidir.",
+   "dialogue": [
+    {
+     "tr": "Her örf fıkıhta kabul edilir mi?",
+     "en": "Is every custom accepted in fiqh?"
+    },
+    {
+     "tr": "Hayır, sadece şeriata aykırı olmayan örf-i sahih dikkate alınır.",
+     "en": "No, only sound custom that doesn't contradict Sharia is taken into account."
+    }
+   ]
+  },
+  "c1p-mesalih-mursele": {
+   "title": "Mesalih-i Mürsele",
+   "pattern": "Nas ile doğrudan belirlenmemiş ama şeriatın genel amacına uygun düşen maslahatlar",
+   "explanation": "Mesalih-i mürsele, hakkında ne onaylayan ne de reddeden özel bir delil bulunan, ama İslam'ın can, akıl, din, nesil ve mal gibi temel maksatlarını (makasıd-ı şeria) koruma amacına hizmet eden konularda hüküm verme yöntemidir. Trafik kurallarının konulması gibi günümüz meseleleri, bu yönteme klasik örneklerdendir.",
+   "fact": "Mesalih-i mürsele, özellikle şeriatın beş temel maksadını (din, can, akıl, nesil, mal muhafazası) koruma çerçevesinde değerlendirilir; bu çerçeveye 'makasıd-ı şeria' denir.",
+   "dialogue": [
+    {
+     "tr": "Trafik kuralları neden İslam hukukuyla uyumlu sayılır?",
+     "en": "Why are traffic rules considered compatible with Islamic law?"
+    },
+    {
+     "tr": "Çünkü can güvenliğini korumak, mesalih-i mürsele çerçevesinde şeriatın temel maksatlarından biridir.",
+     "en": "Because protecting life is, under considerations of public interest, one of the fundamental objectives of Sharia."
+    }
+   ]
+  },
+  "c1p-sedd-zerayi": {
+   "title": "Sedd-i Zerayi",
+   "pattern": "Kötüye kullanıma açık mubah yolları önceden kapatma ilkesi",
+   "explanation": "Sedd-i zerayi, kendi başına mubah olan ama sonuçta harama veya zarara yol açması muhtemel olan bir davranışın, bu kötüye kullanım ihtimali nedeniyle önceden yasaklanmasıdır. Örneğin bir malı, alıcının onunla haram bir iş yapacağını bilerek satmak bu ilke çerçevesinde değerlendirilir.",
+   "fact": "Sedd-i zerayinin karşıtı 'fethu'z-zerayi' (yolları açık bırakma) ilkesidir; bazı fıkıhçılar her mubah yolu kapatmanın aşırıya kaçabileceğini düşünerek bu ilkeyi dengeleyici olarak kullanır.",
+   "dialogue": [
+    {
+     "tr": "Sedd-i zerayi neden önemlidir?",
+     "en": "Why is blocking the means important?"
+    },
+    {
+     "tr": "Çünkü harama götürebilecek mubah yolları önceden kapatarak zararı engeller.",
+     "en": "Because it prevents harm by closing off permissible paths that could lead to something forbidden."
+    }
+   ]
+  },
+  "c1p-istishab": {
+   "title": "İstishab",
+   "pattern": "Bir durumun aksi ispatlanmadıkça devam ettiği varsayımı",
+   "explanation": "İstishab, bir şeyin önceden sabit olan durumunun, o durumu değiştirecek bir delil bulunmadıkça devam ettiğinin kabul edilmesidir. Fıkıh usulünde 'el-yakinü lâ yezûlü bi'ş-şek' (kesin bilgi şüpheyle ortadan kalkmaz) kaidesiyle yakından ilişkilidir; örneğin abdestli olduğunu bilen biri, bozulduğuna dair kesin bir şüphe olmadıkça abdestli sayılmaya devam eder.",
+   "fact": "İstishabu'l-asl (eşyada aslolan mubahlıktır) ilkesi, hakkında açık bir yasak bulunmayan her yeni madde veya davranışın mubah kabul edilmesinin temel dayanağıdır.",
+   "dialogue": [
+    {
+     "tr": "Abdestli olduğumdan şüphe edersem ne yapmalıyım?",
+     "en": "What should I do if I doubt whether I have wudu?"
+    },
+    {
+     "tr": "İstishab ilkesine göre, kesin bir bozulma bilmiyorsan abdestli sayılırsın.",
+     "en": "According to the principle of istishab, you are considered to still have wudu unless you know for certain it was broken."
+    }
+   ]
+  },
+  "c1p-seru-men-kablena": {
+   "title": "Şer'u Men Kablena",
+   "pattern": "Önceki peygamberlerin şeriatlarının bugünkü hükme delil olması meselesi",
+   "explanation": "Şer'u men kablena, Tevrat, İncil gibi önceki kutsal kitaplarda veya şeriatlarda yer alan hükümlerin, İslam şeriatınca nesh edilmediği (yürürlükten kaldırılmadığı) sürece Müslümanlar için de bir delil kabul edilip edilemeyeceği meselesidir. Usulcülerin çoğunluğuna göre, Kur'an veya sahih sünnet tarafından onaylanan veya tekrarlanan önceki hükümler bizim için de bağlayıcıdır.",
+   "fact": "Bakara suresinde geçen 'oruç sizden öncekilere farz kılındığı gibi size de farz kılındı' ayeti, şer'u men kablena delilinin Kur'an tarafından doğrudan onaylanmış klasik bir örneğidir.",
+   "dialogue": [
+    {
+     "tr": "Önceki şeriatlar bizim için bağlayıcı mı?",
+     "en": "Are the earlier laws binding for us?"
+    },
+    {
+     "tr": "Sadece Kur'an veya sünnetin onayladığı veya tekrarladığı kısımlar bağlayıcıdır.",
+     "en": "Only the parts confirmed or repeated by the Quran or Sunnah are binding."
+    }
+   ]
+  },
+  "c1p-sahabe-kavli": {
+   "title": "Sahabe Kavli",
+   "pattern": "Bir sahabinin kendi görüşüyle verdiği hükmün delil değeri",
+   "explanation": "Sahabe kavli, Hz. Peygamber'in vefatından sonra bir sahabinin karşılaştığı bir meselede kendi ictihadıyla verdiği fetva veya görüştür. Bu görüş, sahabinin Hz. Peygamber'e yakınlığı ve dini anlayışının derinliği nedeniyle özel bir değer taşır; Hanefi mezhebi, konu hakkında sahabeler arasında ihtilaf yoksa, bu görüşü kıyasa bile tercih edilebilecek bir delil olarak kabul eder.",
+   "fact": "Sahabe kavlinin delil değeri, sahabenin bunu kendi görüşüyle mi yoksa Peygamber'den işittiği bir bilgiye dayanarak mı söylediğine göre değişir; ikinci durumda bu söz aslında merfu bir hadis hükmündedir.",
+   "dialogue": [
+    {
+     "tr": "Sahabenin görüşü neden önemlidir?",
+     "en": "Why is a Companion's opinion important?"
+    },
+    {
+     "tr": "Çünkü Peygamber'e en yakın nesil olarak dini doğru anlama ihtimalleri en yüksektir.",
+     "en": "Because as the generation closest to the Prophet, they have the highest likelihood of correctly understanding the religion."
+    }
+   ]
+  },
+  "c1p-hakim-mahkum": {
+   "title": "Hâkim - Mahkûmun Fih - Mahkûmun Aleyh",
+   "pattern": "Bir fıkhi hükmün üç temel unsuru",
+   "explanation": "Fıkıh usulünde her hüküm üç unsurdan oluşur: Hâkim, hükmü koyan yegâne otorite olan Allah'tır (Şafii usulcülere göre bazı hükümlerde akıl da bir rol oynayabilir). Mahkûmun fih, namaz kılmak veya faiz yemek gibi hakkında hüküm bulunan fiildir. Mahkûmun aleyh ise akıllı ve baliğ olan, dolayısıyla dinen sorumlu tutulan kişidir, yani mükelleftir.",
+   "fact": "Mahkûmun aleyh olabilmek için 'ehliyet' (hukuki ehliyet) şarttır; akıl hastası veya henüz büluğa ermemiş çocuk, tam ehliyete sahip olmadığı için bazı hükümlerden muaf tutulur.",
+   "dialogue": [
+    {
+     "tr": "Mahkûmun aleyh kime denir?",
+     "en": "Who is called the mahkum alayh?"
+    },
+    {
+     "tr": "Hükmün yöneldiği, akıllı ve baliğ olan mükellef kişiye denir.",
+     "en": "It refers to the accountable, sane, and mature person to whom the ruling is directed."
+    }
+   ]
+  },
+  "c1p-sihhat-fesad-butlan": {
+   "title": "Sıhhat, Fesad ve Butlan",
+   "pattern": "Hanefi fıkhında akit ve ibadetlerin geçerlilik dereceleri",
+   "explanation": "Hanefi mezhebine göre bir akit veya ibadet üç durumdan birinde olabilir: sahih (tüm şart ve rükünleri eksiksiz taşıyan, tam geçerli), fasid (aslı, yani temel rükünleri doğru olduğu halde bir niteliğinde şer'i bir eksiklik bulunan, örneğin bedeli belirsiz bir satış) veya batıl (hem aslı hem vasfı şeriata aykırı olan, örneğin domuz eti satışı gibi tamamen geçersiz olan). Diğer mezheplerin çoğunda fasid ile batıl aynı kategoride, yani ikisi de geçersiz sayılır; bu ayrım Hanefi mezhebine özgüdür.",
+   "fact": "Fasid bir satış akdi, taraflar eksikliği giderirse (örneğin belirsiz bedeli netleştirirlerse) sahih hale gelebilir; ama batıl bir akit hiçbir şekilde düzeltilemez, çünkü temelden geçersizdir.",
+   "dialogue": [
+    {
+     "tr": "Fasid akit ile batıl akit aynı mı?",
+     "en": "Are a corrupt contract and a null contract the same?"
+    },
+    {
+     "tr": "Hayır, fasid akit düzeltilebilir ama batıl akit tamamen geçersizdir ve düzeltilemez.",
+     "en": "No, a corrupt contract can be corrected, but a null contract is entirely invalid and cannot be fixed."
+    }
+   ]
+  },
+  "c1p-azimet-ruhsat": {
+   "title": "Azimet vs. Ruhsat",
+   "pattern": "Dinin asıl hükmü ile zorluk halindeki istisnai hükmü arasındaki fark",
+   "explanation": "Azimet, bir meselede şeriatın koyduğu asıl, normal şartlarda geçerli olan hükümdür. Ruhsat ise hastalık, yolculuk veya zaruret gibi bir özür sebebiyle, kişiye kolaylık sağlamak amacıyla bu asıl hükümden geçici olarak sapmaya izin veren istisnai bir hükümdür. Yolcunun dört rekatlık namazı iki rekat kılması (kasr) klasik bir ruhsat örneğidir.",
+   "fact": "Ruhsatlar özür ortadan kalktığında geçerliliğini yitirir; örneğin yolculuk biten kişi artık namazını kasretmeye devam edemez, azimete, yani tam kılmaya döner.",
+   "dialogue": [
+    {
+     "tr": "Yolculukta namazı kısaltmak azimet mi ruhsat mı?",
+     "en": "Is shortening the prayer while traveling azimah or rukhsah?"
+    },
+    {
+     "tr": "Ruhsattır; yolculuk özrü ortadan kalkınca yine tam namaza dönülür.",
+     "en": "It's a concession (rukhsah); once the travel excuse ends, one returns to the full prayer."
+    }
+   ]
+  },
+  "c1p-eda-kaza-iade": {
+   "title": "Edâ - Kazâ - İ'ade",
+   "pattern": "İbadetin zamanlama ve tekrar durumuna göre üç hali",
+   "explanation": "Edâ, bir ibadetin kendisi için belirlenmiş vakit içinde yerine getirilmesidir. Kazâ, bir özür veya ihmal sebebiyle vaktinde yapılamayan ibadetin, vakti geçtikten sonra telafi edilmesidir. İ'ade ise ibadet vaktinde yerine getirilmiş olsa bile, sonradan bir eksiklik veya kusur (örneğin cemaate sonradan yetişilen bir namazın aslında geçerli olmasına rağmen, imamla yeniden kılınması gibi durumlar) fark edildiğinde tekrar edilmesidir.",
+   "fact": "Kazâ borcu birikmiş kişi, kaçırdığı namazları herhangi bir sırayla ve günün herhangi bir vaktinde (kerahet vakitleri hariç) kaza edebilir.",
+   "dialogue": [
+    {
+     "tr": "Kaçırdığım namazı ne zaman kaza edebilirim?",
+     "en": "When can I make up a missed prayer?"
+    },
+    {
+     "tr": "Kerahet vakitleri dışında günün herhangi bir saatinde kaza edebilirsin.",
+     "en": "You can make it up at any time of day, except during the disliked (kerahet) times."
+    }
+   ]
+  },
+  "c1p-sebep-sart-mani": {
+   "title": "Sebep, Şart ve Mani",
+   "pattern": "Bir fıkhi hükmün gerçekleşme mekanizmasındaki üç unsur",
+   "explanation": "Sebep, kendisine bir hükmün bağlandığı durumdur; örneğin güneşin batması akşam namazının vaktinin sebebidir. Şart, hükmün varlığı için gerekli olan ama hükmün doğrudan sebebi olmayan, dışarıdan eklenen unsurdur; örneğin namaz için abdestli olmak. Mani ise sebep ve şart gerçekleşmiş olsa bile hükmün ortaya çıkmasını engelleyen bir durumdur; örneğin borcu olan bir kişinin, mal nisaba ulaşsa bile zekat yükümlülüğünün borç kadar düşmesi.",
+   "fact": "Sebep ile şart arasındaki fark şudur: sebep hükmün doğrudan kaynağıdır, şart ise hükmün var olabilmesi için dışarıdan gereken bir tamamlayıcı unsurdur.",
+   "dialogue": [
+    {
+     "tr": "Borç, zekat vermeye engel olabilir mi?",
+     "en": "Can debt be an impediment to paying zakat?"
+    },
+    {
+     "tr": "Evet, borç bir manidir; borç düşüldükten sonra kalan mal nisaba ulaşmazsa zekat gerekmez.",
+     "en": "Yes, debt is an impediment; if the remaining wealth after subtracting debt doesn't reach the nisab, zakat isn't required."
+    }
+   ]
+  },
+  "c1p-teklifi-vazi": {
+   "title": "Teklifi Hüküm vs. Vaz'i Hüküm",
+   "pattern": "Şer'i hükümlerin iki ana kategorisi",
+   "explanation": "Teklifi hüküm, mükellefin doğrudan yapması veya yapmaması istenen fiillerle ilgilidir: farz, vacip, sünnet, mekruh, haram ve mübah bu kategoridedir. Vaz'i hüküm ise bir şeyi başka bir şeyin sebebi, şartı, engeli, sahih veya fasid kılan, dolaylı nitelikteki hükümlerdir; teklifi hükmün uygulanabilmesi için gereken alt yapıyı oluşturur.",
+   "fact": "Güneşin batması bir vaz'i hükümdür (akşam namazının sebebidir), ama 'akşam namazını kıl' emri bir teklifi hükümdür; ikisi birbirini tamamlar ama farklı kategorilerdir.",
+   "dialogue": [
+    {
+     "tr": "Farz bir teklifi hüküm müdür?",
+     "en": "Is 'farz' a legal (taklifi) ruling?"
+    },
+    {
+     "tr": "Evet, mükelleften doğrudan bir fiili yapmasını istediği için teklifi hükümdür.",
+     "en": "Yes, since it directly requires the accountable person to perform an act, it's a legal ruling."
+    }
+   ]
+  },
+  "c1p-hadis-sunnet-haber": {
+   "title": "Hadis - Sünnet - Haber - Eser",
+   "pattern": "Rivayet ilminde kullanılan dört yakın ama farklı terim",
+   "explanation": "Hadis, doğrudan Hz. Peygamber'e nispet edilen söz, fiil veya onayları ifade eder. Sünnet, hadisten daha kapsamlı bir kavram olup Peygamber'in dini uygulamaya dönüşmüş genel yaşam tarzını da içerir. Haber, hem Peygamber'e hem de başkalarına ait rivayetleri kapsayan daha genel bir terimdir. Eser ise genellikle sahabe veya tabiine ait söz ve uygulamalara işaret eder, bazı âlimlere göre merfu olmayan (Peygamber'e ulaşmayan) rivayetler için kullanılır.",
+   "fact": "Bazı hadis usulcüleri bu dört terimi neredeyse eş anlamlı kullanırken, bazıları özellikle 'eser' kelimesini sahabe ve tabiin sözlerine has kılarak daha kesin bir ayrım yapar.",
+   "dialogue": [
+    {
+     "tr": "Eser ile hadis aynı mı?",
+     "en": "Are athar and hadith the same?"
+    },
+    {
+     "tr": "Genellikle hadis Peygamber'e, eser ise sahabe veya tabiine ait sözlere işaret eder.",
+     "en": "Generally, hadith refers to the Prophet, while athar refers to sayings of the Companions or their successors."
+    }
+   ]
+  },
+  "c1p-sened-metin": {
+   "title": "Sened vs. Metin",
+   "pattern": "Bir hadisin iki temel bileşeni",
+   "explanation": "Sened, bir hadisin Hz. Peygamber'e kadar ulaşan rivayet zincirini, yani hadisi nakleden ravilerin isim silsilesini ifade eder. Metin ise hadisin içeriğini oluşturan asıl söz veya olayın kendisidir. Bir hadisin sahih kabul edilebilmesi için hem senedinin (ravilerin adaleti, zabtı ve ittisali açısından) hem de metninin (şaz veya illetli olmama açısından) incelenmesi gerekir.",
+   "fact": "Sened sağlam olsa bile metinde bir aykırılık (şüz) veya gizli kusur (illet) bulunursa, hadis yine de sahih kabul edilmeyebilir; bu, sadece sened incelemesinin yeterli olmadığını gösterir.",
+   "dialogue": [
+    {
+     "tr": "Bir hadisin sahih olması için ne yeterlidir?",
+     "en": "What is sufficient for a hadith to be considered authentic?"
+    },
+    {
+     "tr": "Sadece sağlam sened yetmez, metnin de aykırılık ve kusurdan uzak olması gerekir.",
+     "en": "A sound chain alone isn't enough; the text must also be free from contradiction and hidden flaws."
+    }
+   ]
+  },
+  "c1p-ravi-isnad": {
+   "title": "Ravi ve İsnad",
+   "pattern": "Hadis rivayetinin taşıyıcı unsurları",
+   "explanation": "Ravi, bir hadisi kendisinden önceki bir kaynaktan alıp sonrakine aktaran kişidir. İsnad, bu ravilerin oluşturduğu zincirin bütünüdür ve İslam hadis ilminin en özgün katkılarından biri kabul edilir. Bir ravinin rivayetinin kabul edilmesi için 'adalet' (dini bütünlük ve güvenilirlik) ve 'zabt' (işittiğini doğru koruma ve aktarma yeteneği) şartlarını taşıması gerekir.",
+   "fact": "Hadis âlimleri, isnad sistemini 'dinin yarısıdır' diyecek kadar önemsemiştir, çünkü bu sistem sayesinde bir rivayetin gerçekten Peygamber'e ait olup olmadığı titizlikle araştırılabilir.",
+   "dialogue": [
+    {
+     "tr": "Bir ravinin güvenilir sayılması için ne gerekir?",
+     "en": "What is required for a narrator to be considered trustworthy?"
+    },
+    {
+     "tr": "Adalet, yani dini bütünlük, ve zabt, yani doğru aktarma becerisi gerekir.",
+     "en": "Integrity, meaning religious uprightness, and precision, meaning accurate transmission, are required."
+    }
+   ]
+  },
+  "c1p-sahih-hadis": {
+   "title": "Sahih Hadisin Beş Şartı",
+   "pattern": "Bir hadisin en yüksek güvenilirlik derecesine ulaşması için gereken kriterler",
+   "explanation": "Bir hadisin sahih sayılabilmesi için beş şart aranır: senedin kesintisiz olması (ittisal), tüm ravilerin adaletli olması, tüm ravilerin zabt sahibi olması, hadisin daha güvenilir bir rivayete aykırı olmaması (şüz olmaması) ve hadiste gizli bir kusurun bulunmaması (illetli olmaması). Bu beş şartın hepsini taşıyan hadis sahih kabul edilir.",
+   "fact": "Sahih hadisler kendi aralarında da derecelendirilir; Buhari ve Müslim'in ittifakla naklettiği hadisler ('müttefekun aleyh') en yüksek güvenilirlik derecesine sahip kabul edilir.",
+   "dialogue": [
+    {
+     "tr": "Sahih hadisin kaç şartı vardır?",
+     "en": "How many conditions does an authentic hadith have?"
+    },
+    {
+     "tr": "Beş şartı vardır: ittisal, adalet, zabt, şüzsüzlük ve illetsizlik.",
+     "en": "It has five conditions: continuity, integrity, precision, freedom from contradiction, and freedom from hidden defects."
+    }
+   ]
+  },
+  "c1p-hasen-hadis": {
+   "title": "Hasen Hadis",
+   "pattern": "Sahih ile zayıf arasında yer alan orta güvenilirlik derecesi",
+   "explanation": "Hasen hadis, sahih hadisin tüm şartlarını taşımakla birlikte, ravilerinden birinin zabt (ezber/doğru aktarma) yönünden sahih hadis ravileri kadar güçlü olmadığı hadistir. Buna rağmen ravi yalancı veya fasık değildir, sadece hafıza gücü göreceli olarak daha zayıftır. Hasen hadis de fıkhi hükümlere delil olarak kullanılır ve amel edilir.",
+   "fact": "Bir hasen hadis, aynı konuda başka bir zayıf senedle de rivayet edilmişse, bu destekleyici rivayet sayesinde 'hasen li-gayrihi'den 'sahih li-gayrihi'ye yükselebilir; bu, hadis ilminin ilginç bir terfi mekanizmasıdır.",
+   "dialogue": [
+    {
+     "tr": "Hasen hadis ile amel edilir mi?",
+     "en": "Is a hasan hadith acted upon?"
+    },
+    {
+     "tr": "Evet, sahih hadis gibi hasen hadisle de amel edilir ve delil olarak kullanılır.",
+     "en": "Yes, like authentic hadith, hasan hadith is acted upon and used as evidence."
+    }
+   ]
+  },
+  "c1p-zayif-hadis": {
+   "title": "Zayıf Hadis",
+   "pattern": "Sahih veya hasen hadisin şartlarından en az birini kaybeden rivayet",
+   "explanation": "Zayıf hadis, senedinde bir kopukluk (irsal, inkıta gibi) veya ravilerinden birinde adalet ya da zabt eksikliği bulunan hadistir. Zayıflık dereceleri birbirinden farklıdır; bazı zayıf hadisler mevzu hadise yakınken, bazıları sahih hadise oldukça yakındır. Cumhur ulemaya göre zayıf hadis, itikadi konularda ve kesin hükümlerde delil olamaz, ancak fazilet ve ahlaki teşvik konularında bazı şartlarla kullanılabilir.",
+   "fact": "Zayıf hadisin fazilet konularında kullanılabilmesi için, aşırı zayıf olmaması, genel bir İslami ilkenin altında yer alması ve Peygamber'e kesin olarak nispet edilmeden 'rivayet edildiğine göre' şeklinde aktarılması gibi şartlar aranır.",
+   "dialogue": [
+    {
+     "tr": "Zayıf hadisle amel edilebilir mi?",
+     "en": "Can a weak hadith be acted upon?"
+    },
+    {
+     "tr": "Sadece fazilet konularında ve belirli şartlarla; hüküm ve itikatta delil olamaz.",
+     "en": "Only regarding matters of virtue and under certain conditions; it cannot serve as proof in rulings or matters of belief."
+    }
+   ]
+  },
+  "c1p-mevzu-hadis": {
+   "title": "Mevzu Hadis",
+   "pattern": "Peygamber'e yalan yere isnat edilen uydurma söz",
+   "explanation": "Mevzu hadis, hiçbir şekilde Hz. Peygamber'e ait olmayan, ama çeşitli siyasi, mezhebi veya kişisel sebeplerle ona nispet edilerek uydurulmuş sözdür. Hadis âlimleri, senedindeki yalancı raviler veya metnindeki akla, Kur'an'a ya da sabit sünnete açıkça aykırı unsurlar üzerinden bu tür rivayetleri tespit etmek için 'mevzuat' adı verilen özel bir hadis dalı geliştirmiştir.",
+   "fact": "İmam Buhari ve Müslim gibi hadis âlimleri, eserlerine hadis alırken son derece titiz kriterler uygulayarak mevzu rivayetlerin bu eserlere girmesini büyük ölçüde engellemiştir.",
+   "dialogue": [
+    {
+     "tr": "Mevzu hadis nasıl tespit edilir?",
+     "en": "How is a fabricated hadith identified?"
+    },
+    {
+     "tr": "Senedindeki yalancı raviler veya metnindeki akla ve nakle aykırı unsurlarla tespit edilir.",
+     "en": "It's identified through lying narrators in the chain or elements in the text that contradict reason or established transmission."
+    }
+   ]
+  },
+  "c1p-mutevatir-hadis": {
+   "title": "Mütevatir Hadis",
+   "pattern": "Kesin bilgi ifade eden, en güvenilir rivayet türü",
+   "explanation": "Mütevatir hadis, her tabakasında (nesilde) yalan üzerinde anlaşmaları aklen imkânsız sayılacak kadar çok sayıda ravinin naklettiği hadistir. Bu tür rivayetler, sened incelemesine gerek kalmadan kesin bilgi (ilm-i yakîn) ifade eder, çünkü bu kadar kalabalık bir grubun aynı yalan üzerinde anlaşması aklen mümkün görülmez.",
+   "fact": "Hadis literatüründe mütevatir hadis sayısı, ahad hadislere kıyasla oldukça azdır; bazı âlimler bu sayıyı yüzden az olarak tahmin eder, çünkü tevatür şartı son derece yüksek bir eşiktir.",
+   "dialogue": [
+    {
+     "tr": "Mütevatir hadis neden kesin bilgi sayılır?",
+     "en": "Why is a mutawatir hadith considered certain knowledge?"
+    },
+    {
+     "tr": "Çünkü bu kadar kalabalık bir grubun yalanda birleşmesi akıl yoluyla imkânsız görülür.",
+     "en": "Because it is rationally inconceivable for such a large group to agree upon a lie."
+    }
+   ]
+  },
+  "c1p-ahad-hadis": {
+   "title": "Ahad Hadis",
+   "pattern": "Mütevatür derecesine ulaşmayan, ama amel için yeterli olan rivayet türü",
+   "explanation": "Ahad hadis, mütevatir hadisin gerektirdiği yüksek sayıya ulaşmayan ravi zincirleriyle nakledilen hadistir. Sahih olduğunda amel edilmesi gereken bağlayıcı bir delildir, fakat mütevatir gibi kesin bilgi değil, 'zann-ı galib' yani güçlü bir kanaat ifade eder. Bu yüzden bazı usulcüler, sahih ahad hadislerin itikadi (inanç) esaslarda tek başına delil olamayacağını, ancak amelî (davranışsal) hükümlerde yeterli olduğunu savunur.",
+   "fact": "Ahad hadis kendi içinde meşhur, aziz ve garib olmak üzere üçe ayrılır; bu alt kategoriler, hadisi nakleden ravi sayısına göre belirlenir.",
+   "dialogue": [
+    {
+     "tr": "Ahad hadis ile mütevatir hadis arasındaki fark nedir?",
+     "en": "What is the difference between ahad and mutawatir hadith?"
+    },
+    {
+     "tr": "Mütevatir kesin bilgi verir, ahad ise güçlü bir kanaat (zann-ı galib) verir.",
+     "en": "Mutawatir provides certain knowledge, while ahad provides strong probability."
+    }
+   ]
+  },
+  "c1p-meshur-hadis": {
+   "title": "Meşhur Hadis",
+   "pattern": "Ahad ile mütevatir arasında yer alan ara kategori",
+   "explanation": "Meşhur hadis, ilk nesilde (sahabe döneminde) az sayıda raviyle nakledilmiş olsa da, sonraki tabakalarda tevatür derecesine ulaşacak kadar yaygınlaşan hadistir. Hanefi usulcüler bu kategoriyi ayrı bir sınıf olarak ele alır ve mütevatir kadar kesin olmasa da ahad hadisten daha kuvvetli bir güven derecesine sahip olduğunu kabul eder.",
+   "fact": "Meşhur terimi hadis ilminde iki farklı anlamda kullanılır: teknik anlamda yukarıda açıklanan tabaka farkını ifade ederken, günlük dilde sadece 'çok bilinen hadis' anlamında da kullanılabilir; bu iki kullanım karıştırılmamalıdır.",
+   "dialogue": [
+    {
+     "tr": "Meşhur hadis mütevatir gibi mi?",
+     "en": "Is a mashhur hadith the same as mutawatir?"
+    },
+    {
+     "tr": "Hayır, meşhur ahad ile mütevatir arasında, ikisinden de farklı ayrı bir kategoridir.",
+     "en": "No, mashhur is a separate category between ahad and mutawatir, distinct from both."
+    }
+   ]
+  },
+  "c1p-merfu-mevkuf-maktu": {
+   "title": "Merfu - Mevkuf - Maktu'",
+   "pattern": "Rivayetin nispet edildiği kişiye göre sınıflandırılması",
+   "explanation": "Merfu, doğrudan Hz. Peygamber'e nispet edilen söz, fiil veya takrirdir. Mevkuf, bir sahabiye ait olan ama Peygamber'e ulaştırılmayan sözdür; bu, sahabinin kendi görüşü olabilir. Maktu' ise bir tabiine (sahabeden sonraki nesil) ait söz veya uygulamadır. Bu üçlü sınıflandırma, bir rivayetin otoritesinin hangi kaynağa dayandığını netleştirmek için kullanılır.",
+   "fact": "Bir mevkuf rivayet bazen 'hükmen merfu' sayılabilir; eğer sahabinin kendi görüşüyle söylemesi mümkün olmayan, sadece Peygamber'den duyulabilecek türden bir bilgi içeriyorsa (örneğin gayb haberleri gibi), bu durumda mevkuf olmasına rağmen Peygamber'e ait kabul edilir.",
+   "dialogue": [
+    {
+     "tr": "Mevkuf hadis kime aittir?",
+     "en": "To whom is a mawquf hadith attributed?"
+    },
+    {
+     "tr": "Bir sahabiye aittir, Peygamber'e nispet edilmemiştir.",
+     "en": "It is attributed to a Companion, not to the Prophet."
+    }
+   ]
+  },
+  "c1p-muttasil-munkati-mursel": {
+   "title": "Muttasıl - Munkatı - Mürsel",
+   "pattern": "Senedin kesintisizlik durumuna göre sınıflandırılması",
+   "explanation": "Muttasıl hadis, ravi zincirinde ilk ravi ile son kaynak (Peygamber veya sahabi) arasında hiçbir kopukluk bulunmayan hadistir. Munkatı hadis, senedin herhangi bir yerinde bir ravinin adının eksik olmasıyla oluşan kopuk bir zincirdir. Mürsel hadis ise özellikle bir tabiinin, kendisi ile Peygamber arasındaki sahabiyi zikretmeden doğrudan 'Peygamber şöyle buyurdu' diyerek naklettiği hadistir; bu, bir tür kopukluktur ama özel bir isimle anılır.",
+   "fact": "Cumhur hadis usulcülerine göre mürsel hadis zayıf kabul edilir, çünkü atlanan sahabi kimliği bilinmemektedir; ancak İmam Malik gibi bazı âlimler tabiinin büyüklerinden gelen mürsel rivayetleri daha ihtiyatla değerlendirmiştir.",
+   "dialogue": [
+    {
+     "tr": "Mürsel hadis neden tartışmalıdır?",
+     "en": "Why is a mursal hadith debated?"
+    },
+    {
+     "tr": "Çünkü tabiin ile Peygamber arasındaki sahabinin kimliği belirtilmemiştir.",
+     "en": "Because the identity of the Companion between the Successor and the Prophet is not specified."
+    }
+   ]
+  },
+  "c1p-tefsir-tevil": {
+   "title": "Tefsir vs. Te'vil",
+   "pattern": "Kur'an'ı anlama ve açıklama yöntemlerindeki iki temel yaklaşım",
+   "explanation": "Tefsir, bir ayetin lafzını, nüzul sebebini, gramer yapısını ve rivayet yoluyla gelen açıklamalarını ortaya koyarak anlamını netleştirmektir; kesinliğe daha yakın bir yöntemdir. Te'vil ise bir ayetin zahiri anlamından, güçlü bir delile dayanarak, muhtemel anlamlardan birine yönelmektir; bu yönüyle içtihadi bir yorum çabasını da barındırır.",
+   "fact": "Bazı klasik âlimler tefsir ile te'vili eş anlamlı kullanırken, sonraki dönem usulcüler genellikle tefsiri rivayete, te'vili ise içtihada dayalı yorum çabasına ayırarak bir fark gözetmiştir.",
+   "dialogue": [
+    {
+     "tr": "Tefsir ile te'vil aynı şey mi?",
+     "en": "Are tafsir and ta'wil the same thing?"
+    },
+    {
+     "tr": "Tam olarak değil; tefsir daha çok rivayete, te'vil ise içtihada dayanır.",
+     "en": "Not exactly; tafsir relies more on transmission, while ta'wil relies more on independent reasoning."
+    }
+   ]
+  },
+  "c1p-esbab-nuzul": {
+   "title": "Esbab-ı Nüzul",
+   "pattern": "Ayetlerin iniş sebeplerini araştıran Kur'an ilmi",
+   "explanation": "Esbab-ı nüzul, bir ayet veya ayet grubunun hangi tarihi olay, soru veya durum üzerine nazil olduğunu araştıran tefsir usulü dalıdır. Bu bilgi, ayetin bağlamını (siyak-sibak) doğru kavramak ve yanlış yorumlardan kaçınmak için önemlidir. Fıkıh usulünde meşhur bir kaide olan 'el-ibretü bi umûmi'l-lafz lâ bi husûsi's-sebeb' (itibar sebebin özelliğine değil, lafzın genelliğinedir) ilkesi, bu ilimle yakından ilişkilidir.",
+   "fact": "Bir ayetin özel bir olay üzerine inmesi, o ayetin hükmünü sadece o olaya has kılmaz; çoğunluk usulcülere göre lafız genel ise hüküm de geneldir, sebebin özelliğine bakılmaz.",
+   "dialogue": [
+    {
+     "tr": "Esbab-ı nüzul neden önemlidir?",
+     "en": "Why is the science of the reasons for revelation important?"
+    },
+    {
+     "tr": "Ayetin doğru bağlamda anlaşılmasına ve yanlış yorumlardan kaçınmaya yardımcı olur.",
+     "en": "It helps in correctly understanding a verse's context and avoiding misinterpretation."
+    }
+   ]
+  },
+  "c1p-mekki-medeni": {
+   "title": "Mekki vs. Medeni Ayetler",
+   "pattern": "Kur'an ayetlerinin iniş yeri ve zamanına göre sınıflandırılması",
+   "explanation": "Mekki ayetler, Hz. Peygamber'in Mekke döneminde (hicretten önce), Medeni ayetler ise Medine döneminde (hicretten sonra) inen ayetlerdir; bu ayrım coğrafi konumdan çok zamanla ilgilidir, hicretten sonra Mekke'de inen bir ayet bile Medeni sayılır. Mekki ayetler genellikle kısa, vurgulu ve akide (iman) esaslarına odaklıyken, Medeni ayetler daha uzun ve fıkhi hükümler içerir.",
+   "fact": "Mekki-Medeni ayrımını bilmek, nasih-mensuh (kaldıran-kaldırılan hüküm) meselesinin çözümünde de kritik bir rol oynar, çünkü genellikle sonradan (Medeni dönemde) inen bir hüküm önceki (Mekki) bir hükmü neshedebilir.",
+   "dialogue": [
+    {
+     "tr": "Mekki ayetler neyle ilgilidir?",
+     "en": "What are Meccan verses generally about?"
+    },
+    {
+     "tr": "Genellikle iman, tevhid ve ahiret gibi akide konularıyla ilgilidir.",
+     "en": "They are generally about matters of faith, monotheism, and the afterlife."
+    }
+   ]
+  },
+  "c1p-nasih-mensuh": {
+   "title": "Nasih vs. Mensuh",
+   "pattern": "Bir şer'i hükmün başka bir hükümle yürürlükten kaldırılması",
+   "explanation": "Nesih, daha önce sabit olan bir şer'i hükmün, ondan sonra gelen başka bir delille yürürlükten kaldırılmasıdır. Kaldıran hükme nasih, kaldırılan hükme mensuh denir. Bu, Allah'ın hükmünün değişmesi anlamına gelmez; aksine, ilahi hikmetin farklı zaman ve toplum şartlarına göre kademeli bir eğitim ve yasama süreci izlediğini gösterir.",
+   "fact": "Neshin gerçekleşmesi için iki şart kesin olarak aranır: iki hükmün gerçek anlamda uzlaştırılamaz derecede çelişmesi ve mensuh sayılan hükmün, nasihten kronolojik olarak önce gelmiş olması.",
+   "dialogue": [
+    {
+     "tr": "Nesih ne anlama gelir?",
+     "en": "What does abrogation (nasikh) mean?"
+    },
+    {
+     "tr": "Önceki bir hükmün, sonradan gelen başka bir delille yürürlükten kaldırılmasıdır.",
+     "en": "It means a previous ruling is repealed by a later piece of evidence."
+    }
+   ]
+  },
+  "c1p-muhkem-mutesabih": {
+   "title": "Muhkem vs. Müteşabih",
+   "pattern": "Kur'an ayetlerinin anlam açıklığına göre sınıflandırılması",
+   "explanation": "Muhkem ayetler, lafzı ve anlamı net olan, farklı yorumlara açık olmayan ayetlerdir; İslam'ın temel inanç ve hüküm esasları genellikle bu ayetlere dayanır. Müteşabih ayetler ise Allah'ın sıfatlarıyla ilgili bazı ifadeler gibi, zahiri anlamı tam olarak kavranamayan veya birden fazla yoruma açık olan ayetlerdir. Al-i İmran suresi, Kur'an'ın hem muhkem hem müteşabih ayetler içerdiğini açıkça belirtir.",
+   "fact": "Müteşabih ayetler karşısında selef alimlerinin çoğunluğu, ayetin zahiri anlamını Allah'a havale ederek (tefviz) yorumdan kaçınmayı tercih etmiş, bazı sonraki âlimler ise dilin imkanları çerçevesinde te'vile yönelmiştir.",
+   "dialogue": [
+    {
+     "tr": "Müteşabih ayetlere nasıl yaklaşılmalıdır?",
+     "en": "How should ambiguous verses be approached?"
+    },
+    {
+     "tr": "Aşırı yoruma kaçmadan, dikkatli ve alimlerin görüşleri ışığında yaklaşılmalıdır.",
+     "en": "They should be approached carefully, without excessive interpretation, and in light of scholarly opinion."
+    }
+   ]
+  },
+  "c1p-mucmel-mubeyyen": {
+   "title": "Mücmel vs. Mübeyyen",
+   "pattern": "Açıklamaya muhtaç ayetler ve bu açıklamanın kendisi",
+   "explanation": "Mücmel ayet, kendi başına tam olarak anlaşılamayan, ayrıntısı için başka bir delile (genellikle sünnete) ihtiyaç duyulan ayettir; Kur'an'daki 'namaz kılın, zekat verin' gibi emirler bu türdendir, çünkü nasıl kılınacağı veya ne kadar verileceği ayette detaylandırılmamıştır. Mübeyyen ise bu mücmel ifadenin, Hz. Peygamber'in söz veya uygulamasıyla açıklığa kavuşturulmasıdır.",
+   "fact": "Sünnetin en önemli işlevlerinden biri, Kur'an'daki mücmel ifadeleri beyan etmektir (mübeyyen kılmaktır); namazın rekat sayıları ve zekatın nisap miktarları tamamen sünnet yoluyla belirlenmiştir.",
+   "dialogue": [
+    {
+     "tr": "Namazın rekat sayısı Kur'an'da mı belirtilmiştir?",
+     "en": "Is the number of rak'ahs in prayer specified in the Quran?"
+    },
+    {
+     "tr": "Hayır, bu mücmel bir emirdir; rekat sayıları sünnetle beyan edilmiştir.",
+     "en": "No, it's a concise command; the number of rak'ahs was clarified through the Sunnah."
+    }
+   ]
+  },
+  "c1p-hakikat-mecaz": {
+   "title": "Hakikat vs. Mecaz",
+   "pattern": "Bir lafzın gerçek anlamı ile mecazi anlamı arasındaki fark",
+   "explanation": "Hakikat, bir kelimenin dilde ilk konulduğu, gerçek ve asıl anlamıdır. Mecaz ise bir kelimenin bu asıl anlamından, aralarında bir bağlantı (mesela benzerlik) bulunan başka bir anlama, açık bir karine (bağlamsal işaret) eşliğinde kaydırılmasıdır. Fıkıh usulünde bir lafız, aksini gösteren bir karine olmadıkça öncelikle hakikat anlamına hamledilir.",
+   "fact": "'Köyden sor' ifadesindeki 'köy' kelimesi aslında yerleşim yerini ifade eder, ama burada mecazen 'köy halkı' kastedilir; bu, mecazın klasik dilbilimsel örneklerinden biridir.",
+   "dialogue": [
+    {
+     "tr": "Bir kelime nasıl hakikat mi mecaz mı olduğu anlaşılır?",
+     "en": "How is it understood whether a word is being used literally or figuratively?"
+    },
+    {
+     "tr": "Bağlamdaki karineye, yani anlamı yönlendiren işarete bakılır.",
+     "en": "One looks at the contextual indicator that directs the meaning."
+    }
+   ]
+  },
+  "c1p-amm-hass": {
+   "title": "Amm vs. Hass",
+   "pattern": "Lafızların kapsam genişliğine göre sınıflandırılması",
+   "explanation": "Amm (genel) lafız, kapsamına giren bütün fertleri istisnasız kuşatan bir ifadedir; örneğin 'müşrikleri öldürün' ayetindeki 'müşrikler' kelimesi başlangıçta geneldir. Hass (özel) lafız ise belirli bir kişi, grup veya durumu ifade eden sınırlı bir terimdir. Bir amm lafız, 'tahsis' adı verilen bir işlemle, başka bir delil aracılığıyla kapsamı daraltılabilir; örneğin zimmet ehli müşriklerin bu hükmün dışında tutulması gibi.",
+   "fact": "Amm bir lafzın tahsis edilmesi (kapsamının daraltılması), o lafzın anlamını tamamen ortadan kaldırmaz; sadece istisna edilen kısmı kapsam dışı bırakır, geri kalan kısım hâlâ amm hükmünü korur.",
+   "dialogue": [
+    {
+     "tr": "Amm bir lafız her zaman herkesi mi kapsar?",
+     "en": "Does a general term always encompass everyone?"
+    },
+    {
+     "tr": "Aksine bir tahsis edici delil yoksa evet, ama böyle bir delil varsa kapsamı daralır.",
+     "en": "Yes, unless there is a specifying piece of evidence, in which case its scope narrows."
+    }
+   ]
+  },
+  "c1p-mutlak-mukayyed": {
+   "title": "Mutlak vs. Mukayyed",
+   "pattern": "Lafızların bir kayıt veya şartla sınırlandırılıp sınırlandırılmadığına göre ayrımı",
+   "explanation": "Mutlak lafız, bir ferdi belirtirken herhangi bir nitelik veya şartla kayıtlanmamış lafızdır; örneğin 'bir köle azat etsin' ifadesindeki 'köle' kelimesi herhangi bir köleyi kapsar. Mukayyed lafız ise 'mümin bir köle azat etsin' ifadesindeki gibi belirli bir sıfatla sınırlandırılmış lafızdır. Usul kaidesine göre, aynı konu ve sebep hakkında hem mutlak hem mukayyed bir ifade varsa, mutlak olan mukayyed olana hamledilir (sınırlandırılır).",
+   "fact": "Zıhar keffaretindeki köle azat etme mutlaktır, ama katl-i hata (yanlışlıkla adam öldürme) keffaretindeki köle azat etme 'mümin köle' şartıyla mukayyeddir; sebepleri farklı olduğu için usulcülerin çoğu bu ikisini birbirine hamletmemiştir.",
+   "dialogue": [
+    {
+     "tr": "Mutlak lafız her zaman mukayyede göre mi yorumlanır?",
+     "en": "Is an unrestricted term always interpreted according to a restricted one?"
+    },
+    {
+     "tr": "Sadece aynı konu ve sebep söz konusuysa; farklı sebeplerde ayrı değerlendirilir.",
+     "en": "Only if the topic and cause are the same; if the causes differ, they are evaluated separately."
+    }
+   ]
+  },
+  "c1p-kiraat-ilmi": {
+   "title": "Kıraat İlmi",
+   "pattern": "Kur'an'ın farklı sahih okunuş biçimlerini konu alan ilim dalı",
+   "explanation": "Kıraat ilmi, Kur'an'ın Hz. Peygamber'den itibaren nakledilen farklı ama hepsi sahih kabul edilen okuma biçimlerini inceler. En meşhur yedi kıraat (kıraat-ı seb'a), her biri ayrı bir imama nispet edilen ve mütevatir kabul edilen okuyuş tarzlarıdır. Bu farklılıklar, Kur'an'ın manasını zenginleştiren, birbirini tamamlayan varyasyonlardır, çelişki değildir.",
+   "fact": "'Melik' ve 'Malik' (Fatiha suresinde) gibi bazı kıraat farklılıkları, kelimenin anlamını hafifçe değiştirse de (biri 'sahip', diğeri 'hükümdar' anlamına yakındır), her ikisi de sahih kabul edilir ve anlamı birbirini tamamlar.",
+   "dialogue": [
+    {
+     "tr": "Kıraat farklılıkları Kur'an'da bir çelişki midir?",
+     "en": "Are recitation differences a contradiction in the Quran?"
+    },
+    {
+     "tr": "Hayır, hepsi sahih kabul edilen, birbirini tamamlayan okuma biçimleridir.",
+     "en": "No, they are all considered authentic, complementary ways of reading."
+    }
+   ]
+  },
+  "c1p-dort-mezhep": {
+   "title": "Dört Büyük Sünni Fıkıh Mezhebi",
+   "pattern": "Ehl-i Sünnet içinde günümüze ulaşan dört ana fıkıh ekolü",
+   "explanation": "İslam fıkhında Ehl-i Sünnet çerçevesinde günümüze ulaşan dört büyük mezhep vardır: Hanefi (Türkiye, Orta Asya ve Güney Asya'da yaygın), Şafii (Mısır, Doğu Afrika ve Güneydoğu Asya'da yaygın), Maliki (Kuzey ve Batı Afrika'da yaygın) ve Hanbeli (Arap Yarımadası'nda yaygın). Her mezhep, aynı temel kaynaklara (Kur'an, Sünnet, İcma, Kıyas) dayanmakla birlikte, usul metodolojisindeki farklılıklar nedeniyle bazı fürû meselelerde farklı hükümlere ulaşmıştır.",
+   "fact": "Mezhepler arasındaki farklılıklar, İslam hukukunun katılığından değil, aksine aynı kaynaklara farklı meşru yorum yöntemleriyle yaklaşmanın doğal bir sonucu olarak görülür; bu çeşitlilik klasik ulema tarafından bir 'rahmet' olarak nitelendirilmiştir.",
+   "dialogue": [
+    {
+     "tr": "Türkiye'de hangi mezhep yaygındır?",
+     "en": "Which school is common in Turkey?"
+    },
+    {
+     "tr": "Hanefi mezhebi, Türkiye ve Orta Asya'da en yaygın olan mezheptir.",
+     "en": "The Hanafi school is the most widespread in Turkey and Central Asia."
+    }
+   ]
+  },
+  "c1p-mustehid-mertebe": {
+   "title": "Müçtehid Mertebeleri",
+   "pattern": "İçtihat yapma yetkinliğine göre âlimlerin sınıflandırılması",
+   "explanation": "Klasik fıkıh usulünde müçtehidler yetkinlik derecelerine göre sınıflandırılır: müçtehid-i mutlak (kendi bağımsız usul kaidelerini de belirleyen, Ebu Hanife, Şafii gibi mezhep kurucuları), müçtehid fi'l-mezheb (mezhep imamının usulünü kullanarak yeni meselelere çözüm üreten, İmam Ebu Yusuf ve Muhammed gibi öğrenciler) ve müçtehid fi'l-mesail (sadece dar bir alanda bağımsız görüş verebilen âlimler). Bu hiyerarşi, ictihadın kolektif ve kademeli bir bilgi üretim süreci olduğunu gösterir.",
+   "fact": "İmam Ebu Yusuf ve İmam Muhammed eş-Şeybani, Hanefi mezhebinin kurucusu Ebu Hanife'nin öğrencileri olmalarına rağmen, bazı meselelerde ondan farklı görüşlere ulaşmıştır; bu, müçtehid fi'l-mezheb kategorisinin klasik bir örneğidir.",
+   "dialogue": [
+    {
+     "tr": "Müçtehid-i mutlak ne demektir?",
+     "en": "What does 'absolute mujtahid' mean?"
+    },
+    {
+     "tr": "Kendi bağımsız usul kaidelerini belirleyerek hüküm çıkarabilen en üst düzey âlimdir.",
+     "en": "It refers to the highest-level scholar who derives rulings by establishing their own independent methodological principles."
+    }
+   ]
+  },
+  "c1p-ictihad-taklid": {
+   "title": "İçtihad vs. Taklid",
+   "pattern": "Hüküm üretme ile hazır bir hükmü benimseme arasındaki fark",
+   "explanation": "İçtihad, yeterli ilmi donanıma sahip bir âlimin (müçtehid), Kur'an, Sünnet, İcma ve Kıyas gibi kaynaklardan doğrudan hüküm çıkarmak için gösterdiği azami gayrettir. Taklid ise bu yetkinliğe sahip olmayan bir kişinin, güvendiği bir müçtehidin görüşünü, delilini araştırmadan kabul etmesidir. Cumhur âlimlere göre, ictihad ehliyetine sahip olmayan sıradan bir Müslümanın bir müçtehidi taklid etmesi hem meşru hem de gereklidir.",
+   "fact": "'Taklid' kelimesi günümüzde bazen olumsuz bir çağrışımla kullanılsa da, klasik fıkıh usulünde ictihad ehliyeti olmayan kişi için taklid, kaosu önleyen ve dini pratikte istikrar sağlayan meşru bir yöntemdir.",
+   "dialogue": [
+    {
+     "tr": "Herkesin kendi ictihadını yapması mı gerekir?",
+     "en": "Does everyone need to do their own ijtihad?"
+    },
+    {
+     "tr": "Hayır, ictihad ehliyeti olmayanların bir müçtehidi taklid etmesi normal ve gereklidir.",
+     "en": "No, it's normal and necessary for those without the capacity for ijtihad to follow (taqlid) a mujtahid."
+    }
+   ]
+  },
+  "c1p-telfik": {
+   "title": "Telfik",
+   "pattern": "Farklı mezheplerin görüşlerini bir arada kullanma meselesi",
+   "explanation": "Telfik, bir kişinin tek bir meselede veya birbirine bağlı işlemler zincirinde, farklı mezheplerin görüşlerini birleştirerek, hiçbir mezhebin tek başına onaylamayacağı bir sonuca ulaşmasıdır. Örneğin abdestte bir mezhebin ruhsatını, aynı namazda başka bir mezhebin ruhsatıyla birleştirmek. Klasik usulcülerin çoğunluğu, bu tür bir birleşimin her mezhebin kendi iç mantığını bozabileceğini düşünerek ihtiyatla yaklaşmıştır.",
+   "fact": "Bazı çağdaş âlimler, özellikle zorluk ve ihtiyaç durumlarında, sınırlı ve gerekçeli bir telfike cevaz vermiştir; ancak bunun keyfi bir 'kolaya kaçma' aracına dönüşmemesi konusunda uyarıda bulunmuşlardır.",
+   "dialogue": [
+    {
+     "tr": "Telfik her zaman caiz midir?",
+     "en": "Is talfiq always permissible?"
+    },
+    {
+     "tr": "Hayır, çoğu âlim bunu sadece zaruret hallerinde ve sınırlı şekilde caiz görür.",
+     "en": "No, most scholars only consider it permissible in cases of necessity and in a limited way."
+    }
+   ]
+  },
+  "c1p-fetva-kaza": {
+   "title": "Fetva vs. Kaza",
+   "pattern": "Dini görüş bildirme ile bağlayıcı yargı kararı arasındaki fark",
+   "explanation": "Fetva, bir müftünün, kendisine sorulan bir dini veya hukuki meseleye dair verdiği, uygulanması zorunlu olmayan görüştür; soran kişi dilerse bu görüşe uyar, dilerse başka bir âlime danışır. Kaza ise resmi olarak atanmış bir kadının (hakimin), taraflar arasındaki bir anlaşmazlıkta verdiği ve uygulanması zorunlu olan bağlayıcı yargı kararıdır. Bu fark, dini otoritenin danışma ve yargı fonksiyonları arasındaki klasik ayrımı yansıtır.",
+   "fact": "Bir kadının verdiği kaza kararı, dış görünüşte haklı olmayan bir tarafı da geçici olarak koruyabilir; ancak bu, o kişinin ahirette sorumluluğunu ortadan kaldırmaz -- bu ayrım, klasik fıkıh kitaplarında sıkça vurgulanır.",
+   "dialogue": [
+    {
+     "tr": "Fetvaya uymak zorunlu mudur?",
+     "en": "Is it obligatory to follow a fatwa?"
+    },
+    {
+     "tr": "Hayır, fetva bağlayıcı değildir; kaza kararı ise bağlayıcıdır.",
+     "en": "No, a fatwa is not binding; a judicial ruling, however, is binding."
+    }
+   ]
+  },
+  "c1p-orfi-seri-mahkeme": {
+   "title": "Şer'i Mahkeme vs. Örfi Mahkeme (Tarihi Bağlam)",
+   "pattern": "Klasik İslam devletlerinde dini hukuk ile idari düzenlemenin birlikte işleyişi",
+   "explanation": "Tarihi İslam devletlerinde, özellikle Osmanlı döneminde, şer'i mahkemeler doğrudan fıkıh kitaplarına dayanan hükümleri uygularken, örfi mahkemeler (veya divan-ı hümayun gibi kurumlar) padişahın koyduğu, şeriata aykırı olmaması şartıyla kamu düzenini ilgilendiren idari kanunları (kanunname) uygulardı. Bu ikili yapı, dini hukuk ile devlet yönetiminin pratik ihtiyaçlarının bir arada nasıl işleyebildiğini gösteren tarihi bir örnektir.",
+   "fact": "Osmanlı 'kanunname'leri, şer'i hukukun boşluk bıraktığı vergi, toprak düzeni gibi idari konularda hükümdarın örfi yetkisine dayanarak çıkarılırdı; bu, örfi hukukun şer'i hukuka tamamen alternatif değil, onu tamamlayıcı bir sistem olduğunu gösterir.",
+   "dialogue": [
+    {
+     "tr": "Örfi mahkemeler şeriata aykırı mıydı?",
+     "en": "Were customary courts contrary to Sharia?"
+    },
+    {
+     "tr": "Hayır, genel olarak şeriatın çerçevesi içinde, idari boşlukları dolduran bir sistemdi.",
+     "en": "No, generally they operated within the framework of Sharia, filling administrative gaps."
+    }
+   ]
+  },
+  "c1p-usul-furu": {
+   "title": "Usul-i Fıkıh vs. Fürû-i Fıkıh",
+   "pattern": "Fıkıh biliminin metodoloji ve uygulama boyutları arasındaki fark",
+   "explanation": "Usul-i fıkıh, bir müçtehidin şer'i delillerden nasıl hüküm çıkaracağını belirleyen kuralları, yöntemleri ve ilkeleri inceleyen bir disiplindir; kıyasın rükünleri, amm-hass, nasih-mensuh gibi konular bu alana girer. Fürû-i fıkıh ise bu yöntemlerin somut meselelere uygulanması sonucunda ortaya çıkan pratik hükümlerin bütünüdür; namaz, oruç, alışveriş gibi günlük hayata dair hükümler bu kategoridedir. Usul, fürûun nasıl üretildiğini açıklayan bir 'metot bilimi', fürû ise bu metodun somut ürünüdür.",
+   "fact": "Bir benzetmeyle usul-i fıkıh 'dilbilgisi kuralları', fürû-i fıkıh ise bu kurallar kullanılarak yazılan 'cümleler' gibi düşünülebilir; biri diğerinin üretim mekanizmasıdır.",
+   "dialogue": [
+    {
+     "tr": "Usul ile fürû arasındaki fark nedir?",
+     "en": "What is the difference between usul and furu'?"
+    },
+    {
+     "tr": "Usul hüküm çıkarma yöntemidir, fürû ise bu yöntemle çıkarılan somut hükümlerdir.",
+     "en": "Usul is the method of deriving rulings, while furu' consists of the concrete rulings derived through that method."
+    }
+   ]
+  }
+ },
+ "lessons": [
+  {
+   "number": 1,
+   "title": "The Four Sources of Islamic Law",
+   "titleNative": "Edille-i Şer'iyye",
+   "topicId": "c1p-edille-serriye",
+   "items": [
+    {
+     "tr": "Kur'an, İslam hukukunun birinci ve en temel kaynağıdır.",
+     "en": "The Quran is the first and most fundamental source of Islamic law."
+    },
+    {
+     "tr": "Sünnet, Kur'an'ı açıklayan ve tamamlayan ikinci kaynaktır.",
+     "en": "The Sunnah is the second source, explaining and complementing the Quran."
+    },
+    {
+     "tr": "İcma, müçtehidlerin bir mesele üzerinde ittifak etmesidir.",
+     "en": "Ijma is the consensus of qualified jurists on a matter."
+    },
+    {
+     "tr": "Kıyas, hükmü olmayan bir meseleyi, hükmü olan benzer bir meseleye kıyaslamaktır.",
+     "en": "Qiyas is comparing a matter without an explicit ruling to a similar matter that has one."
+    }
+   ]
+  },
+  {
+   "number": 2,
+   "title": "Types of Ijma",
+   "titleNative": "İcma Çeşitleri",
+   "topicId": "c1p-icma-cesit",
+   "items": [
+    {
+     "tr": "Sarih icma, müçtehidlerin açıkça görüş bildirerek anlaştığı icmadır.",
+     "en": "Explicit consensus (sarih icma) is agreement reached through jurists openly stating their views."
+    },
+    {
+     "tr": "Sükuti icma, bazı müçtehidlerin görüşe itiraz etmeden sessiz kalmasıyla oluşur.",
+     "en": "Tacit consensus (sükuti icma) forms when some jurists remain silent without objecting to a view."
+    },
+    {
+     "tr": "Sahabe icmaı, en kuvvetli icma türü olarak kabul edilir.",
+     "en": "The consensus of the Companions is regarded as the strongest type of ijma."
+    },
+    {
+     "tr": "İcma, bir kez gerçekleştikten sonra sonraki nesiller tarafından değiştirilemez.",
+     "en": "Once ijma is established, it cannot be changed by later generations."
+    }
+   ]
+  },
+  {
+   "number": 3,
+   "title": "The Pillars of Analogy",
+   "titleNative": "Kıyasın Rükünleri",
+   "topicId": "c1p-kiyas-rukun",
+   "items": [
+    {
+     "tr": "Kıyasın aslı, hakkında nass bulunan meseledir.",
+     "en": "The origin (asl) of analogy is the matter for which there is a textual ruling."
+    },
+    {
+     "tr": "Fer', hakkında hüküm aranan yeni meseledir.",
+     "en": "The branch (far') is the new matter for which a ruling is sought."
+    },
+    {
+     "tr": "İllet, asıl ile fer' arasındaki ortak sebeptir.",
+     "en": "The effective cause (illah) is the common reason shared between the origin and the branch."
+    },
+    {
+     "tr": "Hüküm, aslın sahip olduğu ve fer'e de aktarılan şer'i hükümdür.",
+     "en": "The ruling (hukm) is the legal ruling belonging to the origin, which is then transferred to the branch."
+    }
+   ]
+  },
+  {
+   "number": 4,
+   "title": "Istihsan",
+   "titleNative": "İstihsan",
+   "topicId": "c1p-istihsan",
+   "items": [
+    {
+     "tr": "İstihsan, açık kıyası bırakıp daha uygun görülen gizli bir kıyasa veya delile yönelmektir.",
+     "en": "Istihsan is setting aside an apparent analogy in favor of a hidden analogy or evidence deemed more suitable."
+    },
+    {
+     "tr": "Hanefi mezhebi istihsanı geniş ölçüde kullanan bir mezheptir.",
+     "en": "The Hanafi school is a school that uses istihsan extensively."
+    },
+    {
+     "tr": "İstihsan, keyfi bir tercih değil, güçlü bir şer'i delile dayanmalıdır.",
+     "en": "Istihsan must be based on a strong legal proof, not an arbitrary preference."
+    },
+    {
+     "tr": "Bazı fıkıhçılar istihsanı ayrı bir delil olarak kabul etmez.",
+     "en": "Some jurists do not accept istihsan as a separate independent proof."
+    }
+   ]
+  },
+  {
+   "number": 5,
+   "title": "Custom as a Source of Law",
+   "titleNative": "Örf ve Adet",
+   "topicId": "c1p-orf-adet",
+   "items": [
+    {
+     "tr": "Örf, bir toplumda yaygın olarak kabul görmüş davranış biçimidir.",
+     "en": "Custom ('urf) is a behavior widely accepted within a society."
+    },
+    {
+     "tr": "Şeriata aykırı olmayan örfler fıkıh hükümlerinde dikkate alınabilir.",
+     "en": "Customs that do not contradict Sharia can be taken into consideration in legal rulings."
+    },
+    {
+     "tr": "Örf-i sahih, dinen makbul görülen örftür.",
+     "en": "Sound custom ('urf-i sahih) is a custom deemed religiously acceptable."
+    },
+    {
+     "tr": "Örf-i fasid, şeriata aykırı olduğu için geçersiz sayılan örftür.",
+     "en": "Corrupt custom ('urf-i fasid) is deemed invalid because it contradicts Sharia."
+    }
+   ]
+  },
+  {
+   "number": 6,
+   "title": "Considerations of Public Interest",
+   "titleNative": "Mesalih-i Mürsele",
+   "topicId": "c1p-mesalih-mursele",
+   "items": [
+    {
+     "tr": "Mesalih-i mürsele, hakkında doğrudan bir nas bulunmayan ama kamu yararına uygun düşen bir yaklaşımdır.",
+     "en": "Considerations of public interest (masalih mursalah) refer to an approach not directly addressed by a text but aligned with the public good."
+    },
+    {
+     "tr": "Bu yöntem özellikle Maliki mezhebinde geniş bir uygulama alanı bulmuştur.",
+     "en": "This method has found particularly wide application in the Maliki school."
+    },
+    {
+     "tr": "Mesalih-i mürsele, İslam'ın genel maksatlarıyla çelişmemelidir.",
+     "en": "Considerations of public interest must not conflict with the general objectives of Islam."
+    },
+    {
+     "tr": "Modern fıkıh meselelerinde mesalih-i mürsele sıkça başvurulan bir yöntemdir.",
+     "en": "In modern fiqh issues, considerations of public interest are a frequently used method."
+    }
+   ]
+  },
+  {
+   "number": 7,
+   "title": "Blocking the Means",
+   "titleNative": "Sedd-i Zerayi",
+   "topicId": "c1p-sedd-zerayi",
+   "items": [
+    {
+     "tr": "Sedd-i zerayi, harama götüren mubah bir yolu kapatmak demektir.",
+     "en": "Blocking the means (sadd al-dhara'i) means closing a permissible path that leads to something forbidden."
+    },
+    {
+     "tr": "Faizli işlemlere zemin hazırlayan bazı alışveriş türleri sedd-i zerayi ilkesiyle yasaklanmıştır.",
+     "en": "Certain types of transactions that pave the way for interest-based dealings have been prohibited under the principle of blocking the means."
+    },
+    {
+     "tr": "Bu ilke özellikle Maliki ve Hanbeli mezheplerinde önemli bir yer tutar.",
+     "en": "This principle holds a particularly important place in the Maliki and Hanbali schools."
+    },
+    {
+     "tr": "Sedd-i zerayi, kötüye kullanılma ihtimali yüksek olan mubah yolları önceden kapatmayı amaçlar.",
+     "en": "Blocking the means aims to preemptively close permissible paths that have a high likelihood of being misused."
+    }
+   ]
+  },
+  {
+   "number": 8,
+   "title": "Presumption of Continuity",
+   "titleNative": "İstishab",
+   "topicId": "c1p-istishab",
+   "items": [
+    {
+     "tr": "İstishab, bir durumun aksine delil bulunmadıkça devam ettiğini kabul etmektir.",
+     "en": "Presumption of continuity (istishab) is accepting that a state continues unless proven otherwise."
+    },
+    {
+     "tr": "Kişinin hayatta olduğuna dair istishab, aksi ispatlanmadıkça geçerlidir.",
+     "en": "The presumption that a person is alive remains valid unless proven otherwise."
+    },
+    {
+     "tr": "İstishabu'l-asl, eşyada aslolanın ibaha (mubahlık) olduğu ilkesidir.",
+     "en": "Istishab al-asl is the principle that the default state of things is permissibility."
+    },
+    {
+     "tr": "Şüpheli durumlarda istishab ilkesine göre önceki hüküm devam ettirilir.",
+     "en": "In doubtful situations, the previous ruling is maintained according to the principle of istishab."
+    }
+   ]
+  },
+  {
+   "number": 9,
+   "title": "The Law of Communities Before Us",
+   "titleNative": "Şer'u Men Kablena",
+   "topicId": "c1p-seru-men-kablena",
+   "items": [
+    {
+     "tr": "Şer'u men kablena, bizden önceki peygamberlere indirilen şeriatları ifade eder.",
+     "en": "The law of those before us (shar' man qablana) refers to the divine laws revealed to earlier prophets."
+    },
+    {
+     "tr": "Kur'an veya sahih sünnetle onaylanan önceki şeriat hükümleri bizim için de geçerli sayılabilir.",
+     "en": "Rulings from earlier laws confirmed by the Quran or authentic Sunnah can be considered valid for us as well."
+    },
+    {
+     "tr": "Neshedildiği açıkça belirtilen önceki hükümler artık bağlayıcı değildir.",
+     "en": "Earlier rulings explicitly stated to be abrogated are no longer binding."
+    },
+    {
+     "tr": "Oruç ibadetinin önceki ümmetlere de farz kılınmış olması bu delile bir örnektir.",
+     "en": "The fact that fasting was also made obligatory for earlier nations is an example of this source."
+    }
+   ]
+  },
+  {
+   "number": 10,
+   "title": "The Sayings of the Companions",
+   "titleNative": "Sahabe Kavli",
+   "topicId": "c1p-sahabe-kavli",
+   "items": [
+    {
+     "tr": "Sahabe kavli, bir sahabinin kendi ictihadıyla verdiği fetvayı ifade eder.",
+     "en": "The saying of a Companion (sahabi qawl) refers to a legal opinion given through their own reasoning."
+    },
+    {
+     "tr": "Sahabenin re'yle söylemediği, Peygamber'den duyduğu izlenimi veren sözleri daha güçlü kabul edilir.",
+     "en": "A Companion's statement that gives the impression of having been heard from the Prophet, rather than being their own opinion, is considered stronger."
+    },
+    {
+     "tr": "Hanefi mezhebi sahabe kavlini kıyasa tercih edebilecek bir delil olarak görür.",
+     "en": "The Hanafi school views the saying of a Companion as evidence that can take precedence over analogy."
+    },
+    {
+     "tr": "Sahabeler arasında görüş ayrılığı varsa, sahabe kavli tek başına kesin bir delil sayılmaz.",
+     "en": "If there is disagreement among the Companions, a Companion's saying alone is not considered a definitive proof."
+    }
+   ]
+  },
+  {
+   "number": 11,
+   "title": "Hakim, Mahkum Fih, and Mahkum Alayh",
+   "titleNative": "Hâkim, Mahkûmun Fih ve Mahkûmun Aleyh",
+   "topicId": "c1p-hakim-mahkum",
+   "items": [
+    {
+     "tr": "Hâkim, hüküm koyan yani Allah'tır.",
+     "en": "The Hakim (Lawgiver) is Allah, who establishes the ruling."
+    },
+    {
+     "tr": "Mahkûmun fih, hakkında hüküm konulan fiildir.",
+     "en": "The Mahkum fih is the act about which the ruling is established."
+    },
+    {
+     "tr": "Mahkûmun aleyh, hükmün kendisine yöneldiği mükelleftir.",
+     "en": "The Mahkum alayh is the accountable person to whom the ruling is directed."
+    },
+    {
+     "tr": "Bu üç unsur, her fıkhi hükmün temel yapı taşlarıdır.",
+     "en": "These three elements are the fundamental building blocks of every legal ruling."
+    }
+   ]
+  },
+  {
+   "number": 12,
+   "title": "Validity, Corruption, and Nullity",
+   "titleNative": "Sıhhat, Fesad ve Butlan",
+   "topicId": "c1p-sihhat-fesad-butlan",
+   "items": [
+    {
+     "tr": "Sıhhat, bir akdin veya ibadetin bütün şart ve rükünlerini taşıması demektir.",
+     "en": "Validity (sihhah) means an act or contract contains all its conditions and pillars."
+    },
+    {
+     "tr": "Fesad, akdin aslı sahih olduğu halde bir vasfının eksik olmasıdır.",
+     "en": "Corruption (fasad) means the contract's essence is valid but one of its attributes is deficient."
+    },
+    {
+     "tr": "Butlan, akdin hem aslının hem de vasfının şeriata aykırı olmasıdır.",
+     "en": "Nullity (butlan) means both the essence and the attribute of the contract are contrary to Sharia."
+    },
+    {
+     "tr": "Fasid bir akit, düzeltilerek sahih hale getirilebilir.",
+     "en": "A corrupt contract can be corrected and made valid."
+    }
+   ]
+  },
+  {
+   "number": 13,
+   "title": "Strict Obligation and Concession",
+   "titleNative": "Azimet ve Ruhsat",
+   "topicId": "c1p-azimet-ruhsat",
+   "items": [
+    {
+     "tr": "Azimet, dinin normal ve asli şartlarda geçerli olan hükmüdür.",
+     "en": "'Azimah is the ruling of the religion that applies under normal, original conditions."
+    },
+    {
+     "tr": "Ruhsat, bir özür veya zorluk sebebiyle azimetten sapmaya izin veren hükümdür.",
+     "en": "Rukhsah is a ruling that permits departing from the strict rule due to an excuse or difficulty."
+    },
+    {
+     "tr": "Yolculukta orucu bozmak bir ruhsat örneğidir.",
+     "en": "Breaking the fast while traveling is an example of a concession."
+    },
+    {
+     "tr": "Bazı âlimler, gücü yeten kişinin ruhsat yerine azimeti tercih etmesinin daha faziletli olduğunu söyler.",
+     "en": "Some scholars say it is more virtuous for a person who is able to choose the strict rule over the concession."
+    }
+   ]
+  },
+  {
+   "number": 14,
+   "title": "Performance, Makeup, and Repetition",
+   "titleNative": "Edâ, Kazâ ve İ'ade",
+   "topicId": "c1p-eda-kaza-iade",
+   "items": [
+    {
+     "tr": "Edâ, bir ibadeti kendi vaktinde yerine getirmektir.",
+     "en": "Ada' is performing an act of worship within its designated time."
+    },
+    {
+     "tr": "Kazâ, kaçırılan bir ibadeti vakti geçtikten sonra yerine getirmektir.",
+     "en": "Qada is performing a missed act of worship after its time has passed."
+    },
+    {
+     "tr": "İ'ade, vaktinde kılınmış ama bir kusur nedeniyle tekrar kılınan ibadettir.",
+     "en": "I'adah is repeating an act of worship that was performed on time but had a flaw."
+    },
+    {
+     "tr": "Kaçırılan bir namazın kazası, o namazın vakti dışında da kılınabilir.",
+     "en": "Making up a missed prayer can be done even outside that prayer's designated time."
+    }
+   ]
+  },
+  {
+   "number": 15,
+   "title": "Cause, Condition, and Impediment",
+   "titleNative": "Sebep, Şart ve Mani",
+   "topicId": "c1p-sebep-sart-mani",
+   "items": [
+    {
+     "tr": "Sebep, hükmün varlığına bağlı olduğu, hükmü doğuran durumdur.",
+     "en": "Cause (sabab) is the condition upon which the existence of a ruling depends, giving rise to it."
+    },
+    {
+     "tr": "Şart, hükmün gerçekleşmesi için bulunması gereken ama hükmün asıl sebebi olmayan unsurdur.",
+     "en": "Condition (shart) is an element that must be present for a ruling to take effect but is not itself the cause of the ruling."
+    },
+    {
+     "tr": "Mani, sebep ve şart var olsa bile hükmün gerçekleşmesini engelleyen durumdur.",
+     "en": "Impediment (mani') is a factor that, even when the cause and condition exist, prevents the ruling from taking effect."
+    },
+    {
+     "tr": "Nisaba ulaşan mal zekatın sebebidir, üzerinden bir yıl geçmesi ise şarttır.",
+     "en": "Wealth reaching the nisab is the cause of zakat, while a year passing over it is the condition."
+    }
+   ]
+  },
+  {
+   "number": 16,
+   "title": "Legal and Declaratory Rulings",
+   "titleNative": "Teklifi ve Vaz'i Hükümler",
+   "topicId": "c1p-teklifi-vazi",
+   "items": [
+    {
+     "tr": "Teklifi hüküm, mükellefin bir fiili yapması veya yapmaması için konulan hükümdür.",
+     "en": "Legal ruling (taklifi) is a ruling established requiring the accountable person to do or not do an act."
+    },
+    {
+     "tr": "Vaz'i hüküm, bir şeyi başka bir şeyin sebebi, şartı veya engeli kılan hükümdür.",
+     "en": "Declaratory ruling (wad'i) is a ruling that establishes something as the cause, condition, or impediment of something else."
+    },
+    {
+     "tr": "Farz, haram ve mübah gibi kategoriler teklifi hükme örnektir.",
+     "en": "Categories such as farz, haram, and mubah are examples of legal rulings."
+    },
+    {
+     "tr": "Sebep-şart-mani ilişkileri vaz'i hükme örnektir.",
+     "en": "Cause-condition-impediment relationships are examples of declaratory rulings."
+    }
+   ]
+  },
+  {
+   "number": 17,
+   "title": "Hadith, Sunnah, Khabar, and Athar",
+   "titleNative": "Hadis, Sünnet, Haber ve Eser",
+   "topicId": "c1p-hadis-sunnet-haber",
+   "items": [
+    {
+     "tr": "Hadis, Hz. Peygamber'e ait söz, fiil veya takrirdir.",
+     "en": "Hadith is a saying, action, or tacit approval attributed to the Prophet."
+    },
+    {
+     "tr": "Sünnet, hadisten daha geniş olup Peygamber'in yaşam biçimini de kapsar.",
+     "en": "Sunnah is broader than hadith and also encompasses the Prophet's way of life."
+    },
+    {
+     "tr": "Haber, hem Peygamber'e hem başkasına ait rivayetler için kullanılan genel bir terimdir.",
+     "en": "Khabar is a general term used for reports attributed to either the Prophet or others."
+    },
+    {
+     "tr": "Eser, çoğunlukla sahabe veya tabiine ait söz ve uygulamalar için kullanılır.",
+     "en": "Athar is mostly used for the sayings and practices of the Companions or their successors."
+    }
+   ]
+  },
+  {
+   "number": 18,
+   "title": "Chain of Narration and Text",
+   "titleNative": "Sened ve Metin",
+   "topicId": "c1p-sened-metin",
+   "items": [
+    {
+     "tr": "Sened, bir hadisi Peygamber'e ulaştıran ravilerin zinciridir.",
+     "en": "The chain of narration (isnad) is the sequence of narrators that transmits a hadith back to the Prophet."
+    },
+    {
+     "tr": "Metin, hadisin asıl söz veya anlatım kısmıdır.",
+     "en": "The text (matn) is the actual wording or content of the hadith."
+    },
+    {
+     "tr": "Bir hadisin sıhhati değerlendirilirken hem sened hem metin incelenir.",
+     "en": "When evaluating a hadith's authenticity, both the chain and the text are examined."
+    },
+    {
+     "tr": "Sağlam bir sened, güvenilir ve kesintisiz ravilerden oluşur.",
+     "en": "A sound chain consists of trustworthy and unbroken narrators."
+    }
+   ]
+  },
+  {
+   "number": 19,
+   "title": "Narrator and Chain of Transmission",
+   "titleNative": "Ravi ve İsnad",
+   "topicId": "c1p-ravi-isnad",
+   "items": [
+    {
+     "tr": "Ravi, bir hadisi rivayet eden kişidir.",
+     "en": "A narrator (ravi) is the person who transmits a hadith."
+    },
+    {
+     "tr": "İsnad, hadisi nakleden ravilerin birbirine bağlanma şeklidir.",
+     "en": "Isnad is the manner in which the narrators transmitting a hadith are linked to one another."
+    },
+    {
+     "tr": "Bir ravinin adaletli ve güvenilir olması, rivayetinin kabulü için önemlidir.",
+     "en": "A narrator's integrity and trustworthiness are important for their narration to be accepted."
+    },
+    {
+     "tr": "Zabt, ravinin işittiğini doğru şekilde koruyup aktarabilme yeteneğidir.",
+     "en": "Precision (dabt) is a narrator's ability to accurately retain and transmit what they heard."
+    }
+   ]
+  },
+  {
+   "number": 20,
+   "title": "The Conditions of an Authentic Hadith",
+   "titleNative": "Sahih Hadisin Şartları",
+   "topicId": "c1p-sahih-hadis",
+   "items": [
+    {
+     "tr": "Sahih hadis, adalet ve zabt sahibi ravilerin kesintisiz senediyle nakledilen hadistir.",
+     "en": "An authentic hadith is one transmitted through an unbroken chain of narrators possessing integrity and precision."
+    },
+    {
+     "tr": "Sahih hadiste şüz, yani güvenilir bir raviye aykırılık bulunmamalıdır.",
+     "en": "An authentic hadith must be free from shudhudh, meaning contradiction with a more reliable narrator."
+    },
+    {
+     "tr": "Sahih hadiste illet, yani gizli bir kusur da bulunmamalıdır.",
+     "en": "An authentic hadith must also be free from 'illah, meaning a hidden defect."
+    },
+    {
+     "tr": "Buhari ve Müslim'in eserleri, sahih hadislerin en güvenilir kaynakları arasında sayılır.",
+     "en": "The works of Bukhari and Muslim are considered among the most reliable sources of authentic hadith."
+    }
+   ]
+  },
+  {
+   "number": 21,
+   "title": "Good (Hasan) Hadith",
+   "titleNative": "Hasen Hadis",
+   "topicId": "c1p-hasen-hadis",
+   "items": [
+    {
+     "tr": "Hasen hadis, sahih hadise yakın ama ravilerinden birinin zabtı biraz zayıf olan hadistir.",
+     "en": "Hasan hadith is close to authentic hadith but has a narrator whose precision is somewhat weaker."
+    },
+    {
+     "tr": "Hasen hadis de amel için delil olarak kullanılabilir.",
+     "en": "A hasan hadith can also be used as proof for practice."
+    },
+    {
+     "tr": "Bir hasen hadis, başka rivayet yollarıyla desteklenirse sahih li-gayrihi derecesine yükselebilir.",
+     "en": "A hasan hadith can be elevated to the status of sahih li-ghayrihi if supported by other transmission routes."
+    },
+    {
+     "tr": "Hasen hadis zayıf hadisten daha güvenilir kabul edilir.",
+     "en": "Hasan hadith is considered more reliable than weak hadith."
+    }
+   ]
+  },
+  {
+   "number": 22,
+   "title": "Weak (Da'if) Hadith",
+   "titleNative": "Zayıf Hadis",
+   "topicId": "c1p-zayif-hadis",
+   "items": [
+    {
+     "tr": "Zayıf hadis, sahih veya hasen hadisin şartlarından birini taşımayan hadistir.",
+     "en": "A weak hadith is one that lacks one of the conditions of an authentic or good hadith."
+    },
+    {
+     "tr": "Sened kopukluğu, zayıf hadisin en yaygın sebeplerinden biridir.",
+     "en": "A break in the chain of narration is one of the most common causes of a weak hadith."
+    },
+    {
+     "tr": "Bazı âlimler zayıf hadisin fazilet konularında kullanılabileceğini söyler.",
+     "en": "Some scholars say a weak hadith may be used regarding matters of virtue."
+    },
+    {
+     "tr": "Zayıf hadis, itikat veya hüküm koymada tek başına delil sayılmaz.",
+     "en": "A weak hadith alone is not considered proof for establishing belief or legal rulings."
+    }
+   ]
+  },
+  {
+   "number": 23,
+   "title": "Fabricated (Mawdu') Hadith",
+   "titleNative": "Mevzu (Uydurma) Hadis",
+   "topicId": "c1p-mevzu-hadis",
+   "items": [
+    {
+     "tr": "Mevzu hadis, aslında Peygamber'e ait olmayıp ona yalan yere isnat edilen sözdür.",
+     "en": "A fabricated hadith is a statement that is not actually from the Prophet but is falsely attributed to him."
+    },
+    {
+     "tr": "Mevzu hadisler genellikle metnindeki akıl veya nakil dışı unsurlarla tespit edilir.",
+     "en": "Fabricated hadiths are often identified through elements in the text that are contrary to reason or established transmission."
+    },
+    {
+     "tr": "Hadis âlimleri, mevzu hadisleri ayıklamak için özel eserler yazmıştır.",
+     "en": "Hadith scholars have written specialized works to sift out fabricated hadiths."
+    },
+    {
+     "tr": "Bir mevzu hadisi bilerek nakletmek büyük bir vebal taşır.",
+     "en": "Knowingly transmitting a fabricated hadith carries a great sin."
+    }
+   ]
+  },
+  {
+   "number": 24,
+   "title": "Mutawatir Hadith",
+   "titleNative": "Mütevatir Hadis",
+   "topicId": "c1p-mutevatir-hadis",
+   "items": [
+    {
+     "tr": "Mütevatir hadis, yalan üzerine birleşmesi aklen mümkün olmayan kalabalık bir topluluk tarafından nakledilen hadistir.",
+     "en": "A mutawatir hadith is one transmitted by such a large group that their agreement on a lie is rationally inconceivable."
+    },
+    {
+     "tr": "Mütevatir hadis, kesin bilgi (yakîn) ifade eder.",
+     "en": "A mutawatir hadith conveys absolute certainty."
+    },
+    {
+     "tr": "Mütevatir hadisi inkâr eden kişi büyük bir hataya düşmüş sayılır.",
+     "en": "A person who denies a mutawatir hadith is considered to have fallen into a grave error."
+    },
+    {
+     "tr": "Kur'an'ın bize ulaşması da mütevatir bir nakil yoluyla gerçekleşmiştir.",
+     "en": "The transmission of the Quran to us has also occurred through mutawatir transmission."
+    }
+   ]
+  },
+  {
+   "number": 25,
+   "title": "Solitary (Ahad) Hadith",
+   "titleNative": "Ahad Hadis",
+   "topicId": "c1p-ahad-hadis",
+   "items": [
+    {
+     "tr": "Ahad hadis, mütevatir derecesine ulaşmayan sayıda raviyle nakledilen hadistir.",
+     "en": "A solitary (ahad) hadith is one transmitted by a number of narrators that does not reach the level of tawatur."
+    },
+    {
+     "tr": "Ahad hadis, zann-ı galib, yani kuvvetli bir kanaat ifade eder.",
+     "en": "An ahad hadith conveys strong probability rather than absolute certainty."
+    },
+    {
+     "tr": "Sahih bir ahad hadisle amel etmek gereklidir, ancak itikatta kesinlik ifade etmeyebilir.",
+     "en": "Acting upon a sahih ahad hadith is required, though it may not convey certainty in matters of belief."
+    },
+    {
+     "tr": "Hadis kitaplarındaki rivayetlerin büyük çoğunluğu ahad hadislerden oluşur.",
+     "en": "The vast majority of narrations in hadith books consist of ahad hadiths."
+    }
+   ]
+  },
+  {
+   "number": 26,
+   "title": "Well-Known (Mashhur) Hadith",
+   "titleNative": "Meşhur Hadis",
+   "topicId": "c1p-meshur-hadis",
+   "items": [
+    {
+     "tr": "Meşhur hadis, ilk tabakada ahad iken sonraki nesillerde çok sayıda raviyle yaygınlaşan hadistir.",
+     "en": "A well-known (mashhur) hadith starts as ahad in the first generation but becomes widely narrated by many narrators in later generations."
+    },
+    {
+     "tr": "Meşhur hadis, ahad hadisten daha güçlü ama mütevatirden daha zayıf kabul edilir.",
+     "en": "A mashhur hadith is considered stronger than an ahad hadith but weaker than a mutawatir one."
+    },
+    {
+     "tr": "Bazı meşhur hadisler halk arasında çok bilindiği için 'meşhur' olarak da anılır, ama bu farklı bir kullanımdır.",
+     "en": "Some well-known hadiths are also called 'mashhur' simply because they are widely known among the public, though this is a different usage."
+    },
+    {
+     "tr": "Meşhur hadis, Hanefi usulünde ayrı bir kategori olarak ele alınır.",
+     "en": "The mashhur hadith is treated as a separate category in Hanafi methodology."
+    }
+   ]
+  },
+  {
+   "number": 27,
+   "title": "Marfu, Mawquf, and Maqtu' Hadith",
+   "titleNative": "Merfu, Mevkuf ve Maktu' Hadis",
+   "topicId": "c1p-merfu-mevkuf-maktu",
+   "items": [
+    {
+     "tr": "Merfu hadis, açıkça Hz. Peygamber'e nispet edilen sözdür.",
+     "en": "A marfu hadith is a statement explicitly attributed to the Prophet."
+    },
+    {
+     "tr": "Mevkuf hadis, bir sahabiye ait olup Peygamber'e ulaştırılmayan sözdür.",
+     "en": "A mawquf hadith is a statement attributed to a Companion but not traced back to the Prophet."
+    },
+    {
+     "tr": "Maktu' hadis, bir tabiine ait söz veya uygulamadır.",
+     "en": "A maqtu' hadith is a saying or practice attributed to a Successor (tabi'i)."
+    },
+    {
+     "tr": "Bu üç terim, rivayetin kime kadar ulaştığını gösteren bir sınıflandırmadır.",
+     "en": "These three terms represent a classification based on who the narration is traced back to."
+    }
+   ]
+  },
+  {
+   "number": 28,
+   "title": "Connected, Interrupted, and Mursal Hadith",
+   "titleNative": "Muttasıl, Munkatı ve Mürsel Hadis",
+   "topicId": "c1p-muttasil-munkati-mursel",
+   "items": [
+    {
+     "tr": "Muttasıl hadis, senedinde hiçbir kopukluk bulunmayan hadistir.",
+     "en": "A connected (muttasil) hadith is one whose chain contains no gaps."
+    },
+    {
+     "tr": "Munkatı hadis, senedinde bir veya birden fazla ravinin eksik olduğu hadistir.",
+     "en": "An interrupted (munqati') hadith is one whose chain is missing one or more narrators."
+    },
+    {
+     "tr": "Mürsel hadis, bir tabiinin sahabeyi atlayarak doğrudan Peygamber'den naklettiği hadistir.",
+     "en": "A mursal hadith is one in which a Successor narrates directly from the Prophet, skipping the Companion."
+    },
+    {
+     "tr": "Mürsel hadisin delil değeri, hadis usulcüleri arasında tartışmalıdır.",
+     "en": "The evidentiary value of a mursal hadith is debated among hadith scholars."
+    }
+   ]
+  },
+  {
+   "number": 29,
+   "title": "Tafsir vs. Ta'wil",
+   "titleNative": "Tefsir ve Te'vil Farkı",
+   "topicId": "c1p-tefsir-tevil",
+   "items": [
+    {
+     "tr": "Tefsir, bir ayetin lafız ve anlamını açıklamaktır.",
+     "en": "Tafsir is explaining the wording and meaning of a verse."
+    },
+    {
+     "tr": "Te'vil, bir ayetin birden fazla anlamından, delile dayanarak birini tercih etmektir.",
+     "en": "Ta'wil is selecting one of multiple possible meanings of a verse, based on evidence."
+    },
+    {
+     "tr": "Tefsir daha çok rivayete, te'vil ise daha çok içtihada dayanır.",
+     "en": "Tafsir relies more on transmitted reports, while ta'wil relies more on independent reasoning."
+    },
+    {
+     "tr": "Klasik tefsir kitapları hem tefsir hem de te'vil unsurlarını bir arada barındırır.",
+     "en": "Classical tafsir works contain elements of both tafsir and ta'wil together."
+    }
+   ]
+  },
+  {
+   "number": 30,
+   "title": "Reasons for Revelation",
+   "titleNative": "Esbab-ı Nüzul",
+   "topicId": "c1p-esbab-nuzul",
+   "items": [
+    {
+     "tr": "Esbab-ı nüzul, bir ayetin hangi olay üzerine indiğini inceleyen ilimdir.",
+     "en": "The science of the reasons for revelation examines the events behind which a verse was revealed."
+    },
+    {
+     "tr": "Bazı ayetler belirli bir soru veya olaya cevap olarak inmiştir.",
+     "en": "Some verses were revealed in response to a specific question or event."
+    },
+    {
+     "tr": "Esbab-ı nüzulü bilmek, ayetin doğru anlaşılmasına katkı sağlar.",
+     "en": "Knowing the reasons for revelation contributes to correctly understanding a verse."
+    },
+    {
+     "tr": "Bir ayetin sebebi özel olsa da hükmünün genel olabileceği kabul edilir.",
+     "en": "Even if a verse's cause is specific, its ruling can still be considered general."
+    }
+   ]
+  },
+  {
+   "number": 31,
+   "title": "Meccan and Medinan Verses",
+   "titleNative": "Mekki ve Medeni Ayetler",
+   "topicId": "c1p-mekki-medeni",
+   "items": [
+    {
+     "tr": "Mekki ayetler, Hz. Peygamber'in hicretinden önce inen ayetlerdir.",
+     "en": "Meccan verses are those revealed before the Prophet's migration."
+    },
+    {
+     "tr": "Medeni ayetler ise hicretten sonra inen ayetlerdir.",
+     "en": "Medinan verses are those revealed after the migration."
+    },
+    {
+     "tr": "Mekki ayetler genellikle iman, tevhid ve ahiret konularına odaklanır.",
+     "en": "Meccan verses generally focus on faith, monotheism, and the afterlife."
+    },
+    {
+     "tr": "Medeni ayetler ise daha çok hukuk, ibadet ve toplumsal düzenlemeleri içerir.",
+     "en": "Medinan verses mostly contain legal, worship-related, and social regulations."
+    }
+   ]
+  },
+  {
+   "number": 32,
+   "title": "Abrogating and Abrogated Verses",
+   "titleNative": "Nasih ve Mensuh",
+   "topicId": "c1p-nasih-mensuh",
+   "items": [
+    {
+     "tr": "Nasih, önceki bir hükmü yürürlükten kaldıran sonraki ayet veya hadistir.",
+     "en": "The abrogating (nasikh) is a later verse or hadith that repeals an earlier ruling."
+    },
+    {
+     "tr": "Mensuh, hükmü kaldırılan önceki ayet veya hadistir.",
+     "en": "The abrogated (mansukh) is the earlier verse or hadith whose ruling has been repealed."
+    },
+    {
+     "tr": "Şarap içmenin aşamalı olarak yasaklanması, nesih konusunun klasik bir örneğidir.",
+     "en": "The gradual prohibition of drinking wine is a classic example of abrogation."
+    },
+    {
+     "tr": "Neshin gerçekleşmesi için iki hükmün gerçekten birbiriyle çelişmesi gerekir.",
+     "en": "For abrogation to occur, the two rulings must genuinely contradict each other."
+    }
+   ]
+  },
+  {
+   "number": 33,
+   "title": "Clear and Ambiguous Verses",
+   "titleNative": "Muhkem ve Müteşabih",
+   "topicId": "c1p-muhkem-mutesabih",
+   "items": [
+    {
+     "tr": "Muhkem ayet, anlamı açık ve tek bir şekilde yorumlanabilen ayettir.",
+     "en": "A clear (muhkam) verse is one whose meaning is evident and can be interpreted in only one way."
+    },
+    {
+     "tr": "Müteşabih ayet, birden fazla anlama gelebilen veya hakiki manası ancak Allah tarafından bilinen ayettir.",
+     "en": "An ambiguous (mutashabih) verse is one that can carry multiple meanings or whose true meaning is known only to Allah."
+    },
+    {
+     "tr": "Fıkhi hükümlerin çoğu muhkem ayetlere dayanır.",
+     "en": "Most legal rulings are based on clear (muhkam) verses."
+    },
+    {
+     "tr": "Müteşabih ayetler üzerinde aşırı yoruma gitmek dikkatli yaklaşılması gereken bir konudur.",
+     "en": "Excessive interpretation of ambiguous verses is a matter that must be approached with caution."
+    }
+   ]
+  },
+  {
+   "number": 34,
+   "title": "Concise and Elaborated Verses",
+   "titleNative": "Mücmel ve Mübeyyen",
+   "topicId": "c1p-mucmel-mubeyyen",
+   "items": [
+    {
+     "tr": "Mücmel ayet, tek başına anlaşılması yeterli olmayan, açıklamaya muhtaç ayettir.",
+     "en": "A concise (mujmal) verse is one whose meaning alone is not sufficiently clear and requires further explanation."
+    },
+    {
+     "tr": "Namaz kılınız emri, rekat sayısı belirtilmediği için mücmeldir.",
+     "en": "The command to 'pray' is concise (mujmal) since it doesn't specify the number of rak'ahs."
+    },
+    {
+     "tr": "Mübeyyen, mücmel bir ayetin sünnetle açıklanmasıdır.",
+     "en": "Bayan (elaboration) is the clarification of a concise verse through the Sunnah."
+    },
+    {
+     "tr": "Peygamberimizin namazı fiilen göstermesi, mücmel bir ayeti mübeyyen kılmıştır.",
+     "en": "The Prophet's practical demonstration of prayer clarified a concise verse."
+    }
+   ]
+  },
+  {
+   "number": 35,
+   "title": "Literal and Figurative Meaning",
+   "titleNative": "Hakikat ve Mecaz",
+   "topicId": "c1p-hakikat-mecaz",
+   "items": [
+    {
+     "tr": "Hakikat, bir kelimenin ilk konulduğu asıl anlamda kullanılmasıdır.",
+     "en": "Literal meaning (haqiqah) is using a word in its original, primary sense."
+    },
+    {
+     "tr": "Mecaz, bir kelimenin asıl anlamı dışında, bir ilgiyle başka bir anlamda kullanılmasıdır.",
+     "en": "Figurative meaning (majaz) is using a word, through some connection, in a sense other than its original one."
+    },
+    {
+     "tr": "Kur'an'da bazı ifadeler mecaz yoluyla anlaşılmalıdır.",
+     "en": "Some expressions in the Quran must be understood figuratively."
+    },
+    {
+     "tr": "Bir lafzı hakikat ile mecaz arasında yorumlarken karine (bağlamsal işaret) önemlidir.",
+     "en": "Contextual indicators (qarinah) are important when interpreting a word between literal and figurative meaning."
+    }
+   ]
+  },
+  {
+   "number": 36,
+   "title": "General and Specific Terms",
+   "titleNative": "Amm ve Hass",
+   "topicId": "c1p-amm-hass",
+   "items": [
+    {
+     "tr": "Amm lafız, tüm fertlerini kapsayacak şekilde genel bir anlam ifade eder.",
+     "en": "A general (amm) term expresses a meaning encompassing all its individual instances."
+    },
+    {
+     "tr": "Hass lafız, belirli ve sınırlı bir anlamı ifade eder.",
+     "en": "A specific (khass) term expresses a defined and limited meaning."
+    },
+    {
+     "tr": "'İnsanlar' kelimesi amm bir lafza örnektir.",
+     "en": "The word 'people' is an example of a general term."
+    },
+    {
+     "tr": "Amm bir lafız, bir tahsis edici delille sınırlandırılabilir.",
+     "en": "A general term can be restricted by a specifying piece of evidence."
+    }
+   ]
+  },
+  {
+   "number": 37,
+   "title": "Unrestricted and Restricted Terms",
+   "titleNative": "Mutlak ve Mukayyed",
+   "topicId": "c1p-mutlak-mukayyed",
+   "items": [
+    {
+     "tr": "Mutlak lafız, herhangi bir kayıt veya sınırlama olmaksızın kullanılan lafızdır.",
+     "en": "An unrestricted (mutlaq) term is one used without any qualification or limitation."
+    },
+    {
+     "tr": "Mukayyed lafız, belirli bir sıfat veya şartla sınırlandırılmış lafızdır.",
+     "en": "A restricted (muqayyad) term is one limited by a specific attribute or condition."
+    },
+    {
+     "tr": "Keffaret için köle azat etme emri bazı ayetlerde mutlak, bazılarında mukayyeddir.",
+     "en": "The command to free a slave for expiation is unrestricted in some verses and restricted in others."
+    },
+    {
+     "tr": "Mutlak bir lafız, aynı konudaki mukayyed bir delille sınırlandırılabilir.",
+     "en": "An unrestricted term can be limited by a restricted piece of evidence on the same topic."
+    }
+   ]
+  },
+  {
+   "number": 38,
+   "title": "The Science of Quranic Recitations",
+   "titleNative": "Kıraat İlmi",
+   "topicId": "c1p-kiraat-ilmi",
+   "items": [
+    {
+     "tr": "Kıraat ilmi, Kur'an'ın farklı okunuş biçimlerini inceleyen bir ilimdir.",
+     "en": "The science of Quranic recitation studies the different ways the Quran can be read."
+    },
+    {
+     "tr": "Yedi meşhur kıraat, mütevatir kabul edilen okuma şekilleridir.",
+     "en": "The seven famous recitations are considered mutawatir (mass-transmitted) ways of reading."
+    },
+    {
+     "tr": "Farklı kıraatler bazen fıkhi hükümlerde küçük farklılıklara yol açabilir.",
+     "en": "Different recitations can sometimes lead to slight differences in legal rulings."
+    },
+    {
+     "tr": "Kıraat farklılıkları, Kur'an'ın anlam zenginliğine katkı sağlar.",
+     "en": "Differences in recitation contribute to the richness of the Quran's meaning."
+    }
+   ]
+  },
+  {
+   "number": 39,
+   "title": "The Four Major Schools of Law",
+   "titleNative": "Dört Büyük Mezhep",
+   "topicId": "c1p-dort-mezhep",
+   "items": [
+    {
+     "tr": "Hanefi mezhebi, İmam Ebu Hanife'nin görüşlerine dayanır.",
+     "en": "The Hanafi school is based on the views of Imam Abu Hanifa."
+    },
+    {
+     "tr": "Şafii mezhebi, İmam Şafii'nin usul ve fürû görüşlerinden oluşur.",
+     "en": "The Shafi'i school consists of the methodological and substantive views of Imam al-Shafi'i."
+    },
+    {
+     "tr": "Maliki mezhebi, Medine ehlinin uygulamasına önem verir.",
+     "en": "The Maliki school places importance on the practice of the people of Medina."
+    },
+    {
+     "tr": "Hanbeli mezhebi, hadise ve selefin uygulamasına diğerlerinden daha fazla ağırlık verir.",
+     "en": "The Hanbali school places more weight on hadith and the practice of the early generations than the others."
+    }
+   ]
+  },
+  {
+   "number": 40,
+   "title": "Levels of Ijtihad Capacity",
+   "titleNative": "Müçtehid Mertebeleri",
+   "topicId": "c1p-mustehid-mertebe",
+   "items": [
+    {
+     "tr": "Müçtehid-i mutlak, kendi bağımsız usulüyle hüküm çıkarabilen en üst mertebedeki âlimdir.",
+     "en": "An absolute mujtahid is the highest-level scholar capable of deriving rulings with their own independent methodology."
+    },
+    {
+     "tr": "Müçtehid fi'l-mezheb, mezhep imamının usulü çerçevesinde yeni meselelere hüküm veren âlimdir.",
+     "en": "A mujtahid within the school derives rulings for new issues within the framework of the school's founding imam's methodology."
+    },
+    {
+     "tr": "Müçtehid fi'l-mesail, sadece belirli bazı meselelerde bağımsız görüş bildirebilen âlimdir.",
+     "en": "A mujtahid on specific issues can only offer independent opinions on certain particular matters."
+    },
+    {
+     "tr": "Günümüzde mutlak müçtehid seviyesine ulaşmanın çok zor olduğu genel kabul görür.",
+     "en": "It is widely accepted today that reaching the level of an absolute mujtahid is very difficult."
+    }
+   ]
+  },
+  {
+   "number": 41,
+   "title": "Ijtihad and Taqlid",
+   "titleNative": "İçtihad ve Taklid",
+   "topicId": "c1p-ictihad-taklid",
+   "items": [
+    {
+     "tr": "İçtihad, bir müçtehidin şer'i delillerden hüküm çıkarmak için azami çaba göstermesidir.",
+     "en": "Ijtihad is a mujtahid's utmost effort to derive a ruling from legal proofs."
+    },
+    {
+     "tr": "Taklid, bir müçtehidin görüşünü delilini araştırmadan kabul etmektir.",
+     "en": "Taqlid is accepting a mujtahid's opinion without researching its proof."
+    },
+    {
+     "tr": "Fıkıh usulünde, ictihad yapma ehliyeti olmayan kişilerin taklid etmesi normal kabul edilir.",
+     "en": "In fiqh methodology, it is considered normal for a person who lacks the capacity for ijtihad to practice taqlid."
+    },
+    {
+     "tr": "Bir mezhebe bağlı kalmak, o mezhebin usulünü taklid etmek anlamına gelir.",
+     "en": "Adhering to a school of law means following (taqlid) that school's methodology."
+    }
+   ]
+  },
+  {
+   "number": 42,
+   "title": "Combining Different Schools' Rulings",
+   "titleNative": "Telfik",
+   "topicId": "c1p-telfik",
+   "items": [
+    {
+     "tr": "Telfik, bir meselede farklı mezheplerin görüşlerini bir araya getirerek yeni bir uygulama oluşturmaktır.",
+     "en": "Talfiq is combining the views of different schools on an issue to form a new practice."
+    },
+    {
+     "tr": "Bazı âlimler telfiki zaruret hallerinde caiz görür.",
+     "en": "Some scholars consider talfiq permissible in cases of necessity."
+    },
+    {
+     "tr": "Telfik, her mezhebin kendi iç tutarlılığını bozma riski taşıdığı için tartışmalıdır.",
+     "en": "Talfiq is debated because it carries the risk of disrupting the internal consistency of each school."
+    },
+    {
+     "tr": "Kolaylık arayışıyla sürekli telfik yapmak bazı âlimlerce hoş karşılanmaz.",
+     "en": "Constantly practicing talfiq in search of ease is frowned upon by some scholars."
+    }
+   ]
+  },
+  {
+   "number": 43,
+   "title": "Fatwa vs. Judicial Ruling",
+   "titleNative": "Fetva ve Kaza Farkı",
+   "topicId": "c1p-fetva-kaza",
+   "items": [
+    {
+     "tr": "Fetva, bir müftünün sorulan bir soruya verdiği bağlayıcı olmayan dini görüştür.",
+     "en": "A fatwa is a non-binding religious opinion given by a mufti in response to a question."
+    },
+    {
+     "tr": "Kaza, bir kadının (hakimin) taraflar arasında verdiği bağlayıcı yargı kararıdır.",
+     "en": "Qada is a binding judicial ruling given by a qadi (judge) between disputing parties."
+    },
+    {
+     "tr": "Fetva, soran kişiyi bağlamaz; kişi başka bir müftüye de danışabilir.",
+     "en": "A fatwa does not bind the person asking; they may also consult another mufti."
+    },
+    {
+     "tr": "Kaza kararı, ilgili taraflar için uygulanması zorunlu bir hükümdür.",
+     "en": "A judicial ruling is a decision that is mandatory for the parties involved to follow."
+    }
+   ]
+  },
+  {
+   "number": 44,
+   "title": "Customary and Sharia Courts (Historical Context)",
+   "titleNative": "Örfi ve Şer'i Mahkeme Ayrımı",
+   "topicId": "c1p-orfi-seri-mahkeme",
+   "items": [
+    {
+     "tr": "Şer'i mahkemeler, klasik dönemde İslam hukukunun doğrudan uygulandığı mahkemelerdi.",
+     "en": "Sharia courts, in the classical period, were courts where Islamic law was directly applied."
+    },
+    {
+     "tr": "Örfi mahkemeler ise devlet yönetiminin koyduğu idari düzenlemelere göre karar veren mahkemelerdi.",
+     "en": "Customary courts, on the other hand, were courts that ruled according to administrative regulations set by the state."
+    },
+    {
+     "tr": "Osmanlı hukuk sisteminde her iki mahkeme türü de bir arada var olmuştur.",
+     "en": "In the Ottoman legal system, both types of courts existed side by side."
+    },
+    {
+     "tr": "Bu ayrım, tarihi İslam hukuk sistemlerinin idari esnekliğini gösteren bir örnektir.",
+     "en": "This distinction is an example showing the administrative flexibility of historical Islamic legal systems."
+    }
+   ]
+  },
+  {
+   "number": 45,
+   "title": "Usul al-Fiqh vs. Furu' al-Fiqh",
+   "titleNative": "Usul-Furu Fıkıh Farkı",
+   "topicId": "c1p-usul-furu",
+   "items": [
+    {
+     "tr": "Usul-i fıkıh, hüküm çıkarma yöntem ve kurallarını inceleyen ilimdir.",
+     "en": "Usul al-fiqh is the discipline that studies the methods and rules for deriving legal rulings."
+    },
+    {
+     "tr": "Fürû-i fıkıh, bu yöntemler sonucunda ortaya çıkan somut hükümlerin kendisidir.",
+     "en": "Furu' al-fiqh consists of the concrete rulings that result from applying these methods."
+    },
+    {
+     "tr": "Namazın nasıl kılınacağı fürûya, kıyasın nasıl kullanılacağı ise usule aittir.",
+     "en": "How to perform prayer belongs to furu', while how to use analogy belongs to usul."
+    },
+    {
+     "tr": "Usul, fürûun temelini oluşturan bir çerçeve niteliğindedir.",
+     "en": "Usul serves as the framework upon which furu' is built."
+    }
+   ]
+  }
+ ]
+}
