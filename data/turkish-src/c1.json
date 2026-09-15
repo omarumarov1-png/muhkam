@@ -1,0 +1,1807 @@
+{
+ "level": "c1",
+ "grammarTopics": {
+  "c1-farz-vacip": {
+   "title": "Farz vs. Vacip",
+   "pattern": "Fıkhi hüküm kategorileri (bağlayıcılık dereceleri)",
+   "explanation": "Farz, Kur'an ayeti veya mütevatir sünnet gibi kesin (kat'i) bir delille sabit olan, yerine getirilmesi zorunlu ibadettir; inkâr eden kişi dinden çıkmış sayılır. Vacip ise Hanefi fıkhında ayrı bir kategoridir: delili farz kadar kesin olmayan (zanni) ama yine de bağlayıcı olan hükümdür; vacibi terk eden günahkâr olur ama inkârı küfür sayılmaz.",
+   "fact": "Vacip kategorisi özellikle Hanefi mezhebine özgüdür; Şafii, Maliki ve Hanbeli mezheplerinde genellikle farz ile vacip aynı kategoride değerlendirilir.",
+   "dialogue": [
+    {
+     "tr": "Vitir namazı farz mı?",
+     "en": "Is the witr prayer obligatory (farz)?"
+    },
+    {
+     "tr": "Hayır, Hanefi mezhebinde vaciptir, farz değildir.",
+     "en": "No, in the Hanafi school it is necessary (vacip), not obligatory."
+    }
+   ]
+  },
+  "c1-sunnet": {
+   "title": "Sünnet-i Müekkede vs. Gayr-i Müekkede",
+   "pattern": "Sünnetin bağlayıcılık derecesine göre alt kategorileri",
+   "explanation": "Sünnet-i müekkede, Hz. Peygamber'in devamlı yaptığı, çok nadiren terk ettiği ve terkini hoş karşılamadığı fiillerdir; özürsüz terki mekruh kabul edilir. Sünnet-i gayr-i müekkede (veya sünnet-i zevaid) ise Peygamberimizin bazen yaptığı, bazen terk ettiği, günlük alışkanlıklarına dair fiillerdir; terkinde bir sakınca yoktur.",
+   "fact": "Sünnet-i müekkede, vacibe yakın bir bağlayıcılığa sahiptir; bazı fıkıhçılar onu neredeyse vacip gibi değerlendirir, ama terkinde günah değil sadece kerahet vardır.",
+   "dialogue": [
+    {
+     "tr": "Öğleden sonraki dört rekat sünnet şart mı?",
+     "en": "Is the four-rak'ah sunnah after noon prayer required?"
+    },
+    {
+     "tr": "Hayır, gayr-i müekked bir sünnettir, kılmayan günahkâr olmaz.",
+     "en": "No, it is a non-emphasized sunnah; someone who skips it does not sin."
+    }
+   ]
+  },
+  "c1-mustehap": {
+   "title": "Müstehap / Mendup",
+   "pattern": "En hafif tavsiye derecesindeki fiiller",
+   "explanation": "Müstehap (mendup ile eş anlamlı kullanılır), Hz. Peygamber'in ara sıra yaptığı veya güzel gördüğü, kesin bir talimat niteliği taşımayan davranışlardır. Yapılması sevap kazandırır ama terk edilmesi hiçbir şekilde günah veya kerahet doğurmaz.",
+   "fact": "Bazı fıkıh usulcüleri müstehap ile menduptdüğü eş anlamlı sayar; bazıları ise menduba sünnet-i zevaidden bile daha hafif bir tavsiye derecesi olarak bakar.",
+   "dialogue": [
+    {
+     "tr": "Sağ elle yemek yemek farz mı?",
+     "en": "Is eating with the right hand obligatory?"
+    },
+    {
+     "tr": "Hayır, müstehaptır; sevabı vardır ama terki günah değildir.",
+     "en": "No, it's recommended; there's reward for it but no sin in leaving it."
+    }
+   ]
+  },
+  "c1-mekruh": {
+   "title": "Mekruh-u Tahrimen vs. Tenzihen",
+   "pattern": "Mekruhun iki alt derecesi",
+   "explanation": "Mekruh-u tahrimen, delili zanni (kesin olmayan) bir yasaklama ile sabit olan, harama yakın derecede günah sayılan fiildir; bir vacibin terki genellikle bu kategoriye girer. Mekruh-u tenzihen ise sadece 'yapılmaması evla olan' hafif derecede hoş karşılanmayan davranıştır; işlenmesi günah değildir.",
+   "fact": "Bazı Hanefi fıkıh kitaplarında mutlak olarak 'mekruh' denildiğinde kastedilen genellikle tahrimen mekruhtur; tenzihen mekruh için ayrıca 'evlâ olan terk etmektir' ifadesi kullanılır.",
+   "dialogue": [
+    {
+     "tr": "Sarımsak yiyip camiye gitmek mekruh mu?",
+     "en": "Is it disliked to go to the mosque after eating garlic?"
+    },
+    {
+     "tr": "Evet, tenzihen mekruhtur, günah değildir ama uygun değildir.",
+     "en": "Yes, it's lightly disliked (tenzihen), not sinful but not appropriate."
+    }
+   ]
+  },
+  "c1-haram-helal": {
+   "title": "Haram / Helal / Mübah",
+   "pattern": "Fıkhi hükümlerin diğer üç temel kategorisi",
+   "explanation": "Haram, kesin bir delille kesin olarak yasaklanmış, işlenmesi büyük günah sayılan fiildir; inkârı da farzın inkârı gibi küfürdür. Helal, yapılmasına izin verilen her şeydir. Mübah ise yapılması da yapılmaması da dinen eşit karşılanan, ne sevap ne günah getiren serbest alandır.",
+   "fact": "Fıkıh usulünde 'mübah' bazen 'caiz' kelimesiyle eş anlamlı kullanılır, ancak caiz kelimesi bazen sünnet, müstehap gibi diğer izinli kategorileri de kapsayacak şekilde daha geniş anlamda kullanılabilir.",
+   "dialogue": [
+    {
+     "tr": "Deniz ürünleri yemek helal mi?",
+     "en": "Is eating seafood permissible (helal)?"
+    },
+    {
+     "tr": "Evet, Hanefi mezhebinde balık dışındaki bazı deniz ürünleri tartışmalı olsa da genel olarak helaldir.",
+     "en": "Yes, though some sea creatures other than fish are debated in the Hanafi school, it is generally permissible."
+    }
+   ]
+  },
+  "c1-hades-necaset": {
+   "title": "Hades vs. Necaset",
+   "pattern": "Taharetin iki temel kavramı",
+   "explanation": "Hades, kişinin namaz gibi ibadetleri yerine getirmesine engel olan, maddi olmayan bir hükmi kirliliktir; abdestsizlik (küçük hades) ve cünüplük (büyük hades) olmak üzere ikiye ayrılır. Necaset ise idrar, kan gibi gözle görülebilen veya görülemeyen ama gerçek, maddi bir pisliktir; beden, elbise veya bir yer üzerinde bulunur.",
+   "fact": "Bir kişi hem hadesli hem necaset bulaşmış olabilir; bu iki durumun giderilme yöntemleri farklıdır, biri abdest/gusül, diğeri yıkama veya silmedir.",
+   "dialogue": [
+    {
+     "tr": "Hades ile necaset aynı şey mi?",
+     "en": "Are hades and najasah the same thing?"
+    },
+    {
+     "tr": "Hayır, hades hükmi bir kirliliktir, necaset ise maddi bir kirliliktir.",
+     "en": "No, hades is a ritual/legal impurity, while najasah is a physical impurity."
+    }
+   ]
+  },
+  "c1-abdest-farz": {
+   "title": "Abdestin Farzları",
+   "pattern": "Vücudun dört bölgesini kapsayan zorunlu abdest fiilleri",
+   "explanation": "Hanefi mezhebine göre abdestin dört farzı vardır: yüzü bir kez tam olarak yıkamak, kolları dirseklerle beraber yıkamak, başın en az dörtte birini meshetmek ve ayakları topuklarla beraber yıkamak. Bu dört fiilden biri eksik kalırsa abdest sahih olmaz.",
+   "fact": "Şafii mezhebinde baş meshi için dörtte bir şartı yoktur; sadece başın herhangi bir kısmına dokunmak yeterli görülür, bu da mezhepler arası fark gösteren güzel bir örnektir.",
+   "dialogue": [
+    {
+     "tr": "Abdestte kulakları yıkamak farz mı?",
+     "en": "Is washing the ears obligatory in wudu?"
+    },
+    {
+     "tr": "Hayır, kulaklar başın meshine dahil sayılır, ayrı bir farz değildir.",
+     "en": "No, the ears are considered part of the head-wiping, not a separate obligation."
+    }
+   ]
+  },
+  "c1-abdest-bozan": {
+   "title": "Abdesti Bozan Durumlar",
+   "pattern": "Nevakız-ı vudu: abdesti geçersiz kılan haller",
+   "explanation": "Hanefi fıkhında abdesti bozan başlıca durumlar şunlardır: her türlü bedensel necaset çıkışı (idrar, dışkı, gaz), yaradan akıp yayılan kan/irin, ağız dolusu kusmak, derin uyku veya bayılma gibi bilinci tamamen kaybetme halleri ve namaz içinde işitilecek derecede sesli gülmek.",
+   "fact": "Namaz dışında sesli gülmek sadece abdesti bozar; ama namaz içinde sesli gülmek hem abdesti hem de namazı bozar -- bu ayrım sık karıştırılan bir noktadır.",
+   "dialogue": [
+    {
+     "tr": "Burun kanaması abdesti bozar mı?",
+     "en": "Does a nosebleed nullify wudu?"
+    },
+    {
+     "tr": "Evet, eğer kan burun deliğinden dışarı akıp yayılırsa abdest bozulur.",
+     "en": "Yes, if the blood flows out of the nostril and spreads, the wudu is nullified."
+    }
+   ]
+  },
+  "c1-gusul-farz": {
+   "title": "Guslün Farzları",
+   "pattern": "Büyük hadesten temizlenmenin üç temel şartı",
+   "explanation": "Hanefi mezhebine göre guslün üç farzı vardır: ağza su vermek (mazmaza), burna su çekmek (istinşak) ve tüm bedeni, saçın diplerine kadar, hiçbir kuru yer kalmayacak şekilde suyla yıkamaktır. Bu üçünden biri eksik kalırsa gusül tamamlanmış sayılmaz.",
+   "fact": "Cünüplük; cinsel ilişki, ihtilam (rüyada boşalma) veya hayız ve nifas gibi kadına özgü durumların sona ermesiyle oluşur; her durumda gusül farz olur.",
+   "dialogue": [
+    {
+     "tr": "Gusülde ağza su vermek şart mı?",
+     "en": "Is rinsing the mouth required during ghusl?"
+    },
+    {
+     "tr": "Evet, Hanefi mezhebinde guslün üç farzından biridir.",
+     "en": "Yes, it's one of the three obligatory acts of ghusl in the Hanafi school."
+    }
+   ]
+  },
+  "c1-teyemmum": {
+   "title": "Teyemmüm",
+   "pattern": "Su bulunmadığında veya kullanılamadığında yapılan taharet şekli",
+   "explanation": "Teyemmüm, temiz toprağa veya toprak cinsinden bir yüzeye iki elin vurulup önce yüzün, sonra kollların dirseklere kadar meshedilmesiyle yapılan bir taharet şeklidir. Su bulunamaması, suyun yetersiz olması veya hastalık gibi suyu kullanmaya engel bir durumun varlığı halinde hem abdestin hem de guslün yerine geçer.",
+   "fact": "Teyemmüm sadece namaz kılmayı mümkün kılmaz; Kur'an'a dokunmak gibi abdest gerektiren diğer ibadetler için de aynı şekilde geçerlidir.",
+   "dialogue": [
+    {
+     "tr": "Su yokken namaz nasıl kılınır?",
+     "en": "How does one pray when there is no water?"
+    },
+    {
+     "tr": "Teyemmüm alınarak namaz kılınabilir.",
+     "en": "One can perform tayammum and then pray."
+    }
+   ]
+  },
+  "c1-necaset-cesit": {
+   "title": "Necaset-i Galiza vs. Hafife",
+   "pattern": "Necasetin ağırlık derecesine göre iki kategorisi",
+   "explanation": "Necaset-i galiza (ağır necaset), üzerinde kesin delil bulunan domuz eti, akan kan, şarap ve insan dışkısı gibi maddelerdir; elbise veya bedende dirhem miktarını (yaklaşık bir avuç içi büyüklüğü) aşarsa namazı geçersiz kılar. Necaset-i hafife (hafif necaset) ise eti yenmeyen hayvanların idrarı gibi, delili daha zayıf olan maddelerdir; elbisenin dörtte birinden azına bulaşması affedilir.",
+   "fact": "Necaset miktarının ölçülmesinde kullanılan 'dirhem' kavramı, günümüz fıkıhçıları tarafından yaklaşık 3-4 gram ağırlığında veya avuç içi genişliğinde bir alan olarak yorumlanır.",
+   "dialogue": [
+    {
+     "tr": "Az miktarda necaset namazı bozar mı?",
+     "en": "Does a small amount of impurity invalidate the prayer?"
+    },
+    {
+     "tr": "Necaset-i hafifeden az miktar affedilir, ama galizadan dirhem miktarını aşan kısım namazı bozar.",
+     "en": "A small amount of light impurity is excused, but heavy impurity exceeding the dirham amount invalidates the prayer."
+    }
+   ]
+  },
+  "c1-mesh-huffeyn": {
+   "title": "Mesh alâ'l-Huffeyn",
+   "pattern": "Deri mest veya çorap üzerine abdestte yapılan mesh ruhsatı",
+   "explanation": "Mesh alâ'l-huffeyn, abdestli iken giyilen ve ayağı topuklara kadar örten dayanıklı mestler üzerine, ayakları yeniden yıkamak yerine ıslak elle mesh çekilmesine izin veren bir fıkhi ruhsattır. Mukim kişi için süre bir gün bir gece, yolcu için üç gün üç gecedir; bu süre, ilk hades anından itibaren başlar.",
+   "fact": "Mesh süresi dolduğunda veya mestler çıkarıldığında, sadece ayakları yeniden yıkamak yeterlidir; abdestin tamamını yenilemeye gerek yoktur.",
+   "dialogue": [
+    {
+     "tr": "Mest üzerine mesh ne kadar süre geçerlidir?",
+     "en": "How long is wiping over leather socks valid?"
+    },
+    {
+     "tr": "Mukim için bir gün bir gece, yolcu için üç gün üç gecedir.",
+     "en": "One day and night for a resident, three days and nights for a traveler."
+    }
+   ]
+  },
+  "c1-namaz-vakit": {
+   "title": "Namaz Vakitleri",
+   "pattern": "Beş vakit namazın giriş ve çıkış zamanları",
+   "explanation": "İslam fıkhında namaz vakitleri güneşin gökyüzündeki konumuna göre belirlenir: sabah (fecr), öğle (zuhr), ikindi (asr), akşam (magrib) ve yatsı (işa). Her vaktin bir giriş anı ve bir de kerahet vaktine kadar süren bitiş anı vardır; namazı bu aralık dışında kılmak geçersiz sayılır.",
+   "fact": "Güneşin doğduğu, tam tepede olduğu ve battığı anlar 'vakt-i mekruh' olarak adlandırılır; bu üç zaman diliminde nafile namaz kılmak Hanefi mezhebinde mekruhtur.",
+   "dialogue": [
+    {
+     "tr": "İkindi namazının vakti ne zaman girer?",
+     "en": "When does the time for the afternoon prayer begin?"
+    },
+    {
+     "tr": "Bir cismin gölgesi kendi boyuna eklenince ikindi vakti girer.",
+     "en": "It begins when an object's shadow, added to its own length, reaches that measure."
+    }
+   ]
+  },
+  "c1-namaz-sart": {
+   "title": "Namazın Şartları (Dış Şartlar)",
+   "pattern": "Namaza başlamadan önce sağlanması gereken ön koşullar",
+   "explanation": "Namazın şartları, namazın bir parçası olmayıp namaza başlamadan önce gerçekleşmiş olması gereken hususlardır: hadesten ve necasetten taharet, avret yerinin örtülmesi, kıbleye yönelme, vaktin girmiş olması ve namaza niyet etmek. Bu şartlardan biri eksik olursa namaz sahih olmaz.",
+   "fact": "Fıkıh usulünde 'şart' ile 'rükün' arasındaki fark önemlidir: şartlar namazın dışında, rükünler ise namazın içindeki zorunlu unsurlardır.",
+   "dialogue": [
+    {
+     "tr": "Namazın şartları ile rükünleri aynı mı?",
+     "en": "Are the conditions and pillars of prayer the same?"
+    },
+    {
+     "tr": "Hayır, şartlar namaza başlamadan önce, rükünler ise namaz içinde yerine getirilir.",
+     "en": "No, the conditions are fulfilled before starting the prayer, while the pillars are fulfilled within it."
+    }
+   ]
+  },
+  "c1-namaz-rukun": {
+   "title": "Namazın Rükünleri",
+   "pattern": "Namazın içindeki zorunlu hareket ve fiiller",
+   "explanation": "Namazın rükünleri, namazın mahiyetini oluşturan ve eksik kalması durumunda namazı geçersiz kılan temel unsurlardır: iftitah tekbiri, kıyam, kıraat (Fatiha okumak), rükû, secde, ka'de-i ahire (son oturuş) ve selam. Hanefi mezhebinde kıraat ve ka'de-i ahire de rükün olarak sayılır.",
+   "fact": "Bazı mezheplerde selam vermek rükün değil vacip veya sünnet olarak değerlendirilir; bu, mezhepler arası farkların namaz fıkhındaki güzel bir örneğidir.",
+   "dialogue": [
+    {
+     "tr": "Namazda rükû etmek şart mı yoksa rükün mü?",
+     "en": "Is bowing in prayer a condition or a pillar?"
+    },
+    {
+     "tr": "Rükündür; namazın içinde yapılan zorunlu bir hareket olduğu için şart değil rükün sayılır.",
+     "en": "It's a pillar; since it's a required action performed within the prayer, it's classified as a pillar, not a condition."
+    }
+   ]
+  },
+  "c1-namaz-vacip": {
+   "title": "Namazın Vacipleri",
+   "pattern": "Rükün kadar kesin olmayan ama yine de bağlayıcı namaz unsurları",
+   "explanation": "Namazın vacipleri, rükünler kadar kesin delille sabit olmayan ama yine de yerine getirilmesi zorunlu olan unsurlardır: Fatiha'yı her rekatta okumak, Fatiha'dan sonra bir sure veya ayet eklemek, ilk oturuşta teşehhüd okumak ve namazı tadil-i erkân ile, yani her rükünde sükûnetle kılmak. Bir vacip unutulursa namaz bozulmaz, secde-i sehiv ile telafi edilir.",
+   "fact": "Rükün kasten terk edilirse namaz batıl olur ve yeniden kılınması gerekir; vacip ise kasten terk edilirse namaz sahih fakat noksan sayılır, sehven terk edilirse secde-i sehiv yeterlidir.",
+   "dialogue": [
+    {
+     "tr": "Namazda bir vacibi unutursam ne yapmalıyım?",
+     "en": "What should I do if I forget an obligatory act in prayer?"
+    },
+    {
+     "tr": "Namazın sonunda secde-i sehiv yaparak bunu telafi edebilirsin.",
+     "en": "You can compensate for it by performing the prostration of forgetfulness at the end of the prayer."
+    }
+   ]
+  },
+  "c1-namaz-sunnet": {
+   "title": "Namazın Sünnetleri",
+   "pattern": "Namaz içindeki tavsiye edilen, ama bağlayıcı olmayan fiiller",
+   "explanation": "Namazın sünnetleri, Hz. Peygamber'in namaz kılarken yaptığı ama Kur'an veya kesin delille zorunlu kılınmamış fiillerdir: tekbir alırken elleri kaldırmak, sübhaneke duasını okumak, rükû ve secdede tespih getirmek gibi. Bunların terki namazı geçersiz kılmaz ve secde-i sehiv gerektirmez, sadece namazın faziletini azaltır.",
+   "fact": "Namazın vacipleri unutulduğunda secde-i sehiv gerekirken, sünnetlerinin unutulmasında hiçbir telafiye gerek yoktur -- bu, üç kategori (rükün-vacip-sünnet) arasındaki pratik farkı net gösterir.",
+   "dialogue": [
+    {
+     "tr": "Rükûdan kalkarken ellerimi kaldırmayı unuttum, namazım bozuldu mu?",
+     "en": "I forgot to raise my hands when rising from bowing, is my prayer invalid?"
+    },
+    {
+     "tr": "Hayır, bu bir sünnettir, unutulması namazı bozmaz.",
+     "en": "No, that's a sunnah; forgetting it doesn't invalidate the prayer."
+    }
+   ]
+  },
+  "c1-secde-sehiv": {
+   "title": "Secde-i Sehiv",
+   "pattern": "Namazda sehven yapılan eksikliğin telafi yolu",
+   "explanation": "Secde-i sehiv, namaz içinde vaciplerden birinin unutularak eksik bırakılması veya fazladan yapılması durumunda, namazın son oturuşunda teşehhüdden sonra, selam vermeden önce yapılan iki ilave secdedir. Bu iki secde arasında kısaca oturulur ve ardından namaza normal şekilde son verilir.",
+   "fact": "Secde-i sehiv sadece vaciplerin sehven (unutarak) terkinde geçerlidir; bir vacip kasten terk edilirse secde-i sehiv yeterli olmaz, namazın yeniden kılınması gerekir.",
+   "dialogue": [
+    {
+     "tr": "Namazda bir secdeyi unuttuğumu fark ettim, ne yapmalıyım?",
+     "en": "I realized I forgot a prostration in prayer, what should I do?"
+    },
+    {
+     "tr": "Eğer bu bir rükünse namaza devam edip o kısmı tamamlamalısın; sadece bir vacip eksikse secde-i sehiv yeterlidir.",
+     "en": "If it's a pillar, you should complete that part; if it's only a vacip, the prostration of forgetfulness suffices."
+    }
+   ]
+  },
+  "c1-cemaat": {
+   "title": "Cemaatle Namazın Temel Terimleri",
+   "pattern": "İmam-muktedi ilişkisini tanımlayan kavramlar",
+   "explanation": "Cemaatle kılınan namazda imam öne geçip namazı yönetir, cemaat ise (muktedi) onun hareketlerini takip eder. İmama namazın başından itibaren yetişen kişiye 'müdrik', namazın bir kısmını kaçırıp sonradan yetişen kişiye ise kendi eksik rekatlarını tamamlaması gereken bir durum söz konusu olur; bu kişiye bazı kaynaklarda 'lâhik' veya 'mesbuk' denir.",
+   "fact": "Mesbuk, imam selam verdikten sonra ayağa kalkıp kaçırdığı rekatları kendi başına, Fatiha ve varsa ekli sureyi okuyarak tamamlar.",
+   "dialogue": [
+    {
+     "tr": "İmama namazın ortasında yetiştim, ne yapmalıyım?",
+     "en": "I caught up with the imam in the middle of the prayer, what should I do?"
+    },
+    {
+     "tr": "Sen mesbuksun; imam selam verdikten sonra kaçırdığın rekatları kendin tamamlarsın.",
+     "en": "You are a mesbuk; after the imam gives the salam, you complete the rak'ahs you missed on your own."
+    }
+   ]
+  },
+  "c1-cuma-sart": {
+   "title": "Cuma Namazının Şartları",
+   "pattern": "Cuma namazının farz olması ve geçerli sayılması için gereken koşullar",
+   "explanation": "Cuma namazının farz olması için kişinin erkek, mukim (yolcu olmayan) ve sağlıklı olması gerekir; namazın kendisinin geçerli olması için ise cemaatin belirli bir sayıya ulaşması, vaktin girmiş olması ve namazdan önce hutbe okunması şarttır. Hutbesiz kılınan Cuma namazı sahih olmaz.",
+   "fact": "Kadınlar, yolcular ve hastalar için Cuma namazı farz değildir; bu kişiler dilerlerse öğle namazını kılar.",
+   "dialogue": [
+    {
+     "tr": "Cuma namazı kaç rekattır?",
+     "en": "How many rak'ahs is the Friday prayer?"
+    },
+    {
+     "tr": "İki rekattır ve önünde hutbe okunması şarttır.",
+     "en": "It is two rak'ahs, and a sermon must be delivered before it."
+    }
+   ]
+  },
+  "c1-bayram-teravih-vitir": {
+   "title": "Bayram, Teravih ve Vitir",
+   "pattern": "Yılın belirli zamanlarına veya özel vakitlere has namazlar",
+   "explanation": "Bayram namazı, iki bayramda kılınan ve içinde ilave tekbirler bulunan iki rekatlık bir vaciptir (Hanefi mezhebine göre). Teravih, sadece Ramazan gecelerinde yatsıdan sonra kılınan, sünnet-i müekkede hükmünde yirmi rekatlık bir namazdır. Vitir ise her gün yatsı namazından sonra kılınan, Hanefi mezhebinde vacip sayılan tek sayılı rekatlı bir namazdır.",
+   "fact": "Vitir namazının üçüncü rekatında okunan kunut duası, Hanefi mezhebine özgü bir vaciptir; diğer mezheplerde farklı şekillerde uygulanır.",
+   "dialogue": [
+    {
+     "tr": "Teravih namazı hangi ayda kılınır?",
+     "en": "In which month is the Tarawih prayer performed?"
+    },
+    {
+     "tr": "Sadece Ramazan ayında, yatsı namazından sonra kılınır.",
+     "en": "It is performed only in the month of Ramadan, after the night prayer."
+    }
+   ]
+  },
+  "c1-oruc-cesit": {
+   "title": "Oruç Çeşitleri: Farz, Vacip, Nafile, Keffaret",
+   "pattern": "Bağlayıcılık derecesine göre oruç türleri",
+   "explanation": "Oruç da diğer ibadetler gibi bağlayıcılık derecesine göre sınıflandırılır: Ramazan orucu farzdır; adak (nezir) orucu vaciptir; Pazartesi-Perşembe orucu gibi gönüllü tutulanlar nafiledir; yemin bozma veya oruç bozma gibi durumlarda tutulan oruçlar ise keffaret orucudur.",
+   "fact": "Keffaret orucu genellikle art arda tutulması gereken altmış gün gibi belirli bir süre ve şekilde yerine getirilir; arada kesinti olursa yeniden başlanması gerekebilir.",
+   "dialogue": [
+    {
+     "tr": "Nafile oruç tutmak zorunlu mu?",
+     "en": "Is it required to fast a voluntary fast?"
+    },
+    {
+     "tr": "Hayır, nafiledir; tutmak sevap kazandırır ama tutmamak günah değildir.",
+     "en": "No, it's voluntary; fasting it earns reward, but not fasting is not a sin."
+    }
+   ]
+  },
+  "c1-oruc-bozan": {
+   "title": "Orucu Bozan ve Bozmayan Haller",
+   "pattern": "Kasıt ve unutma ayrımına göre orucun geçerliliği",
+   "explanation": "Hanefi fıkhında orucu bozan başlıca durumlar şunlardır: bilerek yeme-içme, cinsel ilişki, kasten kusma ve ağız dolusu istifra. Ancak unutarak yemek yiyen, yanlışlıkla ağzına su kaçan veya diş fırçalayan kişinin orucu bozulmaz; çünkü fıkıhta kasıt unsuru bu tür meselelerde belirleyicidir.",
+   "fact": "Kasten yiyip içmek ile cinsel ilişkiye girmek, sadece orucu bozmakla kalmaz, aynı zamanda 'keffaret' gerektiren en ağır ihlal türü olarak kabul edilir.",
+   "dialogue": [
+    {
+     "tr": "Unutarak su içtim, orucum bozuldu mu?",
+     "en": "I drank water forgetfully, is my fast broken?"
+    },
+    {
+     "tr": "Hayır, unutarak yapılan bu tür şeyler orucu bozmaz, orucuna devam edebilirsin.",
+     "en": "No, such things done forgetfully don't break the fast; you can continue your fast."
+    }
+   ]
+  },
+  "c1-sahur-iftar": {
+   "title": "Sahur / İftar / İmsak",
+   "pattern": "Orucun başlangıç ve bitiş zaman dilimleriyle ilgili terimler",
+   "explanation": "Sahur, oruca niyet edilerek tan yeri ağarmadan (fecr-i sadık) önce yenilen gece yemeğidir ve müstehaptır. İmsak, tan yerinin ağarmasıyla orucun fiilen başladığı andır. İftar ise güneşin batmasıyla orucun sona erip yeme-içmenin serbest olduğu vakittir; iftarı geciktirmeden yapmak sünnettir.",
+   "fact": "'İmsak vaktine kadar yemek yiyebilirsiniz' ifadesindeki imsak, gerçekte orucun BAŞLADIĞI andır, yani imsaktan itibaren artık yeme-içme orucu bozar -- bu, sık yanlış anlaşılan bir noktadır.",
+   "dialogue": [
+    {
+     "tr": "İmsak vaktinden sonra yemek yiyebilir miyim?",
+     "en": "Can I eat after the time of imsak?"
+    },
+    {
+     "tr": "Hayır, imsak orucun başladığı andır, o andan sonra yemek orucu bozar.",
+     "en": "No, imsak is the moment the fast begins; eating after that breaks the fast."
+    }
+   ]
+  },
+  "c1-fidye-kefaret": {
+   "title": "Fidye vs. Kefaret",
+   "pattern": "Oruç tutamama veya orucu bozma durumlarında ödenen bedeller",
+   "explanation": "Fidye, yaşlılık veya iyileşme umudu olmayan hastalık gibi mazeretlerle oruç tutamayan kişinin, her gün için bir fakiri doyuracak miktarda ödediği bedeldir; bu bir mazeret durumudur, günah değildir. Kefaret ise Ramazan orucunu özürsüz ve kasten bozan kişiye uygulanan çok daha ağır bir cezadır: art arda altmış gün oruç tutmak, buna gücü yetmezse altmış fakiri doyurmak gerekir.",
+   "fact": "Kefaret sadece Ramazan orucunun kasten ve özürsüz bozulmasında gerekir; unutarak veya bir mazeretle bozulan oruç için sadece o günün kazası (yeniden tutulması) yeterlidir.",
+   "dialogue": [
+    {
+     "tr": "Hasta olduğum için oruç tutamıyorum, ne yapmalıyım?",
+     "en": "I can't fast because I'm sick, what should I do?"
+    },
+    {
+     "tr": "İyileşme umudun varsa iyileştiğinde kaza edersin; umut yoksa her gün için fidye ödersin.",
+     "en": "If you have hope of recovery, you make up the fast when you recover; if not, you pay fidyah for each day."
+    }
+   ]
+  },
+  "c1-itikaf": {
+   "title": "İtikaf",
+   "pattern": "Camide ibadet niyetiyle inzivaya çekilme",
+   "explanation": "İtikaf, bir kişinin dünyevi işlerden uzaklaşıp yalnızca ibadetle meşgul olmak amacıyla camide belirli bir süre kalmasıdır. Ramazanın son on gününde itikafa girmek Hz. Peygamber'in devamlı uyguladığı bir sünnet-i müekkededir; bu süre boyunca kişi yeme-içme ve tuvalet gibi zorunlu ihtiyaçlar dışında camiden çıkmaz.",
+   "fact": "Kadınlar itikafı evlerinde kendilerine ayrılmış bir mescid köşesinde yapabilirler; bu, camiye gitme zorunluluğunun kadınlar için farklı şekilde uygulanmasının bir örneğidir.",
+   "dialogue": [
+    {
+     "tr": "İtikafa giren biri camiden çıkabilir mi?",
+     "en": "Can a person in itikaf leave the mosque?"
+    },
+    {
+     "tr": "Sadece tuvalet, abdest gibi zorunlu ihtiyaçlar için çıkabilir.",
+     "en": "They can only leave for necessary needs like using the restroom or performing ablution."
+    }
+   ]
+  },
+  "c1-zekat-sart": {
+   "title": "Nisab ve Havelan-ı Havl",
+   "pattern": "Zekatın farz olması için gereken iki temel şart",
+   "explanation": "Nisab, zekatın farz olması için gereken asgari mal miktarıdır; örneğin altın için yaklaşık 80 gram ölçüsü kullanılır. Havelan-ı havl ise bu nisab miktarına ulaşan malın üzerinden tam bir kamerî yıl (354 gün) geçmesidir. Her iki şart da birlikte gerçekleşmeden zekat farz olmaz.",
+   "fact": "Yıl içinde mal miktarı bazen nisabın altına düşse bile, yılın başında ve sonunda nisaba ulaşmış olması Hanefi mezhebinde yeterli sayılır.",
+   "dialogue": [
+    {
+     "tr": "Zekat vermek için ne kadar paraya sahip olmam gerekir?",
+     "en": "How much money do I need to have to pay zakat?"
+    },
+    {
+     "tr": "Malının nisap miktarına ulaşması ve üzerinden bir yıl geçmesi gerekir.",
+     "en": "Your wealth needs to reach the nisab amount and a full year must pass over it."
+    }
+   ]
+  },
+  "c1-zekat-mal": {
+   "title": "Zekata Tabi Mal Çeşitleri",
+   "pattern": "Zekat verilmesi gereken mal kategorileri",
+   "explanation": "Zekata tabi olan başlıca mal türleri şunlardır: altın-gümüş ve bunların nakit karşılığı, ticaret malları, sağmal ve otlak hayvanları (koyun, sığır, deve gibi belirli sayıya ulaşanlar) ve toprak ürünleri. Her kategori için farklı nisab miktarları ve zekat oranları belirlenmiştir; örneğin nakit ve ticaret malı için oran yüzde iki buçuktur.",
+   "fact": "Ev, araba gibi kişisel kullanım eşyaları, ne kadar değerli olursa olsun zekata tabi değildir; zekat yalnızca 'nami' yani artmaya, çoğalmaya elverişli mallar üzerinden alınır.",
+   "dialogue": [
+    {
+     "tr": "Oturduğum evden zekat vermem gerekir mi?",
+     "en": "Do I need to pay zakat on the house I live in?"
+    },
+    {
+     "tr": "Hayır, kişisel kullanım için olan ev zekata tabi değildir.",
+     "en": "No, a house used for personal residence is not subject to zakat."
+    }
+   ]
+  },
+  "c1-zekat-sinif": {
+   "title": "Asnaf-ı Semaniye (Sekiz Zekat Sınıfı)",
+   "pattern": "Kur'an'da belirtilen zekat verilecek sekiz kişi grubu",
+   "explanation": "Tevbe suresinde belirtilen zekat verilecek sekiz sınıf şunlardır: fakirler, miskinler (fakirlerden daha muhtaç olanlar), zekat toplamakla görevli memurlar (amilîn), kalpleri İslam'a ısındırılacak kişiler (müellefe-i kulûb), köle azat etme, borçlular (garimîn), Allah yolunda olanlar (fî sebîlillah) ve yolda kalmış kişiler (ibnü's-sebîl).",
+   "fact": "Zekat, zengin bir kişiye veya kişinin kendi usul-füruuna (anne-baba, çocuk gibi) verilemez; çünkü bunların nafakası zaten kişinin kendi üzerine farzdır.",
+   "dialogue": [
+    {
+     "tr": "Zekatımı kime verebilirim?",
+     "en": "To whom can I give my zakat?"
+    },
+    {
+     "tr": "Kur'an'da belirtilen sekiz sınıftan birine, örneğin fakir veya borçlu birine verebilirsin.",
+     "en": "You can give it to one of the eight categories mentioned in the Quran, such as a poor person or a debtor."
+    }
+   ]
+  },
+  "c1-sadaka-fitr": {
+   "title": "Sadaka-i Fıtr",
+   "pattern": "Ramazan bayramı öncesinde verilen zorunlu sadaka",
+   "explanation": "Sadaka-i fıtr, nisap miktarına sahip her Müslümanın, kendisi ve bakmakla yükümlü olduğu kişiler adına Ramazan bayramından önce vermesi gereken, Hanefi mezhebinde vacip sayılan bir sadakadır. Miktarı, genellikle buğday, arpa gibi temel gıda maddelerinin belirli bir ölçüsüne veya bunun günümüz para karşılığına göre hesaplanır.",
+   "fact": "Sadaka-i fıtr, zekattan farklı olarak nisaba ulaşan herkese vaciptir; kazanç şartı veya bir yıl geçme şartı aranmaz, sadece o anki nisap miktarına sahip olmak yeterlidir.",
+   "dialogue": [
+    {
+     "tr": "Fıtır sadakası ne zaman verilmelidir?",
+     "en": "When should the fitr charity be given?"
+    },
+    {
+     "tr": "En güzeli bayram namazından önce vermektir, ama Ramazan boyunca da verilebilir.",
+     "en": "It's best to give it before the Eid prayer, but it can also be given throughout Ramadan."
+    }
+   ]
+  },
+  "c1-osur-harac": {
+   "title": "Öşür vs. Harac",
+   "pattern": "Toprak ürünlerinden ve arazilerden alınan iki farklı mali yükümlülük",
+   "explanation": "Öşür, Müslümanların sahip olduğu ve tarıma elverişli topraklardan elde edilen ürün üzerinden alınan bir tür zekattır; sulama şekline göre oranı onda bir veya yirmide bir olarak değişir. Harac ise tarihi İslam devletlerinde, fethedilen topraklarda yaşayan gayrimüslim veya bazı özel statüdeki toprak sahiplerinden alınan, öşürden farklı bir arazi vergisidir.",
+   "fact": "Öşür bir ibadet niteliği taşırken, harac daha çok idari ve mali bir vergi düzenlemesi olarak görülür; bu ayrım, klasik İslam maliye hukukunun önemli bir konusudur.",
+   "dialogue": [
+    {
+     "tr": "Öşür ile zekat aynı şey mi?",
+     "en": "Are öşür and zakat the same thing?"
+    },
+    {
+     "tr": "Öşür, toprak ürünlerinden alınan bir zekat türüdür; genel zekattan ayrı bir kategoridir.",
+     "en": "Öşür is a type of zakat taken from agricultural produce; it's a separate category from general zakat."
+    }
+   ]
+  },
+  "c1-hac-farz": {
+   "title": "Haccın Farzları",
+   "pattern": "Terk edilmesi haccı geçersiz kılan üç temel rükün",
+   "explanation": "Haccın farzları üçtür: ihrama girmek (haccın başlangıç niyeti ve bu niyetle belirli kıyafeti giymek), Arafat'ta vakfe yapmak (Zilhicce'nin dokuzuncu günü öğleden gece yarısına kadar Arafat'ta bulunmak) ve ziyaret tavafını yapmak (Kabe'yi yedi kez tavaf etmek). Bu üçünden biri eksik kalırsa hac geçersiz olur.",
+   "fact": "Arafat vakfesi haccın en kritik rüknüdür; bir hadiste 'Hac Arafat'tır' buyrulmuştur, çünkü bu rükün kaçırılırsa haccın tamamı geçersiz sayılır ve sonraki yıla ertelenmesi gerekir.",
+   "dialogue": [
+    {
+     "tr": "Haccın en önemli rüknü nedir?",
+     "en": "What is the most important pillar of Hajj?"
+    },
+    {
+     "tr": "Arafat vakfesidir; bu olmadan hac tamamlanamaz.",
+     "en": "It is the standing at Arafat; without it, the Hajj cannot be completed."
+    }
+   ]
+  },
+  "c1-hac-vacip": {
+   "title": "Haccın Vacipleri",
+   "pattern": "Terkinde kurban cezası gereken hac fiilleri",
+   "explanation": "Haccın vacipleri, farzlar kadar temel olmayan ama yine de yerine getirilmesi gereken fiillerdir: Müzdelife'de vakfe yapmak, şeytan taşlamak, sa'y yapmak, saçları tıraş etmek veya kısaltmak ve veda tavafı yapmak gibi. Bu vaciplerden biri özürsüz terk edilirse hac geçersiz olmaz, ancak bir ceza kurbanı (dem) kesmek gerekir.",
+   "fact": "Farz terk edildiğinde hac tamamen geçersiz olurken, vacip terk edildiğinde hac geçerli kalır fakat bir dem (kurban) cezası gerekir -- bu, farz-vacip ayrımının hac fıkhındaki somut bir yansımasıdır.",
+   "dialogue": [
+    {
+     "tr": "Şeytan taşlamayı unutursam haccım geçersiz olur mu?",
+     "en": "If I forget to stone the pillars, is my Hajj invalid?"
+    },
+    {
+     "tr": "Hayır, ama bir vacibi terk ettiğin için ceza kurbanı kesmen gerekir.",
+     "en": "No, but since you omitted a necessary act, you need to offer a penalty sacrifice."
+    }
+   ]
+  },
+  "c1-ihram-yasak": {
+   "title": "İhram Yasakları",
+   "pattern": "İhrama girdikten sonra uyulması gereken kısıtlamalar",
+   "explanation": "İhrama giren kişi için belirli davranışlar geçici olarak yasaklanır: dikişli elbise giymek (erkekler için), saç veya tırnak kesmek, koku sürünmek, avlanmak ve cinsel ilişkiye girmek gibi. Bu yasaklardan birinin ihlal edilmesi, ihlalin türüne göre fidye veya dem (kurban) cezası gerektirir.",
+   "fact": "Kadınlar için ihram kıyafetine dair erkeklerdeki gibi özel bir kısıtlama yoktur; kadın normal, örtülü kıyafetiyle ihrama girebilir, sadece yüzünü kapatan peçe ve eldiven giymemesi gerekir.",
+   "dialogue": [
+    {
+     "tr": "İhramdayken parfüm sürebilir miyim?",
+     "en": "Can I use perfume while in ihram?"
+    },
+    {
+     "tr": "Hayır, koku sürünmek ihram yasaklarından biridir.",
+     "en": "No, using perfume is one of the prohibitions of ihram."
+    }
+   ]
+  },
+  "c1-tavaf-cesit": {
+   "title": "Tavaf Çeşitleri",
+   "pattern": "Haccın farklı aşamalarında yapılan Kabe'yi tavaf etme türleri",
+   "explanation": "Hac ve umre sırasında farklı amaçlarla dört tür tavaf yapılır: kudüm tavafı (varış tavafı, sünnettir), ziyaret tavafı (farz, ifada tavafı da denir), veda tavafı (Mekke'den ayrılırken yapılan, vaciptir) ve umre tavafı (umrenin rüknüdür). Her tavaf Kabe'nin etrafında Hacerü'l-Esved'den başlayarak yedi kez dönülerek yapılır.",
+   "fact": "Veda tavafını yapmadan Mekke'den ayrılan kişiye, mazereti yoksa bir ceza kurbanı (dem) gerekir; ancak kadınların adet hali gibi mazeretleri bu yükümlülüğü düşürür.",
+   "dialogue": [
+    {
+     "tr": "Kudüm tavafı ne zaman yapılır?",
+     "en": "When is the tawaf al-qudum performed?"
+    },
+    {
+     "tr": "Mekke'ye ilk varıldığında yapılan bir karşılama tavafıdır, sünnettir.",
+     "en": "It's an arrival circumambulation performed upon first reaching Mecca, and it is a sunnah."
+    }
+   ]
+  },
+  "c1-say-tasi-kurban": {
+   "title": "Sa'y, Şeytan Taşlama ve Hedy",
+   "pattern": "Haccın sembolik ve tarihi anlam taşıyan üç önemli fiili",
+   "explanation": "Sa'y, Hz. Hacer'in İsmail için su ararken Safa ve Merve arasında koşmasını anmak amacıyla yedi kez tekrarlanan bir yürüyüştür ve haccın vaciplerindendir. Şeytan taşlama, Hz. İbrahim'in şeytanın vesvesesini taşla kovmasını temsil eder ve Mina'daki üç sütuna belirli günlerde yapılır. Hedy ise hac sırasında kesilen kurbana verilen özel isimdir; özellikle temettu ve kıran haccı yapanlara vaciptir.",
+   "fact": "İfrad haccı yapan (sadece hac niyetiyle ihrama giren) kişiye hedy kurbanı vacip değildir; bu, hac çeşitleri (ifrad-temettu-kıran) arasındaki önemli bir fıkhi farktır.",
+   "dialogue": [
+    {
+     "tr": "Şeytan taşlama neyi sembolize eder?",
+     "en": "What does stoning the devil symbolize?"
+    },
+    {
+     "tr": "Hz. İbrahim'in şeytanın vesvesesini taş atarak kovmasını temsil eder.",
+     "en": "It represents Prophet Ibrahim driving away the devil's temptation by throwing stones."
+    }
+   ]
+  },
+  "c1-umre": {
+   "title": "Umre",
+   "pattern": "Yılın herhangi bir zamanında yapılabilen küçük hac ziyareti",
+   "explanation": "Umre, ihrama girme, Kabe'yi tavaf etme, Safa ile Merve arasında sa'y yapma ve saçları tıraş etme veya kısaltma aşamalarından oluşan bir ibadettir. Hac gibi belirli bir zamana bağlı değildir, yılın herhangi bir döneminde yapılabilir; bu yönüyle 'küçük hac' olarak da anılır.",
+   "fact": "Ramazan ayında yapılan umrenin sevabı, bir hadis-i şerife göre hacca denk tutulmuştur; ancak bu, umrenin farz haccın yerine geçtiği anlamına gelmez.",
+   "dialogue": [
+    {
+     "tr": "Umre ile hac aynı şey mi?",
+     "en": "Are Umrah and Hajj the same thing?"
+    },
+    {
+     "tr": "Hayır, umre yılın her zamanı yapılabilir ve haccın yerini tutmaz.",
+     "en": "No, Umrah can be performed at any time of the year and does not replace Hajj."
+    }
+   ]
+  },
+  "c1-nikah-rukun": {
+   "title": "Nikahın Rükün ve Şartları",
+   "pattern": "Nikah akdinin sahih olması için gereken temel unsurlar",
+   "explanation": "Nikahın rüknü icap (evlilik teklifi) ve kabuldür (bu teklifin kabul edilmesi); bu ikisinin aynı mecliste gerçekleşmesi gerekir. Nikahın şartları arasında ise tarafların ehliyetli olması, aralarında nikaha mani bir akrabalık bağının bulunmaması ve akit sırasında iki adil şahidin hazır bulunması yer alır.",
+   "fact": "İslam hukukunda nikah, bir ibadet olmakla birlikte aynı zamanda hukuki bir akittir; bu yüzden hem dini hem de medeni-hukuki boyutları bir arada taşır.",
+   "dialogue": [
+    {
+     "tr": "Nikahta şahit gerekli mi?",
+     "en": "Are witnesses required for a marriage?"
+    },
+    {
+     "tr": "Evet, Hanefi mezhebinde nikahın sahih olması için iki şahit şarttır.",
+     "en": "Yes, in the Hanafi school, two witnesses are required for a marriage to be valid."
+    }
+   ]
+  },
+  "c1-mehir-nafaka": {
+   "title": "Mehir vs. Nafaka",
+   "pattern": "Evlilik akdinden doğan iki farklı mali yükümlülük",
+   "explanation": "Mehir, nikah akdi ile kadının hak kazandığı, kocanın ona ödemekle yükümlü olduğu bir maldır; bu, evliliğin bir şartı değil, evlilikten doğan bir sonuçtur. Nafaka ise kocanın, evlilik süresince ve bazı durumlarda iddet süresince eşinin yeme, giyim ve barınma gibi temel ihtiyaçlarını karşılamakla yükümlü olduğu düzenli bir harcamadır.",
+   "fact": "Mehir bir kereye mahsus verilen bir hak iken, nafaka evlilik boyunca sürekli ve tekrar eden bir yükümlülüktür; bu, iki kavramın en temel pratik farkıdır.",
+   "dialogue": [
+    {
+     "tr": "Mehir ile nafaka aynı şey mi?",
+     "en": "Are mahr and nafaqah the same thing?"
+    },
+    {
+     "tr": "Hayır, mehir bir kereye mahsus verilir, nafaka ise sürekli bir yükümlülüktür.",
+     "en": "No, mahr is given once, while nafaqah is a continuous obligation."
+    }
+   ]
+  },
+  "c1-talak-cesit": {
+   "title": "Ric'i Talak vs. Bain Talak",
+   "pattern": "Boşanmanın geri dönüş imkânına göre iki temel türü",
+   "explanation": "Ric'i talak (dönüşü mümkün boşanma), kocanın iddet süresi bitmeden, yeni bir nikaha gerek kalmadan eşine dönebildiği talak türüdür; birinci ve ikinci talak bu kategoridedir. Bain talak ise ya iddet süresi dolduktan sonra gerçekleşen ya da üçüncü kez verilen talaktır; bu durumda eşe dönmek için yeni bir nikah akdi (bain-i suğra) veya kadının başka biriyle evlenip ayrılması (bain-i kübra, üçüncü talak için) gerekir.",
+   "fact": "Üç talakla boşanan bir kadına eski kocasının dönebilmesi için kadının önce başka biriyle usulüne uygun şekilde evlenip, o evlilik gerçek anlamda sona ermesi gerekir; bu şart, boşanmanın hafife alınmaması içindir.",
+   "dialogue": [
+    {
+     "tr": "İki talak verdikten sonra eşime dönebilir miyim?",
+     "en": "Can I return to my wife after giving two divorces?"
+    },
+    {
+     "tr": "Evet, iddet süresi içindeyse ric'i talaktır ve dönüş mümkündür.",
+     "en": "Yes, if it's within the waiting period, it's a revocable divorce and you can return."
+    }
+   ]
+  },
+  "c1-iddet": {
+   "title": "İddet",
+   "pattern": "Boşanma veya vefat sonrası kadının yeniden evlenemeyeceği bekleme süresi",
+   "explanation": "İddet, bir kadının boşanma veya eşinin vefatı sonrasında yeni bir evlilik yapmadan önce beklemesi gereken süredir. Bu sürenin amacı, öncelikle kadının hamile olup olmadığının anlaşılmasını sağlamaktır. Boşanmada iddet üç adet dönemi veya hamilelik varsa doğuma kadar, vefat durumunda ise dört ay on gündür.",
+   "fact": "Nikah kıyılmadan önce eşiyle hiç bir arada bulunmamış (halvet gerçekleşmemiş) bir kadına boşanma durumunda iddet gerekmez; bu, iddetin hikmetiyle doğrudan bağlantılı bir istisnadır.",
+   "dialogue": [
+    {
+     "tr": "İddet süresi neden gereklidir?",
+     "en": "Why is the iddah period necessary?"
+    },
+    {
+     "tr": "Kadının hamile olup olmadığının netleşmesi ve soyun karışmaması içindir.",
+     "en": "It's to clarify whether the woman is pregnant and to avoid confusion of lineage."
+    }
+   ]
+  },
+  "c1-iman-sart": {
+   "title": "İmanın Altı Şartı",
+   "pattern": "İtikadın temelini oluşturan altı inanç esası",
+   "explanation": "İmanın şartları, bir Müslümanın inanması gereken altı temel esastır: Allah'a, meleklere, kitaplara, peygamberlere, ahiret gününe ve kadere (hayrın ve şerrin Allah'tan olduğuna) iman etmek. Bu altı esas, Cibril hadisi olarak bilinen meşhur bir hadiste açıkça sayılmıştır.",
+   "fact": "İmanın şartları ile İslam'ın şartları farklı kavramlardır: imanın şartları kalple tasdik edilecek inanç esaslarını, İslam'ın şartları ise bedenle yerine getirilecek amelleri ifade eder.",
+   "dialogue": [
+    {
+     "tr": "İmanın şartları kaç tanedir?",
+     "en": "How many pillars of faith are there?"
+    },
+    {
+     "tr": "Altı tanedir: Allah, melekler, kitaplar, peygamberler, ahiret ve kader.",
+     "en": "There are six: Allah, angels, scriptures, prophets, the afterlife, and destiny."
+    }
+   ]
+  },
+  "c1-islam-sart": {
+   "title": "İslam'ın Beş Şartı",
+   "pattern": "Amelî ibadetlerin temelini oluşturan beş esas",
+   "explanation": "İslam'ın şartları, bir Müslümanın bedenen yerine getirmesi gereken beş temel ameldir: kelime-i şehadet getirmek, namaz kılmak, zekat vermek, Ramazan orucunu tutmak ve gücü yetenler için hacca gitmek. Bu beş esas, İbn Ömer'den rivayet edilen meşhur bir hadiste sayılmıştır.",
+   "fact": "Hacca gitmek, sadece maddi ve bedensel gücü yeten kişilere farzdır; bu şart 'istitaat' olarak bilinir ve haccı diğer dört şarttan ayıran özel bir koşuldur.",
+   "dialogue": [
+    {
+     "tr": "İslam'ın şartlarından biri neden hacca özel bir koşul taşır?",
+     "en": "Why does one of the pillars of Islam, Hajj, carry a special condition?"
+    },
+    {
+     "tr": "Çünkü hac sadece maddi ve bedensel gücü yetenlere, yani istitaat sahibi olanlara farzdır.",
+     "en": "Because Hajj is only obligatory for those who have the financial and physical capacity, known as istita'ah."
+    }
+   ]
+  },
+  "c1-tevhid": {
+   "title": "Tevhidin Üç Boyutu",
+   "pattern": "İslam akaidinde Allah'ın birliğinin farklı yönleri",
+   "explanation": "Tevhid, İslam akaidinin merkezinde yer alan Allah'ın birliği inancıdır ve üç boyutta ele alınır: tevhid-i rububiyet (Allah'ın yaratma, rızık verme ve yönetme gibi fiillerde tek olduğuna inanmak), tevhid-i uluhiyet (ibadetin sadece Allah'a yapılması gerektiğine inanmak) ve tevhid-i esma ve sıfat (Allah'ın isim ve sıfatlarının hiçbir yaratılmışa benzemediğine inanmak).",
+   "fact": "Tarihte birçok topluluk tevhid-i rububiyeti kabul ettiği halde (yani bir yaratıcı olduğuna inandığı halde) tevhid-i uluhiyeti reddetmiş, yani Allah'tan başka varlıklara da ibadet etmiştir; bu ayrım, akaid ilminde önemli bir tartışma konusudur.",
+   "dialogue": [
+    {
+     "tr": "Tevhid kaç kısımdır?",
+     "en": "How many parts does tawhid have?"
+    },
+    {
+     "tr": "Üç kısımdır: rububiyet, uluhiyet ve esma-sıfat tevhidi.",
+     "en": "It has three parts: rububiyyah, uluhiyyah, and asma wa sifat."
+    }
+   ]
+  },
+  "c1-sirk-kufur-nifak": {
+   "title": "Şirk vs. Küfür vs. Nifak",
+   "pattern": "İmana aykırı üç farklı durumun akaid ilmindeki tanımları",
+   "explanation": "Şirk, Allah'ın zatında, sıfatlarında veya ibadetinde O'na ortak koşmaktır ve akaidde en büyük günah kabul edilir. Küfür, daha genel bir kavram olup İslam'ın kesin (zaruriyat-ı diniyye) bir esasını bilerek reddetmektir; şirk de bir tür küfürdür ama her küfür şirk değildir. Nifak ise kişinin kalben inanmadığı halde dışarıdan Müslüman gibi davranmasıdır; münafık, en tehlikeli kabul edilen kişi tipidir çünkü içi ile dışı arasında çelişki vardır.",
+   "fact": "Klasik akaid kitaplarında nifak ikiye ayrılır: itikadi nifak (kalben hiç inanmamak, bu kişiyi dinden çıkarır) ve amelî nifak (imanı olduğu halde yalan söylemek, sözünde durmamak gibi münafıklık alametleri taşımak, bu ise imanı ortadan kaldırmaz ama büyük bir kusurdur).",
+   "dialogue": [
+    {
+     "tr": "Şirk ile küfür aynı şey mi?",
+     "en": "Are shirk and kufr the same thing?"
+    },
+    {
+     "tr": "Şirk bir tür küfürdür, ama her küfür şirk değildir; küfür daha genel bir kavramdır.",
+     "en": "Shirk is a type of kufr, but not every kufr is shirk; kufr is a more general concept."
+    }
+   ]
+  }
+ },
+ "lessons": [
+  {
+   "number": 1,
+   "title": "Farz vs. Vacip",
+   "titleNative": "Farz ve Vacip",
+   "topicId": "c1-farz-vacip",
+   "items": [
+    {
+     "tr": "Günde beş vakit namaz kılmak her Müslümana farzdır.",
+     "en": "Praying five times a day is obligatory (farz) for every Muslim."
+    },
+    {
+     "tr": "Vitir namazı Hanefi mezhebinde vaciptir.",
+     "en": "The witr prayer is necessary (vacip) in the Hanafi school."
+    },
+    {
+     "tr": "Farzı terk eden kişi büyük günah işlemiş olur.",
+     "en": "A person who abandons a farz commits a major sin."
+    },
+    {
+     "tr": "Vacibi bilerek terk etmek de günahtır, fakat farzı inkâr etmek gibi değildir.",
+     "en": "Deliberately abandoning a vacip is also a sin, but it is not like denying a farz."
+    }
+   ]
+  },
+  {
+   "number": 2,
+   "title": "Sünnet: Müekked and Gayr-i Müekked",
+   "titleNative": "Sünnet-i Müekkede ve Gayr-i Müekkede",
+   "topicId": "c1-sunnet",
+   "items": [
+    {
+     "tr": "Peygamberimizin devamlı yaptığı ve nadiren terk ettiği fiillere sünnet-i müekkede denir.",
+     "en": "Actions the Prophet consistently performed and rarely left are called emphasized sunnah (sünnet-i müekkede)."
+    },
+    {
+     "tr": "Sabah namazının sünneti müekked bir sünnettir.",
+     "en": "The sunnah of the morning prayer is an emphasized sunnah."
+    },
+    {
+     "tr": "Öğle namazının son iki rekat sünneti gayr-i müekkeddir.",
+     "en": "The final two rak'ahs of the sunnah for the noon prayer are a non-emphasized sunnah."
+    },
+    {
+     "tr": "Müekked sünneti özürsüz terk etmek mekruh sayılır.",
+     "en": "Abandoning an emphasized sunnah without a valid excuse is considered disliked (mekruh)."
+    }
+   ]
+  },
+  {
+   "number": 3,
+   "title": "Müstehap and Mendup",
+   "titleNative": "Müstehap ve Mendup",
+   "topicId": "c1-mustehap",
+   "items": [
+    {
+     "tr": "Camiye sağ ayakla girmek müstehap bir davranıştır.",
+     "en": "Entering the mosque with the right foot is a recommended (müstehap) act."
+    },
+    {
+     "tr": "Yemekten önce besmele çekmek menduptur.",
+     "en": "Saying 'bismillah' before eating is recommended (mendup)."
+    },
+    {
+     "tr": "Müstehabı yapan sevap kazanır, yapmayan günaha girmez.",
+     "en": "One who performs a müstehap act earns reward, and one who omits it does not sin."
+    },
+    {
+     "tr": "Mendup, sünnetten daha hafif bir tavsiye derecesindedir.",
+     "en": "Mendup is a lighter degree of recommendation than sunnah."
+    }
+   ]
+  },
+  {
+   "number": 4,
+   "title": "Mekruh: Tahrimen and Tenzihen",
+   "titleNative": "Mekruh-u Tahrimen ve Tenzihen",
+   "topicId": "c1-mekruh",
+   "items": [
+    {
+     "tr": "Namazda başkasının önüne geçmek tenzihen mekruhtur.",
+     "en": "Passing in front of someone during prayer is disliked (mekruh) in the lighter sense (tenzihen)."
+    },
+    {
+     "tr": "Vacip bir işi özürsüz terk etmek tahrimen mekruh sayılır.",
+     "en": "Abandoning a vacip act without excuse is considered strongly disliked (tahrimen mekruh)."
+    },
+    {
+     "tr": "İkindi ile akşam namazı arasında nafile kılmak tenzihen mekruhtur.",
+     "en": "Praying voluntary prayers between the afternoon and evening prayers is lightly disliked (tenzihen mekruh)."
+    },
+    {
+     "tr": "Tahrimen mekruh, harama yakın bir derecede günah sayılır.",
+     "en": "Tahrimen mekruh is considered close in sinfulness to something forbidden."
+    }
+   ]
+  },
+  {
+   "number": 5,
+   "title": "Haram, Helal, and Mübah",
+   "titleNative": "Haram, Helal ve Mübah",
+   "topicId": "c1-haram-helal",
+   "items": [
+    {
+     "tr": "Domuz eti yemek İslam'da haramdır.",
+     "en": "Eating pork is forbidden (haram) in Islam."
+    },
+    {
+     "tr": "Meyve ve sebze yemek aslen helaldir.",
+     "en": "Eating fruits and vegetables is inherently permissible (helal)."
+    },
+    {
+     "tr": "Bir işin mübah olması, yapılmasının da yapılmamasının da eşit sevap taşıdığı anlamına gelir.",
+     "en": "An act being permissible (mübah) means doing it or not doing it carries equal standing."
+    },
+    {
+     "tr": "Haramı işlemek büyük günahtır ve kesin bir delille yasaklanmıştır.",
+     "en": "Committing a haram act is a major sin and is forbidden by a definitive proof."
+    }
+   ]
+  },
+  {
+   "number": 6,
+   "title": "Hades and Najasah",
+   "titleNative": "Hades ve Necaset",
+   "topicId": "c1-hades-necaset",
+   "items": [
+    {
+     "tr": "Abdestsiz olmak küçük hadestir.",
+     "en": "Being without ablution is a minor ritual impurity (küçük hades)."
+    },
+    {
+     "tr": "Gusül gerektiren durum büyük hadestir.",
+     "en": "A state requiring a ritual bath is a major ritual impurity (büyük hades)."
+    },
+    {
+     "tr": "Necaset, elbise veya bedende bulunan maddi bir kirliliktir.",
+     "en": "Najasah (necaset) is a physical impurity present on clothing or the body."
+    },
+    {
+     "tr": "Hadesten temizlenmek için abdest veya gusül gerekir, necasetten temizlenmek için ise yıkamak yeterlidir.",
+     "en": "Purifying from hades requires ablution or a ritual bath, while purifying from najasah simply requires washing."
+    }
+   ]
+  },
+  {
+   "number": 7,
+   "title": "The Pillars of Wudu",
+   "titleNative": "Abdestin Farzları",
+   "topicId": "c1-abdest-farz",
+   "items": [
+    {
+     "tr": "Abdestin dört farzından biri yüzü yıkamaktır.",
+     "en": "One of the four obligatory acts of wudu is washing the face."
+    },
+    {
+     "tr": "Kolları dirseklerle birlikte yıkamak abdestin farzıdır.",
+     "en": "Washing the arms including the elbows is an obligatory act of wudu."
+    },
+    {
+     "tr": "Başın dörtte birini meshetmek Hanefi mezhebinde farzdır.",
+     "en": "Wiping a quarter of the head is obligatory in the Hanafi school."
+    },
+    {
+     "tr": "Ayakları topuklarla birlikte yıkamak abdestin son farzıdır.",
+     "en": "Washing the feet including the ankles is the last obligatory act of wudu."
+    }
+   ]
+  },
+  {
+   "number": 8,
+   "title": "Things That Nullify Wudu",
+   "titleNative": "Abdesti Bozan Şeyler",
+   "topicId": "c1-abdest-bozan",
+   "items": [
+    {
+     "tr": "Tuvalet ihtiyacını gidermek abdesti bozar.",
+     "en": "Relieving oneself nullifies the wudu."
+    },
+    {
+     "tr": "Bilinçli olarak yüksek sesle gülmek namaz içinde abdesti de bozar.",
+     "en": "Deliberately laughing out loud during prayer also nullifies one's wudu."
+    },
+    {
+     "tr": "Kan veya irin gibi bir sıvının akıp yayılması abdesti bozar.",
+     "en": "Blood or pus flowing and spreading nullifies wudu."
+    },
+    {
+     "tr": "Derin uyku, abdesti bozan durumlardan biridir.",
+     "en": "Deep sleep is one of the things that nullifies wudu."
+    }
+   ]
+  },
+  {
+   "number": 9,
+   "title": "The Obligatory Acts of Ghusl",
+   "titleNative": "Guslün Farzları",
+   "topicId": "c1-gusul-farz",
+   "items": [
+    {
+     "tr": "Cünüplükten temizlenmek için gusül abdesti almak gerekir.",
+     "en": "One must perform ghusl to be purified from a state of major ritual impurity."
+    },
+    {
+     "tr": "Ağzı ve burnu suyla yıkamak guslün farzlarındandır.",
+     "en": "Rinsing the mouth and nose with water is among the obligatory acts of ghusl."
+    },
+    {
+     "tr": "Tüm bedeni suyla kaplamak guslün en temel farzıdır.",
+     "en": "Covering the entire body with water is the most fundamental obligatory act of ghusl."
+    },
+    {
+     "tr": "Cuma günü gusül almak müstehaptır, farz değildir.",
+     "en": "Performing ghusl on Friday is recommended, not obligatory."
+    }
+   ]
+  },
+  {
+   "number": 10,
+   "title": "Tayammum",
+   "titleNative": "Teyemmüm",
+   "topicId": "c1-teyemmum",
+   "items": [
+    {
+     "tr": "Su bulunmadığında teyemmüm ile abdest yerine geçilir.",
+     "en": "When water is unavailable, tayammum takes the place of ablution."
+    },
+    {
+     "tr": "Teyemmüm için temiz toprak veya toprak cinsinden bir madde gerekir.",
+     "en": "Tayammum requires clean earth or a substance from the earth."
+    },
+    {
+     "tr": "Ellerini yere vurup yüzünü ve kollarını meshetmek teyemmümün farzlarıdır.",
+     "en": "Striking the hands on the earth and wiping the face and arms are the obligatory acts of tayammum."
+    },
+    {
+     "tr": "Hastalık nedeniyle suyun zarar vereceği durumlarda da teyemmüm caizdir.",
+     "en": "Tayammum is also permissible when water would cause harm due to illness."
+    }
+   ]
+  },
+  {
+   "number": 11,
+   "title": "Types of Najasah",
+   "titleNative": "Necasetin Çeşitleri: Galiza ve Hafife",
+   "topicId": "c1-necaset-cesit",
+   "items": [
+    {
+     "tr": "Domuz eti ve kan gibi maddeler necaset-i galizadır.",
+     "en": "Substances like pork and blood are considered heavy impurity (necaset-i galiza)."
+    },
+    {
+     "tr": "At gibi etinin yenmesi helal olmayan bazı hayvanların idrarı necaset-i hafifedir.",
+     "en": "The urine of certain animals whose meat is not permissible to eat, like the horse, is considered light impurity (necaset-i hafife)."
+    },
+    {
+     "tr": "Necaset-i galiza, elbisenin belirli bir ölçüden fazlasına bulaşırsa namazı geçersiz kılar.",
+     "en": "If heavy impurity contaminates more than a certain amount of clothing, it invalidates the prayer."
+    },
+    {
+     "tr": "Necaset-i hafife için daha geniş bir tolerans miktarı kabul edilmiştir.",
+     "en": "A wider tolerance amount is accepted for light impurity."
+    }
+   ]
+  },
+  {
+   "number": 12,
+   "title": "Wiping Over Leather Socks",
+   "titleNative": "Mestler Üzerine Mesh",
+   "topicId": "c1-mesh-huffeyn",
+   "items": [
+    {
+     "tr": "Abdestli iken giyilen mestler üzerine mesh çekmek caizdir.",
+     "en": "It is permissible to wipe over leather socks that were put on while in a state of ablution."
+    },
+    {
+     "tr": "Mukim bir kişi mest üzerine bir gün bir gece mesh çekebilir.",
+     "en": "A resident person may wipe over leather socks for one day and one night."
+    },
+    {
+     "tr": "Yolcu için bu süre üç gün üç geceye uzar.",
+     "en": "For a traveler, this period extends to three days and three nights."
+    },
+    {
+     "tr": "Mestler yırtılıp ayağın çoğu görünür hale gelirse mesh geçersiz olur.",
+     "en": "If the leather socks tear and most of the foot becomes visible, the wiping becomes invalid."
+    }
+   ]
+  },
+  {
+   "number": 13,
+   "title": "The Five Prayer Times",
+   "titleNative": "Namaz Vakitleri",
+   "topicId": "c1-namaz-vakit",
+   "items": [
+    {
+     "tr": "Sabah namazının vakti tan yerinin ağarmasıyla başlar.",
+     "en": "The time for the morning prayer begins with the appearance of dawn."
+    },
+    {
+     "tr": "Öğle namazı, güneş tepe noktasını geçtikten sonra kılınır.",
+     "en": "The noon prayer is performed after the sun passes its zenith."
+    },
+    {
+     "tr": "İkindi namazının vakti, gölgenin belirli bir uzunluğa ulaşmasıyla girer.",
+     "en": "The time for the afternoon prayer begins when a shadow reaches a certain length."
+    },
+    {
+     "tr": "Yatsı namazının vakti, şafak kararmasından itibaren başlar.",
+     "en": "The time for the night prayer begins from the disappearance of twilight."
+    }
+   ]
+  },
+  {
+   "number": 14,
+   "title": "The External Conditions of Prayer",
+   "titleNative": "Namazın Şartları",
+   "topicId": "c1-namaz-sart",
+   "items": [
+    {
+     "tr": "Namaz kılmadan önce hem beden hem elbise necasetten temiz olmalıdır.",
+     "en": "Before praying, both the body and clothing must be free of impurity."
+    },
+    {
+     "tr": "Kıbleye yönelmek namazın şartlarından biridir.",
+     "en": "Facing the qibla is one of the conditions of prayer."
+    },
+    {
+     "tr": "Avret yerini örtmek namazın geçerliliği için şarttır.",
+     "en": "Covering the awrah (parts of the body that must be covered) is a condition for the prayer's validity."
+    },
+    {
+     "tr": "Namaza niyet etmek de namazın şartlarındandır.",
+     "en": "Making the intention (niyyah) for prayer is also one of its conditions."
+    }
+   ]
+  },
+  {
+   "number": 15,
+   "title": "The Pillars of Prayer",
+   "titleNative": "Namazın Rükünleri (Farzları)",
+   "topicId": "c1-namaz-rukun",
+   "items": [
+    {
+     "tr": "İftitah tekbiri almak namazın rükünlerinden biridir.",
+     "en": "Saying the opening takbir is one of the pillars of prayer."
+    },
+    {
+     "tr": "Kıyamda, yani ayakta durarak namaza başlamak rükündür.",
+     "en": "Standing upright (qiyam) at the start of the prayer is a pillar."
+    },
+    {
+     "tr": "Rükûya varmak ve secdeye kapanmak namazın temel rükünlerindendir.",
+     "en": "Bowing (ruku) and prostrating (sujud) are among the fundamental pillars of prayer."
+    },
+    {
+     "tr": "Namazı selam vererek bitirmek de bir rükün sayılır.",
+     "en": "Ending the prayer with the salam (taslim) is also considered a pillar."
+    }
+   ]
+  },
+  {
+   "number": 16,
+   "title": "The Obligatory Acts Within Prayer",
+   "titleNative": "Namazın Vacipleri",
+   "topicId": "c1-namaz-vacip",
+   "items": [
+    {
+     "tr": "Fatiha suresini her rekatta okumak namazın vaciplerindendir.",
+     "en": "Reciting Surah al-Fatiha in every rak'ah is among the obligatory acts of prayer."
+    },
+    {
+     "tr": "İlk oturuşta (ka'de-i ûlâ) teşehhüd okumak vaciptir.",
+     "en": "Reciting the tashahhud in the first sitting is obligatory."
+    },
+    {
+     "tr": "Namazı sesli okunması gereken vakitte sessiz kılmak vacibin terkine yol açar.",
+     "en": "Praying silently at a time when recitation should be audible leads to the omission of a vacip."
+    },
+    {
+     "tr": "Vacip bir unsur unutulursa secde-i sehiv ile telafi edilir.",
+     "en": "If an obligatory element is forgotten, it is compensated for with the prostration of forgetfulness."
+    }
+   ]
+  },
+  {
+   "number": 17,
+   "title": "The Sunnahs Within Prayer",
+   "titleNative": "Namazın Sünnetleri",
+   "topicId": "c1-namaz-sunnet",
+   "items": [
+    {
+     "tr": "Namaza başlarken elleri kaldırmak namazın sünnetlerindendir.",
+     "en": "Raising the hands at the start of prayer is among the sunnahs of prayer."
+    },
+    {
+     "tr": "Rükûdan doğrulurken 'Semi'allahu limen hamideh' demek sünnettir.",
+     "en": "Saying 'Sami'allahu liman hamidah' when rising from bowing is a sunnah."
+    },
+    {
+     "tr": "Secdede üç kez tespih getirmek namazın sünnetlerindendir.",
+     "en": "Reciting the tasbih three times during prostration is among the sunnahs of prayer."
+    },
+    {
+     "tr": "Namazın sünnetlerini terk etmek namazı bozmaz ama sevabı eksiltir.",
+     "en": "Omitting the sunnahs of prayer does not invalidate it, but reduces its reward."
+    }
+   ]
+  },
+  {
+   "number": 18,
+   "title": "The Prostration of Forgetfulness",
+   "titleNative": "Secde-i Sehiv",
+   "topicId": "c1-secde-sehiv",
+   "items": [
+    {
+     "tr": "Namazda bir vacip unutulduğunda secde-i sehiv yapılır.",
+     "en": "When an obligatory act is forgotten in prayer, the prostration of forgetfulness is performed."
+    },
+    {
+     "tr": "Secde-i sehiv, son oturuşta selam verilmeden önce iki secde şeklinde yapılır.",
+     "en": "The prostration of forgetfulness is performed as two prostrations before the final salam."
+    },
+    {
+     "tr": "Bir rükün tamamen unutulursa secde-i sehiv yeterli olmaz, o rekat yeniden kılınmalıdır.",
+     "en": "If an entire pillar is forgotten, the prostration of forgetfulness is not sufficient; that rak'ah must be repeated."
+    },
+    {
+     "tr": "Secde-i sehiv yapmak, namazın vaciplerinden birinin sehven terk edilmesinin telafisidir.",
+     "en": "Performing the prostration of forgetfulness compensates for the unintentional omission of one of the obligatory acts."
+    }
+   ]
+  },
+  {
+   "number": 19,
+   "title": "Congregational Prayer Terminology",
+   "titleNative": "Cemaatle Namaz Terimleri",
+   "topicId": "c1-cemaat",
+   "items": [
+    {
+     "tr": "Cemaate namaz kıldıran kişiye imam denir.",
+     "en": "The person who leads the congregation in prayer is called the imam."
+    },
+    {
+     "tr": "İmama uyan kişiye muktedi denir.",
+     "en": "The person who follows the imam is called the follower (muktedi)."
+    },
+    {
+     "tr": "İmama namaz içinde sonradan yetişen kişiye müdrik denir.",
+     "en": "A person who catches up with the imam partway through the prayer is called mudrik."
+    },
+    {
+     "tr": "Namazın bir kısmını kaçıran kişi, imam selam verdikten sonra eksik kalan rekatları kendisi tamamlar.",
+     "en": "A person who missed part of the prayer completes the remaining rak'ahs by himself after the imam gives the salam."
+    }
+   ]
+  },
+  {
+   "number": 20,
+   "title": "The Conditions of Friday Prayer",
+   "titleNative": "Cuma Namazının Şartları",
+   "topicId": "c1-cuma-sart",
+   "items": [
+    {
+     "tr": "Cuma namazının sahih olması için belirli sayıda cemaat gerekir.",
+     "en": "A certain number of congregants is required for the Friday prayer to be valid."
+    },
+    {
+     "tr": "Cuma namazı ancak şehir veya büyük yerleşim yerlerinde farz olur.",
+     "en": "The Friday prayer becomes obligatory only in a city or large settlement."
+    },
+    {
+     "tr": "Hutbe okumak Cuma namazının şartlarından biridir.",
+     "en": "Delivering the sermon (khutbah) is one of the conditions of the Friday prayer."
+    },
+    {
+     "tr": "Cuma namazı öğle namazının yerine geçer ve iki rekat olarak kılınır.",
+     "en": "The Friday prayer replaces the noon prayer and is performed as two rak'ahs."
+    }
+   ]
+  },
+  {
+   "number": 21,
+   "title": "Eid, Tarawih, and Witr Prayers",
+   "titleNative": "Bayram, Teravih ve Vitir Namazları",
+   "topicId": "c1-bayram-teravih-vitir",
+   "items": [
+    {
+     "tr": "Bayram namazı yılda iki kez, ramazan ve kurban bayramlarında kılınır.",
+     "en": "The Eid prayer is performed twice a year, on Ramadan and Sacrifice feasts."
+    },
+    {
+     "tr": "Teravih namazı yalnızca Ramazan ayına özgü bir namazdır.",
+     "en": "The Tarawih prayer is a prayer specific only to the month of Ramadan."
+    },
+    {
+     "tr": "Vitir namazı yatsı namazından sonra kılınan tek rekatlı bir vaciptir.",
+     "en": "The witr prayer is an obligatory prayer of an odd number of rak'ahs performed after the night prayer."
+    },
+    {
+     "tr": "Bayram namazında ilave tekbirler getirilir.",
+     "en": "Additional takbirs are recited during the Eid prayer."
+    }
+   ]
+  },
+  {
+   "number": 22,
+   "title": "Types of Fasting",
+   "titleNative": "Oruç Çeşitleri",
+   "topicId": "c1-oruc-cesit",
+   "items": [
+    {
+     "tr": "Ramazan orucu her Müslümana farzdır.",
+     "en": "The Ramadan fast is obligatory for every Muslim."
+    },
+    {
+     "tr": "Adanmış bir orucu tutmak vaciptir.",
+     "en": "Fulfilling a vowed fast is necessary (vacip)."
+    },
+    {
+     "tr": "Pazartesi ve perşembe günleri oruç tutmak nafile sayılır.",
+     "en": "Fasting on Mondays and Thursdays is considered a voluntary (nafile) fast."
+    },
+    {
+     "tr": "Yemin bozma keffareti olarak tutulan oruç, keffaret orucudur.",
+     "en": "A fast kept as an expiation for breaking an oath is an expiation fast (keffaret)."
+    }
+   ]
+  },
+  {
+   "number": 23,
+   "title": "Things That Break the Fast",
+   "titleNative": "Orucu Bozan ve Bozmayan Şeyler",
+   "topicId": "c1-oruc-bozan",
+   "items": [
+    {
+     "tr": "Bilerek yemek yemek orucu bozar.",
+     "en": "Deliberately eating breaks the fast."
+    },
+    {
+     "tr": "Unutarak yemek yiyen kişinin orucu bozulmaz.",
+     "en": "The fast of a person who eats forgetfully is not broken."
+    },
+    {
+     "tr": "Kasten kusmak orucu bozan durumlardandır.",
+     "en": "Deliberately inducing vomiting is among the things that break the fast."
+    },
+    {
+     "tr": "Diş fırçalamak veya tükürüğü yutmak orucu bozmaz.",
+     "en": "Brushing one's teeth or swallowing saliva does not break the fast."
+    }
+   ]
+  },
+  {
+   "number": 24,
+   "title": "Suhur, Iftar, and Imsak",
+   "titleNative": "Sahur, İftar ve İmsak",
+   "topicId": "c1-sahur-iftar",
+   "items": [
+    {
+     "tr": "Sahur yemeği, oruca başlamadan önce gece yenilen yemektir.",
+     "en": "The suhur meal is the meal eaten at night before beginning the fast."
+    },
+    {
+     "tr": "İftar, güneş battıktan sonra orucu açma vaktidir.",
+     "en": "Iftar is the time to break the fast after the sun has set."
+    },
+    {
+     "tr": "İmsak vakti, sahur yemeğinin bitmesi ve orucun başlaması gereken andır.",
+     "en": "The time of imsak is the moment when the suhur meal must end and the fast must begin."
+    },
+    {
+     "tr": "Sahur yemeği yemek müstehap bir sünnettir.",
+     "en": "Eating the suhur meal is a recommended sunnah."
+    }
+   ]
+  },
+  {
+   "number": 25,
+   "title": "Fidyah and Kaffarah for Fasting",
+   "titleNative": "Fidye ve Kefaret-i Sıyam",
+   "topicId": "c1-fidye-kefaret",
+   "items": [
+    {
+     "tr": "Yaşlılık nedeniyle oruç tutamayan kişi her gün için fidye öder.",
+     "en": "A person who cannot fast due to old age pays fidyah for each day."
+    },
+    {
+     "tr": "Fidye, bir günlük oruç yerine bir fakiri doyurmaktır.",
+     "en": "Fidyah is feeding a poor person in place of one day's fast."
+    },
+    {
+     "tr": "Ramazan orucunu kasten bozan kişiye kefaret gerekir.",
+     "en": "A person who deliberately breaks the Ramadan fast must pay kaffarah."
+    },
+    {
+     "tr": "Kefaret, art arda altmış gün oruç tutmak veya altmış fakiri doyurmaktır.",
+     "en": "Kaffarah is fasting sixty consecutive days or feeding sixty poor people."
+    }
+   ]
+  },
+  {
+   "number": 26,
+   "title": "Itikaf",
+   "titleNative": "İtikaf",
+   "topicId": "c1-itikaf",
+   "items": [
+    {
+     "tr": "İtikaf, camide ibadet amacıyla belirli bir süre kalmaktır.",
+     "en": "Itikaf is remaining in the mosque for a certain period for the purpose of worship."
+    },
+    {
+     "tr": "Ramazanın son on gününde itikafa girmek sünnet-i müekkededir.",
+     "en": "Entering itikaf during the last ten days of Ramadan is an emphasized sunnah."
+    },
+    {
+     "tr": "İtikafa giren kişi zorunlu olmadıkça camiden çıkamaz.",
+     "en": "A person in itikaf cannot leave the mosque unless it is necessary."
+    },
+    {
+     "tr": "Nafile itikaf, sadece niyet ile en kısa sürede bile yapılabilir.",
+     "en": "Voluntary itikaf can be performed for even a very short time simply with intention."
+    }
+   ]
+  },
+  {
+   "number": 27,
+   "title": "The Conditions of Zakat: Nisab and Hawl",
+   "titleNative": "Zekatın Şartları: Nisab ve Havelan-ı Havl",
+   "topicId": "c1-zekat-sart",
+   "items": [
+    {
+     "tr": "Zekatın farz olması için malın nisab miktarına ulaşması gerekir.",
+     "en": "For zakat to become obligatory, wealth must reach the nisab threshold."
+    },
+    {
+     "tr": "Nisap miktarına ulaşan mal üzerinden bir yıl geçmesi gerekir.",
+     "en": "A full year must pass over wealth that has reached the nisab amount."
+    },
+    {
+     "tr": "Bu bir yıllık süreye havelan-ı havl denir.",
+     "en": "This one-year period is called hawl."
+    },
+    {
+     "tr": "Borcu olan bir kişinin zekat hesaplaması borcunu düştükten sonra yapılır.",
+     "en": "A person with debt calculates zakat after subtracting the debt."
+    }
+   ]
+  },
+  {
+   "number": 28,
+   "title": "Types of Zakatable Wealth",
+   "titleNative": "Zekat Verilecek Mal Çeşitleri",
+   "topicId": "c1-zekat-mal",
+   "items": [
+    {
+     "tr": "Altın ve gümüş gibi nakit değerindeki mallar zekata tabidir.",
+     "en": "Wealth in the form of cash-like assets such as gold and silver is subject to zakat."
+    },
+    {
+     "tr": "Ticaret amacıyla elde tutulan mallar da zekata dahildir.",
+     "en": "Goods held for trade are also included in zakat."
+    },
+    {
+     "tr": "Sağma ve otlayan hayvanlar belirli bir sayıya ulaştığında zekata tabidir.",
+     "en": "Grazing and milk-producing livestock become subject to zakat once they reach a certain number."
+    },
+    {
+     "tr": "Toprak ürünlerinden alınan zekata öşür denir.",
+     "en": "The zakat taken from agricultural produce is called öşür."
+    }
+   ]
+  },
+  {
+   "number": 29,
+   "title": "The Eight Categories of Zakat Recipients",
+   "titleNative": "Zekat Verilecek Sekiz Sınıf (Asnaf-ı Semaniye)",
+   "topicId": "c1-zekat-sinif",
+   "items": [
+    {
+     "tr": "Fakirler ve miskinler zekat verilecek sekiz sınıfın ilk ikisidir.",
+     "en": "The poor and the destitute are the first two of the eight categories of zakat recipients."
+    },
+    {
+     "tr": "Borçlular, borcunu ödeyemeyen kişiler olarak zekattan pay alabilir.",
+     "en": "Debtors, people unable to pay off their debt, can receive a share of zakat."
+    },
+    {
+     "tr": "Yolda kalmış kişiler (ibnü's-sebil) de zekat verilecek sınıflar arasındadır.",
+     "en": "Stranded travelers (ibn al-sabil) are also among the categories eligible for zakat."
+    },
+    {
+     "tr": "Allah yolunda çalışanlar da zekattan faydalanabilecek gruplardan biridir.",
+     "en": "Those striving in the cause of Allah are also one of the groups that can benefit from zakat."
+    }
+   ]
+  },
+  {
+   "number": 30,
+   "title": "Sadaqah al-Fitr",
+   "titleNative": "Sadaka-i Fıtr",
+   "topicId": "c1-sadaka-fitr",
+   "items": [
+    {
+     "tr": "Sadaka-i fıtr, Ramazan bayramından önce verilmesi gereken bir vaciptir.",
+     "en": "Sadaqah al-fitr is a necessary charity that must be given before the Ramadan feast."
+    },
+    {
+     "tr": "Sadaka-i fıtr, bir kişinin temel gıda ihtiyacı karşılığında verilen miktardır.",
+     "en": "Sadaqah al-fitr is the amount given corresponding to a person's basic food need."
+    },
+    {
+     "tr": "Aile reisi, bakmakla yükümlü olduğu herkes için fıtır sadakası verir.",
+     "en": "The head of the household gives fitr charity on behalf of everyone they are responsible for supporting."
+    },
+    {
+     "tr": "Fıtır sadakasının bayram namazından önce verilmesi müstehaptır.",
+     "en": "It is recommended to give the fitr charity before the Eid prayer."
+    }
+   ]
+  },
+  {
+   "number": 31,
+   "title": "Ushr and Kharaj",
+   "titleNative": "Öşür ve Harac",
+   "topicId": "c1-osur-harac",
+   "items": [
+    {
+     "tr": "Yağmur suyuyla sulanan topraklardan onda bir oranında öşür alınır.",
+     "en": "One-tenth (öşür) is taken from land irrigated by rainwater."
+    },
+    {
+     "tr": "Suni yollarla sulanan topraklardan ise yirmide bir oranında öşür alınır.",
+     "en": "One-twentieth is taken as öşür from land irrigated by artificial means."
+    },
+    {
+     "tr": "Harac, gayrimüslim toprak sahiplerinden alınan bir vergi türüdür.",
+     "en": "Kharaj is a type of tax taken from non-Muslim landowners."
+    },
+    {
+     "tr": "Öşür, tıpkı zekat gibi belirli bir sosyal amaca hizmet eder.",
+     "en": "Öşür, like zakat, serves a specific social purpose."
+    }
+   ]
+  },
+  {
+   "number": 32,
+   "title": "The Pillars of Hajj",
+   "titleNative": "Haccın Farzları",
+   "topicId": "c1-hac-farz",
+   "items": [
+    {
+     "tr": "İhrama girmek haccın farzlarından biridir.",
+     "en": "Entering the state of ihram is one of the pillars of Hajj."
+    },
+    {
+     "tr": "Arafat'ta vakfe yapmak haccın en önemli rüknüdür.",
+     "en": "Standing at Arafat (vakfe) is the most important pillar of Hajj."
+    },
+    {
+     "tr": "Ziyaret tavafı yapmadan hac tamamlanmış sayılmaz.",
+     "en": "Hajj is not considered complete without performing the tawaf al-ziyarah."
+    },
+    {
+     "tr": "Arafat vakfesini kaçıran kişinin haccı geçersiz sayılır.",
+     "en": "A person who misses the standing at Arafat has an invalid Hajj."
+    }
+   ]
+  },
+  {
+   "number": 33,
+   "title": "The Necessary Acts of Hajj",
+   "titleNative": "Haccın Vacipleri",
+   "topicId": "c1-hac-vacip",
+   "items": [
+    {
+     "tr": "Müzdelife'de vakfe yapmak haccın vaciplerindendir.",
+     "en": "Standing at Muzdalifah is among the necessary acts of Hajj."
+    },
+    {
+     "tr": "Şeytan taşlamak haccın vacip fiillerinden biridir.",
+     "en": "Stoning the pillars (jamarat) is one of the necessary acts of Hajj."
+    },
+    {
+     "tr": "Sa'y yapmak, yani Safa ile Merve arasında yürümek vaciptir.",
+     "en": "Performing sa'y, walking between Safa and Marwah, is necessary."
+    },
+    {
+     "tr": "Haccın vaciplerinden biri terk edilirse ceza kurbanı (dem) gerekir.",
+     "en": "If one of the necessary acts of Hajj is omitted, a penalty sacrifice (dam) is required."
+    }
+   ]
+  },
+  {
+   "number": 34,
+   "title": "The Prohibitions of Ihram",
+   "titleNative": "İhram Yasakları",
+   "topicId": "c1-ihram-yasak",
+   "items": [
+    {
+     "tr": "İhramlı kişinin dikişli elbise giymesi yasaktır.",
+     "en": "It is forbidden for a person in ihram to wear stitched clothing."
+    },
+    {
+     "tr": "İhramda iken saç veya tırnak kesmek yasaktır.",
+     "en": "Cutting hair or nails while in ihram is forbidden."
+    },
+    {
+     "tr": "İhramlı kişi koku sürünemez.",
+     "en": "A person in ihram may not use perfume."
+    },
+    {
+     "tr": "İhram halinde avlanmak kesinlikle yasaktır.",
+     "en": "Hunting while in the state of ihram is strictly forbidden."
+    }
+   ]
+  },
+  {
+   "number": 35,
+   "title": "Types of Tawaf",
+   "titleNative": "Tavaf Çeşitleri",
+   "topicId": "c1-tavaf-cesit",
+   "items": [
+    {
+     "tr": "Kudüm tavafı, Mekke'ye yeni varan kişinin yaptığı karşılama tavafıdır.",
+     "en": "The tawaf al-qudum is the arrival circumambulation performed by someone newly arriving in Mecca."
+    },
+    {
+     "tr": "Ziyaret tavafı haccın farzlarından biridir.",
+     "en": "The tawaf al-ziyarah is one of the pillars of Hajj."
+    },
+    {
+     "tr": "Veda tavafı, Mekke'den ayrılmadan önce yapılan son tavaftır.",
+     "en": "The farewell tawaf (tawaf al-wada) is the final circumambulation performed before leaving Mecca."
+    },
+    {
+     "tr": "Umre tavafı, umre ibadetinin en temel rüknüdür.",
+     "en": "The tawaf of Umrah is the most fundamental pillar of the Umrah ritual."
+    }
+   ]
+  },
+  {
+   "number": 36,
+   "title": "Sa'y, Stoning, and the Sacrifice",
+   "titleNative": "Sa'y, Şeytan Taşlama ve Kurban (Hedy)",
+   "topicId": "c1-say-tasi-kurban",
+   "items": [
+    {
+     "tr": "Sa'y, Safa tepesinden Merve tepesine yedi kez gidip gelmektir.",
+     "en": "Sa'y is going back and forth seven times between the hills of Safa and Marwah."
+    },
+    {
+     "tr": "Şeytan taşlama, Mina'da bulunan üç sütuna belirli günlerde taş atmaktır.",
+     "en": "Stoning the devil is throwing pebbles at three pillars in Mina on specific days."
+    },
+    {
+     "tr": "Hac sırasında kesilen kurbana hedy denir.",
+     "en": "The sacrifice offered during Hajj is called hedy."
+    },
+    {
+     "tr": "Temettu ve kıran haccı yapanlara hedy kurbanı kesmek gerekir.",
+     "en": "Those performing tamattu' or qiran Hajj are required to offer the hedy sacrifice."
+    }
+   ]
+  },
+  {
+   "number": 37,
+   "title": "Umrah Terminology",
+   "titleNative": "Umre Terimleri",
+   "topicId": "c1-umre",
+   "items": [
+    {
+     "tr": "Umre, hac gibi belirli bir vakte bağlı olmayan bir ziyaret ibadetidir.",
+     "en": "Umrah is a visitation ritual that, unlike Hajj, is not tied to a specific time."
+    },
+    {
+     "tr": "Umreye niyet edip ihrama girmek umrenin ilk adımıdır.",
+     "en": "Making the intention for Umrah and entering ihram is the first step of Umrah."
+    },
+    {
+     "tr": "Umre tavafından sonra sa'y yapmak gerekir.",
+     "en": "After the tawaf of Umrah, performing sa'y is required."
+    },
+    {
+     "tr": "Saçları tıraş etmek veya kısaltmak ile umre tamamlanmış olur.",
+     "en": "Umrah is completed by shaving or trimming the hair."
+    }
+   ]
+  },
+  {
+   "number": 38,
+   "title": "The Pillars and Conditions of Marriage",
+   "titleNative": "Nikahın Rükün ve Şartları",
+   "topicId": "c1-nikah-rukun",
+   "items": [
+    {
+     "tr": "Nikahın rüknü, icap ve kabul denen karşılıklı sözlü anlaşmadır.",
+     "en": "The pillar of marriage is the mutual verbal agreement called offer (ijab) and acceptance (qabul)."
+    },
+    {
+     "tr": "Nikahta iki şahit bulunması şarttır.",
+     "en": "The presence of two witnesses is a condition for marriage."
+    },
+    {
+     "tr": "Evlenecek kişilerin birbirine nikah düşecek derecede yakın akraba olmaması gerekir.",
+     "en": "The people getting married must not be closely related to a degree that prohibits marriage."
+    },
+    {
+     "tr": "Nikah akdi, tarafların rızasıyla gerçekleşen bir sözleşmedir.",
+     "en": "The marriage contract is an agreement made with the consent of both parties."
+    }
+   ]
+  },
+  {
+   "number": 39,
+   "title": "Mahr and Nafaqah",
+   "titleNative": "Mehir ve Nafaka",
+   "topicId": "c1-mehir-nafaka",
+   "items": [
+    {
+     "tr": "Mehir, erkeğin evlenirken kadına vermesi gereken maldır.",
+     "en": "Mahr is the property a man is required to give the woman upon marriage."
+    },
+    {
+     "tr": "Mehir miktarı, tarafların anlaşmasıyla belirlenir.",
+     "en": "The amount of mahr is determined by the agreement of the parties."
+    },
+    {
+     "tr": "Nafaka, kocanın eşinin geçimini sağlamakla yükümlü olduğu maldır.",
+     "en": "Nafaqah is the property a husband is obligated to provide for his wife's livelihood."
+    },
+    {
+     "tr": "Boşanma sonrası iddet süresince de nafaka devam eder.",
+     "en": "Nafaqah continues during the waiting period (iddah) even after divorce."
+    }
+   ]
+  },
+  {
+   "number": 40,
+   "title": "Types of Divorce",
+   "titleNative": "Talak Çeşitleri: Ric'i ve Bain",
+   "topicId": "c1-talak-cesit",
+   "items": [
+    {
+     "tr": "Ric'i talak, kocanın iddet süresi içinde eşine dönebildiği boşanma türüdür.",
+     "en": "Revocable divorce (ric'i talak) is a type of divorce in which the husband can return to his wife during the waiting period."
+    },
+    {
+     "tr": "Bain talak, yeni bir nikah akdi yapılmadan eşe dönülemeyen boşanma türüdür.",
+     "en": "Irrevocable divorce (bain talak) is a type of divorce in which the spouse cannot be returned to without a new marriage contract."
+    },
+    {
+     "tr": "Üç kez talak verilen kadına dönmek için başka biriyle evlenip boşanması gerekir.",
+     "en": "For a woman divorced three times, remarriage to her former husband requires her to first marry and be divorced by another man."
+    },
+    {
+     "tr": "İddet süresi dolmadan yapılan dönüş, sözle bile olsa geçerlidir.",
+     "en": "A return made before the waiting period ends is valid even if made only verbally."
+    }
+   ]
+  },
+  {
+   "number": 41,
+   "title": "The Waiting Period",
+   "titleNative": "İddet",
+   "topicId": "c1-iddet",
+   "items": [
+    {
+     "tr": "İddet, boşanan veya eşi vefat eden kadının beklemesi gereken süredir.",
+     "en": "The iddah is the waiting period a divorced or widowed woman must observe."
+    },
+    {
+     "tr": "Boşanmış kadının iddeti üç ay hali (üç adet dönemi) sürer.",
+     "en": "The iddah of a divorced woman lasts three menstrual cycles."
+    },
+    {
+     "tr": "Hamile bir kadının iddeti doğum yapmasıyla sona erer.",
+     "en": "The iddah of a pregnant woman ends when she gives birth."
+    },
+    {
+     "tr": "Eşi vefat eden kadının iddeti dört ay on gündür.",
+     "en": "The iddah of a widow is four months and ten days."
+    }
+   ]
+  },
+  {
+   "number": 42,
+   "title": "The Six Pillars of Faith",
+   "titleNative": "İmanın Şartları (Altı Esas)",
+   "topicId": "c1-iman-sart",
+   "items": [
+    {
+     "tr": "Allah'a iman etmek imanın ilk şartıdır.",
+     "en": "Believing in Allah is the first pillar of faith."
+    },
+    {
+     "tr": "Meleklere iman etmek imanın şartlarından biridir.",
+     "en": "Believing in the angels is one of the pillars of faith."
+    },
+    {
+     "tr": "Kitaplara ve peygamberlere iman etmek de imanın temel esaslarındandır.",
+     "en": "Believing in the scriptures and the prophets is also among the fundamental pillars of faith."
+    },
+    {
+     "tr": "Kadere, hayrın ve şerrin Allah'tan olduğuna iman etmek imanın son şartıdır.",
+     "en": "Believing in destiny, that both good and evil come from Allah, is the final pillar of faith."
+    }
+   ]
+  },
+  {
+   "number": 43,
+   "title": "The Five Pillars of Islam",
+   "titleNative": "İslam'ın Şartları (Beş Esas)",
+   "topicId": "c1-islam-sart",
+   "items": [
+    {
+     "tr": "Kelime-i şehadet getirmek İslam'ın ilk şartıdır.",
+     "en": "Reciting the declaration of faith is the first pillar of Islam."
+    },
+    {
+     "tr": "Namaz kılmak İslam'ın şartlarından biridir.",
+     "en": "Performing the prayer is one of the pillars of Islam."
+    },
+    {
+     "tr": "Zekat vermek, oruç tutmak ve hacca gitmek de İslam'ın diğer şartlarıdır.",
+     "en": "Giving zakat, fasting, and performing Hajj are also among the other pillars of Islam."
+    },
+    {
+     "tr": "Bu beş esas, bir hadiste İslam'ın temelleri olarak açıklanmıştır.",
+     "en": "These five pillars are explained in a hadith as the foundations of Islam."
+    }
+   ]
+  },
+  {
+   "number": 44,
+   "title": "Types of Tawhid",
+   "titleNative": "Tevhid Çeşitleri",
+   "topicId": "c1-tevhid",
+   "items": [
+    {
+     "tr": "Tevhid-i rububiyet, Allah'ın tek yaratıcı olduğuna inanmaktır.",
+     "en": "Tawhid al-rububiyyah is believing that Allah is the sole creator."
+    },
+    {
+     "tr": "Tevhid-i uluhiyet, yalnızca Allah'a ibadet edilmesi gerektiğine inanmaktır.",
+     "en": "Tawhid al-uluhiyyah is believing that worship must be directed to Allah alone."
+    },
+    {
+     "tr": "Tevhid-i esma ve sıfat, Allah'ın isim ve sıfatlarının benzersizliğine iman etmektir.",
+     "en": "Tawhid al-asma wa'l-sifat is believing in the uniqueness of Allah's names and attributes."
+    },
+    {
+     "tr": "Bu üç tevhid türü birbirini tamamlayan bir bütündür.",
+     "en": "These three types of tawhid form a complementary whole."
+    }
+   ]
+  },
+  {
+   "number": 45,
+   "title": "Shirk, Kufr, and Nifaq",
+   "titleNative": "Şirk, Küfür ve Nifak",
+   "topicId": "c1-sirk-kufur-nifak",
+   "items": [
+    {
+     "tr": "Şirk, Allah'a ortak koşmak anlamına gelir.",
+     "en": "Shirk means associating partners with Allah."
+    },
+    {
+     "tr": "Küfür, İslam'ın kesin bir esasını inkâr etmektir.",
+     "en": "Kufr is denying a definitive tenet of Islam."
+    },
+    {
+     "tr": "Nifak, kalben inanmadığı halde dışarıdan Müslüman gibi görünmektir.",
+     "en": "Nifaq is outwardly appearing Muslim while not believing inwardly."
+    },
+    {
+     "tr": "Bu üç kavram, imanın zıddı veya eksikliği bağlamında ele alınır.",
+     "en": "These three concepts are discussed in the context of the opposite or absence of faith."
+    }
+   ]
+  }
+ ]
+}

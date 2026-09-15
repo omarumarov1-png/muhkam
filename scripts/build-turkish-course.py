@@ -37,15 +37,16 @@ OUT_PATH = ROOT / "data" / "courses-turkish.json"
 
 random.seed(20260903)  # deterministic distractor shuffling across runs
 
-LEVEL_ORDER = ["a2", "b1", "b1plus", "b2", "b2plus", "c1", "c2"]
+LEVEL_ORDER = ["a2", "b1", "b1plus", "b2", "b2plus", "c1", "c1plus", "c2"]
 LEVEL_META = {
     "a2": dict(cefr="A2", label="Building Blocks", labelNative="Temel Yapı Taşları"),
     "b1": dict(cefr="B1", label="Everyday Fluency", labelNative="Günlük Akıcılık"),
     "b1plus": dict(cefr="B1+", label="Expanding Range", labelNative="Genişleyen Kapsam"),
     "b2": dict(cefr="B2", label="Complex Structures", labelNative="Karmaşık Yapılar"),
     "b2plus": dict(cefr="B2+", label="Precision & Nuance", labelNative="Kesinlik ve İnce Ayrım"),
-    "c1": dict(cefr="C1", label="Advanced", labelNative="İleri Düzey"),
-    "c2": dict(cefr="C2", label="Mastery", labelNative="Ustalık"),
+    "c1": dict(cefr="C1", label="Islamic Studies: Worship & Fiqh", labelNative="İbadet ve Fıkıh Terimleri"),
+    "c1plus": dict(cefr="C1+", label="Islamic Studies: Fiqh Methodology & Hadith", labelNative="Fıkıh Usulü ve Hadis Terimleri"),
+    "c2": dict(cefr="C2", label="Islamic Studies: Tasawwuf & Theology", labelNative="Tasavvuf ve Kelam Terimleri"),
 }
 
 STOPWORDS = set("""
