@@ -757,6 +757,7 @@
 
   function refreshTopStats() {
     streakEl.textContent = progress.streak;
+    streakEl.parentElement.classList.toggle("has-streak", progress.streak > 0);
     xpEl.textContent = progress.xp;
     wordsEl.textContent = progress.wordHoard.length;
     mistakesEl.textContent = progress.missedBank.length;

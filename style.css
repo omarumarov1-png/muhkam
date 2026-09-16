@@ -248,6 +248,16 @@ body::before {
   40% { transform: scale(1.015); }
   100% { transform: scale(1); }
 }
+/* Distinct from option-settle -- correct still gets the gentle scale pop,
+   but a wrong answer gets the near-universal "no" shake instead, so right
+   and wrong read as different feelings rather than the same animation in
+   two different colors. */
+@keyframes option-shake {
+  10%, 90% { transform: translateX(-1px); }
+  20%, 80% { transform: translateX(2px); }
+  30%, 50%, 70% { transform: translateX(-4px); }
+  40%, 60% { transform: translateX(4px); }
+}
 @keyframes feedback-in {
   from { opacity: 0; transform: translateY(14px); }
   to { opacity: 1; transform: translateY(0); }
@@ -351,6 +361,20 @@ button.stat {
   padding: 0;
 }
 button.stat:hover { color: var(--teal); }
+/* A held streak gets a small idle flicker on its flame icon instead of
+   sitting dead-still -- only once there's a real streak to show (no
+   flicker on a bare "0"), and only the icon, not the number next to it,
+   so the digit stays perfectly readable. */
+.stat-streak.has-streak svg {
+  transform-origin: 50% 100%;
+  animation: flame-flicker 2.6s ease-in-out infinite;
+}
+@keyframes flame-flicker {
+  0%, 100% { transform: scale(1) rotate(0deg); }
+  25% { transform: scale(1.05, 0.96) rotate(-2deg); }
+  50% { transform: scale(0.97, 1.04) rotate(1deg); }
+  75% { transform: scale(1.03, 0.98) rotate(-1deg); }
+}
 .offline-pill {
   display: flex; align-items: center; gap: 4px; font-family: var(--font-mono); font-size: 0.72rem; font-weight: 700;
   color: var(--gold); background: var(--gold-wash); border: 1px solid var(--gold);
@@ -1060,7 +1084,7 @@ button.stat:hover { color: var(--teal); }
 .option.selected .option-letter { background: var(--maroon); color: var(--paper-raised); }
 .option.correct { border-color: var(--teal); background: var(--teal-wash); box-shadow: 0 2px 0 var(--teal); animation: option-settle 0.3s ease; }
 .option.correct .option-letter { background: var(--teal); color: var(--paper-raised); }
-.option.incorrect { border-color: var(--maroon); background: var(--maroon-wash); box-shadow: 0 2px 0 var(--maroon); animation: option-settle 0.3s ease; }
+.option.incorrect { border-color: var(--maroon); background: var(--maroon-wash); box-shadow: 0 2px 0 var(--maroon); animation: option-shake 0.4s ease; }
 .option.incorrect .option-letter { background: var(--maroon); color: var(--paper-raised); }
 .option:disabled { cursor: default; }
 .option:disabled:not(.correct):not(.incorrect) { opacity: 0.5; }
@@ -1485,9 +1509,20 @@ button.stat:hover { color: var(--teal); }
   justify-content: center;
   padding: 20px;
   z-index: 10;
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.18s ease;
 }
-.modal.hidden { display: none; }
-
+/* visibility (not display:none) so opacity can actually transition -- the
+   0s-duration/0.15s-delay on visibility means it only flips to hidden
+   once the fade-out has finished, so the modal never just vanishes
+   mid-fade, but still leaves the layout/hit-testing/tab-order exactly the
+   way display:none used to (nothing focusable or clickable while hidden). */
+.modal.hidden {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.15s ease, visibility 0s linear 0.15s;
+}
 .modal-card {
   background: var(--paper-raised);
   border: 1px solid var(--line);
@@ -1498,7 +1533,10 @@ button.stat:hover { color: var(--teal); }
   max-height: 70vh;
   display: flex;
   flex-direction: column;
+  transform: scale(1) translateY(0);
+  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
+.modal.hidden .modal-card { transform: scale(0.93) translateY(10px); }
 .modal-card--wide { max-width: 640px; max-height: 78vh; }
 .modal-header {
   display: flex;
