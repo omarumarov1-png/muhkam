@@ -6,6 +6,8 @@
   const DATA_VERSION = "1786269698";
   const MAX_MISSED = 150;
   const REVISION_SIZE = 20;
+  const SRS_MIN_EASE = 1.3;
+  const SRS_DAY_MS = 86400000;
   const ADVANCE_DELAY_CORRECT = 900;
   const ADVANCE_DELAY_WRONG = 2000;
 
@@ -604,9 +606,13 @@
   function loadProgress() {
     try {
       const raw = localStorage.getItem(progressKey());
-      if (raw) return JSON.parse(raw);
+      if (raw) {
+        const parsed = JSON.parse(raw);
+        if (!parsed.srs) parsed.srs = {};
+        return parsed;
+      }
     } catch (e) { /* corrupt storage, fall through to defaults */ }
-    return { xp: 0, streak: 0, lastActiveDate: null, completedLessons: [], missedBank: [], wordHoard: [] };
+    return { xp: 0, streak: 0, lastActiveDate: null, completedLessons: [], missedBank: [], wordHoard: [], srs: {} };
   }
 
   function saveProgress() {
@@ -637,6 +643,23 @@
   // that had gone a while without syncing. Same reasoning as Wird's card
   // merge: keep whichever side represents more actual study investment,
   // never pick a side wholesale.
+  // Per-gid: keep whichever side has reviewed the card more (higher reps),
+  // tie-broken by the later due date -- same "more study investment wins"
+  // reasoning as the other fields here, just applied per-card instead of
+  // to a whole list.
+  function mergeSrs(a, b) {
+    const merged = Object.assign({}, a || {});
+    Object.keys(b || {}).forEach(gid => {
+      const cur = merged[gid];
+      const incoming = b[gid];
+      if (!cur) { merged[gid] = incoming; return; }
+      if (incoming.reps > cur.reps || (incoming.reps === cur.reps && incoming.due > cur.due)) {
+        merged[gid] = incoming;
+      }
+    });
+    return merged;
+  }
+
   function mergeProgress(local, remote) {
     if (!local) return remote;
     if (!remote) return local;
@@ -662,6 +685,7 @@
       missedBank: union(local.missedBank, remote.missedBank).slice(-MAX_MISSED),
       wordHoard: union(local.wordHoard, remote.wordHoard),
       celebratedLevels: union(local.celebratedLevels, remote.celebratedLevels),
+      srs: mergeSrs(local.srs, remote.srs),
     });
   }
 
@@ -1775,12 +1799,36 @@
     return pool;
   }
 
-  // Pools every exercise from already-completed lessons, mixes them together
-  // (not grouped by lesson or topic), and pulls a random shuffled subset.
+  // Spaced-repetition ordering over the revision pool: items never reviewed
+  // yet, or whose SM-2-style `due` date has passed, sort to the front
+  // (most-overdue first); everything not yet due is shuffled behind them.
+  // Practice always draws from this ordering, so the cards genuinely due
+  // for review surface first instead of getting diluted into a uniform
+  // random pick across every completed exercise.
+  function srsOrderedPool(pool) {
+    const now = Date.now();
+    const due = [];
+    const notDue = [];
+    pool.forEach(item => {
+      const s = progress.srs[item.gid];
+      if (!s || s.due <= now) due.push(item); else notDue.push(item);
+    });
+    due.sort((a, b) => {
+      const sa = progress.srs[a.gid], sb = progress.srs[b.gid];
+      return (sa ? sa.due : 0) - (sb ? sb.due : 0);
+    });
+    return due.concat(shuffled(notDue));
+  }
+
+  // Pools every exercise from already-completed lessons and pulls a subset
+  // prioritized by spaced-repetition due date (see srsOrderedPool) — cards
+  // due for review come first, with not-yet-due cards shuffled in behind
+  // them to fill out the session when fewer than REVISION_SIZE are due.
   function startRevision() {
     const pool = revisionPool();
     if (pool.length === 0) return;
-    const picked = shuffled(pool).slice(0, Math.min(REVISION_SIZE, pool.length));
+    const ordered = srsOrderedPool(pool);
+    const picked = ordered.slice(0, Math.min(REVISION_SIZE, ordered.length));
     session = {
       lesson: { id: "__revision__", title: "Practice", titleNative: (course.uiStrings && course.uiStrings.revision) || "" },
       mode: "revision",
@@ -2037,10 +2085,34 @@
     if (btn) btn.addEventListener("click", () => speak(spoken.text, spoken.voice));
   }
 
+  // Simplified SM-2: binary correct/incorrect in place of SM-2's 0-5 quality
+  // score. A correct answer grows the interval (1 day -> 3 days -> interval
+  // * ease from then on, ease nudged up slightly each time); a miss resets
+  // the streak to a 1-day interval and nudges ease down, same as SM-2's
+  // "reset repetitions on a failed recall" rule.
+  function updateSrs(gid, correct) {
+    if (!progress.srs) progress.srs = {};
+    const prev = progress.srs[gid];
+    const reps = prev ? prev.reps : 0;
+    const ease = prev ? prev.ease : 2.5;
+    let nextReps, nextEase, nextInterval;
+    if (correct) {
+      nextReps = reps + 1;
+      nextEase = Math.min(3, ease + 0.1);
+      nextInterval = nextReps === 1 ? 1 : nextReps === 2 ? 3 : Math.round((prev ? prev.interval : 1) * nextEase);
+    } else {
+      nextReps = 0;
+      nextEase = Math.max(SRS_MIN_EASE, ease - 0.2);
+      nextInterval = 1;
+    }
+    progress.srs[gid] = { reps: nextReps, ease: nextEase, interval: nextInterval, due: Date.now() + nextInterval * SRS_DAY_MS };
+  }
+
   function afterAnswer(correct) {
     const ex = currentExercise();
     correct ? playCorrectSound() : playIncorrectSound();
     haptic(correct ? 12 : 35);
+    updateSrs(ex._gid, correct);
     if (correct) {
       session.solved.add(ex._idx);
       session.combo++;
