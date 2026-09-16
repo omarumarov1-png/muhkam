@@ -1513,7 +1513,15 @@
     const list = document.getElementById("hoardList");
     if (progress.wordHoard.length === 0) {
       list.removeAttribute("dir");
-      list.innerHTML = `<p class="hoard-empty">No words collected yet — answer exercises correctly to fill your hoard.</p>`;
+      list.innerHTML = `
+        <div class="hoard-empty">
+          <svg class="hoard-empty-icon" viewBox="0 0 48 48" width="40" height="40" aria-hidden="true">
+            <path d="M40 8c-11 0-25 8-29 23-1.2 4.3 1.6 7.4 5.4 6 15-5.6 23.6-19.6 23.6-29z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+            <path d="M17 29 8 40" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+          </svg>
+          <p>No words collected yet — answer exercises correctly to fill your hoard.</p>
+        </div>
+      `;
       return;
     }
     list.setAttribute("dir", course.dir);

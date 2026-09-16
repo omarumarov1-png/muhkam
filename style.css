@@ -174,6 +174,39 @@ body {
   }
 }
 
+/* Paper-grain wash for the light/dark manuscript themes -- the book theme
+   already had this (see its own body::before further down) but the two
+   default themes didn't, so their --paper fill read as flat, unconsidered
+   color next to book's actual tooth. Same feTurbulence technique, tinted
+   warm-ink for light (multiply, so it reads as dust/fiber on cream) and
+   pale-gold for dark (overlay, so it reads as flecks catching light on a
+   dark ground instead of just muddying it further). Both dark-triggering
+   rules below explicitly exclude data-theme="book" so this never fights
+   with book's own rule regardless of source order or system color scheme. */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.32;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0.16  0 0 0 0 0.13  0 0 0 0 0.09  0 0 0 0.045 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 180px 180px;
+}
+:root[data-theme="dark"] body::before {
+  opacity: 0.38;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0.85  0 0 0 0 0.78  0 0 0 0 0.6  0 0 0 0.05 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]):not([data-theme="book"]) body::before {
+    opacity: 0.38;
+    mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0.85  0 0 0 0 0.78  0 0 0 0 0.6  0 0 0 0.05 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+}
+
 /* Book theme's own corner ornament -- an open flourish/vine curl rather
    than the geometric square-and-circle medallion the manuscript themes
    use, so it reads as "old book endpaper" rather than "illuminated tile".
@@ -449,6 +482,29 @@ button.stat:hover { color: var(--teal); }
 }
 .course-card:hover { border-color: var(--card-accent); transform: translateY(-2px); box-shadow: 0 4px 10px var(--shadow); }
 .course-card:active { transform: translateY(0); box-shadow: 0 1px 0 var(--line); }
+/* A quiet per-course watermark instead of a flat accent swatch -- reuses
+   the same square+rotated-square+circle medallion already used for the
+   chapter-hero/level-progress corner ornaments, so every course card
+   carries a faint echo of that motif in its own accent color rather than
+   just a colored top border. Bottom-left (not bottom-right, where the
+   download button already lives, or top-right, where .active::after's
+   corner triangle lives) so nothing overlaps. mask-image (not a plain
+   background-image) so one SVG works for all six accents/three themes --
+   the visible color comes from `background-color: var(--card-accent)`,
+   not from anything baked into the SVG itself. */
+.course-card::before {
+  content: "";
+  position: absolute;
+  left: -20px; bottom: -20px;
+  width: 92px; height: 92px;
+  background-color: var(--card-accent);
+  opacity: 0.16;
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cg fill='none' stroke='%23000' stroke-width='2.4'%3E%3Crect x='38' y='38' width='64' height='64'/%3E%3Crect x='38' y='38' width='64' height='64' transform='rotate(45 70 70)'/%3E%3Ccircle cx='70' cy='70' r='26'/%3E%3C/g%3E%3C/svg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cg fill='none' stroke='%23000' stroke-width='2.4'%3E%3Crect x='38' y='38' width='64' height='64'/%3E%3Crect x='38' y='38' width='64' height='64' transform='rotate(45 70 70)'/%3E%3Ccircle cx='70' cy='70' r='26'/%3E%3C/g%3E%3C/svg%3E");
+  -webkit-mask-size: contain; mask-size: contain;
+  -webkit-mask-repeat: no-repeat; mask-repeat: no-repeat;
+  pointer-events: none;
+}
 .course-card.active {
   background: var(--card-accent-wash);
   border-color: var(--card-accent);
@@ -1627,10 +1683,18 @@ button.stat:hover { color: var(--teal); }
   padding: 5px 12px;
 }
 .hoard-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
   color: var(--ink-soft);
   font-size: 0.9rem;
+  text-align: center;
   direction: ltr;
+  padding: 20px 10px;
 }
+.hoard-empty-icon { color: var(--teal); opacity: 0.7; }
+.hoard-empty p { margin: 0; max-width: 260px; }
 
 /* ============ Responsive ============ */
 @media (max-width: 640px) {
