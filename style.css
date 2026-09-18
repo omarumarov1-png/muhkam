@@ -163,10 +163,14 @@
   --gold-wash: rgba(184, 146, 62, 0.14);
   --maroon: #c16959;
   --maroon-wash: rgba(193, 105, 89, 0.14);
-  --teal: #559b8b;
-  --teal-wash: rgba(85, 155, 139, 0.14);
-  --indigo: #7383ac;
-  --indigo-wash: rgba(115, 131, 172, 0.14);
+  /* Teal and indigo muted the same way as gold/maroon above (same hue,
+     less saturation, slightly less light) so the whole accent set reads
+     as one consistently-dimmed night palette rather than two tuned
+     colors next to four still-vivid ones. */
+  --teal: #59887d;
+  --teal-wash: rgba(89, 136, 125, 0.14);
+  --indigo: #727e9d;
+  --indigo-wash: rgba(114, 126, 157, 0.14);
   --sage: #82a070;
   --sage-wash: rgba(130, 160, 112, 0.14);
   --rust: #b8764e;
@@ -208,13 +212,15 @@ body {
   --corner-gold: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='480' height='480'%3E%3Cg fill='none' stroke='%23d6ac33' stroke-width='1.4' opacity='0.16'%3E%3Crect x='120' y='120' width='240' height='240'/%3E%3Crect x='120' y='120' width='240' height='240' transform='rotate(45 240 240)'/%3E%3Ccircle cx='240' cy='240' r='95' opacity='0.6'/%3E%3C/g%3E%3C/svg%3E");
   --corner-maroon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Cg fill='none' stroke='%23dd7c86' stroke-width='1.4' opacity='0.14'%3E%3Crect x='100' y='100' width='200' height='200'/%3E%3Crect x='100' y='100' width='200' height='200' transform='rotate(45 200 200)'/%3E%3Ccircle cx='200' cy='200' r='78' opacity='0.6'/%3E%3C/g%3E%3C/svg%3E");
 }
-/* Night's corners are dimmer than dark's (opacity 0.10/0.08 vs 0.16/0.14)
-   -- against literal #000 even a faint ornament reads much stronger than
-   the same opacity does against dark theme's #1a1510, so it needs to be
-   turned down further to stay a quiet background detail, not a glow. */
+/* Night gets its own corner motif rather than a recolored copy of the
+   light/dark medallion -- a scattered star cluster with a few faint
+   constellation lines, since "night" should read as its own theme (like
+   book's vine flourish is its own thing) rather than "dark, but darker".
+   Dot/line opacities are baked into the SVG itself rather than one outer
+   group opacity, same technique used elsewhere in this file. */
 :root[data-theme="night"] {
-  --corner-gold: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='480' height='480'%3E%3Cg fill='none' stroke='%23b8923e' stroke-width='1.4' opacity='0.10'%3E%3Crect x='120' y='120' width='240' height='240'/%3E%3Crect x='120' y='120' width='240' height='240' transform='rotate(45 240 240)'/%3E%3Ccircle cx='240' cy='240' r='95' opacity='0.6'/%3E%3C/g%3E%3C/svg%3E");
-  --corner-maroon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Cg fill='none' stroke='%23c16959' stroke-width='1.4' opacity='0.08'%3E%3Crect x='100' y='100' width='200' height='200'/%3E%3Crect x='100' y='100' width='200' height='200' transform='rotate(45 200 200)'/%3E%3Ccircle cx='200' cy='200' r='78' opacity='0.6'/%3E%3C/g%3E%3C/svg%3E");
+  --corner-gold: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='480' height='480'%3E%3Cg fill='%23b8923e'%3E%3Ccircle cx='270' cy='170' r='2.4' opacity='0.55'/%3E%3Ccircle cx='210' cy='230' r='1.6' opacity='0.4'/%3E%3Ccircle cx='310' cy='250' r='1.9' opacity='0.45'/%3E%3Ccircle cx='170' cy='190' r='1.3' opacity='0.35'/%3E%3Ccircle cx='340' cy='310' r='1.5' opacity='0.4'/%3E%3Ccircle cx='240' cy='320' r='1.1' opacity='0.3'/%3E%3C/g%3E%3Cg stroke='%23b8923e' stroke-width='1' fill='none' opacity='0.16'%3E%3Cpath d='M270 170L210 230L170 190'/%3E%3Cpath d='M210 230L310 250L240 320L340 310'/%3E%3C/g%3E%3C/svg%3E");
+  --corner-maroon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Cg fill='%23c16959'%3E%3Ccircle cx='170' cy='160' r='2.2' opacity='0.5'/%3E%3Ccircle cx='230' cy='190' r='1.5' opacity='0.38'/%3E%3Ccircle cx='140' cy='230' r='1.3' opacity='0.32'/%3E%3Ccircle cx='260' cy='250' r='1.7' opacity='0.4'/%3E%3Ccircle cx='190' cy='280' r='1.2' opacity='0.3'/%3E%3C/g%3E%3Cg stroke='%23c16959' stroke-width='1' fill='none' opacity='0.14'%3E%3Cpath d='M170 160L230 190L140 230'/%3E%3Cpath d='M230 190L260 250L190 280'/%3E%3C/g%3E%3C/svg%3E");
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
@@ -260,6 +266,26 @@ body::before {
     mix-blend-mode: overlay;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0.85  0 0 0 0 0.78  0 0 0 0 0.6  0 0 0 0.05 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
   }
+}
+
+/* Night's own texture: a scattered starfield tile instead of the
+   paper-grain feTurbulence wash every other theme uses -- this is meant
+   to read as a night sky, not as "old paper, but darker". Also the
+   feTurbulence grain would be functionally invisible here anyway: on
+   literal #000 both multiply(0,x) and overlay(0,x) evaluate to 0, so it
+   would render as nothing. mix-blend-mode: screen instead of
+   multiply/overlay so the dots add faint light on top of black rather
+   than trying to darken an already-black base. */
+:root[data-theme="night"] body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.9;
+  mix-blend-mode: screen;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cg fill='%23eee6d2'%3E%3Ccircle cx='18' cy='34' r='1' opacity='0.8'/%3E%3Ccircle cx='64' cy='12' r='0.7' opacity='0.5'/%3E%3Ccircle cx='110' cy='60' r='1.1' opacity='0.7'/%3E%3Ccircle cx='150' cy='20' r='0.6' opacity='0.4'/%3E%3Ccircle cx='190' cy='90' r='0.9' opacity='0.6'/%3E%3Ccircle cx='40' cy='120' r='0.8' opacity='0.55'/%3E%3Ccircle cx='95' cy='150' r='1.2' opacity='0.75'/%3E%3Ccircle cx='170' cy='170' r='0.7' opacity='0.45'/%3E%3Ccircle cx='20' cy='190' r='0.6' opacity='0.5'/%3E%3Ccircle cx='130' cy='200' r='1' opacity='0.65'/%3E%3Ccircle cx='200' cy='40' r='0.5' opacity='0.35'/%3E%3Ccircle cx='60' cy='75' r='0.5' opacity='0.3'/%3E%3Ccircle cx='210' cy='150' r='0.6' opacity='0.4'/%3E%3Ccircle cx='140' cy='100' r='0.5' opacity='0.3'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: 220px 220px;
 }
 
 /* Book theme's own corner ornament -- an open flourish/vine curl rather
@@ -799,7 +825,7 @@ button.stat:hover { color: var(--teal); }
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cg fill='none' stroke='%238a6a2f' stroke-width='1.6' opacity='0.32'%3E%3Crect x='38' y='38' width='64' height='64'/%3E%3Crect x='38' y='38' width='64' height='64' transform='rotate(45 70 70)'/%3E%3Ccircle cx='70' cy='70' r='26'/%3E%3C/g%3E%3C/svg%3E");
 }
 :root[data-theme="night"] .level-progress-card::before {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cg fill='none' stroke='%23b8923e' stroke-width='1.6' opacity='0.3'%3E%3Crect x='38' y='38' width='64' height='64'/%3E%3Crect x='38' y='38' width='64' height='64' transform='rotate(45 70 70)'/%3E%3Ccircle cx='70' cy='70' r='26'/%3E%3C/g%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cg fill='%23b8923e'%3E%3Ccircle cx='78' cy='48' r='2' opacity='0.55'/%3E%3Ccircle cx='55' cy='68' r='1.4' opacity='0.4'/%3E%3Ccircle cx='95' cy='78' r='1.7' opacity='0.45'/%3E%3Ccircle cx='48' cy='95' r='1.1' opacity='0.35'/%3E%3Ccircle cx='100' cy='100' r='1.3' opacity='0.4'/%3E%3C/g%3E%3Cg stroke='%23b8923e' stroke-width='1' fill='none' opacity='0.18'%3E%3Cpath d='M78 48L55 68L48 95'/%3E%3Cpath d='M55 68L95 78L100 100'/%3E%3C/g%3E%3C/svg%3E");
 }
 :root[data-theme="dark"] .chapter-hero::before {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cg fill='none' stroke='%23dd7c86' stroke-width='1.6' opacity='0.3'%3E%3Crect x='38' y='38' width='64' height='64'/%3E%3Crect x='38' y='38' width='64' height='64' transform='rotate(45 70 70)'/%3E%3Ccircle cx='70' cy='70' r='26'/%3E%3C/g%3E%3C/svg%3E");
@@ -813,7 +839,7 @@ button.stat:hover { color: var(--teal); }
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cg fill='none' stroke='%236b2e2e' stroke-width='1.6' opacity='0.32'%3E%3Crect x='38' y='38' width='64' height='64'/%3E%3Crect x='38' y='38' width='64' height='64' transform='rotate(45 70 70)'/%3E%3Ccircle cx='70' cy='70' r='26'/%3E%3C/g%3E%3C/svg%3E");
 }
 :root[data-theme="night"] .chapter-hero::before {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cg fill='none' stroke='%23c16959' stroke-width='1.6' opacity='0.3'%3E%3Crect x='38' y='38' width='64' height='64'/%3E%3Crect x='38' y='38' width='64' height='64' transform='rotate(45 70 70)'/%3E%3Ccircle cx='70' cy='70' r='26'/%3E%3C/g%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cg fill='%23c16959'%3E%3Ccircle cx='60' cy='45' r='1.9' opacity='0.5'/%3E%3Ccircle cx='85' cy='60' r='1.3' opacity='0.38'/%3E%3Ccircle cx='45' cy='75' r='1.1' opacity='0.32'/%3E%3Ccircle cx='95' cy='95' r='1.5' opacity='0.4'/%3E%3Ccircle cx='60' cy='100' r='1' opacity='0.3'/%3E%3C/g%3E%3Cg stroke='%23c16959' stroke-width='1' fill='none' opacity='0.16'%3E%3Cpath d='M60 45L85 60L45 75'/%3E%3Cpath d='M85 60L95 95L60 100'/%3E%3C/g%3E%3C/svg%3E");
 }
 .level-progress-card .waveform { flex-shrink: 0; position: relative; }
 .level-progress-info { flex: 1; position: relative; }
