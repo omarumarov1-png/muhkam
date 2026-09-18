@@ -88,7 +88,7 @@
   const courseModal = document.getElementById("courseModal");
 
   // ---------- theme ----------
-  const THEME_CYCLE = ["light", "dark", "book"];
+  const THEME_CYCLE = ["light", "dark", "book", "night"];
   function initTheme() {
     const stored = localStorage.getItem(THEME_KEY);
     if (THEME_CYCLE.includes(stored)) {

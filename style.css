@@ -130,6 +130,39 @@
   --reading-highlight: #ecdfc0;
 }
 
+/* Night: a genuinely true-black theme, separate from --data-theme="dark"'s
+   warm near-black -- this one's --paper is literal #000 (real OLED black,
+   zero stray glow in a dark room) and every accent is dialed down a notch
+   from dark theme's brightened versions, plus --ink itself is a dimmer
+   cream rather than dark theme's fairly bright #ecdfc4, since max-contrast
+   bright text on pure black is exactly the glare that makes a screen
+   uncomfortable at 2am. Kept fully separate from the dark theme's own
+   rules throughout this file (never edited) so dark is untouched. */
+:root[data-theme="night"] {
+  --paper: #000000;
+  --paper-raised: #141414;
+  --paper-deep: #000000;
+  --ink: #d4c9b2;
+  --ink-soft: #8a8070;
+  --gold: #c49a35;
+  --gold-bright: #d8b552;
+  --gold-wash: rgba(196, 154, 53, 0.14);
+  --maroon: #c26b76;
+  --maroon-wash: rgba(194, 107, 118, 0.14);
+  --teal: #559b8b;
+  --teal-wash: rgba(85, 155, 139, 0.14);
+  --indigo: #7383ac;
+  --indigo-wash: rgba(115, 131, 172, 0.14);
+  --sage: #82a070;
+  --sage-wash: rgba(130, 160, 112, 0.14);
+  --rust: #b8764e;
+  --rust-wash: rgba(184, 118, 78, 0.14);
+  --line: #262320;
+  --shadow: rgba(0, 0, 0, 0.7);
+  --btn-shadow: #4a1319;
+  --reading-highlight: #0e2a26;
+}
+
 * { box-sizing: border-box; }
 
 html, body {
@@ -160,6 +193,14 @@ body {
 :root[data-theme="dark"] {
   --corner-gold: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='480' height='480'%3E%3Cg fill='none' stroke='%23d6ac33' stroke-width='1.4' opacity='0.16'%3E%3Crect x='120' y='120' width='240' height='240'/%3E%3Crect x='120' y='120' width='240' height='240' transform='rotate(45 240 240)'/%3E%3Ccircle cx='240' cy='240' r='95' opacity='0.6'/%3E%3C/g%3E%3C/svg%3E");
   --corner-maroon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Cg fill='none' stroke='%23dd7c86' stroke-width='1.4' opacity='0.14'%3E%3Crect x='100' y='100' width='200' height='200'/%3E%3Crect x='100' y='100' width='200' height='200' transform='rotate(45 200 200)'/%3E%3Ccircle cx='200' cy='200' r='78' opacity='0.6'/%3E%3C/g%3E%3C/svg%3E");
+}
+/* Night's corners are dimmer than dark's (opacity 0.10/0.08 vs 0.16/0.14)
+   -- against literal #000 even a faint ornament reads much stronger than
+   the same opacity does against dark theme's #1a1510, so it needs to be
+   turned down further to stay a quiet background detail, not a glow. */
+:root[data-theme="night"] {
+  --corner-gold: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='480' height='480'%3E%3Cg fill='none' stroke='%23c49a35' stroke-width='1.4' opacity='0.10'%3E%3Crect x='120' y='120' width='240' height='240'/%3E%3Crect x='120' y='120' width='240' height='240' transform='rotate(45 240 240)'/%3E%3Ccircle cx='240' cy='240' r='95' opacity='0.6'/%3E%3C/g%3E%3C/svg%3E");
+  --corner-maroon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Cg fill='none' stroke='%23c26b76' stroke-width='1.4' opacity='0.08'%3E%3Crect x='100' y='100' width='200' height='200'/%3E%3Crect x='100' y='100' width='200' height='200' transform='rotate(45 200 200)'/%3E%3Ccircle cx='200' cy='200' r='78' opacity='0.6'/%3E%3C/g%3E%3C/svg%3E");
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
@@ -412,11 +453,14 @@ button.stat:hover { color: var(--teal); }
 }
 .theme-toggle:hover { border-color: var(--gold); transform: rotate(12deg); }
 .theme-toggle .icon-moon,
-.theme-toggle .icon-book { display: none; }
+.theme-toggle .icon-book,
+.theme-toggle .icon-night { display: none; }
 :root[data-theme="dark"] .theme-toggle .icon-sun { display: none; }
 :root[data-theme="dark"] .theme-toggle .icon-moon { display: block; }
 :root[data-theme="book"] .theme-toggle .icon-sun { display: none; }
 :root[data-theme="book"] .theme-toggle .icon-book { display: block; }
+:root[data-theme="night"] .theme-toggle .icon-sun { display: none; }
+:root[data-theme="night"] .theme-toggle .icon-night { display: block; }
 
 .sound-toggle {
   background: none;
@@ -740,6 +784,9 @@ button.stat:hover { color: var(--teal); }
 :root[data-theme="book"] .level-progress-card::before {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cg fill='none' stroke='%238a6a2f' stroke-width='1.6' opacity='0.32'%3E%3Crect x='38' y='38' width='64' height='64'/%3E%3Crect x='38' y='38' width='64' height='64' transform='rotate(45 70 70)'/%3E%3Ccircle cx='70' cy='70' r='26'/%3E%3C/g%3E%3C/svg%3E");
 }
+:root[data-theme="night"] .level-progress-card::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cg fill='none' stroke='%23c49a35' stroke-width='1.6' opacity='0.3'%3E%3Crect x='38' y='38' width='64' height='64'/%3E%3Crect x='38' y='38' width='64' height='64' transform='rotate(45 70 70)'/%3E%3Ccircle cx='70' cy='70' r='26'/%3E%3C/g%3E%3C/svg%3E");
+}
 :root[data-theme="dark"] .chapter-hero::before {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cg fill='none' stroke='%23dd7c86' stroke-width='1.6' opacity='0.3'%3E%3Crect x='38' y='38' width='64' height='64'/%3E%3Crect x='38' y='38' width='64' height='64' transform='rotate(45 70 70)'/%3E%3Ccircle cx='70' cy='70' r='26'/%3E%3C/g%3E%3C/svg%3E");
 }
@@ -750,6 +797,9 @@ button.stat:hover { color: var(--teal); }
 }
 :root[data-theme="book"] .chapter-hero::before {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cg fill='none' stroke='%236b2e2e' stroke-width='1.6' opacity='0.32'%3E%3Crect x='38' y='38' width='64' height='64'/%3E%3Crect x='38' y='38' width='64' height='64' transform='rotate(45 70 70)'/%3E%3Ccircle cx='70' cy='70' r='26'/%3E%3C/g%3E%3C/svg%3E");
+}
+:root[data-theme="night"] .chapter-hero::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cg fill='none' stroke='%23c26b76' stroke-width='1.6' opacity='0.3'%3E%3Crect x='38' y='38' width='64' height='64'/%3E%3Crect x='38' y='38' width='64' height='64' transform='rotate(45 70 70)'/%3E%3Ccircle cx='70' cy='70' r='26'/%3E%3C/g%3E%3C/svg%3E");
 }
 .level-progress-card .waveform { flex-shrink: 0; position: relative; }
 .level-progress-info { flex: 1; position: relative; }
