@@ -28,7 +28,7 @@
 // deliberate: it means a broken/partial course download can never be
 // masked or shadowed by service-worker caching.
 
-const CACHE_VERSION = "20260830"; // bump whenever a shell file changes; keep in lockstep with index.html's ?v= query strings
+const CACHE_VERSION = "20260918"; // bump whenever a shell file changes; keep in lockstep with index.html's ?v= query strings
 const CACHE_NAME = `muhkam-shell-${CACHE_VERSION}`;
 
 const SHELL_FILES = [
