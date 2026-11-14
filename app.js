@@ -181,6 +181,61 @@
     updateSoundToggleUI();
   }
 
+  // ---------- word-order exercises on/off ----------
+  // Tile-arranging exercises ("Build the sentence" word-bank and "Listen and
+  // tap the words in order" listening-tap) are the slowest to practise, so
+  // they can be switched off. A per-device preference (like theme/sound),
+  // default on; applied whenever a lesson / review / practice session is
+  // BUILT, so an in-progress session is never reshuffled underneath you.
+  const WORD_ORDER_KEY = "muhkam-word-order";
+  const WORD_ORDER_TYPES = ["word-bank", "listening-tap"];
+  let wordOrderOn = true;
+  try { wordOrderOn = localStorage.getItem(WORD_ORDER_KEY) !== "off"; } catch (e) { /* storage blocked -- default on */ }
+  function isWordOrderExercise(ex) { return !!ex && WORD_ORDER_TYPES.includes(ex.type); }
+  function exerciseAllowed(ex) { return wordOrderOn || !isWordOrderExercise(ex); }
+  // Practice / mistakes-review pools: strictly drop word-order items while
+  // the toggle is off (they stay in missedBank / srs untouched and come
+  // back as soon as it's switched on again).
+  function withoutWordOrder(items, getEx) {
+    return wordOrderOn ? items : items.filter(it => exerciseAllowed(getEx(it)));
+  }
+  // Lessons: same filter, but if it would leave nothing, the full lesson is
+  // kept -- an empty lesson can't be completed (and silently auto-completing
+  // one would skip practice the learner never did).
+  function lessonWithoutWordOrder(items, getEx) {
+    const kept = withoutWordOrder(items, getEx);
+    return kept.length ? kept : items;
+  }
+  function updateWordOrderToggleUI() {
+    const el = document.getElementById("wordOrderToggle");
+    if (!el) return;
+    const label = `Word order exercises: ${wordOrderOn ? "On" : "Off"}`;
+    el.classList.toggle("off", !wordOrderOn);
+    el.setAttribute("aria-pressed", String(wordOrderOn));
+    el.title = label;
+    el.setAttribute("aria-label", label);
+    const st = el.querySelector(".menu-state");
+    if (st) st.textContent = wordOrderOn ? "On" : "Off";
+  }
+  let _woToastTimer = null;
+  function toggleWordOrder() {
+    wordOrderOn = !wordOrderOn;
+    try { localStorage.setItem(WORD_ORDER_KEY, wordOrderOn ? "on" : "off"); } catch (e) { /* applies for this visit anyway */ }
+    updateWordOrderToggleUI();
+    if (progress) refreshTopStats();
+    let t = document.getElementById("wordOrderToast");
+    if (!t) {
+      t = document.createElement("div");
+      t.id = "wordOrderToast"; t.className = "streak-toast wo-toast"; t.setAttribute("role", "status");
+      document.body.appendChild(t);
+    }
+    const midSession = session && screenEl.querySelector(".lesson-bar");
+    t.innerHTML = `<span class="streak-toast-text"><b>Word order exercises ${wordOrderOn ? "on" : "off"}</b>${wordOrderOn ? "" : " — shorter lessons"}${midSession ? "<br><span class=\"wo-toast-sub\">Takes effect from the next lesson.</span>" : ""}</span>`;
+    requestAnimationFrame(() => t.classList.add("show"));
+    clearTimeout(_woToastTimer);
+    _woToastTimer = setTimeout(() => t.classList.remove("show"), 2800);
+  }
+
   function getAudioCtx() {
     if (!audioCtx) {
       const Ctx = window.AudioContext || window.webkitAudioContext;
@@ -760,8 +815,11 @@
     streakEl.parentElement.classList.toggle("has-streak", progress.streak > 0);
     xpEl.textContent = progress.xp;
     wordsEl.textContent = progress.wordHoard.length;
-    mistakesEl.textContent = progress.missedBank.length;
-    mistakesStatEl.classList.toggle("hidden", progress.missedBank.length === 0);
+    // Toggle on: unchanged behaviour (raw missed count). Toggle off: the
+    // number a review session would actually play.
+    const reviewable = wordOrderOn ? progress.missedBank.length : reviewableMissed().length;
+    mistakesEl.textContent = reviewable;
+    mistakesStatEl.classList.toggle("hidden", reviewable === 0);
     const poolSize = revisionPool().length;
     practiceEl.textContent = poolSize;
     practiceStatEl.classList.toggle("hidden", poolSize === 0);
@@ -1390,6 +1448,9 @@
   function wireGlobalUi() {
     themeToggleEl.addEventListener("click", toggleTheme);
     soundToggleEl.addEventListener("click", toggleSound);
+    const wordOrderToggleEl = document.getElementById("wordOrderToggle");
+    if (wordOrderToggleEl) wordOrderToggleEl.addEventListener("click", toggleWordOrder);
+    updateWordOrderToggleUI();
     wireOfflineIndicator();
     wirePullToRefresh();
     const testSoundBtn = document.getElementById("testSoundBtn");
@@ -1770,11 +1831,16 @@
   }
 
   function startLesson(lesson) {
+    // _idx/gid keep each exercise's ORIGINAL position, so filtering out
+    // word-order items never changes which exercise a gid / SRS card means.
+    const queue = lessonWithoutWordOrder(
+      lesson.exercises.map((ex, i) => buildQueueItem(ex, `${lesson.id}:${i}`, i, lesson)),
+      item => item);
     session = {
       lesson,
       mode: "lesson",
-      queue: lesson.exercises.map((ex, i) => buildQueueItem(ex, `${lesson.id}:${i}`, i, lesson)),
-      total: lesson.exercises.length,
+      queue,
+      total: queue.length,
       solved: new Set(),
       mistakes: 0,
       combo: 0,
@@ -1782,8 +1848,15 @@
     renderExercise();
   }
 
-  function startReview() {
+  // Missed exercises that a review session would actually play (respects
+  // the word-order toggle).
+  function reviewableMissed() {
     const gids = progress.missedBank.filter(gid => exerciseIndex.has(gid));
+    return withoutWordOrder(gids, gid => exerciseIndex.get(gid).exercise);
+  }
+
+  function startReview() {
+    const gids = reviewableMissed();
     if (gids.length === 0) return;
     session = {
       lesson: { id: "__review__", title: "Review Session", titleNative: (course.uiStrings && course.uiStrings.review) || "" },
@@ -1804,9 +1877,9 @@
     const completedLessons = flatLessons.filter(l => progress.completedLessons.includes(l.id));
     const pool = [];
     completedLessons.forEach(lesson => {
-      lesson.exercises.forEach((ex, i) => pool.push({ gid: `${lesson.id}:${i}`, lesson }));
+      lesson.exercises.forEach((ex, i) => pool.push({ gid: `${lesson.id}:${i}`, lesson, ex }));
     });
-    return pool;
+    return withoutWordOrder(pool, item => item.ex);
   }
 
   // Spaced-repetition ordering over the revision pool: items never reviewed

@@ -2931,3 +2931,30 @@ button.stat:hover { border-color: var(--gold); color: var(--ink); }
 .card { padding-bottom: 48px; }
 .card::before, .card::after { width: 36px; height: 36px; }
 @media (max-width: 480px) { .card { padding-bottom: 46px; } }
+
+/* ---------- word-order toggle ---------- */
+.wordorder-toggle .wo-slash { display: none; }
+.wordorder-toggle.off .wo-slash { display: inline; }
+.wordorder-toggle.off rect { stroke: var(--ink-soft); opacity: 0.7; }
+.wo-toast { bottom: auto; top: max(16px, env(safe-area-inset-top)); transform: translate(-50%, -12px); z-index: 70; }
+.wo-toast.show { transform: translate(-50%, 0); }
+.wo-toast .streak-toast-text { white-space: normal; text-align: center; }
+.wo-toast-sub { font-size: 0.8rem; color: var(--ink-soft); }
+
+/* ---------- wide screens: a larger (still centred) column ----------
+   Phones/tablets below 1000px keep the original 760px layout untouched.
+   From 1000px the column widens and the rem-based type steps up a notch
+   so the extra room reads as "bigger", not "sparser". The feedback panel
+   is sticky inside .screen, so it follows the column width automatically. */
+@media (min-width: 1000px) {
+  html { font-size: 106.25%; }
+  .app, .screen { max-width: 940px; }
+  .screen { padding-left: 28px; padding-right: 28px; }
+  .card { padding-left: 32px; padding-right: 32px; }
+}
+@media (min-width: 1200px) {
+  html { font-size: 112.5%; }
+  .app, .screen { max-width: 1060px; }
+  .screen { padding-left: 36px; padding-right: 36px; }
+  .card { padding-left: 38px; padding-right: 38px; }
+}
