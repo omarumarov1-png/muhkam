@@ -596,6 +596,10 @@
   // the learner still gets a moment to read.
   function advanceAfterSpeech(spoken, fallbackDelay) {
     if (!spoken) { scheduleAdvance(fallbackDelay); return; }
+    // Sound off: speak() reports "ended" instantly, which used to advance with
+    // zero delay so the feedback flashed and vanished. Give the same reading
+    // time the feedback timer bar animates (visualDelay) instead.
+    if (!soundEnabled) { scheduleAdvance(Math.max(fallbackDelay, speechDurationMs(spoken.text))); return; }
     speak(spoken.text, spoken.voice, () => scheduleAdvance(0));
   }
   // Chinese displays pinyin only (no Hanzi shown to the learner anywhere),
