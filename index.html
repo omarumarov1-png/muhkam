@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 <title>Muḥkam — Language courses built from scratch</title>
 <link rel="manifest" href="manifest.json?v=1" />
-<meta name="theme-color" media="(prefers-color-scheme: light)" content="#f6efe2" />
-<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1a1510" />
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#f6efe1" />
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0d1925" />
 <!-- iOS: makes "Add to Home Screen" launch full-screen and standalone
      instead of opening inside a bare Safari tab. -->
 <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -16,8 +16,8 @@
 <link rel="icon" href="icons/favicon-32.png?v=1" sizes="32x32" type="image/png" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Frank+Ruhl+Libre:wght@400;500;700&family=Noto+Sans+Hebrew:wght@400;500;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="style.css?v=1789751156" />
+<link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&family=Nunito+Sans:opsz,wght@6..12,400..800&family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Frank+Ruhl+Libre:wght@400;500;700&family=Noto+Sans+Hebrew:wght@400;500;700&family=Noto+Naskh+Arabic:wght@400;600&family=Noto+Sans+Arabic:wght@400;600&family=Vazirmatn:wght@400;600&family=Noto+Nastaliq+Urdu:wght@400;600&family=Noto+Sans:wght@400;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css?v=1789900000" />
 </head>
 <body>
 
@@ -25,13 +25,13 @@
 
 <div class="auth-gate hidden" id="authGate">
   <div class="auth-card">
+    <svg class="auth-emblem" viewBox="0 0 120 120" aria-hidden="true"><g class="medal-spin" fill="var(--gold-wash)" stroke="var(--gold)" stroke-width="1.2"><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(0.0 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(22.5 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(45.0 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(67.5 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(90.0 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(112.5 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(135.0 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(157.5 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(180.0 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(202.5 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(225.0 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(247.5 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(270.0 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(292.5 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(315.0 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(337.5 60 60)"/></g><circle cx="60" cy="60" r="40" fill="var(--gold)"/><polygon points="60.00,23.00 70.84,33.84 86.16,33.84 86.16,49.16 97.00,60.00 86.16,70.84 86.16,86.16 70.84,86.16 60.00,97.00 49.16,86.16 33.84,86.16 33.84,70.84 23.00,60.00 33.84,49.16 33.84,33.84 49.16,33.84" fill="var(--paper-raised)" stroke="var(--gold-bright)" stroke-width="1.5"/><circle cx="60" cy="60" r="17" fill="none" stroke="var(--gold)" stroke-width="1.5"/><polygon points="60.00,48.00 63.51,51.51 68.49,51.51 68.49,56.49 72.00,60.00 68.49,63.51 68.49,68.49 63.51,68.49 60.00,72.00 56.49,68.49 51.51,68.49 51.51,63.51 48.00,60.00 51.51,56.49 51.51,51.51 56.49,51.51" fill="var(--gold)"/><circle cx="60" cy="60" r="3.2" fill="var(--paper-raised)"/></svg>
     <div class="auth-brand">
       <span class="brand-mark" aria-hidden="true">
-        <svg viewBox="0 0 32 32" width="28" height="28">
-          <path d="M16 2 L18.5 13.5 L30 16 L18.5 18.5 L16 30 L13.5 18.5 L2 16 L13.5 13.5 Z" fill="var(--gold)"/>
-        </svg>
+        <svg viewBox="0 0 32 32" width="34" height="34"><polygon points="16.00,1.00 20.39,5.39 26.61,5.39 26.61,11.61 31.00,16.00 26.61,20.39 26.61,26.61 20.39,26.61 16.00,31.00 11.61,26.61 5.39,26.61 5.39,20.39 1.00,16.00 5.39,11.61 5.39,5.39 11.61,5.39" fill="var(--gold)"/><polygon points="16.00,5.50 19.08,8.58 23.42,8.58 23.42,12.92 26.50,16.00 23.42,19.08 23.42,23.42 19.08,23.42 16.00,26.50 12.92,23.42 8.58,23.42 8.58,19.08 5.50,16.00 8.58,12.92 8.58,8.58 12.92,8.58" fill="var(--paper-raised)" transform="rotate(22.5 16 16)"/><circle cx="16" cy="16" r="4.2" fill="var(--primary)"/></svg>
       </span>
       <span class="brand-name">Muḥkam</span>
+      <span class="brand-ar" aria-hidden="true" lang="ar" dir="rtl">مُحْكَم</span>
     </div>
     <h2 class="auth-title">Sign in to continue</h2>
     <p class="auth-sub">Your progress is saved to your account and synced across every device you use.</p>
@@ -55,13 +55,13 @@
 
 <div class="auth-gate hidden" id="pendingGate">
   <div class="auth-card">
+    <svg class="auth-emblem" viewBox="0 0 120 120" aria-hidden="true"><g class="medal-spin" fill="var(--gold-wash)" stroke="var(--gold)" stroke-width="1.2"><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(0.0 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(22.5 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(45.0 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(67.5 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(90.0 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(112.5 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(135.0 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(157.5 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(180.0 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(202.5 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(225.0 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(247.5 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(270.0 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(292.5 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(315.0 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(337.5 60 60)"/></g><circle cx="60" cy="60" r="40" fill="var(--gold)"/><polygon points="60.00,23.00 70.84,33.84 86.16,33.84 86.16,49.16 97.00,60.00 86.16,70.84 86.16,86.16 70.84,86.16 60.00,97.00 49.16,86.16 33.84,86.16 33.84,70.84 23.00,60.00 33.84,49.16 33.84,33.84 49.16,33.84" fill="var(--paper-raised)" stroke="var(--gold-bright)" stroke-width="1.5"/><circle cx="60" cy="60" r="17" fill="none" stroke="var(--gold)" stroke-width="1.5"/><polygon points="60.00,48.00 63.51,51.51 68.49,51.51 68.49,56.49 72.00,60.00 68.49,63.51 68.49,68.49 63.51,68.49 60.00,72.00 56.49,68.49 51.51,68.49 51.51,63.51 48.00,60.00 51.51,56.49 51.51,51.51 56.49,51.51" fill="var(--gold)"/><circle cx="60" cy="60" r="3.2" fill="var(--paper-raised)"/></svg>
     <div class="auth-brand">
       <span class="brand-mark" aria-hidden="true">
-        <svg viewBox="0 0 32 32" width="28" height="28">
-          <path d="M16 2 L18.5 13.5 L30 16 L18.5 18.5 L16 30 L13.5 18.5 L2 16 L13.5 13.5 Z" fill="var(--gold)"/>
-        </svg>
+        <svg viewBox="0 0 32 32" width="34" height="34"><polygon points="16.00,1.00 20.39,5.39 26.61,5.39 26.61,11.61 31.00,16.00 26.61,20.39 26.61,26.61 20.39,26.61 16.00,31.00 11.61,26.61 5.39,26.61 5.39,20.39 1.00,16.00 5.39,11.61 5.39,5.39 11.61,5.39" fill="var(--gold)"/><polygon points="16.00,5.50 19.08,8.58 23.42,8.58 23.42,12.92 26.50,16.00 23.42,19.08 23.42,23.42 19.08,23.42 16.00,26.50 12.92,23.42 8.58,23.42 8.58,19.08 5.50,16.00 8.58,12.92 8.58,8.58 12.92,8.58" fill="var(--paper-raised)" transform="rotate(22.5 16 16)"/><circle cx="16" cy="16" r="4.2" fill="var(--primary)"/></svg>
       </span>
       <span class="brand-name">Muḥkam</span>
+      <span class="brand-ar" aria-hidden="true" lang="ar" dir="rtl">مُحْكَم</span>
     </div>
     <h2 class="auth-title">Waiting for approval</h2>
     <p class="auth-sub">Signed in as <strong id="pendingEmail"></strong>. The app owner needs to approve your account before you can use it — check back soon.</p>
@@ -73,15 +73,14 @@
   <header class="topbar">
     <div class="brand">
       <span class="brand-mark" aria-hidden="true">
-        <svg viewBox="0 0 32 32" width="26" height="26">
-          <path d="M16 2 L18.5 13.5 L30 16 L18.5 18.5 L16 30 L13.5 18.5 L2 16 L13.5 13.5 Z" fill="var(--gold)"/>
-        </svg>
+        <svg viewBox="0 0 32 32" width="34" height="34"><polygon points="16.00,1.00 20.39,5.39 26.61,5.39 26.61,11.61 31.00,16.00 26.61,20.39 26.61,26.61 20.39,26.61 16.00,31.00 11.61,26.61 5.39,26.61 5.39,20.39 1.00,16.00 5.39,11.61 5.39,5.39 11.61,5.39" fill="var(--gold)"/><polygon points="16.00,5.50 19.08,8.58 23.42,8.58 23.42,12.92 26.50,16.00 23.42,19.08 23.42,23.42 19.08,23.42 16.00,26.50 12.92,23.42 8.58,23.42 8.58,19.08 5.50,16.00 8.58,12.92 8.58,8.58 12.92,8.58" fill="var(--paper-raised)" transform="rotate(22.5 16 16)"/><circle cx="16" cy="16" r="4.2" fill="var(--primary)"/></svg>
       </span>
       <span class="brand-name">Muḥkam</span>
+      <span class="brand-ar" aria-hidden="true" lang="ar" dir="rtl">مُحْكَم</span>
     </div>
     <div class="stats" id="topStats">
       <div class="stat stat-streak" title="Day streak">
-        <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M12 2c1 4-3 5-3 9a3 3 0 006 0c0-1-1-2-1-2 2 1 3 3 3 5a5 5 0 11-10 0c0-5 4-7 5-12z" fill="var(--gold)"/></svg>
+        <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M12 1.2v2.2" stroke="var(--gold)" stroke-width="1.4" stroke-linecap="round"/><path d="M8.2 7.2C8.6 4.6 10.2 3.4 12 3.4s3.4 1.2 3.8 3.8z" fill="var(--gold)"/><path d="M7.6 7.4h8.8l1.4 4.4-1.4 6H7.6l-1.4-6z" fill="var(--gold-wash)" stroke="var(--gold)" stroke-width="1.4" stroke-linejoin="round"/><path class="lamp-flame" d="M12 9.4c1.5 1.7 2 2.8 2 3.9a2 2 0 01-4 0c0-1.1.5-2.2 2-3.9z" fill="var(--maroon)"/><path d="M9 17.8h6l-.9 2.6H9.9z" fill="var(--gold)"/><path d="M10.6 22.2h2.8" stroke="var(--gold)" stroke-width="1.4" stroke-linecap="round"/></svg>
         <span id="streakCount">0</span>
       </div>
       <div class="stat stat-xp" title="Total experience">
@@ -186,7 +185,7 @@
 
 <div class="modal hidden" id="levelCompleteModal">
   <div class="modal-card level-complete-card">
-    <svg class="medal" viewBox="0 0 32 32"><path d="M16 2 L18.5 13.5 L30 16 L18.5 18.5 L16 30 L13.5 18.5 L2 16 L13.5 13.5 Z" fill="var(--gold)"/></svg>
+    <svg class="medal" viewBox="0 0 120 120" aria-hidden="true"><g class="medal-spin" fill="var(--gold-wash)" stroke="var(--gold)" stroke-width="1.2"><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(0.0 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(22.5 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(45.0 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(67.5 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(90.0 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(112.5 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(135.0 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(157.5 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(180.0 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(202.5 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(225.0 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(247.5 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(270.0 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(292.5 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(315.0 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(337.5 60 60)"/></g><circle cx="60" cy="60" r="40" fill="var(--gold)"/><polygon points="60.00,23.00 70.84,33.84 86.16,33.84 86.16,49.16 97.00,60.00 86.16,70.84 86.16,86.16 70.84,86.16 60.00,97.00 49.16,86.16 33.84,86.16 33.84,70.84 23.00,60.00 33.84,49.16 33.84,33.84 49.16,33.84" fill="var(--paper-raised)" stroke="var(--gold-bright)" stroke-width="1.5"/><circle cx="60" cy="60" r="17" fill="none" stroke="var(--gold)" stroke-width="1.5"/><polygon points="60.00,48.00 63.51,51.51 68.49,51.51 68.49,56.49 72.00,60.00 68.49,63.51 68.49,68.49 63.51,68.49 60.00,72.00 56.49,68.49 51.51,68.49 51.51,63.51 48.00,60.00 51.51,56.49 51.51,51.51 56.49,51.51" fill="var(--gold)"/><circle cx="60" cy="60" r="3.2" fill="var(--paper-raised)"/></svg>
     <div class="level-complete-badge" id="levelCompleteBadge"></div>
     <h2 id="levelCompleteTitle">Level Complete</h2>
     <p id="levelCompleteSub"></p>
@@ -211,7 +210,7 @@
 </div>
 
 <script src="firebase-config.js?v=1"></script>
-<script src="app.js?v=1789750210"></script>
+<script src="app.js?v=1789900000"></script>
 <script src="auth.js?v=10"></script>
 <script>
   // sw.js is now network-first for the app shell (see its own comments for

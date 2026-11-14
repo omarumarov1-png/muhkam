@@ -1693,6 +1693,7 @@
 
     screenEl.innerHTML = `
       <div class="level-progress-card">
+        <div class="progress-ring" aria-hidden="true"><svg viewBox="0 0 84 84"><circle class="ring-track" cx="42" cy="42" r="36" fill="none" stroke-width="7"/><circle class="ring-fill" cx="42" cy="42" r="36" fill="none" stroke-width="7" stroke-linecap="round" transform="rotate(-90 42 42)" stroke-dasharray="${(overallPct / 100 * 226.2).toFixed(1)} 226.2"/><polygon class="ring-star" points="42.00,22.00 47.86,27.86 56.14,27.86 56.14,36.14 62.00,42.00 56.14,47.86 56.14,56.14 47.86,56.14 42.00,62.00 36.14,56.14 27.86,56.14 27.86,47.86 22.00,42.00 27.86,36.14 27.86,27.86 36.14,27.86" stroke-width="1.4"/><circle class="ring-dot" cx="42" cy="42" r="5"/></svg></div>
         <div class="waveform">${waveformBars(overallPct)}</div>
         <div class="level-progress-info">
           <div class="pct"><b data-count="${overallPct}">0</b>%</div>
@@ -2584,7 +2585,7 @@
 
     screenEl.innerHTML = `
       <div class="summary">
-        <svg class="medal" viewBox="0 0 32 32"><path d="M16 2 L18.5 13.5 L30 16 L18.5 18.5 L16 30 L13.5 18.5 L2 16 L13.5 13.5 Z" fill="var(--gold)"/></svg>
+        <svg class="medal" viewBox="0 0 120 120" aria-hidden="true"><g class="medal-spin" fill="var(--gold-wash)" stroke="var(--gold)" stroke-width="1.2"><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(0.0 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(22.5 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(45.0 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(67.5 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(90.0 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(112.5 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(135.0 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(157.5 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(180.0 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(202.5 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(225.0 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(247.5 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(270.0 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(292.5 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(315.0 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(337.5 60 60)"/></g><circle cx="60" cy="60" r="40" fill="var(--gold)"/><polygon points="60.00,23.00 70.84,33.84 86.16,33.84 86.16,49.16 97.00,60.00 86.16,70.84 86.16,86.16 70.84,86.16 60.00,97.00 49.16,86.16 33.84,86.16 33.84,70.84 23.00,60.00 33.84,49.16 33.84,33.84 49.16,33.84" fill="var(--paper-raised)" stroke="var(--gold-bright)" stroke-width="1.5"/><circle cx="60" cy="60" r="17" fill="none" stroke="var(--gold)" stroke-width="1.5"/><polygon points="60.00,48.00 63.51,51.51 68.49,51.51 68.49,56.49 72.00,60.00 68.49,63.51 68.49,68.49 63.51,68.49 60.00,72.00 56.49,68.49 51.51,68.49 51.51,63.51 48.00,60.00 51.51,56.49 51.51,51.51 56.49,51.51" fill="var(--gold)"/><circle cx="60" cy="60" r="3.2" fill="var(--paper-raised)"/></svg>
         <h2>${summaryTitle}</h2>
         <p>${session.lesson.title}${session.lesson.titleNative ? ` &middot; ${session.lesson.titleNative}` : ""}</p>
         <div class="summary-stats">
@@ -2632,7 +2633,7 @@
     document.body.appendChild(canvas);
     const ctx = canvas.getContext("2d");
     if (!ctx) { canvas.remove(); return; }
-    const colors = ["#b8901f", "#d6ac33", "#7a1f2b", "#2f6f63", "#6cc0ae"];
+    const colors = ["#a67812", "#d6a33a", "#1f4a7c", "#13756c", "#5fcbbb", "#a3392b"];
     const particles = Array.from({ length: 70 }, () => ({
       x: canvas.width / 2 + (Math.random() - 0.5) * 140,
       y: canvas.height * 0.32 + (Math.random() - 0.5) * 40,
