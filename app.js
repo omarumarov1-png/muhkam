@@ -1866,7 +1866,20 @@
       if (!groups.has(g)) groups.set(g, []);
       groups.get(g).push(it);
     });
-    const left = Array.from(groups.values());
+    const groupOf = new Map();
+    groups.forEach((members, g) => members.forEach(it => groupOf.set(it, g)));
+    // Deal a few times and keep the order with the fewest same-sentence neighbours
+    // (a single deal can still end with one sentence's leftovers side by side).
+    let best = null, bestAdj = Infinity;
+    for (let attempt = 0; attempt < 8 && bestAdj > 0; attempt++) {
+      const order = dealOnce(Array.from(groups.values()).map(g => g.slice()));
+      let adj = 0;
+      for (let i = 1; i < order.length; i++) if (groupOf.get(order[i]) === groupOf.get(order[i - 1])) adj++;
+      if (adj < bestAdj) { best = order; bestAdj = adj; }
+    }
+    return best;
+  }
+  function dealOnce(left) {
     const out = [];
     let last = null;
     while (left.length) {
@@ -1896,6 +1909,63 @@
       buildQueueItem(exerciseIndex.get(it.gid).exercise, it.gid, 100000 + i, it.lesson));
   }
 
+  // MSA (Fusha) is the opposite on purpose: the learner wants each sentence
+  // drilled several times in a row. Its lessons alternate between sentences
+  // (each seen only 1-3 times, far apart), so regroup every sentence into a
+  // block -- pick the meaning, hear it, build it, then its other exercises --
+  // and generate the missing steps from the lesson's own sentence/translation
+  // pairs (every MSA sentence has recorded audio).
+  const REPEAT_COURSES = new Set(["arabic"]);
+  const BLOCK_RANK = { "multiple-choice": 0, "listening": 1, "fill-blank": 2, "word-bank": 3, "listening-tap": 4 };
+  function repeatBySentence(items, lesson) {
+    const norm = s => (s || "").replace(/[.,،؟?!:؛"«»]/g, "").replace(/\s+/g, " ").trim();
+    const sentences = new Map();
+    const loose = [];
+    const pairOf = ex => {
+      const right = ex.options ? ex.options[ex.answerIndex] : null;
+      if (ex.type === "multiple-choice") return ex.direction && ex.direction.endsWith("-en") ? [ex.prompt, right] : [right, ex.prompt];
+      if (ex.type === "word-bank") return ex.direction && ex.direction.startsWith("en-") ? [ex.answer.join(" "), ex.prompt] : [ex.prompt, null];
+      if (ex.type === "listening") return [ex.native, right];
+      if (ex.type === "listening-tap" || ex.type === "fill-blank") return [ex.native, null];
+      return [null, null];
+    };
+    items.forEach(it => {
+      const [ar, en] = pairOf(it);
+      if (!ar) { loose.push(it); return; }
+      const k = norm(ar);
+      if (!sentences.has(k)) sentences.set(k, { ar, en: null, exs: [] });
+      const s = sentences.get(k);
+      if (en && !s.en) s.en = en;
+      if (it.type === "listening" || it.type === "listening-tap" || it.type === "fill-blank") s.ar = it.native; // the exact recorded text
+      s.exs.push(it);
+    });
+    const enPool = Array.from(sentences.values()).map(s => s.en).filter(Boolean);
+    let n = 0;
+    const synth = ex => ({ ...buildQueueItem(ex, `${lesson.id}:rep-${n}`, 50000 + n++, lesson), _synthetic: true });
+    const optionsFor = en => {
+      const others = shuffled(enPool.filter(e => e !== en)).slice(0, 3);
+      if (others.length < 3) return null;
+      const options = shuffled(others.concat(en));
+      return { options, answerIndex: options.indexOf(en) };
+    };
+    const out = [];
+    sentences.forEach(s => {
+      const have = new Set(s.exs.map(e => e.type));
+      const block = s.exs.slice();
+      if (s.en) {
+        const o1 = optionsFor(s.en), o2 = optionsFor(s.en);
+        if (!have.has("multiple-choice") && o1) block.push(synth({ type: "multiple-choice", direction: "ar-en", prompt: s.ar, ...o1 }));
+        if (!have.has("listening") && o2) block.push(synth({ type: "listening", native: s.ar, ...o2 }));
+        const words = s.ar.split(/\s+/).filter(Boolean);
+        const wb = { type: "word-bank", direction: "en-ar", prompt: s.en, bank: shuffled(words), answer: words };
+        if (!have.has("word-bank") && words.length > 1 && exerciseAllowed(wb)) block.push(synth(wb));
+      }
+      block.sort((a, b) => (BLOCK_RANK[a.type] ?? 9) - (BLOCK_RANK[b.type] ?? 9));
+      out.push(...block);
+    });
+    return out.concat(loose);
+  }
+
   function startLesson(lesson) {
     // _idx/gid keep each exercise's ORIGINAL position, so filtering out
     // word-order items never changes which exercise a gid / SRS card means.
@@ -1904,7 +1974,7 @@
       item => item);
     // Reading lessons keep their questions in story order.
     if (!lesson.readingPassage && queue.length > 2) {
-      queue = spreadBySentence(queue);
+      queue = REPEAT_COURSES.has(activeCourseId) ? repeatBySentence(queue, lesson) : spreadBySentence(queue);
       lessonReviewItems(lesson).forEach(item => {
         const at = 2 + Math.floor(Math.random() * (queue.length - 1));
         queue.splice(at, 0, item);
@@ -2269,7 +2339,8 @@
     const ex = currentExercise();
     correct ? playCorrectSound() : playIncorrectSound();
     haptic(correct ? 12 : 35);
-    updateSrs(ex._gid, correct);
+    // generated repeat steps (MSA) have no stored exercise behind them: keep them out of SRS / mistakes
+    if (!ex._synthetic) updateSrs(ex._gid, correct);
     if (correct) {
       session.solved.add(ex._idx);
       session.combo++;
@@ -2280,7 +2351,7 @@
     } else {
       session.mistakes++;
       session.combo = 0;
-      if (!progress.missedBank.includes(ex._gid)) {
+      if (!ex._synthetic && !progress.missedBank.includes(ex._gid)) {
         progress.missedBank.push(ex._gid);
         if (progress.missedBank.length > MAX_MISSED) progress.missedBank.shift();
       }
