@@ -18,6 +18,10 @@ ALLOW = {}
 def allow(word, why): ALLOW[word] = why
 # Documented gaps: regular forms whose paradigm siblings are attested in the dump.
 allow("მქვია", "1sg of ჰქვია 'be called'; 2sg გქვია and 3sg ჰქვია are attested; მ-/გ-/ჰ- object markers as in attested მიყვარს/გიყვარს/უყვარს")
+allow("გაგიმარჯოთ", "plural/polite of the attested reply გაგიმარჯოს; plural -თ as in attested გაქვს/გაქვთ")
+allow("ტკივა", "3sg of მტკივა 'it hurts me'; 1sg მტკივა and 2sg გტკივა attested, 3sg has no object prefix (cf. აქვს, უნდა)")
+allow("დაჯექით", "polite/plural imperative of attested დაჯექი; plural -თ as in attested წადით")
+allow("შხარა", "proper name: Shkhara, Georgia's highest mountain")
 TOK = re.compile(r"[ა-ჿ]+(?:-[ა-ჿ]+)*")
 def tokens(s): return TOK.findall(s)
 VOW = set("აეიოუ")

@@ -20,6 +20,10 @@ class Course:
         if b: self.problems.append(f"{where}: bad characters {b} in «{ka}»")
     def T(self, tid, title, pattern, explanation, fact, dialogue):
         assert dialogue, "every grammar topic needs a dialogue (app crashes otherwise)"
+        # Georgian quoted inside the explanation is checked too; 1–3 letter tokens are affixes being discussed (-ში, -დან).
+        for fld in (title, pattern, explanation, fact):
+            u = [w for w in k.unknown(fld) if len(w) > 3]
+            if u: self.problems.append(f"topic {tid} text: unknown {u}")
         for sp, ka, en in dialogue: self._check(f"topic {tid}", ka)
         self.topics[tid] = {"title": title, "pattern": pattern, "explanation": explanation, "fact": fact,
                             "dialogue": [{"sp": sp, "native": ka, "en": en} for sp, ka, en in dialogue]}
