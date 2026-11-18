@@ -36,7 +36,8 @@ def _drop_first_dagesh(w):
     return m.group(1) + m.group(2).replace(DAGESH, "", 1) + w[m.end():]
 def _add_first_dagesh(w):
     # after וּ / וְ etc. a word-initial ב כ פ (and ג ד ת) loses its dot; the dictionary form has it
-    if w and w[0] in "בגדכפת" and DAGESH not in w[:3]:
+    # look only at the first letter's own marks (the dot of a following וּ is not a dagesh on this letter)
+    if w and w[0] in "בגדכפת" and DAGESH not in re.match(r"^.([ְ-ׇ]*)", w).group(1):
         return unicodedata.normalize("NFC", w[0] + DAGESH + w[1:])
     return w
 def known(word, depth=0):
@@ -53,7 +54,7 @@ def known(word, depth=0):
                 if known(rest, depth + 1) or known(_drop_first_dagesh(rest), depth + 1) or known(_add_first_dagesh(rest), depth + 1): return True
     return False
 TOK = re.compile(r"[ְ-תװ-״ּ]+")
-def tokens(s): return [t.strip("־") for t in re.split(r"[\s\-–—,.!?:;\"«»()־/·→=+']+", s) if any(c in LET for c in t)]
+def tokens(s): return [t.strip("־") for t in re.split(r"[\s\-–—,.!?:;\"«»()־/·→=+'…]+", s) if any(c in LET for c in t)]
 def unknown(s):
     return [t for t in tokens(s) if len(skeleton(t)) > 1 and not known(t)]
 def bad_chars(s):
