@@ -1836,12 +1836,80 @@
     return { ...ex, _idx: idx, _gid: gid, _sourceLesson: sourceLesson };
   }
 
+  // Every sentence an exercise is "about" (its prompt, its native text, the
+  // word-bank answer, the correct option). Exercises sharing any of these
+  // drill the same sentence.
+  function sentenceKeys(ex) {
+    const keys = [];
+    const add = s => { if (typeof s === "string" && s.trim()) keys.push(s.trim().toLowerCase()); };
+    add(ex.prompt); add(ex.native);
+    if (Array.isArray(ex.answer)) add(ex.answer.join(" ")); else add(ex.answer);
+    if (ex.type === "multiple-choice" && ex.options) add(ex.options[ex.answerIndex]);
+    return keys;
+  }
+
+  // Duolingo-style order: lessons are compiled sentence by sentence (MC,
+  // build, listen for sentence 1, then sentence 2…), which played the same
+  // sentence 3-4 times back to back. Group exercises by sentence, then deal
+  // them out randomly so the same sentence never comes twice in a row. Within
+  // a sentence the compiled order (recognise before produce) is kept.
+  function spreadBySentence(items) {
+    const parent = items.map((_, i) => i);
+    const find = i => (parent[i] === i ? i : (parent[i] = find(parent[i])));
+    const owner = new Map();
+    items.forEach((it, i) => sentenceKeys(it).forEach(k => {
+      if (owner.has(k)) parent[find(i)] = find(owner.get(k)); else owner.set(k, i);
+    }));
+    const groups = new Map();
+    items.forEach((it, i) => {
+      const g = find(i);
+      if (!groups.has(g)) groups.set(g, []);
+      groups.get(g).push(it);
+    });
+    const left = Array.from(groups.values());
+    const out = [];
+    let last = null;
+    while (left.length) {
+      // Prefer the biggest remaining groups (so they don't pile up at the
+      // end), pick randomly among them, never the group just played.
+      const choices = left.filter(g => g !== last || left.length === 1);
+      const most = Math.max(...choices.map(g => g.length));
+      const top = choices.filter(g => g.length >= most - 1);
+      const g = top[Math.floor(Math.random() * top.length)];
+      out.push(g.shift());
+      last = g;
+      if (!g.length) left.splice(left.indexOf(g), 1);
+    }
+    return out;
+  }
+
+  // A few quick review questions from lessons already finished, mixed in at
+  // random spots, so every lesson also brings back earlier sentences.
+  const LESSON_REVIEW_MIX = 3;
+  const REVIEW_TYPES = new Set(["multiple-choice", "listening", "fill-blank"]);
+  function lessonReviewItems(lesson) {
+    const pool = revisionPool().filter(it => it.lesson.id !== lesson.id && REVIEW_TYPES.has(it.ex.type));
+    if (!pool.length) return [];
+    // due cards first, but shuffle the front of the queue so it's not the same 3 every time
+    const front = shuffled(srsOrderedPool(pool).slice(0, 24));
+    return front.slice(0, LESSON_REVIEW_MIX).map((it, i) =>
+      buildQueueItem(exerciseIndex.get(it.gid).exercise, it.gid, 100000 + i, it.lesson));
+  }
+
   function startLesson(lesson) {
     // _idx/gid keep each exercise's ORIGINAL position, so filtering out
     // word-order items never changes which exercise a gid / SRS card means.
-    const queue = lessonWithoutWordOrder(
+    let queue = lessonWithoutWordOrder(
       lesson.exercises.map((ex, i) => buildQueueItem(ex, `${lesson.id}:${i}`, i, lesson)),
       item => item);
+    // Reading lessons keep their questions in story order.
+    if (!lesson.readingPassage && queue.length > 2) {
+      queue = spreadBySentence(queue);
+      lessonReviewItems(lesson).forEach(item => {
+        const at = 2 + Math.floor(Math.random() * (queue.length - 1));
+        queue.splice(at, 0, item);
+      });
+    }
     session = {
       lesson,
       mode: "lesson",
