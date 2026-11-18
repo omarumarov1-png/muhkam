@@ -78,7 +78,7 @@ def load_source():
 def build_pools(levels):
     """en-sentence pool per level (for distractors) and a global content-word pool (for fill-blank)."""
     en_pool_by_level = defaultdict(list)
-    word_pool = set()
+    word_pool = defaultdict(set)
     for level, lessons in levels.items():
         for lesson in lessons:
             for item in lesson.get("items", []):
@@ -88,10 +88,14 @@ def build_pools(levels):
                 for w in item["en"].split():
                     cw = content_word(w)
                     if len(cw) >= 4 and cw.lower() not in STOPWORDS:
-                        word_pool.add(cw)
+                        word_pool[level].add(cw)
             for p in lesson.get("paragraphs", []):
                 en_pool_by_level[level].append(p["en"])
-    return en_pool_by_level, list(word_pool)
+    # sorted: set order follows Python's per-process string hashing, which made every build shuffle differently.
+    # Per level, so adding lessons to one level never changes another level's fill-blank distractors.
+    all_words = sorted(set().union(*word_pool.values()))
+    pools = {lv: (sorted(ws) if len(ws) >= 15 else all_words) for lv, ws in word_pool.items()}
+    return en_pool_by_level, pools
 
 
 def sample_distractors(correct, level, en_pool_by_level, n=3):
@@ -107,6 +111,7 @@ def sample_distractors(correct, level, en_pool_by_level, n=3):
 
 
 def compile_regular_lesson(level, lesson, en_pool_by_level, word_pool):
+    random.seed(f"he-{level}-{lesson['number']}")  # per-lesson seed: adding lessons elsewhere never reshuffles this one
     items = lesson["items"]
     exercises = []
     for i, item in enumerate(items):
@@ -194,6 +199,7 @@ def compile_regular_lesson(level, lesson, en_pool_by_level, word_pool):
 
 
 def compile_reading_lesson(level, lesson):
+    random.seed(f"he-{level}-{lesson['number']}")  # per-lesson seed: adding lessons elsewhere never reshuffles this one
     return {
         "id": f"he-{level}-{lesson['number']}-reading",
         "number": lesson["number"],
@@ -219,7 +225,7 @@ def compile_reading_lesson(level, lesson):
 def main():
     levels, grammar_topics = load_source()
     en_pool_by_level, word_pool = build_pools(levels)
-    if len(word_pool) < 15:
+    if sum(len(v) for v in word_pool.values()) < 15:
         sys.exit("Not enough English content words collected to build fill-blank distractors")
 
     out_levels = []
@@ -234,7 +240,7 @@ def main():
                 cl = compile_reading_lesson(level_id, lesson)
                 total_sentences += len(lesson["paragraphs"])
             else:
-                cl = compile_regular_lesson(level_id, lesson, en_pool_by_level, word_pool)
+                cl = compile_regular_lesson(level_id, lesson, en_pool_by_level, word_pool.get(level_id, []))
                 total_sentences += len(lesson["items"])
             total_exercises += len(cl["exercises"])
             compiled.append(cl)

@@ -44,7 +44,8 @@ def known(word, depth=0):
     P = pointed()
     if w in P or _drop_first_dagesh(w) in P: return True
     # וְ + יְ… merges into וִי… (וִירָקוֹת = וְ + יְרָקוֹת)
-    if w.startswith(norm("וִי")) and known(norm("יְ") + w[len(norm("וִי")):], depth + 1): return True
+    for pre in ("וִי", "בִּי", "לִי", "כִּי", "בַּי", "לַי"):  # prefix + יְ… fuses: וִירָקוֹת, בִּירוּשָׁלַיִם
+        if w.startswith(norm(pre)) and known(norm("יְ") + w[len(norm(pre)):], depth + 1): return True
     if depth < 2:
         for p in PREFIXES:
             if w.startswith(p) and len(skeleton(w)) > 1:

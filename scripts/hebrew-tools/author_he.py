@@ -3,8 +3,9 @@ import json, os, sys
 import helib as h
 SRC = os.path.expanduser("~/muhkam/data/hebrew-src")
 class Course:
-    def __init__(self, level, name):
+    def __init__(self, level, name, start=1):
         self.level, self.path, self.lessons, self.topics, self.problems = level, os.path.join(SRC, name + ".json"), [], {}, []
+        self.start = start  # first lesson number (a file that continues an existing level starts after its lessons)
     def _check(self, where, s):
         u, b = h.unknown(s), h.bad_chars(s)
         if u: self.problems.append(f"{where}: not in dictionary {u} in «{s}»")
@@ -47,7 +48,7 @@ class Course:
             "questions": [{"question": q, "options": o, "answerIndex": a} for q, o, a in questions]})
     def save(self):
         # lessons are numbered in the order they are written (readings keep 101+), so practice lessons can be inserted anywhere
-        n = 0
+        n = self.start - 1
         for l in self.lessons:
             if "items" in l:
                 n += 1; l["number"] = n
