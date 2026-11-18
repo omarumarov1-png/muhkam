@@ -22,8 +22,10 @@ OUT_PATH = ROOT / "data" / "courses-hebrew.json"
 
 random.seed(20260720)  # deterministic distractor shuffling across runs
 
-LEVEL_ORDER = ["a0", "a1", "a2", "b1", "b1plus", "b2", "b2plus", "c1"]
+LEVEL_ORDER = ["alefbet", "a0", "a1", "a2", "b1", "b1plus", "b2", "b2plus", "c1"]
 LEVEL_META = {
+    # Letters & vowel points (nikkud) from scratch: one letter group or one vowel mark per lesson, then reading practice.
+    "alefbet": dict(cefr="א–ת", label="Letters & Vowels", labelNative="אָלֶף־בֵּית וְנִקּוּד"),
     "a0": dict(cefr="A0", label="First Steps", labelNative="צעדים ראשונים"),
     "a1": dict(cefr="A1", label="Foundations", labelNative="יסודות"),
     "a2": dict(cefr="A2", label="Building Blocks", labelNative="אבני בניין"),
@@ -80,6 +82,8 @@ def build_pools(levels):
     for level, lessons in levels.items():
         for lesson in lessons:
             for item in lesson.get("items", []):
+                if item.get("wrong"):  # syllable/letter drills have their own options; keep them out of word questions
+                    continue
                 en_pool_by_level[level].append(item["en"])
                 for w in item["en"].split():
                     cw = content_word(w)
@@ -109,7 +113,11 @@ def compile_regular_lesson(level, lesson, en_pool_by_level, word_pool):
         he, en = item["he"], item["en"]
         translit = item.get("translit")
 
-        distractors = sample_distractors(en, level, en_pool_by_level)
+        # Syllable/letter drills carry their own wrong answers (ba vs bi/bo/bu), which are far more useful
+        # than random sentences from the level.
+        own_wrong = item.get("wrong")
+        drill = level == "alefbet" and len(he.split()) < 2
+        distractors = list(own_wrong) if own_wrong else sample_distractors(en, level, en_pool_by_level)
         options = [en] + distractors
         random.shuffle(options)
         mc = {
@@ -119,23 +127,24 @@ def compile_regular_lesson(level, lesson, en_pool_by_level, word_pool):
             "options": options,
             "answerIndex": options.index(en),
         }
-        if translit:
+        if translit and translit.lower() != en.lower():  # e.g. "banana", "David": the hint would be the answer
             mc["translit"] = translit
         exercises.append(mc)
 
         tokens = he.split()
-        bank = tokens[:]
-        random.shuffle(bank)
-        exercises.append({
-            "type": "word-bank",
-            "direction": "en-he",
-            "prompt": en,
-            "bank": bank,
-            "answer": tokens,
-        })
+        if not drill:  # a one-tile word bank is no exercise
+            bank = tokens[:]
+            random.shuffle(bank)
+            exercises.append({
+                "type": "word-bank",
+                "direction": "en-he",
+                "prompt": en,
+                "bank": bank,
+                "answer": tokens,
+            })
 
-        if i % 3 == 0:
-            d2 = sample_distractors(en, level, en_pool_by_level)
+        if i % 3 == 0 or (drill and own_wrong):
+            d2 = list(own_wrong) if own_wrong else sample_distractors(en, level, en_pool_by_level)
             opts2 = [en] + d2
             random.shuffle(opts2)
             exercises.append({
@@ -144,10 +153,10 @@ def compile_regular_lesson(level, lesson, en_pool_by_level, word_pool):
                 "options": opts2,
                 "answerIndex": opts2.index(en),
             })
-        elif i % 3 == 1:
+        elif i % 3 == 1 and not drill:
             exercises.append({"type": "listening-tap", "native": he, "answer": tokens})
 
-        if i % 4 == 3:
+        if i % 4 == 3 and not own_wrong:
             blank_word, blanked_en = pick_blank(en)
             if blank_word:
                 wrongs = [w for w in random.sample(word_pool, min(12, len(word_pool)))

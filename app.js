@@ -2127,7 +2127,7 @@
           <span class="fact-label">Did you know? <span class="ar">${(course.uiStrings && course.uiStrings.didYouKnow) || ""}</span></span>
           <p>${topic.fact}</p>
         </div>
-        <button class="btn btn-ghost btn-small" id="dialogueBtn">View example dialogue</button>
+        ${topic.dialogue && topic.dialogue.length ? `<button class="btn btn-ghost btn-small" id="dialogueBtn">View example dialogue</button>` : ""}
       </details>
     `;
   }
