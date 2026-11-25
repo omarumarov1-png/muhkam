@@ -25,7 +25,7 @@ OUT_PATH = ROOT / "data" / "courses-kazakh.json"
 
 random.seed(20260720)  # deterministic distractor shuffling across runs
 
-LEVEL_ORDER = ["a1", "a2", "b1", "b1plus", "b2", "b2plus", "c1"]
+LEVEL_ORDER = ["a1", "a2", "b1", "b1plus", "b2", "b2plus", "c1", "c2"]
 LEVEL_META = {
     "a1": dict(cefr="A1", label="Foundations", labelNative="Негіздер"),
     "a2": dict(cefr="A2", label="Building Blocks", labelNative="Құрылыс блоктары"),
@@ -34,6 +34,7 @@ LEVEL_META = {
     "b2": dict(cefr="B2", label="Complex Structures", labelNative="Күрделі құрылымдар"),
     "b2plus": dict(cefr="B2+", label="Precision & Nuance", labelNative="Дәлдік пен нюанс"),
     "c1": dict(cefr="C1", label="Advanced", labelNative="Жоғары деңгей"),
+    "c2": dict(cefr="C2", label="Wisdom of the Steppe", labelNative="Дала даналығы"),
 }
 
 STOPWORDS = set("""

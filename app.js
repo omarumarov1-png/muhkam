@@ -26,7 +26,7 @@
     { id: "arabic", file: "data/courses.json", audioManifest: "data/audio-arabic/manifest.json", legacyProgressKey: "muhkam-progress-v2", label: "Arabic — العربية", native: "العربية", en: "Arabic", flag: "العربية", group: "established", accent: "gold" },
     { id: "tajik", file: "data/courses-tajik.json", label: "Tajik — Тоҷикӣ", native: "Тоҷикӣ", en: "Tajik", flag: "Тоҷикӣ", group: "established", accent: "teal" },
     { id: "hebrew", file: "data/courses-hebrew.json", label: "Hebrew — עברית", native: "עברית", en: "Hebrew", flag: "עברית", group: "established", accent: "indigo" },
-    { id: "kazakh", file: "data/courses-kazakh.json", label: "Kazakh — Қазақша", native: "Қазақша", en: "Kazakh", flag: "Қазақша", group: "established", accent: "sage" },
+    { id: "kazakh", file: "data/courses-kazakh.json", audioManifest: "data/audio-kazakh/manifest.json", label: "Kazakh — Қазақша", native: "Қазақша", en: "Kazakh", flag: "Қазақша", group: "established", accent: "sage" },
     { id: "chinese", file: "data/courses-chinese.json", label: "Chinese (Pinyin) — Zhōngwén", native: "Zhōngwén", en: "Chinese (Pinyin)", flag: "Zhōngwén", group: "established", accent: "rust" },
     { id: "uzbek", file: "data/courses-uzbek.json", audioManifest: "data/audio-uzbek/manifest.json", label: "Uzbek — Oʻzbekcha", native: "Oʻzbekcha", en: "Uzbek", flag: "Oʻzbekcha", group: "underserved", accent: "gold" },
     { id: "chechen", file: "data/courses-chechen.json", label: "Chechen — Нохчийн", native: "Нохчийн", en: "Chechen", flag: "Нохчийн", group: "underserved", accent: "maroon" },
