@@ -1854,13 +1854,40 @@
     // an illuminated band and closed by a seal; lessons are 8-point stars
     // zig-zagging down the page.
     const stemOf = s => (s || "").replace(/\s*\d+\s*$/, "").trim();
-    const chapters = [];
+    // Chapter key: a numbered title stem ("Greetings 1..4"), else the
+    // grammar topic, else the title itself. Courses whose lessons all have
+    // unique titles (Hebrew letters, Arabic alphabet) would otherwise get a
+    // one-star "chapter" per lesson, so short runs are merged into chapters
+    // of about five lessons.
+    const keyOf = l => l.readingPassage ? "§reading"
+      : /\d+\s*$/.test(l.title || "") ? "s:" + stemOf(l.title)
+      : l.topicId ? "t:" + l.topicId : "s:" + (l.title || "");
+    let runs = [];
     levelLessons.forEach(lesson => {
-      const stem = lesson.readingPassage ? "Reading" : stemOf(lesson.title);
-      const last = chapters[chapters.length - 1];
-      if (last && last.stem === stem) last.lessons.push(lesson);
-      else chapters.push({ stem, native: lesson.readingPassage ? "" : stemOf(lesson.titleNative), lessons: [lesson] });
+      const key = keyOf(lesson);
+      const last = runs[runs.length - 1];
+      if (last && last.key === key) last.lessons.push(lesson);
+      else runs.push({ key, lessons: [lesson] });
     });
+    const chapters = [];
+    let pool = [];
+    const flushPool = () => {
+      while (pool.length) {
+        const take = pool.splice(0, pool.length <= 7 ? pool.length : 5);
+        chapters.push({ stem: `Lessons ${take[0].number}–${take[take.length - 1].number}`, native: "", lessons: take, merged: true });
+      }
+    };
+    runs.forEach(run => {
+      if (run.lessons.length >= 3 || run.key === "§reading") {
+        flushPool();
+        const l0 = run.lessons[0];
+        chapters.push(run.key === "§reading"
+          ? { stem: "Reading", native: "", lessons: run.lessons }
+          : { stem: run.key.startsWith("s:") ? stemOf(l0.title) : (course.grammarTopics && course.grammarTopics[l0.topicId] ? course.grammarTopics[l0.topicId].title : stemOf(l0.title)),
+              native: run.key.startsWith("s:") ? stemOf(l0.titleNative) : "", lessons: run.lessons });
+      } else pool.push(...run.lessons);
+    });
+    flushPool();
     const ZIG = [0, -1, -2, -1, 0, 1, 2, 1];
     const chapterTopic = ch => {
       const l = ch.lessons.find(x => x.topicId && course.grammarTopics && course.grammarTopics[x.topicId]);
@@ -1901,7 +1928,7 @@
             </div>
           </div>
           <div class="path-steps">${nodes}</div>
-          <div class="path-seal ${chDone ? "earned" : ""}" title="${chDone ? "Chapter seal earned" : "Chapter seal"}">${PATH_SEAL}</div>
+          ${ch.lessons.length > 1 ? `<div class="path-seal ${chDone ? "earned" : ""}" title="${chDone ? "Chapter seal earned" : "Chapter seal"}">${PATH_SEAL}</div>` : ""}
         </section>`;
     }).join("");
 
@@ -2957,6 +2984,7 @@
     // relying on every future code path continuing to get that guard
     // right on its own.
     let justCompletedLevelId = null;
+    let sealEarned = null;
     if (!session.summarized) {
       session.summarized = true;
       progress.xp += xpEarned;
@@ -2964,6 +2992,7 @@
       if (session.mode === "lesson" && !progress.completedLessons.includes(session.lesson.id)) {
         progress.completedLessons.push(session.lesson.id);
         justCompletedLevelId = checkLevelComplete(session.lesson.levelId);
+        sealEarned = chapterJustSealed(session.lesson);
       }
       updateStreakOnCompletion();
       refreshTopStats();
@@ -2985,6 +3014,7 @@
           <div class="summary-card teal"><span class="lbl">Accuracy</span><span class="num"><b data-count="${accuracy}">0</b>%</span></div>
           <div class="summary-card ink"><span class="lbl">Time</span><span class="num">${timeText}</span></div>
         </div>
+        ${sealEarned ? `<div class="summary-seal">${PATH_SEAL}<div><b>Chapter seal earned</b><span>${sealEarned} — every lesson complete</span></div></div>` : ""}
         ${inkBonus && session.mode === "lesson" ? `<p class="summary-ink">+${inkBonus} XP for ink left in the well</p>` : ""}
         <div class="summary-lamp">
           <span class="summary-lamp-icon">${ICON_FLAME}</span>
@@ -3007,6 +3037,22 @@
   // so the caller can show the celebration overlay -- or null otherwise,
   // covering both "this level was already complete/celebrated" and "this
   // lesson wasn't the last one needed".
+  // The chapter (consecutive lessons sharing a title stem, as drawn on the
+  // path) that this lesson just finished, or null.
+  function chapterJustSealed(lesson) {
+    if (!lesson || lesson.readingPassage) return null;
+    const stemOf = s => (s || "").replace(/\s*\d+\s*$/, "").trim();
+    const stem = stemOf(lesson.title);
+    const lv = flatLessons.filter(l => l.levelId === lesson.levelId);
+    const i = lv.indexOf(lesson);
+    if (i < 0) return null;
+    let a = i, b = i;
+    while (a > 0 && !lv[a - 1].readingPassage && stemOf(lv[a - 1].title) === stem) a--;
+    while (b < lv.length - 1 && !lv[b + 1].readingPassage && stemOf(lv[b + 1].title) === stem) b++;
+    const ch = lv.slice(a, b + 1);
+    return ch.length > 1 && ch.every(l => progress.completedLessons.includes(l.id)) ? stem : null;
+  }
+
   function checkLevelComplete(levelId) {
     if (!levelId) return null;
     progress.celebratedLevels = progress.celebratedLevels || [];
