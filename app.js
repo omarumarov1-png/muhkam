@@ -2631,6 +2631,8 @@
       }
       const [wrong] = session.queue.splice(0, 1);
       session.queue.push(wrong);
+      const inkEl = document.querySelector(".ink-badge");
+      if (inkEl) { inkEl.outerHTML = inkBadgeHtml(); const n = document.querySelector(".ink-badge"); if (n) n.classList.add("ink-drop"); }
       if (session.mode === "jump" && session.mistakes > session.inkMax) {
         session.jumpFailed = true;
       }
