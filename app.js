@@ -722,6 +722,11 @@
     return merged;
   }
 
+  function mergeDayXp(a, b) {
+    if (!a) return b; if (!b) return a;
+    if (a.date === b.date) return { date: a.date, xp: Math.max(a.xp || 0, b.xp || 0) };
+    return new Date(a.date).getTime() > new Date(b.date).getTime() ? a : b;
+  }
   function mergeProgress(local, remote) {
     if (!local) return remote;
     if (!remote) return local;
@@ -748,6 +753,7 @@
       wordHoard: union(local.wordHoard, remote.wordHoard),
       celebratedLevels: union(local.celebratedLevels, remote.celebratedLevels),
       srs: mergeSrs(local.srs, remote.srs),
+      dayXp: mergeDayXp(local.dayXp, remote.dayXp),
     });
   }
 
@@ -1677,6 +1683,35 @@
   const TRAIL_ICON_FLAG = `<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M6.5 3v18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M6.5 4.2h10.5l-2.8 3.8 2.8 3.8H6.5z" fill="currentColor" opacity="0.9"/></svg>`;
   const TRAIL_ICON_TROPHY = `<svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true" style="vertical-align:-2px"><path d="M7 4h10v4a5 5 0 01-10 0V4z" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M7 5H4v1.5A3.5 3.5 0 007.5 10M17 5h3v1.5A3.5 3.5 0 0116.5 10" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M12 12.5v3M9 19h6M10 19c-.3-1.5-.3-2.3 0-3.5M14 19c.3-1.5.3-2.3 0-3.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>`;
 
+  const PATH_STAR = `<svg class="path-star" viewBox="0 0 32 34" aria-hidden="true"><polygon class="path-star-shadow" transform="translate(0 2.6)" points="16,1 20.4,5.4 26.6,5.4 26.6,11.6 31,16 26.6,20.4 26.6,26.6 20.4,26.6 16,31 11.6,26.6 5.4,26.6 5.4,20.4 1,16 5.4,11.6 5.4,5.4 11.6,5.4"/><polygon class="path-star-face" points="16,1 20.4,5.4 26.6,5.4 26.6,11.6 31,16 26.6,20.4 26.6,26.6 20.4,26.6 16,31 11.6,26.6 5.4,26.6 5.4,20.4 1,16 5.4,11.6 5.4,5.4 11.6,5.4"/></svg>`;
+  const PATH_ICON_CHECK = `<svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path d="M5 12.5l4.3 4.3L19 7" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+  const PATH_ICON_LOCK = `<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2.2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 11V7.6a4 4 0 018 0V11" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>`;
+  const PATH_ICON_BOOK = `<svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M4 5c3-1 6-1 8 1 2-2 5-2 8-1v14c-3-1-6-1-8 1-2-2-5-2-8-1z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M12 6v14" stroke="currentColor" stroke-width="2"/></svg>`;
+  const PATH_SEAL = `<svg viewBox="0 0 96 80" width="84" height="70" aria-hidden="true"><circle class="seal-disc" cx="48" cy="40" r="32"/><circle class="seal-ring" cx="48" cy="40" r="23" fill="none" stroke-width="1.6" stroke-dasharray="3 4"/><polygon class="seal-star" transform="translate(36 28) scale(0.75)" points="16,1 20.4,5.4 26.6,5.4 26.6,11.6 31,16 26.6,20.4 26.6,26.6 20.4,26.6 16,31 11.6,26.6 5.4,26.6 5.4,20.4 1,16 5.4,11.6 5.4,5.4 11.6,5.4"/></svg>`;
+  const DAILY_GOAL_XP = 30;
+  function todayXp() {
+    const today = new Date().toDateString();
+    return progress.dayXp && progress.dayXp.date === today ? progress.dayXp.xp : 0;
+  }
+  function addDayXp(n) {
+    const today = new Date().toDateString();
+    if (!progress.dayXp || progress.dayXp.date !== today) progress.dayXp = { date: today, xp: 0 };
+    progress.dayXp.xp += n;
+  }
+  function dailyGoalHtml() {
+    const xp = todayXp();
+    const pct = Math.min(1, xp / DAILY_GOAL_XP);
+    const C = 119.4;
+    return `
+      <div class="lamp-goal ${pct >= 1 ? "lit" : ""}">
+        <svg viewBox="0 0 48 48" width="48" height="48" aria-hidden="true"><circle cx="24" cy="24" r="19" fill="none" class="lamp-goal-track" stroke-width="6"/><circle cx="24" cy="24" r="19" fill="none" class="lamp-goal-fill" stroke-width="6" stroke-dasharray="${C}" stroke-dashoffset="${(C * (1 - pct)).toFixed(1)}" stroke-linecap="round" transform="rotate(-90 24 24)"/><path d="M24 16.5c2.4 2.8 3.3 4.6 3.3 6.3a3.3 3.3 0 01-6.6 0c0-1.7.9-3.5 3.3-6.3z" class="lamp-goal-flame"/></svg>
+        <div class="lamp-goal-text">
+          <b>${pct >= 1 ? "Lamp lit for today" : "Light today's lamp"}</b>
+          <span>${Math.min(xp, DAILY_GOAL_XP)} / ${DAILY_GOAL_XP} XP</span>
+        </div>
+      </div>`;
+  }
+
   // A book, not a game board: instead of a path of circles to climb, the
   // level opens on a "continue reading" hero for wherever you actually
   // are, with the rest of the chapter laid out below as a real table of
@@ -1759,6 +1794,55 @@
       `;
     }).join("");
 
+    // Muhkam x Duolingo path: lessons grouped into chapters (consecutive
+    // lessons sharing a title stem, "Greetings 1..4"), each chapter opened by
+    // an illuminated band and closed by a seal; lessons are 8-point stars
+    // zig-zagging down the page.
+    const stemOf = s => (s || "").replace(/\s*\d+\s*$/, "").trim();
+    const chapters = [];
+    levelLessons.forEach(lesson => {
+      const stem = lesson.readingPassage ? "Reading" : stemOf(lesson.title);
+      const last = chapters[chapters.length - 1];
+      if (last && last.stem === stem) last.lessons.push(lesson);
+      else chapters.push({ stem, native: lesson.readingPassage ? "" : stemOf(lesson.titleNative), lessons: [lesson] });
+    });
+    const ZIG = [0, -1, -2, -1, 0, 1, 2, 1];
+    let nodeNo = 0;
+    const pathHtml = chapters.map((ch, ci) => {
+      const chDone = ch.lessons.every(l => progress.completedLessons.includes(l.id));
+      const nodes = ch.lessons.map(lesson => {
+        const flatIndex = flatLessons.indexOf(lesson);
+        const unlocked = isLessonUnlocked(flatIndex);
+        const done = progress.completedLessons.includes(lesson.id);
+        const isCurrent = !!currentLesson && lesson.id === currentLesson.id;
+        const state = done ? "done" : isCurrent ? "current" : unlocked ? "unlocked" : "locked";
+        const inner = done ? PATH_ICON_CHECK : !unlocked ? PATH_ICON_LOCK : lesson.readingPassage ? PATH_ICON_BOOK : `<span class="path-num">${lesson.number}</span>`;
+        const shift = ZIG[nodeNo++ % ZIG.length];
+        const label = `${lesson.title}${lesson.titleNative ? " · " + lesson.titleNative : ""}`;
+        return `
+          <div class="path-step" style="--zig:${shift}">
+            ${isCurrent ? `<span class="path-begin">Begin</span>` : ""}
+            <button class="path-node ${state}" data-lesson="${lesson.id}" ${unlocked ? "" : "disabled"} title="${label}" aria-label="${label}${done ? " (done)" : !unlocked ? " (locked)" : ""}">
+              ${PATH_STAR}<span class="path-inner">${inner}</span>
+            </button>
+            ${isCurrent ? `<span class="path-caption" dir="auto">${lesson.title}</span>` : ""}
+          </div>`;
+      }).join("");
+      return `
+        <section class="path-chapter">
+          <div class="chapter-band">
+            <div class="chapter-band-text">
+              <span class="chapter-band-eyebrow">${level.cefr} · Chapter ${ci + 1}</span>
+              <span class="chapter-band-title">${ch.stem}</span>
+              ${ch.native ? `<span class="chapter-band-native" dir="auto">${ch.native}</span>` : ""}
+            </div>
+            <span class="chapter-band-count">${ch.lessons.filter(l => progress.completedLessons.includes(l.id)).length}/${ch.lessons.length}</span>
+          </div>
+          <div class="path-steps">${nodes}</div>
+          <div class="path-seal ${chDone ? "earned" : ""}" title="${chDone ? "Chapter seal earned" : "Chapter seal"}">${PATH_SEAL}</div>
+        </section>`;
+    }).join("");
+
     screenEl.innerHTML = `
       <div class="level-progress-card">
         <div class="progress-ring" aria-hidden="true"><svg viewBox="0 0 84 84"><circle class="ring-track" cx="42" cy="42" r="36" fill="none" stroke-width="7"/><circle class="ring-fill" cx="42" cy="42" r="36" fill="none" stroke-width="7" stroke-linecap="round" transform="rotate(-90 42 42)" stroke-dasharray="${(overallPct / 100 * 226.2).toFixed(1)} 226.2"/><polygon class="ring-star" points="42.00,22.00 47.86,27.86 56.14,27.86 56.14,36.14 62.00,42.00 56.14,47.86 56.14,56.14 47.86,56.14 42.00,62.00 36.14,56.14 27.86,56.14 27.86,47.86 22.00,42.00 27.86,36.14 27.86,27.86 36.14,27.86" stroke-width="1.4"/><circle class="ring-dot" cx="42" cy="42" r="5"/></svg></div>
@@ -1785,11 +1869,9 @@
       </div>
       ${!levelLessons.length
         ? `<div class="level-locked-note">Lessons for ${level.cefr} are still being prepared and will appear here soon.</div>`
-        : `${heroHtml}
-           <div class="chapter-index-wrap">
-             <div class="chapter-index-label">Full index &middot; ${level.cefr}</div>
-             <div class="chapter-index">${indexRowsHtml}</div>
-           </div>`
+        : `${dailyGoalHtml()}
+           ${levelComplete ? heroHtml : ""}
+           <div class="path">${pathHtml}</div>`
       }
     `;
     applyScreenFadeIn();
@@ -1824,7 +1906,9 @@
         if (lesson) startLesson(lesson);
       });
     }
-    screenEl.querySelectorAll(".chapter-index-row:not(:disabled)").forEach(row => {
+    const curNode = screenEl.querySelector(".path-node.current");
+    if (curNode) requestAnimationFrame(() => curNode.scrollIntoView({ block: "center", behavior: "smooth" }));
+    screenEl.querySelectorAll(".path-node:not(:disabled)").forEach(row => {
       row.addEventListener("click", () => {
         const lesson = flatLessons.find(l => l.id === row.dataset.lesson);
         if (lesson) startLesson(lesson);
@@ -1989,6 +2073,7 @@
       solved: new Set(),
       mistakes: 0,
       combo: 0,
+      startedAt: Date.now(),
     };
     renderExercise();
   }
@@ -2011,6 +2096,7 @@
       solved: new Set(),
       mistakes: 0,
       combo: 0,
+      startedAt: Date.now(),
     };
     renderExercise();
   }
@@ -2065,12 +2151,24 @@
       solved: new Set(),
       mistakes: 0,
       combo: 0,
+      startedAt: Date.now(),
     };
     renderExercise();
   }
 
   function currentExercise() {
     return session.queue[0];
+  }
+
+  // Ink instead of hearts: every lesson starts with a full inkwell of 5
+  // drops and each mistake spends one. Running dry never locks you out
+  // (wrong answers still come back around) -- ink left at the end is what
+  // turns into bonus XP on the summary.
+  const INK_DROPS = 5;
+  function inkLeft() { return Math.max(0, INK_DROPS - ((session && session.mistakes) || 0)); }
+  function inkBadgeHtml() {
+    const left = inkLeft();
+    return `<span class="ink-badge ${left === 0 ? "dry" : ""}" title="Ink: each mistake spends a drop; ink left at the end becomes bonus XP"><svg viewBox="0 0 20 24" width="18" height="21" aria-hidden="true"><path d="M10 2c3 5 7 9 7 13a7 7 0 01-14 0c0-4 4-8 7-13z" fill="currentColor"/><path d="M7 15.5a3 3 0 002.6 3" fill="none" stroke="var(--paper-raised)" stroke-width="1.6" stroke-linecap="round"/></svg><b>${left}</b></span>`;
   }
 
   function renderLessonChrome(bodyHtml) {
@@ -2087,7 +2185,7 @@
         <button class="exit-btn" id="exitBtn" aria-label="Exit lesson"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>
         <div class="progress-track"><div class="progress-fill" style="width:${pct}%"></div></div>
         ${combo}
-        <span class="infinity-badge" title="Unlimited lives — wrong answers just come back around">&infin;</span>
+        ${inkBadgeHtml()}
       </div>
       ${bodyHtml}
     `;
@@ -2292,15 +2390,17 @@
     if (ex.type === "matching") return renderMatching(ex);
   }
 
+  const PRAISE = ["Excellent!", "Well done!", "Beautiful!", "Exactly right!", "Masterful!", "Correct!"];
   function renderFeedback(correct, correctText, opts) {
     const delay = (opts && opts.delay) || (correct ? ADVANCE_DELAY_CORRECT : ADVANCE_DELAY_WRONG);
     const showSpeak = !!(opts && opts.spoken);
     const farsi = opts && opts.farsiHint;
     return `
       <div class="feedback ${correct ? "correct" : "incorrect"}" role="status">
+        <span class="feedback-band" aria-hidden="true"></span>
         <span class="feedback-icon">${correct ? ICON_CHECK_BIG : ICON_X_BIG}</span>
         <div class="feedback-text">
-          <div class="title">${correct ? "Correct" : "Not quite"}</div>
+          <div class="title">${correct ? PRAISE[Math.floor(Math.random() * PRAISE.length)] : "Not quite"}</div>
           ${correct ? "" : `<div class="detail">${correctText}${farsi ? `<span class="farsi-hint" dir="rtl" lang="fa">${farsi}</span>` : ""}</div>`}
         </div>
         ${showSpeak ? `<button class="speak-btn" id="feedbackSpeakBtn" title="Play pronunciation" aria-label="Play pronunciation">${ICON_SPEAKER}</button>` : ""}
@@ -2774,7 +2874,12 @@
   // ---------- SUMMARY / FAIL ----------
   function renderSummary() {
     const perfect = session.mistakes === 0;
-    const xpEarned = 10 + (perfect ? 5 : 0);
+    const inkBonus = session.mode === "lesson" ? inkLeft() : (perfect ? 5 : 0);
+    const xpEarned = 10 + inkBonus;
+    const answered = session.solved.size + session.mistakes;
+    const accuracy = answered ? Math.round((session.solved.size / answered) * 100) : 100;
+    const secs = session.startedAt ? Math.round((Date.now() - session.startedAt) / 1000) : 0;
+    const timeText = `${Math.floor(secs / 60)}:${String(secs % 60).padStart(2, "0")}`;
     // XP/streak/completedLessons are awarded as a side effect of
     // rendering, not from a single guarded call site -- renderExercise()
     // reaches this function every time its queue is empty, and while every
@@ -2788,6 +2893,7 @@
     if (!session.summarized) {
       session.summarized = true;
       progress.xp += xpEarned;
+      addDayXp(xpEarned);
       if (session.mode === "lesson" && !progress.completedLessons.includes(session.lesson.id)) {
         progress.completedLessons.push(session.lesson.id);
         justCompletedLevelId = checkLevelComplete(session.lesson.levelId);
@@ -2807,10 +2913,15 @@
         <svg class="medal" viewBox="0 0 120 120" aria-hidden="true"><g class="medal-spin" fill="var(--gold-wash)" stroke="var(--gold)" stroke-width="1.2"><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(0.0 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(22.5 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(45.0 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(67.5 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(90.0 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(112.5 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(135.0 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(157.5 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(180.0 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(202.5 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(225.0 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(247.5 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(270.0 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(292.5 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(315.0 60 60)"/><ellipse cx="60" cy="22" rx="8" ry="20" transform="rotate(337.5 60 60)"/></g><circle cx="60" cy="60" r="40" fill="var(--gold)"/><polygon points="60.00,23.00 70.84,33.84 86.16,33.84 86.16,49.16 97.00,60.00 86.16,70.84 86.16,86.16 70.84,86.16 60.00,97.00 49.16,86.16 33.84,86.16 33.84,70.84 23.00,60.00 33.84,49.16 33.84,33.84 49.16,33.84" fill="var(--paper-raised)" stroke="var(--gold-bright)" stroke-width="1.5"/><circle cx="60" cy="60" r="17" fill="none" stroke="var(--gold)" stroke-width="1.5"/><polygon points="60.00,48.00 63.51,51.51 68.49,51.51 68.49,56.49 72.00,60.00 68.49,63.51 68.49,68.49 63.51,68.49 60.00,72.00 56.49,68.49 51.51,68.49 51.51,63.51 48.00,60.00 51.51,56.49 51.51,51.51 56.49,51.51" fill="var(--gold)"/><circle cx="60" cy="60" r="3.2" fill="var(--paper-raised)"/></svg>
         <h2>${summaryTitle}</h2>
         <p>${session.lesson.title}${session.lesson.titleNative ? ` &middot; ${session.lesson.titleNative}` : ""}</p>
-        <div class="summary-stats">
-          <div class="stat-block"><span class="num">+<b data-count="${xpEarned}">0</b></span><span class="lbl">XP</span></div>
-          <div class="stat-block"><span class="num"><b data-count="${session.mistakes}">0</b></span><span class="lbl">Mistakes</span></div>
-          <div class="stat-block"><span class="num"><b data-count="${progress.streak}">0</b></span><span class="lbl">Day streak</span></div>
+        <div class="summary-cards">
+          <div class="summary-card gold"><span class="lbl">XP</span><span class="num">+<b data-count="${xpEarned}">0</b></span></div>
+          <div class="summary-card teal"><span class="lbl">Accuracy</span><span class="num"><b data-count="${accuracy}">0</b>%</span></div>
+          <div class="summary-card ink"><span class="lbl">Time</span><span class="num">${timeText}</span></div>
+        </div>
+        ${inkBonus && session.mode === "lesson" ? `<p class="summary-ink">+${inkBonus} XP for ink left in the well</p>` : ""}
+        <div class="summary-lamp">
+          <span class="summary-lamp-icon">${ICON_FLAME}</span>
+          <div><b>${progress.streak}-day streak</b><span>${todayXp() >= DAILY_GOAL_XP ? "Today's lamp is lit" : `${Math.max(0, DAILY_GOAL_XP - todayXp())} XP more to light today's lamp`}</span></div>
         </div>
         <button class="btn btn-primary" id="continueHome">Continue</button>
       </div>
