@@ -1916,7 +1916,7 @@
         return `
           <div class="path-step" style="--zig:${shift}">
             ${isCurrent ? `<span class="path-begin">Begin</span>` : ""}
-            <button class="path-node ${state}" data-lesson="${lesson.id}" ${unlocked ? "" : "disabled"} title="${label}" aria-label="${label}${done ? " (done)" : !unlocked ? " (locked)" : ""}">
+            <button class="path-node ${state}" data-lesson="${lesson.id}" ${unlocked ? "" : `data-jump="1"`} title="${label}" aria-label="${label}${done ? " (done)" : !unlocked ? " (locked)" : ""}">
               ${PATH_STAR}<span class="path-inner">${inner}</span>
             </button>
             ${isCurrent ? `<span class="path-caption" dir="auto">${lesson.title}</span>` : ""}
@@ -1930,7 +1930,7 @@
             <div class="cd-label">
               <span class="cd-title">${ch.stem}</span>
               ${ch.native ? `<span class="cd-native" dir="auto">${ch.native}</span>` : ""}
-              <span class="cd-meta">${ch.lessons.filter(l => progress.completedLessons.includes(l.id)).length}/${ch.lessons.length}${chapterTopic(ch) ? ` · <button class="chapter-notes-btn" data-topic="${chapterTopic(ch)}" aria-label="Grammar notes for ${ch.stem}">Notes</button>` : ""}</span>
+              <span class="cd-meta">${ch.lessons.filter(l => progress.completedLessons.includes(l.id)).length}/${ch.lessons.length}${chDone ? "" : ` · <button class="chapter-skip-btn" data-first="${ch.lessons[0].id}" data-last="${ch.lessons[ch.lessons.length - 1].id}">Skip</button>`}${chapterTopic(ch) ? ` · <button class="chapter-notes-btn" data-topic="${chapterTopic(ch)}" aria-label="Grammar notes for ${ch.stem}">Notes</button>` : ""}</span>
             </div>
             <span class="cd-line" aria-hidden="true"></span>
           </div>`}
@@ -1939,7 +1939,11 @@
         </section>`;
     }).join("");
 
+    const levelSkipHtml = (!levelComplete && levelLessons.length > 4)
+      ? `<button class="jump-link" id="jumpLevelBtn">Know ${level.cefr || "this level"} already? Test out of the whole level</button>` : "";
     screenEl.innerHTML = `
+      ${levelLessons.length ? heroHtml : ""}
+      ${levelLessons.length ? levelSkipHtml : ""}
       <div class="level-progress-card">
         <div class="progress-ring" aria-hidden="true"><svg viewBox="0 0 84 84"><circle class="ring-track" cx="42" cy="42" r="36" fill="none" stroke-width="7"/><circle class="ring-fill" cx="42" cy="42" r="36" fill="none" stroke-width="7" stroke-linecap="round" transform="rotate(-90 42 42)" stroke-dasharray="${(overallPct / 100 * 226.2).toFixed(1)} 226.2"/><polygon class="ring-star" points="42.00,22.00 47.86,27.86 56.14,27.86 56.14,36.14 62.00,42.00 56.14,47.86 56.14,56.14 47.86,56.14 42.00,62.00 36.14,56.14 27.86,56.14 27.86,47.86 22.00,42.00 27.86,36.14 27.86,27.86 36.14,27.86" stroke-width="1.4"/><circle class="ring-dot" cx="42" cy="42" r="5"/></svg></div>
         <div class="waveform">${waveformBars(overallPct)}</div>
@@ -1965,8 +1969,7 @@
       </div>
       ${!levelLessons.length
         ? `<div class="level-locked-note">Lessons for ${level.cefr} are still being prepared and will appear here soon.</div>`
-        : `${heroHtml}
-           ${dailyGoalHtml()}
+        : `${dailyGoalHtml()}
            <div class="path">${pathHtml}</div>`
       }
     `;
@@ -2008,12 +2011,23 @@
     setTab("path");
     const curNode = screenEl.querySelector(".path-node.current");
     void curNode;
-    screenEl.querySelectorAll(".path-node:not(:disabled)").forEach(row => {
+    screenEl.querySelectorAll(".path-node").forEach(row => {
       row.addEventListener("click", () => {
         const lesson = flatLessons.find(l => l.id === row.dataset.lesson);
-        if (lesson) startLesson(lesson);
+        if (!lesson) return;
+        if (row.dataset.jump) offerJump("lesson", lesson);
+        else startLesson(lesson);
       });
     });
+    screenEl.querySelectorAll(".chapter-skip-btn").forEach(btn => {
+      btn.addEventListener("click", () => {
+        const a = flatLessons.findIndex(l => l.id === btn.dataset.first);
+        const b = flatLessons.findIndex(l => l.id === btn.dataset.last);
+        if (a >= 0 && b >= a) offerJump("chapter", flatLessons[b], flatLessons.slice(a, b + 1));
+      });
+    });
+    const jumpLevelBtn = document.getElementById("jumpLevelBtn");
+    if (jumpLevelBtn) jumpLevelBtn.addEventListener("click", () => offerJump("level", levelLessons[levelLessons.length - 1], levelLessons));
   }
 
   // ---------- LESSON / REVIEW ----------
@@ -2185,6 +2199,64 @@
     return withoutWordOrder(gids, gid => exerciseIndex.get(gid).exercise);
   }
 
+  // ---- Jump ahead (Duolingo-style test-out) ----
+  // kind: "lesson" (unlock a locked lesson), "chapter" (skip a chapter) or
+  // "level" (skip the whole level). Passing = at most 3 mistakes (3 drops of
+  // ink); the 4th mistake ends the test. A pass marks every lesson of this
+  // level up to the target (inclusive for chapter/level, exclusive for a
+  // single lesson, which becomes the current one) as completed.
+  const JUMP_INK = 3;
+  function offerJump(kind, target, scope) {
+    const old = document.getElementById("jumpSheet"); if (old) old.remove();
+    const what = kind === "lesson" ? `Jump to lesson ${target.number}?` : kind === "chapter" ? "Skip this chapter?" : "Test out of the whole level?";
+    const body = kind === "lesson"
+      ? `Pass a short test on <b>${target.title}</b> to unlock it. Every lesson before it will count as done.`
+      : kind === "chapter" ? `Pass a short test on this chapter's lessons and they'll all count as done.`
+      : `A test drawn from every lesson in this level. Pass it and the whole level counts as done.`;
+    const sheet = document.createElement("div");
+    sheet.className = "jump-sheet"; sheet.id = "jumpSheet";
+    sheet.innerHTML = `
+      <div class="jump-card" role="dialog" aria-modal="true" aria-labelledby="jumpTitle">
+        ${PATH_STAR.replace('class="path-star"', 'class="jump-star"')}
+        <h3 id="jumpTitle">${what}</h3>
+        <p>${body}</p>
+        <p class="jump-rule">You have ${JUMP_INK} drops of ink: the ${JUMP_INK + 1}th mistake ends the test.</p>
+        <button class="btn btn-primary btn-block" id="jumpGo">Start test</button>
+        <button class="btn btn-ghost btn-block" id="jumpCancel">Not now</button>
+      </div>`;
+    document.body.appendChild(sheet);
+    const close = () => sheet.remove();
+    sheet.addEventListener("click", e => { if (e.target === sheet) close(); });
+    document.getElementById("jumpCancel").addEventListener("click", close);
+    document.getElementById("jumpGo").addEventListener("click", () => { close(); startJumpTest(kind, target, scope || [target]); });
+  }
+  function startJumpTest(kind, target, scope) {
+    const pool = [];
+    scope.filter(l => !l.readingPassage).forEach(l => l.exercises.forEach((ex, i) => {
+      if (exerciseAllowed(ex) && ex.type !== "comprehension") pool.push(buildQueueItem(ex, `${l.id}:${i}`, pool.length, l));
+    }));
+    if (!pool.length) return;
+    const want = kind === "lesson" ? 10 : kind === "chapter" ? 14 : 18;
+    let queue = spreadBySentence(shuffled(pool)).slice(0, want);
+    queue = queue.map((q, i) => ({ ...q, _idx: i, _synthetic: true }));
+    const level = flatLessons.filter(l => l.levelId === target.levelId);
+    const upto = level.indexOf(target) + (kind === "lesson" ? 0 : 1);
+    session = {
+      lesson: { id: "__jump__", title: kind === "lesson" ? `Jump to lesson ${target.number}` : kind === "chapter" ? "Chapter test" : "Level test", titleNative: target.titleNative || "", levelId: target.levelId },
+      mode: "jump",
+      jumpKind: kind,
+      jumpMark: level.slice(0, Math.max(0, upto)).map(l => l.id),
+      inkMax: JUMP_INK,
+      queue,
+      total: queue.length,
+      solved: new Set(),
+      mistakes: 0,
+      combo: 0,
+      startedAt: Date.now(),
+    };
+    renderExercise();
+  }
+
   function startReview() {
     const gids = reviewableMissed();
     if (gids.length === 0) return;
@@ -2265,7 +2337,7 @@
   // (wrong answers still come back around) -- ink left at the end is what
   // turns into bonus XP on the summary.
   const INK_DROPS = 5;
-  function inkLeft() { return Math.max(0, INK_DROPS - ((session && session.mistakes) || 0)); }
+  function inkLeft() { return Math.max(0, ((session && session.inkMax) || INK_DROPS) - ((session && session.mistakes) || 0)); }
   function inkBadgeHtml() {
     const left = inkLeft();
     return `<span class="ink-badge ${left === 0 ? "dry" : ""}" title="Ink: each mistake spends a drop; ink left at the end becomes bonus XP"><svg viewBox="0 0 20 24" width="18" height="21" aria-hidden="true"><path d="M10 2c3 5 7 9 7 13a7 7 0 01-14 0c0-4 4-8 7-13z" fill="currentColor"/><path d="M7 15.5a3 3 0 002.6 3" fill="none" stroke="var(--paper-raised)" stroke-width="1.6" stroke-linecap="round"/></svg><b>${left}</b></span>`;
@@ -2479,7 +2551,7 @@
   }
 
   function renderExercise() {
-    if (session.queue.length === 0) return renderSummary();
+    if (session.queue.length === 0 || session.jumpFailed) return renderSummary();
 
     const ex = currentExercise();
 
@@ -2559,6 +2631,9 @@
       }
       const [wrong] = session.queue.splice(0, 1);
       session.queue.push(wrong);
+      if (session.mode === "jump" && session.mistakes > session.inkMax) {
+        session.jumpFailed = true;
+      }
     }
     saveProgress();
     refreshTopStats();
@@ -2976,7 +3051,8 @@
   function renderSummary() {
     const perfect = session.mistakes === 0;
     const inkBonus = session.mode === "lesson" ? inkLeft() : (perfect ? 5 : 0);
-    const xpEarned = 10 + inkBonus;
+    const jumpPassed = session.mode === "jump" && !session.jumpFailed;
+    const xpEarned = session.mode === "jump" ? (jumpPassed ? 20 : 0) : 10 + inkBonus;
     const answered = session.solved.size + session.mistakes;
     const accuracy = answered ? Math.round((session.solved.size / answered) * 100) : 100;
     const secs = session.startedAt ? Math.round((Date.now() - session.startedAt) / 1000) : 0;
@@ -2996,6 +3072,10 @@
       session.summarized = true;
       progress.xp += xpEarned;
       addDayXp(xpEarned);
+      if (jumpPassed) {
+        session.jumpMark.forEach(id => { if (!progress.completedLessons.includes(id)) progress.completedLessons.push(id); });
+        justCompletedLevelId = checkLevelComplete(session.lesson.levelId);
+      }
       if (session.mode === "lesson" && !progress.completedLessons.includes(session.lesson.id)) {
         progress.completedLessons.push(session.lesson.id);
         justCompletedLevelId = checkLevelComplete(session.lesson.levelId);
@@ -3005,7 +3085,9 @@
       refreshTopStats();
     }
 
-    const summaryTitle = perfect
+    const summaryTitle = session.mode === "jump"
+      ? (jumpPassed ? (session.jumpKind === "lesson" ? "Jumped ahead!" : session.jumpKind === "chapter" ? "Chapter skipped!" : "Level complete!") : "Not this time")
+      : perfect
       ? "Perfect run"
       : session.mode === "mistakes" ? "Review complete"
       : session.mode === "revision" ? "Revision complete"
@@ -3021,6 +3103,7 @@
           <div class="summary-card teal"><span class="lbl">Accuracy</span><span class="num"><b data-count="${accuracy}">0</b>%</span></div>
           <div class="summary-card ink"><span class="lbl">Time</span><span class="num">${timeText}</span></div>
         </div>
+        ${session.mode === "jump" ? `<p class="summary-ink">${jumpPassed ? `${session.jumpMark.length} lesson${session.jumpMark.length === 1 ? "" : "s"} marked as done` : "The ink ran dry — keep practising and try again any time."}</p>` : ""}
         ${sealEarned ? `<div class="summary-seal">${PATH_SEAL}<div><b>Chapter seal earned</b><span>${sealEarned} — every lesson complete</span></div></div>` : ""}
         ${inkBonus && session.mode === "lesson" ? `<p class="summary-ink">+${inkBonus} XP for ink left in the well</p>` : ""}
         <div class="summary-lamp">
