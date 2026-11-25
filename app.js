@@ -298,6 +298,15 @@
     osc.stop(t0 + duration + 0.03);
   }
 
+  // A soft rising chord for seals, level-ups and milestones.
+  function playSealSound() {
+    if (!soundEnabled) return;
+    try {
+      withRunningAudioCtx(ctx => {
+        [523.25, 659.25, 783.99, 1046.5].forEach((f, i) => playTone(ctx, f, i * 0.09, 0.5, 0.12));
+      });
+    } catch (e) { /* audio unavailable */ }
+  }
   function playCorrectSound() {
     if (!soundEnabled) return;
     withRunningAudioCtx(ctx => {
@@ -754,6 +763,8 @@
       celebratedLevels: union(local.celebratedLevels, remote.celebratedLevels),
       srs: mergeSrs(local.srs, remote.srs),
       dayXp: mergeDayXp(local.dayXp, remote.dayXp),
+      activeDays: union(local.activeDays, remote.activeDays).slice(-90),
+      perfectLessons: union(local.perfectLessons, remote.perfectLessons),
     });
   }
 
@@ -778,6 +789,7 @@
       const yesterday = new Date(Date.now() - 86400000).toDateString();
       progress.streak = progress.lastActiveDate === yesterday ? progress.streak + 1 : 1;
       progress.lastActiveDate = today;
+      progress.activeDays = (progress.activeDays || []).filter(d => d !== today).concat(today).slice(-90);
       // The lastActiveDate guard above only lets this branch run once per
       // real calendar day, and streak either increments by exactly 1 or
       // resets to 1 -- so hitting an exact milestone value only ever
@@ -790,17 +802,37 @@
   // milestone is a nice nudge, not something that should block the flow
   // back to the roadmap the way a level-complete celebration does.
   function showStreakMilestoneToast(days) {
-    const toast = document.createElement("div");
-    toast.className = "streak-toast";
-    toast.innerHTML = `<span class="streak-toast-flame">${ICON_FLAME}</span><span class="streak-toast-text"><b>${days}-day streak!</b> Keep it going.</span>`;
-    document.body.appendChild(toast);
-    haptic([15, 30, 15]);
-    requestAnimationFrame(() => toast.classList.add("show"));
-    setTimeout(() => {
-      toast.classList.remove("show");
-      setTimeout(() => toast.remove(), 400);
-    }, 3200);
+    const ov = document.createElement("div");
+    ov.className = "milestone-overlay";
+    ov.innerHTML = `
+      <div class="milestone-card" role="dialog" aria-modal="true">
+        <div class="milestone-lamp">${ICON_FLAME}</div>
+        <div class="milestone-num">${days}</div>
+        <h3>${days}-day streak!</h3>
+        <p>Your lamp has stayed lit ${days} days in a row. Keep it burning tomorrow.</p>
+        ${weekStripHtml()}
+        <button class="btn btn-primary btn-block" id="milestoneOk">Continue</button>
+      </div>`;
+    document.body.appendChild(ov);
+    haptic([15, 30, 15, 30, 40]);
+    playSealSound();
+    fireConfetti();
+    const close = () => ov.remove();
+    ov.querySelector("#milestoneOk").addEventListener("click", close);
+    ov.addEventListener("click", ev => { if (ev.target === ov) close(); });
   }
+  // The last 7 days, each a small star: gold when that day had a lesson.
+  function weekStripHtml() {
+    const days = new Set(progress.activeDays || []);
+    const out = [];
+    for (let i = 6; i >= 0; i--) {
+      const d = new Date(Date.now() - i * 86400000);
+      const on = days.has(d.toDateString());
+      out.push(`<span class="week-day ${on ? "on" : ""} ${i === 0 ? "today" : ""}"><svg viewBox="0 0 32 32" aria-hidden="true"><polygon points="16,1 20.4,5.4 26.6,5.4 26.6,11.6 31,16 26.6,20.4 26.6,26.6 20.4,26.6 16,31 11.6,26.6 5.4,26.6 5.4,20.4 1,16 5.4,11.6 5.4,5.4 11.6,5.4"/></svg><b>${d.toLocaleDateString("en", { weekday: "narrow" })}</b></span>`);
+    }
+    return `<div class="week-strip" aria-label="Last 7 days">${out.join("")}</div>`;
+  }
+
 
   // Animates every [data-count] element's textContent from 0 up to its
   // target integer -- purely decorative, so a reduced-motion preference
@@ -850,6 +882,18 @@
 
   function nativeTokens(s) {
     return s.trim().replace(/[.,!?;:،؟!""«»—–]/g, "").split(/\s+/).filter(Boolean);
+  }
+
+  // A finished lesson "fades" (like a cracked skill) once its review cards
+  // have been due for more than three days -- tapping it re-runs the lesson.
+  function lessonNeedsRefresh(lesson) {
+    const srs = progress.srs || {};
+    const limit = Date.now() - 3 * 86400000;
+    for (let i = 0; i < (lesson.exercises || []).length; i++) {
+      const c = srs[`${lesson.id}:${i}`];
+      if (c && c.due < limit) return true;
+    }
+    return false;
   }
 
   function isLessonUnlocked(flatIndex) {
@@ -1580,6 +1624,7 @@
 
     document.addEventListener("keydown", e => {
       if (advanceTimer && e.key === "Enter") { e.preventDefault(); cancelAdvance(); renderExercise(); return; }
+      if (e.key === "Enter") { const cb = document.getElementById("checkBtn"); if (cb && !cb.disabled) { e.preventDefault(); cb.click(); return; } }
       if (/^[1-4]$/.test(e.key)) {
         const opts = Array.from(document.querySelectorAll(".options .option:not(:disabled)"));
         const opt = opts[Number(e.key) - 1];
@@ -1656,6 +1701,29 @@
     });
     return seals;
   }
+  function achievements() {
+    const allXp = COURSES.reduce((s, c) => s + ((c.id === activeCourseId ? progress.xp : (readCourseStats(c.id) || {}).xp) || 0), 0);
+    const done = progress.completedLessons.length;
+    const seals = chapterSealsEarned();
+    const words = (progress.wordHoard || []).length;
+    const perfect = (progress.perfectLessons || []).length;
+    const levels = (progress.celebratedLevels || []).length;
+    const days = (progress.activeDays || []).length;
+    return [
+      { id: "first", name: "First Step", desc: "Finish your first lesson", got: done >= 1, glyph: "1" },
+      { id: "ten", name: "Ten Stars", desc: "Finish 10 lessons", got: done >= 10, glyph: "10" },
+      { id: "hundred", name: "Centurion", desc: "Finish 100 lessons", got: done >= 100, glyph: "100" },
+      { id: "seal", name: "Sealed", desc: "Earn a chapter seal", got: seals >= 1, glyph: "✦" },
+      { id: "perfect", name: "Flawless", desc: "A lesson with no mistakes", got: perfect >= 1, glyph: "✓" },
+      { id: "perfect10", name: "Calligrapher", desc: "10 flawless lessons", got: perfect >= 10, glyph: "✒" },
+      { id: "words100", name: "Word Hoard", desc: "Collect 100 words", got: words >= 100, glyph: "Aa" },
+      { id: "week", name: "Lamp Keeper", desc: "A 7-day streak", got: progress.streak >= 7, glyph: "7" },
+      { id: "month", name: "Eternal Flame", desc: "A 30-day streak", got: progress.streak >= 30, glyph: "30" },
+      { id: "xp1000", name: "Scholar", desc: "1,000 XP across courses", got: allXp >= 1000, glyph: "1k" },
+      { id: "level", name: "Level Master", desc: "Complete a whole level", got: levels >= 1, glyph: "★" },
+      { id: "days30", name: "Regular", desc: "Study on 30 different days", got: days >= 30, glyph: "☾" },
+    ];
+  }
   function renderProfile() {
     session = null;
     setTab("me");
@@ -1685,6 +1753,21 @@
           <div class="profile-stat"><span class="ps-icon seal">${PATH_SEAL}</span><b data-count="${chapterSealsEarned()}">0</b><span>chapter seals</span></div>
           <div class="profile-stat"><span class="ps-icon word"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3h11a3 3 0 013 3v15l-3-2-3 2-3-2-3 2-3-2V6a3 3 0 013-3zM8 8h8M8 12h6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><b data-count="${(progress.wordHoard || []).length}">0</b><span>words collected</span></div>
         </div>
+        <section class="profile-section">
+          <h3>This week</h3>
+          ${weekStripHtml()}
+        </section>
+        <section class="profile-section">
+          <h3>Achievements <span class="ach-count">${achievements().filter(a => a.got).length}/${achievements().length}</span></h3>
+          <div class="ach-grid">
+            ${achievements().map(a => `
+              <div class="ach ${a.got ? "got" : ""}" title="${a.desc}">
+                <span class="ach-medal"><svg viewBox="0 0 60 60" aria-hidden="true"><g class="ach-petals">${[0,45,90,135,180,225,270,315].map(r => `<ellipse cx="30" cy="10" rx="4.5" ry="9" transform="rotate(${r} 30 30)"/>`).join("")}</g><circle class="ach-disc" cx="30" cy="30" r="18"/></svg><b>${a.glyph}</b></span>
+                <span class="ach-name">${a.name}</span>
+                <span class="ach-desc">${a.desc}</span>
+              </div>`).join("")}
+          </div>
+        </section>
         <section class="profile-section">
           <h3>Daily goal</h3>
           <p class="profile-sub">${xpToday >= goal ? "Today's lamp is lit." : `${goal - xpToday} XP more to light today's lamp.`}</p>
@@ -1828,6 +1911,29 @@
   const PATH_ICON_LOCK = `<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2.2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 11V7.6a4 4 0 018 0V11" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>`;
   const PATH_ICON_BOOK = `<svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M4 5c3-1 6-1 8 1 2-2 5-2 8-1v14c-3-1-6-1-8 1-2-2-5-2-8-1z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M12 6v14" stroke="currentColor" stroke-width="2"/></svg>`;
   const PATH_SEAL = `<svg viewBox="0 0 96 80" width="84" height="70" aria-hidden="true"><circle class="seal-disc" cx="48" cy="40" r="32"/><circle class="seal-ring" cx="48" cy="40" r="23" fill="none" stroke-width="1.6" stroke-dasharray="3 4"/><polygon class="seal-star" transform="translate(36 28) scale(0.75)" points="16,1 20.4,5.4 26.6,5.4 26.6,11.6 31,16 26.6,20.4 26.6,26.6 20.4,26.6 16,31 11.6,26.6 5.4,26.6 5.4,20.4 1,16 5.4,11.6 5.4,5.4 11.6,5.4"/></svg>`;
+  // Small line emblems for chapter dividers, picked by keywords in the
+  // chapter's English title.
+  const EMBLEMS = [
+    [/greet|hello|polite|welcome/i, '<path d="M8 21v-6.5a2 2 0 014 0V11a2 2 0 014 0v1.5a2 2 0 014 0V16c0 3-2 5-5 5h-3c-2 0-4-1-4-3"/><path d="M6 8c1-2 3-3 5-3"/>'],
+    [/family|kin|mother|father|parent|child/i, '<circle cx="9" cy="8" r="2.5"/><circle cx="16" cy="9.5" r="2"/><path d="M4.5 19c.5-3.5 2.3-5.5 4.5-5.5s4 2 4.5 5.5M13 19c.4-2.6 1.6-4 3-4s2.6 1.4 3 4"/>'],
+    [/home|house|room|flat|apartment/i, '<path d="M4 11l8-6.5 8 6.5"/><path d="M6.5 9.5V19h11V9.5"/><path d="M10.5 19v-5h3v5"/>'],
+    [/food|drink|cook|meal|café|tea|eat|restaurant/i, '<path d="M6 10h11v3a5.5 5.5 0 01-11 0z"/><path d="M17 11h1.5a2 2 0 010 4H17"/><path d="M9 4.5c0 1.5 1 1.5 1 3M12.5 4.5c0 1.5 1 1.5 1 3"/>'],
+    [/read|book|story|stories|tale|literature|poem/i, '<path d="M4 6c3-1 6-1 8 1 2-2 5-2 8-1v12c-3-1-6-1-8 1-2-2-5-2-8-1z"/><path d="M12 7v12"/>'],
+    [/travel|trip|road|direction|transport|getting around|city|town/i, '<path d="M12 21s-6-5.6-6-10a6 6 0 0112 0c0 4.4-6 10-6 10z"/><circle cx="12" cy="11" r="2.2"/>'],
+    [/weather|nature|season|winter|summer|sky|forest/i, '<circle cx="9" cy="9" r="3"/><path d="M9 3v1.5M3 9h1.5M4.8 4.8l1 1M13.2 4.8l-1 1"/><path d="M10 19h8a3 3 0 00.4-6 4 4 0 00-7.6-1A3.5 3.5 0 0010 19z"/>'],
+    [/work|job|office|business|money|shop|wealth/i, '<rect x="4" y="8" width="16" height="11" rx="2"/><path d="M9 8V6a1.5 1.5 0 011.5-1.5h3A1.5 1.5 0 0115 6v2M4 13h16"/>'],
+    [/school|study|studying|learn|language|letter|word|knowledge/i, '<path d="M3 9l9-4.5L21 9l-9 4.5z"/><path d="M7 11v4.5c2.8 2 7.2 2 10 0V11"/>'],
+    [/number|time|day|week|date|clock/i, '<circle cx="12" cy="12" r="8"/><path d="M12 7.5V12l3 2"/>'],
+    [/feel|love|heart|friend|people|emotion/i, '<path d="M12 19.5s-7-4.3-7-9.4A3.6 3.6 0 0112 8a3.6 3.6 0 017 2.1c0 5.1-7 9.4-7 9.4z"/>'],
+    [/sport|game|play|health|body/i, '<circle cx="12" cy="12" r="8"/><path d="M12 4c2.5 2.3 2.5 13.7 0 16M4 12c2.3-2.5 13.7-2.5 16 0"/>'],
+    [/proverb|wisdom|saying|faith|custom|culture|history|society/i, '<path d="M12 3l2.2 4.6 5 .6-3.7 3.5 1 5L12 14.3 7.5 16.7l1-5L4.8 8.2l5-.6z"/>'],
+  ];
+  function chapterEmblem(title) {
+    const hit = EMBLEMS.find(([re]) => re.test(title || ""));
+    const body = hit ? hit[1] : '<polygon points="12,2.5 14.8,6.4 19.6,6 18.4,10.6 21.5,14.3 17.1,16.2 16.4,21 12,18.8 7.6,21 6.9,16.2 2.5,14.3 5.6,10.6 4.4,6 9.2,6.4"/>';
+    return `<svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">${body}</svg>`;
+  }
+
   const GOAL_KEY = "muhkam-daily-goal";
   const GOAL_CHOICES = [{ xp: 10, name: "Casual" }, { xp: 20, name: "Regular" }, { xp: 30, name: "Serious" }, { xp: 50, name: "Intense" }];
   function dailyGoal() {
@@ -2000,13 +2106,16 @@
         const done = progress.completedLessons.includes(lesson.id);
         const isCurrent = !!currentLesson && lesson.id === currentLesson.id;
         const state = done ? "done" : isCurrent ? "current" : unlocked ? "unlocked" : "locked";
+        const perfect = done && (progress.perfectLessons || []).includes(lesson.id);
+        const faded = done && lessonNeedsRefresh(lesson);
+        const fx = lesson.id === _justCompletedId ? "just-done" : (isCurrent && _justCompletedId ? "just-unlocked" : "");
         const inner = done ? PATH_ICON_CHECK : !unlocked ? PATH_ICON_LOCK : lesson.readingPassage ? PATH_ICON_BOOK : `<span class="path-num">${lesson.number}</span>`;
         const shift = ZIG[nodeNo++ % ZIG.length];
         const label = `${lesson.title}${lesson.titleNative ? " · " + lesson.titleNative : ""}`;
         return `
           <div class="path-step" style="--zig:${shift}">
             ${isCurrent ? `<span class="path-begin">Begin</span>` : ""}
-            <button class="path-node ${state}" data-lesson="${lesson.id}" ${unlocked ? "" : `data-jump="1"`} title="${label}" aria-label="${label}${done ? " (done)" : !unlocked ? " (locked)" : ""}">
+            <button class="path-node ${state} ${perfect ? "perfect" : ""} ${faded ? "faded" : ""} ${fx}" data-lesson="${lesson.id}" ${unlocked ? "" : `data-jump="1"`} title="${label}" aria-label="${label}${done ? " (done)" : !unlocked ? " (locked)" : ""}">
               ${PATH_STAR}<span class="path-inner">${inner}</span>
             </button>
             ${isCurrent ? `<span class="path-caption" dir="auto">${lesson.title}</span>` : ""}
@@ -2018,6 +2127,7 @@
           <div class="chapter-divider">
             <span class="cd-line" aria-hidden="true"></span>
             <div class="cd-label">
+              <span class="cd-emblem" aria-hidden="true">${chapterEmblem(ch.stem)}</span>
               <span class="cd-title">${ch.stem}</span>
               ${ch.native ? `<span class="cd-native" dir="auto">${ch.native}</span>` : ""}
               <span class="cd-meta">${ch.lessons.filter(l => progress.completedLessons.includes(l.id)).length}/${ch.lessons.length}${chDone ? "" : ` · <button class="chapter-skip-btn" data-first="${ch.lessons[0].id}" data-last="${ch.lessons[ch.lessons.length - 1].id}">Skip</button>`}${chapterTopic(ch) ? ` · <button class="chapter-notes-btn" data-topic="${chapterTopic(ch)}" aria-label="Grammar notes for ${ch.stem}">Notes</button>` : ""}</span>
@@ -2099,6 +2209,8 @@
       btn.addEventListener("click", () => showChapterNotes(course.grammarTopics[btn.dataset.topic]));
     });
     setTab("path");
+    _justCompletedId = null;
+    document.body.dataset.level = level.id;
     const curNode = screenEl.querySelector(".path-node.current");
     void curNode;
     screenEl.querySelectorAll(".path-node").forEach(row => {
@@ -2452,6 +2564,8 @@
       </div>
       ${bodyHtml}
     `;
+    const card = screenEl.querySelector(".card");
+    if (card) card.classList.add("ex-slide-in");
     document.getElementById("exitBtn").addEventListener("click", () => {
       cancelAdvance();
       if (_passagePlaying) { _passageToken++; stopPassageAudio(); _passagePlaying = false; }
@@ -2699,6 +2813,14 @@
     progress.srs[gid] = { reps: nextReps, ease: nextEase, interval: nextInterval, due: Date.now() + nextInterval * SRS_DAY_MS };
   }
 
+  function comboBurst(n) {
+    const el = document.createElement("div");
+    el.className = "combo-burst";
+    el.innerHTML = `<span>&times;${n}</span><small>in a row!</small>`;
+    document.body.appendChild(el);
+    setTimeout(() => el.remove(), 1400);
+  }
+
   function afterAnswer(correct) {
     const ex = currentExercise();
     correct ? playCorrectSound() : playIncorrectSound();
@@ -2708,6 +2830,7 @@
     if (correct) {
       session.solved.add(ex._idx);
       session.combo++;
+      if (session.combo >= 5 && session.combo % 5 === 0) comboBurst(session.combo);
       session.queue.shift();
       harvestWords(ex);
       const pos = progress.missedBank.indexOf(ex._gid);
@@ -2792,6 +2915,7 @@
         <div class="bank-pool" id="bankPool">
           ${tiles.map(t => `<button class="tile" data-id="${t.id}">${t.word}</button>`).join("")}
         </div>
+        <button class="btn btn-primary btn-block check-btn" id="checkBtn" disabled>Check</button>
         <div id="feedbackSlot"></div>
       </div>
     `);
@@ -2803,6 +2927,13 @@
     targetEl.setAttribute("dir", course.dir);
     poolEl.setAttribute("dir", course.dir);
     const poolTileEls = new Map();
+    const checkBtn = document.getElementById("checkBtn");
+    function syncCheck() { if (checkBtn) checkBtn.disabled = placedOrder.length === 0; }
+    if (checkBtn) checkBtn.addEventListener("click", () => {
+      if (checkBtn.disabled) return;
+      checkBtn.remove();
+      evaluate();
+    });
 
     poolEl.querySelectorAll(".tile").forEach(btn => {
       const id = Number(btn.dataset.id);
@@ -2823,9 +2954,7 @@
       targetBtn.addEventListener("click", () => removeTile(id, targetBtn));
       targetEl.appendChild(targetBtn);
 
-      if (placedOrder.length === ex.answer.length) {
-        evalTimer = setTimeout(evaluate, 320);
-      }
+      syncCheck();
     }
 
     function removeTile(id, targetBtn) {
@@ -2834,6 +2963,7 @@
       const idx = placedOrder.indexOf(id);
       if (idx === -1) return;
       placedOrder.splice(idx, 1);
+      syncCheck();
       targetBtn.classList.add("tile-remove");
       targetBtn.addEventListener("animationend", () => targetBtn.remove(), { once: true });
       poolTileEls.get(id).classList.remove("tile-used");
@@ -2981,6 +3111,7 @@
         <div class="bank-pool" id="bankPool">
           ${bank.map(t => `<button class="tile" data-id="${t.id}">${t.word}</button>`).join("")}
         </div>
+        <button class="btn btn-primary btn-block check-btn" id="checkBtn" disabled>Check</button>
         <div id="feedbackSlot"></div>
       </div>
     `);
@@ -2993,6 +3124,13 @@
     targetEl.setAttribute("dir", course.dir);
     poolEl.setAttribute("dir", course.dir);
     const poolTileEls = new Map();
+    const checkBtn = document.getElementById("checkBtn");
+    function syncCheck() { if (checkBtn) checkBtn.disabled = placedOrder.length === 0; }
+    if (checkBtn) checkBtn.addEventListener("click", () => {
+      if (checkBtn.disabled) return;
+      checkBtn.remove();
+      evaluate();
+    });
 
     poolEl.querySelectorAll(".tile").forEach(btn => {
       const id = Number(btn.dataset.id);
@@ -3013,9 +3151,7 @@
       targetBtn.addEventListener("click", () => removeTile(id, targetBtn));
       targetEl.appendChild(targetBtn);
 
-      if (placedOrder.length === ex.answer.length) {
-        evalTimer = setTimeout(evaluate, 320);
-      }
+      syncCheck();
     }
 
     function removeTile(id, targetBtn) {
@@ -3024,6 +3160,7 @@
       const idx = placedOrder.indexOf(id);
       if (idx === -1) return;
       placedOrder.splice(idx, 1);
+      syncCheck();
       targetBtn.classList.add("tile-remove");
       targetBtn.addEventListener("animationend", () => targetBtn.remove(), { once: true });
       poolTileEls.get(id).classList.remove("tile-used");
@@ -3140,6 +3277,7 @@
   }
 
   // ---------- SUMMARY / FAIL ----------
+  let _justCompletedId = null;
   function renderSummary() {
     const perfect = session.mistakes === 0;
     const inkBonus = session.mode === "lesson" ? inkLeft() : (perfect ? 5 : 0);
@@ -3160,6 +3298,10 @@
     // right on its own.
     let justCompletedLevelId = null;
     let sealEarned = null;
+    if (!session.summarized && session.mode === "lesson" && session.mistakes === 0) {
+      progress.perfectLessons = progress.perfectLessons || [];
+      if (!progress.perfectLessons.includes(session.lesson.id)) progress.perfectLessons.push(session.lesson.id);
+    }
     if (!session.summarized) {
       session.summarized = true;
       progress.xp += xpEarned;
@@ -3172,6 +3314,7 @@
         progress.completedLessons.push(session.lesson.id);
         justCompletedLevelId = checkLevelComplete(session.lesson.levelId);
         sealEarned = chapterJustSealed(session.lesson);
+        _justCompletedId = session.lesson.id;
       }
       updateStreakOnCompletion();
       refreshTopStats();
@@ -3210,6 +3353,7 @@
       session = null;
       renderHome();
     });
+    if (sealEarned || jumpPassed) playSealSound();
     if (justCompletedLevelId) showLevelCompleteCelebration(justCompletedLevelId);
   }
 
@@ -3304,7 +3448,12 @@
     document.getElementById("levelCompleteTitle").textContent = "Level Complete";
     document.getElementById("levelCompleteSub").textContent =
       `${level.label}${level.labelNative ? ` · ${level.labelNative}` : ""} — ${levelLessons.length} lessons, done.`;
+    const badge = document.getElementById("levelCompleteBadge");
+    if (badge && !badge.parentElement.querySelector(".level-rosette")) {
+      badge.insertAdjacentHTML("beforebegin", `<svg class="level-rosette" viewBox="0 0 120 120" aria-hidden="true"><g class="rosette-petals">${Array.from({ length: 16 }, (_, i) => `<ellipse cx="60" cy="18" rx="7" ry="17" transform="rotate(${i * 22.5} 60 60)"/>`).join("")}</g><circle class="rosette-disc" cx="60" cy="60" r="34"/><polygon class="rosette-star" transform="translate(38 38) scale(1.375)" points="16,1 20.4,5.4 26.6,5.4 26.6,11.6 31,16 26.6,20.4 26.6,26.6 20.4,26.6 16,31 11.6,26.6 5.4,26.6 5.4,20.4 1,16 5.4,11.6 5.4,5.4 11.6,5.4"/></svg>`);
+    }
     modal.classList.remove("hidden");
+    playSealSound();
     fireConfetti();
     haptic([20, 40, 20, 40, 40]);
     const closeBtn = document.getElementById("levelCompleteCloseBtn");
