@@ -3249,3 +3249,24 @@ button.stat:hover { border-color: var(--gold); color: var(--ink); }
 @keyframes jumpFade { from { opacity: 0; } }
 @keyframes jumpUp { from { transform: translateY(40px); opacity: 0; } }
 @media (min-width: 821px) { .jump-sheet { align-items: center; } }
+
+/* lessons get the whole screen on phones: no brand/stats bar (Duolingo-style) */
+@media (max-width: 820px) {
+  body.in-lesson .topbar { display: none; }
+  body.in-lesson .screen { padding-top: max(14px, env(safe-area-inset-top, 0px)); }
+}
+/* collapsed grammar note = a small pill, not an empty card */
+.grammar-panel:not([open]) {
+  display: block; width: fit-content; max-width: 100%;
+  padding: 0 16px 0 14px; margin: 0 auto 14px; border-radius: 999px;
+  background: var(--teal-wash); border-color: color-mix(in srgb, var(--teal) 40%, transparent);
+}
+.grammar-panel:not([open]) summary { min-height: 36px; padding: 6px 0; font-size: 0.72rem; }
+.grammar-panel summary::after {
+  content: ""; width: 7px; height: 7px; margin-left: 2px; flex-shrink: 0;
+  border-right: 2px solid var(--teal); border-bottom: 2px solid var(--teal);
+  transform: rotate(45deg) translateY(-2px); transition: transform 0.2s ease;
+}
+.grammar-panel[open] summary::after { transform: rotate(-135deg) translateY(-2px); }
+.grammar-panel[open] { padding: 4px 18px 16px; margin-bottom: 18px; }
+.course-card-native { overflow-wrap: normal; word-break: keep-all; hyphens: none; font-size: clamp(1.1rem, 5.2vw, 1.55rem); line-height: 1.2; }
