@@ -1888,6 +1888,14 @@
       } else pool.push(...run.lessons);
     });
     flushPool();
+    // Levels with no numbered lesson families (alphabet levels: Hebrew and
+    // Arabic letters) read best as one uninterrupted path.
+    const hasFamilies = runs.some(r => r.key.startsWith("s:") && r.lessons.length >= 2 && /\d+\s*$/.test(r.lessons[0].title || ""));
+    if (!hasFamilies && chapters.length > 1) {
+      const all = chapters.flatMap(c => c.lessons);
+      chapters.length = 0;
+      chapters.push({ stem: "", native: "", lessons: all, single: true });
+    }
     const ZIG = [0, -1, -2, -1, 0, 1, 2, 1];
     const chapterTopic = ch => {
       const l = ch.lessons.find(x => x.topicId && course.grammarTopics && course.grammarTopics[x.topicId]);
@@ -1916,17 +1924,16 @@
       }).join("");
       return `
         <section class="path-chapter">
-          <div class="chapter-band">
-            <div class="chapter-band-text">
-              <span class="chapter-band-eyebrow">${level.cefr} · Chapter ${ci + 1}</span>
-              <span class="chapter-band-title">${ch.stem}</span>
-              ${ch.native ? `<span class="chapter-band-native" dir="auto">${ch.native}</span>` : ""}
+          ${ch.single ? "" : `
+          <div class="chapter-divider">
+            <span class="cd-line" aria-hidden="true"></span>
+            <div class="cd-label">
+              <span class="cd-title">${ch.stem}</span>
+              ${ch.native ? `<span class="cd-native" dir="auto">${ch.native}</span>` : ""}
+              <span class="cd-meta">${ch.lessons.filter(l => progress.completedLessons.includes(l.id)).length}/${ch.lessons.length}${chapterTopic(ch) ? ` · <button class="chapter-notes-btn" data-topic="${chapterTopic(ch)}" aria-label="Grammar notes for ${ch.stem}">Notes</button>` : ""}</span>
             </div>
-            <div class="chapter-band-side">
-              <span class="chapter-band-count">${ch.lessons.filter(l => progress.completedLessons.includes(l.id)).length}/${ch.lessons.length}</span>
-              ${chapterTopic(ch) ? `<button class="chapter-notes-btn" data-topic="${chapterTopic(ch)}" aria-label="Grammar notes for ${ch.stem}">${PATH_ICON_BOOK}<span>Notes</span></button>` : ""}
-            </div>
-          </div>
+            <span class="cd-line" aria-hidden="true"></span>
+          </div>`}
           <div class="path-steps">${nodes}</div>
           ${ch.lessons.length > 1 ? `<div class="path-seal ${chDone ? "earned" : ""}" title="${chDone ? "Chapter seal earned" : "Chapter seal"}">${PATH_SEAL}</div>` : ""}
         </section>`;
@@ -1958,8 +1965,8 @@
       </div>
       ${!levelLessons.length
         ? `<div class="level-locked-note">Lessons for ${level.cefr} are still being prepared and will appear here soon.</div>`
-        : `${dailyGoalHtml()}
-           ${levelComplete ? heroHtml : ""}
+        : `${heroHtml}
+           ${dailyGoalHtml()}
            <div class="path">${pathHtml}</div>`
       }
     `;
@@ -2000,7 +2007,7 @@
     });
     setTab("path");
     const curNode = screenEl.querySelector(".path-node.current");
-    if (curNode) requestAnimationFrame(() => curNode.scrollIntoView({ block: "center", behavior: "smooth" }));
+    void curNode;
     screenEl.querySelectorAll(".path-node:not(:disabled)").forEach(row => {
       row.addEventListener("click", () => {
         const lesson = flatLessons.find(l => l.id === row.dataset.lesson);

@@ -3203,3 +3203,18 @@ button.stat:hover { border-color: var(--gold); color: var(--ink); }
   :root:not([data-theme]) .path-node.done .path-inner { color: #000; }
   :root:not([data-theme]) .path-node.done .path-star-face { fill: var(--gold); }
 }
+
+/* slim Duolingo-style chapter divider (replaces the big chapter band) */
+.chapter-divider { align-self: stretch; display: flex; align-items: center; gap: 12px; margin: 10px 0 2px; }
+.cd-line { flex: 1; height: 2px; min-width: 24px; background: linear-gradient(90deg, transparent, var(--gold-bright) 30%, var(--gold-bright) 70%, transparent); opacity: 0.7; }
+.cd-label { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 1px; max-width: 70%; }
+.cd-title { font-family: var(--font-display); font-weight: 700; font-size: 1.15rem; color: var(--ink); text-wrap: balance; }
+.cd-native { font-family: var(--font-native); color: var(--gold); font-size: 0.95rem; }
+.cd-meta { font-size: 0.78rem; font-weight: 800; color: var(--ink-soft); letter-spacing: 0.04em; }
+.chapter-divider .chapter-notes-btn {
+  display: inline; padding: 0; border: 0; background: none; border-radius: 0;
+  color: var(--gold); font: 800 0.78rem var(--font-body); text-decoration: underline; text-underline-offset: 3px; cursor: pointer;
+}
+.chapter-divider .chapter-notes-btn:hover { color: var(--primary); background: none; }
+.path-chapter { gap: 6px; }
+.chapter-hero { margin-bottom: 12px; }
