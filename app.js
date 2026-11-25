@@ -1459,6 +1459,7 @@
   }
 
   function wireGlobalUi() {
+    wireTabbar();
     themeToggleEl.addEventListener("click", toggleTheme);
     soundToggleEl.addEventListener("click", toggleSound);
     const wordOrderToggleEl = document.getElementById("wordOrderToggle");
@@ -1614,6 +1615,60 @@
       </div>
     `).join("");
     dialogueModal.classList.remove("hidden");
+  }
+
+  // Chapter notes: the grammar topic behind a chapter, shown in the same
+  // modal as the lesson dialogues but with the rule, pattern and fact too.
+  function showChapterNotes(topic) {
+    if (!topic) return;
+    const esc = s => String(s || "");
+    document.getElementById("dialogueTitle").innerHTML = esc(topic.title);
+    const dlg = (topic.dialogue || []).map(turn => `
+      <div class="dialogue-turn">
+        <span class="dialogue-speaker">${turn.sp}</span>
+        <p class="dialogue-native" dir="${course.dir}" lang="${course.lang}">${turn.native}</p>
+        <p class="dialogue-en">${turn.en}</p>
+      </div>`).join("");
+    document.getElementById("dialogueList").innerHTML = `
+      ${topic.pattern ? `<div class="notes-pattern" dir="auto">${esc(topic.pattern)}</div>` : ""}
+      ${topic.explanation ? `<p class="notes-expl">${esc(topic.explanation)}</p>` : ""}
+      ${topic.fact ? `<p class="notes-fact"><b>Did you know?</b> ${esc(topic.fact)}</p>` : ""}
+      ${dlg ? `<div class="notes-dialogue-label">Dialogue</div>${dlg}` : ""}`;
+    dialogueModal.classList.remove("hidden");
+  }
+
+  // Bottom tab bar (phones): Path / Review / Word hoard / Course. Hidden
+  // while a lesson is on screen so the exercise has the whole height.
+  function setTab(name) {
+    document.body.classList.toggle("in-lesson", name === "lesson");
+    document.querySelectorAll(".tabbar-btn").forEach(b => b.classList.toggle("active", b.dataset.tab === name));
+  }
+  function wireTabbar() {
+    const bar = document.getElementById("tabbar");
+    if (!bar || bar.dataset.wired) return;
+    bar.dataset.wired = "1";
+    bar.addEventListener("click", e => {
+      const btn = e.target.closest(".tabbar-btn");
+      if (!btn) return;
+      const tab = btn.dataset.tab;
+      if (tab === "path") { session = null; renderHome(); }
+      else if (tab === "words") document.getElementById("wordsStat").click();
+      else if (tab === "course") document.getElementById("courseToggle").click();
+      else if (tab === "review") {
+        const m = document.getElementById("mistakesStat"), pr = document.getElementById("practiceStat");
+        if (m && !m.classList.contains("hidden")) m.click();
+        else if (pr && !pr.classList.contains("hidden")) pr.click();
+        else showSoftToast("Finish a lesson first — review fills up as you learn.");
+      }
+    });
+  }
+  function showSoftToast(text) {
+    const toast = document.createElement("div");
+    toast.className = "streak-toast";
+    toast.innerHTML = `<span class="streak-toast-text">${text}</span>`;
+    document.body.appendChild(toast);
+    requestAnimationFrame(() => toast.classList.add("show"));
+    setTimeout(() => { toast.classList.remove("show"); setTimeout(() => toast.remove(), 400); }, 2600);
   }
 
   // ---------- HOME ----------
@@ -1807,6 +1862,10 @@
       else chapters.push({ stem, native: lesson.readingPassage ? "" : stemOf(lesson.titleNative), lessons: [lesson] });
     });
     const ZIG = [0, -1, -2, -1, 0, 1, 2, 1];
+    const chapterTopic = ch => {
+      const l = ch.lessons.find(x => x.topicId && course.grammarTopics && course.grammarTopics[x.topicId]);
+      return l ? l.topicId : "";
+    };
     let nodeNo = 0;
     const pathHtml = chapters.map((ch, ci) => {
       const chDone = ch.lessons.every(l => progress.completedLessons.includes(l.id));
@@ -1836,7 +1895,10 @@
               <span class="chapter-band-title">${ch.stem}</span>
               ${ch.native ? `<span class="chapter-band-native" dir="auto">${ch.native}</span>` : ""}
             </div>
-            <span class="chapter-band-count">${ch.lessons.filter(l => progress.completedLessons.includes(l.id)).length}/${ch.lessons.length}</span>
+            <div class="chapter-band-side">
+              <span class="chapter-band-count">${ch.lessons.filter(l => progress.completedLessons.includes(l.id)).length}/${ch.lessons.length}</span>
+              ${chapterTopic(ch) ? `<button class="chapter-notes-btn" data-topic="${chapterTopic(ch)}" aria-label="Grammar notes for ${ch.stem}">${PATH_ICON_BOOK}<span>Notes</span></button>` : ""}
+            </div>
           </div>
           <div class="path-steps">${nodes}</div>
           <div class="path-seal ${chDone ? "earned" : ""}" title="${chDone ? "Chapter seal earned" : "Chapter seal"}">${PATH_SEAL}</div>
@@ -1906,6 +1968,10 @@
         if (lesson) startLesson(lesson);
       });
     }
+    screenEl.querySelectorAll(".chapter-notes-btn").forEach(btn => {
+      btn.addEventListener("click", () => showChapterNotes(course.grammarTopics[btn.dataset.topic]));
+    });
+    setTab("path");
     const curNode = screenEl.querySelector(".path-node.current");
     if (curNode) requestAnimationFrame(() => curNode.scrollIntoView({ block: "center", behavior: "smooth" }));
     screenEl.querySelectorAll(".path-node:not(:disabled)").forEach(row => {
@@ -2177,6 +2243,7 @@
       stopPassageAudio();
       _passagePlaying = false;
     }
+    setTab("lesson");
     const pct = Math.round((session.solved.size / session.total) * 100);
     const combo = session.combo >= 2 ? `<span class="combo-badge">&times;${session.combo}</span>` : "";
 
