@@ -1336,9 +1336,12 @@
   }
   function courseCardHtml(meta) {
     const s = meta.id === activeCourseId ? { lessonsDone: progress.completedLessons.length, streak: progress.streak, xp: progress.xp } : readCourseStats(meta.id);
+    const total = (_courseSizes && _courseSizes[meta.id] && _courseSizes[meta.id].lessons) || 0;
+    const cardPct = s && total ? Math.min(100, Math.round((s.lessonsDone / total) * 100)) : 0;
     const statsHtml = s
-      ? `<span class="course-card-stats">
-          <span class="course-card-pill">${s.lessonsDone} lesson${s.lessonsDone === 1 ? "" : "s"}</span>
+      ? `<span class="course-card-progress" aria-label="${cardPct}% complete"><span class="course-card-progress-fill" style="width:${Math.max(cardPct, 2)}%"></span></span>
+        <span class="course-card-pct">${s.lessonsDone}/${total || "?"} lessons</span>
+        <span class="course-card-stats">
           <span class="course-card-pill">${s.xp} XP</span>
           ${s.streak > 0 ? `<span class="course-card-pill course-card-pill--streak">${s.streak}${ICON_FLAME}</span>` : ""}
         </span>`
@@ -1637,6 +1640,87 @@
     dialogueModal.classList.remove("hidden");
   }
 
+  // ---- Profile ("Me" tab) ----
+  function chapterSealsEarned() {
+    const stemOf = s => (s || "").replace(/\s*\d+\s*$/, "").trim();
+    let seals = 0;
+    course.levels.forEach(lv => {
+      const ls = flatLessons.filter(l => l.levelId === lv.id && !l.readingPassage && /\d+\s*$/.test(l.title || ""));
+      let i = 0;
+      while (i < ls.length) {
+        let j = i; const st = stemOf(ls[i].title);
+        while (j + 1 < ls.length && stemOf(ls[j + 1].title) === st) j++;
+        if (j > i && ls.slice(i, j + 1).every(l => progress.completedLessons.includes(l.id))) seals++;
+        i = j + 1;
+      }
+    });
+    return seals;
+  }
+  function renderProfile() {
+    session = null;
+    setTab("me");
+    const meta = COURSES.find(c => c.id === activeCourseId) || {};
+    const done = flatLessons.filter(l => progress.completedLessons.includes(l.id)).length;
+    const total = flatLessons.length || 1;
+    const goal = dailyGoal();
+    const xpToday = todayXp();
+    const levels = course.levels.filter(lv => flatLessons.some(l => l.levelId === lv.id)).map(lv => {
+      const ls = flatLessons.filter(l => l.levelId === lv.id);
+      const d = ls.filter(l => progress.completedLessons.includes(l.id)).length;
+      return { lv, d, n: ls.length };
+    });
+    const others = COURSES.filter(c => c.id !== activeCourseId).map(c => ({ c, s: readCourseStats(c.id) })).filter(x => x.s).sort((a, b) => b.s.xp - a.s.xp).slice(0, 6);
+    screenEl.innerHTML = `
+      <div class="profile">
+        <div class="profile-hero">
+          ${PATH_SEAL.replace('width="84" height="70"', 'width="96" height="80"')}
+          <h2>${meta.en || course.title}</h2>
+          <span class="profile-native" dir="auto">${meta.native || ""}</span>
+          <div class="profile-bar"><span style="width:${Math.max(2, Math.round(done / total * 100))}%"></span></div>
+          <span class="profile-bar-label">${done} of ${total} lessons · ${Math.round(done / total * 100)}%</span>
+        </div>
+        <div class="profile-grid">
+          <div class="profile-stat"><span class="ps-icon lamp">${ICON_FLAME}</span><b data-count="${progress.streak}">0</b><span>day streak</span></div>
+          <div class="profile-stat"><span class="ps-icon star">${PATH_STAR}</span><b data-count="${progress.xp}">0</b><span>total XP</span></div>
+          <div class="profile-stat"><span class="ps-icon seal">${PATH_SEAL}</span><b data-count="${chapterSealsEarned()}">0</b><span>chapter seals</span></div>
+          <div class="profile-stat"><span class="ps-icon word"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3h11a3 3 0 013 3v15l-3-2-3 2-3-2-3 2-3-2V6a3 3 0 013-3zM8 8h8M8 12h6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><b data-count="${(progress.wordHoard || []).length}">0</b><span>words collected</span></div>
+        </div>
+        <section class="profile-section">
+          <h3>Daily goal</h3>
+          <p class="profile-sub">${xpToday >= goal ? "Today's lamp is lit." : `${goal - xpToday} XP more to light today's lamp.`}</p>
+          <div class="goal-choices">
+            ${GOAL_CHOICES.map(g => `<button class="goal-choice ${g.xp === goal ? "active" : ""}" data-goal="${g.xp}"><b>${g.name}</b><span>${g.xp} XP a day</span></button>`).join("")}
+          </div>
+        </section>
+        <section class="profile-section">
+          <h3>Levels</h3>
+          <div class="profile-levels">
+            ${levels.map(({ lv, d, n }) => `
+              <button class="profile-level ${d === n ? "complete" : ""}" data-level="${lv.id}">
+                <span class="pl-badge">${lv.cefr || lv.label}</span>
+                <span class="pl-name">${lv.label}</span>
+                <span class="pl-bar"><span style="width:${Math.round(d / n * 100)}%"></span></span>
+                <span class="pl-count">${d}/${n}</span>
+              </button>`).join("")}
+          </div>
+        </section>
+        ${others.length ? `<section class="profile-section">
+          <h3>Your other courses</h3>
+          <div class="profile-others">
+            ${others.map(({ c, s }) => `<button class="profile-other" data-course="${c.id}"><span dir="auto">${c.native}</span><span>${s.xp} XP · ${s.lessonsDone} lessons</span></button>`).join("")}
+          </div>
+        </section>` : ""}
+      </div>`;
+    applyScreenFadeIn();
+    animateCountUps(screenEl);
+    screenEl.querySelectorAll(".goal-choice").forEach(b => b.addEventListener("click", () => {
+      try { localStorage.setItem(GOAL_KEY, b.dataset.goal); } catch (e) {}
+      renderProfile();
+    }));
+    screenEl.querySelectorAll(".profile-level").forEach(b => b.addEventListener("click", () => { currentLevelId = b.dataset.level; renderLevelRoadmap(); }));
+    screenEl.querySelectorAll(".profile-other").forEach(b => b.addEventListener("click", () => switchCourse(b.dataset.course)));
+  }
+
   // Bottom tab bar (phones): Path / Review / Word hoard / Course. Hidden
   // while a lesson is on screen so the exercise has the whole height.
   function setTab(name) {
@@ -1654,6 +1738,7 @@
       if (tab === "path") { session = null; renderHome(); }
       else if (tab === "words") document.getElementById("wordsStat").click();
       else if (tab === "course") document.getElementById("courseToggle").click();
+      else if (tab === "me") renderProfile();
       else if (tab === "review") {
         const m = document.getElementById("mistakesStat"), pr = document.getElementById("practiceStat");
         if (m && !m.classList.contains("hidden")) m.click();
@@ -1743,7 +1828,12 @@
   const PATH_ICON_LOCK = `<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2.2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 11V7.6a4 4 0 018 0V11" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>`;
   const PATH_ICON_BOOK = `<svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M4 5c3-1 6-1 8 1 2-2 5-2 8-1v14c-3-1-6-1-8 1-2-2-5-2-8-1z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M12 6v14" stroke="currentColor" stroke-width="2"/></svg>`;
   const PATH_SEAL = `<svg viewBox="0 0 96 80" width="84" height="70" aria-hidden="true"><circle class="seal-disc" cx="48" cy="40" r="32"/><circle class="seal-ring" cx="48" cy="40" r="23" fill="none" stroke-width="1.6" stroke-dasharray="3 4"/><polygon class="seal-star" transform="translate(36 28) scale(0.75)" points="16,1 20.4,5.4 26.6,5.4 26.6,11.6 31,16 26.6,20.4 26.6,26.6 20.4,26.6 16,31 11.6,26.6 5.4,26.6 5.4,20.4 1,16 5.4,11.6 5.4,5.4 11.6,5.4"/></svg>`;
-  const DAILY_GOAL_XP = 30;
+  const GOAL_KEY = "muhkam-daily-goal";
+  const GOAL_CHOICES = [{ xp: 10, name: "Casual" }, { xp: 20, name: "Regular" }, { xp: 30, name: "Serious" }, { xp: 50, name: "Intense" }];
+  function dailyGoal() {
+    const v = parseInt(localStorage.getItem(GOAL_KEY) || "30", 10);
+    return GOAL_CHOICES.some(g => g.xp === v) ? v : 30;
+  }
   function todayXp() {
     const today = new Date().toDateString();
     return progress.dayXp && progress.dayXp.date === today ? progress.dayXp.xp : 0;
@@ -1755,14 +1845,14 @@
   }
   function dailyGoalHtml() {
     const xp = todayXp();
-    const pct = Math.min(1, xp / DAILY_GOAL_XP);
+    const pct = Math.min(1, xp / dailyGoal());
     const C = 119.4;
     return `
       <div class="lamp-goal ${pct >= 1 ? "lit" : ""}">
         <svg viewBox="0 0 48 48" width="48" height="48" aria-hidden="true"><circle cx="24" cy="24" r="19" fill="none" class="lamp-goal-track" stroke-width="6"/><circle cx="24" cy="24" r="19" fill="none" class="lamp-goal-fill" stroke-width="6" stroke-dasharray="${C}" stroke-dashoffset="${(C * (1 - pct)).toFixed(1)}" stroke-linecap="round" transform="rotate(-90 24 24)"/><path d="M24 16.5c2.4 2.8 3.3 4.6 3.3 6.3a3.3 3.3 0 01-6.6 0c0-1.7.9-3.5 3.3-6.3z" class="lamp-goal-flame"/></svg>
         <div class="lamp-goal-text">
           <b>${pct >= 1 ? "Lamp lit for today" : "Light today's lamp"}</b>
-          <span>${Math.min(xp, DAILY_GOAL_XP)} / ${DAILY_GOAL_XP} XP</span>
+          <span>${Math.min(xp, dailyGoal())} / ${dailyGoal()} XP</span>
         </div>
       </div>`;
   }
@@ -3110,7 +3200,7 @@
         ${inkBonus && session.mode === "lesson" ? `<p class="summary-ink">+${inkBonus} XP for ink left in the well</p>` : ""}
         <div class="summary-lamp">
           <span class="summary-lamp-icon">${ICON_FLAME}</span>
-          <div><b>${progress.streak}-day streak</b><span>${todayXp() >= DAILY_GOAL_XP ? "Today's lamp is lit" : `${Math.max(0, DAILY_GOAL_XP - todayXp())} XP more to light today's lamp`}</span></div>
+          <div><b>${progress.streak}-day streak</b><span>${todayXp() >= dailyGoal() ? "Today's lamp is lit" : `${Math.max(0, dailyGoal() - todayXp())} XP more to light today's lamp`}</span></div>
         </div>
         <button class="btn btn-primary" id="continueHome">Continue</button>
       </div>

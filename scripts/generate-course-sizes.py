@@ -50,7 +50,14 @@ def main():
         json_path = os.path.join(ROOT, file_rel)
         json_bytes = os.path.getsize(json_path) if os.path.exists(json_path) else 0
         audio_bytes = dir_size(os.path.join(DATA, f"audio-{course_id}")) if has_audio else 0
-        sizes[course_id] = {"jsonBytes": json_bytes, "audioBytes": audio_bytes}
+        lessons = 0
+        try:
+            doc = json.load(open(json_path, encoding="utf-8"))
+            c = doc.get("course", doc)
+            lessons = sum(len(lv.get("lessons", [])) for lv in c.get("levels", []))
+        except Exception:
+            pass
+        sizes[course_id] = {"jsonBytes": json_bytes, "audioBytes": audio_bytes, "lessons": lessons}
     out_path = os.path.join(DATA, "course-sizes.json")
     json.dump(sizes, open(out_path, "w"), indent=1)
     print(f"Wrote {out_path} ({len(sizes)} courses)")
