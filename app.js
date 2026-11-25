@@ -45,6 +45,7 @@
     { id: "turkish", file: "data/courses-turkish.json", label: "Turkish — Türkçe", native: "Türkçe", en: "Turkish", flag: "Türkçe", group: "world", accent: "teal" },
     // Georgian: bundled Microsoft neural audio (Eka/Giorgi) -- no Apple/on-device Georgian voice exists. "underserved": mainstream apps don't teach it.
     { id: "georgian", file: "data/courses-georgian.json", audioManifest: "data/audio-georgian/manifest.json", label: "Georgian — ქართული", native: "ქართული", en: "Georgian", flag: "ქართული", group: "underserved", accent: "rust" },
+    { id: "tatar", file: "data/courses-tatar.json", audioManifest: "data/audio-tatar/manifest.json", label: "Tatar — Татарча", native: "Татарча", en: "Tatar", flag: "Татарча", group: "underserved", accent: "sage" },
   ];
 
   // A small shared icon set (currentColor throughout, so each one just

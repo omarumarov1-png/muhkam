@@ -1,0 +1,86 @@
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from author import Course
+c = Course("a2", "a2-reading")
+R = c.R
+R(101, "Sabantuy", "Сабантуй", "A family goes to the summer festival.",
+  [("Узган шимбәдә без Сабантуйга бардык.", "Last Saturday we went to Sabantuy."), ("Мәйданда бик күп кеше бар иде.", "There were very many people in the square."),
+   ("Ирләр көрәште, ә балалар капчык киеп йөгерде.", "The men wrestled, and the children ran in sacks."),
+   ("Мин тәмле чәкчәк ашадым һәм кымыз эчтем.", "I ate tasty chak-chak and drank kumis."), ("Киләсе елда без тагын барачакбыз.", "Next year we will go again.")],
+  [("When did they go to Sabantuy?", ["Last Sunday", "Last Saturday", "Yesterday", "Last month"], 1),
+   ("What did the men do?", ["They sang", "They danced", "They wrestled", "They cooked"], 2),
+   ("What did the narrator eat?", ["Chak-chak", "Pie", "Ice cream", "Soup"], 0),
+   ("What will they do next year?", ["Stay at home", "Go to Moscow", "Work", "Go again"], 3)])
+R(102, "A New Flat", "Яңа фатир", "A family moves house.",
+  [("Былтыр безнең гаилә яңа фатирга күченде.", "Last year our family moved to a new flat."), ("Яңа фатир иске фатирдан зуррак.", "The new flat is bigger than the old one."),
+   ("Анда өч бүлмә һәм зур аш бүлмәсе бар.", "It has three rooms and a big kitchen."), ("Минем бүлмәмнең тәрәзәсеннән елга күренә.", "You can see the river from my room's window."),
+   ("Мин яңа фатирны бик яратам.", "I like the new flat very much.")],
+  [("When did the family move?", ["Last year", "Last week", "Two years ago", "Yesterday"], 0),
+   ("How is the new flat different?", ["It is smaller", "It is older", "It is bigger", "It is cheaper"], 2),
+   ("What can be seen from the narrator's window?", ["A park", "The river", "A school", "The mountains"], 1),
+   ("How many rooms are there?", ["One", "Two", "Four", "Three"], 3)])
+R(103, "A Trip to Moscow", "Мәскәүгә сәяхәт", "A summer trip by train.",
+  [("Җәен мин әти-әнием белән Мәскәүгә бардым.", "In summer I went to Moscow with my parents."), ("Без поездда унике сәгать бардык.", "We travelled by train for twelve hours."),
+   ("Мәскәүдә без Кызыл мәйданны һәм музейларны карадык.", "In Moscow we saw Red Square and the museums."),
+   ("Һава эссе иде, шуңа күрә без күп туңдырма ашадык.", "The weather was hot, so we ate a lot of ice cream."), ("Өйгә арып, ләкин бәхетле булып кайттык.", "We came home tired but happy.")],
+  [("Who did the narrator travel with?", ["Friends", "Classmates", "Parents", "Grandparents"], 2),
+   ("How did they travel?", ["By train", "By plane", "By car", "By bus"], 0),
+   ("What was the weather like?", ["Cold", "Rainy", "Windy", "Hot"], 3),
+   ("How did they feel coming home?", ["Sad and bored", "Tired but happy", "Ill", "Angry"], 1)])
+R(104, "At the Doctor's", "Табибта", "Someone falls ill and gets better.",
+  [("Кичә минем башым һәм тамагым авыртты.", "Yesterday my head and throat hurt."), ("Мин табибка бардым.", "I went to the doctor."),
+   ("Табиб мине карады һәм миңа дару бирде.", "The doctor examined me and gave me medicine."),
+   ("Ул миңа өч көн өйдә ятарга кушты.", "She told me to stay in bed at home for three days."), ("Бүген мин инде яхшырак.", "Today I'm already better.")],
+  [("What hurt?", ["His back", "His head and throat", "His leg", "His stomach"], 1),
+   ("What did the doctor give?", ["Medicine", "Tea", "A letter", "Money"], 0),
+   ("How long should he stay at home?", ["One day", "A week", "Three days", "Two days"], 2),
+   ("How is he today?", ["Worse", "The same", "In hospital", "Already better"], 3)])
+R(105, "A Present for Mum", "Әнигә бүләк", "Choosing a birthday present.",
+  [("Шимбә көнне әниемнең туган көне.", "On Saturday it's my mother's birthday."), ("Мин аңа бүләк алырга телим.", "I want to buy her a present."),
+   ("Кибеттә матур яулыклар күп иде.", "There were lots of beautiful headscarves in the shop."),
+   ("Мин зәңгәр яулык сайладым, ул кыйммәт түгел иде.", "I chose a blue headscarf; it wasn't expensive."), ("Әнием бүләкне бик ошатыр дип уйлыйм.", "I think my mother will really like the present.")],
+  [("When is the mother's birthday?", ["On Saturday", "On Sunday", "Today", "On Monday"], 0),
+   ("What was in the shop?", ["Many books", "Many flowers", "Many headscarves", "Many cakes"], 2),
+   ("What colour did the narrator choose?", ["Red", "Green", "White", "Blue"], 3),
+   ("Was it expensive?", ["Yes, very", "No, it wasn't", "It was free", "The text doesn't say"], 1)])
+R(106, "My Day Yesterday", "Минем кичәге көнем", "An ordinary working day.",
+  [("Кичә мин сәгать җидедә тордым.", "Yesterday I got up at seven o'clock."), ("Иртәнге аштан соң мин эшкә киттем.", "After breakfast I went to work."),
+   ("Эштә көн бик озын булды.", "The day at work was very long."), ("Кичен мин дустым белән паркта йөрдем.", "In the evening I walked in the park with my friend."),
+   ("Сәгать уникедә мин йокларга яттым.", "At twelve o'clock I went to bed.")],
+  [("When did the narrator get up?", ["At six", "At seven", "At eight", "At nine"], 1),
+   ("Where did he go after breakfast?", ["To school", "To the shop", "To work", "To the park"], 2),
+   ("What did he do in the evening?", ["Walked in the park with a friend", "Watched TV", "Read a book", "Cooked dinner"], 0),
+   ("When did he go to bed?", ["At ten", "At eleven", "At one", "At twelve"], 3)])
+R(107, "Football", "Футбол", "A younger brother's big match.",
+  [("Минем энем футболны бик ярата.", "My younger brother loves football."), ("Ул атнага өч тапкыр тренировкага йөри.", "He goes to training three times a week."),
+   ("Узган якшәмбедә аның командасы уйнады.", "Last Sunday his team played."), ("Алар өч-бер исәбе белән җиңде.", "They won three to one."),
+   ("Энем ике гол кертте, без аның белән горурланабыз.", "My brother scored two goals, and we're proud of him.")],
+  [("How often does the brother train?", ["Every day", "Once a week", "Twice a week", "Three times a week"], 3),
+   ("When did the team play?", ["Last Sunday", "Last Saturday", "Yesterday", "Today"], 0),
+   ("What was the score?", ["Two to one", "Three to one", "Three to two", "One to one"], 1),
+   ("How many goals did the brother score?", ["One", "Three", "Two", "None"], 2)])
+R(108, "Winter", "Кыш көннәре", "Winter in a small town.",
+  [("Безнең шәһәрдә кыш озын һәм салкын.", "In our town winter is long and cold."), ("Кар ноябрьдә ява башлый.", "Snow starts falling in November."),
+   ("Ял көннәрендә без урманга чаңгы шуарга барабыз.", "At weekends we go skiing in the forest."), ("Аннары өйдә кайнар чәй эчәбез.", "Then we drink hot tea at home."),
+   ("Мин кышны җәйдән күбрәк яратам.", "I like winter more than summer.")],
+  [("What is winter like in the town?", ["Short and warm", "Long and cold", "Rainy", "Without snow"], 1),
+   ("When does the snow start?", ["In October", "In December", "In November", "In January"], 2),
+   ("What do they do at weekends?", ["Ski in the forest", "Swim", "Play football", "Go to the cinema"], 0),
+   ("Which season does the narrator prefer?", ["Summer", "Spring", "Autumn", "Winter"], 3)])
+R(109, "Learning Tatar", "Татар телен өйрәнү", "A learner looks back on two years of study.",
+  [("Мин татар телен ике ел өйрәнәм.", "I've been learning Tatar for two years."), ("Башта миңа бик кыен иде.", "At first it was very hard for me."),
+   ("Хәзер мин татарча китаплар укый алам.", "Now I can read books in Tatar."), ("Мин көн саен яңа сүзләр язам.", "Every day I write down new words."),
+   ("Киләсе җәйдә мин Казанга барырга телим.", "Next summer I want to go to Kazan.")],
+  [("How long has the narrator been learning?", ["One year", "Two years", "Three years", "Six months"], 1),
+   ("What was it like at first?", ["Very easy", "Boring", "Very hard", "Fun"], 2),
+   ("What can the narrator do now?", ["Read books in Tatar", "Teach Tatar", "Write songs", "Translate films"], 0),
+   ("What does the narrator want to do next summer?", ["Go to Moscow", "Stop learning", "Write a book", "Go to Kazan"], 3)])
+R(110, "Baking a Pie", "Бәлеш пешерү", "Grandmother bakes a Tatar pie.",
+  [("Якшәмбе көнне әбием бәлеш пешерде.", "On Sunday my grandmother baked a pie."), ("Ул камыр ясады, ит һәм бәрәңге турады.", "She made the dough and chopped meat and potatoes."),
+   ("Бәлеш мичтә ике сәгать пеште.", "The pie baked in the oven for two hours."), ("Бөтен гаилә өстәл янына җыелды.", "The whole family gathered at the table."),
+   ("Бәлеш бик тәмле булды, без барысын да ашадык.", "The pie was very tasty, and we ate all of it.")],
+  [("Who baked the pie?", ["Mum", "Grandmother", "The narrator", "Grandfather"], 1),
+   ("What went into the pie?", ["Fish and rice", "Apples", "Meat and potatoes", "Cabbage"], 2),
+   ("How long did it bake?", ["Two hours", "One hour", "Half an hour", "Three hours"], 0),
+   ("What happened to the pie?", ["It burned", "They gave it away", "They saved it for later", "They ate all of it"], 3)])
+c.save()

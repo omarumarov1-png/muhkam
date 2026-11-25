@@ -1,0 +1,86 @@
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from author import Course
+c = Course("b1plus", "b1plus-reading")
+R = c.R
+R(101, "Keeping the Language", "Туган телне саклау", "A family that speaks Tatar at home.",
+  [("Минем әти-әнием өйдә гел татарча сөйләшә.", "My parents always speak Tatar at home."), ("Алар балаларының туган телне онытуын теләмиләр.", "They don't want their children to forget their native language."),
+   ("Шуңа күрә кичләрен без бергә татар китаплары укыйбыз.", "That's why we read Tatar books together in the evenings."), ("Энем башта укырга теләмәде, ләкин хәзер ул әкиятләрне бик ярата.", "At first my younger brother didn't want to read, but now he loves the fairy tales."),
+   ("Мин дә үз балаларыма татар телен өйрәтергә ниятлим.", "I also intend to teach my own children Tatar.")],
+  [("What language do the parents speak at home?", ["Russian", "Tatar", "English", "Both equally"], 1),
+   ("What are the parents afraid of?", ["That the children will forget Tatar", "That the children read too much", "That the school is bad", "That they will move away"], 0),
+   ("How did the brother feel about reading at first?", ["He loved it", "He read only poems", "He didn't want to read", "He read in Russian"], 2),
+   ("What does the narrator plan to do?", ["Move to Kazan", "Become a teacher", "Write a book", "Teach Tatar to their own children"], 3)])
+R(102, "A New Profession", "Яңа һөнәр", "Leaving a bank job to become an artist.",
+  [("Апам озак еллар банкта эшләде.", "My older sister worked at a bank for many years."), ("Ләкин аның гел рәсем ясыйсы килә иде.", "But she always wanted to paint."),
+   ("Былтыр ул эшен ташлап, рәссамлык курсларына йөри башлады.", "Last year she quit her job and started going to art classes."), ("Башта гаиләбез борчылды, чөнки акча аз иде.", "At first our family worried, because there was little money."),
+   ("Хәзер аның рәсемнәре күргәзмәләрдә күрсәтелә, һәм ул бик бәхетле.", "Now her paintings are shown at exhibitions, and she is very happy.")],
+  [("Where did the sister work?", ["At a school", "At a bank", "In a shop", "At a hospital"], 1),
+   ("What did she always want to do?", ["Travel", "Sing", "Write books", "Paint"], 3),
+   ("Why was the family worried?", ["There was little money", "She was ill", "She moved away", "She failed the course"], 0),
+   ("Where are her paintings shown now?", ["Online only", "At the bank", "At exhibitions", "At home"], 2)])
+R(103, "On the Train", "Поездда", "A night of stories with a stranger.",
+  [("Мин Казаннан Мәскәүгә поездда бара идем.", "I was travelling by train from Kazan to Moscow."), ("Купеда минем белән бер карт кеше утыра иде.", "An old man was sitting in the compartment with me."),
+   ("Ул яшь чагында бөтен илне гизеп чыккан икән.", "It turned out that as a young man he had travelled all over the country."), ("Ул миңа үзенең сәяхәтләре турында төне буе сөйләде.", "He told me about his travels all night long."),
+   ("Мәскәүгә килеп җиткәнче без бер дә йокламадык.", "We didn't sleep at all until we reached Moscow.")],
+  [("Where was the narrator going?", ["From Moscow to Kazan", "From Kazan to Moscow", "To a village", "Abroad"], 1),
+   ("Who shared the compartment?", ["A child", "A woman", "An old man", "A student"], 2),
+   ("What had the old man done when young?", ["Travelled all over the country", "Worked on the railway", "Lived abroad", "Studied in Moscow"], 0),
+   ("How much did they sleep?", ["All night", "A few hours", "Only in the morning", "Not at all"], 3)])
+R(104, "The School Concert", "Мәктәп концерты", "Stage fright and a happy ending.",
+  [("Безнең мәктәптә һәр ел яз көне зур концерт үткәрелә.", "Every year in spring a big concert is held at our school."), ("Быел мин дә анда җырларга булдым.", "This year I decided to sing in it too."),
+   ("Концерт алдыннан мин бик дулкынландым, тавышым калтырый иде.", "Before the concert I was very nervous, and my voice was shaking."), ("Ләкин сәхнәгә чыккач, барысы да онытылды.", "But once I was on stage, everything was forgotten."),
+   ("Тамашачылар озак кул чапты, ә әнием хәтта елап җибәрде.", "The audience clapped for a long time, and my mother even burst into tears.")],
+  [("When is the concert held?", ["In winter", "In autumn", "In spring", "In summer"], 2),
+   ("What did the narrator decide to do?", ["Dance", "Sing", "Play the piano", "Read a poem"], 1),
+   ("How did the narrator feel before the concert?", ["Very nervous", "Bored", "Calm", "Ill"], 0),
+   ("What did the mother do?", ["Left early", "Sang along", "Took photos", "Burst into tears"], 3)])
+R(105, "New Neighbours", "Яңа күршеләр", "A friendship between two families.",
+  [("Безнең яңа күршеләр узган айда күченеп килделәр.", "Our new neighbours moved in last month."), ("Алар Үзбәкстаннан килгән гаилә, өч балалары бар.", "They are a family from Uzbekistan with three children."),
+   ("Беренче көнне үк алар безне чәйгә чакырдылар.", "On the very first day they invited us for tea."), ("Алар безне тәмле пылау белән сыйладылар, ә без аларга чәкчәк алып бардык.", "They treated us to delicious pilaf, and we brought them chak-chak."),
+   ("Хәзер без бик яхшы дуслар, һәм балаларыбыз бергә уйный.", "Now we are very good friends, and our children play together.")],
+  [("Where is the new family from?", ["Kazakhstan", "Turkey", "Uzbekistan", "Bashkortostan"], 2),
+   ("How many children do they have?", ["Three", "One", "Two", "Four"], 0),
+   ("What did the neighbours serve?", ["Chak-chak", "Pilaf", "Pie", "Soup"], 1),
+   ("What are the two families now?", ["Strangers", "Colleagues", "Relatives", "Very good friends"], 3)])
+R(106, "Living Healthily", "Сәламәт яшәү", "Small habits that make a difference.",
+  [("Соңгы вакытта мин үз сәламәтлегем турында күбрәк уйлый башладым.", "Lately I've started thinking more about my health."), ("Хәзер мин иртән торгач, бер стакан су эчәм һәм күнегүләр ясыйм.", "Now after I get up in the morning, I drink a glass of water and do exercises."),
+   ("Эшкә автобуста түгел, җәяү барам.", "I walk to work instead of taking the bus."), ("Кичен йокларга ятканчы телефонга карамаска тырышам.", "In the evening I try not to look at my phone before going to bed."),
+   ("Үземне күпкә яхшырак хис итәм, һәм бу мине шатландыра.", "I feel much better, and that makes me happy.")],
+  [("What does the narrator do after getting up?", ["Drinks coffee", "Drinks water and exercises", "Checks the phone", "Goes running"], 1),
+   ("How does the narrator get to work?", ["On foot", "By bus", "By car", "By bike"], 0),
+   ("What does the narrator avoid before bed?", ["Eating", "Reading", "Looking at the phone", "Drinking tea"], 2),
+   ("How does the narrator feel now?", ["Tired", "The same", "Worse", "Much better"], 3)])
+R(107, "Grandmother's Letters", "Әбиемнең хатлары", "A box of letters from the war years.",
+  [("Чормада без иске бер тартма таптык.", "We found an old box in the attic."), ("Анда әбиемнең яшь чагында язган хатлары саклана иде.", "Inside were letters my grandmother had written when she was young."),
+   ("Ул аларны сугыш вакытында фронттагы бабама язган.", "She wrote them to my grandfather at the front during the war."), ("Хатларны укыганда мин аларның бер-берсен никадәр яратуын аңладым.", "Reading the letters, I understood how much they loved each other."),
+   ("Без бу хатларны киләчәк буыннар өчен сакларга булдык.", "We decided to keep these letters for future generations.")],
+  [("Where was the box found?", ["In the attic", "In the garden", "In a shop", "At school"], 0),
+   ("Who wrote the letters?", ["The grandfather", "The grandmother", "The narrator", "A soldier's friend"], 1),
+   ("When were they written?", ["After the war", "Last year", "During the war", "In school"], 2),
+   ("What will the family do with them?", ["Sell them", "Burn them", "Send them to a museum", "Keep them for future generations"], 3)])
+R(108, "Lost in the Forest", "Урманда адашу", "A mushroom hunt that went wrong.",
+  [("Узган көз без дусларым белән урманга гөмбә җыярга бардык.", "Last autumn my friends and I went to the forest to pick mushrooms."), ("Без гөмбә эзләп, урманның эченә үк кереп киттек.", "Looking for mushrooms, we went deep into the forest."),
+   ("Кинәт без юлны югалтканыбызны аңладык.", "Suddenly we realised we had lost the path."), ("Телефоннар эшләмәгәнгә күрә, без кояшка карап юнәлешне таптык.", "Because our phones weren't working, we found our way by looking at the sun."),
+   ("Караңгы төшкәнче без авылга кайтып җиттек һәм бик шатландык.", "We got back to the village before dark and were very relieved.")],
+  [("Why did they go to the forest?", ["To pick berries", "To pick mushrooms", "To camp", "To hunt"], 1),
+   ("What did they suddenly realise?", ["They had lost the path", "It was raining", "Someone was missing", "They had no food"], 0),
+   ("How did they find their way?", ["By phone", "By asking a forester", "By looking at the sun", "By following a river"], 2),
+   ("When did they get back?", ["The next morning", "At midnight", "After two days", "Before dark"], 3)])
+R(109, "Studying Abroad", "Чит илдә уку", "A younger sister starts university in Turkey.",
+  [("Сеңлем быел Төркиягә укырга китте.", "My younger sister went to study in Turkey this year."), ("Төрек теле татар теленә охшаш булганга күрә, ул аны тиз өйрәнде.", "Because Turkish is similar to Tatar, she learned it quickly."),
+   ("Башта аңа гаиләсез яшәү авыр булды.", "At first it was hard for her to live without her family."), ("Хәзер ул яңа дуслар тапты һәм университетта яхшы укый.", "Now she has made new friends and is doing well at university."),
+   ("Без аның белән атна саен видео аша сөйләшәбез.", "We talk with her by video every week.")],
+  [("Where did the sister go to study?", ["Kazakhstan", "Germany", "Turkey", "Moscow"], 2),
+   ("Why did she learn Turkish quickly?", ["It is similar to Tatar", "She took a course", "Her friends taught her", "She lived there before"], 0),
+   ("What was hard at first?", ["The exams", "Living without her family", "The food", "The weather"], 1),
+   ("How often do they talk?", ["Every day", "Once a month", "Rarely", "Every week"], 3)])
+R(110, "The Festive Table", "Бәйрәм табыны", "How a family celebrates Eid.",
+  [("Ураза бәйрәме алдыннан бөтен гаилә җыела.", "Before Eid the whole family gathers."), ("Әниләр һәм әбиләр бер көн алдан ук пешерә башлыйлар.", "Mothers and grandmothers start cooking a day in advance."),
+   ("Табында бәлеш, өчпочмак, чәкчәк һәм тагын күп тәмле ризыклар була.", "On the table there are pies, öçpoçmaq, chak-chak and many other tasty dishes."), ("Иртән ирләр мәчеткә баралар, аннары туганнарга кунакка йөриләр.", "In the morning the men go to the mosque, and then they visit relatives."),
+   ("Бу көнне һәркем бер-берсен котлый һәм бүләкләр бирә.", "On this day everyone congratulates one another and gives presents.")],
+  [("Which holiday is described?", ["New Year", "Eid", "Sabantuy", "A birthday"], 1),
+   ("When does the cooking start?", ["A day in advance", "A week before", "On the morning itself", "The evening after"], 0),
+   ("Where do the men go in the morning?", ["To work", "To the market", "To the mosque", "To the forest"], 2),
+   ("What does everyone do on this day?", ["Stays at home", "Goes on a trip", "Works", "Congratulates each other and gives presents"], 3)])
+c.save()

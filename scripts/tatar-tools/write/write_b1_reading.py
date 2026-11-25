@@ -1,0 +1,86 @@
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from author import Course
+c = Course("b1", "b1-reading")
+R = c.R
+R(101, "Grandmother's Garden", "Әбиемнең бакчасы", "A summer visit to the countryside.",
+  [("Җәй көне без әбиемә кунакка бардык.", "In summer we went to visit my grandmother."), ("Ул бакчасында кишер, кыяр һәм помидор үстерә.", "She grows carrots, cucumbers and tomatoes in her garden."),
+   ("Без килгәч, ул безне тәмле бәлеш белән сыйлады.", "When we arrived, she treated us to a tasty pie."), ("Иртән мин аңа бакчада эшләргә булыштым.", "In the morning I helped her work in the garden."),
+   ("Әгәр вакытым булса, мин аның янына еш кайтыр идем.", "If I had the time, I would visit her often.")],
+  [("Whom did the family visit?", ["An aunt", "The grandmother", "Friends", "A teacher"], 1),
+   ("What does she grow?", ["Carrots, cucumbers and tomatoes", "Apples and pears", "Flowers", "Potatoes only"], 0),
+   ("What did she do when they arrived?", ["She went to work", "She was asleep", "She treated them to pie", "She met them at the station"], 2),
+   ("What would the narrator do with more time?", ["Travel abroad", "Study more", "Work in the city", "Visit her often"], 3)])
+R(102, "The Lost Wallet", "Югалган янчык", "A wallet left on a bus finds its way home.",
+  [("Узган атнада мин автобуста янчыгымны онытып калдырдым.", "Last week I left my wallet on the bus."), ("Өйгә кайткач кына моны аңладым.", "I only realised it when I got home."),
+   ("Мин шунда ук автобус паркына шалтыраттым.", "I phoned the bus depot straight away."), ("Бер хатын янчыкны тапкан һәм аны шоферга биргән икән.", "It turned out a woman had found the wallet and given it to the driver."),
+   ("Икенче көнне мин янчыгымны алдым һәм ул хатынга бик рәхмәтле булдым.", "The next day I got my wallet back and was very grateful to that woman.")],
+  [("Where did the narrator leave the wallet?", ["In a shop", "On the bus", "At work", "In a café"], 1),
+   ("When did he notice?", ["When he got home", "On the bus", "The next morning", "At work"], 0),
+   ("Who found the wallet?", ["The driver", "A policeman", "A woman", "A child"], 2),
+   ("How did the narrator feel?", ["Angry", "Sad", "Surprised", "Very grateful"], 3)])
+R(103, "A New Job", "Яңа эш", "A graduate's first steps at work.",
+  [("Абыем быел университетны тәмамлады.", "My older brother graduated from university this year."), ("Ул озак вакыт эш эзләде.", "He looked for work for a long time."),
+   ("Ниһаять, аны бер зур компаниягә эшкә алдылар.", "Finally a large company hired him."), ("Беренче көнне ул бик дулкынланган иде, ләкин хезмәттәшләре аңа ярдәм иттеләр.", "On the first day he was very nervous, but his colleagues helped him."),
+   ("Хәзер ул эшеннән бик канәгать.", "Now he's very happy with his job.")],
+  [("What did the brother do this year?", ["He got married", "He graduated", "He moved abroad", "He bought a car"], 1),
+   ("How long did he look for work?", ["A long time", "One day", "A week", "He didn't look"], 0),
+   ("How did he feel on the first day?", ["Bored", "Tired", "Very nervous", "Angry"], 2),
+   ("Who helped him?", ["His parents", "His teacher", "His friends", "His colleagues"], 3)])
+R(104, "A Friend in Kazan", "Казанда дус", "Showing a visitor around the city.",
+  [("Дустым Казанга беренче тапкыр килде.", "My friend came to Kazan for the first time."), ("Без аның белән Кремльне карадык һәм Кол Шәриф мәчетенә кердек.", "We visited the Kremlin and went into the Qol Sharif Mosque."),
+   ("Кичен Бауман урамы буйлап йөрдек.", "In the evening we walked along Bauman Street."), ("Дустым татар ашларын беренче тапкыр татып карады, аңа өчпочмак бик ошады.", "My friend tried Tatar food for the first time and really liked öçpoçmaq."),
+   ("Ул киләсе елда тагын килергә вәгъдә бирде.", "He promised to come again next year.")],
+  [("Had the friend been to Kazan before?", ["Yes, many times", "Yes, once", "No, it was his first time", "He lives there"], 2),
+   ("Which building did they go into?", ["A museum", "The Qol Sharif Mosque", "A theatre", "A school"], 1),
+   ("What did the friend like?", ["Öçpoçmaq", "Ice cream", "Coffee", "Fish"], 0),
+   ("What did he promise?", ["To write a letter", "To learn Tatar", "To cook dinner", "To come again next year"], 3)])
+R(105, "The Blizzard", "Буран", "A snowstorm closes the roads.",
+  [("Кичә көчле буран булды.", "There was a strong blizzard yesterday."), ("Юлларны кар каплаган иде, автобуслар йөрмәде.", "Snow had covered the roads, and the buses weren't running."),
+   ("Шуңа күрә балалар мәктәпкә бармадылар.", "So the children didn't go to school."), ("Әтием иртә белән ишек алдындагы карны чистартты.", "In the morning my father cleared the snow from the yard."),
+   ("Буран туктагач, без урамга чыгып кар бабай ясадык.", "When the blizzard stopped, we went outside and made a snowman.")],
+  [("What happened yesterday?", ["A flood", "A strong blizzard", "A heatwave", "A storm with rain"], 1),
+   ("Why didn't the children go to school?", ["The roads were covered with snow", "It was a holiday", "They were ill", "The school was closed for repairs"], 0),
+   ("What did the father do?", ["Went to work", "Drove the children", "Cleared the snow", "Slept"], 2),
+   ("What did they do after the blizzard?", ["Watched TV", "Went skiing", "Baked a pie", "Made a snowman"], 3)])
+R(106, "At the Library", "Китапханәдә", "A weekly visit to the library.",
+  [("Мин атнага бер тапкыр китапханәгә йөрим.", "I go to the library once a week."), ("Анда тыныч, һәм укырга бик уңайлы.", "It's quiet there, and very comfortable for reading."),
+   ("Бүген мин Тукай шигырьләре китабын алдым.", "Today I took out a book of Tukay's poems."), ("Китапханәче миңа тагын бер кызыклы роман тәкъдим итте.", "The librarian recommended another interesting novel to me."),
+   ("Мин аларны ике атна эчендә укып бетерергә тиеш.", "I have to finish reading them within two weeks.")],
+  [("How often does the narrator go to the library?", ["Every day", "Once a month", "Once a week", "Twice a week"], 2),
+   ("What is the library like?", ["Quiet and comfortable", "Noisy", "Cold", "Small and dark"], 0),
+   ("Whose poems did the narrator take?", ["Pushkin's", "Tukay's", "Shakespeare's", "A friend's"], 1),
+   ("How long can the books be kept?", ["One week", "A month", "Three days", "Two weeks"], 3)])
+R(107, "A Wedding", "Туй", "An older sister's wedding day.",
+  [("Узган шимбәдә апамның туе булды.", "Last Saturday was my older sister's wedding."), ("Туйга бик күп кунаклар килде.", "Very many guests came to the wedding."),
+   ("Кунаклар яшьләргә бүләкләр бирделәр һәм аларны котладылар.", "The guests gave the young couple presents and congratulated them."), ("Музыка уйнады, кешеләр җырлады һәм биеде.", "Music played, and people sang and danced."),
+   ("Туй төнге уникегә кадәр дәвам итте.", "The wedding went on until midnight.")],
+  [("Whose wedding was it?", ["The narrator's", "A friend's", "The older sister's", "A cousin's"], 2),
+   ("How many guests came?", ["Very many", "Only family", "Ten", "Nobody"], 0),
+   ("What did the guests give?", ["Money only", "Presents", "Flowers only", "Nothing"], 1),
+   ("Until when did the wedding last?", ["Until evening", "Until ten", "Until morning", "Until midnight"], 3)])
+R(108, "At the Gym", "Спорт залында", "Advice from a doctor changes a routine.",
+  [("Табиб миңа күбрәк хәрәкәтләнергә кирәк дип әйтте.", "The doctor told me I need to move more."), ("Шуннан соң мин спорт залына йөри башладым.", "After that I started going to the gym."),
+   ("Башта миңа бик авыр иде.", "At first it was very hard for me."), ("Хәзер мин атнага өч тапкыр шөгыльләнәм һәм үземне күпкә яхшырак хис итәм.", "Now I train three times a week and feel much better."),
+   ("Әгәр син дә теләсәң, бергә йөри алабыз.", "If you'd like to as well, we can go together.")],
+  [("What did the doctor say?", ["To eat less", "To move more", "To sleep more", "To stop working"], 1),
+   ("How was it at first?", ["Very hard", "Easy", "Boring", "Fun"], 0),
+   ("How often does the narrator train now?", ["Every day", "Once a week", "Three times a week", "Twice a month"], 2),
+   ("What does the narrator suggest?", ["Seeing a doctor", "Running outside", "Buying equipment", "Going together"], 3)])
+R(109, "Grandfather's Story", "Бабамның хикәясе", "How a village boy became a teacher.",
+  [("Бабам яшь чагында авылда яшәгән.", "When my grandfather was young, he lived in a village."), ("Ул көн саен мәктәпкә биш чакрым җәяү йөргән.", "Every day he walked five kilometres to school."),
+   ("Кышын юлларны кар каплый иде, ләкин ул беркайчан да дәресләрне калдырмаган.", "In winter snow used to cover the roads, but he never missed a lesson."), ("Соңрак ул укытучы булган һәм утыз ел балалар укыткан.", "Later he became a teacher and taught children for thirty years."),
+   ("Мин аның хикәяләрен тыңларга бик яратам.", "I love listening to his stories.")],
+  [("Where did the grandfather live when young?", ["In Kazan", "In Moscow", "In a village", "Abroad"], 2),
+   ("How far did he walk to school?", ["Five kilometres", "One kilometre", "Ten kilometres", "He took the bus"], 0),
+   ("What did he never do?", ["Read books", "Miss lessons", "Play games", "Help his parents"], 1),
+   ("How long did he teach?", ["Ten years", "Five years", "Twenty years", "Thirty years"], 3)])
+R(110, "Shopping Online", "Интернет аша сатып алу", "A jacket that didn't fit.",
+  [("Узган айда мин интернет аша яңа куртка сатып алдым.", "Last month I bought a new jacket online."), ("Куртка өч көннән соң килде.", "The jacket arrived three days later."),
+   ("Ләкин мин аны кигәч, аның кечкенә икәнен аңладым.", "But when I put it on, I realised it was too small."), ("Мин аны кире кайтардым һәм зуррагын сорадым.", "I sent it back and asked for a bigger one."),
+   ("Яңа куртка миңа бик туры килде.", "The new jacket fitted me perfectly.")],
+  [("What did the narrator buy?", ["Shoes", "A jacket", "A hat", "A bag"], 1),
+   ("When did it arrive?", ["The next day", "After a week", "Three days later", "After a month"], 2),
+   ("What was wrong with it?", ["It was too small", "It was the wrong colour", "It was torn", "It was too big"], 0),
+   ("How did the new one fit?", ["Badly", "It was too long", "It was still small", "Perfectly"], 3)])
+c.save()

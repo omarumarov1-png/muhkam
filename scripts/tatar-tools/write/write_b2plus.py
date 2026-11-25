@@ -1,0 +1,643 @@
+# -*- coding: utf-8 -*-
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from author import Course
+c = Course("b2plus", "b2plus")
+T = c.T
+T("b2p-prov", "Folk Wisdom About People", "…са — …, …са — … · …ганчы · …дан …рак",
+  "Many proverbs contrast two kinds of people in perfectly parallel halves: Эшчән бәхетен эшендә күрер, ялкау бәхетен төшендә күрер — the hard-working find happiness in their work, the lazy in their dreams. "
+  "Look for the repeated verb ending that ties the halves together (-ыр, -мас, -са) and for -ганчы meaning rather than or before: Уйчы уй уйлаганчы, тәвәккәл судан үтеп китәр.",
+  "Proverbs are still used in everyday conversation, often introduced with Борынгылар әйткәнчә… (as the ancestors said) or closed with …диләр бит (as they say).",
+  [("A", "Бу эшне иртәгәгә калдырабызмы?", "Shall we leave this job until tomorrow?"), ("B", "Юк, бүгенге эшне иртәгәгә калдырма, диләр бит.", "No — don't put off till tomorrow what you can do today, as they say."), ("A", "Ярый, хәзер үк тотынабыз.", "All right, let's get on with it right now.")])
+T("b2p-story", "Narrating in the Present", "керә дә… · …гач · …ганда · …а торгач",
+  "Tatar storytellers often narrate past events in the present tense, linking actions with да: Айгырны тотып атлана да чыгып чаба — he catches the stallion, mounts it and gallops off. "
+  "Time clauses carry the story forward: -гач (once), -ганда (while), -а торгач (after a while): Бара торгач, алар юл катысына килеп чыкты — after a while they came out onto the roadside.",
+  "Бара-бара (going and going) and Китеп-китеп (on and on) are typical fairy-tale ways of saying a long time passed on the road.",
+  [("A", "Аннары нәрсә булды?", "What happened next?"), ("B", "Ул ишекне ача да шакката: анда беркем дә юк!", "He opens the door and is stunned: there's nobody there!"), ("A", "Ә аннары?", "And then?"), ("B", "Бераз көтә торгач, тавыш ишетелә.", "After waiting a while, he hears a noise.")])
+T("b2p-soc", "Public Life and Institutions", "… тарафыннан · …га карамастан · … нәтиҗәләре буенча · … дип көтелә",
+  "Reports about public life favour long noun phrases and set expressions: тикшерү нәтиҗәләре буенча (based on the results of the investigation), үсешенә карамастан (despite the growth), игътибар үзәгендә (in the spotlight). "
+  "Passive and impersonal forms keep the focus on events: Төзелеш эшләре башланды — construction work began; ... килер дип көтелә — ... is expected to come.",
+  "Official Tatar has its own terms for institutions: хакимият (administration), прокуратура, министрлык, авыл җирлеге (rural settlement).",
+  [("A", "Яңа мәктәп кайчан ачыла?", "When does the new school open?"), ("B", "Төзелеш эшләре сентябрьдә башланды.", "Construction began in September."), ("A", "Быел тәмамланыр дип көтеләме?", "Is it expected to be finished this year?"), ("B", "Әйе, планлаштырылган.", "Yes, that's the plan.")])
+T("b2p-life", "Abstract Ideas", "…ган саен · …у өчен · … дигән сүз · …мы-юкмы",
+  "To talk about ideas, Tatar turns verbs into nouns and links clauses tightly: Күбрәк белгән саен, сораулар арта бара — the more you know, the more questions there are. Нәрсәгәдер ирешү өчен теләк кенә җитми — wanting isn't enough to achieve something. "
+  "Generic statements use the second person singular or the -ырга кирәк frame: Тормышны ничек бар шулай кабул итәргә өйрән.",
+  "Abstract nouns often end in -лык/-лек (бәхетлелек, битарафлык) or -у/-ү (ярату, ышану).",
+  [("A", "Бәхет нәрсә ул, синеңчә?", "What is happiness, in your view?"), ("B", "Яраткан эшең һәм якыннарың янәшә булу.", "Having work you love and your loved ones beside you."), ("A", "Димәк, акча кирәкми?", "So money isn't needed?"), ("B", "Кирәк, ләкин ул төп нәрсә түгел.", "It is, but it's not the main thing.")])
+T("b2p-cult", "Arts and Heritage", "иҗат · җыентык · сурәтли · чагыла · мирас",
+  "Discussing the arts, you'll meet: җыентык (collection), иҗат юлы (creative path), сурәтли (depicts), чагыла (is reflected), мирас (heritage), гәүдәләндерә (embodies). "
+  "Writers are introduced with their role: шагыйрь (poet), язучы (writer), драматург, композитор, рәссам (painter). Works are said to be тәрҗемә ителгән (translated) or сәхнәләштерелгән (staged).",
+  "Kazan's Galiaskar Kamal Tatar Academic Theatre, founded in 1906, is the oldest Tatar theatre.",
+  [("A", "Бу җыентыкны укыдыңмы?", "Have you read this collection?"), ("B", "Әйе, анда авыл тормышы бик матур сурәтләнгән.", "Yes, village life is portrayed beautifully in it."), ("A", "Авторның башка әсәрләре дә бармы?", "Does the author have other works too?"), ("B", "Бар, берсе театрда сәхнәләштерелгән.", "Yes, one has been staged in the theatre.")])
+L = c.L
+S = [
+('b2p-story', [
+    ('Икенең берен сайла: я аракы, я мин!', 'Choose one or the other: either vodka or me!'),
+    ('Өч ай авырып ятты да гүр иясе булды.', 'He was ill for three months and then passed away.'),
+    ('Айгырны тотып атлана да чыгып чаба бу.', 'He catches the stallion, mounts it and gallops off.'),
+    ('Минем ирем үзен бик сәер тота башлады.', 'My husband has started behaving very strangely.'),
+]),
+('b2p-soc', [
+    ('Әлеге чара чәй табыны янында дәвам итәчәк.', 'The event will continue over tea.'),
+    ('Авылларда бу мәсьәлә алай ук кискен тормый.', "In the villages this issue isn't quite so pressing."),
+    ('Балаларны якынлашып килүче Яңа ел белән котлады.', 'He congratulated the children on the coming New Year.'),
+    ('Акча эзләп караган идем, әлегә иганәче тапмадым.', "I tried looking for money, but I haven't found a sponsor yet."),
+]),
+('b2p-prov', [
+    ('Сабыйга ат та ат, таяк та ат.', 'To a child, a horse is a horse and a stick is a horse too.'),
+    ('Юләргә талкан да бер, шалкан да бер.', 'To a fool, oatmeal and turnips are all the same.'),
+    ('Туры кеше кыл кебек калса да өзелми.', "An honest person won't snap, even if he's worn as thin as a hair."),
+    ('Үз атыңны сынар өчен кеше атына утыр.', "To test your own horse, ride someone else's."),
+]),
+('b2p-life', [
+    ('Ярдәм итә белмәсә дә таләп итә белә.', "Even if he can't help, he certainly knows how to make demands."),
+    ('Көчле миһербанлы да, явыз да була ала.', 'A strong person can be kind, or can be cruel.'),
+    ('Чынлап тотынсаң, һәр эшне дә җиңеп була.', 'If you really get down to it, any task can be mastered.'),
+    ('Вакытка акча кебек үк сак карарга кирәк.', 'You should treat time as carefully as money.'),
+]),
+('b2p-cult', [
+    ('Җир өсте: ком, балчык, таш, тау, дала.', "The earth's surface: sand, clay, stone, mountain and steppe."),
+    ('Аларда ислам акыл һәм ирекле күңел дине.', 'For them, Islam is a religion of reason and a free heart.'),
+    ('Казан тирәсендә тоташ җиде ел сугыш булды.', 'Around Kazan there was war for seven years without a break.'),
+    ('Бер йөрәктә туган җыр икенче йөрәкне кузгата.', 'A song born in one heart stirs another heart.'),
+]),
+('b2p-story', [
+    ('Ир белән хатын урамда һава сулап йөри.', 'A husband and wife are walking in the street, getting some fresh air.'),
+    ('Сезнең якта да шундый ук яңгыр ява бит.', "It's raining just the same where you are, isn't it?"),
+    ('Син аны ишек алдына, киң читлеккә җибәр.', 'Let it out into the yard, into the big cage.'),
+    ('Син нәрсә дип Төмәнне искә төшердең әле?', 'Why did you bring up Tyumen?'),
+]),
+('b2p-soc', [
+    ('Беркетмә - эш кәгазьләренең иң киң таралган төре.', 'Minutes are the most common type of official document.'),
+    ('Авылдагы тагын бер зур яңалыкны телгә аласы килә.', "I'd like to mention another big piece of news from the village."),
+    ('Төзелеш эшләре шул ук елның сентябрендә башланды.', 'Construction work began in September of the same year.'),
+    ('Бәйрәм бик әйбәт оештырылган, шәһәр бик матур иде.', 'The festival was very well organised, and the city looked beautiful.'),
+]),
+('b2p-prov', [
+    ('Тинтәкнең я кулы тынмас, я теле тынмас.', "A fool's hands are never still — or else his tongue isn't."),
+    ('Аяз елны алма күп, явым елны гөмбә күп.', 'A clear year brings plenty of apples; a rainy year, plenty of mushrooms.'),
+    ('Акыллының аты да армый, туны да тузмый.', "A wise man's horse never tires and his coat never wears out."),
+    ('Эш күп — күмер аз, оста күп — тимер аз.', 'Lots of work, little coal; lots of craftsmen, little iron.'),
+]),
+('b2p-life', [
+    ('Дөреслекне уен сүз астында әйтү дә яхшы.', "It's also good to tell the truth under the guise of a joke."),
+    ('Вакыт әкренләп барысын да үз урынына куя.', 'Time slowly puts everything in its place.'),
+    ('бүген тырышып эшлим дә иртәгә ял итәрмен.', "Today I'll work hard, and tomorrow I'll rest."),
+    ('Бер явыз кеше дә үзен хәшәрәт дип санамый.', 'No wicked person thinks of himself as vile.'),
+]),
+('b2p-cult', [
+    ('Автор үзен өлгереп җиткән шагыйрь итеп күрсәтә.', 'The author presents himself as a fully mature poet.'),
+    ('Корбан гарәп теленнән якынаю дип тәрҗемә ителә.', "Kurban is translated from Arabic as 'drawing near'."),
+    ('Акча өчен түгел, матурлык өчен, күңел өчен тегәм.', 'I sew not for money but for beauty, for the soul.'),
+    ('Автор аеруча гаиләдәге тәрбиягә зур әһәмият бирә.', 'The author attaches great importance to upbringing in the family.'),
+]),
+('b2p-story', [
+    ('Бер стаканы үзем өчен, - дип аңлата адәм.', '"One glass is for me," the man explains.'),
+    ('Бөтен сүзе Хәсән турында: исәнме ул, юкмы?', 'All he talks about is Hasan: is he alive or not?'),
+    ('Әби белән бабай мич башында йоклап ята ди.', 'Grandma and Grandpa are asleep on top of the stove, they say.'),
+    ('коридорда әле уннан артык кеше чират көтә.', 'More than ten people are still queuing in the corridor.'),
+]),
+('b2p-soc', [
+    ('Мамадышта соңгы елларда туучылар саны нык кимегән.', 'In Mamadysh the birth rate has fallen sharply in recent years.'),
+    ('Авыл балаларының күбесе каникулда беркая да китми.', "Most village children don't go anywhere during the holidays."),
+    ('Башта сүз мәчетне саклап калдыру турында барган иде.', 'At first the discussion was about saving the mosque.'),
+    ('Бер мең кешегә җиткәндә генә, билетлар сату тукталды.', 'Ticket sales stopped only when the number reached a thousand people.'),
+]),
+('b2p-prov', [
+    ('Агачы кыек булса да, алмасы тәмле була.', 'Even if the tree is crooked, its apples are sweet.'),
+    ('Морҗаң кыек булса да төтене туры чыксын.', 'Even if your chimney is crooked, let the smoke rise straight.'),
+    ('Ат урынына сыер җигеп ерак китеп булмый.', "You won't get far harnessing a cow instead of a horse."),
+    ('Агай олы, мин зур, атка печән кем салыр?', "Big brother's old, I'm grown — so who will give the horse its hay?"),
+]),
+('b2p-life', [
+    ('Белмәү - ул әле куркыныч та, оят та түгел.', 'Not knowing is neither frightening nor shameful.'),
+    ('Адәмгә иң кирәге — ягымлы чырай, җылы сүз.', 'What a person needs most is a kind face and a warm word.'),
+    ('Авырган вакытта йокыдан да яхшырак дәва юк.', "When you're ill, there's no better medicine than sleep."),
+    ('Гомер кыскарган саен яшәү теләге арта бара.', 'The shorter life grows, the stronger the will to live.'),
+]),
+('b2p-cult', [
+    ('Аеруча ул кыска хикәяләр жанрында сәләтен күрсәтә.', 'He shows his talent especially in the short-story genre.'),
+    ('Элек-электән татар халкы эш сөючән, тырыш саналган.', 'From the old days the Tatar people have been considered hard-working and diligent.'),
+    ('Ләбиб - бүгенге заман кешесенә үрнәк булырлык шәхес.', 'Labib is a person who can be a role model for people today.'),
+    ('Әни җырлаган, әни кадерләгән җырлар, сүзләр, хисләр.', 'Songs, words and feelings that Mother sang and cherished.'),
+]),
+('b2p-story', [
+    ('Бара торгач, алар юл катысына килеп чыкты.', 'After a while they came out onto the edge of the road.'),
+    ('Урта яшьләрдәге ир белән хатын ашап утыра.', 'A middle-aged man and woman are sitting eating.'),
+    ('Абыем Нияз баянда уйный, тик үзе өчен генә.', 'My older brother Niyaz plays the bayan, but only for himself.'),
+    ('Йөри-йөри бу кара урманнарга да кереп китә.', 'Wandering on and on, he goes into these dark forests too.'),
+]),
+('b2p-soc', [
+    ('Сезне изге Корбан бәйрәме белән чын йөрәктән котлыйм!', 'I sincerely congratulate you on the holy festival of Kurban Bayram!'),
+    ('Фонд ярдәмендә аның идеяләрен гамәлгә ашыру дәвам итә.', "With the foundation's help, his ideas continue to be put into practice."),
+    ('Авылга тагын ямь керер, урамда бала-чага тавышы ишәер.', "The village will come alive again, and the streets will fill with children's voices."),
+    ('Бездә тәртипкә чакыручылар күп, үтәүчеләр генә күренми.', 'We have plenty of people calling for order, but nobody seems to carry it out.'),
+]),
+('b2p-prov', [
+    ('Ат туйган җиренә, ир туган иленә тартыр.', 'A horse is drawn to where it was fed, a man to the land where he was born.'),
+    ('Кеше акылын ишет, үз акылың белән эш ит.', "Listen to other people's advice, but act on your own judgement."),
+    ('Кем ни генә әйтсә дә, бүре салам ашамас.', "Whatever anyone says, a wolf won't eat straw."),
+    ('Юлдан алда юлчы, өйдән алда күрше белеш.', 'Before setting off, find a travelling companion; before building a house, get to know your neighbour.'),
+]),
+('b2p-life', [
+    ('Елап үз теләгенә ирешү сабыйга гына килешә.', 'Getting your way by crying only suits a baby.'),
+    ('Тормышны ничек бар шулай кабул итәргә өйрән.', 'Learn to accept life as it is.'),
+    ('Һәркем үзен генә хаклы санаганга татулык юк.', "There's no harmony because everyone thinks only he is right."),
+    ('Парлы саналып та күңелләре белән ялгызлар бар.', 'Some people are counted as couples yet are alone in their hearts.'),
+]),
+('b2p-cult', [
+    ('Автор шул әсәрнең проза аралаш дастан вариантын яза.', 'The author writes a version of that work as an epic mixing prose and verse.'),
+    ('Бәлки сынны Идел ярына, су буена төшерергә кирәктер?', 'Perhaps the statue should be moved down to the bank of the Volga, by the water?'),
+    ('Башка илләрдән килүче хаҗиларның да үз киемнәре бар.', 'Pilgrims from other countries have their own clothing too.'),
+    ('Айдарның беренче җыентыгын мин рәхәтләнеп укып чыктым.', "I thoroughly enjoyed reading Aydar's first collection."),
+]),
+('b2p-story', [
+    ('Ни хикмәт, Булат аңардан тамчы да курыкмады.', "Strangely enough, Bulat wasn't the least bit afraid of him."),
+    ('Ничәмә яуга чыкса да, гел җиңүче булып кайта.', 'However many battles he goes into, he always comes back the winner.'),
+    ('Сарай тирәсенә утыннар китереп өя дә ут төртә.', 'He piles firewood around the palace and sets it alight.'),
+    ('Сине ни өчен су асты көймәсеннән ярга кудылар?', 'Why were you put ashore from the submarine?'),
+]),
+('b2p-soc', [
+    ('Трибуналарның теләсә кайсы урыныннан арена яхшы күренә.', 'The arena can be seen well from any seat in the stands.'),
+    ('Тарихи иске бер бинаны интернат-мәктәп итеп оештыралар.', 'An old historic building is being turned into a boarding school.'),
+    ('Авыл клубында район җитәкчеләре катнашында җыелыш бара.', 'A meeting is under way at the village club, attended by district leaders.'),
+    ('Ташкичү авылындагы ике катлы таш мәчет төзекләндерелгән.', 'The two-storey stone mosque in the village of Tashkichu has been restored.'),
+]),
+('b2p-prov', [
+    ('Матурлык туйда кирәк, акыл көн дә кирәк.', 'Beauty is needed at a wedding, but sense is needed every day.'),
+    ('Үзем тапкан мал түгел, атаныкы жәл түгел.', "It's not wealth I earned myself — it's father's, so I don't care. (said of a spendthrift heir)"),
+    ('Яхшы угыл атасын ярлылыгы өчен ким күрми.', "A good son doesn't look down on his father for being poor."),
+    ('Эчмәм дигән коедан өч әйләнеп су эчәрсең.', "You'll come back three times to drink from the well you swore you'd never drink from."),
+]),
+('b2p-life', [
+    ('Һәр фикер, һәр җөмлә өчен җавап бирергә кирәк.', 'You have to answer for every thought and every sentence.'),
+    ('Тормыш кәрт уены кебек: отасың да, оттырасың да.', 'Life is like a game of cards: you win and you lose.'),
+    ('Вакыт сиздерми генә бар нәрсәне үзенә йотып бара.', 'Time quietly swallows everything up.'),
+    ('Ни рәвешле әти-әни баласын туры юлга бастыра ала?', 'How can parents set their child on the right path?'),
+]),
+('b2p-cult', [
+    ('Акъегетнең әдәби тәнкыйтькә караган хезмәтләре дә бар.', 'Akyegit also has works on literary criticism.'),
+    ('Бер меңнән артык мәкалә төрле шәхесләр турында язылган.', 'More than a thousand articles have been written about various personalities.'),
+    ('Үземнең җырларым белән халык күңеленә кереп каласым килә.', "I want my songs to win a place in people's hearts."),
+    ('Автор хатирәләрен лицейны бетерү көннәре белән тәмамлаган.', 'The author ends his memoirs with the days when he finished the lyceum.'),
+]),
+('b2p-story', [
+    ('Безне дөрес аңламаслар дип әйттем ич мин сиңа.', "I told you they wouldn't understand us properly."),
+    ('Тегесе борылып миңа карагач, каттым да калдым.', 'When he turned round and looked at me, I froze.'),
+    ('Күрсәтте, тик бирмәде, - ди Фәнил, кара коелып.', '"He showed it to me, but didn\'t give it," says Fanil, crestfallen.'),
+    ('Адәм булмаса, нәрсә булса да күрмәдегезме юлда?', 'If not a person, did you see anything at all on the road?'),
+]),
+('b2p-soc', [
+    ('Сайтның татарча һәм русча вариантлары тигез рәвештә эшли.', 'The Tatar and Russian versions of the website work equally well.'),
+    ('Агымдагы елда да шулкадәр күләмдә нефть табу планлаштырыла.', 'Oil production on the same scale is planned for this year too.'),
+    ('Акча мәчетләрне ремонтлауга, ягулыкка, утка түләүгә тотыла.', 'The money goes on repairing mosques and paying for fuel and electricity.'),
+    ('Ялгыз калган өлкән кешеләрне тәрбиягә алу очраклары да бар.', 'There are also cases of lonely elderly people being taken into care.'),
+]),
+('b2p-prov', [
+    ('Йөз бүре күргән, яхшылап караса, эт икән.', 'He saw a hundred wolves — and when he looked closely, it was a dog.'),
+    ('Батырның яшәве генә түгел үлеме дә данлы.', "Not only a hero's life but also his death is glorious."),
+    ('Исең барда ил таны, көчең барда җир таны!', 'While you still have your wits, get to know the people; while you still have your strength, get to know the land!'),
+    ('Олы йортка ни кирәк - кечесенә шул кирәк.', 'Whatever a big household needs, a small one needs too.'),
+]),
+('b2p-life', [
+    ('Юл йөрү кебек үк гомер итү дә бер дә рәхәт түгел.', 'Living your life, like travelling, is no easy thing.'),
+    ('Тау биегрәк булган саен ераккарак күз ташлап була.', 'The higher the mountain, the further you can see.'),
+    ('Адәм баласы йолдызларга да карый белергә тиеш бит.', 'A human being should know how to look at the stars too.'),
+    ('Ике төрле янәшә үсемлектән өченче төрлесе дә шыта.', 'From two different plants growing side by side, a third kind also sprouts.'),
+]),
+('b2p-cult', [
+    ('Акрынлап газета битләрендә юмористик хикәяләрем күренә башлады.', 'Gradually my humorous stories began to appear in the newspapers.'),
+    ('Авылның асыл егетләре Тукайның иҗтимагый киңәшмәсен оештыралар.', "The village's finest young men organise a Tukay discussion evening."),
+    ('Автор шул чорның каралты-курасын, кием салымын тәфсилләп сурәтли.', 'The author describes the farm buildings and clothing of that period in detail.'),
+    ('Берлинга баруымда исә мәчет имамы Ризван Баһаветдинов ярдәм итте.', 'When I went to Berlin, the imam of the mosque, Rizvan Bahavetdinov, helped me.'),
+]),
+('b2p-story', [
+    ('Йөзендәге тынлык бик нык җитдилекне аңлата иде.', 'The calm on his face showed great seriousness.'),
+    ('Безне каравылларга теләгән кеше үзе йоклап ята.', 'The man who wanted to guard us is fast asleep himself.'),
+    ('Өчебезне дә кеше итәргә, белем бирергә омтылды.', 'He strove to make all three of us into decent people and give us an education.'),
+    ('Бервакыт миңа аларның өендә булырга туры килде.', 'Once I happened to visit their home.'),
+]),
+('b2p-soc', [
+    ('Камил хәзрәт сүзләренчә, бу эшне башкарып чыгу җиңел түгел.', "According to Kamil hazrat, getting this done isn't easy."),
+    ('Министрлык тапшыруларны ноябрь аенда эфирга чыгарырга җыена.', 'The ministry plans to put the programmes on air in November.'),
+    ('Бетү алдында торган татар авылына имансызлык куркынычы да яный.', 'A Tatar village on the verge of disappearing is also threatened by loss of faith.'),
+    ('Авиация - бөтен ил өчен стратегик тармак, ул киләчәкне билгели.', 'Aviation is a strategic industry for the whole country; it shapes the future.'),
+]),
+('b2p-prov', [
+    ('Ике тирәк бер төптә, ике төймә бер җептә.', 'Two poplars from one root, two buttons on one thread.'),
+    ('Чын яхшының ачуы булса да, үпкәсе булмас.', 'A truly good person may get angry, but never holds a grudge.'),
+    ('Үзеңә үзең каты бул, кешеләргә йомшак бул!', 'Be strict with yourself and gentle with others!'),
+    ('Тирәк, ни юан булса да, пычкыдан котылмас.', "However thick the poplar, it won't escape the saw."),
+]),
+('b2p-life', [
+    ('Күбрәк белгән саен дөньяга сораулар арта гына бара.', 'The more you know, the more questions you have about the world.'),
+    ('Кызганучы да, юатучы да кирәкми, ярдәм итүче кирәк.', 'Nobody needs people to pity or console them — they need someone to help.'),
+    ('Мәсьәләне чишү өчен иң элек аның асылына төшү кирәк.', 'To solve a problem, you first have to get to its essence.'),
+    ('Кул кушырып утыру авыру яки карт кешегә генә килешә.', 'Sitting with folded hands only suits a sick or old person.'),
+]),
+('b2p-cult', [
+    ('Ай белән Кояш элек заманда гел бер җирдә генә тормакчы булганнар.', 'In ancient times the Moon and the Sun wanted to live in the same place always.'),
+    ('Аерым фикерләр, күзәтүләр тик халык легендаларында гына сакланган.', 'Some ideas and observations have survived only in folk legends.'),
+    ('Авылларына концерт белән килгән композитор Фаттахов Рөстәм була ул.', 'It was the composer Rustem Fattakhov, who had come to their village with a concert.'),
+    ('Актерлар, режиссерлар турында мәгълүмат бар, әмма рус телендә генә.', "There's information about the actors and directors, but only in Russian."),
+]),
+('b2p-story', [
+    ('Шушы утыз градуслы салкында сап-салкын су сорый.', "In this thirty-degree frost he's asking for ice-cold water."),
+    ('Тукта, мин җырлыйм, миннән калса, син җырларсың.', "Wait, I'll sing; when I've finished, you can sing."),
+    ('Үзем дә аптырыйм, - дип җавап кайтара яшь хатын.', '"I\'m puzzled myself," the young woman replies.'),
+    ('Бикчәнтәев фамилияле кешеләр Казанда да бар бит.', 'There are people called Bikchantayev in Kazan too, you know.'),
+]),
+('b2p-soc', [
+    ('Аксубай, Әлмәт, Спас районнарында да шундый ук хәл кабатланган.', 'The same situation was repeated in the Aksubay, Almetyevsk and Spassky districts.'),
+    ('Бүген Башкортстан халкы Төмән өлкәсендә үтәчәк сабантуйга китте.', 'Today the people of Bashkortostan set off for the Sabantuy to be held in Tyumen Region.'),
+    ('Кызганычка, республикабызны да мондый күренешләр читләтеп узмады.', "Sadly, such phenomena haven't passed our republic by either."),
+    ('Акционерлар хисап елында җәмгыять эшен канәгатьләнерлек дип таныды.', "The shareholders judged the company's work in the reporting year to be satisfactory."),
+]),
+('b2p-prov', [
+    ('Агач кайсы якка кыек булса, шул якка авар.', 'A tree falls the way it leans.'),
+    ('Малай кулына акча керсә, көчек сатып алыр.', "If a boy gets his hands on money, he'll buy a puppy."),
+    ('Илнең яме иле белән, ватан яме җире белән.', 'A land is beautiful through its people, a homeland through its earth.'),
+    ('Каен агач тал булмас, каен суы бал булмас.', 'A birch will never be a willow, and birch sap will never be honey.'),
+]),
+('b2p-life', [
+    ('Минем хакта үзем белмәгәнне гадәттә читләр яхшы белә.', "Strangers usually know things about me that I don't know myself."),
+    ('Һәр халыкның үз туган теле аның милли үзаңын билгели.', "Every people's native language defines its national identity."),
+    ('Төшемле эш булгач эшенә пенсиягә чыккач та ябышып ята.', 'Since the job pays well, he clings to it even after retiring.'),
+    ('Берәүнең акылы икенче берәүнең акылы белән туры килми.', "One person's mind never quite matches another's."),
+]),
+('b2p-cult', [
+    ('Төрле сәхнәләрдә уйнау күпмедер дәрәҗәдә театрга тискәре тәэсир итә.', 'Playing on many different stages has, to some extent, a negative effect on the theatre.'),
+    ('Хәсән Туфан шигырьләрендә иң еш кулланылучы образларның берсе - җил.', "One of the images used most often in Hasan Tufan's poems is the wind."),
+    ('Автор аның фаҗигале тормышын, халыкчан иҗатын тирәнтен аңлый һәм тоя.', 'The author deeply understands and feels his tragic life and his work rooted in the people.'),
+    ('Төнге тынлык тартып киерелгән кыл кебек теләсә кайчан өзелергә мөмкин.', 'The silence of the night, like a taut string, could snap at any moment.'),
+]),
+('b2p-story', [
+    ('Ак яктылык ничек кабынса, шулай кинәт юкка чыкты.', 'The white light vanished as suddenly as it had flared up.'),
+    ('Патша йокысыннан торгач, алманы үзе санап карады.', 'When the king woke up, he counted the apples himself.'),
+    ('Фермер хатыны иренә бу хәлләрне сөйләргә курыкты.', "The farmer's wife was afraid to tell her husband what had happened."),
+    ('Йөргән кызларымның икесе дә миңа хыянәт итә икән!', "It turns out both the girls I've been seeing are cheating on me!"),
+]),
+('b2p-soc', [
+    ('Акциянең төп оештыручысы булып Бөтендөнья татар яшьләре форумы тора.', 'The main organiser of the campaign is the World Forum of Tatar Youth.'),
+    ('Акча балалар бакчалары төзелешенең билгеле стандартына бүлеп бирелә.', 'The money is allocated according to a set standard for building kindergartens.'),
+    ('Автопарк елдан-ел искерә бара, - ди җәмгыять директоры Идрис Камалов.', '"The vehicle fleet gets older every year," says the company\'s director, Idris Kamalov.'),
+    ('Моннан тыш нәзарәтнең үзенең ышанычлы хаҗ программасы булдыруын әйтте.', 'Besides this, he said the directorate had its own reliable Hajj programme.'),
+]),
+('b2p-prov', [
+    ('Ата баласы аз рәхәткә, күп хәсрәткә түзәр.', "A father's child will bear little joy and much sorrow."),
+    ('Суган кабыгы калын булса, кыш салкын килә.', 'If onion skins are thick, the winter will be cold.'),
+    ('Җил кайсы яктан исә, ул да шул яктан кисә.', "Whichever way the wind blows, that's the way he cuts."),
+    ('Бер егетнең кыюлыгы мең егеткә дан китерә.', "One young man's courage brings glory to a thousand young men."),
+]),
+('b2p-life', [
+    ('Әллә кем булып күренер өчен нәрсәгәдер ирешергә кирәк.', 'To look like somebody, you have to achieve something.'),
+    ('Ике яктан да тигез ярату булса гына мәхәббәт чын була.', 'Love is only real when it is equal on both sides.'),
+    ('Көчле дип тоелган кешенең дә йомшак яклары булмый калмый.', 'Even someone who seems strong always has weak sides.'),
+    ('Гореф-гадәтен, динен, телен саклаган халыкка бетү янамый.', 'A people that preserves its customs, faith and language is in no danger of dying out.'),
+]),
+('b2p-cult', [
+    ('Аеруча фарсы, төрек, гарәп, француз, итальян телләрен камил өйрәнә ул.', 'He masters Persian, Turkish, Arabic, French and Italian especially well.'),
+    ('Автор бу хикәясен университетның ятакханәсендә студентлар алдында укый.', 'The author reads this story to students in the university hall of residence.'),
+    ('Айдарның хикәяләре миндә, бу җәһәттән, авторны кызгану тойгысы уятмады.', "In this respect, Aydar's stories didn't make me feel sorry for the author."),
+    ('Кинәт ул тавыш ишетә һәм күзен ачкач, Җәбраил фәрештәнең килгәнен күрә.', 'Suddenly he hears a sound, and when he opens his eyes he sees that the angel Gabriel has come.'),
+]),
+('b2p-story', [
+    ('Абзарда айгыр дөньяны җимерердәй булып дулап йөри.', 'In the stable the stallion is raging as if it would tear the world apart.'),
+    ('Аерылыр вакыт җиткәч, атасы һич түзә алмый - елый.', "When the time comes to part, the father can't bear it — he weeps."),
+    ('Ике үсмер музейда бер абстракт картина янына килә.', 'Two teenagers walk up to an abstract painting in a museum.'),
+    ('Диңгез буенда ял итүче берәү кайтырга җыена башлый.', 'Someone on holiday by the sea starts getting ready to go home.'),
+]),
+('b2p-soc', [
+    ('Хакимияткә килгәндә безнең барыбызның да төрле булуын аңламыйча ярамый.', "When it comes to government, we have to understand that we're all different."),
+    ('Авылда татар телен саклап калу проблемасы бармы, яшьләр татарча укыймы?', 'Is there a problem keeping the Tatar language alive in the village — do young people read in Tatar?'),
+    ('Администрациядә эшләгәндә миңа берничә мәртәбә ришвәт бирмәкче булдылар.', 'When I worked in the administration, people tried to bribe me several times.'),
+    ('Илнур Вәлиуллин җыенда чыгыш ясарга теләүчеләрнең күп булуы турында әйтте.', 'Ilnur Valiullin said that many people wanted to speak at the gathering.'),
+]),
+('b2p-prov', [
+    ('Куян тауга үпкәләгән, тауның исендә дә юк.', "The hare is offended with the mountain, but the mountain doesn't even notice."),
+    ('Ай саен бәйрәм булмас, көн саен туй булмас.', "There isn't a holiday every month or a wedding every day."),
+    ('Мич башында биш мәче, биш мәченең биш башы.', 'Five cats on the stove, five heads of five cats. (a tongue twister)'),
+    ('Сүз белән пылау пешереп булмый, дөге кирәк.', "You can't cook pilaf with words — you need rice."),
+]),
+('b2p-life', [
+    ('Проблемага күз йомып йөрсәң иртәме-соңмы барып төртеләсең.', "If you keep closing your eyes to a problem, sooner or later you'll run into it."),
+    ('Син начар дип уйлаган кемгәдер яхшы булып тоелырга мөмкин.', 'Someone you think is bad may seem good to someone else.'),
+    ('Бернигә дә ышанмыйсың, өметләнмисең икән нигә яшәп торырга.', 'If you believe in nothing and hope for nothing, why go on living?'),
+    ('Үткәннәрен генә түгел киләчәген дә сызып аткан кешеләр бар.', 'Some people cross out not only their past but also their future.'),
+]),
+('b2p-cult', [
+    ('Кешеләр азык-төлекне үзләренә кирәк булганнан күбрәк туплый башлаганнар.', 'People began storing more food than they needed.'),
+    ('Габдулла Тукай - татар әдәбияты күгендә янган якты йолдызларның иң зурысы.', 'Gabdulla Tukay is the greatest of the bright stars shining in the sky of Tatar literature.'),
+    ('Тәкъдим ителгән әңгәмәдә Флюра ханымның иҗаты белән якынрак таныша алырсыз.', "In the interview offered here, you can get to know Mrs Flyura's work more closely."),
+    ('Авылга исем юктан бирелми, үзгәрткәнче аның этимологиясен тикшерергә кирәк.', "A village isn't named for nothing; before renaming it, its etymology should be studied."),
+]),
+('b2p-story', [
+    ('Әйтергә генә ансат: бу газап биш ел буе дәвам итте.', "It's easy to say, but this torment went on for five years."),
+    ('Сукмактан ерак түгел генә кар бик нык тапталган иде.', 'Not far from the path the snow had been trampled hard.'),
+    ('Лена, карасалар, алсу йөзле, матур кыз булып чыккан.', 'When they looked, Lena turned out to be a pretty, rosy-cheeked girl.'),
+    ('Мадам, сез миңа кияүгә чыгарга риза булмассызмы икән?', 'Madam, would you perhaps agree to marry me?'),
+]),
+('b2p-soc', [
+    ('Авыр икътисади буталыш башланган елны газетаның абруен күтәрүгә зур көч куя.', "In the year severe economic turmoil began, he put great effort into raising the newspaper's standing."),
+    ('Тикшерү нәтиҗәләре буенча, Нурлат шәһәр прокуратурасы судка мөрәҗәгать итте.', "Based on the results of the investigation, the Nurlat city prosecutor's office went to court."),
+    ('Агросәнәгать секторында хуҗалык итүнең башка рәвешләре һаман зуррак урын ала.', 'Other forms of farming are taking an ever larger place in the agro-industrial sector.'),
+    ('Әлеге район башлыгының үзенә килгән кешене өйгә алып кайта торган гадәте бар.', 'The head of this district has a habit of taking visitors home with him.'),
+]),
+('b2p-prov', [
+    ('Эшеңнең авырын алга куй, җиңелен артка куй.', 'Put the hardest part of your work first and the easiest last.'),
+    ('Җил агач башыннан, бәла адәм башыннан йөри.', "Wind strikes the treetops, and misfortune strikes people's heads."),
+    ('Таяк таяныр өчен дә, тукмар өчен дә яраклы.', 'A stick is good both for leaning on and for beating with.'),
+    ('Җир безне басканчы, без җиргә басып калыйк.', 'Before the earth covers us, let us leave our mark on the earth.'),
+]),
+('b2p-life', [
+    ('Нәрсәгәдер ирешү өчен теләк кенә җитми, мөмкинлек тә кирәк.', "To achieve something, wanting it isn't enough; you need the opportunity too."),
+    ('Ирешелгәннәр чик түгел дип яшәсәң генә яңа үрләр яулап була.', "You can only conquer new heights if you live believing that what you've achieved isn't the limit."),
+    ('Йөрәк ешрак тибә башлый, организмдагы кислород резервы арта.', "The heart starts beating faster and the body's oxygen reserve increases."),
+    ('Бер яктан яхшы булганның икенче яктан начар булуы да мөмкин.', 'What is good in one respect may well be bad in another.'),
+]),
+('b2p-cult', [
+    ('Актив рәвештә иҗат итү, балалар дөньясын өйрәнү үзенең уңай нәтиҗәсен бирде.', "Active creative work and the study of children's world have borne fruit."),
+    ('Татарда буржуаз вакытлы матбугат, театр, сәнгать һәм әдәбият киңәеп үсеп китә.', 'Among the Tatars, the periodical press, theatre, art and literature expand and flourish.'),
+    ('Авыр язмыш кичергән, дәүләтен югалткан халыкның мескенлеге чагыла ул җырларда.', 'Those songs reflect the misery of a people who suffered a hard fate and lost their state.'),
+    ('Сәнгать училищесына керү өчен, башлангыч сәнгать мәктәбен үтәргә кирәк икән шул.', 'To enter art college, it turns out you first have to finish a primary art school.'),
+]),
+('b2p-story', [
+    ('Укый белмим, яза белмим, сөйләшеп утырырга да ярамый!', "I can't read, I can't write, and I'm not even allowed to sit and chat!"),
+    ('Авыл башында хатын-кыз су ала торган җиргә туктыйлар.', 'They stop at the place at the end of the village where the women fetch water.'),
+    ('Бара-бара барып җиттеләр, ди, болар дию торган җиргә.', 'They travelled on and on, they say, and reached the place where the div lived.'),
+    ('Берсенең руль артында хатын-кыз, икенчесендә ир кеше.', 'In one car a woman is at the wheel, in the other a man.'),
+]),
+('b2p-soc', [
+    ('Теләсә кәгазьдә, теләсә электрон формада, интернет аша да җибәреп торырга була.', 'You can send it on paper or electronically, including over the internet.'),
+    ('Автобуста система сафтан чыкса, алар килеп ремонтлый, ай саен тикшереп торалар.', 'If the system breaks down on a bus, they come and repair it, and they check it every month.'),
+    ('Мәгариф өлкәсе көчле, тәҗрибәле мөгаллимнәр, галимнәр тирәсенә тупланырга тиеш.', 'Education should be built around strong, experienced teachers and scholars.'),
+    ('Унсигез ел элек сайлап алынган курсның стратегик яктан дөреслеген вакыт раслады.', 'Time has confirmed that the course chosen eighteen years ago was strategically right.'),
+]),
+('b2p-prov', [
+    ('Теше чыккан балага чәйнәп биргән аш булмас.', "Once a child has teeth, there's no more pre-chewed food for him."),
+    ('Асыл кеше алтын дип үлмәс, халкым дип үләр.', "A noble person doesn't die for gold; he dies for his people."),
+    ('Ялган мең булса да бер хаклыкны җиңә алмый.', "Even a thousand lies can't defeat one truth."),
+    ('Сер дусты күп булыр, сер тотканы дус булыр.', 'Many will be your confidants; the one who keeps your secret will be your friend.'),
+]),
+('b2p-life', [
+    ('Әнә шулай итеп, беренче тойгы икенчесен уятып, үзе юкка чыга.', 'And so the first feeling awakens the second and then itself disappears.'),
+    ('Бүгенгесе дә хәл ителмәгән килеш киләчәккә план корып булмый.', "You can't plan for the future while today's problems are still unsolved."),
+    ('Вакытта шәм төсле балкып янабыз да әкренләп эреп юкка чыгабыз.', 'For a while we burn brightly like candles, then slowly melt away.'),
+    ('Тормыштагы вак-төякләр җыйналып зур проблема тудырырга мөмкин.', "Life's little things can pile up and create a big problem."),
+]),
+('b2p-cult', [
+    ('Гадәтем шулай иде, шигырьне язып бетерәм дә, конвертка салып, редакциягә җибәрәм.', 'My habit was to finish a poem, put it in an envelope and send it to the editors.'),
+    ('Актерлык-режиссерлык осталыгы буенча белем алырга теләүчеләргә көтелмәгән мөмкинлек.', 'An unexpected opportunity for those who want to study acting and directing.'),
+    ('Безнең кайбер картларыбыз хәтта өйдә баян тотарга, анда уйнарга, биергә ярамый диләр.', "Some of our old people even say it's wrong to keep an accordion at home, to play it or to dance."),
+    ('Аеруча Вазыйх Фатыйхов, Эльмира Шәрифуллина, Шәмсия Җиһангированың шигырьләрен яратам.', 'I especially love the poems of Vazykh Fatykhov, Elmira Sharifullina and Shamsiya Zhihangirova.'),
+]),
+('b2p-story', [
+    ('Әле генә сез безнең лотереяда миллион доллар оттыгыз!', "You've just won a million dollars in our lottery!"),
+    ('Күзе күгәргән бер ханым иренең иртә кайтуына зарлана.', 'A woman with a black eye complains that her husband comes home early.'),
+    ('Алай-болай итеп, сулар сибеп, һушка китерәләр хатынны.', 'Somehow, splashing water on her, they bring the woman round.'),
+    ('Былтыр күршеңне караклар талап чыккан иде түгелме соң?', "Didn't thieves rob your neighbour last year?"),
+]),
+('b2p-soc', [
+    ('Август конференциясенең йомгаклау тәкъдимнәрендә шушы стратегик максат теркәлде.', 'This strategic aim was recorded in the closing recommendations of the August conference.'),
+    ('Айрат ассызыклаганча, бүген кешеләрнең күбесе үз сәламәтлеге турында кайгыртмый.', "As Ayrat stressed, most people today don't look after their own health."),
+    ('Республика башлыгы Казанның күз алдында танымаслык булып үзгәрүен билгеләп үтте.', 'The head of the republic noted that Kazan has changed beyond recognition before our eyes.'),
+    ('Тикшерү органнары әлеге җинаять эшен, шулай ук ир-ат биргән аңлатманы да тикшерә.', "The investigators are examining the criminal case and the man's statement."),
+]),
+('b2p-prov', [
+    ('Кеше ышанмаслык сүзне чын булса да сөйләмә.', "Don't tell something nobody will believe, even if it's true."),
+    ('Узган гомер кире кайтмый сулар үргә акса да.', "Time gone by won't come back, even if rivers flow uphill."),
+    ('Теле ачылмаган балага сыерчык тел алып килә.', "The starling brings speech to a child who hasn't started talking yet."),
+    ('Бер төкерсә, бер була, ил төкерсә, күл була.', "When one person spits, it's a drop; when the whole people spits, it's a lake."),
+]),
+('b2p-life', [
+    ('Мондый хәлгә тап булмас өчен шикәрле ризык ашауны киметү зарур.', 'To avoid ending up in that situation, you need to cut down on sugary food.'),
+    ('Бәхетле булып күренгәннәр арасында чын бәхет кемгә татыган икән?', 'Among those who look happy, who has really tasted true happiness?'),
+    ('Чөнки аның сулау күәсенә зарар киләчәк, дым тоту сәләте югалачак.', 'Because its ability to breathe will be harmed and it will lose its capacity to hold moisture.'),
+    ('Матурлык соклану да, табыну да, нәфрәт тә, көнләшү дә тудыра ала.', 'Beauty can stir admiration, worship, hatred and envy.'),
+]),
+('b2p-cult', [
+    ('Сөембикә язмышы, бер үк вакытта, милләтебезнең йөзен һәм драматик тарихын да гәүдәләндерә.', "Syuyumbike's fate embodies both the face and the dramatic history of our nation."),
+    ('Авыл мәктәбен тәмамлаганнан соң хәзерге Самара өлкәсенең Камышлы авылы педучилищесында белем ала.', "After finishing the village school, he studied at the teacher training college in Kamyshla, in today's Samara Region."),
+    ('Аларда татар шәкертләренең ярлылыкта яшәүләренә карамастан, белемгә омтылышлары калку чагылыш таба.', "They vividly show the Tatar students' thirst for knowledge despite their poverty."),
+    ('Үз әсәрләрендә ул халыкларны берләштергән мәңгелек рухи кыйммәтләрне шигъри телдә сурәтләүгә иреште.', 'In his works he succeeded in depicting, in poetic language, the eternal spiritual values that unite peoples.'),
+]),
+('b2p-story', [
+    ('Тауны буйсындырмакчы иде дә үргә дә менеп җитә алмады.', "He meant to conquer the mountain, but couldn't even get up the slope."),
+    ('Тагын иске картага карап очарга туры килә инде алайса.', "Then we'll have to fly by the old map again."),
+    ('Чормадан эзләмәкче идем дә, баскычны каядыр куйганмын.', "I meant to look in the attic, but I've put the ladder somewhere."),
+    ('Эт, гадәттәгечә, аларны капка төбенә хәтле озата килде.', 'As usual, the dog saw them off as far as the gate.'),
+]),
+('b2p-soc', [
+    ('Программаның күпчелек өлеше чит төбәкләрдә яшәүче милләттәшләребезгә юнәлдерелгән.', 'Most of the programme is aimed at our fellow Tatars living in other regions.'),
+    ('Ислам финанслары традицион юлларны кысрыкламый, ул аларга альтернатива булып тора.', "Islamic finance doesn't push out the traditional ways; it is an alternative to them."),
+    ('Яр Чаллы урамнарының киңлеге, заманча төзелгән мәдәният сарайлары белән сокландыра.', 'Naberezhnye Chelny impresses with its wide streets and modern palaces of culture.'),
+    ('Алабуга терлек баш санын арттыру, үсемлекчелек тармагын үстерү буенча эш алып бара.', 'Yelabuga is working to increase livestock numbers and develop crop farming.'),
+]),
+('b2p-prov', [
+    ('Зурайткыч көзге алдында кәрлә дә дәү күренә.', 'In front of a magnifying mirror even a dwarf looks like a giant.'),
+    ('Ут янмый төтен булмас, ярты эш бөтен булмас.', "There's no smoke without fire, and half a job is never a whole one."),
+    ('Көн күрмәгән көн күрсә, көндез чыра яндырыр.', "When someone who's never seen good days finally sees one, he lights a torch at noon."),
+    ('Таудан күргән белән үзәннән күргән бер түгел.', "What you see from the mountain isn't the same as what you see from the valley."),
+]),
+('b2p-life', [
+    ('Мин бик йомшак күңелле, тик моны беркемгә дә сиздермәскә тырышам.', "I'm very soft-hearted, but I try not to let anyone notice."),
+    ('Ничек туганыңны белү кызык түгел, кем булып үләчәгеңне белү кызык.', "How you were born isn't interesting; what is interesting is who you'll be when you die."),
+    ('Авыл кешесенең эше тавык чүпләсә дә бетми, дип тиккә әйтмиләр бит.', "It's not for nothing they say a villager's work never ends, even if the hens peck at it."),
+    ('Авыр түгел бит ул, җыр, көй, уен, көлке арасында харап күңелле була!', "It isn't hard at all — among songs, tunes, games and laughter it's tremendous fun!"),
+]),
+('b2p-story', [
+    ('Абыйлары, үзара сөйләшеп, бу карчыкны алдарга булдылар.', 'After talking it over among themselves, the brothers decided to trick the old woman.'),
+    ('Бераз тирән уйга батып торганнан соң Мидхәт чыгып китте.', 'After standing lost in thought for a while, Midkhat left.'),
+    ('Без бәләкәй чакта казах балалары белән бергә уйный идек.', 'When we were little, we used to play together with Kazakh children.'),
+    ('Нигә вакытыннан алда җыенасың? - дип сорый аннан күршесе.', '"Why are you getting ready ahead of time?" his neighbour asks him.'),
+]),
+('b2p-soc', [
+    ('Укытучылар, әти-әниләр дә ярдәмгә килгән, капиталь ремонтка аларның да көчләре керә.', 'Teachers and parents came to help too, and their efforts went into the major repairs.'),
+    ('Агымдагы елның беренче сентябреннән укытучыларга хезмәт хакын яңача түли башладылар.', 'From the first of September this year teachers began to be paid in a new way.'),
+    ('Авыл кешеләре үзләренә йортлар тергезү белән бергә авыл үзәгендә мәчет тә төзегәннәр.', 'As well as building houses for themselves, the villagers also built a mosque in the centre of the village.'),
+    ('Мәдәният - дәүләтне һәм гражданлык җәмгыятен ныгытуда иң әһәмиятле ресурсларның берсе.', 'Culture is one of the most important resources for strengthening the state and civil society.'),
+]),
+('b2p-prov', [
+    ('Илдә йөргән ил таныр, кырда йөргән җир таныр.', 'He who travels the land knows its people; he who walks the fields knows the earth.'),
+    ('Эше юк эш чыгарыр, каш ясыйм дип күз чыгарыр.', 'An idle man makes trouble: trying to paint an eyebrow, he pokes out an eye.'),
+    ('Беләге бар берне егар, белеме бар меңне егар.', 'Strength of arm overcomes one; strength of knowledge overcomes a thousand.'),
+    ('Уйчы уй уйлаганчы, тәвәккәл судан үтеп китәр.', 'While the thinker is still thinking, the bold one has already crossed the river.'),
+]),
+('b2p-life', [
+    ('Акрынлап үзем дә сизмәстән диннең, Исламның асылына төшенә башладым.', 'Gradually, without noticing it myself, I began to understand the essence of religion, of Islam.'),
+    ('Яңа ел теләкләребез үтәлсә, без күптән оҗмахка тиң тормышта яшәр идек.', "If our New Year wishes came true, we'd long since be living in paradise."),
+    ('Тормыштан канәгать булу өчен туктаусыз нәрсәгәдер ирешеп торырга кирәк.', 'To be content with life, you have to keep achieving something.'),
+    ('Акча комга аккан судай – бүленеп бирелә, урыннарга китә һәм эзсез югала.', "Money is like water running into sand: it's shared out, goes here and there and vanishes without a trace."),
+]),
+('b2p-story', [
+    ('Әхмәт текст бирде, аны татарчадан алманчага тәрҗемә иттем.', 'Ahmet gave me a text, and I translated it from Tatar into German.'),
+    ('Яңа елны бергә каршылаганнан бирле бер дә очрашкан юк иде!', "We haven't met once since we saw in the New Year together!"),
+    ('Гафу итегез, исем-фамилиягез һәм әтиегезнең исемен белмим.', "Excuse me, I don't know your full name and patronymic."),
+    ('Икенче иремнең беренче хатынының өченче ире белән таныштым.', "I've met the third husband of my second husband's first wife."),
+]),
+('b2p-soc', [
+    ('Аерым алганда, сайлауларның оешкан төстә узуы, анда күп кешенең катнашуы билгеләп үтелде.', 'In particular, it was noted that the elections were well organised and many people took part.'),
+    ('Акча балаларның тормыш-көнкүрешен тагын да уңайлырак итү өчен тотылачак, ди оештыручылар.', "The money will be spent on making the children's everyday lives more comfortable, the organisers say."),
+    ('Республика икътисадының уңай үсешенә дә карамастан, байтак кына тармакларда проблемалар калды әле.', "Despite the positive growth of the republic's economy, problems remain in quite a few sectors."),
+    ('Авыл хуҗалыгы өлкәсендә Президент яшь фермерларга белем бирүнең үзгәрүчән графигын булдырырга чакырды.', 'In agriculture, the President called for a flexible schedule for training young farmers.'),
+]),
+('b2p-prov', [
+    ('Алтмышка җитсен бала, ана өчен һаман да бала.', "Even when a child turns sixty, to its mother it's still a child."),
+    ('Ятим бала дип кимсетмә, бәхете булса ир булыр.', "Don't look down on an orphan: if luck is with him, he'll become a fine man."),
+    ('Яшь каенга терәлеп, карт каен кырык ел яшәгән.', 'Leaning against a young birch, the old birch lived for forty years.'),
+    ('Үзенә баш — эшенә баш, эшенә баш — кешегә баш.', 'Master of yourself, master of your work; master of your work, master of people.'),
+]),
+('b2p-life', [
+    ('Акыллы атын мактар, юләр хатынын мактар, шыр тиле үзен мактар.', 'A wise man praises his horse, a fool praises his wife, and a complete idiot praises himself.'),
+    ('Икәү булсаң, береңә киңәш ит, берәү булсаң, бүрегеңә киңәш ит.', "If there are two of you, consult each other; if you're alone, consult your hat."),
+    ('Яшьлектә белгән — ташка язган, картайгач белгән — бозга язган.', 'What you learn in youth is carved in stone; what you learn in old age is written on ice.'),
+    ('Рәхмәт сиңа һәрвакыт якты чыраең, тәмле сүзләрең белән каршылаганың өчен.', 'Thank you for always greeting me with a bright face and kind words.'),
+]),
+('b2p-story', [
+    ('Агаларының китүе булды, әлеге убырлы карчык килеп тә керде.', 'No sooner had the brothers left than the old witch came in.'),
+    ('Сез монда килергә тиеш, без сезнең белән бергә булырга тиеш.', 'You must come here; we must be together with you.'),
+    ('Абзыйлары йоклап киткәч, энеләре кылыч тотып каравылда тора.', 'When the older brothers fall asleep, the youngest stands guard with a sword.'),
+    ('Агачларга утлы якты кунса да, яфраклары коелырга ашыкмый әле.', 'Although the trees have caught a fiery glow, their leaves are in no hurry to fall yet.'),
+]),
+('b2p-prov', [
+    ('Урманда агач күп, сайлый башласаң яраклысы юк.', 'There are plenty of trees in the forest, but start choosing and none will do.'),
+    ('Упкын төбеннән тау түбәсен күзәтүдән ни файда.', "What's the use of gazing at the mountaintop from the bottom of the abyss?"),
+    ('Кысрыклап кына атны тәртә арасына кертеп була.', 'Only by pushing can you get a horse between the shafts.'),
+    ('Иртә уңмаган кич уңмас, кич уңмаган һич уңмас.', "One who doesn't succeed in the morning won't in the evening; one who doesn't in the evening never will."),
+]),
+('b2p-life', [
+    ('Мәхәббәттә вариантлар күп, шуңа да сөйгән ярларны сайлаганда еш ялгышабыз.', 'There are many options in love, which is why we often choose the wrong partner.'),
+    ('Тыңлаучан һәм игътибарлы булыгыз, һәрвакыт ата-ананың сүзенә колак салыгыз.', 'Be obedient and attentive, and always listen to your parents.'),
+    ('Аерым алганда, республика башкаласына Һиндстанның туристлык компанияләре делегациясе килер дип көтелә.', 'A delegation of Indian travel companies is expected to visit the capital of the republic.'),
+    ('Тәүге комедияләрнең тууына, әлбәттә, француз драматургы Мольерның пьесаларын тәрҗемә итү этәргеч бирә.', "The first comedies were of course prompted by translations of the French playwright Molière's plays."),
+]),
+('b2p-story', [
+    ('Мин, үзеңнән яшереп кенә, һәр хәрәкәтеңне, һәр ымыңны күзәтәм.', 'Secretly, I watch your every move, your every gesture.'),
+    ('Слесарь түбәннән кычкырган, кычкырган - җавап бирүче булмаган.', 'The plumber shouted and shouted from below, but nobody answered.'),
+    ('Аклар килсә, мин акларга җырлыйм, кызыллар килсә - кызылларга.', 'If the Whites come, I sing for the Whites; if the Reds come, for the Reds.'),
+    ('Әйтегез әле, бу операциядән соң мин скрипкада уйный алырмынмы?', 'Tell me, will I be able to play the violin after this operation?'),
+]),
+('b2p-prov', [
+    ('Тел белән әйтмичә, бармак белән төртеп булмый.', "If you don't say it in words, you can't point it out with your finger."),
+    ('Ил купса, идел кубар, авыл купса, давыл кубар.', 'When the country rises up, the Volga rises; when the village rises up, a storm rises.'),
+    ('Эчеңдә ут кайнаса да, борыныңнан төтен чыгарма!', "Even if fire is boiling inside you, don't let smoke come out of your nose!"),
+    ('Туган җирдәй җир булмас, туган илдәй ил булмас.', "There's no land like your native land, no country like your native country."),
+]),
+('b2p-story', [
+    ('Авылда, кич караңгы төшкәч, берәүнең өенә ике адәм килеп керә.', "One evening in the village, after dark, two men come into someone's house."),
+    ('Абыйларын базга алып төшеп, аларга үзе тапкан сандыкны күрсәтә.', 'He takes his older brothers down to the cellar and shows them the chest he has found.'),
+    ('Доктор, сезнең киңәшләрне тотсам да, анализларым барыбер начар.', 'Doctor, even though I follow your advice, my test results are still bad.'),
+    ('Миннән һичбер җавап көтмичә, ярты сәгать микъдары сөйләп барды.', 'Without expecting any answer from me, he talked on for about half an hour.'),
+]),
+('b2p-prov', [
+    ('Болай утырып эш чыкмас, кәнфит ашап теш чыкмас.', "Sitting like this gets nothing done, just as eating sweets won't grow teeth."),
+    ('Ашның тәме тоз белән, кешенең кадере сүз белән.', 'Soup gets its taste from salt; a person gets respect from words.'),
+    ('Ямьле булса да торган җир, сагындыра туган җир.', "However lovely the place you live, it's your birthplace you'll miss."),
+    ('Ялгыз башка кайда да бер - таң ата да кич була.', "For someone alone it's all the same anywhere: dawn breaks and evening comes."),
+]),
+('b2p-story', [
+    ('Галимҗан бабам исә сугышта тездән өстә бер аягын калдырып кайта.', 'Grandfather Galimjan comes back from the war having lost a leg above the knee.'),
+    ('Әле генә мин китергән балыкны тизрәк ашап бетерегез әле, зинһар.', "Please eat up the fish I've just brought, quickly."),
+    ('Бераз коры җир белән барганнан соң, бер бик куе урманга җиттеләр.', 'After travelling a while over dry land, they came to a very dense forest.'),
+    ('Башлык хатыны белән ачуланышкан да, аның туганнарын эштән кумакчы.', 'The boss has quarrelled with his wife and wants to sack her relatives.'),
+]),
+('b2p-prov', [
+    ('Телең белән фикер йөртмә, уең белән фикер йөрт.', "Don't think with your tongue; think with your mind."),
+    ('Үз халкыңны үз итсәң, ят халыкка кол булмассың.', "If you hold your own people dear, you'll never be a slave to a foreign one."),
+    ('Анасыз корт бал җыймас, бал җыйса да мул җыймас.', 'Bees without a queen gather no honey — and if they do, not much.'),
+    ('Баскан эзеңне белеп бас, алды-артыңны күреп бас!', 'Know where you tread; look before and behind you as you step!'),
+]),
+('b2p-story', [
+    ('Марат директорын тәнкыйтьли башлаган иде, проблемалары чыга башлады.', 'Marat had started criticising his director, and then the problems began.'),
+    ('Авыз зур, күзләр акаеп тора, борын бигрәкләр дә килешсез кебек тоела.', 'A big mouth, bulging eyes, and a nose that looks particularly awkward.'),
+    ('Азык-төлек ташый торган челтәр сумкага салып, өебезгә дә алып кайттык.', 'We put it in the string bag we use for groceries and took it home.'),
+    ('Дача хуҗалары, каравыл торып, бер чиләк карлыган урлаган каракны тоталар.', 'Keeping watch, the dacha owners catch a thief who stole a bucket of blackcurrants.'),
+]),
+('b2p-prov', [
+    ('Тырыш аста калмас, аста калса да бер өскә чыгар.', "A diligent person won't stay at the bottom, and if he does, he'll rise again."),
+    ('Оста барда кулыңны тый, чәчән барда телеңне тый.', 'When a master is present, hold back your hand; when an orator is present, hold your tongue.'),
+    ('Күңел күзең күрмәсә, маңгай күзе - ботак тишеге.', "If the eye of your heart doesn't see, the eye in your forehead is just a knot-hole."),
+    ('Уй сүз булып телдән ычкынгач сер булудан туктый.', 'Once a thought slips off the tongue as a word, it is no longer a secret.'),
+]),
+('b2p-story', [
+    ('Атлы кеше тау астына төшеп күмелгәч, алар сакланып кына урманнан чыктылар.', 'When the horseman had ridden down the hill and disappeared, they cautiously came out of the forest.'),
+    ('Дию патшасы, ачыгулары җитсә, усалрак булырлар дип, сакчыларын ач тота икән.', 'The div king keeps his guards hungry, thinking hunger will make them fiercer.'),
+    ('Атлы жандармнар авылдан чыгып качарга ниятләгән берничә малайны тотып китерә.', 'Mounted gendarmes catch several boys who meant to run away from the village.'),
+    ('Тау ташкыны аркылы басма сала да, шуның аша туристларны күтәреп чыгара башлый.', 'He lays a footbridge across the mountain torrent and starts carrying the tourists over it.'),
+]),
+('b2p-prov', [
+    ('Адәм җәй булса кышны тели, кыш булса җәйне тели.', 'In summer a person longs for winter; in winter, for summer.'),
+    ('Каләм белән язганны кылыч белән дә боза алмассың.', "What is written with a pen can't be undone even with a sword."),
+    ('Бер йолдыз атылганнан гына күк матурлыгын җуймый.', "The sky doesn't lose its beauty just because one star has fallen."),
+    ('Алма ничек пешкән - эргәсенә шулай коелып төшкән.', "However the apple ripened, that's how it falls beside the tree."),
+]),
+('b2p-story', [
+    ('Абзыйга, өмет тулы мөлдерәмә күзләр белән карап, йомшак кына итеп хәлне аңлатты.', 'Looking at the man with eyes full of hope, she gently explained the situation.'),
+    ('Агач төбендә, тәмләп-тәмләп кенә, сөтле чәй йотканда, тирә-як табигатьне күзәтәм.', 'Sipping milky tea slowly under a tree, I watch the nature around me.'),
+    ('Өч елдан боларның өч балалары була, берсеннән-берсе матурлар, пешкән алма кебекләр.', 'Within three years they have three children, each more beautiful than the last, like ripe apples.'),
+    ('Әтиең белән без сине эзләп бөтен дискотекалар, кафелар, барлар буйлап йөгереп йөредек!', 'Your father and I ran round every disco, café and bar looking for you!'),
+]),
+('b2p-prov', [
+    ('Иң татлы тел — туган тел, анаң сөйләп торган тел.', 'The sweetest language is your native language, the language your mother speaks.'),
+    ('Үрдәк йомыркасын тавык басар, бәбкәсе суга качар.', "A hen may sit on a duck's egg, but the duckling will run off to the water."),
+    ('Ялгыз агачны җил борган, күмәк агач җилне борган.', 'The wind bends a lone tree; trees together turn back the wind.'),
+    ('Яшене хәтәр булса да үтәр, артыннан күкрәве яман.', "Though the lightning is terrible, it passes; it's the thunder after it that's fearsome."),
+]),
+('b2p-prov', [
+    ('Хәйләгә каршы хәйлә бар, китмәнгә каршы кәйлә бар.', "There's a trick for every trick, and a pick for every hoe."),
+    ('Үпкәне ачу белән, утны бензин белән баса алмассың.', "You can't put out resentment with anger, or fire with petrol."),
+    ('Агачны үстерергә илле ел, кисәргә биш минут кирәк.', 'It takes fifty years to grow a tree and five minutes to cut it down.'),
+    ('Яхшының сүзе акыл чакыра, яманның сүзе ачу чакыра.', "A good man's words call forth reason; a bad man's words call forth anger."),
+]),
+('b2p-prov', [
+    ('Телне тешләп өзеп булмый, сөйләми дә түзеп булмый.', "You can't bite off your tongue, and you can't bear to keep silent either."),
+    ('Кешедән көләргә яратсаң, үзеңнән көлгәндә дә ярат.', 'If you like laughing at others, learn to like it when they laugh at you.'),
+    ('Гөл булса, гөлгә куан, гөле булмаса, бөресенә куан.', "If there's a flower, enjoy the flower; if there isn't, enjoy the bud."),
+    ('Барыннан да бере шул: бүгенге эшен таңга калдырмас.', "Best of all is this: don't leave today's work until tomorrow's dawn."),
+]),
+('b2p-prov', [
+    ('Бөтенләй көлеп бетермә, бәйрәмдә көләргә дә калсын.', "Don't use up all your laughter — save some for the holiday."),
+    ('Ихтыярлы кеше — бар кеше, ихтыярсыз кеше — юк кеше.', 'A person with willpower is somebody; a person without it is nobody.'),
+    ('Адәм баласын түгел, аю баласын да биергә өйрәтәләр.', 'They teach not just a human child but even a bear cub to dance.'),
+    ('Хәйләкәр бер хәйләдән котылам дип икенчесенә батар.', 'A cunning man escaping one trick falls into another.'),
+]),
+('b2p-prov', [
+    ('Үзеңнең надан икәнеңне беләсең килсә, күп китап укы.', 'If you want to know how ignorant you are, read lots of books.'),
+    ('Хәлвәнең әлбәсе бар, картлар әйткәннең мәгънәсе бар.', 'Halva has its sweetness, and the sayings of the old have their meaning.'),
+    ('Кардәш җыелса, кавем булыр, сыер җыелса, савым булыр.', 'When relatives gather, they make a clan; when cows gather, they make a milking.'),
+    ('Кояш баткач, һавадагы кызыллык озак торса, аяз булыр.', 'If the red glow lingers in the sky after sunset, the weather will be clear.'),
+]),
+('b2p-prov', [
+    ('Күңеле бозыкка шайтан сүзләре фәрештәнеке булып тоела.', "To a corrupt heart, the devil's words sound like an angel's."),
+    ('Башкаларны ахмакка санаучының әүвәл үзенә җитеп бетми.', 'Whoever takes others for fools is short of sense himself.'),
+    ('Күпме хәйләкәр булса да, төлкенең тиресе кеше өстендә.', "However cunning the fox, its fur ends up on a person's back."),
+    ('Ялкау чаттан чатка барган: бер сәяхәт итим әле, дигән.', 'The lazy man went from one corner of the house to another, saying: let me go on a journey.'),
+]),
+('b2p-prov', [
+    ('Карга белән кәккүкнең төсләре бер дә, тавышлары башка.', 'The crow and the cuckoo may be the same colour, but their voices differ.'),
+    ('Акылның кадере әдәп белән, куәтнең кадере сәләт белән.', 'The value of wisdom lies in good manners; the value of strength lies in skill.'),
+    ('Асылсаң асылын асыл агачка, егылсаң егыл мамык түшәккә.', 'If you must hang, hang from a noble tree; if you must fall, fall onto a feather bed.'),
+    ('Аягы пычрак — өй пычратыр, теле пычрак — кеше пычратыр.', 'Dirty feet dirty the house; a dirty tongue dirties people.'),
+]),
+('b2p-prov', [
+    ('Акылың булса, акылга ияр, акылың җитмәсә, мәкальгә ияр.', 'If you have sense, follow sense; if you lack it, follow proverbs.'),
+    ('Тавис каурые белән матур, сандугач сайравы белән матур.', 'The peacock is beautiful for its feathers, the nightingale for its song.'),
+    ('Акыллы кешенең бер көне юләрнең бөтен гомереннән артык.', "One day of a wise man is worth more than a fool's whole life."),
+    ('Гөл кадерен былбыл белер, җәүһәр кадерен җәүһәрче белер.', 'The nightingale knows the worth of the rose; the jeweller knows the worth of the jewel.'),
+]),
+('b2p-prov', [
+    ('Куркак кош оясын олы юл өстенә ясый, кыю кош кыя башына.', 'A timid bird builds its nest by the highway; a bold bird builds it on top of a cliff.'),
+    ('Эшчән бәхетен эшендә күрер, ялкау бәхетен төшендә күрер.', 'The hard-working find happiness in their work; the lazy find it in their dreams.'),
+    ('Төче коймак пешергән кешегә бар, төче телле кешегә барма.', 'Go to someone who bakes plain pancakes, but not to someone with a smooth tongue.'),
+    ('Кыз баланың абруе кыл өстендә, кылдан төшсә - юл өстендә.', "A girl's reputation hangs by a hair; if it falls from the hair, it lies in the road."),
+]),
+]
+NAMES = {"b2p-prov": ("Folk Wisdom", "Халык зирәклеге"), "b2p-story": ("Narration", "Хикәяләү"), "b2p-soc": ("Public Life", "Иҗтимагый тормыш"),
+ "b2p-life": ("Ideas", "Уйланулар"), "b2p-cult": ("Arts and Heritage", "Сәнгать һәм мирас")}
+assert len(S) == 100, len(S)
+cnt = {}
+for i, (top, items) in enumerate(S, 1):
+    cnt[top] = cnt.get(top, 0) + 1
+    en, tt = NAMES[top]
+    L(i, f"{en} {cnt[top]}", f"{tt} {cnt[top]}", items, top)
+c.save()
