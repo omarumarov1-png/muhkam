@@ -315,6 +315,24 @@
     });
   }
 
+  // Soft wooden tick for taps on tiles/options, and a short fanfare at the end of a lesson.
+  function playTapSound() {
+    if (!soundEnabled) return;
+    try { withRunningAudioCtx(ctx => playTone(ctx, 1318.5, 0, 0.05, 0.05)); } catch (e) {}
+  }
+  function playFinishSound() {
+    if (!soundEnabled) return;
+    try {
+      withRunningAudioCtx(ctx => {
+        [[523.25, 0], [659.25, 0.12], [783.99, 0.24], [1046.5, 0.36], [783.99, 0.52], [1046.5, 0.64]].forEach(([f, o]) => playTone(ctx, f, o, 0.28, 0.11));
+      });
+    } catch (e) {}
+  }
+  document.addEventListener("pointerdown", e => {
+    const b = e.target.closest && e.target.closest(".tile, .match-card, .option:not(:disabled), .tabbar-btn, .path-node:not(.locked), .goal-choice, .hub-card");
+    if (b) { playTapSound(); haptic(6); }
+  }, { passive: true });
+
   function playIncorrectSound() {
     if (!soundEnabled) return;
     withRunningAudioCtx(ctx => {
@@ -761,10 +779,14 @@
       missedBank: union(local.missedBank, remote.missedBank).slice(-MAX_MISSED),
       wordHoard: union(local.wordHoard, remote.wordHoard),
       celebratedLevels: union(local.celebratedLevels, remote.celebratedLevels),
+      legendary: union(local.legendary, remote.legendary),
+      placementSeen: !!(local.placementSeen || remote.placementSeen),
       srs: mergeSrs(local.srs, remote.srs),
       dayXp: mergeDayXp(local.dayXp, remote.dayXp),
       activeDays: union(local.activeDays, remote.activeDays).slice(-90),
       perfectLessons: union(local.perfectLessons, remote.perfectLessons),
+      storiesDone: union(local.storiesDone, remote.storiesDone),
+      chestsOpened: union(local.chestsOpened, remote.chestsOpened),
     });
   }
 
@@ -1655,6 +1677,7 @@
 
   function showDialogue(topic) {
     document.getElementById("dialogueTitle").innerHTML = `${topic.title}`;
+    const sub = dialogueModal.querySelector(".modal-sub"); if (sub) sub.hidden = false;
     document.getElementById("dialogueList").innerHTML = topic.dialogue.map(turn => `
       <div class="dialogue-turn">
         <span class="dialogue-speaker">${turn.sp}</span>
@@ -1671,6 +1694,7 @@
     if (!topic) return;
     const esc = s => String(s || "");
     document.getElementById("dialogueTitle").innerHTML = esc(topic.title);
+    const sub = dialogueModal.querySelector(".modal-sub"); if (sub) sub.hidden = true;
     const dlg = (topic.dialogue || []).map(turn => `
       <div class="dialogue-turn">
         <span class="dialogue-speaker">${turn.sp}</span>
@@ -1683,6 +1707,438 @@
       ${topic.fact ? `<p class="notes-fact"><b>Did you know?</b> ${esc(topic.fact)}</p>` : ""}
       ${dlg ? `<div class="notes-dialogue-label">Dialogue</div>${dlg}` : ""}`;
     dialogueModal.classList.remove("hidden");
+  }
+
+
+
+  // ---- Placement: first visit to a course, "new or already know some?" ----
+  const PLACE_PER_LEVEL = 4;
+  function maybeOfferPlacement() {
+    if (progress.completedLessons.length || progress.placementSeen || !course.levels || course.levels.length < 2) return false;
+    progress.placementSeen = true; saveProgress();
+    const sheet = document.createElement("div");
+    sheet.className = "jump-sheet"; sheet.id = "placeSheet";
+    sheet.innerHTML = `
+      <div class="jump-card place-sheet" role="dialog" aria-modal="true">
+        ${PATH_STAR.replace('class="path-star"', 'class="jump-star"')}
+        <h3>Welcome to ${course.title || "your new course"}</h3>
+        <p>Where would you like to start?</p>
+        <button class="place-choice" id="placeNew"><b>I'm new to this language</b><span>Start from the very first lesson</span></button>
+        <button class="place-choice" id="placeTest"><b>I already know some</b><span>A short test (about ${Math.min(course.levels.length, 6) * PLACE_PER_LEVEL} questions) finds your level</span></button>
+      </div>`;
+    document.body.appendChild(sheet);
+    sheet.querySelector("#placeNew").addEventListener("click", () => sheet.remove());
+    sheet.querySelector("#placeTest").addEventListener("click", () => { sheet.remove(); startPlacement(); });
+    return true;
+  }
+  function startPlacement() {
+    const levels = course.levels.slice(0, 6);
+    const queue = [];
+    levels.forEach((lv, li) => {
+      const pool = [];
+      flatLessons.filter(l => l.levelId === lv.id && !l.readingPassage).forEach(l => l.exercises.forEach((ex, i) => {
+        if (exerciseAllowed(ex) && ex.type === "multiple-choice") pool.push({ ex, gid: `${l.id}:${i}`, l });
+      }));
+      shuffled(pool).slice(0, PLACE_PER_LEVEL).forEach(it => queue.push({ ...buildQueueItem(it.ex, it.gid, queue.length, it.l), _synthetic: true, _placeLvl: li }));
+    });
+    if (!queue.length) return;
+    session = {
+      lesson: { id: "__placement__", title: "Placement test", titleNative: "" },
+      mode: "placement", placeLevels: levels.map(l => l.id), placeMiss: {}, placementStop: null,
+      inkMax: 99, queue, total: queue.length, solved: new Set(), mistakes: 0, combo: 0, startedAt: Date.now(),
+    };
+    setTab("lesson");
+    renderExercise();
+  }
+  function renderPlacementResult() {
+    const stopAt = session.placementStop != null ? session.placementStop : session.placeLevels.length;
+    const passed = session.placeLevels.slice(0, stopAt);
+    if (!session.summarized) {
+      session.summarized = true;
+      flatLessons.filter(l => passed.includes(l.levelId)).forEach(l => { if (!progress.completedLessons.includes(l.id)) progress.completedLessons.push(l.id); });
+      saveProgress(); refreshTopStats();
+    }
+    const startLv = course.levels.find(l => l.id === (session.placeLevels[stopAt] || session.placeLevels[session.placeLevels.length - 1]));
+    session = null;
+    screenEl.innerHTML = `
+      <div class="summary">
+        ${PATH_SEAL.replace('width="84" height="70"', 'width="120" height="100"').replace('<svg', '<svg class="story-done-seal"')}
+        <h2>${passed.length ? `You start at ${startLv ? startLv.id.toUpperCase() : "the top"}` : "Start from the beginning"}</h2>
+        <p>${passed.length ? `${passed.map(id => id.toUpperCase()).join(", ")} marked as done. You can still open any lesson there.` : "That's fine: the first lessons go quickly."}</p>
+        <button class="btn btn-primary" id="placeHome">Continue</button>
+      </div>`;
+    playSealSound();
+    document.getElementById("placeHome").addEventListener("click", () => {
+      if (startLv) currentLevelId = startLv.id;
+      renderHome();
+    });
+  }
+
+  // ======== Stories, tap-to-translate, double XP, daily quests, chests ========
+  // Sentence pairs a lesson already teaches (native prompt -> English answer
+  // of its multiple-choice items). Stories and word hints are built from
+  // these, so they never invent text the course doesn't contain.
+  function lessonPairs(lesson) {
+    const out = [], seen = new Set();
+    (lesson.exercises || []).forEach(ex => {
+      if (ex.type === "multiple-choice" && ex.direction === `${course.lang}-en` && ex.options && ex.prompt && !seen.has(ex.prompt)) {
+        seen.add(ex.prompt); out.push({ native: ex.prompt, en: ex.options[ex.answerIndex] });
+      }
+    });
+    return out;
+  }
+  const _normWord = w => (w || "").toLocaleLowerCase().replace(/^[^\p{L}\p{M}]+|[^\p{L}\p{M}]+$/gu, "");
+  let _wordIndex = null, _wordIndexCourse = null;
+  function wordIndex() {
+    if (_wordIndex && _wordIndexCourse === activeCourseId) return _wordIndex;
+    _wordIndex = new Map(); _wordIndexCourse = activeCourseId;
+    flatLessons.forEach(l => lessonPairs(l).forEach(pr => {
+      pr.native.split(/\s+/).forEach(w => {
+        const k = _normWord(w); if (!k) return;
+        const arr = _wordIndex.get(k) || [];
+        if (arr.length < 6) arr.push(pr);
+        _wordIndex.set(k, arr);
+      });
+    }));
+    _wordIndex.forEach(arr => arr.sort((a, b) => a.native.length - b.native.length));
+    return _wordIndex;
+  }
+  function tapWordsHtml(text) {
+    return String(text).split(/(\s+)/).map(tok => /\s+/.test(tok) || !_normWord(tok) ? tok : `<span class="tap-word" tabindex="0">${tok}</span>`).join("");
+  }
+  function showWordHint(el) {
+    document.querySelectorAll(".word-hint").forEach(n => n.remove());
+    const key = _normWord(el.textContent);
+    // never show the sentence being asked about (that would give the answer away)
+    const host = el.closest(".prompt-native, .story-native");
+    const current = host ? host.textContent.replace(/\s+/g, " ").trim() : "";
+    const hits = (wordIndex().get(key) || []).filter(h => h.native.replace(/\s+/g, " ").trim() !== current);
+    const exact = hits.find(h => _normWord(h.native) === key);
+    const ex = hits.filter(h => h !== exact).slice(0, 2);
+    const tip = document.createElement("div");
+    tip.className = "word-hint";
+    tip.innerHTML = exact
+      ? `<b>${exact.en}</b>`
+      : ex.length ? ex.map(h => `<span class="wh-ex" dir="${course.dir}">${h.native}</span><span class="wh-en">${h.en}</span>`).join("")
+      : `<span class="wh-en">No other example in this course yet</span>`;
+    document.body.appendChild(tip);
+    const r = el.getBoundingClientRect();
+    const w = Math.min(280, window.innerWidth - 24);
+    tip.style.maxWidth = w + "px";
+    const left = Math.max(12, Math.min(window.innerWidth - w - 12, r.left + r.width / 2 - w / 2));
+    tip.style.left = left + "px";
+    tip.style.top = (window.scrollY + r.bottom + 8) + "px";
+    el.classList.add("tapped");
+    const sp = resolveSpeech(false, el.textContent.trim(), null);
+    if (sp && audioManifest[sp.text]) speak(sp.text, sp.voice);
+    setTimeout(() => {
+      const off = e => { if (!tip.contains(e.target) && e.target !== el) { tip.remove(); el.classList.remove("tapped"); document.removeEventListener("pointerdown", off, true); } };
+      document.addEventListener("pointerdown", off, true);
+    }, 0);
+  }
+  document.addEventListener("click", e => { const w = e.target.closest && e.target.closest(".tap-word"); if (w) showWordHint(w); });
+
+  // Double XP: a global (cross-course) 15-minute boost won from chests.
+  const DOUBLE_KEY = "muhkam-double-xp-until";
+  function doubleXpLeft() { try { return Math.max(0, parseInt(localStorage.getItem(DOUBLE_KEY) || "0", 10) - Date.now()); } catch (e) { return 0; } }
+  function grantDoubleXp(min) { try { localStorage.setItem(DOUBLE_KEY, String(Math.max(Date.now(), Date.now() + doubleXpLeft()) + min * 60000)); } catch (e) {} }
+  function xpMult() { return doubleXpLeft() > 0 ? 2 : 1; }
+  function doubleXpBadgeHtml() {
+    const ms = doubleXpLeft(); if (!ms) return "";
+    const m = Math.ceil(ms / 60000);
+    return `<div class="double-xp-badge"><b>2× XP</b><span>${m} min left</span></div>`;
+  }
+
+  // Daily quests: three per day, picked from a pool by the date.
+  const QUEST_POOL = [
+    { id: "lessons", text: "Finish 2 lessons", key: "lessons", goal: 2 },
+    { id: "xp", text: "Earn 40 XP", key: "xp", goal: 40 },
+    { id: "perfect", text: "Finish a lesson with no mistakes", key: "perfect", goal: 1 },
+    { id: "combo", text: "Get 8 answers right in a row", key: "combo", goal: 8 },
+    { id: "review", text: "Do a review or practice session", key: "reviews", goal: 1 },
+    { id: "story", text: "Read a story", key: "stories", goal: 1 },
+  ];
+  function questDay() {
+    const today = new Date().toDateString();
+    if (!progress.quests || progress.quests.date !== today) progress.quests = { date: today, lessons: 0, xp: 0, perfect: 0, combo: 0, reviews: 0, stories: 0, claimed: [] };
+    return progress.quests;
+  }
+  function todaysQuests() {
+    const d = new Date(); let h = d.getFullYear() * 400 + d.getMonth() * 31 + d.getDate();
+    const pool = QUEST_POOL.slice(); const out = [];
+    while (out.length < 3) { h = (h * 9301 + 49297) % 233280; out.push(pool.splice(h % pool.length, 1)[0]); }
+    return out;
+  }
+  function bumpQuests(delta) {
+    const q = questDay();
+    Object.keys(delta).forEach(k => { if (k === "combo") q.combo = Math.max(q.combo, delta.combo || 0); else q[k] = (q[k] || 0) + (delta[k] || 0); });
+    const done = [];
+    todaysQuests().forEach(qs => {
+      if ((q[qs.key] || 0) >= qs.goal && !q.claimed.includes(qs.id)) { q.claimed.push(qs.id); progress.xp += 5; addDayXp(5); done.push(qs); }
+    });
+    done.forEach((qs, i) => setTimeout(() => showSoftToast(`Quest complete: ${qs.text} · +5 XP`), 400 + i * 2800));
+  }
+  function questsHtml() {
+    const q = questDay();
+    return `
+      <div class="quests">
+        <div class="quests-head"><b>Daily quests</b><span>${todaysQuests().filter(s => q.claimed.includes(s.id)).length}/3</span></div>
+        ${todaysQuests().map(s => {
+          const v = Math.min(s.goal, q[s.key] || 0);
+          const got = q.claimed.includes(s.id);
+          return `<div class="quest ${got ? "done" : ""}">
+            <span class="quest-icon">${got ? PATH_ICON_CHECK : PATH_STAR}</span>
+            <div class="quest-body"><span>${s.text}</span><span class="quest-bar"><span style="width:${Math.round(v / s.goal * 100)}%"></span></span></div>
+            <span class="quest-count">${v}/${s.goal}</span>
+          </div>`;
+        }).join("")}
+      </div>`;
+  }
+
+  // Chests: a sealed chapter's seal can be opened once for a reward.
+  function openChest(key) {
+    progress.chestsOpened = progress.chestsOpened || [];
+    if (progress.chestsOpened.includes(key)) return;
+    progress.chestsOpened.push(key);
+    progress.xp += 20; addDayXp(20); grantDoubleXp(15);
+    saveProgress(); refreshTopStats();
+    const ov = document.createElement("div");
+    ov.className = "milestone-overlay";
+    ov.innerHTML = `
+      <div class="milestone-card chest-card" role="dialog" aria-modal="true">
+        <div class="chest-anim">${PATH_SEAL.replace('width="84" height="70"', 'width="140" height="116"')}</div>
+        <h3>The seal opens!</h3>
+        <p><b>+20 XP</b> and <b>double XP for 15 minutes</b>. Make them count.</p>
+        <button class="btn btn-primary btn-block" id="chestOk">Collect</button>
+      </div>`;
+    document.body.appendChild(ov);
+    playSealSound(); fireConfetti(); haptic([20, 40, 20]);
+    const close = () => { ov.remove(); renderHome(); };
+    ov.querySelector("#chestOk").addEventListener("click", close);
+  }
+
+  // Stories: a short two-voice dialogue made of the chapter's own sentences,
+  // read line by line with audio, then three comprehension questions.
+  function chapterStoryKey(ch) { return "story:" + ch.lessons[0].id; }
+  function buildStory(ch) {
+    const lines = [];
+    ch.lessons.forEach(l => lessonPairs(l).slice(0, 2).forEach(pr => lines.push(pr)));
+    const pick = lines.slice(0, 8);
+    const pool = lines.length >= 4 ? lines : flatLessons.flatMap(l => lessonPairs(l)).slice(0, 40);
+    const qs = shuffled(pick).slice(0, 3).map(line => {
+      const wrong = shuffled(pool.filter(o => o.en !== line.en)).slice(0, 3).map(o => o.en);
+      const options = shuffled([line.en, ...wrong]);
+      return { line, options, answer: options.indexOf(line.en) };
+    });
+    return { lines: pick, qs };
+  }
+  let story = null;
+  function startStory(ch) {
+    const s = buildStory(ch);
+    if (s.lines.length < 3) return;
+    session = null;
+    story = { ...s, key: chapterStoryKey(ch), title: ch.stem, idx: 0, q: -1, mistakes: 0 };
+    setTab("lesson");
+    renderStory();
+  }
+  function renderStory() {
+    const st = story;
+    const shown = st.lines.slice(0, st.idx + 1);
+    const total = st.lines.length + st.qs.length;
+    const pos = st.q < 0 ? st.idx + 1 : st.lines.length + st.q;
+    const pct = Math.round(pos / total * 100);
+    const inQuestions = st.q >= 0;
+    const q = inQuestions ? st.qs[st.q] : null;
+    screenEl.innerHTML = `
+      <div class="lesson-bar">
+        <button class="exit-btn" id="storyExit" aria-label="Leave story"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>
+        <div class="progress-track"><div class="progress-fill" style="width:${pct}%"></div></div>
+      </div>
+      <div class="story">
+        <div class="story-head"><span class="story-eyebrow">Story</span><h2>${st.title}</h2></div>
+        <div class="story-lines">
+          ${shown.map((ln, i) => `
+            <div class="story-line ${i % 2 ? "b" : "a"} ${i === st.idx && !inQuestions ? "new" : ""}">
+              <span class="story-avatar" aria-hidden="true">${PATH_STAR}</span>
+              <div class="story-bubble">
+                <button class="story-say" data-i="${i}" aria-label="Play line">${ICON_SPEAKER}</button>
+                <p class="story-native" dir="${course.dir}" lang="${course.lang}">${tapWordsHtml(ln.native)}</p>
+                <details class="story-tr"><summary>Translation</summary><p>${ln.en}</p></details>
+              </div>
+            </div>`).join("")}
+        </div>
+        ${inQuestions ? `
+          <div class="card story-q ex-slide-in">
+            <p class="q-kicker">What does this line mean?</p>
+            <p class="prompt-native" dir="${course.dir}" lang="${course.lang}">${q.line.native}</p>
+            <div class="options">${q.options.map((o, i) => `<button class="option" data-i="${i}"><span class="option-letter">${OPTION_LETTERS[i]}</span><span class="option-text">${o}</span></button>`).join("")}</div>
+            <div id="feedbackSlot"></div>
+          </div>` : `<button class="btn btn-primary btn-block story-next" id="storyNext">${st.idx < st.lines.length - 1 ? "Continue" : "Questions"}</button>`}
+      </div>`;
+    const say = i => { const sp = resolveSpeech(false, st.lines[i].native, null); if (sp) speak(sp.text, sp.voice); };
+    screenEl.querySelectorAll(".story-say").forEach(b => b.addEventListener("click", () => say(+b.dataset.i)));
+    document.getElementById("storyExit").addEventListener("click", () => { story = null; renderHome(); });
+    if (!inQuestions) {
+      say(st.idx);
+      const last = screenEl.querySelector(".story-line.new"); if (last) last.scrollIntoView({ block: "nearest", behavior: "smooth" });
+      document.getElementById("storyNext").addEventListener("click", () => {
+        if (st.idx < st.lines.length - 1) st.idx++; else st.q = 0;
+        renderStory();
+      });
+    } else {
+      screenEl.querySelectorAll(".option").forEach(b => b.addEventListener("click", () => {
+        const ok = +b.dataset.i === q.answer;
+        screenEl.querySelectorAll(".option").forEach(o => { o.disabled = true; if (+o.dataset.i === q.answer) o.classList.add("correct"); });
+        if (!ok) { b.classList.add("incorrect"); st.mistakes++; }
+        ok ? playCorrectSound() : playIncorrectSound();
+        document.getElementById("feedbackSlot").innerHTML = renderFeedback(ok, `Correct answer: ${q.options[q.answer]}`, { delay: ok ? 1200 : 2200 });
+        setTimeout(() => { if (!story) return; if (st.q < st.qs.length - 1) { st.q++; renderStory(); } else finishStory(); }, ok ? 1300 : 2300);
+      }));
+    }
+  }
+  function finishStory() {
+    const st = story; story = null;
+    progress.storiesDone = progress.storiesDone || [];
+    const first = !progress.storiesDone.includes(st.key);
+    if (first) progress.storiesDone.push(st.key);
+    const xp = (first ? 15 : 5) * xpMult();
+    progress.xp += xp; addDayXp(xp);
+    updateStreakOnCompletion();
+    bumpQuests({ stories: 1, xp });
+    saveProgress(); refreshTopStats();
+    screenEl.innerHTML = `
+      <div class="summary">
+        ${PATH_SEAL.replace('width="84" height="70"', 'width="120" height="100"').replace('<svg', '<svg class="story-done-seal"')}
+        <h2>Story complete</h2>
+        <p>${st.title}</p>
+        <div class="summary-cards">
+          <div class="summary-card gold"><span class="lbl">XP</span><span class="num">+${xp}</span></div>
+          <div class="summary-card teal"><span class="lbl">Questions</span><span class="num">${st.qs.length - Math.min(st.mistakes, st.qs.length)}/${st.qs.length}</span></div>
+          <div class="summary-card ink"><span class="lbl">Lines</span><span class="num">${st.lines.length}</span></div>
+        </div>
+        <button class="btn btn-primary" id="storyHome">Continue</button>
+      </div>`;
+    playSealSound();
+    document.getElementById("storyHome").addEventListener("click", renderHome);
+  }
+
+
+  // ---- Reminders: installed app + Chrome/Android periodic background sync ----
+  // The service worker can't read localStorage, so the page mirrors the one
+  // fact it needs (was a lesson done today?) into Cache Storage.
+  const REMIND_KEY = "muhkam-reminders";
+  function remindersOn() { try { return localStorage.getItem(REMIND_KEY) === "1"; } catch (e) { return false; } }
+  function saveReminderState() {
+    if (!remindersOn() || !("caches" in window)) return;
+    const body = JSON.stringify({ lastActive: progress.lastActiveDate || "", streak: progress.streak || 0, course: (COURSES.find(c => c.id === activeCourseId) || {}).en || "" });
+    caches.open("muhkam-state").then(c => c.put("/__muhkam_state", new Response(body, { headers: { "Content-Type": "application/json" } }))).catch(() => {});
+  }
+  async function toggleReminders() {
+    if (remindersOn()) { try { localStorage.removeItem(REMIND_KEY); } catch (e) {} showSoftToast("Reminders off"); return renderProfile(); }
+    if (!("Notification" in window) || !("serviceWorker" in navigator)) { showSoftToast("This browser can't show reminders."); return; }
+    const perm = await Notification.requestPermission();
+    if (perm !== "granted") { showSoftToast("Notifications are blocked for Muhkam."); return; }
+    try { localStorage.setItem(REMIND_KEY, "1"); } catch (e) {}
+    saveReminderState();
+    let periodic = false;
+    try {
+      const reg = await navigator.serviceWorker.ready;
+      if (reg.periodicSync) { await reg.periodicSync.register("muhkam-reminder", { minInterval: 12 * 60 * 60 * 1000 }); periodic = true; }
+      reg.showNotification("Muhkam reminders are on", { body: "We'll nudge you when today's lamp isn't lit yet.", icon: "icons/icon-192.png", tag: "muhkam-hello" });
+    } catch (e) {}
+    showSoftToast(periodic ? "Reminders on" : "Reminders on (works best in the installed app on Android)");
+    renderProfile();
+  }
+
+  // ---- Shareable streak card (PNG) ----
+  async function shareStreakCard() {
+    const W = 1080, H = 1350, cv = document.createElement("canvas");
+    cv.width = W; cv.height = H;
+    const g = cv.getContext("2d");
+    const css = getComputedStyle(document.documentElement);
+    const col = (v, d) => (css.getPropertyValue(v) || d).trim() || d;
+    const bg = g.createLinearGradient(0, 0, 0, H);
+    bg.addColorStop(0, "#f8efdd"); bg.addColorStop(1, "#e7f0ea");
+    g.fillStyle = bg; g.fillRect(0, 0, W, H);
+    g.strokeStyle = "#d9c497"; g.lineWidth = 6; g.strokeRect(40, 40, W - 80, H - 80);
+    // eight-point star
+    const star = (cx, cy, r, fill) => {
+      g.beginPath();
+      for (let i = 0; i < 16; i++) { const a = Math.PI / 8 * i - Math.PI / 2, rr = i % 2 ? r * 0.72 : r; g.lineTo(cx + Math.cos(a) * rr, cy + Math.sin(a) * rr); }
+      g.closePath(); g.fillStyle = fill; g.fill();
+    };
+    star(W / 2, 400, 210, "#a67812"); star(W / 2, 392, 200, "#d6a33a");
+    g.beginPath(); g.arc(W / 2, 392, 120, 0, Math.PI * 2); g.fillStyle = "#fffaf1"; g.fill();
+    g.fillStyle = "#1f4a7c"; g.textAlign = "center"; g.textBaseline = "middle";
+    g.font = "bold 150px Georgia, serif"; g.fillText(String(progress.streak || 0), W / 2, 400);
+    g.font = "bold 76px Georgia, serif"; g.fillStyle = "#172a3d";
+    g.fillText(`${progress.streak || 0}-day streak`, W / 2, 720);
+    const meta = COURSES.find(c => c.id === activeCourseId) || {};
+    g.font = "600 52px -apple-system, Helvetica, sans-serif"; g.fillStyle = "#4f5e6a";
+    g.fillText(`learning ${meta.en || course.title}`, W / 2, 810);
+    const done = flatLessons.filter(l => progress.completedLessons.includes(l.id)).length;
+    g.font = "bold 56px -apple-system, Helvetica, sans-serif"; g.fillStyle = "#13756c";
+    g.fillText(`${progress.xp} XP  ·  ${done} lessons`, W / 2, 930);
+    g.font = "bold 64px Georgia, serif"; g.fillStyle = "#a67812";
+    g.fillText("Muḥkam", W / 2, 1160);
+    g.font = "600 34px -apple-system, Helvetica, sans-serif"; g.fillStyle = "#8a7a5c";
+    g.fillText("omarumarov1-png.github.io/muhkam", W / 2, 1225);
+    const blob = await new Promise(r => cv.toBlob(r, "image/png"));
+    if (!blob) return;
+    const file = new File([blob], `muhkam-streak-${progress.streak || 0}.png`, { type: "image/png" });
+    try {
+      if (navigator.canShare && navigator.canShare({ files: [file] })) { await navigator.share({ files: [file], title: "My Muhkam streak" }); return; }
+    } catch (e) { if (e && e.name === "AbortError") return; }
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob); a.download = file.name;
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(a.href), 4000);
+  }
+
+  // ---- Practice hub (Review tab) ----
+  function startListeningDrill() {
+    const pool = revisionPool().filter(it => /^listening/.test(it.ex.type));
+    if (!pool.length) return showSoftToast("Finish a few lessons first: listening drills use what you've learned.");
+    const picked = shuffled(pool).slice(0, 10);
+    session = {
+      lesson: { id: "__revision__", title: "Listening drill", titleNative: "" },
+      mode: "revision",
+      queue: picked.map((it, i) => buildQueueItem(exerciseIndex.get(it.gid).exercise, it.gid, i, it.lesson)),
+      total: picked.length, solved: new Set(), mistakes: 0, combo: 0, startedAt: Date.now(),
+    };
+    renderExercise();
+  }
+  function renderPracticeHub() {
+    session = null;
+    setTab("review");
+    const now = Date.now();
+    const pool = revisionPool();
+    const due = pool.filter(it => { const s = progress.srs[it.gid]; return !s || s.due <= now; }).length;
+    const listen = pool.filter(it => /^listening/.test(it.ex.type)).length;
+    const miss = progress.missedBank.length;
+    const words = (progress.wordHoard || []).length;
+    const card = (id, cls, title, sub, n, on) => `
+      <button class="hub-card ${cls}" id="${id}" ${on ? "" : "disabled"}>
+        <span class="hub-icon">${PATH_STAR}</span>
+        <span class="hub-text"><b>${title}</b><span>${sub}</span></span>
+        ${n != null ? `<span class="hub-n">${n}</span>` : ""}
+      </button>`;
+    screenEl.innerHTML = `
+      <div class="hub">
+        <h2>Practice</h2>
+        <p class="profile-sub">Keep what you've learned fresh.</p>
+        ${card("hubMistakes", "red", "Fix your mistakes", miss ? "Questions you missed, until you get them right" : "No mistakes waiting. Nice!", miss || null, miss > 0)}
+        ${card("hubSmart", "blue", "Smart review", due ? `${due} cards due for review` : "Mixed review of finished lessons", pool.length ? Math.min(due, REVISION_SIZE) || null : null, pool.length > 0)}
+        ${card("hubListen", "teal", "Listening drill", "10 listening questions from finished lessons", null, listen > 0)}
+        ${card("hubWords", "gold", "Your words", "Every word you've collected, with audio", words || null, words > 0)}
+        ${!pool.length ? `<p class="hub-empty">Finish your first lesson and practice opens up here.</p>` : ""}
+      </div>`;
+    applyScreenFadeIn();
+    const on = (id, fn) => { const el = document.getElementById(id); if (el) el.addEventListener("click", fn); };
+    on("hubMistakes", () => { cancelAdvance(); startReview(); });
+    on("hubSmart", () => { cancelAdvance(); startRevision(); });
+    on("hubListen", () => { cancelAdvance(); startListeningDrill(); });
+    on("hubWords", () => document.getElementById("wordsStat").click());
   }
 
   // ---- Profile ("Me" tab) ----
@@ -1753,6 +2209,10 @@
           <div class="profile-stat"><span class="ps-icon seal">${PATH_SEAL}</span><b data-count="${chapterSealsEarned()}">0</b><span>chapter seals</span></div>
           <div class="profile-stat"><span class="ps-icon word"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3h11a3 3 0 013 3v15l-3-2-3 2-3-2-3 2-3-2V6a3 3 0 013-3zM8 8h8M8 12h6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><b data-count="${(progress.wordHoard || []).length}">0</b><span>words collected</span></div>
         </div>
+        <div class="profile-actions">
+          <button class="btn btn-primary" id="shareStreak">Share my streak</button>
+          <button class="btn remind-btn ${remindersOn() ? "on" : ""}" id="toggleRemind">${remindersOn() ? "Reminders: on" : "Daily reminder"}</button>
+        </div>
         <section class="profile-section">
           <h3>This week</h3>
           ${weekStripHtml()}
@@ -1802,6 +2262,32 @@
     }));
     screenEl.querySelectorAll(".profile-level").forEach(b => b.addEventListener("click", () => { currentLevelId = b.dataset.level; renderLevelRoadmap(); }));
     screenEl.querySelectorAll(".profile-other").forEach(b => b.addEventListener("click", () => switchCourse(b.dataset.course)));
+    document.getElementById("shareStreak").addEventListener("click", shareStreakCard);
+    document.getElementById("toggleRemind").addEventListener("click", toggleReminders);
+  }
+
+  // Guidebook: the chapter's key phrases with audio, then its grammar note.
+  function showGuidebook(ch) {
+    if (!ch) return;
+    const tid = ch.lessons.map(l => l.topicId).find(id => id && course.grammarTopics && course.grammarTopics[id]);
+    const topic = tid ? course.grammarTopics[tid] : null;
+    const phrases = [];
+    const seen = new Set();
+    ch.lessons.forEach(l => lessonPairs(l).forEach(pr => { if (!seen.has(pr.native) && phrases.length < 10) { seen.add(pr.native); phrases.push(pr); } }));
+    document.getElementById("dialogueTitle").innerHTML = `Guidebook · ${ch.stem}`;
+    const sub = dialogueModal.querySelector(".modal-sub"); if (sub) sub.hidden = true;
+    document.getElementById("dialogueList").innerHTML = `
+      ${phrases.length ? `<div class="notes-dialogue-label">Key phrases</div>
+      <div class="guide-phrases">${phrases.map((pr, i) => `
+        <button class="guide-phrase" data-i="${i}"><span class="gp-say">${ICON_SPEAKER}</span><span class="gp-native" dir="${course.dir}" lang="${course.lang}">${pr.native}</span><span class="gp-en">${pr.en}</span></button>`).join("")}</div>` : ""}
+      ${topic ? `<div class="notes-dialogue-label">Grammar · ${topic.title}</div>
+        ${topic.pattern ? `<div class="notes-pattern" dir="auto">${topic.pattern}</div>` : ""}
+        ${topic.explanation ? `<p class="notes-expl">${topic.explanation}</p>` : ""}
+        ${topic.fact ? `<p class="notes-fact"><b>Did you know?</b> ${topic.fact}</p>` : ""}` : ""}`;
+    document.querySelectorAll(".guide-phrase").forEach(b => b.addEventListener("click", () => {
+      const pr = phrases[+b.dataset.i]; const sp = resolveSpeech(false, pr.native, null); if (sp) speak(sp.text, sp.voice);
+    }));
+    dialogueModal.classList.remove("hidden");
   }
 
   // Bottom tab bar (phones): Path / Review / Word hoard / Course. Hidden
@@ -1822,12 +2308,7 @@
       else if (tab === "words") document.getElementById("wordsStat").click();
       else if (tab === "course") document.getElementById("courseToggle").click();
       else if (tab === "me") renderProfile();
-      else if (tab === "review") {
-        const m = document.getElementById("mistakesStat"), pr = document.getElementById("practiceStat");
-        if (m && !m.classList.contains("hidden")) m.click();
-        else if (pr && !pr.classList.contains("hidden")) pr.click();
-        else showSoftToast("Finish a lesson first — review fills up as you learn.");
-      }
+      else if (tab === "review") renderPracticeHub();
     });
   }
   function showSoftToast(text) {
@@ -1886,6 +2367,8 @@
       currentLevelId = pickDefaultLevel();
     }
     renderLevelRoadmap();
+    maybeOfferPlacement();
+    saveReminderState();
   }
 
   // Scoped to the roadmap and the lesson-summary screen only -- the actual
@@ -1968,6 +2451,40 @@
   // are, with the rest of the chapter laid out below as a real table of
   // contents -- numbered, titled, a status mark per row, nothing to
   // navigate along. Replaces the old circle-and-rail trail entirely.
+  // Each chapter gets its own colour from the Muhkam palette (Duolingo colours
+  // its units); done/current stars and the divider take it on.
+  const UNIT_COLORS = [["#2f6f9f", "#1f4d70"], ["#13756c", "#0c4f49"], ["#b05a2a", "#7c3d1b"], ["#6b4c9a", "#4a336c"], ["#a3392b", "#72281e"], ["#4f7a4a", "#365533"], ["#a67812", "#755409"]];
+  let _pathChapters = [];
+  let _unitScroll = null;
+  function setupUnitBar() {
+    let bar = document.getElementById("unitBar");
+    if (!bar) {
+      bar = document.createElement("div");
+      bar.id = "unitBar"; bar.className = "unit-bar hidden";
+      bar.innerHTML = `<div class="unit-bar-text"><span class="unit-bar-eyebrow"></span><b class="unit-bar-title"></b></div><button class="unit-bar-guide" type="button">Guidebook</button>`;
+      document.body.appendChild(bar);
+      bar.querySelector(".unit-bar-guide").addEventListener("click", () => {
+        const ch = _pathChapters[+bar.dataset.ch]; if (ch) showGuidebook(ch);
+      });
+    }
+    if (_unitScroll) window.removeEventListener("scroll", _unitScroll);
+    _unitScroll = () => {
+      if (session || story || !document.querySelector(".path")) { bar.classList.add("hidden"); return; }
+      let cur = null;
+      document.querySelectorAll(".path-chapter[data-ch]").forEach(sec => { if (sec.getBoundingClientRect().top < 90) cur = sec; });
+      if (!cur || !_pathChapters[+cur.dataset.ch] || _pathChapters[+cur.dataset.ch].single) { bar.classList.add("hidden"); return; }
+      const i = +cur.dataset.ch, ch = _pathChapters[i];
+      bar.dataset.ch = i;
+      bar.style.setProperty("--unit", UNIT_COLORS[i % UNIT_COLORS.length][0]);
+      bar.style.setProperty("--unit-deep", UNIT_COLORS[i % UNIT_COLORS.length][1]);
+      bar.querySelector(".unit-bar-eyebrow").textContent = `Chapter ${i + 1}`;
+      bar.querySelector(".unit-bar-title").textContent = ch.stem;
+      bar.classList.remove("hidden");
+    };
+    window.addEventListener("scroll", _unitScroll, { passive: true });
+    _unitScroll();
+  }
+
   function renderLevelRoadmap() {
     const totalLessons = flatLessons.length;
     const doneLessons = flatLessons.filter(l => progress.completedLessons.includes(l.id)).length;
@@ -2093,6 +2610,7 @@
       chapters.push({ stem: "", native: "", lessons: all, single: true });
     }
     const ZIG = [0, -1, -2, -1, 0, 1, 2, 1];
+    _pathChapters = chapters;
     const chapterTopic = ch => {
       const l = ch.lessons.find(x => x.topicId && course.grammarTopics && course.grammarTopics[x.topicId]);
       return l ? l.topicId : "";
@@ -2108,6 +2626,7 @@
         const state = done ? "done" : isCurrent ? "current" : unlocked ? "unlocked" : "locked";
         const perfect = done && (progress.perfectLessons || []).includes(lesson.id);
         const faded = done && lessonNeedsRefresh(lesson);
+        const legendary = (progress.legendary || []).includes("leg:" + ch.lessons[0].id);
         const fx = lesson.id === _justCompletedId ? "just-done" : (isCurrent && _justCompletedId ? "just-unlocked" : "");
         const inner = done ? PATH_ICON_CHECK : !unlocked ? PATH_ICON_LOCK : lesson.readingPassage ? PATH_ICON_BOOK : `<span class="path-num">${lesson.number}</span>`;
         const shift = ZIG[nodeNo++ % ZIG.length];
@@ -2115,14 +2634,14 @@
         return `
           <div class="path-step" style="--zig:${shift}">
             ${isCurrent ? `<span class="path-begin">Begin</span>` : ""}
-            <button class="path-node ${state} ${perfect ? "perfect" : ""} ${faded ? "faded" : ""} ${fx}" data-lesson="${lesson.id}" ${unlocked ? "" : `data-jump="1"`} title="${label}" aria-label="${label}${done ? " (done)" : !unlocked ? " (locked)" : ""}">
+            <button class="path-node ${state} ${legendary ? "legendary" : ""} ${perfect ? "perfect" : ""} ${faded ? "faded" : ""} ${fx}" data-lesson="${lesson.id}" ${unlocked ? "" : `data-jump="1"`} title="${label}" aria-label="${label}${done ? " (done)" : !unlocked ? " (locked)" : ""}">
               ${PATH_STAR}<span class="path-inner">${inner}</span>
             </button>
             ${isCurrent ? `<span class="path-caption" dir="auto">${lesson.title}</span>` : ""}
           </div>`;
       }).join("");
       return `
-        <section class="path-chapter">
+        <section class="path-chapter" data-ch="${ci}" style="--unit:${UNIT_COLORS[ci % UNIT_COLORS.length][0]};--unit-deep:${UNIT_COLORS[ci % UNIT_COLORS.length][1]}">
           ${ch.single ? "" : `
           <div class="chapter-divider">
             <span class="cd-line" aria-hidden="true"></span>
@@ -2130,12 +2649,27 @@
               <span class="cd-emblem" aria-hidden="true">${chapterEmblem(ch.stem)}</span>
               <span class="cd-title">${ch.stem}</span>
               ${ch.native ? `<span class="cd-native" dir="auto">${ch.native}</span>` : ""}
-              <span class="cd-meta">${ch.lessons.filter(l => progress.completedLessons.includes(l.id)).length}/${ch.lessons.length}${chDone ? "" : ` · <button class="chapter-skip-btn" data-first="${ch.lessons[0].id}" data-last="${ch.lessons[ch.lessons.length - 1].id}">Skip</button>`}${chapterTopic(ch) ? ` · <button class="chapter-notes-btn" data-topic="${chapterTopic(ch)}" aria-label="Grammar notes for ${ch.stem}">Notes</button>` : ""}</span>
+              <span class="cd-meta">${ch.lessons.filter(l => progress.completedLessons.includes(l.id)).length}/${ch.lessons.length}${chDone ? "" : ` · <button class="chapter-skip-btn" data-first="${ch.lessons[0].id}" data-last="${ch.lessons[ch.lessons.length - 1].id}">Skip</button>`}${lessonPairs(ch.lessons[0]).length || chapterTopic(ch) ? ` · <button class="chapter-notes-btn" data-ch="${ci}" aria-label="Guidebook for ${ch.stem}">Guidebook</button>` : ""}</span>
             </div>
             <span class="cd-line" aria-hidden="true"></span>
           </div>`}
           <div class="path-steps">${nodes}</div>
-          ${ch.lessons.length > 1 ? `<div class="path-seal ${chDone ? "earned" : ""}" title="${chDone ? "Chapter seal earned" : "Chapter seal"}">${PATH_SEAL}</div>` : ""}
+          ${!ch.single && !ch.merged && ch.stem !== "Reading" && ch.lessons.length >= 3 && buildStory(ch).lines.length >= 3 ? (() => {
+            const sdone = (progress.storiesDone || []).includes(chapterStoryKey(ch));
+            return `<div class="path-step"><button class="story-node ${chDone ? (sdone ? "done" : "ready") : "locked"}" data-story="${ch.lessons[0].id}" ${chDone ? "" : "disabled"} aria-label="Story: ${ch.stem}${chDone ? "" : " (finish the chapter to unlock)"}">
+              <svg viewBox="0 0 24 24" width="30" height="30" aria-hidden="true"><path d="M6 4h10a2 2 0 012 2v12a2 2 0 01-2 2H8a2 2 0 01-2-2z" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M9 8.5h6M9 12h6M9 15.5h4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+            </button><span class="story-node-label">${sdone ? "Story read" : "Story"}</span></div>`;
+          })() : ""}
+          ${ch.lessons.length > 1 ? (() => {
+            const ckey = "chest:" + ch.lessons[0].id;
+            const ready = chDone && !(progress.chestsOpened || []).includes(ckey);
+            return ready
+              ? `<button class="path-seal earned chest-ready" data-chest="${ckey}" aria-label="Open the chapter seal">${PATH_SEAL}<span class="chest-label">Open me!</span></button>`
+              : `<div class="path-seal ${chDone ? "earned" : ""}" title="${chDone ? "Chapter seal earned" : "Chapter seal"}">${PATH_SEAL}</div>`;
+          })() : ""}
+          ${!ch.single && chDone ? `<div class="path-step legendary-step">${(progress.legendary || []).includes("leg:" + ch.lessons[0].id)
+            ? `<span class="legendary-tag">Legendary</span>`
+            : `<button class="legendary-btn" data-first="${ch.lessons[0].id}" data-last="${ch.lessons[ch.lessons.length - 1].id}">Go Legendary</button>`}</div>` : ""}
         </section>`;
     }).join("");
 
@@ -2169,7 +2703,9 @@
       </div>
       ${!levelLessons.length
         ? `<div class="level-locked-note">Lessons for ${level.cefr} are still being prepared and will appear here soon.</div>`
-        : `${dailyGoalHtml()}
+        : `${doubleXpBadgeHtml()}
+           ${dailyGoalHtml()}
+           ${questsHtml()}
            <div class="path">${pathHtml}</div>`
       }
     `;
@@ -2205,12 +2741,22 @@
         if (lesson) startLesson(lesson);
       });
     }
+    screenEl.querySelectorAll(".story-node:not(:disabled)").forEach(btn => btn.addEventListener("click", () => {
+      const ch = chapters.find(c => c.lessons[0].id === btn.dataset.story);
+      if (ch) startStory(ch);
+    }));
+    screenEl.querySelectorAll(".legendary-btn").forEach(btn => btn.addEventListener("click", () => {
+      const a = flatLessons.findIndex(l => l.id === btn.dataset.first), b = flatLessons.findIndex(l => l.id === btn.dataset.last);
+      if (a >= 0 && b >= a) offerJump("legendary", flatLessons[b], flatLessons.slice(a, b + 1));
+    }));
+    screenEl.querySelectorAll(".chest-ready").forEach(btn => btn.addEventListener("click", () => openChest(btn.dataset.chest)));
     screenEl.querySelectorAll(".chapter-notes-btn").forEach(btn => {
-      btn.addEventListener("click", () => showChapterNotes(course.grammarTopics[btn.dataset.topic]));
+      btn.addEventListener("click", () => showGuidebook(chapters[+btn.dataset.ch]));
     });
     setTab("path");
     _justCompletedId = null;
     document.body.dataset.level = level.id;
+    setupUnitBar();
     const curNode = screenEl.querySelector(".path-node.current");
     void curNode;
     screenEl.querySelectorAll(".path-node").forEach(row => {
@@ -2381,7 +2927,10 @@
         queue.splice(at, 0, item);
       });
     }
+    const fresh = !progress.completedLessons.includes(lesson.id) && !lesson.readingPassage;
     session = {
+      intro: fresh ? lessonPairs(lesson).slice(0, 4) : [],
+      introIdx: 0,
       lesson,
       mode: "lesson",
       queue,
@@ -2410,10 +2959,11 @@
   const JUMP_INK = 3;
   function offerJump(kind, target, scope) {
     const old = document.getElementById("jumpSheet"); if (old) old.remove();
-    const what = kind === "lesson" ? `Jump to lesson ${target.number}?` : kind === "chapter" ? "Skip this chapter?" : "Test out of the whole level?";
+    const what = kind === "lesson" ? `Jump to lesson ${target.number}?` : kind === "chapter" ? "Skip this chapter?" : kind === "legendary" ? "Go Legendary?" : "Test out of the whole level?";
     const body = kind === "lesson"
       ? `Pass a short test on <b>${target.title}</b> to unlock it. Every lesson before it will count as done.`
       : kind === "chapter" ? `Pass a short test on this chapter's lessons and they'll all count as done.`
+      : kind === "legendary" ? `A harder test on this whole chapter: 16 questions, no grammar notes, only 2 drops of ink. Pass it and the chapter's stars turn legendary purple.`
       : `A test drawn from every lesson in this level. Pass it and the whole level counts as done.`;
     const sheet = document.createElement("div");
     sheet.className = "jump-sheet"; sheet.id = "jumpSheet";
@@ -2422,7 +2972,7 @@
         ${PATH_STAR.replace('class="path-star"', 'class="jump-star"')}
         <h3 id="jumpTitle">${what}</h3>
         <p>${body}</p>
-        <p class="jump-rule">You have ${JUMP_INK} drops of ink: the ${JUMP_INK + 1}th mistake ends the test.</p>
+        <p class="jump-rule">You have ${kind === "legendary" ? 2 : JUMP_INK} drops of ink: mistake number ${kind === "legendary" ? 3 : JUMP_INK + 1} ends the test.</p>
         <button class="btn btn-primary btn-block" id="jumpGo">Start test</button>
         <button class="btn btn-ghost btn-block" id="jumpCancel">Not now</button>
       </div>`;
@@ -2438,17 +2988,19 @@
       if (exerciseAllowed(ex) && ex.type !== "comprehension") pool.push(buildQueueItem(ex, `${l.id}:${i}`, pool.length, l));
     }));
     if (!pool.length) return;
-    const want = kind === "lesson" ? 10 : kind === "chapter" ? 14 : 18;
+    const want = kind === "lesson" ? 10 : kind === "chapter" ? 14 : kind === "legendary" ? 16 : 18;
     let queue = spreadBySentence(shuffled(pool)).slice(0, want);
     queue = queue.map((q, i) => ({ ...q, _idx: i, _synthetic: true }));
     const level = flatLessons.filter(l => l.levelId === target.levelId);
     const upto = level.indexOf(target) + (kind === "lesson" ? 0 : 1);
     session = {
-      lesson: { id: "__jump__", title: kind === "lesson" ? `Jump to lesson ${target.number}` : kind === "chapter" ? "Chapter test" : "Level test", titleNative: target.titleNative || "", levelId: target.levelId },
+      lesson: { id: "__jump__", title: kind === "lesson" ? `Jump to lesson ${target.number}` : kind === "chapter" ? "Chapter test" : kind === "legendary" ? "Legendary challenge" : "Level test", titleNative: target.titleNative || "", levelId: target.levelId },
       mode: "jump",
       jumpKind: kind,
-      jumpMark: level.slice(0, Math.max(0, upto)).map(l => l.id),
-      inkMax: JUMP_INK,
+      legendKey: kind === "legendary" ? "leg:" + scope[0].id : null,
+      noGrammar: kind === "legendary",
+      jumpMark: kind === "legendary" ? [] : level.slice(0, Math.max(0, upto)).map(l => l.id),
+      inkMax: kind === "legendary" ? 2 : JUMP_INK,
       queue,
       total: queue.length,
       solved: new Set(),
@@ -2599,7 +3151,7 @@
         ? `<button class="translit-toggle" id="translitToggle">Show in Farsi</button>
            <p class="translit translit-fa hidden" id="translitText" dir="rtl" lang="fa">${ex.farsi}</p>`
         : "";
-      return `<p class="prompt-native" dir="${course.dir}" lang="${course.lang}">${ex.prompt}</p>${toggle}`;
+      return `<p class="prompt-native" dir="${course.dir}" lang="${course.lang}">${tapWordsHtml(ex.prompt)}</p><p class="tap-hint">Tap a word for a hint</p>${toggle}`;
     }
     return `<p class="prompt-en">${ex.prompt}</p>`;
   }
@@ -2728,6 +3280,7 @@
   }
 
   function grammarPanel() {
+    if (session && session.noGrammar) return "";
     const lesson = currentExercise()._sourceLesson || session.lesson;
     const topic = lesson.topicId && course.grammarTopics[lesson.topicId];
     if (!topic) return "";
@@ -2754,7 +3307,28 @@
     btn.addEventListener("click", () => showDialogue(topic));
   }
 
+  // Before a new lesson's exercises: meet each new sentence once, with audio.
+  function renderIntroCard() {
+    const pr = session.intro[session.introIdx];
+    renderLessonChrome(`
+      <div class="card intro-card">
+        <p class="q-kicker">New phrase ${session.introIdx + 1} of ${session.intro.length}</p>
+        <button class="intro-say" id="introSay" aria-label="Play">${ICON_SPEAKER}</button>
+        <p class="intro-native" dir="${course.dir}" lang="${course.lang}">${tapWordsHtml(pr.native)}</p>
+        <p class="intro-en">${pr.en}</p>
+        <button class="btn btn-primary btn-block" id="introNext">${session.introIdx < session.intro.length - 1 ? "Next" : "Start the lesson"}</button>
+        <button class="intro-skip" id="introSkip">Skip intro</button>
+      </div>`);
+    const say = () => { const sp = resolveSpeech(false, pr.native, null); if (sp) speak(sp.text, sp.voice); };
+    say();
+    document.getElementById("introSay").addEventListener("click", say);
+    document.getElementById("introNext").addEventListener("click", () => { session.introIdx++; renderExercise(); });
+    document.getElementById("introSkip").addEventListener("click", () => { session.introIdx = session.intro.length; renderExercise(); });
+  }
+
   function renderExercise() {
+    if (session.intro && session.introIdx < session.intro.length) return renderIntroCard();
+    if (session.mode === "placement" && (session.placementStop != null || session.queue.length === 0)) return renderPlacementResult();
     if (session.queue.length === 0 || session.jumpFailed) return renderSummary();
 
     const ex = currentExercise();
@@ -2830,6 +3404,7 @@
     if (correct) {
       session.solved.add(ex._idx);
       session.combo++;
+      session.maxCombo = Math.max(session.maxCombo || 0, session.combo);
       if (session.combo >= 5 && session.combo % 5 === 0) comboBurst(session.combo);
       session.queue.shift();
       harvestWords(ex);
@@ -2838,6 +3413,12 @@
     } else {
       session.mistakes++;
       session.combo = 0;
+      session.missedList = session.missedList || [];
+      if (session.missedList.length < 8) {
+        const corr = ex.options ? ex.options[ex.answerIndex] : Array.isArray(ex.answer) ? ex.answer.join(" ") : (ex.answer || ex.native || "");
+        const ask = ex.question || ex.prompt || ex.native || "";
+        if (!session.missedList.some(m => m.ask === ask)) session.missedList.push({ ask, corr, say: targetLangText(ex) });
+      }
       if (!ex._synthetic && !progress.missedBank.includes(ex._gid)) {
         progress.missedBank.push(ex._gid);
         if (progress.missedBank.length > MAX_MISSED) progress.missedBank.shift();
@@ -2846,6 +3427,12 @@
       session.queue.push(wrong);
       const inkEl = document.querySelector(".ink-badge");
       if (inkEl) { inkEl.outerHTML = inkBadgeHtml(); const n = document.querySelector(".ink-badge"); if (n) n.classList.add("ink-drop"); }
+      if (session.mode === "placement") {
+        session.queue.pop();
+        const lv = ex._placeLvl;
+        session.placeMiss[lv] = (session.placeMiss[lv] || 0) + 1;
+        if (session.placeMiss[lv] >= 2) session.placementStop = lv;
+      }
       if (session.mode === "jump" && session.mistakes > session.inkMax) {
         session.jumpFailed = true;
       }
@@ -3282,7 +3869,7 @@
     const perfect = session.mistakes === 0;
     const inkBonus = session.mode === "lesson" ? inkLeft() : (perfect ? 5 : 0);
     const jumpPassed = session.mode === "jump" && !session.jumpFailed;
-    const xpEarned = session.mode === "jump" ? (jumpPassed ? 20 : 0) : 10 + inkBonus;
+    const xpEarned = (session.mode === "jump" ? (jumpPassed ? 20 : 0) : 10 + inkBonus) * xpMult();
     const answered = session.solved.size + session.mistakes;
     const accuracy = answered ? Math.round((session.solved.size / answered) * 100) : 100;
     const secs = session.startedAt ? Math.round((Date.now() - session.startedAt) / 1000) : 0;
@@ -3306,6 +3893,17 @@
       session.summarized = true;
       progress.xp += xpEarned;
       addDayXp(xpEarned);
+      bumpQuests({
+        lessons: session.mode === "lesson" ? 1 : 0,
+        xp: xpEarned,
+        perfect: session.mode === "lesson" && session.mistakes === 0 ? 1 : 0,
+        reviews: session.mode === "mistakes" || session.mode === "revision" ? 1 : 0,
+        combo: session.maxCombo || 0,
+      });
+      if (jumpPassed && session.legendKey) {
+        progress.legendary = progress.legendary || [];
+        if (!progress.legendary.includes(session.legendKey)) progress.legendary.push(session.legendKey);
+      }
       if (jumpPassed) {
         session.jumpMark.forEach(id => { if (!progress.completedLessons.includes(id)) progress.completedLessons.push(id); });
         justCompletedLevelId = checkLevelComplete(session.lesson.levelId);
@@ -3321,7 +3919,7 @@
     }
 
     const summaryTitle = session.mode === "jump"
-      ? (jumpPassed ? (session.jumpKind === "lesson" ? "Jumped ahead!" : session.jumpKind === "chapter" ? "Chapter skipped!" : "Level complete!") : "Not this time")
+      ? (jumpPassed ? (session.jumpKind === "lesson" ? "Jumped ahead!" : session.jumpKind === "chapter" ? "Chapter skipped!" : session.jumpKind === "legendary" ? "Legendary!" : "Level complete!") : "Not this time")
       : perfect
       ? "Perfect run"
       : session.mode === "mistakes" ? "Review complete"
@@ -3334,11 +3932,16 @@
         <h2>${summaryTitle}</h2>
         <p>${session.lesson.title}${session.lesson.titleNative ? ` &middot; ${session.lesson.titleNative}` : ""}</p>
         <div class="summary-cards">
-          <div class="summary-card gold"><span class="lbl">XP</span><span class="num">+<b data-count="${xpEarned}">0</b></span></div>
+          <div class="summary-card gold"><span class="lbl">${xpMult() > 1 ? "XP · 2×" : "XP"}</span><span class="num">+<b data-count="${xpEarned}">0</b></span></div>
           <div class="summary-card teal"><span class="lbl">Accuracy</span><span class="num"><b data-count="${accuracy}">0</b>%</span></div>
           <div class="summary-card ink"><span class="lbl">Time</span><span class="num">${timeText}</span></div>
         </div>
         ${session.mode === "jump" ? `<p class="summary-ink">${jumpPassed ? `${session.jumpMark.length} lesson${session.jumpMark.length === 1 ? "" : "s"} marked as done` : "The ink ran dry — keep practising and try again any time."}</p>` : ""}
+        ${(session.missedList || []).length ? `
+          <details class="summary-mistakes">
+            <summary>Review your mistakes (${session.missedList.length})</summary>
+            ${session.missedList.map((m, i) => `<div class="sm-row"><button class="sm-say" data-i="${i}" aria-label="Play">${ICON_SPEAKER}</button><div><span class="sm-ask" dir="auto">${m.ask}</span><span class="sm-corr" dir="auto">${m.corr}</span></div></div>`).join("")}
+          </details>` : ""}
         ${sealEarned ? `<div class="summary-seal">${PATH_SEAL}<div><b>Chapter seal earned</b><span>${sealEarned} — every lesson complete</span></div></div>` : ""}
         ${inkBonus && session.mode === "lesson" ? `<p class="summary-ink">+${inkBonus} XP for ink left in the well</p>` : ""}
         <div class="summary-lamp">
@@ -3349,6 +3952,11 @@
       </div>
     `;
     animateCountUps(screenEl);
+    if (!sealEarned && !(session.mode === "jump" && jumpPassed)) setTimeout(playFinishSound, 150);
+    const missed = session.missedList || [];
+    screenEl.querySelectorAll(".sm-say").forEach(b => b.addEventListener("click", () => {
+      const m = missed[+b.dataset.i]; if (!m || !m.say) return; const sp = resolveSpeech(false, m.say, null); if (sp) speak(sp.text, sp.voice);
+    }));
     document.getElementById("continueHome").addEventListener("click", () => {
       session = null;
       renderHome();

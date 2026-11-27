@@ -28,7 +28,7 @@
 // deliberate: it means a broken/partial course download can never be
 // masked or shadowed by service-worker caching.
 
-const CACHE_VERSION = "20261126j"; // bump whenever a shell file changes; keep in lockstep with index.html's ?v= query strings
+const CACHE_VERSION = "20261127a"; // bump whenever a shell file changes; keep in lockstep with index.html's ?v= query strings
 const CACHE_NAME = `muhkam-shell-${CACHE_VERSION}`;
 
 const SHELL_FILES = [
@@ -116,4 +116,29 @@ self.addEventListener("fetch", (event) => {
       }
     })()
   );
+});
+
+// Daily reminder (Chrome/Android installed app: periodic background sync).
+// The page mirrors lastActiveDate into Cache Storage; if today has no lesson
+// yet and it's afternoon or later, show one gentle nudge.
+self.addEventListener("periodicsync", (event) => {
+  if (event.tag !== "muhkam-reminder") return;
+  event.waitUntil((async () => {
+    try {
+      const c = await caches.open("muhkam-state");
+      const r = await c.match("/__muhkam_state");
+      if (!r) return;
+      const s = await r.json();
+      const now = new Date();
+      if (s.lastActive === now.toDateString() || now.getHours() < 14) return;
+      await self.registration.showNotification(s.streak > 0 ? `Keep your ${s.streak}-day lamp lit` : "Your lamp is waiting", {
+        body: s.course ? `Five minutes of ${s.course} keeps the streak alive.` : "Five minutes keeps the streak alive.",
+        icon: "icons/icon-192.png", badge: "icons/favicon-32.png", tag: "muhkam-reminder",
+      });
+    } catch (e) { /* nothing to do */ }
+  })());
+});
+self.addEventListener("notificationclick", (event) => {
+  event.notification.close();
+  event.waitUntil(self.clients.matchAll({ type: "window" }).then(list => list.length ? list[0].focus() : self.clients.openWindow("./")));
 });
