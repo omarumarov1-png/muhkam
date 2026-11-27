@@ -1672,8 +1672,9 @@
       return;
     }
     list.setAttribute("dir", course.dir);
-    list.innerHTML = progress.wordHoard.slice().reverse()
-      .map(w => `<span class="hoard-word" dir="${course.dir}" lang="${course.lang}">${w}</span>`).join("");
+    const withAudio = new Set(progress.wordHoard.filter(w => audioManifest[w]));
+    list.innerHTML = `<p class="hoard-count" dir="ltr"><b>${progress.wordHoard.length}</b> words · tap one to hear it and see it in use</p>` + progress.wordHoard.slice().reverse()
+      .map((w, i) => `<button class="hoard-word tap-word ${withAudio.has(w) ? "has-audio" : ""}" style="--d:${Math.min(i, 40) * 18}ms" dir="${course.dir}" lang="${course.lang}">${w}</button>`).join("");
   }
 
   function showDialogue(topic) {
@@ -2402,6 +2403,12 @@
   const PATH_STAR = `<svg class="path-star" viewBox="0 0 32 34" aria-hidden="true"><polygon class="path-star-shadow" transform="translate(0 2.6)" points="16,1 20.4,5.4 26.6,5.4 26.6,11.6 31,16 26.6,20.4 26.6,26.6 20.4,26.6 16,31 11.6,26.6 5.4,26.6 5.4,20.4 1,16 5.4,11.6 5.4,5.4 11.6,5.4"/><polygon class="path-star-face" points="16,1 20.4,5.4 26.6,5.4 26.6,11.6 31,16 26.6,20.4 26.6,26.6 20.4,26.6 16,31 11.6,26.6 5.4,26.6 5.4,20.4 1,16 5.4,11.6 5.4,5.4 11.6,5.4"/></svg>`;
   const PATH_ICON_CHECK = `<svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path d="M5 12.5l4.3 4.3L19 7" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
   const PATH_ICON_LOCK = `<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2.2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 11V7.6a4 4 0 018 0V11" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>`;
+  // Illustrated (filled) node glyphs: trophy for a chapter finale, open book
+  // for readings, dumbbell for a faded lesson that wants practice, crown for perfect.
+  const NODE_TROPHY = `<svg viewBox="0 0 32 32" width="36" height="36" aria-hidden="true"><path d="M9 5h14v6a7 7 0 01-14 0z" fill="currentColor"/><path d="M9 7H5.5a1 1 0 00-1 1c0 3.6 2.2 5.8 5.2 6.2M23 7h3.5a1 1 0 011 1c0 3.6-2.2 5.8-5.2 6.2" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><path d="M14 17.5h4v4h-4z" fill="currentColor"/><path d="M10.5 25.5a2 2 0 012-2h7a2 2 0 012 2V27h-11z" fill="currentColor"/><path d="M12.5 8.5v3" stroke="rgba(255,255,255,.55)" stroke-width="2" stroke-linecap="round"/></svg>`;
+  const NODE_BOOK = `<svg viewBox="0 0 32 32" width="36" height="36" aria-hidden="true"><path d="M3.5 7.5c4-1.6 8.3-1.4 12.5 1.2v17c-4.2-2.6-8.5-2.8-12.5-1.2z" fill="currentColor"/><path d="M28.5 7.5c-4-1.6-8.3-1.4-12.5 1.2v17c4.2-2.6 8.5-2.8 12.5-1.2z" fill="currentColor" opacity=".78"/><path d="M7 12c2-.5 4-.3 6 .6M7 16c2-.5 4-.3 6 .6M19 12.6c2-.9 4-1.1 6-.6M19 16.6c2-.9 4-1.1 6-.6" stroke="rgba(0,0,0,.18)" stroke-width="1.4" stroke-linecap="round" fill="none"/></svg>`;
+  const NODE_DUMBBELL = `<svg viewBox="0 0 32 32" width="34" height="34" aria-hidden="true"><rect x="3" y="11" width="5" height="10" rx="1.6" fill="currentColor"/><rect x="24" y="11" width="5" height="10" rx="1.6" fill="currentColor"/><rect x="7" y="8.5" width="4.5" height="15" rx="1.6" fill="currentColor"/><rect x="20.5" y="8.5" width="4.5" height="15" rx="1.6" fill="currentColor"/><rect x="11" y="14.5" width="10" height="3" rx="1.2" fill="currentColor"/></svg>`;
+  const NODE_CROWN = `<svg viewBox="0 0 32 32" width="34" height="34" aria-hidden="true"><path d="M5 24l-1.5-13 7 5.5L16 7l5.5 9.5 7-5.5L27 24z" fill="currentColor"/><rect x="5" y="25" width="22" height="3" rx="1.2" fill="currentColor"/><circle cx="16" cy="18.5" r="2" fill="rgba(0,0,0,.2)"/></svg>`;
   const PATH_ICON_BOOK = `<svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M4 5c3-1 6-1 8 1 2-2 5-2 8-1v14c-3-1-6-1-8 1-2-2-5-2-8-1z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M12 6v14" stroke="currentColor" stroke-width="2"/></svg>`;
   const PATH_SEAL = `<svg viewBox="0 0 96 80" width="84" height="70" aria-hidden="true"><circle class="seal-disc" cx="48" cy="40" r="32"/><circle class="seal-ring" cx="48" cy="40" r="23" fill="none" stroke-width="1.6" stroke-dasharray="3 4"/><polygon class="seal-star" transform="translate(36 28) scale(0.75)" points="16,1 20.4,5.4 26.6,5.4 26.6,11.6 31,16 26.6,20.4 26.6,26.6 20.4,26.6 16,31 11.6,26.6 5.4,26.6 5.4,20.4 1,16 5.4,11.6 5.4,5.4 11.6,5.4"/></svg>`;
   // Small line emblems for chapter dividers, picked by keywords in the
@@ -2663,13 +2670,18 @@
         const faded = done && lessonNeedsRefresh(lesson);
         const legendary = (progress.legendary || []).includes("leg:" + ch.lessons[0].id);
         const fx = lesson.id === _justCompletedId ? "just-done" : (isCurrent && _justCompletedId ? "just-unlocked" : "");
-        const inner = done ? PATH_ICON_CHECK : !unlocked ? PATH_ICON_LOCK : lesson.readingPassage ? PATH_ICON_BOOK : `<span class="path-num">${lesson.number}</span>`;
+        const finale = !ch.single && ch.lessons.length > 2 && lesson === ch.lessons[ch.lessons.length - 1];
+        const kind = finale ? "finale" : lesson.readingPassage ? "reading" : "";
+        const inner = done
+          ? (faded ? NODE_DUMBBELL : finale ? NODE_TROPHY : perfect ? NODE_CROWN : PATH_ICON_CHECK)
+          : !unlocked ? (finale ? NODE_TROPHY : PATH_ICON_LOCK)
+          : finale ? NODE_TROPHY : lesson.readingPassage ? NODE_BOOK : `<span class="path-num">${lesson.number}</span>`;
         const shift = ZIG[nodeNo++ % ZIG.length];
         const label = `${lesson.title}${lesson.titleNative ? " · " + lesson.titleNative : ""}`;
         return `
           <div class="path-step" style="--zig:${shift}">
             ${isCurrent ? `<span class="path-begin">Begin</span>` : ""}
-            <button class="path-node ${state} ${legendary ? "legendary" : ""} ${perfect ? "perfect" : ""} ${faded ? "faded" : ""} ${fx}" data-lesson="${lesson.id}" ${unlocked ? "" : `data-jump="1"`} title="${label}" aria-label="${label}${done ? " (done)" : !unlocked ? " (locked)" : ""}">
+            <button class="path-node ${state} ${kind} ${legendary ? "legendary" : ""} ${perfect ? "perfect" : ""} ${faded ? "faded" : ""} ${fx}" data-lesson="${lesson.id}" ${unlocked ? "" : `data-jump="1"`} title="${label}" aria-label="${label}${done ? " (done)" : !unlocked ? " (locked)" : ""}">
               ${PATH_STAR}<span class="path-inner">${inner}</span>
             </button>
             ${isCurrent ? `<span class="path-caption" dir="auto">${lesson.title}</span>` : ""}
@@ -2677,6 +2689,7 @@
       }).join("");
       return `
         <section class="path-chapter" data-ch="${ci}" style="--unit:${UNIT_COLORS[ci % UNIT_COLORS.length][0]};--unit-deep:${UNIT_COLORS[ci % UNIT_COLORS.length][1]}">
+          ${ch.single ? "" : `<span class="path-art ${ci % 2 ? "left" : "right"}" aria-hidden="true">${chapterEmblem(ch.stem)}</span>`}
           ${ch.single ? "" : `
           <div class="chapter-divider">
             <span class="cd-line" aria-hidden="true"></span>

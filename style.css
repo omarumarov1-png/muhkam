@@ -3843,3 +3843,45 @@ h1, h2, h3 { letter-spacing: -0.01em; }
   :root:not([data-theme]) .path-chapter .path-node.done .path-inner { color: #fffaf1; }
 }
 .tabbar-btn.active { box-shadow: none; background: color-mix(in srgb, var(--gold-bright) 16%, transparent); }
+
+/* ===== illustrated nodes, chapter art, word hoard, course cards ===== */
+.path-node.finale .path-star-face { fill: color-mix(in srgb, var(--gold-bright) 30%, var(--paper-raised)); }
+.path-node.finale .path-star-shadow { fill: var(--gold); }
+.path-node.finale .path-inner { color: var(--gold); }
+.path-node.finale.locked .path-inner { color: color-mix(in srgb, var(--gold) 55%, var(--ink-soft)); opacity: 0.85; }
+.path-node.finale.done .path-star-face { fill: var(--gold-bright) !important; }
+.path-node.finale.done .path-star-shadow { fill: var(--gold) !important; }
+.path-node.finale.done .path-inner { color: #fffaf1; }
+.path-node.reading.unlocked .path-inner, .path-node.reading.current .path-inner { color: inherit; }
+.path-node.faded.done .path-star-face { fill: color-mix(in srgb, var(--unit, var(--gold-bright)) 45%, var(--paper-deep)) !important; }
+.path-inner svg { filter: drop-shadow(0 2px 0 rgba(0, 0, 0, 0.12)); }
+
+.path-chapter { position: relative; }
+.path-art {
+  position: absolute; top: 150px; width: 120px; height: 120px; color: var(--unit, var(--gold)); opacity: 0.16; pointer-events: none;
+  display: flex; align-items: center; justify-content: center; border-radius: 50%;
+  background: radial-gradient(circle, color-mix(in srgb, var(--unit, var(--gold)) 40%, transparent) 0%, transparent 70%);
+}
+.path-art.right { right: 0; } .path-art.left { left: 0; }
+.path-art svg { width: 84px; height: 84px; stroke-width: 1.4; }
+@media (max-width: 380px) { .path-art { width: 90px; height: 90px; } .path-art svg { width: 60px; height: 60px; } }
+
+.hoard-count { width: 100%; margin: 0 0 10px; color: var(--ink-soft); font-weight: 700; }
+.hoard-count b { color: var(--primary); font-weight: 900; font-size: 1.1rem; }
+.hoard-word {
+  font: inherit; font-weight: 800 !important; cursor: pointer; border: 2px solid var(--line) !important; border-radius: 14px !important;
+  background: var(--paper-raised) !important; color: var(--ink) !important; box-shadow: 0 4px 0 var(--line) !important;
+  padding: 8px 14px !important; animation: boldRise 0.35s var(--pop) backwards; animation-delay: var(--d, 0ms);
+  border-bottom-width: 2px !important;
+}
+.hoard-word.has-audio { border-color: color-mix(in srgb, var(--teal) 40%, var(--line)) !important; }
+.hoard-word:active { transform: translateY(3px); box-shadow: 0 1px 0 var(--line) !important; }
+
+.course-card { border-width: 2px !important; border-radius: 20px !important; box-shadow: 0 5px 0 color-mix(in srgb, var(--card-accent, var(--line)) 35%, var(--line)) !important; transition: transform 0.08s; }
+.course-card:active { transform: translateY(3px); }
+.course-card.active { border-color: var(--card-accent, var(--primary)) !important; box-shadow: 0 5px 0 var(--card-accent, var(--primary)) !important; }
+.course-card-native { font-weight: 800 !important; }
+.course-card-en { font-weight: 800 !important; }
+.course-card-progress { height: 10px !important; border-radius: 999px !important; }
+.course-card-progress-fill { border-radius: 999px !important; box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12); }
+.course-card-pill { font-weight: 900 !important; }
