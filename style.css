@@ -3925,3 +3925,54 @@ h1, h2, h3 { letter-spacing: -0.01em; }
 .weak-text { display: flex; flex-direction: column; gap: 3px; min-width: 0; } .weak-text b { color: var(--ink); } .weak-text > span:not(.weak-bar) { color: var(--ink-soft); font-size: 0.82rem; }
 .weak-bar { height: 8px; border-radius: 999px; background: var(--paper-deep); overflow: hidden; } .weak-bar span { display: block; height: 100%; background: var(--maroon); border-radius: 999px; }
 .weak-train { background: var(--maroon) !important; color: #fffaf1 !important; box-shadow: 0 4px 0 color-mix(in srgb, var(--maroon) 60%, #000) !important; padding: 10px 16px !important; border: 0 !important; }
+
+/* ===== guidebook page ===== */
+.guide { display: flex; flex-direction: column; gap: 18px; padding-bottom: 24px; }
+.guide-top { display: flex; align-items: center; gap: 12px; }
+.guide-eyebrow { font-weight: 900; letter-spacing: 0.12em; text-transform: uppercase; font-size: 0.8rem; color: var(--ink-soft); }
+.guide-hero { text-align: center; display: flex; flex-direction: column; align-items: center; gap: 6px; background: var(--paper-raised); border: 2px solid var(--line); border-radius: 24px; padding: 22px 18px 18px; box-shadow: 0 6px 0 var(--line); }
+.guide-emblem { width: 64px; height: 64px; border-radius: 50%; background: var(--primary); color: #fffaf1; display: flex; align-items: center; justify-content: center; box-shadow: 0 5px 0 var(--primary-deep); }
+.guide-emblem svg { width: 34px; height: 34px; }
+.guide-hero h2 { margin: 6px 0 0; font-family: var(--font-display); font-size: 1.9rem; color: var(--ink); }
+.guide-native { margin: 0; color: var(--gold); font-weight: 800; font-size: 1.1rem; }
+.guide-goal { margin: 6px 0 0; color: var(--ink-soft); line-height: 1.5; max-width: 34em; }
+.guide-goal b { color: var(--ink); }
+.guide-sec { display: flex; flex-direction: column; gap: 10px; }
+.guide-sec h3 { display: flex; align-items: center; gap: 10px; margin: 6px 0 0; font-family: var(--font-display); font-size: 1.35rem; color: var(--ink); }
+.gs-num { width: 30px; height: 30px; border-radius: 50%; background: var(--gold-bright); color: var(--ink); font-family: var(--font-body); font-weight: 900; font-size: 0.95rem; display: inline-flex; align-items: center; justify-content: center; box-shadow: 0 3px 0 var(--gold); flex-shrink: 0; }
+.guide-help { margin: 0; color: var(--ink-soft); font-size: 0.9rem; font-weight: 700; }
+.guide-phrases { display: flex; flex-direction: column; gap: 10px; }
+.guide .guide-phrase { display: flex; gap: 12px; align-items: center; background: var(--paper-raised); border: 2px solid var(--line); border-radius: 18px; padding: 12px 14px; box-shadow: 0 4px 0 var(--line); cursor: default; }
+.gp-btns { display: flex; flex-direction: column; gap: 6px; }
+.gp-say, .gp-slow, .gd-say { width: 36px; height: 36px; border-radius: 12px; border: 0; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+.gp-say, .gd-say { background: var(--primary); color: #fffaf1; box-shadow: 0 3px 0 var(--primary-deep); }
+.gp-slow { background: var(--paper-deep); color: var(--primary); box-shadow: 0 3px 0 var(--line); }
+.gp-body { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.guide .gp-native { font-family: var(--font-native); font-size: 1.2rem; font-weight: 800; color: var(--ink); }
+.guide .gp-en { color: var(--ink-soft); font-weight: 700; }
+.guide-pattern { background: var(--gold-wash); border: 2px solid var(--gold-bright); border-radius: 18px; padding: 12px 14px; }
+.guide-pattern span { display: block; font-size: 0.75rem; font-weight: 900; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); margin-bottom: 4px; }
+.guide-pattern div { font-family: var(--font-native); font-size: 1.15rem; font-weight: 800; color: var(--ink); }
+.guide-expl { margin: 0; font-size: 1.02rem; line-height: 1.65; color: var(--ink); }
+.guide-fact { margin: 0; padding: 12px 14px; border-radius: 18px; background: var(--teal-wash); color: var(--ink); line-height: 1.55; }
+.guide-fact b { display: block; color: var(--teal); font-size: 0.78rem; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 2px; }
+.guide-gloss { background: var(--paper-raised); border: 2px dashed var(--line); border-radius: 18px; padding: 10px 14px; }
+.guide-gloss summary { cursor: pointer; font-weight: 900; color: var(--primary); }
+.guide-gloss dl { margin: 8px 0 0; display: flex; flex-direction: column; gap: 8px; }
+.guide-gloss dt { font-weight: 900; color: var(--ink); display: inline; }
+.guide-gloss dt::after { content: " — "; color: var(--ink-soft); font-weight: 600; }
+.guide-gloss dd { display: inline; margin: 0; color: var(--ink-soft); line-height: 1.5; }
+.guide-dialogue { display: flex; flex-direction: column; gap: 10px; }
+.gd-line { position: relative; background: var(--paper-raised); border: 2px solid var(--line); border-radius: 18px; padding: 10px 14px 10px 58px; box-shadow: 0 4px 0 var(--line); max-width: 88%; }
+.gd-line.b { align-self: flex-end; border-color: color-mix(in srgb, var(--teal) 40%, var(--line)); }
+.gd-line .gd-say { position: absolute; left: 12px; top: 12px; }
+.gd-sp { font-size: 0.75rem; font-weight: 900; letter-spacing: 0.08em; text-transform: uppercase; color: var(--gold); }
+.gd-native { margin: 2px 0 0; font-family: var(--font-native); font-size: 1.12rem; font-weight: 800; color: var(--ink); }
+.gd-en { margin: 2px 0 0; color: var(--ink-soft); font-size: 0.92rem; }
+.guide-check { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }
+.gc-card { min-height: 96px; border: 3px solid var(--line); border-radius: 18px; background: var(--paper-raised); box-shadow: 0 5px 0 var(--line); cursor: pointer; font: inherit; padding: 12px; display: flex; align-items: center; justify-content: center; text-align: center; transition: transform 0.25s var(--pop); }
+.gc-card .gc-back { display: none; color: var(--teal); font-weight: 900; }
+.gc-card .gc-front { font-family: var(--font-native); font-size: 1.15rem; font-weight: 800; color: var(--ink); }
+.gc-card.flipped { background: var(--teal-wash); border-color: var(--teal); transform: rotateY(360deg); }
+.gc-card.flipped .gc-front { display: none; } .gc-card.flipped .gc-back { display: block; }
+.guide-tips ul { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 6px; color: var(--ink); line-height: 1.5; }

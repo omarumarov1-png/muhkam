@@ -542,6 +542,12 @@
     // Only the normal rate has a bundled recording -- slow replay falls
     // through to speechSynthesis (silently doing nothing if there's no
     // voice either, same as before bundled audio existed).
+    // Slow replay of a bundled recording: same file, played at 0.75x with pitch kept.
+    if (rate && rate !== SPEECH_RATE && audioManifest[text] && !voice) {
+      playBundledAudio(audioManifest[text], onEnd, onError);
+      if (_currentBundledAudio) { _currentBundledAudio.preservesPitch = true; _currentBundledAudio.playbackRate = 0.75; }
+      return;
+    }
     const bundled = (!rate || rate === SPEECH_RATE) && audioManifest[text];
     if (bundled) {
       if (window.speechSynthesis && (window.speechSynthesis.speaking || window.speechSynthesis.pending)) {
@@ -2590,28 +2596,155 @@
     document.getElementById("findLevel").addEventListener("click", () => { cancelAdvance(); startPlacement(); });
   }
 
-  // Guidebook: the chapter's key phrases with audio, then its grammar note.
+  // Guidebook: a full page per chapter written for someone who has never
+  // studied a language: what you'll be able to do, the phrases with audio
+  // and word-by-word hints, the grammar in plain words with every technical
+  // term explained, a short conversation, and a self-check.
+  const GLOSSARY = [
+    [/\bpronouns?\b/i, "pronoun", "a short word that stands for a person or thing: I, you, he, she, we, they."],
+    [/\bnouns?\b/i, "noun", "a word for a thing, person or place: book, mother, city."],
+    [/\bverbs?\b/i, "verb", "an action or state word: go, eat, be, have."],
+    [/\badjectives?\b/i, "adjective", "a describing word: big, red, new."],
+    [/\badverbs?\b/i, "adverb", "a word that says how, when or where: quickly, today, here."],
+    [/\bsuffix(es)?\b/i, "suffix", "a small piece added to the END of a word to change its meaning: book → books."],
+    [/\bprefix(es)?\b/i, "prefix", "a small piece added to the START of a word: do → undo."],
+    [/\bendings?\b/i, "ending", "the last letters of a word, which often change to show who, when or how many."],
+    [/\bplural\b/i, "plural", "more than one: book → books."],
+    [/\bsingular\b/i, "singular", "just one: one book."],
+    [/\btense\b/i, "tense", "the form of a verb that shows WHEN: past (I went), present (I go), future (I will go)."],
+    [/\bpast\b/i, "past", "something that already happened: yesterday I ate."],
+    [/\bfuture\b/i, "future", "something that will happen: tomorrow I will eat."],
+    [/\binfinitive\b/i, "infinitive", "the dictionary form of a verb, like 'to eat'."],
+    [/\bconjugat/i, "conjugation", "changing a verb's form to match the person: I am, you are, she is."],
+    [/\bcases?\b/i, "case", "a form of a noun that shows its role in the sentence (who does it, to whom, where…), usually made with an ending."],
+    [/\bdative\b/i, "dative", "the 'to / for' form: give it TO my mother."],
+    [/\baccusative\b/i, "accusative", "the form for the thing that receives the action: I read THE BOOK."],
+    [/\bgenitive\b/i, "genitive", "the 'of / 's' form: my friend's house, the door OF the house."],
+    [/\blocative\b/i, "locative", "the 'in / at / on' form: IN the city."],
+    [/\bablative\b/i, "ablative", "the 'from' form: FROM the city."],
+    [/\bnominative\b/i, "nominative", "the basic form, used for the one who does the action."],
+    [/\bpossessive\b/i, "possessive", "showing who something belongs to: my, your, his."],
+    [/\barticles?\b/i, "article", "a little word before a noun: 'a', 'an', 'the'. Many languages don't have them."],
+    [/\bgender\b/i, "gender", "a grammar group (masculine / feminine / neuter) that words belong to; it changes other words' endings."],
+    [/\bmasculine\b/i, "masculine", "one of the grammar genders; it's a label for word-endings, not always about men."],
+    [/\bfeminine\b/i, "feminine", "one of the grammar genders; it's a label for word-endings, not always about women."],
+    [/\bvowel harmony\b/i, "vowel harmony", "endings change their vowel to sound like the word they're added to (soft words take soft endings)."],
+    [/\bvowels?\b/i, "vowel", "an open sound like a, e, i, o, u."],
+    [/\bconsonants?\b/i, "consonant", "a sound made by closing part of your mouth: b, t, k, s."],
+    [/\bsubject\b/i, "subject", "who or what does the action: SHE reads."],
+    [/\bobject\b/i, "object", "who or what receives the action: she reads A BOOK."],
+    [/\bword order\b/i, "word order", "the order words come in. English says 'I read books'; many languages say 'I books read'."],
+    [/\bnegat/i, "negative", "a 'not' sentence: I do NOT know."],
+    [/\bimperative\b/i, "imperative", "a command or request: Come! Sit down!"],
+    [/\bcopula\b/i, "copula", "the linking word 'to be' (am, is, are)."],
+    [/\bparticles?\b/i, "particle", "a tiny word that adds a shade of meaning (a question, emphasis, politeness) but doesn't change form."],
+    [/\bpostpositions?\b/i, "postposition", "like an English preposition (in, on, with) but it comes AFTER the word."],
+    [/\bprepositions?\b/i, "preposition", "a small word showing place or relation: in, on, with, to."],
+    [/\bauxiliar/i, "auxiliary verb", "a helper verb used with another verb: I HAVE eaten, she WILL come."],
+    [/\bparticiple\b/i, "participle", "a verb form used like an adjective or to build tenses: written, writing."],
+    [/\bstem\b/i, "stem", "the core of a word that endings are added to."],
+    [/\broot\b/i, "root", "the basic core of a word that carries its main meaning; related words share it."],
+    [/\bformal\b/i, "formal", "the polite way of speaking to strangers, elders or in official places."],
+    [/\binformal\b/i, "informal", "the relaxed way of speaking to friends and family."],
+  ];
+  function glossaryFor(text) {
+    const seen = new Set(), out = [];
+    GLOSSARY.forEach(([re, term, def]) => { if (re.test(text) && !seen.has(term)) { seen.add(term); out.push({ term, def }); } });
+    return out.slice(0, 10);
+  }
+  function guideTopicOf(ch) {
+    const tid = ch.lessons.map(l => l.topicId).find(id => id && course.grammarTopics && course.grammarTopics[id]);
+    return tid ? course.grammarTopics[tid] : null;
+  }
+  let _guideReturn = null;
   function showGuidebook(ch) {
     if (!ch) return;
-    const tid = ch.lessons.map(l => l.topicId).find(id => id && course.grammarTopics && course.grammarTopics[id]);
-    const topic = tid ? course.grammarTopics[tid] : null;
+    session = null; story = null;
+    const topic = guideTopicOf(ch);
     const phrases = [];
     const seen = new Set();
-    ch.lessons.forEach(l => lessonPairs(l).forEach(pr => { if (!seen.has(pr.native) && phrases.length < 10) { seen.add(pr.native); phrases.push(pr); } }));
-    document.getElementById("dialogueTitle").innerHTML = `Guidebook · ${ch.stem}`;
-    const sub = dialogueModal.querySelector(".modal-sub"); if (sub) sub.hidden = true;
-    document.getElementById("dialogueList").innerHTML = `
-      ${phrases.length ? `<div class="notes-dialogue-label">Key phrases</div>
-      <div class="guide-phrases">${phrases.map((pr, i) => `
-        <button class="guide-phrase" data-i="${i}"><span class="gp-say">${ICON_SPEAKER}</span><span class="gp-native" dir="${course.dir}" lang="${course.lang}">${pr.native}</span><span class="gp-en">${pr.en}</span></button>`).join("")}</div>` : ""}
-      ${topic ? `<div class="notes-dialogue-label">Grammar · ${topic.title}</div>
-        ${topic.pattern ? `<div class="notes-pattern" dir="auto">${topic.pattern}</div>` : ""}
-        ${topic.explanation ? `<p class="notes-expl">${topic.explanation}</p>` : ""}
-        ${topic.fact ? `<p class="notes-fact"><b>Did you know?</b> ${topic.fact}</p>` : ""}` : ""}`;
-    document.querySelectorAll(".guide-phrase").forEach(b => b.addEventListener("click", () => {
-      const pr = phrases[+b.dataset.i]; const sp = resolveSpeech(false, pr.native, null); if (sp) speak(sp.text, sp.voice);
-    }));
-    dialogueModal.classList.remove("hidden");
+    ch.lessons.forEach(l => lessonPairs(l).forEach(pr => { if (!seen.has(pr.native) && phrases.length < 12) { seen.add(pr.native); phrases.push(pr); } }));
+    const done = ch.lessons.filter(l => progress.completedLessons.includes(l.id)).length;
+    const plain = topic ? [topic.pattern, topic.explanation, topic.fact].filter(Boolean).join(" ") : "";
+    const gloss = glossaryFor(plain);
+    const dialogue = topic && topic.dialogue && topic.dialogue.length ? topic.dialogue : null;
+    const check = shuffled(phrases).slice(0, 3);
+    const langName = course.languageName || course.title;
+    setTab("lesson");
+    window.scrollTo(0, 0);
+    screenEl.innerHTML = `
+      <div class="guide">
+        <div class="guide-top">
+          <button class="exit-btn" id="guideBack" aria-label="Back to the path"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          <span class="guide-eyebrow">Guidebook</span>
+        </div>
+        <header class="guide-hero">
+          <span class="guide-emblem">${chapterEmblem(ch.stem)}</span>
+          <h2>${ch.stem}</h2>
+          ${ch.native ? `<p class="guide-native" dir="auto">${ch.native}</p>` : ""}
+          <p class="guide-goal">In this chapter you'll learn <b>${phrases.length} key phrases</b>${topic ? ` and one grammar idea: <b>${topic.title}</b>` : ""}. ${done ? `You've done ${done} of ${ch.lessons.length} lessons.` : "Read this first, or come back whenever you're stuck."}</p>
+        </header>
+
+        <section class="guide-sec">
+          <h3><span class="gs-num">1</span> Key phrases</h3>
+          <p class="guide-help">Tap the speaker to hear a phrase, the turtle to hear it slowly. Tap any ${langName} word to see where else it appears.</p>
+          <div class="guide-phrases">${phrases.map((pr, i) => `
+            <div class="guide-phrase">
+              <div class="gp-btns"><button class="gp-say" data-i="${i}" aria-label="Play">${ICON_SPEAKER}</button><button class="gp-slow" data-i="${i}" aria-label="Play slowly" title="Slowly">${ICON_SLOW}</button></div>
+              <div class="gp-body"><span class="gp-native" dir="${course.dir}" lang="${course.lang}">${tapWordsHtml(pr.native)}</span><span class="gp-en">${pr.en}</span></div>
+            </div>`).join("")}</div>
+        </section>
+
+        ${topic ? `<section class="guide-sec">
+          <h3><span class="gs-num">2</span> How it works</h3>
+          ${topic.pattern ? `<div class="guide-pattern"><span>The pattern</span><div dir="auto">${topic.pattern}</div></div>` : ""}
+          ${topic.explanation ? `<p class="guide-expl">${topic.explanation}</p>` : ""}
+          ${topic.fact ? `<p class="guide-fact"><b>Good to know</b> ${topic.fact}</p>` : ""}
+          ${gloss.length ? `<details class="guide-gloss" open><summary>New to grammar words? Here's what they mean</summary>
+            <dl>${gloss.map(g => `<div><dt>${g.term}</dt><dd>${g.def}</dd></div>`).join("")}</dl></details>` : ""}
+        </section>` : ""}
+
+        ${dialogue ? `<section class="guide-sec">
+          <h3><span class="gs-num">${topic ? 3 : 2}</span> See it in a conversation</h3>
+          <div class="guide-dialogue">${dialogue.map((d, i) => `
+            <div class="gd-line ${i % 2 ? "b" : "a"}">
+              <span class="gd-sp">${d.sp}</span>
+              <button class="gd-say" data-t="${encodeURIComponent(d.native)}" aria-label="Play">${ICON_SPEAKER}</button>
+              <p class="gd-native" dir="${course.dir}" lang="${course.lang}">${d.native}</p>
+              <p class="gd-en">${d.en}</p>
+            </div>`).join("")}</div>
+        </section>` : ""}
+
+        ${check.length >= 2 ? `<section class="guide-sec">
+          <h3><span class="gs-num">${1 + (topic ? 1 : 0) + (dialogue ? 1 : 0) + 1}</span> Check yourself</h3>
+          <p class="guide-help">Say what each phrase means, then tap the card to check.</p>
+          <div class="guide-check">${check.map(pr => `
+            <button class="gc-card"><span class="gc-front" dir="${course.dir}" lang="${course.lang}">${pr.native}</span><span class="gc-back">${pr.en}</span></button>`).join("")}</div>
+        </section>` : ""}
+
+        <section class="guide-sec guide-tips">
+          <h3>Tips that help</h3>
+          <ul>
+            <li><b>Say every phrase out loud.</b> Your mouth needs practice as much as your memory.</li>
+            <li><b>Don't translate word by word.</b> Learn whole phrases first; the grammar makes sense later.</li>
+            <li><b>Mistakes are how you learn.</b> A wrong answer comes back later, so it sticks.</li>
+            <li><b>A little every day</b> beats a lot once a week.</li>
+          </ul>
+        </section>
+
+        <button class="btn btn-primary btn-block" id="guideStart">${done < ch.lessons.length ? "Start practising" : "Back to the path"}</button>
+      </div>`;
+    applyScreenFadeIn();
+    const sayText = (txt, slow) => { const sp = resolveSpeech(false, txt, null); if (!sp) return; speak(sp.text, sp.voice, null, slow ? SPEECH_RATE_SLOW : undefined); };
+    screenEl.querySelectorAll(".gp-say").forEach(b => b.addEventListener("click", () => sayText(phrases[+b.dataset.i].native)));
+    screenEl.querySelectorAll(".gp-slow").forEach(b => b.addEventListener("click", () => sayText(phrases[+b.dataset.i].native, true)));
+    screenEl.querySelectorAll(".gd-say").forEach(b => b.addEventListener("click", () => sayText(decodeURIComponent(b.dataset.t))));
+    screenEl.querySelectorAll(".gc-card").forEach(b => b.addEventListener("click", () => b.classList.toggle("flipped")));
+    document.getElementById("guideBack").addEventListener("click", renderHome);
+    document.getElementById("guideStart").addEventListener("click", () => {
+      const next = ch.lessons.find(l => !progress.completedLessons.includes(l.id) && isLessonUnlocked(flatLessons.indexOf(l)));
+      if (next) startLesson(next); else renderHome();
+    });
   }
 
   // Bottom tab bar (phones): Path / Review / Word hoard / Course. Hidden
