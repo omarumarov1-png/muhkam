@@ -648,6 +648,10 @@
   // questions have no target-language text tied to the specific answer, so
   // they get no audio.
   function targetLangText(ex) {
+    if (!ex || ex.type === "matching" || (ex.type === "multiple-choice" && !ex.options && !ex.prompt)) return "";
+    try { return targetLangTextRaw(ex); } catch (e) { return ""; }
+  }
+  function targetLangTextRaw(ex) {
     if (ex.type === "comprehension") return null;
     const targetIsPrompt = ex.direction === `${course.lang}-en`;
     if (ex.type === "word-bank") {
@@ -781,6 +785,8 @@
       celebratedLevels: union(local.celebratedLevels, remote.celebratedLevels),
       legendary: union(local.legendary, remote.legendary),
       placementSeen: !!(local.placementSeen || remote.placementSeen),
+      wordSrs: Object.assign({}, remote.wordSrs || {}, local.wordSrs || {}),
+      stats: (local.stats && remote.stats) ? (JSON.stringify(local.stats).length >= JSON.stringify(remote.stats).length ? local.stats : remote.stats) : (local.stats || remote.stats),
       srs: mergeSrs(local.srs, remote.srs),
       dayXp: mergeDayXp(local.dayXp, remote.dayXp),
       xpByDay: (() => { const o = Object.assign({}, remote.xpByDay || {}); Object.entries(local.xpByDay || {}).forEach(([k, v]) => { o[k] = Math.max(o[k] || 0, v); }); return o; })(),
@@ -1713,6 +1719,290 @@
 
 
 
+
+  // ======== Learning strategies (each can be switched off in Me → How you learn) ========
+  const LEARN_KEY = "muhkam-learn-settings";
+  // Only preferences that depend on taste or situation are switchable;
+  // the learning method itself (word-level review, interleaving, examples
+  // before rules, mistake explanations, lenient checking, mastery, weak
+  // spots) is always on.
+  const LEARN_FEATURES = [
+    { k: "recall", name: "Type the answer", desc: "Later in a lesson some questions ask you to type the translation instead of picking it. Turn off if typing is awkward right now." },
+    { k: "listenFirst", name: "Listen first", desc: "New phrases play before you see them; tap to reveal the text. Turn off if you can't use sound." },
+    { k: "shadow", name: "Say it aloud", desc: "A button to record yourself repeating a new phrase and compare with the speaker." },
+    { k: "roleplay", name: "Play a role in stories", desc: "In stories you choose the second speaker's lines yourself instead of just reading them." },
+    { k: "warmup", name: "Daily warm-up", desc: "Your first lesson of the day starts with 5 quick review cards." },
+  ];
+  function learnSettings() { try { return JSON.parse(localStorage.getItem(LEARN_KEY) || "{}") || {}; } catch (e) { return {}; } }
+  const SWITCHABLE = new Set(["recall", "listenFirst", "shadow", "roleplay", "warmup"]);
+  function featureOn(k) { return !SWITCHABLE.has(k) || learnSettings()[k] !== false; }
+  function setFeature(k, on) { const s = learnSettings(); if (on) delete s[k]; else s[k] = false; try { localStorage.setItem(LEARN_KEY, JSON.stringify(s)); } catch (e) {} }
+  function learnSettingsHtml() {
+    return `<section class="profile-section" id="learnSettings">
+      <h3>How you learn</h3>
+      <p class="profile-sub">These are on by default. Switch off any that don't suit you.</p>
+      <div class="learn-list">
+        ${LEARN_FEATURES.map(f => `
+          <label class="learn-row">
+            <span class="learn-text"><b>${f.name}</b><span>${f.desc}</span></span>
+            <input type="checkbox" class="learn-toggle" data-k="${f.k}" ${featureOn(f.k) ? "checked" : ""}>
+            <span class="learn-switch" aria-hidden="true"></span>
+          </label>`).join("")}
+      </div>
+    </section>`;
+  }
+
+  // --- #8 lenient comparison ---
+  const CONTRACTIONS = { "i'm": "i am", "you're": "you are", "we're": "we are", "they're": "they are", "he's": "he is", "she's": "she is", "it's": "it is", "that's": "that is", "what's": "what is", "there's": "there is", "where's": "where is", "who's": "who is", "isn't": "is not", "aren't": "are not", "wasn't": "was not", "weren't": "were not", "don't": "do not", "doesn't": "does not", "didn't": "did not", "can't": "cannot", "won't": "will not", "i've": "i have", "you've": "you have", "we've": "we have", "they've": "they have", "i'll": "i will", "you'll": "you will", "we'll": "we will", "i'd": "i would", "let's": "let us", "haven't": "have not", "hasn't": "has not", "couldn't": "could not", "shouldn't": "should not", "wouldn't": "would not" };
+  function normAnswer(s, lenient) {
+    let x = String(s || "").toLowerCase().replace(/[’`]/g, "'").replace(/[.,!?;:"«»()\-–—]/g, " ").replace(/\s+/g, " ").trim();
+    if (!lenient) return x;
+    x = x.split(" ").map(w => CONTRACTIONS[w] || w).join(" ").replace(/\bcan not\b/g, "cannot");
+    x = x.split(" ").filter(w => !["a", "an", "the"].includes(w)).join(" ");
+    return x.replace(/'/g, "");
+  }
+  function editDistance(a, b) {
+    const m = a.length, n = b.length; if (!m) return n; if (!n) return m;
+    let prev = Array.from({ length: n + 1 }, (_, j) => j);
+    for (let i = 1; i <= m; i++) {
+      const cur = [i];
+      for (let j = 1; j <= n; j++) cur[j] = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+      prev = cur;
+    }
+    return prev[n];
+  }
+  // every English rendering the course gives this native sentence
+  function acceptedTranslations(native, main) {
+    const out = new Set([main]);
+    const key = native.replace(/\s+/g, " ").trim();
+    flatLessons.forEach(l => (l.exercises || []).forEach(e => {
+      if (e.type === "multiple-choice" && e.direction === `${course.lang}-en` && e.prompt && e.prompt.replace(/\s+/g, " ").trim() === key) out.add(e.options[e.answerIndex]);
+      if (e.type === "word-bank" && e.direction === `en-${course.lang}` && Array.isArray(e.answer) && e.answer.join(" ") === key) out.add(e.prompt);
+    }));
+    return [...out];
+  }
+  function checkTyped(typed, accepted) {
+    const lenient = featureOn("lenient");
+    const t = normAnswer(typed, lenient);
+    if (!t) return { ok: false };
+    for (const a of accepted) { if (t === normAnswer(a, lenient)) return { ok: true, exact: true, match: a }; }
+    if (lenient) {
+      for (const a of accepted) {
+        const n = normAnswer(a, true);
+        if (editDistance(t, n) <= Math.max(1, Math.floor(n.length / 12))) return { ok: true, typo: true, match: a };
+      }
+    }
+    return { ok: false };
+  }
+
+  // --- #1 typed recall ---
+  function shouldType(ex) {
+    if (!featureOn("recall") || !session || session.mode !== "lesson") return false;
+    if (ex._typeDecided) return ex._typed;
+    ex._typeDecided = true;
+    ex._typed = ex.type === "multiple-choice" && ex.direction === `${course.lang}-en` && !!ex.prompt
+      && session.solved.size >= Math.floor(session.total / 2) && (session.typedCount || 0) < 3;
+    if (ex._typed) session.typedCount = (session.typedCount || 0) + 1;
+    return ex._typed;
+  }
+  function renderTyped(ex) {
+    const answer = ex.options[ex.answerIndex];
+    const accepted = acceptedTranslations(ex.prompt, answer);
+    renderLessonChrome(`
+      ${grammarPanel()}
+      <div class="card">
+        <p class="q-kicker">Type the translation</p>
+        ${promptBlock(ex)}
+        <textarea class="typed-input" id="typedInput" rows="2" autocomplete="off" autocapitalize="sentences" spellcheck="false" placeholder="Type in English"></textarea>
+        <div class="typed-actions">
+          <button class="typed-hint" id="typedHint" type="button">Hint</button>
+          <button class="btn btn-primary check-btn" id="checkBtn" disabled>Check</button>
+        </div>
+        <div id="feedbackSlot"></div>
+      </div>`);
+    wireTranslitToggle(); wireGrammarPanel();
+    const inp = document.getElementById("typedInput"), chk = document.getElementById("checkBtn");
+    let hints = 0;
+    setTimeout(() => inp.focus(), 50);
+    inp.addEventListener("input", () => { chk.disabled = !inp.value.trim(); });
+    inp.addEventListener("keydown", e => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); if (!chk.disabled) chk.click(); } });
+    document.getElementById("typedHint").addEventListener("click", () => {
+      hints++;
+      const words = answer.split(" ");
+      inp.placeholder = words.map((w, i) => i < hints * 2 ? w : w[0] + "…").join(" ");
+    });
+    chk.addEventListener("click", () => {
+      chk.disabled = true; inp.disabled = true; document.getElementById("typedHint").disabled = true;
+      const res = checkTyped(inp.value, accepted);
+      inp.classList.add(res.ok ? "ok" : "bad");
+      afterAnswer(res.ok);
+      const spokenText = targetLangText(ex);
+      const spoken = spokenText ? resolveSpeech(false, spokenText, ex) : null;
+      const note = res.ok && res.typo ? `Almost perfect, watch the spelling: <b>${res.match}</b>` : res.ok && res.match !== answer && !res.exact ? "" : "";
+      document.getElementById("feedbackSlot").innerHTML = renderFeedback(res.ok, `Correct answer: ${answer}`, { spoken, delay: visualDelay(res.ok, spoken) + (res.typo ? 1200 : 0), why: res.ok ? note : (featureOn("why") ? `You typed: “${inp.value.trim()}”` : "") });
+      if (spoken) wireFeedbackReplay(spoken);
+      advanceAfterSpeech(spoken, (res.ok ? ADVANCE_DELAY_CORRECT : ADVANCE_DELAY_WRONG) + (res.typo ? 1200 : 0));
+    });
+  }
+
+  // --- #7 explanations ---
+  function counterpartOf(text) {
+    const k = String(text || "").replace(/\s+/g, " ").trim();
+    for (const l of flatLessons) for (const pr of lessonPairs(l)) {
+      if (pr.en === k) return { native: pr.native, en: pr.en, dir: "en" };
+      if (pr.native.replace(/\s+/g, " ").trim() === k) return { native: pr.native, en: pr.en, dir: "native" };
+    }
+    return null;
+  }
+  function explainChoice(ex, picked) {
+    if (!featureOn("why")) return "";
+    const c = counterpartOf(picked);
+    if (!c) return `You picked “${picked}”.`;
+    return c.dir === "en"
+      ? `“${picked}” would be <span dir="${course.dir}" lang="${course.lang}"><b>${c.native}</b></span>, a different sentence.`
+      : `<span dir="${course.dir}" lang="${course.lang}"><b>${picked}</b></span> means “${c.en}”.`;
+  }
+  function explainOrder(words, answer) {
+    if (!featureOn("why")) return "";
+    const need = answer.slice(), have = words.slice();
+    const missing = [], extra = [];
+    need.forEach(w => { const i = have.indexOf(w); if (i >= 0) have.splice(i, 1); else missing.push(w); });
+    extra.push(...have);
+    if (!missing.length && !extra.length) return "You had all the right words: only the order was off.";
+    const parts = [];
+    if (missing.length) parts.push(`missing <b>${missing.join(", ")}</b>`);
+    if (extra.length) parts.push(`not needed: <b>${extra.join(", ")}</b>`);
+    return parts.join(" · ").replace(/^./, c => c.toUpperCase()) + ".";
+  }
+
+  // --- #2 word-level SRS ---
+  function updateWordSrs(ex, correct) {
+    const text = targetLangText(ex);
+    if (!text) return;
+    progress.wordSrs = progress.wordSrs || {};
+    const today = new Date().toDateString();
+    nativeTokens(text).map(w => w.toLocaleLowerCase()).forEach(w => {
+      const s = progress.wordSrs[w] || { ivl: 0, due: 0, day: "" };
+      if (correct) {
+        if (s.day !== today) { s.ivl = s.ivl ? Math.min(120, Math.round(s.ivl * 2.2)) : 1; s.day = today; }
+      } else { s.ivl = 0; s.day = today; }
+      s.due = Date.now() + s.ivl * 86400000;
+      progress.wordSrs[w] = s;
+    });
+  }
+  function dueWordCount(text) {
+    if (!text || !progress.wordSrs) return 0;
+    const now = Date.now();
+    return nativeTokens(text).filter(w => { const s = progress.wordSrs[w.toLocaleLowerCase()]; return s && s.due <= now; }).length;
+  }
+
+  // --- #9 mastery ---
+  function lessonMastery(lesson) {
+    const gids = lesson.exercises.map((_, i) => `${lesson.id}:${i}`);
+    if (!gids.length) return 1;
+    return gids.filter(g => (progress.srs[g] && progress.srs[g].days >= 2)).length / gids.length;
+  }
+
+  // --- #12 weak spots ---
+  const TYPE_LABEL = { "multiple-choice": "Picking the meaning", "word-bank": "Building sentences", "listening": "Listening", "listening-tap": "Listen and build", "fill-blank": "Filling the gap", "matching": "Matching pairs", "comprehension": "Reading", "typed": "Typing translations" };
+  function recordStat(ex, correct) {
+    progress.stats = progress.stats || { type: {}, topic: {} };
+    const ty = ex._typed ? "typed" : ex.type;
+    const T = progress.stats.type[ty] = progress.stats.type[ty] || { r: 0, w: 0 };
+    correct ? T.r++ : T.w++;
+    const l = ex._sourceLesson;
+    if (l) {
+      const tk = l.topicId && course.grammarTopics && course.grammarTopics[l.topicId] ? "t:" + l.topicId : "s:" + String(l.title || "").replace(/\s*\d+\s*$/, "");
+      const P = progress.stats.topic[tk] = progress.stats.topic[tk] || { r: 0, w: 0 };
+      correct ? P.r++ : P.w++;
+    }
+  }
+  function weakSpots() {
+    const st = progress.stats; if (!st) return [];
+    const rows = [];
+    Object.entries(st.type || {}).forEach(([k, v]) => { const n = v.r + v.w; if (n >= 6) rows.push({ kind: "type", key: k, label: TYPE_LABEL[k] || k, acc: v.r / n, n }); });
+    Object.entries(st.topic || {}).forEach(([k, v]) => {
+      const n = v.r + v.w; if (n < 6) return;
+      const label = k.startsWith("t:") ? course.grammarTopics[k.slice(2)].title : k.slice(2);
+      rows.push({ kind: "topic", key: k, label, acc: v.r / n, n });
+    });
+    return rows.filter(r => r.acc < 0.92).sort((a, b) => a.acc - b.acc).slice(0, 4);
+  }
+  function weakSpotsHtml() {
+    if (!featureOn("weakspots")) return "";
+    const rows = weakSpots();
+    return `<section class="profile-section">
+      <h3>Weak spots</h3>
+      ${rows.length ? `<div class="weak-list">${rows.map((r, i) => `
+        <div class="weak-row">
+          <div class="weak-text"><b>${r.label}</b><span>${Math.round(r.acc * 100)}% right · ${r.n} answers · ${r.kind === "type" ? "question type" : "topic"}</span>
+            <span class="weak-bar"><span style="width:${Math.round(r.acc * 100)}%"></span></span></div>
+          <button class="btn weak-train" data-i="${i}">Train</button>
+        </div>`).join("")}</div>` : `<p class="profile-sub">Nothing stands out yet. Answer a few more questions and your weakest topics will show up here.</p>`}
+    </section>`;
+  }
+  function trainWeak(r) {
+    let pool = revisionPool();
+    if (r.kind === "type") pool = pool.filter(it => r.key === "typed" ? it.ex.type === "multiple-choice" && it.ex.direction === `${course.lang}-en` : it.ex.type === r.key);
+    else pool = pool.filter(it => { const l = it.lesson; const tk = l.topicId && course.grammarTopics && course.grammarTopics[l.topicId] ? "t:" + l.topicId : "s:" + String(l.title || "").replace(/\s*\d+\s*$/, ""); return tk === r.key; });
+    if (!pool.length) return showSoftToast("No finished exercises for that yet.");
+    const picked = shuffled(pool).slice(0, 10);
+    session = {
+      lesson: { id: "__revision__", title: `Training: ${r.label}`, titleNative: "" }, mode: "revision",
+      queue: picked.map((it, i) => buildQueueItem(exerciseIndex.get(it.gid).exercise, it.gid, i, it.lesson)),
+      total: picked.length, solved: new Set(), mistakes: 0, combo: 0, startedAt: Date.now(),
+    };
+    renderExercise();
+  }
+
+  // --- #6 notice the pattern ---
+  function noticeTopicFor(lesson) {
+    if (!featureOn("notice") || !lesson.topicId || !course.grammarTopics || !course.grammarTopics[lesson.topicId]) return null;
+    const seenTopic = flatLessons.some(l => l.topicId === lesson.topicId && l.id !== lesson.id && progress.completedLessons.includes(l.id));
+    if (seenTopic || progress.completedLessons.includes(lesson.id)) return null;
+    const tp = course.grammarTopics[lesson.topicId];
+    return tp.pattern || tp.explanation ? tp : null;
+  }
+  function renderNoticeCard() {
+    session.noticeShown = true;
+    const tp = session.noticeTopic;
+    const ex = lessonPairs(session.lesson).slice(0, 3);
+    renderLessonChrome(`
+      <div class="card notice-card ex-slide-in">
+        <p class="q-kicker">Did you notice?</p>
+        <h3 class="notice-title">${tp.title}</h3>
+        ${ex.length ? `<div class="notice-ex">${ex.map(pr => `<p><span dir="${course.dir}" lang="${course.lang}">${pr.native}</span><small>${pr.en}</small></p>`).join("")}</div>` : ""}
+        ${tp.pattern ? `<div class="notes-pattern" dir="auto">${tp.pattern}</div>` : ""}
+        ${tp.explanation ? `<p class="notes-expl">${tp.explanation}</p>` : ""}
+        <button class="btn btn-primary btn-block" id="noticeOk">Got it</button>
+      </div>`);
+    document.getElementById("noticeOk").addEventListener("click", renderExercise);
+  }
+
+  // --- #5 shadowing ---
+  let _rec = null;
+  async function recordShadow(btn, native) {
+    if (_rec) { _rec.stop(); return; }
+    if (!navigator.mediaDevices || !window.MediaRecorder) { showSoftToast("Recording isn't supported in this browser."); return; }
+    let stream;
+    try { stream = await navigator.mediaDevices.getUserMedia({ audio: true }); } catch (e) { showSoftToast("Microphone access was blocked."); return; }
+    const chunks = [];
+    const mr = new MediaRecorder(stream); _rec = mr;
+    btn.classList.add("rec"); btn.querySelector("span").textContent = "Stop";
+    const auto = setTimeout(() => { if (mr.state === "recording") mr.stop(); }, 6000);
+    mr.ondataavailable = e => chunks.push(e.data);
+    mr.onstop = () => {
+      clearTimeout(auto); _rec = null; stream.getTracks().forEach(tr => tr.stop());
+      btn.classList.remove("rec"); btn.querySelector("span").textContent = "Say it again";
+      const url = URL.createObjectURL(new Blob(chunks, { type: mr.mimeType || "audio/webm" }));
+      const a = new Audio(url);
+      a.onended = () => { URL.revokeObjectURL(url); setTimeout(() => { const sp = resolveSpeech(false, native, null); if (sp) speak(sp.text, sp.voice); }, 350); };
+      a.play().catch(() => {});
+      const cmp = document.getElementById("shadowNote"); if (cmp) cmp.textContent = "You, then the speaker. Compare the rhythm and sounds.";
+    };
+    mr.start();
+  }
+
   // ---- Placement: first visit to a course, "new or already know some?" ----
   const PLACE_PER_LEVEL = 4;
   function maybeOfferPlacement() {
@@ -1945,7 +2235,12 @@
   }
   function renderStory() {
     const st = story;
-    const shown = st.lines.slice(0, st.idx + 1);
+    const roleTurn = featureOn("roleplay") && st.q < 0 && st.idx % 2 === 1 && !(st.played || {})[st.idx];
+    if (roleTurn && !st.roleOpts) {
+      const others = shuffled(st.lines.filter((l, i) => i !== st.idx)).slice(0, 2).map(l => l.native);
+      st.roleOpts = shuffled([st.lines[st.idx].native, ...others]);
+    }
+    const shown = st.lines.slice(0, roleTurn ? st.idx : st.idx + 1);
     const total = st.lines.length + st.qs.length;
     const pos = st.q < 0 ? st.idx + 1 : st.lines.length + st.q;
     const pct = Math.round(pos / total * 100);
@@ -1975,12 +2270,25 @@
             ${q.listen ? `<button class="intro-say story-listen" id="storyListen" aria-label="Play again">${ICON_SPEAKER}</button>` : `<p class="prompt-native" dir="${course.dir}" lang="${course.lang}">${q.line.native}</p>`}
             <div class="options">${q.options.map((o, i) => `<button class="option" data-i="${i}"><span class="option-letter">${OPTION_LETTERS[i]}</span><span class="option-text">${o}</span></button>`).join("")}</div>
             <div id="feedbackSlot"></div>
+          </div>` : roleTurn ? `
+          <div class="card story-q role-q ex-slide-in">
+            <p class="q-kicker">Your turn: what do you say?</p>
+            <p class="role-hint">${st.lines[st.idx].en}</p>
+            <div class="options">${st.roleOpts.map((o, i) => `<button class="option role-opt" data-i="${i}"><span class="option-letter">${OPTION_LETTERS[i]}</span><span class="option-text" dir="${course.dir}" lang="${course.lang}">${o}</span></button>`).join("")}</div>
           </div>` : `<button class="btn btn-primary btn-block story-next" id="storyNext">${st.idx < st.lines.length - 1 ? "Continue" : "Questions"}</button>`}
       </div>`;
     const say = i => { const sp = resolveSpeech(false, st.lines[i].native, null); if (sp) speak(sp.text, sp.voice); };
     screenEl.querySelectorAll(".story-say").forEach(b => b.addEventListener("click", () => say(+b.dataset.i)));
     document.getElementById("storyExit").addEventListener("click", () => { story = null; renderHome(); });
-    if (!inQuestions) {
+    if (roleTurn) {
+      screenEl.querySelectorAll(".role-opt").forEach(b => b.addEventListener("click", () => {
+        const ok = st.roleOpts[+b.dataset.i] === st.lines[st.idx].native;
+        if (!ok) { b.classList.add("incorrect"); b.disabled = true; playIncorrectSound(); return; }
+        b.classList.add("correct"); playCorrectSound();
+        st.played = st.played || {}; st.played[st.idx] = true; st.roleOpts = null;
+        setTimeout(() => { if (story === st) renderStory(); }, 500);
+      }));
+    } else if (!inQuestions) {
       say(st.idx);
       const last = screenEl.querySelector(".story-line.new"); if (last) last.scrollIntoView({ block: "nearest", behavior: "smooth" });
       document.getElementById("storyNext").addEventListener("click", () => {
@@ -2227,6 +2535,7 @@
           ${weekStripHtml()}
           ${weekXpChartHtml()}
         </section>
+        ${weakSpotsHtml()}
         <section class="profile-section">
           <h3>Achievements <span class="ach-count">${achievements().filter(a => a.got).length}/${achievements().length}</span></h3>
           <div class="ach-grid">
@@ -2257,6 +2566,7 @@
               </button>`).join("")}
           </div>
         </section>
+        ${learnSettingsHtml()}
         ${others.length ? `<section class="profile-section">
           <h3>Your other courses</h3>
           <div class="profile-others">
@@ -2274,6 +2584,9 @@
     screenEl.querySelectorAll(".profile-other").forEach(b => b.addEventListener("click", () => switchCourse(b.dataset.course)));
     document.getElementById("shareStreak").addEventListener("click", shareStreakCard);
     document.getElementById("toggleRemind").addEventListener("click", toggleReminders);
+    screenEl.querySelectorAll(".learn-toggle").forEach(cb => cb.addEventListener("change", () => { setFeature(cb.dataset.k, cb.checked); showSoftToast(`${LEARN_FEATURES.find(f => f.k === cb.dataset.k).name}: ${cb.checked ? "on" : "off"}`); }));
+    const ws = weakSpots();
+    screenEl.querySelectorAll(".weak-train").forEach(b => b.addEventListener("click", () => { cancelAdvance(); trainWeak(ws[+b.dataset.i]); }));
     document.getElementById("findLevel").addEventListener("click", () => { cancelAdvance(); startPlacement(); });
   }
 
@@ -2669,6 +2982,7 @@
         const perfect = done && (progress.perfectLessons || []).includes(lesson.id);
         const faded = done && lessonNeedsRefresh(lesson);
         const legendary = (progress.legendary || []).includes("leg:" + ch.lessons[0].id);
+        const half = done && featureOn("mastery") && !lesson.readingPassage && lessonMastery(lesson) < 0.8;
         const fx = lesson.id === _justCompletedId ? "just-done" : (isCurrent && _justCompletedId ? "just-unlocked" : "");
         const finale = !ch.single && ch.lessons.length > 2 && lesson === ch.lessons[ch.lessons.length - 1];
         const kind = finale ? "finale" : lesson.readingPassage ? "reading" : "";
@@ -2681,7 +2995,7 @@
         return `
           <div class="path-step" style="--zig:${shift}">
             ${isCurrent ? `<span class="path-begin">Begin</span>` : ""}
-            <button class="path-node ${state} ${kind} ${legendary ? "legendary" : ""} ${perfect ? "perfect" : ""} ${faded ? "faded" : ""} ${fx}" data-lesson="${lesson.id}" ${unlocked ? "" : `data-jump="1"`} title="${label}" aria-label="${label}${done ? " (done)" : !unlocked ? " (locked)" : ""}">
+            <button class="path-node ${state} ${kind} ${half ? "half" : ""} ${legendary ? "legendary" : ""} ${perfect ? "perfect" : ""} ${faded ? "faded" : ""} ${fx}" data-lesson="${lesson.id}" ${unlocked ? "" : `data-jump="1"`} title="${label}" aria-label="${label}${done ? " (done)" : !unlocked ? " (locked)" : ""}">
               ${PATH_STAR}<span class="path-inner">${inner}</span>
             </button>
             ${isCurrent ? `<span class="path-caption" dir="auto">${lesson.title}</span>` : ""}
@@ -2899,8 +3213,20 @@
     const pool = revisionPool().filter(it => it.lesson.id !== lesson.id && REVIEW_TYPES.has(it.ex.type));
     if (!pool.length) return [];
     // due cards first, but shuffle the front of the queue so it's not the same 3 every time
-    const front = shuffled(srsOrderedPool(pool).slice(0, 24));
-    return front.slice(0, LESSON_REVIEW_MIX).map((it, i) =>
+    let picks;
+    if (featureOn("wordSrs") && progress.wordSrs) {
+      const scored = pool.map(it => ({ it, s: dueWordCount(targetLangText(it.ex)) })).filter(x => x.s > 0);
+      picks = shuffled(scored.sort((a, b) => b.s - a.s).slice(0, 12)).map(x => x.it).slice(0, LESSON_REVIEW_MIX);
+      if (picks.length < LESSON_REVIEW_MIX) picks = picks.concat(shuffled(srsOrderedPool(pool).slice(0, 24)).filter(it => !picks.includes(it)).slice(0, LESSON_REVIEW_MIX - picks.length));
+    } else {
+      picks = shuffled(srsOrderedPool(pool).slice(0, 24)).slice(0, LESSON_REVIEW_MIX);
+    }
+    if (featureOn("interleave")) {
+      const stemOf2 = l => String(l.title || "").replace(/\s*\d+\s*$/, "");
+      const older = pool.filter(it => stemOf2(it.lesson) !== stemOf2(lesson) && flatLessons.indexOf(it.lesson) < flatLessons.indexOf(lesson) && !picks.includes(it));
+      picks = picks.concat(shuffled(older).slice(0, 2));
+    }
+    return picks.map((it, i) =>
       buildQueueItem(exerciseIndex.get(it.gid).exercise, it.gid, 100000 + i, it.lesson));
   }
 
@@ -2976,7 +3302,18 @@
       });
     }
     const fresh = !progress.completedLessons.includes(lesson.id) && !lesson.readingPassage;
+    const todayStr = new Date().toDateString();
+    if (featureOn("warmup") && progress.warmupDate !== todayStr && !lesson.readingPassage) {
+      const now = Date.now();
+      const due = revisionPool().filter(it => REVIEW_TYPES.has(it.ex.type) && it.lesson.id !== lesson.id && (!progress.srs[it.gid] || progress.srs[it.gid].due <= now));
+      if (due.length >= 5) {
+        progress.warmupDate = todayStr;
+        const warm = shuffled(srsOrderedPool(due).slice(0, 15)).slice(0, 5).map((it, i) => ({ ...buildQueueItem(exerciseIndex.get(it.gid).exercise, it.gid, 200000 + i, it.lesson), _warm: true }));
+        queue = warm.concat(queue);
+      }
+    }
     session = {
+      noticeTopic: noticeTopicFor(lesson),
       intro: fresh ? lessonPairs(lesson).slice(0, 4) : [],
       introIdx: 0,
       lesson,
@@ -3182,6 +3519,10 @@
     return `<div class="kbd-hint"><kbd>1</kbd><kbd>2</kbd><kbd>3</kbd><kbd>4</kbd> to pick &nbsp;&middot;&nbsp; <kbd>&crarr;</kbd> to continue</div>`;
   }
   function kicker(ex) {
+    if (ex._warm) return "Warm-up · " + kickerBase(ex);
+    return kickerBase(ex);
+  }
+  function kickerBase(ex) {
     if (ex.type === "word-bank") return `Build the sentence in ${course.languageName || course.title}`;
     if (ex.type === "comprehension") return "Reading comprehension";
     return "Select the correct translation";
@@ -3329,6 +3670,7 @@
 
   function grammarPanel() {
     if (session && session.noGrammar) return "";
+    if (session && session.noticeTopic && !session.noticeShown) return "";
     const lesson = currentExercise()._sourceLesson || session.lesson;
     const topic = lesson.topicId && course.grammarTopics[lesson.topicId];
     if (!topic) return "";
@@ -3358,19 +3700,30 @@
   // Before a new lesson's exercises: meet each new sentence once, with audio.
   function renderIntroCard() {
     const pr = session.intro[session.introIdx];
+    const hasAudio = !!audioManifest[pr.native] || !!resolveSpeech(false, pr.native, null);
+    const listenFirst = featureOn("listenFirst") && hasAudio && !session.introRevealed;
+    const canRec = featureOn("shadow") && hasAudio && !!(navigator.mediaDevices && window.MediaRecorder);
     renderLessonChrome(`
       <div class="card intro-card">
-        <p class="q-kicker">New phrase ${session.introIdx + 1} of ${session.intro.length}</p>
+        <p class="q-kicker">${listenFirst ? "Listen first" : "New phrase"} ${session.introIdx + 1} of ${session.intro.length}</p>
         <button class="intro-say" id="introSay" aria-label="Play">${ICON_SPEAKER}</button>
+        ${listenFirst ? `<p class="intro-hidden">Listen, then try to catch the words before you look.</p>
+          <button class="btn btn-primary btn-block" id="introReveal">Show the text</button>` : `
         <p class="intro-native" dir="${course.dir}" lang="${course.lang}">${tapWordsHtml(pr.native)}</p>
         <p class="intro-en">${pr.en}</p>
-        <button class="btn btn-primary btn-block" id="introNext">${session.introIdx < session.intro.length - 1 ? "Next" : "Start the lesson"}</button>
+        ${canRec ? `<button class="shadow-btn" id="shadowBtn" type="button"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3" fill="currentColor"/><path d="M5.5 11a6.5 6.5 0 0013 0M12 17.5V21" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span>Say it aloud</span></button><p class="shadow-note" id="shadowNote"></p>` : ""}
+        <button class="btn btn-primary btn-block" id="introNext">${session.introIdx < session.intro.length - 1 ? "Next" : "Start the lesson"}</button>`}
         <button class="intro-skip" id="introSkip">Skip intro</button>
       </div>`);
     const say = () => { const sp = resolveSpeech(false, pr.native, null); if (sp) speak(sp.text, sp.voice); };
-    say();
+    if (!session.introRevealed || !featureOn("listenFirst")) say();
     document.getElementById("introSay").addEventListener("click", say);
-    document.getElementById("introNext").addEventListener("click", () => { session.introIdx++; renderExercise(); });
+    const rv = document.getElementById("introReveal");
+    if (rv) rv.addEventListener("click", () => { session.introRevealed = true; renderIntroCard(); });
+    const sb = document.getElementById("shadowBtn");
+    if (sb) sb.addEventListener("click", () => recordShadow(sb, pr.native));
+    const nx = document.getElementById("introNext");
+    if (nx) nx.addEventListener("click", () => { session.introIdx++; session.introRevealed = false; renderExercise(); });
     document.getElementById("introSkip").addEventListener("click", () => { session.introIdx = session.intro.length; renderExercise(); });
   }
 
@@ -3379,8 +3732,10 @@
     if (session.mode === "placement" && (session.placementStop != null || session.queue.length === 0)) return renderPlacementResult();
     if (session.queue.length === 0 || session.jumpFailed) return renderSummary();
 
+    if (session.noticeTopic && !session.noticeShown && session.solved.size >= 3) return renderNoticeCard();
     const ex = currentExercise();
 
+    if (shouldType(ex)) return renderTyped(ex);
     if (ex.type === "multiple-choice" || ex.type === "comprehension") return renderMultipleChoice(ex);
     if (ex.type === "word-bank") return renderWordBank(ex);
     if (ex.type === "listening") return renderListening(ex);
@@ -3401,6 +3756,7 @@
         <div class="feedback-text">
           <div class="title">${correct ? PRAISE[Math.floor(Math.random() * PRAISE.length)] : "Not quite"}</div>
           ${correct ? "" : `<div class="detail">${correctText}${farsi ? `<span class="farsi-hint" dir="rtl" lang="fa">${farsi}</span>` : ""}</div>`}
+          ${opts && opts.why ? `<div class="why">${opts.why}</div>` : ""}
         </div>
         ${showSpeak ? `<button class="speak-btn" id="feedbackSpeakBtn" title="Play pronunciation" aria-label="Play pronunciation">${ICON_SPEAKER}</button>` : ""}
         <div class="feedback-timer" style="animation-duration:${delay}ms"></div>
@@ -3432,7 +3788,10 @@
       nextEase = Math.max(SRS_MIN_EASE, ease - 0.2);
       nextInterval = 1;
     }
-    progress.srs[gid] = { reps: nextReps, ease: nextEase, interval: nextInterval, due: Date.now() + nextInterval * SRS_DAY_MS };
+    const today = new Date().toDateString();
+    let days = prev && prev.days ? prev.days : 0, lastDay = prev && prev.lastDay ? prev.lastDay : "";
+    if (correct && lastDay !== today) { days++; lastDay = today; }
+    progress.srs[gid] = { reps: nextReps, ease: nextEase, interval: nextInterval, due: Date.now() + nextInterval * SRS_DAY_MS, days, lastDay };
   }
 
   function comboBurst(n) {
@@ -3449,6 +3808,8 @@
     haptic(correct ? 12 : 35);
     // generated repeat steps (MSA) have no stored exercise behind them: keep them out of SRS / mistakes
     if (!ex._synthetic) updateSrs(ex._gid, correct);
+    if (featureOn("wordSrs") && !ex._synthetic) updateWordSrs(ex, correct);
+    recordStat(ex, correct);
     if (correct) {
       session.solved.add(ex._idx);
       session.combo++;
@@ -3526,9 +3887,9 @@
         const spoken = spokenText ? resolveSpeech(false, spokenText, ex) : null;
         const fallback = correct ? ADVANCE_DELAY_CORRECT : ADVANCE_DELAY_WRONG;
         document.getElementById("feedbackSlot").innerHTML =
-          renderFeedback(correct, `Correct answer: ${ex.options[ex.answerIndex]}`, { spoken, delay: visualDelay(correct, spoken), farsiHint: ex.farsi });
+          renderFeedback(correct, `Correct answer: ${ex.options[ex.answerIndex]}`, { spoken, delay: visualDelay(correct, spoken) + (!correct && featureOn("why") ? 1500 : 0), farsiHint: ex.farsi, why: correct ? "" : explainChoice(ex, ex.options[i]) });
         if (spoken) wireFeedbackReplay(spoken);
-        advanceAfterSpeech(spoken, fallback);
+        advanceAfterSpeech(spoken, fallback + (!correct && featureOn("why") ? 1500 : 0));
       });
     });
   }
@@ -3615,9 +3976,9 @@
       const spoken = spokenText ? resolveSpeech(false, spokenText, ex) : null;
       const fallback = correct ? ADVANCE_DELAY_CORRECT : ADVANCE_DELAY_WRONG;
       document.getElementById("feedbackSlot").innerHTML =
-        renderFeedback(correct, `Correct order: ${ex.answer.join(" ")}`, { spoken, delay: visualDelay(correct, spoken), farsiHint: ex.farsi });
+        renderFeedback(correct, `Correct order: ${ex.answer.join(" ")}`, { spoken, delay: visualDelay(correct, spoken) + (!correct && featureOn("why") ? 1500 : 0), farsiHint: ex.farsi, why: correct ? "" : explainOrder(words, ex.answer) });
       if (spoken) wireFeedbackReplay(spoken);
-      advanceAfterSpeech(spoken, fallback);
+      advanceAfterSpeech(spoken, fallback + (!correct && featureOn("why") ? 1500 : 0));
     }
   }
 
