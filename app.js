@@ -4057,7 +4057,15 @@
     poolEl.setAttribute("dir", course.dir);
     const poolTileEls = new Map();
     const checkBtn = document.getElementById("checkBtn");
-    function syncCheck() { if (checkBtn) checkBtn.disabled = placedOrder.length === 0; }
+    function syncCheck() {
+      if (checkBtn) checkBtn.disabled = placedOrder.length === 0;
+      // All the words in the right order: no need to press Check.
+      const ws = placedOrder.map(id => tiles.find(t => t.id === id).word);
+      if (checkBtn && ws.length === ex.answer.length && ws.every((w, i) => w === ex.answer[i])) {
+        checkBtn.disabled = true;
+        setTimeout(() => { if (document.body.contains(checkBtn)) { checkBtn.remove(); evaluate(); } }, 250);
+      }
+    }
     if (checkBtn) checkBtn.addEventListener("click", () => {
       if (checkBtn.disabled) return;
       checkBtn.remove();
@@ -4254,7 +4262,15 @@
     poolEl.setAttribute("dir", course.dir);
     const poolTileEls = new Map();
     const checkBtn = document.getElementById("checkBtn");
-    function syncCheck() { if (checkBtn) checkBtn.disabled = placedOrder.length === 0; }
+    function syncCheck() {
+      if (checkBtn) checkBtn.disabled = placedOrder.length === 0;
+      // All the words in the right order: no need to press Check.
+      const ws = placedOrder.map(id => bank.find(t => t.id === id).word);
+      if (checkBtn && ws.length === ex.answer.length && ws.every((w, i) => w === ex.answer[i])) {
+        checkBtn.disabled = true;
+        setTimeout(() => { if (document.body.contains(checkBtn)) { checkBtn.remove(); evaluate(); } }, 250);
+      }
+    }
     if (checkBtn) checkBtn.addEventListener("click", () => {
       if (checkBtn.disabled) return;
       checkBtn.remove();
