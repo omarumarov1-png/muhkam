@@ -783,6 +783,7 @@
       placementSeen: !!(local.placementSeen || remote.placementSeen),
       srs: mergeSrs(local.srs, remote.srs),
       dayXp: mergeDayXp(local.dayXp, remote.dayXp),
+      xpByDay: (() => { const o = Object.assign({}, remote.xpByDay || {}); Object.entries(local.xpByDay || {}).forEach(([k, v]) => { o[k] = Math.max(o[k] || 0, v); }); return o; })(),
       activeDays: union(local.activeDays, remote.activeDays).slice(-90),
       perfectLessons: union(local.perfectLessons, remote.perfectLessons),
       storiesDone: union(local.storiesDone, remote.storiesDone),
@@ -1925,10 +1926,10 @@
     ch.lessons.forEach(l => lessonPairs(l).slice(0, 2).forEach(pr => lines.push(pr)));
     const pick = lines.slice(0, 8);
     const pool = lines.length >= 4 ? lines : flatLessons.flatMap(l => lessonPairs(l)).slice(0, 40);
-    const qs = shuffled(pick).slice(0, 3).map(line => {
+    const qs = shuffled(pick).slice(0, 3).map((line, qi) => {
       const wrong = shuffled(pool.filter(o => o.en !== line.en)).slice(0, 3).map(o => o.en);
       const options = shuffled([line.en, ...wrong]);
-      return { line, options, answer: options.indexOf(line.en) };
+      return { line, options, answer: options.indexOf(line.en), listen: qi === 1 && !!audioManifest[line.native] };
     });
     return { lines: pick, qs };
   }
@@ -1969,8 +1970,8 @@
         </div>
         ${inQuestions ? `
           <div class="card story-q ex-slide-in">
-            <p class="q-kicker">What does this line mean?</p>
-            <p class="prompt-native" dir="${course.dir}" lang="${course.lang}">${q.line.native}</p>
+            <p class="q-kicker">${q.listen ? "Listen: what did they say?" : "What does this line mean?"}</p>
+            ${q.listen ? `<button class="intro-say story-listen" id="storyListen" aria-label="Play again">${ICON_SPEAKER}</button>` : `<p class="prompt-native" dir="${course.dir}" lang="${course.lang}">${q.line.native}</p>`}
             <div class="options">${q.options.map((o, i) => `<button class="option" data-i="${i}"><span class="option-letter">${OPTION_LETTERS[i]}</span><span class="option-text">${o}</span></button>`).join("")}</div>
             <div id="feedbackSlot"></div>
           </div>` : `<button class="btn btn-primary btn-block story-next" id="storyNext">${st.idx < st.lines.length - 1 ? "Continue" : "Questions"}</button>`}
@@ -1986,6 +1987,10 @@
         renderStory();
       });
     } else {
+      if (q.listen) {
+        const play = () => { const sp = resolveSpeech(false, q.line.native, null); if (sp) speak(sp.text, sp.voice); };
+        play(); document.getElementById("storyListen").addEventListener("click", play);
+      }
       screenEl.querySelectorAll(".option").forEach(b => b.addEventListener("click", () => {
         const ok = +b.dataset.i === q.answer;
         screenEl.querySelectorAll(".option").forEach(o => { o.disabled = true; if (+o.dataset.i === q.answer) o.classList.add("correct"); });
@@ -2130,6 +2135,7 @@
         ${card("hubMistakes", "red", "Fix your mistakes", miss ? "Questions you missed, until you get them right" : "No mistakes waiting. Nice!", miss || null, miss > 0)}
         ${card("hubSmart", "blue", "Smart review", due ? `${due} cards due for review` : "Mixed review of finished lessons", pool.length ? Math.min(due, REVISION_SIZE) || null : null, pool.length > 0)}
         ${card("hubListen", "teal", "Listening drill", "10 listening questions from finished lessons", null, listen > 0)}
+        ${(() => { const f = flatLessons.filter(l => progress.completedLessons.includes(l.id) && lessonNeedsRefresh(l)); return card("hubFaded", "purple", "Refresh faded lessons", f.length ? `Lessons you haven't revisited in a while: ${f.slice(0, 2).map(l => l.title).join(", ")}${f.length > 2 ? "…" : ""}` : "Nothing has faded yet", f.length || null, f.length > 0); })()}
         ${card("hubWords", "gold", "Your words", "Every word you've collected, with audio", words || null, words > 0)}
         ${!pool.length ? `<p class="hub-empty">Finish your first lesson and practice opens up here.</p>` : ""}
       </div>`;
@@ -2138,6 +2144,7 @@
     on("hubMistakes", () => { cancelAdvance(); startReview(); });
     on("hubSmart", () => { cancelAdvance(); startRevision(); });
     on("hubListen", () => { cancelAdvance(); startListeningDrill(); });
+    on("hubFaded", () => { const f = flatLessons.filter(l => progress.completedLessons.includes(l.id) && lessonNeedsRefresh(l)); if (f.length) { cancelAdvance(); startLesson(f[0]); } });
     on("hubWords", () => document.getElementById("wordsStat").click());
   }
 
@@ -2212,10 +2219,12 @@
         <div class="profile-actions">
           <button class="btn btn-primary" id="shareStreak">Share my streak</button>
           <button class="btn remind-btn ${remindersOn() ? "on" : ""}" id="toggleRemind">${remindersOn() ? "Reminders: on" : "Daily reminder"}</button>
+          <button class="btn remind-btn find-level" id="findLevel">Find my level</button>
         </div>
         <section class="profile-section">
           <h3>This week</h3>
           ${weekStripHtml()}
+          ${weekXpChartHtml()}
         </section>
         <section class="profile-section">
           <h3>Achievements <span class="ach-count">${achievements().filter(a => a.got).length}/${achievements().length}</span></h3>
@@ -2264,6 +2273,7 @@
     screenEl.querySelectorAll(".profile-other").forEach(b => b.addEventListener("click", () => switchCourse(b.dataset.course)));
     document.getElementById("shareStreak").addEventListener("click", shareStreakCard);
     document.getElementById("toggleRemind").addEventListener("click", toggleReminders);
+    document.getElementById("findLevel").addEventListener("click", () => { cancelAdvance(); startPlacement(); });
   }
 
   // Guidebook: the chapter's key phrases with audio, then its grammar note.
@@ -2431,6 +2441,28 @@
     const today = new Date().toDateString();
     if (!progress.dayXp || progress.dayXp.date !== today) progress.dayXp = { date: today, xp: 0 };
     progress.dayXp.xp += n;
+    const k = new Date().toISOString().slice(0, 10);
+    progress.xpByDay = progress.xpByDay || {};
+    progress.xpByDay[k] = (progress.xpByDay[k] || 0) + n;
+    const keys = Object.keys(progress.xpByDay).sort();
+    while (keys.length > 60) delete progress.xpByDay[keys.shift()];
+  }
+  function weekXpChartHtml() {
+    const days = [];
+    for (let i = 6; i >= 0; i--) {
+      const d = new Date(); d.setDate(d.getDate() - i);
+      days.push({ k: d.toISOString().slice(0, 10), l: d.toLocaleDateString("en", { weekday: "narrow" }), today: i === 0 });
+    }
+    const vals = days.map(d => (progress.xpByDay || {})[d.k] || 0);
+    const max = Math.max(dailyGoal(), ...vals);
+    const total = vals.reduce((a, b) => a + b, 0);
+    return `<div class="xp-chart" role="img" aria-label="XP over the last 7 days: ${total} total">
+      <div class="xp-chart-head"><b>${total} XP</b><span>last 7 days</span></div>
+      <div class="xp-bars">
+        <span class="xp-goal-line" style="bottom:${Math.round(dailyGoal() / max * 100)}%"></span>
+        ${days.map((d, i) => `<div class="xp-col ${d.today ? "today" : ""}"><span class="xp-val">${vals[i] || ""}</span><span class="xp-bar ${vals[i] >= dailyGoal() ? "met" : ""}" style="height:${Math.max(vals[i] ? 6 : 2, Math.round(vals[i] / max * 100))}%"></span><span class="xp-day">${d.l}</span></div>`).join("")}
+      </div>
+    </div>`;
   }
   function dailyGoalHtml() {
     const xp = todayXp();
@@ -2461,7 +2493,7 @@
     if (!bar) {
       bar = document.createElement("div");
       bar.id = "unitBar"; bar.className = "unit-bar hidden";
-      bar.innerHTML = `<div class="unit-bar-text"><span class="unit-bar-eyebrow"></span><b class="unit-bar-title"></b></div><button class="unit-bar-guide" type="button">Guidebook</button>`;
+      bar.innerHTML = `<div class="unit-bar-text"><span class="unit-bar-eyebrow"></span><b class="unit-bar-title"></b><span class="unit-bar-prog"><span></span></span></div><button class="unit-bar-guide" type="button">Guidebook</button>`;
       document.body.appendChild(bar);
       bar.querySelector(".unit-bar-guide").addEventListener("click", () => {
         const ch = _pathChapters[+bar.dataset.ch]; if (ch) showGuidebook(ch);
@@ -2479,6 +2511,9 @@
       bar.style.setProperty("--unit-deep", UNIT_COLORS[i % UNIT_COLORS.length][1]);
       bar.querySelector(".unit-bar-eyebrow").textContent = `Chapter ${i + 1}`;
       bar.querySelector(".unit-bar-title").textContent = ch.stem;
+      const dn = ch.lessons.filter(l => progress.completedLessons.includes(l.id)).length;
+      bar.querySelector(".unit-bar-eyebrow").textContent = `Chapter ${i + 1} · ${dn}/${ch.lessons.length}`;
+      bar.querySelector(".unit-bar-prog span").style.width = Math.round(dn / ch.lessons.length * 100) + "%";
       bar.classList.remove("hidden");
     };
     window.addEventListener("scroll", _unitScroll, { passive: true });
@@ -3417,7 +3452,7 @@
       if (session.missedList.length < 8) {
         const corr = ex.options ? ex.options[ex.answerIndex] : Array.isArray(ex.answer) ? ex.answer.join(" ") : (ex.answer || ex.native || "");
         const ask = ex.question || ex.prompt || ex.native || "";
-        if (!session.missedList.some(m => m.ask === ask)) session.missedList.push({ ask, corr, say: targetLangText(ex) });
+        if (!session.missedList.some(m => m.ask === ask)) session.missedList.push({ ask, corr, say: targetLangText(ex), gid: ex._gid, synthetic: !!ex._synthetic });
       }
       if (!ex._synthetic && !progress.missedBank.includes(ex._gid)) {
         progress.missedBank.push(ex._gid);
@@ -3940,6 +3975,7 @@
         ${(session.missedList || []).length ? `
           <details class="summary-mistakes">
             <summary>Review your mistakes (${session.missedList.length})</summary>
+            <button class="btn btn-block recap-practice" id="recapPractice">Practice these now</button>
             ${session.missedList.map((m, i) => `<div class="sm-row"><button class="sm-say" data-i="${i}" aria-label="Play">${ICON_SPEAKER}</button><div><span class="sm-ask" dir="auto">${m.ask}</span><span class="sm-corr" dir="auto">${m.corr}</span></div></div>`).join("")}
           </details>` : ""}
         ${sealEarned ? `<div class="summary-seal">${PATH_SEAL}<div><b>Chapter seal earned</b><span>${sealEarned} — every lesson complete</span></div></div>` : ""}
@@ -3954,6 +3990,19 @@
     animateCountUps(screenEl);
     if (!sealEarned && !(session.mode === "jump" && jumpPassed)) setTimeout(playFinishSound, 150);
     const missed = session.missedList || [];
+    const rp = document.getElementById("recapPractice");
+    if (rp) rp.addEventListener("click", () => {
+      const items = missed.filter(m => m.gid && exerciseIndex.get(m.gid));
+      if (!items.length) return;
+      cancelAdvance();
+      session = {
+        lesson: { id: "__revision__", title: "Mistake drill", titleNative: "" },
+        mode: "mistakes",
+        queue: items.map((m, i) => { const e = exerciseIndex.get(m.gid); return buildQueueItem(e.exercise, m.gid, i, e.lesson); }),
+        total: items.length, solved: new Set(), mistakes: 0, combo: 0, startedAt: Date.now(),
+      };
+      renderExercise();
+    });
     screenEl.querySelectorAll(".sm-say").forEach(b => b.addEventListener("click", () => {
       const m = missed[+b.dataset.i]; if (!m || !m.say) return; const sp = resolveSpeech(false, m.say, null); if (sp) speak(sp.text, sp.voice);
     }));

@@ -3633,3 +3633,24 @@ body.in-lesson .unit-bar { display: none; }
 .remind-btn { background: var(--paper-raised); color: var(--primary); border: 2px solid var(--line); border-radius: var(--r-md); box-shadow: 0 4px 0 var(--line); font-weight: 800; letter-spacing: 0.04em; text-transform: uppercase; }
 .remind-btn.on { color: var(--teal); border-color: color-mix(in srgb, var(--teal) 50%, var(--line)); }
 .legendary-step { margin-top: -4px; }
+
+/* ===== round 3: XP chart, recap drill, unit progress, purple hub card ===== */
+.xp-chart { margin-top: 12px; background: var(--paper-raised); border: 2px solid var(--line); border-radius: var(--r-md); padding: 12px 14px; box-shadow: 0 3px 0 var(--line); }
+.xp-chart-head { display: flex; align-items: baseline; gap: 8px; margin-bottom: 8px; }
+.xp-chart-head b { font-family: var(--font-display); font-size: 1.15rem; color: var(--ink); }
+.xp-chart-head span { color: var(--ink-soft); font-size: 0.85rem; font-weight: 700; }
+.xp-bars { position: relative; display: grid; grid-template-columns: repeat(7, 1fr); gap: 8px; height: 120px; align-items: end; padding-bottom: 20px; }
+.xp-goal-line { position: absolute; left: 0; right: 0; border-top: 2px dashed color-mix(in srgb, var(--gold-bright) 70%, transparent); margin-bottom: 20px; pointer-events: none; }
+.xp-col { position: relative; height: 100%; display: flex; flex-direction: column; justify-content: flex-end; align-items: center; }
+.xp-bar { width: 100%; max-width: 30px; border-radius: 8px 8px 3px 3px; background: color-mix(in srgb, var(--primary) 35%, var(--paper-deep)); }
+.xp-bar.met { background: var(--gold-bright); box-shadow: inset 0 -4px 0 var(--gold); }
+.xp-col.today .xp-bar { outline: 2px solid var(--primary); outline-offset: 1px; }
+.xp-val { font-size: 0.7rem; font-weight: 800; color: var(--ink-soft); margin-bottom: 2px; min-height: 1em; }
+.xp-day { position: absolute; bottom: -20px; font-size: 0.75rem; font-weight: 800; color: var(--ink-soft); }
+.xp-col.today .xp-day { color: var(--primary); }
+.recap-practice { margin: 8px 0 4px; background: var(--paper-deep); color: var(--primary); border: 2px solid var(--line); box-shadow: 0 3px 0 var(--line); font-weight: 800; }
+.unit-bar-prog { display: block; width: 120px; max-width: 40vw; height: 6px; margin-top: 4px; border-radius: 999px; background: rgba(255, 250, 241, 0.3); overflow: hidden; }
+.unit-bar-prog span { display: block; height: 100%; background: #fffaf1; border-radius: 999px; transition: width 0.3s; }
+.hub-card.purple { --hc: #7b4fc4; --hcd: #55348c; }
+.profile-actions .find-level { grid-column: 1 / -1; }
+.story-listen { margin: 8px auto 4px; }
